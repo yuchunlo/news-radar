@@ -1,122 +1,8 @@
 {
-  "generated_at": "2026-06-15T17:51:30.310562Z",
+  "generated_at": "2026-06-15T20:38:35.495033Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
-    {
-      "story_id": "story_7783380316ff",
-      "title": "Salesforce 以 $3.6B 收購 Fin（前身為 Intercom） / Salesforce to Acquire Fin (formerly Intercom) for $3.6B",
-      "url": "https://news.ycombinator.com/item?id=48540126",
-      "primary_url": "https://news.ycombinator.com/item?id=48540126",
-      "source": "hackernews",
-      "source_name": "NewsNow",
-      "sources": [
-        {
-          "id": "31fdc5cc7d808b1ab27948dc20608cb1670fc5e9",
-          "title": "Salesforce 以 $3.6B 收購 Fin（前身為 Intercom） / Salesforce to Acquire Fin (formerly Intercom) for $3.6B",
-          "url": "https://news.ycombinator.com/item?id=48540126",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-15T17:51:54.299000Z"
-        },
-        {
-          "id": "a4983428817ecfe67f911ed56f0381572c910af0",
-          "title": "Salesforce将以36亿美元收购Fin（原Intercom）",
-          "url": "https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin/?bc=HL",
-          "source": "www.salesforce.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T14:05:22.307000Z"
-        },
-        {
-          "id": "823145bd509f014fbbd1e47fa4d65235a129be71",
-          "title": "Salesforce 將以 36 億美元收購 Fin（前身為 Intercom） / Salesforce to Acquire Fin (formerly Intercom) for $3.6BN",
-          "url": "https://news.ycombinator.com/item?id=48540126",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-15T13:48:53Z"
-        },
-        {
-          "id": "cdaa5457db2ac55030686acea8354bb0be29183c",
-          "title": "Salesforce将以36亿美元收购Fin（原Intercom） / Salesforce to Acquire Fin (formerly Intercom) for $3.6B",
-          "url": "https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin/?bc=HL",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-15T12:08:59Z"
-        }
-      ],
-      "source_count": 4,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "hackernews",
-        "www.salesforce.com"
-      ],
-      "items": [
-        {
-          "id": "31fdc5cc7d808b1ab27948dc20608cb1670fc5e9",
-          "title": "Salesforce 以 $3.6B 收購 Fin（前身為 Intercom） / Salesforce to Acquire Fin (formerly Intercom) for $3.6B",
-          "url": "https://news.ycombinator.com/item?id=48540126",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-15T17:51:54.299000Z"
-        },
-        {
-          "id": "a4983428817ecfe67f911ed56f0381572c910af0",
-          "title": "Salesforce将以36亿美元收购Fin（原Intercom）",
-          "url": "https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin/?bc=HL",
-          "source": "www.salesforce.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T14:05:22.307000Z"
-        },
-        {
-          "id": "823145bd509f014fbbd1e47fa4d65235a129be71",
-          "title": "Salesforce 將以 36 億美元收購 Fin（前身為 Intercom） / Salesforce to Acquire Fin (formerly Intercom) for $3.6BN",
-          "url": "https://news.ycombinator.com/item?id=48540126",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-15T13:48:53Z"
-        },
-        {
-          "id": "cdaa5457db2ac55030686acea8354bb0be29183c",
-          "title": "Salesforce将以36亿美元收购Fin（原Intercom） / Salesforce to Acquire Fin (formerly Intercom) for $3.6B",
-          "url": "https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin/?bc=HL",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-15T12:08:59Z"
-        }
-      ],
-      "item_count": 4,
-      "duplicate_count": 4,
-      "score": 0.61,
-      "importance": 0.61,
-      "importance_score": 0.61,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 1.0,
-        "story_heat": 0.75
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T12:08:59Z",
-      "latest_at": "2026-06-15T17:51:54.299000Z",
-      "primary_item": {
-        "id": "31fdc5cc7d808b1ab27948dc20608cb1670fc5e9",
-        "title": "Salesforce 以 $3.6B 收購 Fin（前身為 Intercom） / Salesforce to Acquire Fin (formerly Intercom) for $3.6B",
-        "url": "https://news.ycombinator.com/item?id=48540126",
-        "source": "hackernews",
-        "source_name": "NewsNow"
-      }
-    },
     {
       "story_id": "story_774f7412d1a3",
       "title": "王室：哈利王子的秘密使命 / Famille Royale : la mission secrète du Prince Harry",
@@ -227,13 +113,13 @@
       ],
       "item_count": 5,
       "duplicate_count": 5,
-      "score": 0.6081,
-      "importance": 0.6081,
-      "importance_score": 0.6081,
+      "score": 0.5733,
+      "importance": 0.5733,
+      "importance_score": 0.5733,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.9436,
+        "recency": 0.8275,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -251,78 +137,407 @@
       }
     },
     {
-      "story_id": "story_fea9b244676d",
-      "title": "書呆子怎麼了？ / What happened to nerds?",
-      "url": "https://news.ycombinator.com/item?id=48538229",
-      "primary_url": "https://news.ycombinator.com/item?id=48538229",
+      "story_id": "story_c5321d4002b7",
+      "title": "据消息人士透露，英伟达将通过五年来的首次企业债券发行筹集250亿美元",
+      "url": "https://www.reuters.com/business/finance/nvidia-raise-20-billion-source-says-first-corporate-bond-issuance-five-years-2026-06-15",
+      "primary_url": "https://www.reuters.com/business/finance/nvidia-raise-20-billion-source-says-first-corporate-bond-issuance-five-years-2026-06-15",
+      "source": "www.reuters.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "0af08aa880898c59125bcacab810822e5eb31af7",
+          "title": "据消息人士透露，英伟达将通过五年来的首次企业债券发行筹集250亿美元",
+          "url": "https://www.reuters.com/business/finance/nvidia-raise-20-billion-source-says-first-corporate-bond-issuance-five-years-2026-06-15",
+          "source": "www.reuters.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T20:13:16.406000Z"
+        },
+        {
+          "id": "550a7f526a2ae965097f99bbed7e3bf2b8c2ca41",
+          "title": "消息人士称，英伟达将通过五年来的首次企业债券发行筹集200亿美元 - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOb3J6OUR4dG9YbWJEWmwzYkQ1SVpMOHFiQU9PMmYweDJ6N0R0dUhmNmt6THBkdlFxMHhUcDA1OFFwSktsNUQ4c3N2WW9ZU0J1YTZHYk95RVc0c25mV3Bqd0kyVEJNMUQ1U2FvSUt4Z1N2a1BMTXJJRHRyWnJRV2J4cGY4NktrTVgzdHVQWXBGZ3hDSnAzb3RJR0FWUXRjUEdkejJXMTh3dWhINWFrQ3RtMmxINTVrOERqVGctZXJCVF9RRDd2OEtWdg?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+          "source": "news.google.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T17:33:16.181000Z"
+        },
+        {
+          "id": "6ae75ee73e7fc27f828d24048884aa82b24e9f6f",
+          "title": "消息人士称，英伟达将通过五年来的首次企业债券发行筹集200亿美元",
+          "url": "https://reut.rs/4org7X8",
+          "source": "reut.rs",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T16:45:24.673000Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "news.google.com",
+        "reut.rs",
+        "www.reuters.com"
+      ],
+      "items": [
+        {
+          "id": "0af08aa880898c59125bcacab810822e5eb31af7",
+          "title": "据消息人士透露，英伟达将通过五年来的首次企业债券发行筹集250亿美元",
+          "url": "https://www.reuters.com/business/finance/nvidia-raise-20-billion-source-says-first-corporate-bond-issuance-five-years-2026-06-15",
+          "source": "www.reuters.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T20:13:16.406000Z"
+        },
+        {
+          "id": "550a7f526a2ae965097f99bbed7e3bf2b8c2ca41",
+          "title": "消息人士称，英伟达将通过五年来的首次企业债券发行筹集200亿美元 - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOb3J6OUR4dG9YbWJEWmwzYkQ1SVpMOHFiQU9PMmYweDJ6N0R0dUhmNmt6THBkdlFxMHhUcDA1OFFwSktsNUQ4c3N2WW9ZU0J1YTZHYk95RVc0c25mV3Bqd0kyVEJNMUQ1U2FvSUt4Z1N2a1BMTXJJRHRyWnJRV2J4cGY4NktrTVgzdHVQWXBGZ3hDSnAzb3RJR0FWUXRjUEdkejJXMTh3dWhINWFrQ3RtMmxINTVrOERqVGctZXJCVF9RRDd2OEtWdg?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+          "source": "news.google.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T17:33:16.181000Z"
+        },
+        {
+          "id": "6ae75ee73e7fc27f828d24048884aa82b24e9f6f",
+          "title": "消息人士称，英伟达将通过五年来的首次企业债券发行筹集200亿美元",
+          "url": "https://reut.rs/4org7X8",
+          "source": "reut.rs",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T16:45:24.673000Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5547,
+      "importance": 0.5547,
+      "importance_score": 0.5547,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "source_tier": 0.32,
+        "recency": 0.9824,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-15T16:45:24.673000Z",
+      "latest_at": "2026-06-15T20:13:16.406000Z",
+      "primary_item": {
+        "id": "0af08aa880898c59125bcacab810822e5eb31af7",
+        "title": "据消息人士透露，英伟达将通过五年来的首次企业债券发行筹集250亿美元",
+        "url": "https://www.reuters.com/business/finance/nvidia-raise-20-billion-source-says-first-corporate-bond-issuance-five-years-2026-06-15",
+        "source": "www.reuters.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_d944d8d60fea",
+      "title": "美伊协议推动油价下跌，股市上涨：市场综述",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-14/us-futures-climb-oil-falls-on-iran-peace-deal-markets-wrap",
+      "primary_url": "https://www.bloomberg.com/news/articles/2026-06-14/us-futures-climb-oil-falls-on-iran-peace-deal-markets-wrap",
+      "source": "www.bloomberg.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "3bc4deb68fc320c88ea6adcb474c46e8275a0c6d",
+          "title": "美伊协议推动油价下跌，股市上涨：市场综述",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-14/us-futures-climb-oil-falls-on-iran-peace-deal-markets-wrap",
+          "source": "www.bloomberg.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T20:13:16.333000Z"
+        },
+        {
+          "id": "02f017f992b96592a865b565afb02c46bf85e389",
+          "title": "标普500指数有望创下4月以来最大单日涨幅，油价下跌：市场综述",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-14/us-futures-climb-oil-falls-on-iran-peace-deal-markets-wrap",
+          "source": "www.bloomberg.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T16:13:15.221000Z"
+        },
+        {
+          "id": "f022aa428e079f7169ae408bad0f4569c95d452d",
+          "title": "美伊协议拖累油价，股市随债券同步走高：市场综述",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-14/us-futures-climb-oil-falls-on-iran-peace-deal-markets-wrap",
+          "source": "www.bloomberg.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T13:33:26.791000Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "www.bloomberg.com"
+      ],
+      "items": [
+        {
+          "id": "3bc4deb68fc320c88ea6adcb474c46e8275a0c6d",
+          "title": "美伊协议推动油价下跌，股市上涨：市场综述",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-14/us-futures-climb-oil-falls-on-iran-peace-deal-markets-wrap",
+          "source": "www.bloomberg.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T20:13:16.333000Z"
+        },
+        {
+          "id": "02f017f992b96592a865b565afb02c46bf85e389",
+          "title": "标普500指数有望创下4月以来最大单日涨幅，油价下跌：市场综述",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-14/us-futures-climb-oil-falls-on-iran-peace-deal-markets-wrap",
+          "source": "www.bloomberg.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T16:13:15.221000Z"
+        },
+        {
+          "id": "f022aa428e079f7169ae408bad0f4569c95d452d",
+          "title": "美伊协议拖累油价，股市随债券同步走高：市场综述",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-14/us-futures-climb-oil-falls-on-iran-peace-deal-markets-wrap",
+          "source": "www.bloomberg.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T13:33:26.791000Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5547,
+      "importance": 0.5547,
+      "importance_score": 0.5547,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "source_tier": 0.32,
+        "recency": 0.9824,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-15T13:33:26.791000Z",
+      "latest_at": "2026-06-15T20:13:16.333000Z",
+      "primary_item": {
+        "id": "3bc4deb68fc320c88ea6adcb474c46e8275a0c6d",
+        "title": "美伊协议推动油价下跌，股市上涨：市场综述",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-14/us-futures-climb-oil-falls-on-iran-peace-deal-markets-wrap",
+        "source": "www.bloomberg.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_77f105a7b827",
+      "title": "我的家庭实验室 AI 开发平台",
+      "url": "https://rsgm.dev/post/ai-dev-platform",
+      "primary_url": "https://rsgm.dev/post/ai-dev-platform",
+      "source": "rsgm.dev",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "7e9fb68f307ac599c33f5dadccbb886b63603992",
+          "title": "我的家庭实验室 AI 开发平台",
+          "url": "https://rsgm.dev/post/ai-dev-platform",
+          "source": "rsgm.dev",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T18:37:09.280000Z"
+        },
+        {
+          "id": "7a62214457b915bd92a267fdb86594ca5e9f707d",
+          "title": "我的 Homelab 人工智慧開發平台 / My Homelab AI Dev Platform",
+          "url": "https://news.ycombinator.com/item?id=48542433",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-15T16:49:26.851000Z"
+        },
+        {
+          "id": "d67df7fef2ae1e2674f18918abfbb54301e608b2",
+          "title": "我的家庭实验室 AI 开发平台 / My Homelab AI Dev Platform",
+          "url": "https://rsgm.dev/post/ai-dev-platform",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-15T15:09:40Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "hackernews",
+        "rsgm.dev"
+      ],
+      "items": [
+        {
+          "id": "7e9fb68f307ac599c33f5dadccbb886b63603992",
+          "title": "我的家庭实验室 AI 开发平台",
+          "url": "https://rsgm.dev/post/ai-dev-platform",
+          "source": "rsgm.dev",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T18:37:09.280000Z"
+        },
+        {
+          "id": "7a62214457b915bd92a267fdb86594ca5e9f707d",
+          "title": "我的 Homelab 人工智慧開發平台 / My Homelab AI Dev Platform",
+          "url": "https://news.ycombinator.com/item?id=48542433",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-15T16:49:26.851000Z"
+        },
+        {
+          "id": "d67df7fef2ae1e2674f18918abfbb54301e608b2",
+          "title": "我的家庭实验室 AI 开发平台 / My Homelab AI Dev Platform",
+          "url": "https://rsgm.dev/post/ai-dev-platform",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-15T15:09:40Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5347,
+      "importance": 0.5347,
+      "importance_score": 0.5347,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "source_tier": 0.32,
+        "recency": 0.9157,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-15T15:09:40Z",
+      "latest_at": "2026-06-15T18:37:09.280000Z",
+      "primary_item": {
+        "id": "7e9fb68f307ac599c33f5dadccbb886b63603992",
+        "title": "我的家庭实验室 AI 开发平台",
+        "url": "https://rsgm.dev/post/ai-dev-platform",
+        "source": "rsgm.dev",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_41db980d34cc",
+      "title": "TinyWind：具有真實風物理原理的像素海盜航海遊戲（航行超過 38 萬公里） / TinyWind: A pixel pirate sailing game with real wind physics (380k+ kms sailed)",
+      "url": "https://news.ycombinator.com/item?id=48543475",
+      "primary_url": "https://news.ycombinator.com/item?id=48543475",
       "source": "hackernews",
       "source_name": "NewsNow",
       "sources": [
         {
-          "id": "42b1d2959c90dd148b47953fbc06281cd7095412",
-          "title": "書呆子怎麼了？ / What happened to nerds?",
-          "url": "https://news.ycombinator.com/item?id=48538229",
+          "id": "a8ad843476ca6a5c427d15781fd29a6b7cc63789",
+          "title": "TinyWind：具有真實風物理原理的像素海盜航海遊戲（航行超過 38 萬公里） / TinyWind: A pixel pirate sailing game with real wind physics (380k+ kms sailed)",
+          "url": "https://news.ycombinator.com/item?id=48543475",
           "source": "hackernews",
           "source_name": "NewsNow",
           "site_id": "newsnow",
           "published_at": "2026-06-15T17:51:54.299000Z"
         },
         {
-          "id": "0ce43f65b5d84a63e10a1bdde04e552665f266e8",
-          "title": "書呆子到底發生了什麼 / What the Fuck Happened to Nerds",
-          "url": "https://news.ycombinator.com/item?id=48538229",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-15T13:48:53Z"
+          "id": "c70d0fc29b014ef4cbf32555baa936209a0c11ab",
+          "title": "TinyWind：一款拥有真实风力物理效果的像素海盗航海游戏（航行里程已超38万公里）",
+          "url": "https://tinywind.io",
+          "source": "tinywind.io",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T17:49:18.191000Z"
         },
         {
-          "id": "33d50796563cd8700bf63f6f9f135dc67934ef97",
-          "title": "書呆子怎麼了？ / What happened to nerds?",
-          "url": "https://mrmarket.lol/what-the-fuck-happened-to-nerds",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-15T08:23:52Z"
-        },
-        {
-          "id": "6f33b6e3e8573631adac1ab82b53888b2ddaa6e9",
-          "title": "書呆子到底發生了什麼 / What the Fuck Happened to Nerds",
-          "url": "https://mrmarket.lol/what-the-fuck-happened-to-nerds",
+          "id": "e61c143f6246a0812693f15b193046af7a047d07",
+          "title": "TinyWind：一款拥有真实风力物理效果的像素海盗航海游戏（航行里程已超38万公里） / TinyWind: A pixel pirate sailing game with real wind physics (380k+ kms sailed)",
+          "url": "https://tinywind.io",
           "source": "Hacker News",
           "source_name": "TechURLs",
           "site_id": "techurls",
-          "published_at": "2026-06-15T08:23:52Z"
+          "published_at": "2026-06-15T16:15:53Z"
         }
       ],
-      "source_count": 4,
+      "source_count": 3,
       "source_names": [
         "Hacker News",
-        "Hacker News · 24h最热",
-        "hackernews"
+        "hackernews",
+        "tinywind.io"
       ],
       "items": [
         {
-          "id": "42b1d2959c90dd148b47953fbc06281cd7095412",
-          "title": "書呆子怎麼了？ / What happened to nerds?",
-          "url": "https://news.ycombinator.com/item?id=48538229",
+          "id": "a8ad843476ca6a5c427d15781fd29a6b7cc63789",
+          "title": "TinyWind：具有真實風物理原理的像素海盜航海遊戲（航行超過 38 萬公里） / TinyWind: A pixel pirate sailing game with real wind physics (380k+ kms sailed)",
+          "url": "https://news.ycombinator.com/item?id=48543475",
           "source": "hackernews",
           "source_name": "NewsNow",
           "site_id": "newsnow",
           "published_at": "2026-06-15T17:51:54.299000Z"
         },
         {
-          "id": "0ce43f65b5d84a63e10a1bdde04e552665f266e8",
-          "title": "書呆子到底發生了什麼 / What the Fuck Happened to Nerds",
-          "url": "https://news.ycombinator.com/item?id=48538229",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-15T13:48:53Z"
+          "id": "c70d0fc29b014ef4cbf32555baa936209a0c11ab",
+          "title": "TinyWind：一款拥有真实风力物理效果的像素海盗航海游戏（航行里程已超38万公里）",
+          "url": "https://tinywind.io",
+          "source": "tinywind.io",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T17:49:18.191000Z"
+        },
+        {
+          "id": "e61c143f6246a0812693f15b193046af7a047d07",
+          "title": "TinyWind：一款拥有真实风力物理效果的像素海盗航海游戏（航行里程已超38万公里） / TinyWind: A pixel pirate sailing game with real wind physics (380k+ kms sailed)",
+          "url": "https://tinywind.io",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-15T16:15:53Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5253,
+      "importance": 0.5253,
+      "importance_score": 0.5253,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "source_tier": 0.32,
+        "recency": 0.8842,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-15T16:15:53Z",
+      "latest_at": "2026-06-15T17:51:54.299000Z",
+      "primary_item": {
+        "id": "a8ad843476ca6a5c427d15781fd29a6b7cc63789",
+        "title": "TinyWind：具有真實風物理原理的像素海盜航海遊戲（航行超過 38 萬公里） / TinyWind: A pixel pirate sailing game with real wind physics (380k+ kms sailed)",
+        "url": "https://news.ycombinator.com/item?id=48543475",
+        "source": "hackernews",
+        "source_name": "NewsNow"
+      }
+    },
+    {
+      "story_id": "story_fea9b244676d",
+      "title": "书呆子们怎么了？",
+      "url": "https://mrmarket.lol/what-the-fuck-happened-to-nerds",
+      "primary_url": "https://mrmarket.lol/what-the-fuck-happened-to-nerds",
+      "source": "mrmarket.lol",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "d5b64a5cf59f8e9af4a51fa0bc636a03e752af7d",
+          "title": "书呆子们怎么了？",
+          "url": "https://mrmarket.lol/what-the-fuck-happened-to-nerds",
+          "source": "mrmarket.lol",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T17:49:18.028000Z"
         },
         {
           "id": "33d50796563cd8700bf63f6f9f135dc67934ef97",
-          "title": "書呆子怎麼了？ / What happened to nerds?",
+          "title": "书呆子们怎么了？ / What happened to nerds?",
           "url": "https://mrmarket.lol/what-the-fuck-happened-to-nerds",
           "source": "Hacker News · 24h最热",
           "source_name": "Zeli",
@@ -331,7 +546,7 @@
         },
         {
           "id": "6f33b6e3e8573631adac1ab82b53888b2ddaa6e9",
-          "title": "書呆子到底發生了什麼 / What the Fuck Happened to Nerds",
+          "title": "书呆子们怎么了？ / What the Fuck Happened to Nerds",
           "url": "https://mrmarket.lol/what-the-fuck-happened-to-nerds",
           "source": "Hacker News",
           "source_name": "TechURLs",
@@ -339,29 +554,64 @@
           "published_at": "2026-06-15T08:23:52Z"
         }
       ],
-      "item_count": 4,
-      "duplicate_count": 4,
-      "score": 0.61,
-      "importance": 0.61,
-      "importance_score": 0.61,
+      "source_count": 3,
+      "source_names": [
+        "Hacker News",
+        "Hacker News · 24h最热",
+        "mrmarket.lol"
+      ],
+      "items": [
+        {
+          "id": "d5b64a5cf59f8e9af4a51fa0bc636a03e752af7d",
+          "title": "书呆子们怎么了？",
+          "url": "https://mrmarket.lol/what-the-fuck-happened-to-nerds",
+          "source": "mrmarket.lol",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T17:49:18.028000Z"
+        },
+        {
+          "id": "33d50796563cd8700bf63f6f9f135dc67934ef97",
+          "title": "书呆子们怎么了？ / What happened to nerds?",
+          "url": "https://mrmarket.lol/what-the-fuck-happened-to-nerds",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-15T08:23:52Z"
+        },
+        {
+          "id": "6f33b6e3e8573631adac1ab82b53888b2ddaa6e9",
+          "title": "书呆子们怎么了？ / What the Fuck Happened to Nerds",
+          "url": "https://mrmarket.lol/what-the-fuck-happened-to-nerds",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-15T08:23:52Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5247,
+      "importance": 0.5247,
+      "importance_score": 0.5247,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.32,
-        "recency": 1.0,
-        "story_heat": 0.75
+        "recency": 0.8824,
+        "story_heat": 0.5
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
       "earliest_at": "2026-06-15T08:23:52Z",
-      "latest_at": "2026-06-15T17:51:54.299000Z",
+      "latest_at": "2026-06-15T17:49:18.028000Z",
       "primary_item": {
-        "id": "42b1d2959c90dd148b47953fbc06281cd7095412",
-        "title": "書呆子怎麼了？ / What happened to nerds?",
-        "url": "https://news.ycombinator.com/item?id=48538229",
-        "source": "hackernews",
-        "source_name": "NewsNow"
+        "id": "d5b64a5cf59f8e9af4a51fa0bc636a03e752af7d",
+        "title": "书呆子们怎么了？",
+        "url": "https://mrmarket.lol/what-the-fuck-happened-to-nerds",
+        "source": "mrmarket.lol",
+        "source_name": "Buzzing"
       }
     },
     {
@@ -437,13 +687,13 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5529,
-      "importance": 0.5529,
-      "importance_score": 0.5529,
+      "score": 0.5181,
+      "importance": 0.5181,
+      "importance_score": 0.5181,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.32,
-        "recency": 0.9763,
+        "recency": 0.8602,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -533,13 +783,13 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5495,
-      "importance": 0.5495,
-      "importance_score": 0.5495,
+      "score": 0.5147,
+      "importance": 0.5147,
+      "importance_score": 0.5147,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.32,
-        "recency": 0.9651,
+        "recency": 0.8491,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -628,13 +878,13 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5462,
-      "importance": 0.5462,
-      "importance_score": 0.5462,
+      "score": 0.5114,
+      "importance": 0.5114,
+      "importance_score": 0.5114,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.32,
-        "recency": 0.9541,
+        "recency": 0.8381,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -648,6 +898,236 @@
         "title": "CrankGPT — 基于本地人力支持的人工智能",
         "url": "https://crankgpt.com",
         "source": "crankgpt.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_93ed61a9bf4d",
+      "title": "特朗普最近的侮辱言论充分表明，他与七国集团领导人的关系已变得多么紧张 - CNN",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZ1FCdm9lLUsyVS1wcVVvWDM1UzBoOGpXYll1QjdhR2dfY0Q2V3pjVEpnWkVZV2hSU0hTTWJmSWdPWnh1Vi1UUV9iMzhOQkduU0dfTk1WQS13UEk1QWUtQklRQlM0b1ZXT0I4eG1PQVUySk0yQko0SWR1NHJvQmloUW5hMjhVcEJvdXJr?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+      "primary_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZ1FCdm9lLUsyVS1wcVVvWDM1UzBoOGpXYll1QjdhR2dfY0Q2V3pjVEpnWkVZV2hSU0hTTWJmSWdPWnh1Vi1UUV9iMzhOQkduU0dfTk1WQS13UEk1QWUtQklRQlM0b1ZXT0I4eG1PQVUySk0yQko0SWR1NHJvQmloUW5hMjhVcEJvdXJr?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+      "source": "news.google.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "bb22af6b5bc4aecf6c864dc34860723c6001c961",
+          "title": "特朗普最近的侮辱言论充分表明，他与七国集团领导人的关系已变得多么紧张 - CNN",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZ1FCdm9lLUsyVS1wcVVvWDM1UzBoOGpXYll1QjdhR2dfY0Q2V3pjVEpnWkVZV2hSU0hTTWJmSWdPWnh1Vi1UUV9iMzhOQkduU0dfTk1WQS13UEk1QWUtQklRQlM0b1ZXT0I4eG1PQVUySk0yQko0SWR1NHJvQmloUW5hMjhVcEJvdXJr?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+          "source": "news.google.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T20:29:15.248000Z"
+        },
+        {
+          "id": "655792d6ac179e60c7a551a2f6c3de4b09328a76",
+          "title": "特朗普最近的侮辱言论充分表明，他与七国集团领导人的关系已经变得多么紧张 - CNN",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZ1FCdm9lLUsyVS1wcVVvWDM1UzBoOGpXYll1QjdhR2dfY0Q2V3pjVEpnWkVZV2hSU0hTTWJmSWdPWnh1Vi1UUV9iMzhOQkduU0dfTk1WQS13UEk1QWUtQklRQlM0b1ZXT0I4eG1PQVUySk0yQko0SWR1NHJvQmloUW5hMjhVcEJvdXJr?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+          "source": "news.google.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T20:29:15.204000Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "news.google.com"
+      ],
+      "items": [
+        {
+          "id": "bb22af6b5bc4aecf6c864dc34860723c6001c961",
+          "title": "特朗普最近的侮辱言论充分表明，他与七国集团领导人的关系已变得多么紧张 - CNN",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZ1FCdm9lLUsyVS1wcVVvWDM1UzBoOGpXYll1QjdhR2dfY0Q2V3pjVEpnWkVZV2hSU0hTTWJmSWdPWnh1Vi1UUV9iMzhOQkduU0dfTk1WQS13UEk1QWUtQklRQlM0b1ZXT0I4eG1PQVUySk0yQko0SWR1NHJvQmloUW5hMjhVcEJvdXJr?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+          "source": "news.google.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T20:29:15.248000Z"
+        },
+        {
+          "id": "655792d6ac179e60c7a551a2f6c3de4b09328a76",
+          "title": "特朗普最近的侮辱言论充分表明，他与七国集团领导人的关系已经变得多么紧张 - CNN",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZ1FCdm9lLUsyVS1wcVVvWDM1UzBoOGpXYll1QjdhR2dfY0Q2V3pjVEpnWkVZV2hSU0hTTWJmSWdPWnh1Vi1UUV9iMzhOQkduU0dfTk1WQS13UEk1QWUtQklRQlM0b1ZXT0I4eG1PQVUySk0yQko0SWR1NHJvQmloUW5hMjhVcEJvdXJr?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+          "source": "news.google.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T20:29:15.204000Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5081,
+      "importance": 0.5081,
+      "importance_score": 0.5081,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.32,
+        "recency": 0.9935,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-15T20:29:15.204000Z",
+      "latest_at": "2026-06-15T20:29:15.248000Z",
+      "primary_item": {
+        "id": "bb22af6b5bc4aecf6c864dc34860723c6001c961",
+        "title": "特朗普最近的侮辱言论充分表明，他与七国集团领导人的关系已变得多么紧张 - CNN",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZ1FCdm9lLUsyVS1wcVVvWDM1UzBoOGpXYll1QjdhR2dfY0Q2V3pjVEpnWkVZV2hSU0hTTWJmSWdPWnh1Vi1UUV9iMzhOQkduU0dfTk1WQS13UEk1QWUtQklRQlM0b1ZXT0I4eG1PQVUySk0yQko0SWR1NHJvQmloUW5hMjhVcEJvdXJr?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+        "source": "news.google.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_65fddfc657b1",
+      "title": "肯德基最大的竞争对手不是Popeyes或Raising Cane''s——而是你的TikTok信息流",
+      "url": "https://www.businessinsider.com/kfc-colonel-rebrand-modernize-menu-strategy-restaurant-redesign-glow-up-2026-6",
+      "primary_url": "https://www.businessinsider.com/kfc-colonel-rebrand-modernize-menu-strategy-restaurant-redesign-glow-up-2026-6",
+      "source": "www.businessinsider.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "2b4fc116043e1c8e89199618bb39d6271b50e0fd",
+          "title": "肯德基最大的竞争对手不是Popeyes或Raising Cane''s——而是你的TikTok信息流",
+          "url": "https://www.businessinsider.com/kfc-colonel-rebrand-modernize-menu-strategy-restaurant-redesign-glow-up-2026-6",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T20:29:15.255000Z"
+        },
+        {
+          "id": "41440b0bb985b5c7a1e46f0734ae2d1d62889e61",
+          "title": "肯德基最大的竞争对手不是Popeyes或Raising Cane''s——而是你的TikTok信息流 / KFC's Colonel is getting a glow-up",
+          "url": "https://www.businessinsider.com/kfc-colonel-rebrand-modernize-menu-strategy-restaurant-redesign-glow-up-2026-6",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-15T11:00:01Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Business Insider",
+        "www.businessinsider.com"
+      ],
+      "items": [
+        {
+          "id": "2b4fc116043e1c8e89199618bb39d6271b50e0fd",
+          "title": "肯德基最大的竞争对手不是Popeyes或Raising Cane''s——而是你的TikTok信息流",
+          "url": "https://www.businessinsider.com/kfc-colonel-rebrand-modernize-menu-strategy-restaurant-redesign-glow-up-2026-6",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T20:29:15.255000Z"
+        },
+        {
+          "id": "41440b0bb985b5c7a1e46f0734ae2d1d62889e61",
+          "title": "肯德基最大的竞争对手不是Popeyes或Raising Cane''s——而是你的TikTok信息流 / KFC's Colonel is getting a glow-up",
+          "url": "https://www.businessinsider.com/kfc-colonel-rebrand-modernize-menu-strategy-restaurant-redesign-glow-up-2026-6",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-15T11:00:01Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5081,
+      "importance": 0.5081,
+      "importance_score": 0.5081,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.32,
+        "recency": 0.9935,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-15T11:00:01Z",
+      "latest_at": "2026-06-15T20:29:15.255000Z",
+      "primary_item": {
+        "id": "2b4fc116043e1c8e89199618bb39d6271b50e0fd",
+        "title": "肯德基最大的竞争对手不是Popeyes或Raising Cane''s——而是你的TikTok信息流",
+        "url": "https://www.businessinsider.com/kfc-colonel-rebrand-modernize-menu-strategy-restaurant-redesign-glow-up-2026-6",
+        "source": "www.businessinsider.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_cd8192056198",
+      "title": "英国将禁止16岁以下儿童使用社交媒体，并可能实施夜间禁令",
+      "url": "https://arstechnica.com/tech-policy/2026/06/uk-to-ban-social-media-for-kids-under-16-may-impose-overnight-curfews",
+      "primary_url": "https://arstechnica.com/tech-policy/2026/06/uk-to-ban-social-media-for-kids-under-16-may-impose-overnight-curfews",
+      "source": "arstechnica.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "71573c6bd0e44990f5222db23c2afc84cb2f9812",
+          "title": "英国将禁止16岁以下儿童使用社交媒体，并可能实施夜间禁令",
+          "url": "https://arstechnica.com/tech-policy/2026/06/uk-to-ban-social-media-for-kids-under-16-may-impose-overnight-curfews",
+          "source": "arstechnica.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T20:29:15.405000Z"
+        },
+        {
+          "id": "97f6fcec18a8e71580141a373750840228e381af",
+          "title": "英国将禁止16岁以下儿童使用社交媒体，并可能实施夜间禁令 / UK to ban social media for kids under 16, may impose overnight curfews",
+          "url": "https://arstechnica.com/tech-policy/2026/06/uk-to-ban-social-media-for-kids-under-16-may-impose-overnight-curfews",
+          "source": "Ars Technica",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-15T20:14:04Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Ars Technica",
+        "arstechnica.com"
+      ],
+      "items": [
+        {
+          "id": "71573c6bd0e44990f5222db23c2afc84cb2f9812",
+          "title": "英国将禁止16岁以下儿童使用社交媒体，并可能实施夜间禁令",
+          "url": "https://arstechnica.com/tech-policy/2026/06/uk-to-ban-social-media-for-kids-under-16-may-impose-overnight-curfews",
+          "source": "arstechnica.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T20:29:15.405000Z"
+        },
+        {
+          "id": "97f6fcec18a8e71580141a373750840228e381af",
+          "title": "英国将禁止16岁以下儿童使用社交媒体，并可能实施夜间禁令 / UK to ban social media for kids under 16, may impose overnight curfews",
+          "url": "https://arstechnica.com/tech-policy/2026/06/uk-to-ban-social-media-for-kids-under-16-may-impose-overnight-curfews",
+          "source": "Ars Technica",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-15T20:14:04Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5081,
+      "importance": 0.5081,
+      "importance_score": 0.5081,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.32,
+        "recency": 0.9935,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-15T20:14:04Z",
+      "latest_at": "2026-06-15T20:29:15.405000Z",
+      "primary_item": {
+        "id": "71573c6bd0e44990f5222db23c2afc84cb2f9812",
+        "title": "英国将禁止16岁以下儿童使用社交媒体，并可能实施夜间禁令",
+        "url": "https://arstechnica.com/tech-policy/2026/06/uk-to-ban-social-media-for-kids-under-16-may-impose-overnight-curfews",
+        "source": "arstechnica.com",
         "source_name": "Buzzing"
       }
     },
@@ -723,13 +1203,13 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5362,
-      "importance": 0.5362,
-      "importance_score": 0.5362,
+      "score": 0.5014,
+      "importance": 0.5014,
+      "importance_score": 0.5014,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.32,
-        "recency": 0.9207,
+        "recency": 0.8047,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -743,6 +1223,83 @@
         "title": "Iroh 1.0 - 拨号键，而非 IP 地址",
         "url": "https://www.iroh.computer/blog/v1",
         "source": "www.iroh.computer",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_59e62779aa7f",
+      "title": "wio：窗口化I/O",
+      "url": "https://github.com/ypsvlq/wio",
+      "primary_url": "https://github.com/ypsvlq/wio",
+      "source": "github.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "e9c08147ef7a7091881abb5ed94cb538be259ab1",
+          "title": "wio：窗口化I/O",
+          "url": "https://github.com/ypsvlq/wio",
+          "source": "github.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T19:57:10.365000Z"
+        },
+        {
+          "id": "feaaa451a29916a387112a7038b82aac9f75a111",
+          "title": "wio：窗口化I/O / wio: windowed i/o",
+          "url": "https://github.com/ypsvlq/wio",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-15T19:28:26Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Lobsters (技术社区)",
+        "github.com"
+      ],
+      "items": [
+        {
+          "id": "e9c08147ef7a7091881abb5ed94cb538be259ab1",
+          "title": "wio：窗口化I/O",
+          "url": "https://github.com/ypsvlq/wio",
+          "source": "github.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T19:57:10.365000Z"
+        },
+        {
+          "id": "feaaa451a29916a387112a7038b82aac9f75a111",
+          "title": "wio：窗口化I/O / wio: windowed i/o",
+          "url": "https://github.com/ypsvlq/wio",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-15T19:28:26Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5014,
+      "importance": 0.5014,
+      "importance_score": 0.5014,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.32,
+        "recency": 0.9712,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-15T19:28:26Z",
+      "latest_at": "2026-06-15T19:57:10.365000Z",
+      "primary_item": {
+        "id": "e9c08147ef7a7091881abb5ed94cb538be259ab1",
+        "title": "wio：窗口化I/O",
+        "url": "https://github.com/ypsvlq/wio",
+        "source": "github.com",
         "source_name": "Buzzing"
       }
     },
@@ -818,13 +1375,13 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5362,
-      "importance": 0.5362,
-      "importance_score": 0.5362,
+      "score": 0.5014,
+      "importance": 0.5014,
+      "importance_score": 0.5014,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.32,
-        "recency": 0.9207,
+        "recency": 0.8047,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -842,540 +1399,79 @@
       }
     },
     {
-      "story_id": "story_29794e0d1881",
-      "title": "本周看什么 | 最近值得一看的 10 部作品",
-      "url": "https://sspai.com/post/110992",
-      "primary_url": "https://sspai.com/post/110992",
-      "source": "sspai",
-      "source_name": "NewsNow",
-      "sources": [
-        {
-          "id": "8d8ac91ade863c0d847d684f3d22aba1c6d3cae7",
-          "title": "本周看什么 | 最近值得一看的 10 部作品",
-          "url": "https://sspai.com/post/110992",
-          "source": "sspai",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-15T17:51:54.299000Z"
-        },
-        {
-          "id": "51e32fecb3bc9b442744b0f2a298d58ae3b65681",
-          "title": "本周看什么 | 最近值得一看的 8 部作品",
-          "url": "https://sspai.com/post/110786",
-          "source": "sspai",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-15T13:20:24.423000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "sspai"
-      ],
-      "items": [
-        {
-          "id": "8d8ac91ade863c0d847d684f3d22aba1c6d3cae7",
-          "title": "本周看什么 | 最近值得一看的 10 部作品",
-          "url": "https://sspai.com/post/110992",
-          "source": "sspai",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-15T17:51:54.299000Z"
-        },
-        {
-          "id": "51e32fecb3bc9b442744b0f2a298d58ae3b65681",
-          "title": "本周看什么 | 最近值得一看的 8 部作品",
-          "url": "https://sspai.com/post/110786",
-          "source": "sspai",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-15T13:20:24.423000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.51,
-      "importance": 0.51,
-      "importance_score": 0.51,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 1.0,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T13:20:24.423000Z",
-      "latest_at": "2026-06-15T17:51:54.299000Z",
-      "primary_item": {
-        "id": "8d8ac91ade863c0d847d684f3d22aba1c6d3cae7",
-        "title": "本周看什么 | 最近值得一看的 10 部作品",
-        "url": "https://sspai.com/post/110992",
-        "source": "sspai",
-        "source_name": "NewsNow"
-      }
-    },
-    {
-      "story_id": "story_9bec20878948",
-      "title": "在中国“最宜居”的城市，舒适与限制并存",
-      "url": "https://econ.st/4vU5sHa",
-      "primary_url": "https://econ.st/4vU5sHa",
-      "source": "econ.st",
+      "story_id": "story_07b5cf100d93",
+      "title": "笔记本电脑上的 FreeBSD 15",
+      "url": "https://www.sacredheartsc.com/blog/freebsd-15-on-a-laptop",
+      "primary_url": "https://www.sacredheartsc.com/blog/freebsd-15-on-a-laptop",
+      "source": "www.sacredheartsc.com",
       "source_name": "Buzzing",
       "sources": [
         {
-          "id": "2c9792363be36e6ae44ed6cafa754bc1a4f991ae",
-          "title": "在中国“最宜居”的城市，舒适与限制并存",
-          "url": "https://econ.st/4vU5sHa",
-          "source": "econ.st",
+          "id": "1b143ae29ef17c207a8f26542e948e1c5ac3ffb3",
+          "title": "笔记本电脑上的 FreeBSD 15",
+          "url": "https://www.sacredheartsc.com/blog/freebsd-15-on-a-laptop",
+          "source": "www.sacredheartsc.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-06-15T17:33:16.177000Z"
+          "published_at": "2026-06-15T19:41:16.275000Z"
         },
         {
-          "id": "66fd85b4fc0f7e851836c359934df262ca30b37b",
-          "title": "在中国“最宜居”的城市，舒适与限制并存",
-          "url": "https://www.economist.com/china/2026/06/15/comfort-meets-constraint-in-chinas-most-liveable-city",
-          "source": "www.economist.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T16:45:24.824000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "econ.st",
-        "www.economist.com"
-      ],
-      "items": [
-        {
-          "id": "2c9792363be36e6ae44ed6cafa754bc1a4f991ae",
-          "title": "在中国“最宜居”的城市，舒适与限制并存",
-          "url": "https://econ.st/4vU5sHa",
-          "source": "econ.st",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T17:33:16.177000Z"
-        },
-        {
-          "id": "66fd85b4fc0f7e851836c359934df262ca30b37b",
-          "title": "在中国“最宜居”的城市，舒适与限制并存",
-          "url": "https://www.economist.com/china/2026/06/15/comfort-meets-constraint-in-chinas-most-liveable-city",
-          "source": "www.economist.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T16:45:24.824000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5062,
-      "importance": 0.5062,
-      "importance_score": 0.5062,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 0.9873,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T16:45:24.824000Z",
-      "latest_at": "2026-06-15T17:33:16.177000Z",
-      "primary_item": {
-        "id": "2c9792363be36e6ae44ed6cafa754bc1a4f991ae",
-        "title": "在中国“最宜居”的城市，舒适与限制并存",
-        "url": "https://econ.st/4vU5sHa",
-        "source": "econ.st",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_de66b77da874",
-      "title": "好消息——在太阳终结地球生命之前，我们还有些时间",
-      "url": "https://arstechnica.com/science/2026/06/good-news-we-have-extra-time-before-the-sun-ends-life-on-earth",
-      "primary_url": "https://arstechnica.com/science/2026/06/good-news-we-have-extra-time-before-the-sun-ends-life-on-earth",
-      "source": "arstechnica.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "846b99c29d8ff96d2e408d4874e02f125d77f6ea",
-          "title": "好消息——在太阳终结地球生命之前，我们还有些时间",
-          "url": "https://arstechnica.com/science/2026/06/good-news-we-have-extra-time-before-the-sun-ends-life-on-earth",
-          "source": "arstechnica.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T17:33:16.386000Z"
-        },
-        {
-          "id": "ae418f32bb5f96ad9fc070674385f832df0cb2d1",
-          "title": "好消息——在太阳终结地球生命之前，我们还有些时间 / Good news—we have extra time before the Sun ends life on Earth",
-          "url": "https://arstechnica.com/science/2026/06/good-news-we-have-extra-time-before-the-sun-ends-life-on-earth",
-          "source": "Ars Technica",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-15T16:28:17Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Ars Technica",
-        "arstechnica.com"
-      ],
-      "items": [
-        {
-          "id": "846b99c29d8ff96d2e408d4874e02f125d77f6ea",
-          "title": "好消息——在太阳终结地球生命之前，我们还有些时间",
-          "url": "https://arstechnica.com/science/2026/06/good-news-we-have-extra-time-before-the-sun-ends-life-on-earth",
-          "source": "arstechnica.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T17:33:16.386000Z"
-        },
-        {
-          "id": "ae418f32bb5f96ad9fc070674385f832df0cb2d1",
-          "title": "好消息——在太阳终结地球生命之前，我们还有些时间 / Good news—we have extra time before the Sun ends life on Earth",
-          "url": "https://arstechnica.com/science/2026/06/good-news-we-have-extra-time-before-the-sun-ends-life-on-earth",
-          "source": "Ars Technica",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-15T16:28:17Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5062,
-      "importance": 0.5062,
-      "importance_score": 0.5062,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 0.9873,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T16:28:17Z",
-      "latest_at": "2026-06-15T17:33:16.386000Z",
-      "primary_item": {
-        "id": "846b99c29d8ff96d2e408d4874e02f125d77f6ea",
-        "title": "好消息——在太阳终结地球生命之前，我们还有些时间",
-        "url": "https://arstechnica.com/science/2026/06/good-news-we-have-extra-time-before-the-sun-ends-life-on-earth",
-        "source": "arstechnica.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_9ecf2c3d709c",
-      "title": "某工厂首席执行官表示，他为30名员工每人购买了一张价值3,000美元的降温床垫套，以便“让他们在工作中更加精神”。",
-      "url": "https://www.businessinsider.com/factory-ceo-eight-sleep-matress-covers-employees-2026-6",
-      "primary_url": "https://www.businessinsider.com/factory-ceo-eight-sleep-matress-covers-employees-2026-6",
-      "source": "www.businessinsider.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "17993eeafff858ad8812b2c23bac848de5b4146c",
-          "title": "某工厂首席执行官表示，他为30名员工每人购买了一张价值3,000美元的降温床垫套，以便“让他们在工作中更加精神”。",
-          "url": "https://www.businessinsider.com/factory-ceo-eight-sleep-matress-covers-employees-2026-6",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T17:33:16.228000Z"
-        },
-        {
-          "id": "5b348be7a2aeb368782d5a8c0210bed45e4c73d2",
-          "title": "某工厂首席执行官表示，他为30名员工每人购买了一张价值3,000美元的降温床垫套，以便“让他们在工作中更加精神”。 / Factory CEO says he bought each of his 30 employees a $3,000 cooling mattress cover so 'they'll be sharper' at work",
-          "url": "https://www.businessinsider.com/factory-ceo-eight-sleep-matress-covers-employees-2026-6",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-15T16:52:00Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Business Insider",
-        "www.businessinsider.com"
-      ],
-      "items": [
-        {
-          "id": "17993eeafff858ad8812b2c23bac848de5b4146c",
-          "title": "某工厂首席执行官表示，他为30名员工每人购买了一张价值3,000美元的降温床垫套，以便“让他们在工作中更加精神”。",
-          "url": "https://www.businessinsider.com/factory-ceo-eight-sleep-matress-covers-employees-2026-6",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T17:33:16.228000Z"
-        },
-        {
-          "id": "5b348be7a2aeb368782d5a8c0210bed45e4c73d2",
-          "title": "某工厂首席执行官表示，他为30名员工每人购买了一张价值3,000美元的降温床垫套，以便“让他们在工作中更加精神”。 / Factory CEO says he bought each of his 30 employees a $3,000 cooling mattress cover so 'they'll be sharper' at work",
-          "url": "https://www.businessinsider.com/factory-ceo-eight-sleep-matress-covers-employees-2026-6",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-15T16:52:00Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5062,
-      "importance": 0.5062,
-      "importance_score": 0.5062,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 0.9873,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T16:52:00Z",
-      "latest_at": "2026-06-15T17:33:16.228000Z",
-      "primary_item": {
-        "id": "17993eeafff858ad8812b2c23bac848de5b4146c",
-        "title": "某工厂首席执行官表示，他为30名员工每人购买了一张价值3,000美元的降温床垫套，以便“让他们在工作中更加精神”。",
-        "url": "https://www.businessinsider.com/factory-ceo-eight-sleep-matress-covers-employees-2026-6",
-        "source": "www.businessinsider.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_c5321d4002b7",
-      "title": "消息人士称，英伟达将通过五年来的首次企业债券发行筹集200亿美元 - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOb3J6OUR4dG9YbWJEWmwzYkQ1SVpMOHFiQU9PMmYweDJ6N0R0dUhmNmt6THBkdlFxMHhUcDA1OFFwSktsNUQ4c3N2WW9ZU0J1YTZHYk95RVc0c25mV3Bqd0kyVEJNMUQ1U2FvSUt4Z1N2a1BMTXJJRHRyWnJRV2J4cGY4NktrTVgzdHVQWXBGZ3hDSnAzb3RJR0FWUXRjUEdkejJXMTh3dWhINWFrQ3RtMmxINTVrOERqVGctZXJCVF9RRDd2OEtWdg?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-      "primary_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOb3J6OUR4dG9YbWJEWmwzYkQ1SVpMOHFiQU9PMmYweDJ6N0R0dUhmNmt6THBkdlFxMHhUcDA1OFFwSktsNUQ4c3N2WW9ZU0J1YTZHYk95RVc0c25mV3Bqd0kyVEJNMUQ1U2FvSUt4Z1N2a1BMTXJJRHRyWnJRV2J4cGY4NktrTVgzdHVQWXBGZ3hDSnAzb3RJR0FWUXRjUEdkejJXMTh3dWhINWFrQ3RtMmxINTVrOERqVGctZXJCVF9RRDd2OEtWdg?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-      "source": "news.google.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "550a7f526a2ae965097f99bbed7e3bf2b8c2ca41",
-          "title": "消息人士称，英伟达将通过五年来的首次企业债券发行筹集200亿美元 - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOb3J6OUR4dG9YbWJEWmwzYkQ1SVpMOHFiQU9PMmYweDJ6N0R0dUhmNmt6THBkdlFxMHhUcDA1OFFwSktsNUQ4c3N2WW9ZU0J1YTZHYk95RVc0c25mV3Bqd0kyVEJNMUQ1U2FvSUt4Z1N2a1BMTXJJRHRyWnJRV2J4cGY4NktrTVgzdHVQWXBGZ3hDSnAzb3RJR0FWUXRjUEdkejJXMTh3dWhINWFrQ3RtMmxINTVrOERqVGctZXJCVF9RRDd2OEtWdg?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-          "source": "news.google.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T17:33:16.181000Z"
-        },
-        {
-          "id": "6ae75ee73e7fc27f828d24048884aa82b24e9f6f",
-          "title": "消息人士称，英伟达将通过五年来的首次企业债券发行筹集200亿美元",
-          "url": "https://reut.rs/4org7X8",
-          "source": "reut.rs",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T16:45:24.673000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "news.google.com",
-        "reut.rs"
-      ],
-      "items": [
-        {
-          "id": "550a7f526a2ae965097f99bbed7e3bf2b8c2ca41",
-          "title": "消息人士称，英伟达将通过五年来的首次企业债券发行筹集200亿美元 - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOb3J6OUR4dG9YbWJEWmwzYkQ1SVpMOHFiQU9PMmYweDJ6N0R0dUhmNmt6THBkdlFxMHhUcDA1OFFwSktsNUQ4c3N2WW9ZU0J1YTZHYk95RVc0c25mV3Bqd0kyVEJNMUQ1U2FvSUt4Z1N2a1BMTXJJRHRyWnJRV2J4cGY4NktrTVgzdHVQWXBGZ3hDSnAzb3RJR0FWUXRjUEdkejJXMTh3dWhINWFrQ3RtMmxINTVrOERqVGctZXJCVF9RRDd2OEtWdg?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-          "source": "news.google.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T17:33:16.181000Z"
-        },
-        {
-          "id": "6ae75ee73e7fc27f828d24048884aa82b24e9f6f",
-          "title": "消息人士称，英伟达将通过五年来的首次企业债券发行筹集200亿美元",
-          "url": "https://reut.rs/4org7X8",
-          "source": "reut.rs",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T16:45:24.673000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5062,
-      "importance": 0.5062,
-      "importance_score": 0.5062,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 0.9873,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T16:45:24.673000Z",
-      "latest_at": "2026-06-15T17:33:16.181000Z",
-      "primary_item": {
-        "id": "550a7f526a2ae965097f99bbed7e3bf2b8c2ca41",
-        "title": "消息人士称，英伟达将通过五年来的首次企业债券发行筹集200亿美元 - Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOb3J6OUR4dG9YbWJEWmwzYkQ1SVpMOHFiQU9PMmYweDJ6N0R0dUhmNmt6THBkdlFxMHhUcDA1OFFwSktsNUQ4c3N2WW9ZU0J1YTZHYk95RVc0c25mV3Bqd0kyVEJNMUQ1U2FvSUt4Z1N2a1BMTXJJRHRyWnJRV2J4cGY4NktrTVgzdHVQWXBGZ3hDSnAzb3RJR0FWUXRjUEdkejJXMTh3dWhINWFrQ3RtMmxINTVrOERqVGctZXJCVF9RRDd2OEtWdg?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-        "source": "news.google.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_e33f617c84ab",
-      "title": "谷歌飞行模拟器",
-      "url": "https://developers.google.com/maps/documentation/earth/flight-simulator",
-      "primary_url": "https://developers.google.com/maps/documentation/earth/flight-simulator",
-      "source": "developers.google.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "a3ecaf78c30f09021f01318c42fbffeb76f9e5ca",
-          "title": "谷歌飞行模拟器",
-          "url": "https://developers.google.com/maps/documentation/earth/flight-simulator",
-          "source": "developers.google.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T17:33:15.681000Z"
-        },
-        {
-          "id": "ddfc3135fd4e6ecf5102d9fda383abe4c3098f1a",
-          "title": "谷歌飞行模拟器 / Google Flight Simulator",
-          "url": "https://developers.google.com/maps/documentation/earth/flight-simulator",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-15T13:26:08Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News",
-        "developers.google.com"
-      ],
-      "items": [
-        {
-          "id": "a3ecaf78c30f09021f01318c42fbffeb76f9e5ca",
-          "title": "谷歌飞行模拟器",
-          "url": "https://developers.google.com/maps/documentation/earth/flight-simulator",
-          "source": "developers.google.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T17:33:15.681000Z"
-        },
-        {
-          "id": "ddfc3135fd4e6ecf5102d9fda383abe4c3098f1a",
-          "title": "谷歌飞行模拟器 / Google Flight Simulator",
-          "url": "https://developers.google.com/maps/documentation/earth/flight-simulator",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-15T13:26:08Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5062,
-      "importance": 0.5062,
-      "importance_score": 0.5062,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 0.9873,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T13:26:08Z",
-      "latest_at": "2026-06-15T17:33:15.681000Z",
-      "primary_item": {
-        "id": "a3ecaf78c30f09021f01318c42fbffeb76f9e5ca",
-        "title": "谷歌飞行模拟器",
-        "url": "https://developers.google.com/maps/documentation/earth/flight-simulator",
-        "source": "developers.google.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_aebcf646f3db",
-      "title": "无国界医生组织工作人员在“以性换粮”丑闻中虐待苏丹难民",
-      "url": "https://www.bbc.com/news/articles/c74ykjl8mx3o?at_medium=RSS&at_campaign=rss",
-      "primary_url": "https://www.bbc.com/news/articles/c74ykjl8mx3o?at_medium=RSS&at_campaign=rss",
-      "source": "www.bbc.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "147b4014c9fe24432adc2c2b40dd13e2e3b49857",
-          "title": "无国界医生组织工作人员在“以性换粮”丑闻中虐待苏丹难民",
-          "url": "https://www.bbc.com/news/articles/c74ykjl8mx3o?at_medium=RSS&at_campaign=rss",
-          "source": "www.bbc.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T17:17:21.575000Z"
-        },
-        {
-          "id": "ce9b6b3c841d71cddfdc1b36f6fa7a1313cbe6fc",
-          "title": "无国界医生组织工作人员在“以性换粮”丑闻中虐待苏丹难民 / MSF staff abused Sudanese refugees in sex-for-food scandal",
-          "url": "https://www.bbc.com/news/articles/c74ykjl8mx3o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News (世界新闻)",
+          "id": "0ad14152ed6afd5f7a388b4cb147b173c4971a6f",
+          "title": "笔记本电脑上的 FreeBSD 15 / FreeBSD 15 on a Laptop",
+          "url": "https://www.sacredheartsc.com/blog/freebsd-15-on-a-laptop",
+          "source": "Lobsters (技术社区)",
           "source_name": "Info Flow",
           "site_id": "iris",
-          "published_at": "2026-06-15T16:32:48Z"
+          "published_at": "2026-06-15T19:26:25Z"
         }
       ],
       "source_count": 2,
       "source_names": [
-        "BBC News (世界新闻)",
-        "www.bbc.com"
+        "Lobsters (技术社区)",
+        "www.sacredheartsc.com"
       ],
       "items": [
         {
-          "id": "147b4014c9fe24432adc2c2b40dd13e2e3b49857",
-          "title": "无国界医生组织工作人员在“以性换粮”丑闻中虐待苏丹难民",
-          "url": "https://www.bbc.com/news/articles/c74ykjl8mx3o?at_medium=RSS&at_campaign=rss",
-          "source": "www.bbc.com",
+          "id": "1b143ae29ef17c207a8f26542e948e1c5ac3ffb3",
+          "title": "笔记本电脑上的 FreeBSD 15",
+          "url": "https://www.sacredheartsc.com/blog/freebsd-15-on-a-laptop",
+          "source": "www.sacredheartsc.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-06-15T17:17:21.575000Z"
+          "published_at": "2026-06-15T19:41:16.275000Z"
         },
         {
-          "id": "ce9b6b3c841d71cddfdc1b36f6fa7a1313cbe6fc",
-          "title": "无国界医生组织工作人员在“以性换粮”丑闻中虐待苏丹难民 / MSF staff abused Sudanese refugees in sex-for-food scandal",
-          "url": "https://www.bbc.com/news/articles/c74ykjl8mx3o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News (世界新闻)",
+          "id": "0ad14152ed6afd5f7a388b4cb147b173c4971a6f",
+          "title": "笔记本电脑上的 FreeBSD 15 / FreeBSD 15 on a Laptop",
+          "url": "https://www.sacredheartsc.com/blog/freebsd-15-on-a-laptop",
+          "source": "Lobsters (技术社区)",
           "source_name": "Info Flow",
           "site_id": "iris",
-          "published_at": "2026-06-15T16:32:48Z"
+          "published_at": "2026-06-15T19:26:25Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5029,
-      "importance": 0.5029,
-      "importance_score": 0.5029,
+      "score": 0.4981,
+      "importance": 0.4981,
+      "importance_score": 0.4981,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.32,
-        "recency": 0.9763,
+        "recency": 0.9602,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-15T16:32:48Z",
-      "latest_at": "2026-06-15T17:17:21.575000Z",
+      "earliest_at": "2026-06-15T19:26:25Z",
+      "latest_at": "2026-06-15T19:41:16.275000Z",
       "primary_item": {
-        "id": "147b4014c9fe24432adc2c2b40dd13e2e3b49857",
-        "title": "无国界医生组织工作人员在“以性换粮”丑闻中虐待苏丹难民",
-        "url": "https://www.bbc.com/news/articles/c74ykjl8mx3o?at_medium=RSS&at_campaign=rss",
-        "source": "www.bbc.com",
+        "id": "1b143ae29ef17c207a8f26542e948e1c5ac3ffb3",
+        "title": "笔记本电脑上的 FreeBSD 15",
+        "url": "https://www.sacredheartsc.com/blog/freebsd-15-on-a-laptop",
+        "source": "www.sacredheartsc.com",
         "source_name": "Buzzing"
       }
     },
@@ -1452,13 +1548,13 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.56,
-      "importance": 0.56,
-      "importance_score": 0.56,
+      "score": 0.5253,
+      "importance": 0.5253,
+      "importance_score": 0.5253,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.32,
-        "recency": 1.0,
+        "recency": 0.8842,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -1476,328 +1572,234 @@
       }
     },
     {
-      "story_id": "story_3691f2fb1454",
-      "title": "美伊达成和平协议后，股市大涨，油价下跌",
-      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-06-14",
-      "primary_url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-06-14",
-      "source": "www.reuters.com",
+      "story_id": "story_b5c68e6c17cc",
+      "title": "savearoundtrip：发布一个 HTTPS DNS 记录，省去一次往返",
+      "url": "https://savearoundtrip.com",
+      "primary_url": "https://savearoundtrip.com",
+      "source": "savearoundtrip.com",
       "source_name": "Buzzing",
       "sources": [
         {
-          "id": "aba9a171b98205b81559fa8ef895647256d4efa4",
-          "title": "美伊达成和平协议后，股市大涨，油价下跌",
-          "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-06-14",
-          "source": "www.reuters.com",
+          "id": "10c702dae2a7156405bac48b017a23a59217cb32",
+          "title": "savearoundtrip：发布一个 HTTPS DNS 记录，省去一次往返",
+          "url": "https://savearoundtrip.com",
+          "source": "savearoundtrip.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-06-15T17:01:21.902000Z"
+          "published_at": "2026-06-15T19:09:08.976000Z"
         },
         {
-          "id": "d8bef8d756218b7730f4f2a582ba6bcea3a95ce6",
-          "title": "受伊朗核协议影响，油价下跌，股市和债市应声上涨",
-          "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-06-14",
-          "source": "www.reuters.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T13:33:26.852000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "www.reuters.com"
-      ],
-      "items": [
-        {
-          "id": "aba9a171b98205b81559fa8ef895647256d4efa4",
-          "title": "美伊达成和平协议后，股市大涨，油价下跌",
-          "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-06-14",
-          "source": "www.reuters.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T17:01:21.902000Z"
-        },
-        {
-          "id": "d8bef8d756218b7730f4f2a582ba6bcea3a95ce6",
-          "title": "受伊朗核协议影响，油价下跌，股市和债市应声上涨",
-          "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-06-14",
-          "source": "www.reuters.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T13:33:26.852000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.4996,
-      "importance": 0.4996,
-      "importance_score": 0.4996,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 0.9652,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T13:33:26.852000Z",
-      "latest_at": "2026-06-15T17:01:21.902000Z",
-      "primary_item": {
-        "id": "aba9a171b98205b81559fa8ef895647256d4efa4",
-        "title": "美伊达成和平协议后，股市大涨，油价下跌",
-        "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-06-14",
-        "source": "www.reuters.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_f6fd7d7e12f3",
-      "title": "MONOLITH：一款面向 x86 架构的实验性非 Unix 操作系统",
-      "url": "https://codeberg.org/MONOLITH-Project/MONOLITH",
-      "primary_url": "https://codeberg.org/MONOLITH-Project/MONOLITH",
-      "source": "codeberg.org",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "36c57aae61c39cb63453d8205f5d0bd242b7a984",
-          "title": "MONOLITH：一款面向 x86 架构的实验性非 Unix 操作系统",
-          "url": "https://codeberg.org/MONOLITH-Project/MONOLITH",
-          "source": "codeberg.org",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T17:01:18.869000Z"
-        },
-        {
-          "id": "1b104e13f037dd1dcfb81528d793564bfd9d0303",
-          "title": "MONOLITH：一款面向 x86 架构的实验性非 Unix 操作系统 / MONOLITH: An experimental non-Unix operating system for x86",
-          "url": "https://codeberg.org/MONOLITH-Project/MONOLITH",
+          "id": "395dba87444df8dbc98bcf7fd68459ec7fd40bb3",
+          "title": "savearoundtrip：发布一个 HTTPS DNS 记录，省去一次往返 / savearoundtrip: publish an HTTPS DNS record, skip a round trip",
+          "url": "https://savearoundtrip.com",
           "source": "Lobsters (技术社区)",
           "source_name": "Info Flow",
           "site_id": "iris",
-          "published_at": "2026-06-15T16:54:04Z"
+          "published_at": "2026-06-15T18:36:15Z"
         }
       ],
       "source_count": 2,
       "source_names": [
         "Lobsters (技术社区)",
-        "codeberg.org"
+        "savearoundtrip.com"
       ],
       "items": [
         {
-          "id": "36c57aae61c39cb63453d8205f5d0bd242b7a984",
-          "title": "MONOLITH：一款面向 x86 架构的实验性非 Unix 操作系统",
-          "url": "https://codeberg.org/MONOLITH-Project/MONOLITH",
-          "source": "codeberg.org",
+          "id": "10c702dae2a7156405bac48b017a23a59217cb32",
+          "title": "savearoundtrip：发布一个 HTTPS DNS 记录，省去一次往返",
+          "url": "https://savearoundtrip.com",
+          "source": "savearoundtrip.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-06-15T17:01:18.869000Z"
+          "published_at": "2026-06-15T19:09:08.976000Z"
         },
         {
-          "id": "1b104e13f037dd1dcfb81528d793564bfd9d0303",
-          "title": "MONOLITH：一款面向 x86 架构的实验性非 Unix 操作系统 / MONOLITH: An experimental non-Unix operating system for x86",
-          "url": "https://codeberg.org/MONOLITH-Project/MONOLITH",
+          "id": "395dba87444df8dbc98bcf7fd68459ec7fd40bb3",
+          "title": "savearoundtrip：发布一个 HTTPS DNS 记录，省去一次往返 / savearoundtrip: publish an HTTPS DNS record, skip a round trip",
+          "url": "https://savearoundtrip.com",
           "source": "Lobsters (技术社区)",
           "source_name": "Info Flow",
           "site_id": "iris",
-          "published_at": "2026-06-15T16:54:04Z"
+          "published_at": "2026-06-15T18:36:15Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4995,
-      "importance": 0.4995,
-      "importance_score": 0.4995,
+      "score": 0.4914,
+      "importance": 0.4914,
+      "importance_score": 0.4914,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.32,
-        "recency": 0.9651,
+        "recency": 0.9379,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-15T16:54:04Z",
-      "latest_at": "2026-06-15T17:01:18.869000Z",
+      "earliest_at": "2026-06-15T18:36:15Z",
+      "latest_at": "2026-06-15T19:09:08.976000Z",
       "primary_item": {
-        "id": "36c57aae61c39cb63453d8205f5d0bd242b7a984",
-        "title": "MONOLITH：一款面向 x86 架构的实验性非 Unix 操作系统",
-        "url": "https://codeberg.org/MONOLITH-Project/MONOLITH",
-        "source": "codeberg.org",
+        "id": "10c702dae2a7156405bac48b017a23a59217cb32",
+        "title": "savearoundtrip：发布一个 HTTPS DNS 记录，省去一次往返",
+        "url": "https://savearoundtrip.com",
+        "source": "savearoundtrip.com",
         "source_name": "Buzzing"
       }
     },
     {
-      "story_id": "story_3239bbf8425d",
-      "title": "kage：将任意网站保存为离线浏览版本，并移除其中的 JavaScript 代码",
-      "url": "https://github.com/tamnd/kage",
-      "primary_url": "https://github.com/tamnd/kage",
-      "source": "github.com",
+      "story_id": "story_f3869f401d86",
+      "title": "Hetzner 价格调整（2026年6月15日）",
+      "url": "https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment",
+      "primary_url": "https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment",
+      "source": "docs.hetzner.com",
       "source_name": "Buzzing",
       "sources": [
         {
-          "id": "af7bfa9da5435f5e848ff0c58fd01aa1e870aa02",
-          "title": "kage：将任意网站保存为离线浏览版本，并移除其中的 JavaScript 代码",
-          "url": "https://github.com/tamnd/kage",
-          "source": "github.com",
+          "id": "2cd4f11ba3baedcca4852a2f3d0e302fbf1233b7",
+          "title": "Hetzner 价格调整（2026年6月15日）",
+          "url": "https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment",
+          "source": "docs.hetzner.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-06-15T13:01:11.468000Z"
+          "published_at": "2026-06-15T18:21:18.548000Z"
         },
         {
-          "id": "ab627ce086a4be9dc840ee36efedfc28bcee27b9",
-          "title": "Show HN: Kage – 将任意网站打包为单个二进制文件，以便离线浏览 / kage: Shadow any website for offline viewing, with the JavaScript stripped out",
-          "url": "https://github.com/tamnd/kage",
-          "source": "Lobsters (技术社区)",
+          "id": "dffdfdb39f1c7e2621d6774389c27ff15ea897be",
+          "title": "Hetzner 价格调整（2026年6月15日） / Hetzner Price Adjustment",
+          "url": "https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment",
+          "source": "Hacker News (黑客新闻)",
           "source_name": "Info Flow",
           "site_id": "iris",
-          "published_at": "2026-06-15T12:54:58Z"
-        },
-        {
-          "id": "28d0893304415b484cc46e1b31c2c14043d88afb",
-          "title": "Show HN: Kage – 将任意网站打包为单个二进制文件，以便离线浏览",
-          "url": "https://github.com/tamnd/kage",
-          "source": "github.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-14T19:26:26.257000Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Lobsters (技术社区)",
-        "github.com"
-      ],
-      "items": [
-        {
-          "id": "af7bfa9da5435f5e848ff0c58fd01aa1e870aa02",
-          "title": "kage：将任意网站保存为离线浏览版本，并移除其中的 JavaScript 代码",
-          "url": "https://github.com/tamnd/kage",
-          "source": "github.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T13:01:11.468000Z"
-        },
-        {
-          "id": "ab627ce086a4be9dc840ee36efedfc28bcee27b9",
-          "title": "Show HN: Kage – 将任意网站打包为单个二进制文件，以便离线浏览 / kage: Shadow any website for offline viewing, with the JavaScript stripped out",
-          "url": "https://github.com/tamnd/kage",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-15T12:54:58Z"
-        },
-        {
-          "id": "28d0893304415b484cc46e1b31c2c14043d88afb",
-          "title": "Show HN: Kage – 将任意网站打包为单个二进制文件，以便离线浏览",
-          "url": "https://github.com/tamnd/kage",
-          "source": "github.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-14T19:26:26.257000Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.4995,
-      "importance": 0.4995,
-      "importance_score": 0.4995,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 0.7984,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-14T19:26:26.257000Z",
-      "latest_at": "2026-06-15T13:01:11.468000Z",
-      "primary_item": {
-        "id": "af7bfa9da5435f5e848ff0c58fd01aa1e870aa02",
-        "title": "kage：将任意网站保存为离线浏览版本，并移除其中的 JavaScript 代码",
-        "url": "https://github.com/tamnd/kage",
-        "source": "github.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_e9f5117e2d1a",
-      "title": "福斯斥資 220 億美元收購 Roku / Fox Is Buying Roku For $22 Billion",
-      "url": "https://entertainment.slashdot.org/story/26/06/15/1537209/fox-is-buying-roku-for-22-billion",
-      "primary_url": "https://entertainment.slashdot.org/story/26/06/15/1537209/fox-is-buying-roku-for-22-billion",
-      "source": "Slashdot (科技资讯)",
-      "source_name": "Info Flow",
-      "sources": [
-        {
-          "id": "d5c1f6a8aac203e495d2e3a42e43931144980953",
-          "title": "福斯斥資 220 億美元收購 Roku / Fox Is Buying Roku For $22 Billion",
-          "url": "https://entertainment.slashdot.org/story/26/06/15/1537209/fox-is-buying-roku-for-22-billion",
-          "source": "Slashdot (科技资讯)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-15T17:00:00Z"
-        },
-        {
-          "id": "2721e0b0da60b5bb07efca8c73548e821ee8e288",
-          "title": "福斯斥資220億美元收購Roku / Fox is buying Roku for $22 billion",
-          "url": "https://www.engadget.com/2194058/fox-is-buying-roku-for-22-billion",
-          "source": "Engadget",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-15T12:08:00Z"
+          "published_at": "2026-06-15T13:19:39Z"
         }
       ],
       "source_count": 2,
       "source_names": [
-        "Engadget",
-        "Slashdot (科技资讯)"
+        "Hacker News (黑客新闻)",
+        "docs.hetzner.com"
       ],
       "items": [
         {
-          "id": "d5c1f6a8aac203e495d2e3a42e43931144980953",
-          "title": "福斯斥資 220 億美元收購 Roku / Fox Is Buying Roku For $22 Billion",
-          "url": "https://entertainment.slashdot.org/story/26/06/15/1537209/fox-is-buying-roku-for-22-billion",
-          "source": "Slashdot (科技资讯)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-15T17:00:00Z"
+          "id": "2cd4f11ba3baedcca4852a2f3d0e302fbf1233b7",
+          "title": "Hetzner 价格调整（2026年6月15日）",
+          "url": "https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment",
+          "source": "docs.hetzner.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T18:21:18.548000Z"
         },
         {
-          "id": "2721e0b0da60b5bb07efca8c73548e821ee8e288",
-          "title": "福斯斥資220億美元收購Roku / Fox is buying Roku for $22 billion",
-          "url": "https://www.engadget.com/2194058/fox-is-buying-roku-for-22-billion",
-          "source": "Engadget",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-15T12:08:00Z"
+          "id": "dffdfdb39f1c7e2621d6774389c27ff15ea897be",
+          "title": "Hetzner 价格调整（2026年6月15日） / Hetzner Price Adjustment",
+          "url": "https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-15T13:19:39Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4993,
-      "importance": 0.4993,
-      "importance_score": 0.4993,
+      "score": 0.4814,
+      "importance": 0.4814,
+      "importance_score": 0.4814,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.32,
-        "recency": 0.9642,
+        "recency": 0.9047,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-15T12:08:00Z",
-      "latest_at": "2026-06-15T17:00:00Z",
+      "earliest_at": "2026-06-15T13:19:39Z",
+      "latest_at": "2026-06-15T18:21:18.548000Z",
       "primary_item": {
-        "id": "d5c1f6a8aac203e495d2e3a42e43931144980953",
-        "title": "福斯斥資 220 億美元收購 Roku / Fox Is Buying Roku For $22 Billion",
-        "url": "https://entertainment.slashdot.org/story/26/06/15/1537209/fox-is-buying-roku-for-22-billion",
-        "source": "Slashdot (科技资讯)",
-        "source_name": "Info Flow"
+        "id": "2cd4f11ba3baedcca4852a2f3d0e302fbf1233b7",
+        "title": "Hetzner 价格调整（2026年6月15日）",
+        "url": "https://docs.hetzner.com/general/infrastructure-and-availability/price-adjustment",
+        "source": "docs.hetzner.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_bde7aec30fd3",
+      "title": "伊朗核协议对内塔尼亚胡而言是一场政治噩梦",
+      "url": "https://www.bbc.com/news/articles/cj4gnqw8j52o?at_medium=RSS&at_campaign=rss",
+      "primary_url": "https://www.bbc.com/news/articles/cj4gnqw8j52o?at_medium=RSS&at_campaign=rss",
+      "source": "www.bbc.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "20f18371811eea24040a83e5ff44d671f92d72b0",
+          "title": "伊朗核协议对内塔尼亚胡而言是一场政治噩梦",
+          "url": "https://www.bbc.com/news/articles/cj4gnqw8j52o?at_medium=RSS&at_campaign=rss",
+          "source": "www.bbc.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T18:21:24.863000Z"
+        },
+        {
+          "id": "c7449b61624bb927e80ca9e569143d90ff835096",
+          "title": "伊朗核协议对内塔尼亚胡而言是一场政治噩梦 / Iran deal presents political nightmare for Netanyahu",
+          "url": "https://www.bbc.com/news/articles/cj4gnqw8j52o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News (世界新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-15T18:15:30Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "BBC News (世界新闻)",
+        "www.bbc.com"
+      ],
+      "items": [
+        {
+          "id": "20f18371811eea24040a83e5ff44d671f92d72b0",
+          "title": "伊朗核协议对内塔尼亚胡而言是一场政治噩梦",
+          "url": "https://www.bbc.com/news/articles/cj4gnqw8j52o?at_medium=RSS&at_campaign=rss",
+          "source": "www.bbc.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T18:21:24.863000Z"
+        },
+        {
+          "id": "c7449b61624bb927e80ca9e569143d90ff835096",
+          "title": "伊朗核协议对内塔尼亚胡而言是一场政治噩梦 / Iran deal presents political nightmare for Netanyahu",
+          "url": "https://www.bbc.com/news/articles/cj4gnqw8j52o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News (世界新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-15T18:15:30Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.4814,
+      "importance": 0.4814,
+      "importance_score": 0.4814,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.32,
+        "recency": 0.9047,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-15T18:15:30Z",
+      "latest_at": "2026-06-15T18:21:24.863000Z",
+      "primary_item": {
+        "id": "20f18371811eea24040a83e5ff44d671f92d72b0",
+        "title": "伊朗核协议对内塔尼亚胡而言是一场政治噩梦",
+        "url": "https://www.bbc.com/news/articles/cj4gnqw8j52o?at_medium=RSS&at_campaign=rss",
+        "source": "www.bbc.com",
+        "source_name": "Buzzing"
       }
     }
   ]
