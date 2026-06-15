@@ -1,0 +1,12 @@
+{
+  "generated_at": "2026-06-15T13:48:24.030676Z",
+  "timezone": "Asia/Shanghai",
+  "root_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e?fromScene=spaceOverview",
+  "history_url": null,
+  "window_days": 7,
+  "count_7d": 0,
+  "updates_7d": [],
+  "warning": "WaytoAGI 近7日更新抓取失败",
+  "has_error": true,
+  "error": "name 'extract_feishu_client_vars' is not defined"
+}
