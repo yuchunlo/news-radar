@@ -3074,12 +3074,6 @@ def main() -> int:
     session = create_session()
     raw_items, statuses = collect_all(session, now)
     rss_feed_statuses: list[dict[str, Any]] = []
-        session,
-        generated_at=iso(now),
-        after=iso(now - timedelta(hours=args.window_hours)),
-        window_hours=args.window_hours,
-    )
-
     if args.rss_opml:
         opml_path = Path(args.rss_opml).expanduser()
         if opml_path.exists():
@@ -3334,11 +3328,6 @@ def main() -> int:
         encoding="utf-8",
     )
     status_path.write_text(json.dumps(sanitize_public_payload(status_payload), ensure_ascii=False, indent=2), encoding="utf-8")
-    if email_digest_payload is not None:
-        email_digest_path.write_text(
-            json.dumps(sanitize_public_payload(email_digest_payload), ensure_ascii=False, indent=2),
-            encoding="utf-8",
-        )
     waytoagi_path.write_text(json.dumps(sanitize_public_payload(waytoagi_payload), ensure_ascii=False, indent=2), encoding="utf-8")
     title_cache_path.write_text(json.dumps(sanitize_public_payload(title_cache), ensure_ascii=False, indent=2), encoding="utf-8")
 
@@ -3349,8 +3338,6 @@ def main() -> int:
     print(f"Wrote: {merge_log_path} ({len(merge_events)} merge events)")
     print(f"Wrote: {archive_path} ({len(archive)} items)")
     print(f"Wrote: {status_path}")
-    if email_digest_payload is not None:
-        print(f"Wrote: {email_digest_path} ({email_digest_payload.get('total_messages', 0)} email items)")
     print(f"Wrote: {waytoagi_path} ({waytoagi_payload.get('count_7d', 0)} items)")
     print(f"Wrote: {title_cache_path} ({len(title_cache)} entries)")
 
