@@ -1534,9 +1534,11 @@ def parse_opml_subscriptions(opml_path: Path) -> list[dict[str, str]]:
             xml_url,
         )
         html_url = str(outline.attrib.get("htmlUrl") or "").strip()
+        category = str(outline.attrib.get("category") or "").strip()
         out.append(
             {
                 "title": title,
+                "category": category,
                 "xml_url": xml_url,
                 "html_url": html_url,
             }
@@ -1723,7 +1725,7 @@ def fetch_opml_rss(
             feed_id = hashlib.sha1(original_url.encode("utf-8")).hexdigest()[:10]
             feed_statuses.append(
                 {
-                    "site_id": f"opmlrss:{feed_id}",
+                    "site_id": feed["category"],
                     "site_name": "OPML RSS",
                     "feed_title": feed["title"],
                     "feed_url": original_url,
@@ -1921,28 +1923,36 @@ def event_time(record: dict[str, Any]) -> datetime | None:
 
 
 SOURCE_TIER_BY_SITE: dict[str, tuple[str, str, int]] = {
-    "official_ai": ("official", "官方一手源", 0),
-    "aibreakfast": ("ai_vertical", "AI垂直源", 1),
-    "aihubtoday": ("ai_vertical", "AI垂直源", 1),
-    "aibase": ("ai_vertical", "AI垂直源", 1),
-    "bestblogs": ("ai_vertical", "AI垂直源", 1),
-    "followbuilders": ("builders", "Builders/X源", 2),
-    "opmlrss": ("user_opml", "RSS/OPML", 3),
-    "xapi": ("advanced", "高级源", 4),
-    "techurls": ("discussion", "热议参考", 5),
-    "buzzing": ("discussion", "热议参考", 5),
-    "iris": ("discussion", "热议参考", 5),
-    "zeli": ("discussion", "热议参考", 5),
-    "newsnow": ("discussion", "热议参考", 5),
+    "official_ai": ("official", "AI 官方源", 0),
+    "aibreakfast": ("ai_vertical", "AI 垂直源", 1),
+    "aihubtoday": ("ai_vertical", "AI 垂直源", 1),
+    "aibase": ("ai_vertical", "AI 垂直源", 1),
+    "bestblogs": ("ai_vertical", "AI 垂直源", 1),
+    "followbuilders": ("builders", "Builders", 2),
+    "blog": ("blog", "Blog", 3),
+    "business": ("business", "Business", 3),
+    "convivium": ("convivium", "Convivium", 3),
+    "finance": ("finance", "Finance", 3),
+    "tech": ("tech", "Tech", 3),
+    "techurls": ("trending", "Tredning", 5),
+    "buzzing": ("trending", "Trending", 5),
+    "iris": ("trending", "Trending", 5),
+    "zeli": ("trending", "Trending", 5),
+    "newsnow": ("trending", "Trending", 5),
 }
 
 SOURCE_TIER_IMPORTANCE = {
     "official": 1.0,
     "ai_vertical": 0.78,
     "builders": 0.62,
-    "user_opml": 0.5,
+    "blog": 0.5,
+    "business": 0.5,
+    "convivium": 0.5,
+    "finance": 0.5,
+    "tech": 0.5,
+    "business": 0.5,
     "advanced": 0.45,
-    "discussion": 0.32,
+    "trending": 0.32,
     "other": 0.25,
 }
 
@@ -2840,7 +2850,7 @@ def build_latest_payloads(latest_payload: dict[str, Any]) -> tuple[dict[str, Any
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Aggregate AI news updates from multiple sources")
+    parser = argparse.ArgumentParser(description="Aggregate news updates from multiple sources")
     parser.add_argument("--output-dir", default="data", help="Directory for output JSON files")
     parser.add_argument("--window-hours", type=int, default=24, help="24h window size")
     parser.add_argument("--archive-days", type=int, default=21, help="Keep archive for N days")
