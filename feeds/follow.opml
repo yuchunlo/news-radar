@@ -326,9 +326,6 @@
       <outline text="Manuel Bravo" type="rss" category=""
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCdZGNOYhDdHJ8HtsLdMR88w"
         htmlUrl="https://www.youtube.com/watch?v=EWoxPbiyd1E" />
-      <outline text="&quot;&quot;上海书评&quot; site:thepaper.cn&quot; - Google 新闻" type="rss" category=""
-        xmlUrl="https://news.google.com/rss/search?q=%22%E4%B8%8A%E6%B5%B7%E4%B9%A6%E8%AF%84%22+site:thepaper.cn&tbs=qdr:m3&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
-        htmlUrl="https://news.google.com/search?q=%22%E4%B8%8A%E6%B5%B7%E4%B9%A6%E8%AF%84%22+site:thepaper.cn&tbs=qdr:m3&hl=zh-CN&gl=CN&ceid=CN:zh-Hans" />
       <outline text="Joe Studwell's blog" type="rss" category=""
         xmlUrl="https://joestudwell.com/feed/"
         htmlUrl="https://joestudwell.com/" />
@@ -875,7 +872,7 @@
       <outline text="City Beautiful" type="rss" category=""
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCGc8ZVCsrR3dAuhvUbkbToQ"
         htmlUrl="https://www.youtube.com/watch?v=XOpjDSUmPtU" />
-      <outline text="CAREhER | A Modern Social Club For Women Leaders To Grow & Connect" type="rss" category=""
+      <outline text="CAREhER | A Modern Social Club For Women Leaders" type="rss" category=""
         xmlUrl="https://careher.net/feed/"
         htmlUrl="https://careher.net" />
       <outline text="Brilliant Maps" type="rss" category=""
@@ -926,21 +923,6 @@
       <outline text="/" type="rss" category=""
         xmlUrl="https://gummychen.wordpress.com/feed/"
         htmlUrl="https://gummychen.wordpress.com" />
-      <outline text="&quot;的 site:www.heavenraven.com&quot; - Google 新聞" type="rss" category=""
-        xmlUrl="https://news.google.com/rss/search?q=%E7%9A%84+site:www.heavenraven.com&gl=TW&hl=zh-TW&ceid=TW:zh-Hant"
-        htmlUrl="https://news.google.com/search?q=%E7%9A%84+site:www.heavenraven.com&gl=TW&hl=zh-TW&ceid=TW:zh-Hant" />
-      <outline text="&quot;site:sunrisemedium.com&quot; - Google 新聞" type="rss" category=""
-        xmlUrl="https://news.google.com/rss/search?q=site:sunrisemedium.com&hl=zh-TW&gl=TW&ceid=TW:zh-Hant"
-        htmlUrl="https://news.google.com/search?q=site:sunrisemedium.com&hl=zh-TW&gl=TW&ceid=TW:zh-Hant" />
-      <outline text="&quot;after:2024-03-01 site:ritagiang.com&quot; - Google 新聞" type="rss" category=""
-        xmlUrl="https://news.google.com/rss/search?q=after:2024-03-01+site:ritagiang.com&gl=TW&hl=zh-TW&ceid=TW:zh-Hant"
-        htmlUrl="https://news.google.com/search?q=after:2024-03-01+site:ritagiang.com&gl=TW&hl=zh-TW&ceid=TW:zh-Hant" />
-      <outline text="&quot;after:2024-03-01 site:dq.yam.com&quot; - Google 新聞" type="rss" category=""
-        xmlUrl="https://news.google.com/rss/search?q=after:2024-03-01+site:dq.yam.com&gl=TW&hl=zh-TW&ceid=TW:zh-Hant"
-        htmlUrl="https://news.google.com/search?q=after:2024-03-01+site:dq.yam.com&gl=TW&hl=zh-TW&ceid=TW:zh-Hant" />
-      <outline text="&quot;&quot;質青時代&quot; site:500times.udn.com&quot; - Google 新聞" type="rss" category=""
-        xmlUrl="https://news.google.com/rss/search?q=%22%E8%B3%AA%E9%9D%92%E6%99%82%E4%BB%A3%22+site:500times.udn.com&gl=TW&hl=zh-TW&ceid=TW:zh-Hant"
-        htmlUrl="https://news.google.com/search?q=%22%E8%B3%AA%E9%9D%92%E6%99%82%E4%BB%A3%22+site:500times.udn.com&gl=TW&hl=zh-TW&ceid=TW:zh-Hant" />
       <outline text="香功堂！！PIXNET :: 痞客邦 PIXNET ::" type="rss" category=""
         xmlUrl="http://feed.pixnet.net/blog/posts/rss/hatsocks1975"
         htmlUrl="http://hatsocks1975.pixnet.net/blog" />
@@ -1022,12 +1004,6 @@
       <outline text="陳國昭" type="rss" category=""
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCdkX6d3g2ZiFHeE9J5zxCMw"
         htmlUrl="https://www.youtube.com/watch?v=HfzDDnD-B6c" />
-      <outline text="&quot;&quot;首頁 / 國際&quot; site:cna.com.tw&quot; - Google 新聞" type="rss" category=""
-        xmlUrl="https://news.google.com/rss/search?q=%22%E9%A6%96%E9%A0%81%20/%20%E5%9C%8B%E9%9A%9B%22+site:cna.com.tw&tbs=qdr:m3&gl=TW&hl=zh-TW&ceid=TW:zh-Hant"
-        htmlUrl="https://news.google.com/search?q=%22%E9%A6%96%E9%A0%81+/+%E5%9C%8B%E9%9A%9B%22+site:cna.com.tw&tbs=qdr:m3&gl=TW&hl=zh-TW&ceid=TW:zh-Hant" />
-      <outline text="&quot;&quot;國際 - 工商時報&quot; site:www.ctee.com.tw&quot; - Google 新聞" type="rss" category=""
-        xmlUrl="https://news.google.com/rss/search?q=%22%E5%9C%8B%E9%9A%9B%20-%20%E5%B7%A5%E5%95%86%E6%99%82%E5%A0%B1%22+site:www.ctee.com.tw&tbs=qdr:m3&gl=TW&hl=zh-TW&ceid=TW:zh-Hant"
-        htmlUrl="https://news.google.com/search?q=%22%E5%9C%8B%E9%9A%9B+-+%E5%B7%A5%E5%95%86%E6%99%82%E5%A0%B1%22+site:www.ctee.com.tw&tbs=qdr:m3&gl=TW&hl=zh-TW&ceid=TW:zh-Hant" />
       <outline text="動區動趨-最具影響力的區塊鏈新聞媒體" type="rss" category=""
         xmlUrl="https://www.blocktempo.com/feed/"
         htmlUrl="https://www.blocktempo.com/" />
