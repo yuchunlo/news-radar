@@ -1,8 +1,141 @@
 {
-  "generated_at": "2026-06-15T13:48:24.030676Z",
+  "generated_at": "2026-06-15T17:18:59.959705Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
+    {
+      "story_id": "story_097928231844",
+      "title": "福克斯将收购Roku",
+      "url": "https://www.wsj.com/business/deals/fox-roku-deal-f6e564f9",
+      "primary_url": "https://www.wsj.com/business/deals/fox-roku-deal-f6e564f9",
+      "source": "www.wsj.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "1003468ae7bdd8dcbf828b8dde33c2184c924310",
+          "title": "福克斯将收购Roku",
+          "url": "https://www.wsj.com/business/deals/fox-roku-deal-f6e564f9",
+          "source": "www.wsj.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T17:01:17.258000Z"
+        },
+        {
+          "id": "515b11c62ffd687c10a2c55d7fd97060b0b50400",
+          "title": "福斯收購Roku / Fox to buy Roku",
+          "url": "https://news.ycombinator.com/item?id=48540499",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-15T16:49:26.851000Z"
+        },
+        {
+          "id": "3c6df15df7edbb8f0311e1f233a2ea058871d200",
+          "title": "Fox 將斥資 22B 美元收購 Roku 串流媒體服務 / Fox to Buy Roku Streaming Service in $22B Deal",
+          "url": "https://news.ycombinator.com/item?id=48540499",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-15T13:48:53Z"
+        },
+        {
+          "id": "cfc7b48c67b0b6691ced9000538094511bf7fe7c",
+          "title": "福克斯将收购Roku / Fox to Buy Roku Streaming Service in $22B Deal",
+          "url": "https://www.wsj.com/business/deals/fox-roku-deal-f6e564f9",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-15T12:50:03Z"
+        },
+        {
+          "id": "c9f102c796d79a21262f0bd5cf3aeff756686c22",
+          "title": "福克斯将收购Roku / Fox to buy Roku",
+          "url": "https://www.wsj.com/business/deals/fox-roku-deal-f6e564f9",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-15T12:50:03Z"
+        }
+      ],
+      "source_count": 5,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "Hacker News · 24h最热",
+        "hackernews",
+        "www.wsj.com"
+      ],
+      "items": [
+        {
+          "id": "1003468ae7bdd8dcbf828b8dde33c2184c924310",
+          "title": "福克斯将收购Roku",
+          "url": "https://www.wsj.com/business/deals/fox-roku-deal-f6e564f9",
+          "source": "www.wsj.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T17:01:17.258000Z"
+        },
+        {
+          "id": "515b11c62ffd687c10a2c55d7fd97060b0b50400",
+          "title": "福斯收購Roku / Fox to buy Roku",
+          "url": "https://news.ycombinator.com/item?id=48540499",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-15T16:49:26.851000Z"
+        },
+        {
+          "id": "3c6df15df7edbb8f0311e1f233a2ea058871d200",
+          "title": "Fox 將斥資 22B 美元收購 Roku 串流媒體服務 / Fox to Buy Roku Streaming Service in $22B Deal",
+          "url": "https://news.ycombinator.com/item?id=48540499",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-15T13:48:53Z"
+        },
+        {
+          "id": "cfc7b48c67b0b6691ced9000538094511bf7fe7c",
+          "title": "福克斯将收购Roku / Fox to Buy Roku Streaming Service in $22B Deal",
+          "url": "https://www.wsj.com/business/deals/fox-roku-deal-f6e564f9",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-15T12:50:03Z"
+        },
+        {
+          "id": "c9f102c796d79a21262f0bd5cf3aeff756686c22",
+          "title": "福克斯将收购Roku / Fox to buy Roku",
+          "url": "https://www.wsj.com/business/deals/fox-roku-deal-f6e564f9",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-15T12:50:03Z"
+        }
+      ],
+      "item_count": 5,
+      "duplicate_count": 5,
+      "score": 0.6563,
+      "importance": 0.6563,
+      "importance_score": 0.6563,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "source_tier": 0.32,
+        "recency": 0.9877,
+        "story_heat": 1.0
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-15T12:50:03Z",
+      "latest_at": "2026-06-15T17:01:17.258000Z",
+      "primary_item": {
+        "id": "1003468ae7bdd8dcbf828b8dde33c2184c924310",
+        "title": "福克斯将收购Roku",
+        "url": "https://www.wsj.com/business/deals/fox-roku-deal-f6e564f9",
+        "source": "www.wsj.com",
+        "source_name": "Buzzing"
+      }
+    },
     {
       "story_id": "story_3239bbf8425d",
       "title": "kage：将任意网站保存为离线浏览版本，并移除其中的 JavaScript 代码",
@@ -94,13 +227,13 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.6002,
-      "importance": 0.6002,
-      "importance_score": 0.6002,
+      "score": 0.5563,
+      "importance": 0.5563,
+      "importance_score": 0.5563,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.32,
-        "recency": 0.9672,
+        "recency": 0.821,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -118,104 +251,638 @@
       }
     },
     {
-      "story_id": "story_e2d6ea22ae2e",
-      "title": "Show HN：我在沒有 AI 的情況下從頭開始編寫了一個 C++ 光線追蹤器 / Show HN: I wrote a C++ ray tracer from scratch without AI",
-      "url": "https://news.ycombinator.com/item?id=48538833",
-      "primary_url": "https://news.ycombinator.com/item?id=48538833",
+      "story_id": "story_09a9cb996679",
+      "title": "Show HN：利用Slack的視訊嵌入實現E2EE通信 / Show HN: Exploiting Slack's video embeds to achieve E2EE communication",
+      "url": "https://news.ycombinator.com/item?id=48542970",
+      "primary_url": "https://news.ycombinator.com/item?id=48542970",
       "source": "hackernews",
       "source_name": "NewsNow",
       "sources": [
         {
-          "id": "16ef6ba5a07a88d50b343ac081e473a5e9e2ac60",
-          "title": "Show HN：我在沒有 AI 的情況下從頭開始編寫了一個 C++ 光線追蹤器 / Show HN: I wrote a C++ ray tracer from scratch without AI",
-          "url": "https://news.ycombinator.com/item?id=48538833",
+          "id": "893ed3f54a37bb1a3beca9e090f4bbfeebb82694",
+          "title": "Show HN：利用Slack的視訊嵌入實現E2EE通信 / Show HN: Exploiting Slack's video embeds to achieve E2EE communication",
+          "url": "https://news.ycombinator.com/item?id=48542970",
           "source": "hackernews",
           "source_name": "NewsNow",
           "site_id": "newsnow",
-          "published_at": "2026-06-15T13:48:53Z"
+          "published_at": "2026-06-15T16:49:26.851000Z"
         },
         {
-          "id": "351d9147bd4aa1f85a3e1e5247e402c90a938515",
-          "title": "Show HN: 我从零开始编写了一个不使用人工智能的 C 光线追踪器",
-          "url": "https://github.com/themartiano/luz",
-          "source": "github.com",
+          "id": "657ff4538246e51c23753fc28b783469d278bbf6",
+          "title": "Show HN: 利用 Slack 的视频嵌入功能实现端到端加密通信",
+          "url": "https://v1c.rocks/log/exploiting-slack-video",
+          "source": "v1c.rocks",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-06-15T09:49:11.715000Z"
+          "published_at": "2026-06-15T15:57:17.277000Z"
         },
         {
-          "id": "d712517e21bc222da838deb75ad3c22d72c79391",
-          "title": "Show HN: 我从零开始编写了一个不使用人工智能的 C 光线追踪器 / Show HN: I wrote a C++ ray tracer from scratch without AI",
-          "url": "https://github.com/themartiano/luz",
+          "id": "fa0b5ed9426af4ee730569b25318fd7ffd03bf66",
+          "title": "Show HN: 利用 Slack 的视频嵌入功能实现端到端加密通信 / Show HN: Exploiting Slack's video embeds to achieve E2EE communication",
+          "url": "https://v1c.rocks/log/exploiting-slack-video",
           "source": "Hacker News",
           "source_name": "TechURLs",
           "site_id": "techurls",
-          "published_at": "2026-06-15T09:34:10Z"
+          "published_at": "2026-06-15T15:43:17Z"
         }
       ],
       "source_count": 3,
       "source_names": [
         "Hacker News",
-        "github.com",
-        "hackernews"
+        "hackernews",
+        "v1c.rocks"
       ],
       "items": [
         {
-          "id": "16ef6ba5a07a88d50b343ac081e473a5e9e2ac60",
-          "title": "Show HN：我在沒有 AI 的情況下從頭開始編寫了一個 C++ 光線追蹤器 / Show HN: I wrote a C++ ray tracer from scratch without AI",
-          "url": "https://news.ycombinator.com/item?id=48538833",
+          "id": "893ed3f54a37bb1a3beca9e090f4bbfeebb82694",
+          "title": "Show HN：利用Slack的視訊嵌入實現E2EE通信 / Show HN: Exploiting Slack's video embeds to achieve E2EE communication",
+          "url": "https://news.ycombinator.com/item?id=48542970",
           "source": "hackernews",
           "source_name": "NewsNow",
           "site_id": "newsnow",
-          "published_at": "2026-06-15T13:48:53Z"
+          "published_at": "2026-06-15T16:49:26.851000Z"
         },
         {
-          "id": "351d9147bd4aa1f85a3e1e5247e402c90a938515",
-          "title": "Show HN: 我从零开始编写了一个不使用人工智能的 C 光线追踪器",
-          "url": "https://github.com/themartiano/luz",
-          "source": "github.com",
+          "id": "657ff4538246e51c23753fc28b783469d278bbf6",
+          "title": "Show HN: 利用 Slack 的视频嵌入功能实现端到端加密通信",
+          "url": "https://v1c.rocks/log/exploiting-slack-video",
+          "source": "v1c.rocks",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-06-15T09:49:11.715000Z"
+          "published_at": "2026-06-15T15:57:17.277000Z"
         },
         {
-          "id": "d712517e21bc222da838deb75ad3c22d72c79391",
-          "title": "Show HN: 我从零开始编写了一个不使用人工智能的 C 光线追踪器 / Show HN: I wrote a C++ ray tracer from scratch without AI",
-          "url": "https://github.com/themartiano/luz",
+          "id": "fa0b5ed9426af4ee730569b25318fd7ffd03bf66",
+          "title": "Show HN: 利用 Slack 的视频嵌入功能实现端到端加密通信 / Show HN: Exploiting Slack's video embeds to achieve E2EE communication",
+          "url": "https://v1c.rocks/log/exploiting-slack-video",
           "source": "Hacker News",
           "source_name": "TechURLs",
           "site_id": "techurls",
-          "published_at": "2026-06-15T09:34:10Z"
+          "published_at": "2026-06-15T15:43:17Z"
         }
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.56,
-      "importance": 0.56,
-      "importance_score": 0.56,
+      "score": 0.5538,
+      "importance": 0.5538,
+      "importance_score": 0.5538,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.32,
-        "recency": 1.0,
+        "recency": 0.9795,
         "story_heat": 0.5
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-15T09:34:10Z",
-      "latest_at": "2026-06-15T13:48:53Z",
+      "earliest_at": "2026-06-15T15:43:17Z",
+      "latest_at": "2026-06-15T16:49:26.851000Z",
       "primary_item": {
-        "id": "16ef6ba5a07a88d50b343ac081e473a5e9e2ac60",
-        "title": "Show HN：我在沒有 AI 的情況下從頭開始編寫了一個 C++ 光線追蹤器 / Show HN: I wrote a C++ ray tracer from scratch without AI",
-        "url": "https://news.ycombinator.com/item?id=48538833",
+        "id": "893ed3f54a37bb1a3beca9e090f4bbfeebb82694",
+        "title": "Show HN：利用Slack的視訊嵌入實現E2EE通信 / Show HN: Exploiting Slack's video embeds to achieve E2EE communication",
+        "url": "https://news.ycombinator.com/item?id=48542970",
         "source": "hackernews",
         "source_name": "NewsNow"
       }
     },
     {
+      "story_id": "story_48d0df19f2cb",
+      "title": "CrankGPT — 基于本地人力支持的人工智能",
+      "url": "https://crankgpt.com",
+      "primary_url": "https://crankgpt.com",
+      "source": "crankgpt.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "2906793ca29f1c800d6d2ab9636f63e54bbb5c39",
+          "title": "CrankGPT — 基于本地人力支持的人工智能",
+          "url": "https://crankgpt.com",
+          "source": "crankgpt.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T16:45:24.007000Z"
+        },
+        {
+          "id": "0458cc80bb732979cfcb93cdbbffe62c420d6d7b",
+          "title": "CrankGPT — 基于本地人力支持的人工智能 / CrankGPT",
+          "url": "https://crankgpt.com",
+          "source": "crankgpt.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T15:09:19.779000Z"
+        },
+        {
+          "id": "7513eca5e0e20bcb28cb109eec29126b0bd106da",
+          "title": "CrankGPT — 基于本地人力支持的人工智能 / CrankGPT — Local Human-powered AI",
+          "url": "https://crankgpt.com",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-15T13:35:22Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Lobsters (技术社区)",
+        "crankgpt.com"
+      ],
+      "items": [
+        {
+          "id": "2906793ca29f1c800d6d2ab9636f63e54bbb5c39",
+          "title": "CrankGPT — 基于本地人力支持的人工智能",
+          "url": "https://crankgpt.com",
+          "source": "crankgpt.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T16:45:24.007000Z"
+        },
+        {
+          "id": "0458cc80bb732979cfcb93cdbbffe62c420d6d7b",
+          "title": "CrankGPT — 基于本地人力支持的人工智能 / CrankGPT",
+          "url": "https://crankgpt.com",
+          "source": "crankgpt.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T15:09:19.779000Z"
+        },
+        {
+          "id": "7513eca5e0e20bcb28cb109eec29126b0bd106da",
+          "title": "CrankGPT — 基于本地人力支持的人工智能 / CrankGPT — Local Human-powered AI",
+          "url": "https://crankgpt.com",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-15T13:35:22Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.553,
+      "importance": 0.553,
+      "importance_score": 0.553,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "source_tier": 0.32,
+        "recency": 0.9767,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-15T13:35:22Z",
+      "latest_at": "2026-06-15T16:45:24.007000Z",
+      "primary_item": {
+        "id": "2906793ca29f1c800d6d2ab9636f63e54bbb5c39",
+        "title": "CrankGPT — 基于本地人力支持的人工智能",
+        "url": "https://crankgpt.com",
+        "source": "crankgpt.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_75a0ca685b0a",
+      "title": "Iroh 1.0 - 拨号键，而非 IP 地址",
+      "url": "https://www.iroh.computer/blog/v1",
+      "primary_url": "https://www.iroh.computer/blog/v1",
+      "source": "www.iroh.computer",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "51237cff362e7aa6721c3d64cf07a6464349f923",
+          "title": "Iroh 1.0 - 拨号键，而非 IP 地址",
+          "url": "https://www.iroh.computer/blog/v1",
+          "source": "www.iroh.computer",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T15:57:17.823000Z"
+        },
+        {
+          "id": "9c45e07365f2f58e0b039aa07976bfe9cdab06a5",
+          "title": "Iroh 1.0",
+          "url": "https://www.iroh.computer/blog/v1",
+          "source": "www.iroh.computer",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T15:57:17.274000Z"
+        },
+        {
+          "id": "11fda5957ee164d271b4d5da82d9006ab35cbd54",
+          "title": "Iroh 1.0 - 拨号键，而非 IP 地址 / Iroh 1.0 - Dial Keys, not IPs",
+          "url": "https://www.iroh.computer/blog/v1",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-15T15:35:08Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Lobsters (技术社区)",
+        "www.iroh.computer"
+      ],
+      "items": [
+        {
+          "id": "51237cff362e7aa6721c3d64cf07a6464349f923",
+          "title": "Iroh 1.0 - 拨号键，而非 IP 地址",
+          "url": "https://www.iroh.computer/blog/v1",
+          "source": "www.iroh.computer",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T15:57:17.823000Z"
+        },
+        {
+          "id": "9c45e07365f2f58e0b039aa07976bfe9cdab06a5",
+          "title": "Iroh 1.0",
+          "url": "https://www.iroh.computer/blog/v1",
+          "source": "www.iroh.computer",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T15:57:17.274000Z"
+        },
+        {
+          "id": "11fda5957ee164d271b4d5da82d9006ab35cbd54",
+          "title": "Iroh 1.0 - 拨号键，而非 IP 地址 / Iroh 1.0 - Dial Keys, not IPs",
+          "url": "https://www.iroh.computer/blog/v1",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-15T15:35:08Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.543,
+      "importance": 0.543,
+      "importance_score": 0.543,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "source_tier": 0.32,
+        "recency": 0.9433,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-15T15:35:08Z",
+      "latest_at": "2026-06-15T15:57:17.823000Z",
+      "primary_item": {
+        "id": "51237cff362e7aa6721c3d64cf07a6464349f923",
+        "title": "Iroh 1.0 - 拨号键，而非 IP 地址",
+        "url": "https://www.iroh.computer/blog/v1",
+        "source": "www.iroh.computer",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_efa174499cc7",
+      "title": "裸盖菇素成功治疗阿尔茨海默病",
+      "url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2026.1813281/full",
+      "primary_url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2026.1813281/full",
+      "source": "www.frontiersin.org",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "6cd181725b48c8c69d445d771653172f5e81ca8b",
+          "title": "裸盖菇素成功治疗阿尔茨海默病",
+          "url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2026.1813281/full",
+          "source": "www.frontiersin.org",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T15:57:17.270000Z"
+        },
+        {
+          "id": "8ea4990b2695da4bf680152418970d102312e0e7",
+          "title": "裸盖菇素成功治疗阿尔茨海默病 / Improvement in advanced Alzheimer’s disease following high-dose psilocybin",
+          "url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2026.1813281/full",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-15T06:52:21Z"
+        },
+        {
+          "id": "f971533de33e3876555e978c27724ec1f90ec03f",
+          "title": "裸盖菇素成功治疗阿尔茨海默病 / Successful Psilocybin Treatment of Alzheimer",
+          "url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2026.1813281/full",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-15T06:52:21Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "www.frontiersin.org"
+      ],
+      "items": [
+        {
+          "id": "6cd181725b48c8c69d445d771653172f5e81ca8b",
+          "title": "裸盖菇素成功治疗阿尔茨海默病",
+          "url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2026.1813281/full",
+          "source": "www.frontiersin.org",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T15:57:17.270000Z"
+        },
+        {
+          "id": "8ea4990b2695da4bf680152418970d102312e0e7",
+          "title": "裸盖菇素成功治疗阿尔茨海默病 / Improvement in advanced Alzheimer’s disease following high-dose psilocybin",
+          "url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2026.1813281/full",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-15T06:52:21Z"
+        },
+        {
+          "id": "f971533de33e3876555e978c27724ec1f90ec03f",
+          "title": "裸盖菇素成功治疗阿尔茨海默病 / Successful Psilocybin Treatment of Alzheimer",
+          "url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2026.1813281/full",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-15T06:52:21Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.543,
+      "importance": 0.543,
+      "importance_score": 0.543,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "source_tier": 0.32,
+        "recency": 0.9433,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-15T06:52:21Z",
+      "latest_at": "2026-06-15T15:57:17.270000Z",
+      "primary_item": {
+        "id": "6cd181725b48c8c69d445d771653172f5e81ca8b",
+        "title": "裸盖菇素成功治疗阿尔茨海默病",
+        "url": "https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2026.1813281/full",
+        "source": "www.frontiersin.org",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_7783380316ff",
+      "title": "Salesforce将以36亿美元收购Fin（原Intercom）",
+      "url": "https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin/?bc=HL",
+      "primary_url": "https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin/?bc=HL",
+      "source": "www.salesforce.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "a4983428817ecfe67f911ed56f0381572c910af0",
+          "title": "Salesforce将以36亿美元收购Fin（原Intercom）",
+          "url": "https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin/?bc=HL",
+          "source": "www.salesforce.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T14:05:22.307000Z"
+        },
+        {
+          "id": "823145bd509f014fbbd1e47fa4d65235a129be71",
+          "title": "Salesforce 將以 36 億美元收購 Fin（前身為 Intercom） / Salesforce to Acquire Fin (formerly Intercom) for $3.6BN",
+          "url": "https://news.ycombinator.com/item?id=48540126",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-15T13:48:53Z"
+        },
+        {
+          "id": "82cd1a2eb99ea3797202264019f732b7862d3c9b",
+          "title": "Salesforce将以36亿美元收购Fin（原Intercom） / Salesforce to Acquire Fin (formerly Intercom) for $3.6BN",
+          "url": "https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin/?bc=HL",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-15T12:08:59Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "hackernews",
+        "www.salesforce.com"
+      ],
+      "items": [
+        {
+          "id": "a4983428817ecfe67f911ed56f0381572c910af0",
+          "title": "Salesforce将以36亿美元收购Fin（原Intercom）",
+          "url": "https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin/?bc=HL",
+          "source": "www.salesforce.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T14:05:22.307000Z"
+        },
+        {
+          "id": "823145bd509f014fbbd1e47fa4d65235a129be71",
+          "title": "Salesforce 將以 36 億美元收購 Fin（前身為 Intercom） / Salesforce to Acquire Fin (formerly Intercom) for $3.6BN",
+          "url": "https://news.ycombinator.com/item?id=48540126",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-15T13:48:53Z"
+        },
+        {
+          "id": "82cd1a2eb99ea3797202264019f732b7862d3c9b",
+          "title": "Salesforce将以36亿美元收购Fin（原Intercom） / Salesforce to Acquire Fin (formerly Intercom) for $3.6BN",
+          "url": "https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin/?bc=HL",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-15T12:08:59Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5197,
+      "importance": 0.5197,
+      "importance_score": 0.5197,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "source_tier": 0.32,
+        "recency": 0.8655,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-15T12:08:59Z",
+      "latest_at": "2026-06-15T14:05:22.307000Z",
+      "primary_item": {
+        "id": "a4983428817ecfe67f911ed56f0381572c910af0",
+        "title": "Salesforce将以36亿美元收购Fin（原Intercom）",
+        "url": "https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin/?bc=HL",
+        "source": "www.salesforce.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_f6fd7d7e12f3",
+      "title": "MONOLITH：一款面向 x86 架构的实验性非 Unix 操作系统",
+      "url": "https://codeberg.org/MONOLITH-Project/MONOLITH",
+      "primary_url": "https://codeberg.org/MONOLITH-Project/MONOLITH",
+      "source": "codeberg.org",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "36c57aae61c39cb63453d8205f5d0bd242b7a984",
+          "title": "MONOLITH：一款面向 x86 架构的实验性非 Unix 操作系统",
+          "url": "https://codeberg.org/MONOLITH-Project/MONOLITH",
+          "source": "codeberg.org",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T17:01:18.869000Z"
+        },
+        {
+          "id": "1b104e13f037dd1dcfb81528d793564bfd9d0303",
+          "title": "MONOLITH：一款面向 x86 架构的实验性非 Unix 操作系统 / MONOLITH: An experimental non-Unix operating system for x86",
+          "url": "https://codeberg.org/MONOLITH-Project/MONOLITH",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-15T16:54:04Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Lobsters (技术社区)",
+        "codeberg.org"
+      ],
+      "items": [
+        {
+          "id": "36c57aae61c39cb63453d8205f5d0bd242b7a984",
+          "title": "MONOLITH：一款面向 x86 架构的实验性非 Unix 操作系统",
+          "url": "https://codeberg.org/MONOLITH-Project/MONOLITH",
+          "source": "codeberg.org",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T17:01:18.869000Z"
+        },
+        {
+          "id": "1b104e13f037dd1dcfb81528d793564bfd9d0303",
+          "title": "MONOLITH：一款面向 x86 架构的实验性非 Unix 操作系统 / MONOLITH: An experimental non-Unix operating system for x86",
+          "url": "https://codeberg.org/MONOLITH-Project/MONOLITH",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-15T16:54:04Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5063,
+      "importance": 0.5063,
+      "importance_score": 0.5063,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.32,
+        "recency": 0.9877,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-15T16:54:04Z",
+      "latest_at": "2026-06-15T17:01:18.869000Z",
+      "primary_item": {
+        "id": "36c57aae61c39cb63453d8205f5d0bd242b7a984",
+        "title": "MONOLITH：一款面向 x86 架构的实验性非 Unix 操作系统",
+        "url": "https://codeberg.org/MONOLITH-Project/MONOLITH",
+        "source": "codeberg.org",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_3691f2fb1454",
+      "title": "美伊达成和平协议后，股市大涨，油价下跌",
+      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-06-14",
+      "primary_url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-06-14",
+      "source": "www.reuters.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "aba9a171b98205b81559fa8ef895647256d4efa4",
+          "title": "美伊达成和平协议后，股市大涨，油价下跌",
+          "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-06-14",
+          "source": "www.reuters.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T17:01:21.902000Z"
+        },
+        {
+          "id": "d8bef8d756218b7730f4f2a582ba6bcea3a95ce6",
+          "title": "受伊朗核协议影响，油价下跌，股市和债市应声上涨",
+          "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-06-14",
+          "source": "www.reuters.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T13:33:26.852000Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "www.reuters.com"
+      ],
+      "items": [
+        {
+          "id": "aba9a171b98205b81559fa8ef895647256d4efa4",
+          "title": "美伊达成和平协议后，股市大涨，油价下跌",
+          "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-06-14",
+          "source": "www.reuters.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T17:01:21.902000Z"
+        },
+        {
+          "id": "d8bef8d756218b7730f4f2a582ba6bcea3a95ce6",
+          "title": "受伊朗核协议影响，油价下跌，股市和债市应声上涨",
+          "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-06-14",
+          "source": "www.reuters.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T13:33:26.852000Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5063,
+      "importance": 0.5063,
+      "importance_score": 0.5063,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.32,
+        "recency": 0.9878,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-15T13:33:26.852000Z",
+      "latest_at": "2026-06-15T17:01:21.902000Z",
+      "primary_item": {
+        "id": "aba9a171b98205b81559fa8ef895647256d4efa4",
+        "title": "美伊达成和平协议后，股市大涨，油价下跌",
+        "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-06-14",
+        "source": "www.reuters.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
       "story_id": "story_65c95f2a6c8a",
-      "title": "你的 ePub 文件没问题。但 Kobo 不这么认为。这得怪 Adobe。 / Your EPUB Is Fine. Kobo Disagrees. Blame Adobe",
+      "title": "你的 EPUB 文件没问题。但 Kobo 不这么认为。这得怪 Adobe。 / Your EPUB Is Fine. Kobo Disagrees. Blame Adobe",
       "url": "https://andreklein.net/your-epub-is-fine-kobo-disagrees-blame-adobe",
       "primary_url": "https://andreklein.net/your-epub-is-fine-kobo-disagrees-blame-adobe",
       "source": "Lobsters (技术社区)",
@@ -223,7 +890,7 @@
       "sources": [
         {
           "id": "03ba5facf70403244bf7ff7d00b252b4e178116f",
-          "title": "你的 ePub 文件没问题。但 Kobo 不这么认为。这得怪 Adobe。 / Your EPUB Is Fine. Kobo Disagrees. Blame Adobe",
+          "title": "你的 EPUB 文件没问题。但 Kobo 不这么认为。这得怪 Adobe。 / Your EPUB Is Fine. Kobo Disagrees. Blame Adobe",
           "url": "https://andreklein.net/your-epub-is-fine-kobo-disagrees-blame-adobe",
           "source": "Lobsters (技术社区)",
           "source_name": "Info Flow",
@@ -232,7 +899,7 @@
         },
         {
           "id": "365e97932e946b2e954fd850705ab107ace61ca7",
-          "title": "你的 ePub 文件没问题。但 Kobo 不这么认为。这得怪 Adobe。",
+          "title": "你的 EPUB 文件没问题。但 Kobo 不这么认为。这得怪 Adobe。",
           "url": "https://andreklein.net/your-epub-is-fine-kobo-disagrees-blame-adobe",
           "source": "andreklein.net",
           "source_name": "Buzzing",
@@ -241,7 +908,7 @@
         },
         {
           "id": "bc74c8d472081fa9eb0afacb8298ff9a6fe028e4",
-          "title": "你的 ePub 文件没问题。但 Kobo 不这么认为。这得怪 Adobe。 / Your ePub Is fine",
+          "title": "你的 EPUB 文件没问题。但 Kobo 不这么认为。这得怪 Adobe。 / Your ePub Is fine",
           "url": "https://andreklein.net/your-epub-is-fine-kobo-disagrees-blame-adobe",
           "source": "Hacker News (黑客新闻)",
           "source_name": "Info Flow",
@@ -258,7 +925,7 @@
       "items": [
         {
           "id": "03ba5facf70403244bf7ff7d00b252b4e178116f",
-          "title": "你的 ePub 文件没问题。但 Kobo 不这么认为。这得怪 Adobe。 / Your EPUB Is Fine. Kobo Disagrees. Blame Adobe",
+          "title": "你的 EPUB 文件没问题。但 Kobo 不这么认为。这得怪 Adobe。 / Your EPUB Is Fine. Kobo Disagrees. Blame Adobe",
           "url": "https://andreklein.net/your-epub-is-fine-kobo-disagrees-blame-adobe",
           "source": "Lobsters (技术社区)",
           "source_name": "Info Flow",
@@ -267,7 +934,7 @@
         },
         {
           "id": "365e97932e946b2e954fd850705ab107ace61ca7",
-          "title": "你的 ePub 文件没问题。但 Kobo 不这么认为。这得怪 Adobe。",
+          "title": "你的 EPUB 文件没问题。但 Kobo 不这么认为。这得怪 Adobe。",
           "url": "https://andreklein.net/your-epub-is-fine-kobo-disagrees-blame-adobe",
           "source": "andreklein.net",
           "source_name": "Buzzing",
@@ -276,7 +943,7 @@
         },
         {
           "id": "bc74c8d472081fa9eb0afacb8298ff9a6fe028e4",
-          "title": "你的 ePub 文件没问题。但 Kobo 不这么认为。这得怪 Adobe。 / Your ePub Is fine",
+          "title": "你的 EPUB 文件没问题。但 Kobo 不这么认为。这得怪 Adobe。 / Your ePub Is fine",
           "url": "https://andreklein.net/your-epub-is-fine-kobo-disagrees-blame-adobe",
           "source": "Hacker News (黑客新闻)",
           "source_name": "Info Flow",
@@ -286,13 +953,13 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5486,
-      "importance": 0.5486,
-      "importance_score": 0.5486,
+      "score": 0.5048,
+      "importance": 0.5048,
+      "importance_score": 0.5048,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.32,
-        "recency": 0.9621,
+        "recency": 0.8159,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -303,10 +970,393 @@
       "latest_at": "2026-06-15T12:53:51Z",
       "primary_item": {
         "id": "03ba5facf70403244bf7ff7d00b252b4e178116f",
-        "title": "你的 ePub 文件没问题。但 Kobo 不这么认为。这得怪 Adobe。 / Your EPUB Is Fine. Kobo Disagrees. Blame Adobe",
+        "title": "你的 EPUB 文件没问题。但 Kobo 不这么认为。这得怪 Adobe。 / Your EPUB Is Fine. Kobo Disagrees. Blame Adobe",
         "url": "https://andreklein.net/your-epub-is-fine-kobo-disagrees-blame-adobe",
         "source": "Lobsters (技术社区)",
         "source_name": "Info Flow"
+      }
+    },
+    {
+      "story_id": "story_9b923bf1f10f",
+      "title": "这张图表显示，福克斯收购Roku后，将形成一家流媒体巨头，其电视观众数量将超过Netflix",
+      "url": "https://www.businessinsider.com/fox-roku-deal-free-streaming-tv-viewership-hollywood-netflix-disney-2026-6",
+      "primary_url": "https://www.businessinsider.com/fox-roku-deal-free-streaming-tv-viewership-hollywood-netflix-disney-2026-6",
+      "source": "www.businessinsider.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "46a65957f27ad4a41406201cfe1fb1202758c95a",
+          "title": "这张图表显示，福克斯收购Roku后，将形成一家流媒体巨头，其电视观众数量将超过Netflix",
+          "url": "https://www.businessinsider.com/fox-roku-deal-free-streaming-tv-viewership-hollywood-netflix-disney-2026-6",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T16:45:24.687000Z"
+        },
+        {
+          "id": "deed44c1b48b944ad8ec4114a6ce0f6d4e11189d",
+          "title": "这张图表显示，福克斯收购Roku后，将形成一家流媒体巨头，其电视观众数量将超过Netflix / This chart shows how Fox buying Roku could create a media giant with more US TV viewership than Netflix",
+          "url": "https://www.businessinsider.com/fox-roku-deal-free-streaming-tv-viewership-hollywood-netflix-disney-2026-6",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-15T16:19:49Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Business Insider",
+        "www.businessinsider.com"
+      ],
+      "items": [
+        {
+          "id": "46a65957f27ad4a41406201cfe1fb1202758c95a",
+          "title": "这张图表显示，福克斯收购Roku后，将形成一家流媒体巨头，其电视观众数量将超过Netflix",
+          "url": "https://www.businessinsider.com/fox-roku-deal-free-streaming-tv-viewership-hollywood-netflix-disney-2026-6",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T16:45:24.687000Z"
+        },
+        {
+          "id": "deed44c1b48b944ad8ec4114a6ce0f6d4e11189d",
+          "title": "这张图表显示，福克斯收购Roku后，将形成一家流媒体巨头，其电视观众数量将超过Netflix / This chart shows how Fox buying Roku could create a media giant with more US TV viewership than Netflix",
+          "url": "https://www.businessinsider.com/fox-roku-deal-free-streaming-tv-viewership-hollywood-netflix-disney-2026-6",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-15T16:19:49Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.503,
+      "importance": 0.503,
+      "importance_score": 0.503,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.32,
+        "recency": 0.9767,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-15T16:19:49Z",
+      "latest_at": "2026-06-15T16:45:24.687000Z",
+      "primary_item": {
+        "id": "46a65957f27ad4a41406201cfe1fb1202758c95a",
+        "title": "这张图表显示，福克斯收购Roku后，将形成一家流媒体巨头，其电视观众数量将超过Netflix",
+        "url": "https://www.businessinsider.com/fox-roku-deal-free-streaming-tv-viewership-hollywood-netflix-disney-2026-6",
+        "source": "www.businessinsider.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_363debb0e8a0",
+      "title": "官员称，加沙地带巴勒斯坦人死亡人数已超过7.3万，而以色列在停火期间仍继续发动袭击 - PBS",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOOW5Bd29BMzMwWkt0SG9nOVBLTlV2eFltX3NwV0F4eFFMZmhlQU5vMTZ0UWpxdmN0blJhLXc3ZWxPV2wyTGMyLU42VVozb3lvLS1qVFBCUl9HZ043bmNveW1vdDgwQkZtYlRxSlBHOU1jWmw4UDloREVmTjVLVzZFZTJhSzRxLTJJV2duU2RWbDhDcUYwUGxxUnl0eTFEQVBEVjlHWGRFdFBEZDctR0Ixd3NzcGdlUm8wc0c0bDF3X1Zfb2pJ0gHKAUFVX3lxTE1WZ1d2aFdEaFA1cXFaQUV5eWE5cVkyM0ZmNVBfeGJmOXo3MkJZTDJYTGVvcHFXSk9nSk9LN2ctOFRadV8zNUQwX0luUzd2dWJnMWlvNEV2d2xyR09qUmdINlZVRnhZeDQxWC02MC1UOVhnQXdxekVoZkdBNnBZOXpMQWJJNFBkQmRQNGNnMzdwaEZLVzJEWkxoTnJOWXJoY1NwVjIxcDVRMjcwLWZJelNLRVI5eFFxcVRyQU54X2RpeEFlRWlEMExiM2c?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+      "primary_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOOW5Bd29BMzMwWkt0SG9nOVBLTlV2eFltX3NwV0F4eFFMZmhlQU5vMTZ0UWpxdmN0blJhLXc3ZWxPV2wyTGMyLU42VVozb3lvLS1qVFBCUl9HZ043bmNveW1vdDgwQkZtYlRxSlBHOU1jWmw4UDloREVmTjVLVzZFZTJhSzRxLTJJV2duU2RWbDhDcUYwUGxxUnl0eTFEQVBEVjlHWGRFdFBEZDctR0Ixd3NzcGdlUm8wc0c0bDF3X1Zfb2pJ0gHKAUFVX3lxTE1WZ1d2aFdEaFA1cXFaQUV5eWE5cVkyM0ZmNVBfeGJmOXo3MkJZTDJYTGVvcHFXSk9nSk9LN2ctOFRadV8zNUQwX0luUzd2dWJnMWlvNEV2d2xyR09qUmdINlZVRnhZeDQxWC02MC1UOVhnQXdxekVoZkdBNnBZOXpMQWJJNFBkQmRQNGNnMzdwaEZLVzJEWkxoTnJOWXJoY1NwVjIxcDVRMjcwLWZJelNLRVI5eFFxcVRyQU54X2RpeEFlRWlEMExiM2c?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+      "source": "news.google.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "a01ac300fff4a6fb3100756cf15905ec94498f2b",
+          "title": "官员称，加沙地带巴勒斯坦人死亡人数已超过7.3万，而以色列在停火期间仍继续发动袭击 - PBS",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOOW5Bd29BMzMwWkt0SG9nOVBLTlV2eFltX3NwV0F4eFFMZmhlQU5vMTZ0UWpxdmN0blJhLXc3ZWxPV2wyTGMyLU42VVozb3lvLS1qVFBCUl9HZ043bmNveW1vdDgwQkZtYlRxSlBHOU1jWmw4UDloREVmTjVLVzZFZTJhSzRxLTJJV2duU2RWbDhDcUYwUGxxUnl0eTFEQVBEVjlHWGRFdFBEZDctR0Ixd3NzcGdlUm8wc0c0bDF3X1Zfb2pJ0gHKAUFVX3lxTE1WZ1d2aFdEaFA1cXFaQUV5eWE5cVkyM0ZmNVBfeGJmOXo3MkJZTDJYTGVvcHFXSk9nSk9LN2ctOFRadV8zNUQwX0luUzd2dWJnMWlvNEV2d2xyR09qUmdINlZVRnhZeDQxWC02MC1UOVhnQXdxekVoZkdBNnBZOXpMQWJJNFBkQmRQNGNnMzdwaEZLVzJEWkxoTnJOWXJoY1NwVjIxcDVRMjcwLWZJelNLRVI5eFFxcVRyQU54X2RpeEFlRWlEMExiM2c?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+          "source": "news.google.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T16:29:18.468000Z"
+        },
+        {
+          "id": "d6f8a05ed1e22f01c6968ff7ad442b6c1a9ea5f5",
+          "title": "官员称，加沙地带巴勒斯坦人死亡人数已超过7.3万，尽管已达成停火协议，以色列仍继续发动袭击 - PBS",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOOW5Bd29BMzMwWkt0SG9nOVBLTlV2eFltX3NwV0F4eFFMZmhlQU5vMTZ0UWpxdmN0blJhLXc3ZWxPV2wyTGMyLU42VVozb3lvLS1qVFBCUl9HZ043bmNveW1vdDgwQkZtYlRxSlBHOU1jWmw4UDloREVmTjVLVzZFZTJhSzRxLTJJV2duU2RWbDhDcUYwUGxxUnl0eTFEQVBEVjlHWGRFdFBEZDctR0Ixd3NzcGdlUm8wc0c0bDF3X1Zfb2pJ0gHKAUFVX3lxTE1WZ1d2aFdEaFA1cXFaQUV5eWE5cVkyM0ZmNVBfeGJmOXo3MkJZTDJYTGVvcHFXSk9nSk9LN2ctOFRadV8zNUQwX0luUzd2dWJnMWlvNEV2d2xyR09qUmdINlZVRnhZeDQxWC02MC1UOVhnQXdxekVoZkdBNnBZOXpMQWJJNFBkQmRQNGNnMzdwaEZLVzJEWkxoTnJOWXJoY1NwVjIxcDVRMjcwLWZJelNLRVI5eFFxcVRyQU54X2RpeEFlRWlEMExiM2c?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+          "source": "news.google.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T16:29:18.333000Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "news.google.com"
+      ],
+      "items": [
+        {
+          "id": "a01ac300fff4a6fb3100756cf15905ec94498f2b",
+          "title": "官员称，加沙地带巴勒斯坦人死亡人数已超过7.3万，而以色列在停火期间仍继续发动袭击 - PBS",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOOW5Bd29BMzMwWkt0SG9nOVBLTlV2eFltX3NwV0F4eFFMZmhlQU5vMTZ0UWpxdmN0blJhLXc3ZWxPV2wyTGMyLU42VVozb3lvLS1qVFBCUl9HZ043bmNveW1vdDgwQkZtYlRxSlBHOU1jWmw4UDloREVmTjVLVzZFZTJhSzRxLTJJV2duU2RWbDhDcUYwUGxxUnl0eTFEQVBEVjlHWGRFdFBEZDctR0Ixd3NzcGdlUm8wc0c0bDF3X1Zfb2pJ0gHKAUFVX3lxTE1WZ1d2aFdEaFA1cXFaQUV5eWE5cVkyM0ZmNVBfeGJmOXo3MkJZTDJYTGVvcHFXSk9nSk9LN2ctOFRadV8zNUQwX0luUzd2dWJnMWlvNEV2d2xyR09qUmdINlZVRnhZeDQxWC02MC1UOVhnQXdxekVoZkdBNnBZOXpMQWJJNFBkQmRQNGNnMzdwaEZLVzJEWkxoTnJOWXJoY1NwVjIxcDVRMjcwLWZJelNLRVI5eFFxcVRyQU54X2RpeEFlRWlEMExiM2c?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+          "source": "news.google.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T16:29:18.468000Z"
+        },
+        {
+          "id": "d6f8a05ed1e22f01c6968ff7ad442b6c1a9ea5f5",
+          "title": "官员称，加沙地带巴勒斯坦人死亡人数已超过7.3万，尽管已达成停火协议，以色列仍继续发动袭击 - PBS",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOOW5Bd29BMzMwWkt0SG9nOVBLTlV2eFltX3NwV0F4eFFMZmhlQU5vMTZ0UWpxdmN0blJhLXc3ZWxPV2wyTGMyLU42VVozb3lvLS1qVFBCUl9HZ043bmNveW1vdDgwQkZtYlRxSlBHOU1jWmw4UDloREVmTjVLVzZFZTJhSzRxLTJJV2duU2RWbDhDcUYwUGxxUnl0eTFEQVBEVjlHWGRFdFBEZDctR0Ixd3NzcGdlUm8wc0c0bDF3X1Zfb2pJ0gHKAUFVX3lxTE1WZ1d2aFdEaFA1cXFaQUV5eWE5cVkyM0ZmNVBfeGJmOXo3MkJZTDJYTGVvcHFXSk9nSk9LN2ctOFRadV8zNUQwX0luUzd2dWJnMWlvNEV2d2xyR09qUmdINlZVRnhZeDQxWC02MC1UOVhnQXdxekVoZkdBNnBZOXpMQWJJNFBkQmRQNGNnMzdwaEZLVzJEWkxoTnJOWXJoY1NwVjIxcDVRMjcwLWZJelNLRVI5eFFxcVRyQU54X2RpeEFlRWlEMExiM2c?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+          "source": "news.google.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T16:29:18.333000Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.4996,
+      "importance": 0.4996,
+      "importance_score": 0.4996,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.32,
+        "recency": 0.9655,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-15T16:29:18.333000Z",
+      "latest_at": "2026-06-15T16:29:18.468000Z",
+      "primary_item": {
+        "id": "a01ac300fff4a6fb3100756cf15905ec94498f2b",
+        "title": "官员称，加沙地带巴勒斯坦人死亡人数已超过7.3万，而以色列在停火期间仍继续发动袭击 - PBS",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOOW5Bd29BMzMwWkt0SG9nOVBLTlV2eFltX3NwV0F4eFFMZmhlQU5vMTZ0UWpxdmN0blJhLXc3ZWxPV2wyTGMyLU42VVozb3lvLS1qVFBCUl9HZ043bmNveW1vdDgwQkZtYlRxSlBHOU1jWmw4UDloREVmTjVLVzZFZTJhSzRxLTJJV2duU2RWbDhDcUYwUGxxUnl0eTFEQVBEVjlHWGRFdFBEZDctR0Ixd3NzcGdlUm8wc0c0bDF3X1Zfb2pJ0gHKAUFVX3lxTE1WZ1d2aFdEaFA1cXFaQUV5eWE5cVkyM0ZmNVBfeGJmOXo3MkJZTDJYTGVvcHFXSk9nSk9LN2ctOFRadV8zNUQwX0luUzd2dWJnMWlvNEV2d2xyR09qUmdINlZVRnhZeDQxWC02MC1UOVhnQXdxekVoZkdBNnBZOXpMQWJJNFBkQmRQNGNnMzdwaEZLVzJEWkxoTnJOWXJoY1NwVjIxcDVRMjcwLWZJelNLRVI5eFFxcVRyQU54X2RpeEFlRWlEMExiM2c?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+        "source": "news.google.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_6b6e5cd934e5",
+      "title": "Show HN: machine0 – 您可通过命令行控制的持久化 NixOS 虚拟机",
+      "url": "https://machine0.io",
+      "primary_url": "https://machine0.io",
+      "source": "machine0.io",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "0f27a62791462293c4e6cbaa974b30905127de8b",
+          "title": "Show HN: machine0 – 您可通过命令行控制的持久化 NixOS 虚拟机",
+          "url": "https://machine0.io",
+          "source": "machine0.io",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T16:13:14.413000Z"
+        },
+        {
+          "id": "425067984c0b1bb48d9a3e95fe52bbcb6a53dbc2",
+          "title": "Show HN: machine0 – 您可通过命令行控制的持久化 NixOS 虚拟机 / Show HN: machine0 – Persistent NixOS VMs You Control from the CLI",
+          "url": "https://machine0.io",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-15T16:01:43Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "machine0.io"
+      ],
+      "items": [
+        {
+          "id": "0f27a62791462293c4e6cbaa974b30905127de8b",
+          "title": "Show HN: machine0 – 您可通过命令行控制的持久化 NixOS 虚拟机",
+          "url": "https://machine0.io",
+          "source": "machine0.io",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T16:13:14.413000Z"
+        },
+        {
+          "id": "425067984c0b1bb48d9a3e95fe52bbcb6a53dbc2",
+          "title": "Show HN: machine0 – 您可通过命令行控制的持久化 NixOS 虚拟机 / Show HN: machine0 – Persistent NixOS VMs You Control from the CLI",
+          "url": "https://machine0.io",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-15T16:01:43Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.4963,
+      "importance": 0.4963,
+      "importance_score": 0.4963,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.32,
+        "recency": 0.9543,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-15T16:01:43Z",
+      "latest_at": "2026-06-15T16:13:14.413000Z",
+      "primary_item": {
+        "id": "0f27a62791462293c4e6cbaa974b30905127de8b",
+        "title": "Show HN: machine0 – 您可通过命令行控制的持久化 NixOS 虚拟机",
+        "url": "https://machine0.io",
+        "source": "machine0.io",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_d944d8d60fea",
+      "title": "标普500指数有望创下4月以来最大单日涨幅，油价下跌：市场综述",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-14/us-futures-climb-oil-falls-on-iran-peace-deal-markets-wrap",
+      "primary_url": "https://www.bloomberg.com/news/articles/2026-06-14/us-futures-climb-oil-falls-on-iran-peace-deal-markets-wrap",
+      "source": "www.bloomberg.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "02f017f992b96592a865b565afb02c46bf85e389",
+          "title": "标普500指数有望创下4月以来最大单日涨幅，油价下跌：市场综述",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-14/us-futures-climb-oil-falls-on-iran-peace-deal-markets-wrap",
+          "source": "www.bloomberg.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T16:13:15.221000Z"
+        },
+        {
+          "id": "f022aa428e079f7169ae408bad0f4569c95d452d",
+          "title": "美伊协议拖累油价，股市随债券同步走高：市场综述",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-14/us-futures-climb-oil-falls-on-iran-peace-deal-markets-wrap",
+          "source": "www.bloomberg.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T13:33:26.791000Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "www.bloomberg.com"
+      ],
+      "items": [
+        {
+          "id": "02f017f992b96592a865b565afb02c46bf85e389",
+          "title": "标普500指数有望创下4月以来最大单日涨幅，油价下跌：市场综述",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-14/us-futures-climb-oil-falls-on-iran-peace-deal-markets-wrap",
+          "source": "www.bloomberg.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T16:13:15.221000Z"
+        },
+        {
+          "id": "f022aa428e079f7169ae408bad0f4569c95d452d",
+          "title": "美伊协议拖累油价，股市随债券同步走高：市场综述",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-14/us-futures-climb-oil-falls-on-iran-peace-deal-markets-wrap",
+          "source": "www.bloomberg.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T13:33:26.791000Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.4963,
+      "importance": 0.4963,
+      "importance_score": 0.4963,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.32,
+        "recency": 0.9543,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-15T13:33:26.791000Z",
+      "latest_at": "2026-06-15T16:13:15.221000Z",
+      "primary_item": {
+        "id": "02f017f992b96592a865b565afb02c46bf85e389",
+        "title": "标普500指数有望创下4月以来最大单日涨幅，油价下跌：市场综述",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-14/us-futures-climb-oil-falls-on-iran-peace-deal-markets-wrap",
+        "source": "www.bloomberg.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_dfdce52ace3c",
+      "title": "西班牙F1站：一场老派的战术较量依然令人热血沸腾",
+      "url": "https://arstechnica.com/cars/2026/06/f1-in-spain-an-old-fashioned-strategy-fight-can-still-be-thrilling",
+      "primary_url": "https://arstechnica.com/cars/2026/06/f1-in-spain-an-old-fashioned-strategy-fight-can-still-be-thrilling",
+      "source": "arstechnica.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "d2e3927d8b089081f0ac26f9b02a669f5a228b2d",
+          "title": "西班牙F1站：一场老派的战术较量依然令人热血沸腾",
+          "url": "https://arstechnica.com/cars/2026/06/f1-in-spain-an-old-fashioned-strategy-fight-can-still-be-thrilling",
+          "source": "arstechnica.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T16:13:16.035000Z"
+        },
+        {
+          "id": "d10446ee6530c21c54b8773853e73e2f28089f74",
+          "title": "西班牙F1站：一场老派的战术较量依然令人热血沸腾 / F1 in Spain: An old-fashioned strategy fight can still be thrilling",
+          "url": "https://arstechnica.com/cars/2026/06/f1-in-spain-an-old-fashioned-strategy-fight-can-still-be-thrilling",
+          "source": "Ars Technica (科技媒体)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-15T15:25:17Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Ars Technica (科技媒体)",
+        "arstechnica.com"
+      ],
+      "items": [
+        {
+          "id": "d2e3927d8b089081f0ac26f9b02a669f5a228b2d",
+          "title": "西班牙F1站：一场老派的战术较量依然令人热血沸腾",
+          "url": "https://arstechnica.com/cars/2026/06/f1-in-spain-an-old-fashioned-strategy-fight-can-still-be-thrilling",
+          "source": "arstechnica.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T16:13:16.035000Z"
+        },
+        {
+          "id": "d10446ee6530c21c54b8773853e73e2f28089f74",
+          "title": "西班牙F1站：一场老派的战术较量依然令人热血沸腾 / F1 in Spain: An old-fashioned strategy fight can still be thrilling",
+          "url": "https://arstechnica.com/cars/2026/06/f1-in-spain-an-old-fashioned-strategy-fight-can-still-be-thrilling",
+          "source": "Ars Technica (科技媒体)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-15T15:25:17Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.4963,
+      "importance": 0.4963,
+      "importance_score": 0.4963,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.32,
+        "recency": 0.9544,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-15T15:25:17Z",
+      "latest_at": "2026-06-15T16:13:16.035000Z",
+      "primary_item": {
+        "id": "d2e3927d8b089081f0ac26f9b02a669f5a228b2d",
+        "title": "西班牙F1站：一场老派的战术较量依然令人热血沸腾",
+        "url": "https://arstechnica.com/cars/2026/06/f1-in-spain-an-old-fashioned-strategy-fight-can-still-be-thrilling",
+        "source": "arstechnica.com",
+        "source_name": "Buzzing"
       }
     },
     {
@@ -400,13 +1450,13 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.5368,
-      "importance": 0.5368,
-      "importance_score": 0.5368,
+      "score": 0.493,
+      "importance": 0.493,
+      "importance_score": 0.493,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.32,
-        "recency": 0.7561,
+        "recency": 0.6098,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -424,30 +1474,184 @@
       }
     },
     {
-      "story_id": "story_d8d5767153c4",
-      "title": "“也门蜘蛛侠”坠入火山口身亡",
-      "url": "https://www.bbc.com/news/articles/c39yvz9w8k3o?at_medium=RSS&at_campaign=rss",
-      "primary_url": "https://www.bbc.com/news/articles/c39yvz9w8k3o?at_medium=RSS&at_campaign=rss",
+      "story_id": "story_4059b8caad6e",
+      "title": "芯片制造商英伟达计划通过自2021年以来首次债券发行筹集逾200亿美元",
+      "url": "https://www.ft.com/content/c0e7cc58-e309-4f47-b466-d577c06cbeec",
+      "primary_url": "https://www.ft.com/content/c0e7cc58-e309-4f47-b466-d577c06cbeec",
+      "source": "www.ft.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "0fcdfab6444d762d409c3add9efa8ca1c9f2624c",
+          "title": "芯片制造商英伟达计划通过自2021年以来首次债券发行筹集逾200亿美元",
+          "url": "https://www.ft.com/content/c0e7cc58-e309-4f47-b466-d577c06cbeec",
+          "source": "www.ft.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T15:57:18.010000Z"
+        },
+        {
+          "id": "f0ef8f0ea9b8f2d2669eee39e1d8ebc71c4eefb8",
+          "title": "英伟达计划通过自2021年以来首次企业债券发行筹集200亿美元",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-targets-20-billion-first-130429552.html",
+          "source": "finance.yahoo.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T13:33:26.670000Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "finance.yahoo.com",
+        "www.ft.com"
+      ],
+      "items": [
+        {
+          "id": "0fcdfab6444d762d409c3add9efa8ca1c9f2624c",
+          "title": "芯片制造商英伟达计划通过自2021年以来首次债券发行筹集逾200亿美元",
+          "url": "https://www.ft.com/content/c0e7cc58-e309-4f47-b466-d577c06cbeec",
+          "source": "www.ft.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T15:57:18.010000Z"
+        },
+        {
+          "id": "f0ef8f0ea9b8f2d2669eee39e1d8ebc71c4eefb8",
+          "title": "英伟达计划通过自2021年以来首次企业债券发行筹集200亿美元",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-targets-20-billion-first-130429552.html",
+          "source": "finance.yahoo.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T13:33:26.670000Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.493,
+      "importance": 0.493,
+      "importance_score": 0.493,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.32,
+        "recency": 0.9433,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-15T13:33:26.670000Z",
+      "latest_at": "2026-06-15T15:57:18.010000Z",
+      "primary_item": {
+        "id": "0fcdfab6444d762d409c3add9efa8ca1c9f2624c",
+        "title": "芯片制造商英伟达计划通过自2021年以来首次债券发行筹集逾200亿美元",
+        "url": "https://www.ft.com/content/c0e7cc58-e309-4f47-b466-d577c06cbeec",
+        "source": "www.ft.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_333634e5522f",
+      "title": "Emacs，一切的开始（对我而言）",
+      "url": "https://xvw.lol/en/articles/emacs-start.html",
+      "primary_url": "https://xvw.lol/en/articles/emacs-start.html",
+      "source": "xvw.lol",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "3a51e1625d32a3c5498bd0c4de306f80602db386",
+          "title": "Emacs，一切的开始（对我而言）",
+          "url": "https://xvw.lol/en/articles/emacs-start.html",
+          "source": "xvw.lol",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T15:41:25.261000Z"
+        },
+        {
+          "id": "628d4254ca427b64348309138bf25e15fabc76e7",
+          "title": "Emacs，一切的开始（对我而言） / Emacs, how it all started (for me)",
+          "url": "https://xvw.lol/en/articles/emacs-start.html",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-15T15:31:34Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Lobsters (技术社区)",
+        "xvw.lol"
+      ],
+      "items": [
+        {
+          "id": "3a51e1625d32a3c5498bd0c4de306f80602db386",
+          "title": "Emacs，一切的开始（对我而言）",
+          "url": "https://xvw.lol/en/articles/emacs-start.html",
+          "source": "xvw.lol",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T15:41:25.261000Z"
+        },
+        {
+          "id": "628d4254ca427b64348309138bf25e15fabc76e7",
+          "title": "Emacs，一切的开始（对我而言） / Emacs, how it all started (for me)",
+          "url": "https://xvw.lol/en/articles/emacs-start.html",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-15T15:31:34Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.4897,
+      "importance": 0.4897,
+      "importance_score": 0.4897,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.32,
+        "recency": 0.9322,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-15T15:31:34Z",
+      "latest_at": "2026-06-15T15:41:25.261000Z",
+      "primary_item": {
+        "id": "3a51e1625d32a3c5498bd0c4de306f80602db386",
+        "title": "Emacs，一切的开始（对我而言）",
+        "url": "https://xvw.lol/en/articles/emacs-start.html",
+        "source": "xvw.lol",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_0a983ab93c09",
+      "title": "国际足联就VAR官员的手势要求其作出解释",
+      "url": "https://www.bbc.com/sport/football/articles/cy9rd8g1lwzo?at_medium=RSS&at_campaign=rss",
+      "primary_url": "https://www.bbc.com/sport/football/articles/cy9rd8g1lwzo?at_medium=RSS&at_campaign=rss",
       "source": "www.bbc.com",
       "source_name": "Buzzing",
       "sources": [
         {
-          "id": "3ace4c07ed02143a76f1ab1da8ce17d9e4f7490a",
-          "title": "“也门蜘蛛侠”坠入火山口身亡",
-          "url": "https://www.bbc.com/news/articles/c39yvz9w8k3o?at_medium=RSS&at_campaign=rss",
+          "id": "29f27e1cd4e06212898c10abed0db857277147bd",
+          "title": "国际足联就VAR官员的手势要求其作出解释",
+          "url": "https://www.bbc.com/sport/football/articles/cy9rd8g1lwzo?at_medium=RSS&at_campaign=rss",
           "source": "www.bbc.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-06-15T13:17:13.596000Z"
+          "published_at": "2026-06-15T15:41:25.630000Z"
         },
         {
-          "id": "5e6872ae7e7c6bc5bf079fe0cb7c76ae8a5b5180",
-          "title": "“也门蜘蛛侠”坠入火山口身亡 / 'Spider-Man of Yemen' dies falling into volcanic crater",
-          "url": "https://www.bbc.com/news/articles/c39yvz9w8k3o?at_medium=RSS&at_campaign=rss",
+          "id": "c607a1784824bbe18bb425eeca45b9e283c5a83c",
+          "title": "国际足联就VAR官员的手势要求其作出解释 / Fifa seeks explanation over VAR official's hand gesture",
+          "url": "https://www.bbc.com/sport/football/articles/cy9rd8g1lwzo?at_medium=RSS&at_campaign=rss",
           "source": "BBC News (世界新闻)",
           "source_name": "Info Flow",
           "site_id": "iris",
-          "published_at": "2026-06-15T13:07:18Z"
+          "published_at": "2026-06-15T12:59:09Z"
         }
       ],
       "source_count": 2,
@@ -457,1219 +1661,143 @@
       ],
       "items": [
         {
-          "id": "3ace4c07ed02143a76f1ab1da8ce17d9e4f7490a",
-          "title": "“也门蜘蛛侠”坠入火山口身亡",
-          "url": "https://www.bbc.com/news/articles/c39yvz9w8k3o?at_medium=RSS&at_campaign=rss",
+          "id": "29f27e1cd4e06212898c10abed0db857277147bd",
+          "title": "国际足联就VAR官员的手势要求其作出解释",
+          "url": "https://www.bbc.com/sport/football/articles/cy9rd8g1lwzo?at_medium=RSS&at_campaign=rss",
           "source": "www.bbc.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-06-15T13:17:13.596000Z"
+          "published_at": "2026-06-15T15:41:25.630000Z"
         },
         {
-          "id": "5e6872ae7e7c6bc5bf079fe0cb7c76ae8a5b5180",
-          "title": "“也门蜘蛛侠”坠入火山口身亡 / 'Spider-Man of Yemen' dies falling into volcanic crater",
-          "url": "https://www.bbc.com/news/articles/c39yvz9w8k3o?at_medium=RSS&at_campaign=rss",
+          "id": "c607a1784824bbe18bb425eeca45b9e283c5a83c",
+          "title": "国际足联就VAR官员的手势要求其作出解释 / Fifa seeks explanation over VAR official's hand gesture",
+          "url": "https://www.bbc.com/sport/football/articles/cy9rd8g1lwzo?at_medium=RSS&at_campaign=rss",
           "source": "BBC News (世界新闻)",
           "source_name": "Info Flow",
           "site_id": "iris",
-          "published_at": "2026-06-15T13:07:18Z"
+          "published_at": "2026-06-15T12:59:09Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5035,
-      "importance": 0.5035,
-      "importance_score": 0.5035,
+      "score": 0.4897,
+      "importance": 0.4897,
+      "importance_score": 0.4897,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.32,
-        "recency": 0.9784,
+        "recency": 0.9322,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-15T13:07:18Z",
-      "latest_at": "2026-06-15T13:17:13.596000Z",
+      "earliest_at": "2026-06-15T12:59:09Z",
+      "latest_at": "2026-06-15T15:41:25.630000Z",
       "primary_item": {
-        "id": "3ace4c07ed02143a76f1ab1da8ce17d9e4f7490a",
-        "title": "“也门蜘蛛侠”坠入火山口身亡",
-        "url": "https://www.bbc.com/news/articles/c39yvz9w8k3o?at_medium=RSS&at_campaign=rss",
+        "id": "29f27e1cd4e06212898c10abed0db857277147bd",
+        "title": "国际足联就VAR官员的手势要求其作出解释",
+        "url": "https://www.bbc.com/sport/football/articles/cy9rd8g1lwzo?at_medium=RSS&at_campaign=rss",
         "source": "www.bbc.com",
         "source_name": "Buzzing"
       }
     },
     {
-      "story_id": "story_d5078970d961",
-      "title": "福克斯将以220亿美元收购流媒体集团Roku",
-      "url": "https://www.reuters.com/fr/affaires/fox-va-racheter-le-groupe-de-streaming-roku-pour-22-mds-2026-06-15",
-      "primary_url": "https://www.reuters.com/fr/affaires/fox-va-racheter-le-groupe-de-streaming-roku-pour-22-mds-2026-06-15",
-      "source": "www.reuters.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "aafe2095fe8dc433cd1e85e4cef5cd91620ca047",
-          "title": "福克斯将以220亿美元收购流媒体集团Roku",
-          "url": "https://www.reuters.com/fr/affaires/fox-va-racheter-le-groupe-de-streaming-roku-pour-22-mds-2026-06-15",
-          "source": "www.reuters.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T13:17:14.309000Z"
-        },
-        {
-          "id": "43908566fc6cfe129f35179a21e22bdef17609f8",
-          "title": "福克斯将以220亿美元收购流媒体公司Roku",
-          "url": "https://www.ft.com/content/9be374f2-3c20-435c-86a9-d919b0bf973b",
-          "source": "www.ft.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T11:41:04.848000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "www.ft.com",
-        "www.reuters.com"
-      ],
-      "items": [
-        {
-          "id": "aafe2095fe8dc433cd1e85e4cef5cd91620ca047",
-          "title": "福克斯将以220亿美元收购流媒体集团Roku",
-          "url": "https://www.reuters.com/fr/affaires/fox-va-racheter-le-groupe-de-streaming-roku-pour-22-mds-2026-06-15",
-          "source": "www.reuters.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T13:17:14.309000Z"
-        },
-        {
-          "id": "43908566fc6cfe129f35179a21e22bdef17609f8",
-          "title": "福克斯将以220亿美元收购流媒体公司Roku",
-          "url": "https://www.ft.com/content/9be374f2-3c20-435c-86a9-d919b0bf973b",
-          "source": "www.ft.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T11:41:04.848000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5035,
-      "importance": 0.5035,
-      "importance_score": 0.5035,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 0.9784,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T11:41:04.848000Z",
-      "latest_at": "2026-06-15T13:17:14.309000Z",
-      "primary_item": {
-        "id": "aafe2095fe8dc433cd1e85e4cef5cd91620ca047",
-        "title": "福克斯将以220亿美元收购流媒体集团Roku",
-        "url": "https://www.reuters.com/fr/affaires/fox-va-racheter-le-groupe-de-streaming-roku-pour-22-mds-2026-06-15",
-        "source": "www.reuters.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_ec675e4da9b4",
-      "title": "Anthropic的安全超能力",
-      "url": "https://stratechery.com/2026/anthropics-safety-superpower",
-      "primary_url": "https://stratechery.com/2026/anthropics-safety-superpower",
-      "source": "stratechery.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "369b8425f06f0feb05959345081a8681fb6beae4",
-          "title": "Anthropic的安全超能力",
-          "url": "https://stratechery.com/2026/anthropics-safety-superpower",
-          "source": "stratechery.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T13:01:11.442000Z"
-        },
-        {
-          "id": "9b9aabeccb0f10a6b72cf9a6ef3d140bc3e9198c",
-          "title": "Anthropic的安全超能力 / Anthropic's Safety Superpower",
-          "url": "https://stratechery.com/2026/anthropics-safety-superpower",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-15T10:06:35Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "stratechery.com"
-      ],
-      "items": [
-        {
-          "id": "369b8425f06f0feb05959345081a8681fb6beae4",
-          "title": "Anthropic的安全超能力",
-          "url": "https://stratechery.com/2026/anthropics-safety-superpower",
-          "source": "stratechery.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T13:01:11.442000Z"
-        },
-        {
-          "id": "9b9aabeccb0f10a6b72cf9a6ef3d140bc3e9198c",
-          "title": "Anthropic的安全超能力 / Anthropic's Safety Superpower",
-          "url": "https://stratechery.com/2026/anthropics-safety-superpower",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-15T10:06:35Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5002,
-      "importance": 0.5002,
-      "importance_score": 0.5002,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 0.9672,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T10:06:35Z",
-      "latest_at": "2026-06-15T13:01:11.442000Z",
-      "primary_item": {
-        "id": "369b8425f06f0feb05959345081a8681fb6beae4",
-        "title": "Anthropic的安全超能力",
-        "url": "https://stratechery.com/2026/anthropics-safety-superpower",
-        "source": "stratechery.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_438c1ef24452",
-      "title": "泽维尔·勒鲁伊关于编程中控制结构的新书",
-      "url": "https://xavierleroy.org/control-structures/book/index.html",
-      "primary_url": "https://xavierleroy.org/control-structures/book/index.html",
-      "source": "xavierleroy.org",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "ce1f8ae1bc49d38629a25e6492f2ece79a6043a1",
-          "title": "泽维尔·勒鲁伊关于编程中控制结构的新书",
-          "url": "https://xavierleroy.org/control-structures/book/index.html",
-          "source": "xavierleroy.org",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T12:45:08.539000Z"
-        },
-        {
-          "id": "1dccfc826a2ffc3e5f066be5e3a545e83cbc0e09",
-          "title": "泽维尔·勒鲁伊关于编程中控制结构的新书 / Xavier Leroy's new book on Control Sturctures in Programming",
-          "url": "https://xavierleroy.org/control-structures/book/index.html",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-15T12:36:37Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Lobsters (技术社区)",
-        "xavierleroy.org"
-      ],
-      "items": [
-        {
-          "id": "ce1f8ae1bc49d38629a25e6492f2ece79a6043a1",
-          "title": "泽维尔·勒鲁伊关于编程中控制结构的新书",
-          "url": "https://xavierleroy.org/control-structures/book/index.html",
-          "source": "xavierleroy.org",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T12:45:08.539000Z"
-        },
-        {
-          "id": "1dccfc826a2ffc3e5f066be5e3a545e83cbc0e09",
-          "title": "泽维尔·勒鲁伊关于编程中控制结构的新书 / Xavier Leroy's new book on Control Sturctures in Programming",
-          "url": "https://xavierleroy.org/control-structures/book/index.html",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-15T12:36:37Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.4968,
-      "importance": 0.4968,
-      "importance_score": 0.4968,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 0.9561,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T12:36:37Z",
-      "latest_at": "2026-06-15T12:45:08.539000Z",
-      "primary_item": {
-        "id": "ce1f8ae1bc49d38629a25e6492f2ece79a6043a1",
-        "title": "泽维尔·勒鲁伊关于编程中控制结构的新书",
-        "url": "https://xavierleroy.org/control-structures/book/index.html",
-        "source": "xavierleroy.org",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_5a5cf3f857a4",
-      "title": "在新的袭击威胁到刚刚达成的停火协议后，特朗普警告以色列和伊朗不要“搞砸” - PBS",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPYnh3OHotVERBYllHdWxTbkxielBjVE4tMWk0Y3JFZlpLUXJhd2NBam1pS0ctMVE3Tms1cV9oa1NpMzBEaGhSenZJNk1QV1YxSXU1aXNXUUJ1Q3ZwS1lzWFMyVW1mYllEUHd0bEdId2ZYSDlMSXJoeFNNSGFNV1k3eTA5VUN1RjdUUXU5eHNHZnctMEF6LWtsRC01b0VnUG5Bazk0UmJ2dng3Ml9YQVZxTWo2LVY0eXlSWnNGbV8tbGlGaUtheVhN0gHMAUFVX3lxTE5yRlRNMldPdEZoOTE0QlQ3RTVGakdvWnZudHNtTVZZT1MtdV9XZ1FHMU90Nkt4RVRiUGFPN1FVSVZYQ1pmbUduMHlleldZYy11YjdmU1hWMFRUUHpFRTN6UzlJcXhOYWpLWXVLWFVEbU1Td0t2U1RRejVxR013dGtyYXRHd2FjbGw0ZUpCRGc0Q0pxSktqUXhpNFpHYVNwaEN5c1YwQ0QyR1RMbGJSYmc1azZacXRwOXJEUnoxRzkwNFgtTzVrLVFuV0p3WA?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-      "primary_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPYnh3OHotVERBYllHdWxTbkxielBjVE4tMWk0Y3JFZlpLUXJhd2NBam1pS0ctMVE3Tms1cV9oa1NpMzBEaGhSenZJNk1QV1YxSXU1aXNXUUJ1Q3ZwS1lzWFMyVW1mYllEUHd0bEdId2ZYSDlMSXJoeFNNSGFNV1k3eTA5VUN1RjdUUXU5eHNHZnctMEF6LWtsRC01b0VnUG5Bazk0UmJ2dng3Ml9YQVZxTWo2LVY0eXlSWnNGbV8tbGlGaUtheVhN0gHMAUFVX3lxTE5yRlRNMldPdEZoOTE0QlQ3RTVGakdvWnZudHNtTVZZT1MtdV9XZ1FHMU90Nkt4RVRiUGFPN1FVSVZYQ1pmbUduMHlleldZYy11YjdmU1hWMFRUUHpFRTN6UzlJcXhOYWpLWXVLWFVEbU1Td0t2U1RRejVxR013dGtyYXRHd2FjbGw0ZUpCRGc0Q0pxSktqUXhpNFpHYVNwaEN5c1YwQ0QyR1RMbGJSYmc1azZacXRwOXJEUnoxRzkwNFgtTzVrLVFuV0p3WA?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-      "source": "news.google.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "0d9e1b12b807689e3754e8c29ee4196dd27db4a9",
-          "title": "在新的袭击威胁到刚刚达成的停火协议后，特朗普警告以色列和伊朗不要“搞砸” - PBS",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPYnh3OHotVERBYllHdWxTbkxielBjVE4tMWk0Y3JFZlpLUXJhd2NBam1pS0ctMVE3Tms1cV9oa1NpMzBEaGhSenZJNk1QV1YxSXU1aXNXUUJ1Q3ZwS1lzWFMyVW1mYllEUHd0bEdId2ZYSDlMSXJoeFNNSGFNV1k3eTA5VUN1RjdUUXU5eHNHZnctMEF6LWtsRC01b0VnUG5Bazk0UmJ2dng3Ml9YQVZxTWo2LVY0eXlSWnNGbV8tbGlGaUtheVhN0gHMAUFVX3lxTE5yRlRNMldPdEZoOTE0QlQ3RTVGakdvWnZudHNtTVZZT1MtdV9XZ1FHMU90Nkt4RVRiUGFPN1FVSVZYQ1pmbUduMHlleldZYy11YjdmU1hWMFRUUHpFRTN6UzlJcXhOYWpLWXVLWFVEbU1Td0t2U1RRejVxR013dGtyYXRHd2FjbGw0ZUpCRGc0Q0pxSktqUXhpNFpHYVNwaEN5c1YwQ0QyR1RMbGJSYmc1azZacXRwOXJEUnoxRzkwNFgtTzVrLVFuV0p3WA?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-          "source": "news.google.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T12:29:09.659000Z"
-        },
-        {
-          "id": "fd654f1f2acbf9bab11ef2579a3d889a4595ea68",
-          "title": "在新的空袭威胁到刚刚达成的停火协议后，特朗普警告以色列和伊朗不要“搞砸” - PBS",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPYnh3OHotVERBYllHdWxTbkxielBjVE4tMWk0Y3JFZlpLUXJhd2NBam1pS0ctMVE3Tms1cV9oa1NpMzBEaGhSenZJNk1QV1YxSXU1aXNXUUJ1Q3ZwS1lzWFMyVW1mYllEUHd0bEdId2ZYSDlMSXJoeFNNSGFNV1k3eTA5VUN1RjdUUXU5eHNHZnctMEF6LWtsRC01b0VnUG5Bazk0UmJ2dng3Ml9YQVZxTWo2LVY0eXlSWnNGbV8tbGlGaUtheVhN0gHMAUFVX3lxTE5yRlRNMldPdEZoOTE0QlQ3RTVGakdvWnZudHNtTVZZT1MtdV9XZ1FHMU90Nkt4RVRiUGFPN1FVSVZYQ1pmbUduMHlleldZYy11YjdmU1hWMFRUUHpFRTN6UzlJcXhOYWpLWXVLWFVEbU1Td0t2U1RRejVxR013dGtyYXRHd2FjbGw0ZUpCRGc0Q0pxSktqUXhpNFpHYVNwaEN5c1YwQ0QyR1RMbGJSYmc1azZacXRwOXJEUnoxRzkwNFgtTzVrLVFuV0p3WA?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-          "source": "news.google.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T11:09:07.901000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "news.google.com"
-      ],
-      "items": [
-        {
-          "id": "0d9e1b12b807689e3754e8c29ee4196dd27db4a9",
-          "title": "在新的袭击威胁到刚刚达成的停火协议后，特朗普警告以色列和伊朗不要“搞砸” - PBS",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPYnh3OHotVERBYllHdWxTbkxielBjVE4tMWk0Y3JFZlpLUXJhd2NBam1pS0ctMVE3Tms1cV9oa1NpMzBEaGhSenZJNk1QV1YxSXU1aXNXUUJ1Q3ZwS1lzWFMyVW1mYllEUHd0bEdId2ZYSDlMSXJoeFNNSGFNV1k3eTA5VUN1RjdUUXU5eHNHZnctMEF6LWtsRC01b0VnUG5Bazk0UmJ2dng3Ml9YQVZxTWo2LVY0eXlSWnNGbV8tbGlGaUtheVhN0gHMAUFVX3lxTE5yRlRNMldPdEZoOTE0QlQ3RTVGakdvWnZudHNtTVZZT1MtdV9XZ1FHMU90Nkt4RVRiUGFPN1FVSVZYQ1pmbUduMHlleldZYy11YjdmU1hWMFRUUHpFRTN6UzlJcXhOYWpLWXVLWFVEbU1Td0t2U1RRejVxR013dGtyYXRHd2FjbGw0ZUpCRGc0Q0pxSktqUXhpNFpHYVNwaEN5c1YwQ0QyR1RMbGJSYmc1azZacXRwOXJEUnoxRzkwNFgtTzVrLVFuV0p3WA?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-          "source": "news.google.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T12:29:09.659000Z"
-        },
-        {
-          "id": "fd654f1f2acbf9bab11ef2579a3d889a4595ea68",
-          "title": "在新的空袭威胁到刚刚达成的停火协议后，特朗普警告以色列和伊朗不要“搞砸” - PBS",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPYnh3OHotVERBYllHdWxTbkxielBjVE4tMWk0Y3JFZlpLUXJhd2NBam1pS0ctMVE3Tms1cV9oa1NpMzBEaGhSenZJNk1QV1YxSXU1aXNXUUJ1Q3ZwS1lzWFMyVW1mYllEUHd0bEdId2ZYSDlMSXJoeFNNSGFNV1k3eTA5VUN1RjdUUXU5eHNHZnctMEF6LWtsRC01b0VnUG5Bazk0UmJ2dng3Ml9YQVZxTWo2LVY0eXlSWnNGbV8tbGlGaUtheVhN0gHMAUFVX3lxTE5yRlRNMldPdEZoOTE0QlQ3RTVGakdvWnZudHNtTVZZT1MtdV9XZ1FHMU90Nkt4RVRiUGFPN1FVSVZYQ1pmbUduMHlleldZYy11YjdmU1hWMFRUUHpFRTN6UzlJcXhOYWpLWXVLWFVEbU1Td0t2U1RRejVxR013dGtyYXRHd2FjbGw0ZUpCRGc0Q0pxSktqUXhpNFpHYVNwaEN5c1YwQ0QyR1RMbGJSYmc1azZacXRwOXJEUnoxRzkwNFgtTzVrLVFuV0p3WA?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-          "source": "news.google.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T11:09:07.901000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.4935,
-      "importance": 0.4935,
-      "importance_score": 0.4935,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 0.945,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T11:09:07.901000Z",
-      "latest_at": "2026-06-15T12:29:09.659000Z",
-      "primary_item": {
-        "id": "0d9e1b12b807689e3754e8c29ee4196dd27db4a9",
-        "title": "在新的袭击威胁到刚刚达成的停火协议后，特朗普警告以色列和伊朗不要“搞砸” - PBS",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPYnh3OHotVERBYllHdWxTbkxielBjVE4tMWk0Y3JFZlpLUXJhd2NBam1pS0ctMVE3Tms1cV9oa1NpMzBEaGhSenZJNk1QV1YxSXU1aXNXUUJ1Q3ZwS1lzWFMyVW1mYllEUHd0bEdId2ZYSDlMSXJoeFNNSGFNV1k3eTA5VUN1RjdUUXU5eHNHZnctMEF6LWtsRC01b0VnUG5Bazk0UmJ2dng3Ml9YQVZxTWo2LVY0eXlSWnNGbV8tbGlGaUtheVhN0gHMAUFVX3lxTE5yRlRNMldPdEZoOTE0QlQ3RTVGakdvWnZudHNtTVZZT1MtdV9XZ1FHMU90Nkt4RVRiUGFPN1FVSVZYQ1pmbUduMHlleldZYy11YjdmU1hWMFRUUHpFRTN6UzlJcXhOYWpLWXVLWFVEbU1Td0t2U1RRejVxR013dGtyYXRHd2FjbGw0ZUpCRGc0Q0pxSktqUXhpNFpHYVNwaEN5c1YwQ0QyR1RMbGJSYmc1azZacXRwOXJEUnoxRzkwNFgtTzVrLVFuV0p3WA?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-        "source": "news.google.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_afe51d7194de",
-      "title": "福克斯斥资220亿美元收购Roku，加速推进流媒体业务布局",
-      "url": "https://www.businessinsider.com/fox-acquire-roku-streaming-deal-2026-6",
-      "primary_url": "https://www.businessinsider.com/fox-acquire-roku-streaming-deal-2026-6",
-      "source": "www.businessinsider.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "9787beb440824f933925b81cb2aca3f85bbaee14",
-          "title": "福克斯斥资220亿美元收购Roku，加速推进流媒体业务布局",
-          "url": "https://www.businessinsider.com/fox-acquire-roku-streaming-deal-2026-6",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T12:29:09.849000Z"
-        },
-        {
-          "id": "4f52418e4b97f962de9809c7fb5f36fb1b8eba12",
-          "title": "福克斯斥资220亿美元收购Roku，加速推进流媒体业务布局 / Fox steps up streaming ambitions with $22 billion Roku acquisition",
-          "url": "https://www.businessinsider.com/fox-acquire-roku-streaming-deal-2026-6",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-15T11:58:43Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Business Insider",
-        "www.businessinsider.com"
-      ],
-      "items": [
-        {
-          "id": "9787beb440824f933925b81cb2aca3f85bbaee14",
-          "title": "福克斯斥资220亿美元收购Roku，加速推进流媒体业务布局",
-          "url": "https://www.businessinsider.com/fox-acquire-roku-streaming-deal-2026-6",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T12:29:09.849000Z"
-        },
-        {
-          "id": "4f52418e4b97f962de9809c7fb5f36fb1b8eba12",
-          "title": "福克斯斥资220亿美元收购Roku，加速推进流媒体业务布局 / Fox steps up streaming ambitions with $22 billion Roku acquisition",
-          "url": "https://www.businessinsider.com/fox-acquire-roku-streaming-deal-2026-6",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-15T11:58:43Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.4935,
-      "importance": 0.4935,
-      "importance_score": 0.4935,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 0.945,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T11:58:43Z",
-      "latest_at": "2026-06-15T12:29:09.849000Z",
-      "primary_item": {
-        "id": "9787beb440824f933925b81cb2aca3f85bbaee14",
-        "title": "福克斯斥资220亿美元收购Roku，加速推进流媒体业务布局",
-        "url": "https://www.businessinsider.com/fox-acquire-roku-streaming-deal-2026-6",
-        "source": "www.businessinsider.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_a192fc1c96f2",
-      "title": "《分布式计算的八大谬误》发布21周年（2025年）",
-      "url": "https://blog.apnic.net/2025/12/08/21-years-and-counting-of-eight-fallacies-of-distributed-computing",
-      "primary_url": "https://blog.apnic.net/2025/12/08/21-years-and-counting-of-eight-fallacies-of-distributed-computing",
-      "source": "blog.apnic.net",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "9242ddb236a218509559ce4cc8700effde3165b2",
-          "title": "《分布式计算的八大谬误》发布21周年（2025年）",
-          "url": "https://blog.apnic.net/2025/12/08/21-years-and-counting-of-eight-fallacies-of-distributed-computing",
-          "source": "blog.apnic.net",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T12:13:08.354000Z"
-        },
-        {
-          "id": "ed1afa0d9a1325e31a3909f7d3a77bbb7e0ea653",
-          "title": "《分布式计算的八大谬误》发布21周年（2025年） / 21 years and counting of 'eight fallacies of distributed computing' (2025)",
-          "url": "https://blog.apnic.net/2025/12/08/21-years-and-counting-of-eight-fallacies-of-distributed-computing",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-15T00:07:32Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "blog.apnic.net"
-      ],
-      "items": [
-        {
-          "id": "9242ddb236a218509559ce4cc8700effde3165b2",
-          "title": "《分布式计算的八大谬误》发布21周年（2025年）",
-          "url": "https://blog.apnic.net/2025/12/08/21-years-and-counting-of-eight-fallacies-of-distributed-computing",
-          "source": "blog.apnic.net",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T12:13:08.354000Z"
-        },
-        {
-          "id": "ed1afa0d9a1325e31a3909f7d3a77bbb7e0ea653",
-          "title": "《分布式计算的八大谬误》发布21周年（2025年） / 21 years and counting of 'eight fallacies of distributed computing' (2025)",
-          "url": "https://blog.apnic.net/2025/12/08/21-years-and-counting-of-eight-fallacies-of-distributed-computing",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-15T00:07:32Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.4902,
-      "importance": 0.4902,
-      "importance_score": 0.4902,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 0.9338,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T00:07:32Z",
-      "latest_at": "2026-06-15T12:13:08.354000Z",
-      "primary_item": {
-        "id": "9242ddb236a218509559ce4cc8700effde3165b2",
-        "title": "《分布式计算的八大谬误》发布21周年（2025年）",
-        "url": "https://blog.apnic.net/2025/12/08/21-years-and-counting-of-eight-fallacies-of-distributed-computing",
-        "source": "blog.apnic.net",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_e74a6e8f3d34",
-      "title": "官员称，俄罗斯空袭造成乌克兰9人死亡，一处历史悠久的教堂受损 / Russian strikes kill 11 and set historic cathedral in Kyiv ablaze",
-      "url": "https://www.bbc.com/news/articles/c4gy037gjz3o?at_medium=RSS&at_campaign=rss",
-      "primary_url": "https://www.bbc.com/news/articles/c4gy037gjz3o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News (世界新闻)",
-      "source_name": "Info Flow",
-      "sources": [
-        {
-          "id": "4ddabf839bb99b3beb2a39325797bba830cef6cf",
-          "title": "官员称，俄罗斯空袭造成乌克兰9人死亡，一处历史悠久的教堂受损 / Russian strikes kill 11 and set historic cathedral in Kyiv ablaze",
-          "url": "https://www.bbc.com/news/articles/c4gy037gjz3o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News (世界新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-15T12:07:36Z"
-        },
-        {
-          "id": "d404f021a58130a093c44f086f0e2aeaf49797e2",
-          "title": "官员称，俄罗斯空袭造成乌克兰9人死亡，一处历史悠久的教堂受损",
-          "url": "https://www.bbc.com/news/articles/c4gy037gjz3o?at_medium=RSS&at_campaign=rss",
-          "source": "www.bbc.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T05:17:22.833000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "BBC News (世界新闻)",
-        "www.bbc.com"
-      ],
-      "items": [
-        {
-          "id": "4ddabf839bb99b3beb2a39325797bba830cef6cf",
-          "title": "官员称，俄罗斯空袭造成乌克兰9人死亡，一处历史悠久的教堂受损 / Russian strikes kill 11 and set historic cathedral in Kyiv ablaze",
-          "url": "https://www.bbc.com/news/articles/c4gy037gjz3o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News (世界新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-15T12:07:36Z"
-        },
-        {
-          "id": "d404f021a58130a093c44f086f0e2aeaf49797e2",
-          "title": "官员称，俄罗斯空袭造成乌克兰9人死亡，一处历史悠久的教堂受损",
-          "url": "https://www.bbc.com/news/articles/c4gy037gjz3o?at_medium=RSS&at_campaign=rss",
-          "source": "www.bbc.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T05:17:22.833000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.489,
-      "importance": 0.489,
-      "importance_score": 0.489,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 0.93,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T05:17:22.833000Z",
-      "latest_at": "2026-06-15T12:07:36Z",
-      "primary_item": {
-        "id": "4ddabf839bb99b3beb2a39325797bba830cef6cf",
-        "title": "官员称，俄罗斯空袭造成乌克兰9人死亡，一处历史悠久的教堂受损 / Russian strikes kill 11 and set historic cathedral in Kyiv ablaze",
-        "url": "https://www.bbc.com/news/articles/c4gy037gjz3o?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News (世界新闻)",
-        "source_name": "Info Flow"
-      }
-    },
-    {
-      "story_id": "story_344c0bef63a9",
-      "title": "Nordstjernen 网页浏览器",
-      "url": "https://nordstjernen.org",
-      "primary_url": "https://nordstjernen.org",
-      "source": "nordstjernen.org",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "07b19c706ff1f08ea241d987183c9be9117f3da4",
-          "title": "Nordstjernen 网页浏览器",
-          "url": "https://nordstjernen.org",
-          "source": "nordstjernen.org",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T11:57:15Z"
-        },
-        {
-          "id": "f458187303b386544a78d9f8100491f0d7654dc2",
-          "title": "Nordstjernen 网页浏览器 / Nordstjernen Web Browser",
-          "url": "https://nordstjernen.org",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-15T11:45:15Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Lobsters (技术社区)",
-        "nordstjernen.org"
-      ],
-      "items": [
-        {
-          "id": "07b19c706ff1f08ea241d987183c9be9117f3da4",
-          "title": "Nordstjernen 网页浏览器",
-          "url": "https://nordstjernen.org",
-          "source": "nordstjernen.org",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T11:57:15Z"
-        },
-        {
-          "id": "f458187303b386544a78d9f8100491f0d7654dc2",
-          "title": "Nordstjernen 网页浏览器 / Nordstjernen Web Browser",
-          "url": "https://nordstjernen.org",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-15T11:45:15Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.4868,
-      "importance": 0.4868,
-      "importance_score": 0.4868,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 0.9228,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T11:45:15Z",
-      "latest_at": "2026-06-15T11:57:15Z",
-      "primary_item": {
-        "id": "07b19c706ff1f08ea241d987183c9be9117f3da4",
-        "title": "Nordstjernen 网页浏览器",
-        "url": "https://nordstjernen.org",
-        "source": "nordstjernen.org",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_79153976fc2d",
-      "title": "Ask HN: 你最近在忙什么？（2026年6月） / Ask HN: What are you working on? (June 2026)",
-      "url": "https://news.ycombinator.com/item?id=48528779",
-      "primary_url": "https://news.ycombinator.com/item?id=48528779",
+      "story_id": "story_e2d6ea22ae2e",
+      "title": "Show HN：我在沒有 AI 的情況下從頭開始編寫了一個 C++ 光線追蹤器 / Show HN: I wrote a C++ ray tracer from scratch without AI",
+      "url": "https://news.ycombinator.com/item?id=48538833",
+      "primary_url": "https://news.ycombinator.com/item?id=48538833",
       "source": "hackernews",
       "source_name": "NewsNow",
       "sources": [
         {
-          "id": "c198c3bb72d6817f881cf7e5201a6eb29f83062a",
-          "title": "Ask HN: 你最近在忙什么？（2026年6月） / Ask HN: What are you working on? (June 2026)",
-          "url": "https://news.ycombinator.com/item?id=48528779",
+          "id": "16ef6ba5a07a88d50b343ac081e473a5e9e2ac60",
+          "title": "Show HN：我在沒有 AI 的情況下從頭開始編寫了一個 C++ 光線追蹤器 / Show HN: I wrote a C++ ray tracer from scratch without AI",
+          "url": "https://news.ycombinator.com/item?id=48538833",
           "source": "hackernews",
           "source_name": "NewsNow",
           "site_id": "newsnow",
           "published_at": "2026-06-15T13:48:53Z"
         },
         {
-          "id": "52968950ed9975885a7b85a3bf0d9af3fe2950c0",
-          "title": "Ask HN: 你最近在忙什么？（2026年6月）",
-          "url": "https://news.ycombinator.com/item?id=48528779",
-          "source": "news.ycombinator.com",
+          "id": "351d9147bd4aa1f85a3e1e5247e402c90a938515",
+          "title": "Show HN: 我从零开始编写了一个不使用人工智能的 C 光线追踪器",
+          "url": "https://github.com/themartiano/luz",
+          "source": "github.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-06-14T21:01:55.877000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "hackernews",
-        "news.ycombinator.com"
-      ],
-      "items": [
-        {
-          "id": "c198c3bb72d6817f881cf7e5201a6eb29f83062a",
-          "title": "Ask HN: 你最近在忙什么？（2026年6月） / Ask HN: What are you working on? (June 2026)",
-          "url": "https://news.ycombinator.com/item?id=48528779",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-15T13:48:53Z"
+          "published_at": "2026-06-15T09:49:11.715000Z"
         },
         {
-          "id": "52968950ed9975885a7b85a3bf0d9af3fe2950c0",
-          "title": "Ask HN: 你最近在忙什么？（2026年6月）",
-          "url": "https://news.ycombinator.com/item?id=48528779",
-          "source": "news.ycombinator.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-14T21:01:55.877000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.51,
-      "importance": 0.51,
-      "importance_score": 0.51,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 1.0,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-14T21:01:55.877000Z",
-      "latest_at": "2026-06-15T13:48:53Z",
-      "primary_item": {
-        "id": "c198c3bb72d6817f881cf7e5201a6eb29f83062a",
-        "title": "Ask HN: 你最近在忙什么？（2026年6月） / Ask HN: What are you working on? (June 2026)",
-        "url": "https://news.ycombinator.com/item?id=48528779",
-        "source": "hackernews",
-        "source_name": "NewsNow"
-      }
-    },
-    {
-      "story_id": "story_76e1ee65c530",
-      "title": "pyinfra — 基于纯 Python 的无代理基础设施自动化",
-      "url": "https://pyinfra.com",
-      "primary_url": "https://pyinfra.com",
-      "source": "pyinfra.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "eea81a573e6bbdb17d9f1a67d9208e727dd45604",
-          "title": "pyinfra — 基于纯 Python 的无代理基础设施自动化",
-          "url": "https://pyinfra.com",
-          "source": "pyinfra.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T11:09:07.610000Z"
-        },
-        {
-          "id": "cfc2dc62417a6de74488751823462982696cfcc5",
-          "title": "pyinfra — 基于纯 Python 的无代理基础设施自动化 / pyinfra — agentless infrastructure automation, in plain Python",
-          "url": "https://pyinfra.com",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-15T11:05:07Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Lobsters (技术社区)",
-        "pyinfra.com"
-      ],
-      "items": [
-        {
-          "id": "eea81a573e6bbdb17d9f1a67d9208e727dd45604",
-          "title": "pyinfra — 基于纯 Python 的无代理基础设施自动化",
-          "url": "https://pyinfra.com",
-          "source": "pyinfra.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T11:09:07.610000Z"
-        },
-        {
-          "id": "cfc2dc62417a6de74488751823462982696cfcc5",
-          "title": "pyinfra — 基于纯 Python 的无代理基础设施自动化 / pyinfra — agentless infrastructure automation, in plain Python",
-          "url": "https://pyinfra.com",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-15T11:05:07Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.4768,
-      "importance": 0.4768,
-      "importance_score": 0.4768,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 0.8894,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T11:05:07Z",
-      "latest_at": "2026-06-15T11:09:07.610000Z",
-      "primary_item": {
-        "id": "eea81a573e6bbdb17d9f1a67d9208e727dd45604",
-        "title": "pyinfra — 基于纯 Python 的无代理基础设施自动化",
-        "url": "https://pyinfra.com",
-        "source": "pyinfra.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_a8ad3245f254",
-      "title": "删除我关于“Nix Flakes 与 Guix”的帖子",
-      "url": "https://coopi.neocities.org/posts/taking-down-nix-flakes-vs-guix",
-      "primary_url": "https://coopi.neocities.org/posts/taking-down-nix-flakes-vs-guix",
-      "source": "coopi.neocities.org",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "985f609fa7056ac72c6e22f5428a0412972355c3",
-          "title": "删除我关于“Nix Flakes 与 Guix”的帖子",
-          "url": "https://coopi.neocities.org/posts/taking-down-nix-flakes-vs-guix",
-          "source": "coopi.neocities.org",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T10:37:09.834000Z"
-        },
-        {
-          "id": "3288aa2a124aedc1ba19a529f2d8726e19bf0e14",
-          "title": "删除我关于“Nix Flakes 与 Guix”的帖子 / Removing my nix flakes vs guix post",
-          "url": "https://coopi.neocities.org/posts/taking-down-nix-flakes-vs-guix",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-15T10:23:34Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Lobsters (技术社区)",
-        "coopi.neocities.org"
-      ],
-      "items": [
-        {
-          "id": "985f609fa7056ac72c6e22f5428a0412972355c3",
-          "title": "删除我关于“Nix Flakes 与 Guix”的帖子",
-          "url": "https://coopi.neocities.org/posts/taking-down-nix-flakes-vs-guix",
-          "source": "coopi.neocities.org",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T10:37:09.834000Z"
-        },
-        {
-          "id": "3288aa2a124aedc1ba19a529f2d8726e19bf0e14",
-          "title": "删除我关于“Nix Flakes 与 Guix”的帖子 / Removing my nix flakes vs guix post",
-          "url": "https://coopi.neocities.org/posts/taking-down-nix-flakes-vs-guix",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-15T10:23:34Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.4702,
-      "importance": 0.4702,
-      "importance_score": 0.4702,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 0.8672,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T10:23:34Z",
-      "latest_at": "2026-06-15T10:37:09.834000Z",
-      "primary_item": {
-        "id": "985f609fa7056ac72c6e22f5428a0412972355c3",
-        "title": "删除我关于“Nix Flakes 与 Guix”的帖子",
-        "url": "https://coopi.neocities.org/posts/taking-down-nix-flakes-vs-guix",
-        "source": "coopi.neocities.org",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_23c3ea61878a",
-      "title": "韩国星巴克因舆论反弹将暂停营业，为员工举办历史教育课程",
-      "url": "https://www.bbc.com/news/articles/ckg4n3pyjg9o?at_medium=RSS&at_campaign=rss",
-      "primary_url": "https://www.bbc.com/news/articles/ckg4n3pyjg9o?at_medium=RSS&at_campaign=rss",
-      "source": "www.bbc.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "41e2f6cbcdf6d8201815eca91d34c73961870168",
-          "title": "韩国星巴克因舆论反弹将暂停营业，为员工举办历史教育课程",
-          "url": "https://www.bbc.com/news/articles/ckg4n3pyjg9o?at_medium=RSS&at_campaign=rss",
-          "source": "www.bbc.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T12:45:08.974000Z"
-        },
-        {
-          "id": "dbf16fa35bfee476798456046e14dabe6e9b02dc",
-          "title": "韩国星巴克因舆论反弹将暂停营业，为员工举办历史教育课程 / South Korea's Starbucks to shut for staff history lesson after backlash",
-          "url": "https://www.bbc.com/news/articles/ckg4n3pyjg9o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News (世界新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-15T12:37:27Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "BBC News (世界新闻)",
-        "www.bbc.com"
-      ],
-      "items": [
-        {
-          "id": "41e2f6cbcdf6d8201815eca91d34c73961870168",
-          "title": "韩国星巴克因舆论反弹将暂停营业，为员工举办历史教育课程",
-          "url": "https://www.bbc.com/news/articles/ckg4n3pyjg9o?at_medium=RSS&at_campaign=rss",
-          "source": "www.bbc.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T12:45:08.974000Z"
-        },
-        {
-          "id": "dbf16fa35bfee476798456046e14dabe6e9b02dc",
-          "title": "韩国星巴克因舆论反弹将暂停营业，为员工举办历史教育课程 / South Korea's Starbucks to shut for staff history lesson after backlash",
-          "url": "https://www.bbc.com/news/articles/ckg4n3pyjg9o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News (世界新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-15T12:37:27Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.4968,
-      "importance": 0.4968,
-      "importance_score": 0.4968,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 0.9561,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T12:37:27Z",
-      "latest_at": "2026-06-15T12:45:08.974000Z",
-      "primary_item": {
-        "id": "41e2f6cbcdf6d8201815eca91d34c73961870168",
-        "title": "韩国星巴克因舆论反弹将暂停营业，为员工举办历史教育课程",
-        "url": "https://www.bbc.com/news/articles/ckg4n3pyjg9o?at_medium=RSS&at_campaign=rss",
-        "source": "www.bbc.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_870a8f81691c",
-      "title": "Emacs 附带了更多电池",
-      "url": "https://karthinks.com/software/even-more-batteries-included-with-emacs",
-      "primary_url": "https://karthinks.com/software/even-more-batteries-included-with-emacs",
-      "source": "karthinks.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "02dfe7799324413068eaff4248b4ffbc545d53fe",
-          "title": "Emacs 附带了更多电池",
-          "url": "https://karthinks.com/software/even-more-batteries-included-with-emacs",
-          "source": "karthinks.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T06:21:15.986000Z"
-        },
-        {
-          "id": "a379919b02960e604ecce2a7188b7d0cd4114edd",
-          "title": "Emacs 附带的电池更多了 Karthinks / Even more batteries included with Emacs",
-          "url": "https://karthinks.com/software/even-more-batteries-included-with-emacs",
+          "id": "d712517e21bc222da838deb75ad3c22d72c79391",
+          "title": "Show HN: 我从零开始编写了一个不使用人工智能的 C 光线追踪器 / Show HN: I wrote a C++ ray tracer from scratch without AI",
+          "url": "https://github.com/themartiano/luz",
           "source": "Hacker News",
           "source_name": "TechURLs",
           "site_id": "techurls",
-          "published_at": "2026-06-15T02:30:25Z"
-        },
-        {
-          "id": "56dd22e87ca9deb62a376afa01e6cd9a999ee5e0",
-          "title": "Emacs 附带的电池更多了 Karthinks",
-          "url": "https://karthinks.com/software/even-more-batteries-included-with-emacs",
-          "source": "karthinks.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-14T18:53:56.277000Z"
+          "published_at": "2026-06-15T09:34:10Z"
         }
       ],
       "source_count": 3,
       "source_names": [
         "Hacker News",
-        "karthinks.com"
+        "github.com",
+        "hackernews"
       ],
       "items": [
         {
-          "id": "02dfe7799324413068eaff4248b4ffbc545d53fe",
-          "title": "Emacs 附带了更多电池",
-          "url": "https://karthinks.com/software/even-more-batteries-included-with-emacs",
-          "source": "karthinks.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T06:21:15.986000Z"
+          "id": "16ef6ba5a07a88d50b343ac081e473a5e9e2ac60",
+          "title": "Show HN：我在沒有 AI 的情況下從頭開始編寫了一個 C++ 光線追蹤器 / Show HN: I wrote a C++ ray tracer from scratch without AI",
+          "url": "https://news.ycombinator.com/item?id=48538833",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-15T13:48:53Z"
         },
         {
-          "id": "a379919b02960e604ecce2a7188b7d0cd4114edd",
-          "title": "Emacs 附带的电池更多了 Karthinks / Even more batteries included with Emacs",
-          "url": "https://karthinks.com/software/even-more-batteries-included-with-emacs",
+          "id": "351d9147bd4aa1f85a3e1e5247e402c90a938515",
+          "title": "Show HN: 我从零开始编写了一个不使用人工智能的 C 光线追踪器",
+          "url": "https://github.com/themartiano/luz",
+          "source": "github.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T09:49:11.715000Z"
+        },
+        {
+          "id": "d712517e21bc222da838deb75ad3c22d72c79391",
+          "title": "Show HN: 我从零开始编写了一个不使用人工智能的 C 光线追踪器 / Show HN: I wrote a C++ ray tracer from scratch without AI",
+          "url": "https://github.com/themartiano/luz",
           "source": "Hacker News",
           "source_name": "TechURLs",
           "site_id": "techurls",
-          "published_at": "2026-06-15T02:30:25Z"
-        },
-        {
-          "id": "56dd22e87ca9deb62a376afa01e6cd9a999ee5e0",
-          "title": "Emacs 附带的电池更多了 Karthinks",
-          "url": "https://karthinks.com/software/even-more-batteries-included-with-emacs",
-          "source": "karthinks.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-14T18:53:56.277000Z"
+          "published_at": "2026-06-15T09:34:10Z"
         }
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.4668,
-      "importance": 0.4668,
-      "importance_score": 0.4668,
+      "score": 0.5162,
+      "importance": 0.5162,
+      "importance_score": 0.5162,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.32,
-        "recency": 0.6895,
+        "recency": 0.8541,
         "story_heat": 0.5
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-14T18:53:56.277000Z",
-      "latest_at": "2026-06-15T06:21:15.986000Z",
+      "earliest_at": "2026-06-15T09:34:10Z",
+      "latest_at": "2026-06-15T13:48:53Z",
       "primary_item": {
-        "id": "02dfe7799324413068eaff4248b4ffbc545d53fe",
-        "title": "Emacs 附带了更多电池",
-        "url": "https://karthinks.com/software/even-more-batteries-included-with-emacs",
-        "source": "karthinks.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_8a448811cb38",
-      "title": "特朗普在白宫草坪上举办UFC笼斗赛 / Trump and thousands of others watch UFC fight on White House lawn",
-      "url": "https://www.bbc.com/news/articles/c892xnwg5vlo?at_medium=RSS&at_campaign=rss",
-      "primary_url": "https://www.bbc.com/news/articles/c892xnwg5vlo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC News (世界新闻)",
-      "source_name": "Info Flow",
-      "sources": [
-        {
-          "id": "de628aa238478eadd5da45902ec99b4dc37416da",
-          "title": "特朗普在白宫草坪上举办UFC笼斗赛 / Trump and thousands of others watch UFC fight on White House lawn",
-          "url": "https://www.bbc.com/news/articles/c892xnwg5vlo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News (世界新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-15T12:02:22Z"
-        },
-        {
-          "id": "13eb6c9af782da5f65105681228eb73ea7606609",
-          "title": "特朗普在白宫草坪上举办UFC笼斗赛",
-          "url": "https://www.bbc.com/news/articles/c892xnwg5vlo?at_medium=RSS&at_campaign=rss",
-          "source": "www.bbc.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T03:09:59.018000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "BBC News (世界新闻)",
-        "www.bbc.com"
-      ],
-      "items": [
-        {
-          "id": "de628aa238478eadd5da45902ec99b4dc37416da",
-          "title": "特朗普在白宫草坪上举办UFC笼斗赛 / Trump and thousands of others watch UFC fight on White House lawn",
-          "url": "https://www.bbc.com/news/articles/c892xnwg5vlo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News (世界新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-15T12:02:22Z"
-        },
-        {
-          "id": "13eb6c9af782da5f65105681228eb73ea7606609",
-          "title": "特朗普在白宫草坪上举办UFC笼斗赛",
-          "url": "https://www.bbc.com/news/articles/c892xnwg5vlo?at_medium=RSS&at_campaign=rss",
-          "source": "www.bbc.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T03:09:59.018000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.4879,
-      "importance": 0.4879,
-      "importance_score": 0.4879,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 0.9264,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T03:09:59.018000Z",
-      "latest_at": "2026-06-15T12:02:22Z",
-      "primary_item": {
-        "id": "de628aa238478eadd5da45902ec99b4dc37416da",
-        "title": "特朗普在白宫草坪上举办UFC笼斗赛 / Trump and thousands of others watch UFC fight on White House lawn",
-        "url": "https://www.bbc.com/news/articles/c892xnwg5vlo?at_medium=RSS&at_campaign=rss",
-        "source": "BBC News (世界新闻)",
-        "source_name": "Info Flow"
-      }
-    },
-    {
-      "story_id": "story_78845dbc1887",
-      "title": "独家消息：Anthropic派员工飞赴华盛顿，以平息白宫争端 / Anthropic flies staff to D.C. to clean up White House fight",
-      "url": "https://www.axios.com/2026/06/14/anthropic-white-house-mythos-fable",
-      "primary_url": "https://www.axios.com/2026/06/14/anthropic-white-house-mythos-fable",
-      "source": "Hacker News",
-      "source_name": "TechURLs",
-      "sources": [
-        {
-          "id": "b0785d567cfa6a9bd9564aea9b9f3b42ed36fe99",
-          "title": "独家消息：Anthropic派员工飞赴华盛顿，以平息白宫争端 / Anthropic flies staff to D.C. to clean up White House fight",
-          "url": "https://www.axios.com/2026/06/14/anthropic-white-house-mythos-fable",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-15T09:23:15Z"
-        },
-        {
-          "id": "03f7665dcc61fd5521c6b5a04d51bd3eb86abb9b",
-          "title": "独家消息：Anthropic派员工飞赴华盛顿，以平息白宫争端",
-          "url": "https://www.axios.com/2026/06/14/anthropic-white-house-mythos-fable",
-          "source": "www.axios.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-14T20:14:00.949000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News",
-        "www.axios.com"
-      ],
-      "items": [
-        {
-          "id": "b0785d567cfa6a9bd9564aea9b9f3b42ed36fe99",
-          "title": "独家消息：Anthropic派员工飞赴华盛顿，以平息白宫争端 / Anthropic flies staff to D.C. to clean up White House fight",
-          "url": "https://www.axios.com/2026/06/14/anthropic-white-house-mythos-fable",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-15T09:23:15Z"
-        },
-        {
-          "id": "03f7665dcc61fd5521c6b5a04d51bd3eb86abb9b",
-          "title": "独家消息：Anthropic派员工飞赴华盛顿，以平息白宫争端",
-          "url": "https://www.axios.com/2026/06/14/anthropic-white-house-mythos-fable",
-          "source": "www.axios.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-14T20:14:00.949000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.4548,
-      "importance": 0.4548,
-      "importance_score": 0.4548,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 0.8159,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-14T20:14:00.949000Z",
-      "latest_at": "2026-06-15T09:23:15Z",
-      "primary_item": {
-        "id": "b0785d567cfa6a9bd9564aea9b9f3b42ed36fe99",
-        "title": "独家消息：Anthropic派员工飞赴华盛顿，以平息白宫争端 / Anthropic flies staff to D.C. to clean up White House fight",
-        "url": "https://www.axios.com/2026/06/14/anthropic-white-house-mythos-fable",
-        "source": "Hacker News",
-        "source_name": "TechURLs"
+        "id": "16ef6ba5a07a88d50b343ac081e473a5e9e2ac60",
+        "title": "Show HN：我在沒有 AI 的情況下從頭開始編寫了一個 C++ 光線追蹤器 / Show HN: I wrote a C++ ray tracer from scratch without AI",
+        "url": "https://news.ycombinator.com/item?id=48538833",
+        "source": "hackernews",
+        "source_name": "NewsNow"
       }
     }
   ]
