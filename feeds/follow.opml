@@ -11,16 +11,16 @@
       <outline text="鋼哥 / Vocus 作者" type="rss" category="blog"
         xmlUrl="https://feed.cqd.tw/vocus/user/xavierkevin"
         htmlUrl="https://vocus.cc/user/@xavierkevin" />
-      <outline text="王喆的机器学习笔记 - 知乎专栏" type="rss" category="AI"
+      <outline text="王喆的机器学习笔记 - 知乎专栏" type="rss" category="tech"
         xmlUrl="https://rss.lilydjwg.me/zhihuzhuanlan/wangzhenotes"
         htmlUrl="https://zhuanlan.zhihu.com/wangzhenotes" />
-      <outline text="Yoshua Bengio" type="rss" category="AI"
+      <outline text="Yoshua Bengio" type="rss" category="tech"
         xmlUrl="https://yoshuabengio.org/feed/"
         htmlUrl="https://yoshuabengio.org/" />
       <outline text="Veritasium" type="rss" category="tech"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCHnyfMqiRRG1u-2MsSQLbXA"
         htmlUrl="https://www.youtube.com/channel/UCHnyfMqiRRG1u-2MsSQLbXA" />
-      <outline text="甜菜欣欣的知乎动态" type="rss" category="AI"
+      <outline text="甜菜欣欣的知乎动态" type="rss" category="tech"
         xmlUrl="https://rsshub.app/zhihu/xhu/people/activities/5636892f0eed90ae92c64e156209a888"
         htmlUrl="https://www.zhihu.com/people/5636892f0eed90ae92c64e156209a888" />
       <outline text="柏林的狐狸 - 知乎专栏" type="rss" category="culture"
@@ -167,9 +167,6 @@
       <outline text="Stories by Kyle Chu 微風捕手 on Medium" type="rss" category="blog"
         xmlUrl="https://medium.com/@Kyle_Chu/feed"
         htmlUrl="https://medium.com/@Kyle_Chu?source=rss-8c7d4e0ce1e2------2" />
-      <outline text="Simon Eskildsen" type="rss" category=""
-        xmlUrl="https://sirupsen.com/atom.xml"
-        htmlUrl="https://sirupsen.com/index-merges" />
       <outline text="SatPost by Trung Phan" type="rss" category="blog"
         xmlUrl="https://www.readtrung.com/feed"
         htmlUrl="https://www.readtrung.com" />
@@ -179,36 +176,42 @@
       <outline text="Political Geography Now" type="rss" category="data"
         xmlUrl="https://feeds.feedburner.com/PoliticalGeographyNow"
         htmlUrl="https://www.polgeonow.com/2023/10/before-israel-ground-invasion-map-gaza-hamas.html" />
-      <outline text="Perspective" type="rss" category=""
-        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCN8V_pO0xOFKLL4XG1tshnw"
-        htmlUrl="https://www.youtube.com/watch?v=JyAcIsVab_U" />
       <outline text="Paul Graham: Essays" type="rss" category="business"
         xmlUrl="http://www.aaronsw.com/2002/feeds/pgessays.rss"
         htmlUrl="http://www.paulgraham.com/" />
+      <outline text="Ollie Bye" type="rss" category="data"
+        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC6gNjP1W4FXWExT5QpYkmhQ"
+        htmlUrl="https://www.youtube.com/watch?v=kNZuKJMq08U" />
+      <outline text="Martijn Doolaard" type="rss" category="blog"
+        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UClkUhTjFbQbtGfS14h9Vw5g"
+        htmlUrl="https://www.youtube.com/channel/UClkUhTjFbQbtGfS14h9Vw5g" />
+      <outline text="Loot2魯特" type="rss" category="blog"
+        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCJPcnheiqkfK-v61Fq_fuxw"
+        htmlUrl="https://www.youtube.com/watch?v=R8gfgw8gL8w" />
+      <outline text="Open Culture" type="rss" category="trending"
+        xmlUrl="https://www.openculture.com/feed"
+        htmlUrl="https://www.openculture.com/" />
+      <outline text="Simon Eskildsen" type="rss" category=""
+        xmlUrl="https://sirupsen.com/atom.xml"
+        htmlUrl="https://sirupsen.com/index-merges" />
+      <outline text="Perspective" type="rss" category=""
+        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCN8V_pO0xOFKLL4XG1tshnw"
+        htmlUrl="https://www.youtube.com/watch?v=JyAcIsVab_U" />
       <outline text="Passions of YiChuan" type="rss" category=""
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCmglecTNNGL_CVDqRAPJBLQ"
         htmlUrl="https://www.youtube.com/watch?v=sAobim6F_Uc" />
       <outline text="OOC" type="rss" category=""
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC70cm4qrtW03S_q2NSObU3A"
         htmlUrl="https://www.youtube.com/watch?v=cntRE8A9JIo" />
-      <outline text="Ollie Bye" type="rss" category="data"
-        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC6gNjP1W4FXWExT5QpYkmhQ"
-        htmlUrl="https://www.youtube.com/watch?v=kNZuKJMq08U" />
       <outline text="nobody" type="rss" category=""
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCHRx3w9GE3r-iqpvIKsTgeQ"
         htmlUrl="https://www.youtube.com/watch?v=uFIF4qE2Nvk" />
       <outline text="Matt Rittman" type="rss" category=""
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCUK1Fz1o94JA1wI6I7yLT2Q"
         htmlUrl="https://www.youtube.com/watch?v=ml9tpzQ5BWs" />
-      <outline text="Martijn Doolaard" type="rss" category="blog"
-        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UClkUhTjFbQbtGfS14h9Vw5g"
-        htmlUrl="https://www.youtube.com/channel/UClkUhTjFbQbtGfS14h9Vw5g" />
       <outline text="Lumen Database Blog" type="rss" category=""
         xmlUrl="https://lumendatabase.org/blog_feed.rss"
         htmlUrl="https://www.lumendatabase.org/" />
-      <outline text="Loot2魯特" type="rss" category="blog"
-        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCJPcnheiqkfK-v61Fq_fuxw"
-        htmlUrl="https://www.youtube.com/watch?v=R8gfgw8gL8w" />
       <outline text="LEI" type="rss" category=""
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCZyTcQHJGKkGeotf0vWA7Rg"
         htmlUrl="https://www.youtube.com/watch?v=hizsWOdQqmE" />
@@ -713,9 +716,6 @@
       <outline text="PanSci 泛科學" type="rss" category=""
         xmlUrl="https://pansci.asia/feed"
         htmlUrl="https://pansci.asia" />
-      <outline text="Open Culture" type="rss" category="trending"
-        xmlUrl="https://www.openculture.com/feed"
-        htmlUrl="https://www.openculture.com/" />
       <outline text="OBF" type="rss" category=""
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCK1XzxcKXB_v_dcw_tflC1A"
         htmlUrl="https://www.youtube.com/watch?v=92eX3_A41zA" />
