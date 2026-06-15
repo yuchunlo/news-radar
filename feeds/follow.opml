@@ -5,7 +5,7 @@
   </head>
   <body>
     <outline text="RSS">
-      <outline text="阮一峰的网络日志" type="rss" category="" category="tech"
+      <outline text="阮一峰的网络日志" type="rss" category="tech"
         xmlUrl="https://feeds.feedburner.com/ruanyifeng"
         htmlUrl="http://www.ruanyifeng.com/blog/" />
       <outline text="鋼哥 / Vocus 作者" type="rss" category="blog"
