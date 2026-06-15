@@ -74,34 +74,9 @@ RSS_FEED_SKIP_EXACT: set[str] = {
 
 OFFICIAL_AI_FEEDS: tuple[dict[str, str], ...] = (
     {
-        "title": "OpenAI News",
-        "xml_url": "https://openai.com/news/rss.xml",
-        "html_url": "https://openai.com/news",
-    },
-    {
-        "title": "Google DeepMind",
-        "xml_url": "https://deepmind.google/blog/rss.xml",
-        "html_url": "https://deepmind.google/blog",
-    },
-    {
-        "title": "Google AI Blog",
-        "xml_url": "https://blog.google/innovation-and-ai/technology/ai/rss/",
-        "html_url": "https://blog.google/innovation-and-ai/technology/ai/",
-    },
-    {
         "title": "Hugging Face Blog",
         "xml_url": "https://huggingface.co/blog/feed.xml",
         "html_url": "https://huggingface.co/blog",
-    },
-    {
-        "title": "GitHub AI & ML",
-        "xml_url": "https://github.blog/ai-and-ml/feed/",
-        "html_url": "https://github.blog/ai-and-ml/",
-    },
-    {
-        "title": "GitHub Changelog",
-        "xml_url": "https://github.blog/changelog/feed/",
-        "html_url": "https://github.blog/changelog/",
     },
     {
         "title": "OpenAI Skills",
@@ -110,15 +85,8 @@ OFFICIAL_AI_FEEDS: tuple[dict[str, str], ...] = (
         "include_keywords": "hatch,pet,migrate-to-codex",
     },
 )
-OFFICIAL_AI_MAX_AGE_DAYS = 45
+OFFICIAL_AI_MAX_AGE_DAYS = 21
 AIBREAKFAST_JINA_URL = "https://r.jina.ai/https://aibreakfast.beehiiv.com/"
-AIHOT_FEED_URL = "https://aihot.virxact.com/feed.xml"
-AIHOT_FALLBACK_FEED_URLS = (
-    "https://aihot.virxact.com/rss.xml",
-    "https://aihot.virxact.com/feed",
-    "https://aihot.virxact.com/feed/daily.xml",
-)
-FOLLOW_BUILDERS_FEED_BASE = "https://raw.githubusercontent.com/zarazhangrui/follow-builders/main"
 
 
 @dataclass
@@ -1168,103 +1136,6 @@ def fetch_ai_breakfast(session: requests.Session, now: datetime) -> list[RawItem
     return out
 
 
-def parse_follow_builders_items(feeds: dict[str, dict[str, Any]], now: datetime) -> list[RawItem]:
-    site_id = "followbuilders"
-    site_name = "Follow Builders"
-    out: list[RawItem] = []
-
-    for builder in feeds.get("x", {}).get("x", []) or []:
-        name = str(builder.get("name") or builder.get("handle") or "").strip()
-        handle = str(builder.get("handle") or "").strip()
-        source = f"Follow Builders · X · {name or handle}".strip(" ·")
-        for tweet in builder.get("tweets", []) or []:
-            text = str(tweet.get("text") or "").strip()
-            url = str(tweet.get("url") or "").strip()
-            published = parse_date_any(tweet.get("createdAt"), now)
-            if not text or not url or not published:
-                continue
-            title = re.sub(r"\s+", " ", text)
-            if len(title) > 220:
-                title = title[:217].rstrip() + "..."
-            out.append(
-                RawItem(
-                    site_id=site_id,
-                    site_name=site_name,
-                    source=source,
-                    title=maybe_fix_mojibake(title),
-                    url=url,
-                    published_at=published,
-                    meta={"handle": handle, "feed": "feed-x.json"},
-                )
-            )
-
-    for article in feeds.get("blogs", {}).get("blogs", []) or []:
-        title = str(article.get("title") or "").strip()
-        url = str(article.get("url") or "").strip()
-        published = parse_date_any(article.get("publishedAt"), now) or parse_date_any(
-            feeds.get("blogs", {}).get("generatedAt"), now
-        )
-        if not title or not url or not published:
-            continue
-        out.append(
-            RawItem(
-                site_id=site_id,
-                site_name=site_name,
-                source=f"Follow Builders · Blog · {article.get('name') or 'Blog'}",
-                title=maybe_fix_mojibake(title),
-                url=url,
-                published_at=published,
-                meta={"feed": "feed-blogs.json"},
-            )
-        )
-
-    for episode in feeds.get("podcasts", {}).get("podcasts", []) or []:
-        title = str(episode.get("title") or "").strip()
-        url = str(episode.get("url") or "").strip()
-        published = parse_date_any(episode.get("publishedAt"), now) or parse_date_any(
-            feeds.get("podcasts", {}).get("generatedAt"), now
-        )
-        if not title or not url or not published:
-            continue
-        out.append(
-            RawItem(
-                site_id=site_id,
-                site_name=site_name,
-                source=f"Follow Builders · Podcast · {episode.get('name') or 'Podcast'}",
-                title=maybe_fix_mojibake(title),
-                url=url,
-                published_at=published,
-                meta={"feed": "feed-podcasts.json"},
-            )
-        )
-
-    return out
-
-
-def fetch_follow_builders(session: requests.Session, now: datetime) -> list[RawItem]:
-    feeds: dict[str, dict[str, Any]] = {}
-    for key, filename in (
-        ("x", "feed-x.json"),
-        ("blogs", "feed-blogs.json"),
-        ("podcasts", "feed-podcasts.json"),
-    ):
-        resp = session.get(
-            f"{FOLLOW_BUILDERS_FEED_BASE}/{filename}",
-            timeout=20,
-            headers={
-                "User-Agent": BROWSER_UA,
-                "Accept": "application/json, */*",
-            },
-        )
-        resp.raise_for_status()
-        feeds[key] = resp.json()
-
-    out = parse_follow_builders_items(feeds, now)
-    if not out:
-        raise ValueError("No Follow Builders items parsed")
-    return out
-
-
 def is_hubtoday_placeholder_title(title: str) -> bool:
     t = (title or "").strip()
     if not t:
@@ -1449,80 +1320,6 @@ def fetch_aibase(session: requests.Session, now: datetime) -> list[RawItem]:
     return out
 
 
-def parse_aihot_feed_items(feed_content: bytes, now: datetime, feed_url: str = AIHOT_FEED_URL) -> list[RawItem]:
-    site_id = "aihot"
-    site_name = "AI HOT"
-    source_name = site_name
-    if feedparser is not None:
-        parsed = feedparser.parse(feed_content)
-        entries = list(parsed.entries)
-        source_name = first_non_empty(getattr(parsed, "feed", {}).get("title"), site_name)
-    else:
-        entries = parse_feed_entries_via_xml(feed_content)
-
-    out: list[RawItem] = []
-    seen_urls: set[str] = set()
-    for entry in entries:
-        title = maybe_fix_mojibake(str(entry.get("title") or "").strip())
-        link = str(entry.get("link") or "").strip()
-        if not title or not link:
-            continue
-        normalized_url = normalize_url(link)
-        if normalized_url in seen_urls:
-            continue
-        seen_urls.add(normalized_url)
-        published = (
-            parse_date_any(entry.get("published"), now)
-            or parse_date_any(entry.get("updated"), now)
-            or parse_date_any(entry.get("pubDate"), now)
-        )
-        if not published:
-            continue
-        author_detail = entry.get("author_detail") or {}
-        entry_source = first_non_empty(
-            author_detail.get("name") if isinstance(author_detail, dict) else "",
-            entry.get("author"),
-            source_name,
-        )
-        out.append(
-            RawItem(
-                site_id=site_id,
-                site_name=site_name,
-                source=maybe_fix_mojibake(entry_source),
-                title=title,
-                url=link,
-                published_at=published,
-                meta={"feed_url": feed_url},
-            )
-        )
-
-    return out
-
-
-def fetch_aihot(session: requests.Session, now: datetime) -> list[RawItem]:
-    last_error: Exception | None = None
-    for feed_url in (AIHOT_FEED_URL, *AIHOT_FALLBACK_FEED_URLS):
-        try:
-            r = session.get(
-                feed_url,
-                timeout=30,
-                headers={
-                    "User-Agent": BROWSER_UA,
-                    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
-                    "Accept": "application/rss+xml, application/xml, text/xml, */*",
-                },
-            )
-            r.raise_for_status()
-            items = parse_aihot_feed_items(r.content, now, feed_url=feed_url)
-            if items:
-                return items
-        except Exception as exc:
-            last_error = exc
-    if last_error is not None:
-        raise last_error
-    return []
-
-
 def extract_newsnow_source_ids(js: str) -> list[str]:
     marker = "{v2ex:vL"
     start = js.find(marker)
@@ -1680,7 +1477,6 @@ def collect_all(session: requests.Session, now: datetime) -> tuple[list[RawItem]
     tasks = [
         ("official_ai", "Official AI Updates", fetch_official_ai_updates),
         ("aibreakfast", "AI Breakfast", fetch_ai_breakfast),
-        ("followbuilders", "Follow Builders", fetch_follow_builders),
         ("techurls", "TechURLs", fetch_techurls),
         ("buzzing", "Buzzing", fetch_buzzing),
         ("iris", "Info Flow", fetch_iris),
@@ -1688,7 +1484,6 @@ def collect_all(session: requests.Session, now: datetime) -> tuple[list[RawItem]
         ("zeli", "Zeli", fetch_zeli),
         ("aihubtoday", "AI HubToday", fetch_ai_hubtoday),
         ("aibase", "AIbase", fetch_aibase),
-        ("aihot", "AI HOT", fetch_aihot),
         ("newsnow", "NewsNow", fetch_newsnow),
     ]
 
@@ -2130,7 +1925,6 @@ SOURCE_TIER_BY_SITE: dict[str, tuple[str, str, int]] = {
     "aibreakfast": ("ai_vertical", "AI垂直源", 1),
     "aihubtoday": ("ai_vertical", "AI垂直源", 1),
     "aibase": ("ai_vertical", "AI垂直源", 1),
-    "aihot": ("ai_vertical", "AI垂直源", 1),
     "bestblogs": ("ai_vertical", "AI垂直源", 1),
     "followbuilders": ("builders", "Builders/X源", 2),
     "opmlrss": ("user_opml", "RSS/OPML", 3),
