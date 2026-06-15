@@ -1620,6 +1620,7 @@ def parse_telegram_public_items(
     now: datetime,
     source_name: str,
     slug: str,
+    site_id: str = "opmlrss",
 ) -> list[RawItem]:
     soup = BeautifulSoup(html, "html.parser")
     out: list[RawItem] = []
@@ -1641,13 +1642,13 @@ def parse_telegram_public_items(
         url = f"https://t.me/{data_post}"
         out.append(
             RawItem(
-                site_id="opmlrss",
+                site_id=site_id,
                 site_name="OPML RSS",
                 source=source_name,
                 title=compact_title(text),
                 url=url,
                 published_at=published,
-                meta={"bridge_type": "telegram", "bridge_slug": slug, "feed_home": f"https://t.me/s/{slug}"},
+                meta={"bridge_type": "telegram", "bridge_slug": slug, "feed_home": f"https://t.me/s/{slug}", "opml_category": site_id},
             )
         )
     return out
@@ -1659,6 +1660,7 @@ def parse_jike_public_items(
     now: datetime,
     source_name: str,
     source_url: str,
+    site_id: str = "opmlrss",
 ) -> list[RawItem]:
     soup = BeautifulSoup(html, "html.parser")
     script = soup.find("script", id="__NEXT_DATA__")
@@ -1683,13 +1685,13 @@ def parse_jike_public_items(
             continue
         out.append(
             RawItem(
-                site_id="opmlrss",
+                site_id=site_id,
                 site_name="OPML RSS",
                 source=source_name,
                 title=compact_title(text),
                 url=f"https://m.okjike.com/originalPosts/{post_id}",
                 published_at=published,
-                meta={"bridge_type": "jike", "feed_home": source_url},
+                meta={"bridge_type": "jike", "feed_home": source_url, "opml_category": site_id},
             )
         )
     return out
@@ -1750,6 +1752,7 @@ def fetch_opml_rss(
         feed_url = feed["xml_url"]
         original_feed_url = str(feed.get("xml_url_original") or feed_url)
         feed_title = feed["title"]
+        feed_category = str(feed.get("category") or "opmlrss").strip() or "opmlrss"
         feed_id = hashlib.sha1(feed_url.encode("utf-8")).hexdigest()[:10]
         start = time.perf_counter()
         error = None
@@ -1773,6 +1776,7 @@ def fetch_opml_rss(
                     now=now,
                     source_name=feed_title,
                     slug=str(feed.get("bridge_slug") or ""),
+                    site_id=feed_category,
                 )
             elif bridge_type == "jike":
                 local_items = parse_jike_public_items(
@@ -1780,6 +1784,7 @@ def fetch_opml_rss(
                     now=now,
                     source_name=feed_title,
                     source_url=feed_url,
+                    site_id=feed_category,
                 )
             elif feedparser is not None:
                 parsed = feedparser.parse(resp.content)
@@ -1803,7 +1808,7 @@ def fetch_opml_rss(
                         continue
                     local_items.append(
                         RawItem(
-                            site_id="opmlrss",
+                            site_id=feed_category,
                             site_name="OPML RSS",
                             source=source_name,
                             title=title,
@@ -1812,6 +1817,7 @@ def fetch_opml_rss(
                             meta={
                                 "feed_url": feed_url,
                                 "feed_home": feed.get("html_url") or "",
+                                "opml_category": feed_category,
                             },
                         )
                     )
@@ -1824,7 +1830,7 @@ def fetch_opml_rss(
                         continue
                     local_items.append(
                         RawItem(
-                            site_id="opmlrss",
+                            site_id=feed_category,
                             site_name="OPML RSS",
                             source=source_name,
                             title=entry.get("title", ""),
@@ -1833,6 +1839,7 @@ def fetch_opml_rss(
                             meta={
                                 "feed_url": feed_url,
                                 "feed_home": feed.get("html_url") or "",
+                                "opml_category": feed_category,
                             },
                         )
                     )
@@ -1929,9 +1936,11 @@ SOURCE_TIER_BY_SITE: dict[str, tuple[str, str, int]] = {
     "aibase": ("ai_vertical", "AI 垂直源", 1),
     "bestblogs": ("ai_vertical", "AI 垂直源", 1),
     "followbuilders": ("builders", "Builders", 2),
+    "opmlrss": ("opmlrss", "RSS", 4),
     "blog": ("blog", "Blog", 3),
     "business": ("business", "Business", 3),
     "convivium": ("convivium", "Convivium", 3),
+    "culture": ("culture", "Culture", 3),
     "finance": ("finance", "Finance", 3),
     "tech": ("tech", "Tech", 3),
     "techurls": ("trending", "Tredning", 5),
@@ -1950,7 +1959,7 @@ SOURCE_TIER_IMPORTANCE = {
     "convivium": 0.5,
     "finance": 0.5,
     "tech": 0.5,
-    "business": 0.5,
+    "culture": 0.5,
     "advanced": 0.45,
     "trending": 0.32,
     "other": 0.25,
@@ -2013,8 +2022,10 @@ MODEL_RE = re.compile(
 
 
 def source_tier_for_site(site_id: str) -> dict[str, Any]:
-    sid = str(site_id or "").strip().lower()
-    if sid.startswith("opmlrss"):
+    sid = str(site_id or "").strip()
+    if sid not in SOURCE_TIER_BY_SITE:
+        sid = sid.lower()
+    if sid not in SOURCE_TIER_BY_SITE and sid.startswith("opmlrss"):
         sid = "opmlrss"
     tier, label, rank = SOURCE_TIER_BY_SITE.get(sid, ("other", "其他来源", 9))
     return {"source_tier": tier, "source_tier_label": label, "source_tier_rank": rank}
