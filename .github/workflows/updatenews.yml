@@ -46,10 +46,10 @@ jobs:
 
       - name: Update data
         env:
-          RSS_MAX_FEEDS: ${{ vars.RSS_MAX_FEEDS || 50 }}
+          RSS_MAX_FEEDS: ${{ vars.RSS_MAX_FEEDS || 130 }}
         run: |
           if [ -f feeds/follow.opml ]; then
-            python scripts/update_news.py --output-dir data --window-hours 24 --archive-days 21 --rss-opml feeds/follow.opml --rss-max-feeds "${RSS_MAX_FEEDS:-50}"
+            python scripts/update_news.py --output-dir data --window-hours 24 --archive-days 21 --rss-opml feeds/follow.opml --rss-max-feeds "${RSS_MAX_FEEDS:-130}"
           else
             python scripts/update_news.py --output-dir data --window-hours 24 --archive-days 21
           fi
