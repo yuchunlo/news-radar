@@ -1,1275 +1,933 @@
 {
-  "generated_at": "2026-06-16T02:10:41.334257Z",
+  "generated_at": "2026-06-16T07:52:00.130239Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
     {
-      "story_id": "story_23226a6cabc2",
-      "title": "支付宝新产品Token Pay，首接最新国产大模型MiniMax M3",
-      "url": "https://www.aibase.com/news/28941",
-      "primary_url": "https://www.aibase.com/news/28941",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "9f009cb29b353339785091c7826436864769af38",
-          "title": "支付宝新产品Token Pay，首接最新国产大模型MiniMax M3",
-          "url": "https://www.aibase.com/news/28941",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": null
-        },
-        {
-          "id": "a0644ba7b96a944ce403085ae0e2247092764125",
-          "title": "支付宝新产品Token Pay，首接最新国产大模型MiniMax M3",
-          "url": "https://36kr.com/newsflashes/3855194216485890?f=rss",
-          "source": "36氪 (36Kr)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-16T01:46:21Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "36氪 (36Kr)",
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "9f009cb29b353339785091c7826436864769af38",
-          "title": "支付宝新产品Token Pay，首接最新国产大模型MiniMax M3",
-          "url": "https://www.aibase.com/news/28941",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": null
-        },
-        {
-          "id": "a0644ba7b96a944ce403085ae0e2247092764125",
-          "title": "支付宝新产品Token Pay，首接最新国产大模型MiniMax M3",
-          "url": "https://36kr.com/newsflashes/3855194216485890?f=rss",
-          "source": "36氪 (36Kr)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-16T01:46:21Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.74,
-      "importance": 0.74,
-      "importance_score": 0.74,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "source_tier": 0.78,
-        "recency": 1.0,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-16T01:46:21Z",
-      "latest_at": "2026-06-16T02:10:41.334257Z",
-      "primary_item": {
-        "id": "9f009cb29b353339785091c7826436864769af38",
-        "title": "支付宝新产品Token Pay，首接最新国产大模型MiniMax M3",
-        "url": "https://www.aibase.com/news/28941",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_c5321d4002b7",
-      "title": "英伟达将通过五年来的首次企业债券发行筹集250亿美元",
-      "url": "https://www.reuters.com/business/finance/nvidia-raise-20-billion-source-says-first-corporate-bond-issuance-five-years-2026-06-15",
-      "primary_url": "https://www.reuters.com/business/finance/nvidia-raise-20-billion-source-says-first-corporate-bond-issuance-five-years-2026-06-15",
-      "source": "www.reuters.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "73e04443c88ad7173e4e108b488eb590c49fea7d",
-          "title": "英伟达将通过五年来的首次企业债券发行筹集250亿美元",
-          "url": "https://www.reuters.com/business/finance/nvidia-raise-20-billion-source-says-first-corporate-bond-issuance-five-years-2026-06-15",
-          "source": "www.reuters.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T22:21:16.375000Z"
-        },
-        {
-          "id": "0af08aa880898c59125bcacab810822e5eb31af7",
-          "title": "据消息人士透露，英伟达将通过五年来的首次企业债券发行筹集250亿美元",
-          "url": "https://www.reuters.com/business/finance/nvidia-raise-20-billion-source-says-first-corporate-bond-issuance-five-years-2026-06-15",
-          "source": "www.reuters.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T20:13:16.406000Z"
-        },
-        {
-          "id": "550a7f526a2ae965097f99bbed7e3bf2b8c2ca41",
-          "title": "消息人士称，英伟达将通过五年来的首次企业债券发行筹集200亿美元 - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOb3J6OUR4dG9YbWJEWmwzYkQ1SVpMOHFiQU9PMmYweDJ6N0R0dUhmNmt6THBkdlFxMHhUcDA1OFFwSktsNUQ4c3N2WW9ZU0J1YTZHYk95RVc0c25mV3Bqd0kyVEJNMUQ1U2FvSUt4Z1N2a1BMTXJJRHRyWnJRV2J4cGY4NktrTVgzdHVQWXBGZ3hDSnAzb3RJR0FWUXRjUEdkejJXMTh3dWhINWFrQ3RtMmxINTVrOERqVGctZXJCVF9RRDd2OEtWdg?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-          "source": "news.google.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T17:33:16.181000Z"
-        },
-        {
-          "id": "6ae75ee73e7fc27f828d24048884aa82b24e9f6f",
-          "title": "消息人士称，英伟达将通过五年来的首次企业债券发行筹集200亿美元",
-          "url": "https://reut.rs/4org7X8",
-          "source": "reut.rs",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T16:45:24.673000Z"
-        }
-      ],
-      "source_count": 4,
-      "source_names": [
-        "news.google.com",
-        "reut.rs",
-        "www.reuters.com"
-      ],
-      "items": [
-        {
-          "id": "73e04443c88ad7173e4e108b488eb590c49fea7d",
-          "title": "英伟达将通过五年来的首次企业债券发行筹集250亿美元",
-          "url": "https://www.reuters.com/business/finance/nvidia-raise-20-billion-source-says-first-corporate-bond-issuance-five-years-2026-06-15",
-          "source": "www.reuters.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T22:21:16.375000Z"
-        },
-        {
-          "id": "0af08aa880898c59125bcacab810822e5eb31af7",
-          "title": "据消息人士透露，英伟达将通过五年来的首次企业债券发行筹集250亿美元",
-          "url": "https://www.reuters.com/business/finance/nvidia-raise-20-billion-source-says-first-corporate-bond-issuance-five-years-2026-06-15",
-          "source": "www.reuters.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T20:13:16.406000Z"
-        },
-        {
-          "id": "550a7f526a2ae965097f99bbed7e3bf2b8c2ca41",
-          "title": "消息人士称，英伟达将通过五年来的首次企业债券发行筹集200亿美元 - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOb3J6OUR4dG9YbWJEWmwzYkQ1SVpMOHFiQU9PMmYweDJ6N0R0dUhmNmt6THBkdlFxMHhUcDA1OFFwSktsNUQ4c3N2WW9ZU0J1YTZHYk95RVc0c25mV3Bqd0kyVEJNMUQ1U2FvSUt4Z1N2a1BMTXJJRHRyWnJRV2J4cGY4NktrTVgzdHVQWXBGZ3hDSnAzb3RJR0FWUXRjUEdkejJXMTh3dWhINWFrQ3RtMmxINTVrOERqVGctZXJCVF9RRDd2OEtWdg?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-          "source": "news.google.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T17:33:16.181000Z"
-        },
-        {
-          "id": "6ae75ee73e7fc27f828d24048884aa82b24e9f6f",
-          "title": "消息人士称，英伟达将通过五年来的首次企业债券发行筹集200亿美元",
-          "url": "https://reut.rs/4org7X8",
-          "source": "reut.rs",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T16:45:24.673000Z"
-        }
-      ],
-      "item_count": 4,
-      "duplicate_count": 4,
-      "score": 0.5622,
-      "importance": 0.5622,
-      "importance_score": 0.5622,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 0.8407,
-        "story_heat": 0.75
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T16:45:24.673000Z",
-      "latest_at": "2026-06-15T22:21:16.375000Z",
-      "primary_item": {
-        "id": "73e04443c88ad7173e4e108b488eb590c49fea7d",
-        "title": "英伟达将通过五年来的首次企业债券发行筹集250亿美元",
-        "url": "https://www.reuters.com/business/finance/nvidia-raise-20-billion-source-says-first-corporate-bond-issuance-five-years-2026-06-15",
-        "source": "www.reuters.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_c36efa230e23",
-      "title": "亚洲股市涨势在利率决议前趋缓：市场综述",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-15/oil-holds-losses-after-iran-deal-spurs-stock-rally-markets-wrap",
-      "primary_url": "https://www.bloomberg.com/news/articles/2026-06-15/oil-holds-losses-after-iran-deal-spurs-stock-rally-markets-wrap",
-      "source": "www.bloomberg.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "55306ca58104146cf95eecb6bcac4e3971a0cccd",
-          "title": "亚洲股市涨势在利率决议前趋缓：市场综述",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-15/oil-holds-losses-after-iran-deal-spurs-stock-rally-markets-wrap",
-          "source": "www.bloomberg.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-16T01:33:12.342000Z"
-        },
-        {
-          "id": "22decd8094bef2c777a66abc11d742ba99952875",
-          "title": "亚洲交易员将关注焦点转向澳大利亚央行和日本央行利率决议：市场综述",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-15/oil-holds-losses-after-iran-deal-spurs-stock-rally-markets-wrap",
-          "source": "www.bloomberg.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T23:41:13.048000Z"
-        },
-        {
-          "id": "30a0e83b7915731b1fa2bf838da4f3999b6a9b6e",
-          "title": "伊朗协议推动股市上涨，油价跌幅收窄：市场综述",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-15/oil-holds-losses-after-iran-deal-spurs-stock-rally-markets-wrap",
-          "source": "www.bloomberg.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T22:21:16.343000Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "www.bloomberg.com"
-      ],
-      "items": [
-        {
-          "id": "55306ca58104146cf95eecb6bcac4e3971a0cccd",
-          "title": "亚洲股市涨势在利率决议前趋缓：市场综述",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-15/oil-holds-losses-after-iran-deal-spurs-stock-rally-markets-wrap",
-          "source": "www.bloomberg.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-16T01:33:12.342000Z"
-        },
-        {
-          "id": "22decd8094bef2c777a66abc11d742ba99952875",
-          "title": "亚洲交易员将关注焦点转向澳大利亚央行和日本央行利率决议：市场综述",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-15/oil-holds-losses-after-iran-deal-spurs-stock-rally-markets-wrap",
-          "source": "www.bloomberg.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T23:41:13.048000Z"
-        },
-        {
-          "id": "30a0e83b7915731b1fa2bf838da4f3999b6a9b6e",
-          "title": "伊朗协议推动股市上涨，油价跌幅收窄：市场综述",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-15/oil-holds-losses-after-iran-deal-spurs-stock-rally-markets-wrap",
-          "source": "www.bloomberg.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T22:21:16.343000Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5522,
-      "importance": 0.5522,
-      "importance_score": 0.5522,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 0.974,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T22:21:16.343000Z",
-      "latest_at": "2026-06-16T01:33:12.342000Z",
-      "primary_item": {
-        "id": "55306ca58104146cf95eecb6bcac4e3971a0cccd",
-        "title": "亚洲股市涨势在利率决议前趋缓：市场综述",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-15/oil-holds-losses-after-iran-deal-spurs-stock-rally-markets-wrap",
-        "source": "www.bloomberg.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_5e2758934aec",
-      "title": "欧洲能否利用自身拥有的计算资源来训练前沿的人工智能模型？",
-      "url": "https://github.com/sammysltd/euromesh",
-      "primary_url": "https://github.com/sammysltd/euromesh",
-      "source": "github.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "c90bde8cd6580aa5f8cf4c3ab050066b54720235",
-          "title": "欧洲能否利用自身拥有的计算资源来训练前沿的人工智能模型？",
-          "url": "https://github.com/sammysltd/euromesh",
-          "source": "github.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T21:17:10.930000Z"
-        },
-        {
-          "id": "cfe206c3af7c82d58afdae695053b58c95e55d2f",
-          "title": "Show HN: 欧洲能否利用自身拥有的计算资源来训练前沿的人工智能模型？",
-          "url": "https://github.com/sammysltd/euromesh",
-          "source": "github.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T13:33:26.289000Z"
-        },
-        {
-          "id": "dc0f56ed653d3bd279c275099eb7025e8a6c7ab5",
-          "title": "Show HN: 欧洲能否利用自身拥有的计算资源来训练前沿的人工智能模型？ / Can Europe train a frontier AI model on the compute it owns?",
-          "url": "https://github.com/sammysltd/euromesh",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-15T13:31:09Z"
-        },
-        {
-          "id": "8d994e56461b073ee84977a642dc1d618ec44bb1",
-          "title": "Show HN: 欧洲能否利用自身拥有的计算资源来训练前沿的人工智能模型？ / Show HN: Can Europe train a frontier AI model on the compute it owns?",
-          "url": "https://github.com/sammysltd/euromesh",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-15T13:31:09Z"
-        }
-      ],
-      "source_count": 4,
-      "source_names": [
-        "Hacker News",
-        "Hacker News · 24h最热",
-        "github.com"
-      ],
-      "items": [
-        {
-          "id": "c90bde8cd6580aa5f8cf4c3ab050066b54720235",
-          "title": "欧洲能否利用自身拥有的计算资源来训练前沿的人工智能模型？",
-          "url": "https://github.com/sammysltd/euromesh",
-          "source": "github.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T21:17:10.930000Z"
-        },
-        {
-          "id": "cfe206c3af7c82d58afdae695053b58c95e55d2f",
-          "title": "Show HN: 欧洲能否利用自身拥有的计算资源来训练前沿的人工智能模型？",
-          "url": "https://github.com/sammysltd/euromesh",
-          "source": "github.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T13:33:26.289000Z"
-        },
-        {
-          "id": "dc0f56ed653d3bd279c275099eb7025e8a6c7ab5",
-          "title": "Show HN: 欧洲能否利用自身拥有的计算资源来训练前沿的人工智能模型？ / Can Europe train a frontier AI model on the compute it owns?",
-          "url": "https://github.com/sammysltd/euromesh",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-15T13:31:09Z"
-        },
-        {
-          "id": "8d994e56461b073ee84977a642dc1d618ec44bb1",
-          "title": "Show HN: 欧洲能否利用自身拥有的计算资源来训练前沿的人工智能模型？ / Show HN: Can Europe train a frontier AI model on the compute it owns?",
-          "url": "https://github.com/sammysltd/euromesh",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-15T13:31:09Z"
-        }
-      ],
-      "item_count": 4,
-      "duplicate_count": 4,
-      "score": 0.5489,
-      "importance": 0.5489,
-      "importance_score": 0.5489,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 0.7962,
-        "story_heat": 0.75
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T13:31:09Z",
-      "latest_at": "2026-06-15T21:17:10.930000Z",
-      "primary_item": {
-        "id": "c90bde8cd6580aa5f8cf4c3ab050066b54720235",
-        "title": "欧洲能否利用自身拥有的计算资源来训练前沿的人工智能模型？",
-        "url": "https://github.com/sammysltd/euromesh",
-        "source": "github.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_1c4d965cfab3",
-      "title": "Wi-Fi智能灯泡里的禁书图书馆",
-      "url": "https://www.richardosgood.com/posts/banned-book-library",
-      "primary_url": "https://www.richardosgood.com/posts/banned-book-library",
-      "source": "www.richardosgood.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "0026095c75adb729675e9794edeb5b7d3fff8279",
-          "title": "Wi-Fi智能灯泡里的禁书图书馆",
-          "url": "https://www.richardosgood.com/posts/banned-book-library",
-          "source": "www.richardosgood.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-16T00:45:03.630000Z"
-        },
-        {
-          "id": "02a9abd737f3081b76eec946c4e23f8465a71f27",
-          "title": "Wi-Fi 智慧燈泡中的停用圖書庫 / Banned Book Library in a Wi-Fi Smart Light Bulb",
-          "url": "https://news.ycombinator.com/item?id=48547985",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-15T22:50:28.919000Z"
-        },
-        {
-          "id": "c80931e95572b6d2f6a654f92bc4df594a9cbc27",
-          "title": "Wi-Fi智能灯泡里的禁书图书馆 / Banned Book Library in a Wi-Fi Smart Light Bulb",
-          "url": "https://www.richardosgood.com/posts/banned-book-library",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-15T22:37:55Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "hackernews",
-        "www.richardosgood.com"
-      ],
-      "items": [
-        {
-          "id": "0026095c75adb729675e9794edeb5b7d3fff8279",
-          "title": "Wi-Fi智能灯泡里的禁书图书馆",
-          "url": "https://www.richardosgood.com/posts/banned-book-library",
-          "source": "www.richardosgood.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-16T00:45:03.630000Z"
-        },
-        {
-          "id": "02a9abd737f3081b76eec946c4e23f8465a71f27",
-          "title": "Wi-Fi 智慧燈泡中的停用圖書庫 / Banned Book Library in a Wi-Fi Smart Light Bulb",
-          "url": "https://news.ycombinator.com/item?id=48547985",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-15T22:50:28.919000Z"
-        },
-        {
-          "id": "c80931e95572b6d2f6a654f92bc4df594a9cbc27",
-          "title": "Wi-Fi智能灯泡里的禁书图书馆 / Banned Book Library in a Wi-Fi Smart Light Bulb",
-          "url": "https://www.richardosgood.com/posts/banned-book-library",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-15T22:37:55Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5422,
-      "importance": 0.5422,
-      "importance_score": 0.5422,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 0.9405,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T22:37:55Z",
-      "latest_at": "2026-06-16T00:45:03.630000Z",
-      "primary_item": {
-        "id": "0026095c75adb729675e9794edeb5b7d3fff8279",
-        "title": "Wi-Fi智能灯泡里的禁书图书馆",
-        "url": "https://www.richardosgood.com/posts/banned-book-library",
-        "source": "www.richardosgood.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_494e167cfa1b",
-      "title": "Rust 与 C/C 在内存安全 CVE 方面的差异",
-      "url": "https://kobzol.github.io/rust/2026/06/15/how-memory-safety-cves-differ-between-rust-and-c-cpp.html",
-      "primary_url": "https://kobzol.github.io/rust/2026/06/15/how-memory-safety-cves-differ-between-rust-and-c-cpp.html",
-      "source": "kobzol.github.io",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "e7dcadc38ab3fe4a6d83766977265ca2c22f4f34",
-          "title": "Rust 与 C/C 在内存安全 CVE 方面的差异",
-          "url": "https://kobzol.github.io/rust/2026/06/15/how-memory-safety-cves-differ-between-rust-and-c-cpp.html",
-          "source": "kobzol.github.io",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T23:41:12.853000Z"
-        },
-        {
-          "id": "5a3079571edcd7d213e9b4d45c29e005c4069d64",
-          "title": "Rust 和 C/C++ 之間的記憶體安全 CVE 有所不同 / Memory safety CVEs differ between Rust and C/C++",
-          "url": "https://news.ycombinator.com/item?id=48543392",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-15T17:51:54.299000Z"
-        },
-        {
-          "id": "9683065a166318e7e4802d2c7699b2a690831d8c",
-          "title": "Rust 与 C/C 在内存安全 CVE 方面的差异 / How memory safety CVEs differ between Rust and C/C++",
-          "url": "https://kobzol.github.io/rust/2026/06/15/how-memory-safety-cves-differ-between-rust-and-c-cpp.html",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-15T16:11:02Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "hackernews",
-        "kobzol.github.io"
-      ],
-      "items": [
-        {
-          "id": "e7dcadc38ab3fe4a6d83766977265ca2c22f4f34",
-          "title": "Rust 与 C/C 在内存安全 CVE 方面的差异",
-          "url": "https://kobzol.github.io/rust/2026/06/15/how-memory-safety-cves-differ-between-rust-and-c-cpp.html",
-          "source": "kobzol.github.io",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T23:41:12.853000Z"
-        },
-        {
-          "id": "5a3079571edcd7d213e9b4d45c29e005c4069d64",
-          "title": "Rust 和 C/C++ 之間的記憶體安全 CVE 有所不同 / Memory safety CVEs differ between Rust and C/C++",
-          "url": "https://news.ycombinator.com/item?id=48543392",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-15T17:51:54.299000Z"
-        },
-        {
-          "id": "9683065a166318e7e4802d2c7699b2a690831d8c",
-          "title": "Rust 与 C/C 在内存安全 CVE 方面的差异 / How memory safety CVEs differ between Rust and C/C++",
-          "url": "https://kobzol.github.io/rust/2026/06/15/how-memory-safety-cves-differ-between-rust-and-c-cpp.html",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-15T16:11:02Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5289,
-      "importance": 0.5289,
-      "importance_score": 0.5289,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 0.8962,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T16:11:02Z",
-      "latest_at": "2026-06-15T23:41:12.853000Z",
-      "primary_item": {
-        "id": "e7dcadc38ab3fe4a6d83766977265ca2c22f4f34",
-        "title": "Rust 与 C/C 在内存安全 CVE 方面的差异",
-        "url": "https://kobzol.github.io/rust/2026/06/15/how-memory-safety-cves-differ-between-rust-and-c-cpp.html",
-        "source": "kobzol.github.io",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_262e6acaa921",
-      "title": "美国电池产量持续刷新纪录",
-      "url": "https://fred.stlouisfed.org/series/IPG33591S",
-      "primary_url": "https://fred.stlouisfed.org/series/IPG33591S",
-      "source": "fred.stlouisfed.org",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "e257ec3970aa5ca6d1f91195fdeaf9661eaa5235",
-          "title": "美国电池产量持续刷新纪录",
-          "url": "https://fred.stlouisfed.org/series/IPG33591S",
-          "source": "fred.stlouisfed.org",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T23:09:06.829000Z"
-        },
-        {
-          "id": "e8aa8da11984d68cca3c20de644bb56318a3e67c",
-          "title": "美國電池製造業產量持續打破紀錄 / US battery manufacturing output continues to break records",
-          "url": "https://news.ycombinator.com/item?id=48546616",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-15T22:50:28.919000Z"
-        },
-        {
-          "id": "94f271651a581396c13b4d90ab56d224fc198627",
-          "title": "美国电池产量持续刷新纪录 / US battery manufacturing output continues to break records",
-          "url": "https://fred.stlouisfed.org/series/IPG33591S",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-15T20:28:24Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News",
-        "fred.stlouisfed.org",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "e257ec3970aa5ca6d1f91195fdeaf9661eaa5235",
-          "title": "美国电池产量持续刷新纪录",
-          "url": "https://fred.stlouisfed.org/series/IPG33591S",
-          "source": "fred.stlouisfed.org",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T23:09:06.829000Z"
-        },
-        {
-          "id": "e8aa8da11984d68cca3c20de644bb56318a3e67c",
-          "title": "美國電池製造業產量持續打破紀錄 / US battery manufacturing output continues to break records",
-          "url": "https://news.ycombinator.com/item?id=48546616",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-15T22:50:28.919000Z"
-        },
-        {
-          "id": "94f271651a581396c13b4d90ab56d224fc198627",
-          "title": "美国电池产量持续刷新纪录 / US battery manufacturing output continues to break records",
-          "url": "https://fred.stlouisfed.org/series/IPG33591S",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-15T20:28:24Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5222,
-      "importance": 0.5222,
-      "importance_score": 0.5222,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 0.8739,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T20:28:24Z",
-      "latest_at": "2026-06-15T23:09:06.829000Z",
-      "primary_item": {
-        "id": "e257ec3970aa5ca6d1f91195fdeaf9661eaa5235",
-        "title": "美国电池产量持续刷新纪录",
-        "url": "https://fred.stlouisfed.org/series/IPG33591S",
-        "source": "fred.stlouisfed.org",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_6f028ef930bf",
-      "title": "TimescaleDB 如何压缩时间序列数据",
-      "url": "https://roszigit.com/en/blog/timescaledb-compression-hypercore",
-      "primary_url": "https://roszigit.com/en/blog/timescaledb-compression-hypercore",
-      "source": "roszigit.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "eba2f6cb9c6fb0a7646961d544bad89fa62d9c2b",
-          "title": "TimescaleDB 如何压缩时间序列数据",
-          "url": "https://roszigit.com/en/blog/timescaledb-compression-hypercore",
-          "source": "roszigit.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T22:53:06.787000Z"
-        },
-        {
-          "id": "86d9d8731acf1378388ddd233c2c0ca207553507",
-          "title": "TimescaleDB如何壓縮時間序列數據 / How TimescaleDB compresses time-series data",
-          "url": "https://news.ycombinator.com/item?id=48544451",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-15T17:51:54.299000Z"
-        },
-        {
-          "id": "a57d25fcb4093ce0b0ec7114504ec187d3483b82",
-          "title": "TimescaleDB 如何压缩时间序列数据 / How TimescaleDB compresses time-series data",
-          "url": "https://roszigit.com/en/blog/timescaledb-compression-hypercore",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-15T17:29:17Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "hackernews",
-        "roszigit.com"
-      ],
-      "items": [
-        {
-          "id": "eba2f6cb9c6fb0a7646961d544bad89fa62d9c2b",
-          "title": "TimescaleDB 如何压缩时间序列数据",
-          "url": "https://roszigit.com/en/blog/timescaledb-compression-hypercore",
-          "source": "roszigit.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T22:53:06.787000Z"
-        },
-        {
-          "id": "86d9d8731acf1378388ddd233c2c0ca207553507",
-          "title": "TimescaleDB如何壓縮時間序列數據 / How TimescaleDB compresses time-series data",
-          "url": "https://news.ycombinator.com/item?id=48544451",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-15T17:51:54.299000Z"
-        },
-        {
-          "id": "a57d25fcb4093ce0b0ec7114504ec187d3483b82",
-          "title": "TimescaleDB 如何压缩时间序列数据 / How TimescaleDB compresses time-series data",
-          "url": "https://roszigit.com/en/blog/timescaledb-compression-hypercore",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-15T17:29:17Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5188,
-      "importance": 0.5188,
-      "importance_score": 0.5188,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 0.8628,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T17:29:17Z",
-      "latest_at": "2026-06-15T22:53:06.787000Z",
-      "primary_item": {
-        "id": "eba2f6cb9c6fb0a7646961d544bad89fa62d9c2b",
-        "title": "TimescaleDB 如何压缩时间序列数据",
-        "url": "https://roszigit.com/en/blog/timescaledb-compression-hypercore",
-        "source": "roszigit.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_961216d0cb72",
-      "title": "Show HN：獸醫變身人工智慧草坪診斷創辦人 / Show HN: Vet turned founder, AI lawn diagnosis",
-      "url": "https://news.ycombinator.com/item?id=48544823",
-      "primary_url": "https://news.ycombinator.com/item?id=48544823",
+      "story_id": "story_6b6e5cd934e5",
+      "title": "顯示 HN: machine0 – 您從 CLI 控制的持久 NixOS 虛擬機 / Show HN: machine0 – Persistent NixOS VMs You Control from the CLI",
+      "url": "https://news.ycombinator.com/item?id=48543245",
+      "primary_url": "https://news.ycombinator.com/item?id=48543245",
       "source": "hackernews",
       "source_name": "NewsNow",
       "sources": [
         {
-          "id": "4800678406d2cf1cf1476054bd4f8b4438c65a40",
-          "title": "Show HN：獸醫變身人工智慧草坪診斷創辦人 / Show HN: Vet turned founder, AI lawn diagnosis",
-          "url": "https://news.ycombinator.com/item?id=48544823",
+          "id": "00cb485e29ed4d8bb22f28567acbb5699385557b",
+          "title": "顯示 HN: machine0 – 您從 CLI 控制的持久 NixOS 虛擬機 / Show HN: machine0 – Persistent NixOS VMs You Control from the CLI",
+          "url": "https://news.ycombinator.com/item?id=48543245",
           "source": "hackernews",
           "source_name": "NewsNow",
           "site_id": "newsnow",
-          "published_at": "2026-06-15T22:50:28.919000Z"
+          "published_at": "2026-06-15T17:51:54.299000Z"
         },
         {
-          "id": "1ee3c5aca98fee78d51e0c1a127931eb7cc20436",
-          "title": "Show HN: 从兽医转型为创始人，人工智能草坪诊断",
-          "url": "https://grassdx.com",
-          "source": "grassdx.com",
+          "id": "0f27a62791462293c4e6cbaa974b30905127de8b",
+          "title": "Show HN: machine0 – 您可通过命令行控制的持久化 NixOS 虚拟机",
+          "url": "https://machine0.io",
+          "source": "machine0.io",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-06-15T18:05:08.270000Z"
+          "published_at": "2026-06-15T16:13:14.413000Z"
         },
         {
-          "id": "dd1ffd650cd6da8713503132ea26382749302485",
-          "title": "Show HN: 从兽医转型为创始人，人工智能草坪诊断 / Show HN: Vet turned founder, AI lawn diagnosis",
-          "url": "https://grassdx.com",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-15T17:56:00Z"
+          "id": "5d2b772a239e999ca492efdf3cc81e0a5b024e85",
+          "title": "Show HN: machine0 – 您可通过命令行控制的持久化 NixOS 虚拟机 / Show HN: machine0 – Persistent NixOS VMs You Control from the CLI",
+          "url": "https://machine0.io",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-15T16:01:43Z"
         }
       ],
       "source_count": 3,
       "source_names": [
-        "Hacker News",
-        "grassdx.com",
-        "hackernews"
+        "Hacker News · 24h最热",
+        "hackernews",
+        "machine0.io"
       ],
       "items": [
         {
-          "id": "4800678406d2cf1cf1476054bd4f8b4438c65a40",
-          "title": "Show HN：獸醫變身人工智慧草坪診斷創辦人 / Show HN: Vet turned founder, AI lawn diagnosis",
-          "url": "https://news.ycombinator.com/item?id=48544823",
+          "id": "00cb485e29ed4d8bb22f28567acbb5699385557b",
+          "title": "顯示 HN: machine0 – 您從 CLI 控制的持久 NixOS 虛擬機 / Show HN: machine0 – Persistent NixOS VMs You Control from the CLI",
+          "url": "https://news.ycombinator.com/item?id=48543245",
           "source": "hackernews",
           "source_name": "NewsNow",
           "site_id": "newsnow",
-          "published_at": "2026-06-15T22:50:28.919000Z"
+          "published_at": "2026-06-15T17:51:54.299000Z"
         },
         {
-          "id": "1ee3c5aca98fee78d51e0c1a127931eb7cc20436",
-          "title": "Show HN: 从兽医转型为创始人，人工智能草坪诊断",
-          "url": "https://grassdx.com",
-          "source": "grassdx.com",
+          "id": "0f27a62791462293c4e6cbaa974b30905127de8b",
+          "title": "Show HN: machine0 – 您可通过命令行控制的持久化 NixOS 虚拟机",
+          "url": "https://machine0.io",
+          "source": "machine0.io",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-06-15T18:05:08.270000Z"
+          "published_at": "2026-06-15T16:13:14.413000Z"
         },
         {
-          "id": "dd1ffd650cd6da8713503132ea26382749302485",
-          "title": "Show HN: 从兽医转型为创始人，人工智能草坪诊断 / Show HN: Vet turned founder, AI lawn diagnosis",
-          "url": "https://grassdx.com",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-15T17:56:00Z"
+          "id": "5d2b772a239e999ca492efdf3cc81e0a5b024e85",
+          "title": "Show HN: machine0 – 您可通过命令行控制的持久化 NixOS 虚拟机 / Show HN: machine0 – Persistent NixOS VMs You Control from the CLI",
+          "url": "https://machine0.io",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-15T16:01:43Z"
         }
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5183,
-      "importance": 0.5183,
-      "importance_score": 0.5183,
+      "score": 0.385,
+      "importance": 0.385,
+      "importance_score": 0.385,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.32,
-        "recency": 0.861,
+        "recency": 0.4166,
         "story_heat": 0.5
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-15T17:56:00Z",
-      "latest_at": "2026-06-15T22:50:28.919000Z",
+      "earliest_at": "2026-06-15T16:01:43Z",
+      "latest_at": "2026-06-15T17:51:54.299000Z",
       "primary_item": {
-        "id": "4800678406d2cf1cf1476054bd4f8b4438c65a40",
-        "title": "Show HN：獸醫變身人工智慧草坪診斷創辦人 / Show HN: Vet turned founder, AI lawn diagnosis",
-        "url": "https://news.ycombinator.com/item?id=48544823",
+        "id": "00cb485e29ed4d8bb22f28567acbb5699385557b",
+        "title": "顯示 HN: machine0 – 您從 CLI 控制的持久 NixOS 虛擬機 / Show HN: machine0 – Persistent NixOS VMs You Control from the CLI",
+        "url": "https://news.ycombinator.com/item?id=48543245",
         "source": "hackernews",
         "source_name": "NewsNow"
       }
     },
     {
-      "story_id": "story_d38d5904776e",
-      "title": "SpaceX股价连续第二日大涨，市值增加4120亿美元",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-15/spacex-shares-rise-set-to-extend-gains-after-record-ipo-mqexlibz",
-      "primary_url": "https://www.bloomberg.com/news/articles/2026-06-15/spacex-shares-rise-set-to-extend-gains-after-record-ipo-mqexlibz",
-      "source": "www.bloomberg.com",
+      "story_id": "story_faab532a2a8d",
+      "title": "一种铜转运药物可恢复记忆并清除阿尔茨海默病中的有毒蛋白质",
+      "url": "https://www.monash.edu/news/articles/copper-drug-restores-memory-and-clears-toxic-alzheimers-proteins",
+      "primary_url": "https://www.monash.edu/news/articles/copper-drug-restores-memory-and-clears-toxic-alzheimers-proteins",
+      "source": "www.monash.edu",
       "source_name": "Buzzing",
       "sources": [
         {
-          "id": "03a7eec11bce821a1ec4729562c56222a9759597",
-          "title": "SpaceX股价连续第二日大涨，市值增加4120亿美元",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-15/spacex-shares-rise-set-to-extend-gains-after-record-ipo-mqexlibz",
-          "source": "www.bloomberg.com",
+          "id": "85ba210b2ace283115cdd3ee66bac160a60c1a66",
+          "title": "一种铜转运药物可恢复记忆并清除阿尔茨海默病中的有毒蛋白质",
+          "url": "https://www.monash.edu/news/articles/copper-drug-restores-memory-and-clears-toxic-alzheimers-proteins",
+          "source": "www.monash.edu",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-06-16T00:45:04.323000Z"
+          "published_at": "2026-06-15T17:17:20.353000Z"
         },
         {
-          "id": "414d233bb071963896147ac63dfe602d2cae1195",
-          "title": "SpaceX股价次日大涨20%，市值增加4120亿美元",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-15/spacex-shares-rise-set-to-extend-gains-after-record-ipo-mqexlibz",
-          "source": "www.bloomberg.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T20:13:16.330000Z"
-        },
-        {
-          "id": "5877ad9d97e862ac9525a543f41ddd2bf4173ab5",
-          "title": "SpaceX在创纪录的首次公开募股后，上市第二日股价大涨11%",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-15/spacex-shares-rise-set-to-extend-gains-after-record-ipo-mqexlibz",
-          "source": "www.bloomberg.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T16:13:15.201000Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "www.bloomberg.com"
-      ],
-      "items": [
-        {
-          "id": "03a7eec11bce821a1ec4729562c56222a9759597",
-          "title": "SpaceX股价连续第二日大涨，市值增加4120亿美元",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-15/spacex-shares-rise-set-to-extend-gains-after-record-ipo-mqexlibz",
-          "source": "www.bloomberg.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-16T00:45:04.323000Z"
-        },
-        {
-          "id": "414d233bb071963896147ac63dfe602d2cae1195",
-          "title": "SpaceX股价次日大涨20%，市值增加4120亿美元",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-15/spacex-shares-rise-set-to-extend-gains-after-record-ipo-mqexlibz",
-          "source": "www.bloomberg.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T20:13:16.330000Z"
-        },
-        {
-          "id": "5877ad9d97e862ac9525a543f41ddd2bf4173ab5",
-          "title": "SpaceX在创纪录的首次公开募股后，上市第二日股价大涨11%",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-15/spacex-shares-rise-set-to-extend-gains-after-record-ipo-mqexlibz",
-          "source": "www.bloomberg.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T16:13:15.201000Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5422,
-      "importance": 0.5422,
-      "importance_score": 0.5422,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 0.9405,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T16:13:15.201000Z",
-      "latest_at": "2026-06-16T00:45:04.323000Z",
-      "primary_item": {
-        "id": "03a7eec11bce821a1ec4729562c56222a9759597",
-        "title": "SpaceX股价连续第二日大涨，市值增加4120亿美元",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-15/spacex-shares-rise-set-to-extend-gains-after-record-ipo-mqexlibz",
-        "source": "www.bloomberg.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_82e9432a81bb",
-      "title": "一项大型研究发现，新冠疫苗仍能预防心脏问题",
-      "url": "https://arstechnica.com/health/2026/06/covid-vaccines-still-protect-against-heart-problems-large-study-finds",
-      "primary_url": "https://arstechnica.com/health/2026/06/covid-vaccines-still-protect-against-heart-problems-large-study-finds",
-      "source": "arstechnica.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "f9fb4193c71e94abca6ebddb893341271e3bdc78",
-          "title": "一项大型研究发现，新冠疫苗仍能预防心脏问题",
-          "url": "https://arstechnica.com/health/2026/06/covid-vaccines-still-protect-against-heart-problems-large-study-finds",
-          "source": "arstechnica.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T21:17:12.961000Z"
-        },
-        {
-          "id": "e6f40f19e8967ad0e152a03af34c29a2e8578580",
-          "title": "一项大型研究发现，新冠疫苗仍能预防心脏问题 / COVID vaccines still protect against heart problems, large study finds",
-          "url": "https://arstechnica.com/health/2026/06/covid-vaccines-still-protect-against-heart-problems-large-study-finds",
-          "source": "Ars Technica",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-15T21:04:26Z"
-        },
-        {
-          "id": "48c0fd686291983d900f3f73e413ec923f75b950",
-          "title": "一项大型研究发现，新冠疫苗仍能预防心脏问题 / Heart protection from COVID shots remains amid updates, study finds",
-          "url": "https://arstechnica.com/health/2026/06/covid-vaccines-still-protect-against-heart-problems-large-study-finds",
-          "source": "Ars Technica (科技媒体)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-15T21:04:26Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Ars Technica",
-        "Ars Technica (科技媒体)",
-        "arstechnica.com"
-      ],
-      "items": [
-        {
-          "id": "f9fb4193c71e94abca6ebddb893341271e3bdc78",
-          "title": "一项大型研究发现，新冠疫苗仍能预防心脏问题",
-          "url": "https://arstechnica.com/health/2026/06/covid-vaccines-still-protect-against-heart-problems-large-study-finds",
-          "source": "arstechnica.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T21:17:12.961000Z"
-        },
-        {
-          "id": "e6f40f19e8967ad0e152a03af34c29a2e8578580",
-          "title": "一项大型研究发现，新冠疫苗仍能预防心脏问题 / COVID vaccines still protect against heart problems, large study finds",
-          "url": "https://arstechnica.com/health/2026/06/covid-vaccines-still-protect-against-heart-problems-large-study-finds",
-          "source": "Ars Technica",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-15T21:04:26Z"
-        },
-        {
-          "id": "48c0fd686291983d900f3f73e413ec923f75b950",
-          "title": "一项大型研究发现，新冠疫苗仍能预防心脏问题 / Heart protection from COVID shots remains amid updates, study finds",
-          "url": "https://arstechnica.com/health/2026/06/covid-vaccines-still-protect-against-heart-problems-large-study-finds",
-          "source": "Ars Technica (科技媒体)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-15T21:04:26Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.4989,
-      "importance": 0.4989,
-      "importance_score": 0.4989,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 0.7962,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T21:04:26Z",
-      "latest_at": "2026-06-15T21:17:12.961000Z",
-      "primary_item": {
-        "id": "f9fb4193c71e94abca6ebddb893341271e3bdc78",
-        "title": "一项大型研究发现，新冠疫苗仍能预防心脏问题",
-        "url": "https://arstechnica.com/health/2026/06/covid-vaccines-still-protect-against-heart-problems-large-study-finds",
-        "source": "arstechnica.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_d4a6aeafe98c",
-      "title": "游戏引擎白皮书：《Commander Keen》",
-      "url": "https://forgottenbytes.net/commander_keen.html",
-      "primary_url": "https://forgottenbytes.net/commander_keen.html",
-      "source": "forgottenbytes.net",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "24be80661df26c3665e8e18d6fe4360bcaea91fc",
-          "title": "游戏引擎白皮书：《Commander Keen》",
-          "url": "https://forgottenbytes.net/commander_keen.html",
-          "source": "forgottenbytes.net",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T21:17:10.933000Z"
-        },
-        {
-          "id": "95a0108e7d8cc85fefffbd0e2f7bf3631a5d5d93",
-          "title": "遊戲引擎白皮書 Commander Keen / Game Engine White Papers Commander Keen",
-          "url": "https://news.ycombinator.com/item?id=48544781",
+          "id": "2337675740d1f4ddc129ef43c60141ea3683f6d5",
+          "title": "銅轉運藥物可恢復記憶並清除有毒的阿茲海默症蛋白 / Copper transport drug restores memory and clears toxic Alzheimer's proteins",
+          "url": "https://news.ycombinator.com/item?id=48542132",
           "source": "hackernews",
           "source_name": "NewsNow",
           "site_id": "newsnow",
-          "published_at": "2026-06-15T20:20:15.836000Z"
+          "published_at": "2026-06-15T16:49:26.851000Z"
         },
         {
-          "id": "5b92a28985fbaaa4653aa556ddd615061ecd462c",
-          "title": "游戏引擎白皮书：《Commander Keen》 / Game Engine White Papers Commander Keen",
-          "url": "https://forgottenbytes.net/commander_keen.html",
+          "id": "e10f779bc9865156e80ff0bb2bc4f7961656d818",
+          "title": "一种铜转运药物可恢复记忆并清除阿尔茨海默病中的有毒蛋白质 / Copper transport drug restores memory and clears toxic Alzheimer's proteins",
+          "url": "https://www.monash.edu/news/articles/copper-drug-restores-memory-and-clears-toxic-alzheimers-proteins",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-15T14:48:47Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News · 24h最热",
+        "hackernews",
+        "www.monash.edu"
+      ],
+      "items": [
+        {
+          "id": "85ba210b2ace283115cdd3ee66bac160a60c1a66",
+          "title": "一种铜转运药物可恢复记忆并清除阿尔茨海默病中的有毒蛋白质",
+          "url": "https://www.monash.edu/news/articles/copper-drug-restores-memory-and-clears-toxic-alzheimers-proteins",
+          "source": "www.monash.edu",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T17:17:20.353000Z"
+        },
+        {
+          "id": "2337675740d1f4ddc129ef43c60141ea3683f6d5",
+          "title": "銅轉運藥物可恢復記憶並清除有毒的阿茲海默症蛋白 / Copper transport drug restores memory and clears toxic Alzheimer's proteins",
+          "url": "https://news.ycombinator.com/item?id=48542132",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-15T16:49:26.851000Z"
+        },
+        {
+          "id": "e10f779bc9865156e80ff0bb2bc4f7961656d818",
+          "title": "一种铜转运药物可恢复记忆并清除阿尔茨海默病中的有毒蛋白质 / Copper transport drug restores memory and clears toxic Alzheimer's proteins",
+          "url": "https://www.monash.edu/news/articles/copper-drug-restores-memory-and-clears-toxic-alzheimers-proteins",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-15T14:48:47Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.3778,
+      "importance": 0.3778,
+      "importance_score": 0.3778,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "source_tier": 0.32,
+        "recency": 0.3926,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-15T14:48:47Z",
+      "latest_at": "2026-06-15T17:17:20.353000Z",
+      "primary_item": {
+        "id": "85ba210b2ace283115cdd3ee66bac160a60c1a66",
+        "title": "一种铜转运药物可恢复记忆并清除阿尔茨海默病中的有毒蛋白质",
+        "url": "https://www.monash.edu/news/articles/copper-drug-restores-memory-and-clears-toxic-alzheimers-proteins",
+        "source": "www.monash.edu",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_097928231844",
+      "title": "福克斯将收购Roku",
+      "url": "https://www.wsj.com/business/deals/fox-roku-deal-f6e564f9",
+      "primary_url": "https://www.wsj.com/business/deals/fox-roku-deal-f6e564f9",
+      "source": "www.wsj.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "1003468ae7bdd8dcbf828b8dde33c2184c924310",
+          "title": "福克斯将收购Roku",
+          "url": "https://www.wsj.com/business/deals/fox-roku-deal-f6e564f9",
+          "source": "www.wsj.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T17:01:17.258000Z"
+        },
+        {
+          "id": "cfc7b48c67b0b6691ced9000538094511bf7fe7c",
+          "title": "福克斯将收购Roku / Fox to Buy Roku Streaming Service in $22B Deal",
+          "url": "https://www.wsj.com/business/deals/fox-roku-deal-f6e564f9",
           "source": "Hacker News (黑客新闻)",
           "source_name": "Info Flow",
           "site_id": "iris",
-          "published_at": "2026-06-15T17:52:39Z"
+          "published_at": "2026-06-15T12:50:03Z"
+        },
+        {
+          "id": "c9f102c796d79a21262f0bd5cf3aeff756686c22",
+          "title": "福克斯将收购Roku / Fox to buy Roku",
+          "url": "https://www.wsj.com/business/deals/fox-roku-deal-f6e564f9",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-15T12:50:03Z"
         }
       ],
       "source_count": 3,
       "source_names": [
         "Hacker News (黑客新闻)",
-        "forgottenbytes.net",
-        "hackernews"
+        "Hacker News · 24h最热",
+        "www.wsj.com"
       ],
       "items": [
         {
-          "id": "24be80661df26c3665e8e18d6fe4360bcaea91fc",
-          "title": "游戏引擎白皮书：《Commander Keen》",
-          "url": "https://forgottenbytes.net/commander_keen.html",
-          "source": "forgottenbytes.net",
+          "id": "1003468ae7bdd8dcbf828b8dde33c2184c924310",
+          "title": "福克斯将收购Roku",
+          "url": "https://www.wsj.com/business/deals/fox-roku-deal-f6e564f9",
+          "source": "www.wsj.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-06-15T21:17:10.933000Z"
+          "published_at": "2026-06-15T17:01:17.258000Z"
         },
         {
-          "id": "95a0108e7d8cc85fefffbd0e2f7bf3631a5d5d93",
-          "title": "遊戲引擎白皮書 Commander Keen / Game Engine White Papers Commander Keen",
-          "url": "https://news.ycombinator.com/item?id=48544781",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-15T20:20:15.836000Z"
-        },
-        {
-          "id": "5b92a28985fbaaa4653aa556ddd615061ecd462c",
-          "title": "游戏引擎白皮书：《Commander Keen》 / Game Engine White Papers Commander Keen",
-          "url": "https://forgottenbytes.net/commander_keen.html",
+          "id": "cfc7b48c67b0b6691ced9000538094511bf7fe7c",
+          "title": "福克斯将收购Roku / Fox to Buy Roku Streaming Service in $22B Deal",
+          "url": "https://www.wsj.com/business/deals/fox-roku-deal-f6e564f9",
           "source": "Hacker News (黑客新闻)",
           "source_name": "Info Flow",
           "site_id": "iris",
-          "published_at": "2026-06-15T17:52:39Z"
+          "published_at": "2026-06-15T12:50:03Z"
+        },
+        {
+          "id": "c9f102c796d79a21262f0bd5cf3aeff756686c22",
+          "title": "福克斯将收购Roku / Fox to buy Roku",
+          "url": "https://www.wsj.com/business/deals/fox-roku-deal-f6e564f9",
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-06-15T12:50:03Z"
         }
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.4989,
-      "importance": 0.4989,
-      "importance_score": 0.4989,
+      "score": 0.3744,
+      "importance": 0.3744,
+      "importance_score": 0.3744,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.32,
-        "recency": 0.7962,
+        "recency": 0.3814,
         "story_heat": 0.5
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-15T17:52:39Z",
-      "latest_at": "2026-06-15T21:17:10.933000Z",
+      "earliest_at": "2026-06-15T12:50:03Z",
+      "latest_at": "2026-06-15T17:01:17.258000Z",
       "primary_item": {
-        "id": "24be80661df26c3665e8e18d6fe4360bcaea91fc",
-        "title": "游戏引擎白皮书：《Commander Keen》",
-        "url": "https://forgottenbytes.net/commander_keen.html",
-        "source": "forgottenbytes.net",
+        "id": "1003468ae7bdd8dcbf828b8dde33c2184c924310",
+        "title": "福克斯将收购Roku",
+        "url": "https://www.wsj.com/business/deals/fox-roku-deal-f6e564f9",
+        "source": "www.wsj.com",
         "source_name": "Buzzing"
       }
     },
     {
-      "story_id": "story_474011894552",
-      "title": "美国结束对2024年达美航空系统崩溃事件的调查，该事件由CrowdStrike系统故障引发",
-      "url": "https://reut.rs/4xLluVA",
-      "primary_url": "https://reut.rs/4xLluVA",
-      "source": "reut.rs",
+      "story_id": "story_48d0df19f2cb",
+      "title": "CrankGPT — 基于本地人力支持的人工智能",
+      "url": "https://crankgpt.com",
+      "primary_url": "https://crankgpt.com",
+      "source": "crankgpt.com",
       "source_name": "Buzzing",
       "sources": [
         {
-          "id": "860c5d67a2c3dca337772850c5b155ad88179b54",
-          "title": "美国结束对2024年达美航空系统崩溃事件的调查，该事件由CrowdStrike系统故障引发",
-          "url": "https://reut.rs/4xLluVA",
-          "source": "reut.rs",
+          "id": "2906793ca29f1c800d6d2ab9636f63e54bbb5c39",
+          "title": "CrankGPT — 基于本地人力支持的人工智能",
+          "url": "https://crankgpt.com",
+          "source": "crankgpt.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-06-16T01:17:08.500000Z"
+          "published_at": "2026-06-15T16:45:24.007000Z"
         },
         {
-          "id": "934ffd5fc4441638535aaad126f3800d0abca9ed",
-          "title": "美国结束对2024年达美航空系统崩溃事件的调查，该事件由CrowdStrike系统故障引发",
-          "url": "https://www.reuters.com/business/aerospace-defense/us-closes-probe-into-2024-delta-air-lines-meltdown-sparked-by-crowdstrike-outage-2026-06-15",
-          "source": "www.reuters.com",
+          "id": "0458cc80bb732979cfcb93cdbbffe62c420d6d7b",
+          "title": "CrankGPT — 基于本地人力支持的人工智能 / CrankGPT",
+          "url": "https://crankgpt.com",
+          "source": "crankgpt.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-06-15T22:37:21.547000Z"
+          "published_at": "2026-06-15T15:09:19.779000Z"
+        },
+        {
+          "id": "7513eca5e0e20bcb28cb109eec29126b0bd106da",
+          "title": "CrankGPT — 基于本地人力支持的人工智能 / CrankGPT — Local Human-powered AI",
+          "url": "https://crankgpt.com",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-15T13:35:22Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Lobsters (技术社区)",
+        "crankgpt.com"
+      ],
+      "items": [
+        {
+          "id": "2906793ca29f1c800d6d2ab9636f63e54bbb5c39",
+          "title": "CrankGPT — 基于本地人力支持的人工智能",
+          "url": "https://crankgpt.com",
+          "source": "crankgpt.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T16:45:24.007000Z"
+        },
+        {
+          "id": "0458cc80bb732979cfcb93cdbbffe62c420d6d7b",
+          "title": "CrankGPT — 基于本地人力支持的人工智能 / CrankGPT",
+          "url": "https://crankgpt.com",
+          "source": "crankgpt.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T15:09:19.779000Z"
+        },
+        {
+          "id": "7513eca5e0e20bcb28cb109eec29126b0bd106da",
+          "title": "CrankGPT — 基于本地人力支持的人工智能 / CrankGPT — Local Human-powered AI",
+          "url": "https://crankgpt.com",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-15T13:35:22Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.3711,
+      "importance": 0.3711,
+      "importance_score": 0.3711,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "source_tier": 0.32,
+        "recency": 0.3704,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-15T13:35:22Z",
+      "latest_at": "2026-06-15T16:45:24.007000Z",
+      "primary_item": {
+        "id": "2906793ca29f1c800d6d2ab9636f63e54bbb5c39",
+        "title": "CrankGPT — 基于本地人力支持的人工智能",
+        "url": "https://crankgpt.com",
+        "source": "crankgpt.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_75a0ca685b0a",
+      "title": "Iroh 1.0 - 拨号键，而非 IP 地址",
+      "url": "https://www.iroh.computer/blog/v1",
+      "primary_url": "https://www.iroh.computer/blog/v1",
+      "source": "www.iroh.computer",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "51237cff362e7aa6721c3d64cf07a6464349f923",
+          "title": "Iroh 1.0 - 拨号键，而非 IP 地址",
+          "url": "https://www.iroh.computer/blog/v1",
+          "source": "www.iroh.computer",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T15:57:17.823000Z"
+        },
+        {
+          "id": "9c45e07365f2f58e0b039aa07976bfe9cdab06a5",
+          "title": "Iroh 1.0",
+          "url": "https://www.iroh.computer/blog/v1",
+          "source": "www.iroh.computer",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T15:57:17.274000Z"
+        },
+        {
+          "id": "11fda5957ee164d271b4d5da82d9006ab35cbd54",
+          "title": "Iroh 1.0 - 拨号键，而非 IP 地址 / Iroh 1.0 - Dial Keys, not IPs",
+          "url": "https://www.iroh.computer/blog/v1",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-15T15:35:08Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Lobsters (技术社区)",
+        "www.iroh.computer"
+      ],
+      "items": [
+        {
+          "id": "51237cff362e7aa6721c3d64cf07a6464349f923",
+          "title": "Iroh 1.0 - 拨号键，而非 IP 地址",
+          "url": "https://www.iroh.computer/blog/v1",
+          "source": "www.iroh.computer",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T15:57:17.823000Z"
+        },
+        {
+          "id": "9c45e07365f2f58e0b039aa07976bfe9cdab06a5",
+          "title": "Iroh 1.0",
+          "url": "https://www.iroh.computer/blog/v1",
+          "source": "www.iroh.computer",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T15:57:17.274000Z"
+        },
+        {
+          "id": "11fda5957ee164d271b4d5da82d9006ab35cbd54",
+          "title": "Iroh 1.0 - 拨号键，而非 IP 地址 / Iroh 1.0 - Dial Keys, not IPs",
+          "url": "https://www.iroh.computer/blog/v1",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-15T15:35:08Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.3611,
+      "importance": 0.3611,
+      "importance_score": 0.3611,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "source_tier": 0.32,
+        "recency": 0.337,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-15T15:35:08Z",
+      "latest_at": "2026-06-15T15:57:17.823000Z",
+      "primary_item": {
+        "id": "51237cff362e7aa6721c3d64cf07a6464349f923",
+        "title": "Iroh 1.0 - 拨号键，而非 IP 地址",
+        "url": "https://www.iroh.computer/blog/v1",
+        "source": "www.iroh.computer",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_09a9cb996679",
+      "title": "Show HN：利用Slack的視訊嵌入實現E2EE通信 / Show HN: Exploiting Slack's video embeds to achieve E2EE communication",
+      "url": "https://news.ycombinator.com/item?id=48542970",
+      "primary_url": "https://news.ycombinator.com/item?id=48542970",
+      "source": "hackernews",
+      "source_name": "NewsNow",
+      "sources": [
+        {
+          "id": "893ed3f54a37bb1a3beca9e090f4bbfeebb82694",
+          "title": "Show HN：利用Slack的視訊嵌入實現E2EE通信 / Show HN: Exploiting Slack's video embeds to achieve E2EE communication",
+          "url": "https://news.ycombinator.com/item?id=48542970",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-15T16:49:26.851000Z"
+        },
+        {
+          "id": "657ff4538246e51c23753fc28b783469d278bbf6",
+          "title": "Show HN: 利用 Slack 的视频嵌入功能实现端到端加密通信",
+          "url": "https://v1c.rocks/log/exploiting-slack-video",
+          "source": "v1c.rocks",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T15:57:17.277000Z"
+        },
+        {
+          "id": "fa0b5ed9426af4ee730569b25318fd7ffd03bf66",
+          "title": "Show HN: 利用 Slack 的视频嵌入功能实现端到端加密通信 / Show HN: Exploiting Slack's video embeds to achieve E2EE communication",
+          "url": "https://v1c.rocks/log/exploiting-slack-video",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-15T15:43:17Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News",
+        "hackernews",
+        "v1c.rocks"
+      ],
+      "items": [
+        {
+          "id": "893ed3f54a37bb1a3beca9e090f4bbfeebb82694",
+          "title": "Show HN：利用Slack的視訊嵌入實現E2EE通信 / Show HN: Exploiting Slack's video embeds to achieve E2EE communication",
+          "url": "https://news.ycombinator.com/item?id=48542970",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-15T16:49:26.851000Z"
+        },
+        {
+          "id": "657ff4538246e51c23753fc28b783469d278bbf6",
+          "title": "Show HN: 利用 Slack 的视频嵌入功能实现端到端加密通信",
+          "url": "https://v1c.rocks/log/exploiting-slack-video",
+          "source": "v1c.rocks",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T15:57:17.277000Z"
+        },
+        {
+          "id": "fa0b5ed9426af4ee730569b25318fd7ffd03bf66",
+          "title": "Show HN: 利用 Slack 的视频嵌入功能实现端到端加密通信 / Show HN: Exploiting Slack's video embeds to achieve E2EE communication",
+          "url": "https://v1c.rocks/log/exploiting-slack-video",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-15T15:43:17Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.372,
+      "importance": 0.372,
+      "importance_score": 0.372,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "source_tier": 0.32,
+        "recency": 0.3732,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-15T15:43:17Z",
+      "latest_at": "2026-06-15T16:49:26.851000Z",
+      "primary_item": {
+        "id": "893ed3f54a37bb1a3beca9e090f4bbfeebb82694",
+        "title": "Show HN：利用Slack的視訊嵌入實現E2EE通信 / Show HN: Exploiting Slack's video embeds to achieve E2EE communication",
+        "url": "https://news.ycombinator.com/item?id=48542970",
+        "source": "hackernews",
+        "source_name": "NewsNow"
+      }
+    },
+    {
+      "story_id": "story_7783380316ff",
+      "title": "Salesforce将以36亿美元收购Fin（原Intercom）",
+      "url": "https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin/?bc=HL",
+      "primary_url": "https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin/?bc=HL",
+      "source": "www.salesforce.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "a4983428817ecfe67f911ed56f0381572c910af0",
+          "title": "Salesforce将以36亿美元收购Fin（原Intercom）",
+          "url": "https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin/?bc=HL",
+          "source": "www.salesforce.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T14:05:22.307000Z"
+        },
+        {
+          "id": "823145bd509f014fbbd1e47fa4d65235a129be71",
+          "title": "Salesforce 將以 36 億美元收購 Fin（前身為 Intercom） / Salesforce to Acquire Fin (formerly Intercom) for $3.6BN",
+          "url": "https://news.ycombinator.com/item?id=48540126",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-15T13:48:53Z"
+        },
+        {
+          "id": "cdaa5457db2ac55030686acea8354bb0be29183c",
+          "title": "Salesforce将以36亿美元收购Fin（原Intercom） / Salesforce to Acquire Fin (formerly Intercom) for $3.6B",
+          "url": "https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin/?bc=HL",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-15T12:08:59Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "hackernews",
+        "www.salesforce.com"
+      ],
+      "items": [
+        {
+          "id": "a4983428817ecfe67f911ed56f0381572c910af0",
+          "title": "Salesforce将以36亿美元收购Fin（原Intercom）",
+          "url": "https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin/?bc=HL",
+          "source": "www.salesforce.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T14:05:22.307000Z"
+        },
+        {
+          "id": "823145bd509f014fbbd1e47fa4d65235a129be71",
+          "title": "Salesforce 將以 36 億美元收購 Fin（前身為 Intercom） / Salesforce to Acquire Fin (formerly Intercom) for $3.6BN",
+          "url": "https://news.ycombinator.com/item?id=48540126",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-15T13:48:53Z"
+        },
+        {
+          "id": "cdaa5457db2ac55030686acea8354bb0be29183c",
+          "title": "Salesforce将以36亿美元收购Fin（原Intercom） / Salesforce to Acquire Fin (formerly Intercom) for $3.6B",
+          "url": "https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin/?bc=HL",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-15T12:08:59Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.3378,
+      "importance": 0.3378,
+      "importance_score": 0.3378,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "source_tier": 0.32,
+        "recency": 0.2593,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-15T12:08:59Z",
+      "latest_at": "2026-06-15T14:05:22.307000Z",
+      "primary_item": {
+        "id": "a4983428817ecfe67f911ed56f0381572c910af0",
+        "title": "Salesforce将以36亿美元收购Fin（原Intercom）",
+        "url": "https://www.salesforce.com/news/press-releases/2026/06/15/salesforce-signs-definitive-agreement-to-acquire-fin/?bc=HL",
+        "source": "www.salesforce.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_29794e0d1881",
+      "title": "本周看什么 | 最近值得一看的 10 部作品",
+      "url": "https://sspai.com/post/110992",
+      "primary_url": "https://sspai.com/post/110992",
+      "source": "sspai",
+      "source_name": "NewsNow",
+      "sources": [
+        {
+          "id": "8d8ac91ade863c0d847d684f3d22aba1c6d3cae7",
+          "title": "本周看什么 | 最近值得一看的 10 部作品",
+          "url": "https://sspai.com/post/110992",
+          "source": "sspai",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-15T17:51:54.299000Z"
+        },
+        {
+          "id": "51e32fecb3bc9b442744b0f2a298d58ae3b65681",
+          "title": "本周看什么 | 最近值得一看的 8 部作品",
+          "url": "https://sspai.com/post/110786",
+          "source": "sspai",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-15T13:20:24.423000Z"
         }
       ],
       "source_count": 2,
       "source_names": [
-        "reut.rs",
-        "www.reuters.com"
+        "sspai"
       ],
       "items": [
         {
-          "id": "860c5d67a2c3dca337772850c5b155ad88179b54",
-          "title": "美国结束对2024年达美航空系统崩溃事件的调查，该事件由CrowdStrike系统故障引发",
-          "url": "https://reut.rs/4xLluVA",
-          "source": "reut.rs",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-16T01:17:08.500000Z"
+          "id": "8d8ac91ade863c0d847d684f3d22aba1c6d3cae7",
+          "title": "本周看什么 | 最近值得一看的 10 部作品",
+          "url": "https://sspai.com/post/110992",
+          "source": "sspai",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-15T17:51:54.299000Z"
         },
         {
-          "id": "934ffd5fc4441638535aaad126f3800d0abca9ed",
-          "title": "美国结束对2024年达美航空系统崩溃事件的调查，该事件由CrowdStrike系统故障引发",
-          "url": "https://www.reuters.com/business/aerospace-defense/us-closes-probe-into-2024-delta-air-lines-meltdown-sparked-by-crowdstrike-outage-2026-06-15",
-          "source": "www.reuters.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T22:37:21.547000Z"
+          "id": "51e32fecb3bc9b442744b0f2a298d58ae3b65681",
+          "title": "本周看什么 | 最近值得一看的 8 部作品",
+          "url": "https://sspai.com/post/110786",
+          "source": "sspai",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-15T13:20:24.423000Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4988,
-      "importance": 0.4988,
-      "importance_score": 0.4988,
+      "score": 0.335,
+      "importance": 0.335,
+      "importance_score": 0.335,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.32,
-        "recency": 0.9628,
+        "recency": 0.4166,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-15T22:37:21.547000Z",
-      "latest_at": "2026-06-16T01:17:08.500000Z",
+      "earliest_at": "2026-06-15T13:20:24.423000Z",
+      "latest_at": "2026-06-15T17:51:54.299000Z",
       "primary_item": {
-        "id": "860c5d67a2c3dca337772850c5b155ad88179b54",
-        "title": "美国结束对2024年达美航空系统崩溃事件的调查，该事件由CrowdStrike系统故障引发",
-        "url": "https://reut.rs/4xLluVA",
-        "source": "reut.rs",
+        "id": "8d8ac91ade863c0d847d684f3d22aba1c6d3cae7",
+        "title": "本周看什么 | 最近值得一看的 10 部作品",
+        "url": "https://sspai.com/post/110992",
+        "source": "sspai",
+        "source_name": "NewsNow"
+      }
+    },
+    {
+      "story_id": "story_9bec20878948",
+      "title": "在中国“最宜居”的城市，舒适与限制并存",
+      "url": "https://econ.st/4vU5sHa",
+      "primary_url": "https://econ.st/4vU5sHa",
+      "source": "econ.st",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "2c9792363be36e6ae44ed6cafa754bc1a4f991ae",
+          "title": "在中国“最宜居”的城市，舒适与限制并存",
+          "url": "https://econ.st/4vU5sHa",
+          "source": "econ.st",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T17:33:16.177000Z"
+        },
+        {
+          "id": "66fd85b4fc0f7e851836c359934df262ca30b37b",
+          "title": "在中国“最宜居”的城市，舒适与限制并存",
+          "url": "https://www.economist.com/china/2026/06/15/comfort-meets-constraint-in-chinas-most-liveable-city",
+          "source": "www.economist.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T16:45:24.824000Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "econ.st",
+        "www.economist.com"
+      ],
+      "items": [
+        {
+          "id": "2c9792363be36e6ae44ed6cafa754bc1a4f991ae",
+          "title": "在中国“最宜居”的城市，舒适与限制并存",
+          "url": "https://econ.st/4vU5sHa",
+          "source": "econ.st",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T17:33:16.177000Z"
+        },
+        {
+          "id": "66fd85b4fc0f7e851836c359934df262ca30b37b",
+          "title": "在中国“最宜居”的城市，舒适与限制并存",
+          "url": "https://www.economist.com/china/2026/06/15/comfort-meets-constraint-in-chinas-most-liveable-city",
+          "source": "www.economist.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T16:45:24.824000Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.3311,
+      "importance": 0.3311,
+      "importance_score": 0.3311,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.32,
+        "recency": 0.4037,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-15T16:45:24.824000Z",
+      "latest_at": "2026-06-15T17:33:16.177000Z",
+      "primary_item": {
+        "id": "2c9792363be36e6ae44ed6cafa754bc1a4f991ae",
+        "title": "在中国“最宜居”的城市，舒适与限制并存",
+        "url": "https://econ.st/4vU5sHa",
+        "source": "econ.st",
         "source_name": "Buzzing"
       }
     },
     {
-      "story_id": "story_a0898d36f1f6",
-      "title": "一架B-52轰炸机在爱德华兹空军基地坠毁，8名机组人员恐已遇难",
-      "url": "https://www.businessinsider.com/b52-bomber-crashes-california-edwards-air-force-base-2026-6",
-      "primary_url": "https://www.businessinsider.com/b52-bomber-crashes-california-edwards-air-force-base-2026-6",
+      "story_id": "story_de66b77da874",
+      "title": "好消息——在太阳终结地球生命之前，我们还有些时间",
+      "url": "https://arstechnica.com/science/2026/06/good-news-we-have-extra-time-before-the-sun-ends-life-on-earth",
+      "primary_url": "https://arstechnica.com/science/2026/06/good-news-we-have-extra-time-before-the-sun-ends-life-on-earth",
+      "source": "arstechnica.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "846b99c29d8ff96d2e408d4874e02f125d77f6ea",
+          "title": "好消息——在太阳终结地球生命之前，我们还有些时间",
+          "url": "https://arstechnica.com/science/2026/06/good-news-we-have-extra-time-before-the-sun-ends-life-on-earth",
+          "source": "arstechnica.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T17:33:16.386000Z"
+        },
+        {
+          "id": "ae418f32bb5f96ad9fc070674385f832df0cb2d1",
+          "title": "好消息——在太阳终结地球生命之前，我们还有些时间 / Good news—we have extra time before the Sun ends life on Earth",
+          "url": "https://arstechnica.com/science/2026/06/good-news-we-have-extra-time-before-the-sun-ends-life-on-earth",
+          "source": "Ars Technica",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-15T16:28:17Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Ars Technica",
+        "arstechnica.com"
+      ],
+      "items": [
+        {
+          "id": "846b99c29d8ff96d2e408d4874e02f125d77f6ea",
+          "title": "好消息——在太阳终结地球生命之前，我们还有些时间",
+          "url": "https://arstechnica.com/science/2026/06/good-news-we-have-extra-time-before-the-sun-ends-life-on-earth",
+          "source": "arstechnica.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T17:33:16.386000Z"
+        },
+        {
+          "id": "ae418f32bb5f96ad9fc070674385f832df0cb2d1",
+          "title": "好消息——在太阳终结地球生命之前，我们还有些时间 / Good news—we have extra time before the Sun ends life on Earth",
+          "url": "https://arstechnica.com/science/2026/06/good-news-we-have-extra-time-before-the-sun-ends-life-on-earth",
+          "source": "Ars Technica",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-15T16:28:17Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.3311,
+      "importance": 0.3311,
+      "importance_score": 0.3311,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.32,
+        "recency": 0.4037,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-15T16:28:17Z",
+      "latest_at": "2026-06-15T17:33:16.386000Z",
+      "primary_item": {
+        "id": "846b99c29d8ff96d2e408d4874e02f125d77f6ea",
+        "title": "好消息——在太阳终结地球生命之前，我们还有些时间",
+        "url": "https://arstechnica.com/science/2026/06/good-news-we-have-extra-time-before-the-sun-ends-life-on-earth",
+        "source": "arstechnica.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_9ecf2c3d709c",
+      "title": "某工厂首席执行官表示，他为30名员工每人购买了一张价值3,000美元的降温床垫套，以便“让他们在工作中更加精神”。",
+      "url": "https://www.businessinsider.com/factory-ceo-eight-sleep-matress-covers-employees-2026-6",
+      "primary_url": "https://www.businessinsider.com/factory-ceo-eight-sleep-matress-covers-employees-2026-6",
       "source": "www.businessinsider.com",
       "source_name": "Buzzing",
       "sources": [
         {
-          "id": "f6993354d0ea1ab657b89e7d50f04c7621371e19",
-          "title": "一架B-52轰炸机在爱德华兹空军基地坠毁，8名机组人员恐已遇难",
-          "url": "https://www.businessinsider.com/b52-bomber-crashes-california-edwards-air-force-base-2026-6",
+          "id": "17993eeafff858ad8812b2c23bac848de5b4146c",
+          "title": "某工厂首席执行官表示，他为30名员工每人购买了一张价值3,000美元的降温床垫套，以便“让他们在工作中更加精神”。",
+          "url": "https://www.businessinsider.com/factory-ceo-eight-sleep-matress-covers-employees-2026-6",
           "source": "www.businessinsider.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-06-16T01:01:05.768000Z"
+          "published_at": "2026-06-15T17:33:16.228000Z"
         },
         {
-          "id": "60b76eba8c141a828f54076cc555825c1f362290",
-          "title": "一架B-52轰炸机在爱德华兹空军基地坠毁，8名机组人员恐已遇难 / 8 crew members are presumed dead after a B-52 bomber crashed at California's Edwards Air Force Base",
-          "url": "https://www.businessinsider.com/b52-bomber-crashes-california-edwards-air-force-base-2026-6",
+          "id": "5b348be7a2aeb368782d5a8c0210bed45e4c73d2",
+          "title": "某工厂首席执行官表示，他为30名员工每人购买了一张价值3,000美元的降温床垫套，以便“让他们在工作中更加精神”。 / Factory CEO says he bought each of his 30 employees a $3,000 cooling mattress cover so 'they'll be sharper' at work",
+          "url": "https://www.businessinsider.com/factory-ceo-eight-sleep-matress-covers-employees-2026-6",
           "source": "Business Insider",
           "source_name": "TechURLs",
           "site_id": "techurls",
-          "published_at": "2026-06-16T00:34:06Z"
+          "published_at": "2026-06-15T16:52:00Z"
         }
       ],
       "source_count": 2,
@@ -1279,170 +937,228 @@
       ],
       "items": [
         {
-          "id": "f6993354d0ea1ab657b89e7d50f04c7621371e19",
-          "title": "一架B-52轰炸机在爱德华兹空军基地坠毁，8名机组人员恐已遇难",
-          "url": "https://www.businessinsider.com/b52-bomber-crashes-california-edwards-air-force-base-2026-6",
+          "id": "17993eeafff858ad8812b2c23bac848de5b4146c",
+          "title": "某工厂首席执行官表示，他为30名员工每人购买了一张价值3,000美元的降温床垫套，以便“让他们在工作中更加精神”。",
+          "url": "https://www.businessinsider.com/factory-ceo-eight-sleep-matress-covers-employees-2026-6",
           "source": "www.businessinsider.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-06-16T01:01:05.768000Z"
+          "published_at": "2026-06-15T17:33:16.228000Z"
         },
         {
-          "id": "60b76eba8c141a828f54076cc555825c1f362290",
-          "title": "一架B-52轰炸机在爱德华兹空军基地坠毁，8名机组人员恐已遇难 / 8 crew members are presumed dead after a B-52 bomber crashed at California's Edwards Air Force Base",
-          "url": "https://www.businessinsider.com/b52-bomber-crashes-california-edwards-air-force-base-2026-6",
+          "id": "5b348be7a2aeb368782d5a8c0210bed45e4c73d2",
+          "title": "某工厂首席执行官表示，他为30名员工每人购买了一张价值3,000美元的降温床垫套，以便“让他们在工作中更加精神”。 / Factory CEO says he bought each of his 30 employees a $3,000 cooling mattress cover so 'they'll be sharper' at work",
+          "url": "https://www.businessinsider.com/factory-ceo-eight-sleep-matress-covers-employees-2026-6",
           "source": "Business Insider",
           "source_name": "TechURLs",
           "site_id": "techurls",
-          "published_at": "2026-06-16T00:34:06Z"
+          "published_at": "2026-06-15T16:52:00Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4955,
-      "importance": 0.4955,
-      "importance_score": 0.4955,
+      "score": 0.3311,
+      "importance": 0.3311,
+      "importance_score": 0.3311,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.32,
-        "recency": 0.9517,
+        "recency": 0.4037,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-16T00:34:06Z",
-      "latest_at": "2026-06-16T01:01:05.768000Z",
+      "earliest_at": "2026-06-15T16:52:00Z",
+      "latest_at": "2026-06-15T17:33:16.228000Z",
       "primary_item": {
-        "id": "f6993354d0ea1ab657b89e7d50f04c7621371e19",
-        "title": "一架B-52轰炸机在爱德华兹空军基地坠毁，8名机组人员恐已遇难",
-        "url": "https://www.businessinsider.com/b52-bomber-crashes-california-edwards-air-force-base-2026-6",
+        "id": "17993eeafff858ad8812b2c23bac848de5b4146c",
+        "title": "某工厂首席执行官表示，他为30名员工每人购买了一张价值3,000美元的降温床垫套，以便“让他们在工作中更加精神”。",
+        "url": "https://www.businessinsider.com/factory-ceo-eight-sleep-matress-covers-employees-2026-6",
         "source": "www.businessinsider.com",
         "source_name": "Buzzing"
       }
     },
     {
-      "story_id": "story_d8e0220915bf",
-      "title": "领英招聘启事中的后门",
-      "url": "https://roman.pt/posts/linkedin-backdoor",
-      "primary_url": "https://roman.pt/posts/linkedin-backdoor",
-      "source": "roman.pt",
+      "story_id": "story_c5321d4002b7",
+      "title": "消息人士称，英伟达将通过五年来的首次企业债券发行筹集200亿美元 - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOb3J6OUR4dG9YbWJEWmwzYkQ1SVpMOHFiQU9PMmYweDJ6N0R0dUhmNmt6THBkdlFxMHhUcDA1OFFwSktsNUQ4c3N2WW9ZU0J1YTZHYk95RVc0c25mV3Bqd0kyVEJNMUQ1U2FvSUt4Z1N2a1BMTXJJRHRyWnJRV2J4cGY4NktrTVgzdHVQWXBGZ3hDSnAzb3RJR0FWUXRjUEdkejJXMTh3dWhINWFrQ3RtMmxINTVrOERqVGctZXJCVF9RRDd2OEtWdg?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+      "primary_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOb3J6OUR4dG9YbWJEWmwzYkQ1SVpMOHFiQU9PMmYweDJ6N0R0dUhmNmt6THBkdlFxMHhUcDA1OFFwSktsNUQ4c3N2WW9ZU0J1YTZHYk95RVc0c25mV3Bqd0kyVEJNMUQ1U2FvSUt4Z1N2a1BMTXJJRHRyWnJRV2J4cGY4NktrTVgzdHVQWXBGZ3hDSnAzb3RJR0FWUXRjUEdkejJXMTh3dWhINWFrQ3RtMmxINTVrOERqVGctZXJCVF9RRDd2OEtWdg?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+      "source": "news.google.com",
       "source_name": "Buzzing",
       "sources": [
         {
-          "id": "085358afdd453b360f3c4dd36a11e82169d6d796",
-          "title": "领英招聘启事中的后门",
-          "url": "https://roman.pt/posts/linkedin-backdoor",
-          "source": "roman.pt",
+          "id": "550a7f526a2ae965097f99bbed7e3bf2b8c2ca41",
+          "title": "消息人士称，英伟达将通过五年来的首次企业债券发行筹集200亿美元 - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOb3J6OUR4dG9YbWJEWmwzYkQ1SVpMOHFiQU9PMmYweDJ6N0R0dUhmNmt6THBkdlFxMHhUcDA1OFFwSktsNUQ4c3N2WW9ZU0J1YTZHYk95RVc0c25mV3Bqd0kyVEJNMUQ1U2FvSUt4Z1N2a1BMTXJJRHRyWnJRV2J4cGY4NktrTVgzdHVQWXBGZ3hDSnAzb3RJR0FWUXRjUEdkejJXMTh3dWhINWFrQ3RtMmxINTVrOERqVGctZXJCVF9RRDd2OEtWdg?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+          "source": "news.google.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-06-15T21:01:13.719000Z"
+          "published_at": "2026-06-15T17:33:16.181000Z"
         },
         {
-          "id": "1c0c5d08fa5e068904fff6b931b89600624d9788",
-          "title": "LinkedIn 工作機會中的後門 / A backdoor in a LinkedIn job offer",
-          "url": "https://news.ycombinator.com/item?id=48546294",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-15T20:20:15.836000Z"
-        },
-        {
-          "id": "fb21e50ec2154b7543e75f4e14d5aa884d88cd7d",
-          "title": "领英招聘启事中的后门 / A backdoor in a LinkedIn job offer",
-          "url": "https://roman.pt/posts/linkedin-backdoor",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-15T20:00:57Z"
+          "id": "6ae75ee73e7fc27f828d24048884aa82b24e9f6f",
+          "title": "消息人士称，英伟达将通过五年来的首次企业债券发行筹集200亿美元",
+          "url": "https://reut.rs/4org7X8",
+          "source": "reut.rs",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T16:45:24.673000Z"
         }
       ],
-      "source_count": 3,
+      "source_count": 2,
       "source_names": [
-        "Hacker News (黑客新闻)",
-        "hackernews",
-        "roman.pt"
+        "news.google.com",
+        "reut.rs"
       ],
       "items": [
         {
-          "id": "085358afdd453b360f3c4dd36a11e82169d6d796",
-          "title": "领英招聘启事中的后门",
-          "url": "https://roman.pt/posts/linkedin-backdoor",
-          "source": "roman.pt",
+          "id": "550a7f526a2ae965097f99bbed7e3bf2b8c2ca41",
+          "title": "消息人士称，英伟达将通过五年来的首次企业债券发行筹集200亿美元 - Reuters",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOb3J6OUR4dG9YbWJEWmwzYkQ1SVpMOHFiQU9PMmYweDJ6N0R0dUhmNmt6THBkdlFxMHhUcDA1OFFwSktsNUQ4c3N2WW9ZU0J1YTZHYk95RVc0c25mV3Bqd0kyVEJNMUQ1U2FvSUt4Z1N2a1BMTXJJRHRyWnJRV2J4cGY4NktrTVgzdHVQWXBGZ3hDSnAzb3RJR0FWUXRjUEdkejJXMTh3dWhINWFrQ3RtMmxINTVrOERqVGctZXJCVF9RRDd2OEtWdg?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+          "source": "news.google.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-06-15T21:01:13.719000Z"
+          "published_at": "2026-06-15T17:33:16.181000Z"
         },
         {
-          "id": "1c0c5d08fa5e068904fff6b931b89600624d9788",
-          "title": "LinkedIn 工作機會中的後門 / A backdoor in a LinkedIn job offer",
-          "url": "https://news.ycombinator.com/item?id=48546294",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-15T20:20:15.836000Z"
-        },
-        {
-          "id": "fb21e50ec2154b7543e75f4e14d5aa884d88cd7d",
-          "title": "领英招聘启事中的后门 / A backdoor in a LinkedIn job offer",
-          "url": "https://roman.pt/posts/linkedin-backdoor",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-15T20:00:57Z"
+          "id": "6ae75ee73e7fc27f828d24048884aa82b24e9f6f",
+          "title": "消息人士称，英伟达将通过五年来的首次企业债券发行筹集200亿美元",
+          "url": "https://reut.rs/4org7X8",
+          "source": "reut.rs",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T16:45:24.673000Z"
         }
       ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.4955,
-      "importance": 0.4955,
-      "importance_score": 0.4955,
-      "importance_label": "多源热议",
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.3311,
+      "importance": 0.3311,
+      "importance_score": 0.3311,
+      "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.32,
-        "recency": 0.7851,
-        "story_heat": 0.5
+        "recency": 0.4037,
+        "story_heat": 0.25
       },
-      "category": "multi_source",
+      "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-15T20:00:57Z",
-      "latest_at": "2026-06-15T21:01:13.719000Z",
+      "earliest_at": "2026-06-15T16:45:24.673000Z",
+      "latest_at": "2026-06-15T17:33:16.181000Z",
       "primary_item": {
-        "id": "085358afdd453b360f3c4dd36a11e82169d6d796",
-        "title": "领英招聘启事中的后门",
-        "url": "https://roman.pt/posts/linkedin-backdoor",
-        "source": "roman.pt",
+        "id": "550a7f526a2ae965097f99bbed7e3bf2b8c2ca41",
+        "title": "消息人士称，英伟达将通过五年来的首次企业债券发行筹集200亿美元 - Reuters",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOb3J6OUR4dG9YbWJEWmwzYkQ1SVpMOHFiQU9PMmYweDJ6N0R0dUhmNmt6THBkdlFxMHhUcDA1OFFwSktsNUQ4c3N2WW9ZU0J1YTZHYk95RVc0c25mV3Bqd0kyVEJNMUQ1U2FvSUt4Z1N2a1BMTXJJRHRyWnJRV2J4cGY4NktrTVgzdHVQWXBGZ3hDSnAzb3RJR0FWUXRjUEdkejJXMTh3dWhINWFrQ3RtMmxINTVrOERqVGctZXJCVF9RRDd2OEtWdg?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+        "source": "news.google.com",
         "source_name": "Buzzing"
       }
     },
     {
-      "story_id": "story_db03616bc793",
-      "title": "事发一年后，印度航空空难调查中仍有六个悬而未决的问题",
-      "url": "https://www.bbc.com/news/articles/c6214prydklo?at_medium=RSS&at_campaign=rss",
-      "primary_url": "https://www.bbc.com/news/articles/c6214prydklo?at_medium=RSS&at_campaign=rss",
+      "story_id": "story_e33f617c84ab",
+      "title": "谷歌飞行模拟器",
+      "url": "https://developers.google.com/maps/documentation/earth/flight-simulator",
+      "primary_url": "https://developers.google.com/maps/documentation/earth/flight-simulator",
+      "source": "developers.google.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "a3ecaf78c30f09021f01318c42fbffeb76f9e5ca",
+          "title": "谷歌飞行模拟器",
+          "url": "https://developers.google.com/maps/documentation/earth/flight-simulator",
+          "source": "developers.google.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T17:33:15.681000Z"
+        },
+        {
+          "id": "ddfc3135fd4e6ecf5102d9fda383abe4c3098f1a",
+          "title": "谷歌飞行模拟器 / Google Flight Simulator",
+          "url": "https://developers.google.com/maps/documentation/earth/flight-simulator",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-15T13:26:08Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News",
+        "developers.google.com"
+      ],
+      "items": [
+        {
+          "id": "a3ecaf78c30f09021f01318c42fbffeb76f9e5ca",
+          "title": "谷歌飞行模拟器",
+          "url": "https://developers.google.com/maps/documentation/earth/flight-simulator",
+          "source": "developers.google.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T17:33:15.681000Z"
+        },
+        {
+          "id": "ddfc3135fd4e6ecf5102d9fda383abe4c3098f1a",
+          "title": "谷歌飞行模拟器 / Google Flight Simulator",
+          "url": "https://developers.google.com/maps/documentation/earth/flight-simulator",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-15T13:26:08Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.3311,
+      "importance": 0.3311,
+      "importance_score": 0.3311,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.32,
+        "recency": 0.4037,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-15T13:26:08Z",
+      "latest_at": "2026-06-15T17:33:15.681000Z",
+      "primary_item": {
+        "id": "a3ecaf78c30f09021f01318c42fbffeb76f9e5ca",
+        "title": "谷歌飞行模拟器",
+        "url": "https://developers.google.com/maps/documentation/earth/flight-simulator",
+        "source": "developers.google.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_aebcf646f3db",
+      "title": "无国界医生组织工作人员在“以性换粮”丑闻中虐待苏丹难民",
+      "url": "https://www.bbc.com/news/articles/c74ykjl8mx3o?at_medium=RSS&at_campaign=rss",
+      "primary_url": "https://www.bbc.com/news/articles/c74ykjl8mx3o?at_medium=RSS&at_campaign=rss",
       "source": "www.bbc.com",
       "source_name": "Buzzing",
       "sources": [
         {
-          "id": "8cd5de1fb154880f7a06283fe0fc7c1bfcb970de",
-          "title": "事发一年后，印度航空空难调查中仍有六个悬而未决的问题",
-          "url": "https://www.bbc.com/news/articles/c6214prydklo?at_medium=RSS&at_campaign=rss",
+          "id": "147b4014c9fe24432adc2c2b40dd13e2e3b49857",
+          "title": "无国界医生组织工作人员在“以性换粮”丑闻中虐待苏丹难民",
+          "url": "https://www.bbc.com/news/articles/c74ykjl8mx3o?at_medium=RSS&at_campaign=rss",
           "source": "www.bbc.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-06-16T00:45:03.804000Z"
+          "published_at": "2026-06-15T17:17:21.575000Z"
         },
         {
-          "id": "19146859c3ae4fda246fd533894627e1ad0abe78",
-          "title": "事发一年后，印度航空空难调查中仍有六个悬而未决的问题 / A year on, six questions still haunt the Air India crash investigation",
-          "url": "https://www.bbc.com/news/articles/c6214prydklo?at_medium=RSS&at_campaign=rss",
+          "id": "ce9b6b3c841d71cddfdc1b36f6fa7a1313cbe6fc",
+          "title": "无国界医生组织工作人员在“以性换粮”丑闻中虐待苏丹难民 / MSF staff abused Sudanese refugees in sex-for-food scandal",
+          "url": "https://www.bbc.com/news/articles/c74ykjl8mx3o?at_medium=RSS&at_campaign=rss",
           "source": "BBC News (世界新闻)",
           "source_name": "Info Flow",
           "site_id": "iris",
-          "published_at": "2026-06-15T23:09:10Z"
+          "published_at": "2026-06-15T16:32:48Z"
         }
       ],
       "source_count": 2,
@@ -1452,143 +1168,58 @@
       ],
       "items": [
         {
-          "id": "8cd5de1fb154880f7a06283fe0fc7c1bfcb970de",
-          "title": "事发一年后，印度航空空难调查中仍有六个悬而未决的问题",
-          "url": "https://www.bbc.com/news/articles/c6214prydklo?at_medium=RSS&at_campaign=rss",
+          "id": "147b4014c9fe24432adc2c2b40dd13e2e3b49857",
+          "title": "无国界医生组织工作人员在“以性换粮”丑闻中虐待苏丹难民",
+          "url": "https://www.bbc.com/news/articles/c74ykjl8mx3o?at_medium=RSS&at_campaign=rss",
           "source": "www.bbc.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-06-16T00:45:03.804000Z"
+          "published_at": "2026-06-15T17:17:21.575000Z"
         },
         {
-          "id": "19146859c3ae4fda246fd533894627e1ad0abe78",
-          "title": "事发一年后，印度航空空难调查中仍有六个悬而未决的问题 / A year on, six questions still haunt the Air India crash investigation",
-          "url": "https://www.bbc.com/news/articles/c6214prydklo?at_medium=RSS&at_campaign=rss",
+          "id": "ce9b6b3c841d71cddfdc1b36f6fa7a1313cbe6fc",
+          "title": "无国界医生组织工作人员在“以性换粮”丑闻中虐待苏丹难民 / MSF staff abused Sudanese refugees in sex-for-food scandal",
+          "url": "https://www.bbc.com/news/articles/c74ykjl8mx3o?at_medium=RSS&at_campaign=rss",
           "source": "BBC News (世界新闻)",
           "source_name": "Info Flow",
           "site_id": "iris",
-          "published_at": "2026-06-15T23:09:10Z"
+          "published_at": "2026-06-15T16:32:48Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4922,
-      "importance": 0.4922,
-      "importance_score": 0.4922,
+      "score": 0.3278,
+      "importance": 0.3278,
+      "importance_score": 0.3278,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.32,
-        "recency": 0.9405,
+        "recency": 0.3926,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-15T23:09:10Z",
-      "latest_at": "2026-06-16T00:45:03.804000Z",
+      "earliest_at": "2026-06-15T16:32:48Z",
+      "latest_at": "2026-06-15T17:17:21.575000Z",
       "primary_item": {
-        "id": "8cd5de1fb154880f7a06283fe0fc7c1bfcb970de",
-        "title": "事发一年后，印度航空空难调查中仍有六个悬而未决的问题",
-        "url": "https://www.bbc.com/news/articles/c6214prydklo?at_medium=RSS&at_campaign=rss",
+        "id": "147b4014c9fe24432adc2c2b40dd13e2e3b49857",
+        "title": "无国界医生组织工作人员在“以性换粮”丑闻中虐待苏丹难民",
+        "url": "https://www.bbc.com/news/articles/c74ykjl8mx3o?at_medium=RSS&at_campaign=rss",
         "source": "www.bbc.com",
         "source_name": "Buzzing"
       }
     },
     {
-      "story_id": "story_961a45e3fff6",
-      "title": "以色列军队在加沙一处家庭农场枪杀了一名三岁的巴勒斯坦男童 - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQXJvRVViN1dsYTRMX29vVVN5REt3cEo2NWtoU2xYY0tHUE1IaHhfdmdtY1QxaGppSko3S2FtdEs0dlhfR0lkZnhidXR2NEZDY0RZVGtFbk5uY3RlMFROUTZ5bHZqcXBObHpCUGVPcXM1MWhsQVlNOHlHbVJxSDJqVXg4ZnZhMkgxdU8xcXI2YmFTcDB1RW9tRFJlVEluSm9LanNqMkYxZjMtUWJVTzFDQ1pSVjPSAboBQVVfeXFMTmhmR19GMHE3U1NmUTNLTzdzYmJmd2pLZzFJNkJmQ3QybFhjVVRNU2tqaDFDcFZSWlQ5SDdlVzZzLWZDM3A2S040OU9xQmVXMTR1VHVLT21LNl9lWEQwMnNCcml2TVlheDVwN3lZdWk1RDU0TTN1dm1sSjJKX2VMZEhzX1hWNWwyRWpQNlVyeDNlY0NiRU1zS19MOHlJMV9aQWw2eGdRaExpdEJKM2ZRbnJUeFBObS1vS0hB?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-      "primary_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQXJvRVViN1dsYTRMX29vVVN5REt3cEo2NWtoU2xYY0tHUE1IaHhfdmdtY1QxaGppSko3S2FtdEs0dlhfR0lkZnhidXR2NEZDY0RZVGtFbk5uY3RlMFROUTZ5bHZqcXBObHpCUGVPcXM1MWhsQVlNOHlHbVJxSDJqVXg4ZnZhMkgxdU8xcXI2YmFTcDB1RW9tRFJlVEluSm9LanNqMkYxZjMtUWJVTzFDQ1pSVjPSAboBQVVfeXFMTmhmR19GMHE3U1NmUTNLTzdzYmJmd2pLZzFJNkJmQ3QybFhjVVRNU2tqaDFDcFZSWlQ5SDdlVzZzLWZDM3A2S040OU9xQmVXMTR1VHVLT21LNl9lWEQwMnNCcml2TVlheDVwN3lZdWk1RDU0TTN1dm1sSjJKX2VMZEhzX1hWNWwyRWpQNlVyeDNlY0NiRU1zS19MOHlJMV9aQWw2eGdRaExpdEJKM2ZRbnJUeFBObS1vS0hB?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-      "source": "news.google.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "01bd6d650271004efd20921b5540976105366572",
-          "title": "以色列军队在加沙一处家庭农场枪杀了一名三岁的巴勒斯坦男童 - Al Jazeera",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQXJvRVViN1dsYTRMX29vVVN5REt3cEo2NWtoU2xYY0tHUE1IaHhfdmdtY1QxaGppSko3S2FtdEs0dlhfR0lkZnhidXR2NEZDY0RZVGtFbk5uY3RlMFROUTZ5bHZqcXBObHpCUGVPcXM1MWhsQVlNOHlHbVJxSDJqVXg4ZnZhMkgxdU8xcXI2YmFTcDB1RW9tRFJlVEluSm9LanNqMkYxZjMtUWJVTzFDQ1pSVjPSAboBQVVfeXFMTmhmR19GMHE3U1NmUTNLTzdzYmJmd2pLZzFJNkJmQ3QybFhjVVRNU2tqaDFDcFZSWlQ5SDdlVzZzLWZDM3A2S040OU9xQmVXMTR1VHVLT21LNl9lWEQwMnNCcml2TVlheDVwN3lZdWk1RDU0TTN1dm1sSjJKX2VMZEhzX1hWNWwyRWpQNlVyeDNlY0NiRU1zS19MOHlJMV9aQWw2eGdRaExpdEJKM2ZRbnJUeFBObS1vS0hB?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-          "source": "news.google.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-16T00:13:14.097000Z"
-        },
-        {
-          "id": "9514c887a803fb360aab663917b47fa1b5d2dc18",
-          "title": "以色列军队在加沙一处家庭农场枪杀一名三岁巴勒斯坦男童 - Al Jazeera",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQXJvRVViN1dsYTRMX29vVVN5REt3cEo2NWtoU2xYY0tHUE1IaHhfdmdtY1QxaGppSko3S2FtdEs0dlhfR0lkZnhidXR2NEZDY0RZVGtFbk5uY3RlMFROUTZ5bHZqcXBObHpCUGVPcXM1MWhsQVlNOHlHbVJxSDJqVXg4ZnZhMkgxdU8xcXI2YmFTcDB1RW9tRFJlVEluSm9LanNqMkYxZjMtUWJVTzFDQ1pSVjPSAboBQVVfeXFMTmhmR19GMHE3U1NmUTNLTzdzYmJmd2pLZzFJNkJmQ3QybFhjVVRNU2tqaDFDcFZSWlQ5SDdlVzZzLWZDM3A2S040OU9xQmVXMTR1VHVLT21LNl9lWEQwMnNCcml2TVlheDVwN3lZdWk1RDU0TTN1dm1sSjJKX2VMZEhzX1hWNWwyRWpQNlVyeDNlY0NiRU1zS19MOHlJMV9aQWw2eGdRaExpdEJKM2ZRbnJUeFBObS1vS0hB?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-          "source": "news.google.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-16T00:13:14.074000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "news.google.com"
-      ],
-      "items": [
-        {
-          "id": "01bd6d650271004efd20921b5540976105366572",
-          "title": "以色列军队在加沙一处家庭农场枪杀了一名三岁的巴勒斯坦男童 - Al Jazeera",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQXJvRVViN1dsYTRMX29vVVN5REt3cEo2NWtoU2xYY0tHUE1IaHhfdmdtY1QxaGppSko3S2FtdEs0dlhfR0lkZnhidXR2NEZDY0RZVGtFbk5uY3RlMFROUTZ5bHZqcXBObHpCUGVPcXM1MWhsQVlNOHlHbVJxSDJqVXg4ZnZhMkgxdU8xcXI2YmFTcDB1RW9tRFJlVEluSm9LanNqMkYxZjMtUWJVTzFDQ1pSVjPSAboBQVVfeXFMTmhmR19GMHE3U1NmUTNLTzdzYmJmd2pLZzFJNkJmQ3QybFhjVVRNU2tqaDFDcFZSWlQ5SDdlVzZzLWZDM3A2S040OU9xQmVXMTR1VHVLT21LNl9lWEQwMnNCcml2TVlheDVwN3lZdWk1RDU0TTN1dm1sSjJKX2VMZEhzX1hWNWwyRWpQNlVyeDNlY0NiRU1zS19MOHlJMV9aQWw2eGdRaExpdEJKM2ZRbnJUeFBObS1vS0hB?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-          "source": "news.google.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-16T00:13:14.097000Z"
-        },
-        {
-          "id": "9514c887a803fb360aab663917b47fa1b5d2dc18",
-          "title": "以色列军队在加沙一处家庭农场枪杀一名三岁巴勒斯坦男童 - Al Jazeera",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQXJvRVViN1dsYTRMX29vVVN5REt3cEo2NWtoU2xYY0tHUE1IaHhfdmdtY1QxaGppSko3S2FtdEs0dlhfR0lkZnhidXR2NEZDY0RZVGtFbk5uY3RlMFROUTZ5bHZqcXBObHpCUGVPcXM1MWhsQVlNOHlHbVJxSDJqVXg4ZnZhMkgxdU8xcXI2YmFTcDB1RW9tRFJlVEluSm9LanNqMkYxZjMtUWJVTzFDQ1pSVjPSAboBQVVfeXFMTmhmR19GMHE3U1NmUTNLTzdzYmJmd2pLZzFJNkJmQ3QybFhjVVRNU2tqaDFDcFZSWlQ5SDdlVzZzLWZDM3A2S040OU9xQmVXMTR1VHVLT21LNl9lWEQwMnNCcml2TVlheDVwN3lZdWk1RDU0TTN1dm1sSjJKX2VMZEhzX1hWNWwyRWpQNlVyeDNlY0NiRU1zS19MOHlJMV9aQWw2eGdRaExpdEJKM2ZRbnJUeFBObS1vS0hB?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-          "source": "news.google.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-16T00:13:14.074000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.4855,
-      "importance": 0.4855,
-      "importance_score": 0.4855,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 0.9184,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-16T00:13:14.074000Z",
-      "latest_at": "2026-06-16T00:13:14.097000Z",
-      "primary_item": {
-        "id": "01bd6d650271004efd20921b5540976105366572",
-        "title": "以色列军队在加沙一处家庭农场枪杀了一名三岁的巴勒斯坦男童 - Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQXJvRVViN1dsYTRMX29vVVN5REt3cEo2NWtoU2xYY0tHUE1IaHhfdmdtY1QxaGppSko3S2FtdEs0dlhfR0lkZnhidXR2NEZDY0RZVGtFbk5uY3RlMFROUTZ5bHZqcXBObHpCUGVPcXM1MWhsQVlNOHlHbVJxSDJqVXg4ZnZhMkgxdU8xcXI2YmFTcDB1RW9tRFJlVEluSm9LanNqMkYxZjMtUWJVTzFDQ1pSVjPSAboBQVVfeXFMTmhmR19GMHE3U1NmUTNLTzdzYmJmd2pLZzFJNkJmQ3QybFhjVVRNU2tqaDFDcFZSWlQ5SDdlVzZzLWZDM3A2S040OU9xQmVXMTR1VHVLT21LNl9lWEQwMnNCcml2TVlheDVwN3lZdWk1RDU0TTN1dm1sSjJKX2VMZEhzX1hWNWwyRWpQNlVyeDNlY0NiRU1zS19MOHlJMV9aQWw2eGdRaExpdEJKM2ZRbnJUeFBObS1vS0hB?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-        "source": "news.google.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
       "story_id": "story_3691f2fb1454",
-      "title": "特朗普称伊朗协议已签署，股市上涨，油价下跌",
+      "title": "美伊达成和平协议后，股市大涨，油价下跌",
       "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-06-14",
       "primary_url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-06-14",
       "source": "www.reuters.com",
       "source_name": "Buzzing",
       "sources": [
         {
-          "id": "3e3095c744925c0820a6ca442b266d79faa1ea34",
-          "title": "特朗普称伊朗协议已签署，股市上涨，油价下跌",
-          "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-06-14",
-          "source": "www.reuters.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T22:21:16.399000Z"
-        },
-        {
           "id": "aba9a171b98205b81559fa8ef895647256d4efa4",
           "title": "美伊达成和平协议后，股市大涨，油价下跌",
           "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-06-14",
@@ -1607,21 +1238,12 @@
           "published_at": "2026-06-15T13:33:26.852000Z"
         }
       ],
-      "source_count": 3,
+      "source_count": 2,
       "source_names": [
         "www.reuters.com"
       ],
       "items": [
         {
-          "id": "3e3095c744925c0820a6ca442b266d79faa1ea34",
-          "title": "特朗普称伊朗协议已签署，股市上涨，油价下跌",
-          "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-06-14",
-          "source": "www.reuters.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T22:21:16.399000Z"
-        },
-        {
           "id": "aba9a171b98205b81559fa8ef895647256d4efa4",
           "title": "美伊达成和平协议后，股市大涨，油价下跌",
           "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-06-14",
@@ -1640,183 +1262,413 @@
           "published_at": "2026-06-15T13:33:26.852000Z"
         }
       ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5122,
-      "importance": 0.5122,
-      "importance_score": 0.5122,
-      "importance_label": "多源热议",
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.3245,
+      "importance": 0.3245,
+      "importance_score": 0.3245,
+      "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.32,
-        "recency": 0.8407,
-        "story_heat": 0.5
+        "recency": 0.3815,
+        "story_heat": 0.25
       },
-      "category": "multi_source",
+      "category": "watch",
       "reasons": [
         "multi_source"
       ],
       "earliest_at": "2026-06-15T13:33:26.852000Z",
-      "latest_at": "2026-06-15T22:21:16.399000Z",
+      "latest_at": "2026-06-15T17:01:21.902000Z",
       "primary_item": {
-        "id": "3e3095c744925c0820a6ca442b266d79faa1ea34",
-        "title": "特朗普称伊朗协议已签署，股市上涨，油价下跌",
+        "id": "aba9a171b98205b81559fa8ef895647256d4efa4",
+        "title": "美伊达成和平协议后，股市大涨，油价下跌",
         "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-06-14",
         "source": "www.reuters.com",
         "source_name": "Buzzing"
       }
     },
     {
-      "story_id": "story_e24e62dc87c9",
-      "title": "我爱电脑",
-      "url": "https://michaelenger.com/blog/i-love-the-computer",
-      "primary_url": "https://michaelenger.com/blog/i-love-the-computer",
-      "source": "michaelenger.com",
+      "story_id": "story_f6fd7d7e12f3",
+      "title": "MONOLITH：一款面向 x86 架构的实验性非 Unix 操作系统",
+      "url": "https://codeberg.org/MONOLITH-Project/MONOLITH",
+      "primary_url": "https://codeberg.org/MONOLITH-Project/MONOLITH",
+      "source": "codeberg.org",
       "source_name": "Buzzing",
       "sources": [
         {
-          "id": "28ee602190042d13a0eb8532220826d78f225858",
-          "title": "我爱电脑",
-          "url": "https://michaelenger.com/blog/i-love-the-computer",
-          "source": "michaelenger.com",
+          "id": "36c57aae61c39cb63453d8205f5d0bd242b7a984",
+          "title": "MONOLITH：一款面向 x86 架构的实验性非 Unix 操作系统",
+          "url": "https://codeberg.org/MONOLITH-Project/MONOLITH",
+          "source": "codeberg.org",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-06-15T23:41:12.963000Z"
+          "published_at": "2026-06-15T17:01:18.869000Z"
         },
         {
-          "id": "e979d320657e69f9c81e4dfe220613887cde69cd",
-          "title": "我爱电脑 / I Love the Computer",
-          "url": "https://michaelenger.com/blog/i-love-the-computer",
-          "source": "Hacker News (黑客新闻)",
+          "id": "1b104e13f037dd1dcfb81528d793564bfd9d0303",
+          "title": "MONOLITH：一款面向 x86 架构的实验性非 Unix 操作系统 / MONOLITH: An experimental non-Unix operating system for x86",
+          "url": "https://codeberg.org/MONOLITH-Project/MONOLITH",
+          "source": "Lobsters (技术社区)",
           "source_name": "Info Flow",
           "site_id": "iris",
-          "published_at": "2026-06-15T20:14:15Z"
+          "published_at": "2026-06-15T16:54:04Z"
         }
       ],
       "source_count": 2,
       "source_names": [
-        "Hacker News (黑客新闻)",
-        "michaelenger.com"
+        "Lobsters (技术社区)",
+        "codeberg.org"
       ],
       "items": [
         {
-          "id": "28ee602190042d13a0eb8532220826d78f225858",
-          "title": "我爱电脑",
-          "url": "https://michaelenger.com/blog/i-love-the-computer",
-          "source": "michaelenger.com",
+          "id": "36c57aae61c39cb63453d8205f5d0bd242b7a984",
+          "title": "MONOLITH：一款面向 x86 架构的实验性非 Unix 操作系统",
+          "url": "https://codeberg.org/MONOLITH-Project/MONOLITH",
+          "source": "codeberg.org",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-06-15T23:41:12.963000Z"
+          "published_at": "2026-06-15T17:01:18.869000Z"
         },
         {
-          "id": "e979d320657e69f9c81e4dfe220613887cde69cd",
-          "title": "我爱电脑 / I Love the Computer",
-          "url": "https://michaelenger.com/blog/i-love-the-computer",
-          "source": "Hacker News (黑客新闻)",
+          "id": "1b104e13f037dd1dcfb81528d793564bfd9d0303",
+          "title": "MONOLITH：一款面向 x86 架构的实验性非 Unix 操作系统 / MONOLITH: An experimental non-Unix operating system for x86",
+          "url": "https://codeberg.org/MONOLITH-Project/MONOLITH",
+          "source": "Lobsters (技术社区)",
           "source_name": "Info Flow",
           "site_id": "iris",
-          "published_at": "2026-06-15T20:14:15Z"
+          "published_at": "2026-06-15T16:54:04Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4789,
-      "importance": 0.4789,
-      "importance_score": 0.4789,
+      "score": 0.3244,
+      "importance": 0.3244,
+      "importance_score": 0.3244,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.32,
-        "recency": 0.8962,
+        "recency": 0.3815,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-15T20:14:15Z",
-      "latest_at": "2026-06-15T23:41:12.963000Z",
+      "earliest_at": "2026-06-15T16:54:04Z",
+      "latest_at": "2026-06-15T17:01:18.869000Z",
       "primary_item": {
-        "id": "28ee602190042d13a0eb8532220826d78f225858",
-        "title": "我爱电脑",
-        "url": "https://michaelenger.com/blog/i-love-the-computer",
-        "source": "michaelenger.com",
+        "id": "36c57aae61c39cb63453d8205f5d0bd242b7a984",
+        "title": "MONOLITH：一款面向 x86 架构的实验性非 Unix 操作系统",
+        "url": "https://codeberg.org/MONOLITH-Project/MONOLITH",
+        "source": "codeberg.org",
         "source_name": "Buzzing"
       }
     },
     {
-      "story_id": "story_4856b8e5a36c",
-      "title": "亞馬遜宣布耗資數十億美元在密蘇裡州建造資料中心 / Amazon Announces Multibillion-Dollar Data Center in Missouri",
-      "url": "https://news.ycombinator.com/item?id=48548975",
-      "primary_url": "https://news.ycombinator.com/item?id=48548975",
-      "source": "hackernews",
-      "source_name": "NewsNow",
+      "story_id": "story_e9f5117e2d1a",
+      "title": "福斯斥資 220 億美元收購 Roku / Fox Is Buying Roku For $22 Billion",
+      "url": "https://entertainment.slashdot.org/story/26/06/15/1537209/fox-is-buying-roku-for-22-billion",
+      "primary_url": "https://entertainment.slashdot.org/story/26/06/15/1537209/fox-is-buying-roku-for-22-billion",
+      "source": "Slashdot (科技资讯)",
+      "source_name": "Info Flow",
       "sources": [
         {
-          "id": "c1a5af22caadec6800fcb52cd0c908e49693a434",
-          "title": "亞馬遜宣布耗資數十億美元在密蘇裡州建造資料中心 / Amazon Announces Multibillion-Dollar Data Center in Missouri",
-          "url": "https://news.ycombinator.com/item?id=48548975",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-16T01:54:47.890000Z"
-        },
-        {
-          "id": "f51781a68ef39bbd973dbb668d01c96245ef640f",
-          "title": "亞馬遜宣布耗資數十億美元在密蘇裡州建造資料中心 / Amazon Announces Multibillion-Dollar Data Center in Missouri",
-          "url": "https://www.narracomm.com/amazon-announces-multibillion-dollar-data-center-in-missouri",
-          "source": "Hacker News (黑客新闻)",
+          "id": "d5c1f6a8aac203e495d2e3a42e43931144980953",
+          "title": "福斯斥資 220 億美元收購 Roku / Fox Is Buying Roku For $22 Billion",
+          "url": "https://entertainment.slashdot.org/story/26/06/15/1537209/fox-is-buying-roku-for-22-billion",
+          "source": "Slashdot (科技资讯)",
           "source_name": "Info Flow",
           "site_id": "iris",
-          "published_at": "2026-06-16T00:28:14Z"
+          "published_at": "2026-06-15T17:00:00Z"
+        },
+        {
+          "id": "2721e0b0da60b5bb07efca8c73548e821ee8e288",
+          "title": "福斯斥資220億美元收購Roku / Fox is buying Roku for $22 billion",
+          "url": "https://www.engadget.com/2194058/fox-is-buying-roku-for-22-billion",
+          "source": "Engadget",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-15T12:08:00Z"
         }
       ],
       "source_count": 2,
       "source_names": [
-        "Hacker News (黑客新闻)",
-        "hackernews"
+        "Engadget",
+        "Slashdot (科技资讯)"
       ],
       "items": [
         {
-          "id": "c1a5af22caadec6800fcb52cd0c908e49693a434",
-          "title": "亞馬遜宣布耗資數十億美元在密蘇裡州建造資料中心 / Amazon Announces Multibillion-Dollar Data Center in Missouri",
-          "url": "https://news.ycombinator.com/item?id=48548975",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-16T01:54:47.890000Z"
-        },
-        {
-          "id": "f51781a68ef39bbd973dbb668d01c96245ef640f",
-          "title": "亞馬遜宣布耗資數十億美元在密蘇裡州建造資料中心 / Amazon Announces Multibillion-Dollar Data Center in Missouri",
-          "url": "https://www.narracomm.com/amazon-announces-multibillion-dollar-data-center-in-missouri",
-          "source": "Hacker News (黑客新闻)",
+          "id": "d5c1f6a8aac203e495d2e3a42e43931144980953",
+          "title": "福斯斥資 220 億美元收購 Roku / Fox Is Buying Roku For $22 Billion",
+          "url": "https://entertainment.slashdot.org/story/26/06/15/1537209/fox-is-buying-roku-for-22-billion",
+          "source": "Slashdot (科技资讯)",
           "source_name": "Info Flow",
           "site_id": "iris",
-          "published_at": "2026-06-16T00:28:14Z"
+          "published_at": "2026-06-15T17:00:00Z"
+        },
+        {
+          "id": "2721e0b0da60b5bb07efca8c73548e821ee8e288",
+          "title": "福斯斥資220億美元收購Roku / Fox is buying Roku for $22 billion",
+          "url": "https://www.engadget.com/2194058/fox-is-buying-roku-for-22-billion",
+          "source": "Engadget",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-15T12:08:00Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5067,
-      "importance": 0.5067,
-      "importance_score": 0.5067,
+      "score": 0.3242,
+      "importance": 0.3242,
+      "importance_score": 0.3242,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.32,
-        "recency": 0.989,
+        "recency": 0.3806,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-16T00:28:14Z",
-      "latest_at": "2026-06-16T01:54:47.890000Z",
+      "earliest_at": "2026-06-15T12:08:00Z",
+      "latest_at": "2026-06-15T17:00:00Z",
       "primary_item": {
-        "id": "c1a5af22caadec6800fcb52cd0c908e49693a434",
-        "title": "亞馬遜宣布耗資數十億美元在密蘇裡州建造資料中心 / Amazon Announces Multibillion-Dollar Data Center in Missouri",
-        "url": "https://news.ycombinator.com/item?id=48548975",
-        "source": "hackernews",
-        "source_name": "NewsNow"
+        "id": "d5c1f6a8aac203e495d2e3a42e43931144980953",
+        "title": "福斯斥資 220 億美元收購 Roku / Fox Is Buying Roku For $22 Billion",
+        "url": "https://entertainment.slashdot.org/story/26/06/15/1537209/fox-is-buying-roku-for-22-billion",
+        "source": "Slashdot (科技资讯)",
+        "source_name": "Info Flow"
+      }
+    },
+    {
+      "story_id": "story_d944d8d60fea",
+      "title": "标普500指数有望创下4月以来最大单日涨幅，油价下跌：市场综述",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-14/us-futures-climb-oil-falls-on-iran-peace-deal-markets-wrap",
+      "primary_url": "https://www.bloomberg.com/news/articles/2026-06-14/us-futures-climb-oil-falls-on-iran-peace-deal-markets-wrap",
+      "source": "www.bloomberg.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "02f017f992b96592a865b565afb02c46bf85e389",
+          "title": "标普500指数有望创下4月以来最大单日涨幅，油价下跌：市场综述",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-14/us-futures-climb-oil-falls-on-iran-peace-deal-markets-wrap",
+          "source": "www.bloomberg.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T16:13:15.221000Z"
+        },
+        {
+          "id": "f022aa428e079f7169ae408bad0f4569c95d452d",
+          "title": "美伊协议拖累油价，股市随债券同步走高：市场综述",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-14/us-futures-climb-oil-falls-on-iran-peace-deal-markets-wrap",
+          "source": "www.bloomberg.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T13:33:26.791000Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "www.bloomberg.com"
+      ],
+      "items": [
+        {
+          "id": "02f017f992b96592a865b565afb02c46bf85e389",
+          "title": "标普500指数有望创下4月以来最大单日涨幅，油价下跌：市场综述",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-14/us-futures-climb-oil-falls-on-iran-peace-deal-markets-wrap",
+          "source": "www.bloomberg.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T16:13:15.221000Z"
+        },
+        {
+          "id": "f022aa428e079f7169ae408bad0f4569c95d452d",
+          "title": "美伊协议拖累油价，股市随债券同步走高：市场综述",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-14/us-futures-climb-oil-falls-on-iran-peace-deal-markets-wrap",
+          "source": "www.bloomberg.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T13:33:26.791000Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.3144,
+      "importance": 0.3144,
+      "importance_score": 0.3144,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.32,
+        "recency": 0.3481,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-15T13:33:26.791000Z",
+      "latest_at": "2026-06-15T16:13:15.221000Z",
+      "primary_item": {
+        "id": "02f017f992b96592a865b565afb02c46bf85e389",
+        "title": "标普500指数有望创下4月以来最大单日涨幅，油价下跌：市场综述",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-14/us-futures-climb-oil-falls-on-iran-peace-deal-markets-wrap",
+        "source": "www.bloomberg.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_4059b8caad6e",
+      "title": "芯片制造商英伟达计划通过自2021年以来首次债券发行筹集逾200亿美元",
+      "url": "https://www.ft.com/content/c0e7cc58-e309-4f47-b466-d577c06cbeec",
+      "primary_url": "https://www.ft.com/content/c0e7cc58-e309-4f47-b466-d577c06cbeec",
+      "source": "www.ft.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "0fcdfab6444d762d409c3add9efa8ca1c9f2624c",
+          "title": "芯片制造商英伟达计划通过自2021年以来首次债券发行筹集逾200亿美元",
+          "url": "https://www.ft.com/content/c0e7cc58-e309-4f47-b466-d577c06cbeec",
+          "source": "www.ft.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T15:57:18.010000Z"
+        },
+        {
+          "id": "f0ef8f0ea9b8f2d2669eee39e1d8ebc71c4eefb8",
+          "title": "英伟达计划通过自2021年以来首次企业债券发行筹集200亿美元",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-targets-20-billion-first-130429552.html",
+          "source": "finance.yahoo.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T13:33:26.670000Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "finance.yahoo.com",
+        "www.ft.com"
+      ],
+      "items": [
+        {
+          "id": "0fcdfab6444d762d409c3add9efa8ca1c9f2624c",
+          "title": "芯片制造商英伟达计划通过自2021年以来首次债券发行筹集逾200亿美元",
+          "url": "https://www.ft.com/content/c0e7cc58-e309-4f47-b466-d577c06cbeec",
+          "source": "www.ft.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T15:57:18.010000Z"
+        },
+        {
+          "id": "f0ef8f0ea9b8f2d2669eee39e1d8ebc71c4eefb8",
+          "title": "英伟达计划通过自2021年以来首次企业债券发行筹集200亿美元",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-targets-20-billion-first-130429552.html",
+          "source": "finance.yahoo.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T13:33:26.670000Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.3111,
+      "importance": 0.3111,
+      "importance_score": 0.3111,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.32,
+        "recency": 0.337,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-15T13:33:26.670000Z",
+      "latest_at": "2026-06-15T15:57:18.010000Z",
+      "primary_item": {
+        "id": "0fcdfab6444d762d409c3add9efa8ca1c9f2624c",
+        "title": "芯片制造商英伟达计划通过自2021年以来首次债券发行筹集逾200亿美元",
+        "url": "https://www.ft.com/content/c0e7cc58-e309-4f47-b466-d577c06cbeec",
+        "source": "www.ft.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_333634e5522f",
+      "title": "Emacs，一切的开始（对我而言）",
+      "url": "https://xvw.lol/en/articles/emacs-start.html",
+      "primary_url": "https://xvw.lol/en/articles/emacs-start.html",
+      "source": "xvw.lol",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "3a51e1625d32a3c5498bd0c4de306f80602db386",
+          "title": "Emacs，一切的开始（对我而言）",
+          "url": "https://xvw.lol/en/articles/emacs-start.html",
+          "source": "xvw.lol",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T15:41:25.261000Z"
+        },
+        {
+          "id": "628d4254ca427b64348309138bf25e15fabc76e7",
+          "title": "Emacs，一切的开始（对我而言） / Emacs, how it all started (for me)",
+          "url": "https://xvw.lol/en/articles/emacs-start.html",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-15T15:31:34Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Lobsters (技术社区)",
+        "xvw.lol"
+      ],
+      "items": [
+        {
+          "id": "3a51e1625d32a3c5498bd0c4de306f80602db386",
+          "title": "Emacs，一切的开始（对我而言）",
+          "url": "https://xvw.lol/en/articles/emacs-start.html",
+          "source": "xvw.lol",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T15:41:25.261000Z"
+        },
+        {
+          "id": "628d4254ca427b64348309138bf25e15fabc76e7",
+          "title": "Emacs，一切的开始（对我而言） / Emacs, how it all started (for me)",
+          "url": "https://xvw.lol/en/articles/emacs-start.html",
+          "source": "Lobsters (技术社区)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-15T15:31:34Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.3078,
+      "importance": 0.3078,
+      "importance_score": 0.3078,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.32,
+        "recency": 0.326,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-15T15:31:34Z",
+      "latest_at": "2026-06-15T15:41:25.261000Z",
+      "primary_item": {
+        "id": "3a51e1625d32a3c5498bd0c4de306f80602db386",
+        "title": "Emacs，一切的开始（对我而言）",
+        "url": "https://xvw.lol/en/articles/emacs-start.html",
+        "source": "xvw.lol",
+        "source_name": "Buzzing"
       }
     }
   ]
