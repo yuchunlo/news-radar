@@ -182,12 +182,6 @@
       <outline text="Ollie Bye" type="rss" category="data"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC6gNjP1W4FXWExT5QpYkmhQ"
         htmlUrl="https://www.youtube.com/watch?v=kNZuKJMq08U" />
-      <outline text="Martijn Doolaard" type="rss" category="blog"
-        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UClkUhTjFbQbtGfS14h9Vw5g"
-        htmlUrl="https://www.youtube.com/channel/UClkUhTjFbQbtGfS14h9Vw5g" />
-      <outline text="Loot2魯特" type="rss" category="blog"
-        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCJPcnheiqkfK-v61Fq_fuxw"
-        htmlUrl="https://www.youtube.com/watch?v=R8gfgw8gL8w" />
       <outline text="Open Culture" type="rss" category="trending"
         xmlUrl="https://www.openculture.com/feed"
         htmlUrl="https://www.openculture.com/" />
