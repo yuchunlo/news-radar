@@ -239,9 +239,9 @@
       <outline text="Hiker CP" type="rss" category=""
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCrQywT5auJ-6dvFsBXW7NFg"
         htmlUrl="https://www.youtube.com/watch?v=qqUb0hZ_5yM" />
-      <outline text="HDbanana北投流暢哥" type="rss" category=""
+      <outline text="HDbanana北投流暢哥" type="rss" category="functionality"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCbiSEmLnfBdsP0pCqfexX7w"
-        htmlUrl="https://www.youtube.com/watch?v=HeIUU00a6LU" />
+        htmlUrl="https://www.youtube.com/channel/UCbiSEmLnfBdsP0pCqfexX7w" />
       <outline text="gi.life designer" type="rss" category=""
         xmlUrl="https://gilifedesigner.com/feed/"
         htmlUrl="https://gilifedesigner.com" />
@@ -416,7 +416,7 @@
       <outline text="未來生活實驗室" type="rss" category=""
         xmlUrl="https://www.lifeaholic.tw/feed/"
         htmlUrl="https://www.lifeaholic.tw/" />
-      <outline text="未來流通研究所｜商業情報資訊站" type="rss" category=""
+      <outline text="未來流通研究所｜商業情報資訊站" type="rss" category="business"
         xmlUrl="https://www.mirai.com.tw/feed/"
         htmlUrl="https://www.mirai.com.tw" />
       <outline text="望山 的最新评论" type="rss" category=""
@@ -806,7 +806,7 @@
       <outline text="GQ編輯出差日記" type="rss" category=""
         xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLiyT3ZJaRwTsY23C9-eGn1chUQa7RNyT_"
         htmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLiyT3ZJaRwTsY23C9-eGn1chUQa7RNyT_" />
-      <outline text="GOOD" type="rss" category=""
+      <outline text="GOOD" type="rss" category="trending"
         xmlUrl="https://www.good.is/feeds/feed.rss"
         htmlUrl="https://www.good.is/" />
       <outline text="Gasta Marcus Hobbitia" type="rss" category=""
@@ -821,7 +821,7 @@
       <outline text="FLAIR IRON" type="rss" category=""
         xmlUrl="https://www.flairiron.com/blog-feed.xml"
         htmlUrl="https://www.flairiron.com/blog" />
-      <outline text="EVERYDAY OBJECT" type="rss" category=""
+      <outline text="EVERYDAY OBJECT" type="rss" category="trending"
         xmlUrl="https://www.everydayobject.us/feed/"
         htmlUrl="https://www.everydayobject.us" />
       <outline text="every little d" type="rss" category=""
@@ -884,9 +884,6 @@
       <outline text="Arfon Smith" type="rss" category=""
         xmlUrl="https://fosstodon.org/@arfon.rss"
         htmlUrl="https://fosstodon.org/@arfon" />
-      <outline text="Ape to Gentleman" type="rss" category=""
-        xmlUrl="https://www.apetogentleman.com/feed/"
-        htmlUrl="https://www.apetogentleman.com/" />
       <outline text="allan.reyes.sh" type="rss" category=""
         xmlUrl="https://allan.reyes.sh/index.xml"
         htmlUrl="https://allan.reyes.sh/" />
