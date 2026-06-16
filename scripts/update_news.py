@@ -2860,7 +2860,7 @@ def build_latest_payloads(latest_payload: dict[str, Any]) -> tuple[dict[str, Any
     return slim_payload, all_payload
 
 
-def main() -> int:
+def main(argv=None) -> int:
     parser = argparse.ArgumentParser(description="Aggregate news updates from multiple sources")
     parser.add_argument("--output-dir", default="data", help="Directory for output JSON files")
     parser.add_argument("--window-hours", type=int, default=24, help="24h window size")
@@ -2868,6 +2868,7 @@ def main() -> int:
     parser.add_argument("--translate-max-new", type=int, default=80, help="Max new EN->ZH title translations per run")
     parser.add_argument("--rss-opml", default="", help="Optional OPML file path to include RSS sources")
     parser.add_argument("--rss-max-feeds", type=int, default=0, help="Optional max OPML RSS feeds to fetch (0 means all)")
+    parser.add_argument("--collect-all", action="store_true", help="Optional sources")
     args = parser.parse_args()
 
     now = utc_now()
@@ -2887,7 +2888,11 @@ def main() -> int:
     archive = load_archive(archive_path)
 
     session = create_session()
-    raw_items, statuses = collect_all(session, now)
+    raw_items: list[Any] = []
+    statuses: list[Any] = []
+
+    if args.collect_all():
+        raw_items, statuses = collect_all(session, now)
     rss_feed_statuses: list[dict[str, Any]] = []
     if args.rss_opml:
         opml_path = Path(args.rss_opml).expanduser()
@@ -2946,6 +2951,10 @@ def main() -> int:
             existing["source"] = raw.source
             existing["title"] = title
             existing["url"] = url
+            if existing.get("summary"):
+                existing["summary"] = existing.get("summary")
+                if existing.get("thumbnail"):
+                    existing["thumbnail"] = existing.get("thumbnail")
             if raw.published_at:
                 # OPML RSS may fix previously wrong publish times; allow overwrite.
                 if raw.site_id == "opmlrss" or not existing.get("published_at"):
