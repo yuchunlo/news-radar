@@ -1,142 +1,8 @@
 {
-  "generated_at": "2026-06-16T08:30:33.993511Z",
+  "generated_at": "2026-06-16T09:35:50.679789Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
-    {
-      "story_id": "story_774f7412d1a3",
-      "title": "王室：哈利王子的秘密使命 / Famille Royale : la mission secrète du Prince Harry",
-      "url": "https://www.youtube.com/watch?v=GLZWhTCS7yw",
-      "primary_url": "https://www.youtube.com/watch?v=GLZWhTCS7yw",
-      "source": "imineo Documentaires",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "44f08ceb540c8ba08431541346ee2ee637445edf",
-          "title": "王室：哈利王子的秘密使命 / Famille Royale : la mission secrète du Prince Harry",
-          "url": "https://www.youtube.com/watch?v=GLZWhTCS7yw",
-          "source": "imineo Documentaires",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-15T16:30:14Z"
-        },
-        {
-          "id": "08ffba41def3b8c19047225c784b9f04e33fc1f2",
-          "title": "世足門票飆破上萬台幣 浮動票價引爆球迷怒火 從極端票價到體育洗白 球場上的「政治中立」為何成了最大謊言？【TODAY 看世界】",
-          "url": "https://www.youtube.com/watch?v=WQLtNmLxXjM",
-          "source": "TODAY 看世界",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-15T16:00:20Z"
-        },
-        {
-          "id": "35411524d51f1b9ebd5f4cacfc13f92d1c904d0e",
-          "title": "為什麼 250 億次展示毫無意義，火星正在蠶食 CBO CMO 內幕播客 / Why 25 Billion Impressions Means Nothing, With Mars Snacking CBO | CMO Insider Podcast",
-          "url": "https://www.youtube.com/watch?v=oYN75wXgfyc",
-          "source": "Business Insider",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-15T16:00:03Z"
-        },
-        {
-          "id": "13c1cfa8f2140f0078f4322d698f26bb5ee4b437",
-          "title": "曾經訂不到位..現在倒一片？韓國‘無菜單料理’跌落神壇 年輕人為何突然不吃了｜DenQ",
-          "url": "https://www.youtube.com/watch?v=guQtsMmc7p4",
-          "source": "DenQ來了",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-15T11:00:28Z"
-        },
-        {
-          "id": "fd2c064f8c9c7a06d6e626c0669d4ee729055cee",
-          "title": "MJ《Bad》最闷骚的改编？方大同真的太会了！",
-          "url": "https://www.youtube.com/watch?v=_Q842nx3OZw",
-          "source": "GOATFANS",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-15T09:00:27Z"
-        }
-      ],
-      "source_count": 5,
-      "source_names": [
-        "Business Insider",
-        "DenQ來了",
-        "GOATFANS",
-        "TODAY 看世界",
-        "imineo Documentaires"
-      ],
-      "items": [
-        {
-          "id": "44f08ceb540c8ba08431541346ee2ee637445edf",
-          "title": "王室：哈利王子的秘密使命 / Famille Royale : la mission secrète du Prince Harry",
-          "url": "https://www.youtube.com/watch?v=GLZWhTCS7yw",
-          "source": "imineo Documentaires",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-15T16:30:14Z"
-        },
-        {
-          "id": "08ffba41def3b8c19047225c784b9f04e33fc1f2",
-          "title": "世足門票飆破上萬台幣 浮動票價引爆球迷怒火 從極端票價到體育洗白 球場上的「政治中立」為何成了最大謊言？【TODAY 看世界】",
-          "url": "https://www.youtube.com/watch?v=WQLtNmLxXjM",
-          "source": "TODAY 看世界",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-15T16:00:20Z"
-        },
-        {
-          "id": "35411524d51f1b9ebd5f4cacfc13f92d1c904d0e",
-          "title": "為什麼 250 億次展示毫無意義，火星正在蠶食 CBO CMO 內幕播客 / Why 25 Billion Impressions Means Nothing, With Mars Snacking CBO | CMO Insider Podcast",
-          "url": "https://www.youtube.com/watch?v=oYN75wXgfyc",
-          "source": "Business Insider",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-15T16:00:03Z"
-        },
-        {
-          "id": "13c1cfa8f2140f0078f4322d698f26bb5ee4b437",
-          "title": "曾經訂不到位..現在倒一片？韓國‘無菜單料理’跌落神壇 年輕人為何突然不吃了｜DenQ",
-          "url": "https://www.youtube.com/watch?v=guQtsMmc7p4",
-          "source": "DenQ來了",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-15T11:00:28Z"
-        },
-        {
-          "id": "fd2c064f8c9c7a06d6e626c0669d4ee729055cee",
-          "title": "MJ《Bad》最闷骚的改编？方大同真的太会了！",
-          "url": "https://www.youtube.com/watch?v=_Q842nx3OZw",
-          "source": "GOATFANS",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-15T09:00:27Z"
-        }
-      ],
-      "item_count": 5,
-      "duplicate_count": 5,
-      "score": 0.4249,
-      "importance": 0.4249,
-      "importance_score": 0.4249,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "source_tier": 0.25,
-        "recency": 0.3331,
-        "story_heat": 1.0
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T09:00:27Z",
-      "latest_at": "2026-06-15T16:30:14Z",
-      "primary_item": {
-        "id": "44f08ceb540c8ba08431541346ee2ee637445edf",
-        "title": "王室：哈利王子的秘密使命 / Famille Royale : la mission secrète du Prince Harry",
-        "url": "https://www.youtube.com/watch?v=GLZWhTCS7yw",
-        "source": "imineo Documentaires",
-        "source_name": "OPML RSS"
-      }
-    },
     {
       "story_id": "story_f80731cec42f",
       "title": "【關鍵排行圖解】2019-2025台灣消費性商品進口成長TOP20",
@@ -190,13 +56,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3912,
-      "importance": 0.3912,
-      "importance_score": 0.3912,
+      "score": 0.3776,
+      "importance": 0.3776,
+      "importance_score": 0.3776,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.7205,
+        "recency": 0.6752,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -286,13 +152,13 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.3769,
-      "importance": 0.3769,
-      "importance_score": 0.3769,
+      "score": 0.3633,
+      "importance": 0.3633,
+      "importance_score": 0.3633,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.32,
-        "recency": 0.3898,
+        "recency": 0.3445,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -307,6 +173,121 @@
         "url": "https://news.ycombinator.com/item?id=48543245",
         "source": "hackernews",
         "source_name": "NewsNow"
+      }
+    },
+    {
+      "story_id": "story_774f7412d1a3",
+      "title": "王室：哈利王子的秘密使命 / Famille Royale : la mission secrète du Prince Harry",
+      "url": "https://www.youtube.com/watch?v=GLZWhTCS7yw",
+      "primary_url": "https://www.youtube.com/watch?v=GLZWhTCS7yw",
+      "source": "imineo Documentaires",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "44f08ceb540c8ba08431541346ee2ee637445edf",
+          "title": "王室：哈利王子的秘密使命 / Famille Royale : la mission secrète du Prince Harry",
+          "url": "https://www.youtube.com/watch?v=GLZWhTCS7yw",
+          "source": "imineo Documentaires",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-06-15T16:30:14Z"
+        },
+        {
+          "id": "08ffba41def3b8c19047225c784b9f04e33fc1f2",
+          "title": "世足門票飆破上萬台幣 浮動票價引爆球迷怒火 從極端票價到體育洗白 球場上的「政治中立」為何成了最大謊言？【TODAY 看世界】",
+          "url": "https://www.youtube.com/watch?v=WQLtNmLxXjM",
+          "source": "TODAY 看世界",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-06-15T16:00:20Z"
+        },
+        {
+          "id": "35411524d51f1b9ebd5f4cacfc13f92d1c904d0e",
+          "title": "為什麼 250 億次展示毫無意義，火星正在蠶食 CBO CMO 內幕播客 / Why 25 Billion Impressions Means Nothing, With Mars Snacking CBO | CMO Insider Podcast",
+          "url": "https://www.youtube.com/watch?v=oYN75wXgfyc",
+          "source": "Business Insider",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-06-15T16:00:03Z"
+        },
+        {
+          "id": "13c1cfa8f2140f0078f4322d698f26bb5ee4b437",
+          "title": "曾經訂不到位..現在倒一片？韓國‘無菜單料理’跌落神壇 年輕人為何突然不吃了｜DenQ",
+          "url": "https://www.youtube.com/watch?v=guQtsMmc7p4",
+          "source": "DenQ來了",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-06-15T11:00:28Z"
+        }
+      ],
+      "source_count": 4,
+      "source_names": [
+        "Business Insider",
+        "DenQ來了",
+        "TODAY 看世界",
+        "imineo Documentaires"
+      ],
+      "items": [
+        {
+          "id": "44f08ceb540c8ba08431541346ee2ee637445edf",
+          "title": "王室：哈利王子的秘密使命 / Famille Royale : la mission secrète du Prince Harry",
+          "url": "https://www.youtube.com/watch?v=GLZWhTCS7yw",
+          "source": "imineo Documentaires",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-06-15T16:30:14Z"
+        },
+        {
+          "id": "08ffba41def3b8c19047225c784b9f04e33fc1f2",
+          "title": "世足門票飆破上萬台幣 浮動票價引爆球迷怒火 從極端票價到體育洗白 球場上的「政治中立」為何成了最大謊言？【TODAY 看世界】",
+          "url": "https://www.youtube.com/watch?v=WQLtNmLxXjM",
+          "source": "TODAY 看世界",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-06-15T16:00:20Z"
+        },
+        {
+          "id": "35411524d51f1b9ebd5f4cacfc13f92d1c904d0e",
+          "title": "為什麼 250 億次展示毫無意義，火星正在蠶食 CBO CMO 內幕播客 / Why 25 Billion Impressions Means Nothing, With Mars Snacking CBO | CMO Insider Podcast",
+          "url": "https://www.youtube.com/watch?v=oYN75wXgfyc",
+          "source": "Business Insider",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-06-15T16:00:03Z"
+        },
+        {
+          "id": "13c1cfa8f2140f0078f4322d698f26bb5ee4b437",
+          "title": "曾經訂不到位..現在倒一片？韓國‘無菜單料理’跌落神壇 年輕人為何突然不吃了｜DenQ",
+          "url": "https://www.youtube.com/watch?v=guQtsMmc7p4",
+          "source": "DenQ來了",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-06-15T11:00:28Z"
+        }
+      ],
+      "item_count": 4,
+      "duplicate_count": 4,
+      "score": 0.3613,
+      "importance": 0.3613,
+      "importance_score": 0.3613,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "source_tier": 0.25,
+        "recency": 0.2878,
+        "story_heat": 0.75
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-15T11:00:28Z",
+      "latest_at": "2026-06-15T16:30:14Z",
+      "primary_item": {
+        "id": "44f08ceb540c8ba08431541346ee2ee637445edf",
+        "title": "王室：哈利王子的秘密使命 / Famille Royale : la mission secrète du Prince Harry",
+        "url": "https://www.youtube.com/watch?v=GLZWhTCS7yw",
+        "source": "imineo Documentaires",
+        "source_name": "OPML RSS"
       }
     },
     {
@@ -382,13 +363,13 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.3697,
-      "importance": 0.3697,
-      "importance_score": 0.3697,
+      "score": 0.3561,
+      "importance": 0.3561,
+      "importance_score": 0.3561,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.32,
-        "recency": 0.3658,
+        "recency": 0.3205,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -478,13 +459,13 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.3664,
-      "importance": 0.3664,
-      "importance_score": 0.3664,
+      "score": 0.3528,
+      "importance": 0.3528,
+      "importance_score": 0.3528,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.32,
-        "recency": 0.3547,
+        "recency": 0.3093,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -573,13 +554,13 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.3631,
-      "importance": 0.3631,
-      "importance_score": 0.3631,
+      "score": 0.3495,
+      "importance": 0.3495,
+      "importance_score": 0.3495,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.32,
-        "recency": 0.3436,
+        "recency": 0.2983,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -668,13 +649,13 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.3531,
-      "importance": 0.3531,
-      "importance_score": 0.3531,
+      "score": 0.3395,
+      "importance": 0.3395,
+      "importance_score": 0.3395,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.32,
-        "recency": 0.3102,
+        "recency": 0.2649,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -764,13 +745,13 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.3639,
-      "importance": 0.3639,
-      "importance_score": 0.3639,
+      "score": 0.3503,
+      "importance": 0.3503,
+      "importance_score": 0.3503,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.32,
-        "recency": 0.3464,
+        "recency": 0.3011,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -860,13 +841,13 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.3298,
-      "importance": 0.3298,
-      "importance_score": 0.3298,
+      "score": 0.3162,
+      "importance": 0.3162,
+      "importance_score": 0.3162,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.32,
-        "recency": 0.2325,
+        "recency": 0.1872,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -936,13 +917,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3269,
-      "importance": 0.3269,
-      "importance_score": 0.3269,
+      "score": 0.3133,
+      "importance": 0.3133,
+      "importance_score": 0.3133,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.32,
-        "recency": 0.3898,
+        "recency": 0.3445,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1013,13 +994,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3231,
-      "importance": 0.3231,
-      "importance_score": 0.3231,
+      "score": 0.3095,
+      "importance": 0.3095,
+      "importance_score": 0.3095,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.32,
-        "recency": 0.3769,
+        "recency": 0.3315,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1090,13 +1071,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3231,
-      "importance": 0.3231,
-      "importance_score": 0.3231,
+      "score": 0.3095,
+      "importance": 0.3095,
+      "importance_score": 0.3095,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.32,
-        "recency": 0.3769,
+        "recency": 0.3315,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1167,13 +1148,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3231,
-      "importance": 0.3231,
-      "importance_score": 0.3231,
+      "score": 0.3095,
+      "importance": 0.3095,
+      "importance_score": 0.3095,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.32,
-        "recency": 0.3769,
+        "recency": 0.3315,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1244,13 +1225,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3231,
-      "importance": 0.3231,
-      "importance_score": 0.3231,
+      "score": 0.3095,
+      "importance": 0.3095,
+      "importance_score": 0.3095,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.32,
-        "recency": 0.3769,
+        "recency": 0.3315,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1321,13 +1302,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3231,
-      "importance": 0.3231,
-      "importance_score": 0.3231,
+      "score": 0.3095,
+      "importance": 0.3095,
+      "importance_score": 0.3095,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.32,
-        "recency": 0.3769,
+        "recency": 0.3315,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1398,13 +1379,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3197,
-      "importance": 0.3197,
-      "importance_score": 0.3197,
+      "score": 0.3061,
+      "importance": 0.3061,
+      "importance_score": 0.3061,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.32,
-        "recency": 0.3658,
+        "recency": 0.3205,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1475,13 +1456,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3164,
-      "importance": 0.3164,
-      "importance_score": 0.3164,
+      "score": 0.3028,
+      "importance": 0.3028,
+      "importance_score": 0.3028,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.32,
-        "recency": 0.3547,
+        "recency": 0.3094,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1551,13 +1532,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3164,
-      "importance": 0.3164,
-      "importance_score": 0.3164,
+      "score": 0.3028,
+      "importance": 0.3028,
+      "importance_score": 0.3028,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.32,
-        "recency": 0.3547,
+        "recency": 0.3094,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1628,13 +1609,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3161,
-      "importance": 0.3161,
-      "importance_score": 0.3161,
+      "score": 0.3025,
+      "importance": 0.3025,
+      "importance_score": 0.3025,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.32,
-        "recency": 0.3538,
+        "recency": 0.3084,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1704,13 +1685,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3064,
-      "importance": 0.3064,
-      "importance_score": 0.3064,
+      "score": 0.2928,
+      "importance": 0.2928,
+      "importance_score": 0.2928,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.32,
-        "recency": 0.3213,
+        "recency": 0.276,
         "story_heat": 0.25
       },
       "category": "watch",
