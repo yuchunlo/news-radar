@@ -1,8 +1,85 @@
 {
-  "generated_at": "2026-06-15T23:06:12.704044Z",
+  "generated_at": "2026-06-16T02:10:41.334257Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
+    {
+      "story_id": "story_23226a6cabc2",
+      "title": "支付宝新产品Token Pay，首接最新国产大模型MiniMax M3",
+      "url": "https://www.aibase.com/news/28941",
+      "primary_url": "https://www.aibase.com/news/28941",
+      "source": "AIbase",
+      "source_name": "AIbase",
+      "sources": [
+        {
+          "id": "9f009cb29b353339785091c7826436864769af38",
+          "title": "支付宝新产品Token Pay，首接最新国产大模型MiniMax M3",
+          "url": "https://www.aibase.com/news/28941",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": null
+        },
+        {
+          "id": "a0644ba7b96a944ce403085ae0e2247092764125",
+          "title": "支付宝新产品Token Pay，首接最新国产大模型MiniMax M3",
+          "url": "https://36kr.com/newsflashes/3855194216485890?f=rss",
+          "source": "36氪 (36Kr)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-16T01:46:21Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "36氪 (36Kr)",
+        "AIbase"
+      ],
+      "items": [
+        {
+          "id": "9f009cb29b353339785091c7826436864769af38",
+          "title": "支付宝新产品Token Pay，首接最新国产大模型MiniMax M3",
+          "url": "https://www.aibase.com/news/28941",
+          "source": "AIbase",
+          "source_name": "AIbase",
+          "site_id": "aibase",
+          "published_at": null
+        },
+        {
+          "id": "a0644ba7b96a944ce403085ae0e2247092764125",
+          "title": "支付宝新产品Token Pay，首接最新国产大模型MiniMax M3",
+          "url": "https://36kr.com/newsflashes/3855194216485890?f=rss",
+          "source": "36氪 (36Kr)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-16T01:46:21Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.74,
+      "importance": 0.74,
+      "importance_score": 0.74,
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "source_tier": 0.78,
+        "recency": 1.0,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-16T01:46:21Z",
+      "latest_at": "2026-06-16T02:10:41.334257Z",
+      "primary_item": {
+        "id": "9f009cb29b353339785091c7826436864769af38",
+        "title": "支付宝新产品Token Pay，首接最新国产大模型MiniMax M3",
+        "url": "https://www.aibase.com/news/28941",
+        "source": "AIbase",
+        "source_name": "AIbase"
+      }
+    },
     {
       "story_id": "story_c5321d4002b7",
       "title": "英伟达将通过五年来的首次企业债券发行筹集250亿美元",
@@ -94,13 +171,13 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.6006,
-      "importance": 0.6006,
-      "importance_score": 0.6006,
+      "score": 0.5622,
+      "importance": 0.5622,
+      "importance_score": 0.5622,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.32,
-        "recency": 0.9688,
+        "recency": 0.8407,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -114,6 +191,100 @@
         "title": "英伟达将通过五年来的首次企业债券发行筹集250亿美元",
         "url": "https://www.reuters.com/business/finance/nvidia-raise-20-billion-source-says-first-corporate-bond-issuance-five-years-2026-06-15",
         "source": "www.reuters.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_c36efa230e23",
+      "title": "亚洲股市涨势在利率决议前趋缓：市场综述",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-15/oil-holds-losses-after-iran-deal-spurs-stock-rally-markets-wrap",
+      "primary_url": "https://www.bloomberg.com/news/articles/2026-06-15/oil-holds-losses-after-iran-deal-spurs-stock-rally-markets-wrap",
+      "source": "www.bloomberg.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "55306ca58104146cf95eecb6bcac4e3971a0cccd",
+          "title": "亚洲股市涨势在利率决议前趋缓：市场综述",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-15/oil-holds-losses-after-iran-deal-spurs-stock-rally-markets-wrap",
+          "source": "www.bloomberg.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-16T01:33:12.342000Z"
+        },
+        {
+          "id": "22decd8094bef2c777a66abc11d742ba99952875",
+          "title": "亚洲交易员将关注焦点转向澳大利亚央行和日本央行利率决议：市场综述",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-15/oil-holds-losses-after-iran-deal-spurs-stock-rally-markets-wrap",
+          "source": "www.bloomberg.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T23:41:13.048000Z"
+        },
+        {
+          "id": "30a0e83b7915731b1fa2bf838da4f3999b6a9b6e",
+          "title": "伊朗协议推动股市上涨，油价跌幅收窄：市场综述",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-15/oil-holds-losses-after-iran-deal-spurs-stock-rally-markets-wrap",
+          "source": "www.bloomberg.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T22:21:16.343000Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "www.bloomberg.com"
+      ],
+      "items": [
+        {
+          "id": "55306ca58104146cf95eecb6bcac4e3971a0cccd",
+          "title": "亚洲股市涨势在利率决议前趋缓：市场综述",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-15/oil-holds-losses-after-iran-deal-spurs-stock-rally-markets-wrap",
+          "source": "www.bloomberg.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-16T01:33:12.342000Z"
+        },
+        {
+          "id": "22decd8094bef2c777a66abc11d742ba99952875",
+          "title": "亚洲交易员将关注焦点转向澳大利亚央行和日本央行利率决议：市场综述",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-15/oil-holds-losses-after-iran-deal-spurs-stock-rally-markets-wrap",
+          "source": "www.bloomberg.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T23:41:13.048000Z"
+        },
+        {
+          "id": "30a0e83b7915731b1fa2bf838da4f3999b6a9b6e",
+          "title": "伊朗协议推动股市上涨，油价跌幅收窄：市场综述",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-15/oil-holds-losses-after-iran-deal-spurs-stock-rally-markets-wrap",
+          "source": "www.bloomberg.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T22:21:16.343000Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5522,
+      "importance": 0.5522,
+      "importance_score": 0.5522,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "source_tier": 0.32,
+        "recency": 0.974,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-15T22:21:16.343000Z",
+      "latest_at": "2026-06-16T01:33:12.342000Z",
+      "primary_item": {
+        "id": "55306ca58104146cf95eecb6bcac4e3971a0cccd",
+        "title": "亚洲股市涨势在利率决议前趋缓：市场综述",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-15/oil-holds-losses-after-iran-deal-spurs-stock-rally-markets-wrap",
+        "source": "www.bloomberg.com",
         "source_name": "Buzzing"
       }
     },
@@ -208,13 +379,13 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.5873,
-      "importance": 0.5873,
-      "importance_score": 0.5873,
+      "score": 0.5489,
+      "importance": 0.5489,
+      "importance_score": 0.5489,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.32,
-        "recency": 0.9243,
+        "recency": 0.7962,
         "story_heat": 0.75
       },
       "category": "multi_source",
@@ -228,6 +399,294 @@
         "title": "欧洲能否利用自身拥有的计算资源来训练前沿的人工智能模型？",
         "url": "https://github.com/sammysltd/euromesh",
         "source": "github.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_1c4d965cfab3",
+      "title": "Wi-Fi智能灯泡里的禁书图书馆",
+      "url": "https://www.richardosgood.com/posts/banned-book-library",
+      "primary_url": "https://www.richardosgood.com/posts/banned-book-library",
+      "source": "www.richardosgood.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "0026095c75adb729675e9794edeb5b7d3fff8279",
+          "title": "Wi-Fi智能灯泡里的禁书图书馆",
+          "url": "https://www.richardosgood.com/posts/banned-book-library",
+          "source": "www.richardosgood.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-16T00:45:03.630000Z"
+        },
+        {
+          "id": "02a9abd737f3081b76eec946c4e23f8465a71f27",
+          "title": "Wi-Fi 智慧燈泡中的停用圖書庫 / Banned Book Library in a Wi-Fi Smart Light Bulb",
+          "url": "https://news.ycombinator.com/item?id=48547985",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-15T22:50:28.919000Z"
+        },
+        {
+          "id": "c80931e95572b6d2f6a654f92bc4df594a9cbc27",
+          "title": "Wi-Fi智能灯泡里的禁书图书馆 / Banned Book Library in a Wi-Fi Smart Light Bulb",
+          "url": "https://www.richardosgood.com/posts/banned-book-library",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-15T22:37:55Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "hackernews",
+        "www.richardosgood.com"
+      ],
+      "items": [
+        {
+          "id": "0026095c75adb729675e9794edeb5b7d3fff8279",
+          "title": "Wi-Fi智能灯泡里的禁书图书馆",
+          "url": "https://www.richardosgood.com/posts/banned-book-library",
+          "source": "www.richardosgood.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-16T00:45:03.630000Z"
+        },
+        {
+          "id": "02a9abd737f3081b76eec946c4e23f8465a71f27",
+          "title": "Wi-Fi 智慧燈泡中的停用圖書庫 / Banned Book Library in a Wi-Fi Smart Light Bulb",
+          "url": "https://news.ycombinator.com/item?id=48547985",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-15T22:50:28.919000Z"
+        },
+        {
+          "id": "c80931e95572b6d2f6a654f92bc4df594a9cbc27",
+          "title": "Wi-Fi智能灯泡里的禁书图书馆 / Banned Book Library in a Wi-Fi Smart Light Bulb",
+          "url": "https://www.richardosgood.com/posts/banned-book-library",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-15T22:37:55Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5422,
+      "importance": 0.5422,
+      "importance_score": 0.5422,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "source_tier": 0.32,
+        "recency": 0.9405,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-15T22:37:55Z",
+      "latest_at": "2026-06-16T00:45:03.630000Z",
+      "primary_item": {
+        "id": "0026095c75adb729675e9794edeb5b7d3fff8279",
+        "title": "Wi-Fi智能灯泡里的禁书图书馆",
+        "url": "https://www.richardosgood.com/posts/banned-book-library",
+        "source": "www.richardosgood.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_494e167cfa1b",
+      "title": "Rust 与 C/C 在内存安全 CVE 方面的差异",
+      "url": "https://kobzol.github.io/rust/2026/06/15/how-memory-safety-cves-differ-between-rust-and-c-cpp.html",
+      "primary_url": "https://kobzol.github.io/rust/2026/06/15/how-memory-safety-cves-differ-between-rust-and-c-cpp.html",
+      "source": "kobzol.github.io",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "e7dcadc38ab3fe4a6d83766977265ca2c22f4f34",
+          "title": "Rust 与 C/C 在内存安全 CVE 方面的差异",
+          "url": "https://kobzol.github.io/rust/2026/06/15/how-memory-safety-cves-differ-between-rust-and-c-cpp.html",
+          "source": "kobzol.github.io",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T23:41:12.853000Z"
+        },
+        {
+          "id": "5a3079571edcd7d213e9b4d45c29e005c4069d64",
+          "title": "Rust 和 C/C++ 之間的記憶體安全 CVE 有所不同 / Memory safety CVEs differ between Rust and C/C++",
+          "url": "https://news.ycombinator.com/item?id=48543392",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-15T17:51:54.299000Z"
+        },
+        {
+          "id": "9683065a166318e7e4802d2c7699b2a690831d8c",
+          "title": "Rust 与 C/C 在内存安全 CVE 方面的差异 / How memory safety CVEs differ between Rust and C/C++",
+          "url": "https://kobzol.github.io/rust/2026/06/15/how-memory-safety-cves-differ-between-rust-and-c-cpp.html",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-15T16:11:02Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News (黑客新闻)",
+        "hackernews",
+        "kobzol.github.io"
+      ],
+      "items": [
+        {
+          "id": "e7dcadc38ab3fe4a6d83766977265ca2c22f4f34",
+          "title": "Rust 与 C/C 在内存安全 CVE 方面的差异",
+          "url": "https://kobzol.github.io/rust/2026/06/15/how-memory-safety-cves-differ-between-rust-and-c-cpp.html",
+          "source": "kobzol.github.io",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T23:41:12.853000Z"
+        },
+        {
+          "id": "5a3079571edcd7d213e9b4d45c29e005c4069d64",
+          "title": "Rust 和 C/C++ 之間的記憶體安全 CVE 有所不同 / Memory safety CVEs differ between Rust and C/C++",
+          "url": "https://news.ycombinator.com/item?id=48543392",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-15T17:51:54.299000Z"
+        },
+        {
+          "id": "9683065a166318e7e4802d2c7699b2a690831d8c",
+          "title": "Rust 与 C/C 在内存安全 CVE 方面的差异 / How memory safety CVEs differ between Rust and C/C++",
+          "url": "https://kobzol.github.io/rust/2026/06/15/how-memory-safety-cves-differ-between-rust-and-c-cpp.html",
+          "source": "Hacker News (黑客新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-15T16:11:02Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5289,
+      "importance": 0.5289,
+      "importance_score": 0.5289,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "source_tier": 0.32,
+        "recency": 0.8962,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-15T16:11:02Z",
+      "latest_at": "2026-06-15T23:41:12.853000Z",
+      "primary_item": {
+        "id": "e7dcadc38ab3fe4a6d83766977265ca2c22f4f34",
+        "title": "Rust 与 C/C 在内存安全 CVE 方面的差异",
+        "url": "https://kobzol.github.io/rust/2026/06/15/how-memory-safety-cves-differ-between-rust-and-c-cpp.html",
+        "source": "kobzol.github.io",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_262e6acaa921",
+      "title": "美国电池产量持续刷新纪录",
+      "url": "https://fred.stlouisfed.org/series/IPG33591S",
+      "primary_url": "https://fred.stlouisfed.org/series/IPG33591S",
+      "source": "fred.stlouisfed.org",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "e257ec3970aa5ca6d1f91195fdeaf9661eaa5235",
+          "title": "美国电池产量持续刷新纪录",
+          "url": "https://fred.stlouisfed.org/series/IPG33591S",
+          "source": "fred.stlouisfed.org",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T23:09:06.829000Z"
+        },
+        {
+          "id": "e8aa8da11984d68cca3c20de644bb56318a3e67c",
+          "title": "美國電池製造業產量持續打破紀錄 / US battery manufacturing output continues to break records",
+          "url": "https://news.ycombinator.com/item?id=48546616",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-15T22:50:28.919000Z"
+        },
+        {
+          "id": "94f271651a581396c13b4d90ab56d224fc198627",
+          "title": "美国电池产量持续刷新纪录 / US battery manufacturing output continues to break records",
+          "url": "https://fred.stlouisfed.org/series/IPG33591S",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-15T20:28:24Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "Hacker News",
+        "fred.stlouisfed.org",
+        "hackernews"
+      ],
+      "items": [
+        {
+          "id": "e257ec3970aa5ca6d1f91195fdeaf9661eaa5235",
+          "title": "美国电池产量持续刷新纪录",
+          "url": "https://fred.stlouisfed.org/series/IPG33591S",
+          "source": "fred.stlouisfed.org",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T23:09:06.829000Z"
+        },
+        {
+          "id": "e8aa8da11984d68cca3c20de644bb56318a3e67c",
+          "title": "美國電池製造業產量持續打破紀錄 / US battery manufacturing output continues to break records",
+          "url": "https://news.ycombinator.com/item?id=48546616",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-15T22:50:28.919000Z"
+        },
+        {
+          "id": "94f271651a581396c13b4d90ab56d224fc198627",
+          "title": "美国电池产量持续刷新纪录 / US battery manufacturing output continues to break records",
+          "url": "https://fred.stlouisfed.org/series/IPG33591S",
+          "source": "Hacker News",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-15T20:28:24Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5222,
+      "importance": 0.5222,
+      "importance_score": 0.5222,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "source_tier": 0.32,
+        "recency": 0.8739,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-15T20:28:24Z",
+      "latest_at": "2026-06-15T23:09:06.829000Z",
+      "primary_item": {
+        "id": "e257ec3970aa5ca6d1f91195fdeaf9661eaa5235",
+        "title": "美国电池产量持续刷新纪录",
+        "url": "https://fred.stlouisfed.org/series/IPG33591S",
+        "source": "fred.stlouisfed.org",
         "source_name": "Buzzing"
       }
     },
@@ -304,13 +763,13 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5573,
-      "importance": 0.5573,
-      "importance_score": 0.5573,
+      "score": 0.5188,
+      "importance": 0.5188,
+      "importance_score": 0.5188,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.32,
-        "recency": 0.9909,
+        "recency": 0.8628,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -400,13 +859,13 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5567,
-      "importance": 0.5567,
-      "importance_score": 0.5567,
+      "score": 0.5183,
+      "importance": 0.5183,
+      "importance_score": 0.5183,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.32,
-        "recency": 0.9891,
+        "recency": 0.861,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -421,6 +880,100 @@
         "url": "https://news.ycombinator.com/item?id=48544823",
         "source": "hackernews",
         "source_name": "NewsNow"
+      }
+    },
+    {
+      "story_id": "story_d38d5904776e",
+      "title": "SpaceX股价连续第二日大涨，市值增加4120亿美元",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-15/spacex-shares-rise-set-to-extend-gains-after-record-ipo-mqexlibz",
+      "primary_url": "https://www.bloomberg.com/news/articles/2026-06-15/spacex-shares-rise-set-to-extend-gains-after-record-ipo-mqexlibz",
+      "source": "www.bloomberg.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "03a7eec11bce821a1ec4729562c56222a9759597",
+          "title": "SpaceX股价连续第二日大涨，市值增加4120亿美元",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-15/spacex-shares-rise-set-to-extend-gains-after-record-ipo-mqexlibz",
+          "source": "www.bloomberg.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-16T00:45:04.323000Z"
+        },
+        {
+          "id": "414d233bb071963896147ac63dfe602d2cae1195",
+          "title": "SpaceX股价次日大涨20%，市值增加4120亿美元",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-15/spacex-shares-rise-set-to-extend-gains-after-record-ipo-mqexlibz",
+          "source": "www.bloomberg.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T20:13:16.330000Z"
+        },
+        {
+          "id": "5877ad9d97e862ac9525a543f41ddd2bf4173ab5",
+          "title": "SpaceX在创纪录的首次公开募股后，上市第二日股价大涨11%",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-15/spacex-shares-rise-set-to-extend-gains-after-record-ipo-mqexlibz",
+          "source": "www.bloomberg.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T16:13:15.201000Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "www.bloomberg.com"
+      ],
+      "items": [
+        {
+          "id": "03a7eec11bce821a1ec4729562c56222a9759597",
+          "title": "SpaceX股价连续第二日大涨，市值增加4120亿美元",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-15/spacex-shares-rise-set-to-extend-gains-after-record-ipo-mqexlibz",
+          "source": "www.bloomberg.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-16T00:45:04.323000Z"
+        },
+        {
+          "id": "414d233bb071963896147ac63dfe602d2cae1195",
+          "title": "SpaceX股价次日大涨20%，市值增加4120亿美元",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-15/spacex-shares-rise-set-to-extend-gains-after-record-ipo-mqexlibz",
+          "source": "www.bloomberg.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T20:13:16.330000Z"
+        },
+        {
+          "id": "5877ad9d97e862ac9525a543f41ddd2bf4173ab5",
+          "title": "SpaceX在创纪录的首次公开募股后，上市第二日股价大涨11%",
+          "url": "https://www.bloomberg.com/news/articles/2026-06-15/spacex-shares-rise-set-to-extend-gains-after-record-ipo-mqexlibz",
+          "source": "www.bloomberg.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T16:13:15.201000Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5422,
+      "importance": 0.5422,
+      "importance_score": 0.5422,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "source_tier": 0.32,
+        "recency": 0.9405,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-15T16:13:15.201000Z",
+      "latest_at": "2026-06-16T00:45:04.323000Z",
+      "primary_item": {
+        "id": "03a7eec11bce821a1ec4729562c56222a9759597",
+        "title": "SpaceX股价连续第二日大涨，市值增加4120亿美元",
+        "url": "https://www.bloomberg.com/news/articles/2026-06-15/spacex-shares-rise-set-to-extend-gains-after-record-ipo-mqexlibz",
+        "source": "www.bloomberg.com",
+        "source_name": "Buzzing"
       }
     },
     {
@@ -496,13 +1049,13 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5373,
-      "importance": 0.5373,
-      "importance_score": 0.5373,
+      "score": 0.4989,
+      "importance": 0.4989,
+      "importance_score": 0.4989,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.32,
-        "recency": 0.9243,
+        "recency": 0.7962,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -592,13 +1145,13 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5373,
-      "importance": 0.5373,
-      "importance_score": 0.5373,
+      "score": 0.4989,
+      "importance": 0.4989,
+      "importance_score": 0.4989,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.32,
-        "recency": 0.9243,
+        "recency": 0.7962,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -612,6 +1165,160 @@
         "title": "游戏引擎白皮书：《Commander Keen》",
         "url": "https://forgottenbytes.net/commander_keen.html",
         "source": "forgottenbytes.net",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_474011894552",
+      "title": "美国结束对2024年达美航空系统崩溃事件的调查，该事件由CrowdStrike系统故障引发",
+      "url": "https://reut.rs/4xLluVA",
+      "primary_url": "https://reut.rs/4xLluVA",
+      "source": "reut.rs",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "860c5d67a2c3dca337772850c5b155ad88179b54",
+          "title": "美国结束对2024年达美航空系统崩溃事件的调查，该事件由CrowdStrike系统故障引发",
+          "url": "https://reut.rs/4xLluVA",
+          "source": "reut.rs",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-16T01:17:08.500000Z"
+        },
+        {
+          "id": "934ffd5fc4441638535aaad126f3800d0abca9ed",
+          "title": "美国结束对2024年达美航空系统崩溃事件的调查，该事件由CrowdStrike系统故障引发",
+          "url": "https://www.reuters.com/business/aerospace-defense/us-closes-probe-into-2024-delta-air-lines-meltdown-sparked-by-crowdstrike-outage-2026-06-15",
+          "source": "www.reuters.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T22:37:21.547000Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "reut.rs",
+        "www.reuters.com"
+      ],
+      "items": [
+        {
+          "id": "860c5d67a2c3dca337772850c5b155ad88179b54",
+          "title": "美国结束对2024年达美航空系统崩溃事件的调查，该事件由CrowdStrike系统故障引发",
+          "url": "https://reut.rs/4xLluVA",
+          "source": "reut.rs",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-16T01:17:08.500000Z"
+        },
+        {
+          "id": "934ffd5fc4441638535aaad126f3800d0abca9ed",
+          "title": "美国结束对2024年达美航空系统崩溃事件的调查，该事件由CrowdStrike系统故障引发",
+          "url": "https://www.reuters.com/business/aerospace-defense/us-closes-probe-into-2024-delta-air-lines-meltdown-sparked-by-crowdstrike-outage-2026-06-15",
+          "source": "www.reuters.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-15T22:37:21.547000Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.4988,
+      "importance": 0.4988,
+      "importance_score": 0.4988,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.32,
+        "recency": 0.9628,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-15T22:37:21.547000Z",
+      "latest_at": "2026-06-16T01:17:08.500000Z",
+      "primary_item": {
+        "id": "860c5d67a2c3dca337772850c5b155ad88179b54",
+        "title": "美国结束对2024年达美航空系统崩溃事件的调查，该事件由CrowdStrike系统故障引发",
+        "url": "https://reut.rs/4xLluVA",
+        "source": "reut.rs",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_a0898d36f1f6",
+      "title": "一架B-52轰炸机在爱德华兹空军基地坠毁，8名机组人员恐已遇难",
+      "url": "https://www.businessinsider.com/b52-bomber-crashes-california-edwards-air-force-base-2026-6",
+      "primary_url": "https://www.businessinsider.com/b52-bomber-crashes-california-edwards-air-force-base-2026-6",
+      "source": "www.businessinsider.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "f6993354d0ea1ab657b89e7d50f04c7621371e19",
+          "title": "一架B-52轰炸机在爱德华兹空军基地坠毁，8名机组人员恐已遇难",
+          "url": "https://www.businessinsider.com/b52-bomber-crashes-california-edwards-air-force-base-2026-6",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-16T01:01:05.768000Z"
+        },
+        {
+          "id": "60b76eba8c141a828f54076cc555825c1f362290",
+          "title": "一架B-52轰炸机在爱德华兹空军基地坠毁，8名机组人员恐已遇难 / 8 crew members are presumed dead after a B-52 bomber crashed at California's Edwards Air Force Base",
+          "url": "https://www.businessinsider.com/b52-bomber-crashes-california-edwards-air-force-base-2026-6",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-16T00:34:06Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Business Insider",
+        "www.businessinsider.com"
+      ],
+      "items": [
+        {
+          "id": "f6993354d0ea1ab657b89e7d50f04c7621371e19",
+          "title": "一架B-52轰炸机在爱德华兹空军基地坠毁，8名机组人员恐已遇难",
+          "url": "https://www.businessinsider.com/b52-bomber-crashes-california-edwards-air-force-base-2026-6",
+          "source": "www.businessinsider.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-16T01:01:05.768000Z"
+        },
+        {
+          "id": "60b76eba8c141a828f54076cc555825c1f362290",
+          "title": "一架B-52轰炸机在爱德华兹空军基地坠毁，8名机组人员恐已遇难 / 8 crew members are presumed dead after a B-52 bomber crashed at California's Edwards Air Force Base",
+          "url": "https://www.businessinsider.com/b52-bomber-crashes-california-edwards-air-force-base-2026-6",
+          "source": "Business Insider",
+          "source_name": "TechURLs",
+          "site_id": "techurls",
+          "published_at": "2026-06-16T00:34:06Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.4955,
+      "importance": 0.4955,
+      "importance_score": 0.4955,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.32,
+        "recency": 0.9517,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-16T00:34:06Z",
+      "latest_at": "2026-06-16T01:01:05.768000Z",
+      "primary_item": {
+        "id": "f6993354d0ea1ab657b89e7d50f04c7621371e19",
+        "title": "一架B-52轰炸机在爱德华兹空军基地坠毁，8名机组人员恐已遇难",
+        "url": "https://www.businessinsider.com/b52-bomber-crashes-california-edwards-air-force-base-2026-6",
+        "source": "www.businessinsider.com",
         "source_name": "Buzzing"
       }
     },
@@ -688,13 +1395,13 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.534,
-      "importance": 0.534,
-      "importance_score": 0.534,
+      "score": 0.4955,
+      "importance": 0.4955,
+      "importance_score": 0.4955,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.32,
-        "recency": 0.9132,
+        "recency": 0.7851,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -712,96 +1419,155 @@
       }
     },
     {
-      "story_id": "story_d944d8d60fea",
-      "title": "美伊协议推动油价下跌，股市上涨：市场综述",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-14/us-futures-climb-oil-falls-on-iran-peace-deal-markets-wrap",
-      "primary_url": "https://www.bloomberg.com/news/articles/2026-06-14/us-futures-climb-oil-falls-on-iran-peace-deal-markets-wrap",
-      "source": "www.bloomberg.com",
+      "story_id": "story_db03616bc793",
+      "title": "事发一年后，印度航空空难调查中仍有六个悬而未决的问题",
+      "url": "https://www.bbc.com/news/articles/c6214prydklo?at_medium=RSS&at_campaign=rss",
+      "primary_url": "https://www.bbc.com/news/articles/c6214prydklo?at_medium=RSS&at_campaign=rss",
+      "source": "www.bbc.com",
       "source_name": "Buzzing",
       "sources": [
         {
-          "id": "3bc4deb68fc320c88ea6adcb474c46e8275a0c6d",
-          "title": "美伊协议推动油价下跌，股市上涨：市场综述",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-14/us-futures-climb-oil-falls-on-iran-peace-deal-markets-wrap",
-          "source": "www.bloomberg.com",
+          "id": "8cd5de1fb154880f7a06283fe0fc7c1bfcb970de",
+          "title": "事发一年后，印度航空空难调查中仍有六个悬而未决的问题",
+          "url": "https://www.bbc.com/news/articles/c6214prydklo?at_medium=RSS&at_campaign=rss",
+          "source": "www.bbc.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-06-15T20:13:16.333000Z"
+          "published_at": "2026-06-16T00:45:03.804000Z"
         },
         {
-          "id": "02f017f992b96592a865b565afb02c46bf85e389",
-          "title": "标普500指数有望创下4月以来最大单日涨幅，油价下跌：市场综述",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-14/us-futures-climb-oil-falls-on-iran-peace-deal-markets-wrap",
-          "source": "www.bloomberg.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T16:13:15.221000Z"
-        },
-        {
-          "id": "f022aa428e079f7169ae408bad0f4569c95d452d",
-          "title": "美伊协议拖累油价，股市随债券同步走高：市场综述",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-14/us-futures-climb-oil-falls-on-iran-peace-deal-markets-wrap",
-          "source": "www.bloomberg.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T13:33:26.791000Z"
+          "id": "19146859c3ae4fda246fd533894627e1ad0abe78",
+          "title": "事发一年后，印度航空空难调查中仍有六个悬而未决的问题 / A year on, six questions still haunt the Air India crash investigation",
+          "url": "https://www.bbc.com/news/articles/c6214prydklo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News (世界新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-15T23:09:10Z"
         }
       ],
-      "source_count": 3,
+      "source_count": 2,
       "source_names": [
-        "www.bloomberg.com"
+        "BBC News (世界新闻)",
+        "www.bbc.com"
       ],
       "items": [
         {
-          "id": "3bc4deb68fc320c88ea6adcb474c46e8275a0c6d",
-          "title": "美伊协议推动油价下跌，股市上涨：市场综述",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-14/us-futures-climb-oil-falls-on-iran-peace-deal-markets-wrap",
-          "source": "www.bloomberg.com",
+          "id": "8cd5de1fb154880f7a06283fe0fc7c1bfcb970de",
+          "title": "事发一年后，印度航空空难调查中仍有六个悬而未决的问题",
+          "url": "https://www.bbc.com/news/articles/c6214prydklo?at_medium=RSS&at_campaign=rss",
+          "source": "www.bbc.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-06-15T20:13:16.333000Z"
+          "published_at": "2026-06-16T00:45:03.804000Z"
         },
         {
-          "id": "02f017f992b96592a865b565afb02c46bf85e389",
-          "title": "标普500指数有望创下4月以来最大单日涨幅，油价下跌：市场综述",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-14/us-futures-climb-oil-falls-on-iran-peace-deal-markets-wrap",
-          "source": "www.bloomberg.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T16:13:15.221000Z"
-        },
-        {
-          "id": "f022aa428e079f7169ae408bad0f4569c95d452d",
-          "title": "美伊协议拖累油价，股市随债券同步走高：市场综述",
-          "url": "https://www.bloomberg.com/news/articles/2026-06-14/us-futures-climb-oil-falls-on-iran-peace-deal-markets-wrap",
-          "source": "www.bloomberg.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T13:33:26.791000Z"
+          "id": "19146859c3ae4fda246fd533894627e1ad0abe78",
+          "title": "事发一年后，印度航空空难调查中仍有六个悬而未决的问题 / A year on, six questions still haunt the Air India crash investigation",
+          "url": "https://www.bbc.com/news/articles/c6214prydklo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC News (世界新闻)",
+          "source_name": "Info Flow",
+          "site_id": "iris",
+          "published_at": "2026-06-15T23:09:10Z"
         }
       ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.524,
-      "importance": 0.524,
-      "importance_score": 0.524,
-      "importance_label": "多源热议",
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.4922,
+      "importance": 0.4922,
+      "importance_score": 0.4922,
+      "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.32,
-        "recency": 0.8799,
-        "story_heat": 0.5
+        "recency": 0.9405,
+        "story_heat": 0.25
       },
-      "category": "multi_source",
+      "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-15T13:33:26.791000Z",
-      "latest_at": "2026-06-15T20:13:16.333000Z",
+      "earliest_at": "2026-06-15T23:09:10Z",
+      "latest_at": "2026-06-16T00:45:03.804000Z",
       "primary_item": {
-        "id": "3bc4deb68fc320c88ea6adcb474c46e8275a0c6d",
-        "title": "美伊协议推动油价下跌，股市上涨：市场综述",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-14/us-futures-climb-oil-falls-on-iran-peace-deal-markets-wrap",
-        "source": "www.bloomberg.com",
+        "id": "8cd5de1fb154880f7a06283fe0fc7c1bfcb970de",
+        "title": "事发一年后，印度航空空难调查中仍有六个悬而未决的问题",
+        "url": "https://www.bbc.com/news/articles/c6214prydklo?at_medium=RSS&at_campaign=rss",
+        "source": "www.bbc.com",
+        "source_name": "Buzzing"
+      }
+    },
+    {
+      "story_id": "story_961a45e3fff6",
+      "title": "以色列军队在加沙一处家庭农场枪杀了一名三岁的巴勒斯坦男童 - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQXJvRVViN1dsYTRMX29vVVN5REt3cEo2NWtoU2xYY0tHUE1IaHhfdmdtY1QxaGppSko3S2FtdEs0dlhfR0lkZnhidXR2NEZDY0RZVGtFbk5uY3RlMFROUTZ5bHZqcXBObHpCUGVPcXM1MWhsQVlNOHlHbVJxSDJqVXg4ZnZhMkgxdU8xcXI2YmFTcDB1RW9tRFJlVEluSm9LanNqMkYxZjMtUWJVTzFDQ1pSVjPSAboBQVVfeXFMTmhmR19GMHE3U1NmUTNLTzdzYmJmd2pLZzFJNkJmQ3QybFhjVVRNU2tqaDFDcFZSWlQ5SDdlVzZzLWZDM3A2S040OU9xQmVXMTR1VHVLT21LNl9lWEQwMnNCcml2TVlheDVwN3lZdWk1RDU0TTN1dm1sSjJKX2VMZEhzX1hWNWwyRWpQNlVyeDNlY0NiRU1zS19MOHlJMV9aQWw2eGdRaExpdEJKM2ZRbnJUeFBObS1vS0hB?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+      "primary_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQXJvRVViN1dsYTRMX29vVVN5REt3cEo2NWtoU2xYY0tHUE1IaHhfdmdtY1QxaGppSko3S2FtdEs0dlhfR0lkZnhidXR2NEZDY0RZVGtFbk5uY3RlMFROUTZ5bHZqcXBObHpCUGVPcXM1MWhsQVlNOHlHbVJxSDJqVXg4ZnZhMkgxdU8xcXI2YmFTcDB1RW9tRFJlVEluSm9LanNqMkYxZjMtUWJVTzFDQ1pSVjPSAboBQVVfeXFMTmhmR19GMHE3U1NmUTNLTzdzYmJmd2pLZzFJNkJmQ3QybFhjVVRNU2tqaDFDcFZSWlQ5SDdlVzZzLWZDM3A2S040OU9xQmVXMTR1VHVLT21LNl9lWEQwMnNCcml2TVlheDVwN3lZdWk1RDU0TTN1dm1sSjJKX2VMZEhzX1hWNWwyRWpQNlVyeDNlY0NiRU1zS19MOHlJMV9aQWw2eGdRaExpdEJKM2ZRbnJUeFBObS1vS0hB?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+      "source": "news.google.com",
+      "source_name": "Buzzing",
+      "sources": [
+        {
+          "id": "01bd6d650271004efd20921b5540976105366572",
+          "title": "以色列军队在加沙一处家庭农场枪杀了一名三岁的巴勒斯坦男童 - Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQXJvRVViN1dsYTRMX29vVVN5REt3cEo2NWtoU2xYY0tHUE1IaHhfdmdtY1QxaGppSko3S2FtdEs0dlhfR0lkZnhidXR2NEZDY0RZVGtFbk5uY3RlMFROUTZ5bHZqcXBObHpCUGVPcXM1MWhsQVlNOHlHbVJxSDJqVXg4ZnZhMkgxdU8xcXI2YmFTcDB1RW9tRFJlVEluSm9LanNqMkYxZjMtUWJVTzFDQ1pSVjPSAboBQVVfeXFMTmhmR19GMHE3U1NmUTNLTzdzYmJmd2pLZzFJNkJmQ3QybFhjVVRNU2tqaDFDcFZSWlQ5SDdlVzZzLWZDM3A2S040OU9xQmVXMTR1VHVLT21LNl9lWEQwMnNCcml2TVlheDVwN3lZdWk1RDU0TTN1dm1sSjJKX2VMZEhzX1hWNWwyRWpQNlVyeDNlY0NiRU1zS19MOHlJMV9aQWw2eGdRaExpdEJKM2ZRbnJUeFBObS1vS0hB?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+          "source": "news.google.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-16T00:13:14.097000Z"
+        },
+        {
+          "id": "9514c887a803fb360aab663917b47fa1b5d2dc18",
+          "title": "以色列军队在加沙一处家庭农场枪杀一名三岁巴勒斯坦男童 - Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQXJvRVViN1dsYTRMX29vVVN5REt3cEo2NWtoU2xYY0tHUE1IaHhfdmdtY1QxaGppSko3S2FtdEs0dlhfR0lkZnhidXR2NEZDY0RZVGtFbk5uY3RlMFROUTZ5bHZqcXBObHpCUGVPcXM1MWhsQVlNOHlHbVJxSDJqVXg4ZnZhMkgxdU8xcXI2YmFTcDB1RW9tRFJlVEluSm9LanNqMkYxZjMtUWJVTzFDQ1pSVjPSAboBQVVfeXFMTmhmR19GMHE3U1NmUTNLTzdzYmJmd2pLZzFJNkJmQ3QybFhjVVRNU2tqaDFDcFZSWlQ5SDdlVzZzLWZDM3A2S040OU9xQmVXMTR1VHVLT21LNl9lWEQwMnNCcml2TVlheDVwN3lZdWk1RDU0TTN1dm1sSjJKX2VMZEhzX1hWNWwyRWpQNlVyeDNlY0NiRU1zS19MOHlJMV9aQWw2eGdRaExpdEJKM2ZRbnJUeFBObS1vS0hB?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+          "source": "news.google.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-16T00:13:14.074000Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "news.google.com"
+      ],
+      "items": [
+        {
+          "id": "01bd6d650271004efd20921b5540976105366572",
+          "title": "以色列军队在加沙一处家庭农场枪杀了一名三岁的巴勒斯坦男童 - Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQXJvRVViN1dsYTRMX29vVVN5REt3cEo2NWtoU2xYY0tHUE1IaHhfdmdtY1QxaGppSko3S2FtdEs0dlhfR0lkZnhidXR2NEZDY0RZVGtFbk5uY3RlMFROUTZ5bHZqcXBObHpCUGVPcXM1MWhsQVlNOHlHbVJxSDJqVXg4ZnZhMkgxdU8xcXI2YmFTcDB1RW9tRFJlVEluSm9LanNqMkYxZjMtUWJVTzFDQ1pSVjPSAboBQVVfeXFMTmhmR19GMHE3U1NmUTNLTzdzYmJmd2pLZzFJNkJmQ3QybFhjVVRNU2tqaDFDcFZSWlQ5SDdlVzZzLWZDM3A2S040OU9xQmVXMTR1VHVLT21LNl9lWEQwMnNCcml2TVlheDVwN3lZdWk1RDU0TTN1dm1sSjJKX2VMZEhzX1hWNWwyRWpQNlVyeDNlY0NiRU1zS19MOHlJMV9aQWw2eGdRaExpdEJKM2ZRbnJUeFBObS1vS0hB?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+          "source": "news.google.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-16T00:13:14.097000Z"
+        },
+        {
+          "id": "9514c887a803fb360aab663917b47fa1b5d2dc18",
+          "title": "以色列军队在加沙一处家庭农场枪杀一名三岁巴勒斯坦男童 - Al Jazeera",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQXJvRVViN1dsYTRMX29vVVN5REt3cEo2NWtoU2xYY0tHUE1IaHhfdmdtY1QxaGppSko3S2FtdEs0dlhfR0lkZnhidXR2NEZDY0RZVGtFbk5uY3RlMFROUTZ5bHZqcXBObHpCUGVPcXM1MWhsQVlNOHlHbVJxSDJqVXg4ZnZhMkgxdU8xcXI2YmFTcDB1RW9tRFJlVEluSm9LanNqMkYxZjMtUWJVTzFDQ1pSVjPSAboBQVVfeXFMTmhmR19GMHE3U1NmUTNLTzdzYmJmd2pLZzFJNkJmQ3QybFhjVVRNU2tqaDFDcFZSWlQ5SDdlVzZzLWZDM3A2S040OU9xQmVXMTR1VHVLT21LNl9lWEQwMnNCcml2TVlheDVwN3lZdWk1RDU0TTN1dm1sSjJKX2VMZEhzX1hWNWwyRWpQNlVyeDNlY0NiRU1zS19MOHlJMV9aQWw2eGdRaExpdEJKM2ZRbnJUeFBObS1vS0hB?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+          "source": "news.google.com",
+          "source_name": "Buzzing",
+          "site_id": "buzzing",
+          "published_at": "2026-06-16T00:13:14.074000Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.4855,
+      "importance": 0.4855,
+      "importance_score": 0.4855,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.32,
+        "recency": 0.9184,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-16T00:13:14.074000Z",
+      "latest_at": "2026-06-16T00:13:14.097000Z",
+      "primary_item": {
+        "id": "01bd6d650271004efd20921b5540976105366572",
+        "title": "以色列军队在加沙一处家庭农场枪杀了一名三岁的巴勒斯坦男童 - Al Jazeera",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQXJvRVViN1dsYTRMX29vVVN5REt3cEo2NWtoU2xYY0tHUE1IaHhfdmdtY1QxaGppSko3S2FtdEs0dlhfR0lkZnhidXR2NEZDY0RZVGtFbk5uY3RlMFROUTZ5bHZqcXBObHpCUGVPcXM1MWhsQVlNOHlHbVJxSDJqVXg4ZnZhMkgxdU8xcXI2YmFTcDB1RW9tRFJlVEluSm9LanNqMkYxZjMtUWJVTzFDQ1pSVjPSAboBQVVfeXFMTmhmR19GMHE3U1NmUTNLTzdzYmJmd2pLZzFJNkJmQ3QybFhjVVRNU2tqaDFDcFZSWlQ5SDdlVzZzLWZDM3A2S040OU9xQmVXMTR1VHVLT21LNl9lWEQwMnNCcml2TVlheDVwN3lZdWk1RDU0TTN1dm1sSjJKX2VMZEhzX1hWNWwyRWpQNlVyeDNlY0NiRU1zS19MOHlJMV9aQWw2eGdRaExpdEJKM2ZRbnJUeFBObS1vS0hB?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+        "source": "news.google.com",
         "source_name": "Buzzing"
       }
     },
@@ -876,13 +1642,13 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5506,
-      "importance": 0.5506,
-      "importance_score": 0.5506,
+      "score": 0.5122,
+      "importance": 0.5122,
+      "importance_score": 0.5122,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.32,
-        "recency": 0.9688,
+        "recency": 0.8407,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -900,981 +1666,157 @@
       }
     },
     {
-      "story_id": "story_b76eb180f3ff",
-      "title": "NetNewsWire 状态",
-      "url": "https://inessential.com/2026/06/15/netnewswire-status.html",
-      "primary_url": "https://inessential.com/2026/06/15/netnewswire-status.html",
-      "source": "inessential.com",
+      "story_id": "story_e24e62dc87c9",
+      "title": "我爱电脑",
+      "url": "https://michaelenger.com/blog/i-love-the-computer",
+      "primary_url": "https://michaelenger.com/blog/i-love-the-computer",
+      "source": "michaelenger.com",
       "source_name": "Buzzing",
       "sources": [
         {
-          "id": "ba4f2698028f235f584364b6567a5a049b30af8e",
-          "title": "NetNewsWire 状态",
-          "url": "https://inessential.com/2026/06/15/netnewswire-status.html",
-          "source": "inessential.com",
+          "id": "28ee602190042d13a0eb8532220826d78f225858",
+          "title": "我爱电脑",
+          "url": "https://michaelenger.com/blog/i-love-the-computer",
+          "source": "michaelenger.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-06-15T22:37:21.113000Z"
+          "published_at": "2026-06-15T23:41:12.963000Z"
         },
         {
-          "id": "25ec93af9e229affb4f550f6cf710ad4b9a72793",
-          "title": "NetNewsWire 状态 / NetNewsWire Status",
-          "url": "https://inessential.com/2026/06/15/netnewswire-status.html",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-15T20:23:48Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Lobsters (技术社区)",
-        "inessential.com"
-      ],
-      "items": [
-        {
-          "id": "ba4f2698028f235f584364b6567a5a049b30af8e",
-          "title": "NetNewsWire 状态",
-          "url": "https://inessential.com/2026/06/15/netnewswire-status.html",
-          "source": "inessential.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T22:37:21.113000Z"
-        },
-        {
-          "id": "25ec93af9e229affb4f550f6cf710ad4b9a72793",
-          "title": "NetNewsWire 状态 / NetNewsWire Status",
-          "url": "https://inessential.com/2026/06/15/netnewswire-status.html",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-15T20:23:48Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.504,
-      "importance": 0.504,
-      "importance_score": 0.504,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 0.98,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T20:23:48Z",
-      "latest_at": "2026-06-15T22:37:21.113000Z",
-      "primary_item": {
-        "id": "ba4f2698028f235f584364b6567a5a049b30af8e",
-        "title": "NetNewsWire 状态",
-        "url": "https://inessential.com/2026/06/15/netnewswire-status.html",
-        "source": "inessential.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_77f105a7b827",
-      "title": "我的家庭实验室 AI 开发平台",
-      "url": "https://rsgm.dev/post/ai-dev-platform",
-      "primary_url": "https://rsgm.dev/post/ai-dev-platform",
-      "source": "rsgm.dev",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "7e9fb68f307ac599c33f5dadccbb886b63603992",
-          "title": "我的家庭实验室 AI 开发平台",
-          "url": "https://rsgm.dev/post/ai-dev-platform",
-          "source": "rsgm.dev",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T18:37:09.280000Z"
-        },
-        {
-          "id": "7a62214457b915bd92a267fdb86594ca5e9f707d",
-          "title": "我的 Homelab 人工智慧開發平台 / My Homelab AI Dev Platform",
-          "url": "https://news.ycombinator.com/item?id=48542433",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-15T16:49:26.851000Z"
-        },
-        {
-          "id": "d67df7fef2ae1e2674f18918abfbb54301e608b2",
-          "title": "我的家庭实验室 AI 开发平台 / My Homelab AI Dev Platform",
-          "url": "https://rsgm.dev/post/ai-dev-platform",
+          "id": "e979d320657e69f9c81e4dfe220613887cde69cd",
+          "title": "我爱电脑 / I Love the Computer",
+          "url": "https://michaelenger.com/blog/i-love-the-computer",
           "source": "Hacker News (黑客新闻)",
           "source_name": "Info Flow",
           "site_id": "iris",
-          "published_at": "2026-06-15T15:09:40Z"
+          "published_at": "2026-06-15T20:14:15Z"
         }
       ],
-      "source_count": 3,
+      "source_count": 2,
       "source_names": [
         "Hacker News (黑客新闻)",
-        "hackernews",
-        "rsgm.dev"
+        "michaelenger.com"
       ],
       "items": [
         {
-          "id": "7e9fb68f307ac599c33f5dadccbb886b63603992",
-          "title": "我的家庭实验室 AI 开发平台",
-          "url": "https://rsgm.dev/post/ai-dev-platform",
-          "source": "rsgm.dev",
+          "id": "28ee602190042d13a0eb8532220826d78f225858",
+          "title": "我爱电脑",
+          "url": "https://michaelenger.com/blog/i-love-the-computer",
+          "source": "michaelenger.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-06-15T18:37:09.280000Z"
+          "published_at": "2026-06-15T23:41:12.963000Z"
         },
         {
-          "id": "7a62214457b915bd92a267fdb86594ca5e9f707d",
-          "title": "我的 Homelab 人工智慧開發平台 / My Homelab AI Dev Platform",
-          "url": "https://news.ycombinator.com/item?id=48542433",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-15T16:49:26.851000Z"
-        },
-        {
-          "id": "d67df7fef2ae1e2674f18918abfbb54301e608b2",
-          "title": "我的家庭实验室 AI 开发平台 / My Homelab AI Dev Platform",
-          "url": "https://rsgm.dev/post/ai-dev-platform",
+          "id": "e979d320657e69f9c81e4dfe220613887cde69cd",
+          "title": "我爱电脑 / I Love the Computer",
+          "url": "https://michaelenger.com/blog/i-love-the-computer",
           "source": "Hacker News (黑客新闻)",
           "source_name": "Info Flow",
           "site_id": "iris",
-          "published_at": "2026-06-15T15:09:40Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.5039,
-      "importance": 0.5039,
-      "importance_score": 0.5039,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 0.8132,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T15:09:40Z",
-      "latest_at": "2026-06-15T18:37:09.280000Z",
-      "primary_item": {
-        "id": "7e9fb68f307ac599c33f5dadccbb886b63603992",
-        "title": "我的家庭实验室 AI 开发平台",
-        "url": "https://rsgm.dev/post/ai-dev-platform",
-        "source": "rsgm.dev",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_fea9b244676d",
-      "title": "书呆子们怎么了？",
-      "url": "https://mrmarket.lol/what-the-fuck-happened-to-nerds",
-      "primary_url": "https://mrmarket.lol/what-the-fuck-happened-to-nerds",
-      "source": "mrmarket.lol",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "d5b64a5cf59f8e9af4a51fa0bc636a03e752af7d",
-          "title": "书呆子们怎么了？",
-          "url": "https://mrmarket.lol/what-the-fuck-happened-to-nerds",
-          "source": "mrmarket.lol",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T17:49:18.028000Z"
-        },
-        {
-          "id": "33d50796563cd8700bf63f6f9f135dc67934ef97",
-          "title": "书呆子们怎么了？ / What happened to nerds?",
-          "url": "https://mrmarket.lol/what-the-fuck-happened-to-nerds",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-15T08:23:52Z"
-        },
-        {
-          "id": "6f33b6e3e8573631adac1ab82b53888b2ddaa6e9",
-          "title": "书呆子们怎么了？ / What the Fuck Happened to Nerds",
-          "url": "https://mrmarket.lol/what-the-fuck-happened-to-nerds",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-15T08:23:52Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News",
-        "Hacker News · 24h最热",
-        "mrmarket.lol"
-      ],
-      "items": [
-        {
-          "id": "d5b64a5cf59f8e9af4a51fa0bc636a03e752af7d",
-          "title": "书呆子们怎么了？",
-          "url": "https://mrmarket.lol/what-the-fuck-happened-to-nerds",
-          "source": "mrmarket.lol",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T17:49:18.028000Z"
-        },
-        {
-          "id": "33d50796563cd8700bf63f6f9f135dc67934ef97",
-          "title": "书呆子们怎么了？ / What happened to nerds?",
-          "url": "https://mrmarket.lol/what-the-fuck-happened-to-nerds",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-15T08:23:52Z"
-        },
-        {
-          "id": "6f33b6e3e8573631adac1ab82b53888b2ddaa6e9",
-          "title": "书呆子们怎么了？ / What the Fuck Happened to Nerds",
-          "url": "https://mrmarket.lol/what-the-fuck-happened-to-nerds",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-15T08:23:52Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.494,
-      "importance": 0.494,
-      "importance_score": 0.494,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 0.7799,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T08:23:52Z",
-      "latest_at": "2026-06-15T17:49:18.028000Z",
-      "primary_item": {
-        "id": "d5b64a5cf59f8e9af4a51fa0bc636a03e752af7d",
-        "title": "书呆子们怎么了？",
-        "url": "https://mrmarket.lol/what-the-fuck-happened-to-nerds",
-        "source": "mrmarket.lol",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_774f7412d1a3",
-      "title": "王室：哈利王子的秘密使命 / Famille Royale : la mission secrète du Prince Harry",
-      "url": "https://www.youtube.com/watch?v=GLZWhTCS7yw",
-      "primary_url": "https://www.youtube.com/watch?v=GLZWhTCS7yw",
-      "source": "imineo Documentaires",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "44f08ceb540c8ba08431541346ee2ee637445edf",
-          "title": "王室：哈利王子的秘密使命 / Famille Royale : la mission secrète du Prince Harry",
-          "url": "https://www.youtube.com/watch?v=GLZWhTCS7yw",
-          "source": "imineo Documentaires",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-15T16:30:14Z"
-        },
-        {
-          "id": "35411524d51f1b9ebd5f4cacfc13f92d1c904d0e",
-          "title": "為什麼 250 億次展示毫無意義，火星正在蠶食 CBO CMO 內幕播客 / Why 25 Billion Impressions Means Nothing, With Mars Snacking CBO | CMO Insider Podcast",
-          "url": "https://www.youtube.com/watch?v=oYN75wXgfyc",
-          "source": "Business Insider",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-15T16:00:03Z"
-        },
-        {
-          "id": "6d130dbcac8f4532ca7914b0e3084d3bdde392e3",
-          "title": "Chronicles: Medieval - Better than Total War and Bannerlord?",
-          "url": "https://www.youtube.com/watch?v=qXl_mJ5D6s4",
-          "source": "Invicta",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-14T23:21:03Z"
-        },
-        {
-          "id": "7b0bd73aee2b1295cc5b56dcf57549b408487a9c",
-          "title": "直播：基辅遭俄军袭击后，“艺术军火库”陷入火海",
-          "url": "https://www.youtube.com/watch?v=505sTbGrnpw",
-          "source": "www.youtube.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T05:17:22.505000Z"
-        }
-      ],
-      "source_count": 4,
-      "source_names": [
-        "Business Insider",
-        "Invicta",
-        "imineo Documentaires",
-        "www.youtube.com"
-      ],
-      "items": [
-        {
-          "id": "44f08ceb540c8ba08431541346ee2ee637445edf",
-          "title": "王室：哈利王子的秘密使命 / Famille Royale : la mission secrète du Prince Harry",
-          "url": "https://www.youtube.com/watch?v=GLZWhTCS7yw",
-          "source": "imineo Documentaires",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-15T16:30:14Z"
-        },
-        {
-          "id": "35411524d51f1b9ebd5f4cacfc13f92d1c904d0e",
-          "title": "為什麼 250 億次展示毫無意義，火星正在蠶食 CBO CMO 內幕播客 / Why 25 Billion Impressions Means Nothing, With Mars Snacking CBO | CMO Insider Podcast",
-          "url": "https://www.youtube.com/watch?v=oYN75wXgfyc",
-          "source": "Business Insider",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-15T16:00:03Z"
-        },
-        {
-          "id": "6d130dbcac8f4532ca7914b0e3084d3bdde392e3",
-          "title": "Chronicles: Medieval - Better than Total War and Bannerlord?",
-          "url": "https://www.youtube.com/watch?v=qXl_mJ5D6s4",
-          "source": "Invicta",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-14T23:21:03Z"
-        },
-        {
-          "id": "7b0bd73aee2b1295cc5b56dcf57549b408487a9c",
-          "title": "直播：基辅遭俄军袭击后，“艺术军火库”陷入火海",
-          "url": "https://www.youtube.com/watch?v=505sTbGrnpw",
-          "source": "www.youtube.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T05:17:22.505000Z"
-        }
-      ],
-      "item_count": 4,
-      "duplicate_count": 4,
-      "score": 0.4925,
-      "importance": 0.4925,
-      "importance_score": 0.4925,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "source_tier": 0.25,
-        "recency": 0.725,
-        "story_heat": 0.75
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-14T23:21:03Z",
-      "latest_at": "2026-06-15T16:30:14Z",
-      "primary_item": {
-        "id": "44f08ceb540c8ba08431541346ee2ee637445edf",
-        "title": "王室：哈利王子的秘密使命 / Famille Royale : la mission secrète du Prince Harry",
-        "url": "https://www.youtube.com/watch?v=GLZWhTCS7yw",
-        "source": "imineo Documentaires",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_8002d77b4367",
-      "title": "特朗普称结束与伊朗战争的协议已签署，细节将“很快”公布",
-      "url": "https://www.bbc.com/news/articles/ce8mv6l6eezo?at_medium=RSS&at_campaign=rss",
-      "primary_url": "https://www.bbc.com/news/articles/ce8mv6l6eezo?at_medium=RSS&at_campaign=rss",
-      "source": "www.bbc.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "0246a10e8d6faf1e086da2dd9df1b44fb2296e55",
-          "title": "特朗普称结束与伊朗战争的协议已签署，细节将“很快”公布",
-          "url": "https://www.bbc.com/news/articles/ce8mv6l6eezo?at_medium=RSS&at_campaign=rss",
-          "source": "www.bbc.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T21:33:12.578000Z"
-        },
-        {
-          "id": "899b23674b09effd751951be65d780baa59be81a",
-          "title": "特朗普称结束与伊朗战争的协议已签署，细节将“很快”公布 / Trump says deal to end war with Iran already signed and details to be released 'pretty soon'",
-          "url": "https://www.bbc.com/news/articles/ce8mv6l6eezo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News (世界新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-15T20:33:54Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "BBC News (世界新闻)",
-        "www.bbc.com"
-      ],
-      "items": [
-        {
-          "id": "0246a10e8d6faf1e086da2dd9df1b44fb2296e55",
-          "title": "特朗普称结束与伊朗战争的协议已签署，细节将“很快”公布",
-          "url": "https://www.bbc.com/news/articles/ce8mv6l6eezo?at_medium=RSS&at_campaign=rss",
-          "source": "www.bbc.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T21:33:12.578000Z"
-        },
-        {
-          "id": "899b23674b09effd751951be65d780baa59be81a",
-          "title": "特朗普称结束与伊朗战争的协议已签署，细节将“很快”公布 / Trump says deal to end war with Iran already signed and details to be released 'pretty soon'",
-          "url": "https://www.bbc.com/news/articles/ce8mv6l6eezo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News (世界新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-15T20:33:54Z"
+          "published_at": "2026-06-15T20:14:15Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4906,
-      "importance": 0.4906,
-      "importance_score": 0.4906,
+      "score": 0.4789,
+      "importance": 0.4789,
+      "importance_score": 0.4789,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.32,
-        "recency": 0.9354,
+        "recency": 0.8962,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-15T20:33:54Z",
-      "latest_at": "2026-06-15T21:33:12.578000Z",
+      "earliest_at": "2026-06-15T20:14:15Z",
+      "latest_at": "2026-06-15T23:41:12.963000Z",
       "primary_item": {
-        "id": "0246a10e8d6faf1e086da2dd9df1b44fb2296e55",
-        "title": "特朗普称结束与伊朗战争的协议已签署，细节将“很快”公布",
-        "url": "https://www.bbc.com/news/articles/ce8mv6l6eezo?at_medium=RSS&at_campaign=rss",
-        "source": "www.bbc.com",
+        "id": "28ee602190042d13a0eb8532220826d78f225858",
+        "title": "我爱电脑",
+        "url": "https://michaelenger.com/blog/i-love-the-computer",
+        "source": "michaelenger.com",
         "source_name": "Buzzing"
       }
     },
     {
-      "story_id": "story_faab532a2a8d",
-      "title": "一种铜转运药物可恢复记忆并清除阿尔茨海默病中的有毒蛋白质",
-      "url": "https://www.monash.edu/news/articles/copper-drug-restores-memory-and-clears-toxic-alzheimers-proteins",
-      "primary_url": "https://www.monash.edu/news/articles/copper-drug-restores-memory-and-clears-toxic-alzheimers-proteins",
-      "source": "www.monash.edu",
-      "source_name": "Buzzing",
+      "story_id": "story_4856b8e5a36c",
+      "title": "亞馬遜宣布耗資數十億美元在密蘇裡州建造資料中心 / Amazon Announces Multibillion-Dollar Data Center in Missouri",
+      "url": "https://news.ycombinator.com/item?id=48548975",
+      "primary_url": "https://news.ycombinator.com/item?id=48548975",
+      "source": "hackernews",
+      "source_name": "NewsNow",
       "sources": [
         {
-          "id": "85ba210b2ace283115cdd3ee66bac160a60c1a66",
-          "title": "一种铜转运药物可恢复记忆并清除阿尔茨海默病中的有毒蛋白质",
-          "url": "https://www.monash.edu/news/articles/copper-drug-restores-memory-and-clears-toxic-alzheimers-proteins",
-          "source": "www.monash.edu",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T17:17:20.353000Z"
-        },
-        {
-          "id": "2337675740d1f4ddc129ef43c60141ea3683f6d5",
-          "title": "銅轉運藥物可恢復記憶並清除有毒的阿茲海默症蛋白 / Copper transport drug restores memory and clears toxic Alzheimer's proteins",
-          "url": "https://news.ycombinator.com/item?id=48542132",
+          "id": "c1a5af22caadec6800fcb52cd0c908e49693a434",
+          "title": "亞馬遜宣布耗資數十億美元在密蘇裡州建造資料中心 / Amazon Announces Multibillion-Dollar Data Center in Missouri",
+          "url": "https://news.ycombinator.com/item?id=48548975",
           "source": "hackernews",
           "source_name": "NewsNow",
           "site_id": "newsnow",
-          "published_at": "2026-06-15T16:49:26.851000Z"
+          "published_at": "2026-06-16T01:54:47.890000Z"
         },
         {
-          "id": "e10f779bc9865156e80ff0bb2bc4f7961656d818",
-          "title": "一种铜转运药物可恢复记忆并清除阿尔茨海默病中的有毒蛋白质 / Copper transport drug restores memory and clears toxic Alzheimer's proteins",
-          "url": "https://www.monash.edu/news/articles/copper-drug-restores-memory-and-clears-toxic-alzheimers-proteins",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-15T14:48:47Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "hackernews",
-        "www.monash.edu"
-      ],
-      "items": [
-        {
-          "id": "85ba210b2ace283115cdd3ee66bac160a60c1a66",
-          "title": "一种铜转运药物可恢复记忆并清除阿尔茨海默病中的有毒蛋白质",
-          "url": "https://www.monash.edu/news/articles/copper-drug-restores-memory-and-clears-toxic-alzheimers-proteins",
-          "source": "www.monash.edu",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T17:17:20.353000Z"
-        },
-        {
-          "id": "2337675740d1f4ddc129ef43c60141ea3683f6d5",
-          "title": "銅轉運藥物可恢復記憶並清除有毒的阿茲海默症蛋白 / Copper transport drug restores memory and clears toxic Alzheimer's proteins",
-          "url": "https://news.ycombinator.com/item?id=48542132",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-15T16:49:26.851000Z"
-        },
-        {
-          "id": "e10f779bc9865156e80ff0bb2bc4f7961656d818",
-          "title": "一种铜转运药物可恢复记忆并清除阿尔茨海默病中的有毒蛋白质 / Copper transport drug restores memory and clears toxic Alzheimer's proteins",
-          "url": "https://www.monash.edu/news/articles/copper-drug-restores-memory-and-clears-toxic-alzheimers-proteins",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-15T14:48:47Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.4873,
-      "importance": 0.4873,
-      "importance_score": 0.4873,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 0.7577,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T14:48:47Z",
-      "latest_at": "2026-06-15T17:17:20.353000Z",
-      "primary_item": {
-        "id": "85ba210b2ace283115cdd3ee66bac160a60c1a66",
-        "title": "一种铜转运药物可恢复记忆并清除阿尔茨海默病中的有毒蛋白质",
-        "url": "https://www.monash.edu/news/articles/copper-drug-restores-memory-and-clears-toxic-alzheimers-proteins",
-        "source": "www.monash.edu",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_24858b6ee075",
-      "title": "当谷歌首席执行官走上舞台时，约200名斯坦福大学学生集体离场",
-      "url": "https://www.sfgate.com/tech/article/sundar-pichai-stanford-commencement-22304888.php",
-      "primary_url": "https://www.sfgate.com/tech/article/sundar-pichai-stanford-commencement-22304888.php",
-      "source": "www.sfgate.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "466cf170551a99f5269c9fd556ca07e1754549c3",
-          "title": "当谷歌首席执行官走上舞台时，约200名斯坦福大学学生集体离场",
-          "url": "https://www.sfgate.com/tech/article/sundar-pichai-stanford-commencement-22304888.php",
-          "source": "www.sfgate.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T21:17:11.553000Z"
-        },
-        {
-          "id": "abcde010409477ef5ad01887e20179df373ac119",
-          "title": "当谷歌首席执行官走上舞台时，约200名斯坦福大学学生集体离场 / Around 200 Stanford students walk out as Google CEO takes stage",
-          "url": "https://www.sfgate.com/tech/article/sundar-pichai-stanford-commencement-22304888.php",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-15T18:34:14Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News",
-        "www.sfgate.com"
-      ],
-      "items": [
-        {
-          "id": "466cf170551a99f5269c9fd556ca07e1754549c3",
-          "title": "当谷歌首席执行官走上舞台时，约200名斯坦福大学学生集体离场",
-          "url": "https://www.sfgate.com/tech/article/sundar-pichai-stanford-commencement-22304888.php",
-          "source": "www.sfgate.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T21:17:11.553000Z"
-        },
-        {
-          "id": "abcde010409477ef5ad01887e20179df373ac119",
-          "title": "当谷歌首席执行官走上舞台时，约200名斯坦福大学学生集体离场 / Around 200 Stanford students walk out as Google CEO takes stage",
-          "url": "https://www.sfgate.com/tech/article/sundar-pichai-stanford-commencement-22304888.php",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-15T18:34:14Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.4873,
-      "importance": 0.4873,
-      "importance_score": 0.4873,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 0.9243,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T18:34:14Z",
-      "latest_at": "2026-06-15T21:17:11.553000Z",
-      "primary_item": {
-        "id": "466cf170551a99f5269c9fd556ca07e1754549c3",
-        "title": "当谷歌首席执行官走上舞台时，约200名斯坦福大学学生集体离场",
-        "url": "https://www.sfgate.com/tech/article/sundar-pichai-stanford-commencement-22304888.php",
-        "source": "www.sfgate.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_097928231844",
-      "title": "福克斯将收购Roku",
-      "url": "https://www.wsj.com/business/deals/fox-roku-deal-f6e564f9",
-      "primary_url": "https://www.wsj.com/business/deals/fox-roku-deal-f6e564f9",
-      "source": "www.wsj.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "1003468ae7bdd8dcbf828b8dde33c2184c924310",
-          "title": "福克斯将收购Roku",
-          "url": "https://www.wsj.com/business/deals/fox-roku-deal-f6e564f9",
-          "source": "www.wsj.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T17:01:17.258000Z"
-        },
-        {
-          "id": "cfc7b48c67b0b6691ced9000538094511bf7fe7c",
-          "title": "福克斯将收购Roku / Fox to Buy Roku Streaming Service in $22B Deal",
-          "url": "https://www.wsj.com/business/deals/fox-roku-deal-f6e564f9",
+          "id": "f51781a68ef39bbd973dbb668d01c96245ef640f",
+          "title": "亞馬遜宣布耗資數十億美元在密蘇裡州建造資料中心 / Amazon Announces Multibillion-Dollar Data Center in Missouri",
+          "url": "https://www.narracomm.com/amazon-announces-multibillion-dollar-data-center-in-missouri",
           "source": "Hacker News (黑客新闻)",
           "source_name": "Info Flow",
           "site_id": "iris",
-          "published_at": "2026-06-15T12:50:03Z"
-        },
-        {
-          "id": "c9f102c796d79a21262f0bd5cf3aeff756686c22",
-          "title": "福克斯将收购Roku / Fox to buy Roku",
-          "url": "https://www.wsj.com/business/deals/fox-roku-deal-f6e564f9",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-15T12:50:03Z"
+          "published_at": "2026-06-16T00:28:14Z"
         }
       ],
-      "source_count": 3,
+      "source_count": 2,
       "source_names": [
         "Hacker News (黑客新闻)",
-        "Hacker News · 24h最热",
-        "www.wsj.com"
+        "hackernews"
       ],
       "items": [
         {
-          "id": "1003468ae7bdd8dcbf828b8dde33c2184c924310",
-          "title": "福克斯将收购Roku",
-          "url": "https://www.wsj.com/business/deals/fox-roku-deal-f6e564f9",
-          "source": "www.wsj.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T17:01:17.258000Z"
+          "id": "c1a5af22caadec6800fcb52cd0c908e49693a434",
+          "title": "亞馬遜宣布耗資數十億美元在密蘇裡州建造資料中心 / Amazon Announces Multibillion-Dollar Data Center in Missouri",
+          "url": "https://news.ycombinator.com/item?id=48548975",
+          "source": "hackernews",
+          "source_name": "NewsNow",
+          "site_id": "newsnow",
+          "published_at": "2026-06-16T01:54:47.890000Z"
         },
         {
-          "id": "cfc7b48c67b0b6691ced9000538094511bf7fe7c",
-          "title": "福克斯将收购Roku / Fox to Buy Roku Streaming Service in $22B Deal",
-          "url": "https://www.wsj.com/business/deals/fox-roku-deal-f6e564f9",
+          "id": "f51781a68ef39bbd973dbb668d01c96245ef640f",
+          "title": "亞馬遜宣布耗資數十億美元在密蘇裡州建造資料中心 / Amazon Announces Multibillion-Dollar Data Center in Missouri",
+          "url": "https://www.narracomm.com/amazon-announces-multibillion-dollar-data-center-in-missouri",
           "source": "Hacker News (黑客新闻)",
           "source_name": "Info Flow",
           "site_id": "iris",
-          "published_at": "2026-06-15T12:50:03Z"
-        },
-        {
-          "id": "c9f102c796d79a21262f0bd5cf3aeff756686c22",
-          "title": "福克斯将收购Roku / Fox to buy Roku",
-          "url": "https://www.wsj.com/business/deals/fox-roku-deal-f6e564f9",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-15T12:50:03Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.484,
-      "importance": 0.484,
-      "importance_score": 0.484,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 0.7466,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T12:50:03Z",
-      "latest_at": "2026-06-15T17:01:17.258000Z",
-      "primary_item": {
-        "id": "1003468ae7bdd8dcbf828b8dde33c2184c924310",
-        "title": "福克斯将收购Roku",
-        "url": "https://www.wsj.com/business/deals/fox-roku-deal-f6e564f9",
-        "source": "www.wsj.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_48d0df19f2cb",
-      "title": "CrankGPT — 基于本地人力支持的人工智能",
-      "url": "https://crankgpt.com",
-      "primary_url": "https://crankgpt.com",
-      "source": "crankgpt.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "2906793ca29f1c800d6d2ab9636f63e54bbb5c39",
-          "title": "CrankGPT — 基于本地人力支持的人工智能",
-          "url": "https://crankgpt.com",
-          "source": "crankgpt.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T16:45:24.007000Z"
-        },
-        {
-          "id": "0458cc80bb732979cfcb93cdbbffe62c420d6d7b",
-          "title": "CrankGPT — 基于本地人力支持的人工智能 / CrankGPT",
-          "url": "https://crankgpt.com",
-          "source": "crankgpt.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T15:09:19.779000Z"
-        },
-        {
-          "id": "7513eca5e0e20bcb28cb109eec29126b0bd106da",
-          "title": "CrankGPT — 基于本地人力支持的人工智能 / CrankGPT — Local Human-powered AI",
-          "url": "https://crankgpt.com",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-15T13:35:22Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Lobsters (技术社区)",
-        "crankgpt.com"
-      ],
-      "items": [
-        {
-          "id": "2906793ca29f1c800d6d2ab9636f63e54bbb5c39",
-          "title": "CrankGPT — 基于本地人力支持的人工智能",
-          "url": "https://crankgpt.com",
-          "source": "crankgpt.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T16:45:24.007000Z"
-        },
-        {
-          "id": "0458cc80bb732979cfcb93cdbbffe62c420d6d7b",
-          "title": "CrankGPT — 基于本地人力支持的人工智能 / CrankGPT",
-          "url": "https://crankgpt.com",
-          "source": "crankgpt.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T15:09:19.779000Z"
-        },
-        {
-          "id": "7513eca5e0e20bcb28cb109eec29126b0bd106da",
-          "title": "CrankGPT — 基于本地人力支持的人工智能 / CrankGPT — Local Human-powered AI",
-          "url": "https://crankgpt.com",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-15T13:35:22Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.4807,
-      "importance": 0.4807,
-      "importance_score": 0.4807,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 0.7355,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T13:35:22Z",
-      "latest_at": "2026-06-15T16:45:24.007000Z",
-      "primary_item": {
-        "id": "2906793ca29f1c800d6d2ab9636f63e54bbb5c39",
-        "title": "CrankGPT — 基于本地人力支持的人工智能",
-        "url": "https://crankgpt.com",
-        "source": "crankgpt.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_93ed61a9bf4d",
-      "title": "特朗普最近的侮辱言论充分表明，他与七国集团领导人的关系已变得多么紧张 - CNN",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZ1FCdm9lLUsyVS1wcVVvWDM1UzBoOGpXYll1QjdhR2dfY0Q2V3pjVEpnWkVZV2hSU0hTTWJmSWdPWnh1Vi1UUV9iMzhOQkduU0dfTk1WQS13UEk1QWUtQklRQlM0b1ZXT0I4eG1PQVUySk0yQko0SWR1NHJvQmloUW5hMjhVcEJvdXJr?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-      "primary_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZ1FCdm9lLUsyVS1wcVVvWDM1UzBoOGpXYll1QjdhR2dfY0Q2V3pjVEpnWkVZV2hSU0hTTWJmSWdPWnh1Vi1UUV9iMzhOQkduU0dfTk1WQS13UEk1QWUtQklRQlM0b1ZXT0I4eG1PQVUySk0yQko0SWR1NHJvQmloUW5hMjhVcEJvdXJr?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-      "source": "news.google.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "bb22af6b5bc4aecf6c864dc34860723c6001c961",
-          "title": "特朗普最近的侮辱言论充分表明，他与七国集团领导人的关系已变得多么紧张 - CNN",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZ1FCdm9lLUsyVS1wcVVvWDM1UzBoOGpXYll1QjdhR2dfY0Q2V3pjVEpnWkVZV2hSU0hTTWJmSWdPWnh1Vi1UUV9iMzhOQkduU0dfTk1WQS13UEk1QWUtQklRQlM0b1ZXT0I4eG1PQVUySk0yQko0SWR1NHJvQmloUW5hMjhVcEJvdXJr?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-          "source": "news.google.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T20:29:15.248000Z"
-        },
-        {
-          "id": "655792d6ac179e60c7a551a2f6c3de4b09328a76",
-          "title": "特朗普最近的侮辱言论充分表明，他与七国集团领导人的关系已经变得多么紧张 - CNN",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZ1FCdm9lLUsyVS1wcVVvWDM1UzBoOGpXYll1QjdhR2dfY0Q2V3pjVEpnWkVZV2hSU0hTTWJmSWdPWnh1Vi1UUV9iMzhOQkduU0dfTk1WQS13UEk1QWUtQklRQlM0b1ZXT0I4eG1PQVUySk0yQko0SWR1NHJvQmloUW5hMjhVcEJvdXJr?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-          "source": "news.google.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T20:29:15.204000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "news.google.com"
-      ],
-      "items": [
-        {
-          "id": "bb22af6b5bc4aecf6c864dc34860723c6001c961",
-          "title": "特朗普最近的侮辱言论充分表明，他与七国集团领导人的关系已变得多么紧张 - CNN",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZ1FCdm9lLUsyVS1wcVVvWDM1UzBoOGpXYll1QjdhR2dfY0Q2V3pjVEpnWkVZV2hSU0hTTWJmSWdPWnh1Vi1UUV9iMzhOQkduU0dfTk1WQS13UEk1QWUtQklRQlM0b1ZXT0I4eG1PQVUySk0yQko0SWR1NHJvQmloUW5hMjhVcEJvdXJr?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-          "source": "news.google.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T20:29:15.248000Z"
-        },
-        {
-          "id": "655792d6ac179e60c7a551a2f6c3de4b09328a76",
-          "title": "特朗普最近的侮辱言论充分表明，他与七国集团领导人的关系已经变得多么紧张 - CNN",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZ1FCdm9lLUsyVS1wcVVvWDM1UzBoOGpXYll1QjdhR2dfY0Q2V3pjVEpnWkVZV2hSU0hTTWJmSWdPWnh1Vi1UUV9iMzhOQkduU0dfTk1WQS13UEk1QWUtQklRQlM0b1ZXT0I4eG1PQVUySk0yQko0SWR1NHJvQmloUW5hMjhVcEJvdXJr?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-          "source": "news.google.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T20:29:15.204000Z"
+          "published_at": "2026-06-16T00:28:14Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4773,
-      "importance": 0.4773,
-      "importance_score": 0.4773,
+      "score": 0.5067,
+      "importance": 0.5067,
+      "importance_score": 0.5067,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.32,
-        "recency": 0.891,
+        "recency": 0.989,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-15T20:29:15.204000Z",
-      "latest_at": "2026-06-15T20:29:15.248000Z",
+      "earliest_at": "2026-06-16T00:28:14Z",
+      "latest_at": "2026-06-16T01:54:47.890000Z",
       "primary_item": {
-        "id": "bb22af6b5bc4aecf6c864dc34860723c6001c961",
-        "title": "特朗普最近的侮辱言论充分表明，他与七国集团领导人的关系已变得多么紧张 - CNN",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZ1FCdm9lLUsyVS1wcVVvWDM1UzBoOGpXYll1QjdhR2dfY0Q2V3pjVEpnWkVZV2hSU0hTTWJmSWdPWnh1Vi1UUV9iMzhOQkduU0dfTk1WQS13UEk1QWUtQklRQlM0b1ZXT0I4eG1PQVUySk0yQko0SWR1NHJvQmloUW5hMjhVcEJvdXJr?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-        "source": "news.google.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_65fddfc657b1",
-      "title": "肯德基最大的竞争对手不是Popeyes或Raising Cane''s——而是你的TikTok信息流",
-      "url": "https://www.businessinsider.com/kfc-colonel-rebrand-modernize-menu-strategy-restaurant-redesign-glow-up-2026-6",
-      "primary_url": "https://www.businessinsider.com/kfc-colonel-rebrand-modernize-menu-strategy-restaurant-redesign-glow-up-2026-6",
-      "source": "www.businessinsider.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "2b4fc116043e1c8e89199618bb39d6271b50e0fd",
-          "title": "肯德基最大的竞争对手不是Popeyes或Raising Cane''s——而是你的TikTok信息流",
-          "url": "https://www.businessinsider.com/kfc-colonel-rebrand-modernize-menu-strategy-restaurant-redesign-glow-up-2026-6",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T20:29:15.255000Z"
-        },
-        {
-          "id": "41440b0bb985b5c7a1e46f0734ae2d1d62889e61",
-          "title": "肯德基最大的竞争对手不是Popeyes或Raising Cane''s——而是你的TikTok信息流 / KFC's Colonel is getting a glow-up",
-          "url": "https://www.businessinsider.com/kfc-colonel-rebrand-modernize-menu-strategy-restaurant-redesign-glow-up-2026-6",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-15T11:00:01Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Business Insider",
-        "www.businessinsider.com"
-      ],
-      "items": [
-        {
-          "id": "2b4fc116043e1c8e89199618bb39d6271b50e0fd",
-          "title": "肯德基最大的竞争对手不是Popeyes或Raising Cane''s——而是你的TikTok信息流",
-          "url": "https://www.businessinsider.com/kfc-colonel-rebrand-modernize-menu-strategy-restaurant-redesign-glow-up-2026-6",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T20:29:15.255000Z"
-        },
-        {
-          "id": "41440b0bb985b5c7a1e46f0734ae2d1d62889e61",
-          "title": "肯德基最大的竞争对手不是Popeyes或Raising Cane''s——而是你的TikTok信息流 / KFC's Colonel is getting a glow-up",
-          "url": "https://www.businessinsider.com/kfc-colonel-rebrand-modernize-menu-strategy-restaurant-redesign-glow-up-2026-6",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-15T11:00:01Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.4773,
-      "importance": 0.4773,
-      "importance_score": 0.4773,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 0.891,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T11:00:01Z",
-      "latest_at": "2026-06-15T20:29:15.255000Z",
-      "primary_item": {
-        "id": "2b4fc116043e1c8e89199618bb39d6271b50e0fd",
-        "title": "肯德基最大的竞争对手不是Popeyes或Raising Cane''s——而是你的TikTok信息流",
-        "url": "https://www.businessinsider.com/kfc-colonel-rebrand-modernize-menu-strategy-restaurant-redesign-glow-up-2026-6",
-        "source": "www.businessinsider.com",
-        "source_name": "Buzzing"
+        "id": "c1a5af22caadec6800fcb52cd0c908e49693a434",
+        "title": "亞馬遜宣布耗資數十億美元在密蘇裡州建造資料中心 / Amazon Announces Multibillion-Dollar Data Center in Missouri",
+        "url": "https://news.ycombinator.com/item?id=48548975",
+        "source": "hackernews",
+        "source_name": "NewsNow"
       }
     }
   ]
