@@ -2891,7 +2891,7 @@ def main(argv=None) -> int:
     raw_items: list[Any] = []
     statuses: list[Any] = []
 
-    if args.collect_all():
+    if args.collect_all:
         raw_items, statuses = collect_all(session, now)
     rss_feed_statuses: list[dict[str, Any]] = []
     if args.rss_opml:
