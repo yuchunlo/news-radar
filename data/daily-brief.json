@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-16T14:22:41.519258Z",
+  "generated_at": "2026-06-16T18:44:25.179751Z",
   "window_hours": 24,
-  "total_items": 20,
+  "total_items": 3,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
@@ -12,40 +12,40 @@
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "d0095ae1a8730768e1891110569d33b560e71bd3",
+          "id": "c0a731dcf816aece650e87e6460df1aa6ef9260c",
           "title": "張員瑛機場爭議？官方正式回應了/NMIXX薛侖痛到含淚登台/Tiffany結婚 徐玄淚崩｜DenQ",
           "url": "https://www.youtube.com/watch?v=qvy4R7ANI_o",
           "source": "DenQ來了",
           "source_name": "OPML RSS",
-          "site_id": "opmlrss",
+          "site_id": "culture",
           "published_at": "2026-06-16T10:00:00Z"
         },
         {
-          "id": "44f08ceb540c8ba08431541346ee2ee637445edf",
-          "title": "王室：哈利王子的秘密使命 / Famille Royale : la mission secrète du Prince Harry",
-          "url": "https://www.youtube.com/watch?v=GLZWhTCS7yw",
-          "source": "imineo Documentaires",
+          "id": "079475043ab744087d560e0715190de14c4d3f25",
+          "title": "花費一生製作巨型地圖的人 / The man who’s spent a lifetime making one giant map",
+          "url": "https://www.youtube.com/watch?v=Is8N7B9b0GQ",
+          "source": "Waxy.org",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-06-15T16:30:14Z"
+          "published_at": "2026-06-16T17:56:40Z"
         },
         {
-          "id": "08ffba41def3b8c19047225c784b9f04e33fc1f2",
-          "title": "世足門票飆破上萬台幣 浮動票價引爆球迷怒火 從極端票價到體育洗白 球場上的「政治中立」為何成了最大謊言？【TODAY 看世界】",
-          "url": "https://www.youtube.com/watch?v=WQLtNmLxXjM",
-          "source": "TODAY 看世界",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-15T16:00:20Z"
-        },
-        {
-          "id": "35411524d51f1b9ebd5f4cacfc13f92d1c904d0e",
-          "title": "為什麼 250 億次展示毫無意義，火星正在蠶食 CBO CMO 內幕播客 / Why 25 Billion Impressions Means Nothing, With Mars Snacking CBO | CMO Insider Podcast",
-          "url": "https://www.youtube.com/watch?v=oYN75wXgfyc",
+          "id": "6e2771fe4af5fae1f94bc800dcd42610a2dc3fd0",
+          "title": "如何在沒有 CBO 的情況下挑戰蘋果和三星CMO 內幕播客 / How To Take On Apple And Samsung, With Nothing CBO | CMO Insider Podcast",
+          "url": "https://www.youtube.com/watch?v=vwHCGH3W1LU",
           "source": "Business Insider",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-06-15T16:00:03Z"
+          "published_at": "2026-06-16T16:00:32Z"
+        },
+        {
+          "id": "577859cccbd06148eae48936a8e7d649efdbe08e",
+          "title": "美伊宣布達成停戰協議 海上封鎖即刻解除 棘手核武問題卻原地踏步 這份協議真能帶來實質和平？【TODAY 看世界】",
+          "url": "https://www.youtube.com/watch?v=yKMpHblqCps",
+          "source": "TODAY 看世界",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-06-16T16:00:09Z"
         }
       ],
       "source_count": 4,
@@ -53,68 +53,144 @@
         "Business Insider",
         "DenQ來了",
         "TODAY 看世界",
-        "imineo Documentaires"
+        "Waxy.org"
       ],
       "items": [
         {
-          "id": "d0095ae1a8730768e1891110569d33b560e71bd3",
+          "id": "c0a731dcf816aece650e87e6460df1aa6ef9260c",
           "title": "張員瑛機場爭議？官方正式回應了/NMIXX薛侖痛到含淚登台/Tiffany結婚 徐玄淚崩｜DenQ",
           "url": "https://www.youtube.com/watch?v=qvy4R7ANI_o",
           "source": "DenQ來了",
           "source_name": "OPML RSS",
-          "site_id": "opmlrss",
+          "site_id": "culture",
           "published_at": "2026-06-16T10:00:00Z"
         },
         {
-          "id": "44f08ceb540c8ba08431541346ee2ee637445edf",
-          "title": "王室：哈利王子的秘密使命 / Famille Royale : la mission secrète du Prince Harry",
-          "url": "https://www.youtube.com/watch?v=GLZWhTCS7yw",
-          "source": "imineo Documentaires",
+          "id": "079475043ab744087d560e0715190de14c4d3f25",
+          "title": "花費一生製作巨型地圖的人 / The man who’s spent a lifetime making one giant map",
+          "url": "https://www.youtube.com/watch?v=Is8N7B9b0GQ",
+          "source": "Waxy.org",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-06-15T16:30:14Z"
+          "published_at": "2026-06-16T17:56:40Z"
         },
         {
-          "id": "08ffba41def3b8c19047225c784b9f04e33fc1f2",
-          "title": "世足門票飆破上萬台幣 浮動票價引爆球迷怒火 從極端票價到體育洗白 球場上的「政治中立」為何成了最大謊言？【TODAY 看世界】",
-          "url": "https://www.youtube.com/watch?v=WQLtNmLxXjM",
-          "source": "TODAY 看世界",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-15T16:00:20Z"
-        },
-        {
-          "id": "35411524d51f1b9ebd5f4cacfc13f92d1c904d0e",
-          "title": "為什麼 250 億次展示毫無意義，火星正在蠶食 CBO CMO 內幕播客 / Why 25 Billion Impressions Means Nothing, With Mars Snacking CBO | CMO Insider Podcast",
-          "url": "https://www.youtube.com/watch?v=oYN75wXgfyc",
+          "id": "6e2771fe4af5fae1f94bc800dcd42610a2dc3fd0",
+          "title": "如何在沒有 CBO 的情況下挑戰蘋果和三星CMO 內幕播客 / How To Take On Apple And Samsung, With Nothing CBO | CMO Insider Podcast",
+          "url": "https://www.youtube.com/watch?v=vwHCGH3W1LU",
           "source": "Business Insider",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-06-15T16:00:03Z"
+          "published_at": "2026-06-16T16:00:32Z"
+        },
+        {
+          "id": "577859cccbd06148eae48936a8e7d649efdbe08e",
+          "title": "美伊宣布達成停戰協議 海上封鎖即刻解除 棘手核武問題卻原地踏步 這份協議真能帶來實質和平？【TODAY 看世界】",
+          "url": "https://www.youtube.com/watch?v=yKMpHblqCps",
+          "source": "TODAY 看世界",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-06-16T16:00:09Z"
         }
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.5203,
-      "importance": 0.5203,
-      "importance_score": 0.5203,
+      "score": 0.5907,
+      "importance": 0.5907,
+      "importance_score": 0.5907,
       "importance_label": "多源热议",
       "importance_breakdown": {
-        "source_tier": 0.25,
-        "recency": 0.8176,
+        "source_tier": 0.5,
+        "recency": 0.6358,
         "story_heat": 0.75
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-15T16:00:03Z",
-      "latest_at": "2026-06-16T10:00:00Z",
+      "earliest_at": "2026-06-16T10:00:00Z",
+      "latest_at": "2026-06-16T17:56:40Z",
       "primary_item": {
-        "id": "d0095ae1a8730768e1891110569d33b560e71bd3",
+        "id": "c0a731dcf816aece650e87e6460df1aa6ef9260c",
         "title": "張員瑛機場爭議？官方正式回應了/NMIXX薛侖痛到含淚登台/Tiffany結婚 徐玄淚崩｜DenQ",
         "url": "https://www.youtube.com/watch?v=qvy4R7ANI_o",
         "source": "DenQ來了",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_f80731cec42f",
+      "title": "【關鍵排行圖解】2019-2025台灣消費性商品進口成長TOP20",
+      "url": "https://www.mirai.com.tw/taiwan-consumer-goods-imports-top-20-growth-categories-by-value-and-growth-rate-2019-2025",
+      "primary_url": "https://www.mirai.com.tw/taiwan-consumer-goods-imports-top-20-growth-categories-by-value-and-growth-rate-2019-2025",
+      "source": "未來流通研究所｜商業情報資訊站",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "ce0e8100130f9839b851e487e51937f23d282f76",
+          "title": "【關鍵排行圖解】2019-2025台灣消費性商品進口成長TOP20",
+          "url": "https://www.mirai.com.tw/taiwan-consumer-goods-imports-top-20-growth-categories-by-value-and-growth-rate-2019-2025",
+          "source": "未來流通研究所｜商業情報資訊站",
+          "source_name": "OPML RSS",
+          "site_id": "business",
+          "published_at": "2026-06-16T01:48:07Z"
+        },
+        {
+          "id": "63bd962b3daaa75d0d1d409caeadda362cf5bf89",
+          "title": "2019-2025台灣消費性商品進口成長TOP20",
+          "url": "https://www.mirai.com.tw/taiwan-consumer-goods-imports-top-20-growth-categories-by-value-and-growth-rate-2019-2025-diagram",
+          "source": "未來流通研究所｜商業情報資訊站",
+          "source_name": "OPML RSS",
+          "site_id": "business",
+          "published_at": "2026-06-16T01:39:52Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "未來流通研究所｜商業情報資訊站"
+      ],
+      "items": [
+        {
+          "id": "ce0e8100130f9839b851e487e51937f23d282f76",
+          "title": "【關鍵排行圖解】2019-2025台灣消費性商品進口成長TOP20",
+          "url": "https://www.mirai.com.tw/taiwan-consumer-goods-imports-top-20-growth-categories-by-value-and-growth-rate-2019-2025",
+          "source": "未來流通研究所｜商業情報資訊站",
+          "source_name": "OPML RSS",
+          "site_id": "business",
+          "published_at": "2026-06-16T01:48:07Z"
+        },
+        {
+          "id": "63bd962b3daaa75d0d1d409caeadda362cf5bf89",
+          "title": "2019-2025台灣消費性商品進口成長TOP20",
+          "url": "https://www.mirai.com.tw/taiwan-consumer-goods-imports-top-20-growth-categories-by-value-and-growth-rate-2019-2025-diagram",
+          "source": "未來流通研究所｜商業情報資訊站",
+          "source_name": "OPML RSS",
+          "site_id": "business",
+          "published_at": "2026-06-16T01:39:52Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.3883,
+      "importance": 0.3883,
+      "importance_score": 0.3883,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.5,
+        "recency": 0.2942,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-16T01:39:52Z",
+      "latest_at": "2026-06-16T01:48:07Z",
+      "primary_item": {
+        "id": "ce0e8100130f9839b851e487e51937f23d282f76",
+        "title": "【關鍵排行圖解】2019-2025台灣消費性商品進口成長TOP20",
+        "url": "https://www.mirai.com.tw/taiwan-consumer-goods-imports-top-20-growth-categories-by-value-and-growth-rate-2019-2025",
+        "source": "未來流通研究所｜商業情報資訊站",
         "source_name": "OPML RSS"
       }
     },
@@ -171,13 +247,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3953,
-      "importance": 0.3953,
-      "importance_score": 0.3953,
+      "score": 0.3407,
+      "importance": 0.3407,
+      "importance_score": 0.3407,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.7342,
+        "recency": 0.5525,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -192,1464 +268,6 @@
         "url": "https://colossus.com/episode/courage-truth-justice",
         "source": "Invest Like the Best with Patrick O'Shaughnessy",
         "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_f80731cec42f",
-      "title": "【關鍵排行圖解】2019-2025台灣消費性商品進口成長TOP20",
-      "url": "https://www.mirai.com.tw/taiwan-consumer-goods-imports-top-20-growth-categories-by-value-and-growth-rate-2019-2025",
-      "primary_url": "https://www.mirai.com.tw/taiwan-consumer-goods-imports-top-20-growth-categories-by-value-and-growth-rate-2019-2025",
-      "source": "未來流通研究所｜商業情報資訊站",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "ce0e8100130f9839b851e487e51937f23d282f76",
-          "title": "【關鍵排行圖解】2019-2025台灣消費性商品進口成長TOP20",
-          "url": "https://www.mirai.com.tw/taiwan-consumer-goods-imports-top-20-growth-categories-by-value-and-growth-rate-2019-2025",
-          "source": "未來流通研究所｜商業情報資訊站",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-16T01:48:07Z"
-        },
-        {
-          "id": "0c5908eaf92f773903989ef7fbec76cece131613",
-          "title": "2019-2025台灣消費性商品進口成長TOP20",
-          "url": "https://www.mirai.com.tw/taiwan-consumer-goods-imports-top-20-growth-categories-by-value-and-growth-rate-2019-2025-diagram",
-          "source": "未來流通研究所｜商業情報資訊站",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-16T01:39:52Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "未來流通研究所｜商業情報資訊站"
-      ],
-      "items": [
-        {
-          "id": "ce0e8100130f9839b851e487e51937f23d282f76",
-          "title": "【關鍵排行圖解】2019-2025台灣消費性商品進口成長TOP20",
-          "url": "https://www.mirai.com.tw/taiwan-consumer-goods-imports-top-20-growth-categories-by-value-and-growth-rate-2019-2025",
-          "source": "未來流通研究所｜商業情報資訊站",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-16T01:48:07Z"
-        },
-        {
-          "id": "0c5908eaf92f773903989ef7fbec76cece131613",
-          "title": "2019-2025台灣消費性商品進口成長TOP20",
-          "url": "https://www.mirai.com.tw/taiwan-consumer-goods-imports-top-20-growth-categories-by-value-and-growth-rate-2019-2025-diagram",
-          "source": "未來流通研究所｜商業情報資訊站",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-16T01:39:52Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.3178,
-      "importance": 0.3178,
-      "importance_score": 0.3178,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.25,
-        "recency": 0.476,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-16T01:39:52Z",
-      "latest_at": "2026-06-16T01:48:07Z",
-      "primary_item": {
-        "id": "ce0e8100130f9839b851e487e51937f23d282f76",
-        "title": "【關鍵排行圖解】2019-2025台灣消費性商品進口成長TOP20",
-        "url": "https://www.mirai.com.tw/taiwan-consumer-goods-imports-top-20-growth-categories-by-value-and-growth-rate-2019-2025",
-        "source": "未來流通研究所｜商業情報資訊站",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_6b6e5cd934e5",
-      "title": "顯示 HN: machine0 – 您從 CLI 控制的持久 NixOS 虛擬機 / Show HN: machine0 – Persistent NixOS VMs You Control from the CLI",
-      "url": "https://news.ycombinator.com/item?id=48543245",
-      "primary_url": "https://news.ycombinator.com/item?id=48543245",
-      "source": "hackernews",
-      "source_name": "NewsNow",
-      "sources": [
-        {
-          "id": "00cb485e29ed4d8bb22f28567acbb5699385557b",
-          "title": "顯示 HN: machine0 – 您從 CLI 控制的持久 NixOS 虛擬機 / Show HN: machine0 – Persistent NixOS VMs You Control from the CLI",
-          "url": "https://news.ycombinator.com/item?id=48543245",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-15T17:51:54.299000Z"
-        },
-        {
-          "id": "0f27a62791462293c4e6cbaa974b30905127de8b",
-          "title": "Show HN: machine0 – 您可通过命令行控制的持久化 NixOS 虚拟机",
-          "url": "https://machine0.io",
-          "source": "machine0.io",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T16:13:14.413000Z"
-        },
-        {
-          "id": "5d2b772a239e999ca492efdf3cc81e0a5b024e85",
-          "title": "Show HN: machine0 – 您可通过命令行控制的持久化 NixOS 虚拟机 / Show HN: machine0 – Persistent NixOS VMs You Control from the CLI",
-          "url": "https://machine0.io",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-15T16:01:43Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "hackernews",
-        "machine0.io"
-      ],
-      "items": [
-        {
-          "id": "00cb485e29ed4d8bb22f28567acbb5699385557b",
-          "title": "顯示 HN: machine0 – 您從 CLI 控制的持久 NixOS 虛擬機 / Show HN: machine0 – Persistent NixOS VMs You Control from the CLI",
-          "url": "https://news.ycombinator.com/item?id=48543245",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-15T17:51:54.299000Z"
-        },
-        {
-          "id": "0f27a62791462293c4e6cbaa974b30905127de8b",
-          "title": "Show HN: machine0 – 您可通过命令行控制的持久化 NixOS 虚拟机",
-          "url": "https://machine0.io",
-          "source": "machine0.io",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T16:13:14.413000Z"
-        },
-        {
-          "id": "5d2b772a239e999ca492efdf3cc81e0a5b024e85",
-          "title": "Show HN: machine0 – 您可通过命令行控制的持久化 NixOS 虚拟机 / Show HN: machine0 – Persistent NixOS VMs You Control from the CLI",
-          "url": "https://machine0.io",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-15T16:01:43Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.3036,
-      "importance": 0.3036,
-      "importance_score": 0.3036,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 0.1453,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T16:01:43Z",
-      "latest_at": "2026-06-15T17:51:54.299000Z",
-      "primary_item": {
-        "id": "00cb485e29ed4d8bb22f28567acbb5699385557b",
-        "title": "顯示 HN: machine0 – 您從 CLI 控制的持久 NixOS 虛擬機 / Show HN: machine0 – Persistent NixOS VMs You Control from the CLI",
-        "url": "https://news.ycombinator.com/item?id=48543245",
-        "source": "hackernews",
-        "source_name": "NewsNow"
-      }
-    },
-    {
-      "story_id": "story_faab532a2a8d",
-      "title": "一种铜转运药物可恢复记忆并清除阿尔茨海默病中的有毒蛋白质",
-      "url": "https://www.monash.edu/news/articles/copper-drug-restores-memory-and-clears-toxic-alzheimers-proteins",
-      "primary_url": "https://www.monash.edu/news/articles/copper-drug-restores-memory-and-clears-toxic-alzheimers-proteins",
-      "source": "www.monash.edu",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "85ba210b2ace283115cdd3ee66bac160a60c1a66",
-          "title": "一种铜转运药物可恢复记忆并清除阿尔茨海默病中的有毒蛋白质",
-          "url": "https://www.monash.edu/news/articles/copper-drug-restores-memory-and-clears-toxic-alzheimers-proteins",
-          "source": "www.monash.edu",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T17:17:20.353000Z"
-        },
-        {
-          "id": "2337675740d1f4ddc129ef43c60141ea3683f6d5",
-          "title": "銅轉運藥物可恢復記憶並清除有毒的阿茲海默症蛋白 / Copper transport drug restores memory and clears toxic Alzheimer's proteins",
-          "url": "https://news.ycombinator.com/item?id=48542132",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-15T16:49:26.851000Z"
-        },
-        {
-          "id": "e10f779bc9865156e80ff0bb2bc4f7961656d818",
-          "title": "一种铜转运药物可恢复记忆并清除阿尔茨海默病中的有毒蛋白质 / Copper transport drug restores memory and clears toxic Alzheimer's proteins",
-          "url": "https://www.monash.edu/news/articles/copper-drug-restores-memory-and-clears-toxic-alzheimers-proteins",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-15T14:48:47Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "hackernews",
-        "www.monash.edu"
-      ],
-      "items": [
-        {
-          "id": "85ba210b2ace283115cdd3ee66bac160a60c1a66",
-          "title": "一种铜转运药物可恢复记忆并清除阿尔茨海默病中的有毒蛋白质",
-          "url": "https://www.monash.edu/news/articles/copper-drug-restores-memory-and-clears-toxic-alzheimers-proteins",
-          "source": "www.monash.edu",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T17:17:20.353000Z"
-        },
-        {
-          "id": "2337675740d1f4ddc129ef43c60141ea3683f6d5",
-          "title": "銅轉運藥物可恢復記憶並清除有毒的阿茲海默症蛋白 / Copper transport drug restores memory and clears toxic Alzheimer's proteins",
-          "url": "https://news.ycombinator.com/item?id=48542132",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-15T16:49:26.851000Z"
-        },
-        {
-          "id": "e10f779bc9865156e80ff0bb2bc4f7961656d818",
-          "title": "一种铜转运药物可恢复记忆并清除阿尔茨海默病中的有毒蛋白质 / Copper transport drug restores memory and clears toxic Alzheimer's proteins",
-          "url": "https://www.monash.edu/news/articles/copper-drug-restores-memory-and-clears-toxic-alzheimers-proteins",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-06-15T14:48:47Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.2964,
-      "importance": 0.2964,
-      "importance_score": 0.2964,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 0.1213,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T14:48:47Z",
-      "latest_at": "2026-06-15T17:17:20.353000Z",
-      "primary_item": {
-        "id": "85ba210b2ace283115cdd3ee66bac160a60c1a66",
-        "title": "一种铜转运药物可恢复记忆并清除阿尔茨海默病中的有毒蛋白质",
-        "url": "https://www.monash.edu/news/articles/copper-drug-restores-memory-and-clears-toxic-alzheimers-proteins",
-        "source": "www.monash.edu",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_75a0ca685b0a",
-      "title": "Iroh 1.0 - 拨号键，而非 IP 地址",
-      "url": "https://www.iroh.computer/blog/v1",
-      "primary_url": "https://www.iroh.computer/blog/v1",
-      "source": "www.iroh.computer",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "51237cff362e7aa6721c3d64cf07a6464349f923",
-          "title": "Iroh 1.0 - 拨号键，而非 IP 地址",
-          "url": "https://www.iroh.computer/blog/v1",
-          "source": "www.iroh.computer",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T15:57:17.823000Z"
-        },
-        {
-          "id": "9c45e07365f2f58e0b039aa07976bfe9cdab06a5",
-          "title": "Iroh 1.0",
-          "url": "https://www.iroh.computer/blog/v1",
-          "source": "www.iroh.computer",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T15:57:17.274000Z"
-        },
-        {
-          "id": "11fda5957ee164d271b4d5da82d9006ab35cbd54",
-          "title": "Iroh 1.0 - 拨号键，而非 IP 地址 / Iroh 1.0 - Dial Keys, not IPs",
-          "url": "https://www.iroh.computer/blog/v1",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-15T15:35:08Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Lobsters (技术社区)",
-        "www.iroh.computer"
-      ],
-      "items": [
-        {
-          "id": "51237cff362e7aa6721c3d64cf07a6464349f923",
-          "title": "Iroh 1.0 - 拨号键，而非 IP 地址",
-          "url": "https://www.iroh.computer/blog/v1",
-          "source": "www.iroh.computer",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T15:57:17.823000Z"
-        },
-        {
-          "id": "9c45e07365f2f58e0b039aa07976bfe9cdab06a5",
-          "title": "Iroh 1.0",
-          "url": "https://www.iroh.computer/blog/v1",
-          "source": "www.iroh.computer",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T15:57:17.274000Z"
-        },
-        {
-          "id": "11fda5957ee164d271b4d5da82d9006ab35cbd54",
-          "title": "Iroh 1.0 - 拨号键，而非 IP 地址 / Iroh 1.0 - Dial Keys, not IPs",
-          "url": "https://www.iroh.computer/blog/v1",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-15T15:35:08Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.2797,
-      "importance": 0.2797,
-      "importance_score": 0.2797,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 0.0657,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T15:35:08Z",
-      "latest_at": "2026-06-15T15:57:17.823000Z",
-      "primary_item": {
-        "id": "51237cff362e7aa6721c3d64cf07a6464349f923",
-        "title": "Iroh 1.0 - 拨号键，而非 IP 地址",
-        "url": "https://www.iroh.computer/blog/v1",
-        "source": "www.iroh.computer",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_09a9cb996679",
-      "title": "Show HN：利用Slack的視訊嵌入實現E2EE通信 / Show HN: Exploiting Slack's video embeds to achieve E2EE communication",
-      "url": "https://news.ycombinator.com/item?id=48542970",
-      "primary_url": "https://news.ycombinator.com/item?id=48542970",
-      "source": "hackernews",
-      "source_name": "NewsNow",
-      "sources": [
-        {
-          "id": "893ed3f54a37bb1a3beca9e090f4bbfeebb82694",
-          "title": "Show HN：利用Slack的視訊嵌入實現E2EE通信 / Show HN: Exploiting Slack's video embeds to achieve E2EE communication",
-          "url": "https://news.ycombinator.com/item?id=48542970",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-15T16:49:26.851000Z"
-        },
-        {
-          "id": "657ff4538246e51c23753fc28b783469d278bbf6",
-          "title": "Show HN: 利用 Slack 的视频嵌入功能实现端到端加密通信",
-          "url": "https://v1c.rocks/log/exploiting-slack-video",
-          "source": "v1c.rocks",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T15:57:17.277000Z"
-        },
-        {
-          "id": "fa0b5ed9426af4ee730569b25318fd7ffd03bf66",
-          "title": "Show HN: 利用 Slack 的视频嵌入功能实现端到端加密通信 / Show HN: Exploiting Slack's video embeds to achieve E2EE communication",
-          "url": "https://v1c.rocks/log/exploiting-slack-video",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-15T15:43:17Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Hacker News",
-        "hackernews",
-        "v1c.rocks"
-      ],
-      "items": [
-        {
-          "id": "893ed3f54a37bb1a3beca9e090f4bbfeebb82694",
-          "title": "Show HN：利用Slack的視訊嵌入實現E2EE通信 / Show HN: Exploiting Slack's video embeds to achieve E2EE communication",
-          "url": "https://news.ycombinator.com/item?id=48542970",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-15T16:49:26.851000Z"
-        },
-        {
-          "id": "657ff4538246e51c23753fc28b783469d278bbf6",
-          "title": "Show HN: 利用 Slack 的视频嵌入功能实现端到端加密通信",
-          "url": "https://v1c.rocks/log/exploiting-slack-video",
-          "source": "v1c.rocks",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T15:57:17.277000Z"
-        },
-        {
-          "id": "fa0b5ed9426af4ee730569b25318fd7ffd03bf66",
-          "title": "Show HN: 利用 Slack 的视频嵌入功能实现端到端加密通信 / Show HN: Exploiting Slack's video embeds to achieve E2EE communication",
-          "url": "https://v1c.rocks/log/exploiting-slack-video",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-15T15:43:17Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.2906,
-      "importance": 0.2906,
-      "importance_score": 0.2906,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 0.1019,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T15:43:17Z",
-      "latest_at": "2026-06-15T16:49:26.851000Z",
-      "primary_item": {
-        "id": "893ed3f54a37bb1a3beca9e090f4bbfeebb82694",
-        "title": "Show HN：利用Slack的視訊嵌入實現E2EE通信 / Show HN: Exploiting Slack's video embeds to achieve E2EE communication",
-        "url": "https://news.ycombinator.com/item?id=48542970",
-        "source": "hackernews",
-        "source_name": "NewsNow"
-      }
-    },
-    {
-      "story_id": "story_9bec20878948",
-      "title": "在中国“最宜居”的城市，舒适与限制并存",
-      "url": "https://econ.st/4vU5sHa",
-      "primary_url": "https://econ.st/4vU5sHa",
-      "source": "econ.st",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "2c9792363be36e6ae44ed6cafa754bc1a4f991ae",
-          "title": "在中国“最宜居”的城市，舒适与限制并存",
-          "url": "https://econ.st/4vU5sHa",
-          "source": "econ.st",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T17:33:16.177000Z"
-        },
-        {
-          "id": "66fd85b4fc0f7e851836c359934df262ca30b37b",
-          "title": "在中国“最宜居”的城市，舒适与限制并存",
-          "url": "https://www.economist.com/china/2026/06/15/comfort-meets-constraint-in-chinas-most-liveable-city",
-          "source": "www.economist.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T16:45:24.824000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "econ.st",
-        "www.economist.com"
-      ],
-      "items": [
-        {
-          "id": "2c9792363be36e6ae44ed6cafa754bc1a4f991ae",
-          "title": "在中国“最宜居”的城市，舒适与限制并存",
-          "url": "https://econ.st/4vU5sHa",
-          "source": "econ.st",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T17:33:16.177000Z"
-        },
-        {
-          "id": "66fd85b4fc0f7e851836c359934df262ca30b37b",
-          "title": "在中国“最宜居”的城市，舒适与限制并存",
-          "url": "https://www.economist.com/china/2026/06/15/comfort-meets-constraint-in-chinas-most-liveable-city",
-          "source": "www.economist.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T16:45:24.824000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.2497,
-      "importance": 0.2497,
-      "importance_score": 0.2497,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 0.1323,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T16:45:24.824000Z",
-      "latest_at": "2026-06-15T17:33:16.177000Z",
-      "primary_item": {
-        "id": "2c9792363be36e6ae44ed6cafa754bc1a4f991ae",
-        "title": "在中国“最宜居”的城市，舒适与限制并存",
-        "url": "https://econ.st/4vU5sHa",
-        "source": "econ.st",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_de66b77da874",
-      "title": "好消息——在太阳终结地球生命之前，我们还有些时间",
-      "url": "https://arstechnica.com/science/2026/06/good-news-we-have-extra-time-before-the-sun-ends-life-on-earth",
-      "primary_url": "https://arstechnica.com/science/2026/06/good-news-we-have-extra-time-before-the-sun-ends-life-on-earth",
-      "source": "arstechnica.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "846b99c29d8ff96d2e408d4874e02f125d77f6ea",
-          "title": "好消息——在太阳终结地球生命之前，我们还有些时间",
-          "url": "https://arstechnica.com/science/2026/06/good-news-we-have-extra-time-before-the-sun-ends-life-on-earth",
-          "source": "arstechnica.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T17:33:16.386000Z"
-        },
-        {
-          "id": "ae418f32bb5f96ad9fc070674385f832df0cb2d1",
-          "title": "好消息——在太阳终结地球生命之前，我们还有些时间 / Good news—we have extra time before the Sun ends life on Earth",
-          "url": "https://arstechnica.com/science/2026/06/good-news-we-have-extra-time-before-the-sun-ends-life-on-earth",
-          "source": "Ars Technica",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-15T16:28:17Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Ars Technica",
-        "arstechnica.com"
-      ],
-      "items": [
-        {
-          "id": "846b99c29d8ff96d2e408d4874e02f125d77f6ea",
-          "title": "好消息——在太阳终结地球生命之前，我们还有些时间",
-          "url": "https://arstechnica.com/science/2026/06/good-news-we-have-extra-time-before-the-sun-ends-life-on-earth",
-          "source": "arstechnica.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T17:33:16.386000Z"
-        },
-        {
-          "id": "ae418f32bb5f96ad9fc070674385f832df0cb2d1",
-          "title": "好消息——在太阳终结地球生命之前，我们还有些时间 / Good news—we have extra time before the Sun ends life on Earth",
-          "url": "https://arstechnica.com/science/2026/06/good-news-we-have-extra-time-before-the-sun-ends-life-on-earth",
-          "source": "Ars Technica",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-15T16:28:17Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.2497,
-      "importance": 0.2497,
-      "importance_score": 0.2497,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 0.1323,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T16:28:17Z",
-      "latest_at": "2026-06-15T17:33:16.386000Z",
-      "primary_item": {
-        "id": "846b99c29d8ff96d2e408d4874e02f125d77f6ea",
-        "title": "好消息——在太阳终结地球生命之前，我们还有些时间",
-        "url": "https://arstechnica.com/science/2026/06/good-news-we-have-extra-time-before-the-sun-ends-life-on-earth",
-        "source": "arstechnica.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_9ecf2c3d709c",
-      "title": "某工厂首席执行官表示，他为30名员工每人购买了一张价值3,000美元的降温床垫套，以便“让他们在工作中更加精神”。",
-      "url": "https://www.businessinsider.com/factory-ceo-eight-sleep-matress-covers-employees-2026-6",
-      "primary_url": "https://www.businessinsider.com/factory-ceo-eight-sleep-matress-covers-employees-2026-6",
-      "source": "www.businessinsider.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "17993eeafff858ad8812b2c23bac848de5b4146c",
-          "title": "某工厂首席执行官表示，他为30名员工每人购买了一张价值3,000美元的降温床垫套，以便“让他们在工作中更加精神”。",
-          "url": "https://www.businessinsider.com/factory-ceo-eight-sleep-matress-covers-employees-2026-6",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T17:33:16.228000Z"
-        },
-        {
-          "id": "5b348be7a2aeb368782d5a8c0210bed45e4c73d2",
-          "title": "某工厂首席执行官表示，他为30名员工每人购买了一张价值3,000美元的降温床垫套，以便“让他们在工作中更加精神”。 / Factory CEO says he bought each of his 30 employees a $3,000 cooling mattress cover so 'they'll be sharper' at work",
-          "url": "https://www.businessinsider.com/factory-ceo-eight-sleep-matress-covers-employees-2026-6",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-15T16:52:00Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Business Insider",
-        "www.businessinsider.com"
-      ],
-      "items": [
-        {
-          "id": "17993eeafff858ad8812b2c23bac848de5b4146c",
-          "title": "某工厂首席执行官表示，他为30名员工每人购买了一张价值3,000美元的降温床垫套，以便“让他们在工作中更加精神”。",
-          "url": "https://www.businessinsider.com/factory-ceo-eight-sleep-matress-covers-employees-2026-6",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T17:33:16.228000Z"
-        },
-        {
-          "id": "5b348be7a2aeb368782d5a8c0210bed45e4c73d2",
-          "title": "某工厂首席执行官表示，他为30名员工每人购买了一张价值3,000美元的降温床垫套，以便“让他们在工作中更加精神”。 / Factory CEO says he bought each of his 30 employees a $3,000 cooling mattress cover so 'they'll be sharper' at work",
-          "url": "https://www.businessinsider.com/factory-ceo-eight-sleep-matress-covers-employees-2026-6",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-15T16:52:00Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.2497,
-      "importance": 0.2497,
-      "importance_score": 0.2497,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 0.1323,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T16:52:00Z",
-      "latest_at": "2026-06-15T17:33:16.228000Z",
-      "primary_item": {
-        "id": "17993eeafff858ad8812b2c23bac848de5b4146c",
-        "title": "某工厂首席执行官表示，他为30名员工每人购买了一张价值3,000美元的降温床垫套，以便“让他们在工作中更加精神”。",
-        "url": "https://www.businessinsider.com/factory-ceo-eight-sleep-matress-covers-employees-2026-6",
-        "source": "www.businessinsider.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_c5321d4002b7",
-      "title": "消息人士称，英伟达将通过五年来的首次企业债券发行筹集200亿美元 - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOb3J6OUR4dG9YbWJEWmwzYkQ1SVpMOHFiQU9PMmYweDJ6N0R0dUhmNmt6THBkdlFxMHhUcDA1OFFwSktsNUQ4c3N2WW9ZU0J1YTZHYk95RVc0c25mV3Bqd0kyVEJNMUQ1U2FvSUt4Z1N2a1BMTXJJRHRyWnJRV2J4cGY4NktrTVgzdHVQWXBGZ3hDSnAzb3RJR0FWUXRjUEdkejJXMTh3dWhINWFrQ3RtMmxINTVrOERqVGctZXJCVF9RRDd2OEtWdg?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-      "primary_url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOb3J6OUR4dG9YbWJEWmwzYkQ1SVpMOHFiQU9PMmYweDJ6N0R0dUhmNmt6THBkdlFxMHhUcDA1OFFwSktsNUQ4c3N2WW9ZU0J1YTZHYk95RVc0c25mV3Bqd0kyVEJNMUQ1U2FvSUt4Z1N2a1BMTXJJRHRyWnJRV2J4cGY4NktrTVgzdHVQWXBGZ3hDSnAzb3RJR0FWUXRjUEdkejJXMTh3dWhINWFrQ3RtMmxINTVrOERqVGctZXJCVF9RRDd2OEtWdg?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-      "source": "news.google.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "550a7f526a2ae965097f99bbed7e3bf2b8c2ca41",
-          "title": "消息人士称，英伟达将通过五年来的首次企业债券发行筹集200亿美元 - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOb3J6OUR4dG9YbWJEWmwzYkQ1SVpMOHFiQU9PMmYweDJ6N0R0dUhmNmt6THBkdlFxMHhUcDA1OFFwSktsNUQ4c3N2WW9ZU0J1YTZHYk95RVc0c25mV3Bqd0kyVEJNMUQ1U2FvSUt4Z1N2a1BMTXJJRHRyWnJRV2J4cGY4NktrTVgzdHVQWXBGZ3hDSnAzb3RJR0FWUXRjUEdkejJXMTh3dWhINWFrQ3RtMmxINTVrOERqVGctZXJCVF9RRDd2OEtWdg?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-          "source": "news.google.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T17:33:16.181000Z"
-        },
-        {
-          "id": "6ae75ee73e7fc27f828d24048884aa82b24e9f6f",
-          "title": "消息人士称，英伟达将通过五年来的首次企业债券发行筹集200亿美元",
-          "url": "https://reut.rs/4org7X8",
-          "source": "reut.rs",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T16:45:24.673000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "news.google.com",
-        "reut.rs"
-      ],
-      "items": [
-        {
-          "id": "550a7f526a2ae965097f99bbed7e3bf2b8c2ca41",
-          "title": "消息人士称，英伟达将通过五年来的首次企业债券发行筹集200亿美元 - Reuters",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOb3J6OUR4dG9YbWJEWmwzYkQ1SVpMOHFiQU9PMmYweDJ6N0R0dUhmNmt6THBkdlFxMHhUcDA1OFFwSktsNUQ4c3N2WW9ZU0J1YTZHYk95RVc0c25mV3Bqd0kyVEJNMUQ1U2FvSUt4Z1N2a1BMTXJJRHRyWnJRV2J4cGY4NktrTVgzdHVQWXBGZ3hDSnAzb3RJR0FWUXRjUEdkejJXMTh3dWhINWFrQ3RtMmxINTVrOERqVGctZXJCVF9RRDd2OEtWdg?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-          "source": "news.google.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T17:33:16.181000Z"
-        },
-        {
-          "id": "6ae75ee73e7fc27f828d24048884aa82b24e9f6f",
-          "title": "消息人士称，英伟达将通过五年来的首次企业债券发行筹集200亿美元",
-          "url": "https://reut.rs/4org7X8",
-          "source": "reut.rs",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T16:45:24.673000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.2497,
-      "importance": 0.2497,
-      "importance_score": 0.2497,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 0.1323,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T16:45:24.673000Z",
-      "latest_at": "2026-06-15T17:33:16.181000Z",
-      "primary_item": {
-        "id": "550a7f526a2ae965097f99bbed7e3bf2b8c2ca41",
-        "title": "消息人士称，英伟达将通过五年来的首次企业债券发行筹集200亿美元 - Reuters",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOb3J6OUR4dG9YbWJEWmwzYkQ1SVpMOHFiQU9PMmYweDJ6N0R0dUhmNmt6THBkdlFxMHhUcDA1OFFwSktsNUQ4c3N2WW9ZU0J1YTZHYk95RVc0c25mV3Bqd0kyVEJNMUQ1U2FvSUt4Z1N2a1BMTXJJRHRyWnJRV2J4cGY4NktrTVgzdHVQWXBGZ3hDSnAzb3RJR0FWUXRjUEdkejJXMTh3dWhINWFrQ3RtMmxINTVrOERqVGctZXJCVF9RRDd2OEtWdg?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-        "source": "news.google.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_aebcf646f3db",
-      "title": "无国界医生组织工作人员在“以性换粮”丑闻中虐待苏丹难民",
-      "url": "https://www.bbc.com/news/articles/c74ykjl8mx3o?at_medium=RSS&at_campaign=rss",
-      "primary_url": "https://www.bbc.com/news/articles/c74ykjl8mx3o?at_medium=RSS&at_campaign=rss",
-      "source": "www.bbc.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "147b4014c9fe24432adc2c2b40dd13e2e3b49857",
-          "title": "无国界医生组织工作人员在“以性换粮”丑闻中虐待苏丹难民",
-          "url": "https://www.bbc.com/news/articles/c74ykjl8mx3o?at_medium=RSS&at_campaign=rss",
-          "source": "www.bbc.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T17:17:21.575000Z"
-        },
-        {
-          "id": "ce9b6b3c841d71cddfdc1b36f6fa7a1313cbe6fc",
-          "title": "无国界医生组织工作人员在“以性换粮”丑闻中虐待苏丹难民 / MSF staff abused Sudanese refugees in sex-for-food scandal",
-          "url": "https://www.bbc.com/news/articles/c74ykjl8mx3o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News (世界新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-15T16:32:48Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "BBC News (世界新闻)",
-        "www.bbc.com"
-      ],
-      "items": [
-        {
-          "id": "147b4014c9fe24432adc2c2b40dd13e2e3b49857",
-          "title": "无国界医生组织工作人员在“以性换粮”丑闻中虐待苏丹难民",
-          "url": "https://www.bbc.com/news/articles/c74ykjl8mx3o?at_medium=RSS&at_campaign=rss",
-          "source": "www.bbc.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T17:17:21.575000Z"
-        },
-        {
-          "id": "ce9b6b3c841d71cddfdc1b36f6fa7a1313cbe6fc",
-          "title": "无国界医生组织工作人员在“以性换粮”丑闻中虐待苏丹难民 / MSF staff abused Sudanese refugees in sex-for-food scandal",
-          "url": "https://www.bbc.com/news/articles/c74ykjl8mx3o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News (世界新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-15T16:32:48Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.2464,
-      "importance": 0.2464,
-      "importance_score": 0.2464,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 0.1213,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T16:32:48Z",
-      "latest_at": "2026-06-15T17:17:21.575000Z",
-      "primary_item": {
-        "id": "147b4014c9fe24432adc2c2b40dd13e2e3b49857",
-        "title": "无国界医生组织工作人员在“以性换粮”丑闻中虐待苏丹难民",
-        "url": "https://www.bbc.com/news/articles/c74ykjl8mx3o?at_medium=RSS&at_campaign=rss",
-        "source": "www.bbc.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_f6fd7d7e12f3",
-      "title": "MONOLITH：一款面向 x86 架构的实验性非 Unix 操作系统",
-      "url": "https://codeberg.org/MONOLITH-Project/MONOLITH",
-      "primary_url": "https://codeberg.org/MONOLITH-Project/MONOLITH",
-      "source": "codeberg.org",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "36c57aae61c39cb63453d8205f5d0bd242b7a984",
-          "title": "MONOLITH：一款面向 x86 架构的实验性非 Unix 操作系统",
-          "url": "https://codeberg.org/MONOLITH-Project/MONOLITH",
-          "source": "codeberg.org",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T17:01:18.869000Z"
-        },
-        {
-          "id": "1b104e13f037dd1dcfb81528d793564bfd9d0303",
-          "title": "MONOLITH：一款面向 x86 架构的实验性非 Unix 操作系统 / MONOLITH: An experimental non-Unix operating system for x86",
-          "url": "https://codeberg.org/MONOLITH-Project/MONOLITH",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-15T16:54:04Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Lobsters (技术社区)",
-        "codeberg.org"
-      ],
-      "items": [
-        {
-          "id": "36c57aae61c39cb63453d8205f5d0bd242b7a984",
-          "title": "MONOLITH：一款面向 x86 架构的实验性非 Unix 操作系统",
-          "url": "https://codeberg.org/MONOLITH-Project/MONOLITH",
-          "source": "codeberg.org",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T17:01:18.869000Z"
-        },
-        {
-          "id": "1b104e13f037dd1dcfb81528d793564bfd9d0303",
-          "title": "MONOLITH：一款面向 x86 架构的实验性非 Unix 操作系统 / MONOLITH: An experimental non-Unix operating system for x86",
-          "url": "https://codeberg.org/MONOLITH-Project/MONOLITH",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-15T16:54:04Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.243,
-      "importance": 0.243,
-      "importance_score": 0.243,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 0.1102,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T16:54:04Z",
-      "latest_at": "2026-06-15T17:01:18.869000Z",
-      "primary_item": {
-        "id": "36c57aae61c39cb63453d8205f5d0bd242b7a984",
-        "title": "MONOLITH：一款面向 x86 架构的实验性非 Unix 操作系统",
-        "url": "https://codeberg.org/MONOLITH-Project/MONOLITH",
-        "source": "codeberg.org",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_48d0df19f2cb",
-      "title": "CrankGPT — 基于本地人力支持的人工智能",
-      "url": "https://crankgpt.com",
-      "primary_url": "https://crankgpt.com",
-      "source": "crankgpt.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "2906793ca29f1c800d6d2ab9636f63e54bbb5c39",
-          "title": "CrankGPT — 基于本地人力支持的人工智能",
-          "url": "https://crankgpt.com",
-          "source": "crankgpt.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T16:45:24.007000Z"
-        },
-        {
-          "id": "0458cc80bb732979cfcb93cdbbffe62c420d6d7b",
-          "title": "CrankGPT — 基于本地人力支持的人工智能 / CrankGPT",
-          "url": "https://crankgpt.com",
-          "source": "crankgpt.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T15:09:19.779000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "crankgpt.com"
-      ],
-      "items": [
-        {
-          "id": "2906793ca29f1c800d6d2ab9636f63e54bbb5c39",
-          "title": "CrankGPT — 基于本地人力支持的人工智能",
-          "url": "https://crankgpt.com",
-          "source": "crankgpt.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T16:45:24.007000Z"
-        },
-        {
-          "id": "0458cc80bb732979cfcb93cdbbffe62c420d6d7b",
-          "title": "CrankGPT — 基于本地人力支持的人工智能 / CrankGPT",
-          "url": "https://crankgpt.com",
-          "source": "crankgpt.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T15:09:19.779000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.2397,
-      "importance": 0.2397,
-      "importance_score": 0.2397,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 0.0991,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T15:09:19.779000Z",
-      "latest_at": "2026-06-15T16:45:24.007000Z",
-      "primary_item": {
-        "id": "2906793ca29f1c800d6d2ab9636f63e54bbb5c39",
-        "title": "CrankGPT — 基于本地人力支持的人工智能",
-        "url": "https://crankgpt.com",
-        "source": "crankgpt.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_333634e5522f",
-      "title": "Emacs，一切的开始（对我而言）",
-      "url": "https://xvw.lol/en/articles/emacs-start.html",
-      "primary_url": "https://xvw.lol/en/articles/emacs-start.html",
-      "source": "xvw.lol",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "3a51e1625d32a3c5498bd0c4de306f80602db386",
-          "title": "Emacs，一切的开始（对我而言）",
-          "url": "https://xvw.lol/en/articles/emacs-start.html",
-          "source": "xvw.lol",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T15:41:25.261000Z"
-        },
-        {
-          "id": "628d4254ca427b64348309138bf25e15fabc76e7",
-          "title": "Emacs，一切的开始（对我而言） / Emacs, how it all started (for me)",
-          "url": "https://xvw.lol/en/articles/emacs-start.html",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-15T15:31:34Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Lobsters (技术社区)",
-        "xvw.lol"
-      ],
-      "items": [
-        {
-          "id": "3a51e1625d32a3c5498bd0c4de306f80602db386",
-          "title": "Emacs，一切的开始（对我而言）",
-          "url": "https://xvw.lol/en/articles/emacs-start.html",
-          "source": "xvw.lol",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T15:41:25.261000Z"
-        },
-        {
-          "id": "628d4254ca427b64348309138bf25e15fabc76e7",
-          "title": "Emacs，一切的开始（对我而言） / Emacs, how it all started (for me)",
-          "url": "https://xvw.lol/en/articles/emacs-start.html",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-15T15:31:34Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.2264,
-      "importance": 0.2264,
-      "importance_score": 0.2264,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 0.0547,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T15:31:34Z",
-      "latest_at": "2026-06-15T15:41:25.261000Z",
-      "primary_item": {
-        "id": "3a51e1625d32a3c5498bd0c4de306f80602db386",
-        "title": "Emacs，一切的开始（对我而言）",
-        "url": "https://xvw.lol/en/articles/emacs-start.html",
-        "source": "xvw.lol",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_7ed59d42f23d",
-      "title": "英特尔Mac问世20年：苹果为何转投英特尔，又为何再次转投",
-      "url": "https://arstechnica.com/gadgets/2026/06/20-years-of-intel-macs-why-apple-switched-and-why-it-switched-again",
-      "primary_url": "https://arstechnica.com/gadgets/2026/06/20-years-of-intel-macs-why-apple-switched-and-why-it-switched-again",
-      "source": "arstechnica.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "9d988182500d011a691f89aeb3a34a3d701ebf55",
-          "title": "英特尔Mac问世20年：苹果为何转投英特尔，又为何再次转投",
-          "url": "https://arstechnica.com/gadgets/2026/06/20-years-of-intel-macs-why-apple-switched-and-why-it-switched-again",
-          "source": "arstechnica.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T17:33:16.389000Z"
-        },
-        {
-          "id": "d903fb2e7380df536a02a92f10373cf48f70f005",
-          "title": "英特尔Mac问世20年：苹果为何转投英特尔，又为何再次转投 / 20 years of Intel Macs: Why Apple switched, and why it switched again",
-          "url": "https://arstechnica.com/gadgets/2026/06/20-years-of-intel-macs-why-apple-switched-and-why-it-switched-again",
-          "source": "Ars Technica",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-15T16:32:14Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Ars Technica",
-        "arstechnica.com"
-      ],
-      "items": [
-        {
-          "id": "9d988182500d011a691f89aeb3a34a3d701ebf55",
-          "title": "英特尔Mac问世20年：苹果为何转投英特尔，又为何再次转投",
-          "url": "https://arstechnica.com/gadgets/2026/06/20-years-of-intel-macs-why-apple-switched-and-why-it-switched-again",
-          "source": "arstechnica.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T17:33:16.389000Z"
-        },
-        {
-          "id": "d903fb2e7380df536a02a92f10373cf48f70f005",
-          "title": "英特尔Mac问世20年：苹果为何转投英特尔，又为何再次转投 / 20 years of Intel Macs: Why Apple switched, and why it switched again",
-          "url": "https://arstechnica.com/gadgets/2026/06/20-years-of-intel-macs-why-apple-switched-and-why-it-switched-again",
-          "source": "Ars Technica",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-15T16:32:14Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.2497,
-      "importance": 0.2497,
-      "importance_score": 0.2497,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 0.1323,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T16:32:14Z",
-      "latest_at": "2026-06-15T17:33:16.389000Z",
-      "primary_item": {
-        "id": "9d988182500d011a691f89aeb3a34a3d701ebf55",
-        "title": "英特尔Mac问世20年：苹果为何转投英特尔，又为何再次转投",
-        "url": "https://arstechnica.com/gadgets/2026/06/20-years-of-intel-macs-why-apple-switched-and-why-it-switched-again",
-        "source": "arstechnica.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_9b923bf1f10f",
-      "title": "这张图表显示，福克斯收购Roku后，将形成一家流媒体巨头，其电视观众数量将超过Netflix",
-      "url": "https://www.businessinsider.com/fox-roku-deal-free-streaming-tv-viewership-hollywood-netflix-disney-2026-6",
-      "primary_url": "https://www.businessinsider.com/fox-roku-deal-free-streaming-tv-viewership-hollywood-netflix-disney-2026-6",
-      "source": "www.businessinsider.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "46a65957f27ad4a41406201cfe1fb1202758c95a",
-          "title": "这张图表显示，福克斯收购Roku后，将形成一家流媒体巨头，其电视观众数量将超过Netflix",
-          "url": "https://www.businessinsider.com/fox-roku-deal-free-streaming-tv-viewership-hollywood-netflix-disney-2026-6",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T16:45:24.687000Z"
-        },
-        {
-          "id": "deed44c1b48b944ad8ec4114a6ce0f6d4e11189d",
-          "title": "这张图表显示，福克斯收购Roku后，将形成一家流媒体巨头，其电视观众数量将超过Netflix / This chart shows how Fox buying Roku could create a media giant with more US TV viewership than Netflix",
-          "url": "https://www.businessinsider.com/fox-roku-deal-free-streaming-tv-viewership-hollywood-netflix-disney-2026-6",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-15T16:19:49Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Business Insider",
-        "www.businessinsider.com"
-      ],
-      "items": [
-        {
-          "id": "46a65957f27ad4a41406201cfe1fb1202758c95a",
-          "title": "这张图表显示，福克斯收购Roku后，将形成一家流媒体巨头，其电视观众数量将超过Netflix",
-          "url": "https://www.businessinsider.com/fox-roku-deal-free-streaming-tv-viewership-hollywood-netflix-disney-2026-6",
-          "source": "www.businessinsider.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T16:45:24.687000Z"
-        },
-        {
-          "id": "deed44c1b48b944ad8ec4114a6ce0f6d4e11189d",
-          "title": "这张图表显示，福克斯收购Roku后，将形成一家流媒体巨头，其电视观众数量将超过Netflix / This chart shows how Fox buying Roku could create a media giant with more US TV viewership than Netflix",
-          "url": "https://www.businessinsider.com/fox-roku-deal-free-streaming-tv-viewership-hollywood-netflix-disney-2026-6",
-          "source": "Business Insider",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-06-15T16:19:49Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.2397,
-      "importance": 0.2397,
-      "importance_score": 0.2397,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 0.0991,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T16:19:49Z",
-      "latest_at": "2026-06-15T16:45:24.687000Z",
-      "primary_item": {
-        "id": "46a65957f27ad4a41406201cfe1fb1202758c95a",
-        "title": "这张图表显示，福克斯收购Roku后，将形成一家流媒体巨头，其电视观众数量将超过Netflix",
-        "url": "https://www.businessinsider.com/fox-roku-deal-free-streaming-tv-viewership-hollywood-netflix-disney-2026-6",
-        "source": "www.businessinsider.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_363debb0e8a0",
-      "title": "官员称，加沙地带巴勒斯坦人死亡人数已超过7.3万，而以色列在停火期间仍继续发动袭击 - PBS",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOOW5Bd29BMzMwWkt0SG9nOVBLTlV2eFltX3NwV0F4eFFMZmhlQU5vMTZ0UWpxdmN0blJhLXc3ZWxPV2wyTGMyLU42VVozb3lvLS1qVFBCUl9HZ043bmNveW1vdDgwQkZtYlRxSlBHOU1jWmw4UDloREVmTjVLVzZFZTJhSzRxLTJJV2duU2RWbDhDcUYwUGxxUnl0eTFEQVBEVjlHWGRFdFBEZDctR0Ixd3NzcGdlUm8wc0c0bDF3X1Zfb2pJ0gHKAUFVX3lxTE1WZ1d2aFdEaFA1cXFaQUV5eWE5cVkyM0ZmNVBfeGJmOXo3MkJZTDJYTGVvcHFXSk9nSk9LN2ctOFRadV8zNUQwX0luUzd2dWJnMWlvNEV2d2xyR09qUmdINlZVRnhZeDQxWC02MC1UOVhnQXdxekVoZkdBNnBZOXpMQWJJNFBkQmRQNGNnMzdwaEZLVzJEWkxoTnJOWXJoY1NwVjIxcDVRMjcwLWZJelNLRVI5eFFxcVRyQU54X2RpeEFlRWlEMExiM2c?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-      "primary_url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOOW5Bd29BMzMwWkt0SG9nOVBLTlV2eFltX3NwV0F4eFFMZmhlQU5vMTZ0UWpxdmN0blJhLXc3ZWxPV2wyTGMyLU42VVozb3lvLS1qVFBCUl9HZ043bmNveW1vdDgwQkZtYlRxSlBHOU1jWmw4UDloREVmTjVLVzZFZTJhSzRxLTJJV2duU2RWbDhDcUYwUGxxUnl0eTFEQVBEVjlHWGRFdFBEZDctR0Ixd3NzcGdlUm8wc0c0bDF3X1Zfb2pJ0gHKAUFVX3lxTE1WZ1d2aFdEaFA1cXFaQUV5eWE5cVkyM0ZmNVBfeGJmOXo3MkJZTDJYTGVvcHFXSk9nSk9LN2ctOFRadV8zNUQwX0luUzd2dWJnMWlvNEV2d2xyR09qUmdINlZVRnhZeDQxWC02MC1UOVhnQXdxekVoZkdBNnBZOXpMQWJJNFBkQmRQNGNnMzdwaEZLVzJEWkxoTnJOWXJoY1NwVjIxcDVRMjcwLWZJelNLRVI5eFFxcVRyQU54X2RpeEFlRWlEMExiM2c?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-      "source": "news.google.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "a01ac300fff4a6fb3100756cf15905ec94498f2b",
-          "title": "官员称，加沙地带巴勒斯坦人死亡人数已超过7.3万，而以色列在停火期间仍继续发动袭击 - PBS",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOOW5Bd29BMzMwWkt0SG9nOVBLTlV2eFltX3NwV0F4eFFMZmhlQU5vMTZ0UWpxdmN0blJhLXc3ZWxPV2wyTGMyLU42VVozb3lvLS1qVFBCUl9HZ043bmNveW1vdDgwQkZtYlRxSlBHOU1jWmw4UDloREVmTjVLVzZFZTJhSzRxLTJJV2duU2RWbDhDcUYwUGxxUnl0eTFEQVBEVjlHWGRFdFBEZDctR0Ixd3NzcGdlUm8wc0c0bDF3X1Zfb2pJ0gHKAUFVX3lxTE1WZ1d2aFdEaFA1cXFaQUV5eWE5cVkyM0ZmNVBfeGJmOXo3MkJZTDJYTGVvcHFXSk9nSk9LN2ctOFRadV8zNUQwX0luUzd2dWJnMWlvNEV2d2xyR09qUmdINlZVRnhZeDQxWC02MC1UOVhnQXdxekVoZkdBNnBZOXpMQWJJNFBkQmRQNGNnMzdwaEZLVzJEWkxoTnJOWXJoY1NwVjIxcDVRMjcwLWZJelNLRVI5eFFxcVRyQU54X2RpeEFlRWlEMExiM2c?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-          "source": "news.google.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T16:29:18.468000Z"
-        },
-        {
-          "id": "d6f8a05ed1e22f01c6968ff7ad442b6c1a9ea5f5",
-          "title": "官员称，加沙地带巴勒斯坦人死亡人数已超过7.3万，尽管已达成停火协议，以色列仍继续发动袭击 - PBS",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOOW5Bd29BMzMwWkt0SG9nOVBLTlV2eFltX3NwV0F4eFFMZmhlQU5vMTZ0UWpxdmN0blJhLXc3ZWxPV2wyTGMyLU42VVozb3lvLS1qVFBCUl9HZ043bmNveW1vdDgwQkZtYlRxSlBHOU1jWmw4UDloREVmTjVLVzZFZTJhSzRxLTJJV2duU2RWbDhDcUYwUGxxUnl0eTFEQVBEVjlHWGRFdFBEZDctR0Ixd3NzcGdlUm8wc0c0bDF3X1Zfb2pJ0gHKAUFVX3lxTE1WZ1d2aFdEaFA1cXFaQUV5eWE5cVkyM0ZmNVBfeGJmOXo3MkJZTDJYTGVvcHFXSk9nSk9LN2ctOFRadV8zNUQwX0luUzd2dWJnMWlvNEV2d2xyR09qUmdINlZVRnhZeDQxWC02MC1UOVhnQXdxekVoZkdBNnBZOXpMQWJJNFBkQmRQNGNnMzdwaEZLVzJEWkxoTnJOWXJoY1NwVjIxcDVRMjcwLWZJelNLRVI5eFFxcVRyQU54X2RpeEFlRWlEMExiM2c?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-          "source": "news.google.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T16:29:18.333000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "news.google.com"
-      ],
-      "items": [
-        {
-          "id": "a01ac300fff4a6fb3100756cf15905ec94498f2b",
-          "title": "官员称，加沙地带巴勒斯坦人死亡人数已超过7.3万，而以色列在停火期间仍继续发动袭击 - PBS",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOOW5Bd29BMzMwWkt0SG9nOVBLTlV2eFltX3NwV0F4eFFMZmhlQU5vMTZ0UWpxdmN0blJhLXc3ZWxPV2wyTGMyLU42VVozb3lvLS1qVFBCUl9HZ043bmNveW1vdDgwQkZtYlRxSlBHOU1jWmw4UDloREVmTjVLVzZFZTJhSzRxLTJJV2duU2RWbDhDcUYwUGxxUnl0eTFEQVBEVjlHWGRFdFBEZDctR0Ixd3NzcGdlUm8wc0c0bDF3X1Zfb2pJ0gHKAUFVX3lxTE1WZ1d2aFdEaFA1cXFaQUV5eWE5cVkyM0ZmNVBfeGJmOXo3MkJZTDJYTGVvcHFXSk9nSk9LN2ctOFRadV8zNUQwX0luUzd2dWJnMWlvNEV2d2xyR09qUmdINlZVRnhZeDQxWC02MC1UOVhnQXdxekVoZkdBNnBZOXpMQWJJNFBkQmRQNGNnMzdwaEZLVzJEWkxoTnJOWXJoY1NwVjIxcDVRMjcwLWZJelNLRVI5eFFxcVRyQU54X2RpeEFlRWlEMExiM2c?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-          "source": "news.google.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T16:29:18.468000Z"
-        },
-        {
-          "id": "d6f8a05ed1e22f01c6968ff7ad442b6c1a9ea5f5",
-          "title": "官员称，加沙地带巴勒斯坦人死亡人数已超过7.3万，尽管已达成停火协议，以色列仍继续发动袭击 - PBS",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOOW5Bd29BMzMwWkt0SG9nOVBLTlV2eFltX3NwV0F4eFFMZmhlQU5vMTZ0UWpxdmN0blJhLXc3ZWxPV2wyTGMyLU42VVozb3lvLS1qVFBCUl9HZ043bmNveW1vdDgwQkZtYlRxSlBHOU1jWmw4UDloREVmTjVLVzZFZTJhSzRxLTJJV2duU2RWbDhDcUYwUGxxUnl0eTFEQVBEVjlHWGRFdFBEZDctR0Ixd3NzcGdlUm8wc0c0bDF3X1Zfb2pJ0gHKAUFVX3lxTE1WZ1d2aFdEaFA1cXFaQUV5eWE5cVkyM0ZmNVBfeGJmOXo3MkJZTDJYTGVvcHFXSk9nSk9LN2ctOFRadV8zNUQwX0luUzd2dWJnMWlvNEV2d2xyR09qUmdINlZVRnhZeDQxWC02MC1UOVhnQXdxekVoZkdBNnBZOXpMQWJJNFBkQmRQNGNnMzdwaEZLVzJEWkxoTnJOWXJoY1NwVjIxcDVRMjcwLWZJelNLRVI5eFFxcVRyQU54X2RpeEFlRWlEMExiM2c?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-          "source": "news.google.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T16:29:18.333000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.2364,
-      "importance": 0.2364,
-      "importance_score": 0.2364,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 0.0879,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T16:29:18.333000Z",
-      "latest_at": "2026-06-15T16:29:18.468000Z",
-      "primary_item": {
-        "id": "a01ac300fff4a6fb3100756cf15905ec94498f2b",
-        "title": "官员称，加沙地带巴勒斯坦人死亡人数已超过7.3万，而以色列在停火期间仍继续发动袭击 - PBS",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOOW5Bd29BMzMwWkt0SG9nOVBLTlV2eFltX3NwV0F4eFFMZmhlQU5vMTZ0UWpxdmN0blJhLXc3ZWxPV2wyTGMyLU42VVozb3lvLS1qVFBCUl9HZ043bmNveW1vdDgwQkZtYlRxSlBHOU1jWmw4UDloREVmTjVLVzZFZTJhSzRxLTJJV2duU2RWbDhDcUYwUGxxUnl0eTFEQVBEVjlHWGRFdFBEZDctR0Ixd3NzcGdlUm8wc0c0bDF3X1Zfb2pJ0gHKAUFVX3lxTE1WZ1d2aFdEaFA1cXFaQUV5eWE5cVkyM0ZmNVBfeGJmOXo3MkJZTDJYTGVvcHFXSk9nSk9LN2ctOFRadV8zNUQwX0luUzd2dWJnMWlvNEV2d2xyR09qUmdINlZVRnhZeDQxWC02MC1UOVhnQXdxekVoZkdBNnBZOXpMQWJJNFBkQmRQNGNnMzdwaEZLVzJEWkxoTnJOWXJoY1NwVjIxcDVRMjcwLWZJelNLRVI5eFFxcVRyQU54X2RpeEFlRWlEMExiM2c?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-        "source": "news.google.com",
-        "source_name": "Buzzing"
-      }
-    },
-    {
-      "story_id": "story_494e167cfa1b",
-      "title": "Rust 和 C/C++ 之間的記憶體安全 CVE 有所不同 / Memory safety CVEs differ between Rust and C/C++",
-      "url": "https://news.ycombinator.com/item?id=48543392",
-      "primary_url": "https://news.ycombinator.com/item?id=48543392",
-      "source": "hackernews",
-      "source_name": "NewsNow",
-      "sources": [
-        {
-          "id": "5a3079571edcd7d213e9b4d45c29e005c4069d64",
-          "title": "Rust 和 C/C++ 之間的記憶體安全 CVE 有所不同 / Memory safety CVEs differ between Rust and C/C++",
-          "url": "https://news.ycombinator.com/item?id=48543392",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-15T17:51:54.299000Z"
-        },
-        {
-          "id": "b0e170abd0586dfd8a02313095f6e5cf5d13a9f1",
-          "title": "Rust 和 C/C++ 之間的記憶體安全 CVE 有所不同 / Memory safety CVEs differ between Rust and C/C++",
-          "url": "https://kobzol.github.io/rust/2026/06/15/how-memory-safety-cves-differ-between-rust-and-c-cpp.html",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-15T16:11:02Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News (黑客新闻)",
-        "hackernews"
-      ],
-      "items": [
-        {
-          "id": "5a3079571edcd7d213e9b4d45c29e005c4069d64",
-          "title": "Rust 和 C/C++ 之間的記憶體安全 CVE 有所不同 / Memory safety CVEs differ between Rust and C/C++",
-          "url": "https://news.ycombinator.com/item?id=48543392",
-          "source": "hackernews",
-          "source_name": "NewsNow",
-          "site_id": "newsnow",
-          "published_at": "2026-06-15T17:51:54.299000Z"
-        },
-        {
-          "id": "b0e170abd0586dfd8a02313095f6e5cf5d13a9f1",
-          "title": "Rust 和 C/C++ 之間的記憶體安全 CVE 有所不同 / Memory safety CVEs differ between Rust and C/C++",
-          "url": "https://kobzol.github.io/rust/2026/06/15/how-memory-safety-cves-differ-between-rust-and-c-cpp.html",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-15T16:11:02Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.2536,
-      "importance": 0.2536,
-      "importance_score": 0.2536,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 0.1453,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T16:11:02Z",
-      "latest_at": "2026-06-15T17:51:54.299000Z",
-      "primary_item": {
-        "id": "5a3079571edcd7d213e9b4d45c29e005c4069d64",
-        "title": "Rust 和 C/C++ 之間的記憶體安全 CVE 有所不同 / Memory safety CVEs differ between Rust and C/C++",
-        "url": "https://news.ycombinator.com/item?id=48543392",
-        "source": "hackernews",
-        "source_name": "NewsNow"
-      }
-    },
-    {
-      "story_id": "story_cbfd01ce0a19",
-      "title": "鲍文：伊朗核协议结束了特朗普的战争，这场战争暴露了美国霸权的局限性",
-      "url": "https://www.bbc.com/news/articles/cdr4x3vg347o?at_medium=RSS&at_campaign=rss",
-      "primary_url": "https://www.bbc.com/news/articles/cdr4x3vg347o?at_medium=RSS&at_campaign=rss",
-      "source": "www.bbc.com",
-      "source_name": "Buzzing",
-      "sources": [
-        {
-          "id": "98635bb33d805ce18b41d7fe9e332eb66137b5f4",
-          "title": "鲍文：伊朗核协议结束了特朗普的战争，这场战争暴露了美国霸权的局限性",
-          "url": "https://www.bbc.com/news/articles/cdr4x3vg347o?at_medium=RSS&at_campaign=rss",
-          "source": "www.bbc.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T14:37:12.741000Z"
-        },
-        {
-          "id": "8d4a7b5c2940a45fc1b926119c579adee88b9f38",
-          "title": "鲍文：伊朗核协议结束了特朗普的战争，这场战争暴露了美国霸权的局限性 / Bowen: Iran deal ends Trump's war that revealed limit of US dominance",
-          "url": "https://www.bbc.com/news/articles/cdr4x3vg347o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News (世界新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-15T14:26:28Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "BBC News (世界新闻)",
-        "www.bbc.com"
-      ],
-      "items": [
-        {
-          "id": "98635bb33d805ce18b41d7fe9e332eb66137b5f4",
-          "title": "鲍文：伊朗核协议结束了特朗普的战争，这场战争暴露了美国霸权的局限性",
-          "url": "https://www.bbc.com/news/articles/cdr4x3vg347o?at_medium=RSS&at_campaign=rss",
-          "source": "www.bbc.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-15T14:37:12.741000Z"
-        },
-        {
-          "id": "8d4a7b5c2940a45fc1b926119c579adee88b9f38",
-          "title": "鲍文：伊朗核协议结束了特朗普的战争，这场战争暴露了美国霸权的局限性 / Bowen: Iran deal ends Trump's war that revealed limit of US dominance",
-          "url": "https://www.bbc.com/news/articles/cdr4x3vg347o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC News (世界新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-15T14:26:28Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.213,
-      "importance": 0.213,
-      "importance_score": 0.213,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.32,
-        "recency": 0.0101,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-15T14:26:28Z",
-      "latest_at": "2026-06-15T14:37:12.741000Z",
-      "primary_item": {
-        "id": "98635bb33d805ce18b41d7fe9e332eb66137b5f4",
-        "title": "鲍文：伊朗核协议结束了特朗普的战争，这场战争暴露了美国霸权的局限性",
-        "url": "https://www.bbc.com/news/articles/cdr4x3vg347o?at_medium=RSS&at_campaign=rss",
-        "source": "www.bbc.com",
-        "source_name": "Buzzing"
       }
     }
   ]
