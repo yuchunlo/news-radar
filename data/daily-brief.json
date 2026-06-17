@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T19:07:31.128524Z",
+  "generated_at": "2026-06-17T21:30:25.692852Z",
   "window_hours": 24,
   "total_items": 2,
   "items": [
@@ -30,42 +30,6 @@
           "published_at": "2026-06-16T22:02:15Z"
         },
         {
-          "id": "d7f666b2662bdbba6f5720151e6843ca4ec8ec76",
-          "title": "大英帝國史上最大的災難：新加坡的陷落 / The Greatest Disaster In British Imperial History: The Fall Of Singapore",
-          "url": "https://www.youtube.com/watch?v=XDlOfzA3egU",
-          "source": "Timeline - World History Documentaries",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-16T21:00:11Z"
-        },
-        {
-          "id": "203748948121e9edb8ec36b80a8963728bf5a34f",
-          "title": "我永遠不會忘記紐約的這個夜晚 / I'll Never forget this Night in New York City",
-          "url": "https://www.youtube.com/watch?v=UnBsJpII1L4",
-          "source": "CaseyNeistat",
-          "source_name": "OPML RSS",
-          "site_id": "design",
-          "published_at": "2026-06-16T20:17:32Z"
-        },
-        {
-          "id": "56b56ce1bea8e754c098b81151d9de3968c54ba5",
-          "title": "從未見過如此快樂的紐約市！ / Never Seen New York City Happier!",
-          "url": "https://www.youtube.com/watch?v=UnBsJpII1L4",
-          "source": "CaseyNeistat",
-          "source_name": "OPML RSS",
-          "site_id": "design",
-          "published_at": "2026-06-16T20:17:32Z"
-        },
-        {
-          "id": "3b4be744ff7c94f0ead969944a1942a5579c3668",
-          "title": "600年前這幅畫是怎麼畫的？ / How was this painted 600 years ago?",
-          "url": "https://www.youtube.com/watch?v=MTDRIC3YmjY",
-          "source": "Inspiraggio",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-16T20:02:59Z"
-        },
-        {
           "id": "ae201c5898e95c29430a93fceeb975a3de752b9b",
           "title": "孔子 - 書籍被燒毀的危險哲學家 紀錄片 / Confucius - The Dangerous Philosopher Whose Books Were Burned Documentary",
           "url": "https://www.youtube.com/watch?v=qI3oQ3ykbjA",
@@ -138,16 +102,13 @@
           "published_at": "2026-06-16T21:32:00Z"
         }
       ],
-      "source_count": 14,
+      "source_count": 10,
       "source_names": [
         "Business Insider",
-        "CaseyNeistat",
         "DenQ來了",
-        "Inspiraggio",
         "TODAY 看世界",
         "The Circuit with Emily Chang",
         "The People Profiles",
-        "Timeline - World History Documentaries",
         "Wendover Productions",
         "imineo Documentaires",
         "nobody",
@@ -173,42 +134,6 @@
           "published_at": "2026-06-16T22:02:15Z"
         },
         {
-          "id": "d7f666b2662bdbba6f5720151e6843ca4ec8ec76",
-          "title": "大英帝國史上最大的災難：新加坡的陷落 / The Greatest Disaster In British Imperial History: The Fall Of Singapore",
-          "url": "https://www.youtube.com/watch?v=XDlOfzA3egU",
-          "source": "Timeline - World History Documentaries",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-16T21:00:11Z"
-        },
-        {
-          "id": "203748948121e9edb8ec36b80a8963728bf5a34f",
-          "title": "我永遠不會忘記紐約的這個夜晚 / I'll Never forget this Night in New York City",
-          "url": "https://www.youtube.com/watch?v=UnBsJpII1L4",
-          "source": "CaseyNeistat",
-          "source_name": "OPML RSS",
-          "site_id": "design",
-          "published_at": "2026-06-16T20:17:32Z"
-        },
-        {
-          "id": "56b56ce1bea8e754c098b81151d9de3968c54ba5",
-          "title": "從未見過如此快樂的紐約市！ / Never Seen New York City Happier!",
-          "url": "https://www.youtube.com/watch?v=UnBsJpII1L4",
-          "source": "CaseyNeistat",
-          "source_name": "OPML RSS",
-          "site_id": "design",
-          "published_at": "2026-06-16T20:17:32Z"
-        },
-        {
-          "id": "3b4be744ff7c94f0ead969944a1942a5579c3668",
-          "title": "600年前這幅畫是怎麼畫的？ / How was this painted 600 years ago?",
-          "url": "https://www.youtube.com/watch?v=MTDRIC3YmjY",
-          "source": "Inspiraggio",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-16T20:02:59Z"
-        },
-        {
           "id": "ae201c5898e95c29430a93fceeb975a3de752b9b",
           "title": "孔子 - 書籍被燒毀的危險哲學家 紀錄片 / Confucius - The Dangerous Philosopher Whose Books Were Burned Documentary",
           "url": "https://www.youtube.com/watch?v=qI3oQ3ykbjA",
@@ -281,22 +206,22 @@
           "published_at": "2026-06-16T21:32:00Z"
         }
       ],
-      "item_count": 14,
-      "duplicate_count": 14,
-      "score": 0.6383,
-      "importance": 0.6383,
-      "importance_score": 0.6383,
+      "item_count": 10,
+      "duplicate_count": 10,
+      "score": 0.6085,
+      "importance": 0.6085,
+      "importance_score": 0.6085,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6277,
+        "recency": 0.5285,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-16T20:02:59Z",
+      "earliest_at": "2026-06-16T21:32:00Z",
       "latest_at": "2026-06-17T18:59:57Z",
       "primary_item": {
         "id": "cac9e4b68e926e5e2ea7951b452d8a7328976d8a",
@@ -377,13 +302,13 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.4859,
-      "importance": 0.4859,
-      "importance_score": 0.4859,
+      "score": 0.4562,
+      "importance": 0.4562,
+      "importance_score": 0.4562,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.8698,
+        "recency": 0.7705,
         "story_heat": 0.5
       },
       "category": "multi_source",
