@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T16:24:47.043173Z",
+  "generated_at": "2026-06-17T19:07:31.128524Z",
   "window_hours": 24,
   "total_items": 2,
   "items": [
@@ -66,6 +66,15 @@
           "published_at": "2026-06-16T20:02:59Z"
         },
         {
+          "id": "ae201c5898e95c29430a93fceeb975a3de752b9b",
+          "title": "孔子 - 書籍被燒毀的危險哲學家 紀錄片 / Confucius - The Dangerous Philosopher Whose Books Were Burned Documentary",
+          "url": "https://www.youtube.com/watch?v=qI3oQ3ykbjA",
+          "source": "The People Profiles",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-06-17T18:59:57Z"
+        },
+        {
           "id": "f1f0c7557f789b80fd4ae06f06ad96d8ad4aa7bb",
           "title": "凡爾賽宮：從路易十四到法國大革命 / Versailles: From Louis XIV to the French Revolution",
           "url": "https://www.youtube.com/watch?v=UhVe6NBu5qI",
@@ -84,24 +93,6 @@
           "published_at": "2026-06-17T12:30:39Z"
         },
         {
-          "id": "8aefdeff1a832ed4fdc81e85cfe1906512084020",
-          "title": "精神航空公司商業模式的問題 / The Problem With Spirit Airlines’ Business Model",
-          "url": "https://www.youtube.com/watch?v=ABRjwGo6Usg",
-          "source": "Wendover Productions",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-16T21:32:00Z"
-        },
-        {
-          "id": "079475043ab744087d560e0715190de14c4d3f25",
-          "title": "花費一生製作巨型地圖的人 / The man who’s spent a lifetime making one giant map",
-          "url": "https://www.youtube.com/watch?v=Is8N7B9b0GQ",
-          "source": "Waxy.org",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-16T17:56:40Z"
-        },
-        {
           "id": "6e37412d69c64291f9016442e89594a33541d647",
           "title": "人類還沒上火星，SpaceX先飛進華爾街？史上最大IPO讓馬斯克成為全球首位兆元富豪！這是太空革命還是散戶接盤的「本夢比」泡沫？【TODAY 看世界】",
           "url": "https://www.youtube.com/watch?v=XJs3TReuvqY",
@@ -111,13 +102,13 @@
           "published_at": "2026-06-17T16:00:30Z"
         },
         {
-          "id": "92836a1ada538432709d961d48912e4fca989757",
-          "title": "Anthropic 執行長 Dario Amodei 的內心世界 |賽道 / Inside the Mind of Anthropic CEO Dario Amodei | The Circuit",
-          "url": "https://www.youtube.com/watch?v=x2VHFgyawPE",
-          "source": "The Circuit with Emily Chang",
+          "id": "3ed39d8da3c4bed18de1b14b61eed7adfab9c985",
+          "title": "出國用 eSIM 有風險？摸透你的行蹤，eSIM 比你更了解你自己？｜公視P# 新聞實驗室",
+          "url": "https://www.youtube.com/watch?v=WKwleocOIJ0",
+          "source": "公視P#新聞實驗室",
           "source_name": "OPML RSS",
-          "site_id": "execution",
-          "published_at": "2026-06-17T12:00:14Z"
+          "site_id": "trending",
+          "published_at": "2026-06-17T13:00:06Z"
         },
         {
           "id": "b15b261d1ecc45ee4974e57f5fb51cd21ac5299d",
@@ -129,13 +120,13 @@
           "published_at": "2026-06-17T12:00:14Z"
         },
         {
-          "id": "3ed39d8da3c4bed18de1b14b61eed7adfab9c985",
-          "title": "出國用 eSIM 有風險？摸透你的行蹤，eSIM 比你更了解你自己？｜公視P# 新聞實驗室",
-          "url": "https://www.youtube.com/watch?v=WKwleocOIJ0",
-          "source": "公視P#新聞實驗室",
+          "id": "86ecb4fdcf2157d04e6b36e38d461d82a8ef510f",
+          "title": "精神航空公司商業模式的問題 / The Problem With Spirit Airlines’ Business Model",
+          "url": "https://www.youtube.com/watch?v=ABRjwGo6Usg",
+          "source": "Wendover Productions",
           "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-06-17T10:30:54Z"
+          "site_id": "execution",
+          "published_at": "2026-06-16T21:32:00Z"
         },
         {
           "id": "222ce6efa57c3633d2ad83b1ca2be7ec1c040843",
@@ -147,7 +138,7 @@
           "published_at": "2026-06-16T21:32:00Z"
         }
       ],
-      "source_count": 15,
+      "source_count": 14,
       "source_names": [
         "Business Insider",
         "CaseyNeistat",
@@ -155,8 +146,8 @@
         "Inspiraggio",
         "TODAY 看世界",
         "The Circuit with Emily Chang",
+        "The People Profiles",
         "Timeline - World History Documentaries",
-        "Waxy.org",
         "Wendover Productions",
         "imineo Documentaires",
         "nobody",
@@ -218,6 +209,15 @@
           "published_at": "2026-06-16T20:02:59Z"
         },
         {
+          "id": "ae201c5898e95c29430a93fceeb975a3de752b9b",
+          "title": "孔子 - 書籍被燒毀的危險哲學家 紀錄片 / Confucius - The Dangerous Philosopher Whose Books Were Burned Documentary",
+          "url": "https://www.youtube.com/watch?v=qI3oQ3ykbjA",
+          "source": "The People Profiles",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-06-17T18:59:57Z"
+        },
+        {
           "id": "f1f0c7557f789b80fd4ae06f06ad96d8ad4aa7bb",
           "title": "凡爾賽宮：從路易十四到法國大革命 / Versailles: From Louis XIV to the French Revolution",
           "url": "https://www.youtube.com/watch?v=UhVe6NBu5qI",
@@ -236,24 +236,6 @@
           "published_at": "2026-06-17T12:30:39Z"
         },
         {
-          "id": "8aefdeff1a832ed4fdc81e85cfe1906512084020",
-          "title": "精神航空公司商業模式的問題 / The Problem With Spirit Airlines’ Business Model",
-          "url": "https://www.youtube.com/watch?v=ABRjwGo6Usg",
-          "source": "Wendover Productions",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-16T21:32:00Z"
-        },
-        {
-          "id": "079475043ab744087d560e0715190de14c4d3f25",
-          "title": "花費一生製作巨型地圖的人 / The man who’s spent a lifetime making one giant map",
-          "url": "https://www.youtube.com/watch?v=Is8N7B9b0GQ",
-          "source": "Waxy.org",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-16T17:56:40Z"
-        },
-        {
           "id": "6e37412d69c64291f9016442e89594a33541d647",
           "title": "人類還沒上火星，SpaceX先飛進華爾街？史上最大IPO讓馬斯克成為全球首位兆元富豪！這是太空革命還是散戶接盤的「本夢比」泡沫？【TODAY 看世界】",
           "url": "https://www.youtube.com/watch?v=XJs3TReuvqY",
@@ -263,13 +245,13 @@
           "published_at": "2026-06-17T16:00:30Z"
         },
         {
-          "id": "92836a1ada538432709d961d48912e4fca989757",
-          "title": "Anthropic 執行長 Dario Amodei 的內心世界 |賽道 / Inside the Mind of Anthropic CEO Dario Amodei | The Circuit",
-          "url": "https://www.youtube.com/watch?v=x2VHFgyawPE",
-          "source": "The Circuit with Emily Chang",
+          "id": "3ed39d8da3c4bed18de1b14b61eed7adfab9c985",
+          "title": "出國用 eSIM 有風險？摸透你的行蹤，eSIM 比你更了解你自己？｜公視P# 新聞實驗室",
+          "url": "https://www.youtube.com/watch?v=WKwleocOIJ0",
+          "source": "公視P#新聞實驗室",
           "source_name": "OPML RSS",
-          "site_id": "execution",
-          "published_at": "2026-06-17T12:00:14Z"
+          "site_id": "trending",
+          "published_at": "2026-06-17T13:00:06Z"
         },
         {
           "id": "b15b261d1ecc45ee4974e57f5fb51cd21ac5299d",
@@ -281,13 +263,13 @@
           "published_at": "2026-06-17T12:00:14Z"
         },
         {
-          "id": "3ed39d8da3c4bed18de1b14b61eed7adfab9c985",
-          "title": "出國用 eSIM 有風險？摸透你的行蹤，eSIM 比你更了解你自己？｜公視P# 新聞實驗室",
-          "url": "https://www.youtube.com/watch?v=WKwleocOIJ0",
-          "source": "公視P#新聞實驗室",
+          "id": "86ecb4fdcf2157d04e6b36e38d461d82a8ef510f",
+          "title": "精神航空公司商業模式的問題 / The Problem With Spirit Airlines’ Business Model",
+          "url": "https://www.youtube.com/watch?v=ABRjwGo6Usg",
+          "source": "Wendover Productions",
           "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-06-17T10:30:54Z"
+          "site_id": "execution",
+          "published_at": "2026-06-16T21:32:00Z"
         },
         {
           "id": "222ce6efa57c3633d2ad83b1ca2be7ec1c040843",
@@ -299,23 +281,23 @@
           "published_at": "2026-06-16T21:32:00Z"
         }
       ],
-      "item_count": 15,
-      "duplicate_count": 15,
-      "score": 0.6722,
-      "importance": 0.6722,
-      "importance_score": 0.6722,
+      "item_count": 14,
+      "duplicate_count": 14,
+      "score": 0.6383,
+      "importance": 0.6383,
+      "importance_score": 0.6383,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7408,
+        "recency": 0.6277,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-16T17:56:40Z",
-      "latest_at": "2026-06-17T16:00:30Z",
+      "earliest_at": "2026-06-16T20:02:59Z",
+      "latest_at": "2026-06-17T18:59:57Z",
       "primary_item": {
         "id": "cac9e4b68e926e5e2ea7951b452d8a7328976d8a",
         "title": "《鐵拳教育》成真？韓國真要設‘教權保護局’ 韓網卻全怒了｜DenQ",
@@ -395,13 +377,13 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5198,
-      "importance": 0.5198,
-      "importance_score": 0.5198,
+      "score": 0.4859,
+      "importance": 0.4859,
+      "importance_score": 0.4859,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.9828,
+        "recency": 0.8698,
         "story_heat": 0.5
       },
       "category": "multi_source",
