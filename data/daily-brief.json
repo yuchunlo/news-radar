@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T02:04:17.368553Z",
+  "generated_at": "2026-06-17T07:36:08.217749Z",
   "window_hours": 24,
   "total_items": 2,
   "items": [
@@ -48,6 +48,15 @@
           "published_at": "2026-06-16T20:17:32Z"
         },
         {
+          "id": "3b4be744ff7c94f0ead969944a1942a5579c3668",
+          "title": "600年前這幅畫是怎麼畫的？ / How was this painted 600 years ago?",
+          "url": "https://www.youtube.com/watch?v=MTDRIC3YmjY",
+          "source": "Inspiraggio",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-16T20:02:59Z"
+        },
+        {
           "id": "c0a731dcf816aece650e87e6460df1aa6ef9260c",
           "title": "張員瑛機場爭議？官方正式回應了/NMIXX薛侖痛到含淚登台/Tiffany結婚 徐玄淚崩｜DenQ",
           "url": "https://www.youtube.com/watch?v=qvy4R7ANI_o",
@@ -66,24 +75,6 @@
           "published_at": "2026-06-16T21:32:00Z"
         },
         {
-          "id": "222ce6efa57c3633d2ad83b1ca2be7ec1c040843",
-          "title": "精神航空為何失敗 / Why Spirit Airlines Failed",
-          "url": "https://www.youtube.com/watch?v=ABRjwGo6Usg",
-          "source": "Wendover Productions",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-16T21:32:00Z"
-        },
-        {
-          "id": "1a676f96d268235b86b0dd1581c5ddcbd02173fd",
-          "title": "600年前這幅畫是怎麼畫的？ / How was this painted 600 years ago?",
-          "url": "https://www.youtube.com/watch?v=MTDRIC3YmjY",
-          "source": "Inspiraggio",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-16T20:02:59Z"
-        },
-        {
           "id": "079475043ab744087d560e0715190de14c4d3f25",
           "title": "花費一生製作巨型地圖的人 / The man who’s spent a lifetime making one giant map",
           "url": "https://www.youtube.com/watch?v=Is8N7B9b0GQ",
@@ -100,6 +91,15 @@
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
           "published_at": "2026-06-16T16:00:32Z"
+        },
+        {
+          "id": "222ce6efa57c3633d2ad83b1ca2be7ec1c040843",
+          "title": "精神航空為何失敗 / Why Spirit Airlines Failed",
+          "url": "https://www.youtube.com/watch?v=ABRjwGo6Usg",
+          "source": "Wendover Productions",
+          "source_name": "OPML RSS",
+          "site_id": "execution",
+          "published_at": "2026-06-16T21:32:00Z"
         },
         {
           "id": "577859cccbd06148eae48936a8e7d649efdbe08e",
@@ -161,6 +161,15 @@
           "published_at": "2026-06-16T20:17:32Z"
         },
         {
+          "id": "3b4be744ff7c94f0ead969944a1942a5579c3668",
+          "title": "600年前這幅畫是怎麼畫的？ / How was this painted 600 years ago?",
+          "url": "https://www.youtube.com/watch?v=MTDRIC3YmjY",
+          "source": "Inspiraggio",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-16T20:02:59Z"
+        },
+        {
           "id": "c0a731dcf816aece650e87e6460df1aa6ef9260c",
           "title": "張員瑛機場爭議？官方正式回應了/NMIXX薛侖痛到含淚登台/Tiffany結婚 徐玄淚崩｜DenQ",
           "url": "https://www.youtube.com/watch?v=qvy4R7ANI_o",
@@ -177,24 +186,6 @@
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
           "published_at": "2026-06-16T21:32:00Z"
-        },
-        {
-          "id": "222ce6efa57c3633d2ad83b1ca2be7ec1c040843",
-          "title": "精神航空為何失敗 / Why Spirit Airlines Failed",
-          "url": "https://www.youtube.com/watch?v=ABRjwGo6Usg",
-          "source": "Wendover Productions",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-16T21:32:00Z"
-        },
-        {
-          "id": "1a676f96d268235b86b0dd1581c5ddcbd02173fd",
-          "title": "600年前這幅畫是怎麼畫的？ / How was this painted 600 years ago?",
-          "url": "https://www.youtube.com/watch?v=MTDRIC3YmjY",
-          "source": "Inspiraggio",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-16T20:02:59Z"
         },
         {
           "id": "079475043ab744087d560e0715190de14c4d3f25",
@@ -215,6 +206,15 @@
           "published_at": "2026-06-16T16:00:32Z"
         },
         {
+          "id": "222ce6efa57c3633d2ad83b1ca2be7ec1c040843",
+          "title": "精神航空為何失敗 / Why Spirit Airlines Failed",
+          "url": "https://www.youtube.com/watch?v=ABRjwGo6Usg",
+          "source": "Wendover Productions",
+          "source_name": "OPML RSS",
+          "site_id": "execution",
+          "published_at": "2026-06-16T21:32:00Z"
+        },
+        {
           "id": "577859cccbd06148eae48936a8e7d649efdbe08e",
           "title": "美伊宣布達成停戰協議 海上封鎖即刻解除 棘手核武問題卻原地踏步 這份協議真能帶來實質和平？【TODAY 看世界】",
           "url": "https://www.youtube.com/watch?v=yKMpHblqCps",
@@ -226,13 +226,13 @@
       ],
       "item_count": 11,
       "duplicate_count": 11,
-      "score": 0.6996,
-      "importance": 0.6996,
-      "importance_score": 0.6996,
+      "score": 0.6304,
+      "importance": 0.6304,
+      "importance_score": 0.6304,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.8319,
+        "recency": 0.6015,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -302,13 +302,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.2491,
-      "importance": 0.2491,
-      "importance_score": 0.2491,
+      "score": 0.18,
+      "importance": 0.18,
+      "importance_score": 0.18,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.247,
+        "recency": 0.0166,
         "story_heat": 0.25
       },
       "category": "watch",
