@@ -110,7 +110,7 @@
       <outline text="跳岛FM" type="rss" category="culture"
         xmlUrl="https://tiaodao.typlog.io/feed/audio.xml"
         htmlUrl="https://tiaodao.typlog.io/" />
-      <outline text="The Knowledge Project with Shane Parrish" type="rss" category="business"
+      <outline text="The Knowledge Project with Shane Parrish" type="rss" category="execution"
         xmlUrl="https://theknowledgeproject.libsyn.com/rss"
         htmlUrl="https://fs.blog/knowledge-project/" />
       <outline text="The Life Guide" type="rss" category="blog"
@@ -140,7 +140,7 @@
       <outline text="The Big Picture" type="rss" category="blog"
         xmlUrl="http://ritholtz.com/feed/"
         htmlUrl="https://ritholtz.com" />
-      <outline text="Sam Altman" type="rss" category="business"
+      <outline text="Sam Altman" type="rss" category="execution"
         xmlUrl="https://blog.samaltman.com/posts.atom"
         htmlUrl="https://blog.samaltman.com/helion-needs-you" />
       <outline text="Our World in Data" type="rss" category="design"
@@ -149,10 +149,10 @@
       <outline text="Lex Fridman" type="rss" category="blog"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCSHZKyawb77ixDdsGog4iWA"
         htmlUrl="https://www.youtube.com/watch?UCSHZKyawb77ixDdsGog4iWA" />
-      <outline text="Acquired" type="rss" category="business"
+      <outline text="Acquired" type="rss" category="execution"
         xmlUrl="http://acquired.libsyn.com/rss"
         htmlUrl="https://acquired.fm" />
-      <outline text="The David Rubenstein Show: Peer-to-Peer Conversations (Full Shows)" type="rss" category="business"
+      <outline text="The David Rubenstein Show: Peer-to-Peer Conversations (Full Shows)" type="rss" category="execution"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLi85wWwDybjzOcYNPlIi7rC9TqrEvpgBC"
         htmlUrl="https://www.youtube.com/watch?v=97odgV4PoUo" />
       <outline text="Stories by Yanwei Liu on Medium" type="rss" category="blog"
@@ -176,7 +176,7 @@
       <outline text="Political Geography Now" type="rss" category="design"
         xmlUrl="https://feeds.feedburner.com/PoliticalGeographyNow"
         htmlUrl="https://www.polgeonow.com/2023/10/before-israel-ground-invasion-map-gaza-hamas.html" />
-      <outline text="Paul Graham: Essays" type="rss" category="business"
+      <outline text="Paul Graham: Essays" type="rss" category="execution"
         xmlUrl="http://www.aaronsw.com/2002/feeds/pgessays.rss"
         htmlUrl="http://www.paulgraham.com/" />
       <outline text="Ollie Bye" type="rss" category="design"
@@ -194,7 +194,7 @@
       <outline text="Passions of YiChuan" type="rss" category=""
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCmglecTNNGL_CVDqRAPJBLQ"
         htmlUrl="https://www.youtube.com/channel/UCmglecTNNGL_CVDqRAPJBLQ" />
-      <outline text="OOC" type="rss" category=""
+      <outline text="OOC" type="rss" category="convivium"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC70cm4qrtW03S_q2NSObU3A"
         htmlUrl="https://www.youtube.com/channel/UC70cm4qrtW03S_q2NSObU3A" />
       <outline text="nobody" type="rss" category="culture"
@@ -209,7 +209,7 @@
       <outline text="LEI" type="rss" category="finance"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCZyTcQHJGKkGeotf0vWA7Rg"
         htmlUrl="https://www.youtube.com/channel/UCZyTcQHJGKkGeotf0vWA7Rg" />
-      <outline text="Language Log" type="rss" category=""
+      <outline text="Language Log" type="rss" category="culture"
         xmlUrl="https://languagelog.ldc.upenn.edu/nll/?feed=rss2"
         htmlUrl="https://languagelog.ldc.upenn.edu/nll" />
       <outline text="Kilian Jornet Burgada" type="rss" category="functionality"
@@ -227,7 +227,7 @@
       <outline text="Hunter Walk" type="rss" category=""
         xmlUrl="https://hunterwalk.com/feed/"
         htmlUrl="https://hunterwalk.com" />
-      <outline text="https://jamesclear.com/3-2-1" type="rss" category=""
+      <outline text="James Clear" type="rss" category="blog"
         xmlUrl="https://kill-the-newsletter.com/feeds/psmvd6sze6uv02zl.xml"
         htmlUrl="https://kill-the-newsletter.com/feeds/psmvd6sze6uv02zl.xml" />
       <outline text="https://arthistorystrolls.com/feed/" type="rss" category=""
@@ -251,7 +251,7 @@
       <outline text="FlowingData" type="rss" category="design"
         xmlUrl="https://flowingdata.com/feed"
         htmlUrl="https://flowingdata.com" />
-      <outline text="First Round Review" type="rss" category="business"
+      <outline text="First Round Review" type="rss" category="execution"
         xmlUrl="https://review.firstround.com/articles/rss/"
         htmlUrl="https://review.firstround.com/" />
       <outline text="Fall of Civilizations" type="rss" category="culture"
@@ -287,7 +287,7 @@
       <outline text="Chiaheng Seetoo / Vocus 作者" type="rss" category=""
         xmlUrl="https://feed.cqd.tw/vocus/user/chiahengseetoo"
         htmlUrl="https://vocus.cc/user/@chiahengseetoo" />
-      <outline text="CaspianReport" type="rss" category=""
+      <outline text="CaspianReport" type="rss" category="execution"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCwnKziETDbHJtx78nIkfYug"
         htmlUrl="https://www.youtube.com/channel/UCwnKziETDbHJtx78nIkfYug" />
       <outline text="CaseyNeistat" type="rss" category="design"
@@ -314,7 +314,7 @@
       <outline text="Insider" type="rss" category=""
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCHJuQZuzapBh-CuhRYxIZrg"
         htmlUrl="https://www.youtube.com/watch?v=SCk4XilsoDU" />
-      <outline text="Inspiraggio" type="rss" category=""
+      <outline text="Inspiraggio" type="rss" category="culture"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCj-_77Q1UK8qx2XJaYILagA"
         htmlUrl="https://www.youtube.com/channel/UCj-_77Q1UK8qx2XJaYILagA" />
       <outline text="Chartbook" type="rss" category=""
@@ -332,7 +332,7 @@
       <outline text="報導者" type="rss" category=""
         xmlUrl="https://www.twreporter.org/a/rss2.xml"
         htmlUrl="https://www.twreporter.org/" />
-      <outline text="【隱形工廠｜戶外教學】" type="rss" category=""
+      <outline text="【隱形工廠｜戶外教學】" type="rss" category="tech"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBTwOvE8YhQFcfuoNhXOaJsUsVNnyf_3z"
         htmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLBTwOvE8YhQFcfuoNhXOaJsUsVNnyf_3z" />
       <outline text="Dissect Podcast" type="rss" category=""
@@ -353,16 +353,16 @@
       <outline text="imineo Documentaires" type="rss" category=""
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCJ9tHJbCa8ZoMbapfJLy0ZQ"
         htmlUrl="https://www.youtube.com/channel/UCJ9tHJbCa8ZoMbapfJLy0ZQ" />
-      <outline text="DoodletmeGO" type="rss" category=""
+      <outline text="DoodletmeGO" type="rss" category="design"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCP6Np_iMYhBQBAcYlDf97iw"
         htmlUrl="https://www.youtube.com/channel/UCP6Np_iMYhBQBAcYlDf97iw" />
       <outline text="Finn Tran" type="rss" category=""
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCkK6I4MC2YLw4w1HS-puN8w"
         htmlUrl="https://www.youtube.com/channel/UCkK6I4MC2YLw4w1HS-puN8w" />
-      <outline text="CineFix" type="rss" category=""
+      <outline text="CineFix" type="rss" category="culture"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCVtL1edhT8qqY-j2JIndMzg"
         htmlUrl="https://www.youtube.com/channel/UCVtL1edhT8qqY-j2JIndMzg" />
-      <outline text="Rands in Repose" type="rss" category="business"
+      <outline text="Rands in Repose" type="rss" category="execution"
         xmlUrl="https://randsinrepose.com/feed/"
         htmlUrl="https://randsinrepose.com" />
       <outline text="NotesByLex.com" type="rss" category=""
@@ -416,7 +416,7 @@
       <outline text="未來生活實驗室" type="rss" category=""
         xmlUrl="https://www.lifeaholic.tw/feed/"
         htmlUrl="https://www.lifeaholic.tw/" />
-      <outline text="未來流通研究所｜商業情報資訊站" type="rss" category="business"
+      <outline text="未來流通研究所｜商業情報資訊站" type="rss" category="execution"
         xmlUrl="https://www.mirai.com.tw/feed/"
         htmlUrl="https://www.mirai.com.tw" />
       <outline text="望山 的最新评论" type="rss" category=""
@@ -455,7 +455,7 @@
       <outline text="技艺圃" type="rss" category=""
         xmlUrl="http://winters1224.top/rss.xml"
         htmlUrl="http://winters1224.top/" />
-      <outline text="批踢踢實業坊 toberich 板" type="rss" category=""
+      <outline text="批踢踢實業坊 toberich 板" type="rss" category="trending"
         xmlUrl="https://www.ptt.cc/atom/toberich.xml"
         htmlUrl="https://www.ptt.cc/bbs/toberich/M.1692502580.A.916.html" />
       <outline text="批踢踢實業坊 Lifeismoney 板" type="rss" category="trending"
@@ -482,7 +482,7 @@
       <outline text="少数派" type="rss" category="trending"
         xmlUrl="https://sspai.com/feed"
         htmlUrl="https://sspai.com" />
-      <outline text="小Lin说" type="rss" category="business"
+      <outline text="小Lin说" type="rss" category="execution"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCilwQlk62k1z7aUEZPOB6yw"
         htmlUrl="https://www.youtube.com/watch?v=Xtzn5vcwd_k" />
       <outline text="寫給你和妳的行旅紀事" type="rss" category=""
@@ -512,10 +512,10 @@
       <outline text="商業思維學院" type="rss" category=""
         xmlUrl="https://bizthinking.com.tw/feed/"
         htmlUrl="https://bizthinking.com.tw/" />
-      <outline text="商業周刊 當期雜誌開放文章" type="rss" category=""
+      <outline text="商業周刊 當期雜誌開放文章" type="rss" category="trending"
         xmlUrl="https://cmsapi.businessweekly.com.tw/?CategoryId=efd99109-9e15-422e-97f0-078b21322450&amp;TemplateId=8E19CF43-50E5-4093-B72D-70A912962D55"
         htmlUrl="https://www.businessweekly.com.tw/" />
-      <outline text="唐巧的博客" type="rss" category=""
+      <outline text="唐巧的博客" type="rss" category="blog"
         xmlUrl="https://blog.devtang.com/atom.xml"
         htmlUrl="https://blog.devtang.com/2023/06/25/my-19-jobs/" />
       <outline text="各種書摘" type="rss" category=""
@@ -623,7 +623,7 @@
       <outline text="The Ed's Up" type="rss" category=""
         xmlUrl="https://buttondown.email/edyong209/rss"
         htmlUrl="https://buttondown.email/edyong209" />
-      <outline text="The Circuit with Emily Chang" type="rss" category="business"
+      <outline text="The Circuit with Emily Chang" type="rss" category="execution"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLqq4LnWs3olV2nw7GgFjXHvxVc3T5hXXT"
         htmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLqq4LnWs3olV2nw7GgFjXHvxVc3T5hXXT" />
       <outline text="The Big Issue Taiwan - Medium" type="rss" category=""
@@ -800,10 +800,10 @@
       <outline text="guy jones" type="rss" category=""
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCpUBuSn_Io93AMpOSw88afQ"
         htmlUrl="https://www.youtube.com/watch?v=2s0XTwXroaU" />
-      <outline text="Growin Blog" type="rss" category=""
+      <outline text="Growin Blog" type="rss" category="finance"
         xmlUrl="https://blog.growin.tv/feed/"
         htmlUrl="https://blog.growin.tv/" />
-      <outline text="GQ編輯出差日記" type="rss" category=""
+      <outline text="GQ編輯出差日記" type="rss" category="convivium"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLiyT3ZJaRwTsY23C9-eGn1chUQa7RNyT_"
         htmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLiyT3ZJaRwTsY23C9-eGn1chUQa7RNyT_" />
       <outline text="GOOD" type="rss" category="trending"
@@ -923,10 +923,10 @@
       <outline text="誠實酒記 | 一飲樂酒誌" type="rss" category="convivium"
         xmlUrl="https://www.1shot.tw/tag/%e8%aa%a0%e5%af%a6%e9%85%92%e8%a8%98/feed"
         htmlUrl="https://www.1shot.tw" />
-      <outline text="纯纯甘" type="rss" category="business"
+      <outline text="纯纯甘" type="rss" category="execution"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCIs3-LcOCdpiGve6yu1-Fug"
         htmlUrl="https://www.youtube.com/channel/UCIs3-LcOCdpiGve6yu1-Fug" />
-      <outline text="矽谷輕鬆談 Just Kidding Tech" type="rss" category="business"
+      <outline text="矽谷輕鬆談 Just Kidding Tech" type="rss" category="execution"
         xmlUrl="https://anchor.fm/s/120c33e0/podcast/rss"
         htmlUrl="https://linktr.ee/jktech" />
       <outline text="益逹诺夫斯基 的 bilibili 空间" type="rss" category=""
@@ -950,7 +950,7 @@
       <outline text="花栗蔬旅 - 花栗愷 × Cruelty-free" type="rss" category="convivium"
         xmlUrl="https://chipmunkai.com/category/eco-travel/feed/"
         htmlUrl="https://chipmunkai.com/category/eco-travel/" />
-      <outline text="Stories by The fishingLumperjack 不爭便姓字老樵漁! on Medium" type="rss" category=""
+      <outline text="Stories by The fishingLumperjack 不爭便姓字老樵漁! on Medium" type="rss" category="blog"
         xmlUrl="https://medium.com/@gutforever/feed"
         htmlUrl="https://medium.com/@gutforever?source=rss-4c1662f5ec37------2" />
       <outline text="巨翅 的收藏" type="rss" category=""
