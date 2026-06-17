@@ -155,16 +155,16 @@
       <outline text="The David Rubenstein Show: Peer-to-Peer Conversations (Full Shows)" type="rss" category="execution"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLi85wWwDybjzOcYNPlIi7rC9TqrEvpgBC"
         htmlUrl="https://www.youtube.com/watch?v=97odgV4PoUo" />
-      <outline text="Stories by Yanwei Liu on Medium" type="rss" category="blog"
+      <outline text="Yanwei Liu on Medium" type="rss" category="blog"
         xmlUrl="https://yanwei-liu.medium.com/feed"
         htmlUrl="https://medium.com/@yanwei-liu?source=rss-dc182588576c------2" />
-      <outline text="Stories by Tony Yen on Medium" type="rss" category="blog"
+      <outline text="Tony Yen on Medium" type="rss" category="blog"
         xmlUrl="https://twnturtletony.medium.com/feed"
         htmlUrl="https://medium.com/@twnturtletony?source=rss-32333e6125a6------2" />
-      <outline text="Stories by Samuel on Medium" type="rss" category="blog"
+      <outline text="Samuel on Medium" type="rss" category="blog"
         xmlUrl="https://citysite1025.medium.com/feed"
         htmlUrl="https://medium.com/@citysite1025?source=rss-b835bd37b327------2" />
-      <outline text="Stories by Kyle Chu 微風捕手 on Medium" type="rss" category="blog"
+      <outline text="Kyle Chu 微風捕手 on Medium" type="rss" category="blog"
         xmlUrl="https://medium.com/@Kyle_Chu/feed"
         htmlUrl="https://medium.com/@Kyle_Chu?source=rss-8c7d4e0ce1e2------2" />
       <outline text="SatPost by Trung Phan" type="rss" category="blog"
@@ -638,25 +638,25 @@
       <outline text="Susie Woo 戴舒萱" type="rss" category="culture"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC-IQGcGol7OOCH2B2Z8dUag"
         htmlUrl="https://www.youtube.com/watch?v=XgEMYprj7ps" />
-      <outline text="Stories by 電影筆友 Movie Buddies on Medium" type="rss" category=""
+      <outline text="電影筆友 Movie Buddies on Medium" type="rss" category=""
         xmlUrl="https://medium.com/@moviebuddies01/feed"
         htmlUrl="https://medium.com/@moviebuddies01?source=rss-ac5fe9b88b0f------2" />
-      <outline text="Stories by 蕭瑟寡人 on Medium" type="rss" category=""
+      <outline text="蕭瑟寡人 on Medium" type="rss" category=""
         xmlUrl="https://medium.com/@bleaksolitude/feed"
         htmlUrl="https://medium.com/@bleaksolitude?source=rss-84f8294baab9------2" />
-      <outline text="Stories by 數據分析那些事 on Medium" type="rss" category=""
+      <outline text="數據分析那些事 on Medium" type="rss" category=""
         xmlUrl="https://allaboutdataanalysis.medium.com/feed"
         htmlUrl="https://medium.com/@allaboutdataanalysis?source=rss-b96c0b36fce1------2" />
-      <outline text="Stories by 戈登探長 on Medium" type="rss" category=""
+      <outline text="戈登探長 on Medium" type="rss" category=""
         xmlUrl="https://medium.com/@delis-ver/feed"
         htmlUrl="https://medium.com/@delis-ver?source=rss-92ef89fc0065------2" />
-      <outline text="Stories by 德瑞克 Derek on Medium" type="rss" category=""
+      <outline text="德瑞克 Derek on Medium" type="rss" category=""
         xmlUrl="https://medium.com/@agilederek/feed"
         htmlUrl="https://medium.com/@agilederek?source=rss-2539cb3163ac------2" />
-      <outline text="Stories by Vince Huang on Medium" type="rss" category=""
+      <outline text="Vince Huang on Medium" type="rss" category=""
         xmlUrl="https://medium.com/@vincekuoyu/feed"
         htmlUrl="https://medium.com/@vincekuoyu?source=rss-416624e003b5------2" />
-      <outline text="Stories by Andrea Dai on Medium" type="rss" category=""
+      <outline text="Andrea Dai on Medium" type="rss" category=""
         xmlUrl="https://medium.com/@andreadai/feed"
         htmlUrl="https://medium.com/@andreadai?source=rss-d0efddb799d6------2" />
       <outline text="Steve Blank" type="rss" category=""
@@ -926,9 +926,9 @@
       <outline text="纯纯甘" type="rss" category="execution"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCIs3-LcOCdpiGve6yu1-Fug"
         htmlUrl="https://www.youtube.com/channel/UCIs3-LcOCdpiGve6yu1-Fug" />
-      <outline text="矽谷輕鬆談 Just Kidding Tech" type="rss" category="execution"
-        xmlUrl="https://anchor.fm/s/120c33e0/podcast/rss"
-        htmlUrl="https://linktr.ee/jktech" />
+      <outline text="矽谷輕鬆談 Just Kidding Tech" type="rss" category="tech"
+        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCJIPFjZSCWR15_jxBaK2fQQ"
+        htmlUrl="https://www.youtube.com/channel/UCJIPFjZSCWR15_jxBaK2fQQ" />
       <outline text="益逹诺夫斯基 的 bilibili 空间" type="rss" category=""
         xmlUrl="https://rsshub.app/bilibili/user/video/3493358"
         htmlUrl="https://space.bilibili.com/3493358" />
@@ -950,7 +950,7 @@
       <outline text="花栗蔬旅 - 花栗愷 × Cruelty-free" type="rss" category="convivium"
         xmlUrl="https://chipmunkai.com/category/eco-travel/feed/"
         htmlUrl="https://chipmunkai.com/category/eco-travel/" />
-      <outline text="Stories by The fishingLumperjack 不爭便姓字老樵漁! on Medium" type="rss" category="blog"
+      <outline text="The fishingLumperjack 不爭便姓字老樵漁! on Medium" type="rss" category="blog"
         xmlUrl="https://medium.com/@gutforever/feed"
         htmlUrl="https://medium.com/@gutforever?source=rss-4c1662f5ec37------2" />
       <outline text="巨翅 的收藏" type="rss" category=""
