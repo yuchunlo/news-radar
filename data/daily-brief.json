@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-16T23:27:31.188769Z",
+  "generated_at": "2026-06-17T02:04:17.368553Z",
   "window_hours": 24,
-  "total_items": 3,
+  "total_items": 2,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
@@ -57,6 +57,15 @@
           "published_at": "2026-06-16T10:00:00Z"
         },
         {
+          "id": "8aefdeff1a832ed4fdc81e85cfe1906512084020",
+          "title": "精神航空公司商業模式的問題 / The Problem With Spirit Airlines’ Business Model",
+          "url": "https://www.youtube.com/watch?v=ABRjwGo6Usg",
+          "source": "Wendover Productions",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-06-16T21:32:00Z"
+        },
+        {
           "id": "222ce6efa57c3633d2ad83b1ca2be7ec1c040843",
           "title": "精神航空為何失敗 / Why Spirit Airlines Failed",
           "url": "https://www.youtube.com/watch?v=ABRjwGo6Usg",
@@ -102,7 +111,7 @@
           "published_at": "2026-06-16T16:00:09Z"
         }
       ],
-      "source_count": 10,
+      "source_count": 11,
       "source_names": [
         "Business Insider",
         "CaseyNeistat",
@@ -161,6 +170,15 @@
           "published_at": "2026-06-16T10:00:00Z"
         },
         {
+          "id": "8aefdeff1a832ed4fdc81e85cfe1906512084020",
+          "title": "精神航空公司商業模式的問題 / The Problem With Spirit Airlines’ Business Model",
+          "url": "https://www.youtube.com/watch?v=ABRjwGo6Usg",
+          "source": "Wendover Productions",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-06-16T21:32:00Z"
+        },
+        {
           "id": "222ce6efa57c3633d2ad83b1ca2be7ec1c040843",
           "title": "精神航空為何失敗 / Why Spirit Airlines Failed",
           "url": "https://www.youtube.com/watch?v=ABRjwGo6Usg",
@@ -206,15 +224,15 @@
           "published_at": "2026-06-16T16:00:09Z"
         }
       ],
-      "item_count": 10,
-      "duplicate_count": 10,
-      "score": 0.7322,
-      "importance": 0.7322,
-      "importance_score": 0.7322,
+      "item_count": 11,
+      "duplicate_count": 11,
+      "score": 0.6996,
+      "importance": 0.6996,
+      "importance_score": 0.6996,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9408,
+        "recency": 0.8319,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -228,82 +246,6 @@
         "title": "這是漫長的一天 / it's been a long day",
         "url": "https://www.youtube.com/watch?v=VYpBi3dUN0k",
         "source": "nobody",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_f80731cec42f",
-      "title": "【關鍵排行圖解】2019-2025台灣消費性商品進口成長TOP20",
-      "url": "https://www.mirai.com.tw/taiwan-consumer-goods-imports-top-20-growth-categories-by-value-and-growth-rate-2019-2025",
-      "primary_url": "https://www.mirai.com.tw/taiwan-consumer-goods-imports-top-20-growth-categories-by-value-and-growth-rate-2019-2025",
-      "source": "未來流通研究所｜商業情報資訊站",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "ce0e8100130f9839b851e487e51937f23d282f76",
-          "title": "【關鍵排行圖解】2019-2025台灣消費性商品進口成長TOP20",
-          "url": "https://www.mirai.com.tw/taiwan-consumer-goods-imports-top-20-growth-categories-by-value-and-growth-rate-2019-2025",
-          "source": "未來流通研究所｜商業情報資訊站",
-          "source_name": "OPML RSS",
-          "site_id": "business",
-          "published_at": "2026-06-16T01:48:07Z"
-        },
-        {
-          "id": "63bd962b3daaa75d0d1d409caeadda362cf5bf89",
-          "title": "2019-2025台灣消費性商品進口成長TOP20",
-          "url": "https://www.mirai.com.tw/taiwan-consumer-goods-imports-top-20-growth-categories-by-value-and-growth-rate-2019-2025-diagram",
-          "source": "未來流通研究所｜商業情報資訊站",
-          "source_name": "OPML RSS",
-          "site_id": "business",
-          "published_at": "2026-06-16T01:39:52Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "未來流通研究所｜商業情報資訊站"
-      ],
-      "items": [
-        {
-          "id": "ce0e8100130f9839b851e487e51937f23d282f76",
-          "title": "【關鍵排行圖解】2019-2025台灣消費性商品進口成長TOP20",
-          "url": "https://www.mirai.com.tw/taiwan-consumer-goods-imports-top-20-growth-categories-by-value-and-growth-rate-2019-2025",
-          "source": "未來流通研究所｜商業情報資訊站",
-          "source_name": "OPML RSS",
-          "site_id": "business",
-          "published_at": "2026-06-16T01:48:07Z"
-        },
-        {
-          "id": "63bd962b3daaa75d0d1d409caeadda362cf5bf89",
-          "title": "2019-2025台灣消費性商品進口成長TOP20",
-          "url": "https://www.mirai.com.tw/taiwan-consumer-goods-imports-top-20-growth-categories-by-value-and-growth-rate-2019-2025-diagram",
-          "source": "未來流通研究所｜商業情報資訊站",
-          "source_name": "OPML RSS",
-          "site_id": "business",
-          "published_at": "2026-06-16T01:39:52Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.3293,
-      "importance": 0.3293,
-      "importance_score": 0.3293,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.5,
-        "recency": 0.0976,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-16T01:39:52Z",
-      "latest_at": "2026-06-16T01:48:07Z",
-      "primary_item": {
-        "id": "ce0e8100130f9839b851e487e51937f23d282f76",
-        "title": "【關鍵排行圖解】2019-2025台灣消費性商品進口成長TOP20",
-        "url": "https://www.mirai.com.tw/taiwan-consumer-goods-imports-top-20-growth-categories-by-value-and-growth-rate-2019-2025",
-        "source": "未來流通研究所｜商業情報資訊站",
         "source_name": "OPML RSS"
       }
     },
@@ -360,13 +302,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.2818,
-      "importance": 0.2818,
-      "importance_score": 0.2818,
+      "score": 0.2491,
+      "importance": 0.2491,
+      "importance_score": 0.2491,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.3559,
+        "recency": 0.247,
         "story_heat": 0.25
       },
       "category": "watch",
