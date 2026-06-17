@@ -149,9 +149,6 @@
       <outline text="Lex Fridman" type="rss" category="blog"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCSHZKyawb77ixDdsGog4iWA"
         htmlUrl="https://www.youtube.com/watch?UCSHZKyawb77ixDdsGog4iWA" />
-      <outline text="Acquired" type="rss" category="execution"
-        xmlUrl="http://acquired.libsyn.com/rss"
-        htmlUrl="https://acquired.fm" />
       <outline text="The David Rubenstein Show: Peer-to-Peer Conversations (Full Shows)" type="rss" category="execution"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLi85wWwDybjzOcYNPlIi7rC9TqrEvpgBC"
         htmlUrl="https://www.youtube.com/watch?v=97odgV4PoUo" />
@@ -221,9 +218,6 @@
       <outline text="Invicta" type="rss" category="culture"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCwO-UgquohXwoe7f0e6lMnw"
         htmlUrl="https://www.youtube.com/channel/UCwO-UgquohXwoe7f0e6lMnw" />
-      <outline text="Invest Like the Best with Patrick O'Shaughnessy" type="rss" category=""
-        xmlUrl="https://feeds.libsyn.com/85372/rss"
-        htmlUrl="https://joincolossus.com/" />
       <outline text="Hunter Walk" type="rss" category=""
         xmlUrl="https://hunterwalk.com/feed/"
         htmlUrl="https://hunterwalk.com" />
@@ -578,7 +572,7 @@
       <outline text="ZMonster's Blog" type="rss" category=""
         xmlUrl="https://www.zmonster.me/atom.xml"
         htmlUrl="http://www.zmonster.me/2023/11/10/chengdu-leshan-travel.html" />
-      <outline text="Wendover Productions" type="rss" category=""
+      <outline text="Wendover Productions" type="rss" category="execution"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC9RM-iSvTu1uPJb8X5yp3EQ"
         htmlUrl="https://www.youtube.com/watch?v=oL0umpPPe-8" />
       <outline text="Waxy.org" type="rss" category=""
