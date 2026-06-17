@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-06-17T07:36:08.217749Z",
+  "generated_at": "2026-06-17T12:21:54.465276Z",
   "window_hours": 24,
   "total_items": 2,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "這是漫長的一天 / it's been a long day",
-      "url": "https://www.youtube.com/watch?v=VYpBi3dUN0k",
-      "primary_url": "https://www.youtube.com/watch?v=VYpBi3dUN0k",
-      "source": "nobody",
+      "title": "《鐵拳教育》成真？韓國真要設‘教權保護局’ 韓網卻全怒了｜DenQ",
+      "url": "https://www.youtube.com/watch?v=4Nezz1vk4aY",
+      "primary_url": "https://www.youtube.com/watch?v=4Nezz1vk4aY",
+      "source": "DenQ來了",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "cac9e4b68e926e5e2ea7951b452d8a7328976d8a",
+          "title": "《鐵拳教育》成真？韓國真要設‘教權保護局’ 韓網卻全怒了｜DenQ",
+          "url": "https://www.youtube.com/watch?v=4Nezz1vk4aY",
+          "source": "DenQ來了",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-17T10:11:28Z"
+        },
         {
           "id": "be408017e1eda620ed77b4cc0aed5d03f91d8d42",
           "title": "這是漫長的一天 / it's been a long day",
@@ -57,15 +66,6 @@
           "published_at": "2026-06-16T20:02:59Z"
         },
         {
-          "id": "c0a731dcf816aece650e87e6460df1aa6ef9260c",
-          "title": "張員瑛機場爭議？官方正式回應了/NMIXX薛侖痛到含淚登台/Tiffany結婚 徐玄淚崩｜DenQ",
-          "url": "https://www.youtube.com/watch?v=qvy4R7ANI_o",
-          "source": "DenQ來了",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-16T10:00:00Z"
-        },
-        {
           "id": "8aefdeff1a832ed4fdc81e85cfe1906512084020",
           "title": "精神航空公司商業模式的問題 / The Problem With Spirit Airlines’ Business Model",
           "url": "https://www.youtube.com/watch?v=ABRjwGo6Usg",
@@ -93,6 +93,24 @@
           "published_at": "2026-06-16T16:00:32Z"
         },
         {
+          "id": "92836a1ada538432709d961d48912e4fca989757",
+          "title": "Anthropic 執行長 Dario Amodei 的內心世界 |賽道 / Inside the Mind of Anthropic CEO Dario Amodei | The Circuit",
+          "url": "https://www.youtube.com/watch?v=x2VHFgyawPE",
+          "source": "The Circuit with Emily Chang",
+          "source_name": "OPML RSS",
+          "site_id": "execution",
+          "published_at": "2026-06-17T12:00:14Z"
+        },
+        {
+          "id": "3ed39d8da3c4bed18de1b14b61eed7adfab9c985",
+          "title": "出國用 eSIM 有風險？摸透你的行蹤，eSIM 比你更了解你自己？｜公視P# 新聞實驗室",
+          "url": "https://www.youtube.com/watch?v=WKwleocOIJ0",
+          "source": "公視P#新聞實驗室",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-06-17T10:30:54Z"
+        },
+        {
           "id": "222ce6efa57c3633d2ad83b1ca2be7ec1c040843",
           "title": "精神航空為何失敗 / Why Spirit Airlines Failed",
           "url": "https://www.youtube.com/watch?v=ABRjwGo6Usg",
@@ -111,19 +129,30 @@
           "published_at": "2026-06-16T16:00:09Z"
         }
       ],
-      "source_count": 11,
+      "source_count": 13,
       "source_names": [
         "Business Insider",
         "CaseyNeistat",
         "DenQ來了",
         "Inspiraggio",
         "TODAY 看世界",
+        "The Circuit with Emily Chang",
         "Timeline - World History Documentaries",
         "Waxy.org",
         "Wendover Productions",
-        "nobody"
+        "nobody",
+        "公視P#新聞實驗室"
       ],
       "items": [
+        {
+          "id": "cac9e4b68e926e5e2ea7951b452d8a7328976d8a",
+          "title": "《鐵拳教育》成真？韓國真要設‘教權保護局’ 韓網卻全怒了｜DenQ",
+          "url": "https://www.youtube.com/watch?v=4Nezz1vk4aY",
+          "source": "DenQ來了",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-17T10:11:28Z"
+        },
         {
           "id": "be408017e1eda620ed77b4cc0aed5d03f91d8d42",
           "title": "這是漫長的一天 / it's been a long day",
@@ -170,15 +199,6 @@
           "published_at": "2026-06-16T20:02:59Z"
         },
         {
-          "id": "c0a731dcf816aece650e87e6460df1aa6ef9260c",
-          "title": "張員瑛機場爭議？官方正式回應了/NMIXX薛侖痛到含淚登台/Tiffany結婚 徐玄淚崩｜DenQ",
-          "url": "https://www.youtube.com/watch?v=qvy4R7ANI_o",
-          "source": "DenQ來了",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-16T10:00:00Z"
-        },
-        {
           "id": "8aefdeff1a832ed4fdc81e85cfe1906512084020",
           "title": "精神航空公司商業模式的問題 / The Problem With Spirit Airlines’ Business Model",
           "url": "https://www.youtube.com/watch?v=ABRjwGo6Usg",
@@ -206,6 +226,24 @@
           "published_at": "2026-06-16T16:00:32Z"
         },
         {
+          "id": "92836a1ada538432709d961d48912e4fca989757",
+          "title": "Anthropic 執行長 Dario Amodei 的內心世界 |賽道 / Inside the Mind of Anthropic CEO Dario Amodei | The Circuit",
+          "url": "https://www.youtube.com/watch?v=x2VHFgyawPE",
+          "source": "The Circuit with Emily Chang",
+          "source_name": "OPML RSS",
+          "site_id": "execution",
+          "published_at": "2026-06-17T12:00:14Z"
+        },
+        {
+          "id": "3ed39d8da3c4bed18de1b14b61eed7adfab9c985",
+          "title": "出國用 eSIM 有風險？摸透你的行蹤，eSIM 比你更了解你自己？｜公視P# 新聞實驗室",
+          "url": "https://www.youtube.com/watch?v=WKwleocOIJ0",
+          "source": "公視P#新聞實驗室",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-06-17T10:30:54Z"
+        },
+        {
           "id": "222ce6efa57c3633d2ad83b1ca2be7ec1c040843",
           "title": "精神航空為何失敗 / Why Spirit Airlines Failed",
           "url": "https://www.youtube.com/watch?v=ABRjwGo6Usg",
@@ -224,104 +262,122 @@
           "published_at": "2026-06-16T16:00:09Z"
         }
       ],
-      "item_count": 11,
-      "duplicate_count": 11,
-      "score": 0.6304,
-      "importance": 0.6304,
-      "importance_score": 0.6304,
+      "item_count": 13,
+      "duplicate_count": 13,
+      "score": 0.7228,
+      "importance": 0.7228,
+      "importance_score": 0.7228,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6015,
+        "recency": 0.9094,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-16T10:00:00Z",
-      "latest_at": "2026-06-16T22:02:15Z",
+      "earliest_at": "2026-06-16T16:00:09Z",
+      "latest_at": "2026-06-17T12:00:14Z",
       "primary_item": {
-        "id": "be408017e1eda620ed77b4cc0aed5d03f91d8d42",
-        "title": "這是漫長的一天 / it's been a long day",
-        "url": "https://www.youtube.com/watch?v=VYpBi3dUN0k",
-        "source": "nobody",
+        "id": "cac9e4b68e926e5e2ea7951b452d8a7328976d8a",
+        "title": "《鐵拳教育》成真？韓國真要設‘教權保護局’ 韓網卻全怒了｜DenQ",
+        "url": "https://www.youtube.com/watch?v=4Nezz1vk4aY",
+        "source": "DenQ來了",
         "source_name": "OPML RSS"
       }
     },
     {
-      "story_id": "story_928be2f1d299",
-      "title": "Kareem Amin - 重新魅力世界 - [像最好的那樣投資，EP.478] / Kareem Amin - Re-Enchanting the World - [Invest Like the Best, EP.478]",
-      "url": "https://colossus.com/episode/courage-truth-justice",
-      "primary_url": "https://colossus.com/episode/courage-truth-justice",
-      "source": "Invest Like the Best with Patrick O'Shaughnessy",
+      "story_id": "story_7d23c0769328",
+      "title": "AI越用越焦慮？高手教你每次提問都達陣",
+      "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014333",
+      "primary_url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014333",
+      "source": "商業周刊 當期雜誌開放文章",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "46bba61928aed9a2ee1bf68cac13aff1762faf6b",
-          "title": "Kareem Amin - 重新魅力世界 - [像最好的那樣投資，EP.478] / Kareem Amin - Re-Enchanting the World - [Invest Like the Best, EP.478]",
-          "url": "https://colossus.com/episode/courage-truth-justice",
-          "source": "Invest Like the Best with Patrick O'Shaughnessy",
+          "id": "e2590352b5ccb3238386acd3d0674572fba5b0d9",
+          "title": "AI越用越焦慮？高手教你每次提問都達陣",
+          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014333",
+          "source": "商業周刊 當期雜誌開放文章",
           "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-16T08:00:00Z"
+          "site_id": "trending",
+          "published_at": "2026-06-17T16:00:00Z"
         },
         {
-          "id": "72ee210cd5587d2b660862317e36537e8b2a2bd9",
-          "title": "Kareem Amin - 公司建設的不尋常方法 - [像最好的那樣投資，EP.478] / Kareem Amin - The Unusual Approach to Company Building - [Invest Like the Best, EP.478]",
-          "url": "https://colossus.com/episode/courage-truth-justice",
-          "source": "Invest Like the Best with Patrick O'Shaughnessy",
+          "id": "16ae77f8498a7ad886c538761759adb4743c4530",
+          "title": "同事在走廊聊了什麼、看向誰？快速搞懂職場政治2秘訣",
+          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014308",
+          "source": "商業周刊 當期雜誌開放文章",
           "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-16T08:00:00Z"
+          "site_id": "trending",
+          "published_at": "2026-06-17T16:00:00Z"
+        },
+        {
+          "id": "525c29a53afaec4e3f38a441ea8c51a733a71010",
+          "title": "財力、推案量非第一卻打動80多國　台中豪宅女王登頂「不動產聯合國」",
+          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014327",
+          "source": "商業周刊 當期雜誌開放文章",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-06-17T16:00:00Z"
         }
       ],
-      "source_count": 2,
+      "source_count": 3,
       "source_names": [
-        "Invest Like the Best with Patrick O'Shaughnessy"
+        "商業周刊 當期雜誌開放文章"
       ],
       "items": [
         {
-          "id": "46bba61928aed9a2ee1bf68cac13aff1762faf6b",
-          "title": "Kareem Amin - 重新魅力世界 - [像最好的那樣投資，EP.478] / Kareem Amin - Re-Enchanting the World - [Invest Like the Best, EP.478]",
-          "url": "https://colossus.com/episode/courage-truth-justice",
-          "source": "Invest Like the Best with Patrick O'Shaughnessy",
+          "id": "e2590352b5ccb3238386acd3d0674572fba5b0d9",
+          "title": "AI越用越焦慮？高手教你每次提問都達陣",
+          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014333",
+          "source": "商業周刊 當期雜誌開放文章",
           "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-16T08:00:00Z"
+          "site_id": "trending",
+          "published_at": "2026-06-17T16:00:00Z"
         },
         {
-          "id": "72ee210cd5587d2b660862317e36537e8b2a2bd9",
-          "title": "Kareem Amin - 公司建設的不尋常方法 - [像最好的那樣投資，EP.478] / Kareem Amin - The Unusual Approach to Company Building - [Invest Like the Best, EP.478]",
-          "url": "https://colossus.com/episode/courage-truth-justice",
-          "source": "Invest Like the Best with Patrick O'Shaughnessy",
+          "id": "16ae77f8498a7ad886c538761759adb4743c4530",
+          "title": "同事在走廊聊了什麼、看向誰？快速搞懂職場政治2秘訣",
+          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014308",
+          "source": "商業周刊 當期雜誌開放文章",
           "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-16T08:00:00Z"
+          "site_id": "trending",
+          "published_at": "2026-06-17T16:00:00Z"
+        },
+        {
+          "id": "525c29a53afaec4e3f38a441ea8c51a733a71010",
+          "title": "財力、推案量非第一卻打動80多國　台中豪宅女王登頂「不動產聯合國」",
+          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014327",
+          "source": "商業周刊 當期雜誌開放文章",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-06-17T16:00:00Z"
         }
       ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.18,
-      "importance": 0.18,
-      "importance_score": 0.18,
-      "importance_label": "值得关注",
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.525,
+      "importance": 0.525,
+      "importance_score": 0.525,
+      "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.0166,
-        "story_heat": 0.25
+        "recency": 1.0,
+        "story_heat": 0.5
       },
-      "category": "watch",
+      "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-16T08:00:00Z",
-      "latest_at": "2026-06-16T08:00:00Z",
+      "earliest_at": "2026-06-17T16:00:00Z",
+      "latest_at": "2026-06-17T16:00:00Z",
       "primary_item": {
-        "id": "46bba61928aed9a2ee1bf68cac13aff1762faf6b",
-        "title": "Kareem Amin - 重新魅力世界 - [像最好的那樣投資，EP.478] / Kareem Amin - Re-Enchanting the World - [Invest Like the Best, EP.478]",
-        "url": "https://colossus.com/episode/courage-truth-justice",
-        "source": "Invest Like the Best with Patrick O'Shaughnessy",
+        "id": "e2590352b5ccb3238386acd3d0674572fba5b0d9",
+        "title": "AI越用越焦慮？高手教你每次提問都達陣",
+        "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014333",
+        "source": "商業周刊 當期雜誌開放文章",
         "source_name": "OPML RSS"
       }
     }
