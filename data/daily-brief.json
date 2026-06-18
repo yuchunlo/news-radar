@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T10:45:33.756561Z",
+  "generated_at": "2026-06-18T11:07:59.958371Z",
   "window_hours": 24,
   "total_items": 2,
   "items": [
@@ -171,13 +171,13 @@
       ],
       "item_count": 8,
       "duplicate_count": 8,
-      "score": 0.6117,
-      "importance": 0.6117,
-      "importance_score": 0.6117,
+      "score": 0.6071,
+      "importance": 0.6071,
+      "importance_score": 0.6071,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.5391,
+        "recency": 0.5236,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -301,13 +301,13 @@
       ],
       "item_count": 5,
       "duplicate_count": 5,
-      "score": 0.3905,
-      "importance": 0.3905,
-      "importance_score": 0.3905,
+      "score": 0.3858,
+      "importance": 0.3858,
+      "importance_score": 0.3858,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.2184,
+        "recency": 0.2028,
         "story_heat": 1.0
       },
       "category": "multi_source",
