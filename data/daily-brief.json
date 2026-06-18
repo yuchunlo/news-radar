@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-17T23:43:50.140900Z",
+  "generated_at": "2026-06-18T04:42:08.880491Z",
   "window_hours": 24,
   "total_items": 2,
   "items": [
@@ -171,13 +171,13 @@
       ],
       "item_count": 8,
       "duplicate_count": 8,
-      "score": 0.7424,
-      "importance": 0.7424,
-      "importance_score": 0.7424,
+      "score": 0.6802,
+      "importance": 0.6802,
+      "importance_score": 0.6802,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9745,
+        "recency": 0.7674,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -196,13 +196,22 @@
     },
     {
       "story_id": "story_7d23c0769328",
-      "title": "AI越用越焦慮？高手教你每次提問都達陣",
+      "title": "AI提問力1》預視成果　覺得AI呼嚨你？先花10分鐘想清楚需求",
       "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014333",
       "primary_url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014333",
       "source": "商業周刊 當期雜誌開放文章",
       "source_name": "OPML RSS",
       "sources": [
         {
+          "id": "fa0540da746ee953222aa3a5d28e934a8de21e06",
+          "title": "AI提問力1》預視成果　覺得AI呼嚨你？先花10分鐘想清楚需求",
+          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014333",
+          "source": "商業周刊 當期雜誌開放文章",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-06-17T16:00:00Z"
+        },
+        {
           "id": "e2590352b5ccb3238386acd3d0674572fba5b0d9",
           "title": "AI越用越焦慮？高手教你每次提問都達陣",
           "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014333",
@@ -230,12 +239,21 @@
           "published_at": "2026-06-17T16:00:00Z"
         }
       ],
-      "source_count": 3,
+      "source_count": 4,
       "source_names": [
         "商業周刊 當期雜誌開放文章"
       ],
       "items": [
         {
+          "id": "fa0540da746ee953222aa3a5d28e934a8de21e06",
+          "title": "AI提問力1》預視成果　覺得AI呼嚨你？先花10分鐘想清楚需求",
+          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014333",
+          "source": "商業周刊 當期雜誌開放文章",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-06-17T16:00:00Z"
+        },
+        {
           "id": "e2590352b5ccb3238386acd3d0674572fba5b0d9",
           "title": "AI越用越焦慮？高手教你每次提問都達陣",
           "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014333",
@@ -263,16 +281,16 @@
           "published_at": "2026-06-17T16:00:00Z"
         }
       ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.4284,
-      "importance": 0.4284,
-      "importance_score": 0.4284,
+      "item_count": 4,
+      "duplicate_count": 4,
+      "score": 0.4162,
+      "importance": 0.4162,
+      "importance_score": 0.4162,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.6779,
-        "story_heat": 0.5
+        "recency": 0.4707,
+        "story_heat": 0.75
       },
       "category": "multi_source",
       "reasons": [
@@ -281,8 +299,8 @@
       "earliest_at": "2026-06-17T16:00:00Z",
       "latest_at": "2026-06-17T16:00:00Z",
       "primary_item": {
-        "id": "e2590352b5ccb3238386acd3d0674572fba5b0d9",
-        "title": "AI越用越焦慮？高手教你每次提問都達陣",
+        "id": "fa0540da746ee953222aa3a5d28e934a8de21e06",
+        "title": "AI提問力1》預視成果　覺得AI呼嚨你？先花10分鐘想清楚需求",
         "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014333",
         "source": "商業周刊 當期雜誌開放文章",
         "source_name": "OPML RSS"
