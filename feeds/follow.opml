@@ -308,16 +308,16 @@
       <outline text="Chartbook" type="rss" category=""
         xmlUrl="https://adamtooze.substack.com/feed"
         htmlUrl="https://adamtooze.substack.com" />
-      <outline text="Manuel Bravo" type="rss" category=""
+      <outline text="Manuel Bravo" type="rss" category="culture"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCdZGNOYhDdHJ8HtsLdMR88w"
         htmlUrl="https://www.youtube.com/watch?v=EWoxPbiyd1E" />
       <outline text="Joe Studwell's blog" type="rss" category=""
         xmlUrl="https://joestudwell.com/feed/"
         htmlUrl="https://joestudwell.com/" />
-      <outline text="報導者" type="rss" category=""
+      <outline text="報導者" type="rss" category="trending"
         xmlUrl="https://public.twreporter.org/rss/twreporter-rss.xml"
         htmlUrl="https://www.twreporter.org/" />
-      <outline text="報導者" type="rss" category=""
+      <outline text="報導者" type="rss" category="trending"
         xmlUrl="https://www.twreporter.org/a/rss2.xml"
         htmlUrl="https://www.twreporter.org/" />
       <outline text="【隱形工廠｜戶外教學】" type="rss" category="tech"
@@ -356,7 +356,7 @@
       <outline text="NotesByLex.com" type="rss" category=""
         xmlUrl="https://notesbylex.com/feeds/all.atom.xml"
         htmlUrl="http://localhost:8000/" />
-      <outline text="David Oks" type="rss" category=""
+      <outline text="David Oks" type="rss" category="culture"
         xmlUrl="https://davidoks.blog/feed"
         htmlUrl="https://davidoks.blog" />
       <outline text="若水斋" type="rss" category="blog"
@@ -383,7 +383,7 @@
       <outline text="玉塵 (塵世迷走書僮) | 文章列表 | 方格子 - vocus" type="rss" category=""
         xmlUrl="https://vocus.cc/rss/user/5ab1ef10fd8978000119f85b/articles"
         htmlUrl="https://vocus.cc/rss/user/5ab1ef10fd8978000119f85b/articles" />
-      <outline text="狂派生活誌" type="rss" category=""
+      <outline text="狂派生活誌" type="rss" category="blog"
         xmlUrl="https://brbu241.blogspot.com/feeds/posts/default"
         htmlUrl="https://brbu241.blogspot.com/2024/02/blog-post_17.html" />
       <outline text="法律白話文運動 Plain Law Movement" type="rss" category=""
@@ -413,9 +413,6 @@
       <outline text="智由博集" type="rss" category=""
         xmlUrl="https://www.proguidescreen.com/?feed=rss2"
         htmlUrl="https://www.proguidescreen.com" />
-      <outline text="時間的女兒：八卦歷史" type="rss" category="culture"
-        xmlUrl="https://feeds.soundon.fm/podcasts/8632047c-dd18-4bde-a86c-f6c44df60b16.xml"
-        htmlUrl="https://hazelsdot.soci.vip/" />
       <outline text="映畫手民" type="rss" category=""
         xmlUrl="https://www.cinezen.hk/?feed=rss2"
         htmlUrl="https://www.cinezen.hk" />
@@ -572,10 +569,10 @@
       <outline text="warfalcon" type="rss" category=""
         xmlUrl="https://posts.careerengine.us/author/59c0f4aef7efc713b5f6324b/rss"
         htmlUrl="http://posts.careerengine.us/author/59c0f4aef7efc713b5f6324b/rss" />
-      <outline text="Vox - Technology" type="rss" category=""
+      <outline text="Vox - Technology" type="rss" category="trending"
         xmlUrl="https://www.vox.com/rss/technology/index.xml"
         htmlUrl="https://www.vox.com/technology/2023/8/4/23819299/black-mirror-charlie-brooker-interview-ai-peter-kafka-media-column" />
-      <outline text="Useless Etymology" type="rss" category=""
+      <outline text="Useless Etymology" type="rss" category="culture"
         xmlUrl="https://uselessetymology.com/feed/"
         htmlUrl="https://uselessetymology.com" />
       <outline text="UsefulCharts" type="rss" category=""
@@ -710,13 +707,13 @@
       <outline text="Mike Boyd" type="rss" category="blog"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCIRiWCPZoUyZDbydIqitHtQ"
         htmlUrl="https://www.youtube.com/channel/UCIRiWCPZoUyZDbydIqitHtQ" />
-      <outline text="Michelle Khare" type="rss" category=""
+      <outline text="Michelle Khare" type="rss" category="trending"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCGGZ_POGmIWG1pQXTDzQv-g"
         htmlUrl="https://www.youtube.com/channel/UCGGZ_POGmIWG1pQXTDzQv-g" />
       <outline text="McKinsey Insights &amp; Publications" type="rss" category="trending"
         xmlUrl="https://www.mckinsey.com/insights/rss"
         htmlUrl="https://www.mckinsey.com/" />
-      <outline text="Max Mednik - Blog" type="rss" category=""
+      <outline text="Max Mednik - Blog" type="rss" category="blog"
         xmlUrl="https://www.maxmednik.com/1/feed"
         htmlUrl="https://www.maxmednik.com/blog" />
       <outline text="Maverick 的最新评论" type="rss" category=""
@@ -743,7 +740,7 @@
       <outline text="Krzysztof Żuraw" type="rss" category=""
         xmlUrl="https://krzysztofzuraw.com/rss.xml"
         htmlUrl="https://krzysztofzuraw.com/" />
-      <outline text="Knowledgia" type="rss" category=""
+      <outline text="Knowledgia" type="rss" category="culture"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCuCuEKq1xuRA0dFQj1qg9-Q"
         htmlUrl="https://www.youtube.com/channel/UCuCuEKq1xuRA0dFQj1qg9-Q" />
       <outline text="Kahara_華 的 bilibili 动态" type="rss" category=""
@@ -914,7 +911,7 @@
       <outline text="讀書e誌" type="rss" category="culture"
         xmlUrl="https://dushuyizhi.net/feed/"
         htmlUrl="https://dushuyizhi.net/" />
-      <outline text="elish的蘇哈地" type="rss" category=""
+      <outline text="elish的蘇哈地" type="rss" category="blog"
         xmlUrl="https://www.elish-nbf.net/feeds/posts/default"
         htmlUrl="https://www.elish-nbf.net/" />
       <outline text="〈Culture〉彙整頁面 - Pen tw" type="rss" category=""
