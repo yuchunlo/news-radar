@@ -1,16 +1,34 @@
 {
-  "generated_at": "2026-06-18T19:33:44.777818Z",
+  "generated_at": "2026-06-18T22:19:53.760714Z",
   "window_hours": 24,
-  "total_items": 1,
+  "total_items": 2,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "葡萄牙：50 年後的康乃馨革命－秘密遺產 / Portugal: The Carnation Revolution 50 Years Later – The Secret Legacy",
-      "url": "https://www.youtube.com/watch?v=e_ttHGrt014",
-      "primary_url": "https://www.youtube.com/watch?v=e_ttHGrt014",
-      "source": "imineo Documentaires",
+      "title": "1942年法國為何故意擊沉自己的海軍？ / Why Did France Intentionally Sink Its Own Navy In 1942?",
+      "url": "https://www.youtube.com/watch?v=BN-ZTzdqyi8",
+      "primary_url": "https://www.youtube.com/watch?v=BN-ZTzdqyi8",
+      "source": "Timeline - World History Documentaries",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "7e46c91c70b90f4b41b8b76e2444c69fd77abc99",
+          "title": "1942年法國為何故意擊沉自己的海軍？ / Why Did France Intentionally Sink Its Own Navy In 1942?",
+          "url": "https://www.youtube.com/watch?v=BN-ZTzdqyi8",
+          "source": "Timeline - World History Documentaries",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-18T21:00:22Z"
+        },
+        {
+          "id": "2afe5ca0803e1fcee61af4e292747d54c6540eda",
+          "title": "她從遊輪上「墜落」…完美的蜜月謀殺案 / She \"Fell\" From a Cruise Ship... The Perfect Honeymoon Murder",
+          "url": "https://www.youtube.com/watch?v=UkJV31TxwQ4",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-18T21:00:19Z"
+        },
         {
           "id": "c5ad5b60c2aeefd552cee7aac5a3c48751105e8d",
           "title": "葡萄牙：50 年後的康乃馨革命－秘密遺產 / Portugal: The Carnation Revolution 50 Years Later – The Secret Legacy",
@@ -93,15 +111,6 @@
           "published_at": "2026-06-17T23:07:09Z"
         },
         {
-          "id": "ffe141565094f0ca5a9b5515449cf9469f915004",
-          "title": "一切都变了！沃什上台就给了特朗普一巴掌。市场危险了？",
-          "url": "https://www.youtube.com/watch?v=ldcxcFlYkEs",
-          "source": "Shepherd Capital Markets",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-06-17T21:16:19Z"
-        },
-        {
           "id": "5435e107a11036fa03f76469cc094c4e3ed26839",
           "title": "烏克蘭戰鬥仍在繼續——無人機主宰戰場 / Fighting in Ukraine Continues - and Drones Dominate the Battlefield",
           "url": "https://www.youtube.com/watch?v=npbM0xvpjh0",
@@ -138,7 +147,7 @@
           "published_at": "2026-06-18T15:06:40Z"
         }
       ],
-      "source_count": 14,
+      "source_count": 15,
       "source_names": [
         "Best Documentary",
         "Good Times Bad Times",
@@ -146,8 +155,8 @@
         "Knowledgia",
         "NPR Music",
         "Perspective",
-        "Shepherd Capital Markets",
         "Tim Ferriss",
+        "Timeline - World History Documentaries",
         "imineo Documentaires",
         "【塞掐】訪談大人物",
         "探險威狼 Wilang-Explorer",
@@ -157,6 +166,24 @@
       ],
       "items": [
         {
+          "id": "7e46c91c70b90f4b41b8b76e2444c69fd77abc99",
+          "title": "1942年法國為何故意擊沉自己的海軍？ / Why Did France Intentionally Sink Its Own Navy In 1942?",
+          "url": "https://www.youtube.com/watch?v=BN-ZTzdqyi8",
+          "source": "Timeline - World History Documentaries",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-18T21:00:22Z"
+        },
+        {
+          "id": "2afe5ca0803e1fcee61af4e292747d54c6540eda",
+          "title": "她從遊輪上「墜落」…完美的蜜月謀殺案 / She \"Fell\" From a Cruise Ship... The Perfect Honeymoon Murder",
+          "url": "https://www.youtube.com/watch?v=UkJV31TxwQ4",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-18T21:00:19Z"
+        },
+        {
           "id": "c5ad5b60c2aeefd552cee7aac5a3c48751105e8d",
           "title": "葡萄牙：50 年後的康乃馨革命－秘密遺產 / Portugal: The Carnation Revolution 50 Years Later – The Secret Legacy",
           "url": "https://www.youtube.com/watch?v=e_ttHGrt014",
@@ -238,15 +265,6 @@
           "published_at": "2026-06-17T23:07:09Z"
         },
         {
-          "id": "ffe141565094f0ca5a9b5515449cf9469f915004",
-          "title": "一切都变了！沃什上台就给了特朗普一巴掌。市场危险了？",
-          "url": "https://www.youtube.com/watch?v=ldcxcFlYkEs",
-          "source": "Shepherd Capital Markets",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-06-17T21:16:19Z"
-        },
-        {
           "id": "5435e107a11036fa03f76469cc094c4e3ed26839",
           "title": "烏克蘭戰鬥仍在繼續——無人機主宰戰場 / Fighting in Ukraine Continues - and Drones Dominate the Battlefield",
           "url": "https://www.youtube.com/watch?v=npbM0xvpjh0",
@@ -283,28 +301,104 @@
           "published_at": "2026-06-18T15:06:40Z"
         }
       ],
-      "item_count": 14,
-      "duplicate_count": 14,
-      "score": 0.6992,
-      "importance": 0.6992,
-      "importance_score": 0.6992,
+      "item_count": 15,
+      "duplicate_count": 15,
+      "score": 0.7334,
+      "importance": 0.7334,
+      "importance_score": 0.7334,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.8308,
+        "recency": 0.9448,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-17T21:16:19Z",
-      "latest_at": "2026-06-18T15:43:03Z",
+      "earliest_at": "2026-06-17T23:07:09Z",
+      "latest_at": "2026-06-18T21:00:22Z",
       "primary_item": {
-        "id": "c5ad5b60c2aeefd552cee7aac5a3c48751105e8d",
-        "title": "葡萄牙：50 年後的康乃馨革命－秘密遺產 / Portugal: The Carnation Revolution 50 Years Later – The Secret Legacy",
-        "url": "https://www.youtube.com/watch?v=e_ttHGrt014",
-        "source": "imineo Documentaires",
+        "id": "7e46c91c70b90f4b41b8b76e2444c69fd77abc99",
+        "title": "1942年法國為何故意擊沉自己的海軍？ / Why Did France Intentionally Sink Its Own Navy In 1942?",
+        "url": "https://www.youtube.com/watch?v=BN-ZTzdqyi8",
+        "source": "Timeline - World History Documentaries",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_0ac5a387805b",
+      "title": "川普伊朗和平備忘錄公開：3,000 億重建、布蘭特原油跌 5%",
+      "url": "https://abmedia.io/trump-iran-peace-mou-300-billion-reconstruction-oil-drop-2026",
+      "primary_url": "https://abmedia.io/trump-iran-peace-mou-300-billion-reconstruction-oil-drop-2026",
+      "source": "鏈新聞 ABMedia",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "4d35ed44d6c871d1bb16e110441c865e94034a65",
+          "title": "川普伊朗和平備忘錄公開：3,000 億重建、布蘭特原油跌 5%",
+          "url": "https://abmedia.io/trump-iran-peace-mou-300-billion-reconstruction-oil-drop-2026",
+          "source": "鏈新聞 ABMedia",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-06-18T18:22:44Z"
+        },
+        {
+          "id": "c91dbea3a5cedb8957ed4cbb1f6629a119c87fe0",
+          "title": "川普伊朗和平備忘錄公開：3,000 億重建、油價跌 4.76%",
+          "url": "https://abmedia.io/trump-iran-peace-mou-300-billion-reconstruction-oil-drop-2026",
+          "source": "鏈新聞 ABMedia",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-06-18T18:22:44Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "鏈新聞 ABMedia"
+      ],
+      "items": [
+        {
+          "id": "4d35ed44d6c871d1bb16e110441c865e94034a65",
+          "title": "川普伊朗和平備忘錄公開：3,000 億重建、布蘭特原油跌 5%",
+          "url": "https://abmedia.io/trump-iran-peace-mou-300-billion-reconstruction-oil-drop-2026",
+          "source": "鏈新聞 ABMedia",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-06-18T18:22:44Z"
+        },
+        {
+          "id": "c91dbea3a5cedb8957ed4cbb1f6629a119c87fe0",
+          "title": "川普伊朗和平備忘錄公開：3,000 億重建、油價跌 4.76%",
+          "url": "https://abmedia.io/trump-iran-peace-mou-300-billion-reconstruction-oil-drop-2026",
+          "source": "鏈新聞 ABMedia",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-06-18T18:22:44Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.4256,
+      "importance": 0.4256,
+      "importance_score": 0.4256,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.25,
+        "recency": 0.8353,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-18T18:22:44Z",
+      "latest_at": "2026-06-18T18:22:44Z",
+      "primary_item": {
+        "id": "4d35ed44d6c871d1bb16e110441c865e94034a65",
+        "title": "川普伊朗和平備忘錄公開：3,000 億重建、布蘭特原油跌 5%",
+        "url": "https://abmedia.io/trump-iran-peace-mou-300-billion-reconstruction-oil-drop-2026",
+        "source": "鏈新聞 ABMedia",
         "source_name": "OPML RSS"
       }
     }
