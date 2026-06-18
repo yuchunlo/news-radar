@@ -161,7 +161,7 @@
       <outline text="Samuel on Medium" type="rss" category="blog"
         xmlUrl="https://citysite1025.medium.com/feed"
         htmlUrl="https://medium.com/@citysite1025?source=rss-b835bd37b327------2" />
-      <outline text="Kyle Chu 微風捕手 on Medium" type="rss" category="blog"
+      <outline text="Kyle Chu 微風捕手 on Medium" type="rss" category="convivium"
         xmlUrl="https://medium.com/@Kyle_Chu/feed"
         htmlUrl="https://medium.com/@Kyle_Chu?source=rss-8c7d4e0ce1e2------2" />
       <outline text="SatPost by Trung Phan" type="rss" category="blog"
@@ -251,9 +251,9 @@
       <outline text="Fall of Civilizations" type="rss" category="culture"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCT6Y5JJPKe_JDMivpKgVXew"
         htmlUrl="https://www.youtube.com/watch?v=0MtIVJ2lcu8" />
-      <outline text="FactSpark" type="rss" category=""
+      <outline text="FactSpark" type="rss" category="culture"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC5EcQrgvXsgGLR4ukxBTM8w"
-        htmlUrl="https://www.youtube.com/watch?v=gTZhqrFyCrI" />
+        htmlUrl="https://www.youtube.com/channel/UC5EcQrgvXsgGLR4ukxBTM8w" />
       <outline text="Dylan's Blog" type="rss" category=""
         xmlUrl="https://thedylansblog.wordpress.com/feed/"
         htmlUrl="https://thedylansblog.wordpress.com" />
@@ -302,12 +302,6 @@
       <outline text="[春衫猶濕]部落格" type="rss" category="culture"
         xmlUrl="https://blog.udn.com/rss.jsp?uid=ccpou"
         htmlUrl="http://blog.udn.com/ccpou" />
-      <outline text="Business Insider" type="rss" category=""
-        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCcyq283he07B7_KUX07mmtA"
-        htmlUrl="https://www.youtube.com/channel/UCcyq283he07B7_KUX07mmtA" />
-      <outline text="Insider" type="rss" category=""
-        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCHJuQZuzapBh-CuhRYxIZrg"
-        htmlUrl="https://www.youtube.com/watch?v=SCk4XilsoDU" />
       <outline text="Inspiraggio" type="rss" category="culture"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCj-_77Q1UK8qx2XJaYILagA"
         htmlUrl="https://www.youtube.com/channel/UCj-_77Q1UK8qx2XJaYILagA" />
@@ -344,7 +338,7 @@
       <outline text="小玄儿の深夜聊碟" type="rss" category="blog"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UChlnQu9Hu5A7F7qZ2rVL6Qw"
         htmlUrl="https://www.youtube.com/channel/UChlnQu9Hu5A7F7qZ2rVL6Qw" />
-      <outline text="imineo Documentaires" type="rss" category=""
+      <outline text="imineo Documentaires" type="rss" category="culture"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCJ9tHJbCa8ZoMbapfJLy0ZQ"
         htmlUrl="https://www.youtube.com/channel/UCJ9tHJbCa8ZoMbapfJLy0ZQ" />
       <outline text="DoodletmeGO" type="rss" category="design"
@@ -449,9 +443,6 @@
       <outline text="技艺圃" type="rss" category=""
         xmlUrl="http://winters1224.top/rss.xml"
         htmlUrl="http://winters1224.top/" />
-      <outline text="批踢踢實業坊 toberich 板" type="rss" category="trending"
-        xmlUrl="https://www.ptt.cc/atom/toberich.xml"
-        htmlUrl="https://www.ptt.cc/bbs/toberich/M.1692502580.A.916.html" />
       <outline text="批踢踢實業坊 Lifeismoney 板" type="rss" category="trending"
         xmlUrl="https://www.ptt.cc/atom/Lifeismoney.xml"
         htmlUrl="https://www.ptt.cc/bbs/Lifeismoney/M.1691342138.A.CCB.html" />
@@ -470,7 +461,7 @@
       <outline text="左其盛 的最新评论" type="rss" category=""
         xmlUrl="https://www.douban.com/feed/people/zuoqs/reviews"
         htmlUrl="https://www.douban.com/people/zuoqs/reviews" />
-      <outline text="居心誌" type="rss" category=""
+      <outline text="居心誌" type="rss" category="trending"
         xmlUrl="https://www.kindomliving.com.tw/?feed=rss2"
         htmlUrl="https://www.kindomliving.com.tw/" />
       <outline text="少数派" type="rss" category="trending"
@@ -527,7 +518,7 @@
       <outline text="公視P#新聞實驗室" type="rss" category="trending"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCMDcOT4z7GS1SRGG2g7z43g"
         htmlUrl="https://www.youtube.com/watch?v=8AgVppizXc0" />
-      <outline text="元毓說" type="rss" category=""
+      <outline text="元毓說" type="rss" category="trending"
         xmlUrl="https://yuanyu.idv.tw/feed/"
         htmlUrl="https://yuanyu.idv.tw" />
       <outline text="余焉 的最新评论" type="rss" category=""
@@ -548,7 +539,7 @@
       <outline text="不合时宜" type="rss" category="culture"
         xmlUrl="https://feed.xyzfm.space/ww7cqnybekty"
         htmlUrl="https://www.xiaoyuzhoufm.com/podcast/5e280fb8418a84a0461fd076?utm_source=rss" />
-      <outline text="上下游News&amp;Market" type="rss" category=""
+      <outline text="上下游News&amp;Market" type="rss" category="trending"
         xmlUrl="https://www.newsmarket.com.tw/feed/"
         htmlUrl="https://www.newsmarket.com.tw/" />
       <outline text="七分之二的探索" type="rss" category="trending"
@@ -575,7 +566,7 @@
       <outline text="Wendover Productions" type="rss" category="execution"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC9RM-iSvTu1uPJb8X5yp3EQ"
         htmlUrl="https://www.youtube.com/watch?v=oL0umpPPe-8" />
-      <outline text="Waxy.org" type="rss" category=""
+      <outline text="Waxy.org" type="rss" category="trending"
         xmlUrl="https://waxy.org/feed/"
         htmlUrl="https://waxy.org/" />
       <outline text="warfalcon" type="rss" category=""
@@ -596,24 +587,18 @@
       <outline text="Travel with book" type="rss" category=""
         xmlUrl="https://travelwithbook.com/feed/"
         htmlUrl="https://travelwithbook.com/" />
-      <outline text="TODAY 看世界" type="rss" category="trending"
-        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCmMnzrvnsSnv-0u9M1Rxiqw"
-        htmlUrl="https://www.youtube.com/watch?v=Pgi93uGePDw" />
       <outline text="Timeline - World History Documentaries" type="rss" category="culture"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC88lvyJe7aHZmcvzvubDFRg"
         htmlUrl="https://www.youtube.com/watch?v=QoJuYAgWpF8" />
-      <outline text="Tim Ferriss" type="rss" category="tech"
+      <outline text="The Tim Ferriss Show" type="rss" category="blog"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCznv7Vf9nBdJYvBagFdAHWw"
-        htmlUrl="https://www.youtube.com/watch?v=7T_TcO5EMRQ" />
+        htmlUrl="https://www.youtube.com/channel/UCznv7Vf9nBdJYvBagFdAHWw" />
       <outline text="Thomas Flight" type="rss" category="culture"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCUyvQV2JsICeLZP4c_h40kA"
         htmlUrl="https://www.youtube.com/watch?v=zQ29UhAolHY" />
       <outline text="The Pudding" type="rss" category=""
         xmlUrl="https://feeds.feedburner.com/pudding/feed"
         htmlUrl="https://pudding.cool" />
-      <outline text="The People Profiles" type="rss" category=""
-        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCD6TPU-PvTMvqgzC_AM7_uA"
-        htmlUrl="https://www.youtube.com/watch?v=swaL7yAtTTw" />
       <outline text="The Ed's Up" type="rss" category=""
         xmlUrl="https://buttondown.email/edyong209/rss"
         htmlUrl="https://buttondown.email/edyong209" />
@@ -629,9 +614,6 @@
       <outline text="Tag: architecture-city-guide | ArchDaily" type="rss" category="design"
         xmlUrl="https://www.archdaily.com/tag/architecture-city-guide.xml"
         htmlUrl="https://www.archdaily.com/" />
-      <outline text="Susie Woo 戴舒萱" type="rss" category="culture"
-        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC-IQGcGol7OOCH2B2Z8dUag"
-        htmlUrl="https://www.youtube.com/watch?v=XgEMYprj7ps" />
       <outline text="電影筆友 Movie Buddies on Medium" type="rss" category=""
         xmlUrl="https://medium.com/@moviebuddies01/feed"
         htmlUrl="https://medium.com/@moviebuddies01?source=rss-ac5fe9b88b0f------2" />
@@ -803,13 +785,13 @@
       <outline text="GOOD" type="rss" category="trending"
         xmlUrl="https://www.good.is/feeds/feed.rss"
         htmlUrl="https://www.good.is/" />
-      <outline text="Gasta Marcus Hobbitia" type="rss" category=""
+      <outline text="Gasta Marcus Hobbitia" type="rss" category="culture"
         xmlUrl="https://gmhjohnny.wordpress.com/feed/"
         htmlUrl="https://gmhjohnny.wordpress.com" />
       <outline text="F大叔的日常通信" type="rss" category=""
         xmlUrl="https://abei.club/feed"
         htmlUrl="https://abei.club" />
-      <outline text="FLiPER – 生活藝文誌" type="rss" category=""
+      <outline text="FLiPER – 生活藝文誌" type="rss" category="trending"
         xmlUrl="https://flipermag.com/feed/"
         htmlUrl="https://flipermag.com" />
       <outline text="FLAIR IRON" type="rss" category=""
@@ -845,7 +827,7 @@
       <outline text="Conge" type="rss" category=""
         xmlUrl="https://conge.livingwithfcs.org/feed.xml "
         htmlUrl="https://conge.livingwithfcs.org/" />
-      <outline text="Complete Think" type="rss" category=""
+      <outline text="Complete Think" type="rss" category="tech"
         xmlUrl="https://rickhw.github.io/atom.xml"
         htmlUrl="https://rickhw.github.io/2035/01/21/Index/" />
       <outline text="Coco-a-Rover" type="rss" category=""
@@ -950,7 +932,7 @@
       <outline text="巨翅 的收藏" type="rss" category=""
         xmlUrl="https://www.douban.com/feed/people/wushangwei/interests"
         htmlUrl="https://www.douban.com/people/wushangwei/" />
-      <outline text="DenQ來了" type="rss" category="culture"
+      <outline text="DenQ來了" type="rss" category="trending"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCcuCMs6zPjWLNkWVFMJvBrA"
         htmlUrl="https://www.youtube.com/channel/UCcuCMs6zPjWLNkWVFMJvBrA" />
       <outline text="Cleo Abram" type="rss" category="tech"
