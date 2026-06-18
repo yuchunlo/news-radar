@@ -2946,7 +2946,18 @@ def main(argv=None) -> int:
                 "published_at": iso(raw.published_at),
                 "first_seen_at": iso(now),
                 "last_seen_at": iso(now),
+                "star": False
             }
+            if 'youtube.com' not in url and 'youtu.be' not in url:
+                continue
+            vid = (re.search(r'[?&]v=([^&]+)', url) or
+                   re.search(r'/shorts/([^?&/]+)', url) or
+                   re.search(r'/live/([^?&/]+)', url) or
+                   re.search(r'youtu\.be/([^?&/]+)', url))
+            if vid:
+                archive[item_id].update({
+                    "thumbnail": f"https://img.youtube.com/vi/{vid.group(1)}/mqdefault.jpg"
+                })
         else:
             existing["site_id"] = raw.site_id
             existing["site_name"] = raw.site_name
@@ -2955,8 +2966,8 @@ def main(argv=None) -> int:
             existing["url"] = url
             if existing.get("summary"):
                 existing["summary"] = existing.get("summary")
-                if existing.get("thumbnail"):
-                    existing["thumbnail"] = existing.get("thumbnail")
+            if existing.get("thumbnail"):
+                existing["thumbnail"] = existing.get("thumbnail")
             if raw.published_at:
                 # OPML RSS may fix previously wrong publish times; allow overwrite.
                 if raw.site_id == "opmlrss" or not existing.get("published_at"):
