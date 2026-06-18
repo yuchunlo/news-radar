@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-06-18T11:07:59.958371Z",
+  "generated_at": "2026-06-18T12:37:55.359281Z",
   "window_hours": 24,
   "total_items": 2,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "美西戰爭是如何發生的？ - 19 分鐘內解釋 / How did the Spanish-American War Happen? - EXPLAINED IN 19 MINUTES",
-      "url": "https://www.youtube.com/watch?v=Pyt_8_8_p3s",
-      "primary_url": "https://www.youtube.com/watch?v=Pyt_8_8_p3s",
-      "source": "Knowledgia",
+      "title": "美國最具代表性的教堂建築背後的秘密和故事 / The Secrets and Stories Behind America's Most Iconic Church Architecture",
+      "url": "https://www.youtube.com/watch?v=09vKpRWIOg0",
+      "primary_url": "https://www.youtube.com/watch?v=09vKpRWIOg0",
+      "source": "Perspective",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "d70909123f664f35aa68ddf46083724b1be93f8e",
+          "title": "美國最具代表性的教堂建築背後的秘密和故事 / The Secrets and Stories Behind America's Most Iconic Church Architecture",
+          "url": "https://www.youtube.com/watch?v=09vKpRWIOg0",
+          "source": "Perspective",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-18T12:00:33Z"
+        },
         {
           "id": "d1311d1b69bc13a8b7ccda1759c285acfcd2c402",
           "title": "美西戰爭是如何發生的？ - 19 分鐘內解釋 / How did the Spanish-American War Happen? - EXPLAINED IN 19 MINUTES",
@@ -64,32 +73,13 @@
           "source_name": "OPML RSS",
           "site_id": "trending",
           "published_at": "2026-06-17T13:00:06Z"
-        },
-        {
-          "id": "7e65a8d86db8024f041e2ea13aeb23876ffadcfc",
-          "title": "萬事達卡高級研究員為何傳統廣告已死？ CMO 內幕播客 / Why Traditional Advertising Is Dead, With Mastercard Snr Fellow | CMO Insider Podcast",
-          "url": "https://www.youtube.com/watch?v=u0ISg58mqRI",
-          "source": "Business Insider",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-06-17T12:30:39Z"
-        },
-        {
-          "id": "b15b261d1ecc45ee4974e57f5fb51cd21ac5299d",
-          "title": "Anthropic 執行長 Dario Amodei 的內心世界 |電路|延伸採訪 / Inside the Mind of Anthropic CEO Dario Amodei | The Circuit | Extended Interview",
-          "url": "https://www.youtube.com/watch?v=x2VHFgyawPE",
-          "source": "The Circuit with Emily Chang",
-          "source_name": "OPML RSS",
-          "site_id": "execution",
-          "published_at": "2026-06-17T12:00:14Z"
         }
       ],
-      "source_count": 8,
+      "source_count": 7,
       "source_names": [
-        "Business Insider",
         "Knowledgia",
+        "Perspective",
         "TODAY 看世界",
-        "The Circuit with Emily Chang",
         "The People Profiles",
         "The Tim Ferriss Show",
         "imineo Documentaires",
@@ -97,6 +87,15 @@
       ],
       "items": [
         {
+          "id": "d70909123f664f35aa68ddf46083724b1be93f8e",
+          "title": "美國最具代表性的教堂建築背後的秘密和故事 / The Secrets and Stories Behind America's Most Iconic Church Architecture",
+          "url": "https://www.youtube.com/watch?v=09vKpRWIOg0",
+          "source": "Perspective",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-18T12:00:33Z"
+        },
+        {
           "id": "d1311d1b69bc13a8b7ccda1759c285acfcd2c402",
           "title": "美西戰爭是如何發生的？ - 19 分鐘內解釋 / How did the Spanish-American War Happen? - EXPLAINED IN 19 MINUTES",
           "url": "https://www.youtube.com/watch?v=Pyt_8_8_p3s",
@@ -149,48 +148,30 @@
           "source_name": "OPML RSS",
           "site_id": "trending",
           "published_at": "2026-06-17T13:00:06Z"
-        },
-        {
-          "id": "7e65a8d86db8024f041e2ea13aeb23876ffadcfc",
-          "title": "萬事達卡高級研究員為何傳統廣告已死？ CMO 內幕播客 / Why Traditional Advertising Is Dead, With Mastercard Snr Fellow | CMO Insider Podcast",
-          "url": "https://www.youtube.com/watch?v=u0ISg58mqRI",
-          "source": "Business Insider",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-06-17T12:30:39Z"
-        },
-        {
-          "id": "b15b261d1ecc45ee4974e57f5fb51cd21ac5299d",
-          "title": "Anthropic 執行長 Dario Amodei 的內心世界 |電路|延伸採訪 / Inside the Mind of Anthropic CEO Dario Amodei | The Circuit | Extended Interview",
-          "url": "https://www.youtube.com/watch?v=x2VHFgyawPE",
-          "source": "The Circuit with Emily Chang",
-          "source_name": "OPML RSS",
-          "site_id": "execution",
-          "published_at": "2026-06-17T12:00:14Z"
         }
       ],
-      "item_count": 8,
-      "duplicate_count": 8,
-      "score": 0.6071,
-      "importance": 0.6071,
-      "importance_score": 0.6071,
+      "item_count": 7,
+      "duplicate_count": 7,
+      "score": 0.7422,
+      "importance": 0.7422,
+      "importance_score": 0.7422,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.5236,
+        "recency": 0.974,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-17T12:00:14Z",
-      "latest_at": "2026-06-17T23:41:55Z",
+      "earliest_at": "2026-06-17T13:00:06Z",
+      "latest_at": "2026-06-18T12:00:33Z",
       "primary_item": {
-        "id": "d1311d1b69bc13a8b7ccda1759c285acfcd2c402",
-        "title": "美西戰爭是如何發生的？ - 19 分鐘內解釋 / How did the Spanish-American War Happen? - EXPLAINED IN 19 MINUTES",
-        "url": "https://www.youtube.com/watch?v=Pyt_8_8_p3s",
-        "source": "Knowledgia",
+        "id": "d70909123f664f35aa68ddf46083724b1be93f8e",
+        "title": "美國最具代表性的教堂建築背後的秘密和故事 / The Secrets and Stories Behind America's Most Iconic Church Architecture",
+        "url": "https://www.youtube.com/watch?v=09vKpRWIOg0",
+        "source": "Perspective",
         "source_name": "OPML RSS"
       }
     },
@@ -230,8 +211,8 @@
           "published_at": "2026-06-17T16:00:00Z"
         },
         {
-          "id": "525c29a53afaec4e3f38a441ea8c51a733a71010",
-          "title": "財力、推案量非第一卻打動80多國　台中豪宅女王登頂「不動產聯合國」",
+          "id": "849b344334d170018f14064d659f4e31f59c5e63",
+          "title": "財力、推案量非第一卻打動80多國，台中豪宅女王登頂「不動產聯合國」",
           "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014327",
           "source": "商業周刊 當期雜誌開放文章",
           "source_name": "OPML RSS",
@@ -281,8 +262,8 @@
           "published_at": "2026-06-17T16:00:00Z"
         },
         {
-          "id": "525c29a53afaec4e3f38a441ea8c51a733a71010",
-          "title": "財力、推案量非第一卻打動80多國　台中豪宅女王登頂「不動產聯合國」",
+          "id": "849b344334d170018f14064d659f4e31f59c5e63",
+          "title": "財力、推案量非第一卻打動80多國，台中豪宅女王登頂「不動產聯合國」",
           "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014327",
           "source": "商業周刊 當期雜誌開放文章",
           "source_name": "OPML RSS",
@@ -301,13 +282,13 @@
       ],
       "item_count": 5,
       "duplicate_count": 5,
-      "score": 0.3858,
-      "importance": 0.3858,
-      "importance_score": 0.3858,
+      "score": 0.3671,
+      "importance": 0.3671,
+      "importance_score": 0.3671,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.2028,
+        "recency": 0.1403,
         "story_heat": 1.0
       },
       "category": "multi_source",
