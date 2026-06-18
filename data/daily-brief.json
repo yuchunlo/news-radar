@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T16:51:58.378921Z",
+  "generated_at": "2026-06-18T17:18:09.378564Z",
   "window_hours": 24,
   "total_items": 1,
   "items": [
@@ -304,13 +304,13 @@
       ],
       "item_count": 15,
       "duplicate_count": 15,
-      "score": 0.7329,
-      "importance": 0.7329,
-      "importance_score": 0.7329,
+      "score": 0.7275,
+      "importance": 0.7275,
+      "importance_score": 0.7275,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9431,
+        "recency": 0.9249,
         "story_heat": 1.0
       },
       "category": "multi_source",
