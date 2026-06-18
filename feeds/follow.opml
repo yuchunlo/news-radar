@@ -587,7 +587,7 @@
       <outline text="Timeline - World History Documentaries" type="rss" category="culture"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC88lvyJe7aHZmcvzvubDFRg"
         htmlUrl="https://www.youtube.com/channel/UC88lvyJe7aHZmcvzvubDFRg" />
-      <outline text="The Tim Ferriss Show" type="rss" category="blog"
+      <outline text="Tim Ferriss" type="rss" category="blog"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCznv7Vf9nBdJYvBagFdAHWw"
         htmlUrl="https://www.youtube.com/channel/UCznv7Vf9nBdJYvBagFdAHWw" />
       <outline text="Thomas Flight" type="rss" category="culture"
@@ -959,7 +959,7 @@
       <outline text="動區動趨-最具影響力的區塊鏈新聞媒體" type="rss" category="trending"
         xmlUrl="https://www.blocktempo.com/feed/"
         htmlUrl="https://www.blocktempo.com/" />
-      <outline text="Techmeme" type="rss" category="trending"
+      <outline text="Techmeme" type="rss" category="tech"
         xmlUrl="https://www.techmeme.com/feed.xml"
         htmlUrl="https://www.techmeme.com/" />
       <outline text="今日话题 - 雪球" type="rss" category="trending"
