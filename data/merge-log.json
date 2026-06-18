@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-18T04:42:08.880491Z",
+  "generated_at": "2026-06-18T09:20:39.750962Z",
   "merge_strategy": "url_or_title_similarity_v0_6",
-  "total_events": 10,
+  "total_events": 12,
   "events": [
     {
       "story_id": "story_774f7412d1a3",
@@ -33,21 +33,28 @@
     },
     {
       "story_id": "story_7d23c0769328",
-      "item_id": "525c29a53afaec4e3f38a441ea8c51a733a71010",
-      "merged_into": "story_7d23c0769328",
-      "reason": "canonical_url",
-      "similarity": 1.0
-    },
-    {
-      "story_id": "story_7d23c0769328",
-      "item_id": "16ae77f8498a7ad886c538761759adb4743c4530",
-      "merged_into": "story_7d23c0769328",
-      "reason": "canonical_url",
-      "similarity": 1.0
-    },
-    {
-      "story_id": "story_7d23c0769328",
       "item_id": "fa0540da746ee953222aa3a5d28e934a8de21e06",
+      "merged_into": "story_7d23c0769328",
+      "reason": "canonical_url",
+      "similarity": 1.0
+    },
+    {
+      "story_id": "story_7d23c0769328",
+      "item_id": "849b344334d170018f14064d659f4e31f59c5e63",
+      "merged_into": "story_7d23c0769328",
+      "reason": "canonical_url",
+      "similarity": 1.0
+    },
+    {
+      "story_id": "story_7d23c0769328",
+      "item_id": "e2590352b5ccb3238386acd3d0674572fba5b0d9",
+      "merged_into": "story_7d23c0769328",
+      "reason": "canonical_url",
+      "similarity": 1.0
+    },
+    {
+      "story_id": "story_7d23c0769328",
+      "item_id": "df4156fc33b75fac092f8b056c17f44d832d3809",
       "merged_into": "story_7d23c0769328",
       "reason": "canonical_url",
       "similarity": 1.0
@@ -69,6 +76,13 @@
     {
       "story_id": "story_774f7412d1a3",
       "item_id": "c43ebcdcef80383e6c87954bbc6e163d13aa3209",
+      "merged_into": "story_774f7412d1a3",
+      "reason": "canonical_url",
+      "similarity": 1.0
+    },
+    {
+      "story_id": "story_774f7412d1a3",
+      "item_id": "a9d14941f8dd277a4f045023376b03dd1addb327",
       "merged_into": "story_774f7412d1a3",
       "reason": "canonical_url",
       "similarity": 1.0

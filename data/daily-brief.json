@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-18T04:42:08.880491Z",
+  "generated_at": "2026-06-18T09:20:39.750962Z",
   "window_hours": 24,
   "total_items": 2,
   "items": [
@@ -30,6 +30,15 @@
           "published_at": "2026-06-17T10:11:28Z"
         },
         {
+          "id": "a9d14941f8dd277a4f045023376b03dd1addb327",
+          "title": "美西戰爭是如何發生的？ - 19 分鐘內解釋 / How did the Spanish-American War Happen? - EXPLAINED IN 19 MINUTES",
+          "url": "https://www.youtube.com/watch?v=Pyt_8_8_p3s",
+          "source": "Knowledgia",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-06-17T23:41:55Z"
+        },
+        {
           "id": "ae201c5898e95c29430a93fceeb975a3de752b9b",
           "title": "孔子 - 書籍被燒毀的危險哲學家 紀錄片 / Confucius - The Dangerous Philosopher Whose Books Were Burned Documentary",
           "url": "https://www.youtube.com/watch?v=qI3oQ3ykbjA",
@@ -84,10 +93,11 @@
           "published_at": "2026-06-17T12:00:14Z"
         }
       ],
-      "source_count": 8,
+      "source_count": 9,
       "source_names": [
         "Business Insider",
         "DenQ來了",
+        "Knowledgia",
         "TODAY 看世界",
         "The Circuit with Emily Chang",
         "The People Profiles",
@@ -115,6 +125,15 @@
           "published_at": "2026-06-17T10:11:28Z"
         },
         {
+          "id": "a9d14941f8dd277a4f045023376b03dd1addb327",
+          "title": "美西戰爭是如何發生的？ - 19 分鐘內解釋 / How did the Spanish-American War Happen? - EXPLAINED IN 19 MINUTES",
+          "url": "https://www.youtube.com/watch?v=Pyt_8_8_p3s",
+          "source": "Knowledgia",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-06-17T23:41:55Z"
+        },
+        {
           "id": "ae201c5898e95c29430a93fceeb975a3de752b9b",
           "title": "孔子 - 書籍被燒毀的危險哲學家 紀錄片 / Confucius - The Dangerous Philosopher Whose Books Were Burned Documentary",
           "url": "https://www.youtube.com/watch?v=qI3oQ3ykbjA",
@@ -169,15 +188,15 @@
           "published_at": "2026-06-17T12:00:14Z"
         }
       ],
-      "item_count": 8,
-      "duplicate_count": 8,
-      "score": 0.6802,
-      "importance": 0.6802,
-      "importance_score": 0.6802,
+      "item_count": 9,
+      "duplicate_count": 9,
+      "score": 0.6222,
+      "importance": 0.6222,
+      "importance_score": 0.6222,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7674,
+        "recency": 0.5739,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -185,7 +204,7 @@
         "multi_source"
       ],
       "earliest_at": "2026-06-17T10:11:28Z",
-      "latest_at": "2026-06-17T23:07:09Z",
+      "latest_at": "2026-06-17T23:41:55Z",
       "primary_item": {
         "id": "c43ebcdcef80383e6c87954bbc6e163d13aa3209",
         "title": "人工智慧競賽內部：DeepMind、OpenAI、Anthropic、中國和超級智慧競賽 / Inside The AI Race: DeepMind, OpenAI, Anthropic, China, and The Race to Superintelligence",
@@ -230,16 +249,25 @@
           "published_at": "2026-06-17T16:00:00Z"
         },
         {
-          "id": "525c29a53afaec4e3f38a441ea8c51a733a71010",
-          "title": "財力、推案量非第一卻打動80多國　台中豪宅女王登頂「不動產聯合國」",
+          "id": "849b344334d170018f14064d659f4e31f59c5e63",
+          "title": "財力、推案量非第一卻打動80多國，台中豪宅女王登頂「不動產聯合國」",
           "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014327",
+          "source": "商業周刊 當期雜誌開放文章",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-06-17T16:00:00Z"
+        },
+        {
+          "id": "df4156fc33b75fac092f8b056c17f44d832d3809",
+          "title": "隱身羅浮宮對面旅遊新亮點　直擊巴黎最夯藝術實驗博物館",
+          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014319",
           "source": "商業周刊 當期雜誌開放文章",
           "source_name": "OPML RSS",
           "site_id": "trending",
           "published_at": "2026-06-17T16:00:00Z"
         }
       ],
-      "source_count": 4,
+      "source_count": 5,
       "source_names": [
         "商業周刊 當期雜誌開放文章"
       ],
@@ -272,25 +300,34 @@
           "published_at": "2026-06-17T16:00:00Z"
         },
         {
-          "id": "525c29a53afaec4e3f38a441ea8c51a733a71010",
-          "title": "財力、推案量非第一卻打動80多國　台中豪宅女王登頂「不動產聯合國」",
+          "id": "849b344334d170018f14064d659f4e31f59c5e63",
+          "title": "財力、推案量非第一卻打動80多國，台中豪宅女王登頂「不動產聯合國」",
           "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014327",
+          "source": "商業周刊 當期雜誌開放文章",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-06-17T16:00:00Z"
+        },
+        {
+          "id": "df4156fc33b75fac092f8b056c17f44d832d3809",
+          "title": "隱身羅浮宮對面旅遊新亮點　直擊巴黎最夯藝術實驗博物館",
+          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014319",
           "source": "商業周刊 當期雜誌開放文章",
           "source_name": "OPML RSS",
           "site_id": "trending",
           "published_at": "2026-06-17T16:00:00Z"
         }
       ],
-      "item_count": 4,
-      "duplicate_count": 4,
-      "score": 0.4162,
-      "importance": 0.4162,
-      "importance_score": 0.4162,
+      "item_count": 5,
+      "duplicate_count": 5,
+      "score": 0.4082,
+      "importance": 0.4082,
+      "importance_score": 0.4082,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.4707,
-        "story_heat": 0.75
+        "recency": 0.2773,
+        "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
