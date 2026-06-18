@@ -959,6 +959,18 @@
       <outline text="動區動趨-最具影響力的區塊鏈新聞媒體" type="rss" category="trending"
         xmlUrl="https://www.blocktempo.com/feed/"
         htmlUrl="https://www.blocktempo.com/" />
+      <outline text="Techmeme" type="rss" category="trending"
+        xmlUrl="https://www.techmeme.com/feed.xml"
+        htmlUrl="https://www.techmeme.com/" />
+      <outline text="今日话题 - 雪球" type="rss" category="trending"
+        xmlUrl="https://xueqiu.com/hots/topic/rss"
+        htmlUrl="https://xueqiu.com/" />
+      <outline text="虎嗅" type="rss" category="trending"
+        xmlUrl="https://rss.huxiu.com/"
+        htmlUrl="https://www.huxiu.com/" />
+      <outline text="天仙子" type="rss" category="blog"
+        xmlUrl="https://www.tianxianzi.me/index.xml"
+        htmlUrl="https://www.tianxianzi.me/" />
     </outline>
   </body>
 </opml>
