@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T20:53:04.656931Z",
+  "generated_at": "2026-06-19T22:09:43.726758Z",
   "window_hours": 24,
   "total_items": 2,
   "items": [
@@ -120,24 +120,6 @@
           "published_at": "2026-06-18T23:15:28Z"
         },
         {
-          "id": "7e46c91c70b90f4b41b8b76e2444c69fd77abc99",
-          "title": "1942年法國為何故意擊沉自己的海軍？ / Why Did France Intentionally Sink Its Own Navy In 1942?",
-          "url": "https://www.youtube.com/watch?v=BN-ZTzdqyi8",
-          "source": "Timeline - World History Documentaries",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-18T21:00:22Z"
-        },
-        {
-          "id": "2afe5ca0803e1fcee61af4e292747d54c6540eda",
-          "title": "她從遊輪上「墜落」…完美的蜜月謀殺案 / She \"Fell\" From a Cruise Ship... The Perfect Honeymoon Murder",
-          "url": "https://www.youtube.com/watch?v=UkJV31TxwQ4",
-          "source": "Best Documentary",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-18T21:00:19Z"
-        },
-        {
           "id": "f12c75b1595b58fc008eed3ce212fabd500c33d4",
           "title": "地球上最長的飛行 / The Longest Flight That Will Ever Exist on Earth",
           "url": "https://www.youtube.com/watch?v=V14RCK_QiG0",
@@ -210,7 +192,7 @@
           "published_at": "2026-06-19T10:00:31Z"
         }
       ],
-      "source_count": 22,
+      "source_count": 20,
       "source_names": [
         "Best Documentary",
         "Cadence Gao",
@@ -222,7 +204,6 @@
         "Match Economy",
         "RealLifeLore",
         "Shepherd Capital Markets",
-        "Timeline - World History Documentaries",
         "UsefulCharts",
         "Yamajai Notsa 山系の廢青",
         "imineo Documentaires",
@@ -342,24 +323,6 @@
           "published_at": "2026-06-18T23:15:28Z"
         },
         {
-          "id": "7e46c91c70b90f4b41b8b76e2444c69fd77abc99",
-          "title": "1942年法國為何故意擊沉自己的海軍？ / Why Did France Intentionally Sink Its Own Navy In 1942?",
-          "url": "https://www.youtube.com/watch?v=BN-ZTzdqyi8",
-          "source": "Timeline - World History Documentaries",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-18T21:00:22Z"
-        },
-        {
-          "id": "2afe5ca0803e1fcee61af4e292747d54c6540eda",
-          "title": "她從遊輪上「墜落」…完美的蜜月謀殺案 / She \"Fell\" From a Cruise Ship... The Perfect Honeymoon Murder",
-          "url": "https://www.youtube.com/watch?v=UkJV31TxwQ4",
-          "source": "Best Documentary",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-18T21:00:19Z"
-        },
-        {
           "id": "f12c75b1595b58fc008eed3ce212fabd500c33d4",
           "title": "地球上最長的飛行 / The Longest Flight That Will Ever Exist on Earth",
           "url": "https://www.youtube.com/watch?v=V14RCK_QiG0",
@@ -432,22 +395,22 @@
           "published_at": "2026-06-19T10:00:31Z"
         }
       ],
-      "item_count": 22,
-      "duplicate_count": 22,
-      "score": 0.7412,
-      "importance": 0.7412,
-      "importance_score": 0.7412,
+      "item_count": 20,
+      "duplicate_count": 20,
+      "score": 0.7252,
+      "importance": 0.7252,
+      "importance_score": 0.7252,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9705,
+        "recency": 0.9173,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-18T21:00:19Z",
+      "earliest_at": "2026-06-18T23:15:28Z",
       "latest_at": "2026-06-19T20:10:37Z",
       "primary_item": {
         "id": "aace223d1e9ac9e9f8cef3739ee4d352a1b14f69",
@@ -510,13 +473,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3452,
-      "importance": 0.3452,
-      "importance_score": 0.3452,
+      "score": 0.3292,
+      "importance": 0.3292,
+      "importance_score": 0.3292,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.5673,
+        "recency": 0.5141,
         "story_heat": 0.25
       },
       "category": "watch",
