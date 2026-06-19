@@ -8,7 +8,7 @@
       <outline text="阮一峰的网络日志" type="rss" category="tech"
         xmlUrl="https://feeds.feedburner.com/ruanyifeng"
         htmlUrl="http://www.ruanyifeng.com/blog/" />
-      <outline text="鋼哥 / Vocus 作者" type="rss" category="blog"
+      <outline text="鋼哥 / Vocus" type="rss" category="blog"
         xmlUrl="https://feed.cqd.tw/vocus/user/xavierkevin"
         htmlUrl="https://vocus.cc/user/@xavierkevin" />
       <outline text="王喆的机器学习笔记 - 知乎专栏" type="rss" category="tech"
@@ -248,7 +248,7 @@
       <outline text="Chu's Vegan" type="rss" category="convivium"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCDBMmr-k_xOmoeL7j8-l1_w"
         htmlUrl="https://www.youtube.com/channel/UCDBMmr-k_xOmoeL7j8-l1_w" />
-      <outline text="Chiaheng Seetoo / Vocus 作者" type="rss" category=""
+      <outline text="Chiaheng Seetoo / Vocus" type="rss" category="execution"
         xmlUrl="https://feed.cqd.tw/vocus/user/chiahengseetoo"
         htmlUrl="https://vocus.cc/user/@chiahengseetoo" />
       <outline text="CaspianReport" type="rss" category="execution"
@@ -341,15 +341,15 @@
       <outline text="百舜的美國股市專欄" type="rss" category="finance"
         xmlUrl="https://usstockinvesting.com/feed/"
         htmlUrl="https://usstockinvesting.com/" />
-      <outline text="白菜 的最新评论" type="rss" category=""
+      <outline text="白菜 的最新评论" type="rss" category="blog"
         xmlUrl="https://www.douban.com/feed/people/bc12345678/reviews"
         htmlUrl="https://www.douban.com/people/bc12345678/reviews" />
       <outline text="異鄉人故事" type="rss" category=""
         xmlUrl="https://theoutsiderstory.com/rss/"
         htmlUrl="https://theoutsiderstory.com/" />
-      <outline text="玉塵 (塵世迷走書僮) | 文章列表 | 方格子 - vocus" type="rss" category=""
-        xmlUrl="https://vocus.cc/rss/user/5ab1ef10fd8978000119f85b/articles"
-        htmlUrl="https://vocus.cc/rss/user/5ab1ef10fd8978000119f85b/articles" />
+      <outline text="玉塵 (塵世迷走書僮) / Vocus" type="rss" category="blog"
+        xmlUrl="https://feed.cqd.tw/vocus/user/Soulbook2021"
+        htmlUrl="https://vocus.cc/user/@Soulbook2021" />
       <outline text="狂派生活誌" type="rss" category="blog"
         xmlUrl="https://brbu241.blogspot.com/feeds/posts/default"
         htmlUrl="https://brbu241.blogspot.com/2024/02/blog-post_17.html" />
@@ -359,7 +359,7 @@
       <outline text="沙發人物誌" type="rss" category=""
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCz0cEfjyBLS6-RBV-LzD3ug"
         htmlUrl="https://www.youtube.com/channel/UCz0cEfjyBLS6-RBV-LzD3ug" />
-      <outline text="汤亚舟andy 的最新评论" type="rss" category=""
+      <outline text="汤亚舟andy 的最新评论" type="rss" category="blog"
         xmlUrl="https://www.douban.com/feed/people/andytang8808/reviews"
         htmlUrl="https://www.douban.com/people/andytang8808/reviews" />
       <outline text="桃紅小姐的抖擻生活 :: 痞客邦 PIXNET ::" type="rss" category=""
@@ -374,7 +374,7 @@
       <outline text="未來流通研究所｜商業情報資訊站" type="rss" category="trending"
         xmlUrl="https://www.mirai.com.tw/feed/"
         htmlUrl="https://www.mirai.com.tw" />
-      <outline text="望山 的最新评论" type="rss" category=""
+      <outline text="望山 的最新评论" type="rss" category="culture"
         xmlUrl="https://www.douban.com/feed/people/105128150/reviews"
         htmlUrl="https://www.douban.com/people/105128150/reviews" />
       <outline text="智由博集" type="rss" category=""
@@ -407,16 +407,16 @@
       <outline text="扛布者" type="rss" category=""
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCpNZs1g-AE7UHQH_gtCOPWw"
         htmlUrl="https://www.youtube.com/channel/UCpNZs1g-AE7UHQH_gtCOPWw" />
-      <outline text="我是老查 | 文章列表 | 方格子 - vocus" type="rss" category=""
-        xmlUrl="https://vocus.cc/rss/user/5ab0b1ccfd8978000119707b/articles"
-        htmlUrl="https://vocus.cc/rss/user/5ab0b1ccfd8978000119707b/articles" />
-      <outline text="希米露 | 文章列表 | 方格子 - vocus" type="rss" category=""
-        xmlUrl="https://vocus.cc/rss/user/5a11f811eceaed97b401e748/articles"
-        htmlUrl="https://vocus.cc/rss/user/5a11f811eceaed97b401e748/articles" />
-      <outline text="左思 的最新评论" type="rss" category=""
+      <outline text="我是老查 / Vocus" type="rss" category="blog"
+        xmlUrl="https://feed.cqd.tw/vocus/user/bestguy"
+        htmlUrl="https://vocus.cc/user/@bestguy" />
+      <outline text="希米露 / Vocus" type="rss" category="blog"
+        xmlUrl="https://feed.cqd.tw/vocus/user/ximilu2014"
+        htmlUrl="https://vocus.cc/user/@ximilu2014" />
+      <outline text="左思 的最新评论" type="rss" category="blog"
         xmlUrl="https://www.douban.com/feed/people/zuogy/reviews"
         htmlUrl="https://www.douban.com/people/zuogy/reviews" />
-      <outline text="左其盛 的最新评论" type="rss" category=""
+      <outline text="左其盛 的最新评论" type="rss" category="blog"
         xmlUrl="https://www.douban.com/feed/people/zuoqs/reviews"
         htmlUrl="https://www.douban.com/people/zuoqs/reviews" />
       <outline text="居心誌" type="rss" category="trending"
@@ -431,7 +431,7 @@
       <outline text="寫給你和妳的行旅紀事" type="rss" category="blog"
         xmlUrl="https://ddmchow.blogspot.com/feeds/posts/default"
         htmlUrl="https://ddmchow.blogspot.com/2023/06/blog-post.html" />
-      <outline text="安妮 的最新评论" type="rss" category=""
+      <outline text="安妮 的最新评论" type="rss" category="blog"
         xmlUrl="https://www.douban.com/feed/people/52533835/reviews"
         htmlUrl="https://www.douban.com/people/52533835/reviews" />
       <outline text="姆斯的閱讀空間" type="rss" category="blog"
@@ -446,7 +446,7 @@
       <outline text="壹肆說" type="rss" category=""
         xmlUrl="https://esessay.wordpress.com/feed/"
         htmlUrl="https://esessay.wordpress.com" />
-      <outline text="国王KING 的最新日记" type="rss" category=""
+      <outline text="国王KING 的最新日记" type="rss" category="blog"
         xmlUrl="https://www.douban.com/feed/people/problemchildren/notes"
         htmlUrl="https://www.douban.com/people/problemchildren/notes" />
       <outline text="噹噹漫遊" type="rss" category=""
@@ -467,7 +467,7 @@
       <outline text="勳仔的理財小角落" type="rss" category=""
         xmlUrl="https://shiuncorner.com/feed/"
         htmlUrl="https://shiuncorner.com" />
-      <outline text="冲鸭 的最新评论" type="rss" category=""
+      <outline text="冲鸭 的最新评论" type="rss" category="culture"
         xmlUrl="https://www.douban.com/feed/people/4289171/reviews"
         htmlUrl="https://www.douban.com/people/4289171/reviews" />
       <outline text="公視P#新聞實驗室" type="rss" category="trending"
@@ -476,7 +476,7 @@
       <outline text="元毓說" type="rss" category="trending"
         xmlUrl="https://yuanyu.idv.tw/feed/"
         htmlUrl="https://yuanyu.idv.tw" />
-      <outline text="余焉 的最新评论" type="rss" category=""
+      <outline text="余焉 的最新评论" type="rss" category="culture"
         xmlUrl="https://www.douban.com/feed/people/158497799/reviews"
         htmlUrl="https://www.douban.com/people/158497799/reviews" />
       <outline text="乱翻书" type="rss" category=""
@@ -503,7 +503,7 @@
       <outline text="一座島" type="rss" category=""
         xmlUrl="https://island.shaform.com/zh/index.xml"
         htmlUrl="https://island.shaform.com/zh/" />
-      <outline text="ᐈEspérance 的最新评论" type="rss" category=""
+      <outline text="ᐈEspérance 的最新评论" type="rss" category="blog"
         xmlUrl="https://www.douban.com/feed/people/Braveryzero/reviews"
         htmlUrl="https://www.douban.com/people/Braveryzero/reviews" />
       <outline text="ZRONG's BLOG" type="rss" category=""
@@ -629,7 +629,7 @@
       <outline text="OBF" type="rss" category=""
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCK1XzxcKXB_v_dcw_tflC1A"
         htmlUrl="https://www.youtube.com/channel/UCK1XzxcKXB_v_dcw_tflC1A" />
-      <outline text="Nova 的最新评论" type="rss" category=""
+      <outline text="Nova 的最新评论" type="rss" category="blog"
         xmlUrl="https://www.douban.com/feed/people/casa_nova/reviews"
         htmlUrl="https://www.douban.com/people/casa_nova/reviews" />
       <outline text="neo" type="rss" category=""
@@ -638,7 +638,7 @@
       <outline text="Mr. Opengate" type="rss" category=""
         xmlUrl="https://www.mropengate.com/feeds/posts/default"
         htmlUrl="https://www.mropengate.com/2023/03/midjourney-v5-ai-future-is-now.html" />
-      <outline text="mover 的最新评论" type="rss" category=""
+      <outline text="mover 的最新评论" type="rss" category="blog"
         xmlUrl="https://www.douban.com/feed/people/2170535/reviews"
         htmlUrl="https://www.douban.com/people/2170535/reviews" />
       <outline text="MOT/TIMES 線上誌" type="rss" category=""
@@ -662,7 +662,7 @@
       <outline text="Max Mednik - Blog" type="rss" category="blog"
         xmlUrl="https://www.maxmednik.com/1/feed"
         htmlUrl="https://www.maxmednik.com/blog" />
-      <outline text="Maverick 的最新评论" type="rss" category=""
+      <outline text="Maverick 的最新评论" type="rss" category="blog"
         xmlUrl="https://www.douban.com/feed/people/maverick0806/reviews"
         htmlUrl="https://www.douban.com/people/maverick0806/reviews" />
       <outline text="louie_lu's blog" type="rss" category=""
@@ -770,7 +770,7 @@
       <outline text="Brilliant Maps" type="rss" category="design"
         xmlUrl="https://brilliantmaps.com/feed/"
         htmlUrl="https://brilliantmaps.com" />
-      <outline text="Biomass 的最新评论" type="rss" category=""
+      <outline text="Biomass 的最新评论" type="rss" category="blog"
         xmlUrl="https://www.douban.com/feed/people/Eversint/reviews"
         htmlUrl="https://www.douban.com/people/Eversint/reviews" />
       <outline text="BearTalk" type="rss" category=""
@@ -845,7 +845,7 @@
       <outline text="The fishingLumperjack 不爭便姓字老樵漁! on Medium" type="rss" category="blog"
         xmlUrl="https://medium.com/@gutforever/feed"
         htmlUrl="https://medium.com/@gutforever?source=rss-4c1662f5ec37------2" />
-      <outline text="巨翅 的收藏" type="rss" category=""
+      <outline text="巨翅 的收藏" type="rss" category="blog"
         xmlUrl="https://www.douban.com/feed/people/wushangwei/interests"
         htmlUrl="https://www.douban.com/people/wushangwei/" />
       <outline text="DenQ來了" type="rss" category="trending"
@@ -860,7 +860,7 @@
       <outline text="Reysu" type="rss" category=""
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCbDmEdLs-SB3FjrDFQJ4TDg"
         htmlUrl="https://www.youtube.com/channel/UCbDmEdLs-SB3FjrDFQJ4TDg" />
-      <outline text="邱小石 的最新评论" type="rss" category=""
+      <outline text="邱小石 的最新评论" type="rss" category="culture"
         xmlUrl="https://www.douban.com/feed/people/stonerve/reviews"
         htmlUrl="https://www.douban.com/people/stonerve/reviews" />
       <outline text="李波" type="rss" category="culture"
@@ -1088,22 +1088,22 @@
       <outline text="阿簡生物筆記" type="rss" category="blog"
         xmlUrl="http://a-chien.blogspot.com/feeds/posts/default?alt=rss"
         htmlUrl="http://a-chien.blogspot.com/" />
-      <outline text="阿拉雷 的最新评论" type="rss" category=""
+      <outline text="阿拉雷 的最新评论" type="rss" category="culture"
         xmlUrl="https://www.douban.com/feed/people/172315352/reviews"
         htmlUrl="https://www.douban.com/people/172315352/reviews" />
-      <outline text="關於指數化投資的補充說明 | 文章列表 | 方格子 - vocus" type="rss" category="finance"
-        xmlUrl="https://vocus.cc/rss/user/5ab86f3dfd89780001a12b82/articles"
-        htmlUrl="https://vocus.cc/rss/user/5ab86f3dfd89780001a12b82/articles" />
-      <outline text="重燃阅读 的最新评论" type="rss" category=""
+      <outline text="關於指數化投資的補充說明 / Vocus" type="rss" category="finance"
+        xmlUrl="https://feed.cqd.tw/vocus/user/jetleenotes"
+        htmlUrl="https://vocus.cc/user/@jetleenotes" />
+      <outline text="重燃阅读 的最新评论" type="rss" category="blog"
         xmlUrl="https://www.douban.com/feed/people/1000344/reviews"
         htmlUrl="https://www.douban.com/people/1000344/reviews" />
-      <outline text="酷 壳 – CoolShell" type="rss" category=""
+      <outline text="酷 壳 – CoolShell" type="rss" category="tech"
         xmlUrl="https://coolshell.cn/feed"
         htmlUrl="https://coolshell.cn" />
       <outline text="这里说求职 - 知乎专栏" type="rss" category=""
         xmlUrl="https://rss.lilydjwg.me/zhihuzhuanlan/c_191873099"
         htmlUrl="https://zhuanlan.zhihu.com/c_191873099" />
-      <outline text="路路恰尼 的最新评论" type="rss" category=""
+      <outline text="路路恰尼 的最新评论" type="rss" category="blog"
         xmlUrl="https://www.douban.com/feed/people/laomm/reviews"
         htmlUrl="https://www.douban.com/people/laomm/reviews" />
       <outline text="融融歷險記Ben's Adventure" type="rss" category=""
