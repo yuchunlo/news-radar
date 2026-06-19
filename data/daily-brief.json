@@ -1,16 +1,34 @@
 {
-  "generated_at": "2026-06-18T22:19:53.760714Z",
+  "generated_at": "2026-06-19T00:11:10.730991Z",
   "window_hours": 24,
   "total_items": 2,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "1942年法國為何故意擊沉自己的海軍？ / Why Did France Intentionally Sink Its Own Navy In 1942?",
-      "url": "https://www.youtube.com/watch?v=BN-ZTzdqyi8",
-      "primary_url": "https://www.youtube.com/watch?v=BN-ZTzdqyi8",
-      "source": "Timeline - World History Documentaries",
+      "title": "全球金融环境正在收紧！AI教父不信AI？英特尔暴涨闹乌龙？半导体要被迫减仓！",
+      "url": "https://www.youtube.com/watch?v=VjZ9-KCHjCc",
+      "primary_url": "https://www.youtube.com/watch?v=VjZ9-KCHjCc",
+      "source": "美投侃新闻",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "2729d0a34a03f47b1fae50f4d4fcfdaa03db82a3",
+          "title": "全球金融环境正在收紧！AI教父不信AI？英特尔暴涨闹乌龙？半导体要被迫减仓！",
+          "url": "https://www.youtube.com/watch?v=VjZ9-KCHjCc",
+          "source": "美投侃新闻",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-06-18T23:55:41Z"
+        },
+        {
+          "id": "4647527766f11d468ab141e4de77b4920aaf2f3c",
+          "title": "MSTR又耍新花样！靠卖币发分红让我笑掉大牙！",
+          "url": "https://www.youtube.com/watch?v=cYPDLpBTJSE",
+          "source": "Shepherd Capital Markets",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-06-18T23:15:28Z"
+        },
         {
           "id": "7e46c91c70b90f4b41b8b76e2444c69fd77abc99",
           "title": "1942年法國為何故意擊沉自己的海軍？ / Why Did France Intentionally Sink Its Own Navy In 1942?",
@@ -91,24 +109,6 @@
           "source_name": "OPML RSS",
           "site_id": "finance",
           "published_at": "2026-06-18T00:34:13Z"
-        },
-        {
-          "id": "d1311d1b69bc13a8b7ccda1759c285acfcd2c402",
-          "title": "美西戰爭是如何發生的？ - 19 分鐘內解釋 / How did the Spanish-American War Happen? - EXPLAINED IN 19 MINUTES",
-          "url": "https://www.youtube.com/watch?v=Pyt_8_8_p3s",
-          "source": "Knowledgia",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-17T23:41:55Z"
-        },
-        {
-          "id": "ccc52af42bd4228cb65533c1b812bfec53673288",
-          "title": "人工智慧競賽內部：DeepMind、OpenAI、Anthropic、中國和超級智慧競賽 / Inside The AI Race: DeepMind, OpenAI, Anthropic, China, and The Race to Superintelligence",
-          "url": "https://www.youtube.com/watch?v=-UetKKxKqKU",
-          "source": "Tim Ferriss",
-          "source_name": "OPML RSS",
-          "site_id": "blog",
-          "published_at": "2026-06-17T23:07:09Z"
         },
         {
           "id": "5435e107a11036fa03f76469cc094c4e3ed26839",
@@ -152,10 +152,9 @@
         "Best Documentary",
         "Good Times Bad Times",
         "Hoog",
-        "Knowledgia",
         "NPR Music",
         "Perspective",
-        "Tim Ferriss",
+        "Shepherd Capital Markets",
         "Timeline - World History Documentaries",
         "imineo Documentaires",
         "【塞掐】訪談大人物",
@@ -165,6 +164,24 @@
         "音樂家的無聊人生 Musician Seacow"
       ],
       "items": [
+        {
+          "id": "2729d0a34a03f47b1fae50f4d4fcfdaa03db82a3",
+          "title": "全球金融环境正在收紧！AI教父不信AI？英特尔暴涨闹乌龙？半导体要被迫减仓！",
+          "url": "https://www.youtube.com/watch?v=VjZ9-KCHjCc",
+          "source": "美投侃新闻",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-06-18T23:55:41Z"
+        },
+        {
+          "id": "4647527766f11d468ab141e4de77b4920aaf2f3c",
+          "title": "MSTR又耍新花样！靠卖币发分红让我笑掉大牙！",
+          "url": "https://www.youtube.com/watch?v=cYPDLpBTJSE",
+          "source": "Shepherd Capital Markets",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-06-18T23:15:28Z"
+        },
         {
           "id": "7e46c91c70b90f4b41b8b76e2444c69fd77abc99",
           "title": "1942年法國為何故意擊沉自己的海軍？ / Why Did France Intentionally Sink Its Own Navy In 1942?",
@@ -247,24 +264,6 @@
           "published_at": "2026-06-18T00:34:13Z"
         },
         {
-          "id": "d1311d1b69bc13a8b7ccda1759c285acfcd2c402",
-          "title": "美西戰爭是如何發生的？ - 19 分鐘內解釋 / How did the Spanish-American War Happen? - EXPLAINED IN 19 MINUTES",
-          "url": "https://www.youtube.com/watch?v=Pyt_8_8_p3s",
-          "source": "Knowledgia",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-17T23:41:55Z"
-        },
-        {
-          "id": "ccc52af42bd4228cb65533c1b812bfec53673288",
-          "title": "人工智慧競賽內部：DeepMind、OpenAI、Anthropic、中國和超級智慧競賽 / Inside The AI Race: DeepMind, OpenAI, Anthropic, China, and The Race to Superintelligence",
-          "url": "https://www.youtube.com/watch?v=-UetKKxKqKU",
-          "source": "Tim Ferriss",
-          "source_name": "OPML RSS",
-          "site_id": "blog",
-          "published_at": "2026-06-17T23:07:09Z"
-        },
-        {
           "id": "5435e107a11036fa03f76469cc094c4e3ed26839",
           "title": "烏克蘭戰鬥仍在繼續——無人機主宰戰場 / Fighting in Ukraine Continues - and Drones Dominate the Battlefield",
           "url": "https://www.youtube.com/watch?v=npbM0xvpjh0",
@@ -303,26 +302,26 @@
       ],
       "item_count": 15,
       "duplicate_count": 15,
-      "score": 0.7334,
-      "importance": 0.7334,
-      "importance_score": 0.7334,
+      "score": 0.7468,
+      "importance": 0.7468,
+      "importance_score": 0.7468,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9448,
+        "recency": 0.9892,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-17T23:07:09Z",
-      "latest_at": "2026-06-18T21:00:22Z",
+      "earliest_at": "2026-06-18T00:34:13Z",
+      "latest_at": "2026-06-18T23:55:41Z",
       "primary_item": {
-        "id": "7e46c91c70b90f4b41b8b76e2444c69fd77abc99",
-        "title": "1942年法國為何故意擊沉自己的海軍？ / Why Did France Intentionally Sink Its Own Navy In 1942?",
-        "url": "https://www.youtube.com/watch?v=BN-ZTzdqyi8",
-        "source": "Timeline - World History Documentaries",
+        "id": "2729d0a34a03f47b1fae50f4d4fcfdaa03db82a3",
+        "title": "全球金融环境正在收紧！AI教父不信AI？英特尔暴涨闹乌龙？半导体要被迫减仓！",
+        "url": "https://www.youtube.com/watch?v=VjZ9-KCHjCc",
+        "source": "美投侃新闻",
         "source_name": "OPML RSS"
       }
     },
@@ -379,13 +378,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4256,
-      "importance": 0.4256,
-      "importance_score": 0.4256,
+      "score": 0.4024,
+      "importance": 0.4024,
+      "importance_score": 0.4024,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.8353,
+        "recency": 0.758,
         "story_heat": 0.25
       },
       "category": "watch",
