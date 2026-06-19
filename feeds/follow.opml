@@ -89,9 +89,6 @@
       <outline text="本質旅行 Essence Travel" type="rss" category="culture"
         xmlUrl="https://esence.travel/feed/"
         htmlUrl="https://esence.travel" />
-      <outline text="自在生活‧粉圓妹趴趴走" type="rss" category="blog"
-        xmlUrl="https://www.blogger.com/feeds/3973961171802092659/posts/default"
-        htmlUrl="https://linfannie.blogspot.com/" />
       <outline text="娜姐 FOODELICIOUS" type="rss" category="convivium"
         xmlUrl="https://globalfoodelicious.com/feed/"
         htmlUrl="https://globalfoodelicious.com/" />
@@ -137,7 +134,7 @@
       <outline text="The Honest Broker" type="rss" category="culture"
         xmlUrl="https://www.honest-broker.com/feed"
         htmlUrl="https://www.honest-broker.com" />
-      <outline text="The Big Picture" type="rss" category="blog"
+      <outline text="The Big Picture" type="rss" category="finance"
         xmlUrl="http://ritholtz.com/feed/"
         htmlUrl="https://ritholtz.com" />
       <outline text="Sam Altman" type="rss" category="execution"
@@ -965,9 +962,6 @@
       <outline text="今日话题 - 雪球" type="rss" category="trending"
         xmlUrl="https://xueqiu.com/hots/topic/rss"
         htmlUrl="https://xueqiu.com/" />
-      <outline text="虎嗅" type="rss" category="trending"
-        xmlUrl="https://rss.huxiu.com/"
-        htmlUrl="https://www.huxiu.com/" />
       <outline text="天仙子" type="rss" category="blog"
         xmlUrl="https://www.tianxianzi.me/index.xml"
         htmlUrl="https://www.tianxianzi.me/" />
@@ -998,7 +992,7 @@
       <outline text="你好我是Peter" type="rss" category="trending"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCiSe7o14q1awL1qahJXmttg"
         htmlUrl="https://www.youtube.com/channel/UCiSe7o14q1awL1qahJXmttg" />
-      <outline text="雜書觀察室" type="rss" category="blog"
+      <outline text="雜書觀察室" type="rss" category="finance"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCb8FJHbWQ1BDrGPUr1cuqxA"
         htmlUrl="https://www.youtube.com/channel/UCb8FJHbWQ1BDrGPUr1cuqxA" />
       <outline text="Match Economy" type="rss" category="trending"
@@ -1199,6 +1193,12 @@
       <outline text="菜市場政治學" type="rss" category="trending"
         xmlUrl="https://whogovernstw.org/feed/"
         htmlUrl="https://whogovernstw.org" />
+      <outline text="美股盤勢 cmnews - Google 新聞" type="rss" category="finance"
+        xmlUrl="https://news.google.com/rss/search?q=%22%E7%BE%8E%E8%82%A1%E7%9B%A4%E5%8B%A2%22+site:cmnews.com.tw&amp;tbs=qdr:m3&amp;gl=TW"
+        htmlUrl="https://cmnews.com.tw/usstock" />
+      <outline text="日經中文網" type="rss" category="trending"
+        xmlUrl="http://zh.cn.nikkei.com/rss.html"
+        htmlUrl="https://zh.cn.nikkei.com/" />
     </outline>
   </body>
 </opml>
