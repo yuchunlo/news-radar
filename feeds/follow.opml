@@ -56,11 +56,8 @@
       <outline text="巷仔口社會學 Streetcorner Sociology" type="rss" category="culture"
         xmlUrl="https://twstreetcorner.org/feed/"
         htmlUrl="https://twstreetcorner.org" />
-      <outline text="一路報導" type="rss" category="culture"
-        xmlUrl="https://www.ourtrails.com.tw/feed/"
-        htmlUrl="https://www.ourtrails.com.tw/" />
       <outline text="津轻海峡 (tsugaru_strait) - Matters" type="rss" category="blog"
-        xmlUrl="https://cloudflare-ipfs.com/ipns/k51qzi5uqu5dhsrb5l1f4mb73cft84ik4vy1ny1gxvqi5o9e5fvff13dbd96df/rss.xml"
+        xmlUrl="https://rss.matters.town/%40tsugaru_strait.xml"
         htmlUrl="https://matters.town/@tsugaru_strait" />
       <outline text="森路歷程" type="rss" category="blog"
         xmlUrl="https://sammy.hk/feed/"
@@ -71,9 +68,6 @@
       <outline text="施房調酒研究室" type="rss" category="convivium"
         xmlUrl="https://feeds.soundon.fm/podcasts/4e5d330b-cf07-4321-b719-93352c0e9791.xml"
         htmlUrl="https://shihbar.com" />
-      <outline text="初心品酒會" type="rss" category="convivium"
-        xmlUrl="https://www.alphawine.club/feed/"
-        htmlUrl="https://www.alphawine.club" />
       <outline text="知識庫 | 一飲樂酒誌" type="rss" category="convivium"
         xmlUrl="https://www.1shot.tw/category/%E7%9F%A5%E8%AD%98%E5%BA%AB/feed"
         htmlUrl="https://www.1shot.tw" />
@@ -116,18 +110,6 @@
       <outline text="豆瓣小组-外国文学经典评论" type="rss" category="blog"
         xmlUrl="https://rsshub.app/douban/group/401863"
         htmlUrl="https://www.douban.com/group/401863/" />
-      <outline text="萨古的奶茶计划 的 bilibili 动态" type="rss" category="convivium"
-        xmlUrl="https://rsshub.app/bilibili/user/dynamic/511644921"
-        htmlUrl="https://space.bilibili.com/511644921/dynamic" />
-      <outline text="艾雲豪 – 灼見名家" type="rss" category="culture"
-        xmlUrl="https://www.master-insight.com/author/aiyunhao/feed/"
-        htmlUrl="https://www.master-insight.com" />
-      <outline text="索菲亚一斤半 的 bilibili 动态" type="rss" category="convivium"
-        xmlUrl="https://rsshub.app/bilibili/user/dynamic/431532582"
-        htmlUrl="https://space.bilibili.com/431532582/dynamic" />
-      <outline text="天才女友GG 的 bilibili 动态" type="rss" category="blog"
-        xmlUrl="https://rsshub.app/bilibili/user/dynamic/520031712"
-        htmlUrl="https://space.bilibili.com/520031712/dynamic" />
       <outline text="Wait But Why" type="rss" category="blog"
         xmlUrl="https://waitbutwhy.com/feed"
         htmlUrl="https://waitbutwhy.com/" />
@@ -147,11 +129,8 @@
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCSHZKyawb77ixDdsGog4iWA"
         htmlUrl="https://www.youtube.com/channel/UCSHZKyawb77ixDdsGog4iWA" />
       <outline text="The David Rubenstein Show: Peer-to-Peer Conversations (Full Shows)" type="rss" category="execution"
-        xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLi85wWwDybjzOcYNPlIi7rC9TqrEvpgBC"
-        htmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLi85wWwDybjzOcYNPlIi7rC9TqrEvpgBC" />
-      <outline text="Yanwei Liu on Medium" type="rss" category="blog"
-        xmlUrl="https://yanwei-liu.medium.com/feed"
-        htmlUrl="https://medium.com/@yanwei-liu?source=rss-dc182588576c------2" />
+        xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLi85wWwDybjy8nygrH2d-3prQ8-NcaFjv"
+        htmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLi85wWwDybjy8nygrH2d-3prQ8-NcaFjv" />
       <outline text="Tony Yen on Medium" type="rss" category="blog"
         xmlUrl="https://twnturtletony.medium.com/feed"
         htmlUrl="https://medium.com/@twnturtletony?source=rss-32333e6125a6------2" />
@@ -221,9 +200,6 @@
       <outline text="https://arthistorystrolls.com/feed/" type="rss" category=""
         xmlUrl="https://arthistorystrolls.com/feed/"
         htmlUrl="https://arthistorystrolls.com" />
-      <outline text="Historyroc 完整版" type="rss" category=""
-        xmlUrl="https://www.historystoryteller.com/blog-feed.xml"
-        htmlUrl="https://ruxinke.wixsite.com/website/民國史話" />
       <outline text="Hiker CP" type="rss" category=""
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCrQywT5auJ-6dvFsBXW7NFg"
         htmlUrl="https://www.youtube.com/channel/UCrQywT5auJ-6dvFsBXW7NFg" />
@@ -356,9 +332,6 @@
       <outline text="若水斋" type="rss" category="blog"
         xmlUrl="https://blog.werner.wiki/feed/"
         htmlUrl="https://blog.werner.wiki" />
-      <outline text="聲音名人誌｜Sound Gallery" type="rss" category="trending"
-        xmlUrl="https://www.soundgallery.tw/?feed=rss2"
-        htmlUrl="https://www.soundgallery.tw/" />
       <outline text="程式交易≠Holy Grail" type="rss" category=""
         xmlUrl="https://wenschair.blogspot.com/feeds/posts/default"
         htmlUrl="https://wenschair.blogspot.com/2022/12/20222023.html" />
@@ -419,15 +392,9 @@
       <outline text="新闻实验室" type="rss" category=""
         xmlUrl="https://feed.xyzfm.space/xxkgbvrglujv"
         htmlUrl="https://www.xiaoyuzhoufm.com/podcast/60bc9bc72e2eec1ef1ca23ac?utm_source=rss" />
-      <outline text="斬罪之路" type="rss" category=""
-        xmlUrl="https://dusty.jjvk.com/feed/"
-        htmlUrl="https://dusty.jjvk.com" />
       <outline text="斑馬通信" type="rss" category="blog"
         xmlUrl="https://zebraletter.substack.com/feed"
         htmlUrl="https://zebraletter.substack.com" />
-      <outline text="数局" type="rss" category=""
-        xmlUrl="https://posts.careerengine.us/author/640aa0892045085736a8b0bb/rss"
-        htmlUrl="http://posts.careerengine.us/author/640aa0892045085736a8b0bb/rss" />
       <outline text="投資理財 – Cash Chou's Blog" type="rss" category="finance"
         xmlUrl="https://cashchou.com/category/%e6%8a%95%e8%b3%87%e7%90%86%e8%b2%a1/feed/"
         htmlUrl="https://cashchou.com" />
@@ -485,9 +452,6 @@
       <outline text="噹噹漫遊" type="rss" category=""
         xmlUrl="https://www.wanderingdong.com/feed/"
         htmlUrl="https://www.wanderingdong.com/" />
-      <outline text="商業思維學院" type="rss" category=""
-        xmlUrl="https://bizthinking.com.tw/feed/"
-        htmlUrl="https://bizthinking.com.tw/" />
       <outline text="商業周刊 當期雜誌開放文章" type="rss" category="trending"
         xmlUrl="https://cmsapi.businessweekly.com.tw/?CategoryId=efd99109-9e15-422e-97f0-078b21322450&amp;TemplateId=8E19CF43-50E5-4093-B72D-70A912962D55"
         htmlUrl="https://www.businessweekly.com.tw/" />
@@ -515,15 +479,9 @@
       <outline text="余焉 的最新评论" type="rss" category=""
         xmlUrl="https://www.douban.com/feed/people/158497799/reviews"
         htmlUrl="https://www.douban.com/people/158497799/reviews" />
-      <outline text="仰望自己的天星 | 文章列表 | 方格子 - vocus" type="rss" category=""
-        xmlUrl="https://vocus.cc/rss/user/615f9e01fd8978000124981c/articles"
-        htmlUrl="https://vocus.cc/rss/user/615f9e01fd8978000124981c/articles" />
       <outline text="乱翻书" type="rss" category=""
         xmlUrl="https://feed.xyzfm.space/yxuruh3f9mc4"
         htmlUrl="https://www.xiaoyuzhoufm.com/podcast/61358d971c5d56efe5bcb5d2?utm_source=rss" />
-      <outline text="九四一方 的最新评论" type="rss" category=""
-        xmlUrl="https://www.douban.com/feed/people/heartnow/reviews"
-        htmlUrl="https://www.douban.com/people/heartnow/reviews" />
       <outline text="东海嘉措" type="rss" category="culture"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCfO7K3GW5kjS9ggT1TlZojw"
         htmlUrl="https://www.youtube.com/channel/UCfO7K3GW5kjS9ggT1TlZojw" />
@@ -560,9 +518,6 @@
       <outline text="Waxy.org" type="rss" category="trending"
         xmlUrl="https://waxy.org/feed/"
         htmlUrl="https://waxy.org/" />
-      <outline text="warfalcon" type="rss" category=""
-        xmlUrl="https://posts.careerengine.us/author/59c0f4aef7efc713b5f6324b/rss"
-        htmlUrl="http://posts.careerengine.us/author/59c0f4aef7efc713b5f6324b/rss" />
       <outline text="Vox - Technology" type="rss" category="trending"
         xmlUrl="https://www.vox.com/rss/technology/index.xml"
         htmlUrl="https://www.vox.com/technology/2023/8/4/23819299/black-mirror-charlie-brooker-interview-ai-peter-kafka-media-column" />
@@ -605,9 +560,6 @@
       <outline text="Tag: architecture-city-guide | ArchDaily" type="rss" category="design"
         xmlUrl="https://www.archdaily.com/tag/architecture-city-guide.xml"
         htmlUrl="https://www.archdaily.com/" />
-      <outline text="電影筆友 Movie Buddies on Medium" type="rss" category="blog"
-        xmlUrl="https://medium.com/@moviebuddies01/feed"
-        htmlUrl="https://medium.com/@moviebuddies01?source=rss-ac5fe9b88b0f------2" />
       <outline text="蕭瑟寡人 on Medium" type="rss" category=""
         xmlUrl="https://medium.com/@bleaksolitude/feed"
         htmlUrl="https://medium.com/@bleaksolitude?source=rss-84f8294baab9------2" />
@@ -647,8 +599,8 @@
       <outline text="Shenlvmeng's Blog" type="rss" category=""
         xmlUrl="https://shenlvmeng.github.io/blog/rss"
         htmlUrl="http://shenlvmeng.github.com/blog" />
-      <outline text="Recommended – Curtis McHale" type="rss" category=""
-        xmlUrl="https://curtismchale.ca/book-rating/recommended/feed/"
+      <outline text="Curtis McHale" type="rss" category="blog"
+        xmlUrl="https://curtismchale.ca/feed"
         htmlUrl="https://curtismchale.ca" />
       <outline text="RealLifeLore" type="rss" category=""
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCP5tjEmvPItGyLhmjdwP7Ww"
@@ -722,9 +674,6 @@
       <outline text="LittleDiDi亂靠北 :: 痞客邦 PIXNET ::" type="rss" category=""
         xmlUrl="http://feed.pixnet.net/blog/posts/rss/littledidi"
         htmlUrl="http://littledidi.pixnet.net/blog" />
-      <outline text="Limboy - Links" type="rss" category=""
-        xmlUrl="https://limboy.me/links/index.xml"
-        htmlUrl="https://limboy.me/links/" />
       <outline text="Limboy" type="rss" category=""
         xmlUrl="https://limboy.me/index.xml"
         htmlUrl="https://limboy.me" />
@@ -737,9 +686,6 @@
       <outline text="Knowledgia" type="rss" category="culture"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCuCuEKq1xuRA0dFQj1qg9-Q"
         htmlUrl="https://www.youtube.com/channel/UCuCuEKq1xuRA0dFQj1qg9-Q" />
-      <outline text="Kahara_華 的 bilibili 动态" type="rss" category=""
-        xmlUrl="https://rsshub.app/bilibili/user/dynamic/18335379"
-        htmlUrl="https://space.bilibili.com/18335379/dynamic" />
       <outline text="Julia's Updates" type="rss" category="blog"
         xmlUrl="https://www.goodreads.com/user/updates_rss/6748374?v=as"
         htmlUrl="https://www.goodreads.com/user/show/6748374-julia-doherty" />
@@ -749,9 +695,6 @@
       <outline text="Inka" type="rss" category=""
         xmlUrl="https://www.inkadutchlife.com/blog-feed.xml"
         htmlUrl="https://www.inkadutchlife.com/home" />
-      <outline text="IC实验室 的 bilibili 动态" type="rss" category=""
-        xmlUrl="https://rsshub.app/bilibili/user/dynamic/486287787"
-        htmlUrl="https://space.bilibili.com/486287787/dynamic" />
       <outline text="Huli's blog" type="rss" category=""
         xmlUrl="https://blog.huli.tw/atom-ch.xml"
         htmlUrl="https://blog.huli.tw/2024/02/17/intigriti-0124-writeup/" />
@@ -764,9 +707,6 @@
       <outline text="HPX 輕鬆聚" type="rss" category=""
         xmlUrl="https://hpx.tw/feed"
         htmlUrl="https://hpx.tw" />
-      <outline text="guy jones" type="rss" category=""
-        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCpUBuSn_Io93AMpOSw88afQ"
-        htmlUrl="https://www.youtube.com/channel/UCpUBuSn_Io93AMpOSw88afQ" />
       <outline text="Growin Blog" type="rss" category="finance"
         xmlUrl="https://blog.growin.tv/feed/"
         htmlUrl="https://blog.growin.tv/" />
@@ -794,17 +734,14 @@
       <outline text="every little d" type="rss" category="trending"
         xmlUrl="https://feeds.feedburner.com/EveryLittleD"
         htmlUrl="https://everylittled.com/feed/rss/feedly" />
-      <outline text="Elizabeth Butler, MD, PhD" type="rss" category=""
-        xmlUrl="https://elizabethbutlermd.com/feed/"
-        htmlUrl="https://elizabethbutlermd.com" />
       <outline text="Duncan Teng 的投資觀察" type="rss" category="finance"
         xmlUrl="https://duncanteng.me/feed/"
         htmlUrl="https://duncanteng.me/" />
       <outline text="Dr. M" type="rss" category=""
         xmlUrl="https://www.drmbesuperior.com/blog-feed.xml"
         htmlUrl="https://www.drmbesuperior.com/home" />
-      <outline text="DIYgod" type="rss" category=""
-        xmlUrl="https://diygod.me/feed/xml"
+      <outline text="DIYgod" type="rss" category="blog"
+        xmlUrl="https://diygod.me/feed/"
         htmlUrl="https://diygod.xlog.app" />
       <outline text="David Ko的學習之旅 :: 痞客邦 PIXNET ::" type="rss" category=""
         xmlUrl="http://feed.pixnet.net/blog/posts/rss/kojenchieh"
@@ -848,9 +785,6 @@
       <outline text="Art Chaidarun" type="rss" category=""
         xmlUrl="https://chaidarun.com/feed.xml"
         htmlUrl="https://chaidarun.com" />
-      <outline text="Arfon Smith" type="rss" category=""
-        xmlUrl="https://fosstodon.org/@arfon.rss"
-        htmlUrl="https://fosstodon.org/@arfon" />
       <outline text="allan.reyes.sh" type="rss" category=""
         xmlUrl="https://allan.reyes.sh/index.xml"
         htmlUrl="https://allan.reyes.sh/" />
@@ -860,9 +794,6 @@
       <outline text="Adam Something" type="rss" category="blog"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCcvfHa-GHSOHFAjU0-Ie57A"
         htmlUrl="https://www.youtube.com/channel/UCcvfHa-GHSOHFAjU0-Ie57A" />
-      <outline text="ACLED" type="rss" category=""
-        xmlUrl="https://acleddata.com/feed/"
-        htmlUrl="https://acleddata.com/" />
       <outline text="3Blue1Brown" type="rss" category=""
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCYO_jab_esuFRV4b17AJtAw"
         htmlUrl="https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw" />
@@ -890,15 +821,9 @@
       <outline text="誠實酒記 | 一飲樂酒誌" type="rss" category="convivium"
         xmlUrl="https://www.1shot.tw/tag/%e8%aa%a0%e5%af%a6%e9%85%92%e8%a8%98/feed"
         htmlUrl="https://www.1shot.tw" />
-      <outline text="纯纯甘" type="rss" category="execution"
-        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCIs3-LcOCdpiGve6yu1-Fug"
-        htmlUrl="https://www.youtube.com/channel/UCIs3-LcOCdpiGve6yu1-Fug" />
       <outline text="矽谷輕鬆談 Just Kidding Tech" type="rss" category="tech"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCJIPFjZSCWR15_jxBaK2fQQ"
         htmlUrl="https://www.youtube.com/channel/UCJIPFjZSCWR15_jxBaK2fQQ" />
-      <outline text="益逹诺夫斯基 的 bilibili 空间" type="rss" category=""
-        xmlUrl="https://rsshub.app/bilibili/user/video/3493358"
-        htmlUrl="https://space.bilibili.com/3493358" />
       <outline text="如履的電影筆記" type="rss" category="blog"
         xmlUrl="https://looryfilm.tw/feed/"
         htmlUrl="https://looryfilm.tw" />
@@ -1095,7 +1020,7 @@
         xmlUrl="https://www.oreilly.com/radar/feed/index.xml"
         htmlUrl="https://www.oreilly.com/radar" />
       <outline text="FOMO研究院電子報" type="rss" category="finance"
-        xmlUrl="https://fomosoc.substack.com/feed"
+        xmlUrl="https://www.fomosoc.com/feed"
         htmlUrl="https://fomosoc.substack.com" />
       <outline text="超敗家煙酒生" type="rss" category="finance"
         xmlUrl="https://mcclin.blogspot.com/feeds/posts/default"
@@ -1124,9 +1049,6 @@
       <outline text="ecosystem | TechCabal" type="rss" category="trending"
         xmlUrl="https://techcabal.com/category/ecosystem/feed/"
         htmlUrl="https://techcabal.com/category/ecosystem/" />
-      <outline text="Benedict Evans" type="rss" category=""
-        xmlUrl="https://rsshub.app/benedictevans"
-        htmlUrl="https://www.ben-evans.com/benedictevans/" />
       <outline text="Asset Managers Archives - YCharts" type="rss" category="finance"
         xmlUrl="https://get.ycharts.com/resources/blog/category/asset-managers/feed/"
         htmlUrl="https://get.ycharts.com/resources/blog/category/asset-managers/" />
