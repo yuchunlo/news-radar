@@ -1,16 +1,43 @@
 {
-  "generated_at": "2026-06-19T14:15:29.068063Z",
+  "generated_at": "2026-06-19T16:59:42.735723Z",
   "window_hours": 24,
-  "total_items": 2,
+  "total_items": 3,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "又随便又好吃的面怎么做出来的...",
-      "url": "https://www.youtube.com/watch?v=LCuPpooFuVk",
-      "primary_url": "https://www.youtube.com/watch?v=LCuPpooFuVk",
-      "source": "Cadence Gao",
+      "title": "日本天皇家譜（含幕府將軍） / Japanese Emperors Family Tree (including Shoguns)",
+      "url": "https://www.youtube.com/watch?v=B2YIL4rpGmE",
+      "primary_url": "https://www.youtube.com/watch?v=B2YIL4rpGmE",
+      "source": "UsefulCharts",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "34490ea01913964035410d344639386d459eba68",
+          "title": "日本天皇家譜（含幕府將軍） / Japanese Emperors Family Tree (including Shoguns)",
+          "url": "https://www.youtube.com/watch?v=B2YIL4rpGmE",
+          "source": "UsefulCharts",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-19T16:00:38Z"
+        },
+        {
+          "id": "f224bf4da24275d07ca096e8e940d57d2155e481",
+          "title": "学习书法的最大陷阱",
+          "url": "https://www.youtube.com/watch?v=L7XYYQnizlY",
+          "source": "有点艺思哦",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-19T15:23:05Z"
+        },
+        {
+          "id": "b2530e63c2bfe96378ba55aca66a01899ce2250d",
+          "title": "羅馬和畢爾巴鄂：挑戰不可能的體育場 / Rome et Bilbao : Les stades qui ont défié l’impossible",
+          "url": "https://www.youtube.com/watch?v=75b4xOp5EnU",
+          "source": "imineo Documentaires",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-19T14:45:05Z"
+        },
         {
           "id": "ddb2a8f2ee596f25384b13723cc055c1eca033f7",
           "title": "又随便又好吃的面怎么做出来的...",
@@ -84,13 +111,13 @@
           "published_at": "2026-06-18T21:00:19Z"
         },
         {
-          "id": "c5ad5b60c2aeefd552cee7aac5a3c48751105e8d",
-          "title": "葡萄牙：50 年後的康乃馨革命－秘密遺產 / Portugal: The Carnation Revolution 50 Years Later – The Secret Legacy",
-          "url": "https://www.youtube.com/watch?v=e_ttHGrt014",
-          "source": "imineo Documentaires",
+          "id": "55856b93006b03abca791ff8f465568e6fbed5d3",
+          "title": "2026 怒食！北海道の春 EP1 一落地即刻帶你怒食唔使排隊嘅札幌美食 5月淡季先係hidden gem？ 遊客唔嚟嘅湯咖哩店 無遊客嘅根室花丸 札幌紫丁香祭 開箱性價比高札幌住宿",
+          "url": "https://www.youtube.com/watch?v=CJHqUaT0RXE",
+          "source": "Yamajai Notsa 山系の廢青",
           "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-18T15:30:02Z"
+          "site_id": "opmlrss",
+          "published_at": "2026-06-19T15:39:07Z"
         },
         {
           "id": "b54b1eb1fe2c27c6913b853d0c5c45bcb30502fd",
@@ -120,15 +147,6 @@
           "published_at": "2026-06-19T04:00:14Z"
         },
         {
-          "id": "5435e107a11036fa03f76469cc094c4e3ed26839",
-          "title": "烏克蘭戰鬥仍在繼續——無人機主宰戰場 / Fighting in Ukraine Continues - and Drones Dominate the Battlefield",
-          "url": "https://www.youtube.com/watch?v=npbM0xvpjh0",
-          "source": "Good Times Bad Times",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-18T15:43:03Z"
-        },
-        {
           "id": "153620c1cfbeba89f1e8dc53f9bb24c3ca7ecaa1",
           "title": "Sana服裝怎麼了/惠利因‘小腹’被罵上熱搜風向大逆轉/金佳覽正式簽經紀公司/女星遭AI換臉賣地瓜/權恩彬退出演藝圈｜DenQ",
           "url": "https://www.youtube.com/watch?v=y6jLqF-muf0",
@@ -136,24 +154,6 @@
           "source_name": "OPML RSS",
           "site_id": "trending",
           "published_at": "2026-06-19T10:00:31Z"
-        },
-        {
-          "id": "5cb2fa128eab91484a963952d29a1a2927b86d48",
-          "title": "歐洲正在失敗 / Europe is Losing",
-          "url": "https://www.youtube.com/watch?v=C84Lnyv0gTs",
-          "source": "Hoog",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-06-18T15:06:40Z"
-        },
-        {
-          "id": "28a9083fe1c35f977350e6b892b5d27182afa9fb",
-          "title": "如果歐洲輸掉人工智慧競賽會發生什麼 / What Happens if Europe Loses the AI Race",
-          "url": "https://www.youtube.com/watch?v=C84Lnyv0gTs",
-          "source": "Hoog",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-06-18T15:06:40Z"
         }
       ],
       "source_count": 16,
@@ -162,17 +162,45 @@
         "Cadence Gao",
         "Chu's Vegan",
         "DenQ來了",
-        "Good Times Bad Times",
-        "Hoog",
         "Shepherd Capital Markets",
         "Timeline - World History Documentaries",
+        "UsefulCharts",
+        "Yamajai Notsa 山系の廢青",
         "imineo Documentaires",
         "忽左忽右",
+        "有点艺思哦",
         "沙發人物誌",
         "美投侃新闻",
         "胖貓堂主"
       ],
       "items": [
+        {
+          "id": "34490ea01913964035410d344639386d459eba68",
+          "title": "日本天皇家譜（含幕府將軍） / Japanese Emperors Family Tree (including Shoguns)",
+          "url": "https://www.youtube.com/watch?v=B2YIL4rpGmE",
+          "source": "UsefulCharts",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-19T16:00:38Z"
+        },
+        {
+          "id": "f224bf4da24275d07ca096e8e940d57d2155e481",
+          "title": "学习书法的最大陷阱",
+          "url": "https://www.youtube.com/watch?v=L7XYYQnizlY",
+          "source": "有点艺思哦",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-19T15:23:05Z"
+        },
+        {
+          "id": "b2530e63c2bfe96378ba55aca66a01899ce2250d",
+          "title": "羅馬和畢爾巴鄂：挑戰不可能的體育場 / Rome et Bilbao : Les stades qui ont défié l’impossible",
+          "url": "https://www.youtube.com/watch?v=75b4xOp5EnU",
+          "source": "imineo Documentaires",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-19T14:45:05Z"
+        },
         {
           "id": "ddb2a8f2ee596f25384b13723cc055c1eca033f7",
           "title": "又随便又好吃的面怎么做出来的...",
@@ -246,13 +274,13 @@
           "published_at": "2026-06-18T21:00:19Z"
         },
         {
-          "id": "c5ad5b60c2aeefd552cee7aac5a3c48751105e8d",
-          "title": "葡萄牙：50 年後的康乃馨革命－秘密遺產 / Portugal: The Carnation Revolution 50 Years Later – The Secret Legacy",
-          "url": "https://www.youtube.com/watch?v=e_ttHGrt014",
-          "source": "imineo Documentaires",
+          "id": "55856b93006b03abca791ff8f465568e6fbed5d3",
+          "title": "2026 怒食！北海道の春 EP1 一落地即刻帶你怒食唔使排隊嘅札幌美食 5月淡季先係hidden gem？ 遊客唔嚟嘅湯咖哩店 無遊客嘅根室花丸 札幌紫丁香祭 開箱性價比高札幌住宿",
+          "url": "https://www.youtube.com/watch?v=CJHqUaT0RXE",
+          "source": "Yamajai Notsa 山系の廢青",
           "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-18T15:30:02Z"
+          "site_id": "opmlrss",
+          "published_at": "2026-06-19T15:39:07Z"
         },
         {
           "id": "b54b1eb1fe2c27c6913b853d0c5c45bcb30502fd",
@@ -282,15 +310,6 @@
           "published_at": "2026-06-19T04:00:14Z"
         },
         {
-          "id": "5435e107a11036fa03f76469cc094c4e3ed26839",
-          "title": "烏克蘭戰鬥仍在繼續——無人機主宰戰場 / Fighting in Ukraine Continues - and Drones Dominate the Battlefield",
-          "url": "https://www.youtube.com/watch?v=npbM0xvpjh0",
-          "source": "Good Times Bad Times",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-18T15:43:03Z"
-        },
-        {
           "id": "153620c1cfbeba89f1e8dc53f9bb24c3ca7ecaa1",
           "title": "Sana服裝怎麼了/惠利因‘小腹’被罵上熱搜風向大逆轉/金佳覽正式簽經紀公司/女星遭AI換臉賣地瓜/權恩彬退出演藝圈｜DenQ",
           "url": "https://www.youtube.com/watch?v=y6jLqF-muf0",
@@ -298,48 +317,106 @@
           "source_name": "OPML RSS",
           "site_id": "trending",
           "published_at": "2026-06-19T10:00:31Z"
-        },
-        {
-          "id": "5cb2fa128eab91484a963952d29a1a2927b86d48",
-          "title": "歐洲正在失敗 / Europe is Losing",
-          "url": "https://www.youtube.com/watch?v=C84Lnyv0gTs",
-          "source": "Hoog",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-06-18T15:06:40Z"
-        },
-        {
-          "id": "28a9083fe1c35f977350e6b892b5d27182afa9fb",
-          "title": "如果歐洲輸掉人工智慧競賽會發生什麼 / What Happens if Europe Loses the AI Race",
-          "url": "https://www.youtube.com/watch?v=C84Lnyv0gTs",
-          "source": "Hoog",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-06-18T15:06:40Z"
         }
       ],
       "item_count": 16,
       "duplicate_count": 16,
-      "score": 0.7494,
-      "importance": 0.7494,
-      "importance_score": 0.7494,
+      "score": 0.7377,
+      "importance": 0.7377,
+      "importance_score": 0.7377,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9981,
+        "recency": 0.959,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-18T15:06:40Z",
-      "latest_at": "2026-06-19T14:12:41Z",
+      "earliest_at": "2026-06-18T21:00:19Z",
+      "latest_at": "2026-06-19T16:00:38Z",
       "primary_item": {
-        "id": "ddb2a8f2ee596f25384b13723cc055c1eca033f7",
-        "title": "又随便又好吃的面怎么做出来的...",
-        "url": "https://www.youtube.com/watch?v=LCuPpooFuVk",
-        "source": "Cadence Gao",
+        "id": "34490ea01913964035410d344639386d459eba68",
+        "title": "日本天皇家譜（含幕府將軍） / Japanese Emperors Family Tree (including Shoguns)",
+        "url": "https://www.youtube.com/watch?v=B2YIL4rpGmE",
+        "source": "UsefulCharts",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_6f9a498b8f83",
+      "title": "ChatGPT 可能沒有意識。但如果我們錯了怎麼辦？ / ChatGPT probably isn’t conscious. But what if we’re wrong?",
+      "url": "https://www.vox.com/technology/492421/ai-consciousness-chatgpt-claude",
+      "primary_url": "https://www.vox.com/technology/492421/ai-consciousness-chatgpt-claude",
+      "source": "Vox - Technology",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "ef4dc947673e122495853d96932fda4a59f49fbc",
+          "title": "ChatGPT 可能沒有意識。但如果我們錯了怎麼辦？ / ChatGPT probably isn’t conscious. But what if we’re wrong?",
+          "url": "https://www.vox.com/technology/492421/ai-consciousness-chatgpt-claude",
+          "source": "Vox - Technology",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-06-19T10:30:00Z"
+        },
+        {
+          "id": "6ed506b7630b9e618ff51fc18a595bc5e941b853",
+          "title": "為什麼 ChatGPT 可能會受到影響 / Why ChatGPT might be suffering",
+          "url": "https://www.vox.com/technology/492421/ai-consciousness-chatgpt-claude",
+          "source": "Vox - Technology",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-06-19T10:30:00Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Vox - Technology"
+      ],
+      "items": [
+        {
+          "id": "ef4dc947673e122495853d96932fda4a59f49fbc",
+          "title": "ChatGPT 可能沒有意識。但如果我們錯了怎麼辦？ / ChatGPT probably isn’t conscious. But what if we’re wrong?",
+          "url": "https://www.vox.com/technology/492421/ai-consciousness-chatgpt-claude",
+          "source": "Vox - Technology",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-06-19T10:30:00Z"
+        },
+        {
+          "id": "6ed506b7630b9e618ff51fc18a595bc5e941b853",
+          "title": "為什麼 ChatGPT 可能會受到影響 / Why ChatGPT might be suffering",
+          "url": "https://www.vox.com/technology/492421/ai-consciousness-chatgpt-claude",
+          "source": "Vox - Technology",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-06-19T10:30:00Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.3938,
+      "importance": 0.3938,
+      "importance_score": 0.3938,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.25,
+        "recency": 0.7294,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-19T10:30:00Z",
+      "latest_at": "2026-06-19T10:30:00Z",
+      "primary_item": {
+        "id": "ef4dc947673e122495853d96932fda4a59f49fbc",
+        "title": "ChatGPT 可能沒有意識。但如果我們錯了怎麼辦？ / ChatGPT probably isn’t conscious. But what if we’re wrong?",
+        "url": "https://www.vox.com/technology/492421/ai-consciousness-chatgpt-claude",
+        "source": "Vox - Technology",
         "source_name": "OPML RSS"
       }
     },
@@ -396,13 +473,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.2265,
-      "importance": 0.2265,
-      "importance_score": 0.2265,
+      "score": 0.1923,
+      "importance": 0.1923,
+      "importance_score": 0.1923,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.1717,
+        "recency": 0.0577,
         "story_heat": 0.25
       },
       "category": "watch",
