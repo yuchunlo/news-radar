@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T08:23:14.967644Z",
+  "generated_at": "2026-06-19T10:47:45.454861Z",
   "window_hours": 24,
   "total_items": 2,
   "items": [
@@ -84,15 +84,6 @@
           "published_at": "2026-06-18T12:00:22Z"
         },
         {
-          "id": "9cbe98c95f7a137b1fac062f7d02630636d20ace",
-          "title": "8Ball & MJG：小桌音樂會 / 8Ball & MJG: Tiny Desk Concert",
-          "url": "https://www.youtube.com/watch?v=gQXf0PNreCo",
-          "source": "NPR Music",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-18T09:00:22Z"
-        },
-        {
           "id": "055647a1c4bbf47becfca89df0730d79876e64a2",
           "title": "家樂福退場！台灣量販三十年殘酷商戰，到底誰贏了？丨胖貓堂主丨品牌故事丨Costco丨家樂福丨大全聯丨大潤發",
           "url": "https://www.youtube.com/watch?v=Tn3yDbMYi5Y",
@@ -120,22 +111,13 @@
           "published_at": "2026-06-18T11:00:34Z"
         },
         {
-          "id": "f8e5b7639dbb51ffa9f7b36c764052a038ae6a44",
-          "title": "【吉爾吉斯1】重返中亞絲路！這個國家至今仍活在蘇聯的記憶裡？吉爾吉斯首都比什凱克深度探索！Kyrgyzstan Bishkek Vlog Eng Sub",
-          "url": "https://www.youtube.com/watch?v=29Gy8yxqM0k",
-          "source": "融融歷險記Ben's Adventure",
+          "id": "153620c1cfbeba89f1e8dc53f9bb24c3ca7ecaa1",
+          "title": "Sana服裝怎麼了/惠利因‘小腹’被罵上熱搜風向大逆轉/金佳覽正式簽經紀公司/女星遭AI換臉賣地瓜/權恩彬退出演藝圈｜DenQ",
+          "url": "https://www.youtube.com/watch?v=y6jLqF-muf0",
+          "source": "DenQ來了",
           "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-18T10:42:14Z"
-        },
-        {
-          "id": "a7688e7cc5dbdfe301538af436c2544632558dc7",
-          "title": "台裔創辦人做醫療新創，用 AI 重整美國診所的後台！｜Nitra 總裁暨共同創辦人 Jonathan Chen【塞掐 Side Chat】E411",
-          "url": "https://www.youtube.com/watch?v=B2VcFh0nuSE",
-          "source": "【塞掐】訪談大人物",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-18T10:13:56Z"
+          "site_id": "trending",
+          "published_at": "2026-06-19T10:00:31Z"
         },
         {
           "id": "5cb2fa128eab91484a963952d29a1a2927b86d48",
@@ -156,21 +138,19 @@
           "published_at": "2026-06-18T15:06:40Z"
         }
       ],
-      "source_count": 16,
+      "source_count": 14,
       "source_names": [
         "Best Documentary",
+        "DenQ來了",
         "Good Times Bad Times",
         "Hoog",
-        "NPR Music",
         "Perspective",
         "Shepherd Capital Markets",
         "Timeline - World History Documentaries",
         "imineo Documentaires",
-        "【塞掐】訪談大人物",
         "探險威狼 Wilang-Explorer",
         "美投侃新闻",
         "胖貓堂主",
-        "融融歷險記Ben's Adventure",
         "野菜鹿鹿Veggie Deer"
       ],
       "items": [
@@ -247,15 +227,6 @@
           "published_at": "2026-06-18T12:00:22Z"
         },
         {
-          "id": "9cbe98c95f7a137b1fac062f7d02630636d20ace",
-          "title": "8Ball & MJG：小桌音樂會 / 8Ball & MJG: Tiny Desk Concert",
-          "url": "https://www.youtube.com/watch?v=gQXf0PNreCo",
-          "source": "NPR Music",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-18T09:00:22Z"
-        },
-        {
           "id": "055647a1c4bbf47becfca89df0730d79876e64a2",
           "title": "家樂福退場！台灣量販三十年殘酷商戰，到底誰贏了？丨胖貓堂主丨品牌故事丨Costco丨家樂福丨大全聯丨大潤發",
           "url": "https://www.youtube.com/watch?v=Tn3yDbMYi5Y",
@@ -283,22 +254,13 @@
           "published_at": "2026-06-18T11:00:34Z"
         },
         {
-          "id": "f8e5b7639dbb51ffa9f7b36c764052a038ae6a44",
-          "title": "【吉爾吉斯1】重返中亞絲路！這個國家至今仍活在蘇聯的記憶裡？吉爾吉斯首都比什凱克深度探索！Kyrgyzstan Bishkek Vlog Eng Sub",
-          "url": "https://www.youtube.com/watch?v=29Gy8yxqM0k",
-          "source": "融融歷險記Ben's Adventure",
+          "id": "153620c1cfbeba89f1e8dc53f9bb24c3ca7ecaa1",
+          "title": "Sana服裝怎麼了/惠利因‘小腹’被罵上熱搜風向大逆轉/金佳覽正式簽經紀公司/女星遭AI換臉賣地瓜/權恩彬退出演藝圈｜DenQ",
+          "url": "https://www.youtube.com/watch?v=y6jLqF-muf0",
+          "source": "DenQ來了",
           "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-18T10:42:14Z"
-        },
-        {
-          "id": "a7688e7cc5dbdfe301538af436c2544632558dc7",
-          "title": "台裔創辦人做醫療新創，用 AI 重整美國診所的後台！｜Nitra 總裁暨共同創辦人 Jonathan Chen【塞掐 Side Chat】E411",
-          "url": "https://www.youtube.com/watch?v=B2VcFh0nuSE",
-          "source": "【塞掐】訪談大人物",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-18T10:13:56Z"
+          "site_id": "trending",
+          "published_at": "2026-06-19T10:00:31Z"
         },
         {
           "id": "5cb2fa128eab91484a963952d29a1a2927b86d48",
@@ -319,23 +281,23 @@
           "published_at": "2026-06-18T15:06:40Z"
         }
       ],
-      "item_count": 16,
-      "duplicate_count": 16,
-      "score": 0.6443,
-      "importance": 0.6443,
-      "importance_score": 0.6443,
+      "item_count": 14,
+      "duplicate_count": 14,
+      "score": 0.6142,
+      "importance": 0.6142,
+      "importance_score": 0.6142,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6475,
+        "recency": 0.5472,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-18T09:00:22Z",
-      "latest_at": "2026-06-19T04:00:14Z",
+      "earliest_at": "2026-06-18T11:00:34Z",
+      "latest_at": "2026-06-19T10:00:31Z",
       "primary_item": {
         "id": "2729d0a34a03f47b1fae50f4d4fcfdaa03db82a3",
         "title": "全球金融环境正在收紧！AI教父不信AI？英特尔暴涨闹乌龙？半导体要被迫减仓！",
@@ -397,13 +359,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.2999,
-      "importance": 0.2999,
-      "importance_score": 0.2999,
+      "score": 0.2698,
+      "importance": 0.2698,
+      "importance_score": 0.2698,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.4163,
+        "recency": 0.316,
         "story_heat": 0.25
       },
       "category": "watch",
