@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-19T00:11:10.730991Z",
+  "generated_at": "2026-06-19T05:35:11.761713Z",
   "window_hours": 24,
   "total_items": 2,
   "items": [
@@ -93,22 +93,13 @@
           "published_at": "2026-06-18T09:00:22Z"
         },
         {
-          "id": "d25ed626469025bbfd72468e961bb254e29ec6cb",
-          "title": "探詢「活著的意義」! 馬勒-第二號交響曲《復活》為何每聽必落淚？",
-          "url": "https://www.youtube.com/watch?v=YChlv0nklJI",
-          "source": "音樂家的無聊人生 Musician Seacow",
+          "id": "055647a1c4bbf47becfca89df0730d79876e64a2",
+          "title": "家樂福退場！台灣量販三十年殘酷商戰，到底誰贏了？丨胖貓堂主丨品牌故事丨Costco丨家樂福丨大全聯丨大潤發",
+          "url": "https://www.youtube.com/watch?v=Tn3yDbMYi5Y",
+          "source": "胖貓堂主",
           "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-18T03:42:37Z"
-        },
-        {
-          "id": "3d7959aafc43d1581821c19203a9b748eadfd298",
-          "title": "美联储超预期放鹰！微软开始降成本！美国楼市反弹了！",
-          "url": "https://www.youtube.com/watch?v=ZVeFomJpvoM",
-          "source": "美投侃新闻",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-06-18T00:34:13Z"
+          "site_id": "opmlrss",
+          "published_at": "2026-06-19T04:00:14Z"
         },
         {
           "id": "5435e107a11036fa03f76469cc094c4e3ed26839",
@@ -129,6 +120,15 @@
           "published_at": "2026-06-18T11:00:34Z"
         },
         {
+          "id": "f8e5b7639dbb51ffa9f7b36c764052a038ae6a44",
+          "title": "【吉爾吉斯1】重返中亞絲路！這個國家至今仍活在蘇聯的記憶裡？吉爾吉斯首都比什凱克深度探索！Kyrgyzstan Bishkek Vlog Eng Sub",
+          "url": "https://www.youtube.com/watch?v=29Gy8yxqM0k",
+          "source": "融融歷險記Ben's Adventure",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-06-18T10:42:14Z"
+        },
+        {
           "id": "a7688e7cc5dbdfe301538af436c2544632558dc7",
           "title": "台裔創辦人做醫療新創，用 AI 重整美國診所的後台！｜Nitra 總裁暨共同創辦人 Jonathan Chen【塞掐 Side Chat】E411",
           "url": "https://www.youtube.com/watch?v=B2VcFh0nuSE",
@@ -136,6 +136,15 @@
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
           "published_at": "2026-06-18T10:13:56Z"
+        },
+        {
+          "id": "5cb2fa128eab91484a963952d29a1a2927b86d48",
+          "title": "歐洲正在失敗 / Europe is Losing",
+          "url": "https://www.youtube.com/watch?v=C84Lnyv0gTs",
+          "source": "Hoog",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-06-18T15:06:40Z"
         },
         {
           "id": "28a9083fe1c35f977350e6b892b5d27182afa9fb",
@@ -147,7 +156,7 @@
           "published_at": "2026-06-18T15:06:40Z"
         }
       ],
-      "source_count": 15,
+      "source_count": 16,
       "source_names": [
         "Best Documentary",
         "Good Times Bad Times",
@@ -160,8 +169,9 @@
         "【塞掐】訪談大人物",
         "探險威狼 Wilang-Explorer",
         "美投侃新闻",
-        "野菜鹿鹿Veggie Deer",
-        "音樂家的無聊人生 Musician Seacow"
+        "胖貓堂主",
+        "融融歷險記Ben's Adventure",
+        "野菜鹿鹿Veggie Deer"
       ],
       "items": [
         {
@@ -246,22 +256,13 @@
           "published_at": "2026-06-18T09:00:22Z"
         },
         {
-          "id": "d25ed626469025bbfd72468e961bb254e29ec6cb",
-          "title": "探詢「活著的意義」! 馬勒-第二號交響曲《復活》為何每聽必落淚？",
-          "url": "https://www.youtube.com/watch?v=YChlv0nklJI",
-          "source": "音樂家的無聊人生 Musician Seacow",
+          "id": "055647a1c4bbf47becfca89df0730d79876e64a2",
+          "title": "家樂福退場！台灣量販三十年殘酷商戰，到底誰贏了？丨胖貓堂主丨品牌故事丨Costco丨家樂福丨大全聯丨大潤發",
+          "url": "https://www.youtube.com/watch?v=Tn3yDbMYi5Y",
+          "source": "胖貓堂主",
           "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-18T03:42:37Z"
-        },
-        {
-          "id": "3d7959aafc43d1581821c19203a9b748eadfd298",
-          "title": "美联储超预期放鹰！微软开始降成本！美国楼市反弹了！",
-          "url": "https://www.youtube.com/watch?v=ZVeFomJpvoM",
-          "source": "美投侃新闻",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-06-18T00:34:13Z"
+          "site_id": "opmlrss",
+          "published_at": "2026-06-19T04:00:14Z"
         },
         {
           "id": "5435e107a11036fa03f76469cc094c4e3ed26839",
@@ -282,6 +283,15 @@
           "published_at": "2026-06-18T11:00:34Z"
         },
         {
+          "id": "f8e5b7639dbb51ffa9f7b36c764052a038ae6a44",
+          "title": "【吉爾吉斯1】重返中亞絲路！這個國家至今仍活在蘇聯的記憶裡？吉爾吉斯首都比什凱克深度探索！Kyrgyzstan Bishkek Vlog Eng Sub",
+          "url": "https://www.youtube.com/watch?v=29Gy8yxqM0k",
+          "source": "融融歷險記Ben's Adventure",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-06-18T10:42:14Z"
+        },
+        {
           "id": "a7688e7cc5dbdfe301538af436c2544632558dc7",
           "title": "台裔創辦人做醫療新創，用 AI 重整美國診所的後台！｜Nitra 總裁暨共同創辦人 Jonathan Chen【塞掐 Side Chat】E411",
           "url": "https://www.youtube.com/watch?v=B2VcFh0nuSE",
@@ -289,6 +299,15 @@
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
           "published_at": "2026-06-18T10:13:56Z"
+        },
+        {
+          "id": "5cb2fa128eab91484a963952d29a1a2927b86d48",
+          "title": "歐洲正在失敗 / Europe is Losing",
+          "url": "https://www.youtube.com/watch?v=C84Lnyv0gTs",
+          "source": "Hoog",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-06-18T15:06:40Z"
         },
         {
           "id": "28a9083fe1c35f977350e6b892b5d27182afa9fb",
@@ -300,23 +319,23 @@
           "published_at": "2026-06-18T15:06:40Z"
         }
       ],
-      "item_count": 15,
-      "duplicate_count": 15,
-      "score": 0.7468,
-      "importance": 0.7468,
-      "importance_score": 0.7468,
+      "item_count": 16,
+      "duplicate_count": 16,
+      "score": 0.6793,
+      "importance": 0.6793,
+      "importance_score": 0.6793,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9892,
+        "recency": 0.7642,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-18T00:34:13Z",
-      "latest_at": "2026-06-18T23:55:41Z",
+      "earliest_at": "2026-06-18T09:00:22Z",
+      "latest_at": "2026-06-19T04:00:14Z",
       "primary_item": {
         "id": "2729d0a34a03f47b1fae50f4d4fcfdaa03db82a3",
         "title": "全球金融环境正在收紧！AI教父不信AI？英特尔暴涨闹乌龙？半导体要被迫减仓！",
@@ -378,13 +397,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4024,
-      "importance": 0.4024,
-      "importance_score": 0.4024,
+      "score": 0.3349,
+      "importance": 0.3349,
+      "importance_score": 0.3349,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.758,
+        "recency": 0.533,
         "story_heat": 0.25
       },
       "category": "watch",
