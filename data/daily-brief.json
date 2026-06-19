@@ -1,16 +1,34 @@
 {
-  "generated_at": "2026-06-19T19:05:22.599644Z",
+  "generated_at": "2026-06-19T20:53:04.656931Z",
   "window_hours": 24,
   "total_items": 2,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "日本天皇家譜（含幕府將軍） / Japanese Emperors Family Tree (including Shoguns)",
-      "url": "https://www.youtube.com/watch?v=B2YIL4rpGmE",
-      "primary_url": "https://www.youtube.com/watch?v=B2YIL4rpGmE",
-      "source": "UsefulCharts",
+      "title": "紐約市史上最大規模的遊行 / The Biggest Parade in New York City History",
+      "url": "https://www.youtube.com/watch?v=hqxUqRfceEQ",
+      "primary_url": "https://www.youtube.com/watch?v=hqxUqRfceEQ",
+      "source": "CaseyNeistat",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "aace223d1e9ac9e9f8cef3739ee4d352a1b14f69",
+          "title": "紐約市史上最大規模的遊行 / The Biggest Parade in New York City History",
+          "url": "https://www.youtube.com/watch?v=hqxUqRfceEQ",
+          "source": "CaseyNeistat",
+          "source_name": "OPML RSS",
+          "site_id": "design",
+          "published_at": "2026-06-19T20:10:37Z"
+        },
+        {
+          "id": "619e6c8f333a08e2e2117bf8a7b93d019ffaa6ea",
+          "title": "法國最美麗的大教堂 / The Most Beautiful Cathedral in France",
+          "url": "https://www.youtube.com/watch?v=dYJIXBNcv2I",
+          "source": "Manuel Bravo",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-19T20:00:03Z"
+        },
         {
           "id": "34490ea01913964035410d344639386d459eba68",
           "title": "日本天皇家譜（含幕府將軍） / Japanese Emperors Family Tree (including Shoguns)",
@@ -165,6 +183,15 @@
           "published_at": "2026-06-19T04:00:14Z"
         },
         {
+          "id": "5be82fad76f82e901ed5af575884e7ce8592c8df",
+          "title": "沒有人使用 Bumble... / No One Is Using Bumble...",
+          "url": "https://www.youtube.com/watch?v=j8IIRI-zfug",
+          "source": "Logically Answered",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-06-19T19:00:03Z"
+        },
+        {
           "id": "1380a7dd96ad12aee767e0dfebabe98a07ce4653",
           "title": "铜、石油、稀土：资源真的会耗尽吗？",
           "url": "https://www.youtube.com/watch?v=hOnevTzmUR8",
@@ -183,12 +210,15 @@
           "published_at": "2026-06-19T10:00:31Z"
         }
       ],
-      "source_count": 19,
+      "source_count": 22,
       "source_names": [
         "Best Documentary",
         "Cadence Gao",
+        "CaseyNeistat",
         "Chu's Vegan",
         "DenQ來了",
+        "Logically Answered",
+        "Manuel Bravo",
         "Match Economy",
         "RealLifeLore",
         "Shepherd Capital Markets",
@@ -204,6 +234,24 @@
       ],
       "items": [
         {
+          "id": "aace223d1e9ac9e9f8cef3739ee4d352a1b14f69",
+          "title": "紐約市史上最大規模的遊行 / The Biggest Parade in New York City History",
+          "url": "https://www.youtube.com/watch?v=hqxUqRfceEQ",
+          "source": "CaseyNeistat",
+          "source_name": "OPML RSS",
+          "site_id": "design",
+          "published_at": "2026-06-19T20:10:37Z"
+        },
+        {
+          "id": "619e6c8f333a08e2e2117bf8a7b93d019ffaa6ea",
+          "title": "法國最美麗的大教堂 / The Most Beautiful Cathedral in France",
+          "url": "https://www.youtube.com/watch?v=dYJIXBNcv2I",
+          "source": "Manuel Bravo",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-19T20:00:03Z"
+        },
+        {
           "id": "34490ea01913964035410d344639386d459eba68",
           "title": "日本天皇家譜（含幕府將軍） / Japanese Emperors Family Tree (including Shoguns)",
           "url": "https://www.youtube.com/watch?v=B2YIL4rpGmE",
@@ -357,6 +405,15 @@
           "published_at": "2026-06-19T04:00:14Z"
         },
         {
+          "id": "5be82fad76f82e901ed5af575884e7ce8592c8df",
+          "title": "沒有人使用 Bumble... / No One Is Using Bumble...",
+          "url": "https://www.youtube.com/watch?v=j8IIRI-zfug",
+          "source": "Logically Answered",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-06-19T19:00:03Z"
+        },
+        {
           "id": "1380a7dd96ad12aee767e0dfebabe98a07ce4653",
           "title": "铜、石油、稀土：资源真的会耗尽吗？",
           "url": "https://www.youtube.com/watch?v=hOnevTzmUR8",
@@ -375,15 +432,15 @@
           "published_at": "2026-06-19T10:00:31Z"
         }
       ],
-      "item_count": 19,
-      "duplicate_count": 19,
-      "score": 0.7115,
-      "importance": 0.7115,
-      "importance_score": 0.7115,
+      "item_count": 22,
+      "duplicate_count": 22,
+      "score": 0.7412,
+      "importance": 0.7412,
+      "importance_score": 0.7412,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.8717,
+        "recency": 0.9705,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -391,12 +448,12 @@
         "multi_source"
       ],
       "earliest_at": "2026-06-18T21:00:19Z",
-      "latest_at": "2026-06-19T17:17:13Z",
+      "latest_at": "2026-06-19T20:10:37Z",
       "primary_item": {
-        "id": "34490ea01913964035410d344639386d459eba68",
-        "title": "日本天皇家譜（含幕府將軍） / Japanese Emperors Family Tree (including Shoguns)",
-        "url": "https://www.youtube.com/watch?v=B2YIL4rpGmE",
-        "source": "UsefulCharts",
+        "id": "aace223d1e9ac9e9f8cef3739ee4d352a1b14f69",
+        "title": "紐約市史上最大規模的遊行 / The Biggest Parade in New York City History",
+        "url": "https://www.youtube.com/watch?v=hqxUqRfceEQ",
+        "source": "CaseyNeistat",
         "source_name": "OPML RSS"
       }
     },
@@ -453,13 +510,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3676,
-      "importance": 0.3676,
-      "importance_score": 0.3676,
+      "score": 0.3452,
+      "importance": 0.3452,
+      "importance_score": 0.3452,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.6421,
+        "recency": 0.5673,
         "story_heat": 0.25
       },
       "category": "watch",
