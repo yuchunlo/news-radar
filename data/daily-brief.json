@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-19T16:59:42.735723Z",
+  "generated_at": "2026-06-19T19:05:22.599644Z",
   "window_hours": 24,
-  "total_items": 3,
+  "total_items": 2,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
@@ -93,6 +93,15 @@
           "published_at": "2026-06-18T23:15:28Z"
         },
         {
+          "id": "c40dd86ab31c3efec55da46ee4a42520783a09db",
+          "title": "这TM什么世道？卖币分红，ChatGPT造理财产品。离大谱！",
+          "url": "https://www.youtube.com/watch?v=cYPDLpBTJSE",
+          "source": "Shepherd Capital Markets",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-06-18T23:15:28Z"
+        },
+        {
           "id": "7e46c91c70b90f4b41b8b76e2444c69fd77abc99",
           "title": "1942年法國為何故意擊沉自己的海軍？ / Why Did France Intentionally Sink Its Own Navy In 1942?",
           "url": "https://www.youtube.com/watch?v=BN-ZTzdqyi8",
@@ -109,6 +118,15 @@
           "source_name": "OPML RSS",
           "site_id": "culture",
           "published_at": "2026-06-18T21:00:19Z"
+        },
+        {
+          "id": "f12c75b1595b58fc008eed3ce212fabd500c33d4",
+          "title": "地球上最長的飛行 / The Longest Flight That Will Ever Exist on Earth",
+          "url": "https://www.youtube.com/watch?v=V14RCK_QiG0",
+          "source": "RealLifeLore",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-06-19T17:17:13Z"
         },
         {
           "id": "55856b93006b03abca791ff8f465568e6fbed5d3",
@@ -147,6 +165,15 @@
           "published_at": "2026-06-19T04:00:14Z"
         },
         {
+          "id": "1380a7dd96ad12aee767e0dfebabe98a07ce4653",
+          "title": "铜、石油、稀土：资源真的会耗尽吗？",
+          "url": "https://www.youtube.com/watch?v=hOnevTzmUR8",
+          "source": "Match Economy",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-06-19T17:15:08Z"
+        },
+        {
           "id": "153620c1cfbeba89f1e8dc53f9bb24c3ca7ecaa1",
           "title": "Sana服裝怎麼了/惠利因‘小腹’被罵上熱搜風向大逆轉/金佳覽正式簽經紀公司/女星遭AI換臉賣地瓜/權恩彬退出演藝圈｜DenQ",
           "url": "https://www.youtube.com/watch?v=y6jLqF-muf0",
@@ -156,12 +183,14 @@
           "published_at": "2026-06-19T10:00:31Z"
         }
       ],
-      "source_count": 16,
+      "source_count": 19,
       "source_names": [
         "Best Documentary",
         "Cadence Gao",
         "Chu's Vegan",
         "DenQ來了",
+        "Match Economy",
+        "RealLifeLore",
         "Shepherd Capital Markets",
         "Timeline - World History Documentaries",
         "UsefulCharts",
@@ -256,6 +285,15 @@
           "published_at": "2026-06-18T23:15:28Z"
         },
         {
+          "id": "c40dd86ab31c3efec55da46ee4a42520783a09db",
+          "title": "这TM什么世道？卖币分红，ChatGPT造理财产品。离大谱！",
+          "url": "https://www.youtube.com/watch?v=cYPDLpBTJSE",
+          "source": "Shepherd Capital Markets",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-06-18T23:15:28Z"
+        },
+        {
           "id": "7e46c91c70b90f4b41b8b76e2444c69fd77abc99",
           "title": "1942年法國為何故意擊沉自己的海軍？ / Why Did France Intentionally Sink Its Own Navy In 1942?",
           "url": "https://www.youtube.com/watch?v=BN-ZTzdqyi8",
@@ -272,6 +310,15 @@
           "source_name": "OPML RSS",
           "site_id": "culture",
           "published_at": "2026-06-18T21:00:19Z"
+        },
+        {
+          "id": "f12c75b1595b58fc008eed3ce212fabd500c33d4",
+          "title": "地球上最長的飛行 / The Longest Flight That Will Ever Exist on Earth",
+          "url": "https://www.youtube.com/watch?v=V14RCK_QiG0",
+          "source": "RealLifeLore",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-06-19T17:17:13Z"
         },
         {
           "id": "55856b93006b03abca791ff8f465568e6fbed5d3",
@@ -310,6 +357,15 @@
           "published_at": "2026-06-19T04:00:14Z"
         },
         {
+          "id": "1380a7dd96ad12aee767e0dfebabe98a07ce4653",
+          "title": "铜、石油、稀土：资源真的会耗尽吗？",
+          "url": "https://www.youtube.com/watch?v=hOnevTzmUR8",
+          "source": "Match Economy",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-06-19T17:15:08Z"
+        },
+        {
           "id": "153620c1cfbeba89f1e8dc53f9bb24c3ca7ecaa1",
           "title": "Sana服裝怎麼了/惠利因‘小腹’被罵上熱搜風向大逆轉/金佳覽正式簽經紀公司/女星遭AI換臉賣地瓜/權恩彬退出演藝圈｜DenQ",
           "url": "https://www.youtube.com/watch?v=y6jLqF-muf0",
@@ -319,15 +375,15 @@
           "published_at": "2026-06-19T10:00:31Z"
         }
       ],
-      "item_count": 16,
-      "duplicate_count": 16,
-      "score": 0.7377,
-      "importance": 0.7377,
-      "importance_score": 0.7377,
+      "item_count": 19,
+      "duplicate_count": 19,
+      "score": 0.7115,
+      "importance": 0.7115,
+      "importance_score": 0.7115,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.959,
+        "recency": 0.8717,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -335,7 +391,7 @@
         "multi_source"
       ],
       "earliest_at": "2026-06-18T21:00:19Z",
-      "latest_at": "2026-06-19T16:00:38Z",
+      "latest_at": "2026-06-19T17:17:13Z",
       "primary_item": {
         "id": "34490ea01913964035410d344639386d459eba68",
         "title": "日本天皇家譜（含幕府將軍） / Japanese Emperors Family Tree (including Shoguns)",
@@ -397,13 +453,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3938,
-      "importance": 0.3938,
-      "importance_score": 0.3938,
+      "score": 0.3676,
+      "importance": 0.3676,
+      "importance_score": 0.3676,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.7294,
+        "recency": 0.6421,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -417,82 +473,6 @@
         "title": "ChatGPT 可能沒有意識。但如果我們錯了怎麼辦？ / ChatGPT probably isn’t conscious. But what if we’re wrong?",
         "url": "https://www.vox.com/technology/492421/ai-consciousness-chatgpt-claude",
         "source": "Vox - Technology",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_0ac5a387805b",
-      "title": "川普伊朗和平備忘錄公開：3,000 億重建、布蘭特原油跌 5%",
-      "url": "https://abmedia.io/trump-iran-peace-mou-300-billion-reconstruction-oil-drop-2026",
-      "primary_url": "https://abmedia.io/trump-iran-peace-mou-300-billion-reconstruction-oil-drop-2026",
-      "source": "鏈新聞 ABMedia",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "4d35ed44d6c871d1bb16e110441c865e94034a65",
-          "title": "川普伊朗和平備忘錄公開：3,000 億重建、布蘭特原油跌 5%",
-          "url": "https://abmedia.io/trump-iran-peace-mou-300-billion-reconstruction-oil-drop-2026",
-          "source": "鏈新聞 ABMedia",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-06-18T18:22:44Z"
-        },
-        {
-          "id": "c91dbea3a5cedb8957ed4cbb1f6629a119c87fe0",
-          "title": "川普伊朗和平備忘錄公開：3,000 億重建、油價跌 4.76%",
-          "url": "https://abmedia.io/trump-iran-peace-mou-300-billion-reconstruction-oil-drop-2026",
-          "source": "鏈新聞 ABMedia",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-06-18T18:22:44Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "鏈新聞 ABMedia"
-      ],
-      "items": [
-        {
-          "id": "4d35ed44d6c871d1bb16e110441c865e94034a65",
-          "title": "川普伊朗和平備忘錄公開：3,000 億重建、布蘭特原油跌 5%",
-          "url": "https://abmedia.io/trump-iran-peace-mou-300-billion-reconstruction-oil-drop-2026",
-          "source": "鏈新聞 ABMedia",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-06-18T18:22:44Z"
-        },
-        {
-          "id": "c91dbea3a5cedb8957ed4cbb1f6629a119c87fe0",
-          "title": "川普伊朗和平備忘錄公開：3,000 億重建、油價跌 4.76%",
-          "url": "https://abmedia.io/trump-iran-peace-mou-300-billion-reconstruction-oil-drop-2026",
-          "source": "鏈新聞 ABMedia",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-06-18T18:22:44Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.1923,
-      "importance": 0.1923,
-      "importance_score": 0.1923,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.25,
-        "recency": 0.0577,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-18T18:22:44Z",
-      "latest_at": "2026-06-18T18:22:44Z",
-      "primary_item": {
-        "id": "4d35ed44d6c871d1bb16e110441c865e94034a65",
-        "title": "川普伊朗和平備忘錄公開：3,000 億重建、布蘭特原油跌 5%",
-        "url": "https://abmedia.io/trump-iran-peace-mou-300-billion-reconstruction-oil-drop-2026",
-        "source": "鏈新聞 ABMedia",
         "source_name": "OPML RSS"
       }
     }
