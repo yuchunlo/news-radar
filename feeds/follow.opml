@@ -167,9 +167,6 @@
       <outline text="Randy's Blog" type="rss" category="blog"
         xmlUrl="https://lutaonan.com/rss.xml"
         htmlUrl="https://lutaonan.com/" />
-      <outline text="Political Geography Now" type="rss" category="design"
-        xmlUrl="https://feeds.feedburner.com/PoliticalGeographyNow"
-        htmlUrl="https://www.polgeonow.com/2023/10/before-israel-ground-invasion-map-gaza-hamas.html" />
       <outline text="Paul Graham: Essays" type="rss" category="execution"
         xmlUrl="http://www.aaronsw.com/2002/feeds/pgessays.rss"
         htmlUrl="http://www.paulgraham.com/" />
@@ -1136,7 +1133,7 @@
       <outline text="Age of Invention, by Anton Howes" type="rss" category="culture"
         xmlUrl="https://www.ageofinvention.xyz/feed"
         htmlUrl="https://www.ageofinvention.xyz" />
-      <outline text="Political Geography Now" type="rss" category=""
+      <outline text="Political Geography Now" type="rss" category="design"
         xmlUrl="https://www.polgeonow.com/feeds/posts/default"
         htmlUrl="https://www.polgeonow.com/" />
       <outline text="kottke.org" type="rss" category="trending"
