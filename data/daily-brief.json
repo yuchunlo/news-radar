@@ -1,16 +1,34 @@
 {
-  "generated_at": "2026-06-20T20:21:13.355921Z",
+  "generated_at": "2026-06-20T21:49:00.645441Z",
   "window_hours": 24,
   "total_items": 3,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "天安门广场中弹台湾记者：我看到了最后一刻 | 柴静访谈",
-      "url": "https://www.youtube.com/watch?v=nNcJxOd8T9o",
-      "primary_url": "https://www.youtube.com/watch?v=nNcJxOd8T9o",
-      "source": "柴静 Chai Jing",
+      "title": "底特律的文藝復興：現實還是炒作？ / Detroit’s Renaissance: Reality or Hype?",
+      "url": "https://www.youtube.com/watch?v=Y89bMOfi_xc",
+      "primary_url": "https://www.youtube.com/watch?v=Y89bMOfi_xc",
+      "source": "Best Documentary",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "54c7fe4a45aea6a4c0496962fa6d4a497727f39f",
+          "title": "底特律的文藝復興：現實還是炒作？ / Detroit’s Renaissance: Reality or Hype?",
+          "url": "https://www.youtube.com/watch?v=Y89bMOfi_xc",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-20T21:00:21Z"
+        },
+        {
+          "id": "3727c73410fbad64f7c68bda65229317164aa898",
+          "title": "考古學家從英吉利海峽打撈出一架沉沒的二戰轟炸機 / Archeologists Recover A Sunken WW2 Bomber From The English Channel",
+          "url": "https://www.youtube.com/watch?v=Tp_sbrl9wzA",
+          "source": "Timeline - World History Documentaries",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-20T21:00:11Z"
+        },
         {
           "id": "30ab55acd71472c54e97d02a86fca8443cdba480",
           "title": "天安门广场中弹台湾记者：我看到了最后一刻 | 柴静访谈",
@@ -84,11 +102,12 @@
           "published_at": "2026-06-20T15:36:20Z"
         }
       ],
-      "source_count": 8,
+      "source_count": 10,
       "source_names": [
         "Best Documentary",
         "Peter Santenello",
         "Reysu",
+        "Timeline - World History Documentaries",
         "Waxy.org",
         "imineo Documentaires",
         "柴静 Chai Jing",
@@ -97,6 +116,24 @@
       ],
       "items": [
         {
+          "id": "54c7fe4a45aea6a4c0496962fa6d4a497727f39f",
+          "title": "底特律的文藝復興：現實還是炒作？ / Detroit’s Renaissance: Reality or Hype?",
+          "url": "https://www.youtube.com/watch?v=Y89bMOfi_xc",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-20T21:00:21Z"
+        },
+        {
+          "id": "3727c73410fbad64f7c68bda65229317164aa898",
+          "title": "考古學家從英吉利海峽打撈出一架沉沒的二戰轟炸機 / Archeologists Recover A Sunken WW2 Bomber From The English Channel",
+          "url": "https://www.youtube.com/watch?v=Tp_sbrl9wzA",
+          "source": "Timeline - World History Documentaries",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-20T21:00:11Z"
+        },
+        {
           "id": "30ab55acd71472c54e97d02a86fca8443cdba480",
           "title": "天安门广场中弹台湾记者：我看到了最后一刻 | 柴静访谈",
           "url": "https://www.youtube.com/watch?v=nNcJxOd8T9o",
@@ -169,15 +206,15 @@
           "published_at": "2026-06-20T15:36:20Z"
         }
       ],
-      "item_count": 8,
-      "duplicate_count": 8,
-      "score": 0.6651,
-      "importance": 0.6651,
-      "importance_score": 0.6651,
+      "item_count": 10,
+      "duplicate_count": 10,
+      "score": 0.7399,
+      "importance": 0.7399,
+      "importance_score": 0.7399,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7169,
+        "recency": 0.9662,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -185,12 +222,12 @@
         "multi_source"
       ],
       "earliest_at": "2026-06-19T23:30:34Z",
-      "latest_at": "2026-06-20T15:36:20Z",
+      "latest_at": "2026-06-20T21:00:21Z",
       "primary_item": {
-        "id": "30ab55acd71472c54e97d02a86fca8443cdba480",
-        "title": "天安门广场中弹台湾记者：我看到了最后一刻 | 柴静访谈",
-        "url": "https://www.youtube.com/watch?v=nNcJxOd8T9o",
-        "source": "柴静 Chai Jing",
+        "id": "54c7fe4a45aea6a4c0496962fa6d4a497727f39f",
+        "title": "底特律的文藝復興：現實還是炒作？ / Detroit’s Renaissance: Reality or Hype?",
+        "url": "https://www.youtube.com/watch?v=Y89bMOfi_xc",
+        "source": "Best Documentary",
         "source_name": "OPML RSS"
       }
     },
@@ -247,13 +284,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3332,
-      "importance": 0.3332,
-      "importance_score": 0.3332,
+      "score": 0.3149,
+      "importance": 0.3149,
+      "importance_score": 0.3149,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.5273,
+        "recency": 0.4663,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -323,13 +360,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3258,
-      "importance": 0.3258,
-      "importance_score": 0.3258,
+      "score": 0.3075,
+      "importance": 0.3075,
+      "importance_score": 0.3075,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.086,
+        "recency": 0.025,
         "story_heat": 0.25
       },
       "category": "watch",
