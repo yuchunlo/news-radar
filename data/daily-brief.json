@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-20T17:04:45.475470Z",
+  "generated_at": "2026-06-20T18:55:55.648356Z",
   "window_hours": 24,
   "total_items": 3,
   "items": [
@@ -93,15 +93,6 @@
           "published_at": "2026-06-20T11:00:06Z"
         },
         {
-          "id": "f12c75b1595b58fc008eed3ce212fabd500c33d4",
-          "title": "地球上最長的飛行 / The Longest Flight That Will Ever Exist on Earth",
-          "url": "https://www.youtube.com/watch?v=V14RCK_QiG0",
-          "source": "RealLifeLore",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-19T17:17:13Z"
-        },
-        {
           "id": "d7d87cb016cf8f2c2dd9e8cb18335f0d16c32975",
           "title": "你必須在艾菲爾鐵塔裡拉屎 / You Have to Poop in the Eiffel Tower",
           "url": "https://www.youtube.com/watch?v=1v2g3GLaJtE",
@@ -118,26 +109,15 @@
           "source_name": "OPML RSS",
           "site_id": "trending",
           "published_at": "2026-06-19T19:00:03Z"
-        },
-        {
-          "id": "1380a7dd96ad12aee767e0dfebabe98a07ce4653",
-          "title": "铜、石油、稀土：资源真的会耗尽吗？",
-          "url": "https://www.youtube.com/watch?v=hOnevTzmUR8",
-          "source": "Match Economy",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-06-19T17:15:08Z"
         }
       ],
-      "source_count": 13,
+      "source_count": 11,
       "source_names": [
         "Best Documentary",
         "CaseyNeistat",
         "Logically Answered",
         "Manuel Bravo",
-        "Match Economy",
         "Peter Santenello",
-        "RealLifeLore",
         "Reysu",
         "Waxy.org",
         "imineo Documentaires",
@@ -228,15 +208,6 @@
           "published_at": "2026-06-20T11:00:06Z"
         },
         {
-          "id": "f12c75b1595b58fc008eed3ce212fabd500c33d4",
-          "title": "地球上最長的飛行 / The Longest Flight That Will Ever Exist on Earth",
-          "url": "https://www.youtube.com/watch?v=V14RCK_QiG0",
-          "source": "RealLifeLore",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-19T17:17:13Z"
-        },
-        {
           "id": "d7d87cb016cf8f2c2dd9e8cb18335f0d16c32975",
           "title": "你必須在艾菲爾鐵塔裡拉屎 / You Have to Poop in the Eiffel Tower",
           "url": "https://www.youtube.com/watch?v=1v2g3GLaJtE",
@@ -253,33 +224,24 @@
           "source_name": "OPML RSS",
           "site_id": "trending",
           "published_at": "2026-06-19T19:00:03Z"
-        },
-        {
-          "id": "1380a7dd96ad12aee767e0dfebabe98a07ce4653",
-          "title": "铜、石油、稀土：资源真的会耗尽吗？",
-          "url": "https://www.youtube.com/watch?v=hOnevTzmUR8",
-          "source": "Match Economy",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-06-19T17:15:08Z"
         }
       ],
-      "item_count": 13,
-      "duplicate_count": 13,
-      "score": 0.706,
-      "importance": 0.706,
-      "importance_score": 0.706,
+      "item_count": 11,
+      "duplicate_count": 11,
+      "score": 0.6828,
+      "importance": 0.6828,
+      "importance_score": 0.6828,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.8534,
+        "recency": 0.7762,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-19T17:15:08Z",
+      "earliest_at": "2026-06-19T19:00:03Z",
       "latest_at": "2026-06-20T15:36:20Z",
       "primary_item": {
         "id": "30ab55acd71472c54e97d02a86fca8443cdba480",
@@ -342,13 +304,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3741,
-      "importance": 0.3741,
-      "importance_score": 0.3741,
+      "score": 0.351,
+      "importance": 0.351,
+      "importance_score": 0.351,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.6637,
+        "recency": 0.5865,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -418,13 +380,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3667,
-      "importance": 0.3667,
-      "importance_score": 0.3667,
+      "score": 0.3436,
+      "importance": 0.3436,
+      "importance_score": 0.3436,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.2224,
+        "recency": 0.1452,
         "story_heat": 0.25
       },
       "category": "watch",
