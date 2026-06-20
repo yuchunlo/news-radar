@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-20T00:41:19.359129Z",
+  "generated_at": "2026-06-20T04:14:08.823722Z",
   "window_hours": 24,
   "total_items": 2,
   "items": [
@@ -129,15 +129,6 @@
           "published_at": "2026-06-19T12:00:01Z"
         },
         {
-          "id": "2b3b3c73be16bb82e3eb629cf530bfdee48b6175",
-          "title": "家乐福退场！台湾量贩三十年残酷商战，到底谁赢了？丨胖猫堂主丨品牌故事丨Costco丨家乐福丨大全联丨大润发",
-          "url": "https://www.youtube.com/watch?v=Tn3yDbMYi5Y",
-          "source": "胖貓堂主",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-19T04:00:14Z"
-        },
-        {
           "id": "5be82fad76f82e901ed5af575884e7ce8592c8df",
           "title": "沒有人使用 Bumble... / No One Is Using Bumble...",
           "url": "https://www.youtube.com/watch?v=j8IIRI-zfug",
@@ -165,7 +156,7 @@
           "published_at": "2026-06-19T10:00:31Z"
         }
       ],
-      "source_count": 17,
+      "source_count": 16,
       "source_names": [
         "Best Documentary",
         "Cadence Gao",
@@ -182,8 +173,7 @@
         "忽左忽右",
         "有点艺思哦",
         "沙發人物誌",
-        "美投侃新闻",
-        "胖貓堂主"
+        "美投侃新闻"
       ],
       "items": [
         {
@@ -304,15 +294,6 @@
           "published_at": "2026-06-19T12:00:01Z"
         },
         {
-          "id": "2b3b3c73be16bb82e3eb629cf530bfdee48b6175",
-          "title": "家乐福退场！台湾量贩三十年残酷商战，到底谁赢了？丨胖猫堂主丨品牌故事丨Costco丨家乐福丨大全联丨大润发",
-          "url": "https://www.youtube.com/watch?v=Tn3yDbMYi5Y",
-          "source": "胖貓堂主",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-19T04:00:14Z"
-        },
-        {
           "id": "5be82fad76f82e901ed5af575884e7ce8592c8df",
           "title": "沒有人使用 Bumble... / No One Is Using Bumble...",
           "url": "https://www.youtube.com/watch?v=j8IIRI-zfug",
@@ -340,22 +321,22 @@
           "published_at": "2026-06-19T10:00:31Z"
         }
       ],
-      "item_count": 17,
-      "duplicate_count": 17,
-      "score": 0.7353,
-      "importance": 0.7353,
-      "importance_score": 0.7353,
+      "item_count": 16,
+      "duplicate_count": 16,
+      "score": 0.6909,
+      "importance": 0.6909,
+      "importance_score": 0.6909,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9509,
+        "recency": 0.8031,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-19T04:00:14Z",
+      "earliest_at": "2026-06-19T10:00:31Z",
       "latest_at": "2026-06-19T23:30:34Z",
       "primary_item": {
         "id": "1d990690d96e063a8eddfc8005a7ea7ec37440ba",
@@ -418,13 +399,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.2976,
-      "importance": 0.2976,
-      "importance_score": 0.2976,
+      "score": 0.2533,
+      "importance": 0.2533,
+      "importance_score": 0.2533,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.4088,
+        "recency": 0.261,
         "story_heat": 0.25
       },
       "category": "watch",
