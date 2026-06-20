@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-20T15:07:41.678277Z",
+  "generated_at": "2026-06-20T17:04:45.475470Z",
   "window_hours": 24,
   "total_items": 3,
   "items": [
@@ -66,22 +66,13 @@
           "published_at": "2026-06-19T20:00:03Z"
         },
         {
-          "id": "34490ea01913964035410d344639386d459eba68",
-          "title": "日本天皇家譜（含幕府將軍） / Japanese Emperors Family Tree (including Shoguns)",
-          "url": "https://www.youtube.com/watch?v=B2YIL4rpGmE",
-          "source": "UsefulCharts",
+          "id": "21f357ab3543ec2b76e0504ac9e33299a7d75a1c",
+          "title": "孟菲斯內部—媒體不會向您展示的內容 / Inside Memphis - What the Media Won’t Show You",
+          "url": "https://www.youtube.com/watch?v=V3pOGvv-zW8",
+          "source": "Peter Santenello",
           "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-19T16:00:38Z"
-        },
-        {
-          "id": "f224bf4da24275d07ca096e8e940d57d2155e481",
-          "title": "学习书法的最大陷阱",
-          "url": "https://www.youtube.com/watch?v=L7XYYQnizlY",
-          "source": "有点艺思哦",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-19T15:23:05Z"
+          "site_id": "opmlrss",
+          "published_at": "2026-06-20T15:00:10Z"
         },
         {
           "id": "44617db09f2f6ea2648bce96443611d0f1a6778e",
@@ -111,13 +102,13 @@
           "published_at": "2026-06-19T17:17:13Z"
         },
         {
-          "id": "55856b93006b03abca791ff8f465568e6fbed5d3",
-          "title": "2026 怒食！北海道の春 EP1 一落地即刻帶你怒食唔使排隊嘅札幌美食 5月淡季先係hidden gem？ 遊客唔嚟嘅湯咖哩店 無遊客嘅根室花丸 札幌紫丁香祭 開箱性價比高札幌住宿",
-          "url": "https://www.youtube.com/watch?v=CJHqUaT0RXE",
-          "source": "Yamajai Notsa 山系の廢青",
+          "id": "d7d87cb016cf8f2c2dd9e8cb18335f0d16c32975",
+          "title": "你必須在艾菲爾鐵塔裡拉屎 / You Have to Poop in the Eiffel Tower",
+          "url": "https://www.youtube.com/watch?v=1v2g3GLaJtE",
+          "source": "Waxy.org",
           "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-19T15:39:07Z"
+          "site_id": "trending",
+          "published_at": "2026-06-20T15:36:20Z"
         },
         {
           "id": "5be82fad76f82e901ed5af575884e7ce8592c8df",
@@ -138,19 +129,18 @@
           "published_at": "2026-06-19T17:15:08Z"
         }
       ],
-      "source_count": 14,
+      "source_count": 13,
       "source_names": [
         "Best Documentary",
         "CaseyNeistat",
         "Logically Answered",
         "Manuel Bravo",
         "Match Economy",
+        "Peter Santenello",
         "RealLifeLore",
         "Reysu",
-        "UsefulCharts",
-        "Yamajai Notsa 山系の廢青",
+        "Waxy.org",
         "imineo Documentaires",
-        "有点艺思哦",
         "柴静 Chai Jing",
         "美投侃新闻",
         "融融歷險記Ben's Adventure"
@@ -211,22 +201,13 @@
           "published_at": "2026-06-19T20:00:03Z"
         },
         {
-          "id": "34490ea01913964035410d344639386d459eba68",
-          "title": "日本天皇家譜（含幕府將軍） / Japanese Emperors Family Tree (including Shoguns)",
-          "url": "https://www.youtube.com/watch?v=B2YIL4rpGmE",
-          "source": "UsefulCharts",
+          "id": "21f357ab3543ec2b76e0504ac9e33299a7d75a1c",
+          "title": "孟菲斯內部—媒體不會向您展示的內容 / Inside Memphis - What the Media Won’t Show You",
+          "url": "https://www.youtube.com/watch?v=V3pOGvv-zW8",
+          "source": "Peter Santenello",
           "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-19T16:00:38Z"
-        },
-        {
-          "id": "f224bf4da24275d07ca096e8e940d57d2155e481",
-          "title": "学习书法的最大陷阱",
-          "url": "https://www.youtube.com/watch?v=L7XYYQnizlY",
-          "source": "有点艺思哦",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-19T15:23:05Z"
+          "site_id": "opmlrss",
+          "published_at": "2026-06-20T15:00:10Z"
         },
         {
           "id": "44617db09f2f6ea2648bce96443611d0f1a6778e",
@@ -256,13 +237,13 @@
           "published_at": "2026-06-19T17:17:13Z"
         },
         {
-          "id": "55856b93006b03abca791ff8f465568e6fbed5d3",
-          "title": "2026 怒食！北海道の春 EP1 一落地即刻帶你怒食唔使排隊嘅札幌美食 5月淡季先係hidden gem？ 遊客唔嚟嘅湯咖哩店 無遊客嘅根室花丸 札幌紫丁香祭 開箱性價比高札幌住宿",
-          "url": "https://www.youtube.com/watch?v=CJHqUaT0RXE",
-          "source": "Yamajai Notsa 山系の廢青",
+          "id": "d7d87cb016cf8f2c2dd9e8cb18335f0d16c32975",
+          "title": "你必須在艾菲爾鐵塔裡拉屎 / You Have to Poop in the Eiffel Tower",
+          "url": "https://www.youtube.com/watch?v=1v2g3GLaJtE",
+          "source": "Waxy.org",
           "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-19T15:39:07Z"
+          "site_id": "trending",
+          "published_at": "2026-06-20T15:36:20Z"
         },
         {
           "id": "5be82fad76f82e901ed5af575884e7ce8592c8df",
@@ -283,23 +264,23 @@
           "published_at": "2026-06-19T17:15:08Z"
         }
       ],
-      "item_count": 14,
-      "duplicate_count": 14,
-      "score": 0.7304,
-      "importance": 0.7304,
-      "importance_score": 0.7304,
+      "item_count": 13,
+      "duplicate_count": 13,
+      "score": 0.706,
+      "importance": 0.706,
+      "importance_score": 0.706,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9347,
+        "recency": 0.8534,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-19T15:23:05Z",
-      "latest_at": "2026-06-20T13:33:36Z",
+      "earliest_at": "2026-06-19T17:15:08Z",
+      "latest_at": "2026-06-20T15:36:20Z",
       "primary_item": {
         "id": "30ab55acd71472c54e97d02a86fca8443cdba480",
         "title": "天安门广场中弹台湾记者：我看到了最后一刻 | 柴静访谈",
@@ -361,13 +342,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3985,
-      "importance": 0.3985,
-      "importance_score": 0.3985,
+      "score": 0.3741,
+      "importance": 0.3741,
+      "importance_score": 0.3741,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.745,
+        "recency": 0.6637,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -437,13 +418,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3911,
-      "importance": 0.3911,
-      "importance_score": 0.3911,
+      "score": 0.3667,
+      "importance": 0.3667,
+      "importance_score": 0.3667,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.3037,
+        "recency": 0.2224,
         "story_heat": 0.25
       },
       "category": "watch",
