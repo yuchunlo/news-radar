@@ -1,16 +1,34 @@
 {
-  "generated_at": "2026-06-20T12:57:15.227769Z",
+  "generated_at": "2026-06-20T15:07:41.678277Z",
   "window_hours": 24,
   "total_items": 3,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "新喀裡多尼亞的鯊魚 - 潟湖的真正主人 / Sharks of New Caledonia - The Real Masters of the Lagoon",
-      "url": "https://www.youtube.com/watch?v=BJaSxkULz2c",
-      "primary_url": "https://www.youtube.com/watch?v=BJaSxkULz2c",
-      "source": "Best Documentary",
+      "title": "天安门广场中弹台湾记者：我看到了最后一刻 | 柴静访谈",
+      "url": "https://www.youtube.com/watch?v=nNcJxOd8T9o",
+      "primary_url": "https://www.youtube.com/watch?v=nNcJxOd8T9o",
+      "source": "柴静 Chai Jing",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "30ab55acd71472c54e97d02a86fca8443cdba480",
+          "title": "天安门广场中弹台湾记者：我看到了最后一刻 | 柴静访谈",
+          "url": "https://www.youtube.com/watch?v=nNcJxOd8T9o",
+          "source": "柴静 Chai Jing",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-20T13:33:36Z"
+        },
+        {
+          "id": "fea257b1171b06fc11aeed6234a558ce966464a0",
+          "title": "蒙古最後的游牧民族：在嚴酷的冬季草原中生存 / Mongolia’s last nomads: Surviving the harsh winter steppe",
+          "url": "https://www.youtube.com/watch?v=WGRkJvtDY0M",
+          "source": "imineo Documentaires",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-20T13:30:35Z"
+        },
         {
           "id": "401668445640177027793e28513176c9d40bf859",
           "title": "新喀裡多尼亞的鯊魚 - 潟湖的真正主人 / Sharks of New Caledonia - The Real Masters of the Lagoon",
@@ -66,31 +84,13 @@
           "published_at": "2026-06-19T15:23:05Z"
         },
         {
-          "id": "b2530e63c2bfe96378ba55aca66a01899ce2250d",
-          "title": "羅馬和畢爾巴鄂：挑戰不可能的體育場 / Rome et Bilbao : Les stades qui ont défié l’impossible",
-          "url": "https://www.youtube.com/watch?v=75b4xOp5EnU",
-          "source": "imineo Documentaires",
+          "id": "44617db09f2f6ea2648bce96443611d0f1a6778e",
+          "title": "這台筆記型電腦取代了我的整個辦公桌設置（一個月） / This laptop replaced my entire desk setup (for a month)",
+          "url": "https://www.youtube.com/watch?v=4H56GHMr9Ug",
+          "source": "Reysu",
           "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-19T14:45:05Z"
-        },
-        {
-          "id": "ddb2a8f2ee596f25384b13723cc055c1eca033f7",
-          "title": "又随便又好吃的面怎么做出来的...",
-          "url": "https://www.youtube.com/watch?v=LCuPpooFuVk",
-          "source": "Cadence Gao",
-          "source_name": "OPML RSS",
-          "site_id": "convivium",
-          "published_at": "2026-06-19T14:12:41Z"
-        },
-        {
-          "id": "6cb3783d9250345b9dd51e5ec455cce07df0e27b",
-          "title": "477 「广州湾」风云：从雷州半岛和湛江历史看近代中法越的跨境变迁",
-          "url": "https://www.youtube.com/watch?v=LxE7pYqHn0Y",
-          "source": "忽左忽右",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-19T13:42:06Z"
+          "site_id": "opmlrss",
+          "published_at": "2026-06-20T13:30:25Z"
         },
         {
           "id": "f8e5b7639dbb51ffa9f7b36c764052a038ae6a44",
@@ -141,21 +141,39 @@
       "source_count": 14,
       "source_names": [
         "Best Documentary",
-        "Cadence Gao",
         "CaseyNeistat",
         "Logically Answered",
         "Manuel Bravo",
         "Match Economy",
         "RealLifeLore",
+        "Reysu",
         "UsefulCharts",
         "Yamajai Notsa 山系の廢青",
         "imineo Documentaires",
-        "忽左忽右",
         "有点艺思哦",
+        "柴静 Chai Jing",
         "美投侃新闻",
         "融融歷險記Ben's Adventure"
       ],
       "items": [
+        {
+          "id": "30ab55acd71472c54e97d02a86fca8443cdba480",
+          "title": "天安门广场中弹台湾记者：我看到了最后一刻 | 柴静访谈",
+          "url": "https://www.youtube.com/watch?v=nNcJxOd8T9o",
+          "source": "柴静 Chai Jing",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-20T13:33:36Z"
+        },
+        {
+          "id": "fea257b1171b06fc11aeed6234a558ce966464a0",
+          "title": "蒙古最後的游牧民族：在嚴酷的冬季草原中生存 / Mongolia’s last nomads: Surviving the harsh winter steppe",
+          "url": "https://www.youtube.com/watch?v=WGRkJvtDY0M",
+          "source": "imineo Documentaires",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-20T13:30:35Z"
+        },
         {
           "id": "401668445640177027793e28513176c9d40bf859",
           "title": "新喀裡多尼亞的鯊魚 - 潟湖的真正主人 / Sharks of New Caledonia - The Real Masters of the Lagoon",
@@ -211,31 +229,13 @@
           "published_at": "2026-06-19T15:23:05Z"
         },
         {
-          "id": "b2530e63c2bfe96378ba55aca66a01899ce2250d",
-          "title": "羅馬和畢爾巴鄂：挑戰不可能的體育場 / Rome et Bilbao : Les stades qui ont défié l’impossible",
-          "url": "https://www.youtube.com/watch?v=75b4xOp5EnU",
-          "source": "imineo Documentaires",
+          "id": "44617db09f2f6ea2648bce96443611d0f1a6778e",
+          "title": "這台筆記型電腦取代了我的整個辦公桌設置（一個月） / This laptop replaced my entire desk setup (for a month)",
+          "url": "https://www.youtube.com/watch?v=4H56GHMr9Ug",
+          "source": "Reysu",
           "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-19T14:45:05Z"
-        },
-        {
-          "id": "ddb2a8f2ee596f25384b13723cc055c1eca033f7",
-          "title": "又随便又好吃的面怎么做出来的...",
-          "url": "https://www.youtube.com/watch?v=LCuPpooFuVk",
-          "source": "Cadence Gao",
-          "source_name": "OPML RSS",
-          "site_id": "convivium",
-          "published_at": "2026-06-19T14:12:41Z"
-        },
-        {
-          "id": "6cb3783d9250345b9dd51e5ec455cce07df0e27b",
-          "title": "477 「广州湾」风云：从雷州半岛和湛江历史看近代中法越的跨境变迁",
-          "url": "https://www.youtube.com/watch?v=LxE7pYqHn0Y",
-          "source": "忽左忽右",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-19T13:42:06Z"
+          "site_id": "opmlrss",
+          "published_at": "2026-06-20T13:30:25Z"
         },
         {
           "id": "f8e5b7639dbb51ffa9f7b36c764052a038ae6a44",
@@ -285,26 +285,26 @@
       ],
       "item_count": 14,
       "duplicate_count": 14,
-      "score": 0.7381,
-      "importance": 0.7381,
-      "importance_score": 0.7381,
+      "score": 0.7304,
+      "importance": 0.7304,
+      "importance_score": 0.7304,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9603,
+        "recency": 0.9347,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-19T13:42:06Z",
-      "latest_at": "2026-06-20T12:00:01Z",
+      "earliest_at": "2026-06-19T15:23:05Z",
+      "latest_at": "2026-06-20T13:33:36Z",
       "primary_item": {
-        "id": "401668445640177027793e28513176c9d40bf859",
-        "title": "新喀裡多尼亞的鯊魚 - 潟湖的真正主人 / Sharks of New Caledonia - The Real Masters of the Lagoon",
-        "url": "https://www.youtube.com/watch?v=BJaSxkULz2c",
-        "source": "Best Documentary",
+        "id": "30ab55acd71472c54e97d02a86fca8443cdba480",
+        "title": "天安门广场中弹台湾记者：我看到了最后一刻 | 柴静访谈",
+        "url": "https://www.youtube.com/watch?v=nNcJxOd8T9o",
+        "source": "柴静 Chai Jing",
         "source_name": "OPML RSS"
       }
     },
@@ -361,13 +361,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4257,
-      "importance": 0.4257,
-      "importance_score": 0.4257,
+      "score": 0.3985,
+      "importance": 0.3985,
+      "importance_score": 0.3985,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.8356,
+        "recency": 0.745,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -437,13 +437,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4183,
-      "importance": 0.4183,
-      "importance_score": 0.4183,
+      "score": 0.3911,
+      "importance": 0.3911,
+      "importance_score": 0.3911,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.3943,
+        "recency": 0.3037,
         "story_heat": 0.25
       },
       "category": "watch",
