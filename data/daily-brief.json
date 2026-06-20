@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-20T08:03:32.424047Z",
+  "generated_at": "2026-06-20T10:59:25.769109Z",
   "window_hours": 24,
-  "total_items": 3,
+  "total_items": 2,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
@@ -145,24 +145,14 @@
           "source_name": "OPML RSS",
           "site_id": "trending",
           "published_at": "2026-06-19T17:15:08Z"
-        },
-        {
-          "id": "153620c1cfbeba89f1e8dc53f9bb24c3ca7ecaa1",
-          "title": "Sana服裝怎麼了/惠利因‘小腹’被罵上熱搜風向大逆轉/金佳覽正式簽經紀公司/女星遭AI換臉賣地瓜/權恩彬退出演藝圈｜DenQ",
-          "url": "https://www.youtube.com/watch?v=y6jLqF-muf0",
-          "source": "DenQ來了",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-06-19T10:00:31Z"
         }
       ],
-      "source_count": 16,
+      "source_count": 15,
       "source_names": [
         "Best Documentary",
         "Cadence Gao",
         "CaseyNeistat",
         "Chu's Vegan",
-        "DenQ來了",
         "Logically Answered",
         "Manuel Bravo",
         "Match Economy",
@@ -310,33 +300,24 @@
           "source_name": "OPML RSS",
           "site_id": "trending",
           "published_at": "2026-06-19T17:15:08Z"
-        },
-        {
-          "id": "153620c1cfbeba89f1e8dc53f9bb24c3ca7ecaa1",
-          "title": "Sana服裝怎麼了/惠利因‘小腹’被罵上熱搜風向大逆轉/金佳覽正式簽經紀公司/女星遭AI換臉賣地瓜/權恩彬退出演藝圈｜DenQ",
-          "url": "https://www.youtube.com/watch?v=y6jLqF-muf0",
-          "source": "DenQ來了",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-06-19T10:00:31Z"
         }
       ],
-      "item_count": 16,
-      "duplicate_count": 16,
-      "score": 0.6431,
-      "importance": 0.6431,
-      "importance_score": 0.6431,
+      "item_count": 15,
+      "duplicate_count": 15,
+      "score": 0.6065,
+      "importance": 0.6065,
+      "importance_score": 0.6065,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6438,
+        "recency": 0.5216,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-19T10:00:31Z",
+      "earliest_at": "2026-06-19T11:30:21Z",
       "latest_at": "2026-06-19T23:30:34Z",
       "primary_item": {
         "id": "1d990690d96e063a8eddfc8005a7ea7ec37440ba",
@@ -399,13 +380,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4795,
-      "importance": 0.4795,
-      "importance_score": 0.4795,
+      "score": 0.4428,
+      "importance": 0.4428,
+      "importance_score": 0.4428,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.5983,
+        "recency": 0.4761,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -419,82 +400,6 @@
         "title": "Nothing 聯合創始人 Akis Evangelidis 表示，由於記憶體價格飆升，該手機製造商今年不會在其以預算為重點的 CMF 手機系列中推出新手機（Ben Schoon/9to5Google） / Nothing co-founder Akis Evangelidis says the phonemaker won't launch a new phone this year in its budget-focused CMF Phone series due to surging memory prices (Ben Schoon/9to5Google)",
         "url": "https://www.techmeme.com/260619/p24",
         "source": "Techmeme",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_6f9a498b8f83",
-      "title": "ChatGPT 可能沒有意識。但如果我們錯了怎麼辦？ / ChatGPT probably isn’t conscious. But what if we’re wrong?",
-      "url": "https://www.vox.com/technology/492421/ai-consciousness-chatgpt-claude",
-      "primary_url": "https://www.vox.com/technology/492421/ai-consciousness-chatgpt-claude",
-      "source": "Vox - Technology",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "ef4dc947673e122495853d96932fda4a59f49fbc",
-          "title": "ChatGPT 可能沒有意識。但如果我們錯了怎麼辦？ / ChatGPT probably isn’t conscious. But what if we’re wrong?",
-          "url": "https://www.vox.com/technology/492421/ai-consciousness-chatgpt-claude",
-          "source": "Vox - Technology",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-06-19T10:30:00Z"
-        },
-        {
-          "id": "6ed506b7630b9e618ff51fc18a595bc5e941b853",
-          "title": "為什麼 ChatGPT 可能會受到影響 / Why ChatGPT might be suffering",
-          "url": "https://www.vox.com/technology/492421/ai-consciousness-chatgpt-claude",
-          "source": "Vox - Technology",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-06-19T10:30:00Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Vox - Technology"
-      ],
-      "items": [
-        {
-          "id": "ef4dc947673e122495853d96932fda4a59f49fbc",
-          "title": "ChatGPT 可能沒有意識。但如果我們錯了怎麼辦？ / ChatGPT probably isn’t conscious. But what if we’re wrong?",
-          "url": "https://www.vox.com/technology/492421/ai-consciousness-chatgpt-claude",
-          "source": "Vox - Technology",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-06-19T10:30:00Z"
-        },
-        {
-          "id": "6ed506b7630b9e618ff51fc18a595bc5e941b853",
-          "title": "為什麼 ChatGPT 可能會受到影響 / Why ChatGPT might be suffering",
-          "url": "https://www.vox.com/technology/492421/ai-consciousness-chatgpt-claude",
-          "source": "Vox - Technology",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-06-19T10:30:00Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.2055,
-      "importance": 0.2055,
-      "importance_score": 0.2055,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.25,
-        "recency": 0.1017,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-19T10:30:00Z",
-      "latest_at": "2026-06-19T10:30:00Z",
-      "primary_item": {
-        "id": "ef4dc947673e122495853d96932fda4a59f49fbc",
-        "title": "ChatGPT 可能沒有意識。但如果我們錯了怎麼辦？ / ChatGPT probably isn’t conscious. But what if we’re wrong?",
-        "url": "https://www.vox.com/technology/492421/ai-consciousness-chatgpt-claude",
-        "source": "Vox - Technology",
         "source_name": "OPML RSS"
       }
     }
