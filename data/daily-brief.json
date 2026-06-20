@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-06-20T10:59:25.769109Z",
+  "generated_at": "2026-06-20T12:57:15.227769Z",
   "window_hours": 24,
-  "total_items": 2,
+  "total_items": 3,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "我们该切换吗？（大师心灵鸡汤第三期）",
-      "url": "https://www.youtube.com/watch?v=ewWSrfdOfSU",
-      "primary_url": "https://www.youtube.com/watch?v=ewWSrfdOfSU",
-      "source": "美投侃新闻",
+      "title": "新喀裡多尼亞的鯊魚 - 潟湖的真正主人 / Sharks of New Caledonia - The Real Masters of the Lagoon",
+      "url": "https://www.youtube.com/watch?v=BJaSxkULz2c",
+      "primary_url": "https://www.youtube.com/watch?v=BJaSxkULz2c",
+      "source": "Best Documentary",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "401668445640177027793e28513176c9d40bf859",
+          "title": "新喀裡多尼亞的鯊魚 - 潟湖的真正主人 / Sharks of New Caledonia - The Real Masters of the Lagoon",
+          "url": "https://www.youtube.com/watch?v=BJaSxkULz2c",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-20T12:00:01Z"
+        },
         {
           "id": "1d990690d96e063a8eddfc8005a7ea7ec37440ba",
           "title": "我们该切换吗？（大师心灵鸡汤第三期）",
@@ -84,22 +93,13 @@
           "published_at": "2026-06-19T13:42:06Z"
         },
         {
-          "id": "946e693e70e4bee0acedc97bfaf023b743089319",
-          "title": "我的奮鬥，獨裁者的內心深處 / Mein Kampf, Inside the Mind of a Dictator",
-          "url": "https://www.youtube.com/watch?v=vi-jaOyz7fw",
-          "source": "Best Documentary",
+          "id": "f8e5b7639dbb51ffa9f7b36c764052a038ae6a44",
+          "title": "【吉爾吉斯1】重返中亞絲路！這個國家至今仍活在蘇聯的記憶裡？吉爾吉斯首都比什凱克深度探索！Kyrgyzstan Bishkek Vlog Eng Sub",
+          "url": "https://www.youtube.com/watch?v=29Gy8yxqM0k",
+          "source": "融融歷險記Ben's Adventure",
           "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-19T12:00:22Z"
-        },
-        {
-          "id": "581429acf7720429b94e9585e7e2552be65d5fa4",
-          "title": "「素食」一餐搞定！辣味噌蘑菇意面＋亚麻籽苹果沙拉＋凤梨糕｜简单又满足的纯素套餐 |【Vegan】Easy Vegan Meal 🌱 Spicy Miso Mushroom Spaghetti",
-          "url": "https://www.youtube.com/watch?v=zGfqDJK8qAE",
-          "source": "Chu's Vegan",
-          "source_name": "OPML RSS",
-          "site_id": "convivium",
-          "published_at": "2026-06-19T11:30:21Z"
+          "site_id": "opmlrss",
+          "published_at": "2026-06-20T11:00:06Z"
         },
         {
           "id": "f12c75b1595b58fc008eed3ce212fabd500c33d4",
@@ -120,15 +120,6 @@
           "published_at": "2026-06-19T15:39:07Z"
         },
         {
-          "id": "b54b1eb1fe2c27c6913b853d0c5c45bcb30502fd",
-          "title": "體育界的最帥男神! 從全民偶像到全民公敵再到國家英雄，用顏值帥到出圈、一腳把英格蘭踢進世界盃的男人｜貝克漢 David Beckham 人物誌",
-          "url": "https://www.youtube.com/watch?v=2B4yqI7Sl-o",
-          "source": "沙發人物誌",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-19T12:00:01Z"
-        },
-        {
           "id": "5be82fad76f82e901ed5af575884e7ce8592c8df",
           "title": "沒有人使用 Bumble... / No One Is Using Bumble...",
           "url": "https://www.youtube.com/watch?v=j8IIRI-zfug",
@@ -147,12 +138,11 @@
           "published_at": "2026-06-19T17:15:08Z"
         }
       ],
-      "source_count": 15,
+      "source_count": 14,
       "source_names": [
         "Best Documentary",
         "Cadence Gao",
         "CaseyNeistat",
-        "Chu's Vegan",
         "Logically Answered",
         "Manuel Bravo",
         "Match Economy",
@@ -162,10 +152,19 @@
         "imineo Documentaires",
         "忽左忽右",
         "有点艺思哦",
-        "沙發人物誌",
-        "美投侃新闻"
+        "美投侃新闻",
+        "融融歷險記Ben's Adventure"
       ],
       "items": [
+        {
+          "id": "401668445640177027793e28513176c9d40bf859",
+          "title": "新喀裡多尼亞的鯊魚 - 潟湖的真正主人 / Sharks of New Caledonia - The Real Masters of the Lagoon",
+          "url": "https://www.youtube.com/watch?v=BJaSxkULz2c",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-20T12:00:01Z"
+        },
         {
           "id": "1d990690d96e063a8eddfc8005a7ea7ec37440ba",
           "title": "我们该切换吗？（大师心灵鸡汤第三期）",
@@ -239,22 +238,13 @@
           "published_at": "2026-06-19T13:42:06Z"
         },
         {
-          "id": "946e693e70e4bee0acedc97bfaf023b743089319",
-          "title": "我的奮鬥，獨裁者的內心深處 / Mein Kampf, Inside the Mind of a Dictator",
-          "url": "https://www.youtube.com/watch?v=vi-jaOyz7fw",
-          "source": "Best Documentary",
+          "id": "f8e5b7639dbb51ffa9f7b36c764052a038ae6a44",
+          "title": "【吉爾吉斯1】重返中亞絲路！這個國家至今仍活在蘇聯的記憶裡？吉爾吉斯首都比什凱克深度探索！Kyrgyzstan Bishkek Vlog Eng Sub",
+          "url": "https://www.youtube.com/watch?v=29Gy8yxqM0k",
+          "source": "融融歷險記Ben's Adventure",
           "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-19T12:00:22Z"
-        },
-        {
-          "id": "581429acf7720429b94e9585e7e2552be65d5fa4",
-          "title": "「素食」一餐搞定！辣味噌蘑菇意面＋亚麻籽苹果沙拉＋凤梨糕｜简单又满足的纯素套餐 |【Vegan】Easy Vegan Meal 🌱 Spicy Miso Mushroom Spaghetti",
-          "url": "https://www.youtube.com/watch?v=zGfqDJK8qAE",
-          "source": "Chu's Vegan",
-          "source_name": "OPML RSS",
-          "site_id": "convivium",
-          "published_at": "2026-06-19T11:30:21Z"
+          "site_id": "opmlrss",
+          "published_at": "2026-06-20T11:00:06Z"
         },
         {
           "id": "f12c75b1595b58fc008eed3ce212fabd500c33d4",
@@ -275,15 +265,6 @@
           "published_at": "2026-06-19T15:39:07Z"
         },
         {
-          "id": "b54b1eb1fe2c27c6913b853d0c5c45bcb30502fd",
-          "title": "體育界的最帥男神! 從全民偶像到全民公敵再到國家英雄，用顏值帥到出圈、一腳把英格蘭踢進世界盃的男人｜貝克漢 David Beckham 人物誌",
-          "url": "https://www.youtube.com/watch?v=2B4yqI7Sl-o",
-          "source": "沙發人物誌",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-19T12:00:01Z"
-        },
-        {
           "id": "5be82fad76f82e901ed5af575884e7ce8592c8df",
           "title": "沒有人使用 Bumble... / No One Is Using Bumble...",
           "url": "https://www.youtube.com/watch?v=j8IIRI-zfug",
@@ -302,28 +283,104 @@
           "published_at": "2026-06-19T17:15:08Z"
         }
       ],
-      "item_count": 15,
-      "duplicate_count": 15,
-      "score": 0.6065,
-      "importance": 0.6065,
-      "importance_score": 0.6065,
+      "item_count": 14,
+      "duplicate_count": 14,
+      "score": 0.7381,
+      "importance": 0.7381,
+      "importance_score": 0.7381,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.5216,
+        "recency": 0.9603,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-19T11:30:21Z",
-      "latest_at": "2026-06-19T23:30:34Z",
+      "earliest_at": "2026-06-19T13:42:06Z",
+      "latest_at": "2026-06-20T12:00:01Z",
       "primary_item": {
-        "id": "1d990690d96e063a8eddfc8005a7ea7ec37440ba",
-        "title": "我们该切换吗？（大师心灵鸡汤第三期）",
-        "url": "https://www.youtube.com/watch?v=ewWSrfdOfSU",
-        "source": "美投侃新闻",
+        "id": "401668445640177027793e28513176c9d40bf859",
+        "title": "新喀裡多尼亞的鯊魚 - 潟湖的真正主人 / Sharks of New Caledonia - The Real Masters of the Lagoon",
+        "url": "https://www.youtube.com/watch?v=BJaSxkULz2c",
+        "source": "Best Documentary",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_db3a2f3f15d8",
+      "title": "〈如願〉與天下觀：無外部的共同體",
+      "url": "https://www.mropengate.com/2026/06/ruyuan-and-tianxia.html",
+      "primary_url": "https://www.mropengate.com/2026/06/ruyuan-and-tianxia.html",
+      "source": "Mr. Opengate",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "888e3718c66c746fda60e49e96d9dc89d282d930",
+          "title": "〈如願〉與天下觀：無外部的共同體",
+          "url": "https://www.mropengate.com/2026/06/ruyuan-and-tianxia.html",
+          "source": "Mr. Opengate",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-06-20T09:00:33.227000Z"
+        },
+        {
+          "id": "777a7cd39fa48d5fda6ebe3def7004f4dd3f871f",
+          "title": "〈如願〉與天下觀：無外部的想像共同體",
+          "url": "https://www.mropengate.com/2026/06/ruyuan-and-tianxia.html",
+          "source": "Mr. Opengate",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-06-20T09:00:33.227000Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Mr. Opengate"
+      ],
+      "items": [
+        {
+          "id": "888e3718c66c746fda60e49e96d9dc89d282d930",
+          "title": "〈如願〉與天下觀：無外部的共同體",
+          "url": "https://www.mropengate.com/2026/06/ruyuan-and-tianxia.html",
+          "source": "Mr. Opengate",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-06-20T09:00:33.227000Z"
+        },
+        {
+          "id": "777a7cd39fa48d5fda6ebe3def7004f4dd3f871f",
+          "title": "〈如願〉與天下觀：無外部的想像共同體",
+          "url": "https://www.mropengate.com/2026/06/ruyuan-and-tianxia.html",
+          "source": "Mr. Opengate",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-06-20T09:00:33.227000Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.4257,
+      "importance": 0.4257,
+      "importance_score": 0.4257,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.25,
+        "recency": 0.8356,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-20T09:00:33.227000Z",
+      "latest_at": "2026-06-20T09:00:33.227000Z",
+      "primary_item": {
+        "id": "888e3718c66c746fda60e49e96d9dc89d282d930",
+        "title": "〈如願〉與天下觀：無外部的共同體",
+        "url": "https://www.mropengate.com/2026/06/ruyuan-and-tianxia.html",
+        "source": "Mr. Opengate",
         "source_name": "OPML RSS"
       }
     },
@@ -380,13 +437,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4428,
-      "importance": 0.4428,
-      "importance_score": 0.4428,
+      "score": 0.4183,
+      "importance": 0.4183,
+      "importance_score": 0.4183,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.4761,
+        "recency": 0.3943,
         "story_heat": 0.25
       },
       "category": "watch",
