@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-21T07:02:22.352564Z",
+  "generated_at": "2026-06-21T10:53:26.076729Z",
   "window_hours": 24,
-  "total_items": 2,
+  "total_items": 1,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
@@ -111,6 +111,15 @@
           "published_at": "2026-06-20T11:00:06Z"
         },
         {
+          "id": "92859d0f0120733415e4ce327244a08dc825b5c6",
+          "title": "▲單人露營裝備｜UNIFLAME魔法小黑鍋開鍋保養教學🔥SOTO ST-310直上對應｜居家戶外兩用#機車露營#法蘭克黃",
+          "url": "https://www.youtube.com/watch?v=53tHfTVRpQ4",
+          "source": "法蘭克黃",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-06-21T10:17:21Z"
+        },
+        {
           "id": "d7d87cb016cf8f2c2dd9e8cb18335f0d16c32975",
           "title": "你必須在艾菲爾鐵塔裡拉屎 / You Have to Poop in the Eiffel Tower",
           "url": "https://www.youtube.com/watch?v=1v2g3GLaJtE",
@@ -120,7 +129,7 @@
           "published_at": "2026-06-20T15:36:20Z"
         }
       ],
-      "source_count": 12,
+      "source_count": 13,
       "source_names": [
         "Best Documentary",
         "Peter Santenello",
@@ -131,6 +140,7 @@
         "imineo Documentaires",
         "山上加美Lovely Hill",
         "柴静 Chai Jing",
+        "法蘭克黃",
         "美投讲美股",
         "融融歷險記Ben's Adventure"
       ],
@@ -235,6 +245,15 @@
           "published_at": "2026-06-20T11:00:06Z"
         },
         {
+          "id": "92859d0f0120733415e4ce327244a08dc825b5c6",
+          "title": "▲單人露營裝備｜UNIFLAME魔法小黑鍋開鍋保養教學🔥SOTO ST-310直上對應｜居家戶外兩用#機車露營#法蘭克黃",
+          "url": "https://www.youtube.com/watch?v=53tHfTVRpQ4",
+          "source": "法蘭克黃",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-06-21T10:17:21Z"
+        },
+        {
           "id": "d7d87cb016cf8f2c2dd9e8cb18335f0d16c32975",
           "title": "你必須在艾菲爾鐵塔裡拉屎 / You Have to Poop in the Eiffel Tower",
           "url": "https://www.youtube.com/watch?v=1v2g3GLaJtE",
@@ -244,15 +263,15 @@
           "published_at": "2026-06-20T15:36:20Z"
         }
       ],
-      "item_count": 12,
-      "duplicate_count": 12,
-      "score": 0.7034,
-      "importance": 0.7034,
-      "importance_score": 0.7034,
+      "item_count": 13,
+      "duplicate_count": 13,
+      "score": 0.6553,
+      "importance": 0.6553,
+      "importance_score": 0.6553,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.8448,
+        "recency": 0.6843,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -260,88 +279,12 @@
         "multi_source"
       ],
       "earliest_at": "2026-06-20T11:00:06Z",
-      "latest_at": "2026-06-21T05:28:51Z",
+      "latest_at": "2026-06-21T10:17:21Z",
       "primary_item": {
         "id": "78a41b6311845239c0e3ee69327415f3acd8b7b0",
         "title": "AI商业发展暗藏4大前瞻趋势！提前埋伏这些机会，押注下一轮AI暴涨？",
         "url": "https://www.youtube.com/watch?v=-ih9NBMHiU8",
         "source": "美投讲美股",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_db3a2f3f15d8",
-      "title": "〈如願〉與天下觀：無外部的共同體",
-      "url": "https://www.mropengate.com/2026/06/ruyuan-and-tianxia.html",
-      "primary_url": "https://www.mropengate.com/2026/06/ruyuan-and-tianxia.html",
-      "source": "Mr. Opengate",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "888e3718c66c746fda60e49e96d9dc89d282d930",
-          "title": "〈如願〉與天下觀：無外部的共同體",
-          "url": "https://www.mropengate.com/2026/06/ruyuan-and-tianxia.html",
-          "source": "Mr. Opengate",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-20T09:00:33.227000Z"
-        },
-        {
-          "id": "777a7cd39fa48d5fda6ebe3def7004f4dd3f871f",
-          "title": "〈如願〉與天下觀：無外部的想像共同體",
-          "url": "https://www.mropengate.com/2026/06/ruyuan-and-tianxia.html",
-          "source": "Mr. Opengate",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-20T09:00:33.227000Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Mr. Opengate"
-      ],
-      "items": [
-        {
-          "id": "888e3718c66c746fda60e49e96d9dc89d282d930",
-          "title": "〈如願〉與天下觀：無外部的共同體",
-          "url": "https://www.mropengate.com/2026/06/ruyuan-and-tianxia.html",
-          "source": "Mr. Opengate",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-20T09:00:33.227000Z"
-        },
-        {
-          "id": "777a7cd39fa48d5fda6ebe3def7004f4dd3f871f",
-          "title": "〈如願〉與天下觀：無外部的想像共同體",
-          "url": "https://www.mropengate.com/2026/06/ruyuan-and-tianxia.html",
-          "source": "Mr. Opengate",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-20T09:00:33.227000Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.1996,
-      "importance": 0.1996,
-      "importance_score": 0.1996,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.25,
-        "recency": 0.0821,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-20T09:00:33.227000Z",
-      "latest_at": "2026-06-20T09:00:33.227000Z",
-      "primary_item": {
-        "id": "888e3718c66c746fda60e49e96d9dc89d282d930",
-        "title": "〈如願〉與天下觀：無外部的共同體",
-        "url": "https://www.mropengate.com/2026/06/ruyuan-and-tianxia.html",
-        "source": "Mr. Opengate",
         "source_name": "OPML RSS"
       }
     }
