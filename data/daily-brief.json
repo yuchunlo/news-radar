@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-20T23:15:57.063236Z",
+  "generated_at": "2026-06-21T01:59:57.142557Z",
   "window_hours": 24,
   "total_items": 2,
   "items": [
@@ -66,15 +66,6 @@
           "published_at": "2026-06-20T12:00:01Z"
         },
         {
-          "id": "1d990690d96e063a8eddfc8005a7ea7ec37440ba",
-          "title": "我们该切换吗？（大师心灵鸡汤第三期）",
-          "url": "https://www.youtube.com/watch?v=ewWSrfdOfSU",
-          "source": "美投侃新闻",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-06-19T23:30:34Z"
-        },
-        {
           "id": "21f357ab3543ec2b76e0504ac9e33299a7d75a1c",
           "title": "孟菲斯內部—媒體不會向您展示的內容 / Inside Memphis - What the Media Won’t Show You",
           "url": "https://www.youtube.com/watch?v=V3pOGvv-zW8",
@@ -111,7 +102,7 @@
           "published_at": "2026-06-20T15:36:20Z"
         }
       ],
-      "source_count": 11,
+      "source_count": 10,
       "source_names": [
         "Best Documentary",
         "Peter Santenello",
@@ -121,7 +112,6 @@
         "Waxy.org",
         "imineo Documentaires",
         "柴静 Chai Jing",
-        "美投侃新闻",
         "融融歷險記Ben's Adventure"
       ],
       "items": [
@@ -180,15 +170,6 @@
           "published_at": "2026-06-20T12:00:01Z"
         },
         {
-          "id": "1d990690d96e063a8eddfc8005a7ea7ec37440ba",
-          "title": "我们该切换吗？（大师心灵鸡汤第三期）",
-          "url": "https://www.youtube.com/watch?v=ewWSrfdOfSU",
-          "source": "美投侃新闻",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-06-19T23:30:34Z"
-        },
-        {
           "id": "21f357ab3543ec2b76e0504ac9e33299a7d75a1c",
           "title": "孟菲斯內部—媒體不會向您展示的內容 / Inside Memphis - What the Media Won’t Show You",
           "url": "https://www.youtube.com/watch?v=V3pOGvv-zW8",
@@ -225,22 +206,22 @@
           "published_at": "2026-06-20T15:36:20Z"
         }
       ],
-      "item_count": 11,
-      "duplicate_count": 11,
-      "score": 0.7321,
-      "importance": 0.7321,
-      "importance_score": 0.7321,
+      "item_count": 10,
+      "duplicate_count": 10,
+      "score": 0.698,
+      "importance": 0.698,
+      "importance_score": 0.698,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9405,
+        "recency": 0.8266,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-19T23:30:34Z",
+      "earliest_at": "2026-06-20T11:00:06Z",
       "latest_at": "2026-06-20T21:50:12Z",
       "primary_item": {
         "id": "d69ecf6058527f371d72bc522a5908119aa7564c",
@@ -303,13 +284,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.2968,
-      "importance": 0.2968,
-      "importance_score": 0.2968,
+      "score": 0.2626,
+      "importance": 0.2626,
+      "importance_score": 0.2626,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.406,
+        "recency": 0.2921,
         "story_heat": 0.25
       },
       "category": "watch",
