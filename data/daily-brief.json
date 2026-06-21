@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-21T19:03:06.288424Z",
+  "generated_at": "2026-06-21T20:53:44.180600Z",
   "window_hours": 24,
   "total_items": 1,
   "items": [
@@ -102,6 +102,15 @@
           "published_at": "2026-06-20T21:00:11Z"
         },
         {
+          "id": "144ec82447d009e28b94b7f8506344f91e94ed08",
+          "title": "为何英雄也祸国殃民？俄罗斯的至暗时刻｜俄国三雄主 2",
+          "url": "https://www.youtube.com/watch?v=Vcks8p1NpKw",
+          "source": "郭里有范",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-06-21T12:22:33Z"
+        },
+        {
           "id": "8daf25fb0d189b78d06e7d579c43e399c1c94854",
           "title": "叶利钦与俄罗斯的至暗时刻｜俄国三雄主 2",
           "url": "https://www.youtube.com/watch?v=Vcks8p1NpKw",
@@ -147,7 +156,7 @@
           "published_at": "2026-06-21T10:17:21Z"
         }
       ],
-      "source_count": 15,
+      "source_count": 16,
       "source_names": [
         "Allan Su",
         "Best Documentary",
@@ -254,6 +263,15 @@
           "published_at": "2026-06-20T21:00:11Z"
         },
         {
+          "id": "144ec82447d009e28b94b7f8506344f91e94ed08",
+          "title": "为何英雄也祸国殃民？俄罗斯的至暗时刻｜俄国三雄主 2",
+          "url": "https://www.youtube.com/watch?v=Vcks8p1NpKw",
+          "source": "郭里有范",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-06-21T12:22:33Z"
+        },
+        {
           "id": "8daf25fb0d189b78d06e7d579c43e399c1c94854",
           "title": "叶利钦与俄罗斯的至暗时刻｜俄国三雄主 2",
           "url": "https://www.youtube.com/watch?v=Vcks8p1NpKw",
@@ -299,15 +317,15 @@
           "published_at": "2026-06-21T10:17:21Z"
         }
       ],
-      "item_count": 15,
-      "duplicate_count": 15,
-      "score": 0.7119,
-      "importance": 0.7119,
-      "importance_score": 0.7119,
+      "item_count": 16,
+      "duplicate_count": 16,
+      "score": 0.6888,
+      "importance": 0.6888,
+      "importance_score": 0.6888,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.8729,
+        "recency": 0.796,
         "story_heat": 1.0
       },
       "category": "multi_source",
