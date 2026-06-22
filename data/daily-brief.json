@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-06-22T05:05:03.218585Z",
+  "generated_at": "2026-06-22T11:15:54.438399Z",
   "window_hours": 24,
   "total_items": 1,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "'26.6.22《巴倫周刊》：聯準會新政策｜木頭姊重倉SpaceX｜百年IPO歷史｜Apple與Snap之AR擴增實境硬體技術瓶頸｜通用汽車GM大規模股票回購｜廢棄物處理｜連續50年配息王者存股名單",
-      "url": "https://www.youtube.com/watch?v=uGIqiIPE-wg",
-      "primary_url": "https://www.youtube.com/watch?v=uGIqiIPE-wg",
-      "source": "雜書觀察室",
+      "title": "当方大同唱起这两首歌，连空气都变甜了！",
+      "url": "https://www.youtube.com/watch?v=Y3P_bsb62JU",
+      "primary_url": "https://www.youtube.com/watch?v=Y3P_bsb62JU",
+      "source": "GOATFANS",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "d35c983d706062ff73821d31b1c2a86459e2e38e",
+          "title": "当方大同唱起这两首歌，连空气都变甜了！",
+          "url": "https://www.youtube.com/watch?v=Y3P_bsb62JU",
+          "source": "GOATFANS",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-22T09:00:25Z"
+        },
         {
           "id": "da4b18bf380a2d8ee2bffa98c38757485e3d2480",
           "title": "'26.6.22《巴倫周刊》：聯準會新政策｜木頭姊重倉SpaceX｜百年IPO歷史｜Apple與Snap之AR擴增實境硬體技術瓶頸｜通用汽車GM大規模股票回購｜廢棄物處理｜連續50年配息王者存股名單",
@@ -145,52 +154,32 @@
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
           "published_at": "2026-06-21T12:22:33Z"
-        },
-        {
-          "id": "b4976150f89c97715a653d7b78e69534358771b6",
-          "title": "台中大坑4號步道健行4km，挑戰硬派相思木棧道觀大台中市景，全新33公尺繩索橋最新打卡熱點｜山上加美 Lovely Hill",
-          "url": "https://www.youtube.com/watch?v=29PZBvgTghg",
-          "source": "山上加美Lovely Hill",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-21T05:28:51Z"
-        },
-        {
-          "id": "d34f73b12131781240f6291c13034b92635ab850",
-          "title": "“我的職業是兒子..”韓國‘全職兒女’越來越多的理由｜DenQ",
-          "url": "https://www.youtube.com/watch?v=MvwndwpdjIE",
-          "source": "DenQ來了",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-06-21T11:01:09Z"
-        },
-        {
-          "id": "92859d0f0120733415e4ce327244a08dc825b5c6",
-          "title": "▲單人露營裝備｜UNIFLAME魔法小黑鍋開鍋保養教學🔥SOTO ST-310直上對應｜居家戶外兩用#機車露營#法蘭克黃",
-          "url": "https://www.youtube.com/watch?v=53tHfTVRpQ4",
-          "source": "法蘭克黃",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-06-21T10:17:21Z"
         }
       ],
-      "source_count": 18,
+      "source_count": 16,
       "source_names": [
         "Allan Su",
         "Best Documentary",
-        "DenQ來了",
+        "GOATFANS",
         "Inspiraggio",
         "Perspective",
         "imineo Documentaires",
         "【塞掐】訪談大人物",
-        "山上加美Lovely Hill",
-        "法蘭克黃",
         "矽谷輕鬆談 Just Kidding Tech",
         "郭里有范",
         "雜書觀察室"
       ],
       "items": [
         {
+          "id": "d35c983d706062ff73821d31b1c2a86459e2e38e",
+          "title": "当方大同唱起这两首歌，连空气都变甜了！",
+          "url": "https://www.youtube.com/watch?v=Y3P_bsb62JU",
+          "source": "GOATFANS",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-22T09:00:25Z"
+        },
+        {
           "id": "da4b18bf380a2d8ee2bffa98c38757485e3d2480",
           "title": "'26.6.22《巴倫周刊》：聯準會新政策｜木頭姊重倉SpaceX｜百年IPO歷史｜Apple與Snap之AR擴增實境硬體技術瓶頸｜通用汽車GM大規模股票回購｜廢棄物處理｜連續50年配息王者存股名單",
           "url": "https://www.youtube.com/watch?v=uGIqiIPE-wg",
@@ -324,57 +313,30 @@
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
           "published_at": "2026-06-21T12:22:33Z"
-        },
-        {
-          "id": "b4976150f89c97715a653d7b78e69534358771b6",
-          "title": "台中大坑4號步道健行4km，挑戰硬派相思木棧道觀大台中市景，全新33公尺繩索橋最新打卡熱點｜山上加美 Lovely Hill",
-          "url": "https://www.youtube.com/watch?v=29PZBvgTghg",
-          "source": "山上加美Lovely Hill",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-21T05:28:51Z"
-        },
-        {
-          "id": "d34f73b12131781240f6291c13034b92635ab850",
-          "title": "“我的職業是兒子..”韓國‘全職兒女’越來越多的理由｜DenQ",
-          "url": "https://www.youtube.com/watch?v=MvwndwpdjIE",
-          "source": "DenQ來了",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-06-21T11:01:09Z"
-        },
-        {
-          "id": "92859d0f0120733415e4ce327244a08dc825b5c6",
-          "title": "▲單人露營裝備｜UNIFLAME魔法小黑鍋開鍋保養教學🔥SOTO ST-310直上對應｜居家戶外兩用#機車露營#法蘭克黃",
-          "url": "https://www.youtube.com/watch?v=53tHfTVRpQ4",
-          "source": "法蘭克黃",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-06-21T10:17:21Z"
         }
       ],
-      "item_count": 18,
-      "duplicate_count": 18,
-      "score": 0.6615,
-      "importance": 0.6615,
-      "importance_score": 0.6615,
+      "item_count": 16,
+      "duplicate_count": 16,
+      "score": 0.7218,
+      "importance": 0.7218,
+      "importance_score": 0.7218,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.705,
+        "recency": 0.9059,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-21T05:28:51Z",
-      "latest_at": "2026-06-22T04:45:06Z",
+      "earliest_at": "2026-06-21T12:00:06Z",
+      "latest_at": "2026-06-22T09:00:25Z",
       "primary_item": {
-        "id": "da4b18bf380a2d8ee2bffa98c38757485e3d2480",
-        "title": "'26.6.22《巴倫周刊》：聯準會新政策｜木頭姊重倉SpaceX｜百年IPO歷史｜Apple與Snap之AR擴增實境硬體技術瓶頸｜通用汽車GM大規模股票回購｜廢棄物處理｜連續50年配息王者存股名單",
-        "url": "https://www.youtube.com/watch?v=uGIqiIPE-wg",
-        "source": "雜書觀察室",
+        "id": "d35c983d706062ff73821d31b1c2a86459e2e38e",
+        "title": "当方大同唱起这两首歌，连空气都变甜了！",
+        "url": "https://www.youtube.com/watch?v=Y3P_bsb62JU",
+        "source": "GOATFANS",
         "source_name": "OPML RSS"
       }
     }
