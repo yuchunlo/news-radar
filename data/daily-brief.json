@@ -1,17 +1,35 @@
 {
-  "generated_at": "2026-06-22T19:54:30.821064Z",
+  "generated_at": "2026-06-22T22:08:58.282741Z",
   "window_hours": 24,
-  "total_items": 3,
+  "total_items": 5,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "Megastadium：世界上最具未來感的體育場 / Megastadium : Les stades les plus futuristes du Monde",
-      "url": "https://www.youtube.com/watch?v=x7lNcjxgosY",
-      "primary_url": "https://www.youtube.com/watch?v=x7lNcjxgosY",
-      "source": "imineo Documentaires",
+      "title": "再跌就亏了！SPCX暴跌16%到底为什么？美股七巨头完犊子走势？",
+      "url": "https://www.youtube.com/watch?v=NKvULytQ2T0",
+      "primary_url": "https://www.youtube.com/watch?v=NKvULytQ2T0",
+      "source": "Shepherd Capital Markets",
       "source_name": "OPML RSS",
       "sources": [
         {
+          "id": "471a43de3ca1c76305cd4c078c60801261a831ac",
+          "title": "再跌就亏了！SPCX暴跌16%到底为什么？美股七巨头完犊子走势？",
+          "url": "https://www.youtube.com/watch?v=NKvULytQ2T0",
+          "source": "Shepherd Capital Markets",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-06-22T21:28:08Z"
+        },
+        {
+          "id": "3e4a63212f6b53f23c6b9bfb3557d2a5f01dcdf4",
+          "title": "成為碧昂絲：她如何建立十億美元的音樂帝國 / Becoming Beyoncé: How She Built a Billion-Dollar Music Empire",
+          "url": "https://www.youtube.com/watch?v=TLwA_lZK7dQ",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-22T21:00:28Z"
+        },
+        {
           "id": "04c44074a5cdedebc76b6bbc391275d688184c8f",
           "title": "Megastadium：世界上最具未來感的體育場 / Megastadium : Les stades les plus futuristes du Monde",
           "url": "https://www.youtube.com/watch?v=x7lNcjxgosY",
@@ -66,33 +84,6 @@
           "published_at": "2026-06-22T09:00:25Z"
         },
         {
-          "id": "da4b18bf380a2d8ee2bffa98c38757485e3d2480",
-          "title": "'26.6.22《巴倫周刊》：聯準會新政策｜木頭姊重倉SpaceX｜百年IPO歷史｜Apple與Snap之AR擴增實境硬體技術瓶頸｜通用汽車GM大規模股票回購｜廢棄物處理｜連續50年配息王者存股名單",
-          "url": "https://www.youtube.com/watch?v=uGIqiIPE-wg",
-          "source": "雜書觀察室",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-06-21T22:00:13Z"
-        },
-        {
-          "id": "1cde02a83b1553e138ed9d3f39a3b6249c900341",
-          "title": "親愛的喬迪：受害者、兇手，還是難以捉摸的被告？ / Dear Jodi: Victim, Murderer, or Elusive Accused?",
-          "url": "https://www.youtube.com/watch?v=rL-CVkKszyc",
-          "source": "Best Documentary",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-21T21:45:31Z"
-        },
-        {
-          "id": "489576ee2323f46d1aafa91fdf206e0454ef11fa",
-          "title": "最令人不安的撒旦畫作 / The Most Disturbing Painting of Satan",
-          "url": "https://www.youtube.com/watch?v=DRuOCpCriDA",
-          "source": "Inspiraggio",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-21T21:09:16Z"
-        },
-        {
           "id": "a7688e7cc5dbdfe301538af436c2544632558dc7",
           "title": "台裔創辦人做醫療新創，用 AI 重整美國診所的後台！｜Nitra 總裁暨共同創辦人 Jonathan Chen【塞掐 Side Chat】E411",
           "url": "https://www.youtube.com/watch?v=B2VcFh0nuSE",
@@ -111,19 +102,36 @@
           "published_at": "2026-06-22T19:00:13Z"
         }
       ],
-      "source_count": 11,
+      "source_count": 10,
       "source_names": [
         "Best Documentary",
         "GOATFANS",
-        "Inspiraggio",
         "Knowledgia",
         "Logically Answered",
+        "Shepherd Capital Markets",
         "Veritasium",
         "imineo Documentaires",
-        "【塞掐】訪談大人物",
-        "雜書觀察室"
+        "【塞掐】訪談大人物"
       ],
       "items": [
+        {
+          "id": "471a43de3ca1c76305cd4c078c60801261a831ac",
+          "title": "再跌就亏了！SPCX暴跌16%到底为什么？美股七巨头完犊子走势？",
+          "url": "https://www.youtube.com/watch?v=NKvULytQ2T0",
+          "source": "Shepherd Capital Markets",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-06-22T21:28:08Z"
+        },
+        {
+          "id": "3e4a63212f6b53f23c6b9bfb3557d2a5f01dcdf4",
+          "title": "成為碧昂絲：她如何建立十億美元的音樂帝國 / Becoming Beyoncé: How She Built a Billion-Dollar Music Empire",
+          "url": "https://www.youtube.com/watch?v=TLwA_lZK7dQ",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-22T21:00:28Z"
+        },
         {
           "id": "04c44074a5cdedebc76b6bbc391275d688184c8f",
           "title": "Megastadium：世界上最具未來感的體育場 / Megastadium : Les stades les plus futuristes du Monde",
@@ -179,33 +187,6 @@
           "published_at": "2026-06-22T09:00:25Z"
         },
         {
-          "id": "da4b18bf380a2d8ee2bffa98c38757485e3d2480",
-          "title": "'26.6.22《巴倫周刊》：聯準會新政策｜木頭姊重倉SpaceX｜百年IPO歷史｜Apple與Snap之AR擴增實境硬體技術瓶頸｜通用汽車GM大規模股票回購｜廢棄物處理｜連續50年配息王者存股名單",
-          "url": "https://www.youtube.com/watch?v=uGIqiIPE-wg",
-          "source": "雜書觀察室",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-06-21T22:00:13Z"
-        },
-        {
-          "id": "1cde02a83b1553e138ed9d3f39a3b6249c900341",
-          "title": "親愛的喬迪：受害者、兇手，還是難以捉摸的被告？ / Dear Jodi: Victim, Murderer, or Elusive Accused?",
-          "url": "https://www.youtube.com/watch?v=rL-CVkKszyc",
-          "source": "Best Documentary",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-21T21:45:31Z"
-        },
-        {
-          "id": "489576ee2323f46d1aafa91fdf206e0454ef11fa",
-          "title": "最令人不安的撒旦畫作 / The Most Disturbing Painting of Satan",
-          "url": "https://www.youtube.com/watch?v=DRuOCpCriDA",
-          "source": "Inspiraggio",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-21T21:09:16Z"
-        },
-        {
           "id": "a7688e7cc5dbdfe301538af436c2544632558dc7",
           "title": "台裔創辦人做醫療新創，用 AI 重整美國診所的後台！｜Nitra 總裁暨共同創辦人 Jonathan Chen【塞掐 Side Chat】E411",
           "url": "https://www.youtube.com/watch?v=B2VcFh0nuSE",
@@ -224,28 +205,104 @@
           "published_at": "2026-06-22T19:00:13Z"
         }
       ],
-      "item_count": 11,
-      "duplicate_count": 11,
-      "score": 0.6887,
-      "importance": 0.6887,
-      "importance_score": 0.6887,
+      "item_count": 10,
+      "duplicate_count": 10,
+      "score": 0.7415,
+      "importance": 0.7415,
+      "importance_score": 0.7415,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7957,
+        "recency": 0.9716,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-21T21:09:16Z",
-      "latest_at": "2026-06-22T19:00:13Z",
+      "earliest_at": "2026-06-22T04:45:06Z",
+      "latest_at": "2026-06-22T21:28:08Z",
       "primary_item": {
-        "id": "04c44074a5cdedebc76b6bbc391275d688184c8f",
-        "title": "Megastadium：世界上最具未來感的體育場 / Megastadium : Les stades les plus futuristes du Monde",
-        "url": "https://www.youtube.com/watch?v=x7lNcjxgosY",
-        "source": "imineo Documentaires",
+        "id": "471a43de3ca1c76305cd4c078c60801261a831ac",
+        "title": "再跌就亏了！SPCX暴跌16%到底为什么？美股七巨头完犊子走势？",
+        "url": "https://www.youtube.com/watch?v=NKvULytQ2T0",
+        "source": "Shepherd Capital Markets",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_cec3250340cd",
+      "title": "Google DeepMind 副總裁 John Jumper 離職後，Alphabet 股價週一收盤下跌 5%，這是該公司一周內第二位離職的人工智慧高管 (彭博社) / Alphabet shares close down 5% on Monday following the departure of Google DeepMind VP John Jumper, the company's second top AI executive to leave in a week (Bloomberg)",
+      "url": "https://www.techmeme.com/260622/p31",
+      "primary_url": "https://www.techmeme.com/260622/p31",
+      "source": "Techmeme",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "f9b5ed39a70583d9009951704b6f24bfed7f61df",
+          "title": "Google DeepMind 副總裁 John Jumper 離職後，Alphabet 股價週一收盤下跌 5%，這是該公司一周內第二位離職的人工智慧高管 (彭博社) / Alphabet shares close down 5% on Monday following the departure of Google DeepMind VP John Jumper, the company's second top AI executive to leave in a week (Bloomberg)",
+          "url": "https://www.techmeme.com/260622/p31",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-06-22T16:30:01Z"
+        },
+        {
+          "id": "27cf8d06a26505a7b8f0767f1efe31aabc650dc5",
+          "title": "谷歌 DeepMind 副總裁 John Jumper 成為一週內第二位離職的人工智慧高階主管後，Alphabet 股價跌幅高達 7.2%，為 2 月以來最大單日跌幅（彭博） / Alphabet stock fell as much as 7.2%, the most intraday since February, after Google DeepMind VP John Jumper became its second top AI exec to leave in a week (Bloomberg)",
+          "url": "https://www.techmeme.com/260622/p31",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-06-22T16:30:01Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Techmeme"
+      ],
+      "items": [
+        {
+          "id": "f9b5ed39a70583d9009951704b6f24bfed7f61df",
+          "title": "Google DeepMind 副總裁 John Jumper 離職後，Alphabet 股價週一收盤下跌 5%，這是該公司一周內第二位離職的人工智慧高管 (彭博社) / Alphabet shares close down 5% on Monday following the departure of Google DeepMind VP John Jumper, the company's second top AI executive to leave in a week (Bloomberg)",
+          "url": "https://www.techmeme.com/260622/p31",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-06-22T16:30:01Z"
+        },
+        {
+          "id": "27cf8d06a26505a7b8f0767f1efe31aabc650dc5",
+          "title": "谷歌 DeepMind 副總裁 John Jumper 成為一週內第二位離職的人工智慧高階主管後，Alphabet 股價跌幅高達 7.2%，為 2 月以來最大單日跌幅（彭博） / Alphabet stock fell as much as 7.2%, the most intraday since February, after Google DeepMind VP John Jumper became its second top AI exec to leave in a week (Bloomberg)",
+          "url": "https://www.techmeme.com/260622/p31",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-06-22T16:30:01Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5294,
+      "importance": 0.5294,
+      "importance_score": 0.5294,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.5,
+        "recency": 0.7646,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-22T16:30:01Z",
+      "latest_at": "2026-06-22T16:30:01Z",
+      "primary_item": {
+        "id": "f9b5ed39a70583d9009951704b6f24bfed7f61df",
+        "title": "Google DeepMind 副總裁 John Jumper 離職後，Alphabet 股價週一收盤下跌 5%，這是該公司一周內第二位離職的人工智慧高管 (彭博社) / Alphabet shares close down 5% on Monday following the departure of Google DeepMind VP John Jumper, the company's second top AI executive to leave in a week (Bloomberg)",
+        "url": "https://www.techmeme.com/260622/p31",
+        "source": "Techmeme",
         "source_name": "OPML RSS"
       }
     },
@@ -302,13 +359,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5463,
-      "importance": 0.5463,
-      "importance_score": 0.5463,
+      "score": 0.5183,
+      "importance": 0.5183,
+      "importance_score": 0.5183,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.821,
+        "recency": 0.7276,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -322,6 +379,82 @@
         "title": "如果你在月球上開得太快... / If You Drive Too Fast On the Moon...",
         "url": "https://www.youtube.com/shorts/E_JRs8IL1eI",
         "source": "Cleo Abram",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_0dc626785ea2",
+      "title": "SpaceX 宣布發行優先無擔保票據，並透露其擁有約 $100.8B 現金； SPCX 下跌 8% 以上（Samantha Subin/CNBC） / SpaceX announces a senior unsecured notes offering and discloses that it has about $100.8B in cash; SPCX drops 8%+ (Samantha Subin/CNBC)",
+      "url": "https://www.techmeme.com/260622/p29",
+      "primary_url": "https://www.techmeme.com/260622/p29",
+      "source": "Techmeme",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "afc5957ce3572a4faf97422848d004b64a4c7fd5",
+          "title": "SpaceX 宣布發行優先無擔保票據，並透露其擁有約 $100.8B 現金； SPCX 下跌 8% 以上（Samantha Subin/CNBC） / SpaceX announces a senior unsecured notes offering and discloses that it has about $100.8B in cash; SPCX drops 8%+ (Samantha Subin/CNBC)",
+          "url": "https://www.techmeme.com/260622/p29",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-06-22T15:30:01Z"
+        },
+        {
+          "id": "ad9b06e9d4cea588e342a09ed3c056384d0acf02",
+          "title": "SpaceX 宣布發行優先無擔保票據，並透露其擁有約 $100.8B 現金； SPCX 收盤下跌 16.43%，連續第三個交易日下跌 (Samantha Subin/CNBC) / SpaceX announces an offering of senior unsecured notes and discloses it has ~$100.8B in cash; SPCX closes down 16.43% in its third consecutive losing session (Samantha Subin/CNBC)",
+          "url": "https://www.techmeme.com/260622/p29",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-06-22T15:30:01Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Techmeme"
+      ],
+      "items": [
+        {
+          "id": "afc5957ce3572a4faf97422848d004b64a4c7fd5",
+          "title": "SpaceX 宣布發行優先無擔保票據，並透露其擁有約 $100.8B 現金； SPCX 下跌 8% 以上（Samantha Subin/CNBC） / SpaceX announces a senior unsecured notes offering and discloses that it has about $100.8B in cash; SPCX drops 8%+ (Samantha Subin/CNBC)",
+          "url": "https://www.techmeme.com/260622/p29",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-06-22T15:30:01Z"
+        },
+        {
+          "id": "ad9b06e9d4cea588e342a09ed3c056384d0acf02",
+          "title": "SpaceX 宣布發行優先無擔保票據，並透露其擁有約 $100.8B 現金； SPCX 收盤下跌 16.43%，連續第三個交易日下跌 (Samantha Subin/CNBC) / SpaceX announces an offering of senior unsecured notes and discloses it has ~$100.8B in cash; SPCX closes down 16.43% in its third consecutive losing session (Samantha Subin/CNBC)",
+          "url": "https://www.techmeme.com/260622/p29",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-06-22T15:30:01Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5169,
+      "importance": 0.5169,
+      "importance_score": 0.5169,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.5,
+        "recency": 0.7229,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-22T15:30:01Z",
+      "latest_at": "2026-06-22T15:30:01Z",
+      "primary_item": {
+        "id": "afc5957ce3572a4faf97422848d004b64a4c7fd5",
+        "title": "SpaceX 宣布發行優先無擔保票據，並透露其擁有約 $100.8B 現金； SPCX 下跌 8% 以上（Samantha Subin/CNBC） / SpaceX announces a senior unsecured notes offering and discloses that it has about $100.8B in cash; SPCX drops 8%+ (Samantha Subin/CNBC)",
+        "url": "https://www.techmeme.com/260622/p29",
+        "source": "Techmeme",
         "source_name": "OPML RSS"
       }
     },
@@ -378,13 +511,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.465,
-      "importance": 0.465,
-      "importance_score": 0.465,
+      "score": 0.437,
+      "importance": 0.437,
+      "importance_score": 0.437,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.5499,
+        "recency": 0.4566,
         "story_heat": 0.25
       },
       "category": "watch",
