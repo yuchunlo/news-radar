@@ -1,16 +1,34 @@
 {
-  "generated_at": "2026-06-23T21:16:58.487616Z",
+  "generated_at": "2026-06-23T22:48:32.504815Z",
   "window_hours": 24,
   "total_items": 3,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "這個南非訓練營到底發生了什麼事？ / What Really Happens Inside This South African Training Camp?",
-      "url": "https://www.youtube.com/watch?v=creBX4Eubr0",
-      "primary_url": "https://www.youtube.com/watch?v=creBX4Eubr0",
-      "source": "Best Documentary",
+      "title": "《由他去吧》The Let Them Theory：停止情緒內耗與控制狂陷阱｜破解大腦杏仁核劫持與重塑人際界線｜行為心理學ABC迴圈改變伴侶｜打破潛力陷阱與嫉妒心態｜讓我來主動防禦與自我成長",
+      "url": "https://www.youtube.com/watch?v=665frTlQUUI",
+      "primary_url": "https://www.youtube.com/watch?v=665frTlQUUI",
+      "source": "雜書觀察室",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "80005d75e5e1d518557814d2c5f774cc4b64a024",
+          "title": "《由他去吧》The Let Them Theory：停止情緒內耗與控制狂陷阱｜破解大腦杏仁核劫持與重塑人際界線｜行為心理學ABC迴圈改變伴侶｜打破潛力陷阱與嫉妒心態｜讓我來主動防禦與自我成長",
+          "url": "https://www.youtube.com/watch?v=665frTlQUUI",
+          "source": "雜書觀察室",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-06-23T22:00:11Z"
+        },
+        {
+          "id": "68982466b58cc66e274eb1913d2d876c9b17aefd",
+          "title": "自动驾驶撞进客厅！离奇FSD事故推动TSLA股价下跌近6%合理吗？",
+          "url": "https://www.youtube.com/watch?v=zkoEU782LW8",
+          "source": "Shepherd Capital Markets",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-06-23T21:51:07Z"
+        },
         {
           "id": "9eceff1d68343412a1634b21b769612fc3668afe",
           "title": "這個南非訓練營到底發生了什麼事？ / What Really Happens Inside This South African Training Camp?",
@@ -75,15 +93,6 @@
           "published_at": "2026-06-23T00:13:21Z"
         },
         {
-          "id": "471a43de3ca1c76305cd4c078c60801261a831ac",
-          "title": "再跌就亏了！SPCX暴跌16%到底为什么？美股七巨头完犊子走势？",
-          "url": "https://www.youtube.com/watch?v=NKvULytQ2T0",
-          "source": "Shepherd Capital Markets",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-06-22T21:28:08Z"
-        },
-        {
           "id": "fc34caae76bb4cf973edabaf5fa9ba67f3c5decc",
           "title": "川普在與伊朗的戰爭中投降？ / Trump’s Capitulation in the War with Iran?",
           "url": "https://www.youtube.com/watch?v=jmE3Bh1_IUc",
@@ -102,7 +111,7 @@
           "published_at": "2026-06-23T11:30:20Z"
         }
       ],
-      "source_count": 10,
+      "source_count": 11,
       "source_names": [
         "Best Documentary",
         "DenQ來了",
@@ -112,9 +121,28 @@
         "Timeline - World History Documentaries",
         "忽左忽右",
         "美投侃新闻",
-        "阿峇卡巴 東南亞電台"
+        "阿峇卡巴 東南亞電台",
+        "雜書觀察室"
       ],
       "items": [
+        {
+          "id": "80005d75e5e1d518557814d2c5f774cc4b64a024",
+          "title": "《由他去吧》The Let Them Theory：停止情緒內耗與控制狂陷阱｜破解大腦杏仁核劫持與重塑人際界線｜行為心理學ABC迴圈改變伴侶｜打破潛力陷阱與嫉妒心態｜讓我來主動防禦與自我成長",
+          "url": "https://www.youtube.com/watch?v=665frTlQUUI",
+          "source": "雜書觀察室",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-06-23T22:00:11Z"
+        },
+        {
+          "id": "68982466b58cc66e274eb1913d2d876c9b17aefd",
+          "title": "自动驾驶撞进客厅！离奇FSD事故推动TSLA股价下跌近6%合理吗？",
+          "url": "https://www.youtube.com/watch?v=zkoEU782LW8",
+          "source": "Shepherd Capital Markets",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-06-23T21:51:07Z"
+        },
         {
           "id": "9eceff1d68343412a1634b21b769612fc3668afe",
           "title": "這個南非訓練營到底發生了什麼事？ / What Really Happens Inside This South African Training Camp?",
@@ -179,15 +207,6 @@
           "published_at": "2026-06-23T00:13:21Z"
         },
         {
-          "id": "471a43de3ca1c76305cd4c078c60801261a831ac",
-          "title": "再跌就亏了！SPCX暴跌16%到底为什么？美股七巨头完犊子走势？",
-          "url": "https://www.youtube.com/watch?v=NKvULytQ2T0",
-          "source": "Shepherd Capital Markets",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-06-22T21:28:08Z"
-        },
-        {
           "id": "fc34caae76bb4cf973edabaf5fa9ba67f3c5decc",
           "title": "川普在與伊朗的戰爭中投降？ / Trump’s Capitulation in the War with Iran?",
           "url": "https://www.youtube.com/watch?v=jmE3Bh1_IUc",
@@ -206,28 +225,28 @@
           "published_at": "2026-06-23T11:30:20Z"
         }
       ],
-      "item_count": 10,
-      "duplicate_count": 10,
-      "score": 0.7466,
-      "importance": 0.7466,
-      "importance_score": 0.7466,
+      "item_count": 11,
+      "duplicate_count": 11,
+      "score": 0.7399,
+      "importance": 0.7399,
+      "importance_score": 0.7399,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9885,
+        "recency": 0.9664,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-22T21:28:08Z",
-      "latest_at": "2026-06-23T21:00:27Z",
+      "earliest_at": "2026-06-23T00:13:21Z",
+      "latest_at": "2026-06-23T22:00:11Z",
       "primary_item": {
-        "id": "9eceff1d68343412a1634b21b769612fc3668afe",
-        "title": "這個南非訓練營到底發生了什麼事？ / What Really Happens Inside This South African Training Camp?",
-        "url": "https://www.youtube.com/watch?v=creBX4Eubr0",
-        "source": "Best Documentary",
+        "id": "80005d75e5e1d518557814d2c5f774cc4b64a024",
+        "title": "《由他去吧》The Let Them Theory：停止情緒內耗與控制狂陷阱｜破解大腦杏仁核劫持與重塑人際界線｜行為心理學ABC迴圈改變伴侶｜打破潛力陷阱與嫉妒心態｜讓我來主動防禦與自我成長",
+        "url": "https://www.youtube.com/watch?v=665frTlQUUI",
+        "source": "雜書觀察室",
         "source_name": "OPML RSS"
       }
     },
@@ -284,13 +303,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4579,
-      "importance": 0.4579,
-      "importance_score": 0.4579,
+      "score": 0.4388,
+      "importance": 0.4388,
+      "importance_score": 0.4388,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.5264,
+        "recency": 0.4628,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -360,13 +379,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3116,
-      "importance": 0.3116,
-      "importance_score": 0.3116,
+      "score": 0.2925,
+      "importance": 0.2925,
+      "importance_score": 0.2925,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.4554,
+        "recency": 0.3918,
         "story_heat": 0.25
       },
       "category": "watch",
