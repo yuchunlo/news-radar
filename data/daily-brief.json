@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-23T17:27:15.109300Z",
+  "generated_at": "2026-06-23T19:28:55.218752Z",
   "window_hours": 24,
-  "total_items": 3,
+  "total_items": 4,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
@@ -91,23 +91,13 @@
           "source_name": "OPML RSS",
           "site_id": "trending",
           "published_at": "2026-06-23T11:30:20Z"
-        },
-        {
-          "id": "c2c8537a7d27caf1e103b0647717e0c1932c2168",
-          "title": "克拉納（終於）得到了他們應得的... / Klarna Is (Finally) Getting What They Deserve...",
-          "url": "https://www.youtube.com/watch?v=ghg8GfYJUno",
-          "source": "Logically Answered",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-06-22T19:00:13Z"
         }
       ],
-      "source_count": 10,
+      "source_count": 9,
       "source_names": [
         "Best Documentary",
         "DenQ來了",
         "Good Times Bad Times",
-        "Logically Answered",
         "NPR Music",
         "Shepherd Capital Markets",
         "忽左忽右",
@@ -195,33 +185,24 @@
           "source_name": "OPML RSS",
           "site_id": "trending",
           "published_at": "2026-06-23T11:30:20Z"
-        },
-        {
-          "id": "c2c8537a7d27caf1e103b0647717e0c1932c2168",
-          "title": "克拉納（終於）得到了他們應得的... / Klarna Is (Finally) Getting What They Deserve...",
-          "url": "https://www.youtube.com/watch?v=ghg8GfYJUno",
-          "source": "Logically Answered",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-06-22T19:00:13Z"
         }
       ],
-      "item_count": 10,
-      "duplicate_count": 10,
-      "score": 0.6819,
-      "importance": 0.6819,
-      "importance_score": 0.6819,
+      "item_count": 9,
+      "duplicate_count": 9,
+      "score": 0.6565,
+      "importance": 0.6565,
+      "importance_score": 0.6565,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7729,
+        "recency": 0.6884,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-22T19:00:13Z",
+      "earliest_at": "2026-06-22T21:00:28Z",
       "latest_at": "2026-06-23T15:00:15Z",
       "primary_item": {
         "id": "3f129d6ea40e2c6acb06a052348abbadef8f169e",
@@ -284,13 +265,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5058,
-      "importance": 0.5058,
-      "importance_score": 0.5058,
+      "score": 0.4804,
+      "importance": 0.4804,
+      "importance_score": 0.4804,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6859,
+        "recency": 0.6015,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -304,6 +285,82 @@
         "title": "歐盟將從 7 月 1 日起對 150 歐元以下的非歐盟商品徵收 3 歐元的關稅，以減緩 Temu 等零售商的低價商品氾濫（Brendan Murray/彭博社） / The EU is set to impose a €3 duty on non-EU items under €150 from July 1, as the bloc seeks to slow the flood of low-priced merchandise from retailers like Temu (Brendan Murray/Bloomberg)",
         "url": "https://www.techmeme.com/260623/p8",
         "source": "Techmeme",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_ee5505fca529",
+      "title": "巴黎等54省紅色酷熱警告  多地高溫超越40度  全法20人遇溺身亡",
+      "url": "https://europechinese.blogspot.com/2026/06/54-40-20.html",
+      "primary_url": "https://europechinese.blogspot.com/2026/06/54-40-20.html",
+      "source": "歐洲動態(國際)",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "57521163baf75f6ce038aa6157447d2b19b05f48",
+          "title": "巴黎等54省紅色酷熱警告  多地高溫超越40度  全法20人遇溺身亡",
+          "url": "https://europechinese.blogspot.com/2026/06/54-40-20.html",
+          "source": "歐洲動態(國際)",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-06-23T08:12:45Z"
+        },
+        {
+          "id": "992fcfaf1916cb061f632052b434e33e77b6d777",
+          "title": "週三巴黎等58省紅色酷熱警告  全法40人遇溺身亡  鐵塔羅浮宮提早關門避暑",
+          "url": "https://europechinese.blogspot.com/2026/06/54-40-20.html",
+          "source": "歐洲動態(國際)",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-06-23T08:12:45Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "歐洲動態(國際)"
+      ],
+      "items": [
+        {
+          "id": "57521163baf75f6ce038aa6157447d2b19b05f48",
+          "title": "巴黎等54省紅色酷熱警告  多地高溫超越40度  全法20人遇溺身亡",
+          "url": "https://europechinese.blogspot.com/2026/06/54-40-20.html",
+          "source": "歐洲動態(國際)",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-06-23T08:12:45Z"
+        },
+        {
+          "id": "992fcfaf1916cb061f632052b434e33e77b6d777",
+          "title": "週三巴黎等58省紅色酷熱警告  全法40人遇溺身亡  鐵塔羅浮宮提早關門避暑",
+          "url": "https://europechinese.blogspot.com/2026/06/54-40-20.html",
+          "source": "歐洲動態(國際)",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-06-23T08:12:45Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.3341,
+      "importance": 0.3341,
+      "importance_score": 0.3341,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.25,
+        "recency": 0.5304,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-23T08:12:45Z",
+      "latest_at": "2026-06-23T08:12:45Z",
+      "primary_item": {
+        "id": "57521163baf75f6ce038aa6157447d2b19b05f48",
+        "title": "巴黎等54省紅色酷熱警告  多地高溫超越40度  全法20人遇溺身亡",
+        "url": "https://europechinese.blogspot.com/2026/06/54-40-20.html",
+        "source": "歐洲動態(國際)",
         "source_name": "OPML RSS"
       }
     },
@@ -360,13 +417,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3454,
-      "importance": 0.3454,
-      "importance_score": 0.3454,
+      "score": 0.32,
+      "importance": 0.32,
+      "importance_score": 0.32,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.1513,
+        "recency": 0.0668,
         "story_heat": 0.25
       },
       "category": "watch",
