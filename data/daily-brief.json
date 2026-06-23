@@ -1,16 +1,34 @@
 {
-  "generated_at": "2026-06-23T04:04:01.078584Z",
+  "generated_at": "2026-06-23T08:04:31.963983Z",
   "window_hours": 24,
-  "total_items": 6,
+  "total_items": 7,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "再跌就亏了！SPCX暴跌16%到底为什么？美股七巨头完犊子走势？",
-      "url": "https://www.youtube.com/watch?v=NKvULytQ2T0",
-      "primary_url": "https://www.youtube.com/watch?v=NKvULytQ2T0",
-      "source": "Shepherd Capital Markets",
+      "title": "日菲啟動「專屬經濟區」劃界談判，兩國如何從敵人變成戰略夥伴？",
+      "url": "https://www.youtube.com/watch?v=_iJZBfOP_VA",
+      "primary_url": "https://www.youtube.com/watch?v=_iJZBfOP_VA",
+      "source": "阿峇卡巴 東南亞電台",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "8e591550e16f4f8c113fe4adcf17a8205c322cc1",
+          "title": "日菲啟動「專屬經濟區」劃界談判，兩國如何從敵人變成戰略夥伴？",
+          "url": "https://www.youtube.com/watch?v=_iJZBfOP_VA",
+          "source": "阿峇卡巴 東南亞電台",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-23T03:30:05Z"
+        },
+        {
+          "id": "7997d235a3c06506eb2f56fbbd4d17bee3c95275",
+          "title": "不用怕加息！ SpaceX抄底了！Anthropic自建数据中心？美光改变存储格局！微软谷歌围攻模型公司！黑色火柴盒新经济",
+          "url": "https://www.youtube.com/watch?v=MVbm1kGWX4U",
+          "source": "美投侃新闻",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-06-23T00:13:21Z"
+        },
         {
           "id": "471a43de3ca1c76305cd4c078c60801261a831ac",
           "title": "再跌就亏了！SPCX暴跌16%到底为什么？美股七巨头完犊子走势？",
@@ -84,15 +102,6 @@
           "published_at": "2026-06-22T09:00:25Z"
         },
         {
-          "id": "a7688e7cc5dbdfe301538af436c2544632558dc7",
-          "title": "台裔創辦人做醫療新創，用 AI 重整美國診所的後台！｜Nitra 總裁暨共同創辦人 Jonathan Chen【塞掐 Side Chat】E411",
-          "url": "https://www.youtube.com/watch?v=B2VcFh0nuSE",
-          "source": "【塞掐】訪談大人物",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-22T04:45:06Z"
-        },
-        {
           "id": "c2c8537a7d27caf1e103b0647717e0c1932c2168",
           "title": "克拉納（終於）得到了他們應得的... / Klarna Is (Finally) Getting What They Deserve...",
           "url": "https://www.youtube.com/watch?v=ghg8GfYJUno",
@@ -102,7 +111,7 @@
           "published_at": "2026-06-22T19:00:13Z"
         }
       ],
-      "source_count": 10,
+      "source_count": 11,
       "source_names": [
         "Best Documentary",
         "GOATFANS",
@@ -111,9 +120,28 @@
         "Shepherd Capital Markets",
         "Veritasium",
         "imineo Documentaires",
-        "【塞掐】訪談大人物"
+        "美投侃新闻",
+        "阿峇卡巴 東南亞電台"
       ],
       "items": [
+        {
+          "id": "8e591550e16f4f8c113fe4adcf17a8205c322cc1",
+          "title": "日菲啟動「專屬經濟區」劃界談判，兩國如何從敵人變成戰略夥伴？",
+          "url": "https://www.youtube.com/watch?v=_iJZBfOP_VA",
+          "source": "阿峇卡巴 東南亞電台",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-23T03:30:05Z"
+        },
+        {
+          "id": "7997d235a3c06506eb2f56fbbd4d17bee3c95275",
+          "title": "不用怕加息！ SpaceX抄底了！Anthropic自建数据中心？美光改变存储格局！微软谷歌围攻模型公司！黑色火柴盒新经济",
+          "url": "https://www.youtube.com/watch?v=MVbm1kGWX4U",
+          "source": "美投侃新闻",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-06-23T00:13:21Z"
+        },
         {
           "id": "471a43de3ca1c76305cd4c078c60801261a831ac",
           "title": "再跌就亏了！SPCX暴跌16%到底为什么？美股七巨头完犊子走势？",
@@ -187,15 +215,6 @@
           "published_at": "2026-06-22T09:00:25Z"
         },
         {
-          "id": "a7688e7cc5dbdfe301538af436c2544632558dc7",
-          "title": "台裔創辦人做醫療新創，用 AI 重整美國診所的後台！｜Nitra 總裁暨共同創辦人 Jonathan Chen【塞掐 Side Chat】E411",
-          "url": "https://www.youtube.com/watch?v=B2VcFh0nuSE",
-          "source": "【塞掐】訪談大人物",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-22T04:45:06Z"
-        },
-        {
           "id": "c2c8537a7d27caf1e103b0647717e0c1932c2168",
           "title": "克拉納（終於）得到了他們應得的... / Klarna Is (Finally) Getting What They Deserve...",
           "url": "https://www.youtube.com/watch?v=ghg8GfYJUno",
@@ -205,28 +224,28 @@
           "published_at": "2026-06-22T19:00:13Z"
         }
       ],
-      "item_count": 10,
-      "duplicate_count": 10,
-      "score": 0.6675,
-      "importance": 0.6675,
-      "importance_score": 0.6675,
+      "item_count": 11,
+      "duplicate_count": 11,
+      "score": 0.6928,
+      "importance": 0.6928,
+      "importance_score": 0.6928,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7251,
+        "recency": 0.8094,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-22T04:45:06Z",
-      "latest_at": "2026-06-22T21:28:08Z",
+      "earliest_at": "2026-06-22T09:00:25Z",
+      "latest_at": "2026-06-23T03:30:05Z",
       "primary_item": {
-        "id": "471a43de3ca1c76305cd4c078c60801261a831ac",
-        "title": "再跌就亏了！SPCX暴跌16%到底为什么？美股七巨头完犊子走势？",
-        "url": "https://www.youtube.com/watch?v=NKvULytQ2T0",
-        "source": "Shepherd Capital Markets",
+        "id": "8e591550e16f4f8c113fe4adcf17a8205c322cc1",
+        "title": "日菲啟動「專屬經濟區」劃界談判，兩國如何從敵人變成戰略夥伴？",
+        "url": "https://www.youtube.com/watch?v=_iJZBfOP_VA",
+        "source": "阿峇卡巴 東南亞電台",
         "source_name": "OPML RSS"
       }
     },
@@ -283,13 +302,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5127,
-      "importance": 0.5127,
-      "importance_score": 0.5127,
+      "score": 0.4626,
+      "importance": 0.4626,
+      "importance_score": 0.4626,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7091,
+        "recency": 0.542,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -359,13 +378,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4443,
-      "importance": 0.4443,
-      "importance_score": 0.4443,
+      "score": 0.3942,
+      "importance": 0.3942,
+      "importance_score": 0.3942,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.4811,
+        "recency": 0.314,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -379,6 +398,82 @@
         "title": "如果你在月球上開得太快... / If You Drive Too Fast On the Moon...",
         "url": "https://www.youtube.com/shorts/E_JRs8IL1eI",
         "source": "Cleo Abram",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_d4213568f8bb",
+      "title": "Valve Steam 機器評論：比 PS5 小得多，非常流暢，可以使用任何現代遊戲手把進行導航，但非常昂貴，需要手動配置（Sean Hollister/The Verge） / Valve Steam Machine review: much smaller than PS5, surprisingly smooth, and navigable with any modern gamepad but very expensive and needs manual configuration (Sean Hollister/The Verge)",
+      "url": "https://www.techmeme.com/260622/p34",
+      "primary_url": "https://www.techmeme.com/260622/p34",
+      "source": "Techmeme",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "9a394173f23948a23c8336e8549e4539af2f2704",
+          "title": "Valve Steam 機器評論：比 PS5 小得多，非常流暢，可以使用任何現代遊戲手把進行導航，但非常昂貴，需要手動配置（Sean Hollister/The Verge） / Valve Steam Machine review: much smaller than PS5, surprisingly smooth, and navigable with any modern gamepad but very expensive and needs manual configuration (Sean Hollister/The Verge)",
+          "url": "https://www.techmeme.com/260622/p34",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-06-22T17:25:03Z"
+        },
+        {
+          "id": "737f877ef26dc19c31ba2d9fef5d595268faaddb",
+          "title": "Valve Steam 機器評論：小而安靜，在電視上運行 PC 遊戲效果很好，但 PS5 性能的價格幾乎是 PS5 的兩倍，並且需要手動配置（Sean Hollister/The Verge） / Valve Steam Machine review: small and quiet, runs PC games well on a TV, but nearly twice the price of a PS5 for PS5 performance and needs manual configuration (Sean Hollister/The Verge)",
+          "url": "https://www.techmeme.com/260622/p34",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-06-22T17:25:03Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Techmeme"
+      ],
+      "items": [
+        {
+          "id": "9a394173f23948a23c8336e8549e4539af2f2704",
+          "title": "Valve Steam 機器評論：比 PS5 小得多，非常流暢，可以使用任何現代遊戲手把進行導航，但非常昂貴，需要手動配置（Sean Hollister/The Verge） / Valve Steam Machine review: much smaller than PS5, surprisingly smooth, and navigable with any modern gamepad but very expensive and needs manual configuration (Sean Hollister/The Verge)",
+          "url": "https://www.techmeme.com/260622/p34",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-06-22T17:25:03Z"
+        },
+        {
+          "id": "737f877ef26dc19c31ba2d9fef5d595268faaddb",
+          "title": "Valve Steam 機器評論：小而安靜，在電視上運行 PC 遊戲效果很好，但 PS5 性能的價格幾乎是 PS5 的兩倍，並且需要手動配置（Sean Hollister/The Verge） / Valve Steam Machine review: small and quiet, runs PC games well on a TV, but nearly twice the price of a PS5 for PS5 performance and needs manual configuration (Sean Hollister/The Verge)",
+          "url": "https://www.techmeme.com/260622/p34",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-06-22T17:25:03Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.4168,
+      "importance": 0.4168,
+      "importance_score": 0.4168,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.5,
+        "recency": 0.3892,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-22T17:25:03Z",
+      "latest_at": "2026-06-22T17:25:03Z",
+      "primary_item": {
+        "id": "9a394173f23948a23c8336e8549e4539af2f2704",
+        "title": "Valve Steam 機器評論：比 PS5 小得多，非常流暢，可以使用任何現代遊戲手把進行導航，但非常昂貴，需要手動配置（Sean Hollister/The Verge） / Valve Steam Machine review: much smaller than PS5, surprisingly smooth, and navigable with any modern gamepad but very expensive and needs manual configuration (Sean Hollister/The Verge)",
+        "url": "https://www.techmeme.com/260622/p34",
+        "source": "Techmeme",
         "source_name": "OPML RSS"
       }
     },
@@ -435,13 +530,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4554,
-      "importance": 0.4554,
-      "importance_score": 0.4554,
+      "score": 0.4053,
+      "importance": 0.4053,
+      "importance_score": 0.4053,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.5181,
+        "recency": 0.351,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -454,82 +549,6 @@
         "id": "f9b5ed39a70583d9009951704b6f24bfed7f61df",
         "title": "Google DeepMind 副總裁 John Jumper 離職後，Alphabet 股價週一收盤下跌 5%，這是該公司一周內第二位離職的人工智慧高管 (彭博社) / Alphabet shares close down 5% on Monday following the departure of Google DeepMind VP John Jumper, the company's second top AI executive to leave in a week (Bloomberg)",
         "url": "https://www.techmeme.com/260622/p31",
-        "source": "Techmeme",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_0dc626785ea2",
-      "title": "SpaceX 宣布發行優先無擔保票據，並透露其擁有約 $100.8B 現金； SPCX 下跌 8% 以上（Samantha Subin/CNBC） / SpaceX announces a senior unsecured notes offering and discloses that it has about $100.8B in cash; SPCX drops 8%+ (Samantha Subin/CNBC)",
-      "url": "https://www.techmeme.com/260622/p29",
-      "primary_url": "https://www.techmeme.com/260622/p29",
-      "source": "Techmeme",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "afc5957ce3572a4faf97422848d004b64a4c7fd5",
-          "title": "SpaceX 宣布發行優先無擔保票據，並透露其擁有約 $100.8B 現金； SPCX 下跌 8% 以上（Samantha Subin/CNBC） / SpaceX announces a senior unsecured notes offering and discloses that it has about $100.8B in cash; SPCX drops 8%+ (Samantha Subin/CNBC)",
-          "url": "https://www.techmeme.com/260622/p29",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-06-22T15:30:01Z"
-        },
-        {
-          "id": "ad9b06e9d4cea588e342a09ed3c056384d0acf02",
-          "title": "SpaceX 宣布發行優先無擔保票據，並透露其擁有約 $100.8B 現金； SPCX 收盤下跌 16.43%，連續第三個交易日下跌 (Samantha Subin/CNBC) / SpaceX announces an offering of senior unsecured notes and discloses it has ~$100.8B in cash; SPCX closes down 16.43% in its third consecutive losing session (Samantha Subin/CNBC)",
-          "url": "https://www.techmeme.com/260622/p29",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-06-22T15:30:01Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Techmeme"
-      ],
-      "items": [
-        {
-          "id": "afc5957ce3572a4faf97422848d004b64a4c7fd5",
-          "title": "SpaceX 宣布發行優先無擔保票據，並透露其擁有約 $100.8B 現金； SPCX 下跌 8% 以上（Samantha Subin/CNBC） / SpaceX announces a senior unsecured notes offering and discloses that it has about $100.8B in cash; SPCX drops 8%+ (Samantha Subin/CNBC)",
-          "url": "https://www.techmeme.com/260622/p29",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-06-22T15:30:01Z"
-        },
-        {
-          "id": "ad9b06e9d4cea588e342a09ed3c056384d0acf02",
-          "title": "SpaceX 宣布發行優先無擔保票據，並透露其擁有約 $100.8B 現金； SPCX 收盤下跌 16.43%，連續第三個交易日下跌 (Samantha Subin/CNBC) / SpaceX announces an offering of senior unsecured notes and discloses it has ~$100.8B in cash; SPCX closes down 16.43% in its third consecutive losing session (Samantha Subin/CNBC)",
-          "url": "https://www.techmeme.com/260622/p29",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-06-22T15:30:01Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.4429,
-      "importance": 0.4429,
-      "importance_score": 0.4429,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.5,
-        "recency": 0.4764,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-22T15:30:01Z",
-      "latest_at": "2026-06-22T15:30:01Z",
-      "primary_item": {
-        "id": "afc5957ce3572a4faf97422848d004b64a4c7fd5",
-        "title": "SpaceX 宣布發行優先無擔保票據，並透露其擁有約 $100.8B 現金； SPCX 下跌 8% 以上（Samantha Subin/CNBC） / SpaceX announces a senior unsecured notes offering and discloses that it has about $100.8B in cash; SPCX drops 8%+ (Samantha Subin/CNBC)",
-        "url": "https://www.techmeme.com/260622/p29",
         "source": "Techmeme",
         "source_name": "OPML RSS"
       }
@@ -587,13 +606,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.363,
-      "importance": 0.363,
-      "importance_score": 0.363,
+      "score": 0.3129,
+      "importance": 0.3129,
+      "importance_score": 0.3129,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.21,
+        "recency": 0.043,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -607,6 +626,82 @@
         "title": "足球和世界盃簡史 / A Brief History of Soccer and the World Cup",
         "url": "https://www.openculture.com/2026/06/a-brief-history-of-soccer-and-the-world-cup.html",
         "source": "Open Culture",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_0dc626785ea2",
+      "title": "SpaceX 宣布發行優先無擔保票據，並透露其擁有約 $100.8B 現金； SPCX 下跌 8% 以上（Samantha Subin/CNBC） / SpaceX announces a senior unsecured notes offering and discloses that it has about $100.8B in cash; SPCX drops 8%+ (Samantha Subin/CNBC)",
+      "url": "https://www.techmeme.com/260622/p29",
+      "primary_url": "https://www.techmeme.com/260622/p29",
+      "source": "Techmeme",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "afc5957ce3572a4faf97422848d004b64a4c7fd5",
+          "title": "SpaceX 宣布發行優先無擔保票據，並透露其擁有約 $100.8B 現金； SPCX 下跌 8% 以上（Samantha Subin/CNBC） / SpaceX announces a senior unsecured notes offering and discloses that it has about $100.8B in cash; SPCX drops 8%+ (Samantha Subin/CNBC)",
+          "url": "https://www.techmeme.com/260622/p29",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-06-22T15:30:01Z"
+        },
+        {
+          "id": "ad9b06e9d4cea588e342a09ed3c056384d0acf02",
+          "title": "SpaceX 宣布發行優先無擔保票據，並透露其擁有約 $100.8B 現金； SPCX 收盤下跌 16.43%，連續第三個交易日下跌 (Samantha Subin/CNBC) / SpaceX announces an offering of senior unsecured notes and discloses it has ~$100.8B in cash; SPCX closes down 16.43% in its third consecutive losing session (Samantha Subin/CNBC)",
+          "url": "https://www.techmeme.com/260622/p29",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-06-22T15:30:01Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Techmeme"
+      ],
+      "items": [
+        {
+          "id": "afc5957ce3572a4faf97422848d004b64a4c7fd5",
+          "title": "SpaceX 宣布發行優先無擔保票據，並透露其擁有約 $100.8B 現金； SPCX 下跌 8% 以上（Samantha Subin/CNBC） / SpaceX announces a senior unsecured notes offering and discloses that it has about $100.8B in cash; SPCX drops 8%+ (Samantha Subin/CNBC)",
+          "url": "https://www.techmeme.com/260622/p29",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-06-22T15:30:01Z"
+        },
+        {
+          "id": "ad9b06e9d4cea588e342a09ed3c056384d0acf02",
+          "title": "SpaceX 宣布發行優先無擔保票據，並透露其擁有約 $100.8B 現金； SPCX 收盤下跌 16.43%，連續第三個交易日下跌 (Samantha Subin/CNBC) / SpaceX announces an offering of senior unsecured notes and discloses it has ~$100.8B in cash; SPCX closes down 16.43% in its third consecutive losing session (Samantha Subin/CNBC)",
+          "url": "https://www.techmeme.com/260622/p29",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-06-22T15:30:01Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.3928,
+      "importance": 0.3928,
+      "importance_score": 0.3928,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.5,
+        "recency": 0.3094,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-22T15:30:01Z",
+      "latest_at": "2026-06-22T15:30:01Z",
+      "primary_item": {
+        "id": "afc5957ce3572a4faf97422848d004b64a4c7fd5",
+        "title": "SpaceX 宣布發行優先無擔保票據，並透露其擁有約 $100.8B 現金； SPCX 下跌 8% 以上（Samantha Subin/CNBC） / SpaceX announces a senior unsecured notes offering and discloses that it has about $100.8B in cash; SPCX drops 8%+ (Samantha Subin/CNBC)",
+        "url": "https://www.techmeme.com/260622/p29",
+        "source": "Techmeme",
         "source_name": "OPML RSS"
       }
     }
