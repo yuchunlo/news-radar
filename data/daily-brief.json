@@ -1,16 +1,34 @@
 {
-  "generated_at": "2026-06-23T19:28:55.218752Z",
+  "generated_at": "2026-06-23T21:16:58.487616Z",
   "window_hours": 24,
-  "total_items": 4,
+  "total_items": 3,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "America XXL：過剩之地 / America XXL: Land of Excess",
-      "url": "https://www.youtube.com/watch?v=kvek7rbsy4E",
-      "primary_url": "https://www.youtube.com/watch?v=kvek7rbsy4E",
+      "title": "這個南非訓練營到底發生了什麼事？ / What Really Happens Inside This South African Training Camp?",
+      "url": "https://www.youtube.com/watch?v=creBX4Eubr0",
+      "primary_url": "https://www.youtube.com/watch?v=creBX4Eubr0",
       "source": "Best Documentary",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "9eceff1d68343412a1634b21b769612fc3668afe",
+          "title": "這個南非訓練營到底發生了什麼事？ / What Really Happens Inside This South African Training Camp?",
+          "url": "https://www.youtube.com/watch?v=creBX4Eubr0",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-23T21:00:27Z"
+        },
+        {
+          "id": "e2cb3e38bc6cfe26b5b905dfcdccc23db3f23d76",
+          "title": "史達林格勒：史上最致命的戰役 / Stalingrad: The Deadliest Battle In History",
+          "url": "https://www.youtube.com/watch?v=IOQa3taHOX8",
+          "source": "Timeline - World History Documentaries",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-23T21:00:25Z"
+        },
         {
           "id": "3f129d6ea40e2c6acb06a052348abbadef8f169e",
           "title": "America XXL：過剩之地 / America XXL: Land of Excess",
@@ -66,15 +84,6 @@
           "published_at": "2026-06-22T21:28:08Z"
         },
         {
-          "id": "3e4a63212f6b53f23c6b9bfb3557d2a5f01dcdf4",
-          "title": "成為碧昂絲：她如何建立十億美元的音樂帝國 / Becoming Beyoncé: How She Built a Billion-Dollar Music Empire",
-          "url": "https://www.youtube.com/watch?v=TLwA_lZK7dQ",
-          "source": "Best Documentary",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-22T21:00:28Z"
-        },
-        {
           "id": "fc34caae76bb4cf973edabaf5fa9ba67f3c5decc",
           "title": "川普在與伊朗的戰爭中投降？ / Trump’s Capitulation in the War with Iran?",
           "url": "https://www.youtube.com/watch?v=jmE3Bh1_IUc",
@@ -93,18 +102,37 @@
           "published_at": "2026-06-23T11:30:20Z"
         }
       ],
-      "source_count": 9,
+      "source_count": 10,
       "source_names": [
         "Best Documentary",
         "DenQ來了",
         "Good Times Bad Times",
         "NPR Music",
         "Shepherd Capital Markets",
+        "Timeline - World History Documentaries",
         "忽左忽右",
         "美投侃新闻",
         "阿峇卡巴 東南亞電台"
       ],
       "items": [
+        {
+          "id": "9eceff1d68343412a1634b21b769612fc3668afe",
+          "title": "這個南非訓練營到底發生了什麼事？ / What Really Happens Inside This South African Training Camp?",
+          "url": "https://www.youtube.com/watch?v=creBX4Eubr0",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-23T21:00:27Z"
+        },
+        {
+          "id": "e2cb3e38bc6cfe26b5b905dfcdccc23db3f23d76",
+          "title": "史達林格勒：史上最致命的戰役 / Stalingrad: The Deadliest Battle In History",
+          "url": "https://www.youtube.com/watch?v=IOQa3taHOX8",
+          "source": "Timeline - World History Documentaries",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-23T21:00:25Z"
+        },
         {
           "id": "3f129d6ea40e2c6acb06a052348abbadef8f169e",
           "title": "America XXL：過剩之地 / America XXL: Land of Excess",
@@ -160,15 +188,6 @@
           "published_at": "2026-06-22T21:28:08Z"
         },
         {
-          "id": "3e4a63212f6b53f23c6b9bfb3557d2a5f01dcdf4",
-          "title": "成為碧昂絲：她如何建立十億美元的音樂帝國 / Becoming Beyoncé: How She Built a Billion-Dollar Music Empire",
-          "url": "https://www.youtube.com/watch?v=TLwA_lZK7dQ",
-          "source": "Best Documentary",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-22T21:00:28Z"
-        },
-        {
           "id": "fc34caae76bb4cf973edabaf5fa9ba67f3c5decc",
           "title": "川普在與伊朗的戰爭中投降？ / Trump’s Capitulation in the War with Iran?",
           "url": "https://www.youtube.com/watch?v=jmE3Bh1_IUc",
@@ -187,27 +206,27 @@
           "published_at": "2026-06-23T11:30:20Z"
         }
       ],
-      "item_count": 9,
-      "duplicate_count": 9,
-      "score": 0.6565,
-      "importance": 0.6565,
-      "importance_score": 0.6565,
+      "item_count": 10,
+      "duplicate_count": 10,
+      "score": 0.7466,
+      "importance": 0.7466,
+      "importance_score": 0.7466,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6884,
+        "recency": 0.9885,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-22T21:00:28Z",
-      "latest_at": "2026-06-23T15:00:15Z",
+      "earliest_at": "2026-06-22T21:28:08Z",
+      "latest_at": "2026-06-23T21:00:27Z",
       "primary_item": {
-        "id": "3f129d6ea40e2c6acb06a052348abbadef8f169e",
-        "title": "America XXL：過剩之地 / America XXL: Land of Excess",
-        "url": "https://www.youtube.com/watch?v=kvek7rbsy4E",
+        "id": "9eceff1d68343412a1634b21b769612fc3668afe",
+        "title": "這個南非訓練營到底發生了什麼事？ / What Really Happens Inside This South African Training Camp?",
+        "url": "https://www.youtube.com/watch?v=creBX4Eubr0",
         "source": "Best Documentary",
         "source_name": "OPML RSS"
       }
@@ -265,13 +284,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4804,
-      "importance": 0.4804,
-      "importance_score": 0.4804,
+      "score": 0.4579,
+      "importance": 0.4579,
+      "importance_score": 0.4579,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6015,
+        "recency": 0.5264,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -341,13 +360,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3341,
-      "importance": 0.3341,
-      "importance_score": 0.3341,
+      "score": 0.3116,
+      "importance": 0.3116,
+      "importance_score": 0.3116,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.5304,
+        "recency": 0.4554,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -361,82 +380,6 @@
         "title": "巴黎等54省紅色酷熱警告  多地高溫超越40度  全法20人遇溺身亡",
         "url": "https://europechinese.blogspot.com/2026/06/54-40-20.html",
         "source": "歐洲動態(國際)",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_e2fca99e8fa5",
-      "title": "Meta 表示，在內部安全問題暴露了用於訓練人工智慧模型的潛在敏感資料後，該公司正在暫停其員工輸入追蹤計畫（連線） / Meta says it is pausing its employee input tracking program after internal security issues exposed potentially sensitive data meant to train AI models (Wired)",
-      "url": "https://www.techmeme.com/260622/p38",
-      "primary_url": "https://www.techmeme.com/260622/p38",
-      "source": "Techmeme",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "4db3d5d02342559bec60ba32fa27312648065d18",
-          "title": "Meta 表示，在內部安全問題暴露了用於訓練人工智慧模型的潛在敏感資料後，該公司正在暫停其員工輸入追蹤計畫（連線） / Meta says it is pausing its employee input tracking program after internal security issues exposed potentially sensitive data meant to train AI models (Wired)",
-          "url": "https://www.techmeme.com/260622/p38",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-06-22T21:05:05Z"
-        },
-        {
-          "id": "98317fe6e0049b8208182ec3e52137983ba225fe",
-          "title": "資料來源：Meta 內部公開的員工追蹤程式資料旨在幫助訓練其人工智慧模型，包括完整的提示和私人對話（連線） / Sources: Meta internally exposed data from its employee-tracking program meant to help train its AI models, including full prompts and private conversations (Wired)",
-          "url": "https://www.techmeme.com/260622/p38",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-06-22T21:05:05Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Techmeme"
-      ],
-      "items": [
-        {
-          "id": "4db3d5d02342559bec60ba32fa27312648065d18",
-          "title": "Meta 表示，在內部安全問題暴露了用於訓練人工智慧模型的潛在敏感資料後，該公司正在暫停其員工輸入追蹤計畫（連線） / Meta says it is pausing its employee input tracking program after internal security issues exposed potentially sensitive data meant to train AI models (Wired)",
-          "url": "https://www.techmeme.com/260622/p38",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-06-22T21:05:05Z"
-        },
-        {
-          "id": "98317fe6e0049b8208182ec3e52137983ba225fe",
-          "title": "資料來源：Meta 內部公開的員工追蹤程式資料旨在幫助訓練其人工智慧模型，包括完整的提示和私人對話（連線） / Sources: Meta internally exposed data from its employee-tracking program meant to help train its AI models, including full prompts and private conversations (Wired)",
-          "url": "https://www.techmeme.com/260622/p38",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-06-22T21:05:05Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.32,
-      "importance": 0.32,
-      "importance_score": 0.32,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.5,
-        "recency": 0.0668,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-22T21:05:05Z",
-      "latest_at": "2026-06-22T21:05:05Z",
-      "primary_item": {
-        "id": "4db3d5d02342559bec60ba32fa27312648065d18",
-        "title": "Meta 表示，在內部安全問題暴露了用於訓練人工智慧模型的潛在敏感資料後，該公司正在暫停其員工輸入追蹤計畫（連線） / Meta says it is pausing its employee input tracking program after internal security issues exposed potentially sensitive data meant to train AI models (Wired)",
-        "url": "https://www.techmeme.com/260622/p38",
-        "source": "Techmeme",
         "source_name": "OPML RSS"
       }
     }
