@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-22T23:51:35.111946Z",
+  "generated_at": "2026-06-23T04:04:01.078584Z",
   "window_hours": 24,
-  "total_items": 5,
+  "total_items": 6,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
@@ -207,13 +207,13 @@
       ],
       "item_count": 10,
       "duplicate_count": 10,
-      "score": 0.7201,
-      "importance": 0.7201,
-      "importance_score": 0.7201,
+      "score": 0.6675,
+      "importance": 0.6675,
+      "importance_score": 0.6675,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9004,
+        "recency": 0.7251,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -231,30 +231,30 @@
       }
     },
     {
-      "story_id": "story_cec3250340cd",
-      "title": "Google DeepMind 副總裁 John Jumper 離職後，Alphabet 股價週一收盤下跌 5%，這是該公司一周內第二位離職的人工智慧高管 (彭博社) / Alphabet shares close down 5% on Monday following the departure of Google DeepMind VP John Jumper, the company's second top AI executive to leave in a week (Bloomberg)",
-      "url": "https://www.techmeme.com/260622/p31",
-      "primary_url": "https://www.techmeme.com/260622/p31",
+      "story_id": "story_e2fca99e8fa5",
+      "title": "Meta 表示，在內部安全問題暴露了用於訓練人工智慧模型的潛在敏感資料後，該公司正在暫停其員工輸入追蹤計畫（連線） / Meta says it is pausing its employee input tracking program after internal security issues exposed potentially sensitive data meant to train AI models (Wired)",
+      "url": "https://www.techmeme.com/260622/p38",
+      "primary_url": "https://www.techmeme.com/260622/p38",
       "source": "Techmeme",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "f9b5ed39a70583d9009951704b6f24bfed7f61df",
-          "title": "Google DeepMind 副總裁 John Jumper 離職後，Alphabet 股價週一收盤下跌 5%，這是該公司一周內第二位離職的人工智慧高管 (彭博社) / Alphabet shares close down 5% on Monday following the departure of Google DeepMind VP John Jumper, the company's second top AI executive to leave in a week (Bloomberg)",
-          "url": "https://www.techmeme.com/260622/p31",
+          "id": "4db3d5d02342559bec60ba32fa27312648065d18",
+          "title": "Meta 表示，在內部安全問題暴露了用於訓練人工智慧模型的潛在敏感資料後，該公司正在暫停其員工輸入追蹤計畫（連線） / Meta says it is pausing its employee input tracking program after internal security issues exposed potentially sensitive data meant to train AI models (Wired)",
+          "url": "https://www.techmeme.com/260622/p38",
           "source": "Techmeme",
           "source_name": "OPML RSS",
           "site_id": "tech",
-          "published_at": "2026-06-22T16:30:01Z"
+          "published_at": "2026-06-22T21:05:05Z"
         },
         {
-          "id": "27cf8d06a26505a7b8f0767f1efe31aabc650dc5",
-          "title": "谷歌 DeepMind 副總裁 John Jumper 成為一週內第二位離職的人工智慧高階主管後，Alphabet 股價跌幅高達 7.2%，為 2 月以來最大單日跌幅（彭博） / Alphabet stock fell as much as 7.2%, the most intraday since February, after Google DeepMind VP John Jumper became its second top AI exec to leave in a week (Bloomberg)",
-          "url": "https://www.techmeme.com/260622/p31",
+          "id": "98317fe6e0049b8208182ec3e52137983ba225fe",
+          "title": "資料來源：Meta 內部公開的員工追蹤程式資料旨在幫助訓練其人工智慧模型，包括完整的提示和私人對話（連線） / Sources: Meta internally exposed data from its employee-tracking program meant to help train its AI models, including full prompts and private conversations (Wired)",
+          "url": "https://www.techmeme.com/260622/p38",
           "source": "Techmeme",
           "source_name": "OPML RSS",
           "site_id": "tech",
-          "published_at": "2026-06-22T16:30:01Z"
+          "published_at": "2026-06-22T21:05:05Z"
         }
       ],
       "source_count": 2,
@@ -263,45 +263,45 @@
       ],
       "items": [
         {
-          "id": "f9b5ed39a70583d9009951704b6f24bfed7f61df",
-          "title": "Google DeepMind 副總裁 John Jumper 離職後，Alphabet 股價週一收盤下跌 5%，這是該公司一周內第二位離職的人工智慧高管 (彭博社) / Alphabet shares close down 5% on Monday following the departure of Google DeepMind VP John Jumper, the company's second top AI executive to leave in a week (Bloomberg)",
-          "url": "https://www.techmeme.com/260622/p31",
+          "id": "4db3d5d02342559bec60ba32fa27312648065d18",
+          "title": "Meta 表示，在內部安全問題暴露了用於訓練人工智慧模型的潛在敏感資料後，該公司正在暫停其員工輸入追蹤計畫（連線） / Meta says it is pausing its employee input tracking program after internal security issues exposed potentially sensitive data meant to train AI models (Wired)",
+          "url": "https://www.techmeme.com/260622/p38",
           "source": "Techmeme",
           "source_name": "OPML RSS",
           "site_id": "tech",
-          "published_at": "2026-06-22T16:30:01Z"
+          "published_at": "2026-06-22T21:05:05Z"
         },
         {
-          "id": "27cf8d06a26505a7b8f0767f1efe31aabc650dc5",
-          "title": "谷歌 DeepMind 副總裁 John Jumper 成為一週內第二位離職的人工智慧高階主管後，Alphabet 股價跌幅高達 7.2%，為 2 月以來最大單日跌幅（彭博） / Alphabet stock fell as much as 7.2%, the most intraday since February, after Google DeepMind VP John Jumper became its second top AI exec to leave in a week (Bloomberg)",
-          "url": "https://www.techmeme.com/260622/p31",
+          "id": "98317fe6e0049b8208182ec3e52137983ba225fe",
+          "title": "資料來源：Meta 內部公開的員工追蹤程式資料旨在幫助訓練其人工智慧模型，包括完整的提示和私人對話（連線） / Sources: Meta internally exposed data from its employee-tracking program meant to help train its AI models, including full prompts and private conversations (Wired)",
+          "url": "https://www.techmeme.com/260622/p38",
           "source": "Techmeme",
           "source_name": "OPML RSS",
           "site_id": "tech",
-          "published_at": "2026-06-22T16:30:01Z"
+          "published_at": "2026-06-22T21:05:05Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.508,
-      "importance": 0.508,
-      "importance_score": 0.508,
+      "score": 0.5127,
+      "importance": 0.5127,
+      "importance_score": 0.5127,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6934,
+        "recency": 0.7091,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-22T16:30:01Z",
-      "latest_at": "2026-06-22T16:30:01Z",
+      "earliest_at": "2026-06-22T21:05:05Z",
+      "latest_at": "2026-06-22T21:05:05Z",
       "primary_item": {
-        "id": "f9b5ed39a70583d9009951704b6f24bfed7f61df",
-        "title": "Google DeepMind 副總裁 John Jumper 離職後，Alphabet 股價週一收盤下跌 5%，這是該公司一周內第二位離職的人工智慧高管 (彭博社) / Alphabet shares close down 5% on Monday following the departure of Google DeepMind VP John Jumper, the company's second top AI executive to leave in a week (Bloomberg)",
-        "url": "https://www.techmeme.com/260622/p31",
+        "id": "4db3d5d02342559bec60ba32fa27312648065d18",
+        "title": "Meta 表示，在內部安全問題暴露了用於訓練人工智慧模型的潛在敏感資料後，該公司正在暫停其員工輸入追蹤計畫（連線） / Meta says it is pausing its employee input tracking program after internal security issues exposed potentially sensitive data meant to train AI models (Wired)",
+        "url": "https://www.techmeme.com/260622/p38",
         "source": "Techmeme",
         "source_name": "OPML RSS"
       }
@@ -359,13 +359,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4969,
-      "importance": 0.4969,
-      "importance_score": 0.4969,
+      "score": 0.4443,
+      "importance": 0.4443,
+      "importance_score": 0.4443,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6564,
+        "recency": 0.4811,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -379,6 +379,82 @@
         "title": "如果你在月球上開得太快... / If You Drive Too Fast On the Moon...",
         "url": "https://www.youtube.com/shorts/E_JRs8IL1eI",
         "source": "Cleo Abram",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_cec3250340cd",
+      "title": "Google DeepMind 副總裁 John Jumper 離職後，Alphabet 股價週一收盤下跌 5%，這是該公司一周內第二位離職的人工智慧高管 (彭博社) / Alphabet shares close down 5% on Monday following the departure of Google DeepMind VP John Jumper, the company's second top AI executive to leave in a week (Bloomberg)",
+      "url": "https://www.techmeme.com/260622/p31",
+      "primary_url": "https://www.techmeme.com/260622/p31",
+      "source": "Techmeme",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "f9b5ed39a70583d9009951704b6f24bfed7f61df",
+          "title": "Google DeepMind 副總裁 John Jumper 離職後，Alphabet 股價週一收盤下跌 5%，這是該公司一周內第二位離職的人工智慧高管 (彭博社) / Alphabet shares close down 5% on Monday following the departure of Google DeepMind VP John Jumper, the company's second top AI executive to leave in a week (Bloomberg)",
+          "url": "https://www.techmeme.com/260622/p31",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-06-22T16:30:01Z"
+        },
+        {
+          "id": "27cf8d06a26505a7b8f0767f1efe31aabc650dc5",
+          "title": "谷歌 DeepMind 副總裁 John Jumper 成為一週內第二位離職的人工智慧高階主管後，Alphabet 股價跌幅高達 7.2%，為 2 月以來最大單日跌幅（彭博） / Alphabet stock fell as much as 7.2%, the most intraday since February, after Google DeepMind VP John Jumper became its second top AI exec to leave in a week (Bloomberg)",
+          "url": "https://www.techmeme.com/260622/p31",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-06-22T16:30:01Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Techmeme"
+      ],
+      "items": [
+        {
+          "id": "f9b5ed39a70583d9009951704b6f24bfed7f61df",
+          "title": "Google DeepMind 副總裁 John Jumper 離職後，Alphabet 股價週一收盤下跌 5%，這是該公司一周內第二位離職的人工智慧高管 (彭博社) / Alphabet shares close down 5% on Monday following the departure of Google DeepMind VP John Jumper, the company's second top AI executive to leave in a week (Bloomberg)",
+          "url": "https://www.techmeme.com/260622/p31",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-06-22T16:30:01Z"
+        },
+        {
+          "id": "27cf8d06a26505a7b8f0767f1efe31aabc650dc5",
+          "title": "谷歌 DeepMind 副總裁 John Jumper 成為一週內第二位離職的人工智慧高階主管後，Alphabet 股價跌幅高達 7.2%，為 2 月以來最大單日跌幅（彭博） / Alphabet stock fell as much as 7.2%, the most intraday since February, after Google DeepMind VP John Jumper became its second top AI exec to leave in a week (Bloomberg)",
+          "url": "https://www.techmeme.com/260622/p31",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-06-22T16:30:01Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.4554,
+      "importance": 0.4554,
+      "importance_score": 0.4554,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.5,
+        "recency": 0.5181,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-22T16:30:01Z",
+      "latest_at": "2026-06-22T16:30:01Z",
+      "primary_item": {
+        "id": "f9b5ed39a70583d9009951704b6f24bfed7f61df",
+        "title": "Google DeepMind 副總裁 John Jumper 離職後，Alphabet 股價週一收盤下跌 5%，這是該公司一周內第二位離職的人工智慧高管 (彭博社) / Alphabet shares close down 5% on Monday following the departure of Google DeepMind VP John Jumper, the company's second top AI executive to leave in a week (Bloomberg)",
+        "url": "https://www.techmeme.com/260622/p31",
+        "source": "Techmeme",
         "source_name": "OPML RSS"
       }
     },
@@ -435,13 +511,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4955,
-      "importance": 0.4955,
-      "importance_score": 0.4955,
+      "score": 0.4429,
+      "importance": 0.4429,
+      "importance_score": 0.4429,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6517,
+        "recency": 0.4764,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -511,13 +587,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4156,
-      "importance": 0.4156,
-      "importance_score": 0.4156,
+      "score": 0.363,
+      "importance": 0.363,
+      "importance_score": 0.363,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.3853,
+        "recency": 0.21,
         "story_heat": 0.25
       },
       "category": "watch",
