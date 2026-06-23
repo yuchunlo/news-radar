@@ -1,16 +1,34 @@
 {
-  "generated_at": "2026-06-23T08:04:31.963983Z",
+  "generated_at": "2026-06-23T11:40:22.320024Z",
   "window_hours": 24,
-  "total_items": 7,
+  "total_items": 6,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "日菲啟動「專屬經濟區」劃界談判，兩國如何從敵人變成戰略夥伴？",
-      "url": "https://www.youtube.com/watch?v=_iJZBfOP_VA",
-      "primary_url": "https://www.youtube.com/watch?v=_iJZBfOP_VA",
-      "source": "阿峇卡巴 東南亞電台",
+      "title": "478 北洋漫游记：军阀、考古与瑞典王储的中国之旅",
+      "url": "https://www.youtube.com/watch?v=nrHakxHSwHQ",
+      "primary_url": "https://www.youtube.com/watch?v=nrHakxHSwHQ",
+      "source": "忽左忽右",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "e693ebc48b9a1771c032d075dd6b07b029b5405c",
+          "title": "478 北洋漫游记：军阀、考古与瑞典王储的中国之旅",
+          "url": "https://www.youtube.com/watch?v=nrHakxHSwHQ",
+          "source": "忽左忽右",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-23T10:29:34Z"
+        },
+        {
+          "id": "631e5bc405e966ddd53bac3adccb1bc6eb7412dd",
+          "title": "弗雷德哈蒙德：小桌子音樂會 / Fred Hammond: Tiny Desk Concert",
+          "url": "https://www.youtube.com/watch?v=ClFp8yqfokk",
+          "source": "NPR Music",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-23T09:00:16Z"
+        },
         {
           "id": "8e591550e16f4f8c113fe4adcf17a8205c322cc1",
           "title": "日菲啟動「專屬經濟區」劃界談判，兩國如何從敵人變成戰略夥伴？",
@@ -75,6 +93,15 @@
           "published_at": "2026-06-22T14:40:50Z"
         },
         {
+          "id": "a5da70c440db72df9600615776089369eb57e0f0",
+          "title": "指紋分析的問題 / The Problem With Fingerprint Analysis",
+          "url": "https://www.youtube.com/watch?v=mvcesPWvUIc",
+          "source": "Veritasium",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-06-22T14:40:50Z"
+        },
+        {
           "id": "70cc18365043149c21091449fb5fa437500f3cae",
           "title": "哥倫布之前發生了什麼事？ - 美洲原住民的整個歷史 - 所有部分 / What Happened Before Columbus? - THE ENTIRE HISTORY OF NATIVE AMERICA - ALL PARTS",
           "url": "https://www.youtube.com/watch?v=ygscd81Q1TE",
@@ -93,13 +120,13 @@
           "published_at": "2026-06-22T12:00:02Z"
         },
         {
-          "id": "d35c983d706062ff73821d31b1c2a86459e2e38e",
-          "title": "当方大同唱起这两首歌，连空气都变甜了！",
-          "url": "https://www.youtube.com/watch?v=Y3P_bsb62JU",
-          "source": "GOATFANS",
+          "id": "15c3caccbef7f77d69c0d3d2e2828bb14cf2f0f6",
+          "title": "拍出《梨泰院Class》《財閥家》卻發不出薪水？JTBC是怎麼把自己搞垮的｜DenQ",
+          "url": "https://www.youtube.com/watch?v=KNeYoVaTN2c",
+          "source": "DenQ來了",
           "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-22T09:00:25Z"
+          "site_id": "trending",
+          "published_at": "2026-06-23T11:30:20Z"
         },
         {
           "id": "c2c8537a7d27caf1e103b0647717e0c1932c2168",
@@ -111,20 +138,40 @@
           "published_at": "2026-06-22T19:00:13Z"
         }
       ],
-      "source_count": 11,
+      "source_count": 14,
       "source_names": [
         "Best Documentary",
-        "GOATFANS",
+        "DenQ來了",
         "Knowledgia",
         "Logically Answered",
+        "NPR Music",
         "Shepherd Capital Markets",
         "Veritasium",
         "imineo Documentaires",
+        "忽左忽右",
         "美投侃新闻",
         "阿峇卡巴 東南亞電台"
       ],
       "items": [
         {
+          "id": "e693ebc48b9a1771c032d075dd6b07b029b5405c",
+          "title": "478 北洋漫游记：军阀、考古与瑞典王储的中国之旅",
+          "url": "https://www.youtube.com/watch?v=nrHakxHSwHQ",
+          "source": "忽左忽右",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-23T10:29:34Z"
+        },
+        {
+          "id": "631e5bc405e966ddd53bac3adccb1bc6eb7412dd",
+          "title": "弗雷德哈蒙德：小桌子音樂會 / Fred Hammond: Tiny Desk Concert",
+          "url": "https://www.youtube.com/watch?v=ClFp8yqfokk",
+          "source": "NPR Music",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-23T09:00:16Z"
+        },
+        {
           "id": "8e591550e16f4f8c113fe4adcf17a8205c322cc1",
           "title": "日菲啟動「專屬經濟區」劃界談判，兩國如何從敵人變成戰略夥伴？",
           "url": "https://www.youtube.com/watch?v=_iJZBfOP_VA",
@@ -188,6 +235,15 @@
           "published_at": "2026-06-22T14:40:50Z"
         },
         {
+          "id": "a5da70c440db72df9600615776089369eb57e0f0",
+          "title": "指紋分析的問題 / The Problem With Fingerprint Analysis",
+          "url": "https://www.youtube.com/watch?v=mvcesPWvUIc",
+          "source": "Veritasium",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-06-22T14:40:50Z"
+        },
+        {
           "id": "70cc18365043149c21091449fb5fa437500f3cae",
           "title": "哥倫布之前發生了什麼事？ - 美洲原住民的整個歷史 - 所有部分 / What Happened Before Columbus? - THE ENTIRE HISTORY OF NATIVE AMERICA - ALL PARTS",
           "url": "https://www.youtube.com/watch?v=ygscd81Q1TE",
@@ -206,13 +262,13 @@
           "published_at": "2026-06-22T12:00:02Z"
         },
         {
-          "id": "d35c983d706062ff73821d31b1c2a86459e2e38e",
-          "title": "当方大同唱起这两首歌，连空气都变甜了！",
-          "url": "https://www.youtube.com/watch?v=Y3P_bsb62JU",
-          "source": "GOATFANS",
+          "id": "15c3caccbef7f77d69c0d3d2e2828bb14cf2f0f6",
+          "title": "拍出《梨泰院Class》《財閥家》卻發不出薪水？JTBC是怎麼把自己搞垮的｜DenQ",
+          "url": "https://www.youtube.com/watch?v=KNeYoVaTN2c",
+          "source": "DenQ來了",
           "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-22T09:00:25Z"
+          "site_id": "trending",
+          "published_at": "2026-06-23T11:30:20Z"
         },
         {
           "id": "c2c8537a7d27caf1e103b0647717e0c1932c2168",
@@ -224,28 +280,28 @@
           "published_at": "2026-06-22T19:00:13Z"
         }
       ],
-      "item_count": 11,
-      "duplicate_count": 11,
-      "score": 0.6928,
-      "importance": 0.6928,
-      "importance_score": 0.6928,
+      "item_count": 14,
+      "duplicate_count": 14,
+      "score": 0.7352,
+      "importance": 0.7352,
+      "importance_score": 0.7352,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.8094,
+        "recency": 0.9508,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-22T09:00:25Z",
-      "latest_at": "2026-06-23T03:30:05Z",
+      "earliest_at": "2026-06-22T12:00:02Z",
+      "latest_at": "2026-06-23T11:30:20Z",
       "primary_item": {
-        "id": "8e591550e16f4f8c113fe4adcf17a8205c322cc1",
-        "title": "日菲啟動「專屬經濟區」劃界談判，兩國如何從敵人變成戰略夥伴？",
-        "url": "https://www.youtube.com/watch?v=_iJZBfOP_VA",
-        "source": "阿峇卡巴 東南亞電台",
+        "id": "e693ebc48b9a1771c032d075dd6b07b029b5405c",
+        "title": "478 北洋漫游记：军阀、考古与瑞典王储的中国之旅",
+        "url": "https://www.youtube.com/watch?v=nrHakxHSwHQ",
+        "source": "忽左忽右",
         "source_name": "OPML RSS"
       }
     },
@@ -302,13 +358,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4626,
-      "importance": 0.4626,
-      "importance_score": 0.4626,
+      "score": 0.4176,
+      "importance": 0.4176,
+      "importance_score": 0.4176,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.542,
+        "recency": 0.3922,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -378,13 +434,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3942,
-      "importance": 0.3942,
-      "importance_score": 0.3942,
+      "score": 0.3492,
+      "importance": 0.3492,
+      "importance_score": 0.3492,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.314,
+        "recency": 0.1641,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -454,13 +510,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4168,
-      "importance": 0.4168,
-      "importance_score": 0.4168,
+      "score": 0.3718,
+      "importance": 0.3718,
+      "importance_score": 0.3718,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.3892,
+        "recency": 0.2394,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -530,13 +586,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4053,
-      "importance": 0.4053,
-      "importance_score": 0.4053,
+      "score": 0.3603,
+      "importance": 0.3603,
+      "importance_score": 0.3603,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.351,
+        "recency": 0.2011,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -550,82 +606,6 @@
         "title": "Google DeepMind 副總裁 John Jumper 離職後，Alphabet 股價週一收盤下跌 5%，這是該公司一周內第二位離職的人工智慧高管 (彭博社) / Alphabet shares close down 5% on Monday following the departure of Google DeepMind VP John Jumper, the company's second top AI executive to leave in a week (Bloomberg)",
         "url": "https://www.techmeme.com/260622/p31",
         "source": "Techmeme",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_df294d490030",
-      "title": "足球和世界盃簡史 / A Brief History of Soccer and the World Cup",
-      "url": "https://www.openculture.com/2026/06/a-brief-history-of-soccer-and-the-world-cup.html",
-      "primary_url": "https://www.openculture.com/2026/06/a-brief-history-of-soccer-and-the-world-cup.html",
-      "source": "Open Culture",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "df52137c51845a8ed27e939672b57bde7fd78b95",
-          "title": "足球和世界盃簡史 / A Brief History of Soccer and the World Cup",
-          "url": "https://www.openculture.com/2026/06/a-brief-history-of-soccer-and-the-world-cup.html",
-          "source": "Open Culture",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-22T09:06:26Z"
-        },
-        {
-          "id": "a60069b459a438dca145f81ed8fcbc22238f1738",
-          "title": "足球與世界盃的歷史：簡介 / The History of Soccer and the World Cup: A Short Introduction",
-          "url": "https://www.openculture.com/2026/06/a-brief-history-of-soccer-and-the-world-cup.html",
-          "source": "Open Culture",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-22T09:06:26Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Open Culture"
-      ],
-      "items": [
-        {
-          "id": "df52137c51845a8ed27e939672b57bde7fd78b95",
-          "title": "足球和世界盃簡史 / A Brief History of Soccer and the World Cup",
-          "url": "https://www.openculture.com/2026/06/a-brief-history-of-soccer-and-the-world-cup.html",
-          "source": "Open Culture",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-22T09:06:26Z"
-        },
-        {
-          "id": "a60069b459a438dca145f81ed8fcbc22238f1738",
-          "title": "足球與世界盃的歷史：簡介 / The History of Soccer and the World Cup: A Short Introduction",
-          "url": "https://www.openculture.com/2026/06/a-brief-history-of-soccer-and-the-world-cup.html",
-          "source": "Open Culture",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-22T09:06:26Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.3129,
-      "importance": 0.3129,
-      "importance_score": 0.3129,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.5,
-        "recency": 0.043,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-22T09:06:26Z",
-      "latest_at": "2026-06-22T09:06:26Z",
-      "primary_item": {
-        "id": "df52137c51845a8ed27e939672b57bde7fd78b95",
-        "title": "足球和世界盃簡史 / A Brief History of Soccer and the World Cup",
-        "url": "https://www.openculture.com/2026/06/a-brief-history-of-soccer-and-the-world-cup.html",
-        "source": "Open Culture",
         "source_name": "OPML RSS"
       }
     },
@@ -682,13 +662,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3928,
-      "importance": 0.3928,
-      "importance_score": 0.3928,
+      "score": 0.3478,
+      "importance": 0.3478,
+      "importance_score": 0.3478,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.3094,
+        "recency": 0.1595,
         "story_heat": 0.25
       },
       "category": "watch",
