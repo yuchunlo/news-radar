@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T16:26:03.002376Z",
+  "generated_at": "2026-06-24T18:19:32.508061Z",
   "window_hours": 24,
   "total_items": 3,
   "items": [
@@ -111,6 +111,15 @@
           "published_at": "2026-06-24T03:00:37Z"
         },
         {
+          "id": "b605eae4b217eb4b6da8fa5e26b8ffe08878a5b8",
+          "title": "使用油畫即時為 3D 模型添加紋理 / Texturing 3D models in real-time with oil painting",
+          "url": "https://www.youtube.com/watch?v=fdI1ZJtAJmI",
+          "source": "Waxy.org",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-06-24T17:30:53Z"
+        },
+        {
           "id": "1b314805e510a5b7e11828f84fe1be14ba2fba87",
           "title": "美國入侵伊朗的五種方式 / Five ways the US could invade Iran",
           "url": "https://www.youtube.com/watch?v=PGHLm0Z2g10",
@@ -138,7 +147,7 @@
           "published_at": "2026-06-24T05:16:44Z"
         }
       ],
-      "source_count": 14,
+      "source_count": 15,
       "source_names": [
         "Best Documentary",
         "CaseyNeistat",
@@ -147,6 +156,7 @@
         "Shepherd Capital Markets",
         "The Circuit with Emily Chang",
         "Timeline - World History Documentaries",
+        "Waxy.org",
         "imineo Documentaires",
         "【塞掐】訪談大人物",
         "公視P#新聞實驗室",
@@ -255,6 +265,15 @@
           "published_at": "2026-06-24T03:00:37Z"
         },
         {
+          "id": "b605eae4b217eb4b6da8fa5e26b8ffe08878a5b8",
+          "title": "使用油畫即時為 3D 模型添加紋理 / Texturing 3D models in real-time with oil painting",
+          "url": "https://www.youtube.com/watch?v=fdI1ZJtAJmI",
+          "source": "Waxy.org",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-06-24T17:30:53Z"
+        },
+        {
           "id": "1b314805e510a5b7e11828f84fe1be14ba2fba87",
           "title": "美國入侵伊朗的五種方式 / Five ways the US could invade Iran",
           "url": "https://www.youtube.com/watch?v=PGHLm0Z2g10",
@@ -282,15 +301,15 @@
           "published_at": "2026-06-24T05:16:44Z"
         }
       ],
-      "item_count": 14,
-      "duplicate_count": 14,
-      "score": 0.729,
-      "importance": 0.729,
-      "importance_score": 0.729,
+      "item_count": 15,
+      "duplicate_count": 15,
+      "score": 0.7054,
+      "importance": 0.7054,
+      "importance_score": 0.7054,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.93,
+        "recency": 0.8512,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -298,7 +317,7 @@
         "multi_source"
       ],
       "earliest_at": "2026-06-23T21:00:25Z",
-      "latest_at": "2026-06-24T16:04:32Z",
+      "latest_at": "2026-06-24T17:30:53Z",
       "primary_item": {
         "id": "dd6c5e17e669e94bb5d3115ac1b666321a825e5e",
         "title": "阿姆斯特丹：全球資本主義的形成 / Amsterdam: the making of Global Capitalism",
@@ -360,13 +379,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5571,
-      "importance": 0.5571,
-      "importance_score": 0.5571,
+      "score": 0.5334,
+      "importance": 0.5334,
+      "importance_score": 0.5334,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.857,
+        "recency": 0.7781,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -454,13 +473,13 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5196,
-      "importance": 0.5196,
-      "importance_score": 0.5196,
+      "score": 0.4959,
+      "importance": 0.4959,
+      "importance_score": 0.4959,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.9819,
+        "recency": 0.9031,
         "story_heat": 0.5
       },
       "category": "multi_source",
