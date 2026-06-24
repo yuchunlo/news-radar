@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T21:55:16.515473Z",
+  "generated_at": "2026-06-24T23:11:50.292064Z",
   "window_hours": 24,
   "total_items": 4,
   "items": [
@@ -66,15 +66,6 @@
           "published_at": "2026-06-24T00:11:02Z"
         },
         {
-          "id": "80005d75e5e1d518557814d2c5f774cc4b64a024",
-          "title": "《由他去吧》The Let Them Theory：停止情緒內耗與控制狂陷阱｜破解大腦杏仁核劫持與重塑人際界線｜行為心理學ABC迴圈改變伴侶｜打破潛力陷阱與嫉妒心態｜讓我來主動防禦與自我成長",
-          "url": "https://www.youtube.com/watch?v=665frTlQUUI",
-          "source": "雜書觀察室",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-06-23T22:00:11Z"
-        },
-        {
           "id": "9035c80e73e48866460133b19b95dcba2890f6ca",
           "title": "刺蝟理論：為什麼你最喜歡的聰明人（可能）充滿了狗屎 / The Hedgehog Theory: Why Your Favorite Smart Person Is (Probably) Full of Sh*t",
           "url": "https://www.youtube.com/watch?v=_7bYBL29M6U",
@@ -129,7 +120,7 @@
           "published_at": "2026-06-24T05:16:44Z"
         }
       ],
-      "source_count": 13,
+      "source_count": 12,
       "source_names": [
         "Best Documentary",
         "CaseyNeistat",
@@ -141,8 +132,7 @@
         "【塞掐】訪談大人物",
         "公視P#新聞實驗室",
         "有点艺思哦",
-        "美投侃新闻",
-        "雜書觀察室"
+        "美投侃新闻"
       ],
       "items": [
         {
@@ -200,15 +190,6 @@
           "published_at": "2026-06-24T00:11:02Z"
         },
         {
-          "id": "80005d75e5e1d518557814d2c5f774cc4b64a024",
-          "title": "《由他去吧》The Let Them Theory：停止情緒內耗與控制狂陷阱｜破解大腦杏仁核劫持與重塑人際界線｜行為心理學ABC迴圈改變伴侶｜打破潛力陷阱與嫉妒心態｜讓我來主動防禦與自我成長",
-          "url": "https://www.youtube.com/watch?v=665frTlQUUI",
-          "source": "雜書觀察室",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-06-23T22:00:11Z"
-        },
-        {
           "id": "9035c80e73e48866460133b19b95dcba2890f6ca",
           "title": "刺蝟理論：為什麼你最喜歡的聰明人（可能）充滿了狗屎 / The Hedgehog Theory: Why Your Favorite Smart Person Is (Probably) Full of Sh*t",
           "url": "https://www.youtube.com/watch?v=_7bYBL29M6U",
@@ -263,22 +244,22 @@
           "published_at": "2026-06-24T05:16:44Z"
         }
       ],
-      "item_count": 13,
-      "duplicate_count": 13,
-      "score": 0.7386,
-      "importance": 0.7386,
-      "importance_score": 0.7386,
+      "item_count": 12,
+      "duplicate_count": 12,
+      "score": 0.7226,
+      "importance": 0.7226,
+      "importance_score": 0.7226,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9619,
+        "recency": 0.9087,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-23T22:00:11Z",
+      "earliest_at": "2026-06-24T00:11:02Z",
       "latest_at": "2026-06-24T21:00:21Z",
       "primary_item": {
         "id": "091ca30b302ec486295fef1cdf628a96eedaa03d",
@@ -341,13 +322,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.526,
-      "importance": 0.526,
-      "importance_score": 0.526,
+      "score": 0.5101,
+      "importance": 0.5101,
+      "importance_score": 0.5101,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7534,
+        "recency": 0.7002,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -417,13 +398,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4885,
-      "importance": 0.4885,
-      "importance_score": 0.4885,
+      "score": 0.4725,
+      "importance": 0.4725,
+      "importance_score": 0.4725,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6283,
+        "recency": 0.5752,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -511,13 +492,13 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.451,
-      "importance": 0.451,
-      "importance_score": 0.451,
+      "score": 0.435,
+      "importance": 0.435,
+      "importance_score": 0.435,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.7533,
+        "recency": 0.7001,
         "story_heat": 0.5
       },
       "category": "multi_source",
