@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-06-24T20:19:23.399285Z",
+  "generated_at": "2026-06-24T21:55:16.515473Z",
   "window_hours": 24,
   "total_items": 4,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "阿姆斯特丹：全球資本主義的形成 / Amsterdam: the making of Global Capitalism",
-      "url": "https://www.youtube.com/watch?v=mUElDaZLdt0",
-      "primary_url": "https://www.youtube.com/watch?v=mUElDaZLdt0",
-      "source": "imineo Documentaires",
+      "title": "義大利川普：誰是憤怒的選民？ / The Italian Trump: Who Are the Voters of Anger?",
+      "url": "https://www.youtube.com/watch?v=X5CWMh1A_vI",
+      "primary_url": "https://www.youtube.com/watch?v=X5CWMh1A_vI",
+      "source": "Best Documentary",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "091ca30b302ec486295fef1cdf628a96eedaa03d",
+          "title": "義大利川普：誰是憤怒的選民？ / The Italian Trump: Who Are the Voters of Anger?",
+          "url": "https://www.youtube.com/watch?v=X5CWMh1A_vI",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-24T21:00:21Z"
+        },
         {
           "id": "dd6c5e17e669e94bb5d3115ac1b666321a825e5e",
           "title": "阿姆斯特丹：全球資本主義的形成 / Amsterdam: the making of Global Capitalism",
@@ -64,33 +73,6 @@
           "source_name": "OPML RSS",
           "site_id": "finance",
           "published_at": "2026-06-23T22:00:11Z"
-        },
-        {
-          "id": "68982466b58cc66e274eb1913d2d876c9b17aefd",
-          "title": "自动驾驶撞进客厅！离奇FSD事故推动TSLA股价下跌近6%合理吗？",
-          "url": "https://www.youtube.com/watch?v=zkoEU782LW8",
-          "source": "Shepherd Capital Markets",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-06-23T21:51:07Z"
-        },
-        {
-          "id": "9eceff1d68343412a1634b21b769612fc3668afe",
-          "title": "這個南非訓練營到底發生了什麼事？ / What Really Happens Inside This South African Training Camp?",
-          "url": "https://www.youtube.com/watch?v=creBX4Eubr0",
-          "source": "Best Documentary",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-23T21:00:27Z"
-        },
-        {
-          "id": "e2cb3e38bc6cfe26b5b905dfcdccc23db3f23d76",
-          "title": "史達林格勒：史上最致命的戰役 / Stalingrad: The Deadliest Battle In History",
-          "url": "https://www.youtube.com/watch?v=IOQa3taHOX8",
-          "source": "Timeline - World History Documentaries",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-23T21:00:25Z"
         },
         {
           "id": "9035c80e73e48866460133b19b95dcba2890f6ca",
@@ -147,15 +129,13 @@
           "published_at": "2026-06-24T05:16:44Z"
         }
       ],
-      "source_count": 15,
+      "source_count": 13,
       "source_names": [
         "Best Documentary",
         "CaseyNeistat",
         "CaspianReport",
         "Pursuit of Wonder",
-        "Shepherd Capital Markets",
         "The Circuit with Emily Chang",
-        "Timeline - World History Documentaries",
         "Waxy.org",
         "imineo Documentaires",
         "【塞掐】訪談大人物",
@@ -166,6 +146,15 @@
       ],
       "items": [
         {
+          "id": "091ca30b302ec486295fef1cdf628a96eedaa03d",
+          "title": "義大利川普：誰是憤怒的選民？ / The Italian Trump: Who Are the Voters of Anger?",
+          "url": "https://www.youtube.com/watch?v=X5CWMh1A_vI",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-24T21:00:21Z"
+        },
+        {
           "id": "dd6c5e17e669e94bb5d3115ac1b666321a825e5e",
           "title": "阿姆斯特丹：全球資本主義的形成 / Amsterdam: the making of Global Capitalism",
           "url": "https://www.youtube.com/watch?v=mUElDaZLdt0",
@@ -218,33 +207,6 @@
           "source_name": "OPML RSS",
           "site_id": "finance",
           "published_at": "2026-06-23T22:00:11Z"
-        },
-        {
-          "id": "68982466b58cc66e274eb1913d2d876c9b17aefd",
-          "title": "自动驾驶撞进客厅！离奇FSD事故推动TSLA股价下跌近6%合理吗？",
-          "url": "https://www.youtube.com/watch?v=zkoEU782LW8",
-          "source": "Shepherd Capital Markets",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-06-23T21:51:07Z"
-        },
-        {
-          "id": "9eceff1d68343412a1634b21b769612fc3668afe",
-          "title": "這個南非訓練營到底發生了什麼事？ / What Really Happens Inside This South African Training Camp?",
-          "url": "https://www.youtube.com/watch?v=creBX4Eubr0",
-          "source": "Best Documentary",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-23T21:00:27Z"
-        },
-        {
-          "id": "e2cb3e38bc6cfe26b5b905dfcdccc23db3f23d76",
-          "title": "史達林格勒：史上最致命的戰役 / Stalingrad: The Deadliest Battle In History",
-          "url": "https://www.youtube.com/watch?v=IOQa3taHOX8",
-          "source": "Timeline - World History Documentaries",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-23T21:00:25Z"
         },
         {
           "id": "9035c80e73e48866460133b19b95dcba2890f6ca",
@@ -301,28 +263,28 @@
           "published_at": "2026-06-24T05:16:44Z"
         }
       ],
-      "item_count": 15,
-      "duplicate_count": 15,
-      "score": 0.6804,
-      "importance": 0.6804,
-      "importance_score": 0.6804,
+      "item_count": 13,
+      "duplicate_count": 13,
+      "score": 0.7386,
+      "importance": 0.7386,
+      "importance_score": 0.7386,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.768,
+        "recency": 0.9619,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-23T21:00:25Z",
-      "latest_at": "2026-06-24T17:30:53Z",
+      "earliest_at": "2026-06-23T22:00:11Z",
+      "latest_at": "2026-06-24T21:00:21Z",
       "primary_item": {
-        "id": "dd6c5e17e669e94bb5d3115ac1b666321a825e5e",
-        "title": "阿姆斯特丹：全球資本主義的形成 / Amsterdam: the making of Global Capitalism",
-        "url": "https://www.youtube.com/watch?v=mUElDaZLdt0",
-        "source": "imineo Documentaires",
+        "id": "091ca30b302ec486295fef1cdf628a96eedaa03d",
+        "title": "義大利川普：誰是憤怒的選民？ / The Italian Trump: Who Are the Voters of Anger?",
+        "url": "https://www.youtube.com/watch?v=X5CWMh1A_vI",
+        "source": "Best Documentary",
         "source_name": "OPML RSS"
       }
     },
@@ -379,13 +341,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.546,
-      "importance": 0.546,
-      "importance_score": 0.546,
+      "score": 0.526,
+      "importance": 0.526,
+      "importance_score": 0.526,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.82,
+        "recency": 0.7534,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -455,13 +417,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5085,
-      "importance": 0.5085,
-      "importance_score": 0.5085,
+      "score": 0.4885,
+      "importance": 0.4885,
+      "importance_score": 0.4885,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6949,
+        "recency": 0.6283,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -549,13 +511,13 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.471,
-      "importance": 0.471,
-      "importance_score": 0.471,
+      "score": 0.451,
+      "importance": 0.451,
+      "importance_score": 0.451,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.8199,
+        "recency": 0.7533,
         "story_heat": 0.5
       },
       "category": "multi_source",
