@@ -1,16 +1,34 @@
 {
-  "generated_at": "2026-06-24T04:47:42.977506Z",
+  "generated_at": "2026-06-24T08:26:24.041223Z",
   "window_hours": 24,
-  "total_items": 3,
+  "total_items": 2,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "《由他去吧》The Let Them Theory：停止情緒內耗與控制狂陷阱｜破解大腦杏仁核劫持與重塑人際界線｜行為心理學ABC迴圈改變伴侶｜打破潛力陷阱與嫉妒心態｜讓我來主動防禦與自我成長",
-      "url": "https://www.youtube.com/watch?v=665frTlQUUI",
-      "primary_url": "https://www.youtube.com/watch?v=665frTlQUUI",
-      "source": "雜書觀察室",
+      "title": "這個機器人改變了我的視訊部落格方式 / This Robot Changed How I Vlog",
+      "url": "https://www.youtube.com/watch?v=YxJIHbHXVrs",
+      "primary_url": "https://www.youtube.com/watch?v=YxJIHbHXVrs",
+      "source": "CaseyNeistat",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "0e5448273726b62d13a6766c46845537c9f3e7d9",
+          "title": "這個機器人改變了我的視訊部落格方式 / This Robot Changed How I Vlog",
+          "url": "https://www.youtube.com/watch?v=YxJIHbHXVrs",
+          "source": "CaseyNeistat",
+          "source_name": "OPML RSS",
+          "site_id": "design",
+          "published_at": "2026-06-24T00:45:37Z"
+        },
+        {
+          "id": "991344ed7e149482ed87ac5c90086c44cac9fffc",
+          "title": "小作文引发黑色星期二？大科技出现预警！房地产复苏信号持续！",
+          "url": "https://www.youtube.com/watch?v=jx-KQnr05jM",
+          "source": "美投侃新闻",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-06-24T00:11:02Z"
+        },
         {
           "id": "80005d75e5e1d518557814d2c5f774cc4b64a024",
           "title": "《由他去吧》The Let Them Theory：停止情緒內耗與控制狂陷阱｜破解大腦杏仁核劫持與重塑人際界線｜行為心理學ABC迴圈改變伴侶｜打破潛力陷阱與嫉妒心態｜讓我來主動防禦與自我成長",
@@ -75,6 +93,15 @@
           "published_at": "2026-06-23T09:00:16Z"
         },
         {
+          "id": "5074786ced4fea018f6f4e5dc935d3f20210c146",
+          "title": "翻轉私募市場：Jarsy 如何利用 RWA 技術讓散戶共享獨角獸紅利｜Jarsy 共同創辦人暨營運長 胡怡盈【塞掐 Side Chat】特輯",
+          "url": "https://www.youtube.com/watch?v=bxHNys9pet4",
+          "source": "【塞掐】訪談大人物",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-06-24T03:00:37Z"
+        },
+        {
           "id": "fc34caae76bb4cf973edabaf5fa9ba67f3c5decc",
           "title": "川普在與伊朗的戰爭中投降？ / Trump’s Capitulation in the War with Iran?",
           "url": "https://www.youtube.com/watch?v=jmE3Bh1_IUc",
@@ -82,6 +109,15 @@
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
           "published_at": "2026-06-23T15:00:15Z"
+        },
+        {
+          "id": "882525f116f064422f5a5486b497b3c158be05a8",
+          "title": "墾丁梅花鹿3年增近8成 從絕跡到復育 3600隻真的超出環境承載？｜公視P# 新聞實驗室",
+          "url": "https://www.youtube.com/watch?v=5zkgnSdvHqI",
+          "source": "公視P#新聞實驗室",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-06-24T05:16:44Z"
         },
         {
           "id": "15c3caccbef7f77d69c0d3d2e2828bb14cf2f0f6",
@@ -93,18 +129,40 @@
           "published_at": "2026-06-23T11:30:20Z"
         }
       ],
-      "source_count": 9,
+      "source_count": 13,
       "source_names": [
         "Best Documentary",
+        "CaseyNeistat",
         "DenQ來了",
         "Good Times Bad Times",
         "NPR Music",
         "Shepherd Capital Markets",
         "Timeline - World History Documentaries",
+        "【塞掐】訪談大人物",
+        "公視P#新聞實驗室",
         "忽左忽右",
+        "美投侃新闻",
         "雜書觀察室"
       ],
       "items": [
+        {
+          "id": "0e5448273726b62d13a6766c46845537c9f3e7d9",
+          "title": "這個機器人改變了我的視訊部落格方式 / This Robot Changed How I Vlog",
+          "url": "https://www.youtube.com/watch?v=YxJIHbHXVrs",
+          "source": "CaseyNeistat",
+          "source_name": "OPML RSS",
+          "site_id": "design",
+          "published_at": "2026-06-24T00:45:37Z"
+        },
+        {
+          "id": "991344ed7e149482ed87ac5c90086c44cac9fffc",
+          "title": "小作文引发黑色星期二？大科技出现预警！房地产复苏信号持续！",
+          "url": "https://www.youtube.com/watch?v=jx-KQnr05jM",
+          "source": "美投侃新闻",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-06-24T00:11:02Z"
+        },
         {
           "id": "80005d75e5e1d518557814d2c5f774cc4b64a024",
           "title": "《由他去吧》The Let Them Theory：停止情緒內耗與控制狂陷阱｜破解大腦杏仁核劫持與重塑人際界線｜行為心理學ABC迴圈改變伴侶｜打破潛力陷阱與嫉妒心態｜讓我來主動防禦與自我成長",
@@ -169,6 +227,15 @@
           "published_at": "2026-06-23T09:00:16Z"
         },
         {
+          "id": "5074786ced4fea018f6f4e5dc935d3f20210c146",
+          "title": "翻轉私募市場：Jarsy 如何利用 RWA 技術讓散戶共享獨角獸紅利｜Jarsy 共同創辦人暨營運長 胡怡盈【塞掐 Side Chat】特輯",
+          "url": "https://www.youtube.com/watch?v=bxHNys9pet4",
+          "source": "【塞掐】訪談大人物",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-06-24T03:00:37Z"
+        },
+        {
           "id": "fc34caae76bb4cf973edabaf5fa9ba67f3c5decc",
           "title": "川普在與伊朗的戰爭中投降？ / Trump’s Capitulation in the War with Iran?",
           "url": "https://www.youtube.com/watch?v=jmE3Bh1_IUc",
@@ -176,6 +243,15 @@
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
           "published_at": "2026-06-23T15:00:15Z"
+        },
+        {
+          "id": "882525f116f064422f5a5486b497b3c158be05a8",
+          "title": "墾丁梅花鹿3年增近8成 從絕跡到復育 3600隻真的超出環境承載？｜公視P# 新聞實驗室",
+          "url": "https://www.youtube.com/watch?v=5zkgnSdvHqI",
+          "source": "公視P#新聞實驗室",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-06-24T05:16:44Z"
         },
         {
           "id": "15c3caccbef7f77d69c0d3d2e2828bb14cf2f0f6",
@@ -187,15 +263,15 @@
           "published_at": "2026-06-23T11:30:20Z"
         }
       ],
-      "item_count": 9,
-      "duplicate_count": 9,
-      "score": 0.6651,
-      "importance": 0.6651,
-      "importance_score": 0.6651,
+      "item_count": 13,
+      "duplicate_count": 13,
+      "score": 0.654,
+      "importance": 0.654,
+      "importance_score": 0.654,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.717,
+        "recency": 0.68,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -203,12 +279,12 @@
         "multi_source"
       ],
       "earliest_at": "2026-06-23T09:00:16Z",
-      "latest_at": "2026-06-23T22:00:11Z",
+      "latest_at": "2026-06-24T05:16:44Z",
       "primary_item": {
-        "id": "80005d75e5e1d518557814d2c5f774cc4b64a024",
-        "title": "《由他去吧》The Let Them Theory：停止情緒內耗與控制狂陷阱｜破解大腦杏仁核劫持與重塑人際界線｜行為心理學ABC迴圈改變伴侶｜打破潛力陷阱與嫉妒心態｜讓我來主動防禦與自我成長",
-        "url": "https://www.youtube.com/watch?v=665frTlQUUI",
-        "source": "雜書觀察室",
+        "id": "0e5448273726b62d13a6766c46845537c9f3e7d9",
+        "title": "這個機器人改變了我的視訊部落格方式 / This Robot Changed How I Vlog",
+        "url": "https://www.youtube.com/watch?v=YxJIHbHXVrs",
+        "source": "CaseyNeistat",
         "source_name": "OPML RSS"
       }
     },
@@ -265,13 +341,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.364,
-      "importance": 0.364,
-      "importance_score": 0.364,
+      "score": 0.3185,
+      "importance": 0.3185,
+      "importance_score": 0.3185,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.2134,
+        "recency": 0.0615,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -285,82 +361,6 @@
         "title": "歐盟將從 7 月 1 日起對 150 歐元以下的非歐盟商品徵收 3 歐元的關稅，以減緩 Temu 等零售商的低價商品氾濫（Brendan Murray/彭博社） / The EU is set to impose a €3 duty on non-EU items under €150 from July 1, as the bloc seeks to slow the flood of low-priced merchandise from retailers like Temu (Brendan Murray/Bloomberg)",
         "url": "https://www.techmeme.com/260623/p8",
         "source": "Techmeme",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_ee5505fca529",
-      "title": "巴黎等54省紅色酷熱警告  多地高溫超越40度  全法20人遇溺身亡",
-      "url": "https://europechinese.blogspot.com/2026/06/54-40-20.html",
-      "primary_url": "https://europechinese.blogspot.com/2026/06/54-40-20.html",
-      "source": "歐洲動態(國際)",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "57521163baf75f6ce038aa6157447d2b19b05f48",
-          "title": "巴黎等54省紅色酷熱警告  多地高溫超越40度  全法20人遇溺身亡",
-          "url": "https://europechinese.blogspot.com/2026/06/54-40-20.html",
-          "source": "歐洲動態(國際)",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-06-23T08:12:45Z"
-        },
-        {
-          "id": "992fcfaf1916cb061f632052b434e33e77b6d777",
-          "title": "週三巴黎等58省紅色酷熱警告  全法40人遇溺身亡  鐵塔羅浮宮提早關門避暑",
-          "url": "https://europechinese.blogspot.com/2026/06/54-40-20.html",
-          "source": "歐洲動態(國際)",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-06-23T08:12:45Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "歐洲動態(國際)"
-      ],
-      "items": [
-        {
-          "id": "57521163baf75f6ce038aa6157447d2b19b05f48",
-          "title": "巴黎等54省紅色酷熱警告  多地高溫超越40度  全法20人遇溺身亡",
-          "url": "https://europechinese.blogspot.com/2026/06/54-40-20.html",
-          "source": "歐洲動態(國際)",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-06-23T08:12:45Z"
-        },
-        {
-          "id": "992fcfaf1916cb061f632052b434e33e77b6d777",
-          "title": "週三巴黎等58省紅色酷熱警告  全法40人遇溺身亡  鐵塔羅浮宮提早關門避暑",
-          "url": "https://europechinese.blogspot.com/2026/06/54-40-20.html",
-          "source": "歐洲動態(國際)",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-06-23T08:12:45Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.2177,
-      "importance": 0.2177,
-      "importance_score": 0.2177,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.25,
-        "recency": 0.1424,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-23T08:12:45Z",
-      "latest_at": "2026-06-23T08:12:45Z",
-      "primary_item": {
-        "id": "57521163baf75f6ce038aa6157447d2b19b05f48",
-        "title": "巴黎等54省紅色酷熱警告  多地高溫超越40度  全法20人遇溺身亡",
-        "url": "https://europechinese.blogspot.com/2026/06/54-40-20.html",
-        "source": "歐洲動態(國際)",
         "source_name": "OPML RSS"
       }
     }
