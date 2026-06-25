@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-25T15:26:20.875539Z",
+  "generated_at": "2026-06-25T17:32:18.354386Z",
   "window_hours": 24,
-  "total_items": 5,
+  "total_items": 3,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
@@ -102,15 +102,6 @@
           "published_at": "2026-06-25T07:31:50Z"
         },
         {
-          "id": "9035c80e73e48866460133b19b95dcba2890f6ca",
-          "title": "刺蝟理論：為什麼你最喜歡的聰明人（可能）充滿了狗屎 / The Hedgehog Theory: Why Your Favorite Smart Person Is (Probably) Full of Sh*t",
-          "url": "https://www.youtube.com/watch?v=_7bYBL29M6U",
-          "source": "Pursuit of Wonder",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-24T16:04:32Z"
-        },
-        {
           "id": "57f8e01df5d37c8464bab079d7b8126617e43177",
           "title": "以為攝影機關機了..“他”騙過現場所有人 拍出北韓最不想公開的畫面｜DenQ",
           "url": "https://www.youtube.com/watch?v=WrAd2v3NuAc",
@@ -118,27 +109,16 @@
           "source_name": "OPML RSS",
           "site_id": "trending",
           "published_at": "2026-06-25T10:00:37Z"
-        },
-        {
-          "id": "b605eae4b217eb4b6da8fa5e26b8ffe08878a5b8",
-          "title": "使用油畫即時為 3D 模型添加紋理 / Texturing 3D models in real-time with oil painting",
-          "url": "https://www.youtube.com/watch?v=fdI1ZJtAJmI",
-          "source": "Waxy.org",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-06-24T17:30:53Z"
         }
       ],
-      "source_count": 13,
+      "source_count": 11,
       "source_names": [
         "Best Documentary",
         "DenQ來了",
         "Life Where I'm From",
         "NPR Music",
         "Perspective",
-        "Pursuit of Wonder",
         "Thomas Flight",
-        "Waxy.org",
         "【塞掐】訪談大人物",
         "【隱形工廠｜戶外教學】",
         "探險威狼 Wilang-Explorer",
@@ -236,15 +216,6 @@
           "published_at": "2026-06-25T07:31:50Z"
         },
         {
-          "id": "9035c80e73e48866460133b19b95dcba2890f6ca",
-          "title": "刺蝟理論：為什麼你最喜歡的聰明人（可能）充滿了狗屎 / The Hedgehog Theory: Why Your Favorite Smart Person Is (Probably) Full of Sh*t",
-          "url": "https://www.youtube.com/watch?v=_7bYBL29M6U",
-          "source": "Pursuit of Wonder",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-24T16:04:32Z"
-        },
-        {
           "id": "57f8e01df5d37c8464bab079d7b8126617e43177",
           "title": "以為攝影機關機了..“他”騙過現場所有人 拍出北韓最不想公開的畫面｜DenQ",
           "url": "https://www.youtube.com/watch?v=WrAd2v3NuAc",
@@ -252,33 +223,24 @@
           "source_name": "OPML RSS",
           "site_id": "trending",
           "published_at": "2026-06-25T10:00:37Z"
-        },
-        {
-          "id": "b605eae4b217eb4b6da8fa5e26b8ffe08878a5b8",
-          "title": "使用油畫即時為 3D 模型添加紋理 / Texturing 3D models in real-time with oil painting",
-          "url": "https://www.youtube.com/watch?v=fdI1ZJtAJmI",
-          "source": "Waxy.org",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-06-24T17:30:53Z"
         }
       ],
-      "item_count": 13,
-      "duplicate_count": 13,
-      "score": 0.7336,
-      "importance": 0.7336,
-      "importance_score": 0.7336,
+      "item_count": 11,
+      "duplicate_count": 11,
+      "score": 0.7074,
+      "importance": 0.7074,
+      "importance_score": 0.7074,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9454,
+        "recency": 0.858,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-24T16:04:32Z",
+      "earliest_at": "2026-06-24T21:00:21Z",
       "latest_at": "2026-06-25T14:07:46Z",
       "primary_item": {
         "id": "8eddd49878aaa0b76ecb95831ec4d79f9bc47579",
@@ -341,13 +303,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5279,
-      "importance": 0.5279,
-      "importance_score": 0.5279,
+      "score": 0.5016,
+      "importance": 0.5016,
+      "importance_score": 0.5016,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7595,
+        "recency": 0.6721,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -417,13 +379,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4851,
-      "importance": 0.4851,
-      "importance_score": 0.4851,
+      "score": 0.4589,
+      "importance": 0.4589,
+      "importance_score": 0.4589,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6171,
+        "recency": 0.5296,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -437,176 +399,6 @@
         "title": "拉里·埃里森 (Larry Ellison) 向支持川普總統的團體捐贈 4500 萬美元，如何讓埃里森更深入地融入川普的圈子，幫助甲骨文及其兒子收購 WBD（《華爾街日報》） / How Larry Ellison's $45M donation to a group supporting President Trump brought Ellison deeper into Trump's circle, helping Oracle and his son's WBD acquisition (Wall Street Journal)",
         "url": "https://www.techmeme.com/260625/p9",
         "source": "Techmeme",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_03463545e37b",
-      "title": "現貨：農產品 / At The Money: Agricultural Commodities",
-      "url": "https://ritholtz.com/2026/06/atm-ag-etf",
-      "primary_url": "https://ritholtz.com/2026/06/atm-ag-etf",
-      "source": "The Big Picture",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "b305ff8f0ed5e91a274bd1ed518da90433ee46e7",
-          "title": "現貨：農產品 / At The Money: Agricultural Commodities",
-          "url": "https://ritholtz.com/2026/06/atm-ag-etf",
-          "source": "The Big Picture",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-06-24T16:00:09Z"
-        },
-        {
-          "id": "4712fc3251024058e9b253018b7af259df297e22",
-          "title": "賺錢之道：農產品屬於您的投資組合嗎？ / At The Money: Do Agricultural Commodities Belong in Your Portfolio?",
-          "url": "https://ritholtz.com/2026/06/atm-ag-etf",
-          "source": "The Big Picture",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-06-24T16:00:09Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "The Big Picture"
-      ],
-      "items": [
-        {
-          "id": "b305ff8f0ed5e91a274bd1ed518da90433ee46e7",
-          "title": "現貨：農產品 / At The Money: Agricultural Commodities",
-          "url": "https://ritholtz.com/2026/06/atm-ag-etf",
-          "source": "The Big Picture",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-06-24T16:00:09Z"
-        },
-        {
-          "id": "4712fc3251024058e9b253018b7af259df297e22",
-          "title": "賺錢之道：農產品屬於您的投資組合嗎？ / At The Money: Do Agricultural Commodities Belong in Your Portfolio?",
-          "url": "https://ritholtz.com/2026/06/atm-ag-etf",
-          "source": "The Big Picture",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-06-24T16:00:09Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.307,
-      "importance": 0.307,
-      "importance_score": 0.307,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.5,
-        "recency": 0.0235,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-24T16:00:09Z",
-      "latest_at": "2026-06-24T16:00:09Z",
-      "primary_item": {
-        "id": "b305ff8f0ed5e91a274bd1ed518da90433ee46e7",
-        "title": "現貨：農產品 / At The Money: Agricultural Commodities",
-        "url": "https://ritholtz.com/2026/06/atm-ag-etf",
-        "source": "The Big Picture",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_7d23c0769328",
-      "title": "國旅變了！皮克敏、買菜團熱賣，旅行社怎靠「同好經濟」衝回頭率",
-      "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014363",
-      "primary_url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014363",
-      "source": "商業周刊 當期雜誌開放文章",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "dc90c48c46cb3c61861631304a2a7d0a1fe6686f",
-          "title": "國旅變了！皮克敏、買菜團熱賣，旅行社怎靠「同好經濟」衝回頭率",
-          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014363",
-          "source": "商業周刊 當期雜誌開放文章",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-06-24T16:00:00Z"
-        },
-        {
-          "id": "92b20e98e011e2e0074346bb0290100098e56bfa",
-          "title": "資源砸給孩子，卻釀退休壓力？解析三明治世代資產排序的死結",
-          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014336",
-          "source": "商業周刊 當期雜誌開放文章",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-06-24T16:00:00Z"
-        },
-        {
-          "id": "5a5eec56e2d89139c0efd3944bcd5bcb516d284a",
-          "title": "黃仁勳只訪台韓，但晶片不能沒日本！解密亞洲行的AI鏈靜默王者",
-          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014361",
-          "source": "商業周刊 當期雜誌開放文章",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-06-24T16:00:00Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "商業周刊 當期雜誌開放文章"
-      ],
-      "items": [
-        {
-          "id": "dc90c48c46cb3c61861631304a2a7d0a1fe6686f",
-          "title": "國旅變了！皮克敏、買菜團熱賣，旅行社怎靠「同好經濟」衝回頭率",
-          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014363",
-          "source": "商業周刊 當期雜誌開放文章",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-06-24T16:00:00Z"
-        },
-        {
-          "id": "92b20e98e011e2e0074346bb0290100098e56bfa",
-          "title": "資源砸給孩子，卻釀退休壓力？解析三明治世代資產排序的死結",
-          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014336",
-          "source": "商業周刊 當期雜誌開放文章",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-06-24T16:00:00Z"
-        },
-        {
-          "id": "5a5eec56e2d89139c0efd3944bcd5bcb516d284a",
-          "title": "黃仁勳只訪台韓，但晶片不能沒日本！解密亞洲行的AI鏈靜默王者",
-          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014361",
-          "source": "商業周刊 當期雜誌開放文章",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-06-24T16:00:00Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.232,
-      "importance": 0.232,
-      "importance_score": 0.232,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "source_tier": 0.25,
-        "recency": 0.0234,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-24T16:00:00Z",
-      "latest_at": "2026-06-24T16:00:00Z",
-      "primary_item": {
-        "id": "dc90c48c46cb3c61861631304a2a7d0a1fe6686f",
-        "title": "國旅變了！皮克敏、買菜團熱賣，旅行社怎靠「同好經濟」衝回頭率",
-        "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014363",
-        "source": "商業周刊 當期雜誌開放文章",
         "source_name": "OPML RSS"
       }
     }
