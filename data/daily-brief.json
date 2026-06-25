@@ -1,16 +1,34 @@
 {
-  "generated_at": "2026-06-25T20:10:06.026867Z",
+  "generated_at": "2026-06-25T22:05:44.521301Z",
   "window_hours": 24,
-  "total_items": 3,
+  "total_items": 4,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "城市的最佳密度是多少？ / What is the BEST Density for Cities?",
-      "url": "https://www.youtube.com/watch?v=hkACy-kAzvs",
-      "primary_url": "https://www.youtube.com/watch?v=hkACy-kAzvs",
-      "source": "City Beautiful",
+      "title": "古柯的許多好處——擁有 8,000 多年使用歷史的“神聖之葉” / The Many Benefits of Coca — The “Divine Leaf” with 8,000+ Years of Use",
+      "url": "https://www.youtube.com/watch?v=gL48mHH6ul8",
+      "primary_url": "https://www.youtube.com/watch?v=gL48mHH6ul8",
+      "source": "Tim Ferriss",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "ec065c53090173f10e65c4e935685216d5926cdc",
+          "title": "古柯的許多好處——擁有 8,000 多年使用歷史的“神聖之葉” / The Many Benefits of Coca — The “Divine Leaf” with 8,000+ Years of Use",
+          "url": "https://www.youtube.com/watch?v=gL48mHH6ul8",
+          "source": "Tim Ferriss",
+          "source_name": "OPML RSS",
+          "site_id": "blog",
+          "published_at": "2026-06-25T21:34:52Z"
+        },
+        {
+          "id": "d0c2841d13c44eb404467a32033fb32e6397d696",
+          "title": "How Elite French Winemakers Outsmarted The Nazi's During WW2",
+          "url": "https://www.youtube.com/watch?v=srEPPeLgo-g",
+          "source": "Timeline - World History Documentaries",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-25T21:00:14Z"
+        },
         {
           "id": "6d4803b2972b504ae6e4c6859d640722f07b495d",
           "title": "城市的最佳密度是多少？ / What is the BEST Density for Cities?",
@@ -84,15 +102,6 @@
           "published_at": "2026-06-25T00:31:48Z"
         },
         {
-          "id": "091ca30b302ec486295fef1cdf628a96eedaa03d",
-          "title": "義大利川普：誰是憤怒的選民？ / The Italian Trump: Who Are the Voters of Anger?",
-          "url": "https://www.youtube.com/watch?v=X5CWMh1A_vI",
-          "source": "Best Documentary",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-24T21:00:21Z"
-        },
-        {
           "id": "5cb0bc0d8c5ea81d6ffb58a1e12b631be2cee3c5",
           "title": "【南澳北溪背包艇】刺激激流划船，途中還可以泡野溪溫泉｜探險威狼 Wilang Explorer ｜宜蘭｜南澳｜宜蘭秘境｜溯溪｜溪流｜清澈｜背包艇｜野溪溫泉｜夏天｜Yilan｜Vlog 524",
           "url": "https://www.youtube.com/watch?v=XbyZWNI62yM",
@@ -120,7 +129,7 @@
           "published_at": "2026-06-25T10:00:37Z"
         }
       ],
-      "source_count": 12,
+      "source_count": 13,
       "source_names": [
         "Best Documentary",
         "City Beautiful",
@@ -129,12 +138,32 @@
         "NPR Music",
         "Perspective",
         "Thomas Flight",
+        "Tim Ferriss",
+        "Timeline - World History Documentaries",
         "【塞掐】訪談大人物",
         "【隱形工廠｜戶外教學】",
         "探險威狼 Wilang-Explorer",
         "美投侃新闻"
       ],
       "items": [
+        {
+          "id": "ec065c53090173f10e65c4e935685216d5926cdc",
+          "title": "古柯的許多好處——擁有 8,000 多年使用歷史的“神聖之葉” / The Many Benefits of Coca — The “Divine Leaf” with 8,000+ Years of Use",
+          "url": "https://www.youtube.com/watch?v=gL48mHH6ul8",
+          "source": "Tim Ferriss",
+          "source_name": "OPML RSS",
+          "site_id": "blog",
+          "published_at": "2026-06-25T21:34:52Z"
+        },
+        {
+          "id": "d0c2841d13c44eb404467a32033fb32e6397d696",
+          "title": "How Elite French Winemakers Outsmarted The Nazi's During WW2",
+          "url": "https://www.youtube.com/watch?v=srEPPeLgo-g",
+          "source": "Timeline - World History Documentaries",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-25T21:00:14Z"
+        },
         {
           "id": "6d4803b2972b504ae6e4c6859d640722f07b495d",
           "title": "城市的最佳密度是多少？ / What is the BEST Density for Cities?",
@@ -208,15 +237,6 @@
           "published_at": "2026-06-25T00:31:48Z"
         },
         {
-          "id": "091ca30b302ec486295fef1cdf628a96eedaa03d",
-          "title": "義大利川普：誰是憤怒的選民？ / The Italian Trump: Who Are the Voters of Anger?",
-          "url": "https://www.youtube.com/watch?v=X5CWMh1A_vI",
-          "source": "Best Documentary",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-24T21:00:21Z"
-        },
-        {
           "id": "5cb0bc0d8c5ea81d6ffb58a1e12b631be2cee3c5",
           "title": "【南澳北溪背包艇】刺激激流划船，途中還可以泡野溪溫泉｜探險威狼 Wilang Explorer ｜宜蘭｜南澳｜宜蘭秘境｜溯溪｜溪流｜清澈｜背包艇｜野溪溫泉｜夏天｜Yilan｜Vlog 524",
           "url": "https://www.youtube.com/watch?v=XbyZWNI62yM",
@@ -244,28 +264,104 @@
           "published_at": "2026-06-25T10:00:37Z"
         }
       ],
-      "item_count": 12,
-      "duplicate_count": 12,
-      "score": 0.7159,
-      "importance": 0.7159,
-      "importance_score": 0.7159,
+      "item_count": 13,
+      "duplicate_count": 13,
+      "score": 0.7436,
+      "importance": 0.7436,
+      "importance_score": 0.7436,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.8864,
+        "recency": 0.9786,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-24T21:00:21Z",
-      "latest_at": "2026-06-25T17:26:33Z",
+      "earliest_at": "2026-06-25T00:31:48Z",
+      "latest_at": "2026-06-25T21:34:52Z",
       "primary_item": {
-        "id": "6d4803b2972b504ae6e4c6859d640722f07b495d",
-        "title": "城市的最佳密度是多少？ / What is the BEST Density for Cities?",
-        "url": "https://www.youtube.com/watch?v=hkACy-kAzvs",
-        "source": "City Beautiful",
+        "id": "ec065c53090173f10e65c4e935685216d5926cdc",
+        "title": "古柯的許多好處——擁有 8,000 多年使用歷史的“神聖之葉” / The Many Benefits of Coca — The “Divine Leaf” with 8,000+ Years of Use",
+        "url": "https://www.youtube.com/watch?v=gL48mHH6ul8",
+        "source": "Tim Ferriss",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_8334129124f7",
+      "title": "美國根據 CHIPS 計劃向億萬富翁羅伯特·弗里德蘭 (Robert Friedland) 聯合創立的一家新創公司撥款 2.5 億美元，用於開發碳化矽晶片和脈衝功率技術（James Attwood/彭博社） / The US awarded $250M under the CHIPS program to a startup co-founded by billionaire Robert Friedland to develop silicon-carbide chips and pulsed-power tech (James Attwood/Bloomberg)",
+      "url": "https://www.techmeme.com/260625/p42",
+      "primary_url": "https://www.techmeme.com/260625/p42",
+      "source": "Techmeme",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "3a6efb3f95942eef54a96e8df3c099e9d605ad1c",
+          "title": "美國根據 CHIPS 計劃向億萬富翁羅伯特·弗里德蘭 (Robert Friedland) 聯合創立的一家新創公司撥款 2.5 億美元，用於開發碳化矽晶片和脈衝功率技術（James Attwood/彭博社） / The US awarded $250M under the CHIPS program to a startup co-founded by billionaire Robert Friedland to develop silicon-carbide chips and pulsed-power tech (James Attwood/Bloomberg)",
+          "url": "https://www.techmeme.com/260625/p42",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-06-25T20:05:01Z"
+        },
+        {
+          "id": "f40e0e460a24225f62d4688890fea2c4ca17f51c",
+          "title": "美國向億萬富翁礦業巨頭羅伯特·弗里德蘭 (Robert Friedland) 聯合創立的一家新創公司提供 2.5 億美元的 CHIPS 基金，用於開發碳化矽晶片和脈衝功率技術（James Attwood/彭博社） / The US awards $250M in CHIPS funds to a startup co-founded by billionaire mining magnate Robert Friedland to develop silicon-carbide chips and pulsed-power tech (James Attwood/Bloomberg)",
+          "url": "https://www.techmeme.com/260625/p42",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-06-25T20:05:01Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Techmeme"
+      ],
+      "items": [
+        {
+          "id": "3a6efb3f95942eef54a96e8df3c099e9d605ad1c",
+          "title": "美國根據 CHIPS 計劃向億萬富翁羅伯特·弗里德蘭 (Robert Friedland) 聯合創立的一家新創公司撥款 2.5 億美元，用於開發碳化矽晶片和脈衝功率技術（James Attwood/彭博社） / The US awarded $250M under the CHIPS program to a startup co-founded by billionaire Robert Friedland to develop silicon-carbide chips and pulsed-power tech (James Attwood/Bloomberg)",
+          "url": "https://www.techmeme.com/260625/p42",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-06-25T20:05:01Z"
+        },
+        {
+          "id": "f40e0e460a24225f62d4688890fea2c4ca17f51c",
+          "title": "美國向億萬富翁礦業巨頭羅伯特·弗里德蘭 (Robert Friedland) 聯合創立的一家新創公司提供 2.5 億美元的 CHIPS 基金，用於開發碳化矽晶片和脈衝功率技術（James Attwood/彭博社） / The US awards $250M in CHIPS funds to a startup co-founded by billionaire mining magnate Robert Friedland to develop silicon-carbide chips and pulsed-power tech (James Attwood/Bloomberg)",
+          "url": "https://www.techmeme.com/260625/p42",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-06-25T20:05:01Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5748,
+      "importance": 0.5748,
+      "importance_score": 0.5748,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.5,
+        "recency": 0.9162,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-25T20:05:01Z",
+      "latest_at": "2026-06-25T20:05:01Z",
+      "primary_item": {
+        "id": "3a6efb3f95942eef54a96e8df3c099e9d605ad1c",
+        "title": "美國根據 CHIPS 計劃向億萬富翁羅伯特·弗里德蘭 (Robert Friedland) 聯合創立的一家新創公司撥款 2.5 億美元，用於開發碳化矽晶片和脈衝功率技術（James Attwood/彭博社） / The US awarded $250M under the CHIPS program to a startup co-founded by billionaire Robert Friedland to develop silicon-carbide chips and pulsed-power tech (James Attwood/Bloomberg)",
+        "url": "https://www.techmeme.com/260625/p42",
+        "source": "Techmeme",
         "source_name": "OPML RSS"
       }
     },
@@ -322,13 +418,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4687,
-      "importance": 0.4687,
-      "importance_score": 0.4687,
+      "score": 0.4447,
+      "importance": 0.4447,
+      "importance_score": 0.4447,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.5625,
+        "recency": 0.4822,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -398,13 +494,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.426,
-      "importance": 0.426,
-      "importance_score": 0.426,
+      "score": 0.4019,
+      "importance": 0.4019,
+      "importance_score": 0.4019,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.4201,
+        "recency": 0.3398,
         "story_heat": 0.25
       },
       "category": "watch",
