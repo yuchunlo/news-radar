@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-06-25T17:32:18.354386Z",
+  "generated_at": "2026-06-25T20:10:06.026867Z",
   "window_hours": 24,
   "total_items": 3,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "讚揚精彩的配音 / In Praise of Brilliant Voiceover",
-      "url": "https://www.youtube.com/watch?v=dluP9Lo5uos",
-      "primary_url": "https://www.youtube.com/watch?v=dluP9Lo5uos",
-      "source": "Thomas Flight",
+      "title": "城市的最佳密度是多少？ / What is the BEST Density for Cities?",
+      "url": "https://www.youtube.com/watch?v=hkACy-kAzvs",
+      "primary_url": "https://www.youtube.com/watch?v=hkACy-kAzvs",
+      "source": "City Beautiful",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "6d4803b2972b504ae6e4c6859d640722f07b495d",
+          "title": "城市的最佳密度是多少？ / What is the BEST Density for Cities?",
+          "url": "https://www.youtube.com/watch?v=hkACy-kAzvs",
+          "source": "City Beautiful",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-25T17:26:33Z"
+        },
         {
           "id": "8eddd49878aaa0b76ecb95831ec4d79f9bc47579",
           "title": "讚揚精彩的配音 / In Praise of Brilliant Voiceover",
@@ -111,9 +120,10 @@
           "published_at": "2026-06-25T10:00:37Z"
         }
       ],
-      "source_count": 11,
+      "source_count": 12,
       "source_names": [
         "Best Documentary",
+        "City Beautiful",
         "DenQ來了",
         "Life Where I'm From",
         "NPR Music",
@@ -126,6 +136,15 @@
       ],
       "items": [
         {
+          "id": "6d4803b2972b504ae6e4c6859d640722f07b495d",
+          "title": "城市的最佳密度是多少？ / What is the BEST Density for Cities?",
+          "url": "https://www.youtube.com/watch?v=hkACy-kAzvs",
+          "source": "City Beautiful",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-25T17:26:33Z"
+        },
+        {
           "id": "8eddd49878aaa0b76ecb95831ec4d79f9bc47579",
           "title": "讚揚精彩的配音 / In Praise of Brilliant Voiceover",
           "url": "https://www.youtube.com/watch?v=dluP9Lo5uos",
@@ -225,15 +244,15 @@
           "published_at": "2026-06-25T10:00:37Z"
         }
       ],
-      "item_count": 11,
-      "duplicate_count": 11,
-      "score": 0.7074,
-      "importance": 0.7074,
-      "importance_score": 0.7074,
+      "item_count": 12,
+      "duplicate_count": 12,
+      "score": 0.7159,
+      "importance": 0.7159,
+      "importance_score": 0.7159,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.858,
+        "recency": 0.8864,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -241,12 +260,12 @@
         "multi_source"
       ],
       "earliest_at": "2026-06-24T21:00:21Z",
-      "latest_at": "2026-06-25T14:07:46Z",
+      "latest_at": "2026-06-25T17:26:33Z",
       "primary_item": {
-        "id": "8eddd49878aaa0b76ecb95831ec4d79f9bc47579",
-        "title": "讚揚精彩的配音 / In Praise of Brilliant Voiceover",
-        "url": "https://www.youtube.com/watch?v=dluP9Lo5uos",
-        "source": "Thomas Flight",
+        "id": "6d4803b2972b504ae6e4c6859d640722f07b495d",
+        "title": "城市的最佳密度是多少？ / What is the BEST Density for Cities?",
+        "url": "https://www.youtube.com/watch?v=hkACy-kAzvs",
+        "source": "City Beautiful",
         "source_name": "OPML RSS"
       }
     },
@@ -303,13 +322,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5016,
-      "importance": 0.5016,
-      "importance_score": 0.5016,
+      "score": 0.4687,
+      "importance": 0.4687,
+      "importance_score": 0.4687,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6721,
+        "recency": 0.5625,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -379,13 +398,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4589,
-      "importance": 0.4589,
-      "importance_score": 0.4589,
+      "score": 0.426,
+      "importance": 0.426,
+      "importance_score": 0.426,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.5296,
+        "recency": 0.4201,
         "story_heat": 0.25
       },
       "category": "watch",
