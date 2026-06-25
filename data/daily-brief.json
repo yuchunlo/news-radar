@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-06-24T23:11:50.292064Z",
+  "generated_at": "2026-06-25T01:32:51.400433Z",
   "window_hours": 24,
   "total_items": 4,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "義大利川普：誰是憤怒的選民？ / The Italian Trump: Who Are the Voters of Anger?",
-      "url": "https://www.youtube.com/watch?v=X5CWMh1A_vI",
-      "primary_url": "https://www.youtube.com/watch?v=X5CWMh1A_vI",
-      "source": "Best Documentary",
+      "title": "美光粉碎噪音！ASIC份额超GPU！黄金神话破灭！谷歌进入道指魔咒？",
+      "url": "https://www.youtube.com/watch?v=MOWRzfC-6Jk",
+      "primary_url": "https://www.youtube.com/watch?v=MOWRzfC-6Jk",
+      "source": "美投侃新闻",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "77bf5a8502143547a65dca6d4bbb99e894c1f19e",
+          "title": "美光粉碎噪音！ASIC份额超GPU！黄金神话破灭！谷歌进入道指魔咒？",
+          "url": "https://www.youtube.com/watch?v=MOWRzfC-6Jk",
+          "source": "美投侃新闻",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-06-25T00:31:48Z"
+        },
         {
           "id": "091ca30b302ec486295fef1cdf628a96eedaa03d",
           "title": "義大利川普：誰是憤怒的選民？ / The Italian Trump: Who Are the Voters of Anger?",
@@ -46,24 +55,6 @@
           "source_name": "OPML RSS",
           "site_id": "culture",
           "published_at": "2026-06-24T11:56:33Z"
-        },
-        {
-          "id": "0e5448273726b62d13a6766c46845537c9f3e7d9",
-          "title": "這個機器人改變了我的視訊部落格方式 / This Robot Changed How I Vlog",
-          "url": "https://www.youtube.com/watch?v=YxJIHbHXVrs",
-          "source": "CaseyNeistat",
-          "source_name": "OPML RSS",
-          "site_id": "design",
-          "published_at": "2026-06-24T00:45:37Z"
-        },
-        {
-          "id": "991344ed7e149482ed87ac5c90086c44cac9fffc",
-          "title": "小作文引发黑色星期二？大科技出现预警！房地产复苏信号持续！",
-          "url": "https://www.youtube.com/watch?v=jx-KQnr05jM",
-          "source": "美投侃新闻",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-06-24T00:11:02Z"
         },
         {
           "id": "9035c80e73e48866460133b19b95dcba2890f6ca",
@@ -120,10 +111,9 @@
           "published_at": "2026-06-24T05:16:44Z"
         }
       ],
-      "source_count": 12,
+      "source_count": 11,
       "source_names": [
         "Best Documentary",
-        "CaseyNeistat",
         "CaspianReport",
         "Pursuit of Wonder",
         "The Circuit with Emily Chang",
@@ -136,6 +126,15 @@
       ],
       "items": [
         {
+          "id": "77bf5a8502143547a65dca6d4bbb99e894c1f19e",
+          "title": "美光粉碎噪音！ASIC份额超GPU！黄金神话破灭！谷歌进入道指魔咒？",
+          "url": "https://www.youtube.com/watch?v=MOWRzfC-6Jk",
+          "source": "美投侃新闻",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-06-25T00:31:48Z"
+        },
+        {
           "id": "091ca30b302ec486295fef1cdf628a96eedaa03d",
           "title": "義大利川普：誰是憤怒的選民？ / The Italian Trump: Who Are the Voters of Anger?",
           "url": "https://www.youtube.com/watch?v=X5CWMh1A_vI",
@@ -170,24 +169,6 @@
           "source_name": "OPML RSS",
           "site_id": "culture",
           "published_at": "2026-06-24T11:56:33Z"
-        },
-        {
-          "id": "0e5448273726b62d13a6766c46845537c9f3e7d9",
-          "title": "這個機器人改變了我的視訊部落格方式 / This Robot Changed How I Vlog",
-          "url": "https://www.youtube.com/watch?v=YxJIHbHXVrs",
-          "source": "CaseyNeistat",
-          "source_name": "OPML RSS",
-          "site_id": "design",
-          "published_at": "2026-06-24T00:45:37Z"
-        },
-        {
-          "id": "991344ed7e149482ed87ac5c90086c44cac9fffc",
-          "title": "小作文引发黑色星期二？大科技出现预警！房地产复苏信号持续！",
-          "url": "https://www.youtube.com/watch?v=jx-KQnr05jM",
-          "source": "美投侃新闻",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-06-24T00:11:02Z"
         },
         {
           "id": "9035c80e73e48866460133b19b95dcba2890f6ca",
@@ -244,28 +225,28 @@
           "published_at": "2026-06-24T05:16:44Z"
         }
       ],
-      "item_count": 12,
-      "duplicate_count": 12,
-      "score": 0.7226,
-      "importance": 0.7226,
-      "importance_score": 0.7226,
+      "item_count": 11,
+      "duplicate_count": 11,
+      "score": 0.7373,
+      "importance": 0.7373,
+      "importance_score": 0.7373,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9087,
+        "recency": 0.9576,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-24T00:11:02Z",
-      "latest_at": "2026-06-24T21:00:21Z",
+      "earliest_at": "2026-06-24T03:00:37Z",
+      "latest_at": "2026-06-25T00:31:48Z",
       "primary_item": {
-        "id": "091ca30b302ec486295fef1cdf628a96eedaa03d",
-        "title": "義大利川普：誰是憤怒的選民？ / The Italian Trump: Who Are the Voters of Anger?",
-        "url": "https://www.youtube.com/watch?v=X5CWMh1A_vI",
-        "source": "Best Documentary",
+        "id": "77bf5a8502143547a65dca6d4bbb99e894c1f19e",
+        "title": "美光粉碎噪音！ASIC份额超GPU！黄金神话破灭！谷歌进入道指魔咒？",
+        "url": "https://www.youtube.com/watch?v=MOWRzfC-6Jk",
+        "source": "美投侃新闻",
         "source_name": "OPML RSS"
       }
     },
@@ -322,13 +303,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5101,
-      "importance": 0.5101,
-      "importance_score": 0.5101,
+      "score": 0.4807,
+      "importance": 0.4807,
+      "importance_score": 0.4807,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7002,
+        "recency": 0.6023,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -398,13 +379,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4725,
-      "importance": 0.4725,
-      "importance_score": 0.4725,
+      "score": 0.4432,
+      "importance": 0.4432,
+      "importance_score": 0.4432,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.5752,
+        "recency": 0.4772,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -492,13 +473,13 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.435,
-      "importance": 0.435,
-      "importance_score": 0.435,
+      "score": 0.4057,
+      "importance": 0.4057,
+      "importance_score": 0.4057,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.7001,
+        "recency": 0.6022,
         "story_heat": 0.5
       },
       "category": "multi_source",
