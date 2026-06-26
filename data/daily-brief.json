@@ -1,16 +1,34 @@
 {
-  "generated_at": "2026-06-26T11:25:47.584406Z",
+  "generated_at": "2026-06-26T13:32:29.688403Z",
   "window_hours": 24,
   "total_items": 3,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "特番｜染料、合成氨与塑料：化工如何塑造20世纪人类历史",
-      "url": "https://www.youtube.com/watch?v=7Iysvd_xnbg",
-      "primary_url": "https://www.youtube.com/watch?v=7Iysvd_xnbg",
-      "source": "忽左忽右",
+      "title": "委內瑞拉的黑社會：獨家調查紀錄片 / Venezuela's Underworld: EXCLUSIVE and INVESTIGATIVE Documentary",
+      "url": "https://www.youtube.com/watch?v=5ReFu1X07ZU",
+      "primary_url": "https://www.youtube.com/watch?v=5ReFu1X07ZU",
+      "source": "Best Documentary",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "94ab689bff7ad6ea177e1f69fb2a927a53c4f765",
+          "title": "委內瑞拉的黑社會：獨家調查紀錄片 / Venezuela's Underworld: EXCLUSIVE and INVESTIGATIVE Documentary",
+          "url": "https://www.youtube.com/watch?v=5ReFu1X07ZU",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-26T12:00:02Z"
+        },
+        {
+          "id": "ef0cb495cc3cae2683f26b4aeba63331ea67fad4",
+          "title": "「素食」不用米饭也能做寿司！黄瓜素奶酪寿司🥒低卡高颜值 |【Vegan】No-Cook Vegan Cucumber Sushi🥒 Light, Fresh & Delicious",
+          "url": "https://www.youtube.com/watch?v=-oio5uD_EaY",
+          "source": "Chu's Vegan",
+          "source_name": "OPML RSS",
+          "site_id": "convivium",
+          "published_at": "2026-06-26T11:30:28Z"
+        },
         {
           "id": "06bbf6acb48a7a6acd69c3e5e4bb8247a4bfacb7",
           "title": "特番｜染料、合成氨与塑料：化工如何塑造20世纪人类历史",
@@ -84,22 +102,13 @@
           "published_at": "2026-06-25T14:07:46Z"
         },
         {
-          "id": "7f52a9f99d145d4fc988c4008cfac293bebeef68",
-          "title": "伊莉莎白女王一世如何利用肖像來塑造她的權力和遺產 / How Queen Elizabeth I Used Portraits to Shape Her Power and Legacy",
-          "url": "https://www.youtube.com/watch?v=hKgx4p8-3L4",
-          "source": "Perspective",
+          "id": "7be1bde769804c574a8e0097463d664a7fcaa1b1",
+          "title": "實力超強卻多次被豪門放棄，進球不慶祝、連奪冠也面無表情的冷面刺客！他才是法國隊最重要的球員？｜Nonchalant - Michael Olise 人物誌",
+          "url": "https://www.youtube.com/watch?v=gZ1cWwg5KBw",
+          "source": "沙發人物誌",
           "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-25T12:00:31Z"
-        },
-        {
-          "id": "813afd786ac0b114dcc7a6d26a65e037d4a01cd4",
-          "title": "在芝加哥街頭生存 / Surviving the Streets of Chicago",
-          "url": "https://www.youtube.com/watch?v=8qg6z7ldG4s",
-          "source": "Best Documentary",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-25T12:00:16Z"
+          "site_id": "opmlrss",
+          "published_at": "2026-06-26T12:00:02Z"
         },
         {
           "id": "ab6758553b46b84329913be5a4e49f7e921c1fe7",
@@ -129,23 +138,42 @@
           "published_at": "2026-06-26T10:00:21Z"
         }
       ],
-      "source_count": 13,
+      "source_count": 14,
       "source_names": [
         "Best Documentary",
+        "Chu's Vegan",
         "City Beautiful",
         "DenQ來了",
         "Manuel Bravo",
-        "Perspective",
         "Shepherd Capital Markets",
         "Thomas Flight",
         "Tim Ferriss",
         "Timeline - World History Documentaries",
         "【塞掐】訪談大人物",
         "忽左忽右",
+        "沙發人物誌",
         "美投侃新闻",
         "胖貓堂主"
       ],
       "items": [
+        {
+          "id": "94ab689bff7ad6ea177e1f69fb2a927a53c4f765",
+          "title": "委內瑞拉的黑社會：獨家調查紀錄片 / Venezuela's Underworld: EXCLUSIVE and INVESTIGATIVE Documentary",
+          "url": "https://www.youtube.com/watch?v=5ReFu1X07ZU",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-26T12:00:02Z"
+        },
+        {
+          "id": "ef0cb495cc3cae2683f26b4aeba63331ea67fad4",
+          "title": "「素食」不用米饭也能做寿司！黄瓜素奶酪寿司🥒低卡高颜值 |【Vegan】No-Cook Vegan Cucumber Sushi🥒 Light, Fresh & Delicious",
+          "url": "https://www.youtube.com/watch?v=-oio5uD_EaY",
+          "source": "Chu's Vegan",
+          "source_name": "OPML RSS",
+          "site_id": "convivium",
+          "published_at": "2026-06-26T11:30:28Z"
+        },
         {
           "id": "06bbf6acb48a7a6acd69c3e5e4bb8247a4bfacb7",
           "title": "特番｜染料、合成氨与塑料：化工如何塑造20世纪人类历史",
@@ -219,22 +247,13 @@
           "published_at": "2026-06-25T14:07:46Z"
         },
         {
-          "id": "7f52a9f99d145d4fc988c4008cfac293bebeef68",
-          "title": "伊莉莎白女王一世如何利用肖像來塑造她的權力和遺產 / How Queen Elizabeth I Used Portraits to Shape Her Power and Legacy",
-          "url": "https://www.youtube.com/watch?v=hKgx4p8-3L4",
-          "source": "Perspective",
+          "id": "7be1bde769804c574a8e0097463d664a7fcaa1b1",
+          "title": "實力超強卻多次被豪門放棄，進球不慶祝、連奪冠也面無表情的冷面刺客！他才是法國隊最重要的球員？｜Nonchalant - Michael Olise 人物誌",
+          "url": "https://www.youtube.com/watch?v=gZ1cWwg5KBw",
+          "source": "沙發人物誌",
           "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-25T12:00:31Z"
-        },
-        {
-          "id": "813afd786ac0b114dcc7a6d26a65e037d4a01cd4",
-          "title": "在芝加哥街頭生存 / Surviving the Streets of Chicago",
-          "url": "https://www.youtube.com/watch?v=8qg6z7ldG4s",
-          "source": "Best Documentary",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-25T12:00:16Z"
+          "site_id": "opmlrss",
+          "published_at": "2026-06-26T12:00:02Z"
         },
         {
           "id": "ab6758553b46b84329913be5a4e49f7e921c1fe7",
@@ -264,28 +283,28 @@
           "published_at": "2026-06-26T10:00:21Z"
         }
       ],
-      "item_count": 13,
-      "duplicate_count": 13,
-      "score": 0.7249,
-      "importance": 0.7249,
-      "importance_score": 0.7249,
+      "item_count": 14,
+      "duplicate_count": 14,
+      "score": 0.7307,
+      "importance": 0.7307,
+      "importance_score": 0.7307,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9163,
+        "recency": 0.9358,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-25T12:00:16Z",
-      "latest_at": "2026-06-26T10:00:21Z",
+      "earliest_at": "2026-06-25T14:07:46Z",
+      "latest_at": "2026-06-26T12:00:02Z",
       "primary_item": {
-        "id": "06bbf6acb48a7a6acd69c3e5e4bb8247a4bfacb7",
-        "title": "特番｜染料、合成氨与塑料：化工如何塑造20世纪人类历史",
-        "url": "https://www.youtube.com/watch?v=7Iysvd_xnbg",
-        "source": "忽左忽右",
+        "id": "94ab689bff7ad6ea177e1f69fb2a927a53c4f765",
+        "title": "委內瑞拉的黑社會：獨家調查紀錄片 / Venezuela's Underworld: EXCLUSIVE and INVESTIGATIVE Documentary",
+        "url": "https://www.youtube.com/watch?v=5ReFu1X07ZU",
+        "source": "Best Documentary",
         "source_name": "OPML RSS"
       }
     },
@@ -343,13 +362,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4141,
-      "importance": 0.4141,
-      "importance_score": 0.4141,
+      "score": 0.3877,
+      "importance": 0.3877,
+      "importance_score": 0.3877,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.3804,
+        "recency": 0.2924,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -419,13 +438,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4082,
-      "importance": 0.4082,
-      "importance_score": 0.4082,
+      "score": 0.3818,
+      "importance": 0.3818,
+      "importance_score": 0.3818,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.3606,
+        "recency": 0.2726,
         "story_heat": 0.25
       },
       "category": "watch",
