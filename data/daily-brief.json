@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T16:21:48.476043Z",
+  "generated_at": "2026-06-26T18:11:29.446201Z",
   "window_hours": 24,
   "total_items": 7,
   "items": [
@@ -93,15 +93,6 @@
           "published_at": "2026-06-25T19:29:10Z"
         },
         {
-          "id": "6d4803b2972b504ae6e4c6859d640722f07b495d",
-          "title": "城市的最佳密度是多少？ / What is the BEST Density for Cities?",
-          "url": "https://www.youtube.com/watch?v=hkACy-kAzvs",
-          "source": "City Beautiful",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-25T17:26:33Z"
-        },
-        {
           "id": "7be1bde769804c574a8e0097463d664a7fcaa1b1",
           "title": "實力超強卻多次被豪門放棄，進球不慶祝、連奪冠也面無表情的冷面刺客！他才是法國隊最重要的球員？｜Nonchalant - Michael Olise 人物誌",
           "url": "https://www.youtube.com/watch?v=gZ1cWwg5KBw",
@@ -129,6 +120,15 @@
           "published_at": "2026-06-26T04:00:04Z"
         },
         {
+          "id": "11b809d00dbf992771dd0407984c3c3ebf086d24",
+          "title": "紐約監管，馬德里創新 / New York Regulates, Madrid Innovates",
+          "url": "https://www.youtube.com/watch?v=utt-KnIMB3o",
+          "source": "Hoog",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-06-26T16:41:07Z"
+        },
+        {
           "id": "ffe5fd3062b7167c24d2c69e71888f4b312ac30b",
           "title": "女團赴日拍片差點成‘肩撞男’目標/  張員瑛機場全露臉/女星遭判刑10年宣布回歸/GDx玩具總動員/  KPOP搶票大改｜DenQ",
           "url": "https://www.youtube.com/watch?v=00oHTeknVVU",
@@ -142,8 +142,8 @@
       "source_names": [
         "Best Documentary",
         "Chu's Vegan",
-        "City Beautiful",
         "DenQ來了",
+        "Hoog",
         "Manuel Bravo",
         "Shepherd Capital Markets",
         "Tim Ferriss",
@@ -238,15 +238,6 @@
           "published_at": "2026-06-25T19:29:10Z"
         },
         {
-          "id": "6d4803b2972b504ae6e4c6859d640722f07b495d",
-          "title": "城市的最佳密度是多少？ / What is the BEST Density for Cities?",
-          "url": "https://www.youtube.com/watch?v=hkACy-kAzvs",
-          "source": "City Beautiful",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-25T17:26:33Z"
-        },
-        {
           "id": "7be1bde769804c574a8e0097463d664a7fcaa1b1",
           "title": "實力超強卻多次被豪門放棄，進球不慶祝、連奪冠也面無表情的冷面刺客！他才是法國隊最重要的球員？｜Nonchalant - Michael Olise 人物誌",
           "url": "https://www.youtube.com/watch?v=gZ1cWwg5KBw",
@@ -274,6 +265,15 @@
           "published_at": "2026-06-26T04:00:04Z"
         },
         {
+          "id": "11b809d00dbf992771dd0407984c3c3ebf086d24",
+          "title": "紐約監管，馬德里創新 / New York Regulates, Madrid Innovates",
+          "url": "https://www.youtube.com/watch?v=utt-KnIMB3o",
+          "source": "Hoog",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-06-26T16:41:07Z"
+        },
+        {
           "id": "ffe5fd3062b7167c24d2c69e71888f4b312ac30b",
           "title": "女團赴日拍片差點成‘肩撞男’目標/  張員瑛機場全露臉/女星遭判刑10年宣布回歸/GDx玩具總動員/  KPOP搶票大改｜DenQ",
           "url": "https://www.youtube.com/watch?v=00oHTeknVVU",
@@ -285,21 +285,21 @@
       ],
       "item_count": 14,
       "duplicate_count": 14,
-      "score": 0.7299,
-      "importance": 0.7299,
-      "importance_score": 0.7299,
+      "score": 0.7071,
+      "importance": 0.7071,
+      "importance_score": 0.7071,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9331,
+        "recency": 0.857,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-25T17:26:33Z",
-      "latest_at": "2026-06-26T14:45:32Z",
+      "earliest_at": "2026-06-25T19:29:10Z",
+      "latest_at": "2026-06-26T16:41:07Z",
       "primary_item": {
         "id": "fd9dbcfa6e4649f57cd332297e3aa0efe57b23a6",
         "title": "巨型體育場：21 世紀足球的大教堂 / Megastadium : Les cathédrales du Football au XXIe Siècle",
@@ -361,13 +361,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5246,
-      "importance": 0.5246,
-      "importance_score": 0.5246,
+      "score": 0.5018,
+      "importance": 0.5018,
+      "importance_score": 0.5018,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7487,
+        "recency": 0.6726,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -437,13 +437,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4569,
-      "importance": 0.4569,
-      "importance_score": 0.4569,
+      "score": 0.4341,
+      "importance": 0.4341,
+      "importance_score": 0.4341,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.5231,
+        "recency": 0.4469,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -513,13 +513,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4465,
-      "importance": 0.4465,
-      "importance_score": 0.4465,
+      "score": 0.4237,
+      "importance": 0.4237,
+      "importance_score": 0.4237,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.4883,
+        "recency": 0.4122,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -590,13 +590,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3525,
-      "importance": 0.3525,
-      "importance_score": 0.3525,
+      "score": 0.3296,
+      "importance": 0.3296,
+      "importance_score": 0.3296,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.1749,
+        "recency": 0.0987,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -666,13 +666,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4288,
-      "importance": 0.4288,
-      "importance_score": 0.4288,
+      "score": 0.4059,
+      "importance": 0.4059,
+      "importance_score": 0.4059,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.4293,
+        "recency": 0.3531,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -742,13 +742,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3465,
-      "importance": 0.3465,
-      "importance_score": 0.3465,
+      "score": 0.3237,
+      "importance": 0.3237,
+      "importance_score": 0.3237,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.155,
+        "recency": 0.0788,
         "story_heat": 0.25
       },
       "category": "watch",
