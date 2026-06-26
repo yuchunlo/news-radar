@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-06-26T08:08:54.813402Z",
+  "generated_at": "2026-06-26T11:25:47.584406Z",
   "window_hours": 24,
-  "total_items": 4,
+  "total_items": 3,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "云大厂何时反弹？苹果年度最大跌幅！",
-      "url": "https://www.youtube.com/watch?v=gSGMIWYo9CE",
-      "primary_url": "https://www.youtube.com/watch?v=gSGMIWYo9CE",
-      "source": "美投侃新闻",
+      "title": "特番｜染料、合成氨与塑料：化工如何塑造20世纪人类历史",
+      "url": "https://www.youtube.com/watch?v=7Iysvd_xnbg",
+      "primary_url": "https://www.youtube.com/watch?v=7Iysvd_xnbg",
+      "source": "忽左忽右",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "06bbf6acb48a7a6acd69c3e5e4bb8247a4bfacb7",
+          "title": "特番｜染料、合成氨与塑料：化工如何塑造20世纪人类历史",
+          "url": "https://www.youtube.com/watch?v=7Iysvd_xnbg",
+          "source": "忽左忽右",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-26T09:25:18Z"
+        },
         {
           "id": "6a1e81eefdbca2265ba47bc0cb70d0d12a3e9382",
           "title": "云大厂何时反弹？苹果年度最大跌幅！",
@@ -46,6 +55,15 @@
           "source_name": "OPML RSS",
           "site_id": "culture",
           "published_at": "2026-06-25T21:00:14Z"
+        },
+        {
+          "id": "a46828d2f93fa1ce6ca51e913cb8da2eaab01c67",
+          "title": "中世紀最令人印象深刻的大教堂 / La Catedral Más Impresionante de la Edad Media",
+          "url": "https://www.youtube.com/watch?v=u_urRfQDTzE",
+          "source": "Manuel Bravo",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-25T19:29:10Z"
         },
         {
           "id": "6d4803b2972b504ae6e4c6859d640722f07b495d",
@@ -84,22 +102,13 @@
           "published_at": "2026-06-25T12:00:16Z"
         },
         {
-          "id": "c34c1c3ce7f7f915a745955427f25a90beb23b76",
-          "title": "太陽能板不是你想的那樣 走訪全台灣 屋頂、魚塭、回收廠 找太陽能板的真相是？【超認真少年】solar panel",
-          "url": "https://www.youtube.com/watch?v=ITvx-3EhLmc",
-          "source": "【隱形工廠｜戶外教學】",
+          "id": "ab6758553b46b84329913be5a4e49f7e921c1fe7",
+          "title": "Agent 該怎麼分工？同樣的 AI 只有不到 1% 的人做得出成果！｜前小紅書工程師 Nick Hsu【塞掐 Side Chat】E412",
+          "url": "https://www.youtube.com/watch?v=BJ92fomIRJM",
+          "source": "【塞掐】訪談大人物",
           "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-06-25T11:00:06Z"
-        },
-        {
-          "id": "29f9ebe9eeed79cd0f428656089544dd9bfcc8fd",
-          "title": "Shaboozey：小桌子音樂會 / Shaboozey: Tiny Desk Concert",
-          "url": "https://www.youtube.com/watch?v=fEqGjypP5qY",
-          "source": "NPR Music",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-25T09:00:12Z"
+          "site_id": "opmlrss",
+          "published_at": "2026-06-26T06:13:37Z"
         },
         {
           "id": "f0d6b9ce3b3034ad214ae4048e11b74d616b15de",
@@ -111,22 +120,13 @@
           "published_at": "2026-06-26T04:00:04Z"
         },
         {
-          "id": "5cb0bc0d8c5ea81d6ffb58a1e12b631be2cee3c5",
-          "title": "【南澳北溪背包艇】刺激激流划船，途中還可以泡野溪溫泉｜探險威狼 Wilang Explorer ｜宜蘭｜南澳｜宜蘭秘境｜溯溪｜溪流｜清澈｜背包艇｜野溪溫泉｜夏天｜Yilan｜Vlog 524",
-          "url": "https://www.youtube.com/watch?v=XbyZWNI62yM",
-          "source": "探險威狼 Wilang-Explorer",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-25T11:00:29Z"
-        },
-        {
-          "id": "57f8e01df5d37c8464bab079d7b8126617e43177",
-          "title": "以為攝影機關機了..“他”騙過現場所有人 拍出北韓最不想公開的畫面｜DenQ",
-          "url": "https://www.youtube.com/watch?v=WrAd2v3NuAc",
+          "id": "ffe5fd3062b7167c24d2c69e71888f4b312ac30b",
+          "title": "女團赴日拍片差點成‘肩撞男’目標/  張員瑛機場全露臉/女星遭判刑10年宣布回歸/GDx玩具總動員/  KPOP搶票大改｜DenQ",
+          "url": "https://www.youtube.com/watch?v=00oHTeknVVU",
           "source": "DenQ來了",
           "source_name": "OPML RSS",
           "site_id": "trending",
-          "published_at": "2026-06-25T10:00:37Z"
+          "published_at": "2026-06-26T10:00:21Z"
         }
       ],
       "source_count": 13,
@@ -134,18 +134,27 @@
         "Best Documentary",
         "City Beautiful",
         "DenQ來了",
-        "NPR Music",
+        "Manuel Bravo",
         "Perspective",
         "Shepherd Capital Markets",
         "Thomas Flight",
         "Tim Ferriss",
         "Timeline - World History Documentaries",
-        "【隱形工廠｜戶外教學】",
-        "探險威狼 Wilang-Explorer",
+        "【塞掐】訪談大人物",
+        "忽左忽右",
         "美投侃新闻",
         "胖貓堂主"
       ],
       "items": [
+        {
+          "id": "06bbf6acb48a7a6acd69c3e5e4bb8247a4bfacb7",
+          "title": "特番｜染料、合成氨与塑料：化工如何塑造20世纪人类历史",
+          "url": "https://www.youtube.com/watch?v=7Iysvd_xnbg",
+          "source": "忽左忽右",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-26T09:25:18Z"
+        },
         {
           "id": "6a1e81eefdbca2265ba47bc0cb70d0d12a3e9382",
           "title": "云大厂何时反弹？苹果年度最大跌幅！",
@@ -181,6 +190,15 @@
           "source_name": "OPML RSS",
           "site_id": "culture",
           "published_at": "2026-06-25T21:00:14Z"
+        },
+        {
+          "id": "a46828d2f93fa1ce6ca51e913cb8da2eaab01c67",
+          "title": "中世紀最令人印象深刻的大教堂 / La Catedral Más Impresionante de la Edad Media",
+          "url": "https://www.youtube.com/watch?v=u_urRfQDTzE",
+          "source": "Manuel Bravo",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-25T19:29:10Z"
         },
         {
           "id": "6d4803b2972b504ae6e4c6859d640722f07b495d",
@@ -219,22 +237,13 @@
           "published_at": "2026-06-25T12:00:16Z"
         },
         {
-          "id": "c34c1c3ce7f7f915a745955427f25a90beb23b76",
-          "title": "太陽能板不是你想的那樣 走訪全台灣 屋頂、魚塭、回收廠 找太陽能板的真相是？【超認真少年】solar panel",
-          "url": "https://www.youtube.com/watch?v=ITvx-3EhLmc",
-          "source": "【隱形工廠｜戶外教學】",
+          "id": "ab6758553b46b84329913be5a4e49f7e921c1fe7",
+          "title": "Agent 該怎麼分工？同樣的 AI 只有不到 1% 的人做得出成果！｜前小紅書工程師 Nick Hsu【塞掐 Side Chat】E412",
+          "url": "https://www.youtube.com/watch?v=BJ92fomIRJM",
+          "source": "【塞掐】訪談大人物",
           "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-06-25T11:00:06Z"
-        },
-        {
-          "id": "29f9ebe9eeed79cd0f428656089544dd9bfcc8fd",
-          "title": "Shaboozey：小桌子音樂會 / Shaboozey: Tiny Desk Concert",
-          "url": "https://www.youtube.com/watch?v=fEqGjypP5qY",
-          "source": "NPR Music",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-25T09:00:12Z"
+          "site_id": "opmlrss",
+          "published_at": "2026-06-26T06:13:37Z"
         },
         {
           "id": "f0d6b9ce3b3034ad214ae4048e11b74d616b15de",
@@ -246,46 +255,37 @@
           "published_at": "2026-06-26T04:00:04Z"
         },
         {
-          "id": "5cb0bc0d8c5ea81d6ffb58a1e12b631be2cee3c5",
-          "title": "【南澳北溪背包艇】刺激激流划船，途中還可以泡野溪溫泉｜探險威狼 Wilang Explorer ｜宜蘭｜南澳｜宜蘭秘境｜溯溪｜溪流｜清澈｜背包艇｜野溪溫泉｜夏天｜Yilan｜Vlog 524",
-          "url": "https://www.youtube.com/watch?v=XbyZWNI62yM",
-          "source": "探險威狼 Wilang-Explorer",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-25T11:00:29Z"
-        },
-        {
-          "id": "57f8e01df5d37c8464bab079d7b8126617e43177",
-          "title": "以為攝影機關機了..“他”騙過現場所有人 拍出北韓最不想公開的畫面｜DenQ",
-          "url": "https://www.youtube.com/watch?v=WrAd2v3NuAc",
+          "id": "ffe5fd3062b7167c24d2c69e71888f4b312ac30b",
+          "title": "女團赴日拍片差點成‘肩撞男’目標/  張員瑛機場全露臉/女星遭判刑10年宣布回歸/GDx玩具總動員/  KPOP搶票大改｜DenQ",
+          "url": "https://www.youtube.com/watch?v=00oHTeknVVU",
           "source": "DenQ來了",
           "source_name": "OPML RSS",
           "site_id": "trending",
-          "published_at": "2026-06-25T10:00:37Z"
+          "published_at": "2026-06-26T10:00:21Z"
         }
       ],
       "item_count": 13,
       "duplicate_count": 13,
-      "score": 0.6435,
-      "importance": 0.6435,
-      "importance_score": 0.6435,
+      "score": 0.7249,
+      "importance": 0.7249,
+      "importance_score": 0.7249,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6452,
+        "recency": 0.9163,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-25T09:00:12Z",
-      "latest_at": "2026-06-26T04:00:04Z",
+      "earliest_at": "2026-06-25T12:00:16Z",
+      "latest_at": "2026-06-26T10:00:21Z",
       "primary_item": {
-        "id": "6a1e81eefdbca2265ba47bc0cb70d0d12a3e9382",
-        "title": "云大厂何时反弹？苹果年度最大跌幅！",
-        "url": "https://www.youtube.com/watch?v=gSGMIWYo9CE",
-        "source": "美投侃新闻",
+        "id": "06bbf6acb48a7a6acd69c3e5e4bb8247a4bfacb7",
+        "title": "特番｜染料、合成氨与塑料：化工如何塑造20世纪人类历史",
+        "url": "https://www.youtube.com/watch?v=7Iysvd_xnbg",
+        "source": "忽左忽右",
         "source_name": "OPML RSS"
       }
     },
@@ -343,13 +343,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4551,
-      "importance": 0.4551,
-      "importance_score": 0.4551,
+      "score": 0.4141,
+      "importance": 0.4141,
+      "importance_score": 0.4141,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.5172,
+        "recency": 0.3804,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -419,13 +419,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4492,
-      "importance": 0.4492,
-      "importance_score": 0.4492,
+      "score": 0.4082,
+      "importance": 0.4082,
+      "importance_score": 0.4082,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.4973,
+        "recency": 0.3606,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -438,82 +438,6 @@
         "id": "3a6efb3f95942eef54a96e8df3c099e9d605ad1c",
         "title": "美國根據 CHIPS 計劃向億萬富翁羅伯特·弗里德蘭 (Robert Friedland) 聯合創立的一家新創公司撥款 2.5 億美元，用於開發碳化矽晶片和脈衝功率技術（James Attwood/彭博社） / The US awarded $250M under the CHIPS program to a startup co-founded by billionaire Robert Friedland to develop silicon-carbide chips and pulsed-power tech (James Attwood/Bloomberg)",
         "url": "https://www.techmeme.com/260625/p42",
-        "source": "Techmeme",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_d34d8ec1ff9d",
-      "title": "在 Anthropic 指控阿里巴巴「非法」存取其人工智慧模式後，阿里巴巴在香港股價下跌約 5%，使其年初至今跌幅達到 33%；小米和百度下跌 3% 以上（Jeanny Yu/彭博社） / Alibaba falls ~5% in Hong Kong after Anthropic accused it of \"illicitly\" accessing its AI models, taking its YTD fall to 33%; Xiaomi and Baidu fell 3%+ (Jeanny Yu/Bloomberg)",
-      "url": "https://www.techmeme.com/260625/p15",
-      "primary_url": "https://www.techmeme.com/260625/p15",
-      "source": "Techmeme",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "deaa0c0ebace4901913a8612e815620f1bac3469",
-          "title": "在 Anthropic 指控阿里巴巴「非法」存取其人工智慧模式後，阿里巴巴在香港股價下跌約 5%，使其年初至今跌幅達到 33%；小米和百度下跌 3% 以上（Jeanny Yu/彭博社） / Alibaba falls ~5% in Hong Kong after Anthropic accused it of \"illicitly\" accessing its AI models, taking its YTD fall to 33%; Xiaomi and Baidu fell 3%+ (Jeanny Yu/Bloomberg)",
-          "url": "https://www.techmeme.com/260625/p15",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-06-25T09:40:04Z"
-        },
-        {
-          "id": "c6a6c22a3612b7433a22b9d354b5e6aedaa9a7b6",
-          "title": "Anthropic 指責阿里巴巴「非法」訪問其人工智慧模型，阿里巴巴港股今年迄今下跌 36.24%，收盤下跌 4.43%；小米和百度下跌約 2%（Jeanny Yu/彭博社） / Alibaba's Hong Kong stock closed down 4.43% after Anthropic accused Alibaba of \"illicitly\" accessing its AI models, down 36.24% YTD; Xiaomi and Baidu fell ~2% (Jeanny Yu/Bloomberg)",
-          "url": "https://www.techmeme.com/260625/p15",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-06-25T09:40:04Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Techmeme"
-      ],
-      "items": [
-        {
-          "id": "deaa0c0ebace4901913a8612e815620f1bac3469",
-          "title": "在 Anthropic 指控阿里巴巴「非法」存取其人工智慧模式後，阿里巴巴在香港股價下跌約 5%，使其年初至今跌幅達到 33%；小米和百度下跌 3% 以上（Jeanny Yu/彭博社） / Alibaba falls ~5% in Hong Kong after Anthropic accused it of \"illicitly\" accessing its AI models, taking its YTD fall to 33%; Xiaomi and Baidu fell 3%+ (Jeanny Yu/Bloomberg)",
-          "url": "https://www.techmeme.com/260625/p15",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-06-25T09:40:04Z"
-        },
-        {
-          "id": "c6a6c22a3612b7433a22b9d354b5e6aedaa9a7b6",
-          "title": "Anthropic 指責阿里巴巴「非法」訪問其人工智慧模型，阿里巴巴港股今年迄今下跌 36.24%，收盤下跌 4.43%；小米和百度下跌約 2%（Jeanny Yu/彭博社） / Alibaba's Hong Kong stock closed down 4.43% after Anthropic accused Alibaba of \"illicitly\" accessing its AI models, down 36.24% YTD; Xiaomi and Baidu fell ~2% (Jeanny Yu/Bloomberg)",
-          "url": "https://www.techmeme.com/260625/p15",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-06-25T09:40:04Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.319,
-      "importance": 0.319,
-      "importance_score": 0.319,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.5,
-        "recency": 0.0633,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-25T09:40:04Z",
-      "latest_at": "2026-06-25T09:40:04Z",
-      "primary_item": {
-        "id": "deaa0c0ebace4901913a8612e815620f1bac3469",
-        "title": "在 Anthropic 指控阿里巴巴「非法」存取其人工智慧模式後，阿里巴巴在香港股價下跌約 5%，使其年初至今跌幅達到 33%；小米和百度下跌 3% 以上（Jeanny Yu/彭博社） / Alibaba falls ~5% in Hong Kong after Anthropic accused it of \"illicitly\" accessing its AI models, taking its YTD fall to 33%; Xiaomi and Baidu fell 3%+ (Jeanny Yu/Bloomberg)",
-        "url": "https://www.techmeme.com/260625/p15",
         "source": "Techmeme",
         "source_name": "OPML RSS"
       }
