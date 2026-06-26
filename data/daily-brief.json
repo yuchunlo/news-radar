@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-26T04:14:11.889593Z",
+  "generated_at": "2026-06-26T08:08:54.813402Z",
   "window_hours": 24,
-  "total_items": 6,
+  "total_items": 4,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
@@ -102,15 +102,6 @@
           "published_at": "2026-06-25T09:00:12Z"
         },
         {
-          "id": "fe84ebdc8b1996676147806483792e74ee0252b7",
-          "title": "在日本與建築師一起工作是怎樣的體驗 / What Working with an Architect in Japan is Like",
-          "url": "https://www.youtube.com/watch?v=URm1pmMfKqM",
-          "source": "Life Where I'm From",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-25T04:29:23Z"
-        },
-        {
           "id": "f0d6b9ce3b3034ad214ae4048e11b74d616b15de",
           "title": "48小时内洗劫华尔街300亿，压垮德国富豪，保时捷与大众汽车史上最强逼空案，到底有多惨烈？",
           "url": "https://www.youtube.com/watch?v=bVNZOrkvGeg",
@@ -129,15 +120,6 @@
           "published_at": "2026-06-25T11:00:29Z"
         },
         {
-          "id": "dce1829009c9e610c216a58a29ff249f8b003242",
-          "title": "翻轉私募市場：Jarsy 如何利用 RWA 技術讓散戶共享獨角獸紅利｜Jarsy 共同創辦人暨營運長 胡怡盈【塞掐 Side Chat】特輯",
-          "url": "https://www.youtube.com/watch?v=s72U4MSu3JI",
-          "source": "【塞掐】訪談大人物",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-25T07:31:50Z"
-        },
-        {
           "id": "57f8e01df5d37c8464bab079d7b8126617e43177",
           "title": "以為攝影機關機了..“他”騙過現場所有人 拍出北韓最不想公開的畫面｜DenQ",
           "url": "https://www.youtube.com/watch?v=WrAd2v3NuAc",
@@ -147,19 +129,17 @@
           "published_at": "2026-06-25T10:00:37Z"
         }
       ],
-      "source_count": 15,
+      "source_count": 13,
       "source_names": [
         "Best Documentary",
         "City Beautiful",
         "DenQ來了",
-        "Life Where I'm From",
         "NPR Music",
         "Perspective",
         "Shepherd Capital Markets",
         "Thomas Flight",
         "Tim Ferriss",
         "Timeline - World History Documentaries",
-        "【塞掐】訪談大人物",
         "【隱形工廠｜戶外教學】",
         "探險威狼 Wilang-Explorer",
         "美投侃新闻",
@@ -257,15 +237,6 @@
           "published_at": "2026-06-25T09:00:12Z"
         },
         {
-          "id": "fe84ebdc8b1996676147806483792e74ee0252b7",
-          "title": "在日本與建築師一起工作是怎樣的體驗 / What Working with an Architect in Japan is Like",
-          "url": "https://www.youtube.com/watch?v=URm1pmMfKqM",
-          "source": "Life Where I'm From",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-25T04:29:23Z"
-        },
-        {
           "id": "f0d6b9ce3b3034ad214ae4048e11b74d616b15de",
           "title": "48小时内洗劫华尔街300亿，压垮德国富豪，保时捷与大众汽车史上最强逼空案，到底有多惨烈？",
           "url": "https://www.youtube.com/watch?v=bVNZOrkvGeg",
@@ -284,15 +255,6 @@
           "published_at": "2026-06-25T11:00:29Z"
         },
         {
-          "id": "dce1829009c9e610c216a58a29ff249f8b003242",
-          "title": "翻轉私募市場：Jarsy 如何利用 RWA 技術讓散戶共享獨角獸紅利｜Jarsy 共同創辦人暨營運長 胡怡盈【塞掐 Side Chat】特輯",
-          "url": "https://www.youtube.com/watch?v=s72U4MSu3JI",
-          "source": "【塞掐】訪談大人物",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-25T07:31:50Z"
-        },
-        {
           "id": "57f8e01df5d37c8464bab079d7b8126617e43177",
           "title": "以為攝影機關機了..“他”騙過現場所有人 拍出北韓最不想公開的畫面｜DenQ",
           "url": "https://www.youtube.com/watch?v=WrAd2v3NuAc",
@@ -302,22 +264,22 @@
           "published_at": "2026-06-25T10:00:37Z"
         }
       ],
-      "item_count": 15,
-      "duplicate_count": 15,
-      "score": 0.6924,
-      "importance": 0.6924,
-      "importance_score": 0.6924,
+      "item_count": 13,
+      "duplicate_count": 13,
+      "score": 0.6435,
+      "importance": 0.6435,
+      "importance_score": 0.6435,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.8082,
+        "recency": 0.6452,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-25T04:29:23Z",
+      "earliest_at": "2026-06-25T09:00:12Z",
       "latest_at": "2026-06-26T04:00:04Z",
       "primary_item": {
         "id": "6a1e81eefdbca2265ba47bc0cb70d0d12a3e9382",
@@ -381,13 +343,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.504,
-      "importance": 0.504,
-      "importance_score": 0.504,
+      "score": 0.4551,
+      "importance": 0.4551,
+      "importance_score": 0.4551,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6802,
+        "recency": 0.5172,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -457,13 +419,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4981,
-      "importance": 0.4981,
-      "importance_score": 0.4981,
+      "score": 0.4492,
+      "importance": 0.4492,
+      "importance_score": 0.4492,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6603,
+        "recency": 0.4973,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -533,13 +495,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3679,
-      "importance": 0.3679,
-      "importance_score": 0.3679,
+      "score": 0.319,
+      "importance": 0.319,
+      "importance_score": 0.319,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.2263,
+        "recency": 0.0633,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -553,158 +515,6 @@
         "title": "在 Anthropic 指控阿里巴巴「非法」存取其人工智慧模式後，阿里巴巴在香港股價下跌約 5%，使其年初至今跌幅達到 33%；小米和百度下跌 3% 以上（Jeanny Yu/彭博社） / Alibaba falls ~5% in Hong Kong after Anthropic accused it of \"illicitly\" accessing its AI models, taking its YTD fall to 33%; Xiaomi and Baidu fell 3%+ (Jeanny Yu/Bloomberg)",
         "url": "https://www.techmeme.com/260625/p15",
         "source": "Techmeme",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_85f6a7b65b2e",
-      "title": "拉里·埃里森 (Larry Ellison) 向支持川普總統的團體捐贈 4500 萬美元，如何讓埃里森更深入地融入川普的圈子，幫助甲骨文及其兒子收購 WBD（《華爾街日報》） / How Larry Ellison's $45M donation to a group supporting President Trump brought Ellison deeper into Trump's circle, helping Oracle and his son's WBD acquisition (Wall Street Journal)",
-      "url": "https://www.techmeme.com/260625/p9",
-      "primary_url": "https://www.techmeme.com/260625/p9",
-      "source": "Techmeme",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "6aa4d3ff2e473367f375cfc1c342ac21b8e94923",
-          "title": "拉里·埃里森 (Larry Ellison) 向支持川普總統的團體捐贈 4500 萬美元，如何讓埃里森更深入地融入川普的圈子，幫助甲骨文及其兒子收購 WBD（《華爾街日報》） / How Larry Ellison's $45M donation to a group supporting President Trump brought Ellison deeper into Trump's circle, helping Oracle and his son's WBD acquisition (Wall Street Journal)",
-          "url": "https://www.techmeme.com/260625/p9",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-06-25T06:15:00Z"
-        },
-        {
-          "id": "372ebeb87cfb47ff78a676f252256351f305b0f8",
-          "title": "向支持川普的團體捐贈 4500 萬美元如何讓拉里·埃里森 (Larry Ellison) 更深入地融入川普的圈子、幫助甲骨文 (Oracle) 的業務以及他的兒子收購 WBD（華爾街日報） / How a $45M donation to a group supporting Trump brought Larry Ellison deeper into Trump's circle, helped Oracle's business, and his son's acquisition of WBD (Wall Street Journal)",
-          "url": "https://www.techmeme.com/260625/p9",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-06-25T06:15:00Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Techmeme"
-      ],
-      "items": [
-        {
-          "id": "6aa4d3ff2e473367f375cfc1c342ac21b8e94923",
-          "title": "拉里·埃里森 (Larry Ellison) 向支持川普總統的團體捐贈 4500 萬美元，如何讓埃里森更深入地融入川普的圈子，幫助甲骨文及其兒子收購 WBD（《華爾街日報》） / How Larry Ellison's $45M donation to a group supporting President Trump brought Ellison deeper into Trump's circle, helping Oracle and his son's WBD acquisition (Wall Street Journal)",
-          "url": "https://www.techmeme.com/260625/p9",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-06-25T06:15:00Z"
-        },
-        {
-          "id": "372ebeb87cfb47ff78a676f252256351f305b0f8",
-          "title": "向支持川普的團體捐贈 4500 萬美元如何讓拉里·埃里森 (Larry Ellison) 更深入地融入川普的圈子、幫助甲骨文 (Oracle) 的業務以及他的兒子收購 WBD（華爾街日報） / How a $45M donation to a group supporting Trump brought Larry Ellison deeper into Trump's circle, helped Oracle's business, and his son's acquisition of WBD (Wall Street Journal)",
-          "url": "https://www.techmeme.com/260625/p9",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-06-25T06:15:00Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.3252,
-      "importance": 0.3252,
-      "importance_score": 0.3252,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.5,
-        "recency": 0.0839,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-25T06:15:00Z",
-      "latest_at": "2026-06-25T06:15:00Z",
-      "primary_item": {
-        "id": "6aa4d3ff2e473367f375cfc1c342ac21b8e94923",
-        "title": "拉里·埃里森 (Larry Ellison) 向支持川普總統的團體捐贈 4500 萬美元，如何讓埃里森更深入地融入川普的圈子，幫助甲骨文及其兒子收購 WBD（《華爾街日報》） / How Larry Ellison's $45M donation to a group supporting President Trump brought Ellison deeper into Trump's circle, helping Oracle and his son's WBD acquisition (Wall Street Journal)",
-        "url": "https://www.techmeme.com/260625/p9",
-        "source": "Techmeme",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_3c6e49b346f8",
-      "title": "Fw: [情報] 美亞Drop + Grell OAE1 跳水價$47.59",
-      "url": "https://www.ptt.cc/bbs/Lifeismoney/M.1782372482.A.397.html",
-      "primary_url": "https://www.ptt.cc/bbs/Lifeismoney/M.1782372482.A.397.html",
-      "source": "批踢踢實業坊 Lifeismoney 板",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "587f506804e66c035bd6fc462831cedb44571fd8",
-          "title": "Fw: [情報] 美亞Drop + Grell OAE1 跳水價$47.59",
-          "url": "https://www.ptt.cc/bbs/Lifeismoney/M.1782372482.A.397.html",
-          "source": "批踢踢實業坊 Lifeismoney 板",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-06-25T07:28:02Z"
-        },
-        {
-          "id": "b90afd3454f71307e10cba56ce5f55bf6bc1cc22",
-          "title": "[情報] 美亞耳機Drop+Grell OAE1跳水價$47.59",
-          "url": "https://www.ptt.cc/bbs/Lifeismoney/M.1782372482.A.397.html",
-          "source": "批踢踢實業坊 Lifeismoney 板",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-06-25T07:28:02Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "批踢踢實業坊 Lifeismoney 板"
-      ],
-      "items": [
-        {
-          "id": "587f506804e66c035bd6fc462831cedb44571fd8",
-          "title": "Fw: [情報] 美亞Drop + Grell OAE1 跳水價$47.59",
-          "url": "https://www.ptt.cc/bbs/Lifeismoney/M.1782372482.A.397.html",
-          "source": "批踢踢實業坊 Lifeismoney 板",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-06-25T07:28:02Z"
-        },
-        {
-          "id": "b90afd3454f71307e10cba56ce5f55bf6bc1cc22",
-          "title": "[情報] 美亞耳機Drop+Grell OAE1跳水價$47.59",
-          "url": "https://www.ptt.cc/bbs/Lifeismoney/M.1782372482.A.397.html",
-          "source": "批踢踢實業坊 Lifeismoney 板",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-06-25T07:28:02Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.2154,
-      "importance": 0.2154,
-      "importance_score": 0.2154,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.25,
-        "recency": 0.1346,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-25T07:28:02Z",
-      "latest_at": "2026-06-25T07:28:02Z",
-      "primary_item": {
-        "id": "587f506804e66c035bd6fc462831cedb44571fd8",
-        "title": "Fw: [情報] 美亞Drop + Grell OAE1 跳水價$47.59",
-        "url": "https://www.ptt.cc/bbs/Lifeismoney/M.1782372482.A.397.html",
-        "source": "批踢踢實業坊 Lifeismoney 板",
         "source_name": "OPML RSS"
       }
     }
