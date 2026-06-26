@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-25T23:54:12.984767Z",
+  "generated_at": "2026-06-26T04:14:11.889593Z",
   "window_hours": 24,
-  "total_items": 4,
+  "total_items": 6,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
@@ -111,13 +111,13 @@
           "published_at": "2026-06-25T04:29:23Z"
         },
         {
-          "id": "77bf5a8502143547a65dca6d4bbb99e894c1f19e",
-          "title": "美光粉碎噪音！ASIC份额超GPU！黄金神话破灭！谷歌进入道指魔咒？",
-          "url": "https://www.youtube.com/watch?v=MOWRzfC-6Jk",
-          "source": "美投侃新闻",
+          "id": "f0d6b9ce3b3034ad214ae4048e11b74d616b15de",
+          "title": "48小时内洗劫华尔街300亿，压垮德国富豪，保时捷与大众汽车史上最强逼空案，到底有多惨烈？",
+          "url": "https://www.youtube.com/watch?v=bVNZOrkvGeg",
+          "source": "胖貓堂主",
           "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-06-25T00:31:48Z"
+          "site_id": "opmlrss",
+          "published_at": "2026-06-26T04:00:04Z"
         },
         {
           "id": "5cb0bc0d8c5ea81d6ffb58a1e12b631be2cee3c5",
@@ -162,7 +162,8 @@
         "【塞掐】訪談大人物",
         "【隱形工廠｜戶外教學】",
         "探險威狼 Wilang-Explorer",
-        "美投侃新闻"
+        "美投侃新闻",
+        "胖貓堂主"
       ],
       "items": [
         {
@@ -265,13 +266,13 @@
           "published_at": "2026-06-25T04:29:23Z"
         },
         {
-          "id": "77bf5a8502143547a65dca6d4bbb99e894c1f19e",
-          "title": "美光粉碎噪音！ASIC份额超GPU！黄金神话破灭！谷歌进入道指魔咒？",
-          "url": "https://www.youtube.com/watch?v=MOWRzfC-6Jk",
-          "source": "美投侃新闻",
+          "id": "f0d6b9ce3b3034ad214ae4048e11b74d616b15de",
+          "title": "48小时内洗劫华尔街300亿，压垮德国富豪，保时捷与大众汽车史上最强逼空案，到底有多惨烈？",
+          "url": "https://www.youtube.com/watch?v=bVNZOrkvGeg",
+          "source": "胖貓堂主",
           "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-06-25T00:31:48Z"
+          "site_id": "opmlrss",
+          "published_at": "2026-06-26T04:00:04Z"
         },
         {
           "id": "5cb0bc0d8c5ea81d6ffb58a1e12b631be2cee3c5",
@@ -303,26 +304,103 @@
       ],
       "item_count": 15,
       "duplicate_count": 15,
-      "score": 0.7466,
-      "importance": 0.7466,
-      "importance_score": 0.7466,
+      "score": 0.6924,
+      "importance": 0.6924,
+      "importance_score": 0.6924,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9887,
+        "recency": 0.8082,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-25T00:31:48Z",
-      "latest_at": "2026-06-25T23:37:57Z",
+      "earliest_at": "2026-06-25T04:29:23Z",
+      "latest_at": "2026-06-26T04:00:04Z",
       "primary_item": {
         "id": "6a1e81eefdbca2265ba47bc0cb70d0d12a3e9382",
         "title": "云大厂何时反弹？苹果年度最大跌幅！",
         "url": "https://www.youtube.com/watch?v=gSGMIWYo9CE",
         "source": "美投侃新闻",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_e8ff0d08d00b",
+      "title": "奧姆·馬利克去世 / Om Malik has died",
+      "url": "https://om.co/2026/06/24/1966-2026",
+      "primary_url": "https://om.co/2026/06/24/1966-2026",
+      "source": "Hacker News: Newest",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "8b5f453c8953c6b007b790e9028a98f9fb25a98e",
+          "title": "奧姆·馬利克去世 / Om Malik has died",
+          "url": "https://om.co/2026/06/24/1966-2026",
+          "source": "Hacker News: Newest",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-06-25T20:33:37Z"
+        },
+        {
+          "id": "c3cd81399ead736eacdd85c487c3407bee059306",
+          "title": "GigaOm 創辦人 Om Malik 去世，享年 59 歲 / GigaOm founder Om Malik has passed at age 59",
+          "url": "https://om.co/2026/06/24/1966-2026",
+          "source": "Waxy.org",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-06-26T00:11:20Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Hacker News: Newest",
+        "Waxy.org"
+      ],
+      "items": [
+        {
+          "id": "8b5f453c8953c6b007b790e9028a98f9fb25a98e",
+          "title": "奧姆·馬利克去世 / Om Malik has died",
+          "url": "https://om.co/2026/06/24/1966-2026",
+          "source": "Hacker News: Newest",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-06-25T20:33:37Z"
+        },
+        {
+          "id": "c3cd81399ead736eacdd85c487c3407bee059306",
+          "title": "GigaOm 創辦人 Om Malik 去世，享年 59 歲 / GigaOm founder Om Malik has passed at age 59",
+          "url": "https://om.co/2026/06/24/1966-2026",
+          "source": "Waxy.org",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-06-26T00:11:20Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.504,
+      "importance": 0.504,
+      "importance_score": 0.504,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.5,
+        "recency": 0.6802,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-25T20:33:37Z",
+      "latest_at": "2026-06-26T00:11:20Z",
+      "primary_item": {
+        "id": "8b5f453c8953c6b007b790e9028a98f9fb25a98e",
+        "title": "奧姆·馬利克去世 / Om Malik has died",
+        "url": "https://om.co/2026/06/24/1966-2026",
+        "source": "Hacker News: Newest",
         "source_name": "OPML RSS"
       }
     },
@@ -379,13 +457,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5523,
-      "importance": 0.5523,
-      "importance_score": 0.5523,
+      "score": 0.4981,
+      "importance": 0.4981,
+      "importance_score": 0.4981,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.8408,
+        "recency": 0.6603,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -455,13 +533,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4221,
-      "importance": 0.4221,
-      "importance_score": 0.4221,
+      "score": 0.3679,
+      "importance": 0.3679,
+      "importance_score": 0.3679,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.4068,
+        "recency": 0.2263,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -531,13 +609,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3793,
-      "importance": 0.3793,
-      "importance_score": 0.3793,
+      "score": 0.3252,
+      "importance": 0.3252,
+      "importance_score": 0.3252,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.2644,
+        "recency": 0.0839,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -551,6 +629,82 @@
         "title": "拉里·埃里森 (Larry Ellison) 向支持川普總統的團體捐贈 4500 萬美元，如何讓埃里森更深入地融入川普的圈子，幫助甲骨文及其兒子收購 WBD（《華爾街日報》） / How Larry Ellison's $45M donation to a group supporting President Trump brought Ellison deeper into Trump's circle, helping Oracle and his son's WBD acquisition (Wall Street Journal)",
         "url": "https://www.techmeme.com/260625/p9",
         "source": "Techmeme",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_3c6e49b346f8",
+      "title": "Fw: [情報] 美亞Drop + Grell OAE1 跳水價$47.59",
+      "url": "https://www.ptt.cc/bbs/Lifeismoney/M.1782372482.A.397.html",
+      "primary_url": "https://www.ptt.cc/bbs/Lifeismoney/M.1782372482.A.397.html",
+      "source": "批踢踢實業坊 Lifeismoney 板",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "587f506804e66c035bd6fc462831cedb44571fd8",
+          "title": "Fw: [情報] 美亞Drop + Grell OAE1 跳水價$47.59",
+          "url": "https://www.ptt.cc/bbs/Lifeismoney/M.1782372482.A.397.html",
+          "source": "批踢踢實業坊 Lifeismoney 板",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-06-25T07:28:02Z"
+        },
+        {
+          "id": "b90afd3454f71307e10cba56ce5f55bf6bc1cc22",
+          "title": "[情報] 美亞耳機Drop+Grell OAE1跳水價$47.59",
+          "url": "https://www.ptt.cc/bbs/Lifeismoney/M.1782372482.A.397.html",
+          "source": "批踢踢實業坊 Lifeismoney 板",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-06-25T07:28:02Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "批踢踢實業坊 Lifeismoney 板"
+      ],
+      "items": [
+        {
+          "id": "587f506804e66c035bd6fc462831cedb44571fd8",
+          "title": "Fw: [情報] 美亞Drop + Grell OAE1 跳水價$47.59",
+          "url": "https://www.ptt.cc/bbs/Lifeismoney/M.1782372482.A.397.html",
+          "source": "批踢踢實業坊 Lifeismoney 板",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-06-25T07:28:02Z"
+        },
+        {
+          "id": "b90afd3454f71307e10cba56ce5f55bf6bc1cc22",
+          "title": "[情報] 美亞耳機Drop+Grell OAE1跳水價$47.59",
+          "url": "https://www.ptt.cc/bbs/Lifeismoney/M.1782372482.A.397.html",
+          "source": "批踢踢實業坊 Lifeismoney 板",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-06-25T07:28:02Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.2154,
+      "importance": 0.2154,
+      "importance_score": 0.2154,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.25,
+        "recency": 0.1346,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-25T07:28:02Z",
+      "latest_at": "2026-06-25T07:28:02Z",
+      "primary_item": {
+        "id": "587f506804e66c035bd6fc462831cedb44571fd8",
+        "title": "Fw: [情報] 美亞Drop + Grell OAE1 跳水價$47.59",
+        "url": "https://www.ptt.cc/bbs/Lifeismoney/M.1782372482.A.397.html",
+        "source": "批踢踢實業坊 Lifeismoney 板",
         "source_name": "OPML RSS"
       }
     }
