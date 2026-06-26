@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T21:48:48.950463Z",
+  "generated_at": "2026-06-26T23:13:45.043561Z",
   "window_hours": 24,
   "total_items": 6,
   "items": [
@@ -84,15 +84,6 @@
           "published_at": "2026-06-25T23:37:57Z"
         },
         {
-          "id": "782b842fbb905649a586f798036aa6fa44bf8997",
-          "title": "美股大科技为啥血崩？什么驱动了下跌？还能要吗？",
-          "url": "https://www.youtube.com/watch?v=uulBhwpZBkg",
-          "source": "Shepherd Capital Markets",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-06-25T22:27:22Z"
-        },
-        {
           "id": "7be1bde769804c574a8e0097463d664a7fcaa1b1",
           "title": "實力超強卻多次被豪門放棄，進球不慶祝、連奪冠也面無表情的冷面刺客！他才是法國隊最重要的球員？｜Nonchalant - Michael Olise 人物誌",
           "url": "https://www.youtube.com/watch?v=gZ1cWwg5KBw",
@@ -147,7 +138,7 @@
           "published_at": "2026-06-26T10:00:21Z"
         }
       ],
-      "source_count": 15,
+      "source_count": 14,
       "source_names": [
         "Best Documentary",
         "CaseyNeistat",
@@ -156,7 +147,6 @@
         "Hoog",
         "Inspiraggio",
         "Logically Answered",
-        "Shepherd Capital Markets",
         "imineo Documentaires",
         "【塞掐】訪談大人物",
         "忽左忽右",
@@ -239,15 +229,6 @@
           "published_at": "2026-06-25T23:37:57Z"
         },
         {
-          "id": "782b842fbb905649a586f798036aa6fa44bf8997",
-          "title": "美股大科技为啥血崩？什么驱动了下跌？还能要吗？",
-          "url": "https://www.youtube.com/watch?v=uulBhwpZBkg",
-          "source": "Shepherd Capital Markets",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-06-25T22:27:22Z"
-        },
-        {
           "id": "7be1bde769804c574a8e0097463d664a7fcaa1b1",
           "title": "實力超強卻多次被豪門放棄，進球不慶祝、連奪冠也面無表情的冷面刺客！他才是法國隊最重要的球員？｜Nonchalant - Michael Olise 人物誌",
           "url": "https://www.youtube.com/watch?v=gZ1cWwg5KBw",
@@ -302,22 +283,22 @@
           "published_at": "2026-06-26T10:00:21Z"
         }
       ],
-      "item_count": 15,
-      "duplicate_count": 15,
-      "score": 0.7334,
-      "importance": 0.7334,
-      "importance_score": 0.7334,
+      "item_count": 14,
+      "duplicate_count": 14,
+      "score": 0.7157,
+      "importance": 0.7157,
+      "importance_score": 0.7157,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9446,
+        "recency": 0.8857,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-25T22:27:22Z",
+      "earliest_at": "2026-06-25T23:37:57Z",
       "latest_at": "2026-06-26T20:29:06Z",
       "primary_item": {
         "id": "bc090d6778602f3274340a69eb019dc78107db3e",
@@ -380,13 +361,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5149,
-      "importance": 0.5149,
-      "importance_score": 0.5149,
+      "score": 0.4972,
+      "importance": 0.4972,
+      "importance_score": 0.4972,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7164,
+        "recency": 0.6574,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -456,13 +437,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4565,
-      "importance": 0.4565,
-      "importance_score": 0.4565,
+      "score": 0.4388,
+      "importance": 0.4388,
+      "importance_score": 0.4388,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.5217,
+        "recency": 0.4627,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -532,13 +513,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3888,
-      "importance": 0.3888,
-      "importance_score": 0.3888,
+      "score": 0.3711,
+      "importance": 0.3711,
+      "importance_score": 0.3711,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.296,
+        "recency": 0.237,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -608,13 +589,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3784,
-      "importance": 0.3784,
-      "importance_score": 0.3784,
+      "score": 0.3607,
+      "importance": 0.3607,
+      "importance_score": 0.3607,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.2613,
+        "recency": 0.2023,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -684,13 +665,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3607,
-      "importance": 0.3607,
-      "importance_score": 0.3607,
+      "score": 0.343,
+      "importance": 0.343,
+      "importance_score": 0.343,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.2022,
+        "recency": 0.1432,
         "story_heat": 0.25
       },
       "category": "watch",
