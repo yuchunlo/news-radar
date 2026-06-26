@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-06-26T20:19:08.918350Z",
+  "generated_at": "2026-06-26T21:48:48.950463Z",
   "window_hours": 24,
   "total_items": 6,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "让我们一起误读托马斯·品钦的「拍卖第49批」",
-      "url": "https://www.youtube.com/watch?v=7oaHhYqPt2Y",
-      "primary_url": "https://www.youtube.com/watch?v=7oaHhYqPt2Y",
-      "source": "播客文化土豆 | Podcast Culture Potato",
+      "title": "無人能解開的達文西畫作 / The Da Vinci Painting No One Can Solve",
+      "url": "https://www.youtube.com/watch?v=v-mHOdGpimQ",
+      "primary_url": "https://www.youtube.com/watch?v=v-mHOdGpimQ",
+      "source": "Inspiraggio",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "bc090d6778602f3274340a69eb019dc78107db3e",
+          "title": "無人能解開的達文西畫作 / The Da Vinci Painting No One Can Solve",
+          "url": "https://www.youtube.com/watch?v=v-mHOdGpimQ",
+          "source": "Inspiraggio",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-26T20:29:06Z"
+        },
         {
           "id": "c545efee2a200a1fdbf4866cfd44878fb89b55a8",
           "title": "让我们一起误读托马斯·品钦的「拍卖第49批」",
@@ -84,24 +93,6 @@
           "published_at": "2026-06-25T22:27:22Z"
         },
         {
-          "id": "ec065c53090173f10e65c4e935685216d5926cdc",
-          "title": "古柯的許多好處——擁有 8,000 多年使用歷史的“神聖之葉” / The Many Benefits of Coca — The “Divine Leaf” with 8,000+ Years of Use",
-          "url": "https://www.youtube.com/watch?v=gL48mHH6ul8",
-          "source": "Tim Ferriss",
-          "source_name": "OPML RSS",
-          "site_id": "blog",
-          "published_at": "2026-06-25T21:34:52Z"
-        },
-        {
-          "id": "d0c2841d13c44eb404467a32033fb32e6397d696",
-          "title": "二戰期間法國精英釀酒師如何智勝納粹 / How Elite French Winemakers Outsmarted The Nazi's During WW2",
-          "url": "https://www.youtube.com/watch?v=srEPPeLgo-g",
-          "source": "Timeline - World History Documentaries",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-25T21:00:14Z"
-        },
-        {
           "id": "7be1bde769804c574a8e0097463d664a7fcaa1b1",
           "title": "實力超強卻多次被豪門放棄，進球不慶祝、連奪冠也面無表情的冷面刺客！他才是法國隊最重要的球員？｜Nonchalant - Michael Olise 人物誌",
           "url": "https://www.youtube.com/watch?v=gZ1cWwg5KBw",
@@ -156,17 +147,16 @@
           "published_at": "2026-06-26T10:00:21Z"
         }
       ],
-      "source_count": 16,
+      "source_count": 15,
       "source_names": [
         "Best Documentary",
         "CaseyNeistat",
         "Chu's Vegan",
         "DenQ來了",
         "Hoog",
+        "Inspiraggio",
         "Logically Answered",
         "Shepherd Capital Markets",
-        "Tim Ferriss",
-        "Timeline - World History Documentaries",
         "imineo Documentaires",
         "【塞掐】訪談大人物",
         "忽左忽右",
@@ -177,6 +167,15 @@
       ],
       "items": [
         {
+          "id": "bc090d6778602f3274340a69eb019dc78107db3e",
+          "title": "無人能解開的達文西畫作 / The Da Vinci Painting No One Can Solve",
+          "url": "https://www.youtube.com/watch?v=v-mHOdGpimQ",
+          "source": "Inspiraggio",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-26T20:29:06Z"
+        },
+        {
           "id": "c545efee2a200a1fdbf4866cfd44878fb89b55a8",
           "title": "让我们一起误读托马斯·品钦的「拍卖第49批」",
           "url": "https://www.youtube.com/watch?v=7oaHhYqPt2Y",
@@ -249,24 +248,6 @@
           "published_at": "2026-06-25T22:27:22Z"
         },
         {
-          "id": "ec065c53090173f10e65c4e935685216d5926cdc",
-          "title": "古柯的許多好處——擁有 8,000 多年使用歷史的“神聖之葉” / The Many Benefits of Coca — The “Divine Leaf” with 8,000+ Years of Use",
-          "url": "https://www.youtube.com/watch?v=gL48mHH6ul8",
-          "source": "Tim Ferriss",
-          "source_name": "OPML RSS",
-          "site_id": "blog",
-          "published_at": "2026-06-25T21:34:52Z"
-        },
-        {
-          "id": "d0c2841d13c44eb404467a32033fb32e6397d696",
-          "title": "二戰期間法國精英釀酒師如何智勝納粹 / How Elite French Winemakers Outsmarted The Nazi's During WW2",
-          "url": "https://www.youtube.com/watch?v=srEPPeLgo-g",
-          "source": "Timeline - World History Documentaries",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-25T21:00:14Z"
-        },
-        {
           "id": "7be1bde769804c574a8e0097463d664a7fcaa1b1",
           "title": "實力超強卻多次被豪門放棄，進球不慶祝、連奪冠也面無表情的冷面刺客！他才是法國隊最重要的球員？｜Nonchalant - Michael Olise 人物誌",
           "url": "https://www.youtube.com/watch?v=gZ1cWwg5KBw",
@@ -321,28 +302,104 @@
           "published_at": "2026-06-26T10:00:21Z"
         }
       ],
-      "item_count": 16,
-      "duplicate_count": 16,
-      "score": 0.7458,
-      "importance": 0.7458,
-      "importance_score": 0.7458,
+      "item_count": 15,
+      "duplicate_count": 15,
+      "score": 0.7334,
+      "importance": 0.7334,
+      "importance_score": 0.7334,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9861,
+        "recency": 0.9446,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-25T21:00:14Z",
-      "latest_at": "2026-06-26T19:59:06Z",
+      "earliest_at": "2026-06-25T22:27:22Z",
+      "latest_at": "2026-06-26T20:29:06Z",
       "primary_item": {
-        "id": "c545efee2a200a1fdbf4866cfd44878fb89b55a8",
-        "title": "让我们一起误读托马斯·品钦的「拍卖第49批」",
-        "url": "https://www.youtube.com/watch?v=7oaHhYqPt2Y",
-        "source": "播客文化土豆 | Podcast Culture Potato",
+        "id": "bc090d6778602f3274340a69eb019dc78107db3e",
+        "title": "無人能解開的達文西畫作 / The Da Vinci Painting No One Can Solve",
+        "url": "https://www.youtube.com/watch?v=v-mHOdGpimQ",
+        "source": "Inspiraggio",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_975e69d34c46",
+      "title": "為什麼你的狗沒有你想像的年齡 / Why Your Dog Isn’t The Age You Think",
+      "url": "https://www.youtube.com/shorts/_z_H0yZYc6c",
+      "primary_url": "https://www.youtube.com/shorts/_z_H0yZYc6c",
+      "source": "Cleo Abram",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "b9b1657f0329944fc58a812a06f013264097be53",
+          "title": "為什麼你的狗沒有你想像的年齡 / Why Your Dog Isn’t The Age You Think",
+          "url": "https://www.youtube.com/shorts/_z_H0yZYc6c",
+          "source": "Cleo Abram",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-06-26T15:00:28Z"
+        },
+        {
+          "id": "79e6890ca69933f147bb567e7dd322078ca22bdf",
+          "title": "為什麼狗的七年規則是錯的 / Why the 7-Year Rule for Dogs Is Wrong",
+          "url": "https://www.youtube.com/shorts/_z_H0yZYc6c",
+          "source": "Cleo Abram",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-06-26T15:00:28Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Cleo Abram"
+      ],
+      "items": [
+        {
+          "id": "b9b1657f0329944fc58a812a06f013264097be53",
+          "title": "為什麼你的狗沒有你想像的年齡 / Why Your Dog Isn’t The Age You Think",
+          "url": "https://www.youtube.com/shorts/_z_H0yZYc6c",
+          "source": "Cleo Abram",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-06-26T15:00:28Z"
+        },
+        {
+          "id": "79e6890ca69933f147bb567e7dd322078ca22bdf",
+          "title": "為什麼狗的七年規則是錯的 / Why the 7-Year Rule for Dogs Is Wrong",
+          "url": "https://www.youtube.com/shorts/_z_H0yZYc6c",
+          "source": "Cleo Abram",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-06-26T15:00:28Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5149,
+      "importance": 0.5149,
+      "importance_score": 0.5149,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.5,
+        "recency": 0.7164,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-26T15:00:28Z",
+      "latest_at": "2026-06-26T15:00:28Z",
+      "primary_item": {
+        "id": "b9b1657f0329944fc58a812a06f013264097be53",
+        "title": "為什麼你的狗沒有你想像的年齡 / Why Your Dog Isn’t The Age You Think",
+        "url": "https://www.youtube.com/shorts/_z_H0yZYc6c",
+        "source": "Cleo Abram",
         "source_name": "OPML RSS"
       }
     },
@@ -399,13 +456,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4752,
-      "importance": 0.4752,
-      "importance_score": 0.4752,
+      "score": 0.4565,
+      "importance": 0.4565,
+      "importance_score": 0.4565,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.5839,
+        "recency": 0.5217,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -475,13 +532,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4075,
-      "importance": 0.4075,
-      "importance_score": 0.4075,
+      "score": 0.3888,
+      "importance": 0.3888,
+      "importance_score": 0.3888,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.3582,
+        "recency": 0.296,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -551,13 +608,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3971,
-      "importance": 0.3971,
-      "importance_score": 0.3971,
+      "score": 0.3784,
+      "importance": 0.3784,
+      "importance_score": 0.3784,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.3235,
+        "recency": 0.2613,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -571,83 +628,6 @@
         "title": "OpenAI 表示，目前 97.9% 的員工在使用 Codex，高於 2025 年 8 月的約 40%；非開發人員 Codex 的使用率在個人中增加了 137 倍，在 OpenAI 中增加了 12 倍（Thomas Claburn/The Register） / OpenAI says 97.9% of its employees are now using Codex, up from ~40% in August 2025; non-developer Codex usage is up 137x for individuals and 12x within OpenAI (Thomas Claburn/The Register)",
         "url": "https://www.techmeme.com/260626/p1",
         "source": "Techmeme",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_e8ff0d08d00b",
-      "title": "奧姆·馬利克去世 / Om Malik has died",
-      "url": "https://om.co/2026/06/24/1966-2026",
-      "primary_url": "https://om.co/2026/06/24/1966-2026",
-      "source": "Hacker News: Newest",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "8b5f453c8953c6b007b790e9028a98f9fb25a98e",
-          "title": "奧姆·馬利克去世 / Om Malik has died",
-          "url": "https://om.co/2026/06/24/1966-2026",
-          "source": "Hacker News: Newest",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-06-25T20:33:37Z"
-        },
-        {
-          "id": "c3cd81399ead736eacdd85c487c3407bee059306",
-          "title": "GigaOm 創辦人 Om Malik 去世，享年 59 歲 / GigaOm founder Om Malik has passed at age 59",
-          "url": "https://om.co/2026/06/24/1966-2026",
-          "source": "Waxy.org",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-06-26T00:11:20Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Hacker News: Newest",
-        "Waxy.org"
-      ],
-      "items": [
-        {
-          "id": "8b5f453c8953c6b007b790e9028a98f9fb25a98e",
-          "title": "奧姆·馬利克去世 / Om Malik has died",
-          "url": "https://om.co/2026/06/24/1966-2026",
-          "source": "Hacker News: Newest",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-06-25T20:33:37Z"
-        },
-        {
-          "id": "c3cd81399ead736eacdd85c487c3407bee059306",
-          "title": "GigaOm 創辦人 Om Malik 去世，享年 59 歲 / GigaOm founder Om Malik has passed at age 59",
-          "url": "https://om.co/2026/06/24/1966-2026",
-          "source": "Waxy.org",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-06-26T00:11:20Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.303,
-      "importance": 0.303,
-      "importance_score": 0.303,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.5,
-        "recency": 0.01,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-25T20:33:37Z",
-      "latest_at": "2026-06-26T00:11:20Z",
-      "primary_item": {
-        "id": "8b5f453c8953c6b007b790e9028a98f9fb25a98e",
-        "title": "奧姆·馬利克去世 / Om Malik has died",
-        "url": "https://om.co/2026/06/24/1966-2026",
-        "source": "Hacker News: Newest",
         "source_name": "OPML RSS"
       }
     },
@@ -704,13 +684,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3793,
-      "importance": 0.3793,
-      "importance_score": 0.3793,
+      "score": 0.3607,
+      "importance": 0.3607,
+      "importance_score": 0.3607,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.2645,
+        "recency": 0.2022,
         "story_heat": 0.25
       },
       "category": "watch",
