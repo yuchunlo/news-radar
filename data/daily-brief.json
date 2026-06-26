@@ -1,16 +1,34 @@
 {
-  "generated_at": "2026-06-26T18:11:29.446201Z",
+  "generated_at": "2026-06-26T20:19:08.918350Z",
   "window_hours": 24,
-  "total_items": 7,
+  "total_items": 6,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "巨型體育場：21 世紀足球的大教堂 / Megastadium : Les cathédrales du Football au XXIe Siècle",
-      "url": "https://www.youtube.com/watch?v=Q5lLG11VzsQ",
-      "primary_url": "https://www.youtube.com/watch?v=Q5lLG11VzsQ",
-      "source": "imineo Documentaires",
+      "title": "让我们一起误读托马斯·品钦的「拍卖第49批」",
+      "url": "https://www.youtube.com/watch?v=7oaHhYqPt2Y",
+      "primary_url": "https://www.youtube.com/watch?v=7oaHhYqPt2Y",
+      "source": "播客文化土豆 | Podcast Culture Potato",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "c545efee2a200a1fdbf4866cfd44878fb89b55a8",
+          "title": "让我们一起误读托马斯·品钦的「拍卖第49批」",
+          "url": "https://www.youtube.com/watch?v=7oaHhYqPt2Y",
+          "source": "播客文化土豆 | Podcast Culture Potato",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-26T19:59:06Z"
+        },
+        {
+          "id": "48506d0aadd3833c57a51d3e95a8d900c0704bdc",
+          "title": "珍妮佛洛佩茲說我不是紐約人 / Jennifer Lopez said I Am Not a New Yorker",
+          "url": "https://www.youtube.com/watch?v=XJBm88g-e8Q",
+          "source": "CaseyNeistat",
+          "source_name": "OPML RSS",
+          "site_id": "design",
+          "published_at": "2026-06-26T19:30:49Z"
+        },
         {
           "id": "fd9dbcfa6e4649f57cd332297e3aa0efe57b23a6",
           "title": "巨型體育場：21 世紀足球的大教堂 / Megastadium : Les cathédrales du Football au XXIe Siècle",
@@ -84,15 +102,6 @@
           "published_at": "2026-06-25T21:00:14Z"
         },
         {
-          "id": "a46828d2f93fa1ce6ca51e913cb8da2eaab01c67",
-          "title": "中世紀最令人印象深刻的大教堂 / La Catedral Más Impresionante de la Edad Media",
-          "url": "https://www.youtube.com/watch?v=u_urRfQDTzE",
-          "source": "Manuel Bravo",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-25T19:29:10Z"
-        },
-        {
           "id": "7be1bde769804c574a8e0097463d664a7fcaa1b1",
           "title": "實力超強卻多次被豪門放棄，進球不慶祝、連奪冠也面無表情的冷面刺客！他才是法國隊最重要的球員？｜Nonchalant - Michael Olise 人物誌",
           "url": "https://www.youtube.com/watch?v=gZ1cWwg5KBw",
@@ -120,6 +129,15 @@
           "published_at": "2026-06-26T04:00:04Z"
         },
         {
+          "id": "ee7f759fbb454a278a559c129e125121d9def617",
+          "title": "沒有人購買 Apple Vision Pro... / No One Is Buying The Apple Vision Pro...",
+          "url": "https://www.youtube.com/watch?v=g1CA66nuNA8",
+          "source": "Logically Answered",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-06-26T19:00:39Z"
+        },
+        {
           "id": "11b809d00dbf992771dd0407984c3c3ebf086d24",
           "title": "紐約監管，馬德里創新 / New York Regulates, Madrid Innovates",
           "url": "https://www.youtube.com/watch?v=utt-KnIMB3o",
@@ -138,24 +156,44 @@
           "published_at": "2026-06-26T10:00:21Z"
         }
       ],
-      "source_count": 14,
+      "source_count": 16,
       "source_names": [
         "Best Documentary",
+        "CaseyNeistat",
         "Chu's Vegan",
         "DenQ來了",
         "Hoog",
-        "Manuel Bravo",
+        "Logically Answered",
         "Shepherd Capital Markets",
         "Tim Ferriss",
         "Timeline - World History Documentaries",
         "imineo Documentaires",
         "【塞掐】訪談大人物",
         "忽左忽右",
+        "播客文化土豆 | Podcast Culture Potato",
         "沙發人物誌",
         "美投侃新闻",
         "胖貓堂主"
       ],
       "items": [
+        {
+          "id": "c545efee2a200a1fdbf4866cfd44878fb89b55a8",
+          "title": "让我们一起误读托马斯·品钦的「拍卖第49批」",
+          "url": "https://www.youtube.com/watch?v=7oaHhYqPt2Y",
+          "source": "播客文化土豆 | Podcast Culture Potato",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-26T19:59:06Z"
+        },
+        {
+          "id": "48506d0aadd3833c57a51d3e95a8d900c0704bdc",
+          "title": "珍妮佛洛佩茲說我不是紐約人 / Jennifer Lopez said I Am Not a New Yorker",
+          "url": "https://www.youtube.com/watch?v=XJBm88g-e8Q",
+          "source": "CaseyNeistat",
+          "source_name": "OPML RSS",
+          "site_id": "design",
+          "published_at": "2026-06-26T19:30:49Z"
+        },
         {
           "id": "fd9dbcfa6e4649f57cd332297e3aa0efe57b23a6",
           "title": "巨型體育場：21 世紀足球的大教堂 / Megastadium : Les cathédrales du Football au XXIe Siècle",
@@ -229,15 +267,6 @@
           "published_at": "2026-06-25T21:00:14Z"
         },
         {
-          "id": "a46828d2f93fa1ce6ca51e913cb8da2eaab01c67",
-          "title": "中世紀最令人印象深刻的大教堂 / La Catedral Más Impresionante de la Edad Media",
-          "url": "https://www.youtube.com/watch?v=u_urRfQDTzE",
-          "source": "Manuel Bravo",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-25T19:29:10Z"
-        },
-        {
           "id": "7be1bde769804c574a8e0097463d664a7fcaa1b1",
           "title": "實力超強卻多次被豪門放棄，進球不慶祝、連奪冠也面無表情的冷面刺客！他才是法國隊最重要的球員？｜Nonchalant - Michael Olise 人物誌",
           "url": "https://www.youtube.com/watch?v=gZ1cWwg5KBw",
@@ -265,6 +294,15 @@
           "published_at": "2026-06-26T04:00:04Z"
         },
         {
+          "id": "ee7f759fbb454a278a559c129e125121d9def617",
+          "title": "沒有人購買 Apple Vision Pro... / No One Is Buying The Apple Vision Pro...",
+          "url": "https://www.youtube.com/watch?v=g1CA66nuNA8",
+          "source": "Logically Answered",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-06-26T19:00:39Z"
+        },
+        {
           "id": "11b809d00dbf992771dd0407984c3c3ebf086d24",
           "title": "紐約監管，馬德里創新 / New York Regulates, Madrid Innovates",
           "url": "https://www.youtube.com/watch?v=utt-KnIMB3o",
@@ -283,28 +321,28 @@
           "published_at": "2026-06-26T10:00:21Z"
         }
       ],
-      "item_count": 14,
-      "duplicate_count": 14,
-      "score": 0.7071,
-      "importance": 0.7071,
-      "importance_score": 0.7071,
+      "item_count": 16,
+      "duplicate_count": 16,
+      "score": 0.7458,
+      "importance": 0.7458,
+      "importance_score": 0.7458,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.857,
+        "recency": 0.9861,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-25T19:29:10Z",
-      "latest_at": "2026-06-26T16:41:07Z",
+      "earliest_at": "2026-06-25T21:00:14Z",
+      "latest_at": "2026-06-26T19:59:06Z",
       "primary_item": {
-        "id": "fd9dbcfa6e4649f57cd332297e3aa0efe57b23a6",
-        "title": "巨型體育場：21 世紀足球的大教堂 / Megastadium : Les cathédrales du Football au XXIe Siècle",
-        "url": "https://www.youtube.com/watch?v=Q5lLG11VzsQ",
-        "source": "imineo Documentaires",
+        "id": "c545efee2a200a1fdbf4866cfd44878fb89b55a8",
+        "title": "让我们一起误读托马斯·品钦的「拍卖第49批」",
+        "url": "https://www.youtube.com/watch?v=7oaHhYqPt2Y",
+        "source": "播客文化土豆 | Podcast Culture Potato",
         "source_name": "OPML RSS"
       }
     },
@@ -361,13 +399,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5018,
-      "importance": 0.5018,
-      "importance_score": 0.5018,
+      "score": 0.4752,
+      "importance": 0.4752,
+      "importance_score": 0.4752,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6726,
+        "recency": 0.5839,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -437,13 +475,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4341,
-      "importance": 0.4341,
-      "importance_score": 0.4341,
+      "score": 0.4075,
+      "importance": 0.4075,
+      "importance_score": 0.4075,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.4469,
+        "recency": 0.3582,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -513,13 +551,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4237,
-      "importance": 0.4237,
-      "importance_score": 0.4237,
+      "score": 0.3971,
+      "importance": 0.3971,
+      "importance_score": 0.3971,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.4122,
+        "recency": 0.3235,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -590,13 +628,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3296,
-      "importance": 0.3296,
-      "importance_score": 0.3296,
+      "score": 0.303,
+      "importance": 0.303,
+      "importance_score": 0.303,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.0987,
+        "recency": 0.01,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -666,13 +704,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4059,
-      "importance": 0.4059,
-      "importance_score": 0.4059,
+      "score": 0.3793,
+      "importance": 0.3793,
+      "importance_score": 0.3793,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.3531,
+        "recency": 0.2645,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -685,82 +723,6 @@
         "id": "424b0e45da038d23523619468d0acc38d75621c2",
         "title": "有報導指出 OpenAI 可能將 IPO 推遲至 2027 年，軟銀股價下跌 12%；對 OpenAI 首次亮相帶來的意外收穫的預期支撐了軟銀的股價（Aya Wagatsuma/彭博社） / SoftBank shares fell 12% after reports that OpenAI may delay its IPO until 2027; expectations of a windfall from OpenAI's debut helped support Softbank's stock (Aya Wagatsuma/Bloomberg)",
         "url": "https://www.techmeme.com/260625/p60",
-        "source": "Techmeme",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_8334129124f7",
-      "title": "美國根據 CHIPS 計劃向億萬富翁羅伯特·弗里德蘭 (Robert Friedland) 聯合創立的一家新創公司撥款 2.5 億美元，用於開發碳化矽晶片和脈衝功率技術（James Attwood/彭博社） / The US awarded $250M under the CHIPS program to a startup co-founded by billionaire Robert Friedland to develop silicon-carbide chips and pulsed-power tech (James Attwood/Bloomberg)",
-      "url": "https://www.techmeme.com/260625/p42",
-      "primary_url": "https://www.techmeme.com/260625/p42",
-      "source": "Techmeme",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "3a6efb3f95942eef54a96e8df3c099e9d605ad1c",
-          "title": "美國根據 CHIPS 計劃向億萬富翁羅伯特·弗里德蘭 (Robert Friedland) 聯合創立的一家新創公司撥款 2.5 億美元，用於開發碳化矽晶片和脈衝功率技術（James Attwood/彭博社） / The US awarded $250M under the CHIPS program to a startup co-founded by billionaire Robert Friedland to develop silicon-carbide chips and pulsed-power tech (James Attwood/Bloomberg)",
-          "url": "https://www.techmeme.com/260625/p42",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-06-25T20:05:01Z"
-        },
-        {
-          "id": "f40e0e460a24225f62d4688890fea2c4ca17f51c",
-          "title": "美國向億萬富翁礦業巨頭羅伯特·弗里德蘭 (Robert Friedland) 聯合創立的一家新創公司提供 2.5 億美元的 CHIPS 基金，用於開發碳化矽晶片和脈衝功率技術（James Attwood/彭博社） / The US awards $250M in CHIPS funds to a startup co-founded by billionaire mining magnate Robert Friedland to develop silicon-carbide chips and pulsed-power tech (James Attwood/Bloomberg)",
-          "url": "https://www.techmeme.com/260625/p42",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-06-25T20:05:01Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Techmeme"
-      ],
-      "items": [
-        {
-          "id": "3a6efb3f95942eef54a96e8df3c099e9d605ad1c",
-          "title": "美國根據 CHIPS 計劃向億萬富翁羅伯特·弗里德蘭 (Robert Friedland) 聯合創立的一家新創公司撥款 2.5 億美元，用於開發碳化矽晶片和脈衝功率技術（James Attwood/彭博社） / The US awarded $250M under the CHIPS program to a startup co-founded by billionaire Robert Friedland to develop silicon-carbide chips and pulsed-power tech (James Attwood/Bloomberg)",
-          "url": "https://www.techmeme.com/260625/p42",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-06-25T20:05:01Z"
-        },
-        {
-          "id": "f40e0e460a24225f62d4688890fea2c4ca17f51c",
-          "title": "美國向億萬富翁礦業巨頭羅伯特·弗里德蘭 (Robert Friedland) 聯合創立的一家新創公司提供 2.5 億美元的 CHIPS 基金，用於開發碳化矽晶片和脈衝功率技術（James Attwood/彭博社） / The US awards $250M in CHIPS funds to a startup co-founded by billionaire mining magnate Robert Friedland to develop silicon-carbide chips and pulsed-power tech (James Attwood/Bloomberg)",
-          "url": "https://www.techmeme.com/260625/p42",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-06-25T20:05:01Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.3237,
-      "importance": 0.3237,
-      "importance_score": 0.3237,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.5,
-        "recency": 0.0788,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-25T20:05:01Z",
-      "latest_at": "2026-06-25T20:05:01Z",
-      "primary_item": {
-        "id": "3a6efb3f95942eef54a96e8df3c099e9d605ad1c",
-        "title": "美國根據 CHIPS 計劃向億萬富翁羅伯特·弗里德蘭 (Robert Friedland) 聯合創立的一家新創公司撥款 2.5 億美元，用於開發碳化矽晶片和脈衝功率技術（James Attwood/彭博社） / The US awarded $250M under the CHIPS program to a startup co-founded by billionaire Robert Friedland to develop silicon-carbide chips and pulsed-power tech (James Attwood/Bloomberg)",
-        "url": "https://www.techmeme.com/260625/p42",
         "source": "Techmeme",
         "source_name": "OPML RSS"
       }
