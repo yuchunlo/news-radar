@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T16:10:51.327649Z",
+  "generated_at": "2026-06-27T17:38:52.687547Z",
   "window_hours": 24,
   "total_items": 4,
   "items": [
@@ -93,6 +93,15 @@
           "published_at": "2026-06-26T19:30:49Z"
         },
         {
+          "id": "6e254ae328dac8ca6e92eb2a970b82250685faa0",
+          "title": "英國新反跨性別法解釋 / Britain's New Anti-Trans Laws, Explained",
+          "url": "https://www.youtube.com/watch?v=Q_fBX-0RTeA",
+          "source": "Tom Nicholas",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-06-27T16:09:59Z"
+        },
+        {
           "id": "669313abf7d3420918f15c25fd349c62d4f3aa17",
           "title": "孟菲斯最危險的地方 / Inside Memphis’ Most Dangerous Hoods",
           "url": "https://www.youtube.com/watch?v=c1no2MBv24s",
@@ -127,15 +136,6 @@
           "source_name": "OPML RSS",
           "site_id": "trending",
           "published_at": "2026-06-26T19:00:39Z"
-        },
-        {
-          "id": "11b809d00dbf992771dd0407984c3c3ebf086d24",
-          "title": "紐約監管，馬德里創新 / New York Regulates, Madrid Innovates",
-          "url": "https://www.youtube.com/watch?v=utt-KnIMB3o",
-          "source": "Hoog",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-06-26T16:41:07Z"
         }
       ],
       "source_count": 14,
@@ -143,12 +143,12 @@
         "Best Documentary",
         "CaseyNeistat",
         "Cleo Abram",
-        "Hoog",
         "Inspiraggio",
         "Knowledgia",
         "Logically Answered",
         "Match Economy",
         "Peter Santenello",
+        "Tom Nicholas",
         "imineo Documentaires",
         "播客文化土豆 | Podcast Culture Potato",
         "美投侃新闻",
@@ -237,6 +237,15 @@
           "published_at": "2026-06-26T19:30:49Z"
         },
         {
+          "id": "6e254ae328dac8ca6e92eb2a970b82250685faa0",
+          "title": "英國新反跨性別法解釋 / Britain's New Anti-Trans Laws, Explained",
+          "url": "https://www.youtube.com/watch?v=Q_fBX-0RTeA",
+          "source": "Tom Nicholas",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-06-27T16:09:59Z"
+        },
+        {
           "id": "669313abf7d3420918f15c25fd349c62d4f3aa17",
           "title": "孟菲斯最危險的地方 / Inside Memphis’ Most Dangerous Hoods",
           "url": "https://www.youtube.com/watch?v=c1no2MBv24s",
@@ -271,34 +280,25 @@
           "source_name": "OPML RSS",
           "site_id": "trending",
           "published_at": "2026-06-26T19:00:39Z"
-        },
-        {
-          "id": "11b809d00dbf992771dd0407984c3c3ebf086d24",
-          "title": "紐約監管，馬德里創新 / New York Regulates, Madrid Innovates",
-          "url": "https://www.youtube.com/watch?v=utt-KnIMB3o",
-          "source": "Hoog",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-06-26T16:41:07Z"
         }
       ],
       "item_count": 14,
       "duplicate_count": 14,
-      "score": 0.7322,
-      "importance": 0.7322,
-      "importance_score": 0.7322,
+      "score": 0.7139,
+      "importance": 0.7139,
+      "importance_score": 0.7139,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9408,
+        "recency": 0.8797,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-26T16:41:07Z",
-      "latest_at": "2026-06-27T16:00:08Z",
+      "earliest_at": "2026-06-26T19:00:39Z",
+      "latest_at": "2026-06-27T16:09:59Z",
       "primary_item": {
         "id": "4b7d00360f1f55b3d5b3b771b70c8fc5b11cebd5",
         "title": "埃及最古老的金字塔內部：左塞爾之謎 / Inside the oldest pyramid in Egypt: the mystery of Djoser",
@@ -360,13 +360,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4013,
-      "importance": 0.4013,
-      "importance_score": 0.4013,
+      "score": 0.3829,
+      "importance": 0.3829,
+      "importance_score": 0.3829,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.7542,
+        "recency": 0.6931,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -436,13 +436,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3769,
-      "importance": 0.3769,
-      "importance_score": 0.3769,
+      "score": 0.3586,
+      "importance": 0.3586,
+      "importance_score": 0.3586,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.2564,
+        "recency": 0.1953,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -512,13 +512,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3569,
-      "importance": 0.3569,
-      "importance_score": 0.3569,
+      "score": 0.3385,
+      "importance": 0.3385,
+      "importance_score": 0.3385,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.1895,
+        "recency": 0.1284,
         "story_heat": 0.25
       },
       "category": "watch",
