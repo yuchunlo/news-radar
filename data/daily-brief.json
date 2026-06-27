@@ -1,16 +1,34 @@
 {
-  "generated_at": "2026-06-27T12:53:03.174326Z",
+  "generated_at": "2026-06-27T14:46:45.307568Z",
   "window_hours": 24,
   "total_items": 5,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "鑽石的秘密超能力 / The Secret Superpower of Diamonds",
-      "url": "https://www.youtube.com/watch?v=HKJC84RLhyU",
-      "primary_url": "https://www.youtube.com/watch?v=HKJC84RLhyU",
-      "source": "Cleo Abram",
+      "title": "為什麼中西部不屬於加拿大的一部分？ - 美國收購中西部 / Why isn't The Midwest a part of Canada? - THE US ACQUISITION OF THE MIDWEST",
+      "url": "https://www.youtube.com/watch?v=7gSRW8uTqJk",
+      "primary_url": "https://www.youtube.com/watch?v=7gSRW8uTqJk",
+      "source": "Knowledgia",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "eac590aa516d15e7373ce1e1a39c1ac03fdb1c3c",
+          "title": "為什麼中西部不屬於加拿大的一部分？ - 美國收購中西部 / Why isn't The Midwest a part of Canada? - THE US ACQUISITION OF THE MIDWEST",
+          "url": "https://www.youtube.com/watch?v=7gSRW8uTqJk",
+          "source": "Knowledgia",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-27T14:21:41Z"
+        },
+        {
+          "id": "bc30a5ca90569ada4070f754cb75bce1d1b346f4",
+          "title": "鑽石可以解決 1 兆美元的問題 / The $1 Trillion Problem Diamonds Can Solve",
+          "url": "https://www.youtube.com/watch?v=HKJC84RLhyU",
+          "source": "Cleo Abram",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-06-27T12:02:51Z"
+        },
         {
           "id": "758bbaca5c8c8374bc386f30704400fbc38f004f",
           "title": "鑽石的秘密超能力 / The Secret Superpower of Diamonds",
@@ -66,15 +84,6 @@
           "published_at": "2026-06-26T19:30:49Z"
         },
         {
-          "id": "fd9dbcfa6e4649f57cd332297e3aa0efe57b23a6",
-          "title": "巨型體育場：21 世紀足球的大教堂 / Megastadium : Les cathédrales du Football au XXIe Siècle",
-          "url": "https://www.youtube.com/watch?v=Q5lLG11VzsQ",
-          "source": "imineo Documentaires",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-26T14:45:32Z"
-        },
-        {
           "id": "c310eb4a070f4a4919915885d3a5b641aa35a745",
           "title": "【吉爾吉斯2】一張地毯竟是世界文化遺產？揭開遊牧民族千年秘密！吉爾吉斯國民美食太驚艷了！ This Carpet a UNESCO ?! Uncover Nomadic Culture Eng Sub",
           "url": "https://www.youtube.com/watch?v=N7V9TDC2CSc",
@@ -102,20 +111,38 @@
           "published_at": "2026-06-26T16:41:07Z"
         }
       ],
-      "source_count": 10,
+      "source_count": 11,
       "source_names": [
         "Best Documentary",
         "CaseyNeistat",
         "Cleo Abram",
         "Hoog",
         "Inspiraggio",
+        "Knowledgia",
         "Logically Answered",
-        "imineo Documentaires",
         "播客文化土豆 | Podcast Culture Potato",
         "美投侃新闻",
         "融融歷險記Ben's Adventure"
       ],
       "items": [
+        {
+          "id": "eac590aa516d15e7373ce1e1a39c1ac03fdb1c3c",
+          "title": "為什麼中西部不屬於加拿大的一部分？ - 美國收購中西部 / Why isn't The Midwest a part of Canada? - THE US ACQUISITION OF THE MIDWEST",
+          "url": "https://www.youtube.com/watch?v=7gSRW8uTqJk",
+          "source": "Knowledgia",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-27T14:21:41Z"
+        },
+        {
+          "id": "bc30a5ca90569ada4070f754cb75bce1d1b346f4",
+          "title": "鑽石可以解決 1 兆美元的問題 / The $1 Trillion Problem Diamonds Can Solve",
+          "url": "https://www.youtube.com/watch?v=HKJC84RLhyU",
+          "source": "Cleo Abram",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-06-27T12:02:51Z"
+        },
         {
           "id": "758bbaca5c8c8374bc386f30704400fbc38f004f",
           "title": "鑽石的秘密超能力 / The Secret Superpower of Diamonds",
@@ -171,15 +198,6 @@
           "published_at": "2026-06-26T19:30:49Z"
         },
         {
-          "id": "fd9dbcfa6e4649f57cd332297e3aa0efe57b23a6",
-          "title": "巨型體育場：21 世紀足球的大教堂 / Megastadium : Les cathédrales du Football au XXIe Siècle",
-          "url": "https://www.youtube.com/watch?v=Q5lLG11VzsQ",
-          "source": "imineo Documentaires",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-26T14:45:32Z"
-        },
-        {
           "id": "c310eb4a070f4a4919915885d3a5b641aa35a745",
           "title": "【吉爾吉斯2】一張地毯竟是世界文化遺產？揭開遊牧民族千年秘密！吉爾吉斯國民美食太驚艷了！ This Carpet a UNESCO ?! Uncover Nomadic Culture Eng Sub",
           "url": "https://www.youtube.com/watch?v=N7V9TDC2CSc",
@@ -207,28 +225,28 @@
           "published_at": "2026-06-26T16:41:07Z"
         }
       ],
-      "item_count": 10,
-      "duplicate_count": 10,
-      "score": 0.7395,
-      "importance": 0.7395,
-      "importance_score": 0.7395,
+      "item_count": 11,
+      "duplicate_count": 11,
+      "score": 0.7448,
+      "importance": 0.7448,
+      "importance_score": 0.7448,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9651,
+        "recency": 0.9826,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-26T14:45:32Z",
-      "latest_at": "2026-06-27T12:02:51Z",
+      "earliest_at": "2026-06-26T16:41:07Z",
+      "latest_at": "2026-06-27T14:21:41Z",
       "primary_item": {
-        "id": "758bbaca5c8c8374bc386f30704400fbc38f004f",
-        "title": "鑽石的秘密超能力 / The Secret Superpower of Diamonds",
-        "url": "https://www.youtube.com/watch?v=HKJC84RLhyU",
-        "source": "Cleo Abram",
+        "id": "eac590aa516d15e7373ce1e1a39c1ac03fdb1c3c",
+        "title": "為什麼中西部不屬於加拿大的一部分？ - 美國收購中西部 / Why isn't The Midwest a part of Canada? - THE US ACQUISITION OF THE MIDWEST",
+        "url": "https://www.youtube.com/watch?v=7gSRW8uTqJk",
+        "source": "Knowledgia",
         "source_name": "OPML RSS"
       }
     },
@@ -285,13 +303,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4425,
-      "importance": 0.4425,
-      "importance_score": 0.4425,
+      "score": 0.4188,
+      "importance": 0.4188,
+      "importance_score": 0.4188,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.8916,
+        "recency": 0.8126,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -361,13 +379,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4181,
-      "importance": 0.4181,
-      "importance_score": 0.4181,
+      "score": 0.3944,
+      "importance": 0.3944,
+      "importance_score": 0.3944,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.3937,
+        "recency": 0.3148,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -437,13 +455,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3981,
-      "importance": 0.3981,
-      "importance_score": 0.3981,
+      "score": 0.3744,
+      "importance": 0.3744,
+      "importance_score": 0.3744,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.3269,
+        "recency": 0.2479,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -513,13 +531,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3265,
-      "importance": 0.3265,
-      "importance_score": 0.3265,
+      "score": 0.3029,
+      "importance": 0.3029,
+      "importance_score": 0.3029,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.0885,
+        "recency": 0.0095,
         "story_heat": 0.25
       },
       "category": "watch",
