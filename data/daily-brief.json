@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-27T19:37:22.972807Z",
+  "generated_at": "2026-06-27T21:11:30.641741Z",
   "window_hours": 24,
-  "total_items": 4,
+  "total_items": 3,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
@@ -84,24 +84,6 @@
           "published_at": "2026-06-27T00:01:54Z"
         },
         {
-          "id": "bc090d6778602f3274340a69eb019dc78107db3e",
-          "title": "無人能解開的達文西畫作 / The Da Vinci Painting No One Can Solve",
-          "url": "https://www.youtube.com/watch?v=v-mHOdGpimQ",
-          "source": "Inspiraggio",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-26T20:29:06Z"
-        },
-        {
-          "id": "c545efee2a200a1fdbf4866cfd44878fb89b55a8",
-          "title": "让我们一起误读托马斯·品钦的「拍卖第49批」",
-          "url": "https://www.youtube.com/watch?v=7oaHhYqPt2Y",
-          "source": "播客文化土豆 | Podcast Culture Potato",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-26T19:59:06Z"
-        },
-        {
           "id": "ecdf2eb64d72ec8ba4b0153d6604d1631ae6e120",
           "title": "為什麼美國是設計最差的國家 / Why America Is The Worst Designed Country",
           "url": "https://www.youtube.com/watch?v=q9DDSK4Y310",
@@ -147,11 +129,10 @@
           "published_at": "2026-06-27T16:00:08Z"
         }
       ],
-      "source_count": 15,
+      "source_count": 13,
       "source_names": [
         "Best Documentary",
         "Cleo Abram",
-        "Inspiraggio",
         "Knowledgia",
         "Match Economy",
         "OBF",
@@ -159,7 +140,6 @@
         "Tom Nicholas",
         "imineo Documentaires",
         "nobody",
-        "播客文化土豆 | Podcast Culture Potato",
         "美投侃新闻",
         "融融歷險記Ben's Adventure",
         "音樂家的無聊人生 Musician Seacow"
@@ -238,24 +218,6 @@
           "published_at": "2026-06-27T00:01:54Z"
         },
         {
-          "id": "bc090d6778602f3274340a69eb019dc78107db3e",
-          "title": "無人能解開的達文西畫作 / The Da Vinci Painting No One Can Solve",
-          "url": "https://www.youtube.com/watch?v=v-mHOdGpimQ",
-          "source": "Inspiraggio",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-26T20:29:06Z"
-        },
-        {
-          "id": "c545efee2a200a1fdbf4866cfd44878fb89b55a8",
-          "title": "让我们一起误读托马斯·品钦的「拍卖第49批」",
-          "url": "https://www.youtube.com/watch?v=7oaHhYqPt2Y",
-          "source": "播客文化土豆 | Podcast Culture Potato",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-26T19:59:06Z"
-        },
-        {
           "id": "ecdf2eb64d72ec8ba4b0153d6604d1631ae6e120",
           "title": "為什麼美國是設計最差的國家 / Why America Is The Worst Designed Country",
           "url": "https://www.youtube.com/watch?v=q9DDSK4Y310",
@@ -301,22 +263,22 @@
           "published_at": "2026-06-27T16:00:08Z"
         }
       ],
-      "item_count": 15,
-      "duplicate_count": 15,
-      "score": 0.7323,
-      "importance": 0.7323,
-      "importance_score": 0.7323,
+      "item_count": 13,
+      "duplicate_count": 13,
+      "score": 0.7127,
+      "importance": 0.7127,
+      "importance_score": 0.7127,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9411,
+        "recency": 0.8757,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-26T19:59:06Z",
+      "earliest_at": "2026-06-27T00:01:54Z",
       "latest_at": "2026-06-27T18:23:07Z",
       "primary_item": {
         "id": "8dc575ea974195fb80790e5ca2da9faf0a7c0426",
@@ -379,13 +341,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3582,
-      "importance": 0.3582,
-      "importance_score": 0.3582,
+      "score": 0.3386,
+      "importance": 0.3386,
+      "importance_score": 0.3386,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.6108,
+        "recency": 0.5454,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -455,13 +417,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3339,
-      "importance": 0.3339,
-      "importance_score": 0.3339,
+      "score": 0.3143,
+      "importance": 0.3143,
+      "importance_score": 0.3143,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.113,
+        "recency": 0.0476,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -475,82 +437,6 @@
         "title": "Anthropic 正與美國達成協議，取消人工智慧模式的限制（彭博） / Anthropic Moves Toward Deal With US to Lift Curbs on AI Models (Bloomberg)",
         "url": "https://www.techmeme.com/260626/p29",
         "source": "Techmeme",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_92ae6546057a",
-      "title": "Kirkland Signature：Costco 如何打造 90B 美元的自有品牌帝國 / Kirkland Signature: How Costco Built a $90B Private-Label Empire",
-      "url": "https://www.readtrung.com/p/kirkland-signature-how-costco-created",
-      "primary_url": "https://www.readtrung.com/p/kirkland-signature-how-costco-created",
-      "source": "SatPost by Trung Phan",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "f18335188aef794ea44f48e0a3b218a3b119e3e5",
-          "title": "Kirkland Signature：Costco 如何打造 90B 美元的自有品牌帝國 / Kirkland Signature: How Costco Built a $90B Private-Label Empire",
-          "url": "https://www.readtrung.com/p/kirkland-signature-how-costco-created",
-          "source": "SatPost by Trung Phan",
-          "source_name": "OPML RSS",
-          "site_id": "blog",
-          "published_at": "2026-06-26T20:43:45Z"
-        },
-        {
-          "id": "a982ff104d423654b59953bf3c4a2aab06f27f02",
-          "title": "柯克蘭簽名：Jim Sinegal 和 Costco 90B 美元自有品牌帝國的打造 / Kirkland Signature: Jim Sinegal and the Making of Costco's $90B Private-Label Empire",
-          "url": "https://www.readtrung.com/p/kirkland-signature-how-costco-created",
-          "source": "SatPost by Trung Phan",
-          "source_name": "OPML RSS",
-          "site_id": "blog",
-          "published_at": "2026-06-26T20:43:45Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "SatPost by Trung Phan"
-      ],
-      "items": [
-        {
-          "id": "f18335188aef794ea44f48e0a3b218a3b119e3e5",
-          "title": "Kirkland Signature：Costco 如何打造 90B 美元的自有品牌帝國 / Kirkland Signature: How Costco Built a $90B Private-Label Empire",
-          "url": "https://www.readtrung.com/p/kirkland-signature-how-costco-created",
-          "source": "SatPost by Trung Phan",
-          "source_name": "OPML RSS",
-          "site_id": "blog",
-          "published_at": "2026-06-26T20:43:45Z"
-        },
-        {
-          "id": "a982ff104d423654b59953bf3c4a2aab06f27f02",
-          "title": "柯克蘭簽名：Jim Sinegal 和 Costco 90B 美元自有品牌帝國的打造 / Kirkland Signature: Jim Sinegal and the Making of Costco's $90B Private-Label Empire",
-          "url": "https://www.readtrung.com/p/kirkland-signature-how-costco-created",
-          "source": "SatPost by Trung Phan",
-          "source_name": "OPML RSS",
-          "site_id": "blog",
-          "published_at": "2026-06-26T20:43:45Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.3138,
-      "importance": 0.3138,
-      "importance_score": 0.3138,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.5,
-        "recency": 0.0461,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-26T20:43:45Z",
-      "latest_at": "2026-06-26T20:43:45Z",
-      "primary_item": {
-        "id": "f18335188aef794ea44f48e0a3b218a3b119e3e5",
-        "title": "Kirkland Signature：Costco 如何打造 90B 美元的自有品牌帝國 / Kirkland Signature: How Costco Built a $90B Private-Label Empire",
-        "url": "https://www.readtrung.com/p/kirkland-signature-how-costco-created",
-        "source": "SatPost by Trung Phan",
         "source_name": "OPML RSS"
       }
     }
