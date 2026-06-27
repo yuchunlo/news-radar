@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-06-27T21:11:30.641741Z",
+  "generated_at": "2026-06-27T22:38:17.877231Z",
   "window_hours": 24,
-  "total_items": 3,
+  "total_items": 2,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "沒想到義大利八點檔這麼好看！威爾第《遊唱詩人》Verdi - Il trovatore",
-      "url": "https://www.youtube.com/watch?v=LMozgXT5Kzs",
-      "primary_url": "https://www.youtube.com/watch?v=LMozgXT5Kzs",
-      "source": "音樂家的無聊人生 Musician Seacow",
+      "title": "会加息吗？收益率曲线又是啥？前分析员拆解国债背后的资本真相",
+      "url": "https://www.youtube.com/watch?v=DrH7cL2DAOM",
+      "primary_url": "https://www.youtube.com/watch?v=DrH7cL2DAOM",
+      "source": "Shepherd Capital Markets",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "85b8de1dc8e50e4942be6342394c0cf168bb636a",
+          "title": "会加息吗？收益率曲线又是啥？前分析员拆解国债背后的资本真相",
+          "url": "https://www.youtube.com/watch?v=DrH7cL2DAOM",
+          "source": "Shepherd Capital Markets",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-06-27T22:00:11Z"
+        },
         {
           "id": "8dc575ea974195fb80790e5ca2da9faf0a7c0426",
           "title": "沒想到義大利八點檔這麼好看！威爾第《遊唱詩人》Verdi - Il trovatore",
@@ -84,6 +93,15 @@
           "published_at": "2026-06-27T00:01:54Z"
         },
         {
+          "id": "34093e890cdcdcea36eefaba3e2ae4bc76ba1d66",
+          "title": "如何不設計一個國家 / How NOT To Design A Country",
+          "url": "https://www.youtube.com/watch?v=q9DDSK4Y310",
+          "source": "OBF",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-06-27T18:23:07Z"
+        },
+        {
           "id": "ecdf2eb64d72ec8ba4b0153d6604d1631ae6e120",
           "title": "為什麼美國是設計最差的國家 / Why America Is The Worst Designed Country",
           "url": "https://www.youtube.com/watch?v=q9DDSK4Y310",
@@ -129,7 +147,7 @@
           "published_at": "2026-06-27T16:00:08Z"
         }
       ],
-      "source_count": 13,
+      "source_count": 15,
       "source_names": [
         "Best Documentary",
         "Cleo Abram",
@@ -137,6 +155,7 @@
         "Match Economy",
         "OBF",
         "Peter Santenello",
+        "Shepherd Capital Markets",
         "Tom Nicholas",
         "imineo Documentaires",
         "nobody",
@@ -146,6 +165,15 @@
       ],
       "items": [
         {
+          "id": "85b8de1dc8e50e4942be6342394c0cf168bb636a",
+          "title": "会加息吗？收益率曲线又是啥？前分析员拆解国债背后的资本真相",
+          "url": "https://www.youtube.com/watch?v=DrH7cL2DAOM",
+          "source": "Shepherd Capital Markets",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-06-27T22:00:11Z"
+        },
+        {
           "id": "8dc575ea974195fb80790e5ca2da9faf0a7c0426",
           "title": "沒想到義大利八點檔這麼好看！威爾第《遊唱詩人》Verdi - Il trovatore",
           "url": "https://www.youtube.com/watch?v=LMozgXT5Kzs",
@@ -218,6 +246,15 @@
           "published_at": "2026-06-27T00:01:54Z"
         },
         {
+          "id": "34093e890cdcdcea36eefaba3e2ae4bc76ba1d66",
+          "title": "如何不設計一個國家 / How NOT To Design A Country",
+          "url": "https://www.youtube.com/watch?v=q9DDSK4Y310",
+          "source": "OBF",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-06-27T18:23:07Z"
+        },
+        {
           "id": "ecdf2eb64d72ec8ba4b0153d6604d1631ae6e120",
           "title": "為什麼美國是設計最差的國家 / Why America Is The Worst Designed Country",
           "url": "https://www.youtube.com/watch?v=q9DDSK4Y310",
@@ -263,15 +300,15 @@
           "published_at": "2026-06-27T16:00:08Z"
         }
       ],
-      "item_count": 13,
-      "duplicate_count": 13,
-      "score": 0.7127,
-      "importance": 0.7127,
-      "importance_score": 0.7127,
+      "item_count": 15,
+      "duplicate_count": 15,
+      "score": 0.7421,
+      "importance": 0.7421,
+      "importance_score": 0.7421,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.8757,
+        "recency": 0.9735,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -279,12 +316,12 @@
         "multi_source"
       ],
       "earliest_at": "2026-06-27T00:01:54Z",
-      "latest_at": "2026-06-27T18:23:07Z",
+      "latest_at": "2026-06-27T22:00:11Z",
       "primary_item": {
-        "id": "8dc575ea974195fb80790e5ca2da9faf0a7c0426",
-        "title": "沒想到義大利八點檔這麼好看！威爾第《遊唱詩人》Verdi - Il trovatore",
-        "url": "https://www.youtube.com/watch?v=LMozgXT5Kzs",
-        "source": "音樂家的無聊人生 Musician Seacow",
+        "id": "85b8de1dc8e50e4942be6342394c0cf168bb636a",
+        "title": "会加息吗？收益率曲线又是啥？前分析员拆解国债背后的资本真相",
+        "url": "https://www.youtube.com/watch?v=DrH7cL2DAOM",
+        "source": "Shepherd Capital Markets",
         "source_name": "OPML RSS"
       }
     },
@@ -341,13 +378,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3386,
-      "importance": 0.3386,
-      "importance_score": 0.3386,
+      "score": 0.3205,
+      "importance": 0.3205,
+      "importance_score": 0.3205,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.5454,
+        "recency": 0.4852,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -361,82 +398,6 @@
         "title": "[情報] 7/1美妝PIF上路，唐吉訶德10項99元",
         "url": "https://www.ptt.cc/bbs/Lifeismoney/M.1782555416.A.229.html",
         "source": "批踢踢實業坊 Lifeismoney 板",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_a1e04edf3754",
-      "title": "Anthropic 正與美國達成協議，取消人工智慧模式的限制（彭博） / Anthropic Moves Toward Deal With US to Lift Curbs on AI Models (Bloomberg)",
-      "url": "https://www.techmeme.com/260626/p29",
-      "primary_url": "https://www.techmeme.com/260626/p29",
-      "source": "Techmeme",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "f8cc9a0c0fe61893490f5bf06ad385ae90e68fbd",
-          "title": "Anthropic 正與美國達成協議，取消人工智慧模式的限制（彭博） / Anthropic Moves Toward Deal With US to Lift Curbs on AI Models (Bloomberg)",
-          "url": "https://www.techmeme.com/260626/p29",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-06-26T22:20:03Z"
-        },
-        {
-          "id": "5527d1b626ca45afbe4c0b30b3dc37f18a235e2a",
-          "title": "資料來源：Anthropic 和白宮正在接近達成協議，取消美國對《神鬼寓言 5》和《神話 5》的限制（彭博） / Sources: Anthropic and the White House are moving closer to an agreement to lift US restrictions on Fable 5 and Mythos 5 (Bloomberg)",
-          "url": "https://www.techmeme.com/260626/p29",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-06-26T22:20:03Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Techmeme"
-      ],
-      "items": [
-        {
-          "id": "f8cc9a0c0fe61893490f5bf06ad385ae90e68fbd",
-          "title": "Anthropic 正與美國達成協議，取消人工智慧模式的限制（彭博） / Anthropic Moves Toward Deal With US to Lift Curbs on AI Models (Bloomberg)",
-          "url": "https://www.techmeme.com/260626/p29",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-06-26T22:20:03Z"
-        },
-        {
-          "id": "5527d1b626ca45afbe4c0b30b3dc37f18a235e2a",
-          "title": "資料來源：Anthropic 和白宮正在接近達成協議，取消美國對《神鬼寓言 5》和《神話 5》的限制（彭博） / Sources: Anthropic and the White House are moving closer to an agreement to lift US restrictions on Fable 5 and Mythos 5 (Bloomberg)",
-          "url": "https://www.techmeme.com/260626/p29",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-06-26T22:20:03Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.3143,
-      "importance": 0.3143,
-      "importance_score": 0.3143,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.5,
-        "recency": 0.0476,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-26T22:20:03Z",
-      "latest_at": "2026-06-26T22:20:03Z",
-      "primary_item": {
-        "id": "f8cc9a0c0fe61893490f5bf06ad385ae90e68fbd",
-        "title": "Anthropic 正與美國達成協議，取消人工智慧模式的限制（彭博） / Anthropic Moves Toward Deal With US to Lift Curbs on AI Models (Bloomberg)",
-        "url": "https://www.techmeme.com/260626/p29",
-        "source": "Techmeme",
         "source_name": "OPML RSS"
       }
     }
