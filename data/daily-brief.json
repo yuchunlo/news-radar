@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T05:34:03.455276Z",
+  "generated_at": "2026-06-27T08:44:20.534312Z",
   "window_hours": 24,
   "total_items": 4,
   "items": [
@@ -84,6 +84,15 @@
           "published_at": "2026-06-26T09:25:18Z"
         },
         {
+          "id": "c310eb4a070f4a4919915885d3a5b641aa35a745",
+          "title": "【吉爾吉斯2】一張地毯竟是世界文化遺產？揭開遊牧民族千年秘密！吉爾吉斯國民美食太驚艷了！ This Carpet a UNESCO ?! Uncover Nomadic Culture Eng Sub",
+          "url": "https://www.youtube.com/watch?v=N7V9TDC2CSc",
+          "source": "融融歷險記Ben's Adventure",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-06-26T15:18:54Z"
+        },
+        {
           "id": "7be1bde769804c574a8e0097463d664a7fcaa1b1",
           "title": "實力超強卻多次被豪門放棄，進球不慶祝、連奪冠也面無表情的冷面刺客！他才是法國隊最重要的球員？｜Nonchalant - Michael Olise 人物誌",
           "url": "https://www.youtube.com/watch?v=gZ1cWwg5KBw",
@@ -91,15 +100,6 @@
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
           "published_at": "2026-06-26T12:00:02Z"
-        },
-        {
-          "id": "ab6758553b46b84329913be5a4e49f7e921c1fe7",
-          "title": "Agent 該怎麼分工？同樣的 AI 只有不到 1% 的人做得出成果！｜前小紅書工程師 Nick Hsu【塞掐 Side Chat】E412",
-          "url": "https://www.youtube.com/watch?v=BJ92fomIRJM",
-          "source": "【塞掐】訪談大人物",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-26T06:13:37Z"
         },
         {
           "id": "ee7f759fbb454a278a559c129e125121d9def617",
@@ -139,11 +139,11 @@
         "Inspiraggio",
         "Logically Answered",
         "imineo Documentaires",
-        "【塞掐】訪談大人物",
         "忽左忽右",
         "播客文化土豆 | Podcast Culture Potato",
         "沙發人物誌",
-        "美投侃新闻"
+        "美投侃新闻",
+        "融融歷險記Ben's Adventure"
       ],
       "items": [
         {
@@ -219,6 +219,15 @@
           "published_at": "2026-06-26T09:25:18Z"
         },
         {
+          "id": "c310eb4a070f4a4919915885d3a5b641aa35a745",
+          "title": "【吉爾吉斯2】一張地毯竟是世界文化遺產？揭開遊牧民族千年秘密！吉爾吉斯國民美食太驚艷了！ This Carpet a UNESCO ?! Uncover Nomadic Culture Eng Sub",
+          "url": "https://www.youtube.com/watch?v=N7V9TDC2CSc",
+          "source": "融融歷險記Ben's Adventure",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-06-26T15:18:54Z"
+        },
+        {
           "id": "7be1bde769804c574a8e0097463d664a7fcaa1b1",
           "title": "實力超強卻多次被豪門放棄，進球不慶祝、連奪冠也面無表情的冷面刺客！他才是法國隊最重要的球員？｜Nonchalant - Michael Olise 人物誌",
           "url": "https://www.youtube.com/watch?v=gZ1cWwg5KBw",
@@ -226,15 +235,6 @@
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
           "published_at": "2026-06-26T12:00:02Z"
-        },
-        {
-          "id": "ab6758553b46b84329913be5a4e49f7e921c1fe7",
-          "title": "Agent 該怎麼分工？同樣的 AI 只有不到 1% 的人做得出成果！｜前小紅書工程師 Nick Hsu【塞掐 Side Chat】E412",
-          "url": "https://www.youtube.com/watch?v=BJ92fomIRJM",
-          "source": "【塞掐】訪談大人物",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-26T06:13:37Z"
         },
         {
           "id": "ee7f759fbb454a278a559c129e125121d9def617",
@@ -266,20 +266,20 @@
       ],
       "item_count": 13,
       "duplicate_count": 13,
-      "score": 0.6808,
-      "importance": 0.6808,
-      "importance_score": 0.6808,
+      "score": 0.6412,
+      "importance": 0.6412,
+      "importance_score": 0.6412,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7693,
+        "recency": 0.6372,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-26T06:13:37Z",
+      "earliest_at": "2026-06-26T09:25:18Z",
       "latest_at": "2026-06-27T00:01:54Z",
       "primary_item": {
         "id": "c0bc98bfa76016952c5432d822bdf65625eb8f17",
@@ -342,13 +342,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4895,
-      "importance": 0.4895,
-      "importance_score": 0.4895,
+      "score": 0.4499,
+      "importance": 0.4499,
+      "importance_score": 0.4499,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6317,
+        "recency": 0.4996,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -418,13 +418,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.418,
-      "importance": 0.418,
-      "importance_score": 0.418,
+      "score": 0.3784,
+      "importance": 0.3784,
+      "importance_score": 0.3784,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.3933,
+        "recency": 0.2612,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -494,13 +494,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3596,
-      "importance": 0.3596,
-      "importance_score": 0.3596,
+      "score": 0.3199,
+      "importance": 0.3199,
+      "importance_score": 0.3199,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.1986,
+        "recency": 0.0664,
         "story_heat": 0.25
       },
       "category": "watch",
