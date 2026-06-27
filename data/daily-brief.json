@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-06-27T14:46:45.307568Z",
+  "generated_at": "2026-06-27T16:10:51.327649Z",
   "window_hours": 24,
-  "total_items": 5,
+  "total_items": 4,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "為什麼中西部不屬於加拿大的一部分？ - 美國收購中西部 / Why isn't The Midwest a part of Canada? - THE US ACQUISITION OF THE MIDWEST",
-      "url": "https://www.youtube.com/watch?v=7gSRW8uTqJk",
-      "primary_url": "https://www.youtube.com/watch?v=7gSRW8uTqJk",
-      "source": "Knowledgia",
+      "title": "埃及最古老的金字塔內部：左塞爾之謎 / Inside the oldest pyramid in Egypt: the mystery of Djoser",
+      "url": "https://www.youtube.com/watch?v=pcaOr8V_Ov0",
+      "primary_url": "https://www.youtube.com/watch?v=pcaOr8V_Ov0",
+      "source": "imineo Documentaires",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "4b7d00360f1f55b3d5b3b771b70c8fc5b11cebd5",
+          "title": "埃及最古老的金字塔內部：左塞爾之謎 / Inside the oldest pyramid in Egypt: the mystery of Djoser",
+          "url": "https://www.youtube.com/watch?v=pcaOr8V_Ov0",
+          "source": "imineo Documentaires",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-27T14:45:39Z"
+        },
         {
           "id": "eac590aa516d15e7373ce1e1a39c1ac03fdb1c3c",
           "title": "為什麼中西部不屬於加拿大的一部分？ - 美國收購中西部 / Why isn't The Midwest a part of Canada? - THE US ACQUISITION OF THE MIDWEST",
@@ -84,6 +93,15 @@
           "published_at": "2026-06-26T19:30:49Z"
         },
         {
+          "id": "669313abf7d3420918f15c25fd349c62d4f3aa17",
+          "title": "孟菲斯最危險的地方 / Inside Memphis’ Most Dangerous Hoods",
+          "url": "https://www.youtube.com/watch?v=c1no2MBv24s",
+          "source": "Peter Santenello",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-06-27T15:00:23Z"
+        },
+        {
           "id": "c310eb4a070f4a4919915885d3a5b641aa35a745",
           "title": "【吉爾吉斯2】一張地毯竟是世界文化遺產？揭開遊牧民族千年秘密！吉爾吉斯國民美食太驚艷了！ This Carpet a UNESCO ?! Uncover Nomadic Culture Eng Sub",
           "url": "https://www.youtube.com/watch?v=N7V9TDC2CSc",
@@ -91,6 +109,15 @@
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
           "published_at": "2026-06-27T11:00:06Z"
+        },
+        {
+          "id": "1cf54c37e183488a970ca8bc66c4997b46a8d78c",
+          "title": "芬太尼正在消失，各国为什么反而更担心了？",
+          "url": "https://www.youtube.com/watch?v=yqGOGtNBMow",
+          "source": "Match Economy",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-06-27T16:00:08Z"
         },
         {
           "id": "ee7f759fbb454a278a559c129e125121d9def617",
@@ -111,7 +138,7 @@
           "published_at": "2026-06-26T16:41:07Z"
         }
       ],
-      "source_count": 11,
+      "source_count": 14,
       "source_names": [
         "Best Documentary",
         "CaseyNeistat",
@@ -120,11 +147,23 @@
         "Inspiraggio",
         "Knowledgia",
         "Logically Answered",
+        "Match Economy",
+        "Peter Santenello",
+        "imineo Documentaires",
         "播客文化土豆 | Podcast Culture Potato",
         "美投侃新闻",
         "融融歷險記Ben's Adventure"
       ],
       "items": [
+        {
+          "id": "4b7d00360f1f55b3d5b3b771b70c8fc5b11cebd5",
+          "title": "埃及最古老的金字塔內部：左塞爾之謎 / Inside the oldest pyramid in Egypt: the mystery of Djoser",
+          "url": "https://www.youtube.com/watch?v=pcaOr8V_Ov0",
+          "source": "imineo Documentaires",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-27T14:45:39Z"
+        },
         {
           "id": "eac590aa516d15e7373ce1e1a39c1ac03fdb1c3c",
           "title": "為什麼中西部不屬於加拿大的一部分？ - 美國收購中西部 / Why isn't The Midwest a part of Canada? - THE US ACQUISITION OF THE MIDWEST",
@@ -198,6 +237,15 @@
           "published_at": "2026-06-26T19:30:49Z"
         },
         {
+          "id": "669313abf7d3420918f15c25fd349c62d4f3aa17",
+          "title": "孟菲斯最危險的地方 / Inside Memphis’ Most Dangerous Hoods",
+          "url": "https://www.youtube.com/watch?v=c1no2MBv24s",
+          "source": "Peter Santenello",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-06-27T15:00:23Z"
+        },
+        {
           "id": "c310eb4a070f4a4919915885d3a5b641aa35a745",
           "title": "【吉爾吉斯2】一張地毯竟是世界文化遺產？揭開遊牧民族千年秘密！吉爾吉斯國民美食太驚艷了！ This Carpet a UNESCO ?! Uncover Nomadic Culture Eng Sub",
           "url": "https://www.youtube.com/watch?v=N7V9TDC2CSc",
@@ -205,6 +253,15 @@
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
           "published_at": "2026-06-27T11:00:06Z"
+        },
+        {
+          "id": "1cf54c37e183488a970ca8bc66c4997b46a8d78c",
+          "title": "芬太尼正在消失，各国为什么反而更担心了？",
+          "url": "https://www.youtube.com/watch?v=yqGOGtNBMow",
+          "source": "Match Economy",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-06-27T16:00:08Z"
         },
         {
           "id": "ee7f759fbb454a278a559c129e125121d9def617",
@@ -225,15 +282,15 @@
           "published_at": "2026-06-26T16:41:07Z"
         }
       ],
-      "item_count": 11,
-      "duplicate_count": 11,
-      "score": 0.7448,
-      "importance": 0.7448,
-      "importance_score": 0.7448,
+      "item_count": 14,
+      "duplicate_count": 14,
+      "score": 0.7322,
+      "importance": 0.7322,
+      "importance_score": 0.7322,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9826,
+        "recency": 0.9408,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -241,12 +298,12 @@
         "multi_source"
       ],
       "earliest_at": "2026-06-26T16:41:07Z",
-      "latest_at": "2026-06-27T14:21:41Z",
+      "latest_at": "2026-06-27T16:00:08Z",
       "primary_item": {
-        "id": "eac590aa516d15e7373ce1e1a39c1ac03fdb1c3c",
-        "title": "為什麼中西部不屬於加拿大的一部分？ - 美國收購中西部 / Why isn't The Midwest a part of Canada? - THE US ACQUISITION OF THE MIDWEST",
-        "url": "https://www.youtube.com/watch?v=7gSRW8uTqJk",
-        "source": "Knowledgia",
+        "id": "4b7d00360f1f55b3d5b3b771b70c8fc5b11cebd5",
+        "title": "埃及最古老的金字塔內部：左塞爾之謎 / Inside the oldest pyramid in Egypt: the mystery of Djoser",
+        "url": "https://www.youtube.com/watch?v=pcaOr8V_Ov0",
+        "source": "imineo Documentaires",
         "source_name": "OPML RSS"
       }
     },
@@ -303,13 +360,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4188,
-      "importance": 0.4188,
-      "importance_score": 0.4188,
+      "score": 0.4013,
+      "importance": 0.4013,
+      "importance_score": 0.4013,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.8126,
+        "recency": 0.7542,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -379,13 +436,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3944,
-      "importance": 0.3944,
-      "importance_score": 0.3944,
+      "score": 0.3769,
+      "importance": 0.3769,
+      "importance_score": 0.3769,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.3148,
+        "recency": 0.2564,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -455,13 +512,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3744,
-      "importance": 0.3744,
-      "importance_score": 0.3744,
+      "score": 0.3569,
+      "importance": 0.3569,
+      "importance_score": 0.3569,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.2479,
+        "recency": 0.1895,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -475,82 +532,6 @@
         "title": "Kirkland Signature：Costco 如何打造 90B 美元的自有品牌帝國 / Kirkland Signature: How Costco Built a $90B Private-Label Empire",
         "url": "https://www.readtrung.com/p/kirkland-signature-how-costco-created",
         "source": "SatPost by Trung Phan",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_975e69d34c46",
-      "title": "為什麼你的狗沒有你想像的年齡 / Why Your Dog Isn’t The Age You Think",
-      "url": "https://www.youtube.com/shorts/_z_H0yZYc6c",
-      "primary_url": "https://www.youtube.com/shorts/_z_H0yZYc6c",
-      "source": "Cleo Abram",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "b9b1657f0329944fc58a812a06f013264097be53",
-          "title": "為什麼你的狗沒有你想像的年齡 / Why Your Dog Isn’t The Age You Think",
-          "url": "https://www.youtube.com/shorts/_z_H0yZYc6c",
-          "source": "Cleo Abram",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-06-26T15:00:28Z"
-        },
-        {
-          "id": "79e6890ca69933f147bb567e7dd322078ca22bdf",
-          "title": "為什麼狗的七年規則是錯的 / Why the 7-Year Rule for Dogs Is Wrong",
-          "url": "https://www.youtube.com/shorts/_z_H0yZYc6c",
-          "source": "Cleo Abram",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-06-26T15:00:28Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Cleo Abram"
-      ],
-      "items": [
-        {
-          "id": "b9b1657f0329944fc58a812a06f013264097be53",
-          "title": "為什麼你的狗沒有你想像的年齡 / Why Your Dog Isn’t The Age You Think",
-          "url": "https://www.youtube.com/shorts/_z_H0yZYc6c",
-          "source": "Cleo Abram",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-06-26T15:00:28Z"
-        },
-        {
-          "id": "79e6890ca69933f147bb567e7dd322078ca22bdf",
-          "title": "為什麼狗的七年規則是錯的 / Why the 7-Year Rule for Dogs Is Wrong",
-          "url": "https://www.youtube.com/shorts/_z_H0yZYc6c",
-          "source": "Cleo Abram",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-06-26T15:00:28Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.3029,
-      "importance": 0.3029,
-      "importance_score": 0.3029,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.5,
-        "recency": 0.0095,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-26T15:00:28Z",
-      "latest_at": "2026-06-26T15:00:28Z",
-      "primary_item": {
-        "id": "b9b1657f0329944fc58a812a06f013264097be53",
-        "title": "為什麼你的狗沒有你想像的年齡 / Why Your Dog Isn’t The Age You Think",
-        "url": "https://www.youtube.com/shorts/_z_H0yZYc6c",
-        "source": "Cleo Abram",
         "source_name": "OPML RSS"
       }
     }
