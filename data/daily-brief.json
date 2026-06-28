@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-06-28T08:32:56.011593Z",
+  "generated_at": "2026-06-28T11:12:17.681481Z",
   "window_hours": 24,
-  "total_items": 2,
+  "total_items": 1,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
@@ -165,13 +165,22 @@
           "published_at": "2026-06-27T15:00:23Z"
         },
         {
-          "id": "c310eb4a070f4a4919915885d3a5b641aa35a745",
-          "title": "【吉爾吉斯2】一張地毯竟是世界文化遺產？揭開遊牧民族千年秘密！吉爾吉斯國民美食太驚艷了！ This Carpet a UNESCO ?! Uncover Nomadic Culture Eng Sub",
-          "url": "https://www.youtube.com/watch?v=N7V9TDC2CSc",
-          "source": "融融歷險記Ben's Adventure",
+          "id": "36e65cac2fccdd50ce6d8bd2d7de98b924a94e90",
+          "title": "Antigravity A1兩個月詳細評測🦅飛行的X5全景相機？簡單好上手 顛覆你的飛行體驗 #法蘭克黃",
+          "url": "https://www.youtube.com/watch?v=5yshwUFzUlg",
+          "source": "法蘭克黃",
           "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-27T11:00:06Z"
+          "site_id": "trending",
+          "published_at": "2026-06-28T10:00:30Z"
+        },
+        {
+          "id": "23b6774f3b31eab0038ca098127d65725a510303",
+          "title": "24小時與安傑洛·莫拉蒂 / 24H con Angelo Moratti",
+          "url": "https://www.youtube.com/watch?v=vrBsPWn-038",
+          "source": "Marcello Ascani",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-06-28T10:00:15Z"
         },
         {
           "id": "1cf54c37e183488a970ca8bc66c4997b46a8d78c",
@@ -183,11 +192,12 @@
           "published_at": "2026-06-27T16:00:08Z"
         }
       ],
-      "source_count": 19,
+      "source_count": 20,
       "source_names": [
         "Best Documentary",
         "Cleo Abram",
         "Knowledgia",
+        "Marcello Ascani",
         "Match Economy",
         "OBF",
         "Peter Santenello",
@@ -196,7 +206,7 @@
         "imineo Documentaires",
         "nobody",
         "李波",
-        "融融歷險記Ben's Adventure",
+        "法蘭克黃",
         "雜書觀察室",
         "音樂家的無聊人生 Musician Seacow"
       ],
@@ -355,13 +365,22 @@
           "published_at": "2026-06-27T15:00:23Z"
         },
         {
-          "id": "c310eb4a070f4a4919915885d3a5b641aa35a745",
-          "title": "【吉爾吉斯2】一張地毯竟是世界文化遺產？揭開遊牧民族千年秘密！吉爾吉斯國民美食太驚艷了！ This Carpet a UNESCO ?! Uncover Nomadic Culture Eng Sub",
-          "url": "https://www.youtube.com/watch?v=N7V9TDC2CSc",
-          "source": "融融歷險記Ben's Adventure",
+          "id": "36e65cac2fccdd50ce6d8bd2d7de98b924a94e90",
+          "title": "Antigravity A1兩個月詳細評測🦅飛行的X5全景相機？簡單好上手 顛覆你的飛行體驗 #法蘭克黃",
+          "url": "https://www.youtube.com/watch?v=5yshwUFzUlg",
+          "source": "法蘭克黃",
           "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-27T11:00:06Z"
+          "site_id": "trending",
+          "published_at": "2026-06-28T10:00:30Z"
+        },
+        {
+          "id": "23b6774f3b31eab0038ca098127d65725a510303",
+          "title": "24小時與安傑洛·莫拉蒂 / 24H con Angelo Moratti",
+          "url": "https://www.youtube.com/watch?v=vrBsPWn-038",
+          "source": "Marcello Ascani",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-06-28T10:00:15Z"
         },
         {
           "id": "1cf54c37e183488a970ca8bc66c4997b46a8d78c",
@@ -373,104 +392,28 @@
           "published_at": "2026-06-27T16:00:08Z"
         }
       ],
-      "item_count": 19,
-      "duplicate_count": 19,
-      "score": 0.727,
-      "importance": 0.727,
-      "importance_score": 0.727,
+      "item_count": 20,
+      "duplicate_count": 20,
+      "score": 0.6938,
+      "importance": 0.6938,
+      "importance_score": 0.6938,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9234,
+        "recency": 0.8127,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-27T11:00:06Z",
-      "latest_at": "2026-06-28T06:42:38Z",
+      "earliest_at": "2026-06-27T12:00:33Z",
+      "latest_at": "2026-06-28T10:00:30Z",
       "primary_item": {
         "id": "c5664dbe6fa4787c7369b60f8ab5831fbcbe9006",
         "title": "NHK纪录片 Young People Lying Flat in China",
         "url": "https://www.youtube.com/watch?v=1BcijD_IBjo",
         "source": "李波",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_96c4925f1157",
-      "title": "[情報] 7/1美妝PIF上路，唐吉訶德10項99元",
-      "url": "https://www.ptt.cc/bbs/Lifeismoney/M.1782555416.A.229.html",
-      "primary_url": "https://www.ptt.cc/bbs/Lifeismoney/M.1782555416.A.229.html",
-      "source": "批踢踢實業坊 Lifeismoney 板",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "a45ce1cf93849c0a6c625aedbd26abf30d84d007",
-          "title": "[情報] 7/1美妝PIF上路，唐吉訶德10項99元",
-          "url": "https://www.ptt.cc/bbs/Lifeismoney/M.1782555416.A.229.html",
-          "source": "批踢踢實業坊 Lifeismoney 板",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-06-27T10:16:56Z"
-        },
-        {
-          "id": "391ce09c811313eb7fce670a1517dd5c63833e75",
-          "title": "[情報] 7/1美妝RIF上路，唐吉訶德10項99元",
-          "url": "https://www.ptt.cc/bbs/Lifeismoney/M.1782555416.A.229.html",
-          "source": "批踢踢實業坊 Lifeismoney 板",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-06-27T10:16:56Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "批踢踢實業坊 Lifeismoney 板"
-      ],
-      "items": [
-        {
-          "id": "a45ce1cf93849c0a6c625aedbd26abf30d84d007",
-          "title": "[情報] 7/1美妝PIF上路，唐吉訶德10項99元",
-          "url": "https://www.ptt.cc/bbs/Lifeismoney/M.1782555416.A.229.html",
-          "source": "批踢踢實業坊 Lifeismoney 板",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-06-27T10:16:56Z"
-        },
-        {
-          "id": "391ce09c811313eb7fce670a1517dd5c63833e75",
-          "title": "[情報] 7/1美妝RIF上路，唐吉訶德10項99元",
-          "url": "https://www.ptt.cc/bbs/Lifeismoney/M.1782555416.A.229.html",
-          "source": "批踢踢實業坊 Lifeismoney 板",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-06-27T10:16:56Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.1967,
-      "importance": 0.1967,
-      "importance_score": 0.1967,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.25,
-        "recency": 0.0722,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-27T10:16:56Z",
-      "latest_at": "2026-06-27T10:16:56Z",
-      "primary_item": {
-        "id": "a45ce1cf93849c0a6c625aedbd26abf30d84d007",
-        "title": "[情報] 7/1美妝PIF上路，唐吉訶德10項99元",
-        "url": "https://www.ptt.cc/bbs/Lifeismoney/M.1782555416.A.229.html",
-        "source": "批踢踢實業坊 Lifeismoney 板",
         "source_name": "OPML RSS"
       }
     }
