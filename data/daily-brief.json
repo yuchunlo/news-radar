@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T22:38:17.877231Z",
+  "generated_at": "2026-06-28T00:08:21.927758Z",
   "window_hours": 24,
   "total_items": 2,
   "items": [
@@ -84,15 +84,6 @@
           "published_at": "2026-06-27T12:00:33Z"
         },
         {
-          "id": "c0bc98bfa76016952c5432d822bdf65625eb8f17",
-          "title": "5月PCE看到了机会！OpenAI引起连锁反应？苹果自作自受！准备退休的最优解是？",
-          "url": "https://www.youtube.com/watch?v=6TPGZvbZ4UQ",
-          "source": "美投侃新闻",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-06-27T00:01:54Z"
-        },
-        {
           "id": "34093e890cdcdcea36eefaba3e2ae4bc76ba1d66",
           "title": "如何不設計一個國家 / How NOT To Design A Country",
           "url": "https://www.youtube.com/watch?v=q9DDSK4Y310",
@@ -147,7 +138,7 @@
           "published_at": "2026-06-27T16:00:08Z"
         }
       ],
-      "source_count": 15,
+      "source_count": 14,
       "source_names": [
         "Best Documentary",
         "Cleo Abram",
@@ -159,7 +150,6 @@
         "Tom Nicholas",
         "imineo Documentaires",
         "nobody",
-        "美投侃新闻",
         "融融歷險記Ben's Adventure",
         "音樂家的無聊人生 Musician Seacow"
       ],
@@ -237,15 +227,6 @@
           "published_at": "2026-06-27T12:00:33Z"
         },
         {
-          "id": "c0bc98bfa76016952c5432d822bdf65625eb8f17",
-          "title": "5月PCE看到了机会！OpenAI引起连锁反应？苹果自作自受！准备退休的最优解是？",
-          "url": "https://www.youtube.com/watch?v=6TPGZvbZ4UQ",
-          "source": "美投侃新闻",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-06-27T00:01:54Z"
-        },
-        {
           "id": "34093e890cdcdcea36eefaba3e2ae4bc76ba1d66",
           "title": "如何不設計一個國家 / How NOT To Design A Country",
           "url": "https://www.youtube.com/watch?v=q9DDSK4Y310",
@@ -300,22 +281,22 @@
           "published_at": "2026-06-27T16:00:08Z"
         }
       ],
-      "item_count": 15,
-      "duplicate_count": 15,
-      "score": 0.7421,
-      "importance": 0.7421,
-      "importance_score": 0.7421,
+      "item_count": 14,
+      "duplicate_count": 14,
+      "score": 0.7233,
+      "importance": 0.7233,
+      "importance_score": 0.7233,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9735,
+        "recency": 0.911,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-27T00:01:54Z",
+      "earliest_at": "2026-06-27T11:00:06Z",
       "latest_at": "2026-06-27T22:00:11Z",
       "primary_item": {
         "id": "85b8de1dc8e50e4942be6342394c0cf168bb636a",
@@ -378,13 +359,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3205,
-      "importance": 0.3205,
-      "importance_score": 0.3205,
+      "score": 0.3018,
+      "importance": 0.3018,
+      "importance_score": 0.3018,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.4852,
+        "recency": 0.4226,
         "story_heat": 0.25
       },
       "category": "watch",
