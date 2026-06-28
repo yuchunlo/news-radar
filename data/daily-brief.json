@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T17:45:46.197770Z",
+  "generated_at": "2026-06-28T19:38:50.331398Z",
   "window_hours": 24,
   "total_items": 1,
   "items": [
@@ -111,24 +111,6 @@
           "published_at": "2026-06-27T22:00:11Z"
         },
         {
-          "id": "8dc575ea974195fb80790e5ca2da9faf0a7c0426",
-          "title": "沒想到義大利八點檔這麼好看！威爾第《遊唱詩人》Verdi - Il trovatore",
-          "url": "https://www.youtube.com/watch?v=LMozgXT5Kzs",
-          "source": "音樂家的無聊人生 Musician Seacow",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-27T18:12:30Z"
-        },
-        {
-          "id": "21f3ea21223f7283c6a199d8d9df07ce00c8edd3",
-          "title": "懷念我們永遠看不到的未來 / nostalgia for a future we will never see",
-          "url": "https://www.youtube.com/watch?v=rkT50E5WtyE",
-          "source": "nobody",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-27T18:00:20Z"
-        },
-        {
           "id": "8b6f9a4d529d95e7712618a2d22a3ac7c948999f",
           "title": "32強淘汰賽馬上開打！日本能不能爆冷擊敗巴西？C羅和莫德里奇誰會告別世界盃？第一輪生死對決誰能勝出？｜不負責任世界盃32強預測",
           "url": "https://www.youtube.com/watch?v=c60xwabKRDg",
@@ -156,26 +138,8 @@
           "published_at": "2026-06-28T11:46:25Z"
         },
         {
-          "id": "34093e890cdcdcea36eefaba3e2ae4bc76ba1d66",
-          "title": "如何不設計一個國家 / How NOT To Design A Country",
-          "url": "https://www.youtube.com/watch?v=q9DDSK4Y310",
-          "source": "OBF",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-27T18:23:07Z"
-        },
-        {
-          "id": "ecdf2eb64d72ec8ba4b0153d6604d1631ae6e120",
-          "title": "為什麼美國是設計最差的國家 / Why America Is The Worst Designed Country",
-          "url": "https://www.youtube.com/watch?v=q9DDSK4Y310",
-          "source": "OBF",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-27T18:23:07Z"
-        },
-        {
-          "id": "36e65cac2fccdd50ce6d8bd2d7de98b924a94e90",
-          "title": "Antigravity A1兩個月詳細評測🦅飛行的X5全景相機？簡單好上手 顛覆你的飛行體驗 #法蘭克黃",
+          "id": "7acf64cd8b9fb8d8cde9ce6a3faa09e399c1529f",
+          "title": "Antigravity A1🦅飛行的X5全景相機？簡單好上手 顛覆你的飛行體驗 #法蘭克黃",
           "url": "https://www.youtube.com/watch?v=5yshwUFzUlg",
           "source": "法蘭克黃",
           "source_name": "OPML RSS",
@@ -192,23 +156,20 @@
           "published_at": "2026-06-28T10:00:15Z"
         }
       ],
-      "source_count": 20,
+      "source_count": 16,
       "source_names": [
         "Best Documentary",
         "Marcello Ascani",
-        "OBF",
         "Perspective",
         "Reysu",
         "Shepherd Capital Markets",
         "imineo Documentaires",
-        "nobody",
         "山上加美Lovely Hill",
         "李波",
         "沙發人物誌",
         "法蘭克黃",
         "矽谷輕鬆談 Just Kidding Tech",
-        "雜書觀察室",
-        "音樂家的無聊人生 Musician Seacow"
+        "雜書觀察室"
       ],
       "items": [
         {
@@ -311,24 +272,6 @@
           "published_at": "2026-06-27T22:00:11Z"
         },
         {
-          "id": "8dc575ea974195fb80790e5ca2da9faf0a7c0426",
-          "title": "沒想到義大利八點檔這麼好看！威爾第《遊唱詩人》Verdi - Il trovatore",
-          "url": "https://www.youtube.com/watch?v=LMozgXT5Kzs",
-          "source": "音樂家的無聊人生 Musician Seacow",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-27T18:12:30Z"
-        },
-        {
-          "id": "21f3ea21223f7283c6a199d8d9df07ce00c8edd3",
-          "title": "懷念我們永遠看不到的未來 / nostalgia for a future we will never see",
-          "url": "https://www.youtube.com/watch?v=rkT50E5WtyE",
-          "source": "nobody",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-27T18:00:20Z"
-        },
-        {
           "id": "8b6f9a4d529d95e7712618a2d22a3ac7c948999f",
           "title": "32強淘汰賽馬上開打！日本能不能爆冷擊敗巴西？C羅和莫德里奇誰會告別世界盃？第一輪生死對決誰能勝出？｜不負責任世界盃32強預測",
           "url": "https://www.youtube.com/watch?v=c60xwabKRDg",
@@ -356,26 +299,8 @@
           "published_at": "2026-06-28T11:46:25Z"
         },
         {
-          "id": "34093e890cdcdcea36eefaba3e2ae4bc76ba1d66",
-          "title": "如何不設計一個國家 / How NOT To Design A Country",
-          "url": "https://www.youtube.com/watch?v=q9DDSK4Y310",
-          "source": "OBF",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-27T18:23:07Z"
-        },
-        {
-          "id": "ecdf2eb64d72ec8ba4b0153d6604d1631ae6e120",
-          "title": "為什麼美國是設計最差的國家 / Why America Is The Worst Designed Country",
-          "url": "https://www.youtube.com/watch?v=q9DDSK4Y310",
-          "source": "OBF",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-27T18:23:07Z"
-        },
-        {
-          "id": "36e65cac2fccdd50ce6d8bd2d7de98b924a94e90",
-          "title": "Antigravity A1兩個月詳細評測🦅飛行的X5全景相機？簡單好上手 顛覆你的飛行體驗 #法蘭克黃",
+          "id": "7acf64cd8b9fb8d8cde9ce6a3faa09e399c1529f",
+          "title": "Antigravity A1🦅飛行的X5全景相機？簡單好上手 顛覆你的飛行體驗 #法蘭克黃",
           "url": "https://www.youtube.com/watch?v=5yshwUFzUlg",
           "source": "法蘭克黃",
           "source_name": "OPML RSS",
@@ -392,22 +317,22 @@
           "published_at": "2026-06-28T10:00:15Z"
         }
       ],
-      "item_count": 20,
-      "duplicate_count": 20,
-      "score": 0.7281,
-      "importance": 0.7281,
-      "importance_score": 0.7281,
+      "item_count": 16,
+      "duplicate_count": 16,
+      "score": 0.7045,
+      "importance": 0.7045,
+      "importance_score": 0.7045,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9269,
+        "recency": 0.8483,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-27T18:00:20Z",
+      "earliest_at": "2026-06-27T22:00:11Z",
       "latest_at": "2026-06-28T16:00:27Z",
       "primary_item": {
         "id": "a9a43c6a6232fabd6dc317af8d7ffe0a20d05abf",
