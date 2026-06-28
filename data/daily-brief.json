@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-06-28T21:09:44.796488Z",
+  "generated_at": "2026-06-28T22:36:25.728934Z",
   "window_hours": 24,
   "total_items": 1,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "埃爾特姆宮內部 - 裝飾藝術奢華與中世紀威嚴相遇 / Inside Eltham Palace - Art Deco Luxury Meets Medieval Majesty",
-      "url": "https://www.youtube.com/watch?v=ncjAHuQskw4",
-      "primary_url": "https://www.youtube.com/watch?v=ncjAHuQskw4",
-      "source": "Perspective",
+      "title": "佛萊迪摩克瑞：從害羞的青少年到皇后樂團的超級巨星 / Freddie Mercury: From Shy Teen to Queen’s Superstar",
+      "url": "https://www.youtube.com/watch?v=7kR_MK64u84",
+      "primary_url": "https://www.youtube.com/watch?v=7kR_MK64u84",
+      "source": "Best Documentary",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "280726ba28548874791e40563cece7df6c21be12",
+          "title": "佛萊迪摩克瑞：從害羞的青少年到皇后樂團的超級巨星 / Freddie Mercury: From Shy Teen to Queen’s Superstar",
+          "url": "https://www.youtube.com/watch?v=7kR_MK64u84",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-28T21:00:00Z"
+        },
         {
           "id": "a9a43c6a6232fabd6dc317af8d7ffe0a20d05abf",
           "title": "埃爾特姆宮內部 - 裝飾藝術奢華與中世紀威嚴相遇 / Inside Eltham Palace - Art Deco Luxury Meets Medieval Majesty",
@@ -93,24 +102,6 @@
           "published_at": "2026-06-28T01:21:18Z"
         },
         {
-          "id": "e27f17b4a2c6bb639d0b6ee7d53977acaa16707f",
-          "title": "100%胜率经济衰退指标：国债收益率曲线 (Treasuries Yield Curve)",
-          "url": "https://www.youtube.com/watch?v=DrH7cL2DAOM",
-          "source": "Shepherd Capital Markets",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-06-27T22:00:11Z"
-        },
-        {
-          "id": "85b8de1dc8e50e4942be6342394c0cf168bb636a",
-          "title": "会加息吗？收益率曲线又是啥？前分析员拆解国债背后的资本真相",
-          "url": "https://www.youtube.com/watch?v=DrH7cL2DAOM",
-          "source": "Shepherd Capital Markets",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-06-27T22:00:11Z"
-        },
-        {
           "id": "8b6f9a4d529d95e7712618a2d22a3ac7c948999f",
           "title": "32強淘汰賽馬上開打！日本能不能爆冷擊敗巴西？C羅和莫德里奇誰會告別世界盃？第一輪生死對決誰能勝出？｜不負責任世界盃32強預測",
           "url": "https://www.youtube.com/watch?v=c60xwabKRDg",
@@ -156,13 +147,12 @@
           "published_at": "2026-06-28T10:00:15Z"
         }
       ],
-      "source_count": 16,
+      "source_count": 15,
       "source_names": [
         "Best Documentary",
         "Marcello Ascani",
         "Perspective",
         "Reysu",
-        "Shepherd Capital Markets",
         "imineo Documentaires",
         "山上加美Lovely Hill",
         "李波",
@@ -173,6 +163,15 @@
       ],
       "items": [
         {
+          "id": "280726ba28548874791e40563cece7df6c21be12",
+          "title": "佛萊迪摩克瑞：從害羞的青少年到皇后樂團的超級巨星 / Freddie Mercury: From Shy Teen to Queen’s Superstar",
+          "url": "https://www.youtube.com/watch?v=7kR_MK64u84",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-28T21:00:00Z"
+        },
+        {
           "id": "a9a43c6a6232fabd6dc317af8d7ffe0a20d05abf",
           "title": "埃爾特姆宮內部 - 裝飾藝術奢華與中世紀威嚴相遇 / Inside Eltham Palace - Art Deco Luxury Meets Medieval Majesty",
           "url": "https://www.youtube.com/watch?v=ncjAHuQskw4",
@@ -254,24 +253,6 @@
           "published_at": "2026-06-28T01:21:18Z"
         },
         {
-          "id": "e27f17b4a2c6bb639d0b6ee7d53977acaa16707f",
-          "title": "100%胜率经济衰退指标：国债收益率曲线 (Treasuries Yield Curve)",
-          "url": "https://www.youtube.com/watch?v=DrH7cL2DAOM",
-          "source": "Shepherd Capital Markets",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-06-27T22:00:11Z"
-        },
-        {
-          "id": "85b8de1dc8e50e4942be6342394c0cf168bb636a",
-          "title": "会加息吗？收益率曲线又是啥？前分析员拆解国债背后的资本真相",
-          "url": "https://www.youtube.com/watch?v=DrH7cL2DAOM",
-          "source": "Shepherd Capital Markets",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-06-27T22:00:11Z"
-        },
-        {
           "id": "8b6f9a4d529d95e7712618a2d22a3ac7c948999f",
           "title": "32強淘汰賽馬上開打！日本能不能爆冷擊敗巴西？C羅和莫德里奇誰會告別世界盃？第一輪生死對決誰能勝出？｜不負責任世界盃32強預測",
           "url": "https://www.youtube.com/watch?v=c60xwabKRDg",
@@ -317,28 +298,28 @@
           "published_at": "2026-06-28T10:00:15Z"
         }
       ],
-      "item_count": 16,
-      "duplicate_count": 16,
-      "score": 0.6856,
-      "importance": 0.6856,
-      "importance_score": 0.6856,
+      "item_count": 15,
+      "duplicate_count": 15,
+      "score": 0.7299,
+      "importance": 0.7299,
+      "importance_score": 0.7299,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7852,
+        "recency": 0.933,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-27T22:00:11Z",
-      "latest_at": "2026-06-28T16:00:27Z",
+      "earliest_at": "2026-06-28T01:21:18Z",
+      "latest_at": "2026-06-28T21:00:00Z",
       "primary_item": {
-        "id": "a9a43c6a6232fabd6dc317af8d7ffe0a20d05abf",
-        "title": "埃爾特姆宮內部 - 裝飾藝術奢華與中世紀威嚴相遇 / Inside Eltham Palace - Art Deco Luxury Meets Medieval Majesty",
-        "url": "https://www.youtube.com/watch?v=ncjAHuQskw4",
-        "source": "Perspective",
+        "id": "280726ba28548874791e40563cece7df6c21be12",
+        "title": "佛萊迪摩克瑞：從害羞的青少年到皇后樂團的超級巨星 / Freddie Mercury: From Shy Teen to Queen’s Superstar",
+        "url": "https://www.youtube.com/watch?v=7kR_MK64u84",
+        "source": "Best Documentary",
         "source_name": "OPML RSS"
       }
     }
