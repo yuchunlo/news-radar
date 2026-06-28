@@ -1,16 +1,52 @@
 {
-  "generated_at": "2026-06-28T00:08:21.927758Z",
+  "generated_at": "2026-06-28T05:04:28.770250Z",
   "window_hours": 24,
   "total_items": 2,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "会加息吗？收益率曲线又是啥？前分析员拆解国债背后的资本真相",
-      "url": "https://www.youtube.com/watch?v=DrH7cL2DAOM",
-      "primary_url": "https://www.youtube.com/watch?v=DrH7cL2DAOM",
-      "source": "Shepherd Capital Markets",
+      "title": "NHK 2022年纪录片 The price of the zero covid policy",
+      "url": "https://www.youtube.com/watch?v=Rviql4M9DlM",
+      "primary_url": "https://www.youtube.com/watch?v=Rviql4M9DlM",
+      "source": "李波",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "4adb07b7f94eb51ae13e39bcf86caa654f7de81f",
+          "title": "NHK 2022年纪录片 The price of the zero covid policy",
+          "url": "https://www.youtube.com/watch?v=Rviql4M9DlM",
+          "source": "李波",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-28T05:01:51Z"
+        },
+        {
+          "id": "eaff9b676fa128218aba8e93a957a50fa677578a",
+          "title": "NHK2021年纪录片，一栋烂尾楼的前世今生",
+          "url": "https://www.youtube.com/watch?v=8wzd2urb90g",
+          "source": "李波",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-28T04:52:31Z"
+        },
+        {
+          "id": "48495b0c566bf7b2639f9d5d9a16348041414f78",
+          "title": "'26.6.29《巴倫周刊》：比特幣流動性預警｜Google AI價格戰｜Lululemon戰略失焦｜廉價無人機重塑軍工產業鏈｜美光毛利上看86%｜Netflix市佔率流失戰｜Ross逆勢成長",
+          "url": "https://www.youtube.com/watch?v=q24OKjGVM18",
+          "source": "雜書觀察室",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-06-28T01:21:18Z"
+        },
+        {
+          "id": "e27f17b4a2c6bb639d0b6ee7d53977acaa16707f",
+          "title": "100%胜率经济衰退指标：国债收益率曲线 (Treasuries Yield Curve)",
+          "url": "https://www.youtube.com/watch?v=DrH7cL2DAOM",
+          "source": "Shepherd Capital Markets",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-06-27T22:00:11Z"
+        },
         {
           "id": "85b8de1dc8e50e4942be6342394c0cf168bb636a",
           "title": "会加息吗？收益率曲线又是啥？前分析员拆解国债背后的资本真相",
@@ -138,7 +174,7 @@
           "published_at": "2026-06-27T16:00:08Z"
         }
       ],
-      "source_count": 14,
+      "source_count": 18,
       "source_names": [
         "Best Documentary",
         "Cleo Abram",
@@ -150,10 +186,48 @@
         "Tom Nicholas",
         "imineo Documentaires",
         "nobody",
+        "李波",
         "融融歷險記Ben's Adventure",
+        "雜書觀察室",
         "音樂家的無聊人生 Musician Seacow"
       ],
       "items": [
+        {
+          "id": "4adb07b7f94eb51ae13e39bcf86caa654f7de81f",
+          "title": "NHK 2022年纪录片 The price of the zero covid policy",
+          "url": "https://www.youtube.com/watch?v=Rviql4M9DlM",
+          "source": "李波",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-28T05:01:51Z"
+        },
+        {
+          "id": "eaff9b676fa128218aba8e93a957a50fa677578a",
+          "title": "NHK2021年纪录片，一栋烂尾楼的前世今生",
+          "url": "https://www.youtube.com/watch?v=8wzd2urb90g",
+          "source": "李波",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-28T04:52:31Z"
+        },
+        {
+          "id": "48495b0c566bf7b2639f9d5d9a16348041414f78",
+          "title": "'26.6.29《巴倫周刊》：比特幣流動性預警｜Google AI價格戰｜Lululemon戰略失焦｜廉價無人機重塑軍工產業鏈｜美光毛利上看86%｜Netflix市佔率流失戰｜Ross逆勢成長",
+          "url": "https://www.youtube.com/watch?v=q24OKjGVM18",
+          "source": "雜書觀察室",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-06-28T01:21:18Z"
+        },
+        {
+          "id": "e27f17b4a2c6bb639d0b6ee7d53977acaa16707f",
+          "title": "100%胜率经济衰退指标：国债收益率曲线 (Treasuries Yield Curve)",
+          "url": "https://www.youtube.com/watch?v=DrH7cL2DAOM",
+          "source": "Shepherd Capital Markets",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-06-27T22:00:11Z"
+        },
         {
           "id": "85b8de1dc8e50e4942be6342394c0cf168bb636a",
           "title": "会加息吗？收益率曲线又是啥？前分析员拆解国债背后的资本真相",
@@ -281,15 +355,15 @@
           "published_at": "2026-06-27T16:00:08Z"
         }
       ],
-      "item_count": 14,
-      "duplicate_count": 14,
-      "score": 0.7233,
-      "importance": 0.7233,
-      "importance_score": 0.7233,
+      "item_count": 18,
+      "duplicate_count": 18,
+      "score": 0.7495,
+      "importance": 0.7495,
+      "importance_score": 0.7495,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.911,
+        "recency": 0.9982,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -297,12 +371,12 @@
         "multi_source"
       ],
       "earliest_at": "2026-06-27T11:00:06Z",
-      "latest_at": "2026-06-27T22:00:11Z",
+      "latest_at": "2026-06-28T05:01:51Z",
       "primary_item": {
-        "id": "85b8de1dc8e50e4942be6342394c0cf168bb636a",
-        "title": "会加息吗？收益率曲线又是啥？前分析员拆解国债背后的资本真相",
-        "url": "https://www.youtube.com/watch?v=DrH7cL2DAOM",
-        "source": "Shepherd Capital Markets",
+        "id": "4adb07b7f94eb51ae13e39bcf86caa654f7de81f",
+        "title": "NHK 2022年纪录片 The price of the zero covid policy",
+        "url": "https://www.youtube.com/watch?v=Rviql4M9DlM",
+        "source": "李波",
         "source_name": "OPML RSS"
       }
     },
@@ -359,13 +433,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3018,
-      "importance": 0.3018,
-      "importance_score": 0.3018,
+      "score": 0.2401,
+      "importance": 0.2401,
+      "importance_score": 0.2401,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.4226,
+        "recency": 0.217,
         "story_heat": 0.25
       },
       "category": "watch",
