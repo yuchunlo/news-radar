@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-06-28T05:04:28.770250Z",
+  "generated_at": "2026-06-28T08:32:56.011593Z",
   "window_hours": 24,
   "total_items": 2,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "NHK 2022年纪录片 The price of the zero covid policy",
-      "url": "https://www.youtube.com/watch?v=Rviql4M9DlM",
-      "primary_url": "https://www.youtube.com/watch?v=Rviql4M9DlM",
+      "title": "NHK纪录片 Young People Lying Flat in China",
+      "url": "https://www.youtube.com/watch?v=1BcijD_IBjo",
+      "primary_url": "https://www.youtube.com/watch?v=1BcijD_IBjo",
       "source": "李波",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "c5664dbe6fa4787c7369b60f8ab5831fbcbe9006",
+          "title": "NHK纪录片 Young People Lying Flat in China",
+          "url": "https://www.youtube.com/watch?v=1BcijD_IBjo",
+          "source": "李波",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-28T06:42:38Z"
+        },
         {
           "id": "4adb07b7f94eb51ae13e39bcf86caa654f7de81f",
           "title": "NHK 2022年纪录片 The price of the zero covid policy",
@@ -174,7 +183,7 @@
           "published_at": "2026-06-27T16:00:08Z"
         }
       ],
-      "source_count": 18,
+      "source_count": 19,
       "source_names": [
         "Best Documentary",
         "Cleo Abram",
@@ -193,6 +202,15 @@
       ],
       "items": [
         {
+          "id": "c5664dbe6fa4787c7369b60f8ab5831fbcbe9006",
+          "title": "NHK纪录片 Young People Lying Flat in China",
+          "url": "https://www.youtube.com/watch?v=1BcijD_IBjo",
+          "source": "李波",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-28T06:42:38Z"
+        },
+        {
           "id": "4adb07b7f94eb51ae13e39bcf86caa654f7de81f",
           "title": "NHK 2022年纪录片 The price of the zero covid policy",
           "url": "https://www.youtube.com/watch?v=Rviql4M9DlM",
@@ -355,15 +373,15 @@
           "published_at": "2026-06-27T16:00:08Z"
         }
       ],
-      "item_count": 18,
-      "duplicate_count": 18,
-      "score": 0.7495,
-      "importance": 0.7495,
-      "importance_score": 0.7495,
+      "item_count": 19,
+      "duplicate_count": 19,
+      "score": 0.727,
+      "importance": 0.727,
+      "importance_score": 0.727,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9982,
+        "recency": 0.9234,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -371,11 +389,11 @@
         "multi_source"
       ],
       "earliest_at": "2026-06-27T11:00:06Z",
-      "latest_at": "2026-06-28T05:01:51Z",
+      "latest_at": "2026-06-28T06:42:38Z",
       "primary_item": {
-        "id": "4adb07b7f94eb51ae13e39bcf86caa654f7de81f",
-        "title": "NHK 2022年纪录片 The price of the zero covid policy",
-        "url": "https://www.youtube.com/watch?v=Rviql4M9DlM",
+        "id": "c5664dbe6fa4787c7369b60f8ab5831fbcbe9006",
+        "title": "NHK纪录片 Young People Lying Flat in China",
+        "url": "https://www.youtube.com/watch?v=1BcijD_IBjo",
         "source": "李波",
         "source_name": "OPML RSS"
       }
@@ -433,13 +451,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.2401,
-      "importance": 0.2401,
-      "importance_score": 0.2401,
+      "score": 0.1967,
+      "importance": 0.1967,
+      "importance_score": 0.1967,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.217,
+        "recency": 0.0722,
         "story_heat": 0.25
       },
       "category": "watch",
