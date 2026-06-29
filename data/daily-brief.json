@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-06-29T17:43:25.932406Z",
+  "generated_at": "2026-06-29T20:07:13.844743Z",
   "window_hours": 24,
-  "total_items": 2,
+  "total_items": 3,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "印度：神秘的基甚金達王國 / India: The mythical Kingdom of Kishkindah",
-      "url": "https://www.youtube.com/watch?v=YY9ClgLt1Z0",
-      "primary_url": "https://www.youtube.com/watch?v=YY9ClgLt1Z0",
-      "source": "imineo Documentaires",
+      "title": "科學家揭開加州海岸下方 13,000 年前的謎團 / Scientists Unearth 13,000-Year-Old Mystery Beneath California Coast",
+      "url": "https://www.youtube.com/watch?v=AtFyQ-tbPdk",
+      "primary_url": "https://www.youtube.com/watch?v=AtFyQ-tbPdk",
+      "source": "Timeline - World History Documentaries",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "1afc95d9d606506894476f854e815061153d078b",
+          "title": "科學家揭開加州海岸下方 13,000 年前的謎團 / Scientists Unearth 13,000-Year-Old Mystery Beneath California Coast",
+          "url": "https://www.youtube.com/watch?v=AtFyQ-tbPdk",
+          "source": "Timeline - World History Documentaries",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-29T19:00:18Z"
+        },
         {
           "id": "11ab490738b2340eb7bead6152c14aebac90861b",
           "title": "印度：神秘的基甚金達王國 / India: The mythical Kingdom of Kishkindah",
@@ -75,6 +84,15 @@
           "published_at": "2026-06-29T04:45:06Z"
         },
         {
+          "id": "0b7a21a648bc1ebfbf236e24c65ff47c7bfd529a",
+          "title": "Upwork（終於）得到了他們應得的… / Upwork Is (Finally) Getting What They Deserve…",
+          "url": "https://www.youtube.com/watch?v=54Do7cRw8UU",
+          "source": "Logically Answered",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-06-29T19:30:00Z"
+        },
+        {
           "id": "a54dd915caa9247c098f6fdcce697f9dec899aee",
           "title": "《鐵拳教育》搬上真實法庭！韓國法官真的拿它來判案了 ｜DenQ",
           "url": "https://www.youtube.com/watch?v=LGadYmI4Wjg",
@@ -84,10 +102,12 @@
           "published_at": "2026-06-29T11:00:10Z"
         }
       ],
-      "source_count": 8,
+      "source_count": 10,
       "source_names": [
         "Best Documentary",
         "DenQ來了",
+        "Logically Answered",
+        "Timeline - World History Documentaries",
         "imineo Documentaires",
         "【塞掐】訪談大人物",
         "敏隆講堂",
@@ -95,6 +115,15 @@
       ],
       "items": [
         {
+          "id": "1afc95d9d606506894476f854e815061153d078b",
+          "title": "科學家揭開加州海岸下方 13,000 年前的謎團 / Scientists Unearth 13,000-Year-Old Mystery Beneath California Coast",
+          "url": "https://www.youtube.com/watch?v=AtFyQ-tbPdk",
+          "source": "Timeline - World History Documentaries",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-29T19:00:18Z"
+        },
+        {
           "id": "11ab490738b2340eb7bead6152c14aebac90861b",
           "title": "印度：神秘的基甚金達王國 / India: The mythical Kingdom of Kishkindah",
           "url": "https://www.youtube.com/watch?v=YY9ClgLt1Z0",
@@ -158,6 +187,15 @@
           "published_at": "2026-06-29T04:45:06Z"
         },
         {
+          "id": "0b7a21a648bc1ebfbf236e24c65ff47c7bfd529a",
+          "title": "Upwork（終於）得到了他們應得的… / Upwork Is (Finally) Getting What They Deserve…",
+          "url": "https://www.youtube.com/watch?v=54Do7cRw8UU",
+          "source": "Logically Answered",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-06-29T19:30:00Z"
+        },
+        {
           "id": "a54dd915caa9247c098f6fdcce697f9dec899aee",
           "title": "《鐵拳教育》搬上真實法庭！韓國法官真的拿它來判案了 ｜DenQ",
           "url": "https://www.youtube.com/watch?v=LGadYmI4Wjg",
@@ -167,15 +205,15 @@
           "published_at": "2026-06-29T11:00:10Z"
         }
       ],
-      "item_count": 8,
-      "duplicate_count": 8,
-      "score": 0.7161,
-      "importance": 0.7161,
-      "importance_score": 0.7161,
+      "item_count": 10,
+      "duplicate_count": 10,
+      "score": 0.7361,
+      "importance": 0.7361,
+      "importance_score": 0.7361,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.887,
+        "recency": 0.9535,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -183,12 +221,88 @@
         "multi_source"
       ],
       "earliest_at": "2026-06-28T21:00:00Z",
-      "latest_at": "2026-06-29T15:00:39Z",
+      "latest_at": "2026-06-29T19:30:00Z",
       "primary_item": {
-        "id": "11ab490738b2340eb7bead6152c14aebac90861b",
-        "title": "印度：神秘的基甚金達王國 / India: The mythical Kingdom of Kishkindah",
-        "url": "https://www.youtube.com/watch?v=YY9ClgLt1Z0",
-        "source": "imineo Documentaires",
+        "id": "1afc95d9d606506894476f854e815061153d078b",
+        "title": "科學家揭開加州海岸下方 13,000 年前的謎團 / Scientists Unearth 13,000-Year-Old Mystery Beneath California Coast",
+        "url": "https://www.youtube.com/watch?v=AtFyQ-tbPdk",
+        "source": "Timeline - World History Documentaries",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_683dc9766c59",
+      "title": "他因身高太高而被禁止參加奧運會 / He Was Banned From The Olympics for Being Too Tall",
+      "url": "https://www.youtube.com/shorts/2zWjPVbjYTA",
+      "primary_url": "https://www.youtube.com/shorts/2zWjPVbjYTA",
+      "source": "Cleo Abram",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "5753b0e9b1f7f0c1dfae59e53f36532dae3669fc",
+          "title": "他因身高太高而被禁止參加奧運會 / He Was Banned From The Olympics for Being Too Tall",
+          "url": "https://www.youtube.com/shorts/2zWjPVbjYTA",
+          "source": "Cleo Abram",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-06-29T15:42:15Z"
+        },
+        {
+          "id": "1a8090c31aeb89e3f950469be85973c31c27c628",
+          "title": "為什麼他被禁止參加奧運？ / Why Was He Banned From The Olympics?",
+          "url": "https://www.youtube.com/shorts/2zWjPVbjYTA",
+          "source": "Cleo Abram",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-06-29T15:42:15Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Cleo Abram"
+      ],
+      "items": [
+        {
+          "id": "5753b0e9b1f7f0c1dfae59e53f36532dae3669fc",
+          "title": "他因身高太高而被禁止參加奧運會 / He Was Banned From The Olympics for Being Too Tall",
+          "url": "https://www.youtube.com/shorts/2zWjPVbjYTA",
+          "source": "Cleo Abram",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-06-29T15:42:15Z"
+        },
+        {
+          "id": "1a8090c31aeb89e3f950469be85973c31c27c628",
+          "title": "為什麼他被禁止參加奧運？ / Why Was He Banned From The Olympics?",
+          "url": "https://www.youtube.com/shorts/2zWjPVbjYTA",
+          "source": "Cleo Abram",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-06-29T15:42:15Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5448,
+      "importance": 0.5448,
+      "importance_score": 0.5448,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.5,
+        "recency": 0.816,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-06-29T15:42:15Z",
+      "latest_at": "2026-06-29T15:42:15Z",
+      "primary_item": {
+        "id": "5753b0e9b1f7f0c1dfae59e53f36532dae3669fc",
+        "title": "他因身高太高而被禁止參加奧運會 / He Was Banned From The Olympics for Being Too Tall",
+        "url": "https://www.youtube.com/shorts/2zWjPVbjYTA",
+        "source": "Cleo Abram",
         "source_name": "OPML RSS"
       }
     },
@@ -245,13 +359,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.368,
-      "importance": 0.368,
-      "importance_score": 0.368,
+      "score": 0.3381,
+      "importance": 0.3381,
+      "importance_score": 0.3381,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.2268,
+        "recency": 0.1269,
         "story_heat": 0.25
       },
       "category": "watch",
