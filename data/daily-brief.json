@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-06-29T14:35:33.323089Z",
+  "generated_at": "2026-06-29T17:43:25.932406Z",
   "window_hours": 24,
   "total_items": 2,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "特內裡費島移民營內部 / Inside Tenerife's Migrant Camp",
-      "url": "https://www.youtube.com/watch?v=9qY_I6_UYvs",
-      "primary_url": "https://www.youtube.com/watch?v=9qY_I6_UYvs",
-      "source": "Best Documentary",
+      "title": "印度：神秘的基甚金達王國 / India: The mythical Kingdom of Kishkindah",
+      "url": "https://www.youtube.com/watch?v=YY9ClgLt1Z0",
+      "primary_url": "https://www.youtube.com/watch?v=YY9ClgLt1Z0",
+      "source": "imineo Documentaires",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "11ab490738b2340eb7bead6152c14aebac90861b",
+          "title": "印度：神秘的基甚金達王國 / India: The mythical Kingdom of Kishkindah",
+          "url": "https://www.youtube.com/watch?v=YY9ClgLt1Z0",
+          "source": "imineo Documentaires",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-29T15:00:39Z"
+        },
         {
           "id": "15e9021630c0ed5f674a067ea860fe02ec980ebd",
           "title": "特內裡費島移民營內部 / Inside Tenerife's Migrant Camp",
@@ -55,15 +64,6 @@
           "source_name": "OPML RSS",
           "site_id": "culture",
           "published_at": "2026-06-28T21:00:00Z"
-        },
-        {
-          "id": "a9a43c6a6232fabd6dc317af8d7ffe0a20d05abf",
-          "title": "埃爾特姆宮內部 - 裝飾藝術奢華與中世紀威嚴相遇 / Inside Eltham Palace - Art Deco Luxury Meets Medieval Majesty",
-          "url": "https://www.youtube.com/watch?v=ncjAHuQskw4",
-          "source": "Perspective",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-28T16:00:27Z"
         },
         {
           "id": "ab6758553b46b84329913be5a4e49f7e921c1fe7",
@@ -88,12 +88,21 @@
       "source_names": [
         "Best Documentary",
         "DenQ來了",
-        "Perspective",
+        "imineo Documentaires",
         "【塞掐】訪談大人物",
         "敏隆講堂",
         "阿峇卡巴 東南亞電台"
       ],
       "items": [
+        {
+          "id": "11ab490738b2340eb7bead6152c14aebac90861b",
+          "title": "印度：神秘的基甚金達王國 / India: The mythical Kingdom of Kishkindah",
+          "url": "https://www.youtube.com/watch?v=YY9ClgLt1Z0",
+          "source": "imineo Documentaires",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-29T15:00:39Z"
+        },
         {
           "id": "15e9021630c0ed5f674a067ea860fe02ec980ebd",
           "title": "特內裡費島移民營內部 / Inside Tenerife's Migrant Camp",
@@ -140,15 +149,6 @@
           "published_at": "2026-06-28T21:00:00Z"
         },
         {
-          "id": "a9a43c6a6232fabd6dc317af8d7ffe0a20d05abf",
-          "title": "埃爾特姆宮內部 - 裝飾藝術奢華與中世紀威嚴相遇 / Inside Eltham Palace - Art Deco Luxury Meets Medieval Majesty",
-          "url": "https://www.youtube.com/watch?v=ncjAHuQskw4",
-          "source": "Perspective",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-28T16:00:27Z"
-        },
-        {
           "id": "ab6758553b46b84329913be5a4e49f7e921c1fe7",
           "title": "Agent 該怎麼分工？同樣的 AI 只有不到 1% 的人做得出成果！｜前小紅書工程師 Nick Hsu【塞掐 Side Chat】E412",
           "url": "https://www.youtube.com/watch?v=BJ92fomIRJM",
@@ -169,26 +169,26 @@
       ],
       "item_count": 8,
       "duplicate_count": 8,
-      "score": 0.7176,
-      "importance": 0.7176,
-      "importance_score": 0.7176,
+      "score": 0.7161,
+      "importance": 0.7161,
+      "importance_score": 0.7161,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.8921,
+        "recency": 0.887,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-28T16:00:27Z",
-      "latest_at": "2026-06-29T12:00:09Z",
+      "earliest_at": "2026-06-28T21:00:00Z",
+      "latest_at": "2026-06-29T15:00:39Z",
       "primary_item": {
-        "id": "15e9021630c0ed5f674a067ea860fe02ec980ebd",
-        "title": "特內裡費島移民營內部 / Inside Tenerife's Migrant Camp",
-        "url": "https://www.youtube.com/watch?v=9qY_I6_UYvs",
-        "source": "Best Documentary",
+        "id": "11ab490738b2340eb7bead6152c14aebac90861b",
+        "title": "印度：神秘的基甚金達王國 / India: The mythical Kingdom of Kishkindah",
+        "url": "https://www.youtube.com/watch?v=YY9ClgLt1Z0",
+        "source": "imineo Documentaires",
         "source_name": "OPML RSS"
       }
     },
@@ -245,13 +245,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4072,
-      "importance": 0.4072,
-      "importance_score": 0.4072,
+      "score": 0.368,
+      "importance": 0.368,
+      "importance_score": 0.368,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.3573,
+        "recency": 0.2268,
         "story_heat": 0.25
       },
       "category": "watch",
