@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-06-29T20:07:13.844743Z",
+  "generated_at": "2026-06-29T21:53:32.009197Z",
   "window_hours": 24,
   "total_items": 3,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "科學家揭開加州海岸下方 13,000 年前的謎團 / Scientists Unearth 13,000-Year-Old Mystery Beneath California Coast",
-      "url": "https://www.youtube.com/watch?v=AtFyQ-tbPdk",
-      "primary_url": "https://www.youtube.com/watch?v=AtFyQ-tbPdk",
-      "source": "Timeline - World History Documentaries",
+      "title": "愛博士：單親媽媽掠奪者的可怕陷阱 / Dr Love: The Terrifying Trap of the Single Mothers Predator",
+      "url": "https://www.youtube.com/watch?v=PDAmbvtRCG4",
+      "primary_url": "https://www.youtube.com/watch?v=PDAmbvtRCG4",
+      "source": "Best Documentary",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "bbf6a18b2e50c8839ade333c7f25463b4a421a1a",
+          "title": "愛博士：單親媽媽掠奪者的可怕陷阱 / Dr Love: The Terrifying Trap of the Single Mothers Predator",
+          "url": "https://www.youtube.com/watch?v=PDAmbvtRCG4",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-29T21:00:19Z"
+        },
         {
           "id": "1afc95d9d606506894476f854e815061153d078b",
           "title": "科學家揭開加州海岸下方 13,000 年前的謎團 / Scientists Unearth 13,000-Year-Old Mystery Beneath California Coast",
@@ -64,15 +73,6 @@
           "source_name": "OPML RSS",
           "site_id": "culture",
           "published_at": "2026-06-29T02:23:48Z"
-        },
-        {
-          "id": "280726ba28548874791e40563cece7df6c21be12",
-          "title": "佛萊迪摩克瑞：從害羞的青少年到皇后樂團的超級巨星 / Freddie Mercury: From Shy Teen to Queen’s Superstar",
-          "url": "https://www.youtube.com/watch?v=7kR_MK64u84",
-          "source": "Best Documentary",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-28T21:00:00Z"
         },
         {
           "id": "ab6758553b46b84329913be5a4e49f7e921c1fe7",
@@ -115,6 +115,15 @@
       ],
       "items": [
         {
+          "id": "bbf6a18b2e50c8839ade333c7f25463b4a421a1a",
+          "title": "愛博士：單親媽媽掠奪者的可怕陷阱 / Dr Love: The Terrifying Trap of the Single Mothers Predator",
+          "url": "https://www.youtube.com/watch?v=PDAmbvtRCG4",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-29T21:00:19Z"
+        },
+        {
           "id": "1afc95d9d606506894476f854e815061153d078b",
           "title": "科學家揭開加州海岸下方 13,000 年前的謎團 / Scientists Unearth 13,000-Year-Old Mystery Beneath California Coast",
           "url": "https://www.youtube.com/watch?v=AtFyQ-tbPdk",
@@ -169,15 +178,6 @@
           "published_at": "2026-06-29T02:23:48Z"
         },
         {
-          "id": "280726ba28548874791e40563cece7df6c21be12",
-          "title": "佛萊迪摩克瑞：從害羞的青少年到皇后樂團的超級巨星 / Freddie Mercury: From Shy Teen to Queen’s Superstar",
-          "url": "https://www.youtube.com/watch?v=7kR_MK64u84",
-          "source": "Best Documentary",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-28T21:00:00Z"
-        },
-        {
           "id": "ab6758553b46b84329913be5a4e49f7e921c1fe7",
           "title": "Agent 該怎麼分工？同樣的 AI 只有不到 1% 的人做得出成果！｜前小紅書工程師 Nick Hsu【塞掐 Side Chat】E412",
           "url": "https://www.youtube.com/watch?v=BJ92fomIRJM",
@@ -207,26 +207,26 @@
       ],
       "item_count": 10,
       "duplicate_count": 10,
-      "score": 0.7361,
-      "importance": 0.7361,
-      "importance_score": 0.7361,
+      "score": 0.7389,
+      "importance": 0.7389,
+      "importance_score": 0.7389,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9535,
+        "recency": 0.963,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-28T21:00:00Z",
-      "latest_at": "2026-06-29T19:30:00Z",
+      "earliest_at": "2026-06-29T02:23:48Z",
+      "latest_at": "2026-06-29T21:00:19Z",
       "primary_item": {
-        "id": "1afc95d9d606506894476f854e815061153d078b",
-        "title": "科學家揭開加州海岸下方 13,000 年前的謎團 / Scientists Unearth 13,000-Year-Old Mystery Beneath California Coast",
-        "url": "https://www.youtube.com/watch?v=AtFyQ-tbPdk",
-        "source": "Timeline - World History Documentaries",
+        "id": "bbf6a18b2e50c8839ade333c7f25463b4a421a1a",
+        "title": "愛博士：單親媽媽掠奪者的可怕陷阱 / Dr Love: The Terrifying Trap of the Single Mothers Predator",
+        "url": "https://www.youtube.com/watch?v=PDAmbvtRCG4",
+        "source": "Best Documentary",
         "source_name": "OPML RSS"
       }
     },
@@ -283,13 +283,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5448,
-      "importance": 0.5448,
-      "importance_score": 0.5448,
+      "score": 0.5226,
+      "importance": 0.5226,
+      "importance_score": 0.5226,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.816,
+        "recency": 0.7422,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -359,13 +359,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3381,
-      "importance": 0.3381,
-      "importance_score": 0.3381,
+      "score": 0.3159,
+      "importance": 0.3159,
+      "importance_score": 0.3159,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.1269,
+        "recency": 0.0531,
         "story_heat": 0.25
       },
       "category": "watch",
