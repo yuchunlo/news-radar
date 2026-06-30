@@ -1,16 +1,34 @@
 {
-  "generated_at": "2026-06-30T21:16:03.423348Z",
+  "generated_at": "2026-06-30T22:51:49.525234Z",
   "window_hours": 24,
   "total_items": 3,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "火藥桶：了解以色列-巴勒斯坦衝突 / The Tinderbox: Understanding The Israeli-Palestinian Conflict",
-      "url": "https://www.youtube.com/watch?v=X6Qh1JpQafM",
-      "primary_url": "https://www.youtube.com/watch?v=X6Qh1JpQafM",
-      "source": "Timeline - World History Documentaries",
+      "title": "我要離開紐約市 / i'm leaving New York City",
+      "url": "https://www.youtube.com/watch?v=zLganMVbY8g",
+      "primary_url": "https://www.youtube.com/watch?v=zLganMVbY8g",
+      "source": "CaseyNeistat",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "d5cdbe68465dd56b99a8c82d6fe8eaa22b85729e",
+          "title": "我要離開紐約市 / i'm leaving New York City",
+          "url": "https://www.youtube.com/watch?v=zLganMVbY8g",
+          "source": "CaseyNeistat",
+          "source_name": "OPML RSS",
+          "site_id": "design",
+          "published_at": "2026-06-30T22:11:30Z"
+        },
+        {
+          "id": "1a61204189b2826d919611f27d7a77e9a18c576b",
+          "title": "安東尼卡德里斯：羅馬帝國、拜占庭帝國、帝國的興衰萊克斯弗里德曼播客 #498 / Anthony Kaldellis: Roman Empire, Byzantine Empire, Rise & Fall of Empires | Lex Fridman Podcast #498",
+          "url": "https://www.youtube.com/watch?v=pv1TUJSEM2k",
+          "source": "Lex Fridman",
+          "source_name": "OPML RSS",
+          "site_id": "blog",
+          "published_at": "2026-06-30T21:16:13Z"
+        },
         {
           "id": "7a397dfc15d3b0580a27220eba67e23bc0ded4ce",
           "title": "火藥桶：了解以色列-巴勒斯坦衝突 / The Tinderbox: Understanding The Israeli-Palestinian Conflict",
@@ -64,15 +82,6 @@
           "source_name": "OPML RSS",
           "site_id": "finance",
           "published_at": "2026-06-29T23:38:20Z"
-        },
-        {
-          "id": "c8d3246fad0dab8ce5b9195fd7366aa0b38bee48",
-          "title": "TSLA 暴涨 8%！空头挤压一触即发？做空比例3%，机构预期上调",
-          "url": "https://www.youtube.com/watch?v=O2p1BjKAu-o",
-          "source": "Shepherd Capital Markets",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-06-29T22:23:36Z"
         },
         {
           "id": "c7b2918bb095122e723900f7b7d35bc9a82887ef",
@@ -147,15 +156,16 @@
           "published_at": "2026-06-30T01:45:06Z"
         }
       ],
-      "source_count": 15,
+      "source_count": 16,
       "source_names": [
         "Best Documentary",
+        "CaseyNeistat",
         "DenQ來了",
         "GOATFANS",
         "Good Times Bad Times",
+        "Lex Fridman",
         "Primal Space",
         "RealLifeLore",
-        "Shepherd Capital Markets",
         "Timeline - World History Documentaries",
         "Waxy.org",
         "Wendover Productions",
@@ -166,6 +176,24 @@
       ],
       "items": [
         {
+          "id": "d5cdbe68465dd56b99a8c82d6fe8eaa22b85729e",
+          "title": "我要離開紐約市 / i'm leaving New York City",
+          "url": "https://www.youtube.com/watch?v=zLganMVbY8g",
+          "source": "CaseyNeistat",
+          "source_name": "OPML RSS",
+          "site_id": "design",
+          "published_at": "2026-06-30T22:11:30Z"
+        },
+        {
+          "id": "1a61204189b2826d919611f27d7a77e9a18c576b",
+          "title": "安東尼卡德里斯：羅馬帝國、拜占庭帝國、帝國的興衰萊克斯弗里德曼播客 #498 / Anthony Kaldellis: Roman Empire, Byzantine Empire, Rise & Fall of Empires | Lex Fridman Podcast #498",
+          "url": "https://www.youtube.com/watch?v=pv1TUJSEM2k",
+          "source": "Lex Fridman",
+          "source_name": "OPML RSS",
+          "site_id": "blog",
+          "published_at": "2026-06-30T21:16:13Z"
+        },
+        {
           "id": "7a397dfc15d3b0580a27220eba67e23bc0ded4ce",
           "title": "火藥桶：了解以色列-巴勒斯坦衝突 / The Tinderbox: Understanding The Israeli-Palestinian Conflict",
           "url": "https://www.youtube.com/watch?v=X6Qh1JpQafM",
@@ -218,15 +246,6 @@
           "source_name": "OPML RSS",
           "site_id": "finance",
           "published_at": "2026-06-29T23:38:20Z"
-        },
-        {
-          "id": "c8d3246fad0dab8ce5b9195fd7366aa0b38bee48",
-          "title": "TSLA 暴涨 8%！空头挤压一触即发？做空比例3%，机构预期上调",
-          "url": "https://www.youtube.com/watch?v=O2p1BjKAu-o",
-          "source": "Shepherd Capital Markets",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-06-29T22:23:36Z"
         },
         {
           "id": "c7b2918bb095122e723900f7b7d35bc9a82887ef",
@@ -301,28 +320,28 @@
           "published_at": "2026-06-30T01:45:06Z"
         }
       ],
-      "item_count": 15,
-      "duplicate_count": 15,
-      "score": 0.7343,
-      "importance": 0.7343,
-      "importance_score": 0.7343,
+      "item_count": 16,
+      "duplicate_count": 16,
+      "score": 0.7416,
+      "importance": 0.7416,
+      "importance_score": 0.7416,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9476,
+        "recency": 0.972,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-29T22:23:36Z",
-      "latest_at": "2026-06-30T20:13:31Z",
+      "earliest_at": "2026-06-29T23:38:20Z",
+      "latest_at": "2026-06-30T22:11:30Z",
       "primary_item": {
-        "id": "7a397dfc15d3b0580a27220eba67e23bc0ded4ce",
-        "title": "火藥桶：了解以色列-巴勒斯坦衝突 / The Tinderbox: Understanding The Israeli-Palestinian Conflict",
-        "url": "https://www.youtube.com/watch?v=X6Qh1JpQafM",
-        "source": "Timeline - World History Documentaries",
+        "id": "d5cdbe68465dd56b99a8c82d6fe8eaa22b85729e",
+        "title": "我要離開紐約市 / i'm leaving New York City",
+        "url": "https://www.youtube.com/watch?v=zLganMVbY8g",
+        "source": "CaseyNeistat",
         "source_name": "OPML RSS"
       }
     },
@@ -379,13 +398,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5164,
-      "importance": 0.5164,
-      "importance_score": 0.5164,
+      "score": 0.4965,
+      "importance": 0.4965,
+      "importance_score": 0.4965,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7215,
+        "recency": 0.655,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -455,13 +474,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5155,
-      "importance": 0.5155,
-      "importance_score": 0.5155,
+      "score": 0.4955,
+      "importance": 0.4955,
+      "importance_score": 0.4955,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7182,
+        "recency": 0.6517,
         "story_heat": 0.25
       },
       "category": "watch",
