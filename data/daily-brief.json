@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-06-29T23:03:46.493023Z",
+  "generated_at": "2026-06-30T01:31:50.493880Z",
   "window_hours": 24,
-  "total_items": 3,
+  "total_items": 2,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "TSLA 暴涨 8%！空头挤压一触即发？做空比例3%，机构预期上调",
-      "url": "https://www.youtube.com/watch?v=O2p1BjKAu-o",
-      "primary_url": "https://www.youtube.com/watch?v=O2p1BjKAu-o",
-      "source": "Shepherd Capital Markets",
+      "title": "AI循环投资的必经路径是？小盘股阶段性看涨！韩国巨额投资加速周期拐点？远程办公的最大bug是？",
+      "url": "https://www.youtube.com/watch?v=9r7kOr7vz58",
+      "primary_url": "https://www.youtube.com/watch?v=9r7kOr7vz58",
+      "source": "美投侃新闻",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "81fdba81161565e5c24952f5ba86ade43ee871f7",
+          "title": "AI循环投资的必经路径是？小盘股阶段性看涨！韩国巨额投资加速周期拐点？远程办公的最大bug是？",
+          "url": "https://www.youtube.com/watch?v=9r7kOr7vz58",
+          "source": "美投侃新闻",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-06-29T23:38:20Z"
+        },
         {
           "id": "c8d3246fad0dab8ce5b9195fd7366aa0b38bee48",
           "title": "TSLA 暴涨 8%！空头挤压一触即发？做空比例3%，机构预期上调",
@@ -111,7 +120,7 @@
           "published_at": "2026-06-29T11:00:10Z"
         }
       ],
-      "source_count": 11,
+      "source_count": 12,
       "source_names": [
         "Best Documentary",
         "DenQ來了",
@@ -121,9 +130,19 @@
         "imineo Documentaires",
         "【塞掐】訪談大人物",
         "敏隆講堂",
+        "美投侃新闻",
         "阿峇卡巴 東南亞電台"
       ],
       "items": [
+        {
+          "id": "81fdba81161565e5c24952f5ba86ade43ee871f7",
+          "title": "AI循环投资的必经路径是？小盘股阶段性看涨！韩国巨额投资加速周期拐点？远程办公的最大bug是？",
+          "url": "https://www.youtube.com/watch?v=9r7kOr7vz58",
+          "source": "美投侃新闻",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-06-29T23:38:20Z"
+        },
         {
           "id": "c8d3246fad0dab8ce5b9195fd7366aa0b38bee48",
           "title": "TSLA 暴涨 8%！空头挤压一触即发？做空比例3%，机构预期上调",
@@ -224,15 +243,15 @@
           "published_at": "2026-06-29T11:00:10Z"
         }
       ],
-      "item_count": 11,
-      "duplicate_count": 11,
-      "score": 0.7416,
-      "importance": 0.7416,
-      "importance_score": 0.7416,
+      "item_count": 12,
+      "duplicate_count": 12,
+      "score": 0.7264,
+      "importance": 0.7264,
+      "importance_score": 0.7264,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9721,
+        "recency": 0.9212,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -240,12 +259,12 @@
         "multi_source"
       ],
       "earliest_at": "2026-06-29T02:23:48Z",
-      "latest_at": "2026-06-29T22:23:36Z",
+      "latest_at": "2026-06-29T23:38:20Z",
       "primary_item": {
-        "id": "c8d3246fad0dab8ce5b9195fd7366aa0b38bee48",
-        "title": "TSLA 暴涨 8%！空头挤压一触即发？做空比例3%，机构预期上调",
-        "url": "https://www.youtube.com/watch?v=O2p1BjKAu-o",
-        "source": "Shepherd Capital Markets",
+        "id": "81fdba81161565e5c24952f5ba86ade43ee871f7",
+        "title": "AI循环投资的必经路径是？小盘股阶段性看涨！韩国巨额投资加速周期拐点？远程办公的最大bug是？",
+        "url": "https://www.youtube.com/watch?v=9r7kOr7vz58",
+        "source": "美投侃新闻",
         "source_name": "OPML RSS"
       }
     },
@@ -302,13 +321,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.508,
-      "importance": 0.508,
-      "importance_score": 0.508,
+      "score": 0.4772,
+      "importance": 0.4772,
+      "importance_score": 0.4772,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6934,
+        "recency": 0.5906,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -322,82 +341,6 @@
         "title": "他因身高太高而被禁止參加奧運會 / He Was Banned From The Olympics for Being Too Tall",
         "url": "https://www.youtube.com/shorts/2zWjPVbjYTA",
         "source": "Cleo Abram",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_20737a5069ba",
-      "title": "在委內瑞拉 6 月 24 日發生地震之前，Google 的地震警報系統已覆蓋超過 1,140 萬 Android 用戶，提供數秒或最多兩分鐘的提前通知（紐約時報） / Google's Earthquake Alerts system reached 11.4M+ Android users ahead of Venezuela's June 24 earthquakes, providing seconds or up to two minutes of prior notice (New York Times)",
-      "url": "https://www.techmeme.com/260628/p14",
-      "primary_url": "https://www.techmeme.com/260628/p14",
-      "source": "Techmeme",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "8d72f3a8991cae4abad46b6ab5023f4456dfb8b3",
-          "title": "在委內瑞拉 6 月 24 日發生地震之前，Google 的地震警報系統已覆蓋超過 1,140 萬 Android 用戶，提供數秒或最多兩分鐘的提前通知（紐約時報） / Google's Earthquake Alerts system reached 11.4M+ Android users ahead of Venezuela's June 24 earthquakes, providing seconds or up to two minutes of prior notice (New York Times)",
-          "url": "https://www.techmeme.com/260628/p14",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-06-28T23:10:00Z"
-        },
-        {
-          "id": "e7df948ae24b8ef4bb740fae9bd7f7e985266078",
-          "title": "Google 的地震警報系統覆蓋了委內瑞拉超過 1140 萬人，在兩次強烈地震發生之前向他們發出幾秒鐘或最多兩分鐘的通知（紐約時報） / Google's Earthquake Alerts system reached 11.4M+ people in Venezuela, giving them seconds or up to two minutes notice before two powerful earthquakes struck (New York Times)",
-          "url": "https://www.techmeme.com/260628/p14",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-06-28T23:10:00Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Techmeme"
-      ],
-      "items": [
-        {
-          "id": "8d72f3a8991cae4abad46b6ab5023f4456dfb8b3",
-          "title": "在委內瑞拉 6 月 24 日發生地震之前，Google 的地震警報系統已覆蓋超過 1,140 萬 Android 用戶，提供數秒或最多兩分鐘的提前通知（紐約時報） / Google's Earthquake Alerts system reached 11.4M+ Android users ahead of Venezuela's June 24 earthquakes, providing seconds or up to two minutes of prior notice (New York Times)",
-          "url": "https://www.techmeme.com/260628/p14",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-06-28T23:10:00Z"
-        },
-        {
-          "id": "e7df948ae24b8ef4bb740fae9bd7f7e985266078",
-          "title": "Google 的地震警報系統覆蓋了委內瑞拉超過 1140 萬人，在兩次強烈地震發生之前向他們發出幾秒鐘或最多兩分鐘的通知（紐約時報） / Google's Earthquake Alerts system reached 11.4M+ people in Venezuela, giving them seconds or up to two minutes notice before two powerful earthquakes struck (New York Times)",
-          "url": "https://www.techmeme.com/260628/p14",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-06-28T23:10:00Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.3013,
-      "importance": 0.3013,
-      "importance_score": 0.3013,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.5,
-        "recency": 0.0043,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-06-28T23:10:00Z",
-      "latest_at": "2026-06-28T23:10:00Z",
-      "primary_item": {
-        "id": "8d72f3a8991cae4abad46b6ab5023f4456dfb8b3",
-        "title": "在委內瑞拉 6 月 24 日發生地震之前，Google 的地震警報系統已覆蓋超過 1,140 萬 Android 用戶，提供數秒或最多兩分鐘的提前通知（紐約時報） / Google's Earthquake Alerts system reached 11.4M+ Android users ahead of Venezuela's June 24 earthquakes, providing seconds or up to two minutes of prior notice (New York Times)",
-        "url": "https://www.techmeme.com/260628/p14",
-        "source": "Techmeme",
         "source_name": "OPML RSS"
       }
     }
