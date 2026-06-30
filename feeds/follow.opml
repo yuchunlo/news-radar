@@ -713,9 +713,6 @@
       <outline text="GQ編輯出差日記" type="rss" category="convivium"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLiyT3ZJaRwTsY23C9-eGn1chUQa7RNyT_"
         htmlUrl="https://www.youtube.com/feeds/videos.xml?playlist_id=PLiyT3ZJaRwTsY23C9-eGn1chUQa7RNyT_" />
-      <outline text="GOOD" type="rss" category="trending"
-        xmlUrl="https://www.good.is/feeds/feed.rss"
-        htmlUrl="https://www.good.is/" />
       <outline text="Gasta Marcus Hobbitia" type="rss" category="culture"
         xmlUrl="https://gmhjohnny.wordpress.com/feed/"
         htmlUrl="https://gmhjohnny.wordpress.com" />
@@ -881,9 +878,6 @@
       <outline text="Techmeme" type="rss" category="tech"
         xmlUrl="https://www.techmeme.com/feed.xml"
         htmlUrl="https://www.techmeme.com/" />
-      <outline text="今日话题 - 雪球" type="rss" category="trending"
-        xmlUrl="https://xueqiu.com/hots/topic/rss"
-        htmlUrl="https://xueqiu.com/" />
       <outline text="天仙子" type="rss" category="blog"
         xmlUrl="https://www.tianxianzi.me/index.xml"
         htmlUrl="https://www.tianxianzi.me/" />
@@ -1061,9 +1055,6 @@
       <outline text="kottke.org" type="rss" category="trending"
         xmlUrl="http://feeds.kottke.org/main"
         htmlUrl="https://kottke.org/quick-links" />
-      <outline text="鏈新聞 ABMedia" type="rss" category="trending"
-        xmlUrl="https://abmedia.io/feed"
-        htmlUrl="https://abmedia.io/" />
       <outline text="Aftermath" type="rss" category="trending"
         xmlUrl="https://aftermath.site/rss/"
         htmlUrl="https://aftermath.site/" />
