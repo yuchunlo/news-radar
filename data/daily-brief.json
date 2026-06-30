@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-06-30T06:18:44.072204Z",
+  "generated_at": "2026-06-30T10:08:25.266258Z",
   "window_hours": 24,
   "total_items": 2,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "AI循环投资的必经路径是？小盘股阶段性看涨！韩国巨额投资加速周期拐点？远程办公的最大bug是？",
-      "url": "https://www.youtube.com/watch?v=9r7kOr7vz58",
-      "primary_url": "https://www.youtube.com/watch?v=9r7kOr7vz58",
-      "source": "美投侃新闻",
+      "title": "479 萧西之水谈日本自民党派阀兴亡：从「角福战争」、中日邦交正常化到金权丑闻",
+      "url": "https://www.youtube.com/watch?v=Dc-M6ujYaHM",
+      "primary_url": "https://www.youtube.com/watch?v=Dc-M6ujYaHM",
+      "source": "忽左忽右",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "7b2ecb7635106108a09a3cbe38b0cbdb9dc3b6e5",
+          "title": "479 萧西之水谈日本自民党派阀兴亡：从「角福战争」、中日邦交正常化到金权丑闻",
+          "url": "https://www.youtube.com/watch?v=Dc-M6ujYaHM",
+          "source": "忽左忽右",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-30T10:02:14Z"
+        },
         {
           "id": "81fdba81161565e5c24952f5ba86ade43ee871f7",
           "title": "AI循环投资的必经路径是？小盘股阶段性看涨！韩国巨额投资加速周期拐点？远程办公的最大bug是？",
@@ -64,15 +73,6 @@
           "source_name": "OPML RSS",
           "site_id": "culture",
           "published_at": "2026-06-29T12:00:09Z"
-        },
-        {
-          "id": "9d8121488357032ed8330bec61fd375e6db51fef",
-          "title": "《國寶》~小說到電影的虛實人生",
-          "url": "https://www.youtube.com/watch?v=493ByR25WlI",
-          "source": "敏隆講堂",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-29T09:33:02Z"
         },
         {
           "id": "b05e39e430928bb1c1711cc651632fc306b4e13c",
@@ -111,10 +111,19 @@
         "Timeline - World History Documentaries",
         "Waxy.org",
         "imineo Documentaires",
-        "敏隆講堂",
+        "忽左忽右",
         "美投侃新闻"
       ],
       "items": [
+        {
+          "id": "7b2ecb7635106108a09a3cbe38b0cbdb9dc3b6e5",
+          "title": "479 萧西之水谈日本自民党派阀兴亡：从「角福战争」、中日邦交正常化到金权丑闻",
+          "url": "https://www.youtube.com/watch?v=Dc-M6ujYaHM",
+          "source": "忽左忽右",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-30T10:02:14Z"
+        },
         {
           "id": "81fdba81161565e5c24952f5ba86ade43ee871f7",
           "title": "AI循环投资的必经路径是？小盘股阶段性看涨！韩国巨额投资加速周期拐点？远程办公的最大bug是？",
@@ -170,15 +179,6 @@
           "published_at": "2026-06-29T12:00:09Z"
         },
         {
-          "id": "9d8121488357032ed8330bec61fd375e6db51fef",
-          "title": "《國寶》~小說到電影的虛實人生",
-          "url": "https://www.youtube.com/watch?v=493ByR25WlI",
-          "source": "敏隆講堂",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-29T09:33:02Z"
-        },
-        {
           "id": "b05e39e430928bb1c1711cc651632fc306b4e13c",
           "title": "Horrorfan1 的恐怖指南 / Horrorfan1’s Guide to Horror",
           "url": "https://www.youtube.com/watch?v=XGWxJaZpDXo",
@@ -208,26 +208,26 @@
       ],
       "item_count": 10,
       "duplicate_count": 10,
-      "score": 0.6666,
-      "importance": 0.6666,
-      "importance_score": 0.6666,
+      "score": 0.7487,
+      "importance": 0.7487,
+      "importance_score": 0.7487,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7219,
+        "recency": 0.9957,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-29T09:33:02Z",
-      "latest_at": "2026-06-30T01:45:06Z",
+      "earliest_at": "2026-06-29T11:00:10Z",
+      "latest_at": "2026-06-30T10:02:14Z",
       "primary_item": {
-        "id": "81fdba81161565e5c24952f5ba86ade43ee871f7",
-        "title": "AI循环投资的必经路径是？小盘股阶段性看涨！韩国巨额投资加速周期拐点？远程办公的最大bug是？",
-        "url": "https://www.youtube.com/watch?v=9r7kOr7vz58",
-        "source": "美投侃新闻",
+        "id": "7b2ecb7635106108a09a3cbe38b0cbdb9dc3b6e5",
+        "title": "479 萧西之水谈日本自民党派阀兴亡：从「角福战争」、中日邦交正常化到金权丑闻",
+        "url": "https://www.youtube.com/watch?v=Dc-M6ujYaHM",
+        "source": "忽左忽右",
         "source_name": "OPML RSS"
       }
     },
@@ -284,13 +284,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4174,
-      "importance": 0.4174,
-      "importance_score": 0.4174,
+      "score": 0.3695,
+      "importance": 0.3695,
+      "importance_score": 0.3695,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.3913,
+        "recency": 0.2318,
         "story_heat": 0.25
       },
       "category": "watch",
