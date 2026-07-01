@@ -41,20 +41,20 @@ jobs:
 
       - name: Load cookies
         run: |
-          echo "${{ secrets.YT_COOKIES }}" | base64 -d > $COOKIES_PATH
+          echo "${{ secrets.YT_COOKIES }}" | base64 -d > "$COOKIES_PATH"
           chmod 600 "$COOKIES_PATH"
-
-          while IFS=$'\t' read -r -a fields; do
-            val="${fields[-1]}"
-            if [ -n "$val" ]; then
-              echo "::add-mask::$val"
-            fi
-          done < "$COOKIES_PATH"
 
           if [ ! -s "$COOKIES_PATH" ]; then
             echo "::error::cookies file is empty after decode"
             exit 1
           fi
+
+          awk -F'\t' 'NF>=7 {print $NF}' "$COOKIES_PATH" | while IFS= read -r val; do
+            if [ -n "$val" ]; then
+              echo "::add-mask::$val"
+            fi
+          done
+
           echo "cookies file loaded, $(wc -l < "$COOKIES_PATH") lines"
 
       - name: Download subtitles
