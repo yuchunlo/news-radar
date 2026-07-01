@@ -1,16 +1,34 @@
 {
-  "generated_at": "2026-07-01T15:20:47.500058Z",
+  "generated_at": "2026-07-01T17:30:15.218948Z",
   "window_hours": 24,
   "total_items": 2,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "士兵故事、死人會說話和致命化學|新偵探團 / Soldier Stories, Dead Men Do Talk & Deadly Chemistry | The New Detectives",
-      "url": "https://www.youtube.com/watch?v=zva3Ht4fntk",
-      "primary_url": "https://www.youtube.com/watch?v=zva3Ht4fntk",
-      "source": "Best Documentary",
+      "title": "1776：未經審查的美國內戰故事 / 1776: The Uncensored Story of The American Civil War",
+      "url": "https://www.youtube.com/watch?v=JMxd1Z31eno",
+      "primary_url": "https://www.youtube.com/watch?v=JMxd1Z31eno",
+      "source": "Timeline - World History Documentaries",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "04692ec8dff38370b133335b37612a8d897e2829",
+          "title": "1776：未經審查的美國內戰故事 / 1776: The Uncensored Story of The American Civil War",
+          "url": "https://www.youtube.com/watch?v=JMxd1Z31eno",
+          "source": "Timeline - World History Documentaries",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-01T16:00:06Z"
+        },
+        {
+          "id": "a924a17178ff08405c845bebc3cf782095ede726",
+          "title": "魔鬼獵犬：拯救巴黎的美國海軍陸戰隊 / Les Chiens du Diable : les Marines américains qui ont sauvé Paris",
+          "url": "https://www.youtube.com/watch?v=fmMQ7aCdqUk",
+          "source": "imineo Documentaires",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-01T15:30:16Z"
+        },
         {
           "id": "9c9fdec85913d2ef4f8f5cd61d9865156c346653",
           "title": "士兵故事、死人會說話和致命化學|新偵探團 / Soldier Stories, Dead Men Do Talk & Deadly Chemistry | The New Detectives",
@@ -75,22 +93,13 @@
           "published_at": "2026-06-30T20:00:36Z"
         },
         {
-          "id": "c7b2918bb095122e723900f7b7d35bc9a82887ef",
-          "title": "里海消亡後會發生什麼事？ / What Will Happen After The Caspian Sea Dies?",
-          "url": "https://www.youtube.com/watch?v=nEBcD6sFDpY",
-          "source": "RealLifeLore",
+          "id": "64a03ad3b395969683c34624b089172a1334b850",
+          "title": "漢克·格林採訪澤·弗蘭克 / Hank Green interviews Ze Frank",
+          "url": "https://www.youtube.com/watch?v=bwIFDv5pHS0",
+          "source": "Waxy.org",
           "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-30T16:29:45Z"
-        },
-        {
-          "id": "4edca1493a94af27c4180fffd955842671782325",
-          "title": "中央情報局的水下間諜裝置 / The CIA’s Underwater Spy Device",
-          "url": "https://www.youtube.com/watch?v=CsyQa8_9tlw",
-          "source": "Primal Space",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-30T16:15:17Z"
+          "site_id": "trending",
+          "published_at": "2026-07-01T16:17:14Z"
         },
         {
           "id": "716a97128b68b874b3ef1127ee7f99beb16ac95a",
@@ -100,6 +109,15 @@
           "source_name": "OPML RSS",
           "site_id": "execution",
           "published_at": "2026-07-01T13:00:17Z"
+        },
+        {
+          "id": "f95252a378b8eb6fbf39588c9467f8fc6a94a452",
+          "title": "一杯咖啡，要用多少森林來換？千萬公里外的樹木正因我們消失？｜公視P# 新聞實驗室",
+          "url": "https://www.youtube.com/watch?v=ziTzJUUh5dM",
+          "source": "公視P#新聞實驗室",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-01T13:00:06Z"
         },
         {
           "id": "4873bd749beff0aa0d232ca9cc4158d0b9134296",
@@ -120,15 +138,6 @@
           "published_at": "2026-07-01T11:00:24Z"
         },
         {
-          "id": "f95252a378b8eb6fbf39588c9467f8fc6a94a452",
-          "title": "一杯咖啡，要用多少森林來換？千萬公里外的樹木正因我們消失？｜公視P# 新聞實驗室",
-          "url": "https://www.youtube.com/watch?v=ziTzJUUh5dM",
-          "source": "公視P#新聞實驗室",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-01T10:38:16Z"
-        },
-        {
           "id": "4e50b005f65f2f66007b0e33a0f7d06341e37688",
           "title": "私募股權如何毀掉美國青少年體育 / How Private Equity Ruined American Youth Sports",
           "url": "https://www.youtube.com/watch?v=DPeRd48YfqY",
@@ -138,18 +147,18 @@
           "published_at": "2026-06-30T20:13:31Z"
         }
       ],
-      "source_count": 14,
+      "source_count": 15,
       "source_names": [
         "Best Documentary",
         "CaseyNeistat",
         "DenQ來了",
         "GOATFANS",
         "Lex Fridman",
-        "Primal Space",
-        "RealLifeLore",
         "The Circuit with Emily Chang",
         "Timeline - World History Documentaries",
+        "Waxy.org",
         "Wendover Productions",
+        "imineo Documentaires",
         "公視P#新聞實驗室",
         "小Lin说",
         "美投侃新闻",
@@ -157,6 +166,24 @@
       ],
       "items": [
         {
+          "id": "04692ec8dff38370b133335b37612a8d897e2829",
+          "title": "1776：未經審查的美國內戰故事 / 1776: The Uncensored Story of The American Civil War",
+          "url": "https://www.youtube.com/watch?v=JMxd1Z31eno",
+          "source": "Timeline - World History Documentaries",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-01T16:00:06Z"
+        },
+        {
+          "id": "a924a17178ff08405c845bebc3cf782095ede726",
+          "title": "魔鬼獵犬：拯救巴黎的美國海軍陸戰隊 / Les Chiens du Diable : les Marines américains qui ont sauvé Paris",
+          "url": "https://www.youtube.com/watch?v=fmMQ7aCdqUk",
+          "source": "imineo Documentaires",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-01T15:30:16Z"
+        },
+        {
           "id": "9c9fdec85913d2ef4f8f5cd61d9865156c346653",
           "title": "士兵故事、死人會說話和致命化學|新偵探團 / Soldier Stories, Dead Men Do Talk & Deadly Chemistry | The New Detectives",
           "url": "https://www.youtube.com/watch?v=zva3Ht4fntk",
@@ -220,22 +247,13 @@
           "published_at": "2026-06-30T20:00:36Z"
         },
         {
-          "id": "c7b2918bb095122e723900f7b7d35bc9a82887ef",
-          "title": "里海消亡後會發生什麼事？ / What Will Happen After The Caspian Sea Dies?",
-          "url": "https://www.youtube.com/watch?v=nEBcD6sFDpY",
-          "source": "RealLifeLore",
+          "id": "64a03ad3b395969683c34624b089172a1334b850",
+          "title": "漢克·格林採訪澤·弗蘭克 / Hank Green interviews Ze Frank",
+          "url": "https://www.youtube.com/watch?v=bwIFDv5pHS0",
+          "source": "Waxy.org",
           "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-30T16:29:45Z"
-        },
-        {
-          "id": "4edca1493a94af27c4180fffd955842671782325",
-          "title": "中央情報局的水下間諜裝置 / The CIA’s Underwater Spy Device",
-          "url": "https://www.youtube.com/watch?v=CsyQa8_9tlw",
-          "source": "Primal Space",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-30T16:15:17Z"
+          "site_id": "trending",
+          "published_at": "2026-07-01T16:17:14Z"
         },
         {
           "id": "716a97128b68b874b3ef1127ee7f99beb16ac95a",
@@ -245,6 +263,15 @@
           "source_name": "OPML RSS",
           "site_id": "execution",
           "published_at": "2026-07-01T13:00:17Z"
+        },
+        {
+          "id": "f95252a378b8eb6fbf39588c9467f8fc6a94a452",
+          "title": "一杯咖啡，要用多少森林來換？千萬公里外的樹木正因我們消失？｜公視P# 新聞實驗室",
+          "url": "https://www.youtube.com/watch?v=ziTzJUUh5dM",
+          "source": "公視P#新聞實驗室",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-01T13:00:06Z"
         },
         {
           "id": "4873bd749beff0aa0d232ca9cc4158d0b9134296",
@@ -265,15 +292,6 @@
           "published_at": "2026-07-01T11:00:24Z"
         },
         {
-          "id": "f95252a378b8eb6fbf39588c9467f8fc6a94a452",
-          "title": "一杯咖啡，要用多少森林來換？千萬公里外的樹木正因我們消失？｜公視P# 新聞實驗室",
-          "url": "https://www.youtube.com/watch?v=ziTzJUUh5dM",
-          "source": "公視P#新聞實驗室",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-01T10:38:16Z"
-        },
-        {
           "id": "4e50b005f65f2f66007b0e33a0f7d06341e37688",
           "title": "私募股權如何毀掉美國青少年體育 / How Private Equity Ruined American Youth Sports",
           "url": "https://www.youtube.com/watch?v=DPeRd48YfqY",
@@ -283,28 +301,28 @@
           "published_at": "2026-06-30T20:13:31Z"
         }
       ],
-      "item_count": 14,
-      "duplicate_count": 14,
-      "score": 0.7082,
-      "importance": 0.7082,
-      "importance_score": 0.7082,
+      "item_count": 15,
+      "duplicate_count": 15,
+      "score": 0.7312,
+      "importance": 0.7312,
+      "importance_score": 0.7312,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.8608,
+        "recency": 0.9374,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-30T16:15:17Z",
-      "latest_at": "2026-07-01T13:00:17Z",
+      "earliest_at": "2026-06-30T20:00:36Z",
+      "latest_at": "2026-07-01T16:17:14Z",
       "primary_item": {
-        "id": "9c9fdec85913d2ef4f8f5cd61d9865156c346653",
-        "title": "士兵故事、死人會說話和致命化學|新偵探團 / Soldier Stories, Dead Men Do Talk & Deadly Chemistry | The New Detectives",
-        "url": "https://www.youtube.com/watch?v=zva3Ht4fntk",
-        "source": "Best Documentary",
+        "id": "04692ec8dff38370b133335b37612a8d897e2829",
+        "title": "1776：未經審查的美國內戰故事 / 1776: The Uncensored Story of The American Civil War",
+        "url": "https://www.youtube.com/watch?v=JMxd1Z31eno",
+        "source": "Timeline - World History Documentaries",
         "source_name": "OPML RSS"
       }
     },
@@ -379,13 +397,13 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.525,
-      "importance": 0.525,
-      "importance_score": 0.525,
+      "score": 0.5062,
+      "importance": 0.5062,
+      "importance_score": 0.5062,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 1.0,
+        "recency": 0.9373,
         "story_heat": 0.5
       },
       "category": "multi_source",
