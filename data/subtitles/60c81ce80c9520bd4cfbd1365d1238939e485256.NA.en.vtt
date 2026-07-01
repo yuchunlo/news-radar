@@ -1,0 +1,76 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.324
+A ladybug lands on the 12 of a clock, 
+
+00:00:02.324 --> 00:00:04.710
+and every second she moves randomly to 
+
+00:00:04.710 --> 00:00:07.034
+a neighboring number, either one step 
+
+00:00:07.034 --> 00:00:09.420
+clockwise or one step counterclockwise.
+
+00:00:09.740 --> 00:00:12.158
+Here each time she touches a number I'm 
+
+00:00:12.158 --> 00:00:14.637
+colouring it red, and on this run of the 
+
+00:00:14.637 --> 00:00:17.600
+simulation, the last number to get coloured is 3.
+
+00:00:18.660 --> 00:00:20.838
+And if I run the simulation a second time, 
+
+00:00:20.838 --> 00:00:23.118
+again where she continues until every number 
+
+00:00:23.118 --> 00:00:25.500
+is coloured, the last one to get coloured is 1.
+
+00:00:26.720 --> 00:00:29.928
+My puzzle for you is what is the probability that 
+
+00:00:29.928 --> 00:00:32.880
+the very last number to get coloured is the 6?
+
+00:00:34.120 --> 00:00:36.005
+This is the first in a set of monthly puzzles 
+
+00:00:36.005 --> 00:00:37.809
+that I'll be posting this year as part of a 
+
+00:00:37.809 --> 00:00:39.572
+collaboration with the mathematician Peter 
+
+00:00:39.572 --> 00:00:39.900
+Winkler.
+
+00:00:40.460 --> 00:00:41.993
+The spirit of it is to not give away 
+
+00:00:41.993 --> 00:00:43.486
+the answer right away, we both want 
+
+00:00:43.486 --> 00:00:45.020
+to give you a chance to mull it over.
+
+00:00:45.540 --> 00:00:47.982
+Every month Peter is going to hop onto a Zoom 
+
+00:00:47.982 --> 00:00:50.636
+call to talk through a very elegant way to answer 
+
+00:00:50.636 --> 00:00:53.185
+the relevant puzzle, and if you want to sign up 
+
+00:00:53.185 --> 00:00:55.840
+to join those, go to momath.org slash mindbenders.
+
+00:00:55.900 --> 00:00:58.320
+It's all part of the MoMath Museum's Year of Math.
+

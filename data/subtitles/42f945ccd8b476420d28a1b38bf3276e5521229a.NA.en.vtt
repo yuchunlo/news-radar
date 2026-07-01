@@ -1,0 +1,2783 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.150 --> 00:00:02.480
+- In November 2024,
+Professor Todd Humphreys,
+
+00:00:02.480 --> 00:00:05.910
+a GPS expert at the
+University of Texas at Austin,
+
+00:00:05.910 --> 00:00:08.250
+got a mysterious tip-off.
+
+00:00:08.250 --> 00:00:10.770
+Look at two specific days,
+
+00:00:10.770 --> 00:00:14.910
+at exact times in a data
+set collected years earlier
+
+00:00:14.910 --> 00:00:18.330
+by a network of GPS monitoring stations.
+
+00:00:18.330 --> 00:00:20.670
+These stations continuously record signals
+
+00:00:20.670 --> 00:00:22.530
+from satellite navigation systems,
+
+00:00:22.530 --> 00:00:25.650
+measuring how strong they are
+relative to background noise.
+
+00:00:25.650 --> 00:00:27.420
+It didn't seem promising.
+
+00:00:27.420 --> 00:00:29.430
+The data was from 2021,
+
+00:00:29.430 --> 00:00:31.830
+and it was publicly available online.
+
+00:00:31.830 --> 00:00:34.500
+So surely if something
+unusual was in there,
+
+00:00:34.500 --> 00:00:36.780
+someone would have already found it.
+
+00:00:36.780 --> 00:00:39.630
+But Professor Humphreys and his
+student Zach Clements looked
+
+00:00:39.630 --> 00:00:42.240
+into the data at the two
+specific times suggested,
+
+00:00:42.240 --> 00:00:44.910
+and they discovered something surprising.
+
+00:00:44.910 --> 00:00:46.200
+At one precise moment,
+
+00:00:46.200 --> 00:00:49.650
+receivers across the network
+all reported the same thing,
+
+00:00:49.650 --> 00:00:52.650
+a sudden drop in signal-to-noise ratio.
+
+00:00:52.650 --> 00:00:55.830
+In effect, the navigation
+signals had been overwhelmed.
+
+00:00:55.830 --> 00:00:57.780
+The measured signal-to-noise dropped
+
+00:00:57.780 --> 00:00:59.553
+by roughly a factor of 10.
+
+00:01:00.480 --> 00:01:02.520
+But when they started looking
+back through the data,
+
+00:01:02.520 --> 00:01:05.730
+they found 75 days since 2019
+
+00:01:05.730 --> 00:01:08.910
+where these strong
+disruptions had taken place.
+
+00:01:08.910 --> 00:01:11.700
+And again, and again,
+the pattern was the same.
+
+00:01:11.700 --> 00:01:15.810
+All these receivers recorded
+the same drop at the same time.
+
+00:01:15.810 --> 00:01:19.590
+- This effect was being felt
+all the way across Europe,
+
+00:01:19.590 --> 00:01:22.140
+all the way to the north,
+to Svalbard, to the south,
+
+00:01:22.140 --> 00:01:25.290
+to Spain, all the way
+to Canada in the west,
+
+00:01:25.290 --> 00:01:27.660
+as far east as eastern Poland.
+
+00:01:27.660 --> 00:01:28.493
+And in fact,
+
+00:01:29.430 --> 00:01:31.440
+it had a distinct pattern
+across Europe to where it looked
+
+00:01:31.440 --> 00:01:35.700
+like the blast center was in Poland
+
+00:01:35.700 --> 00:01:37.533
+or Kaliningrad in that area.
+
+00:01:38.460 --> 00:01:41.730
+- So, they wondered what could cause this.
+
+00:01:41.730 --> 00:01:43.770
+At first, they thought
+perhaps it's interference,
+
+00:01:43.770 --> 00:01:47.070
+something on the ground
+broadcasting a much stronger signal,
+
+00:01:47.070 --> 00:01:49.320
+drowning out the ones
+coming from the satellites,
+
+00:01:49.320 --> 00:01:52.110
+which made Kaliningrad
+an interesting candidate.
+
+00:01:52.110 --> 00:01:54.390
+It's a heavily militarized Russian exclave
+
+00:01:54.390 --> 00:01:57.420
+on the Baltic Sea wedged
+between Poland and Lithuania.
+
+00:01:57.420 --> 00:01:59.790
+And in recent years, it's become a hotspot
+
+00:01:59.790 --> 00:02:02.073
+for this kind of electronic warfare.
+
+00:02:03.030 --> 00:02:04.500
+So maybe that was it,
+
+00:02:04.500 --> 00:02:07.230
+a side effect of the
+conflict in the region.
+
+00:02:07.230 --> 00:02:10.350
+But they realized that
+explanation didn't work.
+
+00:02:10.350 --> 00:02:12.570
+- Even the highest tower in Kaliningrad
+
+00:02:12.570 --> 00:02:17.570
+only affects aviation
+as far as, say, Denmark.
+
+00:02:17.820 --> 00:02:20.760
+So, we had ourselves a
+mystery on our hands.
+
+00:02:20.760 --> 00:02:24.330
+We were experienced with interference
+
+00:02:24.330 --> 00:02:27.150
+that you could call local,
+something on a tower,
+
+00:02:27.150 --> 00:02:28.950
+something on a plane
+
+00:02:28.950 --> 00:02:32.310
+that might cover hundreds of kilometers.
+
+00:02:32.310 --> 00:02:34.210
+But this was different.
+
+00:02:34.210 --> 00:02:35.640
+This was continental scale.
+
+00:02:35.640 --> 00:02:37.680
+- The researchers mapped
+out all the stations
+
+00:02:37.680 --> 00:02:40.560
+that were affected and
+asked a simple question.
+
+00:02:40.560 --> 00:02:44.340
+What kind of source could have
+affected all of them at once?
+
+00:02:44.340 --> 00:02:46.770
+The source on the ground
+just wouldn't work.
+
+00:02:46.770 --> 00:02:48.810
+The curvature of the earth
+would block the signal
+
+00:02:48.810 --> 00:02:50.820
+over these distances.
+
+00:02:50.820 --> 00:02:54.360
+The only way to affect such
+a wide area simultaneously is
+
+00:02:54.360 --> 00:02:56.880
+from high above the earth.
+
+00:02:56.880 --> 00:02:59.340
+And even using the most
+conservative assumptions,
+
+00:02:59.340 --> 00:03:02.040
+that the source only has
+to just clear the horizon
+
+00:03:02.040 --> 00:03:03.900
+from the perspective of every station,
+
+00:03:03.900 --> 00:03:05.910
+the geometry shows it had to be
+
+00:03:05.910 --> 00:03:09.420
+at least 1,200 kilometers up.
+
+00:03:09.420 --> 00:03:12.810
+That's way higher than the
+International Space Station.
+
+00:03:12.810 --> 00:03:15.750
+So, what was causing this?
+
+00:03:15.750 --> 00:03:19.140
+Well, there is one known
+source of radio interference
+
+00:03:19.140 --> 00:03:21.573
+from space, which is the sun.
+
+00:03:23.400 --> 00:03:25.699
+In November 2025,
+
+00:03:25.699 --> 00:03:27.600
+a major solar storm disrupted
+GPS positioning globally
+
+00:03:27.600 --> 00:03:29.013
+for several hours.
+
+00:03:30.480 --> 00:03:33.810
+So, could these interference
+events be caused by the sun?
+
+00:03:33.810 --> 00:03:35.610
+There were certainly question marks.
+
+00:03:37.020 --> 00:03:38.730
+Solar interference typically builds up
+
+00:03:38.730 --> 00:03:41.760
+and fades over tens to
+hundreds of seconds.
+
+00:03:41.760 --> 00:03:43.410
+But these events were abrupt,
+
+00:03:43.410 --> 00:03:46.440
+short bursts of only
+three to five seconds.
+
+00:03:46.440 --> 00:03:48.450
+Another important clue was the frequencies
+
+00:03:48.450 --> 00:03:50.250
+that were disrupted.
+
+00:03:50.250 --> 00:03:52.620
+Solar interference
+typically spans a wide range
+
+00:03:52.620 --> 00:03:53.793
+of radio frequencies,
+
+00:03:54.770 --> 00:03:55.830
+whereas this interference was confined
+
+00:03:55.830 --> 00:03:58.920
+to a very narrow slice,
+just five megahertz wide,
+
+00:03:58.920 --> 00:04:02.370
+centered at 1,577.5 megahertz.
+
+00:04:02.370 --> 00:04:06.060
+That's right in the part of
+the spectrum used by GPS.
+
+00:04:06.060 --> 00:04:09.270
+And the final nail in the coffin
+is that solar radio bursts
+
+00:04:09.270 --> 00:04:11.910
+affect the entire sunlit
+side of the earth.
+
+00:04:11.910 --> 00:04:13.770
+But what the researchers were seeing here
+
+00:04:13.770 --> 00:04:15.360
+was much more concentrated,
+
+00:04:15.360 --> 00:04:17.253
+consistently centered over Europe.
+
+00:04:18.450 --> 00:04:21.030
+So, Todd and Zach realized the only thing
+
+00:04:21.030 --> 00:04:23.490
+that could be causing
+this was a satellite,
+
+00:04:23.490 --> 00:04:26.340
+which left them with just one question.
+
+00:04:26.340 --> 00:04:30.270
+- Is it intentional or is it accidental?
+
+00:04:30.270 --> 00:04:31.680
+Both my student and I looked at this
+
+00:04:31.680 --> 00:04:33.720
+and said, unprecedented.
+
+00:04:33.720 --> 00:04:35.340
+We've never seen this before.
+
+00:04:35.340 --> 00:04:37.680
+The world has never seen this before.
+
+00:04:37.680 --> 00:04:40.833
+- [Host] This satellite
+seemed to be targeting GPS.
+
+00:04:43.320 --> 00:04:46.200
+- Or rather what most of us call GPS.
+
+00:04:46.200 --> 00:04:47.400
+That is just the shorthand.
+
+00:04:47.400 --> 00:04:50.190
+GPS is the American system,
+but there are others,
+
+00:04:50.190 --> 00:04:52.080
+including the Russian
+one, the European one,
+
+00:04:52.080 --> 00:04:53.010
+and the Chinese one.
+
+00:04:53.010 --> 00:04:54.750
+And your phone is actually
+
+00:04:54.750 --> 00:04:57.210
+of these satellites to try
+and tell you where you are.
+
+00:04:57.210 --> 00:04:58.290
+These systems are known
+
+00:04:58.290 --> 00:05:01.833
+as Global Navigation
+Satellite Systems or GNSS.
+
+00:05:02.700 --> 00:05:04.910
+And when the U.S. military
+first developed the system
+
+00:05:04.910 --> 00:05:06.630
+in the 1970s,
+
+00:05:06.630 --> 00:05:09.360
+they wanted to prove how
+well it really worked.
+
+00:05:09.360 --> 00:05:13.230
+So, the GPS program office
+set itself an ambitious goal
+
+00:05:13.230 --> 00:05:16.500
+to use GPS to drop five bombs in a row
+
+00:05:16.500 --> 00:05:20.280
+into the same hole from a moving plane.
+
+00:05:20.280 --> 00:05:23.580
+- They set up a chair next to the site
+
+00:05:23.580 --> 00:05:25.410
+that the bombs are going to be going into.
+
+00:05:25.410 --> 00:05:26.243
+Wait, what?
+
+00:05:27.639 --> 00:05:28.472
+If anyone doubts that
+we can drop the bombs
+
+00:05:28.472 --> 00:05:29.305
+in the same hole,
+
+00:05:30.669 --> 00:05:31.793
+you're welcome to go and stand
+right there and watch out.
+
+00:05:33.090 --> 00:05:35.700
+(bombs blasting)
+
+00:05:35.700 --> 00:05:38.100
+- So how does GPS work?
+
+00:05:38.100 --> 00:05:40.620
+Well, think about what your
+phone is actually trying to do
+
+00:05:40.620 --> 00:05:41.920
+to tell you where you are.
+
+00:05:42.910 --> 00:05:43.770
+It's listening to signals from satellites.
+
+00:05:43.770 --> 00:05:45.690
+And those signals can tell it two things.
+
+00:05:45.690 --> 00:05:48.090
+First, the position of
+the satellite in space.
+
+00:05:48.090 --> 00:05:51.060
+And second, the exact
+time the signal was sent.
+
+00:05:51.060 --> 00:05:52.170
+And then the receiver can compare
+
+00:05:52.170 --> 00:05:53.730
+that to when the signal arrives.
+
+00:05:53.730 --> 00:05:55.350
+And you can use that time difference,
+
+00:05:55.350 --> 00:05:58.110
+multiply it by the speed of
+light, and you get the distance.
+
+00:05:58.110 --> 00:06:01.140
+So, if it took the signal 0.07 seconds,
+
+00:06:01.140 --> 00:06:03.630
+that must mean you're around
+21,000 kilometers away
+
+00:06:03.630 --> 00:06:05.250
+from the satellite.
+
+00:06:05.250 --> 00:06:07.350
+If you're only using a single satellite,
+
+00:06:07.350 --> 00:06:09.933
+that puts you somewhere on
+a huge sphere around it.
+
+00:06:10.770 --> 00:06:12.300
+Now you can add a second one,
+
+00:06:12.300 --> 00:06:14.190
+and that will narrow your position down
+
+00:06:14.190 --> 00:06:17.490
+to this circle where the
+two spheres intersect.
+
+00:06:17.490 --> 00:06:19.560
+If you add a third,
+you will narrow it down
+
+00:06:19.560 --> 00:06:21.450
+to only two possible points.
+
+00:06:21.450 --> 00:06:24.720
+And only one of these is
+actually on Earth's surface.
+
+00:06:24.720 --> 00:06:27.453
+So, you might think three
+satellites is all you need.
+
+00:06:29.160 --> 00:06:31.920
+We have three equations,
+one for each satellite,
+
+00:06:31.920 --> 00:06:34.923
+and three unknowns that are
+my position, x, y, and z.
+
+00:06:36.960 --> 00:06:39.330
+So, on the left side, I
+have the geometric distance
+
+00:06:39.330 --> 00:06:41.640
+between me and each of
+the three satellites.
+
+00:06:41.640 --> 00:06:44.130
+And on the right side, I have
+the measured signal time,
+
+00:06:44.130 --> 00:06:46.230
+all multiplied by the speed of light.
+
+00:06:46.230 --> 00:06:48.480
+Now, satellites have atomic clocks,
+
+00:06:48.480 --> 00:06:49.950
+so their timing drifts
+
+00:06:49.950 --> 00:06:52.980
+by only three seconds every million years.
+
+00:06:52.980 --> 00:06:55.920
+But my phone does not
+contain an atomic clock,
+
+00:06:55.920 --> 00:06:57.360
+so its clock can drift
+
+00:06:57.360 --> 00:07:00.180
+by that much in just a couple of days.
+
+00:07:00.180 --> 00:07:03.750
+And a timing error of just
+100 nanoseconds throws off
+
+00:07:03.750 --> 00:07:06.120
+your position by 30 meters.
+
+00:07:06.120 --> 00:07:09.360
+So, in reality, each
+distance is slightly wrong,
+
+00:07:09.360 --> 00:07:13.170
+which means the position you
+calculate is slightly off too.
+
+00:07:13.170 --> 00:07:15.330
+So now, instead of just
+solving for position,
+
+00:07:15.330 --> 00:07:17.430
+I also have to solve for the clock error.
+
+00:07:17.430 --> 00:07:19.620
+So, let's call that b.
+
+00:07:19.620 --> 00:07:22.290
+But now I have three
+equations and four unknowns,
+
+00:07:22.290 --> 00:07:23.400
+which is unsolvable.
+
+00:07:23.400 --> 00:07:26.250
+So, I can fix that by
+adding a fourth equation
+
+00:07:26.250 --> 00:07:27.350
+or a fourth satellite.
+
+00:07:28.350 --> 00:07:30.030
+Four equations, four unknowns,
+
+00:07:30.030 --> 00:07:31.710
+that makes the system solvable.
+
+00:07:31.710 --> 00:07:33.810
+Okay, but we've made one key assumption,
+
+00:07:33.810 --> 00:07:35.820
+that when I'm calculating my position,
+
+00:07:35.820 --> 00:07:37.440
+I know where the satellite is.
+
+00:07:37.440 --> 00:07:39.060
+And sure, it can tell me where it is,
+
+00:07:39.060 --> 00:07:40.470
+but its position around the Earth
+
+00:07:40.470 --> 00:07:42.480
+and its speed are constantly changing.
+
+00:07:42.480 --> 00:07:44.190
+So how does the satellite actually know
+
+00:07:44.190 --> 00:07:46.350
+where it is in the first place?
+
+00:07:46.350 --> 00:07:49.290
+- The GPS satellites need
+to be told where they are,
+
+00:07:49.290 --> 00:07:51.270
+and they're told where they
+are with ground stations
+
+00:07:51.270 --> 00:07:52.170
+that monitor them.
+
+00:07:53.660 --> 00:07:54.493
+And the ground stations have to know
+
+00:07:54.493 --> 00:07:55.770
+where they are to tell the
+satellites where they are.
+
+00:07:55.770 --> 00:07:58.650
+- [Gregor] But the Earth
+itself is constantly shifting
+
+00:07:58.650 --> 00:08:00.600
+as the continents move.
+
+00:08:00.600 --> 00:08:02.880
+- So, how do we work out
+where the ground stations are?
+
+00:08:02.880 --> 00:08:06.030
+You work out using quasars
+where the ground stations are.
+
+00:08:06.030 --> 00:08:08.130
+- [Gregor] Because they're
+billions of light years away,
+
+00:08:08.130 --> 00:08:11.820
+quasars appear almost perfectly
+fixed in the night sky,
+
+00:08:11.820 --> 00:08:14.550
+which means we can use
+them as reference points,
+
+00:08:14.550 --> 00:08:17.970
+much like early explorers
+navigating by the stars.
+
+00:08:17.970 --> 00:08:19.000
+A small fraction
+
+00:08:19.000 --> 00:08:22.066
+of quasars are extremely
+bright radio sources.
+
+00:08:22.350 --> 00:08:24.720
+When those radio waves reach Earth,
+
+00:08:24.720 --> 00:08:26.670
+telescopes around the world detect them
+
+00:08:26.670 --> 00:08:28.740
+at slightly different times.
+
+00:08:28.740 --> 00:08:31.080
+From those tiny differences
+in arrival time,
+
+00:08:31.080 --> 00:08:33.540
+you can precisely determine
+the relative position
+
+00:08:33.540 --> 00:08:34.950
+of the telescopes.
+
+00:08:34.950 --> 00:08:37.680
+And by making lots of those
+measurements over time,
+
+00:08:37.680 --> 00:08:39.450
+you can build a precise map
+
+00:08:39.450 --> 00:08:42.963
+of how the Earth itself
+moves, continents included.
+
+00:08:43.950 --> 00:08:48.450
+GPS ground stations are
+tied into that same map.
+
+00:08:48.450 --> 00:08:49.980
+- [Ramsey] The ground
+stations tell the satellites
+
+00:08:49.980 --> 00:08:51.117
+where they are,
+
+00:08:51.117 --> 00:08:53.378
+and then that's how you
+work out where you are.
+
+00:08:53.378 --> 00:08:55.080
+(Gregor chuckles)
+
+00:08:55.080 --> 00:08:56.640
+- You just blew my mind.
+
+00:08:56.640 --> 00:09:01.640
+- So, we're always navigating
+by the stars, just via GPS.
+
+00:09:01.830 --> 00:09:03.630
+- And in reality, your
+phone isn't connected
+
+00:09:03.630 --> 00:09:04.830
+to just four satellites.
+
+00:09:04.830 --> 00:09:06.720
+It's usually far more than that.
+
+00:09:06.720 --> 00:09:10.380
+Mine right now is using,
+it's like over 20 satellites.
+
+00:09:10.380 --> 00:09:12.930
+That's because the
+system is doing much more
+
+00:09:12.930 --> 00:09:15.660
+than just solving for four equations.
+
+00:09:15.660 --> 00:09:17.550
+Say you're on this little street in Paris
+
+00:09:17.550 --> 00:09:20.190
+and you open maps and you try
+to figure out where you are.
+
+00:09:20.190 --> 00:09:22.800
+Turns out there are a lot of
+things that can throw this off.
+
+00:09:22.800 --> 00:09:24.330
+There's the relatively simple ones,
+
+00:09:24.330 --> 00:09:27.330
+like taking into account
+special and general relativity.
+
+00:09:27.330 --> 00:09:28.800
+If you didn't correct for that,
+
+00:09:28.800 --> 00:09:32.130
+your position would drift
+about 11 kilometers per day,
+
+00:09:32.130 --> 00:09:35.070
+and you can be anywhere
+within this entire area.
+
+00:09:35.070 --> 00:09:37.530
+So, the satellites are
+constantly being monitored
+
+00:09:37.530 --> 00:09:39.900
+and updated, and they send
+down timing corrections
+
+00:09:39.900 --> 00:09:41.850
+that your phone applies in real time.
+
+00:09:41.850 --> 00:09:43.740
+Now, on top of that, in the fraction
+
+00:09:43.740 --> 00:09:46.230
+of a second that it takes
+for the signal to reach you,
+
+00:09:46.230 --> 00:09:48.360
+the Earth has actually rotated slightly.
+
+00:09:48.360 --> 00:09:50.430
+So, when your phone
+figures out where you are,
+
+00:09:50.430 --> 00:09:52.980
+it also has to account for
+the fact where Paris was
+
+00:09:52.980 --> 00:09:55.800
+when the signal was sent,
+not where it is now.
+
+00:09:55.800 --> 00:09:58.740
+If you don't correct for that,
+that adds about 20 meters
+
+00:09:58.740 --> 00:10:01.650
+of error, enough that you're
+not even on the same block.
+
+00:10:01.650 --> 00:10:02.790
+And of course, the signal
+
+00:10:02.790 --> 00:10:05.160
+has to pass through Earth's atmosphere.
+
+00:10:05.160 --> 00:10:06.570
+Now, the ionosphere will add
+
+00:10:06.570 --> 00:10:09.600
+between 5 and 15 meters
+of error to your position,
+
+00:10:09.600 --> 00:10:12.600
+and the lower levels of the
+atmosphere, with weather
+
+00:10:12.600 --> 00:10:16.200
+and pressure and humidity,
+will add another meter or two.
+
+00:10:16.200 --> 00:10:17.340
+So, if you don't account for that,
+
+00:10:17.340 --> 00:10:19.440
+you'll still be on the
+wrong side of the street.
+
+00:10:19.440 --> 00:10:21.870
+And that's where the extra
+satellites come in handy.
+
+00:10:21.870 --> 00:10:24.390
+They give your phone extra
+measurements to separate out
+
+00:10:24.390 --> 00:10:26.790
+the errors and give you a
+better fix of your position.
+
+00:10:26.790 --> 00:10:30.540
+So ultimately, it can be
+accurate down to 3 to 5 meters,
+
+00:10:30.540 --> 00:10:31.770
+which is pretty incredible if you think
+
+00:10:31.770 --> 00:10:33.470
+about what it takes to solve this.
+
+00:10:34.620 --> 00:10:37.200
+And with the most advanced GNSS tech,
+
+00:10:37.200 --> 00:10:40.260
+you can push this even
+further to a few centimeters.
+
+00:10:40.260 --> 00:10:42.240
+But at this point, you actually
+have to start accounting
+
+00:10:42.240 --> 00:10:44.490
+for stuff like how
+gravity bends space-time
+
+00:10:44.490 --> 00:10:46.080
+and delays the signal.
+
+00:10:46.080 --> 00:10:48.600
+But all of this only works
+
+00:10:48.600 --> 00:10:50.970
+if you're actually able
+to hear those signals.
+
+00:10:50.970 --> 00:10:53.340
+- [Ramsey] When the
+signal arrives from space,
+
+00:10:53.340 --> 00:10:56.100
+it's traveled 20,000
+kilometers to get here,
+
+00:10:56.100 --> 00:10:59.100
+and it was only transmitted
+with about 50 watts of power.
+
+00:10:59.100 --> 00:11:01.350
+So, it's like an old school light bulb
+
+00:11:01.350 --> 00:11:04.410
+two Earth diameters away.
+
+00:11:04.410 --> 00:11:06.060
+- [Gregor] And because
+that power spreads out
+
+00:11:06.060 --> 00:11:07.710
+over such a vast distance,
+
+00:11:07.710 --> 00:11:11.550
+the received GPS signal at your
+phone is only about a tenth
+
+00:11:11.550 --> 00:11:13.440
+of a quadrillionth of a watt,
+
+00:11:13.440 --> 00:11:15.990
+or 10 to the negative 16 watts.
+
+00:11:15.990 --> 00:11:18.060
+- It's insanely quiet.
+
+00:11:18.060 --> 00:11:20.880
+- Which means it doesn't
+take much to drown it out.
+
+00:11:20.880 --> 00:11:23.640
+If you broadcast enough
+noise at the same frequency,
+
+00:11:23.640 --> 00:11:25.080
+you can overwhelm the signal until
+
+00:11:25.080 --> 00:11:27.690
+it becomes indistinguishable
+from the background.
+
+00:11:27.690 --> 00:11:29.313
+This is called jamming.
+
+00:11:30.660 --> 00:11:32.460
+And a lot of these navigation systems use
+
+00:11:32.460 --> 00:11:36.453
+the radio spectrum, roughly
+between 1.1 and 1.6 gigahertz.
+
+00:11:39.270 --> 00:11:41.760
+Lower frequencies travel
+well through the atmosphere,
+
+00:11:41.760 --> 00:11:44.340
+but they require much larger antennas.
+
+00:11:44.340 --> 00:11:46.860
+Higher frequencies allow
+for smaller antennas,
+
+00:11:46.860 --> 00:11:48.930
+but the signals are much
+more easily absorbed
+
+00:11:48.930 --> 00:11:50.980
+and scattered, especially in bad weather.
+
+00:11:52.140 --> 00:11:54.330
+So, this band is a kind of sweet spot
+
+00:11:54.330 --> 00:11:56.670
+that navigation systems rely on.
+
+00:11:56.670 --> 00:11:58.890
+Which means if something
+interferes with it,
+
+00:11:58.890 --> 00:12:01.590
+it can affect multiple systems at once.
+
+00:12:01.590 --> 00:12:04.800
+That's why this part of a
+spectrum is tightly protected.
+
+00:12:04.800 --> 00:12:07.560
+Nothing else is supposed
+to be transmitting here.
+
+00:12:07.560 --> 00:12:09.030
+And deliberately interfering
+
+00:12:09.030 --> 00:12:12.300
+with these signals is
+illegal in most countries,
+
+00:12:12.300 --> 00:12:13.530
+but something was.
+
+00:12:13.530 --> 00:12:14.730
+Something powerful enough
+
+00:12:14.730 --> 00:12:17.070
+to overwhelm satellite navigation across
+
+00:12:17.070 --> 00:12:18.510
+an entire continent.
+
+00:12:18.510 --> 00:12:19.860
+Which brings us back to the question
+
+00:12:19.860 --> 00:12:21.720
+facing Professor Todd Humphreys.
+
+00:12:21.720 --> 00:12:23.040
+Was this accidental?
+
+00:12:23.040 --> 00:12:26.760
+Or was someone flooding
+this band on purpose?
+
+00:12:26.760 --> 00:12:29.310
+- It's, you know, a mystery novel here
+
+00:12:29.310 --> 00:12:32.190
+where you're trying to figure
+out whether it was the butler
+
+00:12:32.190 --> 00:12:35.370
+in the kitchen with the crowbar, right?
+
+00:12:35.370 --> 00:12:38.430
+And we have to put all
+of the clues together.
+
+00:12:38.430 --> 00:12:40.020
+If it had been random,
+
+00:12:40.020 --> 00:12:42.690
+occurring because of some
+failure in a satellite,
+
+00:12:42.690 --> 00:12:47.520
+maybe some amplifier gets
+too hot and misbehaves,
+
+00:12:47.520 --> 00:12:52.110
+then you'd expect it to happen
+equally likely on a Monday
+
+00:12:52.110 --> 00:12:53.793
+and a Friday, right?
+
+00:12:54.780 --> 00:12:56.430
+- [Host] But when they
+went back through the data,
+
+00:12:56.430 --> 00:12:57.990
+something strange emerged.
+
+00:12:57.990 --> 00:13:01.110
+The interference events were
+happening mostly on Tuesdays,
+
+00:13:01.110 --> 00:13:04.533
+Wednesdays and Thursdays during
+business hours in Europe.
+
+00:13:05.670 --> 00:13:09.450
+- So, tell me, tell me
+what amplifier tends
+
+00:13:09.450 --> 00:13:12.573
+to fail during business hours
+in Europe on Wednesdays.
+
+00:13:14.640 --> 00:13:17.700
+- So now we know this
+probably isn't random.
+
+00:13:17.700 --> 00:13:19.740
+There's likely human input.
+
+00:13:19.740 --> 00:13:21.600
+But that doesn't necessarily mean
+
+00:13:21.600 --> 00:13:23.760
+it's intentional or malicious.
+
+00:13:23.760 --> 00:13:27.330
+So, the hunt was on to track
+down the actual source.
+
+00:13:27.330 --> 00:13:30.510
+But that turned out to be
+harder than you might think.
+
+00:13:30.510 --> 00:13:33.750
+Because there were still so many unknowns.
+
+00:13:33.750 --> 00:13:35.190
+In situations like this,
+
+00:13:35.190 --> 00:13:38.670
+uncertainty can quickly turn
+into competing narratives.
+
+00:13:38.670 --> 00:13:40.020
+We've seen it before.
+
+00:13:40.020 --> 00:13:42.660
+When the EU chief's
+plane was allegedly hit
+
+00:13:42.660 --> 00:13:44.370
+by GPS interference last year,
+
+00:13:44.370 --> 00:13:47.160
+over 150 news outlets reported on it.
+
+00:13:47.160 --> 00:13:48.930
+But depending on where you saw the story,
+
+00:13:48.930 --> 00:13:51.480
+your perception could
+be completely different.
+
+00:13:51.480 --> 00:13:53.160
+If you saw Le Monde first,
+
+00:13:53.160 --> 00:13:54.630
+you might have come away thinking
+
+00:13:54.630 --> 00:13:56.370
+it might be Russia's fault.
+
+00:13:56.370 --> 00:13:57.960
+If you saw Newsweek first,
+
+00:13:57.960 --> 00:14:00.480
+you would definitely think it was Russia.
+
+00:14:00.480 --> 00:14:02.670
+And if you saw this headline, well,
+
+00:14:02.670 --> 00:14:05.520
+you might question the veracity
+of the story altogether.
+
+00:14:05.520 --> 00:14:09.090
+Three headlines, three
+entirely different conclusions.
+
+00:14:09.090 --> 00:14:11.700
+That's why we use today's
+sponsor Ground News.
+
+00:14:11.700 --> 00:14:13.230
+They're a website and app designed
+
+00:14:13.230 --> 00:14:16.260
+to make reading the news
+easier and more data-driven.
+
+00:14:16.260 --> 00:14:18.330
+Every day they pull in
+thousands of stories
+
+00:14:18.330 --> 00:14:19.473
+from around the world.
+
+00:14:19.473 --> 00:14:21.570
+And each story comes
+with visual breakdowns
+
+00:14:21.570 --> 00:14:24.990
+of political leaning,
+factuality rating and ownership.
+
+00:14:24.990 --> 00:14:26.700
+This is all backed by ratings
+
+00:14:26.700 --> 00:14:29.910
+from three independent media
+monitoring organizations.
+
+00:14:29.910 --> 00:14:32.520
+Let's go back to that
+story to see it in action.
+
+00:14:32.520 --> 00:14:33.540
+Right away, you can see
+
+00:14:33.540 --> 00:14:36.660
+that over 150 news outlets
+reported on the story.
+
+00:14:36.660 --> 00:14:38.730
+Below that, you can see that coverage was
+
+00:14:38.730 --> 00:14:41.670
+split relatively evenly
+across the political spectrum.
+
+00:14:41.670 --> 00:14:42.990
+And below that, you can check
+
+00:14:42.990 --> 00:14:45.390
+the overall factuality and ownership.
+
+00:14:45.390 --> 00:14:47.430
+Even see who broke the news.
+
+00:14:47.430 --> 00:14:49.470
+They even have a bias comparison feature
+
+00:14:49.470 --> 00:14:52.080
+that highlights specific
+differences in the contents
+
+00:14:52.080 --> 00:14:53.013
+of the articles.
+
+00:14:53.013 --> 00:14:55.500
+One of my favorite things
+is their blind spot feed,
+
+00:14:55.500 --> 00:14:57.600
+which shows you stories
+that are underreported
+
+00:14:57.600 --> 00:15:00.630
+by one side of the political
+spectrum or the other.
+
+00:15:00.630 --> 00:15:02.880
+Staying informed with accurate information
+
+00:15:02.880 --> 00:15:04.890
+has become a full-time job.
+
+00:15:04.890 --> 00:15:07.380
+But that's what makes
+Ground News so valuable.
+
+00:15:07.380 --> 00:15:10.380
+Their data-driven approach helps
+make information accessible
+
+00:15:10.380 --> 00:15:14.850
+and digestible for everyone
+in minutes rather than hours.
+
+00:15:14.850 --> 00:15:17.700
+So, if you, like us, care
+about getting to the truth,
+
+00:15:17.700 --> 00:15:22.020
+go to ground.news/VE
+or scan this QR code.
+
+00:15:22.020 --> 00:15:24.930
+Our link gets you 40%
+off their vantage plan.
+
+00:15:24.930 --> 00:15:25.980
+So, I wanna thank Ground News
+
+00:15:25.980 --> 00:15:28.020
+for sponsoring this part of the video.
+
+00:15:28.020 --> 00:15:31.059
+And now, back to the hunt for the source.
+
+00:15:31.059 --> 00:15:33.150
+- To do this, we have to set up a kind
+
+00:15:33.150 --> 00:15:35.340
+of elaborate estimation problem,
+
+00:15:35.340 --> 00:15:38.250
+but there are many unknowns.
+
+00:15:38.250 --> 00:15:40.470
+- A jammer works by
+broadcasting a stronger signal
+
+00:15:40.470 --> 00:15:42.003
+in the same frequency band.
+
+00:15:42.840 --> 00:15:45.720
+It's kind of like yelling
+over someone whispering.
+
+00:15:45.720 --> 00:15:47.910
+So, if this were a jammer on the ground,
+
+00:15:47.910 --> 00:15:50.580
+you could track it down by
+looking at signal strength.
+
+00:15:50.580 --> 00:15:53.910
+The closer you are, the
+stronger the signal will get.
+
+00:15:53.910 --> 00:15:56.370
+But once you're dealing
+with something in space,
+
+00:15:56.370 --> 00:15:58.410
+that intuition breaks down.
+
+00:15:58.410 --> 00:16:00.210
+To work backwards from signal strength,
+
+00:16:00.210 --> 00:16:01.740
+you'd need to know how much power
+
+00:16:01.740 --> 00:16:03.330
+the satellite was transmitting,
+
+00:16:03.330 --> 00:16:06.840
+and the exact shape and
+direction of its beam.
+
+00:16:06.840 --> 00:16:09.240
+Even how each receiver's antenna responds
+
+00:16:09.240 --> 00:16:12.120
+to signals arriving from different angles.
+
+00:16:12.120 --> 00:16:14.130
+And at 1,200 kilometers above the Earth,
+
+00:16:14.130 --> 00:16:16.080
+very different satellite
+positions can produce
+
+00:16:16.080 --> 00:16:18.930
+almost identical patterns on the ground.
+
+00:16:18.930 --> 00:16:22.170
+So instead of trying to pinpoint
+the transmitter directly,
+
+00:16:22.170 --> 00:16:24.750
+the researchers used a simpler filter.
+
+00:16:24.750 --> 00:16:27.420
+If a satellite caused
+interference at all these stations
+
+00:16:27.420 --> 00:16:29.310
+at the same time, then it had to be
+
+00:16:29.310 --> 00:16:32.430
+above the horizon for all of them at once.
+
+00:16:32.430 --> 00:16:36.120
+Right now, there are over 15,000
+active satellites in orbit.
+
+00:16:36.120 --> 00:16:40.380
+But that one constraint lets
+you eliminate over 98% of them.
+
+00:16:40.380 --> 00:16:43.290
+That still leaves around
+200 possibilities.
+
+00:16:43.290 --> 00:16:46.050
+What's left are satellites
+in very high orbits,
+
+00:16:46.050 --> 00:16:49.440
+many of them in or near
+the geostationary belt,
+
+00:16:49.440 --> 00:16:52.230
+where they move at the same
+rate as the Earth rotates,
+
+00:16:52.230 --> 00:16:54.690
+so they stay fixed over one point.
+
+00:16:54.690 --> 00:16:57.180
+From about 36,000 kilometers up,
+
+00:16:57.180 --> 00:17:01.140
+a single one can see a huge
+portion of the Earth at once.
+
+00:17:01.140 --> 00:17:02.940
+However, if the same satellite
+
+00:17:02.940 --> 00:17:05.070
+caused multiple events on different days,
+
+00:17:05.070 --> 00:17:08.130
+then it has to satisfy that
+condition every single time,
+
+00:17:08.130 --> 00:17:11.373
+which narrows it down to
+just 14 possible suspects.
+
+00:17:12.600 --> 00:17:14.160
+- So, what kind of satellites
+
+00:17:14.160 --> 00:17:15.960
+and countries were in these 14?
+
+00:17:15.960 --> 00:17:19.110
+- Well, there were several
+interesting candidates.
+
+00:17:19.110 --> 00:17:22.830
+One was a satellite operated by Algeria,
+
+00:17:22.830 --> 00:17:25.980
+and it even had, on public documentation,
+
+00:17:25.980 --> 00:17:28.380
+a transmitter in the same frequency band
+
+00:17:28.380 --> 00:17:29.790
+we were seeing interference on.
+
+00:17:29.790 --> 00:17:33.450
+- So, they took a closer
+look, and on paper it fit.
+
+00:17:33.450 --> 00:17:36.300
+It was visible to all of
+the reference stations,
+
+00:17:36.300 --> 00:17:40.140
+and it could transmit in exactly
+the band they were seeing.
+
+00:17:40.140 --> 00:17:42.720
+This looked like it could be the answer.
+
+00:17:42.720 --> 00:17:45.420
+But they had a nagging doubt that some
+
+00:17:45.420 --> 00:17:47.970
+of the most distant stations in Svalbard
+
+00:17:47.970 --> 00:17:49.350
+and western Greenland,
+
+00:17:49.350 --> 00:17:52.170
+this satellite was
+barely above the horizon,
+
+00:17:52.170 --> 00:17:54.210
+which meant if it was the source,
+
+00:17:54.210 --> 00:17:57.150
+the signal would have to be
+skimming across the Earth
+
+00:17:57.150 --> 00:17:59.580
+and just barely glancing into the antenna
+
+00:17:59.580 --> 00:18:00.693
+of these receivers.
+
+00:18:00.693 --> 00:18:02.862
+Now, that's not impossible.
+
+00:18:02.862 --> 00:18:04.470
+Low angle signals can be picked up,
+
+00:18:04.470 --> 00:18:06.780
+but the more researchers looked,
+
+00:18:06.780 --> 00:18:09.150
+the less certain they
+became that this satellite
+
+00:18:09.150 --> 00:18:10.590
+was actually the source.
+
+00:18:10.590 --> 00:18:13.320
+So, they examined data from GNSS receivers
+
+00:18:13.320 --> 00:18:14.880
+that were tracking this satellite
+
+00:18:14.880 --> 00:18:16.950
+during the interference events.
+
+00:18:16.950 --> 00:18:21.810
+- It looked just like all of
+the other ordinary GPS signals
+
+00:18:21.810 --> 00:18:24.090
+that were getting hammered
+by this interference.
+
+00:18:24.090 --> 00:18:26.880
+So, the ratio of the signal power
+
+00:18:26.880 --> 00:18:28.860
+to the background noise also dropped
+
+00:18:28.860 --> 00:18:31.560
+and dropped in the same proportion that
+
+00:18:31.560 --> 00:18:35.370
+the other GPS signals were
+dropping at the same time.
+
+00:18:35.370 --> 00:18:36.510
+This was not the attacker.
+
+00:18:36.510 --> 00:18:41.250
+This was just another
+legitimate signal in the L band
+
+00:18:41.250 --> 00:18:42.930
+that had been interfered with.
+
+00:18:42.930 --> 00:18:45.390
+- The Algerian satellite
+wasn't the source.
+
+00:18:45.390 --> 00:18:46.773
+It was another victim.
+
+00:18:47.820 --> 00:18:49.560
+But what about the other 13?
+
+00:18:49.560 --> 00:18:51.060
+Any one of them could have been visible
+
+00:18:51.060 --> 00:18:53.220
+to all the stations at once.
+
+00:18:53.220 --> 00:18:56.670
+So geometrically, they
+could all be the culprit.
+
+00:18:56.670 --> 00:18:59.160
+But that's where the
+trail started to go cold.
+
+00:18:59.160 --> 00:19:02.130
+I mean, none of them had clear
+public documentation showing
+
+00:19:02.130 --> 00:19:05.130
+they could transmit and
+jam the right frequencies.
+
+00:19:05.130 --> 00:19:09.180
+And some of them had barely
+any public information at all.
+
+00:19:09.180 --> 00:19:10.560
+- We couldn't narrow it down further
+
+00:19:10.560 --> 00:19:12.510
+because of all of these things
+
+00:19:12.510 --> 00:19:16.620
+we didn't know about the
+signals they were broadcasting,
+
+00:19:16.620 --> 00:19:19.680
+how intense they were,
+what their pattern was.
+
+00:19:19.680 --> 00:19:22.560
+So, there we were stuck
+for about four months.
+
+00:19:22.560 --> 00:19:25.170
+- And there was an even
+more fundamental problem.
+
+00:19:25.170 --> 00:19:28.110
+Everything they'd done so
+far relied on one idea,
+
+00:19:28.110 --> 00:19:30.360
+that all of these interference
+events were coming
+
+00:19:30.360 --> 00:19:32.040
+from a single satellite.
+
+00:19:32.040 --> 00:19:35.100
+- It was under a really
+controversial assumption.
+
+00:19:35.100 --> 00:19:36.540
+Controversial in that my student
+
+00:19:36.540 --> 00:19:39.900
+and I just couldn't come to
+fully embrace this assumption.
+
+00:19:39.900 --> 00:19:41.599
+If we broke our assumption,
+
+00:19:41.599 --> 00:19:44.310
+then that would relieve
+
+00:19:44.310 --> 00:19:47.310
+the focus on geostationary satellites.
+
+00:19:47.310 --> 00:19:49.815
+Then we could open up the
+focus on many other satellites.
+
+00:19:49.815 --> 00:19:52.500
+But now instead of 13
+remaining on our list,
+
+00:19:52.500 --> 00:19:57.030
+it would expand to, you know,
+maybe 100 or more satellites.
+
+00:19:57.030 --> 00:20:00.210
+- And suddenly, instead of
+closing in on an answer,
+
+00:20:00.210 --> 00:20:02.580
+it felt like they were back at square one.
+
+00:20:02.580 --> 00:20:05.820
+So, they needed a completely
+different approach.
+
+00:20:05.820 --> 00:20:08.340
+All the data they had
+was from GNSS receivers
+
+00:20:08.340 --> 00:20:10.500
+that process everything internally.
+
+00:20:10.500 --> 00:20:12.750
+They lock onto satellites,
+track signal strength,
+
+00:20:12.750 --> 00:20:15.000
+and then output a clean
+simplified measurement,
+
+00:20:15.000 --> 00:20:17.640
+how strong that signal is
+compared to the background noise.
+
+00:20:17.640 --> 00:20:20.010
+And they do that just once per second.
+
+00:20:20.010 --> 00:20:21.030
+But these interference
+
+00:20:21.030 --> 00:20:23.100
+bursts only lasted three to five seconds,
+
+00:20:23.100 --> 00:20:24.870
+which means each event is captured
+
+00:20:24.870 --> 00:20:26.910
+in just a handful of samples.
+
+00:20:26.910 --> 00:20:28.620
+You can see that the signal dropped,
+
+00:20:28.620 --> 00:20:30.690
+but not precisely when it dropped.
+
+00:20:30.690 --> 00:20:33.300
+Not with enough timing resolution
+to compare one receiver
+
+00:20:33.300 --> 00:20:35.490
+to another, to see
+which one was hit first,
+
+00:20:35.490 --> 00:20:38.820
+or how the interference
+moved across the network.
+
+00:20:38.820 --> 00:20:42.450
+What they needed was the
+raw radio signal itself.
+
+00:20:42.450 --> 00:20:45.000
+So, they started designing
+specialized receivers
+
+00:20:45.000 --> 00:20:46.110
+that could capture the data
+
+00:20:46.110 --> 00:20:48.600
+in much higher temporal resolution.
+
+00:20:48.600 --> 00:20:51.660
+The plan was to deploy
+them all across Europe.
+
+00:20:51.660 --> 00:20:53.280
+But building them, installing them,
+
+00:20:53.280 --> 00:20:55.950
+and waiting for new events
+to happen would take months,
+
+00:20:55.950 --> 00:20:57.330
+maybe years.
+
+00:20:57.330 --> 00:20:58.950
+So, in September 2025,
+
+00:20:58.950 --> 00:21:00.450
+they took their investigation public
+
+00:21:00.450 --> 00:21:03.240
+at the Institute of Navigation
+Conference in Baltimore.
+
+00:21:03.240 --> 00:21:05.310
+And the response was immediate.
+
+00:21:05.310 --> 00:21:06.660
+The room was packed.
+
+00:21:06.660 --> 00:21:08.550
+Everyone wanted to know the same thing.
+
+00:21:08.550 --> 00:21:11.790
+What was this satellite
+and who was responsible?
+
+00:21:11.790 --> 00:21:14.430
+- Honestly, it was one
+of the most fun meetings
+
+00:21:14.430 --> 00:21:15.330
+I've been part of.
+
+00:21:16.310 --> 00:21:17.143
+It was almost like we
+had been brought together
+
+00:21:17.143 --> 00:21:19.020
+for a big brainstorming session to see
+
+00:21:19.020 --> 00:21:21.840
+if we could crack this
+problem as a community
+
+00:21:21.840 --> 00:21:24.240
+that my student and I had
+not been able to crack
+
+00:21:24.240 --> 00:21:25.590
+by ourselves.
+
+00:21:25.590 --> 00:21:27.659
+- [Host] The question of a
+mystery satellite propagated
+
+00:21:27.659 --> 00:21:29.490
+throughout the research community.
+
+00:21:29.490 --> 00:21:31.170
+The German Aerospace Center came up
+
+00:21:31.170 --> 00:21:33.960
+with an ambitious plan to
+take a large tracking dish,
+
+00:21:33.960 --> 00:21:35.580
+point it at candidate satellites,
+
+00:21:35.580 --> 00:21:38.490
+and try to catch the
+interference in real time.
+
+00:21:38.490 --> 00:21:41.550
+- But remember, we're trying
+to catch a needle in a haystack
+
+00:21:41.550 --> 00:21:43.950
+that only shows up over a short interval
+
+00:21:43.950 --> 00:21:48.060
+and only happens once,
+maybe once or twice a month.
+
+00:21:48.060 --> 00:21:51.960
+- [Host] They tracked satellite
+after satellite and nothing.
+
+00:21:51.960 --> 00:21:55.050
+No signal, no anomaly, no breakthrough.
+
+00:21:55.050 --> 00:21:57.780
+Yet again, the trail went cold.
+
+00:21:57.780 --> 00:22:00.393
+Weeks passed, then months,
+
+00:22:01.320 --> 00:22:04.950
+until an email arrived.
+
+00:22:04.950 --> 00:22:07.470
+- I looked at the email
+and then I had to reread it
+
+00:22:07.470 --> 00:22:09.180
+because it was almost
+like it had come right out
+
+00:22:09.180 --> 00:22:10.013
+of my dreams.
+
+00:22:10.889 --> 00:22:12.600
+You know, this can't possibly be true.
+
+00:22:12.600 --> 00:22:15.990
+He had beautiful raw data
+from two different stations.
+
+00:22:15.990 --> 00:22:18.480
+- At last, they had what
+they'd been missing,
+
+00:22:18.480 --> 00:22:20.850
+the raw radio signal itself.
+
+00:22:20.850 --> 00:22:23.550
+Samples of the raw voltage
+off the antenna capturing
+
+00:22:23.550 --> 00:22:26.520
+the actual digitized radio waves millions
+
+00:22:26.520 --> 00:22:28.980
+of times per second from two stations,
+
+00:22:28.980 --> 00:22:30.690
+one in Amsterdam in the Netherlands
+
+00:22:30.690 --> 00:22:33.180
+and one in Trondheim in Northern Norway.
+
+00:22:33.180 --> 00:22:34.980
+They captured these interference events
+
+00:22:34.980 --> 00:22:38.070
+on February 11th, 2026.
+
+00:22:38.070 --> 00:22:40.740
+And now, rather than asking
+how strong is the signal,
+
+00:22:40.740 --> 00:22:43.290
+they could ask, when did it arrive?
+
+00:22:43.290 --> 00:22:44.520
+With this raw data,
+
+00:22:44.520 --> 00:22:47.670
+they isolated a 2.3 second window where
+
+00:22:47.670 --> 00:22:50.520
+both stations recorded the same event.
+
+00:22:50.520 --> 00:22:53.370
+And because they were
+sampling at tens of megahertz,
+
+00:22:53.370 --> 00:22:55.920
+they could align the two
+data sets to pinpoint
+
+00:22:55.920 --> 00:22:58.650
+the exact moment the
+jamming signal arrived
+
+00:22:58.650 --> 00:22:59.880
+at both stations.
+
+00:22:59.880 --> 00:23:01.950
+This meant they could
+measure the tiny difference
+
+00:23:01.950 --> 00:23:04.740
+in when the signal reached each station.
+
+00:23:04.740 --> 00:23:07.170
+Imagine the signal
+reaches Trondheim roughly
+
+00:23:07.170 --> 00:23:10.590
+139 microseconds before
+it reaches Amsterdam.
+
+00:23:10.590 --> 00:23:13.050
+Well, that tells you that the
+source must be slightly closer
+
+00:23:13.050 --> 00:23:15.090
+to Trondheim than it is to Amsterdam.
+
+00:23:15.090 --> 00:23:17.190
+And that constraint gives you a shape,
+
+00:23:17.190 --> 00:23:20.310
+a curve in space of all
+the possible locations
+
+00:23:20.310 --> 00:23:22.860
+of the source where that
+exact timing difference
+
+00:23:22.860 --> 00:23:24.060
+would be observed.
+
+00:23:24.060 --> 00:23:27.300
+In three dimensions, that
+becomes a kind of warped surface,
+
+00:23:27.300 --> 00:23:28.710
+a hyperboloid.
+
+00:23:28.710 --> 00:23:31.350
+Whatever transmitted the
+signal had to lie somewhere
+
+00:23:31.350 --> 00:23:32.583
+on that surface.
+
+00:23:32.583 --> 00:23:35.550
+And because the raw data was
+so incredibly high resolution,
+
+00:23:35.550 --> 00:23:38.490
+the margin of error, the
+thickness of that shape,
+
+00:23:38.490 --> 00:23:41.130
+stretching tens of thousands
+of kilometers into space,
+
+00:23:41.130 --> 00:23:43.323
+was only about five meters.
+
+00:23:44.430 --> 00:23:48.887
+- And because we were so
+interested in avoiding errors,
+
+00:23:49.800 --> 00:23:52.020
+we just determined that
+we were not going to talk
+
+00:23:52.020 --> 00:23:53.190
+to each other for a week.
+
+00:23:53.190 --> 00:23:55.500
+We would do our separate thing for a week.
+
+00:23:55.500 --> 00:23:58.410
+And then we would come back
+together, compare notes,
+
+00:23:58.410 --> 00:24:02.160
+and we would hopefully have
+not made the same mistakes.
+
+00:24:02.160 --> 00:24:03.780
+And I presented my findings to Zach
+
+00:24:03.780 --> 00:24:06.360
+and he presented his to me
+and they were not the same.
+
+00:24:06.360 --> 00:24:08.910
+And I have to admit that
+because I'm the professor,
+
+00:24:08.910 --> 00:24:12.783
+I was pretty much insistent
+that my finding was correct.
+
+00:24:13.740 --> 00:24:15.240
+But then he pointed out
+a couple of other things,
+
+00:24:15.240 --> 00:24:17.190
+other checks that he'd run.
+
+00:24:17.190 --> 00:24:21.750
+And then I realized that
+I had an error in my code.
+
+00:24:21.750 --> 00:24:23.760
+And once I fixed that error,
+
+00:24:23.760 --> 00:24:26.730
+I ended up getting exactly
+the same time difference
+
+00:24:26.730 --> 00:24:28.143
+of arrival that he did.
+
+00:24:29.280 --> 00:24:32.220
+- And now they had a way to
+test every possible satellite,
+
+00:24:32.220 --> 00:24:34.620
+not just the 14 from
+their earlier predictions.
+
+00:24:34.620 --> 00:24:36.840
+For each satellite, they
+took its known orbit
+
+00:24:36.840 --> 00:24:38.790
+and asked if the signal came from here,
+
+00:24:38.790 --> 00:24:40.350
+what timing difference would we expect
+
+00:24:40.350 --> 00:24:42.270
+between Amsterdam and Trondheim?
+
+00:24:42.270 --> 00:24:44.730
+Then they compared that
+prediction to the real data.
+
+00:24:44.730 --> 00:24:47.550
+If it didn't match, the
+satellite was ruled out.
+
+00:24:47.550 --> 00:24:49.470
+And since they had a continuous two
+
+00:24:49.470 --> 00:24:51.000
+and a half second recording,
+
+00:24:51.000 --> 00:24:53.190
+they could take this a step further.
+
+00:24:53.190 --> 00:24:54.600
+As the satellite moved,
+
+00:24:54.600 --> 00:24:58.200
+that hyperboloid would shift
+slightly through space.
+
+00:24:58.200 --> 00:25:00.390
+So, the real source had to stay aligned
+
+00:25:00.390 --> 00:25:01.950
+with it the entire time,
+
+00:25:01.950 --> 00:25:04.710
+which made this test incredibly strict.
+
+00:25:04.710 --> 00:25:08.130
+- And only one satellite was anywhere near
+
+00:25:08.130 --> 00:25:11.820
+this time difference
+of arrival measurement.
+
+00:25:11.820 --> 00:25:14.270
+And in fact, it wasn't
+just near, it was dead on.
+
+00:25:15.360 --> 00:25:16.920
+- The only possible culprit
+
+00:25:16.920 --> 00:25:20.973
+was a Russian satellite, Cosmos 2546.
+
+00:25:22.950 --> 00:25:25.110
+It remained perfectly on the hyperboloid,
+
+00:25:25.110 --> 00:25:27.870
+aligning with their data
+to within 200 meters,
+
+00:25:27.870 --> 00:25:29.340
+which is well within the uncertainty
+
+00:25:29.340 --> 00:25:32.250
+of the satellite's publicly
+available orbital data.
+
+00:25:32.250 --> 00:25:34.710
+Now it's worth saying here,
+this work is still new
+
+00:25:34.710 --> 00:25:38.160
+and it hasn't undergone peer
+review, but independent teams
+
+00:25:38.160 --> 00:25:41.340
+in Europe have verified
+aspects of these findings.
+
+00:25:41.340 --> 00:25:43.260
+There was only one slight issue.
+
+00:25:43.260 --> 00:25:48.260
+Cosmos 2546 was launched
+on the 22nd of May, 2020.
+
+00:25:48.360 --> 00:25:52.500
+So, it couldn't explain
+events going back to 2019.
+
+00:25:52.500 --> 00:25:55.290
+But then they discovered
+that Cosmos 2546 is part
+
+00:25:55.290 --> 00:25:58.080
+of a constellation of six satellites.
+
+00:25:58.080 --> 00:25:59.430
+This constellation is part
+
+00:25:59.430 --> 00:26:01.533
+of Russia's early missile warning system.
+
+00:26:02.610 --> 00:26:05.010
+- It's basically part
+of their Golden Dome.
+
+00:26:05.010 --> 00:26:07.800
+If you've heard of the U.S. Golden Dome,
+
+00:26:07.800 --> 00:26:11.400
+this is part of the sensory apparatus
+
+00:26:11.400 --> 00:26:15.150
+for the Russian missile detection system.
+
+00:26:15.150 --> 00:26:17.670
+- They sit in what's
+called a Molniya orbit.
+
+00:26:17.670 --> 00:26:19.860
+A highly elliptical path
+that carries them high
+
+00:26:19.860 --> 00:26:21.240
+over the Northern hemisphere,
+
+00:26:21.240 --> 00:26:23.520
+where they can slow down and linger.
+
+00:26:23.520 --> 00:26:25.860
+It's the way that high
+latitude countries like Russia
+
+00:26:25.860 --> 00:26:28.500
+can get the benefits of something
+like geostationary orbit
+
+00:26:28.500 --> 00:26:30.330
+across multiple satellites.
+
+00:26:30.330 --> 00:26:33.450
+But this also means this
+constellation covers large parts
+
+00:26:33.450 --> 00:26:34.293
+of the globe.
+
+00:26:35.309 --> 00:26:37.980
+So, they have the capability
+to jam GNSS across a far
+
+00:26:37.980 --> 00:26:39.480
+wider region than we've seen,
+
+00:26:39.480 --> 00:26:42.060
+including over the United States.
+
+00:26:42.060 --> 00:26:44.880
+The pattern already told
+us this wasn't random.
+
+00:26:44.880 --> 00:26:47.610
+The frequency told us it wasn't natural.
+
+00:26:47.610 --> 00:26:51.510
+And now we know it's coming
+from a military system in orbit.
+
+00:26:51.510 --> 00:26:55.290
+But intention, well,
+that's harder to prove.
+
+00:26:55.290 --> 00:26:58.430
+- What is already being
+broadcast is enormously powerful.
+
+00:26:58.430 --> 00:27:01.620
+It's like hundreds of
+times more powerful than
+
+00:27:01.620 --> 00:27:03.390
+the GPS signals themselves.
+
+00:27:03.390 --> 00:27:06.660
+- But it's slightly offset
+from the GPS frequency,
+
+00:27:06.660 --> 00:27:08.370
+which seems odd.
+
+00:27:08.370 --> 00:27:11.460
+Because surely if you
+want to jam GPS properly,
+
+00:27:11.460 --> 00:27:15.150
+you would put your jamming
+signal directly on top of it.
+
+00:27:15.150 --> 00:27:18.300
+Well, Todd actually has
+a theory about this.
+
+00:27:18.300 --> 00:27:20.340
+- If you're going to test this capability,
+
+00:27:20.340 --> 00:27:22.920
+then you test it in the neighborhood
+
+00:27:22.920 --> 00:27:25.200
+of the signal you intend to jam,
+
+00:27:25.200 --> 00:27:26.700
+but not right on that signal.
+
+00:27:26.700 --> 00:27:28.500
+And you test it only briefly just
+
+00:27:28.500 --> 00:27:30.870
+to make sure everything's still working.
+
+00:27:30.870 --> 00:27:32.970
+And then in the eventual future,
+
+00:27:32.970 --> 00:27:36.180
+where there is a hot
+conflict, they go ahead
+
+00:27:36.180 --> 00:27:39.360
+and tune their transmitter
+down to the GPS band.
+
+00:27:39.360 --> 00:27:42.480
+But it's much more damaging
+now that it lies right
+
+00:27:42.480 --> 00:27:43.830
+on that band.
+
+00:27:43.830 --> 00:27:45.900
+- [Derek] So, one possibility is this.
+
+00:27:45.900 --> 00:27:47.820
+What we've been seeing are tests,
+
+00:27:47.820 --> 00:27:49.260
+a system being exercised
+
+00:27:49.260 --> 00:27:51.303
+without fully revealing what it can do.
+
+00:27:52.170 --> 00:27:54.090
+And while just a theory at this point,
+
+00:27:54.090 --> 00:27:56.640
+there is another hint
+this might be the case.
+
+00:27:56.640 --> 00:28:00.330
+The raw data also revealed a
+second interference burst aimed
+
+00:28:00.330 --> 00:28:04.230
+at a lower frequency, 1,558.5 megahertz,
+
+00:28:04.230 --> 00:28:05.490
+which overlaps with signals
+
+00:28:05.490 --> 00:28:07.653
+from the Chinese BeiDou navigation system.
+
+00:28:08.650 --> 00:28:11.760
+- I'll say it in the most
+conservative way possible.
+
+00:28:11.760 --> 00:28:14.793
+I can no longer say this is
+accidental with confidence.
+
+00:28:16.470 --> 00:28:19.950
+I'm leaning toward this
+being a periodic test
+
+00:28:19.950 --> 00:28:22.440
+of a capability that
+would be very damaging
+
+00:28:22.440 --> 00:28:24.930
+if it was deployed in anger.
+
+00:28:24.930 --> 00:28:26.010
+- [Derek] But when we spoke to a team
+
+00:28:26.010 --> 00:28:28.530
+that had independently traced
+the signals back to satellites
+
+00:28:28.530 --> 00:28:31.980
+in Russia's missile warning
+system, they had another idea.
+
+00:28:31.980 --> 00:28:33.790
+- So that'd be very odd behavior
+
+00:28:34.650 --> 00:28:38.040
+to be continually testing something.
+
+00:28:38.040 --> 00:28:40.980
+So, our alternative theory
+is that those might actually
+
+00:28:40.980 --> 00:28:44.460
+be very short, very brief,
+
+00:28:44.460 --> 00:28:48.510
+very specific comms messages
+coming from those satellites.
+
+00:28:48.510 --> 00:28:50.520
+- [Derek] And if that were
+true, transmitting messages
+
+00:28:50.520 --> 00:28:52.620
+on these frequencies would provide a layer
+
+00:28:52.620 --> 00:28:55.620
+of protection because the
+enemy wouldn't want to jam
+
+00:28:55.620 --> 00:28:58.980
+them and risk disrupting
+their own navigation systems.
+
+00:28:58.980 --> 00:29:00.470
+- I'm not saying it's not the jamming.
+
+00:29:00.470 --> 00:29:02.730
+That's still a very strong possibility.
+
+00:29:02.730 --> 00:29:04.980
+I think the point is
+there are some odd things
+
+00:29:04.980 --> 00:29:08.010
+about that and there is clearly here
+
+00:29:08.010 --> 00:29:10.800
+an alternative explanation.
+
+00:29:10.800 --> 00:29:12.900
+- But whether these signals
+were covert messages
+
+00:29:12.900 --> 00:29:15.300
+or tests of a space-based jamming system,
+
+00:29:15.300 --> 00:29:17.973
+the events themselves
+were incredibly brief.
+
+00:29:19.230 --> 00:29:21.450
+And that might explain something else.
+
+00:29:21.450 --> 00:29:23.910
+Why this went unnoticed for years.
+
+00:29:23.910 --> 00:29:26.610
+But if this system were
+ever fully switched on,
+
+00:29:26.610 --> 00:29:29.250
+the impact could be enormous.
+
+00:29:29.250 --> 00:29:32.010
+When we see maps of massive
+GPS interference today,
+
+00:29:32.010 --> 00:29:34.200
+you are almost entirely looking at reports
+
+00:29:34.200 --> 00:29:37.530
+from commercial aircraft
+affected by ground-based jammers.
+
+00:29:37.530 --> 00:29:41.320
+Typical airliners cruise
+at altitudes between 30,000
+
+00:29:41.320 --> 00:29:42.840
+and 42,000 feet, which is high enough
+
+00:29:42.840 --> 00:29:44.760
+to remain in direct line of sight
+
+00:29:44.760 --> 00:29:47.520
+of jamming signals across vast distances.
+
+00:29:47.520 --> 00:29:50.430
+But at ground level, buildings
+and terrain shield much
+
+00:29:50.430 --> 00:29:52.923
+of our infrastructure
+from that interference.
+
+00:29:53.820 --> 00:29:56.553
+- But everything is line
+of sight from space, yeah.
+
+00:29:56.949 --> 00:29:59.760
+It's an invisible utility
+
+00:29:59.760 --> 00:30:02.520
+that supports virtually every technology.
+
+00:30:02.520 --> 00:30:08.970
+And it's essential to the
+way we live every day.
+
+00:30:08.970 --> 00:30:12.030
+The United States made
+GPS its gift to the world.
+
+00:30:12.030 --> 00:30:14.910
+And clever engineers took this free thing
+
+00:30:14.910 --> 00:30:17.070
+that works really well and very precisely
+
+00:30:17.070 --> 00:30:19.950
+and incorporated it into
+all kinds of systems.
+
+00:30:19.950 --> 00:30:21.480
+It's one of those wicked problems.
+
+00:30:21.480 --> 00:30:24.090
+You really don't know what
+all the dependencies are
+
+00:30:24.090 --> 00:30:25.470
+and where all the interconnections are
+
+00:30:25.470 --> 00:30:30.240
+because it's just proliferated
+throughout the world.
+
+00:30:30.240 --> 00:30:31.770
+- [Derek] Global satellite
+navigation systems
+
+00:30:31.770 --> 00:30:34.110
+underpin aviation and global shipping.
+
+00:30:34.110 --> 00:30:36.030
+It synchronizes financial systems,
+
+00:30:36.030 --> 00:30:37.860
+keeps cell towers on time.
+
+00:30:37.860 --> 00:30:39.870
+It is crucial for logistics networks,
+
+00:30:39.870 --> 00:30:42.720
+ride hailing apps, delivery
+systems, even dating apps.
+
+00:30:42.720 --> 00:30:45.300
+A disruption of these systems
+across an area as large
+
+00:30:45.300 --> 00:30:46.620
+as what these satellites are capable
+
+00:30:46.620 --> 00:30:49.680
+of could affect hundreds
+of millions of people.
+
+00:30:49.680 --> 00:30:53.760
+- It would send shockwaves
+of fear through the world,
+
+00:30:53.760 --> 00:30:57.720
+not just through Europe,
+because an entirely new weapon
+
+00:30:57.720 --> 00:31:00.180
+from space would have been revealed.
+
+00:31:00.180 --> 00:31:03.693
+And people would know that at
+any time of their choosing,
+
+00:31:04.530 --> 00:31:08.760
+Russia could deploy
+this over their country
+
+00:31:08.760 --> 00:31:10.290
+or over their continent.
+
+00:31:10.290 --> 00:31:14.490
+I do think that this
+is a massive escalation
+
+00:31:14.490 --> 00:31:18.850
+in the electronic warfare
+background conflict
+
+00:31:19.770 --> 00:31:21.510
+that's going on right now.
+
+00:31:21.510 --> 00:31:23.670
+- [Derek] Now, this sounds
+scary, but the truth
+
+00:31:23.670 --> 00:31:25.170
+is we should have been worried
+
+00:31:25.170 --> 00:31:27.900
+about this fragile system already.
+
+00:31:27.900 --> 00:31:30.300
+- The threat has always been there.
+
+00:31:30.300 --> 00:31:33.240
+Severe solar events could
+ionize the atmosphere
+
+00:31:33.240 --> 00:31:35.370
+and keep all kinds of signals
+from space from coming in,
+
+00:31:35.370 --> 00:31:36.920
+or it could destroy satellites.
+
+00:31:37.860 --> 00:31:41.580
+We could have a version
+of the Kessler effect
+
+00:31:41.580 --> 00:31:42.810
+in medium Earth orbit,
+
+00:31:42.810 --> 00:31:45.510
+and satellites be destroyed by debris.
+
+00:31:45.510 --> 00:31:49.980
+So, everybody should have
+already been concerned.
+
+00:31:49.980 --> 00:31:51.510
+They should continue to be concerned.
+
+00:31:51.510 --> 00:31:56.490
+And this is just another example of why.
+
+00:31:56.490 --> 00:31:57.450
+- [Derek] But the good news is,
+
+00:31:57.450 --> 00:32:00.210
+we already know exactly
+how to fix the problem.
+
+00:32:00.210 --> 00:32:02.010
+It involves building a future system
+
+00:32:02.010 --> 00:32:05.133
+that doesn't rely entirely
+on weak satellite signals.
+
+00:32:06.090 --> 00:32:11.070
+- We suggest that a resilient
+
+00:32:11.070 --> 00:32:13.680
+national PNT architecture
+
+00:32:13.680 --> 00:32:16.620
+would be signals from space,
+terrestrial broadcast,
+
+00:32:16.620 --> 00:32:20.520
+and fiber, because those are
+three completely different
+
+00:32:20.520 --> 00:32:23.670
+phenomenologies in a vector
+that would impact one,
+
+00:32:23.670 --> 00:32:26.010
+would not impact the other two.
+
+00:32:26.010 --> 00:32:28.020
+- Some countries are already doing this.
+
+00:32:28.020 --> 00:32:29.610
+Places like South Korea, China,
+
+00:32:29.610 --> 00:32:31.890
+and the UK are building
+out backup networks
+
+00:32:31.890 --> 00:32:34.080
+that don't rely on signals from space.
+
+00:32:34.080 --> 00:32:37.170
+They're using fiber optic
+cables to securely share time
+
+00:32:37.170 --> 00:32:39.420
+from atomic clocks here on Earth.
+
+00:32:39.420 --> 00:32:42.660
+And for navigation, they're
+turning to systems like eLoran,
+
+00:32:42.660 --> 00:32:44.520
+huge high-powered radio towers
+
+00:32:44.520 --> 00:32:46.770
+that are much harder to overwhelm.
+
+00:32:46.770 --> 00:32:49.380
+Other solutions are even
+being developed using magnetic
+
+00:32:49.380 --> 00:32:51.630
+and quantum systems that
+use subtle variations
+
+00:32:51.630 --> 00:32:54.540
+in the Earth's magnetic
+field to work out position.
+
+00:32:54.540 --> 00:32:57.510
+So, you don't need any external signals.
+
+00:32:57.510 --> 00:32:59.430
+But despite all of this, most countries,
+
+00:32:59.430 --> 00:33:00.810
+including the United States,
+
+00:33:00.810 --> 00:33:03.300
+still remain highly dependent on GPS
+
+00:33:03.300 --> 00:33:05.313
+and other satellite navigation systems.
+
+00:33:06.360 --> 00:33:08.700
+In this video, we've been
+talking about jamming,
+
+00:33:08.700 --> 00:33:11.700
+but there's another kind
+of GNSS interference,
+
+00:33:11.700 --> 00:33:14.760
+one that swaps your real
+signal for a fake one,
+
+00:33:14.760 --> 00:33:18.150
+quietly feeding you a location
+that looks completely real.
+
+00:33:18.150 --> 00:33:19.323
+So, if you trust it,
+
+00:33:19.323 --> 00:33:22.290
+it can guide you somewhere else entirely.
+
+00:33:22.290 --> 00:33:25.200
+This is known as GPS spoofing.
+
+00:33:25.200 --> 00:33:28.320
+It's affecting over 1,500 flights per day.
+
+00:33:28.320 --> 00:33:30.600
+And at sea, we're seeing the same thing.
+
+00:33:30.600 --> 00:33:33.180
+Ships are jumping implausible distances,
+
+00:33:33.180 --> 00:33:35.130
+briefly disappearing or reappearing
+
+00:33:35.130 --> 00:33:38.460
+in impossible locations, even on land.
+
+00:33:38.460 --> 00:33:41.220
+It's a systematic, geographically
+clustered distortion
+
+00:33:41.220 --> 00:33:43.743
+of reality, both in the air and at sea.
+
+00:33:44.970 --> 00:33:46.530
+If you wanna know more about that,
+
+00:33:46.530 --> 00:33:48.570
+let us know in the comments.
+
+00:33:48.570 --> 00:33:50.340
+This story was based on research
+
+00:33:50.340 --> 00:33:52.410
+by Professor Todd
+Humphreys and his student,
+
+00:33:52.410 --> 00:33:55.290
+Zach Clements, at the
+University of Texas at Austin.
+
+00:33:55.290 --> 00:33:57.960
+There's a link to their work
+down in the description.
+
+00:33:57.960 --> 00:34:00.000
+I wanna thank them for all their help
+
+00:34:00.000 --> 00:34:01.860
+and for sharing their findings with us.
+
+00:34:01.860 --> 00:34:04.918
+And of course, I wanna
+thank you for watching.
+
+00:34:04.918 --> 00:34:09.835
+(upbeat music fades)
+

@@ -1,0 +1,2171 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.641
+[Submit subtitle corrections at criblate.com]
+Whenever I'm making one of these videos, there's sometimes a special moment
+
+00:00:03.641 --> 00:00:07.914
+where the act of animating involves solving a whole bunch of little technical puzzlers,
+
+00:00:07.914 --> 00:00:11.313
+and then the underlying math I'm trying to explain clicks for me in a
+
+00:00:11.313 --> 00:00:14.080
+way that it hadn't before once I see it alive on screen.
+
+00:00:14.480 --> 00:00:17.390
+The best versions of those moments often tell me when a video is
+
+00:00:17.390 --> 00:00:20.345
+going to be one of my favorites, and putting together the end of
+
+00:00:20.345 --> 00:00:23.300
+this piece right here was one such time when I got that feeling.
+
+00:00:27.040 --> 00:00:30.140
+Our story doesn't actually start in the math classroom today.
+
+00:00:30.460 --> 00:00:31.860
+We begin in the art room.
+
+00:00:32.720 --> 00:00:36.804
+Imagine standing in a gallery, looking at a picture of a boat in a harbour,
+
+00:00:36.804 --> 00:00:40.724
+and the whole world warps as your gaze shifts upwards and to the right,
+
+00:00:40.724 --> 00:00:43.120
+where you see a village on this waterfront.
+
+00:00:43.640 --> 00:00:48.110
+Among the tightly clustered buildings, the world warps even more as your gaze shifts
+
+00:00:48.110 --> 00:00:52.420
+downwards to the entrance of one building, leading to a hallway full of artwork.
+
+00:00:53.200 --> 00:00:56.880
+And at the end of this hall, here you are again, staring at a picture of a boat.
+
+00:00:58.520 --> 00:00:59.860
+This is M.C.
+
+00:00:59.980 --> 00:01:05.340
+Escher's 1956 lithograph, the Print Gallery, or in Dutch, Prentendentunstelling.
+
+00:01:05.960 --> 00:01:10.004
+In a letter that he wrote to his son, describing his creation of a young
+
+00:01:10.004 --> 00:01:13.373
+man looking with interest at a print that features himself,
+
+00:01:13.373 --> 00:01:16.799
+Escher called this the most peculiar thing I have ever done,
+
+00:01:16.799 --> 00:01:18.540
+which for him is saying a lot.
+
+00:01:18.900 --> 00:01:21.332
+Escher's art is widely loved around the world,
+
+00:01:21.332 --> 00:01:25.667
+frequently featuring paradoxical themes or uniquely satisfying geometric patterns
+
+00:01:25.667 --> 00:01:27.200
+with some kind of character.
+
+00:01:27.500 --> 00:01:30.659
+This love is especially pronounced among mathematicians,
+
+00:01:30.659 --> 00:01:34.665
+since his art often touches on surprisingly deep concepts within math,
+
+00:01:34.665 --> 00:01:38.840
+despite the fact that Escher himself had no formal training in the field.
+
+00:01:39.520 --> 00:01:43.380
+The Print Gallery offers a perfect example of this unexpected depth.
+
+00:01:43.380 --> 00:01:47.260
+In 2003, the mathematicians De Smit and Lenstra offered a delightful
+
+00:01:47.260 --> 00:01:50.512
+analysis of what's really going on in this piece and the
+
+00:01:50.512 --> 00:01:54.220
+mind-bending self-contained loop that Escher managed to achieve.
+
+00:01:54.720 --> 00:01:59.542
+One of my main goals with this video is to offer a visual unpacking of their analysis,
+
+00:01:59.542 --> 00:02:04.420
+aiming as always to give you a feeling that you could have rediscovered this yourself.
+
+00:02:05.120 --> 00:02:08.575
+Something that unexpectedly pops out of this analysis is an answer to
+
+00:02:08.575 --> 00:02:12.080
+the question of what exactly should go in the middle of this picture.
+
+00:02:12.580 --> 00:02:15.240
+At first, that might sound like an incoherent question.
+
+00:02:15.600 --> 00:02:19.427
+If you come at it from the upper right, it feels like it should be featuring buildings in
+
+00:02:19.427 --> 00:02:23.039
+the village, but coming at it from the left, it looks more like part of the picture
+
+00:02:23.039 --> 00:02:23.340
+frame.
+
+00:02:23.620 --> 00:02:27.740
+Come at it from below, though, and it feels more fitting to be part of the gallery itself.
+
+00:02:28.160 --> 00:02:31.960
+Somehow all of the ambiguity about where exactly you are in this
+
+00:02:31.960 --> 00:02:35.760
+whole scene is compressed into that blank circle in the middle.
+
+00:02:36.220 --> 00:02:38.566
+And just for fun, since we're in the 2020s, I let
+
+00:02:38.566 --> 00:02:40.960
+a diffusion model take a stab at filling this in.
+
+00:02:41.500 --> 00:02:43.280
+Unsurprisingly, it struggles immensely.
+
+00:02:43.860 --> 00:02:45.200
+It just doesn't get it at all.
+
+00:02:45.740 --> 00:02:48.080
+And giving the poor machine some credit, of course it struggles.
+
+00:02:48.480 --> 00:02:52.320
+This feels like an intrinsically ambiguous and ill-defined part of the scene.
+
+00:02:52.780 --> 00:02:57.542
+But nevertheless, by the end, I hope you'll agree there is one, and really only one,
+
+00:02:57.542 --> 00:03:01.340
+completion that feels like the right puzzle piece you can slot in.
+
+00:03:02.100 --> 00:03:05.964
+Before diving into the math, I want to give you a purely intuitive description for
+
+00:03:05.964 --> 00:03:09.780
+how Escher actually made this piece, which breaks up into three different steps.
+
+00:03:10.340 --> 00:03:15.092
+Step one is to start out with a straightened out version of the same general concept,
+
+00:03:15.092 --> 00:03:17.160
+where a man is looking at a picture.
+
+00:03:17.640 --> 00:03:21.154
+That picture contains a harbor, which contains a town,
+
+00:03:21.154 --> 00:03:26.620
+that contains a print gallery, that contains that same man, and so on and so forth.
+
+00:03:26.720 --> 00:03:28.820
+You could zoom in forever to your heart's content.
+
+00:03:30.380 --> 00:03:34.638
+This idea of a self-similar image, where the picture is contained inside itself,
+
+00:03:34.638 --> 00:03:36.820
+has a special name to graphic designers.
+
+00:03:37.180 --> 00:03:39.558
+It's known as the Droste effect, named after a
+
+00:03:39.558 --> 00:03:42.040
+cocoa company that featured it in its branding.
+
+00:03:42.560 --> 00:03:45.434
+In fact, this seems to have been a somewhat common marketing
+
+00:03:45.434 --> 00:03:48.020
+gimmick for all kinds of early 20th century products.
+
+00:03:48.480 --> 00:03:52.345
+The self-similar Droste image that Escher was using, though,
+
+00:03:52.345 --> 00:03:55.759
+involves a much, much deeper zoom than any of these,
+
+00:03:55.759 --> 00:04:00.140
+where the self-similar copy is 256 times smaller than the original.
+
+00:04:00.520 --> 00:04:02.420
+You'll see where that number comes from in just a minute.
+
+00:04:03.160 --> 00:04:08.504
+The genius of Escher is that he somehow intuitively realized there must be a way to
+
+00:04:08.504 --> 00:04:14.042
+take this concept of a picture nested inside itself and turn it into this warped loop
+
+00:04:14.042 --> 00:04:19.579
+where the zooming in happens implicitly as a viewer's gaze wanders around the circle.
+
+00:04:21.180 --> 00:04:24.814
+By the way, you might be wondering where I got this straightened out version,
+
+00:04:24.814 --> 00:04:28.920
+and the answer is that those two mathematicians I referenced generously let us use it.
+
+00:04:28.920 --> 00:04:32.636
+This is something they actually reverse engineered from the original Escher
+
+00:04:32.636 --> 00:04:36.600
+piece using the help of two Dutch artists, Hans Richter and Jacqueline Hofstra.
+
+00:04:37.140 --> 00:04:39.900
+The way they reverse engineered it is actually super interesting.
+
+00:04:40.280 --> 00:04:44.460
+In a certain manner of speaking, it involves taking the logarithm of the original piece.
+
+00:04:44.920 --> 00:04:48.039
+I recognize that sentence probably sounds like nonsense right now,
+
+00:04:48.039 --> 00:04:51.300
+but later on in this video, I promise that will make abundant sense.
+
+00:04:52.220 --> 00:04:55.215
+To outline the basic idea for how Escher made this loop,
+
+00:04:55.215 --> 00:04:59.172
+I want to use an example that's simpler than the one he was working with,
+
+00:04:59.172 --> 00:05:02.968
+so we'll pull up this custom self-similar Drasta image which has a pie
+
+00:05:02.968 --> 00:05:07.460
+creature looking at a framed picture of a house where that same pie creature lives.
+
+00:05:08.140 --> 00:05:12.336
+In this example, the self-similar copy is only 16 times smaller than the original,
+
+00:05:12.336 --> 00:05:15.560
+and this just makes everything much easier to see all at once.
+
+00:05:15.980 --> 00:05:20.354
+What I'll do is keep a separate workspace on the right here to sketch out the
+
+00:05:20.354 --> 00:05:24.955
+general goal we have in mind, where the way you might think about it is that you
+
+00:05:24.955 --> 00:05:29.840
+want to distribute that 16-fold zoom-in factor across the four corners of the square.
+
+00:05:30.560 --> 00:05:33.521
+For example, let's say you want the pie creature itself to
+
+00:05:33.521 --> 00:05:36.380
+appear about at the same size in the lower left corner.
+
+00:05:36.880 --> 00:05:39.864
+Then if you zoom in by a factor of 2 in the original,
+
+00:05:39.864 --> 00:05:44.762
+we'll take what would be in the upper left of that zoomed version and then place it in
+
+00:05:44.762 --> 00:05:46.620
+the upper left of our workspace.
+
+00:05:47.340 --> 00:05:52.619
+Similarly, zoom in by another factor of 2 and then take the upper right of that zoomed-in
+
+00:05:52.619 --> 00:05:57.780
+version and now place an expanded version of that in the upper right of our workspace.
+
+00:05:58.600 --> 00:06:01.422
+Finally, one more step, zoom in by another factor of 2,
+
+00:06:01.422 --> 00:06:05.014
+take what's in the lower right of that zoomed-in version, blow it up,
+
+00:06:05.014 --> 00:06:07.580
+and place it in the lower right of our workspace.
+
+00:06:08.280 --> 00:06:12.880
+These four cut-out corners give a rough idea of what we want to create here.
+
+00:06:13.180 --> 00:06:17.287
+As long as you can find a smooth way to fill in the gaps between them,
+
+00:06:17.287 --> 00:06:21.217
+then as the onlooker's gaze wanders around a circle on this image,
+
+00:06:21.217 --> 00:06:26.145
+what they're seeing will zoom in and in and in until it elegantly joins up with the
+
+00:06:26.145 --> 00:06:29.020
+self-similar part of the image 16 times smaller.
+
+00:06:29.680 --> 00:06:33.079
+We could just try joining it all up naively, something like this,
+
+00:06:33.079 --> 00:06:35.589
+but frankly that doesn't really look very good,
+
+00:06:35.589 --> 00:06:39.928
+and it's certainly not as smooth and as elegant as what Escher managed to achieve,
+
+00:06:39.928 --> 00:06:42.020
+so we still have some work ahead of us.
+
+00:06:42.940 --> 00:06:45.920
+This book that I've been pawing through by the way, The Magic of M.C.
+
+00:06:46.040 --> 00:06:50.205
+Escher, is something that I got on a delightful visit to the Escher Museum in The Hague,
+
+00:06:50.205 --> 00:06:53.424
+which, if you're ever in the Netherlands, I would highly recommend,
+
+00:06:53.424 --> 00:06:56.121
+and when we turn to the section about the print gallery,
+
+00:06:56.121 --> 00:06:59.340
+it offers us a little peek into what Escher's process actually was.
+
+00:06:59.800 --> 00:07:03.440
+For him, step two was to create this warped grid.
+
+00:07:03.940 --> 00:07:06.707
+For the animations here, I'm going to pull up a slight modification
+
+00:07:06.707 --> 00:07:09.969
+of that grid that is basically just a little nicer mathematically to generate,
+
+00:07:09.969 --> 00:07:11.580
+but it illustrates the same key point.
+
+00:07:11.980 --> 00:07:16.488
+In his case, the self-similar Droste image he was working with has a scaling
+
+00:07:16.488 --> 00:07:20.165
+factor of 256, so to distribute that across the four corners,
+
+00:07:20.165 --> 00:07:24.554
+for him it would involve scaling by a factor of four as you walk from one
+
+00:07:24.554 --> 00:07:25.740
+corner to the next.
+
+00:07:26.540 --> 00:07:30.833
+And if you look closely at his grid, say at one of the squares on the lower right,
+
+00:07:30.833 --> 00:07:35.492
+notice how if you follow the top and bottom lines bounding that square over to the lower
+
+00:07:35.492 --> 00:07:40.098
+left of the image, those same lines end up enclosing a square that is now four times as
+
+00:07:40.098 --> 00:07:40.360
+big.
+
+00:07:40.720 --> 00:07:43.843
+And then similarly, if you look at the lines bounding the left and
+
+00:07:43.843 --> 00:07:47.155
+right of a small square from that region, and you follow them upward,
+
+00:07:47.155 --> 00:07:50.420
+they end up nestled around a square that's nicely four times as big.
+
+00:07:50.860 --> 00:07:54.900
+So the grid kind of encodes the scaling from one corner to the next that we want.
+
+00:07:55.440 --> 00:07:58.296
+Now for our pet project, where we only need to scale up by a
+
+00:07:58.296 --> 00:08:01.294
+factor of two from each corner to the next, we're going to use
+
+00:08:01.294 --> 00:08:04.340
+a modified version of this, but it'll be the same general idea.
+
+00:08:05.660 --> 00:08:08.922
+You might naturally wonder where on earth does this grid come from,
+
+00:08:08.922 --> 00:08:12.621
+but I actually want to postpone that question and skip ahead to step three,
+
+00:08:12.621 --> 00:08:16.954
+which is how you can actually use this grid together with the self- similar Drosse image
+
+00:08:16.954 --> 00:08:18.560
+to create Escher's final effect.
+
+00:08:19.200 --> 00:08:23.851
+The way this works is to first lay down an ordinary square grid on the original image,
+
+00:08:23.851 --> 00:08:28.393
+and then let's say you want this portion here to end up in this corner of our final
+
+00:08:28.393 --> 00:08:28.880
+version.
+
+00:08:29.280 --> 00:08:33.435
+What you would do is take each tiny square inside it and then copy over its
+
+00:08:33.435 --> 00:08:37.700
+contents to the corresponding tiny square in the warped version of the grid.
+
+00:08:38.100 --> 00:08:42.322
+From there, each neighboring square in our original grid is forced to go
+
+00:08:42.322 --> 00:08:46.017
+to the corresponding neighboring square in the warped version,
+
+00:08:46.017 --> 00:08:51.060
+so you can kind of just keep following where the image must go by following the grid.
+
+00:08:52.000 --> 00:08:56.348
+And the fact that the grid lines on the warped version space out by a factor of
+
+00:08:56.348 --> 00:09:00.752
+two as you go from the lower left to the upper left means that the scale of our
+
+00:09:00.752 --> 00:09:05.320
+scene automatically gets scaled up by that factor of two as you walk up that line.
+
+00:09:06.660 --> 00:09:09.189
+The idea of this process is that as an artist,
+
+00:09:09.189 --> 00:09:12.158
+it's relatively straightforward to go piece by piece,
+
+00:09:12.158 --> 00:09:15.841
+copying over what's inside one tiny square to another tiny square,
+
+00:09:15.841 --> 00:09:18.700
+because at this small scale things are undistorted.
+
+00:09:19.180 --> 00:09:23.571
+It's certainly way, way easier than trying to dream up and draw the appropriate
+
+00:09:23.571 --> 00:09:27.740
+warped final image starting with nothing but a blank page in front of you.
+
+00:09:28.960 --> 00:09:33.742
+So basically with this warped grid in hand, the process of copying over each little
+
+00:09:33.742 --> 00:09:38.640
+square is pleasantly automatic, and if we let this automatic process run all the way
+
+00:09:38.640 --> 00:09:43.191
+around, it nicely closes up with the initial position, and for that to happen,
+
+00:09:43.191 --> 00:09:47.973
+it requires that our original image had this self-similarity when you zoom in by a
+
+00:09:47.973 --> 00:09:48.780
+factor of 16.
+
+00:09:49.380 --> 00:09:52.215
+I hope you'll agree the final result we have is pretty nice,
+
+00:09:52.215 --> 00:09:55.191
+it recreates the same general effect, but more than anything I
+
+00:09:55.191 --> 00:09:58.640
+think it gives cause to more deeply appreciate Escher's own composition.
+
+00:09:59.080 --> 00:10:03.360
+He was actually very deliberate about the choice of imagery at all of the distinct scales.
+
+00:10:03.880 --> 00:10:07.880
+To quote, I quite intentionally chose serial types of objects,
+
+00:10:07.880 --> 00:10:13.300
+such for instance as a row of prints along the wall, or blocks of houses in a town.
+
+00:10:13.720 --> 00:10:16.154
+Without the cyclic elements, it would be all the more
+
+00:10:16.154 --> 00:10:18.680
+difficult to get my meaning over to the random viewer.
+
+00:10:20.060 --> 00:10:23.939
+This idea where you have a straight reference image and then a warped grid,
+
+00:10:23.939 --> 00:10:26.783
+and you use the two together to create a warped scene,
+
+00:10:26.783 --> 00:10:28.800
+is a common process in graphic design.
+
+00:10:29.100 --> 00:10:32.300
+It's known as a mesh warp, and Escher didn't invent it for this case,
+
+00:10:32.300 --> 00:10:35.640
+it's something that he had used multiple times before for other pieces.
+
+00:10:36.180 --> 00:10:40.084
+For our story, the point is that all of the logic for turning
+
+00:10:40.084 --> 00:10:44.500
+a Drasta zoom into a loop is abstracted and purified into this grid,
+
+00:10:44.500 --> 00:10:48.020
+raising the natural question, where does it come from?
+
+00:10:48.180 --> 00:10:49.000
+How do you make this?
+
+00:10:49.800 --> 00:10:54.946
+You can kind of imagine as an initial naive approach you might try linearly scaling
+
+00:10:54.946 --> 00:11:00.340
+everything from one corner to the next, but if you did that right away you would see a
+
+00:11:00.340 --> 00:11:00.960
+conflict.
+
+00:11:01.440 --> 00:11:05.874
+These two scaling processes are placing distinct pressures on the individual squares,
+
+00:11:05.874 --> 00:11:09.630
+where for example this square wants to get flared out in this direction
+
+00:11:09.630 --> 00:11:13.386
+based on the zooming in from the right, but it also wants to get flared
+
+00:11:13.386 --> 00:11:16.360
+in this direction based on the zooming out as you go up.
+
+00:11:16.940 --> 00:11:19.499
+Escher was evidently pulled to resolve this by
+
+00:11:19.499 --> 00:11:22.280
+curving all of the lines to relieve this tension.
+
+00:11:23.160 --> 00:11:26.912
+But there's one other crucial constraint that it seems he was guided by,
+
+00:11:26.912 --> 00:11:30.039
+one that presumably made the image transfer process easier,
+
+00:11:30.039 --> 00:11:32.489
+which made the final result look more natural,
+
+00:11:32.489 --> 00:11:36.137
+and which will make the ears of any mathematician immersed in complex
+
+00:11:36.137 --> 00:11:37.700
+analysis immediately perk up.
+
+00:11:38.020 --> 00:11:43.240
+In his final warped grid, the tiny squares are, well, squares.
+
+00:11:43.680 --> 00:11:46.560
+To be clear, this is not at all true for most mesh warps.
+
+00:11:46.760 --> 00:11:51.377
+In most cases, the warped grid lines that you draw don't necessarily intersect at right
+
+00:11:51.377 --> 00:11:56.100
+angles, and the little regions that they bound will in general be little parallelograms.
+
+00:11:56.500 --> 00:12:00.841
+This can still be workable for an artist, you can still kind of do the transfer,
+
+00:12:00.841 --> 00:12:05.127
+but presumably the act of copying over from the original to the warped version
+
+00:12:05.127 --> 00:12:07.677
+is more awkward when you have that distortion,
+
+00:12:07.677 --> 00:12:10.336
+so it would be much nicer if in the warped grid,
+
+00:12:10.336 --> 00:12:13.320
+little squares remained at least approximately square.
+
+00:12:13.760 --> 00:12:17.213
+And when you look closely at the grid that Escher used for his print gallery,
+
+00:12:17.213 --> 00:12:18.200
+it has this property.
+
+00:12:18.600 --> 00:12:22.394
+All the lines are intersecting at right angles, and at a small enough scale,
+
+00:12:22.394 --> 00:12:25.240
+the regions they bound really are approximately squares.
+
+00:12:25.800 --> 00:12:29.363
+Artistically, this has the nice effect that even though the whole
+
+00:12:29.363 --> 00:12:32.762
+scene is dramatically warped and distorted at a global scale,
+
+00:12:32.762 --> 00:12:36.380
+zoomed in at a local scale, everything is relatively undistorted.
+
+00:12:36.760 --> 00:12:40.480
+This is what makes each local part of Escher's image easily recognizable.
+
+00:12:41.720 --> 00:12:44.920
+And mathematically, this is where the story really gets interesting.
+
+00:12:45.440 --> 00:12:49.864
+You see, this idea of a function from two dimensional space to two dimensional space,
+
+00:12:49.864 --> 00:12:52.362
+where tiny squares remain approximately square,
+
+00:12:52.362 --> 00:12:55.120
+plays a special role and has a special name in math.
+
+00:12:55.380 --> 00:12:59.690
+It's called a conformal map, and one area where it comes up all the time is in
+
+00:12:59.690 --> 00:13:04.000
+the study of functions with complex number inputs and complex number outputs.
+
+00:13:04.960 --> 00:13:08.110
+At this point, we're going to step back and walk out of the art
+
+00:13:08.110 --> 00:13:10.710
+classroom and wander over into the math department,
+
+00:13:10.710 --> 00:13:14.860
+where I want to offer you a mini lesson on some of the core ideas from this field.
+
+00:13:16.540 --> 00:13:20.189
+The basic game plan from here is that I want to first do a little refresher,
+
+00:13:20.189 --> 00:13:23.502
+go over some of the basics of complex numbers and complex functions,
+
+00:13:23.502 --> 00:13:26.911
+and then I want to spend some meaningful time building up an intuition
+
+00:13:26.911 --> 00:13:30.080
+for what logarithms look like in this context of complex numbers.
+
+00:13:30.480 --> 00:13:34.098
+And then once you have that in hand, we're going to step through a completely different
+
+00:13:34.098 --> 00:13:37.840
+way that you can think about recreating this effect that Escher had in his print gallery.
+
+00:13:38.980 --> 00:13:40.860
+Let's warm up with a review of the basics.
+
+00:13:41.260 --> 00:13:44.955
+We typically think about real numbers as living on a one dimensional line,
+
+00:13:44.955 --> 00:13:48.100
+the real number line, and complex numbers are two dimensional.
+
+00:13:48.640 --> 00:13:51.751
+Specifically, we think of the imaginary constant i,
+
+00:13:51.751 --> 00:13:56.388
+defined to be the square root of negative one as being one unit above zero,
+
+00:13:56.388 --> 00:14:01.330
+end every other point on this plane represents some combination of a real number
+
+00:14:01.330 --> 00:14:03.160
+with some real multiple of i.
+
+00:14:03.700 --> 00:14:07.625
+It's typical to use the variable z in referring to a general complex number,
+
+00:14:07.625 --> 00:14:11.240
+and the game we want to play is to understand various functions of z.
+
+00:14:11.840 --> 00:14:15.840
+A very simple but important example is to multiply z by some constant.
+
+00:14:16.320 --> 00:14:19.221
+The function f of z equals two times z has the
+
+00:14:19.221 --> 00:14:22.500
+effect of scaling everything up by a factor of two.
+
+00:14:23.040 --> 00:14:25.370
+But what about multiplying by something imaginary,
+
+00:14:25.370 --> 00:14:27.280
+like i, the square root of negative one?
+
+00:14:27.880 --> 00:14:31.276
+Well you know that multiplying one by i gives you i,
+
+00:14:31.276 --> 00:14:34.280
+and by definition, i times i is negative one.
+
+00:14:34.700 --> 00:14:38.540
+Both of these you'll notice are in 90 degree rotation, and more generally,
+
+00:14:38.540 --> 00:14:42.120
+multiplying any value z by i has the effect of a 90 degree rotation.
+
+00:14:42.940 --> 00:14:46.662
+And more general than that, when you multiply by any complex constant,
+
+00:14:46.662 --> 00:14:49.640
+the effect is some combination of scaling and rotating.
+
+00:14:50.160 --> 00:14:53.420
+And there's a nice way to think about exactly how much it should scale and rotate.
+
+00:14:54.000 --> 00:14:58.384
+Zero times anything is zero, so the origin has to stay fixed in place,
+
+00:14:58.384 --> 00:15:02.080
+and then one times any constant c is that same constant c.
+
+00:15:02.620 --> 00:15:05.812
+So that means this point at one has to be dragged over to land
+
+00:15:05.812 --> 00:15:08.748
+on whatever that constant c is that we're talking about,
+
+00:15:08.748 --> 00:15:11.940
+and that fully determines the amount of scaling and rotating.
+
+00:15:12.400 --> 00:15:14.880
+From there, the rest of the grid stays as rigid as it can.
+
+00:15:15.440 --> 00:15:18.926
+A key point to emphasize for our story is that if all you're doing
+
+00:15:18.926 --> 00:15:22.200
+is multiplying by some constant, shapes are always preserved.
+
+00:15:22.660 --> 00:15:24.934
+Anything you might want to draw, like a square,
+
+00:15:24.934 --> 00:15:28.320
+can get scaled or rotated, but beyond that, there are no distortions.
+
+00:15:29.080 --> 00:15:31.440
+Now things get more interesting for more complicated functions.
+
+00:15:32.120 --> 00:15:36.940
+A simple but non-trivial example would be mapping each number z to z squared.
+
+00:15:37.580 --> 00:15:40.640
+So the input two is going to have to move to two squared, which is four.
+
+00:15:41.100 --> 00:15:44.520
+The input i is going to have to move to i squared, which is negative one.
+
+00:15:45.100 --> 00:15:48.040
+Negative one itself would have to get mapped to positive one.
+
+00:15:48.480 --> 00:15:52.383
+And in its fullness, here's what it looks like if I let every point among
+
+00:15:52.383 --> 00:15:56.500
+the grid lines of this input space move over to their corresponding outputs.
+
+00:15:57.160 --> 00:16:00.427
+It's a pretty nice effect, and unlike multiplying by a constant,
+
+00:16:00.427 --> 00:16:02.520
+shape is absolutely no longer preserved.
+
+00:16:02.940 --> 00:16:04.680
+The grid lines get curved and warped.
+
+00:16:05.280 --> 00:16:09.200
+However, and this is a key point, pay attention to what happens at a small scale.
+
+00:16:09.520 --> 00:16:12.440
+For example, just focusing on this little square from the input space.
+
+00:16:12.940 --> 00:16:16.231
+As you watch the transformation happen again, you can see that
+
+00:16:16.231 --> 00:16:19.840
+shape is approximately preserved, at least at a small enough scale.
+
+00:16:20.160 --> 00:16:23.201
+Little squares from our original grid remain approximately
+
+00:16:23.201 --> 00:16:25.980
+square even after getting processed by the function.
+
+00:16:26.500 --> 00:16:29.980
+To use the lingo, the function z squared gives a conformal map.
+
+00:16:30.940 --> 00:16:33.180
+And the choice of z squared is really not special here.
+
+00:16:33.540 --> 00:16:37.200
+Here's what it looks like if you transform each point z over to z cubed.
+
+00:16:37.580 --> 00:16:39.340
+Squares remain approximately square.
+
+00:16:40.120 --> 00:16:43.229
+Okay, maybe this example square that I'm highlighting doesn't exactly look
+
+00:16:43.229 --> 00:16:46.380
+square in the output, but really it's just because it started off too big.
+
+00:16:46.700 --> 00:16:50.320
+To be clear, this conformal property that I'm talking about is a limiting one.
+
+00:16:50.660 --> 00:16:53.236
+A particular square might not exactly become square,
+
+00:16:53.236 --> 00:16:55.762
+but the idea is that as you zoom in more and more,
+
+00:16:55.762 --> 00:16:59.477
+choosing square regions from the input space that are smaller and smaller,
+
+00:16:59.477 --> 00:17:03.440
+the resulting output will indeed be better and better approximated by a square.
+
+00:17:04.000 --> 00:17:06.111
+And there's also nothing all that special about the
+
+00:17:06.111 --> 00:17:08.140
+choice of polynomials like z squared or z cubed.
+
+00:17:08.420 --> 00:17:12.191
+For just about any function of complex numbers you could think to write down,
+
+00:17:12.191 --> 00:17:13.220
+this property holds.
+
+00:17:13.599 --> 00:17:15.599
+Shape is preserved at a small enough scale.
+
+00:17:15.940 --> 00:17:16.880
+It's almost like magic.
+
+00:17:17.680 --> 00:17:20.220
+The use of complex numbers is very relevant here.
+
+00:17:20.380 --> 00:17:25.082
+If instead you were thinking of points in 2D space simply as a pair of real numbers with
+
+00:17:25.082 --> 00:17:29.570
+some xy coordinates, and you write down some arbitrary function of x and y to get a
+
+00:17:29.570 --> 00:17:34.004
+new pair of numbers, what is way, way more typical as you let points in that input
+
+00:17:34.004 --> 00:17:38.332
+space get transformed is that the outputs of those tiny squares get squished and
+
+00:17:38.332 --> 00:17:38.920
+distorted.
+
+00:17:39.220 --> 00:17:42.593
+Even as you zoom in more and more, the resulting limiting shape
+
+00:17:42.593 --> 00:17:46.020
+typically looks like a parallelogram, not necessarily a square.
+
+00:17:46.660 --> 00:17:49.620
+So, complex functions really are special in this way.
+
+00:17:50.160 --> 00:17:53.880
+And the basic reason that tiny squares remain square comes down to calculus.
+
+00:17:54.580 --> 00:17:58.520
+What you're looking at is what it means for these functions to have derivatives.
+
+00:17:59.380 --> 00:18:03.880
+That might sound a little strange, but the analogy you can think of is that for most
+
+00:18:03.880 --> 00:18:07.470
+functions of real numbers, if you visualize them the ordinary way,
+
+00:18:07.470 --> 00:18:11.006
+just with a graph of inputs on the x-axis, outputs on the y-axis,
+
+00:18:11.006 --> 00:18:14.649
+as you zoom in more and more to any particular point on that graph,
+
+00:18:14.649 --> 00:18:17.060
+it looks more and more like a straight line.
+
+00:18:17.500 --> 00:18:21.986
+That is, the rate of change, how much delta f you get for a given delta x,
+
+00:18:21.986 --> 00:18:23.380
+approaches a constant.
+
+00:18:24.020 --> 00:18:27.181
+This is literally what it means for a function to have a derivative,
+
+00:18:27.181 --> 00:18:29.180
+but it's not the only way to visualize it.
+
+00:18:29.440 --> 00:18:31.640
+Here's a different way to see the same concept.
+
+00:18:32.220 --> 00:18:34.334
+Instead of looking at the graph of a function,
+
+00:18:34.334 --> 00:18:37.000
+let's think of the same function but as a transformation.
+
+00:18:37.460 --> 00:18:40.817
+That is, you're going to let each of these points on the real number
+
+00:18:40.817 --> 00:18:44.420
+line move over to their corresponding outputs on this other number line.
+
+00:18:45.140 --> 00:18:49.772
+What you'll notice is that evenly spaced dots from the input space can get warped in
+
+00:18:49.772 --> 00:18:54.680
+the output space, meaning the rate of change of the function in general is not constant.
+
+00:18:55.020 --> 00:18:58.760
+This spacing between our dots can change from one part of the image to the next.
+
+00:18:59.260 --> 00:19:03.238
+But we know that as you zoom in more and more to a particular output,
+
+00:19:03.238 --> 00:19:05.660
+the rate of change approaches a constant.
+
+00:19:06.100 --> 00:19:08.400
+The dots look more and more evenly spaced.
+
+00:19:09.260 --> 00:19:13.783
+Specifically, if you take a tiny patch of dots around a particular input and you
+
+00:19:13.783 --> 00:19:17.627
+copy them over to the output space around the corresponding output,
+
+00:19:17.627 --> 00:19:22.319
+you can approximately line up all the dots just by scaling everything by a certain
+
+00:19:22.319 --> 00:19:23.280
+constant factor.
+
+00:19:23.980 --> 00:19:28.026
+This is the same analytical fact as what the slope of a graph is telling you,
+
+00:19:28.026 --> 00:19:30.180
+it's just in a different visual context.
+
+00:19:30.620 --> 00:19:34.253
+But this context carries over much more easily to thinking about
+
+00:19:34.253 --> 00:19:38.000
+complex valued functions as transformations in the complex plane.
+
+00:19:38.540 --> 00:19:42.079
+There we're going to think of the neighborhood around a given input
+
+00:19:42.079 --> 00:19:44.931
+as a tiny little grid of points, like we were before,
+
+00:19:44.931 --> 00:19:48.840
+and we let each point on that grid move over to its corresponding output.
+
+00:19:49.800 --> 00:19:52.646
+In this case, what it means for the rate of change to
+
+00:19:52.646 --> 00:19:55.760
+approach a constant is basically the exact same equation.
+
+00:19:56.360 --> 00:20:00.610
+The visual to have in your head is that if you take that tiny patch of squares
+
+00:20:00.610 --> 00:20:04.044
+around the input and copy it over to the corresponding output,
+
+00:20:04.044 --> 00:20:08.294
+you can approximately match this up with the output grid lines by multiplying
+
+00:20:08.294 --> 00:20:12.327
+by a certain constant, which remember, in the setting of complex numbers,
+
+00:20:12.327 --> 00:20:16.359
+means rotating and scaling it in some way, depending on the value of that
+
+00:20:16.359 --> 00:20:17.340
+complex constant.
+
+00:20:17.940 --> 00:20:21.969
+Since rotation and scaling preserve shape, it means that all the tiny squares from
+
+00:20:21.969 --> 00:20:25.900
+the input space remain at least approximately square under this transformation.
+
+00:20:27.300 --> 00:20:31.280
+So, stepping back, here's the key point, the reason for talking about any of this at all.
+
+00:20:31.560 --> 00:20:35.599
+Even though conformal maps like the one that Escher was using for his print
+
+00:20:35.599 --> 00:20:39.745
+gallery are incredibly constrained and highly unusual among the general ways
+
+00:20:39.745 --> 00:20:43.946
+that you could continuously squish about two-dimensional space, nevertheless,
+
+00:20:43.946 --> 00:20:47.500
+as if by magic, simply by speaking a language of complex numbers,
+
+00:20:47.500 --> 00:20:51.592
+you can somehow create entire families of these conformal maps without even
+
+00:20:51.592 --> 00:20:52.400
+really trying.
+
+00:20:52.860 --> 00:20:56.280
+All you do is mix and match standard functions of complex numbers.
+
+00:20:56.640 --> 00:20:59.514
+The one constraint is that these functions have to have derivatives,
+
+00:20:59.514 --> 00:21:02.600
+but this will be true for most of the functions you think to write down.
+
+00:21:03.620 --> 00:21:06.722
+For our story, decoding what's happening with the print gallery,
+
+00:21:06.722 --> 00:21:10.260
+this means that we have an entirely new way to reframe the key question.
+
+00:21:10.760 --> 00:21:15.441
+Can you construct some deliberately tailored complex function so that the act of
+
+00:21:15.441 --> 00:21:20.180
+zooming in around the inputs looks like walking around a loop among the outputs?
+
+00:21:21.900 --> 00:21:25.299
+Now, at this point, with only the bare minimum crash course of complex
+
+00:21:25.299 --> 00:21:28.553
+analysis under our belts, it's hard to know where to start without
+
+00:21:28.553 --> 00:21:31.709
+first building up a larger palette of functions to work with and
+
+00:21:31.709 --> 00:21:35.400
+gaining some familiarity with how they actually behave for complex numbers.
+
+00:21:35.740 --> 00:21:40.264
+In this case, there are really only two functions that you need to understand,
+
+00:21:40.264 --> 00:21:42.120
+e to the z and the natural log.
+
+00:21:42.880 --> 00:21:46.076
+I want to settle in and spend some meaningful time understanding both of these,
+
+00:21:46.076 --> 00:21:48.180
+and I think you'll agree that it's time well spent.
+
+00:21:48.580 --> 00:21:51.630
+Everybody deserves, in my opinion, at least one time in their
+
+00:21:51.630 --> 00:21:54.880
+life to experience the joy of understanding a complex logarithm.
+
+00:21:55.280 --> 00:21:59.620
+First though, a necessary prerequisite is to understand the complex exponential.
+
+00:22:00.580 --> 00:22:03.919
+Regular viewers will be familiar with what it looks like to raise
+
+00:22:03.919 --> 00:22:07.360
+e to the power of a complex number, but a review just never hurts.
+
+00:22:07.840 --> 00:22:12.072
+We can start scaffolding the transformation just by focusing on the more familiar
+
+00:22:12.072 --> 00:22:16.200
+examples of real number inputs and the real number outputs they correspond to.
+
+00:22:16.600 --> 00:22:21.620
+For example, e to the 0 is 1, so this point at 0 maps over to this point at 1.
+
+00:22:22.200 --> 00:22:25.395
+And then every time you let that input increase by 1,
+
+00:22:25.395 --> 00:22:30.700
+the output grows by a factor of e, meaning it runs away from us actually quite quickly.
+
+00:22:31.320 --> 00:22:34.044
+And then on the flip side, as you decrease that input,
+
+00:22:34.044 --> 00:22:38.080
+letting it get into the negative numbers, every step to the left corresponds to
+
+00:22:38.080 --> 00:22:40.400
+shrinking the output, again by a factor of e.
+
+00:22:40.740 --> 00:22:44.360
+In particular, you'll notice in this case that output is always a positive number.
+
+00:22:44.860 --> 00:22:47.273
+This of course gets much more interesting when we let
+
+00:22:47.273 --> 00:22:49.640
+the inputs and the outputs both be complex numbers.
+
+00:22:50.140 --> 00:22:52.931
+And here, everything you need to know comes down to what
+
+00:22:52.931 --> 00:22:56.020
+happens as you let the imaginary part of that input increase.
+
+00:22:56.380 --> 00:23:00.700
+And what happens there is that the corresponding output walks around a circle.
+
+00:23:02.120 --> 00:23:06.101
+If you're wondering why imaginary inputs to an exponential walk you around a
+
+00:23:06.101 --> 00:23:10.240
+circle like this, we have discussed it many, many other times on this channel.
+
+00:23:10.520 --> 00:23:12.680
+See some of the links on screen and in the description.
+
+00:23:13.160 --> 00:23:17.304
+A key point that I'll reiterate here is that what makes the function
+
+00:23:17.304 --> 00:23:21.388
+e to the z very nice, as opposed to exponentials with other bases,
+
+00:23:21.388 --> 00:23:25.227
+is that as your input walks up at a rate of 1 unit per second,
+
+00:23:25.227 --> 00:23:29.920
+the output walks around its circle at a rate of exactly 1 radian per second.
+
+00:23:30.400 --> 00:23:33.536
+So in particular, increasing the imaginary part by
+
+00:23:33.536 --> 00:23:36.860
+exactly 2 pi causes one full rotation in the output.
+
+00:23:37.640 --> 00:23:42.465
+Phrased another way, these vertical line segments that I've been drawing with heights of
+
+00:23:42.465 --> 00:23:47.400
+exactly 2 pi each get mapped neatly onto one complete circle when you apply the function.
+
+00:23:48.560 --> 00:23:52.590
+You'll notice how I've drawn these particular vertical line segments to be spaced out
+
+00:23:52.590 --> 00:23:56.620
+evenly in the real direction, where the real part from 1 to the next increases by 1.
+
+00:23:57.000 --> 00:24:01.397
+The corresponding circles on the right each differ by a constant scaling factor,
+
+00:24:01.397 --> 00:24:03.320
+specifically the scaling factor e.
+
+00:24:04.220 --> 00:24:08.377
+Earlier for the simpler function z squared, I showed it as a transformation,
+
+00:24:08.377 --> 00:24:10.620
+moving all of the inputs to the outputs.
+
+00:24:11.020 --> 00:24:14.923
+And in this case, for e to the z, if you're curious how that same idea looks,
+
+00:24:14.923 --> 00:24:19.182
+it's easiest to take a subset of the grid, like this one here from the input space,
+
+00:24:19.182 --> 00:24:23.440
+and here's what it looks like to move each square over to the corresponding output.
+
+00:24:24.080 --> 00:24:27.148
+As we actually use this function for our print gallery goals,
+
+00:24:27.148 --> 00:24:31.473
+it'll be very helpful to anchor your mind by thinking of these vertical lines and the
+
+00:24:31.473 --> 00:24:32.680
+circles they turn into.
+
+00:24:33.500 --> 00:24:37.422
+In fact, there's a very playful way that I like to think about how these vertical lines
+
+00:24:37.422 --> 00:24:41.480
+turn into concentric circles and how they can carry the full input space along with them.
+
+00:24:41.780 --> 00:24:46.503
+What I like to imagine is sort of rolling up that entire z-plane into a tube,
+
+00:24:46.503 --> 00:24:50.000
+such that all of those vertical lines end up as circles.
+
+00:24:50.480 --> 00:24:53.180
+Specifically, each circle would have a circumference of 2 pi.
+
+00:24:54.240 --> 00:24:58.879
+Next, imagine taking this tube, lining it up above the origin of the output space,
+
+00:24:58.879 --> 00:25:02.216
+and then kind of squishing it down onto that output space,
+
+00:25:02.216 --> 00:25:06.968
+turning all the circles from that tube into these concentric rings of exponentially
+
+00:25:06.968 --> 00:25:07.760
+growing size.
+
+00:25:08.700 --> 00:25:11.664
+That's just what I like, but however you choose to think about it,
+
+00:25:11.664 --> 00:25:15.211
+what I want to be etched into your brain is the idea of vertical lines turning
+
+00:25:15.211 --> 00:25:15.840
+into circles.
+
+00:25:16.340 --> 00:25:19.555
+Now, the other very important point to emphasize here is
+
+00:25:19.555 --> 00:25:23.000
+that multiple different inputs can land on the same output.
+
+00:25:23.820 --> 00:25:29.160
+For example, e to the zero is one, but e to the 2 pi i is also one.
+
+00:25:29.540 --> 00:25:34.280
+So is e to the negative 2 pi i and e to the 4 pi i and so on.
+
+00:25:34.540 --> 00:25:39.609
+In fact, the infinite sequence along any given vertical line spaced out by 2 pi will
+
+00:25:39.609 --> 00:25:44.860
+all get collapsed together as that vertical line gets kind of rolled up into a circle.
+
+00:25:45.260 --> 00:25:47.843
+We say that the exponential map is many to one,
+
+00:25:47.843 --> 00:25:51.634
+although it might not be obvious how this repetition in the vertical
+
+00:25:51.634 --> 00:25:56.140
+direction is going to be key to our final recreation of the print gallery effect.
+
+00:25:56.900 --> 00:25:59.576
+Okay, so exponentials give us the first ingredient,
+
+00:25:59.576 --> 00:26:03.302
+characterized by turning lines into circles, and the second ingredient
+
+00:26:03.302 --> 00:26:07.132
+we need is the inverse of such an exponential, known as the natural log,
+
+00:26:07.132 --> 00:26:11.120
+where basically the idea is that it unravels those circles back into lines.
+
+00:26:11.500 --> 00:26:15.533
+Now, this will be especially fun to visualize and especially relevant to
+
+00:26:15.533 --> 00:26:20.350
+our story if we imagine painting this complex plane on the right with a Droste image,
+
+00:26:20.350 --> 00:26:24.495
+say the example we were working with earlier with the pi creature looking
+
+00:26:24.495 --> 00:26:27.800
+at a picture of a house where that same pi creature lives.
+
+00:26:28.300 --> 00:26:31.640
+In other words, it is finally time for you and me to answer that
+
+00:26:31.640 --> 00:26:34.980
+question of what it means to take the natural log of a picture.
+
+00:26:36.400 --> 00:26:37.980
+Okay, so think about this for a second.
+
+00:26:38.460 --> 00:26:42.694
+You already know that a vertical line segment like this one on the left with
+
+00:26:42.694 --> 00:26:47.040
+a height of 2 pi gets turned into a circle when you apply the map e to the z.
+
+00:26:47.540 --> 00:26:51.097
+So the natural log is going to take a circle of points on this
+
+00:26:51.097 --> 00:26:54.540
+image and then straighten them out into one of those lines.
+
+00:26:55.440 --> 00:26:59.439
+Similarly, if you looked at a circle which was exactly e times smaller,
+
+00:26:59.439 --> 00:27:04.226
+that would also get straightened out into a line with the same height positioned one
+
+00:27:04.226 --> 00:27:05.240
+unit to the left.
+
+00:27:05.820 --> 00:27:10.258
+And then similarly, every circle in between these two is going to get unwrapped into
+
+00:27:10.258 --> 00:27:14.062
+one of these vertical lines between those last two, and more generally,
+
+00:27:14.062 --> 00:27:18.606
+smaller and smaller rings from the picture will all get unwrapped into these vertical
+
+00:27:18.606 --> 00:27:21.090
+line segments, each one with a height of 2 pi,
+
+00:27:21.090 --> 00:27:23.520
+farther and farther to the left in the image.
+
+00:27:24.080 --> 00:27:27.204
+The result we get is a bit trippy, but it's pretty cool when you think about it,
+
+00:27:27.204 --> 00:27:29.860
+and there's a number of important things that I want you to notice.
+
+00:27:30.060 --> 00:27:33.158
+You've probably noticed that it repeats as you move to the left,
+
+00:27:33.158 --> 00:27:37.128
+and I'll invite you to ponder why that might be the case in the back of your mind
+
+00:27:37.128 --> 00:27:41.243
+for a minute, but before that repetition, I want to talk about a different direction
+
+00:27:41.243 --> 00:27:42.260
+in which it repeats.
+
+00:27:42.800 --> 00:27:46.719
+The way I've drawn it so far, the imaginary part for the values on the left
+
+00:27:46.719 --> 00:27:50.900
+are ranging from 0 up to 2 pi, but that's actually kind of an arbitrary choice.
+
+00:27:51.400 --> 00:27:56.382
+Remember, if you keep letting that value z on the left walk up by another 2 pi units,
+
+00:27:56.382 --> 00:28:01.304
+the corresponding value e to the z on the right would just keep walking around that
+
+00:28:01.304 --> 00:28:05.993
+same circle again, so I hope you'll agree it feels at least enticing to let our
+
+00:28:05.993 --> 00:28:10.740
+image repeat in this vertical direction along every one of those vertical lines.
+
+00:28:12.800 --> 00:28:17.291
+And it goes the other way too, as you let the imaginary part on the left get smaller
+
+00:28:17.291 --> 00:28:21.622
+going down, the corresponding value on that right just keeps walking around that
+
+00:28:21.622 --> 00:28:25.900
+same circle, so the pattern that you see should perhaps repeat in that way too.
+
+00:28:26.560 --> 00:28:30.793
+To be more explicit, the rule that I'm using to draw this image on the left
+
+00:28:30.793 --> 00:28:33.784
+is that for every point z in that plane on the left,
+
+00:28:33.784 --> 00:28:37.226
+you look at the corresponding value e to the z on the right,
+
+00:28:37.226 --> 00:28:39.540
+and then you assign it a matching color.
+
+00:28:40.060 --> 00:28:45.434
+So for example, this warped pi creature and this one and this one all really correspond
+
+00:28:45.434 --> 00:28:50.560
+to the same part of the image on the right, the big pi creature in the lower left.
+
+00:28:51.040 --> 00:28:56.050
+Another way to think about this is that because the function e to the z is many to one,
+
+00:28:56.050 --> 00:28:59.679
+the feeling we get is that the natural logarithm, its inverse,
+
+00:28:59.679 --> 00:29:04.286
+wants to be a multi-valued function, something where one input maps to multiple
+
+00:29:04.286 --> 00:29:05.380
+different outputs.
+
+00:29:06.320 --> 00:29:10.443
+Now in practice, many times you don't want a function to have multiple outputs,
+
+00:29:10.443 --> 00:29:14.253
+sometimes that even defies the definition of a function in your context,
+
+00:29:14.253 --> 00:29:18.636
+so people will often just choose a band of this plane on the left to be the outputs
+
+00:29:18.636 --> 00:29:19.680
+of the natural log.
+
+00:29:20.060 --> 00:29:24.060
+In complex analysis, this is called choosing a branch cut for the function.
+
+00:29:24.560 --> 00:29:28.845
+For our purposes though, where we want to recreate and understand Escher's piece,
+
+00:29:28.845 --> 00:29:32.548
+it's actually nice as to think of the log as a multi-valued function,
+
+00:29:32.548 --> 00:29:37.256
+where each point on the right corresponds to a repeating sequence of points on the left,
+
+00:29:37.256 --> 00:29:40.800
+spaced out two pi vertically, going infinitely in both directions.
+
+00:29:41.580 --> 00:29:46.225
+Now in our special case, you also see this repeating pattern as you move to the left,
+
+00:29:46.225 --> 00:29:48.520
+but that is something different entirely.
+
+00:29:48.820 --> 00:29:50.520
+You would not see this for most images.
+
+00:29:51.020 --> 00:29:55.823
+It arises specifically because we're working with a self-similar Droste image,
+
+00:29:55.823 --> 00:29:59.580
+one that looks identical as you zoom in by a certain factor.
+
+00:29:59.760 --> 00:30:04.320
+This falls straight out of a core property of logarithms and exponentials.
+
+00:30:04.880 --> 00:30:08.142
+Exponentials turn addition into multiplication,
+
+00:30:08.142 --> 00:30:11.960
+and logarithms turn multiplication back into addition.
+
+00:30:12.860 --> 00:30:17.334
+For example, imagine taking some small value w on this plane on the right,
+
+00:30:17.334 --> 00:30:22.654
+and also considering 16 times that value, which is scaled up 16 times farther away from
+
+00:30:22.654 --> 00:30:23.380
+the origin.
+
+00:30:24.280 --> 00:30:28.458
+Now if we look at the corresponding value, log of w on the left,
+
+00:30:28.458 --> 00:30:32.049
+that act of multiplying by 16 now looks like addition,
+
+00:30:32.049 --> 00:30:36.031
+specifically shifting to the right by the natural log of 16,
+
+00:30:36.031 --> 00:30:38.120
+which is just some real number.
+
+00:30:39.340 --> 00:30:44.953
+In fact, this rectangle here in our bizarre warped log image that has a width of log
+
+00:30:44.953 --> 00:30:50.500
+16 and a height of 2 pi contains all the information about the image on the right.
+
+00:30:50.900 --> 00:30:54.126
+It corresponds to this annulus of the Droste image,
+
+00:30:54.126 --> 00:30:58.997
+and if you were to shift that rectangle exactly log of 16 units to the left,
+
+00:30:58.997 --> 00:31:04.183
+you would get a scaled-down version of that annulus exactly 16 times smaller that
+
+00:31:04.183 --> 00:31:06.840
+nestles in perfectly like a puzzle piece.
+
+00:31:07.360 --> 00:31:10.600
+And if you repeat that infinitely many times, it gives you
+
+00:31:10.600 --> 00:31:13.840
+this infinite nesting that characterizes the Droste zoom.
+
+00:31:14.720 --> 00:31:19.120
+The way I've drawn things so far, we have this cutoff to the log image on the right side,
+
+00:31:19.120 --> 00:31:23.372
+and at this point you know well that vertical lines on the left correspond to circles
+
+00:31:23.372 --> 00:31:27.625
+on the right, so you can probably guess that this corresponds to the fact that I gave
+
+00:31:27.625 --> 00:31:31.580
+a maximum radius to that Droste image, but of course you don't need to do that.
+
+00:31:31.720 --> 00:31:35.451
+In principle, it can extend out infinitely far in all directions,
+
+00:31:35.451 --> 00:31:38.723
+following the same self-similar pattern as you scale up,
+
+00:31:38.723 --> 00:31:43.545
+and the result for the log image on the left would be to extend as far rightward as
+
+00:31:43.545 --> 00:31:46.300
+you want, again with a repeated tiling pattern.
+
+00:31:47.400 --> 00:31:51.534
+So to conclude, the logarithm image on the left is periodic vertically,
+
+00:31:51.534 --> 00:31:54.620
+basically because rotation on the right is periodic.
+
+00:31:54.980 --> 00:31:56.260
+This would happen for any image.
+
+00:31:56.560 --> 00:32:01.445
+And then in this special case of a Droste image, it's also periodic horizontally,
+
+00:32:01.445 --> 00:32:04.400
+because the Droste image repeats as you zoom in.
+
+00:32:04.640 --> 00:32:07.696
+This doubly periodic property is what we'll ultimately
+
+00:32:07.696 --> 00:32:09.960
+take advantage of for the final result.
+
+00:32:10.820 --> 00:32:12.800
+And we now have all the foundation we need.
+
+00:32:13.000 --> 00:32:16.333
+I can now finally describe for you the function that turns
+
+00:32:16.333 --> 00:32:19.780
+the Droste zoom into this Escher-style self-contained loop.
+
+00:32:20.320 --> 00:32:23.302
+Before just jumping right into it, we have been kind of covering a lot,
+
+00:32:23.302 --> 00:32:25.780
+so it might be worth giving some space to let this digest.
+
+00:32:26.180 --> 00:32:29.505
+And I was meaning to take 30 quick seconds at some point in this video
+
+00:32:29.505 --> 00:32:32.640
+to talk about 3b1b talent, so now might be as good a time as any.
+
+00:32:32.940 --> 00:32:36.456
+This is the virtual career fair that I'm experimenting with this year,
+
+00:32:36.456 --> 00:32:40.624
+and the basic idea is that you, a person who spends their free time learning about
+
+00:32:40.624 --> 00:32:44.893
+things like complex logarithms, are probably interested in working with like-minded,
+
+00:32:44.893 --> 00:32:46.400
+curious, and technical teams.
+
+00:32:46.780 --> 00:32:51.640
+So if you're seeking or open to a new job, check out the organizations at 3b1b.co.
+
+00:32:52.160 --> 00:32:52.560
+talent.
+
+00:32:52.940 --> 00:32:56.705
+When you explore that page, you'll find interviews between me and the relevant teams,
+
+00:32:56.705 --> 00:32:59.939
+technical puzzles and challenges that they've chosen to feature for you,
+
+00:32:59.939 --> 00:33:03.660
+and various other things aimed at giving you a feel for the technical team culture.
+
+00:33:04.160 --> 00:33:07.223
+And I just kind of like the idea of exposing this audience to
+
+00:33:07.223 --> 00:33:10.688
+aligned career opportunities, so whenever you are looking for a job,
+
+00:33:10.688 --> 00:33:13.400
+whether that's now or later, be sure to check it out.
+
+00:33:14.300 --> 00:33:15.860
+Okay, so back to our main goal.
+
+00:33:16.140 --> 00:33:20.275
+How is it that we can use everything that we've built up about complex functions
+
+00:33:20.275 --> 00:33:24.048
+and transformations that give conformal maps and everything like that to
+
+00:33:24.048 --> 00:33:28.080
+construct some kind of function that recreates Escher's print gallery effect?
+
+00:33:28.680 --> 00:33:31.605
+Maybe it's easiest if I just throw down the whole outline of the function,
+
+00:33:31.605 --> 00:33:33.700
+and then we can go through each step in more detail.
+
+00:33:34.440 --> 00:33:38.969
+First, take a logarithm, giving this bizarre doubly periodic tiling pattern,
+
+00:33:38.969 --> 00:33:43.320
+and then you rotate and scale that tiling pattern in just the right way,
+
+00:33:43.320 --> 00:33:47.075
+and then from there you take an exponential, which unworps it,
+
+00:33:47.075 --> 00:33:49.220
+but this time with a certain twist.
+
+00:33:50.080 --> 00:33:52.821
+This might seem a little bizarre, but there's actually a really
+
+00:33:52.821 --> 00:33:55.780
+nice way to motivate and to understand what's really going on here.
+
+00:33:56.300 --> 00:33:59.135
+Take a look back at that original Droste image,
+
+00:33:59.135 --> 00:34:02.695
+and remember how we want to take this big pie creature and
+
+00:34:02.695 --> 00:34:07.280
+somehow identify it with the smaller self-similar copy, 16 times zoomed in.
+
+00:34:07.540 --> 00:34:10.659
+I want you to think about a line connecting both of those.
+
+00:34:11.219 --> 00:34:14.901
+One way to frame the goal that we have is that we want the final
+
+00:34:14.901 --> 00:34:19.100
+function to transform such a line into a closed loop in the final space.
+
+00:34:19.540 --> 00:34:24.025
+The endpoints of the line on the top represent the big and the small pie creatures,
+
+00:34:24.025 --> 00:34:28.078
+so whatever function identifies those creatures should, at the very least,
+
+00:34:28.078 --> 00:34:29.159
+close up this line.
+
+00:34:29.600 --> 00:34:33.600
+Now think about what this line looks like in the logarithm of the image.
+
+00:34:33.600 --> 00:34:36.185
+The big pie creature corresponds to all these
+
+00:34:36.185 --> 00:34:39.000
+multiple copies here next to the imaginary line.
+
+00:34:39.639 --> 00:34:42.675
+As we talked about, when you scale down the image,
+
+00:34:42.675 --> 00:34:45.771
+it corresponds to shifting to the left in the log,
+
+00:34:45.771 --> 00:34:49.900
+so these copies in the log image represent that small pie creature.
+
+00:34:50.300 --> 00:34:52.682
+And actually, instead of using this horizontal line,
+
+00:34:52.682 --> 00:34:56.438
+we're going to want to take advantage of the fact that this log image is periodic
+
+00:34:56.438 --> 00:34:57.720
+in two separate directions.
+
+00:34:58.360 --> 00:35:03.098
+So instead, what we'll work with is a diagonal line that connects this
+
+00:35:03.098 --> 00:35:07.700
+copy of the big character to this lower left copy of the small one.
+
+00:35:07.940 --> 00:35:10.303
+That might seem unmotivated at the moment, and it is,
+
+00:35:10.303 --> 00:35:13.513
+but the best way to explain why is just to show you how this plays out,
+
+00:35:13.513 --> 00:35:16.990
+and afterwards, if you want, we can contrast with what would have happened if
+
+00:35:16.990 --> 00:35:18.640
+you tried using the horizontal line.
+
+00:35:19.200 --> 00:35:22.540
+Now this new downward component in the log image corresponds to
+
+00:35:22.540 --> 00:35:26.040
+adding some clockwise rotation to the path in the original image.
+
+00:35:26.460 --> 00:35:30.538
+Remember, our goal is to turn this into a loop in the final image,
+
+00:35:30.538 --> 00:35:34.677
+but you and I just spent like 10 minutes talking extensively about
+
+00:35:34.677 --> 00:35:38.940
+a function that turns line segments into circles, namely e to the z.
+
+00:35:39.320 --> 00:35:43.660
+What you need to do is get that line segment to end up perfectly vertical
+
+00:35:43.660 --> 00:35:47.881
+with a height of 2 pi, and doing this basically comes down to rotating
+
+00:35:47.881 --> 00:35:52.340
+and scaling it in just the right way to give it that length and direction.
+
+00:35:52.940 --> 00:35:56.298
+Now if you remember, as we were warming up with complex numbers,
+
+00:35:56.298 --> 00:36:00.444
+we talked about how multiplication by a constant gives you some combination of
+
+00:36:00.444 --> 00:36:04.537
+rotation and scaling, and in this case, one artistic feature we might like is
+
+00:36:04.537 --> 00:36:08.420
+for our big pi creature on the lower left to stay fixed in that position,
+
+00:36:08.420 --> 00:36:12.775
+and that would mean that this point in our log image needs to stay fixed in place,
+
+00:36:12.775 --> 00:36:16.815
+so instead of pivoting around the origin, we really want everything to pivot
+
+00:36:16.815 --> 00:36:17.760
+about that point.
+
+00:36:18.280 --> 00:36:21.104
+Let's say we label that point something like z naught,
+
+00:36:21.104 --> 00:36:25.183
+then here's how the updated formula would look for that rotation and scaling,
+
+00:36:25.183 --> 00:36:29.105
+but really most of the content comes down to choosing this constant c that
+
+00:36:29.105 --> 00:36:32.034
+you're going to multiply by, and if you like exercises,
+
+00:36:32.034 --> 00:36:35.851
+you might enjoy actually taking a moment to work out what specific value
+
+00:36:35.851 --> 00:36:37.420
+that constant should take on.
+
+00:36:38.200 --> 00:36:42.103
+But right here, since we're being very visual and I want to have a little fun,
+
+00:36:42.103 --> 00:36:45.256
+let me show you that constant in its own little complex plane,
+
+00:36:45.256 --> 00:36:49.560
+and then also show what happens if I kind of grab it and move it around a little bit.
+
+00:36:50.060 --> 00:36:53.143
+Different choices give you different scaling and rotation,
+
+00:36:53.143 --> 00:36:57.820
+which after exponentiating gives you all these completely bizarre kaleidoscopic images.
+
+00:36:58.420 --> 00:37:01.787
+One way you could think about the whole operation is as a game where
+
+00:37:01.787 --> 00:37:05.302
+you're trying to find just the right value that corresponds everything
+
+00:37:05.302 --> 00:37:08.520
+to line up as you need them to in that image of the lower right.
+
+00:37:09.120 --> 00:37:12.950
+When it is set to that appropriate value and we get this recreated Escher effect,
+
+00:37:12.950 --> 00:37:16.875
+in that final image on the lower right, I've been showing this hole in the middle,
+
+00:37:16.875 --> 00:37:19.760
+analogous to the hole that Escher had in his original piece.
+
+00:37:20.640 --> 00:37:22.420
+But that's actually entirely artificial.
+
+00:37:22.780 --> 00:37:25.507
+The output image of the function naturally fills
+
+00:37:25.507 --> 00:37:28.120
+that in with its own repeating spiral inward.
+
+00:37:28.120 --> 00:37:31.325
+After all, the rotated tiling pattern on the left extends
+
+00:37:31.325 --> 00:37:35.262
+infinitely through the whole plane, so when you take its exponential,
+
+00:37:35.262 --> 00:37:38.580
+it also fills in everything, except for the point at zero.
+
+00:37:39.880 --> 00:37:40.400
+And that's it!
+
+00:37:40.540 --> 00:37:42.040
+That is the basic operation.
+
+00:37:42.520 --> 00:37:47.154
+Translate to this bizarre looking log space, rotate and scale to realign things,
+
+00:37:47.154 --> 00:37:49.760
+and then translate back with an exponential.
+
+00:37:51.500 --> 00:37:54.771
+At this point, having recreated our own variation on Escher,
+
+00:37:54.771 --> 00:37:59.623
+it might be nice to step through what that same process looks like for Escher's specific
+
+00:37:59.623 --> 00:38:04.366
+example, that seaside Maltese town containing a print gallery with a person looking at
+
+00:38:04.366 --> 00:38:05.620
+a picture of the town.
+
+00:38:06.420 --> 00:38:10.641
+As before, step number one is to place this scene on its own little complex plane,
+
+00:38:10.641 --> 00:38:15.120
+where the infinite limiting point about which everything scales is positioned at zero.
+
+00:38:16.340 --> 00:38:20.541
+Step two, take a logarithm of this, which in this case gives us a similarly bizarre
+
+00:38:20.541 --> 00:38:24.540
+transformation of the whole scene, but there is a little difference this time.
+
+00:38:24.980 --> 00:38:29.692
+Because Escher was working with a much deeper zoom, with a scale factor of 256,
+
+00:38:29.692 --> 00:38:35.000
+the repeating tiles in this new example actually span a wider part of the complex plane.
+
+00:38:36.280 --> 00:38:38.920
+Step three, again, is to rotate and scale this,
+
+00:38:38.920 --> 00:38:43.300
+which depends on multiplying by the appropriate choice of a complex constant.
+
+00:38:43.760 --> 00:38:48.221
+The constraint is to ensure that this rotated image still repeats every 2 pi
+
+00:38:48.221 --> 00:38:52.800
+units vertically, but along a part of the image that was previously diagonal.
+
+00:38:53.300 --> 00:38:56.588
+And then step four, plug this all through e to the z,
+
+00:38:56.588 --> 00:39:00.931
+and what you get is something very similar to Escher's final picture,
+
+00:39:00.931 --> 00:39:06.080
+an image where walking around a loop corresponds to zooming in by a factor of 256.
+
+00:39:07.720 --> 00:39:10.433
+And again, when we frame it this way with complex functions,
+
+00:39:10.433 --> 00:39:11.880
+there is no hole in the middle.
+
+00:39:12.160 --> 00:39:16.617
+That final result is itself a Droste image, albeit this time with a twist,
+
+00:39:16.617 --> 00:39:21.736
+where there's a kind of self-similarity spiraling down infinitely far as much as you
+
+00:39:21.736 --> 00:39:22.760
+want to zoom in.
+
+00:39:24.000 --> 00:39:26.880
+There are a couple things worth noticing about this whole process.
+
+00:39:27.480 --> 00:39:31.142
+First off, if you write this idea down as a formula, where you take a log,
+
+00:39:31.142 --> 00:39:33.616
+multiply it by a constant, and then exponentiate,
+
+00:39:33.616 --> 00:39:37.476
+that can actually be simplified to simply look like raising your input to the
+
+00:39:37.476 --> 00:39:39.060
+power of some complex constant.
+
+00:39:39.540 --> 00:39:43.200
+And if you reintroduce that offset factor, it just introduces another constant.
+
+00:39:43.980 --> 00:39:46.947
+On the one hand, it's very pleasing that this entire complicated
+
+00:39:46.947 --> 00:39:49.635
+process can be boiled down to so few symbols on the page,
+
+00:39:49.635 --> 00:39:52.880
+but I do think this risks kind of obscuring what's actually going on.
+
+00:39:53.740 --> 00:39:55.739
+And then, I had mentioned things would not work
+
+00:39:55.739 --> 00:39:57.780
+if you only tried using those horizontal lines.
+
+00:39:58.040 --> 00:40:00.747
+If you're curious, here's what it looks like if you try that,
+
+00:40:00.747 --> 00:40:04.740
+which would mean rotating everything by 90 degrees and scaling it the appropriate amount.
+
+00:40:05.320 --> 00:40:08.880
+You do get something kind of interesting, but it's just not what we're going for.
+
+00:40:09.180 --> 00:40:11.657
+And if you think about it, what's basically going on is
+
+00:40:11.657 --> 00:40:14.360
+that you are swapping the roles of rotation and of scaling.
+
+00:40:16.680 --> 00:40:20.529
+Stepping back from all this, this second perspective where the piece is
+
+00:40:20.529 --> 00:40:24.594
+all about rotating in a log space feels completely different from Escher's
+
+00:40:24.594 --> 00:40:28.280
+more intuitive approach using his distorted grid and the mesh warp.
+
+00:40:28.760 --> 00:40:31.180
+But there is a through line connecting both perspectives.
+
+00:40:31.900 --> 00:40:34.675
+For one thing, you can now understand how exactly we've
+
+00:40:34.675 --> 00:40:37.500
+been recreating and modifying the grid that Escher had.
+
+00:40:37.940 --> 00:40:40.928
+You basically take that same function that we've built up,
+
+00:40:40.928 --> 00:40:45.100
+but instead of applying it to an image, you apply it to an ordinary square grid.
+
+00:40:45.780 --> 00:40:47.760
+Well, actually not quite an ordinary square grid.
+
+00:40:48.020 --> 00:40:50.764
+It's nicest to work with one that gets more dense as
+
+00:40:50.764 --> 00:40:53.560
+you zoom in so that it looks the same at all scales.
+
+00:40:54.200 --> 00:40:58.180
+When you do this, the logarithm gives you this very beautiful curved tiling pattern.
+
+00:40:58.720 --> 00:41:02.160
+And then from there, you do the same trick of rotating things in just
+
+00:41:02.160 --> 00:41:05.351
+the right way and then taking an exponential with the result of
+
+00:41:05.351 --> 00:41:09.140
+something quite close to what Escher spent many arduous hours constructing.
+
+00:41:09.680 --> 00:41:12.922
+And remember, the entire reason that we're using the language of
+
+00:41:12.922 --> 00:41:16.214
+complex numbers is the motivation for me having you jump through
+
+00:41:16.214 --> 00:41:19.760
+those hoops is that this conformal property falls out as a byproduct.
+
+00:41:20.180 --> 00:41:23.819
+Tiny squares from the original grid remain, at least approximately,
+
+00:41:23.819 --> 00:41:25.340
+square in the final result.
+
+00:41:26.000 --> 00:41:29.500
+Escher said that making this piece gave him some almighty headaches,
+
+00:41:29.500 --> 00:41:33.413
+and though maybe you and I had to endure a few headaches ourselves for very
+
+00:41:33.413 --> 00:41:37.479
+different reasons, the payoff is that this property is one that we get with no
+
+00:41:37.479 --> 00:41:38.200
+added effort.
+
+00:41:39.000 --> 00:41:42.724
+Now to be clear, you certainly don't need to understand complex derivatives or
+
+00:41:42.724 --> 00:41:46.400
+logarithms to enjoy Escher's work, and I wouldn't want to imply that you do.
+
+00:41:46.740 --> 00:41:49.615
+However, when you understand that more mathematical side,
+
+00:41:49.615 --> 00:41:53.499
+it gives you the capacity for a very different kind of appreciation for what
+
+00:41:53.499 --> 00:41:54.760
+Escher was really doing.
+
+00:41:55.180 --> 00:41:57.718
+And this is what I find fascinating about all of this,
+
+00:41:57.718 --> 00:42:00.680
+the real connection I want to give between the two storylines.
+
+00:42:01.140 --> 00:42:05.186
+If you look at Escher's career, throughout it he was drawn to certain concepts,
+
+00:42:05.186 --> 00:42:07.900
+things like representing infinity in a finite space.
+
+00:42:08.280 --> 00:42:11.907
+And at the same time, he seemed to be guided by a certain aesthetic,
+
+00:42:11.907 --> 00:42:16.600
+often some implicit rigid rule like the idea of little squares remaining little squares
+
+00:42:16.600 --> 00:42:17.400
+for this mesh.
+
+00:42:17.760 --> 00:42:21.257
+The end result when concept and aesthetic are combined like this is
+
+00:42:21.257 --> 00:42:25.015
+that a given piece from Escher often feels like a solution to a puzzle,
+
+00:42:25.015 --> 00:42:28.460
+but one where it's not even obvious that a solution should exist.
+
+00:42:29.040 --> 00:42:32.785
+Now what I find so thought-provoking is that these visual puzzles
+
+00:42:32.785 --> 00:42:36.760
+that he landed on are not merely analogous to the act of doing math.
+
+00:42:36.840 --> 00:42:40.190
+The specific structures that he was intuitively drawn to
+
+00:42:40.190 --> 00:42:43.780
+often hide within them very real and very deep mathematics.
+
+00:42:44.260 --> 00:42:46.992
+In our example, the deeper structure is not just that
+
+00:42:46.992 --> 00:42:49.620
+the piece can be described with complex functions.
+
+00:42:50.120 --> 00:42:53.190
+The ideas that we've touched on in this storyline are actually
+
+00:42:53.190 --> 00:42:56.260
+a lot closer than you might expect to the research frontiers.
+
+00:42:56.840 --> 00:42:59.664
+If you look back at our approach in the second half,
+
+00:42:59.664 --> 00:43:04.171
+remember how it relied on using this doubly periodic pattern in the complex plane,
+
+00:43:04.171 --> 00:43:06.940
+something that repeats in two separate directions.
+
+00:43:07.860 --> 00:43:10.049
+There's actually a special name for functions of
+
+00:43:10.049 --> 00:43:12.420
+complex numbers that are doubly periodic like this.
+
+00:43:12.640 --> 00:43:14.560
+They're known as elliptic functions.
+
+00:43:14.900 --> 00:43:19.384
+It would be way too much to explain right here exactly why these functions are so useful,
+
+00:43:19.384 --> 00:43:23.566
+but one thing I want to highlight is that those two mathematicians I referenced at
+
+00:43:23.566 --> 00:43:27.698
+the start, the ones who provided the analysis of this piece, De Smit and Lenstra,
+
+00:43:27.698 --> 00:43:31.729
+are both number theorists, and elliptic functions play a very prominent role in
+
+00:43:31.729 --> 00:43:35.760
+modern number theory, providing a kind of bridge to other parts of mathematics.
+
+00:43:36.400 --> 00:43:39.870
+This may at least partially explain how it is that they could look at
+
+00:43:39.870 --> 00:43:43.440
+this piece and think to construct that function that we laid out here.
+
+00:43:44.660 --> 00:43:48.825
+When I look at Escher's work, whether it's the print gallery or many other favorites,
+
+00:43:48.825 --> 00:43:52.205
+the reason I love these pieces so much is that they awaken within me
+
+00:43:52.205 --> 00:43:54.900
+a very specific feeling that's hard to find elsewhere.
+
+00:43:55.280 --> 00:43:57.740
+It's a feeling of things perfectly fitting into place.
+
+00:43:58.140 --> 00:43:59.580
+But that's not exactly it.
+
+00:43:59.620 --> 00:44:02.320
+It's something more than just the pleasure of seeing a puzzle solved.
+
+00:44:02.540 --> 00:44:05.311
+It's an appreciation for the creative genius required
+
+00:44:05.311 --> 00:44:07.820
+to even dream up the puzzle in the first place.
+
+00:44:08.140 --> 00:44:11.600
+The only other place where I get that feeling is in doing math.
+
+00:44:11.940 --> 00:44:16.364
+So the fact that an artist and a mathematician can be drawn to the same structures,
+
+00:44:16.364 --> 00:44:20.415
+but for completely different reasons, suggests to me that there's something
+
+00:44:20.415 --> 00:44:24.200
+universal in what exactly it is that both of them seem to be drawn to.
+

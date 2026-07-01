@@ -1,0 +1,1589 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.590
+[Submit subtitle corrections at criblate.com]
+When you encode text into binary, it's often nice to use as little data as possible,
+
+00:00:04.590 --> 00:00:08.142
+so you might naturally wonder, is there some kind of fundamental
+
+00:00:08.142 --> 00:00:10.820
+limit on how efficiently text can be compressed?
+
+00:00:11.500 --> 00:00:14.360
+The default encoding with ASCII is pretty inefficient.
+
+00:00:14.620 --> 00:00:17.000
+Each character is represented with eight full bits.
+
+00:00:17.320 --> 00:00:20.897
+If you apply a little cleverness associating more common characters with
+
+00:00:20.897 --> 00:00:24.475
+smaller bit strings, you can get this down to an average of around four
+
+00:00:24.475 --> 00:00:27.505
+bits per character, and then much smarter methods than that,
+
+00:00:27.505 --> 00:00:31.480
+that leverage patterns among long sequences of text, can get even better still.
+
+00:00:32.060 --> 00:00:33.320
+But again, what's the limit?
+
+00:00:34.220 --> 00:00:37.213
+I'm guessing many of you might have heard an estimate here,
+
+00:00:37.213 --> 00:00:40.460
+I will share one at the end, but much more interesting than any
+
+00:00:40.460 --> 00:00:43.960
+single numerical answer is how you would even approach answering it.
+
+00:00:44.300 --> 00:00:46.610
+This question dates back at least to the 1940s,
+
+00:00:46.610 --> 00:00:50.100
+with Claude Shannon's seminal work that kicked off information theory.
+
+00:00:50.100 --> 00:00:54.547
+Now what's very interesting is how the math that he developed to answer questions
+
+00:00:54.547 --> 00:00:58.940
+like this has turned out to be surprisingly useful for modern machine learning.
+
+00:00:59.580 --> 00:01:03.858
+To take the salient example of today, when large language models are trained,
+
+00:01:03.858 --> 00:01:07.969
+the pre-training portion of that is usually described as being about next
+
+00:01:07.969 --> 00:01:12.080
+token prediction, specifically using something called cross-entropy loss.
+
+00:01:12.620 --> 00:01:15.660
+Now that term, cross-entropy, has its roots in information theory.
+
+00:01:15.660 --> 00:01:19.438
+But what's also interesting is that one of the conclusions of information
+
+00:01:19.438 --> 00:01:23.320
+theory says that prediction and compression are mathematically equivalent.
+
+00:01:23.760 --> 00:01:25.860
+They turn out to be two sides of the same coin.
+
+00:01:26.400 --> 00:01:30.298
+Which means, you can entirely reframe how you think about the pre-training
+
+00:01:30.298 --> 00:01:33.774
+objective as not really being about next token prediction per se,
+
+00:01:33.774 --> 00:01:38.040
+but instead as being about creating the most efficient possible text compressor.
+
+00:01:38.460 --> 00:01:41.341
+Later I'll explain exactly how that works, but when you do,
+
+00:01:41.341 --> 00:01:45.199
+I think it offers more clarity on what this notion of cross-entropy really is,
+
+00:01:45.199 --> 00:01:46.420
+and why you're using it.
+
+00:01:46.800 --> 00:01:49.162
+Also, I don't know about you, but to me at least,
+
+00:01:49.162 --> 00:01:53.020
+there's just something very intriguing about using compression as a fundamental
+
+00:01:53.020 --> 00:01:54.900
+objective while pursuing intelligence.
+
+00:01:55.500 --> 00:01:59.500
+In fact, some people have gone so far as to say, compression is intelligence.
+
+00:02:00.680 --> 00:02:03.611
+Now, as stated, that's a hard claim to judge rigorously,
+
+00:02:03.611 --> 00:02:06.700
+since intelligence is such a squishy and ill-defined term.
+
+00:02:06.700 --> 00:02:09.937
+The safer claim would be that the mathematical theory of
+
+00:02:09.937 --> 00:02:13.520
+compression is bizarrely relevant to artificial intelligence.
+
+00:02:14.160 --> 00:02:17.428
+Still, the pithy phrase is thought-provoking, so this is the
+
+00:02:17.428 --> 00:02:21.077
+first in a trilogy of videos aimed at laying down the mathematical
+
+00:02:21.077 --> 00:02:24.400
+fundamentals to assess what this claim is really getting at.
+
+00:02:24.920 --> 00:02:28.528
+For the next 30 minutes or so, you and I will be focused on understanding
+
+00:02:28.528 --> 00:02:32.136
+the limits of compression, and seeing if we can get you to feel like you
+
+00:02:32.136 --> 00:02:36.140
+could have rediscovered the core idea behind Shannon's noiseless coding theorem.
+
+00:02:36.140 --> 00:02:39.391
+Doing so involves rediscovering a few key definitions,
+
+00:02:39.391 --> 00:02:41.860
+namely those of information and entropy.
+
+00:02:42.400 --> 00:02:46.439
+And it might sound a little weird for me to describe definitions as something to be
+
+00:02:46.439 --> 00:02:50.380
+discovered, but great definitions are often the residue of some kind of insight.
+
+00:02:51.000 --> 00:02:54.658
+See, these two specific terms are really not hard to define in the sense of
+
+00:02:54.658 --> 00:02:58.560
+laying down a formula for you, but doing so too early would spoil a good story.
+
+00:02:58.900 --> 00:03:02.219
+It is much more fun to see how you are inexorably drawn to
+
+00:03:02.219 --> 00:03:05.480
+them by asking about the limits of compressing language.
+
+00:03:05.480 --> 00:03:08.900
+And what I want you to notice by the end here is how we can't
+
+00:03:08.900 --> 00:03:12.208
+really answer this question, or at least Shannon couldn't,
+
+00:03:12.208 --> 00:03:15.740
+without necessarily engaging with some notion of intelligence.
+
+00:03:19.000 --> 00:03:22.629
+We will get to modelling language, which is wonderfully complicated,
+
+00:03:22.629 --> 00:03:25.938
+but it helps to warm up with a simpler example containing the
+
+00:03:25.938 --> 00:03:28.980
+same essential ideas needed for our path of rediscovery.
+
+00:03:29.740 --> 00:03:32.833
+Imagine you have a robot that we have sent to a faraway moon,
+
+00:03:32.833 --> 00:03:35.520
+whose job is to wander the surface and collect data.
+
+00:03:36.020 --> 00:03:38.677
+From here on Earth, we send it instructions for how to move
+
+00:03:38.677 --> 00:03:41.560
+that are going to be limited to four very simple possibilities.
+
+00:03:42.180 --> 00:03:46.300
+Move up, down, left, or right, each one with a fixed step size.
+
+00:03:47.420 --> 00:03:51.220
+The nuance will be that these instructions are not uniformly distributed.
+
+00:03:51.960 --> 00:03:56.447
+Half of everything we send is up, one fourth of the instructions are down,
+
+00:03:56.447 --> 00:03:59.660
+one eighth are left, and the other eighth are right.
+
+00:04:00.140 --> 00:04:02.990
+It's a little contrived, it's meant to be a simple example,
+
+00:04:02.990 --> 00:04:07.047
+and in that spirit of simplicity, we're also going to assume that every instruction
+
+00:04:07.047 --> 00:04:07.820
+is independent.
+
+00:04:08.260 --> 00:04:11.900
+They are sampled from this distribution regardless of the preceding context.
+
+00:04:12.700 --> 00:04:16.753
+When we send data to this bot far away, we're doing it as a stream of bits,
+
+00:04:16.753 --> 00:04:21.238
+ones and zeros, and it's very slow and costly to do that, so the natural question,
+
+00:04:21.238 --> 00:04:25.075
+the warm-up puzzle for you today, is to ask what is the most efficient
+
+00:04:25.075 --> 00:04:28.480
+possible way to encode these instructions as a stream of bits.
+
+00:04:29.160 --> 00:04:33.058
+And here, we might imagine three students who each attempt an answer,
+
+00:04:33.058 --> 00:04:37.520
+one who's straightforward, one who is clever, and one who is very theoretical.
+
+00:04:38.140 --> 00:04:41.247
+The straightforward student immediately raises their hand and says,
+
+00:04:41.247 --> 00:04:44.540
+well, for each of these four instructions, we could just use two bits.
+
+00:04:45.000 --> 00:04:52.140
+Maybe 00 encodes up, 01 encodes down, 10 encodes left, and 11 encodes right.
+
+00:04:52.640 --> 00:04:55.940
+On the receiving end, this makes it very easy for the robot to decode.
+
+00:04:55.940 --> 00:04:58.679
+It simply breaks up the bitstream into chunks of two,
+
+00:04:58.679 --> 00:05:01.780
+and translates each chunk into the appropriate instruction.
+
+00:05:02.780 --> 00:05:06.619
+Now, the clever student points out, well, that does nothing to take advantage
+
+00:05:06.619 --> 00:05:10.060
+of the fact that up comes up way more frequently than left or right.
+
+00:05:10.540 --> 00:05:14.740
+They propose a method where we use a different number of bits for each instruction.
+
+00:05:14.960 --> 00:05:18.430
+I'll explain it in just a second, but I do want to call out the fact that
+
+00:05:18.430 --> 00:05:21.900
+as soon as you let different instructions get different numbers of bits,
+
+00:05:21.900 --> 00:05:25.560
+it's certainly not obvious that the robot is going to know how to decode it.
+
+00:05:25.560 --> 00:05:29.720
+After all, it needs to somehow know where to draw the dividing lines.
+
+00:05:30.660 --> 00:05:33.778
+Now, being very clever, the second student has thought that through,
+
+00:05:33.778 --> 00:05:36.620
+but it's easiest to explain if I just kind of lay it all out.
+
+00:05:37.180 --> 00:05:41.340
+What they suggest is letting the single bit 0 represent up,
+
+00:05:41.340 --> 00:05:46.840
+letting the two bits 10 represent down, using 110 for left and 111 for right.
+
+00:05:47.700 --> 00:05:50.582
+You can calculate the average number of bits per instruction
+
+00:05:50.582 --> 00:05:53.080
+that this would require with a simple weighted sum.
+
+00:05:53.080 --> 00:05:56.377
+Half the time, only one bit is used, a quarter of the time,
+
+00:05:56.377 --> 00:06:00.120
+two bits are needed, and the remaining times, you need three bits.
+
+00:06:00.780 --> 00:06:04.914
+When you add this all up, as a weighted sum, you get 1.75 bits per instruction,
+
+00:06:04.914 --> 00:06:09.520
+which is indeed better than the more naive approach of a flat two bits per instruction.
+
+00:06:10.100 --> 00:06:13.589
+The second student is spending more bits on those last two instructions,
+
+00:06:13.589 --> 00:06:16.012
+but because they come up so much less frequently,
+
+00:06:16.012 --> 00:06:20.180
+this is more than made up for by using only one bit for that most common instruction.
+
+00:06:20.180 --> 00:06:23.700
+And you can see this efficiency bear out empirically too.
+
+00:06:24.060 --> 00:06:27.660
+This right here is a set of instructions sampled from that distribution.
+
+00:06:28.180 --> 00:06:33.340
+You'll notice lots of ups, about half as many downs, and even fewer lefts and rights.
+
+00:06:34.040 --> 00:06:38.160
+When you turn each symbol into the appropriate bit string following this encoding,
+
+00:06:38.160 --> 00:06:42.280
+the resulting sequence of bits is indeed shorter than what the naive method gave.
+
+00:06:43.260 --> 00:06:47.120
+But I hear some of you asking, how does the robot know how to decode this?
+
+00:06:47.120 --> 00:06:50.960
+Can we be sure that there's an unambiguous way to draw the dividing lines?
+
+00:06:51.480 --> 00:06:54.137
+In the lingo of encodings, each of these four bit strings
+
+00:06:54.137 --> 00:06:56.700
+used to encode the instructions is called a code word.
+
+00:06:57.100 --> 00:07:00.677
+And as we step through things here, see if you can figure out what rule the clever
+
+00:07:00.677 --> 00:07:04.560
+student was following to make sure that their code words don't conflict with each other.
+
+00:07:05.520 --> 00:07:07.916
+And really, you just need to look at an example bit
+
+00:07:07.916 --> 00:07:10.640
+stream from the robot's perspective and think it through.
+
+00:07:11.340 --> 00:07:13.920
+Let's say that that very first bit that it receives is a 1.
+
+00:07:13.920 --> 00:07:18.980
+So far, this could be encoding any of the last three instructions, down, left, or right.
+
+00:07:19.480 --> 00:07:23.160
+If what follows is a 0, then it can only be down.
+
+00:07:23.420 --> 00:07:24.680
+There is no other possibility.
+
+00:07:25.000 --> 00:07:27.500
+So the robot can register that as a complete instruction.
+
+00:07:28.100 --> 00:07:30.918
+From there, starting fresh, if what follows is a 0,
+
+00:07:30.918 --> 00:07:34.400
+that must be encoding up, since there is no other possibility.
+
+00:07:34.660 --> 00:07:36.000
+Nothing else starts with a 0.
+
+00:07:36.600 --> 00:07:39.290
+After that, if they see a 1, this is so far ambiguous,
+
+00:07:39.290 --> 00:07:41.980
+it's the prefix for any of the last three code words.
+
+00:07:41.980 --> 00:07:47.040
+If the next bit is another 1, it remains ambiguous, it's the prefix of the last two.
+
+00:07:47.400 --> 00:07:52.100
+But that following 0 then makes clear these three bits must have been encoding left.
+
+00:07:52.940 --> 00:07:56.080
+In short, all the robot has to do is read in the next sequence
+
+00:07:56.080 --> 00:07:59.170
+of bits until the moment that it forms a complete code word,
+
+00:07:59.170 --> 00:08:02.260
+at which point it can register it as a complete instruction.
+
+00:08:03.960 --> 00:08:07.621
+If you step back and think about it, the key constraint for this
+
+00:08:07.621 --> 00:08:11.340
+all to work is that no code word can be a prefix of another one.
+
+00:08:11.340 --> 00:08:14.152
+For example, let's say you tried to introduce some
+
+00:08:14.152 --> 00:08:16.740
+fifth instruction that had the code word 100.
+
+00:08:17.560 --> 00:08:20.250
+That would cause conflicts, because after reading 10,
+
+00:08:20.250 --> 00:08:22.839
+it's not clear whether that's supposed to be down,
+
+00:08:22.839 --> 00:08:26.240
+or if it's supposed to be the start of this new fifth instruction.
+
+00:08:27.100 --> 00:08:31.260
+When you avoid this kind of conflict, an encoding method like this has a special name.
+
+00:08:31.520 --> 00:08:36.090
+It's known in the business as a prefix-free code, or what is confusingly synonymous,
+
+00:08:36.090 --> 00:08:38.919
+it's actually more commonly known as a prefix code.
+
+00:08:38.919 --> 00:08:42.860
+And there's a really nice way to visualize choosing prefix-free codes
+
+00:08:42.860 --> 00:08:46.800
+with a certain diagram that represents every possible binary string.
+
+00:08:47.500 --> 00:08:49.856
+This diagram also has some helpful parallels with
+
+00:08:49.856 --> 00:08:52.260
+how I want to show entropy in just a few minutes.
+
+00:08:52.740 --> 00:08:55.546
+It's probably decently intuitive what's going on if you just pause
+
+00:08:55.546 --> 00:08:58.480
+and stare at it for a bit, but I'll call out the important features.
+
+00:08:59.480 --> 00:09:02.457
+Each layer shows every bit string of a given length,
+
+00:09:02.457 --> 00:09:06.636
+and you'll notice everything that starts with a 0 lives on the left half
+
+00:09:06.636 --> 00:09:10.758
+of this diagram, and everything that starts with a 1 lives on the right
+
+00:09:10.758 --> 00:09:11.960
+half of the diagram.
+
+00:09:12.500 --> 00:09:15.780
+And that same idea continues recursively as you go up.
+
+00:09:16.180 --> 00:09:20.288
+So everything starting with 00 is above this quarter of the diagram,
+
+00:09:20.288 --> 00:09:24.940
+everything starting with 01 is above this quarter of the diagram, and so on.
+
+00:09:25.500 --> 00:09:29.230
+In particular, the key property is that every binary string in
+
+00:09:29.230 --> 00:09:32.840
+this diagram is a prefix for everything that sits above it.
+
+00:09:32.840 --> 00:09:36.734
+So when our clever student chose to allocate a single bit 0 to
+
+00:09:36.734 --> 00:09:40.942
+represent the instruction up, they were effectively consuming half
+
+00:09:40.942 --> 00:09:44.270
+of the space of all possible code words by doing so,
+
+00:09:44.270 --> 00:09:49.860
+since everything starting with a 0 is now prohibited based on this prefix-free property.
+
+00:09:50.680 --> 00:09:54.878
+Similarly, allocating one 0 to down eats up another fourth of this space,
+
+00:09:54.878 --> 00:09:58.960
+and the remaining two instructions each eat up an eighth of the space.
+
+00:09:59.300 --> 00:10:01.240
+You can just see how nothing is left over.
+
+00:10:02.020 --> 00:10:07.131
+And at this point, I'm guessing that there's some bell kind of resonating in your mind,
+
+00:10:07.131 --> 00:10:10.715
+given that these proportions are all exactly the same as the
+
+00:10:10.715 --> 00:10:13.300
+probability for each instruction coming up.
+
+00:10:13.740 --> 00:10:18.040
+And in fact, that tickling sensation of a relationship between data size
+
+00:10:18.040 --> 00:10:22.460
+and probabilities is exactly the founding insight for information theory.
+
+00:10:23.160 --> 00:10:27.010
+When you stare at this pleasing alignment, it might suggest that the
+
+00:10:27.010 --> 00:10:31.200
+clever student's solution is not just better, maybe it's somehow perfect.
+
+00:10:32.140 --> 00:10:34.320
+But at the moment, that feels like a bold claim to make.
+
+00:10:34.620 --> 00:10:38.087
+How could you know that there's not some ultra-clever method that does
+
+00:10:38.087 --> 00:10:41.654
+something fancy with really long sequences of instructions that somehow
+
+00:10:41.654 --> 00:10:45.220
+makes it so the average bits per instruction gets even lower than this?
+
+00:10:46.160 --> 00:10:48.777
+This takes us to the third student, Head in the Clouds,
+
+00:10:48.777 --> 00:10:52.440
+who has not really been thinking about actual codes that they can implement.
+
+00:10:52.440 --> 00:10:57.900
+They have been pondering what properties a perfect, optimally efficient code would have.
+
+00:10:58.700 --> 00:11:02.436
+They have this really clever idea, which is to argue that random noise
+
+00:11:02.436 --> 00:11:06.331
+should be incompressible, and therefore, a perfect compression algorithm
+
+00:11:06.331 --> 00:11:10.120
+should produce a bitstream that's indistinguishable from random noise.
+
+00:11:10.720 --> 00:11:13.260
+What's neat is, even though that sounds kind of simple,
+
+00:11:13.260 --> 00:11:16.540
+this can actually lead you to reinventing the idea of Shannon entropy.
+
+00:11:17.440 --> 00:11:21.390
+Now when I say random noise, what I mean is that each bit is a 1 or a 0,
+
+00:11:21.390 --> 00:11:25.560
+with 50% probability, and all of the bits act independent from one another.
+
+00:11:26.060 --> 00:11:28.263
+It's not hard to show that our second student's
+
+00:11:28.263 --> 00:11:30.700
+encoding for the robot genuinely follows this rule.
+
+00:11:31.240 --> 00:11:35.706
+If you think about it, there's a 50% chance that the message starts with the
+
+00:11:35.706 --> 00:11:40.700
+instruction up, so that first bit has a 50% chance of being a 0, otherwise it's a 1.
+
+00:11:41.020 --> 00:11:45.351
+And then if it is a 1, there's a 50% chance that the instruction is down,
+
+00:11:45.351 --> 00:11:48.140
+meaning the next bit is 0, otherwise it's a 1.
+
+00:11:48.140 --> 00:11:49.640
+And so on.
+
+00:11:49.900 --> 00:11:54.245
+Each new bit really does act like an independent coin flip, so to the receiver,
+
+00:11:54.245 --> 00:11:58.260
+that compressed bitstream really is indistinguishable from random noise.
+
+00:11:59.340 --> 00:12:01.940
+But why am I saying that random noise is incompressible?
+
+00:12:02.660 --> 00:12:05.680
+Well, for that, let's really focus on things from the receiver's perspective.
+
+00:12:06.260 --> 00:12:09.082
+And here, instead of thinking instruction by instruction,
+
+00:12:09.082 --> 00:12:11.953
+it helps to zoom out and frame our discussion in terms of
+
+00:12:11.953 --> 00:12:15.320
+entire messages and what the encoding for full messages looks like.
+
+00:12:15.320 --> 00:12:19.894
+When that receiver sees a string of n bits representing some compressed message,
+
+00:12:19.894 --> 00:12:23.267
+this is one out of 2 to the n possible messages they could
+
+00:12:23.267 --> 00:12:25.840
+have received that would have the same size.
+
+00:12:26.200 --> 00:12:29.704
+And then critically, because we're assuming this looks like random noise,
+
+00:12:29.704 --> 00:12:32.440
+all 2 to the n of those messages must be equally likely.
+
+00:12:33.060 --> 00:12:36.180
+Now to be clear, we're not just talking about the robot example anymore.
+
+00:12:36.640 --> 00:12:40.621
+Our theoretical head-in-the-cloud student really wants to make an argument for
+
+00:12:40.621 --> 00:12:43.427
+what perfect compression looks like for any data type,
+
+00:12:43.427 --> 00:12:46.540
+like maybe we're compressing language or compressing images,
+
+00:12:46.540 --> 00:12:50.623
+and they want an argument that works regardless of the details of what specific
+
+00:12:50.623 --> 00:12:52.460
+compression algorithm you're using.
+
+00:12:53.060 --> 00:12:56.945
+A loose intuition in your head is that maybe among all of the messages that
+
+00:12:56.945 --> 00:13:01.555
+compress down to n bits, some of them would contain a larger amount of predictable data,
+
+00:13:01.555 --> 00:13:05.440
+while others would have started as a smaller amount of unpredictable data.
+
+00:13:05.820 --> 00:13:10.726
+But the key point is that if the compressed bitstream really does look like random noise,
+
+00:13:10.726 --> 00:13:14.034
+meaning all of the bitstrings of size n are equally likely,
+
+00:13:14.034 --> 00:13:18.169
+it must be the case that all the underlying messages being compressed were
+
+00:13:18.169 --> 00:13:23.020
+equally likely to arise, and even more specifically with probability 1 over 2 to the n.
+
+00:13:23.620 --> 00:13:26.380
+So again, why am I claiming that this is incompressible?
+
+00:13:27.520 --> 00:13:30.163
+Well, let's pull up that same diagram, representing
+
+00:13:30.163 --> 00:13:32.340
+the space of all possible binary strings.
+
+00:13:33.020 --> 00:13:37.532
+In this case, we can think of all the encodings for our 2 to the n equally
+
+00:13:37.532 --> 00:13:41.800
+likely messages as being the bitstrings on one layer of this diagram.
+
+00:13:42.620 --> 00:13:46.613
+If you tried to define an alternate scheme, where you tried to become more
+
+00:13:46.613 --> 00:13:49.743
+efficient by making one of these messages use fewer bits,
+
+00:13:49.743 --> 00:13:53.790
+it would move lower on the diagram, which means it then overlaps with some
+
+00:13:53.790 --> 00:13:57.783
+other message, so you would have to put that other message somewhere else
+
+00:13:57.783 --> 00:13:58.700
+in this diagram.
+
+00:13:59.220 --> 00:14:02.751
+At minimum, that means it's sharing a space with yet a third message,
+
+00:14:02.751 --> 00:14:05.821
+and those last two have to kind of get bumped up one layer,
+
+00:14:05.821 --> 00:14:08.840
+requiring that extra bit for each of them to disambiguate.
+
+00:14:09.440 --> 00:14:13.020
+So saving one bit over here costs you two bits elsewhere.
+
+00:14:13.420 --> 00:14:15.604
+You're basically pushing down a bump on the rug,
+
+00:14:15.604 --> 00:14:17.880
+only to see it pop up even worse in another spot.
+
+00:14:18.920 --> 00:14:23.587
+In general, any message encoded with a string lower on this diagram is going to be eating
+
+00:14:23.587 --> 00:14:28.255
+up more than its fair share of the space, which forces multiple other messages to occupy
+
+00:14:28.255 --> 00:14:32.660
+a smaller region, bumping them higher up, meaning they're encoded less efficiently.
+
+00:14:32.660 --> 00:14:36.127
+I'm going to guess that it's decently intuitive for everyone watching that
+
+00:14:36.127 --> 00:14:39.641
+the most efficient scheme here for equally likely messages is to give them
+
+00:14:39.641 --> 00:14:42.873
+all the same number of bits, but I do think the diagram gives a more
+
+00:14:42.873 --> 00:14:46.340
+concrete way to see why you end up with unfavorable trade-offs otherwise.
+
+00:14:47.340 --> 00:14:50.752
+Once you have this idea that perfect compression looks like random noise,
+
+00:14:50.752 --> 00:14:53.837
+this is exactly the kind of thing I was referencing in the intro,
+
+00:14:53.837 --> 00:14:56.080
+about how insights can lead you to definitions.
+
+00:14:56.900 --> 00:15:01.695
+Notice how what we're basically saying is that a message that uses n bits in a
+
+00:15:01.695 --> 00:15:06.920
+perfect scheme must have a probability of 1 over 2 to the n, or 2 to the negative n.
+
+00:15:07.640 --> 00:15:11.080
+If you take the log base 2 of both sides here and then negate,
+
+00:15:11.080 --> 00:15:15.352
+this is equivalent to saying that the number of bits allocated to a message,
+
+00:15:15.352 --> 00:15:18.625
+assuming perfect compression, is negative log base 2 of p,
+
+00:15:18.625 --> 00:15:20.900
+where p is the probability of occurring.
+
+00:15:22.220 --> 00:15:27.460
+This negative log expression is the fundamental formula for all of information theory.
+
+00:15:27.900 --> 00:15:31.489
+Everything up to this point is me trying to make this value feel like
+
+00:15:31.489 --> 00:15:35.391
+something you are inevitably drawn to by asking about perfect compression,
+
+00:15:35.391 --> 00:15:39.240
+rather than it feeling like some arbitrary definition that we start with.
+
+00:15:39.700 --> 00:15:42.960
+Some students do find this negative log takes a little getting used to.
+
+00:15:43.240 --> 00:15:47.278
+You know, it looks like it should be a negative value before you think about the fraction
+
+00:15:47.278 --> 00:15:51.089
+in the middle, but really the intuitive way to read it is that it's asking how many
+
+00:15:51.089 --> 00:15:54.900
+times do you chop your space of possibilities in half to get to a certain quantity.
+
+00:15:55.480 --> 00:15:59.320
+Here, let me pull up some axes and show you the graph of negative log of p.
+
+00:15:59.960 --> 00:16:04.139
+I've also seen some authors default to writing this as the log of 1 over p,
+
+00:16:04.139 --> 00:16:06.200
+which maybe you find more intuitive.
+
+00:16:06.720 --> 00:16:09.183
+You could also think of it as the log base 1 half of p,
+
+00:16:09.183 --> 00:16:11.289
+which I've never really seen anyone lean into,
+
+00:16:11.289 --> 00:16:14.200
+but personally I would be quite partial to that as a convention.
+
+00:16:14.920 --> 00:16:18.761
+Now, however you write it, what Shannon realized is that this is a very
+
+00:16:18.761 --> 00:16:22.602
+useful way to think about the information that a message contains even
+
+00:16:22.602 --> 00:16:27.363
+when literal perfect compression is not possible and p is no longer a clean power of 2,
+
+00:16:27.363 --> 00:16:30.880
+which would mean that the output here is some fractional amount.
+
+00:16:31.320 --> 00:16:35.420
+In fact, he defined this expression to be the information of an event.
+
+00:16:36.240 --> 00:16:40.505
+The image I sometimes have in my head is to picture the probability of an event
+
+00:16:40.505 --> 00:16:44.609
+with a little pie chart, and the information is this bar above it that gets
+
+00:16:44.609 --> 00:16:48.820
+kind of pumped up to be taller as the probability is squeezed closer to zero.
+
+00:16:49.160 --> 00:16:52.675
+That is, unlikely messages contain a lot of information,
+
+00:16:52.675 --> 00:16:57.320
+and the bar is relaxed to get shorter as the probability approaches 100%.
+
+00:16:57.920 --> 00:17:01.420
+Highly expected messages contain very low information.
+
+00:17:01.900 --> 00:17:04.800
+I want to be clear that there is content to this definition.
+
+00:17:05.119 --> 00:17:09.660
+It's more than just rescaling probabilities, as if converting to an alternate unit system.
+
+00:17:10.300 --> 00:17:11.680
+You've already seen the core idea.
+
+00:17:12.000 --> 00:17:15.530
+In a perfect compression scheme, the number of bits allocated
+
+00:17:15.530 --> 00:17:19.060
+to a full message precisely equals this information content.
+
+00:17:19.540 --> 00:17:22.060
+Now, of course, perfect compression is not always possible.
+
+00:17:22.060 --> 00:17:25.599
+Your probability's messages are likely not perfect powers of 2.
+
+00:17:26.079 --> 00:17:29.062
+So the more general way you would frame this is to say that the
+
+00:17:29.062 --> 00:17:32.991
+information of a message gives you a lower bound on how much it can be compressed,
+
+00:17:32.991 --> 00:17:35.500
+at least when you average overall possible messages.
+
+00:17:35.840 --> 00:17:39.720
+It's perfectly possible to overfit a compression algorithm to one specific case.
+
+00:17:40.640 --> 00:17:43.730
+And to really wrap your mind around information and fractional bits,
+
+00:17:43.730 --> 00:17:46.320
+we need to step up our game beyond that warm-up example.
+
+00:17:46.980 --> 00:17:49.740
+See, with the robot, the probabilities were overly clean.
+
+00:17:49.740 --> 00:17:52.564
+They were all perfect powers of 2, so that the information
+
+00:17:52.564 --> 00:17:55.340
+per symbol could precisely match a whole number of bits.
+
+00:17:55.780 --> 00:17:59.752
+But Shannon was very interested in this question of limits on compression
+
+00:17:59.752 --> 00:18:03.560
+for much more realistic and complicated cases, like natural language.
+
+00:18:04.060 --> 00:18:08.070
+For example, here I'll pull up the probabilities for each new letter in an
+
+00:18:08.070 --> 00:18:12.460
+example phrase, at least as determined by a little GPT that I'm running locally.
+
+00:18:13.120 --> 00:18:16.984
+And, by the way, if the probabilities provided by a model feel like those might be
+
+00:18:16.984 --> 00:18:19.435
+distinct from the probabilities of actual language,
+
+00:18:19.435 --> 00:18:21.320
+you would be right to raise an eyebrow.
+
+00:18:21.740 --> 00:18:22.520
+Hold on to that thought.
+
+00:18:22.780 --> 00:18:24.080
+It becomes very relevant later.
+
+00:18:24.940 --> 00:18:29.240
+One key difference with language is how heavily dependent on context everything is.
+
+00:18:29.900 --> 00:18:33.529
+The probability distribution for each new letter you see is highly,
+
+00:18:33.529 --> 00:18:36.400
+highly contingent on everything that came before it.
+
+00:18:36.720 --> 00:18:39.463
+The other big difference is that all of these probabilities
+
+00:18:39.463 --> 00:18:42.160
+are obviously not going to be clean, perfect powers of 2.
+
+00:18:42.160 --> 00:18:45.541
+So if you compute the Shannon information of each one of these,
+
+00:18:45.541 --> 00:18:49.567
+meaning you take the negative log base 2, all the numbers that you see are
+
+00:18:49.567 --> 00:18:50.640
+fractional amounts.
+
+00:18:51.220 --> 00:18:55.200
+And again, giving a vague interpretation of what these mean is really not hard.
+
+00:18:55.520 --> 00:18:58.803
+Information content is low for very predictable letters,
+
+00:18:58.803 --> 00:19:01.500
+and it's high for very unpredictable letters.
+
+00:19:01.840 --> 00:19:06.288
+But all of you watching this are smart enough to demand a more exact interpretation,
+
+00:19:06.288 --> 00:19:10.260
+one that justifies why these values deserve to be given the units of bits.
+
+00:19:10.260 --> 00:19:14.810
+I mean, it's not like there's going to be some perfect encoding where this
+
+00:19:14.810 --> 00:19:18.007
+letter i has a code word that is somehow 4.19 bits,
+
+00:19:18.007 --> 00:19:23.540
+or where this highly predictable o is somehow encoded with just a narrow sliver of a bit.
+
+00:19:24.040 --> 00:19:27.023
+The real meaning is related to encoding entire messages
+
+00:19:27.023 --> 00:19:29.680
+and coming up with a bound on their compression.
+
+00:19:30.480 --> 00:19:33.950
+The probability for a full phrase, like the one I'm showing here,
+
+00:19:33.950 --> 00:19:38.541
+looks like multiplying the probabilities for each successive new letter, where again,
+
+00:19:38.541 --> 00:19:43.026
+I'll emphasize that these successive letters' probabilities are conditioned on what
+
+00:19:43.026 --> 00:19:43.720
+came before.
+
+00:19:44.240 --> 00:19:46.460
+This is essentially the chain rule from probability.
+
+00:19:47.020 --> 00:19:50.060
+I want you to notice how nicely this plays with a logarithm.
+
+00:19:50.440 --> 00:19:55.532
+If you ask for the information of that full message, taking this negative log expression,
+
+00:19:55.532 --> 00:19:58.622
+because logarithms turn multiplication into addition,
+
+00:19:58.622 --> 00:20:03.600
+this breaks up really nicely as the sum of the information for each individual letter.
+
+00:20:04.000 --> 00:20:06.622
+In the final part of this trilogy, I'm going to walk you
+
+00:20:06.622 --> 00:20:09.290
+through a very specific compression algorithm that would
+
+00:20:09.290 --> 00:20:12.520
+actually compress this text to within one or two bits of this value.
+
+00:20:13.040 --> 00:20:17.215
+It's no longer as simple as mapping each character to a predefined code word,
+
+00:20:17.215 --> 00:20:21.553
+but you nevertheless get this very direct sense of thinking about adding up the
+
+00:20:21.553 --> 00:20:26.053
+fractional information content of each letter to determine the length of the final
+
+00:20:26.053 --> 00:20:27.300
+encoding that you use.
+
+00:20:27.980 --> 00:20:28.860
+So that's the key idea.
+
+00:20:29.120 --> 00:20:32.503
+Even if, by the time you need to relate this to actual data sizes,
+
+00:20:32.503 --> 00:20:35.424
+things will get rounded off to the nearest whole number,
+
+00:20:35.424 --> 00:20:39.473
+what Shannon realized is just how useful it is to work at this higher layer of
+
+00:20:39.473 --> 00:20:43.522
+abstraction, where all your information is allowed to freely be continuous and
+
+00:20:43.522 --> 00:20:46.700
+information of successive events really nicely adds together.
+
+00:20:48.040 --> 00:20:51.585
+Still, if you step back and imagine yourself very seriously assessing
+
+00:20:51.585 --> 00:20:55.232
+the fundamental compressibility of language, all of this hinges on the
+
+00:20:55.232 --> 00:20:58.880
+question of how you know the probabilities for each successive letter.
+
+00:20:59.480 --> 00:21:03.620
+Here, for all these animations, I've been illustrating things using a language model,
+
+00:21:03.620 --> 00:21:07.029
+but for one thing, that doesn't necessarily feel the same as the true
+
+00:21:07.029 --> 00:21:09.561
+probabilities underlying language, and for another,
+
+00:21:09.561 --> 00:21:13.360
+it's not even clear what we would mean by the true probabilities of language.
+
+00:21:14.220 --> 00:21:17.346
+So here, I actually think it's most enlightening to take a step
+
+00:21:17.346 --> 00:21:20.422
+back in time and see how Shannon himself thought about all of
+
+00:21:20.422 --> 00:21:23.300
+this long before language models or modern data analysis.
+
+00:21:23.880 --> 00:21:27.614
+Some of his earliest experiments on the information of language involved
+
+00:21:27.614 --> 00:21:30.259
+looking at specific short sequences of characters,
+
+00:21:30.259 --> 00:21:34.252
+what you often hear referred to as n-grams, and then tracking the statistics
+
+00:21:34.252 --> 00:21:35.600
+of what tended to follow.
+
+00:21:36.180 --> 00:21:38.488
+So, for example, if you scan through a few books,
+
+00:21:38.488 --> 00:21:41.690
+and you notice every single time the two letters th come up and you
+
+00:21:41.690 --> 00:21:44.799
+record what letters tend to follow, you could build up a table of
+
+00:21:44.799 --> 00:21:47.907
+those letters and let those statistics represent a sample for the
+
+00:21:47.907 --> 00:21:49.320
+probabilities you care about.
+
+00:21:49.920 --> 00:21:53.985
+Now, the problem is that this just completely breaks down for longer strings of letters,
+
+00:21:53.985 --> 00:21:56.757
+most notably, any string of text that never shows up in all
+
+00:21:56.757 --> 00:21:58.420
+of the books that you're analyzing.
+
+00:21:58.420 --> 00:22:01.063
+Nevertheless, it's perfectly reasonable to talk
+
+00:22:01.063 --> 00:22:04.100
+about what's expected to follow such a longer string.
+
+00:22:04.640 --> 00:22:07.941
+In fact, if anything, it's more important to talk about those cases,
+
+00:22:07.941 --> 00:22:11.631
+since longer context windows are when things are at their most predictable,
+
+00:22:11.631 --> 00:22:15.660
+and that's where you stand to get the most compression due to that predictability.
+
+00:22:16.560 --> 00:22:19.585
+So instead of using raw statistics, a little bit later,
+
+00:22:19.585 --> 00:22:24.480
+Shannon analyzed a different model of the English language that he had available to him,
+
+00:22:24.480 --> 00:22:25.360
+his wife Betty.
+
+00:22:25.360 --> 00:22:28.250
+As the story goes, Shannon pulled out a book and
+
+00:22:28.250 --> 00:22:31.020
+began asking Betty to guess each next letter.
+
+00:22:31.560 --> 00:22:33.920
+Shannon would then transcribe her guesses letter by letter.
+
+00:22:34.480 --> 00:22:38.089
+Every time she guessed incorrectly, he wrote down the correct letter,
+
+00:22:38.089 --> 00:22:42.220
+and then whenever she guessed correctly, he would just replace it with a dash.
+
+00:22:43.000 --> 00:22:46.464
+The idea was that this transcribed version he was creating has fewer
+
+00:22:46.464 --> 00:22:50.029
+actual letters than the original, but his point was that it contained
+
+00:22:50.029 --> 00:22:53.340
+the same amount of information, at least in the following sense.
+
+00:22:53.340 --> 00:22:57.362
+If he could somehow obtain an exact replica of his wife and conduct the
+
+00:22:57.362 --> 00:23:01.780
+guessing game again, he would only need to supply her with this reduced text.
+
+00:23:02.220 --> 00:23:05.563
+These letters by themselves would provide just the right prompting
+
+00:23:05.563 --> 00:23:08.500
+for his duplicate wife to exactly reproduce the original.
+
+00:23:09.100 --> 00:23:13.308
+Of course, in practice, a person wouldn't necessarily guess the same way twice,
+
+00:23:13.308 --> 00:23:17.250
+and while this qualitatively conveyed the idea of predictability allowing
+
+00:23:17.250 --> 00:23:20.500
+for compression, it wasn't yet a measurement of information.
+
+00:23:20.500 --> 00:23:24.971
+A bit later still, in his 1950 paper, Prediction and Entropy of Printed English,
+
+00:23:24.971 --> 00:23:29.107
+Shannon updated the experimental design to get a more robust read on this
+
+00:23:29.107 --> 00:23:32.740
+slippery question of the average information content in English.
+
+00:23:33.300 --> 00:23:36.689
+This time interviewing more people, instead of just logging whether
+
+00:23:36.689 --> 00:23:40.229
+each guess was right or wrong, Shannon recorded how many guesses were
+
+00:23:40.229 --> 00:23:43.820
+necessary for a human guesser to come up with the correct next letter.
+
+00:23:44.700 --> 00:23:47.816
+And then separately, he had this whole method for associating
+
+00:23:47.816 --> 00:23:50.880
+the number of guesses required with an implicit probability
+
+00:23:50.880 --> 00:23:54.200
+that a person would have been assigning to the true next letter.
+
+00:23:54.720 --> 00:23:57.190
+The details of that are a little bit in the weeds,
+
+00:23:57.190 --> 00:24:00.548
+but the broader point I want to make is how, in analyzing language,
+
+00:24:00.548 --> 00:24:03.660
+he wasn't just doing pure data analysis looking through books.
+
+00:24:04.060 --> 00:24:09.580
+He was trying to probe at an underlying model of language, namely the interviewee's brain.
+
+00:24:10.320 --> 00:24:14.503
+These brains that he could talk to were effectively treated as black boxes,
+
+00:24:14.503 --> 00:24:18.128
+ones with a sophisticated and yet indescribable understanding of
+
+00:24:18.128 --> 00:24:21.920
+language and an ability to predict characters based on the context.
+
+00:24:22.680 --> 00:24:25.518
+Now these days, in the 2020s, we have gone from merely
+
+00:24:25.518 --> 00:24:29.040
+interrogating black boxes that process language to designing them.
+
+00:24:29.860 --> 00:24:34.044
+The reason that you and I are here, revisiting the roots of information theory
+
+00:24:34.044 --> 00:24:36.619
+and this study of how compressible language is,
+
+00:24:36.619 --> 00:24:40.695
+is because of how much of the math in modern machine learning leverages the
+
+00:24:40.695 --> 00:24:42.680
+formulas that emerged in this field.
+
+00:24:43.180 --> 00:24:45.793
+Aside from the definition of information itself,
+
+00:24:45.793 --> 00:24:49.930
+there are three more key expressions that I want you to feel like you could
+
+00:24:49.930 --> 00:24:54.013
+have rediscovered, not just because rediscovery makes them more memorable,
+
+00:24:54.013 --> 00:24:58.260
+but because seeing how they naturally arise from studying compression gives a
+
+00:24:58.260 --> 00:25:02.451
+more solid ground from which you can assess that thought-provoking interplay
+
+00:25:02.451 --> 00:25:04.520
+between compression and intelligence.
+
+00:25:05.060 --> 00:25:09.040
+You already have everything you need to reinvent the first of these, which is entropy.
+
+00:25:10.080 --> 00:25:13.855
+Imagine you have any signal that can be thought of as a sequence of symbols,
+
+00:25:13.855 --> 00:25:17.133
+whether that's the four robot instructions, the English language,
+
+00:25:17.133 --> 00:25:19.020
+or really anything else you dream up.
+
+00:25:19.480 --> 00:25:23.064
+Entropy asks about the average amount of information for each symbol,
+
+00:25:23.064 --> 00:25:25.764
+and then based on everything we've been discussing,
+
+00:25:25.764 --> 00:25:29.608
+where perfect compression looks like random noise, and how, in that case,
+
+00:25:29.608 --> 00:25:33.607
+the number of bits used for a message is the same as the information content
+
+00:25:33.607 --> 00:25:37.398
+of that message, which again breaks down really nicely as the sum of the
+
+00:25:37.398 --> 00:25:39.060
+information of all the symbols.
+
+00:25:39.400 --> 00:25:42.133
+This question of measuring the average information per
+
+00:25:42.133 --> 00:25:45.120
+symbol is basically asking about the limit of compression.
+
+00:25:45.580 --> 00:25:50.200
+It would give you a lower bound on how efficiently a given signal could be compressed.
+
+00:25:51.020 --> 00:25:53.723
+And you and I already calculated this in one setting,
+
+00:25:53.723 --> 00:25:57.804
+when we took that weighted sum to find the average bits per instruction for the
+
+00:25:57.804 --> 00:25:59.640
+perfect encoding of the robot case.
+
+00:26:00.060 --> 00:26:03.291
+Basically, because that encoding was perfect, each symbol's code
+
+00:26:03.291 --> 00:26:06.320
+word length is exactly the same as its information content.
+
+00:26:06.900 --> 00:26:10.280
+So, effectively, we're calculating the average information per symbol.
+
+00:26:10.280 --> 00:26:12.680
+To generalize this, here's how that looks.
+
+00:26:13.060 --> 00:26:17.722
+For any given probability distribution, characterizing whatever symbols your
+
+00:26:17.722 --> 00:26:22.506
+messages are made out of, the average information per symbol should look like
+
+00:26:22.506 --> 00:26:27.720
+adding up p times the negative log of p for each probability p in that distribution.
+
+00:26:28.540 --> 00:26:31.400
+And take a moment to notice how we're visualizing this expression.
+
+00:26:32.000 --> 00:26:34.986
+Throughout the video, we've been picturing probability
+
+00:26:34.986 --> 00:26:38.359
+distributions with stacked horizontal bars, where each bar's
+
+00:26:38.359 --> 00:26:42.230
+width is equal to its probability, so altogether they add up to be 1.
+
+00:26:43.210 --> 00:26:48.038
+Now, above each one of those, I've put a rectangle whose height is locked to be
+
+00:26:48.038 --> 00:26:53.050
+the corresponding information value, the negative log base 2 of that probability.
+
+00:26:53.810 --> 00:26:57.145
+So the weighted sum up top, the average information per symbol,
+
+00:26:57.145 --> 00:27:00.850
+can be thought of as the total area of all these rectangles together.
+
+00:27:01.770 --> 00:27:03.250
+This is not yet fully general.
+
+00:27:03.390 --> 00:27:06.300
+It only describes the compression limit in cases where
+
+00:27:06.300 --> 00:27:09.210
+every new symbol follows some identical distribution.
+
+00:27:09.690 --> 00:27:12.870
+That's true in the robot case, but it's not true in English, for example.
+
+00:27:13.570 --> 00:27:15.970
+Nevertheless, it's important enough to deserve a name.
+
+00:27:16.670 --> 00:27:21.484
+And there's a fun story about how John von Neumann supposedly told Shannon that he should
+
+00:27:21.484 --> 00:27:24.296
+call this expression entropy, since, for one thing,
+
+00:27:24.296 --> 00:27:28.569
+it resembles an expression already used for the idea of entropy in statistical
+
+00:27:28.569 --> 00:27:32.463
+mechanics, and for another, quote, nobody knows what entropy really is,
+
+00:27:32.463 --> 00:27:35.330
+so in an argument, you'll always have the advantage.
+
+00:27:35.330 --> 00:27:37.685
+I looked into it, it's probably apocryphal, but
+
+00:27:37.685 --> 00:27:39.890
+there seems to be a grain of truth to this.
+
+00:27:40.570 --> 00:27:44.586
+Now, whatever the true story is, Shannon did call this quantity entropy,
+
+00:27:44.586 --> 00:27:46.650
+and he denoted it with the letter h.
+
+00:27:47.170 --> 00:27:49.130
+And it's fun to take a moment to play around with
+
+00:27:49.130 --> 00:27:50.810
+this graphic to build a little intuition.
+
+00:27:51.450 --> 00:27:56.340
+The more evenly distributed a probability distribution, the higher the total entropy,
+
+00:27:56.340 --> 00:27:59.274
+whereas if we squish things to become very uneven,
+
+00:27:59.274 --> 00:28:02.439
+maybe with one event dominating the probability space,
+
+00:28:02.439 --> 00:28:07.099
+this would have a very low entropy, since that one overwhelmingly probable event
+
+00:28:07.099 --> 00:28:09.630
+carries correspondingly little information.
+
+00:28:10.330 --> 00:28:13.860
+And then also, if you divide up the probability space even more,
+
+00:28:13.860 --> 00:28:17.115
+meaning it's distributed over more total possible symbols,
+
+00:28:17.115 --> 00:28:20.590
+each one has more information, so the total entropy is higher.
+
+00:28:21.070 --> 00:28:24.500
+And once more, it's fun to kind of slosh everything around,
+
+00:28:24.500 --> 00:28:27.987
+where a very skewed distribution gives lower total entropy,
+
+00:28:27.987 --> 00:28:31.010
+whereas a more even spread gives us higher entropy.
+
+00:28:31.010 --> 00:28:35.382
+The vague qualitative intuition here is that entropy measures the amount of
+
+00:28:35.382 --> 00:28:39.288
+uncertainty in a distribution, but the more precise understanding,
+
+00:28:39.288 --> 00:28:42.611
+justifying why it deserves to be given in units of bits,
+
+00:28:42.611 --> 00:28:47.216
+is that it describes the minimum number of bits per symbol necessary to encode
+
+00:28:47.216 --> 00:28:49.490
+a message following this distribution.
+
+00:28:50.150 --> 00:28:52.734
+That statement, and everything we just covered,
+
+00:28:52.734 --> 00:28:55.977
+is more or less the content of a core theorem in Shannon's
+
+00:28:55.977 --> 00:29:00.210
+1948 paper that kicked off information theory, the noiseless coding theorem.
+
+00:29:00.210 --> 00:29:04.064
+It states that no encoding can ever be more efficient than this limit,
+
+00:29:04.064 --> 00:29:08.744
+and even more strongly, he showed that it's always possible to get arbitrarily close
+
+00:29:08.744 --> 00:29:09.570
+to this limit.
+
+00:29:11.350 --> 00:29:15.603
+Now like I said, this expression only applies in cases where every symbol follows the
+
+00:29:15.603 --> 00:29:19.656
+same distribution, but Shannon was of course keenly interested in a more general
+
+00:29:19.656 --> 00:29:24.009
+setting, where the probabilities for each new symbol don't necessarily follow the same
+
+00:29:24.009 --> 00:29:24.710
+distribution.
+
+00:29:24.710 --> 00:29:27.559
+In particular, he spent a ton of time contemplating
+
+00:29:27.559 --> 00:29:29.850
+the compressibility of natural language.
+
+00:29:30.510 --> 00:29:32.769
+This requires a more general notion of entropy,
+
+00:29:32.769 --> 00:29:35.750
+something known as the entropy rate for a stochastic process.
+
+00:29:36.390 --> 00:29:37.950
+But it's the same basic question.
+
+00:29:38.250 --> 00:29:41.201
+What is the average information per symbol, except in
+
+00:29:41.201 --> 00:29:44.430
+this case we're now averaging over all possible messages.
+
+00:29:45.030 --> 00:29:47.903
+This is almost never a clean calculation that you can perform
+
+00:29:47.903 --> 00:29:50.870
+with some clean visual like the one we were just playing with.
+
+00:29:50.870 --> 00:29:55.470
+After all, what formula describes the probability distribution for language?
+
+00:29:56.170 --> 00:29:59.104
+So if you hear reference to the entropy of language,
+
+00:29:59.104 --> 00:30:02.545
+this is well beyond what any exact calculation can give you,
+
+00:30:02.545 --> 00:30:05.930
+hence why Shannon turned to estimates based on observation.
+
+00:30:06.350 --> 00:30:09.670
+And again, his methodology was not just data analysis.
+
+00:30:10.050 --> 00:30:13.190
+It's not some function that you can perform on a corpus of text.
+
+00:30:13.510 --> 00:30:16.805
+In order to get a satisfying estimate on compressibility,
+
+00:30:16.805 --> 00:30:21.430
+he found himself inevitably needing to probe at intelligent models of language.
+
+00:30:21.950 --> 00:30:25.590
+When his interviewees had at least 100 preceding letters of context,
+
+00:30:25.590 --> 00:30:29.390
+he estimated the entropy of English to be about one bit per character.
+
+00:30:29.870 --> 00:30:32.504
+This is a pretty wild number when you think about it,
+
+00:30:32.504 --> 00:30:36.579
+because it suggests that English could be compressed down to just a single yes or
+
+00:30:36.579 --> 00:30:38.070
+no answer for each character.
+
+00:30:39.070 --> 00:30:42.848
+Wild as that sounds, in the third part here, I will show you that algorithm I've
+
+00:30:42.848 --> 00:30:46.485
+referenced, where if you're allowed to use a high-quality language model for
+
+00:30:46.485 --> 00:30:50.310
+encoding and decoding, you can get surprisingly close to this limit in practice.
+
+00:30:51.110 --> 00:30:55.948
+Before then, it helps to understand a variation on entropy, known as cross-entropy,
+
+00:30:55.948 --> 00:30:59.970
+asking both how and why it's used in training large language models.
+
+00:31:00.370 --> 00:31:04.162
+If you want to learn that, as well as a few fun related ideas like how
+
+00:31:04.162 --> 00:31:06.653
+large models are distilled into smaller ones,
+
+00:31:06.653 --> 00:31:10.770
+and why on earth GZIP can recover the structure between distinct languages,
+
+00:31:10.770 --> 00:31:12.070
+come join me in part 2.
+
+00:31:14.270 --> 00:31:17.502
+Regular viewers will know that my new experiment for this
+
+00:31:17.502 --> 00:31:20.790
+year is to have a virtual career fair, a page at 3b1b.co.
+
+00:31:21.070 --> 00:31:24.710
+talent, where this audience can explore aligned career opportunities.
+
+00:31:25.190 --> 00:31:28.321
+The meaningful update is just how much more content there is now,
+
+00:31:28.321 --> 00:31:32.030
+mainly in the form of featured interviews between me and the relevant teams.
+
+00:31:32.730 --> 00:31:33.270
+Here's my thinking.
+
+00:31:33.590 --> 00:31:35.925
+I feel like when you're assessing potential jobs,
+
+00:31:35.925 --> 00:31:40.119
+it's almost impossible to get a true sense of what it's like to work at a place just by
+
+00:31:40.119 --> 00:31:44.361
+poking around online, and you learn orders of magnitude more if you have a chance to sit
+
+00:31:44.361 --> 00:31:46.410
+down for lunch with a couple team members.
+
+00:31:46.710 --> 00:31:49.430
+My hope is to give you the vicarious version of that.
+
+00:31:49.990 --> 00:31:53.886
+So, if you're curious what I mean when I say these are all thoughtful and curious teams,
+
+00:31:53.886 --> 00:31:55.170
+go take a moment to explore.
+
+00:31:55.350 --> 00:31:56.250
+I really think you'll enjoy it.
+

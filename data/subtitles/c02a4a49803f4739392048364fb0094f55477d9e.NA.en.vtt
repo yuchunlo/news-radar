@@ -1,0 +1,560 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.590 align:start position:0%
+ 
+Imagine<00:00:00.760><c> there's</c><00:00:01.000><c> a</c><00:00:01.040><c> hotel</c><00:00:01.680><c> with</c><00:00:02.000><c> infinite</c>
+
+00:00:02.590 --> 00:00:02.600 align:start position:0%
+Imagine there's a hotel with infinite
+ 
+
+00:00:02.600 --> 00:00:04.150 align:start position:0%
+Imagine there's a hotel with infinite
+rooms.
+
+00:00:04.150 --> 00:00:04.160 align:start position:0%
+rooms.
+ 
+
+00:00:04.160 --> 00:00:07.230 align:start position:0%
+rooms.
+They're<00:00:04.280><c> numbered</c><00:00:04.800><c> 1,</c><00:00:05.200><c> 2,</c><00:00:05.560><c> 3,</c><00:00:05.920><c> 4,</c><00:00:06.360><c> and</c><00:00:06.680><c> so</c><00:00:06.960><c> on</c>
+
+00:00:07.230 --> 00:00:07.240 align:start position:0%
+They're numbered 1, 2, 3, 4, and so on
+ 
+
+00:00:07.240 --> 00:00:10.310 align:start position:0%
+They're numbered 1, 2, 3, 4, and so on
+forever.<00:00:08.240><c> This</c><00:00:08.760><c> is</c><00:00:08.960><c> the</c><00:00:09.160><c> Hilbert</c><00:00:09.600><c> Hotel,</c><00:00:10.080><c> and</c>
+
+00:00:10.310 --> 00:00:10.320 align:start position:0%
+forever. This is the Hilbert Hotel, and
+ 
+
+00:00:10.320 --> 00:00:12.750 align:start position:0%
+forever. This is the Hilbert Hotel, and
+you<00:00:10.680><c> are</c><00:00:10.840><c> the</c><00:00:10.920><c> manager.</c><00:00:11.800><c> Now,</c><00:00:12.040><c> it</c><00:00:12.200><c> might</c><00:00:12.440><c> seem</c>
+
+00:00:12.750 --> 00:00:12.760 align:start position:0%
+you are the manager. Now, it might seem
+ 
+
+00:00:12.760 --> 00:00:14.270 align:start position:0%
+you are the manager. Now, it might seem
+like<00:00:12.960><c> you</c><00:00:13.080><c> could</c><00:00:13.200><c> accommodate</c><00:00:13.800><c> anyone</c><00:00:14.160><c> who</c>
+
+00:00:14.270 --> 00:00:14.280 align:start position:0%
+like you could accommodate anyone who
+ 
+
+00:00:14.280 --> 00:00:17.670 align:start position:0%
+like you could accommodate anyone who
+ever<00:00:14.480><c> shows</c><00:00:14.800><c> up,</c><00:00:15.520><c> but</c><00:00:15.760><c> there</c><00:00:16.000><c> is</c><00:00:16.520><c> a</c><00:00:16.600><c> limit.</c><00:00:17.560><c> A</c>
+
+00:00:17.670 --> 00:00:17.680 align:start position:0%
+ever shows up, but there is a limit. A
+ 
+
+00:00:17.680 --> 00:00:20.750 align:start position:0%
+ever shows up, but there is a limit. A
+way<00:00:17.920><c> to</c><00:00:18.200><c> exceed</c><00:00:18.880><c> even</c><00:00:19.160><c> the</c><00:00:19.280><c> infinity</c><00:00:19.840><c> of</c><00:00:20.040><c> rooms</c>
+
+00:00:20.750 --> 00:00:20.760 align:start position:0%
+way to exceed even the infinity of rooms
+ 
+
+00:00:20.760 --> 00:00:23.190 align:start position:0%
+way to exceed even the infinity of rooms
+at<00:00:20.880><c> the</c><00:00:20.960><c> Hilbert</c><00:00:21.320><c> Hotel.</c><00:00:22.040><c> To</c><00:00:22.160><c> start,</c><00:00:22.960><c> let's</c>
+
+00:00:23.190 --> 00:00:23.200 align:start position:0%
+at the Hilbert Hotel. To start, let's
+ 
+
+00:00:23.200 --> 00:00:25.230 align:start position:0%
+at the Hilbert Hotel. To start, let's
+say<00:00:23.600><c> only</c><00:00:23.880><c> one</c><00:00:24.120><c> person</c><00:00:24.520><c> is</c><00:00:24.680><c> allowed</c><00:00:24.960><c> in</c><00:00:25.040><c> each</c>
+
+00:00:25.230 --> 00:00:25.240 align:start position:0%
+say only one person is allowed in each
+ 
+
+00:00:25.240 --> 00:00:28.070 align:start position:0%
+say only one person is allowed in each
+room,<00:00:25.600><c> and</c><00:00:25.960><c> all</c><00:00:26.200><c> the</c><00:00:26.320><c> rooms</c><00:00:26.800><c> are</c><00:00:27.000><c> full.</c><00:00:27.840><c> There</c>
+
+00:00:28.070 --> 00:00:28.080 align:start position:0%
+room, and all the rooms are full. There
+ 
+
+00:00:28.080 --> 00:00:30.390 align:start position:0%
+room, and all the rooms are full. There
+are<00:00:28.280><c> an</c><00:00:28.520><c> infinite</c><00:00:29.000><c> number</c><00:00:29.240><c> of</c><00:00:29.360><c> people</c><00:00:30.120><c> in</c><00:00:30.240><c> an</c>
+
+00:00:30.390 --> 00:00:30.400 align:start position:0%
+are an infinite number of people in an
+ 
+
+00:00:30.400 --> 00:00:33.070 align:start position:0%
+are an infinite number of people in an
+infinite<00:00:30.840><c> number</c><00:00:31.160><c> of</c><00:00:31.400><c> rooms.</c><00:00:32.119><c> Then,</c><00:00:32.680><c> someone</c>
+
+00:00:33.070 --> 00:00:33.080 align:start position:0%
+infinite number of rooms. Then, someone
+ 
+
+00:00:33.080 --> 00:00:35.510 align:start position:0%
+infinite number of rooms. Then, someone
+new<00:00:33.240><c> shows</c><00:00:33.520><c> up,</c><00:00:33.680><c> and</c><00:00:33.800><c> they</c><00:00:34.120><c> want</c><00:00:34.360><c> a</c><00:00:34.400><c> room.</c><00:00:35.360><c> But,</c>
+
+00:00:35.510 --> 00:00:35.520 align:start position:0%
+new shows up, and they want a room. But,
+ 
+
+00:00:35.520 --> 00:00:37.230 align:start position:0%
+new shows up, and they want a room. But,
+all<00:00:35.600><c> the</c><00:00:35.720><c> rooms</c><00:00:35.960><c> are</c><00:00:36.040><c> occupied.</c><00:00:36.640><c> So,</c><00:00:37.000><c> what</c>
+
+00:00:37.230 --> 00:00:37.240 align:start position:0%
+all the rooms are occupied. So, what
+ 
+
+00:00:37.240 --> 00:00:39.030 align:start position:0%
+all the rooms are occupied. So, what
+should<00:00:37.400><c> you</c><00:00:37.520><c> do?</c><00:00:38.040><c> You</c><00:00:38.200><c> get</c><00:00:38.360><c> on</c><00:00:38.480><c> the</c><00:00:38.560><c> PA,</c><00:00:38.920><c> and</c>
+
+00:00:39.030 --> 00:00:39.040 align:start position:0%
+should you do? You get on the PA, and
+ 
+
+00:00:39.040 --> 00:00:40.910 align:start position:0%
+should you do? You get on the PA, and
+you<00:00:39.160><c> tell</c><00:00:39.480><c> all</c><00:00:39.600><c> the</c><00:00:39.720><c> guests</c><00:00:40.200><c> to</c><00:00:40.320><c> move</c><00:00:40.600><c> down</c><00:00:40.880><c> a</c>
+
+00:00:40.910 --> 00:00:40.920 align:start position:0%
+you tell all the guests to move down a
+ 
+
+00:00:40.920 --> 00:00:42.870 align:start position:0%
+you tell all the guests to move down a
+room.<00:00:41.640><c> So,</c><00:00:41.760><c> the</c><00:00:41.840><c> person</c><00:00:42.080><c> in</c><00:00:42.200><c> room</c><00:00:42.440><c> one</c><00:00:42.640><c> moves</c>
+
+00:00:42.870 --> 00:00:42.880 align:start position:0%
+room. So, the person in room one moves
+ 
+
+00:00:42.880 --> 00:00:44.590 align:start position:0%
+room. So, the person in room one moves
+to<00:00:42.960><c> room</c><00:00:43.200><c> two,</c><00:00:43.640><c> the</c><00:00:43.760><c> one</c><00:00:43.880><c> in</c><00:00:43.960><c> room</c><00:00:44.160><c> two</c><00:00:44.360><c> moves</c>
+
+00:00:44.590 --> 00:00:44.600 align:start position:0%
+to room two, the one in room two moves
+ 
+
+00:00:44.600 --> 00:00:46.830 align:start position:0%
+to room two, the one in room two moves
+to<00:00:44.720><c> room</c><00:00:44.960><c> three,</c><00:00:45.320><c> and</c><00:00:45.560><c> so</c><00:00:45.800><c> on</c><00:00:45.960><c> down</c><00:00:46.240><c> the</c><00:00:46.320><c> line.</c>
+
+00:00:46.830 --> 00:00:46.840 align:start position:0%
+to room three, and so on down the line.
+ 
+
+00:00:46.840 --> 00:00:48.630 align:start position:0%
+to room three, and so on down the line.
+And<00:00:46.960><c> now,</c><00:00:47.320><c> you</c><00:00:47.480><c> can</c><00:00:47.600><c> put</c><00:00:47.800><c> the</c><00:00:47.880><c> new</c><00:00:48.040><c> guest</c><00:00:48.480><c> in</c>
+
+00:00:48.630 --> 00:00:48.640 align:start position:0%
+And now, you can put the new guest in
+ 
+
+00:00:48.640 --> 00:00:50.470 align:start position:0%
+And now, you can put the new guest in
+room<00:00:48.920><c> one.</c><00:00:49.480><c> If</c><00:00:49.600><c> a</c><00:00:49.680><c> bus</c><00:00:49.920><c> shows</c><00:00:50.160><c> up</c><00:00:50.320><c> with</c><00:00:50.440><c> a</c>
+
+00:00:50.470 --> 00:00:50.480 align:start position:0%
+room one. If a bus shows up with a
+ 
+
+00:00:50.480 --> 00:00:52.510 align:start position:0%
+room one. If a bus shows up with a
+hundred<00:00:50.800><c> people,</c><00:00:51.560><c> you</c><00:00:51.680><c> know</c><00:00:51.800><c> exactly</c><00:00:52.280><c> what</c><00:00:52.440><c> to</c>
+
+00:00:52.510 --> 00:00:52.520 align:start position:0%
+hundred people, you know exactly what to
+ 
+
+00:00:52.520 --> 00:00:54.150 align:start position:0%
+hundred people, you know exactly what to
+do.<00:00:52.760><c> Just</c><00:00:53.080><c> move</c><00:00:53.280><c> everyone</c><00:00:53.640><c> down</c><00:00:53.840><c> a</c><00:00:53.880><c> hundred</c>
+
+00:00:54.150 --> 00:00:54.160 align:start position:0%
+do. Just move everyone down a hundred
+ 
+
+00:00:54.160 --> 00:00:55.790 align:start position:0%
+do. Just move everyone down a hundred
+rooms,<00:00:54.480><c> and</c><00:00:54.640><c> put</c><00:00:54.800><c> the</c><00:00:54.880><c> new</c><00:00:55.040><c> guests</c><00:00:55.560><c> in</c><00:00:55.680><c> their</c>
+
+00:00:55.790 --> 00:00:55.800 align:start position:0%
+rooms, and put the new guests in their
+ 
+
+00:00:55.800 --> 00:00:57.870 align:start position:0%
+rooms, and put the new guests in their
+vacated<00:00:56.320><c> rooms.</c>
+
+00:00:57.870 --> 00:00:57.880 align:start position:0%
+vacated rooms.
+ 
+
+00:00:57.880 --> 00:00:59.710 align:start position:0%
+vacated rooms.
+But<00:00:58.120><c> now,</c><00:00:58.440><c> say</c><00:00:58.640><c> a</c><00:00:58.720><c> bus</c><00:00:58.920><c> shows</c><00:00:59.160><c> up</c><00:00:59.320><c> that</c><00:00:59.480><c> is</c>
+
+00:00:59.710 --> 00:00:59.720 align:start position:0%
+But now, say a bus shows up that is
+ 
+
+00:00:59.720 --> 00:01:02.110 align:start position:0%
+But now, say a bus shows up that is
+infinitely<00:01:00.360><c> long,</c><00:01:01.120><c> and</c><00:01:01.240><c> it's</c><00:01:01.400><c> carrying</c>
+
+00:01:02.110 --> 00:01:02.120 align:start position:0%
+infinitely long, and it's carrying
+ 
+
+00:01:02.120 --> 00:01:04.310 align:start position:0%
+infinitely long, and it's carrying
+infinitely<00:01:02.720><c> many</c><00:01:02.960><c> people.</c><00:01:03.600><c> You</c><00:01:03.840><c> think</c><00:01:04.080><c> about</c>
+
+00:01:04.310 --> 00:01:04.320 align:start position:0%
+infinitely many people. You think about
+ 
+
+00:01:04.320 --> 00:01:06.150 align:start position:0%
+infinitely many people. You think about
+it<00:01:04.440><c> for</c><00:01:04.559><c> a</c><00:01:04.600><c> minute,</c><00:01:04.960><c> and</c><00:01:05.199><c> then</c><00:01:05.600><c> come</c><00:01:05.800><c> up</c><00:01:05.960><c> with</c><00:01:06.120><c> a</c>
+
+00:01:06.150 --> 00:01:06.160 align:start position:0%
+it for a minute, and then come up with a
+ 
+
+00:01:06.160 --> 00:01:07.390 align:start position:0%
+it for a minute, and then come up with a
+plan.
+
+00:01:07.390 --> 00:01:07.400 align:start position:0%
+plan.
+ 
+
+00:01:07.400 --> 00:01:09.430 align:start position:0%
+plan.
+You<00:01:07.560><c> tell</c><00:01:07.920><c> each</c><00:01:08.120><c> of</c><00:01:08.200><c> your</c><00:01:08.320><c> existing</c><00:01:08.760><c> guests</c><00:01:09.320><c> to</c>
+
+00:01:09.430 --> 00:01:09.440 align:start position:0%
+You tell each of your existing guests to
+ 
+
+00:01:09.440 --> 00:01:11.510 align:start position:0%
+You tell each of your existing guests to
+move<00:01:09.800><c> to</c><00:01:09.880><c> the</c><00:01:10.000><c> room</c><00:01:10.240><c> with</c><00:01:10.640><c> double</c><00:01:11.040><c> their</c><00:01:11.280><c> room</c>
+
+00:01:11.510 --> 00:01:11.520 align:start position:0%
+move to the room with double their room
+ 
+
+00:01:11.520 --> 00:01:13.870 align:start position:0%
+move to the room with double their room
+number.<00:01:12.400><c> So,</c><00:01:12.680><c> the</c><00:01:12.800><c> person</c><00:01:13.080><c> in</c><00:01:13.200><c> room</c><00:01:13.400><c> one</c><00:01:13.600><c> moves</c>
+
+00:01:13.870 --> 00:01:13.880 align:start position:0%
+number. So, the person in room one moves
+ 
+
+00:01:13.880 --> 00:01:16.110 align:start position:0%
+number. So, the person in room one moves
+to<00:01:14.000><c> room</c><00:01:14.240><c> two,</c><00:01:14.840><c> room</c><00:01:15.200><c> two</c><00:01:15.440><c> moves</c><00:01:15.760><c> to</c><00:01:15.880><c> room</c>
+
+00:01:16.110 --> 00:01:16.120 align:start position:0%
+to room two, room two moves to room
+ 
+
+00:01:16.120 --> 00:01:19.710 align:start position:0%
+to room two, room two moves to room
+four,<00:01:16.920><c> room</c><00:01:17.160><c> three</c><00:01:17.400><c> to</c><00:01:17.520><c> room</c><00:01:17.760><c> six,</c><00:01:18.520><c> and</c><00:01:18.680><c> so</c><00:01:18.960><c> on.</c>
+
+00:01:19.710 --> 00:01:19.720 align:start position:0%
+four, room three to room six, and so on.
+ 
+
+00:01:19.720 --> 00:01:22.310 align:start position:0%
+four, room three to room six, and so on.
+And<00:01:19.960><c> now,</c><00:01:20.640><c> all</c><00:01:20.920><c> of</c><00:01:21.040><c> the</c><00:01:21.360><c> odd-numbered</c><00:01:21.960><c> rooms</c>
+
+00:01:22.310 --> 00:01:22.320 align:start position:0%
+And now, all of the odd-numbered rooms
+ 
+
+00:01:22.320 --> 00:01:24.150 align:start position:0%
+And now, all of the odd-numbered rooms
+are<00:01:22.480><c> available.</c><00:01:23.160><c> And</c><00:01:23.280><c> you</c><00:01:23.360><c> know</c><00:01:23.640><c> there</c><00:01:23.840><c> are</c><00:01:24.000><c> an</c>
+
+00:01:24.150 --> 00:01:24.160 align:start position:0%
+are available. And you know there are an
+ 
+
+00:01:24.160 --> 00:01:26.470 align:start position:0%
+are available. And you know there are an
+infinite<00:01:24.600><c> number</c><00:01:24.920><c> of</c><00:01:25.280><c> odd</c><00:01:25.480><c> numbers,</c><00:01:26.240><c> so</c><00:01:26.360><c> you</c>
+
+00:01:26.470 --> 00:01:26.480 align:start position:0%
+infinite number of odd numbers, so you
+ 
+
+00:01:26.480 --> 00:01:28.910 align:start position:0%
+infinite number of odd numbers, so you
+can<00:01:26.640><c> give</c><00:01:27.000><c> each</c><00:01:27.240><c> person</c><00:01:27.640><c> on</c><00:01:27.760><c> the</c><00:01:27.880><c> infinite</c><00:01:28.280><c> bus</c>
+
+00:01:28.910 --> 00:01:28.920 align:start position:0%
+can give each person on the infinite bus
+ 
+
+00:01:28.920 --> 00:01:32.110 align:start position:0%
+can give each person on the infinite bus
+a<00:01:29.000><c> unique</c><00:01:29.880><c> odd-numbered</c><00:01:30.640><c> room.</c><00:01:31.640><c> And</c><00:01:31.800><c> then,</c>
+
+00:01:32.110 --> 00:01:32.120 align:start position:0%
+a unique odd-numbered room. And then,
+ 
+
+00:01:32.120 --> 00:01:33.990 align:start position:0%
+a unique odd-numbered room. And then,
+all<00:01:32.320><c> of</c><00:01:32.400><c> a</c><00:01:32.440><c> sudden,</c><00:01:32.840><c> more</c><00:01:33.200><c> infinite</c><00:01:33.600><c> buses</c>
+
+00:01:33.990 --> 00:01:34.000 align:start position:0%
+all of a sudden, more infinite buses
+ 
+
+00:01:34.000 --> 00:01:36.710 align:start position:0%
+all of a sudden, more infinite buses
+show<00:01:34.240><c> up.</c><00:01:34.400><c> Not</c><00:01:34.600><c> just</c><00:01:35.160><c> one</c><00:01:35.360><c> or</c><00:01:35.480><c> two,</c><00:01:35.840><c> but</c><00:01:36.440><c> an</c>
+
+00:01:36.710 --> 00:01:36.720 align:start position:0%
+show up. Not just one or two, but an
+ 
+
+00:01:36.720 --> 00:01:39.670 align:start position:0%
+show up. Not just one or two, but an
+infinite<00:01:37.280><c> number</c><00:01:37.680><c> of</c><00:01:37.960><c> infinite</c><00:01:38.600><c> buses.</c><00:01:39.360><c> You</c>
+
+00:01:39.670 --> 00:01:39.680 align:start position:0%
+infinite number of infinite buses. You
+ 
+
+00:01:39.680 --> 00:01:41.230 align:start position:0%
+infinite number of infinite buses. You
+pull<00:01:39.920><c> out</c><00:01:40.080><c> an</c><00:01:40.240><c> infinite</c><00:01:40.640><c> spreadsheet.</c><00:01:41.160><c> You</c>
+
+00:01:41.230 --> 00:01:41.240 align:start position:0%
+pull out an infinite spreadsheet. You
+ 
+
+00:01:41.240 --> 00:01:43.750 align:start position:0%
+pull out an infinite spreadsheet. You
+make<00:01:41.480><c> a</c><00:01:41.560><c> row</c><00:01:41.880><c> for</c><00:01:42.160><c> each</c><00:01:42.400><c> bus,</c><00:01:42.960><c> bus</c><00:01:43.240><c> one,</c><00:01:43.520><c> bus</c>
+
+00:01:43.750 --> 00:01:43.760 align:start position:0%
+make a row for each bus, bus one, bus
+ 
+
+00:01:43.760 --> 00:01:45.910 align:start position:0%
+make a row for each bus, bus one, bus
+two,<00:01:44.000><c> bus</c><00:01:44.240><c> three,</c><00:01:44.520><c> and</c><00:01:44.680><c> so</c><00:01:44.880><c> on,</c><00:01:45.400><c> and</c><00:01:45.560><c> a</c><00:01:45.640><c> row</c><00:01:45.840><c> at</c>
+
+00:01:45.910 --> 00:01:45.920 align:start position:0%
+two, bus three, and so on, and a row at
+ 
+
+00:01:45.920 --> 00:01:47.470 align:start position:0%
+two, bus three, and so on, and a row at
+the<00:01:46.040><c> top</c><00:01:46.320><c> for</c><00:01:46.520><c> all</c><00:01:46.680><c> the</c><00:01:46.760><c> people</c><00:01:47.040><c> who</c><00:01:47.280><c> are</c>
+
+00:01:47.470 --> 00:01:47.480 align:start position:0%
+the top for all the people who are
+ 
+
+00:01:47.480 --> 00:01:49.790 align:start position:0%
+the top for all the people who are
+already<00:01:47.960><c> in</c><00:01:48.120><c> the</c><00:01:48.200><c> hotel.</c><00:01:49.040><c> The</c><00:01:49.160><c> columns</c><00:01:49.640><c> are</c>
+
+00:01:49.790 --> 00:01:49.800 align:start position:0%
+already in the hotel. The columns are
+ 
+
+00:01:49.800 --> 00:01:52.190 align:start position:0%
+already in the hotel. The columns are
+for<00:01:49.920><c> the</c><00:01:50.080><c> position</c><00:01:50.560><c> each</c><00:01:50.800><c> person</c><00:01:51.200><c> occupies.</c>
+
+00:01:52.190 --> 00:01:52.200 align:start position:0%
+for the position each person occupies.
+ 
+
+00:01:52.200 --> 00:01:54.350 align:start position:0%
+for the position each person occupies.
+So,<00:01:52.320><c> you've</c><00:01:52.440><c> got</c><00:01:52.760><c> hotel</c><00:01:53.280><c> room</c><00:01:53.520><c> one,</c><00:01:53.880><c> hotel</c>
+
+00:01:54.350 --> 00:01:54.360 align:start position:0%
+So, you've got hotel room one, hotel
+ 
+
+00:01:54.360 --> 00:01:57.070 align:start position:0%
+So, you've got hotel room one, hotel
+room<00:01:54.600><c> two,</c><00:01:54.920><c> hotel</c><00:01:55.360><c> room</c><00:01:55.560><c> three,</c><00:01:56.000><c> etc.</c><00:01:56.960><c> And</c>
+
+00:01:57.070 --> 00:01:57.080 align:start position:0%
+room two, hotel room three, etc. And
+ 
+
+00:01:57.080 --> 00:01:59.390 align:start position:0%
+room two, hotel room three, etc. And
+then,<00:01:57.440><c> bus</c><00:01:57.800><c> one</c><00:01:58.000><c> seat</c><00:01:58.280><c> one,</c><00:01:58.600><c> bus</c><00:01:58.880><c> one</c><00:01:59.120><c> seat</c>
+
+00:01:59.390 --> 00:01:59.400 align:start position:0%
+then, bus one seat one, bus one seat
+ 
+
+00:01:59.400 --> 00:02:02.270 align:start position:0%
+then, bus one seat one, bus one seat
+two,<00:01:59.760><c> bus</c><00:02:00.040><c> one</c><00:02:00.240><c> seat</c><00:02:00.480><c> three,</c><00:02:00.920><c> and</c><00:02:01.160><c> so</c><00:02:01.400><c> on.</c>
+
+00:02:02.270 --> 00:02:02.280 align:start position:0%
+two, bus one seat three, and so on.
+ 
+
+00:02:02.280 --> 00:02:03.910 align:start position:0%
+two, bus one seat three, and so on.
+So,<00:02:02.520><c> each</c><00:02:02.760><c> person</c><00:02:03.120><c> gets</c><00:02:03.360><c> a</c><00:02:03.400><c> unique</c>
+
+00:02:03.910 --> 00:02:03.920 align:start position:0%
+So, each person gets a unique
+ 
+
+00:02:03.920 --> 00:02:05.710 align:start position:0%
+So, each person gets a unique
+identifier,<00:02:04.560><c> which</c><00:02:04.760><c> is</c><00:02:04.880><c> a</c><00:02:04.920><c> combination</c><00:02:05.520><c> of</c>
+
+00:02:05.710 --> 00:02:05.720 align:start position:0%
+identifier, which is a combination of
+ 
+
+00:02:05.720 --> 00:02:08.190 align:start position:0%
+identifier, which is a combination of
+their<00:02:06.000><c> vehicle</c><00:02:06.560><c> and</c><00:02:06.760><c> their</c><00:02:06.960><c> position</c><00:02:07.479><c> in</c><00:02:07.680><c> it.</c>
+
+00:02:08.190 --> 00:02:08.200 align:start position:0%
+their vehicle and their position in it.
+ 
+
+00:02:08.200 --> 00:02:10.430 align:start position:0%
+their vehicle and their position in it.
+So,<00:02:08.520><c> how</c><00:02:08.720><c> do</c><00:02:08.840><c> you</c><00:02:08.960><c> assign</c><00:02:09.280><c> the</c><00:02:09.399><c> rooms?</c>
+
+00:02:10.430 --> 00:02:10.440 align:start position:0%
+So, how do you assign the rooms?
+ 
+
+00:02:10.440 --> 00:02:12.350 align:start position:0%
+So, how do you assign the rooms?
+We'll<00:02:10.560><c> start</c><00:02:10.960><c> in</c><00:02:11.040><c> the</c><00:02:11.160><c> top</c><00:02:11.440><c> left</c><00:02:11.640><c> corner</c><00:02:12.120><c> and</c>
+
+00:02:12.350 --> 00:02:12.360 align:start position:0%
+We'll start in the top left corner and
+ 
+
+00:02:12.360 --> 00:02:15.070 align:start position:0%
+We'll start in the top left corner and
+draw<00:02:12.760><c> a</c><00:02:12.840><c> line</c><00:02:13.280><c> that</c><00:02:13.480><c> zigzags</c><00:02:14.160><c> back</c><00:02:14.520><c> and</c><00:02:14.680><c> forth</c>
+
+00:02:15.070 --> 00:02:15.080 align:start position:0%
+draw a line that zigzags back and forth
+ 
+
+00:02:15.080 --> 00:02:17.590 align:start position:0%
+draw a line that zigzags back and forth
+across<00:02:15.520><c> the</c><00:02:15.640><c> spreadsheet,</c><00:02:16.640><c> going</c><00:02:16.920><c> over</c><00:02:17.240><c> each</c>
+
+00:02:17.590 --> 00:02:17.600 align:start position:0%
+across the spreadsheet, going over each
+ 
+
+00:02:17.600 --> 00:02:21.190 align:start position:0%
+across the spreadsheet, going over each
+unique<00:02:18.000><c> ID</c><00:02:18.400><c> exactly</c><00:02:19.080><c> once.</c><00:02:19.840><c> Then,</c><00:02:20.560><c> imagine</c>
+
+00:02:21.190 --> 00:02:21.200 align:start position:0%
+unique ID exactly once. Then, imagine
+ 
+
+00:02:21.200 --> 00:02:23.150 align:start position:0%
+unique ID exactly once. Then, imagine
+you<00:02:21.440><c> pull</c><00:02:21.840><c> on</c><00:02:21.959><c> the</c><00:02:22.160><c> opposite</c><00:02:22.600><c> ends</c><00:02:22.880><c> of</c><00:02:22.959><c> this</c>
+
+00:02:23.150 --> 00:02:23.160 align:start position:0%
+you pull on the opposite ends of this
+ 
+
+00:02:23.160 --> 00:02:25.670 align:start position:0%
+you pull on the opposite ends of this
+line,<00:02:23.840><c> straightening</c><00:02:24.440><c> it</c><00:02:24.600><c> out.</c>
+
+00:02:25.670 --> 00:02:25.680 align:start position:0%
+line, straightening it out.
+ 
+
+00:02:25.680 --> 00:02:27.350 align:start position:0%
+line, straightening it out.
+So,<00:02:25.920><c> we've</c><00:02:26.160><c> gone</c><00:02:26.440><c> from</c><00:02:26.680><c> an</c><00:02:26.840><c> infinite</c><00:02:27.240><c> by</c>
+
+00:02:27.350 --> 00:02:27.360 align:start position:0%
+So, we've gone from an infinite by
+ 
+
+00:02:27.360 --> 00:02:31.430 align:start position:0%
+So, we've gone from an infinite by
+infinite<00:02:27.840><c> grid</c><00:02:28.400><c> to</c><00:02:28.720><c> a</c><00:02:28.840><c> single</c><00:02:29.600><c> infinite</c><00:02:30.120><c> line.</c>
+
+00:02:31.430 --> 00:02:31.440 align:start position:0%
+infinite grid to a single infinite line.
+ 
+
+00:02:31.440 --> 00:02:33.510 align:start position:0%
+infinite grid to a single infinite line.
+It's<00:02:31.680><c> then</c><00:02:32.080><c> pretty</c><00:02:32.320><c> simple</c><00:02:32.720><c> just</c><00:02:32.920><c> to</c><00:02:33.040><c> line</c><00:02:33.280><c> up</c>
+
+00:02:33.510 --> 00:02:33.520 align:start position:0%
+It's then pretty simple just to line up
+ 
+
+00:02:33.520 --> 00:02:35.670 align:start position:0%
+It's then pretty simple just to line up
+each<00:02:33.760><c> person</c><00:02:34.280><c> on</c><00:02:34.480><c> that</c><00:02:34.680><c> line</c><00:02:35.000><c> with</c><00:02:35.160><c> a</c><00:02:35.200><c> unique</c>
+
+00:02:35.670 --> 00:02:35.680 align:start position:0%
+each person on that line with a unique
+ 
+
+00:02:35.680 --> 00:02:38.390 align:start position:0%
+each person on that line with a unique
+room<00:02:36.040><c> in</c><00:02:36.120><c> the</c><00:02:36.200><c> hotel.</c><00:02:36.959><c> So,</c><00:02:37.400><c> everyone</c><00:02:37.840><c> fits,</c><00:02:38.200><c> no</c>
+
+00:02:38.390 --> 00:02:38.400 align:start position:0%
+room in the hotel. So, everyone fits, no
+ 
+
+00:02:38.400 --> 00:02:40.959 align:start position:0%
+room in the hotel. So, everyone fits, no
+problem.
+

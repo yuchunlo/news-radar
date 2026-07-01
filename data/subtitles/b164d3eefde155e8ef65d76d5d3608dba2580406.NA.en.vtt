@@ -1,0 +1,2519 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.690 --> 00:00:01.680
+- [Derek] Say you wanna drive
+
+00:00:01.680 --> 00:00:03.600
+from New York to San Francisco.
+
+00:00:03.600 --> 00:00:06.483
+How could you calculate
+the absolute shortest path?
+
+00:00:07.710 --> 00:00:10.260
+There are over 64 million intersections
+
+00:00:10.260 --> 00:00:11.790
+in the North American road system,
+
+00:00:11.790 --> 00:00:16.516
+so a simplified estimate gives around
+10 to the 220 possible routes.
+
+00:00:16.516 --> 00:00:19.345
+Even if you could check a
+billion routes per second,
+
+00:00:19.345 --> 00:00:20.460
+testing all of them
+
+00:00:20.460 --> 00:00:24.390
+would still take over 10 to the 200 years.
+
+00:00:24.390 --> 00:00:27.330
+And this isn't just a problem
+for navigation software.
+
+00:00:27.330 --> 00:00:29.430
+Any independent system like a robot
+
+00:00:29.430 --> 00:00:32.220
+or a video game character
+that needs to navigate a maze,
+
+00:00:32.220 --> 00:00:35.790
+or obstacle course
+faces this same problem.
+
+00:00:35.790 --> 00:00:38.550
+And yet, Google or Apple
+Maps will find you the route
+
+00:00:38.550 --> 00:00:40.203
+in only four seconds.
+
+00:00:41.190 --> 00:00:42.993
+So how is that possible?
+
+00:00:44.520 --> 00:00:46.380
+Well, we teamed up with the channel 2swap,
+
+00:00:46.380 --> 00:00:48.990
+who creates incredible
+simulations and animations
+
+00:00:48.990 --> 00:00:51.963
+to show you step by step,
+how these algorithms work.
+
+00:00:53.010 --> 00:00:55.560
+They trace their origins
+back to a shopping trip
+
+00:00:55.560 --> 00:00:57.924
+in Amsterdam in 1956.
+
+00:00:57.924 --> 00:01:00.507
+(jaunty music)
+
+00:01:01.517 --> 00:01:03.900
+Edsger Dijkstra needed a problem.
+
+00:01:03.900 --> 00:01:06.060
+He was working on software for ARMAC,
+
+00:01:06.060 --> 00:01:08.430
+an early computer developed
+at the mathematical center
+
+00:01:08.430 --> 00:01:09.510
+in the Netherlands.
+
+00:01:09.510 --> 00:01:11.460
+And it was almost ready to debut.
+
+00:01:11.460 --> 00:01:13.740
+But at the time, the general
+public considered computers
+
+00:01:13.740 --> 00:01:15.900
+to be practically useless.
+
+00:01:15.900 --> 00:01:16.830
+So useless, in fact,
+
+00:01:16.830 --> 00:01:20.070
+that Dijkstra ran into issues
+filing his marriage license.
+
+00:01:20.070 --> 00:01:22.110
+- [Casper's Dijkstra Impression] 
+Dutch marriage rights require you
+
+00:01:22.110 --> 00:01:23.700
+to state your profession,
+
+00:01:23.700 --> 00:01:26.785
+and I said that I was a programmer.
+
+00:01:26.785 --> 00:01:30.660
+But the municipal authorities
+of the town of Amsterdam
+
+00:01:30.660 --> 00:01:32.340
+didn't accept it on the ground
+
+00:01:32.340 --> 00:01:34.083
+that there was no such profession.
+
+00:01:35.220 --> 00:01:38.580
+And believe it or not, that
+under the heading "profession,"
+
+00:01:38.580 --> 00:01:41.587
+my marriage act shows
+the ridiculous entry,
+
+00:01:41.587 --> 00:01:43.527
+"theoretical physicist."
+
+00:01:45.930 --> 00:01:48.540
+- [Derek] And so Dijkstra was
+looking for a specific demo
+
+00:01:48.540 --> 00:01:52.680
+to prove just how powerful ARMAC
+was, even to the layperson.
+
+00:01:52.680 --> 00:01:53.970
+- ['Dijkstra'] The problem of course,
+
+00:01:53.970 --> 00:01:57.480
+is that for a demonstration
+for non-computing people,
+
+00:01:57.480 --> 00:01:59.160
+you have to have a problem statement
+
+00:01:59.160 --> 00:02:01.473
+that non-mathematicians can understand.
+
+00:02:02.340 --> 00:02:04.293
+And they have to understand the answer.
+
+00:02:05.370 --> 00:02:06.780
+- [Derek] And during that shopping trip,
+
+00:02:06.780 --> 00:02:08.613
+he thought of the perfect problem.
+
+00:02:09.510 --> 00:02:10.650
+- ['Dijkstra'] What's the shortest way
+
+00:02:10.650 --> 00:02:13.380
+to travel from Rotterdam to Groningen?
+
+00:02:13.380 --> 00:02:16.620
+- [Derek] In other words,
+a shortest path algorithm.
+
+00:02:16.620 --> 00:02:19.140
+Here's a simplified
+graph of the Netherlands.
+
+00:02:19.140 --> 00:02:20.760
+The nodes represent the cities,
+
+00:02:20.760 --> 00:02:23.340
+and the edges connecting
+them are the roads.
+
+00:02:23.340 --> 00:02:25.050
+The simplest way to find the shortest path
+
+00:02:25.050 --> 00:02:28.050
+from Rotterdam to
+Groningen looks like this.
+
+00:02:28.050 --> 00:02:29.220
+Starting from Rotterdam,
+
+00:02:29.220 --> 00:02:31.560
+we're first going to
+explore all its neighbors
+
+00:02:31.560 --> 00:02:32.640
+looking for Groningen.
+
+00:02:32.640 --> 00:02:35.160
+Since Groningen isn't one
+of these neighboring nodes,
+
+00:02:35.160 --> 00:02:38.850
+we'll mark Rotterdam as
+explored, and keep searching.
+
+00:02:38.850 --> 00:02:41.400
+So now we'll branch out
+from these four nodes
+
+00:02:41.400 --> 00:02:43.800
+to explore all of their neighbors.
+
+00:02:43.800 --> 00:02:45.660
+And we keep branching out this way,
+
+00:02:45.660 --> 00:02:47.280
+exploring all neighboring nodes,
+
+00:02:47.280 --> 00:02:49.353
+until we stumble upon Groningen.
+
+00:02:50.670 --> 00:02:53.100
+This algorithm is known
+as Breadth-First Search.
+
+00:02:53.100 --> 00:02:54.780
+It will always find the shortest path
+
+00:02:54.780 --> 00:02:57.330
+because it checks all nodes one step away,
+
+00:02:57.330 --> 00:03:00.240
+and then two steps away, and so on.
+
+00:03:00.240 --> 00:03:02.940
+So if there were a path
+from Rotterdam to Groningen
+
+00:03:02.940 --> 00:03:03.773
+in four steps,
+
+00:03:03.773 --> 00:03:08.220
+we would've found it on the
+fourth iteration, but we didn't.
+
+00:03:08.220 --> 00:03:11.160
+So the shortest path must be five steps.
+
+00:03:11.160 --> 00:03:13.140
+But there's a problem with this approach.
+
+00:03:13.140 --> 00:03:15.330
+I mean, the algorithm
+considers all these roads
+
+00:03:15.330 --> 00:03:18.003
+to be the same length,
+which is obviously not true.
+
+00:03:19.140 --> 00:03:21.600
+So let's add weights
+to represent distances
+
+00:03:21.600 --> 00:03:23.040
+between these nodes.
+
+00:03:23.040 --> 00:03:26.130
+Now the shortest path is
+much harder to figure out.
+
+00:03:26.130 --> 00:03:28.203
+So Dijkstra needed a better method.
+
+00:03:29.220 --> 00:03:31.620
+- ['Dijkstra'] One morning I
+was shopping in Amsterdam
+
+00:03:31.620 --> 00:03:34.140
+with my young fiance, and tired,
+
+00:03:34.140 --> 00:03:37.500
+we sat down on the cafe terrace
+to drink a cup of coffee.
+
+00:03:37.500 --> 00:03:40.623
+And I was just thinking about
+whether I could do this.
+
+00:03:41.820 --> 00:03:43.230
+- [Henry] His idea was this.
+
+00:03:43.230 --> 00:03:45.690
+First he wanted to keep track
+of the shortest distance
+
+00:03:45.690 --> 00:03:47.400
+from the source to each node.
+
+00:03:47.400 --> 00:03:49.503
+This is also known as its cost.
+
+00:03:50.370 --> 00:03:52.980
+His goal, well, if he could
+find the shortest path
+
+00:03:52.980 --> 00:03:54.660
+from the source to one node,
+
+00:03:54.660 --> 00:03:56.430
+then he could build up
+other shortest paths
+
+00:03:56.430 --> 00:03:57.930
+starting from this new node,
+
+00:03:57.930 --> 00:04:00.063
+and then the next, and on and on.
+
+00:04:01.110 --> 00:04:03.390
+Now, the cost of the
+starting node was zero.
+
+00:04:03.390 --> 00:04:05.010
+But since he hadn't actually explored
+
+00:04:05.010 --> 00:04:06.150
+the rest of the graph yet,
+
+00:04:06.150 --> 00:04:09.540
+he set all the other nodes
+to a cost of infinity.
+
+00:04:09.540 --> 00:04:11.430
+Then just like breadth-first search,
+
+00:04:11.430 --> 00:04:12.735
+Dijkstra started from the source,
+
+00:04:12.735 --> 00:04:15.390
+and explored each of
+its neighboring nodes.
+
+00:04:15.390 --> 00:04:16.777
+At every step he'd ask,
+
+00:04:16.777 --> 00:04:18.390
+"Is the current path to this node
+
+00:04:18.390 --> 00:04:20.580
+the shortest we've seen so far?"
+
+00:04:20.580 --> 00:04:22.860
+For example, this edge
+only has a weight of one,
+
+00:04:22.860 --> 00:04:25.200
+while the node's current cost is infinity.
+
+00:04:25.200 --> 00:04:27.930
+So this path is the
+shortest yet to that node.
+
+00:04:27.930 --> 00:04:30.003
+So Dijkstra updated its cost to one.
+
+00:04:31.920 --> 00:04:35.403
+Likewise, these nodes were
+updated to three, two, and four.
+
+00:04:36.930 --> 00:04:39.330
+After checking all of
+Rotterdam's neighboring nodes,
+
+00:04:39.330 --> 00:04:41.610
+Dijkstra marked it as explored.
+
+00:04:41.610 --> 00:04:43.620
+Then since this node had the lowest cost
+
+00:04:43.620 --> 00:04:46.833
+out of all the unexplored nodes,
+Dijkstra explored it next.
+
+00:04:47.670 --> 00:04:49.650
+Like before, he checked each of its edges
+
+00:04:49.650 --> 00:04:51.780
+to reduce the neighbor's costs.
+
+00:04:51.780 --> 00:04:53.160
+Dijkstra could update this neighbor
+
+00:04:53.160 --> 00:04:54.900
+from infinity down to six,
+
+00:04:54.900 --> 00:04:57.540
+a total path length of five plus one,
+
+00:04:57.540 --> 00:04:59.370
+but he couldn't update this one.
+
+00:04:59.370 --> 00:05:01.170
+The current path has a cost of five,
+
+00:05:01.170 --> 00:05:03.360
+but the nodes' cost was three.
+
+00:05:03.360 --> 00:05:05.580
+That meant there was
+already a shorter path,
+
+00:05:05.580 --> 00:05:07.680
+this one directly from the source.
+
+00:05:07.680 --> 00:05:09.783
+So there was no need to update the cost.
+
+00:05:11.130 --> 00:05:14.490
+The next node to explore is
+this one with a cost of two,
+
+00:05:14.490 --> 00:05:16.710
+which would update its neighbor to five.
+
+00:05:16.710 --> 00:05:18.330
+Then this one with a cost of three
+
+00:05:18.330 --> 00:05:20.490
+would update its neighbors, and so on.
+
+00:05:20.490 --> 00:05:23.670
+Sometimes Dijkstra had to update
+a node's cost a few times.
+
+00:05:23.670 --> 00:05:26.280
+For example, he first reached
+this node through this path
+
+00:05:26.280 --> 00:05:28.290
+with edge weights four, and then three,
+
+00:05:28.290 --> 00:05:29.850
+for a total cost of seven.
+
+00:05:29.850 --> 00:05:32.700
+But later he found this path was cost six.
+
+00:05:32.700 --> 00:05:35.290
+So he updated the nodes cost again.
+
+00:05:35.290 --> 00:05:38.460
+(gentle music)
+
+00:05:38.460 --> 00:05:39.690
+The first time Dijkstra reached Groningen,
+
+00:05:39.690 --> 00:05:41.820
+it had a cost of 19.
+
+00:05:41.820 --> 00:05:43.380
+But it didn't have the lowest cost
+
+00:05:43.380 --> 00:05:45.300
+out of all the unexplored nodes.
+
+00:05:45.300 --> 00:05:47.730
+There was still this
+node with a cost of 16,
+
+00:05:47.730 --> 00:05:50.760
+which could be hiding a
+shorter path to our goal.
+
+00:05:50.760 --> 00:05:53.850
+So he continued exploring
+nodes in cost order,
+
+00:05:53.850 --> 00:05:56.280
+and found this path with cost 18.
+
+00:05:56.280 --> 00:05:57.757
+Now, out of all unexplored nodes,
+
+00:05:57.757 --> 00:06:00.480
+Groningen had the next lowest cost.
+
+00:06:00.480 --> 00:06:03.480
+So Dijkstra was confident that
+he'd found the shortest path.
+
+00:06:04.350 --> 00:06:05.183
+Here's why.
+
+00:06:06.330 --> 00:06:09.540
+If the lowest cost among
+the unexplored nodes is 18,
+
+00:06:09.540 --> 00:06:11.670
+then Dijkstra must have
+explored all the paths
+
+00:06:11.670 --> 00:06:16.670
+with cost 16, 14, 13,
+every path less than 18.
+
+00:06:16.830 --> 00:06:19.320
+And none of those paths reached Groningen.
+
+00:06:19.320 --> 00:06:21.000
+It's just like breadth-first search,
+
+00:06:21.000 --> 00:06:23.280
+searching every step away from the source.
+
+00:06:23.280 --> 00:06:25.440
+By exploring from lowest to highest cost,
+
+00:06:25.440 --> 00:06:27.870
+Dijkstra's algorithm
+guaranteed the shortest path
+
+00:06:27.870 --> 00:06:28.743
+to any target.
+
+00:06:30.810 --> 00:06:33.150
+- ['Dijkstra'] It was a 20-minute invention.
+
+00:06:33.150 --> 00:06:35.730
+I designed it without pencil and paper.
+
+00:06:35.730 --> 00:06:38.100
+I learned later that one of the advantages
+
+00:06:38.100 --> 00:06:40.860
+of designing without pencil and paper
+
+00:06:40.860 --> 00:06:42.540
+is that you are almost forced
+
+00:06:42.540 --> 00:06:45.540
+to avoid all avoidable complexities.
+
+00:06:45.540 --> 00:06:48.458
+- [Derek] During ARMAC's
+official inauguration in 1956,
+
+00:06:48.458 --> 00:06:51.090
+Dijkstra asked the audience
+members for two towns
+
+00:06:51.090 --> 00:06:53.460
+on a simplified map of the Netherlands.
+
+00:06:53.460 --> 00:06:56.730
+ARMAC then printed the
+shortest route town by town.
+
+00:06:56.730 --> 00:06:58.740
+It ran perfectly.
+
+00:06:58.740 --> 00:07:00.450
+The computer was such a success
+
+00:07:00.450 --> 00:07:03.960
+that the center immediately
+started the next generation.
+
+00:07:03.960 --> 00:07:06.000
+And as for his algorithm, well,
+
+00:07:06.000 --> 00:07:08.610
+it just sat in his papers for years.
+
+00:07:08.610 --> 00:07:10.800
+Algorithms weren't respectable enough
+
+00:07:10.800 --> 00:07:12.180
+for mathematics journals,
+
+00:07:12.180 --> 00:07:15.000
+and there weren't very many
+computing journals yet.
+
+00:07:15.000 --> 00:07:18.750
+But in 1959, he published his
+work in Numerische Mathematik,
+
+00:07:18.750 --> 00:07:21.480
+or Numerical Mathematics,
+a brand new German journal
+
+00:07:21.480 --> 00:07:24.180
+that needed some help getting established.
+
+00:07:24.180 --> 00:07:26.370
+And that was the beginning.
+
+00:07:26.370 --> 00:07:28.470
+- ['Dijkstra'] Eventually,
+that algorithm became,
+
+00:07:28.470 --> 00:07:32.940
+to my great amazement, one of
+the cornerstones of my fame.
+
+00:07:32.940 --> 00:07:34.680
+I found it in the early '60s
+
+00:07:34.680 --> 00:07:36.930
+in a German book on management science,
+
+00:07:36.930 --> 00:07:38.283
+Das Dijktra'sche Verfahren.
+
+00:07:39.690 --> 00:07:41.863
+Suddenly there was a
+method named after me.
+
+00:07:41.863 --> 00:07:43.735
+Dijkstra's algorithm is still regarded
+
+00:07:43.735 --> 00:07:46.230
+as one of the most elegant,
+shortest path algorithms.
+
+00:07:46.230 --> 00:07:48.630
+But it isn't good enough for Google Maps.
+
+00:07:50.630 --> 00:07:53.180
+Let's say I want to get from
+Newark Airport in New Jersey
+
+00:07:53.180 --> 00:07:54.950
+over to the Central Park Zoo.
+
+00:07:54.950 --> 00:07:56.150
+First, Dijkstra's algorithm
+
+00:07:56.150 --> 00:07:58.310
+checks all the 10-kilometer journeys,
+
+00:07:58.310 --> 00:08:00.140
+and then all the 20 kilometer journeys,
+
+00:08:00.140 --> 00:08:03.290
+and so on until it reaches
+all the 28 kilometer journeys,
+
+00:08:03.290 --> 00:08:04.440
+which includes the zoo.
+
+00:08:05.540 --> 00:08:08.510
+The search frontier
+covers over 65,000 nodes,
+
+00:08:08.510 --> 00:08:10.430
+and includes places that are way off,
+
+00:08:10.430 --> 00:08:13.073
+like Staten Island, and
+large swaths of New Jersey.
+
+00:08:14.420 --> 00:08:16.970
+But even though it searched
+in a illogical directions,
+
+00:08:16.970 --> 00:08:19.760
+the runtime was about a 10th of a second,
+
+00:08:19.760 --> 00:08:21.980
+which is incredibly fast.
+
+00:08:21.980 --> 00:08:22.880
+And for anyone wanting
+
+00:08:22.880 --> 00:08:24.590
+to set up their own pathfinding tests,
+
+00:08:24.590 --> 00:08:26.480
+we were able to get a
+feel for these algorithms
+
+00:08:26.480 --> 00:08:27.770
+using some Python scripts
+
+00:08:27.770 --> 00:08:30.140
+and actual maps from OpenStreetMaps.
+
+00:08:30.140 --> 00:08:31.730
+Solving problems using code like this
+
+00:08:31.730 --> 00:08:34.700
+is as much about the journey
+as it is about the destination.
+
+00:08:34.700 --> 00:08:37.460
+You get to understand how
+Dijkstra works under the hood.
+
+00:08:37.460 --> 00:08:40.130
+Along the way, you also brush
+up on your coding skills.
+
+00:08:40.130 --> 00:08:41.510
+If that's something you wanna try out,
+
+00:08:41.510 --> 00:08:44.120
+I strongly recommend
+today's sponsor, Boot.dev.
+
+00:08:44.120 --> 00:08:45.440
+Instead of blinding you with code,
+
+00:08:45.440 --> 00:08:47.300
+their courses drill in the fundamentals
+
+00:08:47.300 --> 00:08:49.340
+by giving you actual problems to solve.
+
+00:08:49.340 --> 00:08:52.040
+Designing an RPG game,
+building a payment app,
+
+00:08:52.040 --> 00:08:54.410
+or yes, running Dijkstra's algorithm.
+
+00:08:54.410 --> 00:08:56.180
+Their courses start with overview videos
+
+00:08:56.180 --> 00:08:57.740
+and steadily feed in terminology
+
+00:08:57.740 --> 00:08:59.810
+to make sure that you
+actually understand it.
+
+00:08:59.810 --> 00:09:02.573
+They even cover pronunciation.
+You ever heard of SQL?
+
+00:09:03.530 --> 00:09:04.850
+Okay, it's SQL.
+
+00:09:04.850 --> 00:09:06.260
+Well, it's a programming language
+
+00:09:06.260 --> 00:09:08.240
+that's become a bottleneck
+for certain jobs.
+
+00:09:08.240 --> 00:09:09.110
+Take data science.
+
+00:09:09.110 --> 00:09:12.650
+60% of US job listings last
+year required you to know SQL.
+
+00:09:12.650 --> 00:09:14.360
+That's almost 80% for Python.
+
+00:09:14.360 --> 00:09:17.210
+Boot.dev is geared up to teach
+you the languages and tools
+
+00:09:17.210 --> 00:09:19.550
+that you'll need for
+backend and DevOps roles.
+
+00:09:19.550 --> 00:09:22.490
+From Go in Docker to Linux and AWS.
+
+00:09:22.490 --> 00:09:23.540
+You can start from scratch,
+
+00:09:23.540 --> 00:09:25.250
+or jump into more advanced topics.
+
+00:09:25.250 --> 00:09:26.870
+See, DevOps engineers in the US
+
+00:09:26.870 --> 00:09:28.880
+are still some of the
+highest paid tech roles.
+
+00:09:28.880 --> 00:09:31.250
+Because these skills are
+genuinely hard to learn.
+
+00:09:31.250 --> 00:09:32.270
+And that's the point.
+
+00:09:32.270 --> 00:09:33.890
+To get started, go to Boot.dev
+
+00:09:33.890 --> 00:09:35.210
+and use our code "Veritasium"
+
+00:09:35.210 --> 00:09:38.600
+to get 25% off your entire
+first year on the annual plan.
+
+00:09:38.600 --> 00:09:39.740
+I wanna thank Boot.dev
+
+00:09:39.740 --> 00:09:41.300
+for sponsoring this part of the video.
+
+00:09:41.300 --> 00:09:44.390
+Now less than 100 milliseconds
+seems pretty fast.
+
+00:09:44.390 --> 00:09:45.683
+So what's the problem?
+
+00:09:46.790 --> 00:09:49.790
+Well, things slow down a lot
+with bigger and bigger graphs.
+
+00:09:49.790 --> 00:09:51.860
+Like the North America network.
+
+00:09:51.860 --> 00:09:53.630
+One way we can compare search algorithms
+
+00:09:53.630 --> 00:09:55.160
+is by their average query speed.
+
+00:09:55.160 --> 00:09:57.350
+First we pick lots of random points.
+
+00:09:57.350 --> 00:10:00.110
+Then we run Dijkstra's
+algorithm on each pair of points
+
+00:10:00.110 --> 00:10:02.059
+and average all the runtimes.
+
+00:10:02.059 --> 00:10:03.170
+On the North American network,
+
+00:10:03.170 --> 00:10:06.070
+a well-tuned Dijkstra takes
+around seven seconds per path.
+
+00:10:07.400 --> 00:10:08.480
+And for a lot of these searches,
+
+00:10:08.480 --> 00:10:12.920
+the algorithm has to explore
+most of those 64 million nodes.
+
+00:10:12.920 --> 00:10:15.080
+One note, most of the
+queries in this average
+
+00:10:15.080 --> 00:10:16.550
+are for very long journeys,
+
+00:10:16.550 --> 00:10:18.890
+since it's unlikely that
+two randomly picked points
+
+00:10:18.890 --> 00:10:20.133
+will be close together.
+
+00:10:20.133 --> 00:10:22.610
+Now we've seen that
+Dijkstra runs much faster
+
+00:10:22.610 --> 00:10:25.040
+within one city, but this
+average is a good way
+
+00:10:25.040 --> 00:10:27.260
+to compare pathfinding algorithms.
+
+00:10:27.260 --> 00:10:29.000
+But still, I can wait seven seconds.
+
+00:10:29.000 --> 00:10:31.280
+I mean it took about
+four seconds on my phone.
+
+00:10:31.280 --> 00:10:33.110
+But the thing is, it's not just me.
+
+00:10:33.110 --> 00:10:34.910
+I'm waiting in a line behind Derek,
+
+00:10:34.910 --> 00:10:37.280
+Gregor, Casper, and all of you.
+
+00:10:37.280 --> 00:10:38.270
+There can be millions of people
+
+00:10:38.270 --> 00:10:40.700
+asking for directions all at once.
+
+00:10:40.700 --> 00:10:44.000
+And while Google has a lot
+of servers, there's a limit.
+
+00:10:44.000 --> 00:10:46.400
+If we want Google Maps to
+run in a couple of seconds,
+
+00:10:46.400 --> 00:10:47.480
+we actually need the algorithm
+
+00:10:47.480 --> 00:10:49.019
+to run in less than a millisecond,
+
+00:10:49.019 --> 00:10:52.549
+something 7,000 times
+faster than Dijkstra's.
+
+00:10:52.549 --> 00:10:55.850
+(whooshing sound)
+
+00:10:55.850 --> 00:10:57.200
+Well, one problem with Dijkstra's
+
+00:10:57.200 --> 00:10:59.450
+is it searches in the opposite
+direction of the target.
+
+00:10:59.450 --> 00:11:01.040
+So if we know the rough direction,
+
+00:11:01.040 --> 00:11:03.830
+is there a way that we can
+punish a illogical route?
+
+00:11:03.830 --> 00:11:04.790
+Let's go back to our problem,
+
+00:11:04.790 --> 00:11:06.990
+getting from Newark to
+the Central Park Zoo.
+
+00:11:08.030 --> 00:11:11.120
+We'd like to prioritize nodes
+that are closer to the zoo.
+
+00:11:11.120 --> 00:11:12.890
+So using longitudes and latitudes,
+
+00:11:12.890 --> 00:11:15.230
+we can easily calculate
+the straight line distance
+
+00:11:15.230 --> 00:11:17.390
+between any node and our target.
+
+00:11:17.390 --> 00:11:19.280
+We'll order the nodes by their cost,
+
+00:11:19.280 --> 00:11:21.710
+plus this straight line distance.
+
+00:11:21.710 --> 00:11:23.180
+A great way to visualize this
+
+00:11:23.180 --> 00:11:25.520
+comes from the channel Polylog.
+
+00:11:25.520 --> 00:11:27.920
+We can represent each node's
+straight line distance
+
+00:11:27.920 --> 00:11:29.330
+to the target as its height,
+
+00:11:29.330 --> 00:11:32.120
+so the graph stretches into 3D space.
+
+00:11:32.120 --> 00:11:35.300
+The further a node is from
+the zoo, the higher it is.
+
+00:11:35.300 --> 00:11:38.840
+So the algorithm penalizes
+moves that climb up the graph.
+
+00:11:38.840 --> 00:11:41.030
+That way nodes in the opposite direction
+
+00:11:41.030 --> 00:11:43.070
+aren't explored early on.
+
+00:11:43.070 --> 00:11:44.810
+So while Dijkstra's search frontier
+
+00:11:44.810 --> 00:11:46.460
+spreads out in all directions,
+
+00:11:46.460 --> 00:11:49.310
+this modified Dijkstra's,
+also called A-star,
+
+00:11:49.310 --> 00:11:51.470
+immediately heads toward the zoo.
+
+00:11:51.470 --> 00:11:53.810
+It only checks around 7,000 nodes,
+
+00:11:53.810 --> 00:11:57.140
+which is almost a 10 times
+improvement over Dijkstra's.
+
+00:11:57.140 --> 00:12:00.020
+And by changing this penalty,
+also called a heuristic,
+
+00:12:00.020 --> 00:12:03.530
+we can tweak how aggressively
+A-star targets the zoo.
+
+00:12:03.530 --> 00:12:06.800
+The steeper the slope, the
+less A-star spreads out.
+
+00:12:06.800 --> 00:12:09.860
+It's a more human approach
+to finding the shortest path,
+
+00:12:09.860 --> 00:12:11.360
+since we're only exploring
+
+00:12:11.360 --> 00:12:14.000
+in the rough direction of the target.
+
+00:12:14.000 --> 00:12:16.520
+That's why A-star is one of
+the most popular algorithms
+
+00:12:16.520 --> 00:12:18.620
+behind video game NPCs.
+
+00:12:18.620 --> 00:12:20.540
+For example, many of the mobs in Minecraft
+
+00:12:20.540 --> 00:12:23.030
+use a version of A-star
+with extra penalties
+
+00:12:23.030 --> 00:12:24.884
+for dangerous zones.
+
+00:12:24.884 --> 00:12:28.040
+It's also a popular
+maze-solving algorithm.
+
+00:12:28.040 --> 00:12:31.160
+At worst, A-star checks
+as many nodes as Dijkstra.
+
+00:12:31.160 --> 00:12:32.180
+But on the right maze,
+
+00:12:32.180 --> 00:12:34.793
+it can cut down the search
+space by more than half.
+
+00:12:36.860 --> 00:12:38.420
+But when I'm trying to get somewhere,
+
+00:12:38.420 --> 00:12:40.550
+I don't care about
+minimizing the distance.
+
+00:12:40.550 --> 00:12:42.318
+I just wanna get there the fastest.
+
+00:12:42.318 --> 00:12:44.990
+(Henry laughing)
+
+00:12:44.990 --> 00:12:47.780
+To optimize for time, we divide
+the straight line distance
+
+00:12:47.780 --> 00:12:50.240
+by the maximum speed allowed on the graph.
+
+00:12:50.240 --> 00:12:52.880
+This gives us the minimum travel time.
+
+00:12:52.880 --> 00:12:55.880
+But this heuristic is an
+extreme underestimate.
+
+00:12:55.880 --> 00:12:58.760
+- If you wanna go for the shortest path
+
+00:12:58.760 --> 00:13:01.730
+in the sense that shortest
+geographic distance,
+
+00:13:01.730 --> 00:13:04.130
+you will gain some
+advantages using A-star,
+
+00:13:04.130 --> 00:13:05.840
+compared to Dijkstra.
+
+00:13:05.840 --> 00:13:08.720
+If you go for travel time, A-star,
+
+00:13:08.720 --> 00:13:13.720
+from my experience, loses
+against a well-tuned Dijkstra.
+
+00:13:14.330 --> 00:13:17.563
+You explore fewer nodes,
+but not that many.
+
+00:13:17.563 --> 00:13:21.080
+But you now also have to
+evaluate quite a few heuristics
+
+00:13:21.080 --> 00:13:23.090
+that you would not need to evaluate
+
+00:13:23.090 --> 00:13:25.100
+when doing pure Dijkstra.
+
+00:13:25.100 --> 00:13:29.000
+And those heuristic contain a
+nasty square root computation.
+
+00:13:29.000 --> 00:13:30.380
+- [Henry] On our New York City graph,
+
+00:13:30.380 --> 00:13:33.860
+Dijkstra's algorithm explored
+around 9.5 times more nodes
+
+00:13:33.860 --> 00:13:36.860
+than A-star, to find the
+shortest path by distance.
+
+00:13:36.860 --> 00:13:39.230
+But if we switch that to
+the shortest travel time,
+
+00:13:39.230 --> 00:13:42.050
+the number of nodes
+A-star explores triples,
+
+00:13:42.050 --> 00:13:44.750
+while Dijkstra only increases by 10%.
+
+00:13:44.750 --> 00:13:47.540
+And it only gets worse on larger graphs.
+
+00:13:47.540 --> 00:13:49.520
+So Google Maps need something better
+
+00:13:49.520 --> 00:13:51.143
+that works well for travel time.
+
+00:13:52.130 --> 00:13:54.410
+What if we ran the search
+in both directions?
+
+00:13:54.410 --> 00:13:55.790
+From the source to the target,
+
+00:13:55.790 --> 00:13:57.770
+and from the target to the source?
+
+00:13:57.770 --> 00:14:00.080
+If two points are a distance R away,
+
+00:14:00.080 --> 00:14:01.490
+Dijkstra searches most of the nodes
+
+00:14:01.490 --> 00:14:04.670
+roughly within a circle
+of area pi R-squared.
+
+00:14:04.670 --> 00:14:05.960
+But with two searches,
+
+00:14:05.960 --> 00:14:08.960
+the frontiers will
+overlap around R over two,
+
+00:14:08.960 --> 00:14:11.690
+and cover an area of half pi R-squared,
+
+00:14:11.690 --> 00:14:13.880
+half that of the single search.
+
+00:14:13.880 --> 00:14:14.900
+And depending on the graph,
+
+00:14:14.900 --> 00:14:17.360
+it can sometimes be better than half.
+
+00:14:17.360 --> 00:14:20.180
+A basic Dijkstra search from
+Carnegie Hall to Wall Street
+
+00:14:20.180 --> 00:14:22.793
+explored over 7,200 nodes.
+
+00:14:24.237 --> 00:14:25.580
+But a bi-directional Dijkstra
+
+00:14:25.580 --> 00:14:28.400
+explored a little over 2,600 nodes,
+
+00:14:28.400 --> 00:14:30.323
+close to a three times improvement.
+
+00:14:31.370 --> 00:14:33.710
+But even a bi-directional
+search doesn't take advantage
+
+00:14:33.710 --> 00:14:35.750
+of the logic built into road networks.
+
+00:14:35.750 --> 00:14:36.770
+- They still do things
+
+00:14:36.770 --> 00:14:39.320
+that you wouldn't necessarily conceive
+
+00:14:39.320 --> 00:14:40.460
+as a good idea, right?
+
+00:14:40.460 --> 00:14:44.300
+Like they still look at the
+drive-through at In-N-Out
+
+00:14:44.300 --> 00:14:46.832
+and see if there isn't
+perhaps a shorter path
+
+00:14:46.832 --> 00:14:48.860
+if you drive halfway into it,
+
+00:14:48.860 --> 00:14:50.990
+and then some clever way out of it, right?
+
+00:14:50.990 --> 00:14:54.347
+So maybe that is the intuition
+between why kind of Dijkstra
+
+00:14:54.347 --> 00:14:56.720
+and A-star itself don't suffice.
+
+00:14:56.720 --> 00:15:00.080
+Both of them still kind
+of don't have a good sense
+
+00:15:00.080 --> 00:15:02.003
+of the hierarchy of the road network.
+
+00:15:04.790 --> 00:15:06.920
+- When I think about how to
+get from one place to another,
+
+00:15:06.920 --> 00:15:08.870
+I know that I'm probably
+gonna meander around
+
+00:15:08.870 --> 00:15:11.450
+some local roads, then hop on a highway,
+
+00:15:11.450 --> 00:15:12.830
+and then when I'm close to my destination,
+
+00:15:12.830 --> 00:15:14.210
+I'm gonna hop off the highway and meander
+
+00:15:14.210 --> 00:15:16.220
+around some more local roads.
+
+00:15:16.220 --> 00:15:18.500
+There's a hierarchy to road networks,
+
+00:15:18.500 --> 00:15:21.050
+but these algorithms can't
+take advantage of them.
+
+00:15:21.050 --> 00:15:23.930
+So they're as likely to
+search a twisty local road
+
+00:15:23.930 --> 00:15:25.700
+as an interstate highway,
+
+00:15:25.700 --> 00:15:27.650
+as long as they have the same weight.
+
+00:15:27.650 --> 00:15:30.740
+So how do we actually
+encode that human intuition
+
+00:15:30.740 --> 00:15:32.438
+into an algorithm?
+
+00:15:32.438 --> 00:15:34.730
+- If you look at kind of
+industry implementations
+
+00:15:34.730 --> 00:15:35.840
+in the '90s, for instance,
+
+00:15:35.840 --> 00:15:38.540
+like in these early in-car GPS systems,
+
+00:15:38.540 --> 00:15:42.290
+they had like a pre-computed road class
+
+00:15:42.290 --> 00:15:44.770
+that they annotated on the roads.
+
+00:15:44.770 --> 00:15:46.640
+- So here was the basic idea.
+
+00:15:46.640 --> 00:15:49.130
+Surveyors would go out and
+take notes about a road.
+
+00:15:49.130 --> 00:15:51.560
+Like its speed limit, how wide it was,
+
+00:15:51.560 --> 00:15:52.880
+whether it was a highway.
+
+00:15:52.880 --> 00:15:54.590
+And then they would send
+that to the mapping companies
+
+00:15:54.590 --> 00:15:56.930
+who would manually categorize
+it into hierarchies.
+
+00:15:56.930 --> 00:15:59.660
+An example of a hierarchy
+might be express highway,
+
+00:15:59.660 --> 00:16:02.750
+local major road, or
+narrow road like this.
+
+00:16:02.750 --> 00:16:03.800
+Once it had the maps,
+
+00:16:03.800 --> 00:16:06.303
+GPS would run a bi-directional Dijkstra,
+
+00:16:06.303 --> 00:16:08.180
+but there was a catch.
+
+00:16:08.180 --> 00:16:10.130
+It first searched all the narrow roads
+
+00:16:10.130 --> 00:16:11.810
+within a candidate area.
+
+00:16:11.810 --> 00:16:13.070
+If it didn't find the target,
+
+00:16:13.070 --> 00:16:15.530
+it mapped the path to the next hierarchy,
+
+00:16:15.530 --> 00:16:16.940
+the major local roads.
+
+00:16:16.940 --> 00:16:18.860
+Then search all of the major local roads
+
+00:16:18.860 --> 00:16:20.810
+within the new candidate area.
+
+00:16:20.810 --> 00:16:22.370
+If it still didn't find the target,
+
+00:16:22.370 --> 00:16:24.920
+it moved up again to the highway level.
+
+00:16:24.920 --> 00:16:26.960
+The two searches would
+overlap at some point,
+
+00:16:26.960 --> 00:16:28.610
+and return the final path.
+
+00:16:28.610 --> 00:16:30.410
+This way, a little pre-processing
+
+00:16:30.410 --> 00:16:31.850
+could reduce the search area
+
+00:16:31.850 --> 00:16:34.700
+and take advantage of the road hierarchy.
+
+00:16:34.700 --> 00:16:37.100
+- One obvious downside here is that
+
+00:16:37.100 --> 00:16:41.270
+how do you correctly compute
+those levels of hierarchy?
+
+00:16:41.270 --> 00:16:44.390
+And how can you prove to
+yourself that they're correct
+
+00:16:44.390 --> 00:16:47.180
+in the sense that you are not
+missing any shortest paths?
+
+00:16:47.180 --> 00:16:49.520
+- For example, if the
+candidate area is too small,
+
+00:16:49.520 --> 00:16:52.220
+there's a chance the algorithm
+returns a highway path,
+
+00:16:52.220 --> 00:16:55.010
+when a series of local
+roads really is better.
+
+00:16:55.010 --> 00:16:56.390
+A much larger candidate area
+
+00:16:56.390 --> 00:16:59.570
+might always find the shortest
+path, but at some point,
+
+00:16:59.570 --> 00:17:02.180
+that's not much better than Dijkstra.
+
+00:17:02.180 --> 00:17:03.770
+If Google wanted to map the world,
+
+00:17:03.770 --> 00:17:05.629
+they need a better routing algorithm.
+
+00:17:05.629 --> 00:17:07.160
+(upbeat music)
+
+00:17:07.160 --> 00:17:08.660
+Using a pre-processed hierarchy
+
+00:17:08.660 --> 00:17:10.790
+gives us way faster query runtimes.
+
+00:17:10.790 --> 00:17:12.380
+But, there's a trade-off.
+
+00:17:12.380 --> 00:17:14.030
+Our brute force algorithm from earlier
+
+00:17:14.030 --> 00:17:15.980
+where we just calculated all the paths
+
+00:17:15.980 --> 00:17:18.590
+to get the shortest one
+is a perfect example.
+
+00:17:18.590 --> 00:17:21.050
+If we had a massive lookup
+table of all the shortest paths
+
+00:17:21.050 --> 00:17:21.923
+from any two points,
+
+00:17:21.923 --> 00:17:25.220
+then we would get insanely
+fast query runtimes.
+
+00:17:25.220 --> 00:17:28.430
+But building that list
+would take way too long.
+
+00:17:28.430 --> 00:17:31.580
+Here I have a graph. On the
+vertical axis is query runtime.
+
+00:17:31.580 --> 00:17:34.130
+And on the horizontal axis
+is pre-processing time.
+
+00:17:34.130 --> 00:17:35.840
+In the case of our massive lookup table,
+
+00:17:35.840 --> 00:17:37.760
+it would be right about here.
+
+00:17:37.760 --> 00:17:38.810
+Even running Dijkstra
+
+00:17:38.810 --> 00:17:41.660
+from every one of those
+64 million intersections,
+
+00:17:41.660 --> 00:17:45.200
+that's more than a decade
+of compute on a single core.
+
+00:17:45.200 --> 00:17:46.220
+And the entire table
+
+00:17:46.220 --> 00:17:48.590
+would be more than eight
+petabytes of raw data.
+
+00:17:48.590 --> 00:17:52.850
+That's like storing all of
+Wikipedia, 16 times over.
+
+00:17:52.850 --> 00:17:54.440
+And even if we had the table,
+
+00:17:54.440 --> 00:17:57.710
+we'd have to rebuild entire
+portions whenever a road closes,
+
+00:17:57.710 --> 00:18:01.070
+a new bridge opens, and for
+every small traffic adjustment.
+
+00:18:01.070 --> 00:18:03.890
+Now in reality it would probably
+not even fit on this chart.
+
+00:18:03.890 --> 00:18:05.570
+But for now, we're just gonna put it here.
+
+00:18:05.570 --> 00:18:06.410
+On the other hand,
+
+00:18:06.410 --> 00:18:09.350
+Dijkstra's algorithm requires
+no pre-processing at all.
+
+00:18:09.350 --> 00:18:11.180
+But it takes a long time to run.
+
+00:18:11.180 --> 00:18:13.493
+So on our graph, it would fit about here.
+
+00:18:15.350 --> 00:18:17.390
+Google Maps need something in between.
+
+00:18:17.390 --> 00:18:18.950
+Very fast query run times,
+
+00:18:18.950 --> 00:18:21.050
+but not too much pre-processing.
+
+00:18:21.050 --> 00:18:23.543
+In that case, we want
+to be in this region.
+
+00:18:27.050 --> 00:18:29.840
+Now the idea is very similar
+to the manual hierarchies,
+
+00:18:29.840 --> 00:18:31.730
+but with two major changes.
+
+00:18:31.730 --> 00:18:33.950
+First, we'll automatically
+pre-process our graph
+
+00:18:33.950 --> 00:18:36.327
+to order nodes by how important they are.
+
+00:18:36.327 --> 00:18:39.290
+An exit connecting two
+highways, quite important.
+
+00:18:39.290 --> 00:18:42.440
+The intersection to a tiny
+cul-de-sac, well, not as much.
+
+00:18:42.440 --> 00:18:44.840
+No more categorizing roads by hand.
+
+00:18:44.840 --> 00:18:46.760
+We'll still use a bi-directional Dijkstras
+
+00:18:46.760 --> 00:18:49.580
+that only searches up the
+hierarchy from both directions.
+
+00:18:49.580 --> 00:18:50.960
+But if we build it clever enough,
+
+00:18:50.960 --> 00:18:52.460
+we can get rid of candidate areas
+
+00:18:52.460 --> 00:18:54.650
+and still guarantee the shortest path.
+
+00:18:54.650 --> 00:18:57.470
+So phase one is building this hierarchy.
+
+00:18:57.470 --> 00:18:59.820
+How do we pick the most
+important nodes though?
+
+00:19:00.710 --> 00:19:02.870
+Let's take a look at
+these two small towns.
+
+00:19:02.870 --> 00:19:04.580
+We're gonna throw away
+everything in one town
+
+00:19:04.580 --> 00:19:06.380
+except for this house for right now.
+
+00:19:06.380 --> 00:19:08.390
+If someone in that house
+wants to get anywhere,
+
+00:19:08.390 --> 00:19:09.980
+they have to pass
+through this intersection
+
+00:19:09.980 --> 00:19:11.720
+at the end of the bridge.
+
+00:19:11.720 --> 00:19:14.060
+All of the shortest paths
+to and from their house
+
+00:19:14.060 --> 00:19:17.420
+include that node, so it's
+pretty important to them.
+
+00:19:17.420 --> 00:19:20.420
+But that node isn't as important
+to the rest of the town.
+
+00:19:20.420 --> 00:19:22.400
+After all, the only
+reason to cross the bridge
+
+00:19:22.400 --> 00:19:24.140
+is to get to that one house.
+
+00:19:24.140 --> 00:19:26.780
+But with more and more
+houses on the other side,
+
+00:19:26.780 --> 00:19:29.900
+the bridge node gets
+more and more important.
+
+00:19:29.900 --> 00:19:33.290
+Any trip from one side to
+the other needs to use it.
+
+00:19:33.290 --> 00:19:35.180
+It's the most important when the two towns
+
+00:19:35.180 --> 00:19:39.230
+are roughly the same size, when
+it splits the graph in half.
+
+00:19:39.230 --> 00:19:41.480
+That's when the maximum
+number of shortest paths
+
+00:19:41.480 --> 00:19:43.400
+include that bridge.
+
+00:19:43.400 --> 00:19:45.830
+There are other sets of nodes
+that split the graph in half,
+
+00:19:45.830 --> 00:19:47.060
+like this main street,
+
+00:19:47.060 --> 00:19:49.130
+but there's far more
+intersections along that street
+
+00:19:49.130 --> 00:19:50.780
+than just the one bridge node.
+
+00:19:50.780 --> 00:19:53.810
+So a small set of nodes,
+or a small cut of nodes
+
+00:19:53.810 --> 00:19:57.140
+is important when it roughly
+splits the graph in half.
+
+00:19:57.140 --> 00:19:59.340
+Let's bring back the
+North American network.
+
+00:20:00.560 --> 00:20:03.260
+These blue nodes roughly
+split the graph in half.
+
+00:20:03.260 --> 00:20:05.210
+If you wanted to get from
+anywhere on the east coast,
+
+00:20:05.210 --> 00:20:06.500
+to anywhere on the west coast,
+
+00:20:06.500 --> 00:20:09.500
+you'd have to go through
+one of these 102 nodes.
+
+00:20:09.500 --> 00:20:12.650
+It's just like the bridge
+connecting the two towns.
+
+00:20:12.650 --> 00:20:13.940
+- That's really small.
+
+00:20:13.940 --> 00:20:16.070
+But if you look at where
+does this thing go,
+
+00:20:16.070 --> 00:20:18.140
+that's essentially the Mississippi River.
+
+00:20:18.140 --> 00:20:21.410
+And bridges over the Mississippi
+are expensive to build.
+
+00:20:21.410 --> 00:20:23.030
+- [Henry] These are the
+biggest bottlenecks.
+
+00:20:23.030 --> 00:20:25.490
+Out of all the 64 million plus nodes,
+
+00:20:25.490 --> 00:20:29.360
+these 102 get the highest
+rank, so the biggest numbers.
+
+00:20:29.360 --> 00:20:31.550
+Now let's find the next
+most important nodes.
+
+00:20:31.550 --> 00:20:33.830
+- Well, what can we do on both sides?
+
+00:20:33.830 --> 00:20:35.150
+Well, we can do the same thing.
+
+00:20:35.150 --> 00:20:37.640
+We again, search for small cuts.
+
+00:20:37.640 --> 00:20:39.020
+- The next cut on the east coast
+
+00:20:39.020 --> 00:20:40.520
+follows the Ohio River.
+
+00:20:40.520 --> 00:20:43.400
+And then it loosely traces
+up the Appalachian Mountains
+
+00:20:43.400 --> 00:20:46.070
+before heading back south
+along the Potomac River.
+
+00:20:46.070 --> 00:20:48.980
+On the west coast, the cut
+mostly follows the Rockies,
+
+00:20:48.980 --> 00:20:50.960
+and then the Colorado River.
+
+00:20:50.960 --> 00:20:54.260
+These two sets get the next
+highest ranks for their sides,
+
+00:20:54.260 --> 00:20:57.830
+and we can split these in half
+again and rank those nodes.
+
+00:20:57.830 --> 00:21:00.350
+And again, and on and on,
+
+00:21:00.350 --> 00:21:03.410
+until we've ranked all 64 million nodes.
+
+00:21:03.410 --> 00:21:05.303
+This is called nested dissection.
+
+00:21:06.230 --> 00:21:08.641
+This pre-processing step has two goals.
+
+00:21:08.641 --> 00:21:11.960
+We want an algorithm that
+doesn't search a lot of nodes,
+
+00:21:11.960 --> 00:21:13.665
+so the runtime is really fast,
+
+00:21:13.665 --> 00:21:16.790
+but also will always
+return the shortest path.
+
+00:21:16.790 --> 00:21:18.140
+The hierarchy we build now
+
+00:21:18.140 --> 00:21:20.450
+needs to support both of these goals.
+
+00:21:20.450 --> 00:21:22.969
+Let's test this out on a smaller graph.
+
+00:21:22.969 --> 00:21:25.283
+We ignore the edge weights
+for the first step.
+
+00:21:26.300 --> 00:21:28.640
+These two nodes split the
+graph roughly in half,
+
+00:21:28.640 --> 00:21:30.290
+so we give them the highest rank.
+
+00:21:31.190 --> 00:21:34.220
+Looking at one side, this node
+splits the subset in half,
+
+00:21:34.220 --> 00:21:36.410
+so it has the highest rank of the three.
+
+00:21:36.410 --> 00:21:39.230
+We can rank the remaining
+two nodes in any order.
+
+00:21:39.230 --> 00:21:40.220
+Now, on the other side,
+
+00:21:40.220 --> 00:21:42.860
+these two nodes split this subset in half.
+
+00:21:42.860 --> 00:21:44.990
+So they have the next highest rank.
+
+00:21:44.990 --> 00:21:45.823
+And then again,
+
+00:21:45.823 --> 00:21:48.740
+we rank the final two nodes
+with the remaining numbers.
+
+00:21:48.740 --> 00:21:50.300
+But what about this ranking?
+
+00:21:50.300 --> 00:21:51.860
+We split the graph the same,
+
+00:21:51.860 --> 00:21:55.280
+but the rankings within the
+same cut are all swapped around.
+
+00:21:55.280 --> 00:21:56.810
+Or if we split the graph differently,
+
+00:21:56.810 --> 00:21:58.670
+we could get this ranking.
+
+00:21:58.670 --> 00:22:01.160
+It even splits the
+graph perfectly in half.
+
+00:22:01.160 --> 00:22:05.360
+Isn't that better? And these
+rankings are all valid.
+
+00:22:05.360 --> 00:22:07.670
+We'll see in a bit why we
+could use any one of them.
+
+00:22:07.670 --> 00:22:09.860
+But for now, we'll just take this one.
+
+00:22:09.860 --> 00:22:12.500
+The best way to visualize
+this ranking is to pull down,
+
+00:22:12.500 --> 00:22:14.480
+or contract the nodes in order.
+
+00:22:14.480 --> 00:22:18.170
+One is the furthest down,
+two is next up, and so on.
+
+00:22:18.170 --> 00:22:20.090
+Now we can bring in a search algorithm.
+
+00:22:20.090 --> 00:22:21.200
+To speed up the runtime,
+
+00:22:21.200 --> 00:22:24.650
+we limit the search space by
+only moving up the hierarchy.
+
+00:22:25.651 --> 00:22:26.671
+And that's why it's so important
+
+00:22:26.671 --> 00:22:28.380
+to use a bi-directional Dijkstra.
+
+00:22:28.380 --> 00:22:30.510
+If the algorithm couldn't
+search in both directions,
+
+00:22:30.510 --> 00:22:32.730
+it would get stuck on a lot of pairs.
+
+00:22:32.730 --> 00:22:34.890
+So instead, the two
+searches meet in the middle
+
+00:22:34.890 --> 00:22:36.960
+at the top of the hierarchy.
+
+00:22:36.960 --> 00:22:38.730
+Now let's add the edge weights back.
+
+00:22:38.730 --> 00:22:41.940
+Okay, what's the shortest path
+from node four to node eight?
+
+00:22:41.940 --> 00:22:44.160
+Well, starting from
+node four, we search up,
+
+00:22:44.160 --> 00:22:47.010
+and reach node nine with a cost of 10,
+
+00:22:47.010 --> 00:22:48.660
+From node eight, we also search up,
+
+00:22:48.660 --> 00:22:51.450
+and get to node nine with a cost of five.
+
+00:22:51.450 --> 00:22:56.130
+So that must be the shortest
+path with a cost of 15. Done.
+
+00:22:56.130 --> 00:22:59.820
+Except, there's a problem.
+That's not the shortest path.
+
+00:22:59.820 --> 00:23:02.370
+Using this path only costs three.
+
+00:23:02.370 --> 00:23:03.810
+This search doesn't check paths
+
+00:23:03.810 --> 00:23:05.850
+that go through lower rank nodes.
+
+00:23:05.850 --> 00:23:08.970
+But we can fix it with a
+little more pre-processing.
+
+00:23:08.970 --> 00:23:10.380
+Start from the lowest rank.
+
+00:23:10.380 --> 00:23:13.440
+Does this node connect to
+at least two higher nodes?
+
+00:23:13.440 --> 00:23:16.380
+On this graph, node one
+connects to three and eight.
+
+00:23:16.380 --> 00:23:18.450
+This is called a lower triangle.
+
+00:23:18.450 --> 00:23:19.710
+And while there's a chance this path
+
+00:23:19.710 --> 00:23:22.530
+is actually the shortest between
+node three and node eight,
+
+00:23:22.530 --> 00:23:24.510
+our search will never consider it.
+
+00:23:24.510 --> 00:23:27.390
+So we'll add a shortcut between
+nodes three and node eight.
+
+00:23:27.390 --> 00:23:30.150
+That's just the cost
+of this lower triangle.
+
+00:23:30.150 --> 00:23:32.520
+Now, this edge doesn't
+correspond to anything real
+
+00:23:32.520 --> 00:23:33.450
+on the road network.
+
+00:23:33.450 --> 00:23:36.030
+It's just a way to keep
+track of shortest paths.
+
+00:23:36.030 --> 00:23:39.480
+We move on to the next lowest
+node and run the same test.
+
+00:23:39.480 --> 00:23:41.610
+But there could be
+multiple lower triangles,
+
+00:23:41.610 --> 00:23:42.990
+or there might already be an edge
+
+00:23:42.990 --> 00:23:44.820
+between the two higher nodes.
+
+00:23:44.820 --> 00:23:46.620
+In those cases, the shortcut represents
+
+00:23:46.620 --> 00:23:49.260
+whichever path has the minimum cost.
+
+00:23:49.260 --> 00:23:51.300
+A path that only uses lower ranked nodes
+
+00:23:51.300 --> 00:23:54.330
+is like a path that only
+uses smaller local roads.
+
+00:23:54.330 --> 00:23:56.670
+We don't want the algorithm
+to return a highway route
+
+00:23:56.670 --> 00:23:58.500
+if a local road is shorter.
+
+00:23:58.500 --> 00:24:00.120
+Building shortcuts from the bottom up
+
+00:24:00.120 --> 00:24:01.830
+makes sure we don't miss these paths,
+
+00:24:01.830 --> 00:24:04.230
+while also ignoring them
+if they aren't needed.
+
+00:24:04.230 --> 00:24:06.300
+This way, we both limit the search space,
+
+00:24:06.300 --> 00:24:08.610
+and never miss the shortest path.
+
+00:24:08.610 --> 00:24:11.070
+But there's another benefit to shortcuts.
+
+00:24:11.070 --> 00:24:12.420
+We don't need to worry too much about
+
+00:24:12.420 --> 00:24:14.010
+getting a perfect ranking.
+
+00:24:14.010 --> 00:24:15.840
+We can roughly cut the graph in half,
+
+00:24:15.840 --> 00:24:18.720
+and rank nodes in the
+same cut in any order.
+
+00:24:18.720 --> 00:24:20.640
+If the ranking overlooks
+the shortest path,
+
+00:24:20.640 --> 00:24:22.890
+well, we'll add it back
+later with a shortcut.
+
+00:24:22.890 --> 00:24:25.110
+That's why we were able to
+get three valid rankings
+
+00:24:25.110 --> 00:24:27.360
+using the same instructions earlier.
+
+00:24:27.360 --> 00:24:29.970
+But while any ranking will
+still find the shortest path,
+
+00:24:29.970 --> 00:24:31.770
+a bad one will go really slow,
+
+00:24:31.770 --> 00:24:34.350
+or it'll quickly blow the graph up.
+
+00:24:34.350 --> 00:24:37.260
+For example, with a series
+of nodes in a straight line,
+
+00:24:37.260 --> 00:24:38.820
+we don't need to add any shortcuts
+
+00:24:38.820 --> 00:24:41.790
+if we just contract the
+nodes from left to right.
+
+00:24:41.790 --> 00:24:43.860
+But when we search between the two ends,
+
+00:24:43.860 --> 00:24:46.362
+we have to explore every node and edge.
+
+00:24:46.362 --> 00:24:49.170
+And that's no improvement over Dijkstra's.
+
+00:24:49.170 --> 00:24:50.400
+Here's another possible ranking
+
+00:24:50.400 --> 00:24:52.320
+with the necessary shortcuts.
+
+00:24:52.320 --> 00:24:54.870
+End-to-end, we only need
+to search two edges,
+
+00:24:54.870 --> 00:24:56.520
+but we need a lot of shortcuts.
+
+00:24:56.520 --> 00:24:59.310
+And in some sections, we still
+have to check all the edges.
+
+00:24:59.310 --> 00:25:02.310
+Manageable, but not very efficient.
+
+00:25:02.310 --> 00:25:05.232
+- And so you want to have this trade-off
+
+00:25:05.232 --> 00:25:07.230
+between the number of
+shortcuts that you introduce
+
+00:25:07.230 --> 00:25:09.630
+and how much faster the query gets.
+
+00:25:09.630 --> 00:25:10.463
+- [Henry] In practice,
+
+00:25:10.463 --> 00:25:12.960
+the nested dissection method
+gets a decent node ordering
+
+00:25:12.960 --> 00:25:14.260
+and doesn't take too long.
+
+00:25:16.050 --> 00:25:17.790
+This entire algorithm is called
+
+00:25:17.790 --> 00:25:20.730
+a customizable contraction hierarchy.
+
+00:25:20.730 --> 00:25:22.980
+And Ben tested it out on
+the North American network
+
+00:25:22.980 --> 00:25:25.440
+to give us a sense of the runtimes.
+
+00:25:25.440 --> 00:25:28.290
+In phase one, we order the
+nodes and add shortcuts.
+
+00:25:28.290 --> 00:25:30.660
+This doesn't change unless
+the graph itself changes,
+
+00:25:30.660 --> 00:25:32.670
+like a new bridge, or a road closure.
+
+00:25:32.670 --> 00:25:35.040
+It's by far the most
+expensive part of the process.
+
+00:25:35.040 --> 00:25:38.086
+But once it's done, it
+hardly ever changes.
+
+00:25:38.086 --> 00:25:41.653
+- I think it would ended up at an hour 40
+
+00:25:41.653 --> 00:25:42.486
+or something like that.
+
+00:25:42.486 --> 00:25:44.400
+You can spend more time,
+you get better results.
+
+00:25:44.400 --> 00:25:48.540
+So it's an argument to make
+that that's a good idea.
+
+00:25:48.540 --> 00:25:49.373
+- [Derek] In phase two,
+
+00:25:49.373 --> 00:25:51.570
+we calculate the weights
+for all the shortcuts.
+
+00:25:51.570 --> 00:25:52.710
+Whenever there's traffic updates,
+
+00:25:52.710 --> 00:25:54.090
+we'll have to rerun this step.
+
+00:25:54.090 --> 00:25:56.070
+So it needs to be relatively quick,
+
+00:25:56.070 --> 00:25:59.490
+- I think seven, eight seconds
+without parallelization
+
+00:25:59.490 --> 00:26:02.370
+and take it down to about a second,
+
+00:26:02.370 --> 00:26:05.340
+and then that's where the
+memory starts setting.
+
+00:26:05.340 --> 00:26:08.400
+- [Derek] Finally, phase
+three is the actual search.
+
+00:26:08.400 --> 00:26:11.310
+Remember, for a long path on
+the North American network,
+
+00:26:11.310 --> 00:26:13.230
+a well-tuned Dijkstra needs to explore
+
+00:26:13.230 --> 00:26:15.330
+most of the 64 million nodes
+
+00:26:15.330 --> 00:26:18.180
+and takes around seven seconds per path.
+
+00:26:18.180 --> 00:26:20.220
+For this contraction hierarchy,
+
+00:26:20.220 --> 00:26:23.910
+the query runtime was
+around 200 microseconds.
+
+00:26:23.910 --> 00:26:25.650
+- Depending on how you configure stuff,
+
+00:26:25.650 --> 00:26:29.390
+you can get down to like
+100 microseconds or so.
+
+00:26:29.390 --> 00:26:31.890
+But for practical purposes,
+
+00:26:31.890 --> 00:26:34.830
+below a millisecond is all you need.
+
+00:26:34.830 --> 00:26:37.350
+- [Henry] That's 35,000
+times faster than Dijkstra
+
+00:26:37.350 --> 00:26:39.060
+in just this experiment.
+
+00:26:39.060 --> 00:26:43.167
+And on average, it only
+needed to explore 1,450 nodes,
+
+00:26:43.167 --> 00:26:47.971
+cutting the search space by
+a factor of around 44,000.
+
+00:26:47.971 --> 00:26:49.980
+A Dijkstra search from
+San Francisco to Montreal
+
+00:26:49.980 --> 00:26:53.070
+would need to check all the
+nodes roughly in this area.
+
+00:26:53.070 --> 00:26:55.470
+On a customizable contraction hierarchy,
+
+00:26:55.470 --> 00:26:59.490
+it only needs to search these 1,236 nodes.
+
+00:26:59.490 --> 00:27:02.370
+Most of the nodes cluster
+around the source and target.
+
+00:27:02.370 --> 00:27:04.320
+Once it gets far enough up the hierarchy,
+
+00:27:04.320 --> 00:27:06.720
+it only needs to check
+the most important cuts,
+
+00:27:06.720 --> 00:27:08.220
+like the Mississippi.
+
+00:27:08.220 --> 00:27:10.950
+While we don't know exactly
+what Google maps, Apple maps,
+
+00:27:10.950 --> 00:27:12.810
+or any of these big routing applications
+
+00:27:12.810 --> 00:27:14.730
+actually use under the hood,
+
+00:27:14.730 --> 00:27:17.880
+they all could be built with
+contraction hierarchies.
+
+00:27:17.880 --> 00:27:19.980
+And customizable contraction hierarchies
+
+00:27:19.980 --> 00:27:21.600
+is just one variation,
+
+00:27:21.600 --> 00:27:23.730
+and there are even more routing algorithms
+
+00:27:23.730 --> 00:27:25.233
+that we haven't covered.
+
+00:27:26.160 --> 00:27:27.270
+But if you think about it,
+
+00:27:27.270 --> 00:27:30.843
+its core search is still
+Dijkstras, a 70-year-old algorithm.
+
+00:27:31.770 --> 00:27:34.200
+Four decades after
+Dijkstra publishes article,
+
+00:27:34.200 --> 00:27:36.210
+Danish computer scientist Mikkel Thorup
+
+00:27:36.210 --> 00:27:38.130
+said that all theoretical developments
+
+00:27:38.130 --> 00:27:39.568
+in single source shortest paths
+
+00:27:39.568 --> 00:27:41.943
+have been based on Dijkstra's algorithm.
+
+00:27:43.020 --> 00:27:46.350
+And since 2000, many of the
+newest shortest path algorithms
+
+00:27:46.350 --> 00:27:49.050
+still use bits and pieces of Dijkstras.
+
+00:27:49.050 --> 00:27:51.390
+From variations on
+contraction hierarchies,
+
+00:27:51.390 --> 00:27:53.670
+all the way to a recent
+theoretical breakthrough
+
+00:27:53.670 --> 00:27:55.923
+for an even faster
+shortest path algorithm.
+
+00:27:57.900 --> 00:28:01.413
+All of this, based on
+a 20-minute invention.
+
+00:28:03.480 --> 00:28:05.250
+Part of Dijkstra's enduring success
+
+00:28:05.250 --> 00:28:07.350
+comes down to just how simple it is.
+
+00:28:07.350 --> 00:28:11.310
+As he said, "Simplicity is
+prerequisite for reliability."
+
+00:28:11.310 --> 00:28:12.780
+Dijkstra thought deeply about problems
+
+00:28:12.780 --> 00:28:14.490
+before ever touching a pen.
+
+00:28:14.490 --> 00:28:16.680
+Because at the end of the
+day, it would be a programmer
+
+00:28:16.680 --> 00:28:19.293
+who is accountable for
+their work, not the machine.
+
+00:28:20.142 --> 00:28:23.809
+(speaking foreign language)
+
+00:28:30.838 --> 00:28:34.505
+(speaking foreign language)
+
+00:28:41.674 --> 00:28:45.341
+(speaking foreign language)
+
+00:28:52.537 --> 00:28:56.204
+(speaking foreign language)
+
+00:28:57.150 --> 00:28:58.500
+- So with those two ideas,
+
+00:28:58.500 --> 00:29:00.600
+he hoped to have one lasting legacy.
+
+00:29:00.600 --> 00:29:02.160
+He said, "If 10 years from now,
+
+00:29:02.160 --> 00:29:03.660
+when you're doing
+something quick and dirty,
+
+00:29:03.660 --> 00:29:05.250
+you suddenly visualize that I'm here,
+
+00:29:05.250 --> 00:29:07.620
+looking over your shoulders,
+and say to yourself,
+
+00:29:07.620 --> 00:29:09.480
+'Dijkstra would not have liked this.'
+
+00:29:09.480 --> 00:29:11.910
+Well, that'd be enough
+immortality for me."
+
+00:29:11.910 --> 00:29:13.440
+So even if you can only control
+
+00:29:13.440 --> 00:29:15.060
+your little corner of the world,
+
+00:29:15.060 --> 00:29:18.150
+you can still make it as elegant
+and thoughtful as possible.
+
+00:29:18.150 --> 00:29:20.125
+For you, and all the
+people who come after.
+
+00:29:20.125 --> 00:29:22.708
+(bright music)
+
+00:29:25.393 --> 00:29:28.560
+Before we go, I just wanted to
+say thanks again to Boot.dev
+
+00:29:28.560 --> 00:29:29.820
+for sponsoring this video.
+
+00:29:29.820 --> 00:29:30.900
+If you guys wanna check 'em out,
+
+00:29:30.900 --> 00:29:32.520
+you can check the link in our description,
+
+00:29:32.520 --> 00:29:34.290
+or scan this QR code right here,
+
+00:29:34.290 --> 00:29:36.630
+and make sure to use that
+checkout code "Veritasium"
+
+00:29:36.630 --> 00:29:38.010
+for 25% off.
+
+00:29:38.010 --> 00:29:39.600
+So thanks to Boot.dev,
+
+00:29:39.600 --> 00:29:42.510
+and I also wanted to
+thank you for watching.
+
+00:29:42.510 --> 00:29:44.960
+- [Speaker] You have
+arrived at your destination.
+
+00:29:46.307 --> 00:29:48.890
+(bright music)
+

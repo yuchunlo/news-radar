@@ -1,0 +1,236 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.430 align:start position:0%
+ 
+We're<00:00:00.200><c> going</c><00:00:00.320><c> to</c><00:00:00.360><c> play</c><00:00:00.560><c> a</c><00:00:00.640><c> game</c><00:00:01.120><c> with</c><00:00:01.280><c> some</c>
+
+00:00:01.430 --> 00:00:01.440 align:start position:0%
+We're going to play a game with some
+ 
+
+00:00:01.440 --> 00:00:03.919 align:start position:0%
+We're going to play a game with some
+bacteria<00:00:02.160><c> sitting</c><00:00:02.560><c> on</c><00:00:02.880><c> a</c><00:00:02.960><c> grid.</c><00:00:03.680><c> At</c><00:00:03.800><c> any</c>
+
+00:00:03.919 --> 00:00:03.929 align:start position:0%
+bacteria sitting on a grid. At any
+ 
+
+00:00:03.929 --> 00:00:05.270 align:start position:0%
+bacteria sitting on a grid. At any
+[music]<00:00:03.960><c> point,</c><00:00:04.360><c> you</c><00:00:04.440><c> can</c><00:00:04.600><c> select</c><00:00:05.040><c> one</c><00:00:05.200><c> of</c>
+
+00:00:05.270 --> 00:00:05.280 align:start position:0%
+[music] point, you can select one of
+ 
+
+00:00:05.280 --> 00:00:07.790 align:start position:0%
+[music] point, you can select one of
+them,<00:00:05.760><c> and</c><00:00:05.880><c> if</c><00:00:06.000><c> the</c><00:00:06.080><c> spaces</c><00:00:06.760><c> one</c><00:00:07.000><c> above</c><00:00:07.640><c> and</c>
+
+00:00:07.790 --> 00:00:07.800 align:start position:0%
+them, and if the spaces one above and
+ 
+
+00:00:07.800 --> 00:00:10.150 align:start position:0%
+them, and if the spaces one above and
+one<00:00:08.000><c> to</c><00:00:08.120><c> the</c><00:00:08.280><c> right</c><00:00:08.680><c> are</c><00:00:08.840><c> both</c><00:00:09.120><c> empty,</c><00:00:09.920><c> you</c><00:00:10.040><c> can</c>
+
+00:00:10.150 --> 00:00:10.160 align:start position:0%
+one to the right are both empty, you can
+ 
+
+00:00:10.160 --> 00:00:11.990 align:start position:0%
+one to the right are both empty, you can
+make<00:00:10.360><c> it</c><00:00:10.480><c> replicate,</c><00:00:11.135><c> [music]</c><00:00:11.360><c> populating</c>
+
+00:00:11.990 --> 00:00:12.000 align:start position:0%
+make it replicate, [music] populating
+ 
+
+00:00:12.000 --> 00:00:14.030 align:start position:0%
+make it replicate, [music] populating
+both<00:00:12.280><c> of</c><00:00:12.360><c> those</c><00:00:12.560><c> spots</c><00:00:12.960><c> with</c><00:00:13.120><c> its</c><00:00:13.280><c> children</c>
+
+00:00:14.030 --> 00:00:14.040 align:start position:0%
+both of those spots with its children
+ 
+
+00:00:14.040 --> 00:00:15.750 align:start position:0%
+both of those spots with its children
+and<00:00:14.240><c> vacating</c><00:00:14.840><c> the</c><00:00:14.960><c> spot</c><00:00:15.280><c> where</c><00:00:15.440><c> it</c><00:00:15.560><c> came</c>
+
+00:00:15.750 --> 00:00:15.760 align:start position:0%
+and vacating the spot where it came
+ 
+
+00:00:15.760 --> 00:00:17.990 align:start position:0%
+and vacating the spot where it came
+from.<00:00:16.280><c> The</c><00:00:16.400><c> rule</c><00:00:16.680><c> is</c><00:00:16.800><c> that</c><00:00:17.000><c> only</c><00:00:17.280><c> one</c><00:00:17.520><c> cell</c><00:00:17.840><c> is</c>
+
+00:00:17.990 --> 00:00:18.000 align:start position:0%
+from. The rule is that only one cell is
+ 
+
+00:00:18.000 --> 00:00:19.990 align:start position:0%
+from. The rule is that only one cell is
+allowed<00:00:18.400><c> at</c><00:00:18.560><c> each</c><00:00:18.720><c> point,</c><00:00:19.280><c> so</c><00:00:19.640><c> if</c><00:00:19.800><c> one</c><00:00:19.920><c> of</c>
+
+00:00:19.990 --> 00:00:20.000 align:start position:0%
+allowed at each point, so if one of
+ 
+
+00:00:20.000 --> 00:00:21.510 align:start position:0%
+allowed at each point, so if one of
+those<00:00:20.200><c> two</c><00:00:20.360><c> target</c><00:00:20.680><c> spots</c><00:00:21.040><c> is</c><00:00:21.160><c> currently</c>
+
+00:00:21.510 --> 00:00:21.520 align:start position:0%
+those two target spots is currently
+ 
+
+00:00:21.520 --> 00:00:23.710 align:start position:0%
+those two target spots is currently
+blocked<00:00:22.000><c> for</c><00:00:22.120><c> a</c><00:00:22.200><c> given</c><00:00:22.440><c> bacterium,</c><00:00:23.360><c> it</c><00:00:23.480><c> can't</c>
+
+00:00:23.710 --> 00:00:23.720 align:start position:0%
+blocked for a given bacterium, it can't
+ 
+
+00:00:23.720 --> 00:00:25.430 align:start position:0%
+blocked for a given bacterium, it can't
+replicate.<00:00:24.560><c> But</c><00:00:24.680><c> as</c><00:00:24.760><c> soon</c><00:00:24.920><c> as</c><00:00:25.040><c> both</c><00:00:25.240><c> of</c><00:00:25.320><c> them</c>
+
+00:00:25.430 --> 00:00:25.440 align:start position:0%
+replicate. But as soon as both of them
+ 
+
+00:00:25.440 --> 00:00:27.500 align:start position:0%
+replicate. But as soon as both of them
+clear<00:00:25.720><c> out,</c><00:00:26.080><c> it's</c><00:00:26.240><c> free</c><00:00:26.440><c> to</c><00:00:26.600><c> do</c><00:00:26.760><c> so.</c>
+
+00:00:27.500 --> 00:00:27.510 align:start position:0%
+clear out, it's free to do so.
+ 
+
+00:00:27.510 --> 00:00:27.520 align:start position:0%
+&gt;&gt; [music]
+ 
+
+00:00:27.520 --> 00:00:29.430 align:start position:0%
+&gt;&gt; [music]
+&gt;&gt; Here's<00:00:27.760><c> my</c><00:00:27.920><c> puzzle</c><00:00:28.280><c> for</c><00:00:28.440><c> you.</c><00:00:28.920><c> Suppose</c><00:00:29.320><c> you</c>
+
+00:00:29.430 --> 00:00:29.440 align:start position:0%
+&gt;&gt; Here's my puzzle for you. Suppose you
+ 
+
+00:00:29.440 --> 00:00:32.350 align:start position:0%
+&gt;&gt; Here's my puzzle for you. Suppose you
+begin<00:00:29.960><c> with</c><00:00:30.120><c> just</c><00:00:30.480><c> one</c><00:00:30.840><c> cell</c><00:00:31.280><c> at</c><00:00:31.440><c> the</c><00:00:31.600><c> origin,</c>
+
+00:00:32.350 --> 00:00:32.360 align:start position:0%
+begin with just one cell at the origin,
+ 
+
+00:00:32.360 --> 00:00:34.670 align:start position:0%
+begin with just one cell at the origin,
+and<00:00:32.520><c> your</c><00:00:32.720><c> goal</c><00:00:33.040><c> is</c><00:00:33.200><c> to</c><00:00:33.320><c> eventually</c><00:00:33.880><c> clear</c><00:00:34.200><c> out</c>
+
+00:00:34.670 --> 00:00:34.680 align:start position:0%
+and your goal is to eventually clear out
+ 
+
+00:00:34.680 --> 00:00:37.590 align:start position:0%
+and your goal is to eventually clear out
+this<00:00:35.000><c> box</c><00:00:35.360><c> here,</c><00:00:36.000><c> the</c><00:00:36.120><c> one</c><00:00:36.280><c> with</c><00:00:36.440><c> corners</c><00:00:37.000><c> at</c><00:00:37.320><c> 0</c>
+
+00:00:37.590 --> 00:00:37.600 align:start position:0%
+this box here, the one with corners at 0
+ 
+
+00:00:37.600 --> 00:00:41.030 align:start position:0%
+this box here, the one with corners at 0
+0,<00:00:37.960><c> 0</c><00:00:38.240><c> 3,</c><00:00:38.800><c> 3</c><00:00:39.000><c> 3,</c><00:00:39.400><c> and</c><00:00:39.600><c> 3</c><00:00:39.800><c> 0.</c><00:00:40.600><c> What</c><00:00:40.760><c> is</c><00:00:40.880><c> the</c>
+
+00:00:41.030 --> 00:00:41.040 align:start position:0%
+0, 0 3, 3 3, and 3 0. What is the
+ 
+
+00:00:41.040 --> 00:00:43.220 align:start position:0%
+0, 0 3, 3 3, and 3 0. What is the
+smallest<00:00:41.800><c> number</c><00:00:42.120><c> of</c><00:00:42.240><c> moves</c><00:00:42.880><c> required</c>
+
+00:00:43.220 --> 00:00:43.230 align:start position:0%
+smallest number of moves required
+ 
+
+00:00:43.230 --> 00:00:46.350 align:start position:0%
+smallest number of moves required
+[music]<00:00:43.520><c> to</c><00:00:43.640><c> do</c><00:00:43.840><c> so?</c><00:00:44.560><c> To</c><00:00:44.680><c> be</c><00:00:44.800><c> clear,</c><00:00:45.320><c> all</c><00:00:45.640><c> 16</c><00:00:46.240><c> of</c>
+
+00:00:46.350 --> 00:00:46.360 align:start position:0%
+[music] to do so? To be clear, all 16 of
+ 
+
+00:00:46.360 --> 00:00:48.350 align:start position:0%
+[music] to do so? To be clear, all 16 of
+these<00:00:46.560><c> lattice</c><00:00:46.880><c> points</c><00:00:47.480><c> have</c><00:00:47.720><c> to</c><00:00:47.840><c> end</c><00:00:48.080><c> up</c>
+
+00:00:48.350 --> 00:00:48.360 align:start position:0%
+these lattice points have to end up
+ 
+
+00:00:48.360 --> 00:00:50.830 align:start position:0%
+these lattice points have to end up
+empty.<00:00:49.160><c> This</c><00:00:49.560><c> is</c><00:00:49.760><c> part</c><00:00:49.920><c> of</c><00:00:50.040><c> a</c><00:00:50.080><c> monthly</c><00:00:50.520><c> series</c>
+
+00:00:50.830 --> 00:00:50.840 align:start position:0%
+empty. This is part of a monthly series
+ 
+
+00:00:50.840 --> 00:00:52.070 align:start position:0%
+empty. This is part of a monthly series
+of<00:00:50.960><c> puzzles</c><00:00:51.400><c> that</c><00:00:51.520><c> I'm</c><00:00:51.640><c> doing</c><00:00:51.960><c> in</c>
+
+00:00:52.070 --> 00:00:52.080 align:start position:0%
+of puzzles that I'm doing in
+ 
+
+00:00:52.080 --> 00:00:53.670 align:start position:0%
+of puzzles that I'm doing in
+collaboration<00:00:52.760><c> with</c><00:00:52.920><c> MoMath.</c><00:00:53.600><c> The</c>
+
+00:00:53.670 --> 00:00:53.680 align:start position:0%
+collaboration with MoMath. The
+ 
+
+00:00:53.680 --> 00:00:55.550 align:start position:0%
+collaboration with MoMath. The
+mathematician<00:00:54.400><c> Peter</c><00:00:54.680><c> Winkler</c><00:00:55.120><c> will</c><00:00:55.280><c> host</c><00:00:55.480><c> a</c>
+
+00:00:55.550 --> 00:00:55.560 align:start position:0%
+mathematician Peter Winkler will host a
+ 
+
+00:00:55.560 --> 00:00:56.975 align:start position:0%
+mathematician Peter Winkler will host a
+session<00:00:55.880><c> there</c><00:00:56.080><c> to</c><00:00:56.200><c> explain</c><00:00:56.560><c> the</c><00:00:56.640><c> solution,</c>
+
+00:00:56.975 --> 00:00:56.985 align:start position:0%
+session there to explain the solution,
+ 
+
+00:00:56.985 --> 00:00:58.750 align:start position:0%
+session there to explain the solution,
+[music]<00:00:57.400><c> and</c><00:00:57.760><c> I'll</c><00:00:57.880><c> post</c><00:00:58.120><c> my</c><00:00:58.280><c> own</c><00:00:58.400><c> video</c><00:00:58.680><c> of</c>
+
+00:00:58.750 --> 00:00:58.760 align:start position:0%
+[music] and I'll post my own video of
+ 
+
+00:00:58.760 --> 00:01:02.720 align:start position:0%
+[music] and I'll post my own video of
+the<00:00:58.880><c> solution</c><00:00:59.240><c> here</c><00:00:59.560><c> sometime</c><00:01:00.000><c> next</c><00:01:00.280><c> month.</c>
+
