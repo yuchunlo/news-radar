@@ -9,6 +9,7 @@ from pathlib import Path
 def is_youtube(url: str) -> bool:
     return "youtube.com" in url or "youtu.be" in url
 
+
 def already_downloaded(out_dir: Path, item_id: str) -> bool:
     return any(out_dir.glob(f"{item_id}*.vtt"))
 
@@ -17,6 +18,8 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--archive", required=True)
     parser.add_argument("--output-dir", required=True)
+    parser.add_argument("--cookies-path", required=True)
+    parser.add_argument("--max-items", type=int, default=70)
     args = parser.parse_args()
 
     archive_path = Path(args.archive)
@@ -27,7 +30,12 @@ def main():
 
     items = data.get("items", [])
 
+    processed = 0
+
     for item in items:
+        if processed >= args.max_items:
+            break
+
         url = item.get("url", "")
         item_id = item.get("id")
 
@@ -40,6 +48,12 @@ def main():
 
         cmd = [
             "yt-dlp",
+            "--cookies",
+            str(Path(args.cookies_path)),
+            "--user-agent",
+            "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120 Safari/537.36",
+            "--extractor-args",
+            "youtube:player_client=android",
             "--skip-download",
             "--write-sub",
             "--write-auto-sub",
@@ -52,8 +66,13 @@ def main():
             url,
         ]
 
-        subprocess.run(cmd, check=False)
+        result = subprocess.run(cmd, capture_output=True, text=True)
+        output = result.stderr + result.stdout
+        if result.returncode != 0:
+            if "cookies" in output.lower():
+                print("[EXPIRED] cookies invalid")
 
+        processed += 1
 
 if __name__ == "__main__":
     main()
