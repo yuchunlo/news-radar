@@ -62,11 +62,11 @@ def main():
             "--sub-format",
             "vtt",
             "--sleep-interval",
-            7,
+            str(7),
             "--max-sleep-interval",
-            11,
+            str(11),
             "--concurrent-fragments",
-            4,
+            str(4),
             "-o",
             output_tpl,
             url,
@@ -78,6 +78,8 @@ def main():
             if "cookies" in output.lower():
                 print("[EXPIRED] cookies invalid")
                 break
+            else:
+                print("[FAILED] item {item_id} (yt-dlp exit code {result.returncode})")
 
         processed += 1
 
