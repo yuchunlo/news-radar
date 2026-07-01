@@ -59,6 +59,7 @@ def main():
             "youtube:player_client=web",
             "--skip-download",
             "--ignore-no-formats",
+            "--quiet",
             "--write-sub",
             "--write-auto-sub",
             "--sub-langs",
@@ -66,11 +67,11 @@ def main():
             "--sub-format",
             "vtt",
             "--sleep-interval",
-            str(7),
+            str(14),
             "--max-sleep-interval",
-            str(11),
+            str(21),
             "--concurrent-fragments",
-            str(4),
+            str(7),
             "-o",
             output_tpl,
             url,
@@ -90,7 +91,6 @@ def main():
         elif not already_downloaded(out_dir, item_id):
             if "no subtitles for the requested languages" in lowered:
                 no_subs += 1
-                print(f"[NO_SUBS] item {item_id}: no subtitles for the requested languages")
             else:
                 failed += 1
                 print(f"[FAILED] item {item_id} (exit 0 but no file written): {output}")
