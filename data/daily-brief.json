@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T02:57:12.038995Z",
+  "generated_at": "2026-07-01T05:07:36.150583Z",
   "window_hours": 24,
   "total_items": 1,
   "items": [
@@ -57,6 +57,15 @@
           "published_at": "2026-06-30T16:29:45Z"
         },
         {
+          "id": "4edca1493a94af27c4180fffd955842671782325",
+          "title": "中央情報局的水下間諜裝置 / The CIA’s Underwater Spy Device",
+          "url": "https://www.youtube.com/watch?v=CsyQa8_9tlw",
+          "source": "Primal Space",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-06-30T16:15:17Z"
+        },
+        {
           "id": "4e50b005f65f2f66007b0e33a0f7d06341e37688",
           "title": "私募股權如何毀掉美國青少年體育 / How Private Equity Ruined American Youth Sports",
           "url": "https://www.youtube.com/watch?v=DPeRd48YfqY",
@@ -84,12 +93,13 @@
           "published_at": "2026-06-30T11:00:23Z"
         }
       ],
-      "source_count": 8,
+      "source_count": 9,
       "source_names": [
         "CaseyNeistat",
         "DenQ來了",
         "GOATFANS",
         "Lex Fridman",
+        "Primal Space",
         "RealLifeLore",
         "Wendover Productions",
         "冲浪普拉斯",
@@ -142,6 +152,15 @@
           "published_at": "2026-06-30T16:29:45Z"
         },
         {
+          "id": "4edca1493a94af27c4180fffd955842671782325",
+          "title": "中央情報局的水下間諜裝置 / The CIA’s Underwater Spy Device",
+          "url": "https://www.youtube.com/watch?v=CsyQa8_9tlw",
+          "source": "Primal Space",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-06-30T16:15:17Z"
+        },
+        {
           "id": "4e50b005f65f2f66007b0e33a0f7d06341e37688",
           "title": "私募股權如何毀掉美國青少年體育 / How Private Equity Ruined American Youth Sports",
           "url": "https://www.youtube.com/watch?v=DPeRd48YfqY",
@@ -169,15 +188,15 @@
           "published_at": "2026-06-30T11:00:23Z"
         }
       ],
-      "item_count": 8,
-      "duplicate_count": 8,
-      "score": 0.6905,
-      "importance": 0.6905,
-      "importance_score": 0.6905,
+      "item_count": 9,
+      "duplicate_count": 9,
+      "score": 0.6633,
+      "importance": 0.6633,
+      "importance_score": 0.6633,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.8016,
+        "recency": 0.711,
         "story_heat": 1.0
       },
       "category": "multi_source",
