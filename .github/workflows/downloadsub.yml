@@ -42,7 +42,7 @@ jobs:
       - name: Load cookies
         run: |
           echo "${{ secrets.YT_COOKIES }}" | base64 -d > $COOKIES_PATH
-          chmod 600 cookies.txt
+          chmod 600 $COOKIES_PATH
 
       - name: Download subtitles
         run: |
