@@ -42,7 +42,20 @@ jobs:
       - name: Load cookies
         run: |
           echo "${{ secrets.YT_COOKIES }}" | base64 -d > $COOKIES_PATH
-          chmod 600 $COOKIES_PATH
+          chmod 600 "$COOKIES_PATH"
+
+          while IFS=$'\t' read -r -a fields; do
+            val="${fields[-1]}"
+            if [ -n "$val" ]; then
+              echo "::add-mask::$val"
+            fi
+          done < "$COOKIES_PATH"
+
+          if [ ! -s "$COOKIES_PATH" ]; then
+            echo "::error::cookies file is empty after decode"
+            exit 1
+          fi
+          echo "cookies file loaded, $(wc -l < "$COOKIES_PATH") lines"
 
       - name: Download subtitles
         run: |
@@ -72,4 +85,5 @@ jobs:
           git push
 
       - name: Cleanup
-        run: rm -f cookies.txt
+        if: always()
+        run: rm -f "$COOKIES_PATH"
