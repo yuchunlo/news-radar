@@ -67,10 +67,11 @@ def main():
         ]
 
         result = subprocess.run(cmd, capture_output=True, text=True)
-        output = result.stderr + result.stdout
+        output = (result.stdout or "") + (result.stderr or "")
         if result.returncode != 0:
             if "cookies" in output.lower():
-                print("[EXPIRED] cookies invalid")
+                print(output)
+                break
 
         processed += 1
 
