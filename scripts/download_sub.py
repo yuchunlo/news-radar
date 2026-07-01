@@ -79,7 +79,7 @@ def main():
                 print("[EXPIRED] cookies invalid")
                 break
             else:
-                print("[FAILED] item {item_id} (yt-dlp exit code {result.returncode})")
+                print(f"[FAILED] item {item_id} {output} (yt-dlp exit code {result.returncode})")
 
         processed += 1
 
