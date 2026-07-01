@@ -33,6 +33,7 @@ def main():
     processed = 0
     succeeded = 0
     failed = 0
+    no_subs = 0
 
     for item in items:
         if processed >= args.max_items:
@@ -77,22 +78,28 @@ def main():
 
         result = subprocess.run(cmd, capture_output=True, text=True)
         output = (result.stdout or "") + (result.stderr or "")
+        lowered = output.lower()
+
         if result.returncode != 0:
-            if "cookies" in output.lower():
+            if "cookies" in lowered:
                 print("[EXPIRED] cookies invalid")
                 break
             else:
                 failed += 1
-                print(f"[FAILED] item {item_id} {output} (yt-dlp exit code {result.returncode})")
+                print(f"[FAILED] item {item_id} (exit {result.returncode}): {output}")
         elif not already_downloaded(out_dir, item_id):
-            failed += 1
-            print(f"[FAILED] item {item_id} (exit 0 but no file written): {output}")
+            if "no subtitles for the requested languages" in lowered:
+                no_subs += 1
+                print(f"[NO_SUBS] item {item_id}: no subtitles for the requested languages")
+            else:
+                failed += 1
+                print(f"[FAILED] item {item_id} (exit 0 but no file written): {output}")
         else:
             succeeded += 1
 
         processed += 1
 
-    print(f"Done. succeeded={succeeded} failed={failed}")
+    print(f"Done. succeeded={succeeded} failed={failed} no_subs={no_subs}")
 
 
 if __name__ == "__main__":
