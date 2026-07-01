@@ -55,6 +55,7 @@ def main():
             "--extractor-args",
             "youtube:player_client=web",
             "--skip-download",
+            "--ignore-no-formats",
             "--write-sub",
             "--write-auto-sub",
             "--sub-langs",
