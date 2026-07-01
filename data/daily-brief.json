@@ -1,16 +1,43 @@
 {
-  "generated_at": "2026-07-01T19:22:07.118563Z",
+  "generated_at": "2026-07-01T21:08:41.303152Z",
   "window_hours": 24,
   "total_items": 2,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "1776：未經審查的美國內戰故事 / 1776: The Uncensored Story of The American Civil War",
-      "url": "https://www.youtube.com/watch?v=JMxd1Z31eno",
-      "primary_url": "https://www.youtube.com/watch?v=JMxd1Z31eno",
-      "source": "Timeline - World History Documentaries",
+      "title": "最瘋狂的角鬥士實驗完整紀錄片 / The Most Insane Gladiator Experiments FULL DOCUMENTARY",
+      "url": "https://www.youtube.com/watch?v=DKkpWFDydNY",
+      "primary_url": "https://www.youtube.com/watch?v=DKkpWFDydNY",
+      "source": "Invicta",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "535399f47329e34095da1b3c71697ddf741e202b",
+          "title": "最瘋狂的角鬥士實驗完整紀錄片 / The Most Insane Gladiator Experiments FULL DOCUMENTARY",
+          "url": "https://www.youtube.com/watch?v=DKkpWFDydNY",
+          "source": "Invicta",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-01T20:53:01Z"
+        },
+        {
+          "id": "8401ff873469c0a344e3cfc5064dd7d8a48fb07c",
+          "title": "這就是為什麼卡拉瓦喬是天才... / This is why Caravaggio was a genius...",
+          "url": "https://www.youtube.com/watch?v=GaPDgkzaIYo",
+          "source": "Inspiraggio",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-01T20:04:28Z"
+        },
+        {
+          "id": "809641e5304d756c14f15993e764299fc8873fec",
+          "title": "比特幣：模擬已確認 / Bitcoin: Simulation Confirmed",
+          "url": "https://www.youtube.com/watch?v=8TmOvGK235I",
+          "source": "Benjamin Cowen",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-01T19:19:32Z"
+        },
         {
           "id": "04692ec8dff38370b133335b37612a8d897e2829",
           "title": "1776：未經審查的美國內戰故事 / 1776: The Uncensored Story of The American Civil War",
@@ -84,15 +111,6 @@
           "published_at": "2026-06-30T21:16:13Z"
         },
         {
-          "id": "7a397dfc15d3b0580a27220eba67e23bc0ded4ce",
-          "title": "火藥桶：了解以色列-巴勒斯坦衝突 / The Tinderbox: Understanding The Israeli-Palestinian Conflict",
-          "url": "https://www.youtube.com/watch?v=X6Qh1JpQafM",
-          "source": "Timeline - World History Documentaries",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-30T20:00:36Z"
-        },
-        {
           "id": "64a03ad3b395969683c34624b089172a1334b850",
           "title": "漢克·格林採訪澤·弗蘭克 / Hank Green interviews Ze Frank",
           "url": "https://www.youtube.com/watch?v=bwIFDv5pHS0",
@@ -136,28 +154,21 @@
           "source_name": "OPML RSS",
           "site_id": "trending",
           "published_at": "2026-07-01T11:00:24Z"
-        },
-        {
-          "id": "4e50b005f65f2f66007b0e33a0f7d06341e37688",
-          "title": "私募股權如何毀掉美國青少年體育 / How Private Equity Ruined American Youth Sports",
-          "url": "https://www.youtube.com/watch?v=DPeRd48YfqY",
-          "source": "Wendover Productions",
-          "source_name": "OPML RSS",
-          "site_id": "execution",
-          "published_at": "2026-06-30T20:13:31Z"
         }
       ],
-      "source_count": 15,
+      "source_count": 16,
       "source_names": [
+        "Benjamin Cowen",
         "Best Documentary",
         "CaseyNeistat",
         "DenQ來了",
         "GOATFANS",
+        "Inspiraggio",
+        "Invicta",
         "Lex Fridman",
         "The Circuit with Emily Chang",
         "Timeline - World History Documentaries",
         "Waxy.org",
-        "Wendover Productions",
         "imineo Documentaires",
         "公視P#新聞實驗室",
         "小Lin说",
@@ -166,6 +177,33 @@
       ],
       "items": [
         {
+          "id": "535399f47329e34095da1b3c71697ddf741e202b",
+          "title": "最瘋狂的角鬥士實驗完整紀錄片 / The Most Insane Gladiator Experiments FULL DOCUMENTARY",
+          "url": "https://www.youtube.com/watch?v=DKkpWFDydNY",
+          "source": "Invicta",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-01T20:53:01Z"
+        },
+        {
+          "id": "8401ff873469c0a344e3cfc5064dd7d8a48fb07c",
+          "title": "這就是為什麼卡拉瓦喬是天才... / This is why Caravaggio was a genius...",
+          "url": "https://www.youtube.com/watch?v=GaPDgkzaIYo",
+          "source": "Inspiraggio",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-01T20:04:28Z"
+        },
+        {
+          "id": "809641e5304d756c14f15993e764299fc8873fec",
+          "title": "比特幣：模擬已確認 / Bitcoin: Simulation Confirmed",
+          "url": "https://www.youtube.com/watch?v=8TmOvGK235I",
+          "source": "Benjamin Cowen",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-01T19:19:32Z"
+        },
+        {
           "id": "04692ec8dff38370b133335b37612a8d897e2829",
           "title": "1776：未經審查的美國內戰故事 / 1776: The Uncensored Story of The American Civil War",
           "url": "https://www.youtube.com/watch?v=JMxd1Z31eno",
@@ -238,15 +276,6 @@
           "published_at": "2026-06-30T21:16:13Z"
         },
         {
-          "id": "7a397dfc15d3b0580a27220eba67e23bc0ded4ce",
-          "title": "火藥桶：了解以色列-巴勒斯坦衝突 / The Tinderbox: Understanding The Israeli-Palestinian Conflict",
-          "url": "https://www.youtube.com/watch?v=X6Qh1JpQafM",
-          "source": "Timeline - World History Documentaries",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-30T20:00:36Z"
-        },
-        {
           "id": "64a03ad3b395969683c34624b089172a1334b850",
           "title": "漢克·格林採訪澤·弗蘭克 / Hank Green interviews Ze Frank",
           "url": "https://www.youtube.com/watch?v=bwIFDv5pHS0",
@@ -290,39 +319,30 @@
           "source_name": "OPML RSS",
           "site_id": "trending",
           "published_at": "2026-07-01T11:00:24Z"
-        },
-        {
-          "id": "4e50b005f65f2f66007b0e33a0f7d06341e37688",
-          "title": "私募股權如何毀掉美國青少年體育 / How Private Equity Ruined American Youth Sports",
-          "url": "https://www.youtube.com/watch?v=DPeRd48YfqY",
-          "source": "Wendover Productions",
-          "source_name": "OPML RSS",
-          "site_id": "execution",
-          "published_at": "2026-06-30T20:13:31Z"
         }
       ],
-      "item_count": 15,
-      "duplicate_count": 15,
-      "score": 0.7079,
-      "importance": 0.7079,
-      "importance_score": 0.7079,
+      "item_count": 16,
+      "duplicate_count": 16,
+      "score": 0.7467,
+      "importance": 0.7467,
+      "importance_score": 0.7467,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.8597,
+        "recency": 0.9891,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-30T20:00:36Z",
-      "latest_at": "2026-07-01T16:17:14Z",
+      "earliest_at": "2026-06-30T21:16:13Z",
+      "latest_at": "2026-07-01T20:53:01Z",
       "primary_item": {
-        "id": "04692ec8dff38370b133335b37612a8d897e2829",
-        "title": "1776：未經審查的美國內戰故事 / 1776: The Uncensored Story of The American Civil War",
-        "url": "https://www.youtube.com/watch?v=JMxd1Z31eno",
-        "source": "Timeline - World History Documentaries",
+        "id": "535399f47329e34095da1b3c71697ddf741e202b",
+        "title": "最瘋狂的角鬥士實驗完整紀錄片 / The Most Insane Gladiator Experiments FULL DOCUMENTARY",
+        "url": "https://www.youtube.com/watch?v=DKkpWFDydNY",
+        "source": "Invicta",
         "source_name": "OPML RSS"
       }
     },
@@ -397,13 +417,13 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.4829,
-      "importance": 0.4829,
-      "importance_score": 0.4829,
+      "score": 0.4607,
+      "importance": 0.4607,
+      "importance_score": 0.4607,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.8596,
+        "recency": 0.7856,
         "story_heat": 0.5
       },
       "category": "multi_source",
