@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T12:15:47.895194Z",
+  "generated_at": "2026-07-01T15:20:47.500058Z",
   "window_hours": 24,
   "total_items": 2,
   "items": [
@@ -75,24 +75,6 @@
           "published_at": "2026-06-30T20:00:36Z"
         },
         {
-          "id": "26b46415f54f8b00c785b25219c12cb13dbc5ab2",
-          "title": "標準普爾 500 指數：2026 年剩餘時間的展望 [更新] / S&P 500: Outlook for the Rest of 2026 [Update]",
-          "url": "https://www.youtube.com/watch?v=Wef7vP6ffBM",
-          "source": "Benjamin Cowen",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-06-30T14:23:04Z"
-        },
-        {
-          "id": "a83642efecc0b2f7487edbe9bd56ffa38c76b489",
-          "title": "为什么 Frank Ocean 是最像导演的歌手？｜《Channel Orange》深度解析",
-          "url": "https://www.youtube.com/watch?v=iIFKKayDqlI",
-          "source": "GOATFANS",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-30T12:21:11Z"
-        },
-        {
           "id": "c7b2918bb095122e723900f7b7d35bc9a82887ef",
           "title": "里海消亡後會發生什麼事？ / What Will Happen After The Caspian Sea Dies?",
           "url": "https://www.youtube.com/watch?v=nEBcD6sFDpY",
@@ -111,13 +93,13 @@
           "published_at": "2026-06-30T16:15:17Z"
         },
         {
-          "id": "d13f0ae1a4e83d8baaec7406ea9f3a41c3f28f97",
-          "title": "OPEC(+)的終點即將到來嗎？ / Is the End of OPEC(+) Coming?",
-          "url": "https://www.youtube.com/watch?v=PrgzTAPnIN0",
-          "source": "Good Times Bad Times",
+          "id": "716a97128b68b874b3ef1127ee7f99beb16ac95a",
+          "title": "AI巨头们之间的资本混战，到底是个什么情况？",
+          "url": "https://www.youtube.com/watch?v=OcKl98ZQbMQ",
+          "source": "小Lin说",
           "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-30T14:00:18Z"
+          "site_id": "execution",
+          "published_at": "2026-07-01T13:00:17Z"
         },
         {
           "id": "4873bd749beff0aa0d232ca9cc4158d0b9134296",
@@ -156,14 +138,12 @@
           "published_at": "2026-06-30T20:13:31Z"
         }
       ],
-      "source_count": 16,
+      "source_count": 14,
       "source_names": [
-        "Benjamin Cowen",
         "Best Documentary",
         "CaseyNeistat",
         "DenQ來了",
         "GOATFANS",
-        "Good Times Bad Times",
         "Lex Fridman",
         "Primal Space",
         "RealLifeLore",
@@ -171,6 +151,7 @@
         "Timeline - World History Documentaries",
         "Wendover Productions",
         "公視P#新聞實驗室",
+        "小Lin说",
         "美投侃新闻",
         "雜書觀察室"
       ],
@@ -239,24 +220,6 @@
           "published_at": "2026-06-30T20:00:36Z"
         },
         {
-          "id": "26b46415f54f8b00c785b25219c12cb13dbc5ab2",
-          "title": "標準普爾 500 指數：2026 年剩餘時間的展望 [更新] / S&P 500: Outlook for the Rest of 2026 [Update]",
-          "url": "https://www.youtube.com/watch?v=Wef7vP6ffBM",
-          "source": "Benjamin Cowen",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-06-30T14:23:04Z"
-        },
-        {
-          "id": "a83642efecc0b2f7487edbe9bd56ffa38c76b489",
-          "title": "为什么 Frank Ocean 是最像导演的歌手？｜《Channel Orange》深度解析",
-          "url": "https://www.youtube.com/watch?v=iIFKKayDqlI",
-          "source": "GOATFANS",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-30T12:21:11Z"
-        },
-        {
           "id": "c7b2918bb095122e723900f7b7d35bc9a82887ef",
           "title": "里海消亡後會發生什麼事？ / What Will Happen After The Caspian Sea Dies?",
           "url": "https://www.youtube.com/watch?v=nEBcD6sFDpY",
@@ -275,13 +238,13 @@
           "published_at": "2026-06-30T16:15:17Z"
         },
         {
-          "id": "d13f0ae1a4e83d8baaec7406ea9f3a41c3f28f97",
-          "title": "OPEC(+)的終點即將到來嗎？ / Is the End of OPEC(+) Coming?",
-          "url": "https://www.youtube.com/watch?v=PrgzTAPnIN0",
-          "source": "Good Times Bad Times",
+          "id": "716a97128b68b874b3ef1127ee7f99beb16ac95a",
+          "title": "AI巨头们之间的资本混战，到底是个什么情况？",
+          "url": "https://www.youtube.com/watch?v=OcKl98ZQbMQ",
+          "source": "小Lin说",
           "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-06-30T14:00:18Z"
+          "site_id": "execution",
+          "published_at": "2026-07-01T13:00:17Z"
         },
         {
           "id": "4873bd749beff0aa0d232ca9cc4158d0b9134296",
@@ -320,23 +283,23 @@
           "published_at": "2026-06-30T20:13:31Z"
         }
       ],
-      "item_count": 16,
-      "duplicate_count": 16,
-      "score": 0.7468,
-      "importance": 0.7468,
-      "importance_score": 0.7468,
+      "item_count": 14,
+      "duplicate_count": 14,
+      "score": 0.7082,
+      "importance": 0.7082,
+      "importance_score": 0.7082,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9892,
+        "recency": 0.8608,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-30T12:21:11Z",
-      "latest_at": "2026-07-01T12:00:18Z",
+      "earliest_at": "2026-06-30T16:15:17Z",
+      "latest_at": "2026-07-01T13:00:17Z",
       "primary_item": {
         "id": "9c9fdec85913d2ef4f8f5cd61d9865156c346653",
         "title": "士兵故事、死人會說話和致命化學|新偵探團 / Soldier Stories, Dead Men Do Talk & Deadly Chemistry | The New Detectives",
