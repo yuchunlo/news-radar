@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-30T22:51:49.525234Z",
+  "generated_at": "2026-07-01T00:13:47.445028Z",
   "window_hours": 24,
   "total_items": 3,
   "items": [
@@ -23,6 +23,15 @@
         {
           "id": "1a61204189b2826d919611f27d7a77e9a18c576b",
           "title": "安東尼卡德里斯：羅馬帝國、拜占庭帝國、帝國的興衰萊克斯弗里德曼播客 #498 / Anthony Kaldellis: Roman Empire, Byzantine Empire, Rise & Fall of Empires | Lex Fridman Podcast #498",
+          "url": "https://www.youtube.com/watch?v=pv1TUJSEM2k",
+          "source": "Lex Fridman",
+          "source_name": "OPML RSS",
+          "site_id": "blog",
+          "published_at": "2026-06-30T21:16:13Z"
+        },
+        {
+          "id": "0026cf0ff48ad3a4413ea5fc8d18d429dd7129ec",
+          "title": "羅馬帝國與拜占庭帝國的興衰|萊克斯‧弗里德曼播客 #498 / The Rise and Fall of the Roman Empire and the Byzantine Empire | Lex Fridman Podcast #498",
           "url": "https://www.youtube.com/watch?v=pv1TUJSEM2k",
           "source": "Lex Fridman",
           "source_name": "OPML RSS",
@@ -73,15 +82,6 @@
           "source_name": "OPML RSS",
           "site_id": "culture",
           "published_at": "2026-06-30T10:02:14Z"
-        },
-        {
-          "id": "81fdba81161565e5c24952f5ba86ade43ee871f7",
-          "title": "AI循环投资的必经路径是？小盘股阶段性看涨！韩国巨额投资加速周期拐点？远程办公的最大bug是？",
-          "url": "https://www.youtube.com/watch?v=9r7kOr7vz58",
-          "source": "美投侃新闻",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-06-29T23:38:20Z"
         },
         {
           "id": "c7b2918bb095122e723900f7b7d35bc9a82887ef",
@@ -171,8 +171,7 @@
         "Wendover Productions",
         "冲浪普拉斯",
         "忽左忽右",
-        "有点艺思哦",
-        "美投侃新闻"
+        "有点艺思哦"
       ],
       "items": [
         {
@@ -187,6 +186,15 @@
         {
           "id": "1a61204189b2826d919611f27d7a77e9a18c576b",
           "title": "安東尼卡德里斯：羅馬帝國、拜占庭帝國、帝國的興衰萊克斯弗里德曼播客 #498 / Anthony Kaldellis: Roman Empire, Byzantine Empire, Rise & Fall of Empires | Lex Fridman Podcast #498",
+          "url": "https://www.youtube.com/watch?v=pv1TUJSEM2k",
+          "source": "Lex Fridman",
+          "source_name": "OPML RSS",
+          "site_id": "blog",
+          "published_at": "2026-06-30T21:16:13Z"
+        },
+        {
+          "id": "0026cf0ff48ad3a4413ea5fc8d18d429dd7129ec",
+          "title": "羅馬帝國與拜占庭帝國的興衰|萊克斯‧弗里德曼播客 #498 / The Rise and Fall of the Roman Empire and the Byzantine Empire | Lex Fridman Podcast #498",
           "url": "https://www.youtube.com/watch?v=pv1TUJSEM2k",
           "source": "Lex Fridman",
           "source_name": "OPML RSS",
@@ -237,15 +245,6 @@
           "source_name": "OPML RSS",
           "site_id": "culture",
           "published_at": "2026-06-30T10:02:14Z"
-        },
-        {
-          "id": "81fdba81161565e5c24952f5ba86ade43ee871f7",
-          "title": "AI循环投资的必经路径是？小盘股阶段性看涨！韩国巨额投资加速周期拐点？远程办公的最大bug是？",
-          "url": "https://www.youtube.com/watch?v=9r7kOr7vz58",
-          "source": "美投侃新闻",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-06-29T23:38:20Z"
         },
         {
           "id": "c7b2918bb095122e723900f7b7d35bc9a82887ef",
@@ -322,20 +321,20 @@
       ],
       "item_count": 16,
       "duplicate_count": 16,
-      "score": 0.7416,
-      "importance": 0.7416,
-      "importance_score": 0.7416,
+      "score": 0.7245,
+      "importance": 0.7245,
+      "importance_score": 0.7245,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.972,
+        "recency": 0.9151,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-29T23:38:20Z",
+      "earliest_at": "2026-06-30T01:45:06Z",
       "latest_at": "2026-06-30T22:11:30Z",
       "primary_item": {
         "id": "d5cdbe68465dd56b99a8c82d6fe8eaa22b85729e",
@@ -398,13 +397,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4965,
-      "importance": 0.4965,
-      "importance_score": 0.4965,
+      "score": 0.4794,
+      "importance": 0.4794,
+      "importance_score": 0.4794,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.655,
+        "recency": 0.5981,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -474,13 +473,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4955,
-      "importance": 0.4955,
-      "importance_score": 0.4955,
+      "score": 0.4784,
+      "importance": 0.4784,
+      "importance_score": 0.4784,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6517,
+        "recency": 0.5948,
         "story_heat": 0.25
       },
       "category": "watch",
