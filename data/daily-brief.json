@@ -1,17 +1,26 @@
 {
-  "generated_at": "2026-07-01T05:07:36.150583Z",
+  "generated_at": "2026-07-01T09:00:05.303530Z",
   "window_hours": 24,
   "total_items": 1,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "我要離開紐約市 / i'm leaving New York City",
-      "url": "https://www.youtube.com/watch?v=zLganMVbY8g",
-      "primary_url": "https://www.youtube.com/watch?v=zLganMVbY8g",
-      "source": "CaseyNeistat",
+      "title": "下半年美股布局！闪迪暴涨目标3000？！云大厂急招FDE何意味？副业改变人生！",
+      "url": "https://www.youtube.com/watch?v=n-tt-nJBtyY",
+      "primary_url": "https://www.youtube.com/watch?v=n-tt-nJBtyY",
+      "source": "美投侃新闻",
       "source_name": "OPML RSS",
       "sources": [
         {
+          "id": "83c10be82f01b300390b896a0b8f5b4c4f7b6a70",
+          "title": "下半年美股布局！闪迪暴涨目标3000？！云大厂急招FDE何意味？副业改变人生！",
+          "url": "https://www.youtube.com/watch?v=n-tt-nJBtyY",
+          "source": "美投侃新闻",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-01T00:40:21Z"
+        },
+        {
           "id": "d5cdbe68465dd56b99a8c82d6fe8eaa22b85729e",
           "title": "我要離開紐約市 / i'm leaving New York City",
           "url": "https://www.youtube.com/watch?v=zLganMVbY8g",
@@ -30,6 +39,24 @@
           "published_at": "2026-06-30T21:16:13Z"
         },
         {
+          "id": "7a397dfc15d3b0580a27220eba67e23bc0ded4ce",
+          "title": "火藥桶：了解以色列-巴勒斯坦衝突 / The Tinderbox: Understanding The Israeli-Palestinian Conflict",
+          "url": "https://www.youtube.com/watch?v=X6Qh1JpQafM",
+          "source": "Timeline - World History Documentaries",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-30T20:00:36Z"
+        },
+        {
+          "id": "26b46415f54f8b00c785b25219c12cb13dbc5ab2",
+          "title": "標準普爾 500 指數：2026 年剩餘時間的展望 [更新] / S&P 500: Outlook for the Rest of 2026 [Update]",
+          "url": "https://www.youtube.com/watch?v=Wef7vP6ffBM",
+          "source": "Benjamin Cowen",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-06-30T14:23:04Z"
+        },
+        {
           "id": "a83642efecc0b2f7487edbe9bd56ffa38c76b489",
           "title": "为什么 Frank Ocean 是最像导演的歌手？｜《Channel Orange》深度解析",
           "url": "https://www.youtube.com/watch?v=iIFKKayDqlI",
@@ -37,6 +64,24 @@
           "source_name": "OPML RSS",
           "site_id": "culture",
           "published_at": "2026-06-30T12:21:11Z"
+        },
+        {
+          "id": "ef0a0f9c62e3b04c2e87053982e8b5de8e7811b6",
+          "title": "韓國：表藝琳的戰鬥 / South Korea: Pyo Ye-Rim's Fight",
+          "url": "https://www.youtube.com/watch?v=2nKbXT8VXKI",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-30T12:00:15Z"
+        },
+        {
+          "id": "4d0ce6cf9f2b7932e4f0c4acf2265526ebc11fdc",
+          "title": "中国油画跪拜30年的偶像是个变态",
+          "url": "https://www.youtube.com/watch?v=_bLnTPDO3ZM",
+          "source": "有点艺思哦",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-30T10:15:17Z"
         },
         {
           "id": "7b2ecb7635106108a09a3cbe38b0cbdb9dc3b6e5",
@@ -66,6 +111,15 @@
           "published_at": "2026-06-30T16:15:17Z"
         },
         {
+          "id": "d13f0ae1a4e83d8baaec7406ea9f3a41c3f28f97",
+          "title": "OPEC(+)的終點即將到來嗎？ / Is the End of OPEC(+) Coming?",
+          "url": "https://www.youtube.com/watch?v=PrgzTAPnIN0",
+          "source": "Good Times Bad Times",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-06-30T14:00:18Z"
+        },
+        {
           "id": "4e50b005f65f2f66007b0e33a0f7d06341e37688",
           "title": "私募股權如何毀掉美國青少年體育 / How Private Equity Ruined American Youth Sports",
           "url": "https://www.youtube.com/watch?v=DPeRd48YfqY",
@@ -93,19 +147,34 @@
           "published_at": "2026-06-30T11:00:23Z"
         }
       ],
-      "source_count": 9,
+      "source_count": 15,
       "source_names": [
+        "Benjamin Cowen",
+        "Best Documentary",
         "CaseyNeistat",
         "DenQ來了",
         "GOATFANS",
+        "Good Times Bad Times",
         "Lex Fridman",
         "Primal Space",
         "RealLifeLore",
+        "Timeline - World History Documentaries",
         "Wendover Productions",
         "冲浪普拉斯",
-        "忽左忽右"
+        "忽左忽右",
+        "有点艺思哦",
+        "美投侃新闻"
       ],
       "items": [
+        {
+          "id": "83c10be82f01b300390b896a0b8f5b4c4f7b6a70",
+          "title": "下半年美股布局！闪迪暴涨目标3000？！云大厂急招FDE何意味？副业改变人生！",
+          "url": "https://www.youtube.com/watch?v=n-tt-nJBtyY",
+          "source": "美投侃新闻",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-01T00:40:21Z"
+        },
         {
           "id": "d5cdbe68465dd56b99a8c82d6fe8eaa22b85729e",
           "title": "我要離開紐約市 / i'm leaving New York City",
@@ -125,6 +194,24 @@
           "published_at": "2026-06-30T21:16:13Z"
         },
         {
+          "id": "7a397dfc15d3b0580a27220eba67e23bc0ded4ce",
+          "title": "火藥桶：了解以色列-巴勒斯坦衝突 / The Tinderbox: Understanding The Israeli-Palestinian Conflict",
+          "url": "https://www.youtube.com/watch?v=X6Qh1JpQafM",
+          "source": "Timeline - World History Documentaries",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-30T20:00:36Z"
+        },
+        {
+          "id": "26b46415f54f8b00c785b25219c12cb13dbc5ab2",
+          "title": "標準普爾 500 指數：2026 年剩餘時間的展望 [更新] / S&P 500: Outlook for the Rest of 2026 [Update]",
+          "url": "https://www.youtube.com/watch?v=Wef7vP6ffBM",
+          "source": "Benjamin Cowen",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-06-30T14:23:04Z"
+        },
+        {
           "id": "a83642efecc0b2f7487edbe9bd56ffa38c76b489",
           "title": "为什么 Frank Ocean 是最像导演的歌手？｜《Channel Orange》深度解析",
           "url": "https://www.youtube.com/watch?v=iIFKKayDqlI",
@@ -132,6 +219,24 @@
           "source_name": "OPML RSS",
           "site_id": "culture",
           "published_at": "2026-06-30T12:21:11Z"
+        },
+        {
+          "id": "ef0a0f9c62e3b04c2e87053982e8b5de8e7811b6",
+          "title": "韓國：表藝琳的戰鬥 / South Korea: Pyo Ye-Rim's Fight",
+          "url": "https://www.youtube.com/watch?v=2nKbXT8VXKI",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-30T12:00:15Z"
+        },
+        {
+          "id": "4d0ce6cf9f2b7932e4f0c4acf2265526ebc11fdc",
+          "title": "中国油画跪拜30年的偶像是个变态",
+          "url": "https://www.youtube.com/watch?v=_bLnTPDO3ZM",
+          "source": "有点艺思哦",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-06-30T10:15:17Z"
         },
         {
           "id": "7b2ecb7635106108a09a3cbe38b0cbdb9dc3b6e5",
@@ -161,6 +266,15 @@
           "published_at": "2026-06-30T16:15:17Z"
         },
         {
+          "id": "d13f0ae1a4e83d8baaec7406ea9f3a41c3f28f97",
+          "title": "OPEC(+)的終點即將到來嗎？ / Is the End of OPEC(+) Coming?",
+          "url": "https://www.youtube.com/watch?v=PrgzTAPnIN0",
+          "source": "Good Times Bad Times",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-06-30T14:00:18Z"
+        },
+        {
           "id": "4e50b005f65f2f66007b0e33a0f7d06341e37688",
           "title": "私募股權如何毀掉美國青少年體育 / How Private Equity Ruined American Youth Sports",
           "url": "https://www.youtube.com/watch?v=DPeRd48YfqY",
@@ -188,15 +302,15 @@
           "published_at": "2026-06-30T11:00:23Z"
         }
       ],
-      "item_count": 9,
-      "duplicate_count": 9,
-      "score": 0.6633,
-      "importance": 0.6633,
-      "importance_score": 0.6633,
+      "item_count": 15,
+      "duplicate_count": 15,
+      "score": 0.6459,
+      "importance": 0.6459,
+      "importance_score": 0.6459,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.711,
+        "recency": 0.653,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -204,12 +318,12 @@
         "multi_source"
       ],
       "earliest_at": "2026-06-30T10:02:14Z",
-      "latest_at": "2026-06-30T22:11:30Z",
+      "latest_at": "2026-07-01T00:40:21Z",
       "primary_item": {
-        "id": "d5cdbe68465dd56b99a8c82d6fe8eaa22b85729e",
-        "title": "我要離開紐約市 / i'm leaving New York City",
-        "url": "https://www.youtube.com/watch?v=zLganMVbY8g",
-        "source": "CaseyNeistat",
+        "id": "83c10be82f01b300390b896a0b8f5b4c4f7b6a70",
+        "title": "下半年美股布局！闪迪暴涨目标3000？！云大厂急招FDE何意味？副业改变人生！",
+        "url": "https://www.youtube.com/watch?v=n-tt-nJBtyY",
+        "source": "美投侃新闻",
         "source_name": "OPML RSS"
       }
     }
