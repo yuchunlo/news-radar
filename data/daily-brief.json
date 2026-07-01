@@ -1,16 +1,34 @@
 {
-  "generated_at": "2026-07-01T21:08:41.303152Z",
+  "generated_at": "2026-07-01T22:49:07.503173Z",
   "window_hours": 24,
   "total_items": 2,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "最瘋狂的角鬥士實驗完整紀錄片 / The Most Insane Gladiator Experiments FULL DOCUMENTARY",
-      "url": "https://www.youtube.com/watch?v=DKkpWFDydNY",
-      "primary_url": "https://www.youtube.com/watch?v=DKkpWFDydNY",
-      "source": "Invicta",
+      "title": "一份愛|理查德·科潘斯 / One Love | Richard Copans",
+      "url": "https://www.youtube.com/watch?v=xwVS-BAsn9Y",
+      "primary_url": "https://www.youtube.com/watch?v=xwVS-BAsn9Y",
+      "source": "Best Documentary",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "194fb3a9da36b497aa7966bf115d84764cfb2274",
+          "title": "一份愛|理查德·科潘斯 / One Love | Richard Copans",
+          "url": "https://www.youtube.com/watch?v=xwVS-BAsn9Y",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-01T21:45:32Z"
+        },
+        {
+          "id": "ecbb5fa82aba7dfb474bf0ca73c72dbb36ce67fa",
+          "title": "羅馬競技場的秘密 - 他們不告訴你的事 / Secrets of the Roman Arena - What They Don't Tell You",
+          "url": "https://www.youtube.com/watch?v=DKkpWFDydNY",
+          "source": "Invicta",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-01T20:53:01Z"
+        },
         {
           "id": "535399f47329e34095da1b3c71697ddf741e202b",
           "title": "最瘋狂的角鬥士實驗完整紀錄片 / The Most Insane Gladiator Experiments FULL DOCUMENTARY",
@@ -91,24 +109,6 @@
           "source_name": "OPML RSS",
           "site_id": "finance",
           "published_at": "2026-07-01T00:40:21Z"
-        },
-        {
-          "id": "d5cdbe68465dd56b99a8c82d6fe8eaa22b85729e",
-          "title": "我要離開紐約市 / i'm leaving New York City",
-          "url": "https://www.youtube.com/watch?v=zLganMVbY8g",
-          "source": "CaseyNeistat",
-          "source_name": "OPML RSS",
-          "site_id": "design",
-          "published_at": "2026-06-30T22:11:30Z"
-        },
-        {
-          "id": "0026cf0ff48ad3a4413ea5fc8d18d429dd7129ec",
-          "title": "羅馬帝國與拜占庭帝國的興衰|萊克斯‧弗里德曼播客 #498 / The Rise and Fall of the Roman Empire and the Byzantine Empire | Lex Fridman Podcast #498",
-          "url": "https://www.youtube.com/watch?v=pv1TUJSEM2k",
-          "source": "Lex Fridman",
-          "source_name": "OPML RSS",
-          "site_id": "blog",
-          "published_at": "2026-06-30T21:16:13Z"
         },
         {
           "id": "64a03ad3b395969683c34624b089172a1334b850",
@@ -160,12 +160,10 @@
       "source_names": [
         "Benjamin Cowen",
         "Best Documentary",
-        "CaseyNeistat",
         "DenQ來了",
         "GOATFANS",
         "Inspiraggio",
         "Invicta",
-        "Lex Fridman",
         "The Circuit with Emily Chang",
         "Timeline - World History Documentaries",
         "Waxy.org",
@@ -176,6 +174,24 @@
         "雜書觀察室"
       ],
       "items": [
+        {
+          "id": "194fb3a9da36b497aa7966bf115d84764cfb2274",
+          "title": "一份愛|理查德·科潘斯 / One Love | Richard Copans",
+          "url": "https://www.youtube.com/watch?v=xwVS-BAsn9Y",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-01T21:45:32Z"
+        },
+        {
+          "id": "ecbb5fa82aba7dfb474bf0ca73c72dbb36ce67fa",
+          "title": "羅馬競技場的秘密 - 他們不告訴你的事 / Secrets of the Roman Arena - What They Don't Tell You",
+          "url": "https://www.youtube.com/watch?v=DKkpWFDydNY",
+          "source": "Invicta",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-01T20:53:01Z"
+        },
         {
           "id": "535399f47329e34095da1b3c71697ddf741e202b",
           "title": "最瘋狂的角鬥士實驗完整紀錄片 / The Most Insane Gladiator Experiments FULL DOCUMENTARY",
@@ -258,24 +274,6 @@
           "published_at": "2026-07-01T00:40:21Z"
         },
         {
-          "id": "d5cdbe68465dd56b99a8c82d6fe8eaa22b85729e",
-          "title": "我要離開紐約市 / i'm leaving New York City",
-          "url": "https://www.youtube.com/watch?v=zLganMVbY8g",
-          "source": "CaseyNeistat",
-          "source_name": "OPML RSS",
-          "site_id": "design",
-          "published_at": "2026-06-30T22:11:30Z"
-        },
-        {
-          "id": "0026cf0ff48ad3a4413ea5fc8d18d429dd7129ec",
-          "title": "羅馬帝國與拜占庭帝國的興衰|萊克斯‧弗里德曼播客 #498 / The Rise and Fall of the Roman Empire and the Byzantine Empire | Lex Fridman Podcast #498",
-          "url": "https://www.youtube.com/watch?v=pv1TUJSEM2k",
-          "source": "Lex Fridman",
-          "source_name": "OPML RSS",
-          "site_id": "blog",
-          "published_at": "2026-06-30T21:16:13Z"
-        },
-        {
           "id": "64a03ad3b395969683c34624b089172a1334b850",
           "title": "漢克·格林採訪澤·弗蘭克 / Hank Green interviews Ze Frank",
           "url": "https://www.youtube.com/watch?v=bwIFDv5pHS0",
@@ -323,26 +321,26 @@
       ],
       "item_count": 16,
       "duplicate_count": 16,
-      "score": 0.7467,
-      "importance": 0.7467,
-      "importance_score": 0.7467,
+      "score": 0.7368,
+      "importance": 0.7368,
+      "importance_score": 0.7368,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9891,
+        "recency": 0.9558,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-30T21:16:13Z",
-      "latest_at": "2026-07-01T20:53:01Z",
+      "earliest_at": "2026-07-01T00:40:21Z",
+      "latest_at": "2026-07-01T21:45:32Z",
       "primary_item": {
-        "id": "535399f47329e34095da1b3c71697ddf741e202b",
-        "title": "最瘋狂的角鬥士實驗完整紀錄片 / The Most Insane Gladiator Experiments FULL DOCUMENTARY",
-        "url": "https://www.youtube.com/watch?v=DKkpWFDydNY",
-        "source": "Invicta",
+        "id": "194fb3a9da36b497aa7966bf115d84764cfb2274",
+        "title": "一份愛|理查德·科潘斯 / One Love | Richard Copans",
+        "url": "https://www.youtube.com/watch?v=xwVS-BAsn9Y",
+        "source": "Best Documentary",
         "source_name": "OPML RSS"
       }
     },
@@ -417,13 +415,13 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.4607,
-      "importance": 0.4607,
-      "importance_score": 0.4607,
+      "score": 0.4398,
+      "importance": 0.4398,
+      "importance_score": 0.4398,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.7856,
+        "recency": 0.7159,
         "story_heat": 0.5
       },
       "category": "multi_source",
