@@ -30,6 +30,7 @@ def main():
 
     items = data.get("items", [])
 
+    processed = 0
     succeeded = 0
     failed = 0
 
@@ -88,6 +89,8 @@ def main():
             print(f"[FAILED] item {item_id} (exit 0 but no file written): {output}")
         else:
             succeeded += 1
+
+        processed += 1
 
     print(f"Done. succeeded={succeeded} failed={failed}")
 
