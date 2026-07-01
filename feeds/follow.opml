@@ -1109,6 +1109,9 @@
       <outline text="日經中文網" type="rss" category="trending"
         xmlUrl="http://zh.cn.nikkei.com/rss.html"
         htmlUrl="https://zh.cn.nikkei.com/" />
+      <outline text="Benjamin Cowen" type="rss" category="finance"
+        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCRvqjQPSeaWn-uEx-w0XOIg"
+        htmlUrl="https://www.youtube.com/channel/UCRvqjQPSeaWn-uEx-w0XOIg" />
     </outline>
   </body>
 </opml>
