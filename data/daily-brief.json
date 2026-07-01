@@ -1,16 +1,43 @@
 {
-  "generated_at": "2026-07-01T09:00:05.303530Z",
+  "generated_at": "2026-07-01T12:15:47.895194Z",
   "window_hours": 24,
-  "total_items": 1,
+  "total_items": 2,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "下半年美股布局！闪迪暴涨目标3000？！云大厂急招FDE何意味？副业改变人生！",
-      "url": "https://www.youtube.com/watch?v=n-tt-nJBtyY",
-      "primary_url": "https://www.youtube.com/watch?v=n-tt-nJBtyY",
-      "source": "美投侃新闻",
+      "title": "士兵故事、死人會說話和致命化學|新偵探團 / Soldier Stories, Dead Men Do Talk & Deadly Chemistry | The New Detectives",
+      "url": "https://www.youtube.com/watch?v=zva3Ht4fntk",
+      "primary_url": "https://www.youtube.com/watch?v=zva3Ht4fntk",
+      "source": "Best Documentary",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "9c9fdec85913d2ef4f8f5cd61d9865156c346653",
+          "title": "士兵故事、死人會說話和致命化學|新偵探團 / Soldier Stories, Dead Men Do Talk & Deadly Chemistry | The New Detectives",
+          "url": "https://www.youtube.com/watch?v=zva3Ht4fntk",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-01T12:00:18Z"
+        },
+        {
+          "id": "117e4c85c43a7ca39ab770d50b660c5f716dbbfe",
+          "title": "有多少人是因为方大同才听到这首歌的？",
+          "url": "https://www.youtube.com/watch?v=-IV1jmbPtAc",
+          "source": "GOATFANS",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-01T10:16:12Z"
+        },
+        {
+          "id": "e21e476f91b8b584275f736cab10c3f52038f3bd",
+          "title": "《變化中的世界秩序》：印鈔救市合法搶劫｜達利歐債務大週期解析｜買國債定存財務自殺｜通縮蕭條與惡性通膨｜賺了指數賠了人生｜破解貨幣幻覺跨國硬資產配置佈局",
+          "url": "https://www.youtube.com/watch?v=PKSjgLQexls",
+          "source": "雜書觀察室",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-01T10:00:07Z"
+        },
         {
           "id": "83c10be82f01b300390b896a0b8f5b4c4f7b6a70",
           "title": "下半年美股布局！闪迪暴涨目标3000？！云大厂急招FDE何意味？副业改变人生！",
@@ -66,33 +93,6 @@
           "published_at": "2026-06-30T12:21:11Z"
         },
         {
-          "id": "ef0a0f9c62e3b04c2e87053982e8b5de8e7811b6",
-          "title": "韓國：表藝琳的戰鬥 / South Korea: Pyo Ye-Rim's Fight",
-          "url": "https://www.youtube.com/watch?v=2nKbXT8VXKI",
-          "source": "Best Documentary",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-30T12:00:15Z"
-        },
-        {
-          "id": "4d0ce6cf9f2b7932e4f0c4acf2265526ebc11fdc",
-          "title": "中国油画跪拜30年的偶像是个变态",
-          "url": "https://www.youtube.com/watch?v=_bLnTPDO3ZM",
-          "source": "有点艺思哦",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-30T10:15:17Z"
-        },
-        {
-          "id": "7b2ecb7635106108a09a3cbe38b0cbdb9dc3b6e5",
-          "title": "479 萧西之水谈日本自民党派阀兴亡：从「角福战争」、中日邦交正常化到金权丑闻",
-          "url": "https://www.youtube.com/watch?v=Dc-M6ujYaHM",
-          "source": "忽左忽右",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-30T10:02:14Z"
-        },
-        {
           "id": "c7b2918bb095122e723900f7b7d35bc9a82887ef",
           "title": "里海消亡後會發生什麼事？ / What Will Happen After The Caspian Sea Dies?",
           "url": "https://www.youtube.com/watch?v=nEBcD6sFDpY",
@@ -120,6 +120,33 @@
           "published_at": "2026-06-30T14:00:18Z"
         },
         {
+          "id": "4873bd749beff0aa0d232ca9cc4158d0b9134296",
+          "title": "卡莉克勞斯 (Karlie Kloss) 如何從封面女郎變成媒體大亨賽道 / How Karlie Kloss Went From Cover Girl to Media Mogul | The Circuit",
+          "url": "https://www.youtube.com/watch?v=dat7sucxxzU",
+          "source": "The Circuit with Emily Chang",
+          "source_name": "OPML RSS",
+          "site_id": "execution",
+          "published_at": "2026-07-01T12:00:16Z"
+        },
+        {
+          "id": "0c2d700e09923e01045c28b04309f2557e45a818",
+          "title": "最不想看到的‘副作用’出現了..韓流紅遍全球 韓國人為何不再感到開心｜DenQ",
+          "url": "https://www.youtube.com/watch?v=KR-bm32qsRY",
+          "source": "DenQ來了",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-01T11:00:24Z"
+        },
+        {
+          "id": "f95252a378b8eb6fbf39588c9467f8fc6a94a452",
+          "title": "一杯咖啡，要用多少森林來換？千萬公里外的樹木正因我們消失？｜公視P# 新聞實驗室",
+          "url": "https://www.youtube.com/watch?v=ziTzJUUh5dM",
+          "source": "公視P#新聞實驗室",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-01T10:38:16Z"
+        },
+        {
           "id": "4e50b005f65f2f66007b0e33a0f7d06341e37688",
           "title": "私募股權如何毀掉美國青少年體育 / How Private Equity Ruined American Youth Sports",
           "url": "https://www.youtube.com/watch?v=DPeRd48YfqY",
@@ -127,27 +154,9 @@
           "source_name": "OPML RSS",
           "site_id": "execution",
           "published_at": "2026-06-30T20:13:31Z"
-        },
-        {
-          "id": "9673b6b0b573049d1704b629ae6263760193a544",
-          "title": "全球港口正在洗牌，李嘉诚被撕合同，中国悄悄布局，美国手里只剩两张牌",
-          "url": "https://www.youtube.com/watch?v=NkHgCzZeI2I",
-          "source": "冲浪普拉斯",
-          "source_name": "OPML RSS",
-          "site_id": "execution",
-          "published_at": "2026-06-30T12:15:28Z"
-        },
-        {
-          "id": "3eca265b41a7f96b36ac396a8559052a25906d38",
-          "title": "開播2集就刷新2026年紀錄.. 被全網吹爆的'現象級神劇' 到底有多猛？｜DenQ",
-          "url": "https://www.youtube.com/watch?v=JThaXqA-1Sc",
-          "source": "DenQ來了",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-06-30T11:00:23Z"
         }
       ],
-      "source_count": 15,
+      "source_count": 16,
       "source_names": [
         "Benjamin Cowen",
         "Best Documentary",
@@ -158,14 +167,41 @@
         "Lex Fridman",
         "Primal Space",
         "RealLifeLore",
+        "The Circuit with Emily Chang",
         "Timeline - World History Documentaries",
         "Wendover Productions",
-        "冲浪普拉斯",
-        "忽左忽右",
-        "有点艺思哦",
-        "美投侃新闻"
+        "公視P#新聞實驗室",
+        "美投侃新闻",
+        "雜書觀察室"
       ],
       "items": [
+        {
+          "id": "9c9fdec85913d2ef4f8f5cd61d9865156c346653",
+          "title": "士兵故事、死人會說話和致命化學|新偵探團 / Soldier Stories, Dead Men Do Talk & Deadly Chemistry | The New Detectives",
+          "url": "https://www.youtube.com/watch?v=zva3Ht4fntk",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-01T12:00:18Z"
+        },
+        {
+          "id": "117e4c85c43a7ca39ab770d50b660c5f716dbbfe",
+          "title": "有多少人是因为方大同才听到这首歌的？",
+          "url": "https://www.youtube.com/watch?v=-IV1jmbPtAc",
+          "source": "GOATFANS",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-01T10:16:12Z"
+        },
+        {
+          "id": "e21e476f91b8b584275f736cab10c3f52038f3bd",
+          "title": "《變化中的世界秩序》：印鈔救市合法搶劫｜達利歐債務大週期解析｜買國債定存財務自殺｜通縮蕭條與惡性通膨｜賺了指數賠了人生｜破解貨幣幻覺跨國硬資產配置佈局",
+          "url": "https://www.youtube.com/watch?v=PKSjgLQexls",
+          "source": "雜書觀察室",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-01T10:00:07Z"
+        },
         {
           "id": "83c10be82f01b300390b896a0b8f5b4c4f7b6a70",
           "title": "下半年美股布局！闪迪暴涨目标3000？！云大厂急招FDE何意味？副业改变人生！",
@@ -221,33 +257,6 @@
           "published_at": "2026-06-30T12:21:11Z"
         },
         {
-          "id": "ef0a0f9c62e3b04c2e87053982e8b5de8e7811b6",
-          "title": "韓國：表藝琳的戰鬥 / South Korea: Pyo Ye-Rim's Fight",
-          "url": "https://www.youtube.com/watch?v=2nKbXT8VXKI",
-          "source": "Best Documentary",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-30T12:00:15Z"
-        },
-        {
-          "id": "4d0ce6cf9f2b7932e4f0c4acf2265526ebc11fdc",
-          "title": "中国油画跪拜30年的偶像是个变态",
-          "url": "https://www.youtube.com/watch?v=_bLnTPDO3ZM",
-          "source": "有点艺思哦",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-30T10:15:17Z"
-        },
-        {
-          "id": "7b2ecb7635106108a09a3cbe38b0cbdb9dc3b6e5",
-          "title": "479 萧西之水谈日本自民党派阀兴亡：从「角福战争」、中日邦交正常化到金权丑闻",
-          "url": "https://www.youtube.com/watch?v=Dc-M6ujYaHM",
-          "source": "忽左忽右",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-06-30T10:02:14Z"
-        },
-        {
           "id": "c7b2918bb095122e723900f7b7d35bc9a82887ef",
           "title": "里海消亡後會發生什麼事？ / What Will Happen After The Caspian Sea Dies?",
           "url": "https://www.youtube.com/watch?v=nEBcD6sFDpY",
@@ -275,6 +284,33 @@
           "published_at": "2026-06-30T14:00:18Z"
         },
         {
+          "id": "4873bd749beff0aa0d232ca9cc4158d0b9134296",
+          "title": "卡莉克勞斯 (Karlie Kloss) 如何從封面女郎變成媒體大亨賽道 / How Karlie Kloss Went From Cover Girl to Media Mogul | The Circuit",
+          "url": "https://www.youtube.com/watch?v=dat7sucxxzU",
+          "source": "The Circuit with Emily Chang",
+          "source_name": "OPML RSS",
+          "site_id": "execution",
+          "published_at": "2026-07-01T12:00:16Z"
+        },
+        {
+          "id": "0c2d700e09923e01045c28b04309f2557e45a818",
+          "title": "最不想看到的‘副作用’出現了..韓流紅遍全球 韓國人為何不再感到開心｜DenQ",
+          "url": "https://www.youtube.com/watch?v=KR-bm32qsRY",
+          "source": "DenQ來了",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-01T11:00:24Z"
+        },
+        {
+          "id": "f95252a378b8eb6fbf39588c9467f8fc6a94a452",
+          "title": "一杯咖啡，要用多少森林來換？千萬公里外的樹木正因我們消失？｜公視P# 新聞實驗室",
+          "url": "https://www.youtube.com/watch?v=ziTzJUUh5dM",
+          "source": "公視P#新聞實驗室",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-01T10:38:16Z"
+        },
+        {
           "id": "4e50b005f65f2f66007b0e33a0f7d06341e37688",
           "title": "私募股權如何毀掉美國青少年體育 / How Private Equity Ruined American Youth Sports",
           "url": "https://www.youtube.com/watch?v=DPeRd48YfqY",
@@ -282,48 +318,124 @@
           "source_name": "OPML RSS",
           "site_id": "execution",
           "published_at": "2026-06-30T20:13:31Z"
-        },
-        {
-          "id": "9673b6b0b573049d1704b629ae6263760193a544",
-          "title": "全球港口正在洗牌，李嘉诚被撕合同，中国悄悄布局，美国手里只剩两张牌",
-          "url": "https://www.youtube.com/watch?v=NkHgCzZeI2I",
-          "source": "冲浪普拉斯",
-          "source_name": "OPML RSS",
-          "site_id": "execution",
-          "published_at": "2026-06-30T12:15:28Z"
-        },
-        {
-          "id": "3eca265b41a7f96b36ac396a8559052a25906d38",
-          "title": "開播2集就刷新2026年紀錄.. 被全網吹爆的'現象級神劇' 到底有多猛？｜DenQ",
-          "url": "https://www.youtube.com/watch?v=JThaXqA-1Sc",
-          "source": "DenQ來了",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-06-30T11:00:23Z"
         }
       ],
-      "item_count": 15,
-      "duplicate_count": 15,
-      "score": 0.6459,
-      "importance": 0.6459,
-      "importance_score": 0.6459,
+      "item_count": 16,
+      "duplicate_count": 16,
+      "score": 0.7468,
+      "importance": 0.7468,
+      "importance_score": 0.7468,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.653,
+        "recency": 0.9892,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-06-30T10:02:14Z",
-      "latest_at": "2026-07-01T00:40:21Z",
+      "earliest_at": "2026-06-30T12:21:11Z",
+      "latest_at": "2026-07-01T12:00:18Z",
       "primary_item": {
-        "id": "83c10be82f01b300390b896a0b8f5b4c4f7b6a70",
-        "title": "下半年美股布局！闪迪暴涨目标3000？！云大厂急招FDE何意味？副业改变人生！",
-        "url": "https://www.youtube.com/watch?v=n-tt-nJBtyY",
-        "source": "美投侃新闻",
+        "id": "9c9fdec85913d2ef4f8f5cd61d9865156c346653",
+        "title": "士兵故事、死人會說話和致命化學|新偵探團 / Soldier Stories, Dead Men Do Talk & Deadly Chemistry | The New Detectives",
+        "url": "https://www.youtube.com/watch?v=zva3Ht4fntk",
+        "source": "Best Documentary",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_7d23c0769328",
+      "title": "全球七成匹克球拍他做的！台裔舵手「社群思維」後進者稱王",
+      "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014390",
+      "primary_url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014390",
+      "source": "商業周刊 當期雜誌開放文章",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "9d22a26731bb11bfd0169a963b42e28c67e1e3fb",
+          "title": "全球七成匹克球拍他做的！台裔舵手「社群思維」後進者稱王",
+          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014390",
+          "source": "商業周刊 當期雜誌開放文章",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-01T16:00:00Z"
+        },
+        {
+          "id": "028af1239668aee4e817202902ade5085d7a11c6",
+          "title": "年輕世代比中年人更怕創新　一份韓國調查揭「迴避失敗」後遺症",
+          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014391",
+          "source": "商業周刊 當期雜誌開放文章",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-01T16:00:00Z"
+        },
+        {
+          "id": "f3b5fc4662a386de051ca2f19668be417dde6bcf",
+          "title": "從倒帳危機到低軌衛星供應鏈　大亞老頭家的「包容惡意」經營課",
+          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014386",
+          "source": "商業周刊 當期雜誌開放文章",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-01T16:00:00Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "商業周刊 當期雜誌開放文章"
+      ],
+      "items": [
+        {
+          "id": "9d22a26731bb11bfd0169a963b42e28c67e1e3fb",
+          "title": "全球七成匹克球拍他做的！台裔舵手「社群思維」後進者稱王",
+          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014390",
+          "source": "商業周刊 當期雜誌開放文章",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-01T16:00:00Z"
+        },
+        {
+          "id": "028af1239668aee4e817202902ade5085d7a11c6",
+          "title": "年輕世代比中年人更怕創新　一份韓國調查揭「迴避失敗」後遺症",
+          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014391",
+          "source": "商業周刊 當期雜誌開放文章",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-01T16:00:00Z"
+        },
+        {
+          "id": "f3b5fc4662a386de051ca2f19668be417dde6bcf",
+          "title": "從倒帳危機到低軌衛星供應鏈　大亞老頭家的「包容惡意」經營課",
+          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014386",
+          "source": "商業周刊 當期雜誌開放文章",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-01T16:00:00Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.525,
+      "importance": 0.525,
+      "importance_score": 0.525,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "source_tier": 0.25,
+        "recency": 1.0,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-01T16:00:00Z",
+      "latest_at": "2026-07-01T16:00:00Z",
+      "primary_item": {
+        "id": "9d22a26731bb11bfd0169a963b42e28c67e1e3fb",
+        "title": "全球七成匹克球拍他做的！台裔舵手「社群思維」後進者稱王",
+        "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014390",
+        "source": "商業周刊 當期雜誌開放文章",
         "source_name": "OPML RSS"
       }
     }
