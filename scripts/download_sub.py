@@ -76,7 +76,7 @@ def main():
         output = (result.stdout or "") + (result.stderr or "")
         if result.returncode != 0:
             if "cookies" in output.lower():
-                print(output)
+                print("[EXPIRED] cookies invalid")
                 break
 
         processed += 1
