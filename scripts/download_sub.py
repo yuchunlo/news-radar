@@ -53,7 +53,7 @@ def main():
             "--user-agent",
             "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120 Safari/537.36",
             "--extractor-args",
-            "youtube:player_client=android",
+            "youtube:player_client=web",
             "--skip-download",
             "--write-sub",
             "--write-auto-sub",
