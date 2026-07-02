@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-07-01T22:49:07.503173Z",
+  "generated_at": "2026-07-02T00:15:11.650054Z",
   "window_hours": 24,
   "total_items": 2,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "一份愛|理查德·科潘斯 / One Love | Richard Copans",
-      "url": "https://www.youtube.com/watch?v=xwVS-BAsn9Y",
-      "primary_url": "https://www.youtube.com/watch?v=xwVS-BAsn9Y",
-      "source": "Best Documentary",
+      "title": "存储暴跌，资本大迁移？华尔街悄悄转向软件与大科技？",
+      "url": "https://www.youtube.com/watch?v=9rxfRxdyDvM",
+      "primary_url": "https://www.youtube.com/watch?v=9rxfRxdyDvM",
+      "source": "Shepherd Capital Markets",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "f6393f9b1cbce6e341330f9a5017f25f57e296e4",
+          "title": "存储暴跌，资本大迁移？华尔街悄悄转向软件与大科技？",
+          "url": "https://www.youtube.com/watch?v=9rxfRxdyDvM",
+          "source": "Shepherd Capital Markets",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-01T22:52:36Z"
+        },
         {
           "id": "194fb3a9da36b497aa7966bf115d84764cfb2274",
           "title": "一份愛|理查德·科潘斯 / One Love | Richard Copans",
@@ -156,7 +165,7 @@
           "published_at": "2026-07-01T11:00:24Z"
         }
       ],
-      "source_count": 16,
+      "source_count": 17,
       "source_names": [
         "Benjamin Cowen",
         "Best Documentary",
@@ -164,6 +173,7 @@
         "GOATFANS",
         "Inspiraggio",
         "Invicta",
+        "Shepherd Capital Markets",
         "The Circuit with Emily Chang",
         "Timeline - World History Documentaries",
         "Waxy.org",
@@ -175,6 +185,15 @@
       ],
       "items": [
         {
+          "id": "f6393f9b1cbce6e341330f9a5017f25f57e296e4",
+          "title": "存储暴跌，资本大迁移？华尔街悄悄转向软件与大科技？",
+          "url": "https://www.youtube.com/watch?v=9rxfRxdyDvM",
+          "source": "Shepherd Capital Markets",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-01T22:52:36Z"
+        },
+        {
           "id": "194fb3a9da36b497aa7966bf115d84764cfb2274",
           "title": "一份愛|理查德·科潘斯 / One Love | Richard Copans",
           "url": "https://www.youtube.com/watch?v=xwVS-BAsn9Y",
@@ -319,15 +338,15 @@
           "published_at": "2026-07-01T11:00:24Z"
         }
       ],
-      "item_count": 16,
-      "duplicate_count": 16,
-      "score": 0.7368,
-      "importance": 0.7368,
-      "importance_score": 0.7368,
+      "item_count": 17,
+      "duplicate_count": 17,
+      "score": 0.7328,
+      "importance": 0.7328,
+      "importance_score": 0.7328,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9558,
+        "recency": 0.9426,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -335,12 +354,12 @@
         "multi_source"
       ],
       "earliest_at": "2026-07-01T00:40:21Z",
-      "latest_at": "2026-07-01T21:45:32Z",
+      "latest_at": "2026-07-01T22:52:36Z",
       "primary_item": {
-        "id": "194fb3a9da36b497aa7966bf115d84764cfb2274",
-        "title": "一份愛|理查德·科潘斯 / One Love | Richard Copans",
-        "url": "https://www.youtube.com/watch?v=xwVS-BAsn9Y",
-        "source": "Best Documentary",
+        "id": "f6393f9b1cbce6e341330f9a5017f25f57e296e4",
+        "title": "存储暴跌，资本大迁移？华尔街悄悄转向软件与大科技？",
+        "url": "https://www.youtube.com/watch?v=9rxfRxdyDvM",
+        "source": "Shepherd Capital Markets",
         "source_name": "OPML RSS"
       }
     },
@@ -415,13 +434,13 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.4398,
-      "importance": 0.4398,
-      "importance_score": 0.4398,
+      "score": 0.4218,
+      "importance": 0.4218,
+      "importance_score": 0.4218,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.7159,
+        "recency": 0.6561,
         "story_heat": 0.5
       },
       "category": "multi_source",
