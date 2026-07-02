@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-07-02T04:42:45.876685Z",
+  "generated_at": "2026-07-02T08:15:01.797421Z",
   "window_hours": 24,
   "total_items": 2,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "存储暴跌，资本大迁移？华尔街悄悄转向软件与大科技？",
-      "url": "https://www.youtube.com/watch?v=9rxfRxdyDvM",
-      "primary_url": "https://www.youtube.com/watch?v=9rxfRxdyDvM",
-      "source": "Shepherd Capital Markets",
+      "title": "Meta要放缓资本开支？沃什罕见释放政策信号！",
+      "url": "https://www.youtube.com/watch?v=5Uk4yuYmvqg",
+      "primary_url": "https://www.youtube.com/watch?v=5Uk4yuYmvqg",
+      "source": "美投侃新闻",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "209f2cbcc583c77dca28305e5569333d07b4e37a",
+          "title": "Meta要放缓资本开支？沃什罕见释放政策信号！",
+          "url": "https://www.youtube.com/watch?v=5Uk4yuYmvqg",
+          "source": "美投侃新闻",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-02T00:12:03Z"
+        },
         {
           "id": "f6393f9b1cbce6e341330f9a5017f25f57e296e4",
           "title": "存储暴跌，资本大迁移？华尔街悄悄转向软件与大科技？",
@@ -68,6 +77,15 @@
         {
           "id": "04692ec8dff38370b133335b37612a8d897e2829",
           "title": "1776：未經審查的美國內戰故事 / 1776: The Uncensored Story of The American Civil War",
+          "url": "https://www.youtube.com/watch?v=JMxd1Z31eno",
+          "source": "Timeline - World History Documentaries",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-01T16:00:06Z"
+        },
+        {
+          "id": "55f252d9bc0b31ad309372fef5f335b319a7c2dc",
+          "title": "1776 年：未經審查的美國革命故事 / 1776: The Uncensored Story of The American Revolution",
           "url": "https://www.youtube.com/watch?v=JMxd1Z31eno",
           "source": "Timeline - World History Documentaries",
           "source_name": "OPML RSS",
@@ -156,7 +174,7 @@
           "published_at": "2026-07-01T11:00:24Z"
         }
       ],
-      "source_count": 16,
+      "source_count": 18,
       "source_names": [
         "Benjamin Cowen",
         "Best Documentary",
@@ -171,9 +189,19 @@
         "imineo Documentaires",
         "公視P#新聞實驗室",
         "小Lin说",
+        "美投侃新闻",
         "雜書觀察室"
       ],
       "items": [
+        {
+          "id": "209f2cbcc583c77dca28305e5569333d07b4e37a",
+          "title": "Meta要放缓资本开支？沃什罕见释放政策信号！",
+          "url": "https://www.youtube.com/watch?v=5Uk4yuYmvqg",
+          "source": "美投侃新闻",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-02T00:12:03Z"
+        },
         {
           "id": "f6393f9b1cbce6e341330f9a5017f25f57e296e4",
           "title": "存储暴跌，资本大迁移？华尔街悄悄转向软件与大科技？",
@@ -231,6 +259,15 @@
         {
           "id": "04692ec8dff38370b133335b37612a8d897e2829",
           "title": "1776：未經審查的美國內戰故事 / 1776: The Uncensored Story of The American Civil War",
+          "url": "https://www.youtube.com/watch?v=JMxd1Z31eno",
+          "source": "Timeline - World History Documentaries",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-01T16:00:06Z"
+        },
+        {
+          "id": "55f252d9bc0b31ad309372fef5f335b319a7c2dc",
+          "title": "1776 年：未經審查的美國革命故事 / 1776: The Uncensored Story of The American Revolution",
           "url": "https://www.youtube.com/watch?v=JMxd1Z31eno",
           "source": "Timeline - World History Documentaries",
           "source_name": "OPML RSS",
@@ -319,15 +356,15 @@
           "published_at": "2026-07-01T11:00:24Z"
         }
       ],
-      "item_count": 16,
-      "duplicate_count": 16,
-      "score": 0.677,
-      "importance": 0.677,
-      "importance_score": 0.677,
+      "item_count": 18,
+      "duplicate_count": 18,
+      "score": 0.6494,
+      "importance": 0.6494,
+      "importance_score": 0.6494,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7568,
+        "recency": 0.6646,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -335,12 +372,12 @@
         "multi_source"
       ],
       "earliest_at": "2026-07-01T10:00:07Z",
-      "latest_at": "2026-07-01T22:52:36Z",
+      "latest_at": "2026-07-02T00:12:03Z",
       "primary_item": {
-        "id": "f6393f9b1cbce6e341330f9a5017f25f57e296e4",
-        "title": "存储暴跌，资本大迁移？华尔街悄悄转向软件与大科技？",
-        "url": "https://www.youtube.com/watch?v=9rxfRxdyDvM",
-        "source": "Shepherd Capital Markets",
+        "id": "209f2cbcc583c77dca28305e5569333d07b4e37a",
+        "title": "Meta要放缓资本开支？沃什罕见释放政策信号！",
+        "url": "https://www.youtube.com/watch?v=5Uk4yuYmvqg",
+        "source": "美投侃新闻",
         "source_name": "OPML RSS"
       }
     },
@@ -371,8 +408,8 @@
           "published_at": "2026-07-01T16:00:00Z"
         },
         {
-          "id": "f3b5fc4662a386de051ca2f19668be417dde6bcf",
-          "title": "從倒帳危機到低軌衛星供應鏈　大亞老頭家的「包容惡意」經營課",
+          "id": "8da0e74bb8a0a4ee39ece02aa0dd354cbddf5811",
+          "title": "從倒帳危機到低軌衛星供應鏈，大亞老頭家的「包容惡意」經營課",
           "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014386",
           "source": "商業周刊 當期雜誌開放文章",
           "source_name": "OPML RSS",
@@ -404,8 +441,8 @@
           "published_at": "2026-07-01T16:00:00Z"
         },
         {
-          "id": "f3b5fc4662a386de051ca2f19668be417dde6bcf",
-          "title": "從倒帳危機到低軌衛星供應鏈　大亞老頭家的「包容惡意」經營課",
+          "id": "8da0e74bb8a0a4ee39ece02aa0dd354cbddf5811",
+          "title": "從倒帳危機到低軌衛星供應鏈，大亞老頭家的「包容惡意」經營課",
           "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014386",
           "source": "商業周刊 當期雜誌開放文章",
           "source_name": "OPML RSS",
@@ -415,13 +452,13 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.3661,
-      "importance": 0.3661,
-      "importance_score": 0.3661,
+      "score": 0.3219,
+      "importance": 0.3219,
+      "importance_score": 0.3219,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.4703,
+        "recency": 0.3229,
         "story_heat": 0.5
       },
       "category": "multi_source",
