@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-07-02T19:44:17.027577Z",
+  "generated_at": "2026-07-02T21:15:32.654829Z",
   "window_hours": 24,
   "total_items": 3,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "海灣戰爭：普羅旺斯 PMU 的沙漠風暴 / Guerre du Golfe : Tempête du désert au PMU de Provence",
-      "url": "https://www.youtube.com/watch?v=-GiRi43598Y",
-      "primary_url": "https://www.youtube.com/watch?v=-GiRi43598Y",
-      "source": "imineo Documentaires",
+      "title": "更好地打電話給霍華德：現實生活中的索爾古德曼 / Better Call Howard: The Real-Life Saul Goodman",
+      "url": "https://www.youtube.com/watch?v=MCw10ykXD7Q",
+      "primary_url": "https://www.youtube.com/watch?v=MCw10ykXD7Q",
+      "source": "Best Documentary",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "fc62e3cc478cd54e68fab7b14a18018b99d0f160",
+          "title": "更好地打電話給霍華德：現實生活中的索爾古德曼 / Better Call Howard: The Real-Life Saul Goodman",
+          "url": "https://www.youtube.com/watch?v=MCw10ykXD7Q",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-02T21:00:34Z"
+        },
         {
           "id": "2a1b2e0aa7d6a47354e5f94ee885d1e6ac819d22",
           "title": "海灣戰爭：普羅旺斯 PMU 的沙漠風暴 / Guerre du Golfe : Tempête du désert au PMU de Provence",
@@ -111,24 +120,6 @@
           "published_at": "2026-07-01T21:45:32Z"
         },
         {
-          "id": "ecbb5fa82aba7dfb474bf0ca73c72dbb36ce67fa",
-          "title": "羅馬競技場的秘密 - 他們不告訴你的事 / Secrets of the Roman Arena - What They Don't Tell You",
-          "url": "https://www.youtube.com/watch?v=DKkpWFDydNY",
-          "source": "Invicta",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-01T20:53:01Z"
-        },
-        {
-          "id": "8401ff873469c0a344e3cfc5064dd7d8a48fb07c",
-          "title": "這就是為什麼卡拉瓦喬是天才... / This is why Caravaggio was a genius...",
-          "url": "https://www.youtube.com/watch?v=GaPDgkzaIYo",
-          "source": "Inspiraggio",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-01T20:04:28Z"
-        },
-        {
           "id": "99b4ea9385cb53c5b4021554be5968ce91b455ef",
           "title": "如何讓一個國家破產 / How To Bankrupt A Country",
           "url": "https://www.youtube.com/watch?v=qqxzeNuDVc8",
@@ -156,13 +147,11 @@
           "published_at": "2026-07-02T10:00:31Z"
         }
       ],
-      "source_count": 16,
+      "source_count": 15,
       "source_names": [
         "Benjamin Cowen",
         "Best Documentary",
         "CYFIT兆佑",
-        "Inspiraggio",
-        "Invicta",
         "Knowledgia",
         "OBF",
         "Perspective",
@@ -175,6 +164,15 @@
       ],
       "items": [
         {
+          "id": "fc62e3cc478cd54e68fab7b14a18018b99d0f160",
+          "title": "更好地打電話給霍華德：現實生活中的索爾古德曼 / Better Call Howard: The Real-Life Saul Goodman",
+          "url": "https://www.youtube.com/watch?v=MCw10ykXD7Q",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-02T21:00:34Z"
+        },
+        {
           "id": "2a1b2e0aa7d6a47354e5f94ee885d1e6ac819d22",
           "title": "海灣戰爭：普羅旺斯 PMU 的沙漠風暴 / Guerre du Golfe : Tempête du désert au PMU de Provence",
           "url": "https://www.youtube.com/watch?v=-GiRi43598Y",
@@ -274,24 +272,6 @@
           "published_at": "2026-07-01T21:45:32Z"
         },
         {
-          "id": "ecbb5fa82aba7dfb474bf0ca73c72dbb36ce67fa",
-          "title": "羅馬競技場的秘密 - 他們不告訴你的事 / Secrets of the Roman Arena - What They Don't Tell You",
-          "url": "https://www.youtube.com/watch?v=DKkpWFDydNY",
-          "source": "Invicta",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-01T20:53:01Z"
-        },
-        {
-          "id": "8401ff873469c0a344e3cfc5064dd7d8a48fb07c",
-          "title": "這就是為什麼卡拉瓦喬是天才... / This is why Caravaggio was a genius...",
-          "url": "https://www.youtube.com/watch?v=GaPDgkzaIYo",
-          "source": "Inspiraggio",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-01T20:04:28Z"
-        },
-        {
           "id": "99b4ea9385cb53c5b4021554be5968ce91b455ef",
           "title": "如何讓一個國家破產 / How To Bankrupt A Country",
           "url": "https://www.youtube.com/watch?v=qqxzeNuDVc8",
@@ -319,28 +299,28 @@
           "published_at": "2026-07-02T10:00:31Z"
         }
       ],
-      "item_count": 16,
-      "duplicate_count": 16,
-      "score": 0.7096,
-      "importance": 0.7096,
-      "importance_score": 0.7096,
+      "item_count": 15,
+      "duplicate_count": 15,
+      "score": 0.7469,
+      "importance": 0.7469,
+      "importance_score": 0.7469,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.8654,
+        "recency": 0.9896,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-01T20:04:28Z",
-      "latest_at": "2026-07-02T17:49:38Z",
+      "earliest_at": "2026-07-01T21:45:32Z",
+      "latest_at": "2026-07-02T21:00:34Z",
       "primary_item": {
-        "id": "2a1b2e0aa7d6a47354e5f94ee885d1e6ac819d22",
-        "title": "海灣戰爭：普羅旺斯 PMU 的沙漠風暴 / Guerre du Golfe : Tempête du désert au PMU de Provence",
-        "url": "https://www.youtube.com/watch?v=-GiRi43598Y",
-        "source": "imineo Documentaires",
+        "id": "fc62e3cc478cd54e68fab7b14a18018b99d0f160",
+        "title": "更好地打電話給霍華德：現實生活中的索爾古德曼 / Better Call Howard: The Real-Life Saul Goodman",
+        "url": "https://www.youtube.com/watch?v=MCw10ykXD7Q",
+        "source": "Best Documentary",
         "source_name": "OPML RSS"
       }
     },
@@ -415,13 +395,13 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5689,
-      "importance": 0.5689,
-      "importance_score": 0.5689,
+      "score": 0.5499,
+      "importance": 0.5499,
+      "importance_score": 0.5499,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7297,
+        "recency": 0.6663,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -491,13 +471,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.495,
-      "importance": 0.495,
-      "importance_score": 0.495,
+      "score": 0.476,
+      "importance": 0.476,
+      "importance_score": 0.476,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6499,
+        "recency": 0.5866,
         "story_heat": 0.25
       },
       "category": "watch",
