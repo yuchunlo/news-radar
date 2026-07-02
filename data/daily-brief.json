@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-02T17:56:44.996852Z",
+  "generated_at": "2026-07-02T19:44:17.027577Z",
   "window_hours": 24,
-  "total_items": 2,
+  "total_items": 3,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
@@ -39,152 +39,8 @@
           "published_at": "2026-07-02T14:45:57Z"
         },
         {
-          "id": "81f434a51095af7028d6f04ca8d2e5a8fba33e88",
-          "title": "NFA直播！比特幣觸及新低 / NFA Live! Bitcoin Hit a New Low",
-          "url": "https://www.youtube.com/watch?v=oj2n8nkTTTE",
-          "source": "Benjamin Cowen",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-02T14:00:19Z"
-        },
-        {
-          "id": "04701722f20040a68bd114c4beee9b785095ae8d",
-          "title": "天氣超熱🔥15 分鐘「懶人電鍋燜飯」‼️一鍋到底，營養美味大爆發！｜素食 純素 全素｜素食美食｜➤野菜鹿鹿 Veggie Deer",
-          "url": "https://www.youtube.com/watch?v=t1_no3UQ4Vo",
-          "source": "野菜鹿鹿Veggie Deer",
-          "source_name": "OPML RSS",
-          "site_id": "convivium",
-          "published_at": "2026-07-02T13:00:07Z"
-        },
-        {
-          "id": "708d475c42397d4640ec746de9aa19582ff609a4",
-          "title": "莫斯科國家歷史博物館的秘密揭曉 / Secrets of Moscow's State Historical Museum Revealed",
-          "url": "https://www.youtube.com/watch?v=6mCkq-1v3Iw",
-          "source": "Perspective",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-02T12:00:12Z"
-        },
-        {
-          "id": "a187a41fd3aa6dd3e4ac7ff4e6ab745cf8280135",
-          "title": "犯罪領主的內心深處 |分析器解釋 / Inside the Mind of Crime Lords | Profilers Explain",
-          "url": "https://www.youtube.com/watch?v=JannGAC1tbc",
-          "source": "Best Documentary",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-02T12:00:09Z"
-        },
-        {
-          "id": "209f2cbcc583c77dca28305e5569333d07b4e37a",
-          "title": "Meta要放缓资本开支？沃什罕见释放政策信号！",
-          "url": "https://www.youtube.com/watch?v=5Uk4yuYmvqg",
-          "source": "美投侃新闻",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-02T00:12:03Z"
-        },
-        {
-          "id": "f6393f9b1cbce6e341330f9a5017f25f57e296e4",
-          "title": "存储暴跌，资本大迁移？华尔街悄悄转向软件与大科技？",
-          "url": "https://www.youtube.com/watch?v=9rxfRxdyDvM",
-          "source": "Shepherd Capital Markets",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-01T22:52:36Z"
-        },
-        {
-          "id": "194fb3a9da36b497aa7966bf115d84764cfb2274",
-          "title": "一份愛|理查德·科潘斯 / One Love | Richard Copans",
-          "url": "https://www.youtube.com/watch?v=xwVS-BAsn9Y",
-          "source": "Best Documentary",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-01T21:45:32Z"
-        },
-        {
-          "id": "ecbb5fa82aba7dfb474bf0ca73c72dbb36ce67fa",
-          "title": "羅馬競技場的秘密 - 他們不告訴你的事 / Secrets of the Roman Arena - What They Don't Tell You",
-          "url": "https://www.youtube.com/watch?v=DKkpWFDydNY",
-          "source": "Invicta",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-01T20:53:01Z"
-        },
-        {
-          "id": "8401ff873469c0a344e3cfc5064dd7d8a48fb07c",
-          "title": "這就是為什麼卡拉瓦喬是天才... / This is why Caravaggio was a genius...",
-          "url": "https://www.youtube.com/watch?v=GaPDgkzaIYo",
-          "source": "Inspiraggio",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-01T20:04:28Z"
-        },
-        {
-          "id": "809641e5304d756c14f15993e764299fc8873fec",
-          "title": "比特幣：模擬已確認 / Bitcoin: Simulation Confirmed",
-          "url": "https://www.youtube.com/watch?v=8TmOvGK235I",
-          "source": "Benjamin Cowen",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-01T19:19:32Z"
-        },
-        {
-          "id": "b0ba9e5e8431c8d84ba5bc61a69ae1688ca679ce",
-          "title": "【龜山島遊艇】原來遊艇還可以這樣玩，龜山島的海底生態超好｜探險威狼 Wilang Explorer ｜宜蘭｜龜山島｜烏石港｜遊艇｜潛水｜浮潛｜頭城｜比基尼｜夏天｜Yilan｜Vlog 525",
-          "url": "https://www.youtube.com/watch?v=UPLBWyaOuPE",
-          "source": "探險威狼 Wilang-Explorer",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-02T11:00:25Z"
-        },
-        {
-          "id": "2867c6bf238a7ec17f670b9825a0b7b116d4f727",
-          "title": "別再盲目補碳水了！科學研究證實：練前吃再多，重訓表現也『毫無差異』？",
-          "url": "https://www.youtube.com/watch?v=0UnbH9HTq9c",
-          "source": "CYFIT兆佑",
-          "source_name": "OPML RSS",
-          "site_id": "functionality",
-          "published_at": "2026-07-02T10:00:31Z"
-        }
-      ],
-      "source_count": 15,
-      "source_names": [
-        "Benjamin Cowen",
-        "Best Documentary",
-        "CYFIT兆佑",
-        "Inspiraggio",
-        "Invicta",
-        "Knowledgia",
-        "Perspective",
-        "Shepherd Capital Markets",
-        "Timeline - World History Documentaries",
-        "imineo Documentaires",
-        "探險威狼 Wilang-Explorer",
-        "美投侃新闻",
-        "野菜鹿鹿Veggie Deer"
-      ],
-      "items": [
-        {
-          "id": "2a1b2e0aa7d6a47354e5f94ee885d1e6ac819d22",
-          "title": "海灣戰爭：普羅旺斯 PMU 的沙漠風暴 / Guerre du Golfe : Tempête du désert au PMU de Provence",
-          "url": "https://www.youtube.com/watch?v=-GiRi43598Y",
-          "source": "imineo Documentaires",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-02T16:30:27Z"
-        },
-        {
-          "id": "994bef6b9e24ed0672b2fb6e31a1fd79f42bb572",
-          "title": "250 年後：為什麼你所了解的有關美國革命的一切都是錯的 / 250 Years Later: Why Everything You Learned About the American Revolution is Wrong",
-          "url": "https://www.youtube.com/watch?v=4dues5UEPic",
-          "source": "Timeline - World History Documentaries",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-02T16:00:05Z"
-        },
-        {
-          "id": "126022e865e996b7ec3ffd559089c42f9550592b",
-          "title": "七年戰爭的整個歷史（1756 - 1763） / The Entire History of The Seven Years' War (1756 - 1763)",
+          "id": "b60635739434fb014c5cd838281a8baf4dc55a84",
+          "title": "七年戰爭的整個歷史 - 這是第一次世界大戰嗎？ (1756 - 1763) / The Entire History of The Seven Years' War - Was this The First World War? (1756 - 1763)",
           "url": "https://www.youtube.com/watch?v=TifnwP97IkE",
           "source": "Knowledgia",
           "source_name": "OPML RSS",
@@ -273,13 +129,13 @@
           "published_at": "2026-07-01T20:04:28Z"
         },
         {
-          "id": "809641e5304d756c14f15993e764299fc8873fec",
-          "title": "比特幣：模擬已確認 / Bitcoin: Simulation Confirmed",
-          "url": "https://www.youtube.com/watch?v=8TmOvGK235I",
-          "source": "Benjamin Cowen",
+          "id": "99b4ea9385cb53c5b4021554be5968ce91b455ef",
+          "title": "如何讓一個國家破產 / How To Bankrupt A Country",
+          "url": "https://www.youtube.com/watch?v=qqxzeNuDVc8",
+          "source": "OBF",
           "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-01T19:19:32Z"
+          "site_id": "opmlrss",
+          "published_at": "2026-07-02T17:49:38Z"
         },
         {
           "id": "b0ba9e5e8431c8d84ba5bc61a69ae1688ca679ce",
@@ -300,23 +156,186 @@
           "published_at": "2026-07-02T10:00:31Z"
         }
       ],
-      "item_count": 15,
-      "duplicate_count": 15,
-      "score": 0.732,
-      "importance": 0.732,
-      "importance_score": 0.732,
+      "source_count": 16,
+      "source_names": [
+        "Benjamin Cowen",
+        "Best Documentary",
+        "CYFIT兆佑",
+        "Inspiraggio",
+        "Invicta",
+        "Knowledgia",
+        "OBF",
+        "Perspective",
+        "Shepherd Capital Markets",
+        "Timeline - World History Documentaries",
+        "imineo Documentaires",
+        "探險威狼 Wilang-Explorer",
+        "美投侃新闻",
+        "野菜鹿鹿Veggie Deer"
+      ],
+      "items": [
+        {
+          "id": "2a1b2e0aa7d6a47354e5f94ee885d1e6ac819d22",
+          "title": "海灣戰爭：普羅旺斯 PMU 的沙漠風暴 / Guerre du Golfe : Tempête du désert au PMU de Provence",
+          "url": "https://www.youtube.com/watch?v=-GiRi43598Y",
+          "source": "imineo Documentaires",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-02T16:30:27Z"
+        },
+        {
+          "id": "994bef6b9e24ed0672b2fb6e31a1fd79f42bb572",
+          "title": "250 年後：為什麼你所了解的有關美國革命的一切都是錯的 / 250 Years Later: Why Everything You Learned About the American Revolution is Wrong",
+          "url": "https://www.youtube.com/watch?v=4dues5UEPic",
+          "source": "Timeline - World History Documentaries",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-02T16:00:05Z"
+        },
+        {
+          "id": "126022e865e996b7ec3ffd559089c42f9550592b",
+          "title": "七年戰爭的整個歷史（1756 - 1763） / The Entire History of The Seven Years' War (1756 - 1763)",
+          "url": "https://www.youtube.com/watch?v=TifnwP97IkE",
+          "source": "Knowledgia",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-02T14:45:57Z"
+        },
+        {
+          "id": "b60635739434fb014c5cd838281a8baf4dc55a84",
+          "title": "七年戰爭的整個歷史 - 這是第一次世界大戰嗎？ (1756 - 1763) / The Entire History of The Seven Years' War - Was this The First World War? (1756 - 1763)",
+          "url": "https://www.youtube.com/watch?v=TifnwP97IkE",
+          "source": "Knowledgia",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-02T14:45:57Z"
+        },
+        {
+          "id": "81f434a51095af7028d6f04ca8d2e5a8fba33e88",
+          "title": "NFA直播！比特幣觸及新低 / NFA Live! Bitcoin Hit a New Low",
+          "url": "https://www.youtube.com/watch?v=oj2n8nkTTTE",
+          "source": "Benjamin Cowen",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-02T14:00:19Z"
+        },
+        {
+          "id": "04701722f20040a68bd114c4beee9b785095ae8d",
+          "title": "天氣超熱🔥15 分鐘「懶人電鍋燜飯」‼️一鍋到底，營養美味大爆發！｜素食 純素 全素｜素食美食｜➤野菜鹿鹿 Veggie Deer",
+          "url": "https://www.youtube.com/watch?v=t1_no3UQ4Vo",
+          "source": "野菜鹿鹿Veggie Deer",
+          "source_name": "OPML RSS",
+          "site_id": "convivium",
+          "published_at": "2026-07-02T13:00:07Z"
+        },
+        {
+          "id": "708d475c42397d4640ec746de9aa19582ff609a4",
+          "title": "莫斯科國家歷史博物館的秘密揭曉 / Secrets of Moscow's State Historical Museum Revealed",
+          "url": "https://www.youtube.com/watch?v=6mCkq-1v3Iw",
+          "source": "Perspective",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-02T12:00:12Z"
+        },
+        {
+          "id": "a187a41fd3aa6dd3e4ac7ff4e6ab745cf8280135",
+          "title": "犯罪領主的內心深處 |分析器解釋 / Inside the Mind of Crime Lords | Profilers Explain",
+          "url": "https://www.youtube.com/watch?v=JannGAC1tbc",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-02T12:00:09Z"
+        },
+        {
+          "id": "209f2cbcc583c77dca28305e5569333d07b4e37a",
+          "title": "Meta要放缓资本开支？沃什罕见释放政策信号！",
+          "url": "https://www.youtube.com/watch?v=5Uk4yuYmvqg",
+          "source": "美投侃新闻",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-02T00:12:03Z"
+        },
+        {
+          "id": "f6393f9b1cbce6e341330f9a5017f25f57e296e4",
+          "title": "存储暴跌，资本大迁移？华尔街悄悄转向软件与大科技？",
+          "url": "https://www.youtube.com/watch?v=9rxfRxdyDvM",
+          "source": "Shepherd Capital Markets",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-01T22:52:36Z"
+        },
+        {
+          "id": "194fb3a9da36b497aa7966bf115d84764cfb2274",
+          "title": "一份愛|理查德·科潘斯 / One Love | Richard Copans",
+          "url": "https://www.youtube.com/watch?v=xwVS-BAsn9Y",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-01T21:45:32Z"
+        },
+        {
+          "id": "ecbb5fa82aba7dfb474bf0ca73c72dbb36ce67fa",
+          "title": "羅馬競技場的秘密 - 他們不告訴你的事 / Secrets of the Roman Arena - What They Don't Tell You",
+          "url": "https://www.youtube.com/watch?v=DKkpWFDydNY",
+          "source": "Invicta",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-01T20:53:01Z"
+        },
+        {
+          "id": "8401ff873469c0a344e3cfc5064dd7d8a48fb07c",
+          "title": "這就是為什麼卡拉瓦喬是天才... / This is why Caravaggio was a genius...",
+          "url": "https://www.youtube.com/watch?v=GaPDgkzaIYo",
+          "source": "Inspiraggio",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-01T20:04:28Z"
+        },
+        {
+          "id": "99b4ea9385cb53c5b4021554be5968ce91b455ef",
+          "title": "如何讓一個國家破產 / How To Bankrupt A Country",
+          "url": "https://www.youtube.com/watch?v=qqxzeNuDVc8",
+          "source": "OBF",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-02T17:49:38Z"
+        },
+        {
+          "id": "b0ba9e5e8431c8d84ba5bc61a69ae1688ca679ce",
+          "title": "【龜山島遊艇】原來遊艇還可以這樣玩，龜山島的海底生態超好｜探險威狼 Wilang Explorer ｜宜蘭｜龜山島｜烏石港｜遊艇｜潛水｜浮潛｜頭城｜比基尼｜夏天｜Yilan｜Vlog 525",
+          "url": "https://www.youtube.com/watch?v=UPLBWyaOuPE",
+          "source": "探險威狼 Wilang-Explorer",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-02T11:00:25Z"
+        },
+        {
+          "id": "2867c6bf238a7ec17f670b9825a0b7b116d4f727",
+          "title": "別再盲目補碳水了！科學研究證實：練前吃再多，重訓表現也『毫無差異』？",
+          "url": "https://www.youtube.com/watch?v=0UnbH9HTq9c",
+          "source": "CYFIT兆佑",
+          "source_name": "OPML RSS",
+          "site_id": "functionality",
+          "published_at": "2026-07-02T10:00:31Z"
+        }
+      ],
+      "item_count": 16,
+      "duplicate_count": 16,
+      "score": 0.7096,
+      "importance": 0.7096,
+      "importance_score": 0.7096,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9401,
+        "recency": 0.8654,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-01T19:19:32Z",
-      "latest_at": "2026-07-02T16:30:27Z",
+      "earliest_at": "2026-07-01T20:04:28Z",
+      "latest_at": "2026-07-02T17:49:38Z",
       "primary_item": {
         "id": "2a1b2e0aa7d6a47354e5f94ee885d1e6ac819d22",
         "title": "海灣戰爭：普羅旺斯 PMU 的沙漠風暴 / Guerre du Golfe : Tempête du désert au PMU de Provence",
@@ -350,9 +369,18 @@
           "source_name": "OPML RSS",
           "site_id": "tech",
           "published_at": "2026-07-02T13:15:01Z"
+        },
+        {
+          "id": "b8d3c6b325ea0f180d51f1df96de212875b26536",
+          "title": "微軟投資 2.5B 美元並成立 Microsoft Frontier Company，將 6,000 名前沿部署工程師與客戶一起部署，以協助部署 AI 系統 (Todd Bishop/GeekWire) / Microsoft invests $2.5B and forms the Microsoft Frontier Company to embed 6,000 forward-deployed engineers with customers to help deploy AI systems (Todd Bishop/GeekWire)",
+          "url": "https://www.techmeme.com/260702/p22",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-02T13:15:01Z"
         }
       ],
-      "source_count": 2,
+      "source_count": 3,
       "source_names": [
         "Techmeme"
       ],
@@ -374,20 +402,29 @@
           "source_name": "OPML RSS",
           "site_id": "tech",
           "published_at": "2026-07-02T13:15:01Z"
+        },
+        {
+          "id": "b8d3c6b325ea0f180d51f1df96de212875b26536",
+          "title": "微軟投資 2.5B 美元並成立 Microsoft Frontier Company，將 6,000 名前沿部署工程師與客戶一起部署，以協助部署 AI 系統 (Todd Bishop/GeekWire) / Microsoft invests $2.5B and forms the Microsoft Frontier Company to embed 6,000 forward-deployed engineers with customers to help deploy AI systems (Todd Bishop/GeekWire)",
+          "url": "https://www.techmeme.com/260702/p22",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-02T13:15:01Z"
         }
       ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5413,
-      "importance": 0.5413,
-      "importance_score": 0.5413,
-      "importance_label": "值得关注",
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.5689,
+      "importance": 0.5689,
+      "importance_score": 0.5689,
+      "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.8044,
-        "story_heat": 0.25
+        "recency": 0.7297,
+        "story_heat": 0.5
       },
-      "category": "watch",
+      "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
@@ -397,6 +434,82 @@
         "id": "7c812edd89ce2d974da06addc94c98be2921af4b",
         "title": "微軟建立了一個擁有 6,000 名員工的組織，專門負責工程、企業培訓和管理，以支援企業進行人工智慧部署（Todd Bishop/GeekWire） / Microsoft establishes an organization with 6,000 staff specializing in engineering, corporate training, and management to support businesses with AI deployments (Todd Bishop/GeekWire)",
         "url": "https://www.techmeme.com/260702/p22",
+        "source": "Techmeme",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_4e9281c827ed",
+      "title": "Z.ai推出ZCode，這是一個針對其新GLM-5.2模型優化的「代理開發環境」； Z.ai 的 GLM 編碼計劃每月費用從 16.20 美元到 144 美元不等（Michael Nuñez/VentureBeat） / Z.ai launches ZCode, an \"Agentic Development Environment\" optimized for its new GLM-5.2 model; Z.ai's GLM Coding Plan costs from $16.20 to $144 per month (Michael Nuñez/VentureBeat)",
+      "url": "https://www.techmeme.com/260702/p19",
+      "primary_url": "https://www.techmeme.com/260702/p19",
+      "source": "Techmeme",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "93d667c1ae81e1017dc47892b21b2d7756f7767a",
+          "title": "Z.ai推出ZCode，這是一個針對其新GLM-5.2模型優化的「代理開發環境」； Z.ai 的 GLM 編碼計劃每月費用從 16.20 美元到 144 美元不等（Michael Nuñez/VentureBeat） / Z.ai launches ZCode, an \"Agentic Development Environment\" optimized for its new GLM-5.2 model; Z.ai's GLM Coding Plan costs from $16.20 to $144 per month (Michael Nuñez/VentureBeat)",
+          "url": "https://www.techmeme.com/260702/p19",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-02T11:20:12Z"
+        },
+        {
+          "id": "132ea5c998e0a83020931f66a0b9cfc5fe4af7d0",
+          "title": "Z.ai推出ZCode，這是一個專門為其GLM-5.2模型構建的「代理開發環境」； Z.ai 的 GLM 編碼計劃等級範圍為每月 16.20 美元到 144 美元（Michael Nuñez/VentureBeat） / Z.ai launches ZCode, an \"Agentic Development Environment\" purpose-built for its GLM-5.2 model; Z.ai's GLM Coding Plan tiers range from $16.20 to $144 per month (Michael Nuñez/VentureBeat)",
+          "url": "https://www.techmeme.com/260702/p19",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-02T11:20:12Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Techmeme"
+      ],
+      "items": [
+        {
+          "id": "93d667c1ae81e1017dc47892b21b2d7756f7767a",
+          "title": "Z.ai推出ZCode，這是一個針對其新GLM-5.2模型優化的「代理開發環境」； Z.ai 的 GLM 編碼計劃每月費用從 16.20 美元到 144 美元不等（Michael Nuñez/VentureBeat） / Z.ai launches ZCode, an \"Agentic Development Environment\" optimized for its new GLM-5.2 model; Z.ai's GLM Coding Plan costs from $16.20 to $144 per month (Michael Nuñez/VentureBeat)",
+          "url": "https://www.techmeme.com/260702/p19",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-02T11:20:12Z"
+        },
+        {
+          "id": "132ea5c998e0a83020931f66a0b9cfc5fe4af7d0",
+          "title": "Z.ai推出ZCode，這是一個專門為其GLM-5.2模型構建的「代理開發環境」； Z.ai 的 GLM 編碼計劃等級範圍為每月 16.20 美元到 144 美元（Michael Nuñez/VentureBeat） / Z.ai launches ZCode, an \"Agentic Development Environment\" purpose-built for its GLM-5.2 model; Z.ai's GLM Coding Plan tiers range from $16.20 to $144 per month (Michael Nuñez/VentureBeat)",
+          "url": "https://www.techmeme.com/260702/p19",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-02T11:20:12Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.495,
+      "importance": 0.495,
+      "importance_score": 0.495,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.5,
+        "recency": 0.6499,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-02T11:20:12Z",
+      "latest_at": "2026-07-02T11:20:12Z",
+      "primary_item": {
+        "id": "93d667c1ae81e1017dc47892b21b2d7756f7767a",
+        "title": "Z.ai推出ZCode，這是一個針對其新GLM-5.2模型優化的「代理開發環境」； Z.ai 的 GLM 編碼計劃每月費用從 16.20 美元到 144 美元不等（Michael Nuñez/VentureBeat） / Z.ai launches ZCode, an \"Agentic Development Environment\" optimized for its new GLM-5.2 model; Z.ai's GLM Coding Plan costs from $16.20 to $144 per month (Michael Nuñez/VentureBeat)",
+        "url": "https://www.techmeme.com/260702/p19",
         "source": "Techmeme",
         "source_name": "OPML RSS"
       }
