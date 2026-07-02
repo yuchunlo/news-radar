@@ -83,13 +83,12 @@ def main():
         output = (result.stdout or "") + (result.stderr or "")
         lowered = output.lower()
 
+        if "cookies" in lowered:
+            print("[EXPIRED] cookies invalid")
+            break
         if result.returncode != 0:
-            if "cookies" in lowered:
-                print("[EXPIRED] cookies invalid")
-                break
-            else:
-                failed += 1
-                print(f"[FAILED] item {item_id} (exit {result.returncode}): {output}")
+            failed += 1
+            print(f"[FAILED] item {item_id} (exit {result.returncode}): {output}")
         elif not already_downloaded(out_dir, item_id):
             if "no subtitles for the requested languages" in lowered:
                 no_subs += 1
