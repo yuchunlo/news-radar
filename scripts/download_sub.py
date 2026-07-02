@@ -46,6 +46,8 @@ def main():
             continue
         if already_downloaded(out_dir, item_id):
             continue
+        if item.get("summary") is not None:
+            continue
 
         output_tpl = str(out_dir / f"{item_id}.%(language)s.%(ext)s")
 
@@ -91,6 +93,7 @@ def main():
         elif not already_downloaded(out_dir, item_id):
             if "no subtitles for the requested languages" in lowered:
                 no_subs += 1
+                item["summary"] = " "
             else:
                 failed += 1
                 print(f"[FAILED] item {item_id} (exit 0 but no file written): {output}")
@@ -98,6 +101,11 @@ def main():
             succeeded += 1
 
         processed += 1
+
+    if no_subs:
+        archive_path.write_text(
+            json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8"
+        )
 
     print(f"Done. succeeded={succeeded} failed={failed} no_subs={no_subs}")
 
