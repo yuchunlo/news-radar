@@ -1,0 +1,934 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.750 --> 00:00:04.360
+[Music] inside a nondescript building in the
+heart of San Francisco one of the world's
+
+00:00:04.360 --> 00:00:10.860
+buzziest startups is making our ai-powered
+future feel more real than ever before they're
+
+00:00:10.860 --> 00:00:17.310
+behind two monster Hits chat gbt and Dolly
+and somehow beat the biggest Tech Giants to
+
+00:00:17.310 --> 00:00:22.140
+Market kicking off a competitive race that's
+forced them all to show us what they've got
+
+00:00:22.140 --> 00:00:28.400
+but how did this under the radar startup pull
+it off we're inside open AI and we're going
+
+00:00:28.400 --> 00:00:33.969
+to get some answers is it magic is it just
+algorithms is it going to save us or destroy
+
+00:00:33.969 --> 00:00:35.469
+us let's go find out
+
+00:00:35.469 --> 00:00:47.110
+I love the plants it feels so alive so amazing
+it's giving me very Westworld Spa Vibes it's
+
+00:00:47.110 --> 00:00:51.910
+almost like suspended in space and time a
+little bit yeah it has a little bit of futuristic
+
+00:00:51.910 --> 00:00:57.650
+feel this is one of the most introspective
+Minds at open AI we all know Sam Altman the
+
+00:00:57.650 --> 00:01:06.050
+CEO but Mira Murati is a Chief Architect behind
+open ai's strategy this looks like the uh
+
+00:01:06.050 --> 00:01:12.180
+open AI logo it is Ilya actually painted this
+earlier the chief scientist yes what is the
+
+00:01:12.180 --> 00:01:20.770
+flower meant to symbolize my guess is that
+it's AI that loves Humanity we're very focused
+
+00:01:20.770 --> 00:01:31.799
+on dealing with the challenges of hallucination
+truthfulness reliability alignment of these
+
+00:01:31.799 --> 00:01:36.979
+models has anyone left because they're like
+you know what I disagree there have been over
+
+00:01:36.979 --> 00:01:44.939
+time people that left to start other organizations
+because of disagreements on the strategy around
+
+00:01:44.939 --> 00:01:51.049
+deployment and how do you find common ground
+when disagreements do arise you know you want
+
+00:01:51.049 --> 00:01:54.750
+to be able to have this constant dialogue
+
+00:01:54.750 --> 00:02:06.530
+and figure out how to systematize these concerns
+what is the job of a CTR It's a combination
+
+00:02:06.530 --> 00:02:13.840
+of guiding the teams on the ground thinking
+about longer term strategy figuring out our
+
+00:02:13.840 --> 00:02:22.480
+gaps and making sure that the teams are well
+supported to succeed yeah sounds like a big
+
+00:02:22.480 --> 00:02:29.360
+job solving impossible problems solving impossible
+problems so when you were making the decision
+
+00:02:29.360 --> 00:02:34.360
+about releasing chat GPT into the wild I'm
+sure there was like a go or no-go moment take
+
+00:02:34.360 --> 00:02:44.360
+me back to that day we um headshot GPT for
+a while and we sort of hit a point where we
+
+00:02:44.360 --> 00:02:48.860
+could really benefit from having more feedback
+from how people are using it what are the
+
+00:02:48.860 --> 00:02:56.069
+risks what are the limitations um and learn
+more about this technology that we have created
+
+00:02:56.069 --> 00:03:02.080
+and start bringing it in the public Consciousness
+it became the fastest growing tech product
+
+00:03:02.080 --> 00:03:07.659
+in history I did did that surprise you I mean
+what was your reaction to the world's reaction
+
+00:03:07.659 --> 00:03:13.909
+we were surprised by how much it captured
+the imaginations of the general public and
+
+00:03:13.909 --> 00:03:22.489
+how much people just loved spending time talking
+to this AI system and interacting with it
+
+00:03:22.489 --> 00:03:28.450
+can now mimic a human it can write it can
+code at the most basic level how does this
+
+00:03:28.450 --> 00:03:39.750
+all happen is a neural network that has been
+trained on a huge amount of data on a massive
+
+00:03:39.750 --> 00:03:47.060
+supercomputer and the goal during this training
+process was to predict the next word in a
+
+00:03:47.060 --> 00:03:53.240
+sentence and it turns out that as you train
+larger and larger models add more and more
+
+00:03:53.240 --> 00:04:02.519
+data the capabilities of these models also
+increase they become more powerful more helpful
+
+00:04:02.519 --> 00:04:08.689
+and as you invest more on alignment and safety
+they become more reliable and safe over time
+
+00:04:08.689 --> 00:04:14.799
+openai is kind of turbocharged this competitive
+Frenzy um do you think you can beat Google
+
+00:04:14.799 --> 00:04:20.109
+at its own game do you think you can take
+significant market share and search we didn't
+
+00:04:20.109 --> 00:04:29.220
+set out to dominate search what church GPD
+offers is a different way to understand information
+
+00:04:29.220 --> 00:04:34.660
+and you could be you know searching but you're
+searching in a much more intuitive way versus
+
+00:04:34.660 --> 00:04:41.009
+keyword based I think the whole world is sort
+of now moving in this direction the air of
+
+00:04:41.009 --> 00:04:46.699
+confidence obviously that chat tpd sometimes
+delivers an answer with why not just sometimes
+
+00:04:46.699 --> 00:04:53.570
+say I don't know the goal is not to predict
+the next word reliably or safely when you
+
+00:04:53.570 --> 00:05:02.220
+have such General capabilities it's very difficult
+to handle some of the limitations such as
+
+00:05:02.220 --> 00:05:11.830
+what is correct some of these texts and some
+of the data is biased some of it may be incorrect
+
+00:05:11.830 --> 00:05:16.229
+isn't this going to accelerate the misinformation
+problem I mean we haven't been able to crack
+
+00:05:16.229 --> 00:05:22.229
+it on social media for like a couple of decades
+misinformation is a really complex heart problem
+
+00:05:22.229 --> 00:05:29.910
+right now one of the things that I'm most
+worried about is um the ability of models
+
+00:05:29.910 --> 00:05:37.910
+like gbd4 to make up things we refer to this
+as hallucinations so they will convincingly
+
+00:05:37.910 --> 00:05:45.350
+make up things and it requires you know being
+aware and just really knowing that you cannot
+
+00:05:45.350 --> 00:05:51.020
+fully blindly rely on what the technology
+is providing as an output I want to talk about
+
+00:05:51.020 --> 00:05:56.880
+this term hallucination because it's a very
+human term why use such a human term for basically
+
+00:05:56.880 --> 00:06:02.889
+an AI That's just making mistakes a little
+bit General capabilities are actually quite
+
+00:06:02.889 --> 00:06:09.160
+human-like sometimes when we don't know the
+answer to something we will just make up an
+
+00:06:09.160 --> 00:06:18.699
+answer we will rarely say I don't know and
+so uh there is a lot of human hallucination
+
+00:06:18.699 --> 00:06:24.729
+in a conversation and sometimes we don't do
+it on purpose should we be worried about AI
+
+00:06:24.729 --> 00:06:31.449
+though that feels more and more human like
+should AI have to identify itself as artificial
+
+00:06:31.449 --> 00:06:37.660
+when it's interacting with us I think it's
+a different kind of intelligence it is important
+
+00:06:37.660 --> 00:06:42.830
+to distinguish output that's been provided
+by a machine versus another human but we are
+
+00:06:42.830 --> 00:06:48.669
+moving towards a world where we are collaborating
+with these machines more and more and so output
+
+00:06:48.669 --> 00:06:54.970
+will be hybrid all of the data that you're
+training this AI on it's coming from writers
+
+00:06:54.970 --> 00:07:00.430
+it's coming from artists how do you think
+about giving value back to those people when
+
+00:07:00.430 --> 00:07:04.599
+these are also people who are worried about
+their jobs going away I don't know exactly
+
+00:07:04.599 --> 00:07:11.250
+how we could work in practice that you can
+sort of account for information created by
+
+00:07:11.250 --> 00:07:18.000
+everyone on the internet I think they're definitely
+going to be jobs that will be lost and jobs
+
+00:07:18.000 --> 00:07:27.319
+that will be changed is AI continues to advance
+and integrate in the workforce prompt engineering
+
+00:07:27.319 --> 00:07:32.440
+is a job today that's not something that we
+could have predicted think of prompt Engineers
+
+00:07:32.440 --> 00:07:37.639
+like AI Whispers they're highly skilled at
+selecting the right words to coax AI tools
+
+00:07:37.639 --> 00:07:44.161
+into generating the most accurate and Illuminating
+responses it's a new job born from AI That's
+
+00:07:44.161 --> 00:07:50.390
+fetching hundreds of thousands of dollars
+a year what are some tips to being an ace
+
+00:07:50.390 --> 00:07:57.870
+prompt engineer you know it's this ability
+to really develop an intuition for how to
+
+00:07:57.870 --> 00:08:06.379
+get the most out of the model um how to prompt
+it in the right ways give it enough context
+
+00:08:06.379 --> 00:08:12.610
+for what you're looking for one of the things
+that we talked about earlier was hallucinations
+
+00:08:12.610 --> 00:08:19.530
+and these large language models not having
+the ability to always be highly accurate so
+
+00:08:19.530 --> 00:08:26.630
+I'm asking the model with a browsing plugin
+to fact check this information and it's now
+
+00:08:26.630 --> 00:08:31.389
+browsing the web so there's this report that
+these workers in Kenya were getting paid two
+
+00:08:31.389 --> 00:08:36.830
+dollars an hour to do the work on the back
+end to make answers less toxic and my understanding
+
+00:08:36.830 --> 00:08:41.659
+is this work is it can be difficult right
+because you're reading text that might be
+
+00:08:41.659 --> 00:08:48.440
+disturbing and trying to clean them up so
+we need to use contractors sometimes to scale
+
+00:08:48.440 --> 00:08:54.540
+we chose that particular contractor because
+of their known safety standards and since
+
+00:08:54.540 --> 00:09:01.019
+then we've stopped working with them but as
+you said this is difficult to work and we
+
+00:09:01.019 --> 00:09:07.000
+recognize that and we have mental health standards
+and wellness standards that we share with
+
+00:09:07.000 --> 00:09:13.730
+contractors I think a lot about my kids and
+them having relationships with AI someday
+
+00:09:13.730 --> 00:09:17.850
+how do you think about what the limits should
+be and what the possibilities should be when
+
+00:09:17.850 --> 00:09:27.019
+you're thinking about a child I think we should
+be very careful in general with putting very
+
+00:09:27.019 --> 00:09:35.020
+powerful systems um in front of more vulnerable
+populations there are certainly checks and
+
+00:09:35.020 --> 00:09:41.089
+balances in place because it's still early
+and we still don't understand all the ways
+
+00:09:41.089 --> 00:09:45.190
+in which this could affect people there's
+all this talk about you know relationships
+
+00:09:45.190 --> 00:09:54.750
+and AI like could you see yourself developing
+a relationship with an AI
+
+00:09:54.750 --> 00:10:01.880
+I'd say yes it's a reliable tool that enhances
+my life makes my life better as we Ponder
+
+00:10:01.880 --> 00:10:07.360
+the existential idea that we might all have
+relationships with AI someday there's an AI
+
+00:10:07.360 --> 00:10:12.850
+Gold Rush happening in Silicon Valley Venture
+capitalists are pouring money into anything
+
+00:10:12.850 --> 00:10:18.600
+AI startups hoping to find the next big thing
+Reed Hoffman the co-founder of LinkedIn and
+
+00:10:18.600 --> 00:10:23.630
+an early investor in Facebook knows a thing
+or two about striking gold he was an early
+
+00:10:23.630 --> 00:10:29.750
+open AI backer and is in a way trying to take
+society's hand and guide us all through the
+
+00:10:29.750 --> 00:10:36.470
+age of AI I mean gosh 12 years we've been
+talking maybe longer that's awesome a long
+
+00:10:36.470 --> 00:10:40.360
+time yes you have been on the ground floor
+of some of the biggest Tech platform shifts
+
+00:10:40.360 --> 00:10:45.500
+in history the beginnings of the internet
+mobile do you think AI is going to be even
+
+00:10:45.500 --> 00:10:52.910
+bigger I think so it builds on the internet
+mobile cloud data all of these things come
+
+00:10:52.910 --> 00:11:00.300
+together to make AI work and so that causes
+it to be the crescendo the the addition to
+
+00:11:00.300 --> 00:11:04.329
+all of us I mean one of the problems with
+the current discourse is that it's too much
+
+00:11:04.329 --> 00:11:13.339
+of the fear-based versus hope based imagine
+a tutor on every smartphone for every child
+
+00:11:13.339 --> 00:11:19.670
+in the world that's possible that's line of
+sight from what we see with current AI models
+
+00:11:19.670 --> 00:11:27.010
+today you coined this term Blitz scaling blitzkill
+killing in its precise definition is prioritizing
+
+00:11:27.010 --> 00:11:33.000
+speed over efficiency in an environment of
+uncertainty how do you go as fast as possible
+
+00:11:33.000 --> 00:11:37.220
+in order to be the first to scale does
+
+00:11:37.220 --> 00:11:42.380
+it today does it and I think the speed at
+which we will integrate it into our lives
+
+00:11:42.380 --> 00:11:47.930
+will be faster than we integrated the iPhone
+into our lives there's going to be a co-pilot
+
+00:11:47.930 --> 00:11:53.339
+for every profession and if you think about
+that that's huge and not professional activities
+
+00:11:53.339 --> 00:11:57.040
+because it's going to write my kids papers
+right right it's High School papers uh yes
+
+00:11:57.040 --> 00:12:02.300
+although the hope is that in the interaction
+with it they'll learn to create much more
+
+00:12:02.300 --> 00:12:07.519
+interesting papers you and Elon Musk go way
+back he co-founded openai with Sam Altman
+
+00:12:07.519 --> 00:12:11.450
+the CEO of openai you and I have talked a
+lot over the years about how you have been
+
+00:12:11.450 --> 00:12:15.769
+sort of this node in the PayPal Mafia and
+you can talk to everyone and maybe you disagree
+
+00:12:15.769 --> 00:12:22.399
+but you are all still friends what did Elon
+say that got you interested so early part
+
+00:12:22.399 --> 00:12:26.750
+of the reason I got back in the AI and I was
+part of sitting around the table in the crafting
+
+00:12:26.750 --> 00:12:32.029
+of open AI was that Elon came in and said
+look this AI thing is coming once I started
+
+00:12:32.029 --> 00:12:38.829
+digging into it I realized that this pattern
+that we're going to see the Next Generation
+
+00:12:38.829 --> 00:12:44.510
+of amazing capabilities coming from these
+computational devices and then one of the
+
+00:12:44.510 --> 00:12:50.800
+things I had been arguing with Elon at the
+time about was that Elon was constantly using
+
+00:12:50.800 --> 00:12:56.149
+the word robocalypse which you know we as
+human beings tend to be more easily and quickly
+
+00:12:56.149 --> 00:13:00.820
+motivated by fear than my hope so you're using
+the term robocalypse and everyone imagines
+
+00:13:00.820 --> 00:13:04.970
+the Terminator and all the rest sounds pretty
+scary it sounds very scary doesn't sound like
+
+00:13:04.970 --> 00:13:10.610
+something we want yeah stop saying that because
+because actually in fact the the the the chance
+
+00:13:10.610 --> 00:13:14.170
+that I could see anything like a robot club
+that's happening is so de minimis relative
+
+00:13:14.170 --> 00:13:19.589
+to everything else so how you did come together
+on open AI how did that happen I think it
+
+00:13:19.589 --> 00:13:24.290
+started with Elon and Sam having a bunch of
+conversations uh and then since I know both
+
+00:13:24.290 --> 00:13:28.339
+of them quite well I got called in um and
+I was like look I think this could really
+
+00:13:28.339 --> 00:13:34.240
+uh make sense something should be the counterweight
+to all of the natural work that's going to
+
+00:13:34.240 --> 00:13:39.180
+happen within commercial Realms how do we
+make sure that uh one company doesn't dominate
+
+00:13:39.180 --> 00:13:43.630
+the industry but the tools are provided across
+the industry so Innovation can benefit from
+
+00:13:43.630 --> 00:13:48.779
+startups and all the rest it was like great
+and let's do this thing open AI I did ask
+
+00:13:48.779 --> 00:13:53.699
+chat GPT what questions I should ask you I
+thought its questions were pretty boring yes
+
+00:13:53.699 --> 00:13:57.950
+your answers were pretty boring too so we're
+not getting replaced anytime soon but clearly
+
+00:13:57.950 --> 00:14:04.360
+this is really struck a nerve there are people
+out there who are going to fall for it yes
+
+00:14:04.360 --> 00:14:09.660
+shouldn't we be worried about that okay so
+everyone's encountered a crazy person who's
+
+00:14:09.660 --> 00:14:14.009
+drunk off their ass at a cocktail party who
+says really odd things or at least every adult
+
+00:14:14.009 --> 00:14:22.440
+has and you know that's not like the world
+didn't end right we do have to pay attention
+
+00:14:22.440 --> 00:14:27.130
+areas or harmful likes for example someone's
+depressed the thing about self-harm you want
+
+00:14:27.130 --> 00:14:32.209
+all channels by which they could get in the
+self-harm to be limited that isn't just chat
+
+00:14:32.209 --> 00:14:37.550
+Bots that could be communities of human beings
+that could be search engines you have to pay
+
+00:14:37.550 --> 00:14:43.320
+attention to all the dimensions of it how
+are we overestimating AI still doesn't really
+
+00:14:43.320 --> 00:14:47.529
+do something that I would say is original
+to an expert so for example one of the questions
+
+00:14:47.529 --> 00:14:53.149
+I asked was how would Reid Hoffman make money
+by investing in artificial intelligence and
+
+00:14:53.149 --> 00:14:57.709
+the answer it gave me was a very smart very
+well written answer that would have been written
+
+00:14:57.709 --> 00:15:02.750
+by a professor at a business school who didn't
+understand Venture Capital right so it seems
+
+00:15:02.750 --> 00:15:08.149
+smart would it would would study large markets
+would realize what products would be substituted
+
+00:15:08.149 --> 00:15:13.000
+in the large markets would find teams to go
+do that and invest in them and this is all
+
+00:15:13.000 --> 00:15:18.839
+written very credible and completely wrong
+the newest edge of the information is still
+
+00:15:18.839 --> 00:15:24.769
+Beyond these systems billions of dollars are
+going into AI my inbox is filled with AI pitches
+
+00:15:24.769 --> 00:15:30.190
+last year it was crypto and web three how
+do we know this isn't just the next bubble
+
+00:15:30.190 --> 00:15:36.279
+I do think that the generative AI is the thing
+that has the broadest Touch of everything
+
+00:15:36.279 --> 00:15:40.160
+now which places are the right places to invest
+I think those are still things we're working
+
+00:15:40.160 --> 00:15:43.579
+out now obviously as Venture capitalists part
+of what we do is we kind of figure that out
+
+00:15:43.579 --> 00:15:49.019
+in advance you know years before other people
+seeing coming um but I think that there will
+
+00:15:49.019 --> 00:15:56.279
+be massive new companies built it does seem
+in some ways like a lot of AI is being developed
+
+00:15:56.279 --> 00:16:01.959
+by an elite group of companies and people
+is that something that you see happening in
+
+00:16:01.959 --> 00:16:08.410
+some ideal Universe you'd say for for a technology
+that would impact billions of people somehow
+
+00:16:08.410 --> 00:16:13.730
+billions of people should directly be involved
+in creating it but that's not how any technology
+
+00:16:13.730 --> 00:16:17.030
+anywhere anywhere in history gets built and
+there's reasons you have to build it at speed
+
+00:16:17.030 --> 00:16:21.420
+but the question is how do you get the right
+conversations and the right issues on the
+
+00:16:21.420 --> 00:16:28.790
+table so do you see an AI Mafia for me um
+I definitely think that there is because you're
+
+00:16:28.790 --> 00:16:34.660
+referring the PayPal Mafia of course I definitely
+think that there's a network of folks who
+
+00:16:34.660 --> 00:16:43.300
+have been deeply involved over the last few
+years will have a lot of influence on how
+
+00:16:43.300 --> 00:16:50.160
+the technology happens do you think AI will
+shake up the big Tech hierarchy significantly
+
+00:16:50.160 --> 00:16:56.759
+uh what it certainly does is it creates a
+wave of disruption for example with these
+
+00:16:56.759 --> 00:17:03.279
+large language models in search what do you
+want do you want 10 Blue Links or do you want
+
+00:17:03.279 --> 00:17:08.400
+an answer and a lot of search cases you want
+an answer and a generated answer that's like
+
+00:17:08.400 --> 00:17:14.039
+a mini Wikipedia page is awesome that's a
+shift so I think we'll see a profusion of
+
+00:17:14.039 --> 00:17:19.030
+startups doing interesting things this but
+can the next Google or Facebook really emerge
+
+00:17:19.030 --> 00:17:24.270
+if Google and Facebook or meta and apple and
+Amazon are running the Playbook at Microsoft
+
+00:17:24.270 --> 00:17:29.510
+do I think there will be another one to three
+companies that will be the size of the five
+
+00:17:29.510 --> 00:17:36.059
+big Tech Giants emerging possibly from AI
+absolutely yes now does that mean that you
+
+00:17:36.059 --> 00:17:41.549
+know um one of them is going to collapse no
+not necessarily and it doesn't need to the
+
+00:17:41.549 --> 00:17:46.020
+more that we have the better so what are the
+next big five oh well that's what I'm we're
+
+00:17:46.020 --> 00:17:51.250
+trying to invest in you're on the board of
+Microsoft obviously you know Microsoft is
+
+00:17:51.250 --> 00:17:56.270
+making a big AI push did you bring Satya and
+Sam or have any role in bringing Satya and
+
+00:17:56.270 --> 00:18:01.890
+Sam closer together because Microsoft obviously
+has 10 billion dollars now in open AI um well
+
+00:18:01.890 --> 00:18:09.080
+I think I could uh I probably have a you know
+uh both of them are close to me and know me
+
+00:18:09.080 --> 00:18:14.250
+and trust me well so I I think I I've helped
+facilitate understanding and Communications
+
+00:18:14.250 --> 00:18:21.010
+Elon left open AI years ago and pointed out
+that it's not as open as it used to be he
+
+00:18:21.010 --> 00:18:26.990
+said he wanted it to be a non-profit counterweight
+to Google now it's a closed Source maximum
+
+00:18:26.990 --> 00:18:32.481
+profit company effectively controlled by Microsoft
+does he have a point well he's wrong on a
+
+00:18:32.481 --> 00:18:39.780
+number of levels there um so one is it's run
+by a 501c3 it is a non-profit but it does
+
+00:18:39.780 --> 00:18:44.090
+have a for-profit part the commercial system
+which is all carefully done is to bring in
+
+00:18:44.090 --> 00:18:50.690
+capitalism support the non-profit mission
+now get to the question of for example open
+
+00:18:50.690 --> 00:18:57.320
+so um Dolly was ready for four months before
+it was released why did it delay for four
+
+00:18:57.320 --> 00:19:01.780
+months because it was doing safety training
+it said well we don't want to have this being
+
+00:19:01.780 --> 00:19:06.730
+used to create child sexual material we don't
+want to have this being used or assaulting
+
+00:19:06.730 --> 00:19:11.030
+individuals or or doing deep fakes so we're
+not going to open source it we're going to
+
+00:19:11.030 --> 00:19:15.590
+release it through an API so we can be seeing
+what the results are and making sure it doesn't
+
+00:19:15.590 --> 00:19:20.370
+do any of these harms so it's open because
+it has open access to apis but it's not open
+
+00:19:20.370 --> 00:19:26.090
+because it's open source there are folks out
+there who are angry actually about open AIS
+
+00:19:26.090 --> 00:19:31.159
+branching out from non-profit to four profit
+is there a bit of a bait and switch there
+
+00:19:31.159 --> 00:19:35.090
+the cleverness that Sam and everyone else
+figured out is they could say look we can
+
+00:19:35.090 --> 00:19:41.299
+do a Market Commercial deal where we say we'll
+give you commercial licenses to parts of our
+
+00:19:41.299 --> 00:19:47.190
+technology in various ways and then we can
+continue our mission of beneficial AI the
+
+00:19:47.190 --> 00:19:54.120
+AI graveyard is filled with algorithms that
+got into trouble how can we trust open AI
+
+00:19:54.120 --> 00:20:01.770
+or Microsoft or Google or anyone to do the
+right thing well we need to be more transparent
+
+00:20:01.770 --> 00:20:05.450
+but on the other hand of course our problem
+exactly as you're alluding to is people say
+
+00:20:05.450 --> 00:20:11.580
+well the AI should say that or shouldn't say
+that we can't even really agree on that ourselves
+
+00:20:11.580 --> 00:20:17.770
+so we don't want that to be litigated by other
+people we want that to be a social decision
+
+00:20:17.770 --> 00:20:22.659
+so how does this shake out globally we should
+be trying to build the industries of the future
+
+00:20:22.659 --> 00:20:28.200
+that's what's the most important thing and
+it's one of the reasons why I tend to very
+
+00:20:28.200 --> 00:20:33.559
+much speak against people like oh we should
+be slowing down do you have any intention
+
+00:20:33.559 --> 00:20:39.180
+of slowing down we've been very evocal about
+these risks for many many years one of them
+
+00:20:39.180 --> 00:20:47.559
+is acceleration and I think that's a significant
+risk that we as a society need to Grapple
+
+00:20:47.559 --> 00:20:55.820
+with building safe AI systems that are General
+it's very complex it's incredibly hard so
+
+00:20:55.820 --> 00:20:59.640
+what does responsible Innovation look like
+to you you know like would you support for
+
+00:20:59.640 --> 00:21:06.000
+example a federal agency like the FDA that
+that's technology like it that's drugs having
+
+00:21:06.000 --> 00:21:17.570
+some sort of trusted Authority that can audit
+these systems based on some agreed upon principles
+
+00:21:17.570 --> 00:21:23.010
+would be very helpful I've heard AI experts
+talk about the potential for the good future
+
+00:21:23.010 --> 00:21:28.140
+versus the bad future and the bad future there's
+talk about this leading human extinction are
+
+00:21:28.140 --> 00:21:35.630
+those people wrong there's certainly a risk
+that um when we have these AI systems that
+
+00:21:35.630 --> 00:21:42.460
+are able to set to their own goals they decide
+that their goals are not aligned with ours
+
+00:21:42.460 --> 00:21:49.669
+and they do not benefit from having us around
+and could lead to human extinction that is
+
+00:21:49.669 --> 00:21:57.669
+a risk I don't think this risk has gone up
+or down from the things that have been happening
+
+00:21:57.669 --> 00:22:06.220
+in the past few months I think it's certainly
+been quite hyped and there is a lot of anxiety
+
+00:22:06.220 --> 00:22:11.110
+around it if we're talking about the risk
+for human extinction have you had a moment
+
+00:22:11.110 --> 00:22:18.840
+where you're just like wow this is this is
+big I think a lot of us at open AI um enjoying
+
+00:22:18.840 --> 00:22:24.070
+because we thought that this would be the
+most important technology that Humanity would
+
+00:22:24.070 --> 00:22:33.260
+ever create but of course the risks on the
+other hand are also pretty significant and
+
+00:22:33.260 --> 00:22:38.340
+this is why we're here do open AI employees
+still vote on AGI and when it will happen
+
+00:22:38.340 --> 00:22:46.170
+I actually don't know what is your prediction
+about AGI and how far away it really is we're
+
+00:22:46.170 --> 00:22:53.230
+still quite far away from uh being at a point
+where you know these systems can make decisions
+
+00:22:53.230 --> 00:23:01.309
+autonomously um and discover new knowledge
+but I think I have more certainty around the
+
+00:23:01.309 --> 00:23:09.410
+Advent of having a powerful systems in our
+future should we even be driving towards AGI
+
+00:23:09.410 --> 00:23:16.000
+and do humans really want it advancements
+in Society come from pushing human knowledge
+
+00:23:16.000 --> 00:23:22.750
+now that doesn't mean that we should do so
+in careless and Reckless ways I think there
+
+00:23:22.750 --> 00:23:31.640
+are ways to guide these development versus
+bring it to a screeching hold because of our
+
+00:23:31.640 --> 00:23:36.330
+potential fears so the train has left the
+station and we should stay on it that's one
+
+00:23:36.330 --> 00:23:37.330
+way to put it
+
+00:23:37.330 --> 00:23:38.330
+[Music]
+
+00:23:38.330 --> 00:23:38.332
+[Music] um
+
