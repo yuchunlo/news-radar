@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-02T21:15:32.654829Z",
+  "generated_at": "2026-07-02T22:39:05.831346Z",
   "window_hours": 24,
-  "total_items": 3,
+  "total_items": 4,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
@@ -111,15 +111,6 @@
           "published_at": "2026-07-01T22:52:36Z"
         },
         {
-          "id": "194fb3a9da36b497aa7966bf115d84764cfb2274",
-          "title": "一份愛|理查德·科潘斯 / One Love | Richard Copans",
-          "url": "https://www.youtube.com/watch?v=xwVS-BAsn9Y",
-          "source": "Best Documentary",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-01T21:45:32Z"
-        },
-        {
           "id": "99b4ea9385cb53c5b4021554be5968ce91b455ef",
           "title": "如何讓一個國家破產 / How To Bankrupt A Country",
           "url": "https://www.youtube.com/watch?v=qqxzeNuDVc8",
@@ -147,7 +138,7 @@
           "published_at": "2026-07-02T10:00:31Z"
         }
       ],
-      "source_count": 15,
+      "source_count": 14,
       "source_names": [
         "Benjamin Cowen",
         "Best Documentary",
@@ -263,15 +254,6 @@
           "published_at": "2026-07-01T22:52:36Z"
         },
         {
-          "id": "194fb3a9da36b497aa7966bf115d84764cfb2274",
-          "title": "一份愛|理查德·科潘斯 / One Love | Richard Copans",
-          "url": "https://www.youtube.com/watch?v=xwVS-BAsn9Y",
-          "source": "Best Documentary",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-01T21:45:32Z"
-        },
-        {
           "id": "99b4ea9385cb53c5b4021554be5968ce91b455ef",
           "title": "如何讓一個國家破產 / How To Bankrupt A Country",
           "url": "https://www.youtube.com/watch?v=qqxzeNuDVc8",
@@ -299,22 +281,22 @@
           "published_at": "2026-07-02T10:00:31Z"
         }
       ],
-      "item_count": 15,
-      "duplicate_count": 15,
-      "score": 0.7469,
-      "importance": 0.7469,
-      "importance_score": 0.7469,
+      "item_count": 14,
+      "duplicate_count": 14,
+      "score": 0.7295,
+      "importance": 0.7295,
+      "importance_score": 0.7295,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9896,
+        "recency": 0.9316,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-01T21:45:32Z",
+      "earliest_at": "2026-07-01T22:52:36Z",
       "latest_at": "2026-07-02T21:00:34Z",
       "primary_item": {
         "id": "fc62e3cc478cd54e68fab7b14a18018b99d0f160",
@@ -395,13 +377,13 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5499,
-      "importance": 0.5499,
-      "importance_score": 0.5499,
+      "score": 0.5325,
+      "importance": 0.5325,
+      "importance_score": 0.5325,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6663,
+        "recency": 0.6083,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -471,13 +453,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.476,
-      "importance": 0.476,
-      "importance_score": 0.476,
+      "score": 0.4586,
+      "importance": 0.4586,
+      "importance_score": 0.4586,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.5866,
+        "recency": 0.5285,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -491,6 +473,82 @@
         "title": "Z.ai推出ZCode，這是一個針對其新GLM-5.2模型優化的「代理開發環境」； Z.ai 的 GLM 編碼計劃每月費用從 16.20 美元到 144 美元不等（Michael Nuñez/VentureBeat） / Z.ai launches ZCode, an \"Agentic Development Environment\" optimized for its new GLM-5.2 model; Z.ai's GLM Coding Plan costs from $16.20 to $144 per month (Michael Nuñez/VentureBeat)",
         "url": "https://www.techmeme.com/260702/p19",
         "source": "Techmeme",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_abad293bfe32",
+      "title": "【美股盤勢】費半急殺逾6%，Meta卻暴衝撐住大盤？（2026.07.02） - CMoney投資網誌",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeUt6aWI0MHY4MFphMS1VbzIxYWEyNlB4SnBDQ2ZuVmNieUlUOUxXOXgzbnVQczhvczZHN1hnMWpJZUdGd3FhekhJczUxR3dPZS1QWE9aOUxOTmo3TG5RdWtGZk1WUy1tVFJvUTdTLTJVLXdXbTI0M3NaQTBaQ3ZBWHMwbktEUmxwS1U5eVFn?oc=5",
+      "primary_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeUt6aWI0MHY4MFphMS1VbzIxYWEyNlB4SnBDQ2ZuVmNieUlUOUxXOXgzbnVQczhvczZHN1hnMWpJZUdGd3FhekhJczUxR3dPZS1QWE9aOUxOTmo3TG5RdWtGZk1WUy1tVFJvUTdTLTJVLXdXbTI0M3NaQTBaQ3ZBWHMwbktEUmxwS1U5eVFn?oc=5",
+      "source": "美股盤勢 cmnews - Google 新聞",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "284d50b93a6c4a27bd2b6bb1c6671d7506348151",
+          "title": "【美股盤勢】費半急殺逾6%，Meta卻暴衝撐住大盤？（2026.07.02） - CMoney投資網誌",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeUt6aWI0MHY4MFphMS1VbzIxYWEyNlB4SnBDQ2ZuVmNieUlUOUxXOXgzbnVQczhvczZHN1hnMWpJZUdGd3FhekhJczUxR3dPZS1QWE9aOUxOTmo3TG5RdWtGZk1WUy1tVFJvUTdTLTJVLXdXbTI0M3NaQTBaQ3ZBWHMwbktEUmxwS1U5eVFn?oc=5",
+          "source": "美股盤勢 cmnews - Google 新聞",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-01T23:02:20Z"
+        },
+        {
+          "id": "04b37a712efb1cca0c1ba037a1420597e6a6b877",
+          "title": "【美股盤勢】費半急殺逾6%，Meta卻暴衝撐住大盤？（2026.07.02） - cmnews.com.tw",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeUt6aWI0MHY4MFphMS1VbzIxYWEyNlB4SnBDQ2ZuVmNieUlUOUxXOXgzbnVQczhvczZHN1hnMWpJZUdGd3FhekhJczUxR3dPZS1QWE9aOUxOTmo3TG5RdWtGZk1WUy1tVFJvUTdTLTJVLXdXbTI0M3NaQTBaQ3ZBWHMwbktEUmxwS1U5eVFn?oc=5",
+          "source": "美股盤勢 cmnews - Google 新聞",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-01T23:02:20Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "美股盤勢 cmnews - Google 新聞"
+      ],
+      "items": [
+        {
+          "id": "284d50b93a6c4a27bd2b6bb1c6671d7506348151",
+          "title": "【美股盤勢】費半急殺逾6%，Meta卻暴衝撐住大盤？（2026.07.02） - CMoney投資網誌",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeUt6aWI0MHY4MFphMS1VbzIxYWEyNlB4SnBDQ2ZuVmNieUlUOUxXOXgzbnVQczhvczZHN1hnMWpJZUdGd3FhekhJczUxR3dPZS1QWE9aOUxOTmo3TG5RdWtGZk1WUy1tVFJvUTdTLTJVLXdXbTI0M3NaQTBaQ3ZBWHMwbktEUmxwS1U5eVFn?oc=5",
+          "source": "美股盤勢 cmnews - Google 新聞",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-01T23:02:20Z"
+        },
+        {
+          "id": "04b37a712efb1cca0c1ba037a1420597e6a6b877",
+          "title": "【美股盤勢】費半急殺逾6%，Meta卻暴衝撐住大盤？（2026.07.02） - cmnews.com.tw",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeUt6aWI0MHY4MFphMS1VbzIxYWEyNlB4SnBDQ2ZuVmNieUlUOUxXOXgzbnVQczhvczZHN1hnMWpJZUdGd3FhekhJczUxR3dPZS1QWE9aOUxOTmo3TG5RdWtGZk1WUy1tVFJvUTdTLTJVLXdXbTI0M3NaQTBaQ3ZBWHMwbktEUmxwS1U5eVFn?oc=5",
+          "source": "美股盤勢 cmnews - Google 新聞",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-01T23:02:20Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.3048,
+      "importance": 0.3048,
+      "importance_score": 0.3048,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.5,
+        "recency": 0.0161,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-01T23:02:20Z",
+      "latest_at": "2026-07-01T23:02:20Z",
+      "primary_item": {
+        "id": "284d50b93a6c4a27bd2b6bb1c6671d7506348151",
+        "title": "【美股盤勢】費半急殺逾6%，Meta卻暴衝撐住大盤？（2026.07.02） - CMoney投資網誌",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeUt6aWI0MHY4MFphMS1VbzIxYWEyNlB4SnBDQ2ZuVmNieUlUOUxXOXgzbnVQczhvczZHN1hnMWpJZUdGd3FhekhJczUxR3dPZS1QWE9aOUxOTmo3TG5RdWtGZk1WUy1tVFJvUTdTLTJVLXdXbTI0M3NaQTBaQ3ZBWHMwbktEUmxwS1U5eVFn?oc=5",
+        "source": "美股盤勢 cmnews - Google 新聞",
         "source_name": "OPML RSS"
       }
     }
