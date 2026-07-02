@@ -1,16 +1,43 @@
 {
-  "generated_at": "2026-07-02T11:10:32.626094Z",
+  "generated_at": "2026-07-02T13:19:16.861338Z",
   "window_hours": 24,
   "total_items": 3,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "天氣超熱🔥15 分鐘「懶人電鍋燜飯」‼️一鍋到底，營養美味大爆發！｜素食 純素 全素｜素食美食｜➤野菜鹿鹿 Veggie Deer",
-      "url": "https://www.youtube.com/watch?v=t1_no3UQ4Vo",
-      "primary_url": "https://www.youtube.com/watch?v=t1_no3UQ4Vo",
-      "source": "野菜鹿鹿Veggie Deer",
+      "title": "NFA直播！比特幣觸及新低 / NFA Live! Bitcoin Hit a New Low",
+      "url": "https://www.youtube.com/watch?v=oj2n8nkTTTE",
+      "primary_url": "https://www.youtube.com/watch?v=oj2n8nkTTTE",
+      "source": "Benjamin Cowen",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "81f434a51095af7028d6f04ca8d2e5a8fba33e88",
+          "title": "NFA直播！比特幣觸及新低 / NFA Live! Bitcoin Hit a New Low",
+          "url": "https://www.youtube.com/watch?v=oj2n8nkTTTE",
+          "source": "Benjamin Cowen",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-02T12:59:58Z"
+        },
+        {
+          "id": "708d475c42397d4640ec746de9aa19582ff609a4",
+          "title": "莫斯科國家歷史博物館的秘密揭曉 / Secrets of Moscow's State Historical Museum Revealed",
+          "url": "https://www.youtube.com/watch?v=6mCkq-1v3Iw",
+          "source": "Perspective",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-02T12:00:12Z"
+        },
+        {
+          "id": "a187a41fd3aa6dd3e4ac7ff4e6ab745cf8280135",
+          "title": "犯罪領主的內心深處 |分析器解釋 / Inside the Mind of Crime Lords | Profilers Explain",
+          "url": "https://www.youtube.com/watch?v=JannGAC1tbc",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-02T12:00:09Z"
+        },
         {
           "id": "04701722f20040a68bd114c4beee9b785095ae8d",
           "title": "天氣超熱🔥15 分鐘「懶人電鍋燜飯」‼️一鍋到底，營養美味大爆發！｜素食 純素 全素｜素食美食｜➤野菜鹿鹿 Veggie Deer",
@@ -111,15 +138,6 @@
           "published_at": "2026-07-01T15:30:16Z"
         },
         {
-          "id": "9c9fdec85913d2ef4f8f5cd61d9865156c346653",
-          "title": "士兵故事、死人會說話和致命化學|新偵探團 / Soldier Stories, Dead Men Do Talk & Deadly Chemistry | The New Detectives",
-          "url": "https://www.youtube.com/watch?v=zva3Ht4fntk",
-          "source": "Best Documentary",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-01T12:00:18Z"
-        },
-        {
           "id": "b0ba9e5e8431c8d84ba5bc61a69ae1688ca679ce",
           "title": "【龜山島遊艇】原來遊艇還可以這樣玩，龜山島的海底生態超好｜探險威狼 Wilang Explorer ｜宜蘭｜龜山島｜烏石港｜遊艇｜潛水｜浮潛｜頭城｜比基尼｜夏天｜Yilan｜Vlog 525",
           "url": "https://www.youtube.com/watch?v=UPLBWyaOuPE",
@@ -145,54 +163,52 @@
           "source_name": "OPML RSS",
           "site_id": "trending",
           "published_at": "2026-07-01T16:17:14Z"
-        },
-        {
-          "id": "716a97128b68b874b3ef1127ee7f99beb16ac95a",
-          "title": "AI巨头们之间的资本混战，到底是个什么情况？",
-          "url": "https://www.youtube.com/watch?v=OcKl98ZQbMQ",
-          "source": "小Lin说",
-          "source_name": "OPML RSS",
-          "site_id": "execution",
-          "published_at": "2026-07-01T13:00:17Z"
-        },
-        {
-          "id": "f95252a378b8eb6fbf39588c9467f8fc6a94a452",
-          "title": "一杯咖啡，要用多少森林來換？千萬公里外的樹木正因我們消失？｜公視P# 新聞實驗室",
-          "url": "https://www.youtube.com/watch?v=ziTzJUUh5dM",
-          "source": "公視P#新聞實驗室",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-01T13:00:06Z"
-        },
-        {
-          "id": "4873bd749beff0aa0d232ca9cc4158d0b9134296",
-          "title": "卡莉克勞斯 (Karlie Kloss) 如何從封面女郎變成媒體大亨賽道 / How Karlie Kloss Went From Cover Girl to Media Mogul | The Circuit",
-          "url": "https://www.youtube.com/watch?v=dat7sucxxzU",
-          "source": "The Circuit with Emily Chang",
-          "source_name": "OPML RSS",
-          "site_id": "execution",
-          "published_at": "2026-07-01T12:00:16Z"
         }
       ],
-      "source_count": 18,
+      "source_count": 17,
       "source_names": [
         "Benjamin Cowen",
         "Best Documentary",
         "CYFIT兆佑",
         "Inspiraggio",
         "Invicta",
+        "Perspective",
         "Shepherd Capital Markets",
-        "The Circuit with Emily Chang",
         "Timeline - World History Documentaries",
         "Waxy.org",
         "imineo Documentaires",
-        "公視P#新聞實驗室",
-        "小Lin说",
         "探險威狼 Wilang-Explorer",
         "美投侃新闻",
         "野菜鹿鹿Veggie Deer"
       ],
       "items": [
+        {
+          "id": "81f434a51095af7028d6f04ca8d2e5a8fba33e88",
+          "title": "NFA直播！比特幣觸及新低 / NFA Live! Bitcoin Hit a New Low",
+          "url": "https://www.youtube.com/watch?v=oj2n8nkTTTE",
+          "source": "Benjamin Cowen",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-02T12:59:58Z"
+        },
+        {
+          "id": "708d475c42397d4640ec746de9aa19582ff609a4",
+          "title": "莫斯科國家歷史博物館的秘密揭曉 / Secrets of Moscow's State Historical Museum Revealed",
+          "url": "https://www.youtube.com/watch?v=6mCkq-1v3Iw",
+          "source": "Perspective",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-02T12:00:12Z"
+        },
+        {
+          "id": "a187a41fd3aa6dd3e4ac7ff4e6ab745cf8280135",
+          "title": "犯罪領主的內心深處 |分析器解釋 / Inside the Mind of Crime Lords | Profilers Explain",
+          "url": "https://www.youtube.com/watch?v=JannGAC1tbc",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-02T12:00:09Z"
+        },
         {
           "id": "04701722f20040a68bd114c4beee9b785095ae8d",
           "title": "天氣超熱🔥15 分鐘「懶人電鍋燜飯」‼️一鍋到底，營養美味大爆發！｜素食 純素 全素｜素食美食｜➤野菜鹿鹿 Veggie Deer",
@@ -293,15 +309,6 @@
           "published_at": "2026-07-01T15:30:16Z"
         },
         {
-          "id": "9c9fdec85913d2ef4f8f5cd61d9865156c346653",
-          "title": "士兵故事、死人會說話和致命化學|新偵探團 / Soldier Stories, Dead Men Do Talk & Deadly Chemistry | The New Detectives",
-          "url": "https://www.youtube.com/watch?v=zva3Ht4fntk",
-          "source": "Best Documentary",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-01T12:00:18Z"
-        },
-        {
           "id": "b0ba9e5e8431c8d84ba5bc61a69ae1688ca679ce",
           "title": "【龜山島遊艇】原來遊艇還可以這樣玩，龜山島的海底生態超好｜探險威狼 Wilang Explorer ｜宜蘭｜龜山島｜烏石港｜遊艇｜潛水｜浮潛｜頭城｜比基尼｜夏天｜Yilan｜Vlog 525",
           "url": "https://www.youtube.com/watch?v=UPLBWyaOuPE",
@@ -327,57 +334,30 @@
           "source_name": "OPML RSS",
           "site_id": "trending",
           "published_at": "2026-07-01T16:17:14Z"
-        },
-        {
-          "id": "716a97128b68b874b3ef1127ee7f99beb16ac95a",
-          "title": "AI巨头们之间的资本混战，到底是个什么情况？",
-          "url": "https://www.youtube.com/watch?v=OcKl98ZQbMQ",
-          "source": "小Lin说",
-          "source_name": "OPML RSS",
-          "site_id": "execution",
-          "published_at": "2026-07-01T13:00:17Z"
-        },
-        {
-          "id": "f95252a378b8eb6fbf39588c9467f8fc6a94a452",
-          "title": "一杯咖啡，要用多少森林來換？千萬公里外的樹木正因我們消失？｜公視P# 新聞實驗室",
-          "url": "https://www.youtube.com/watch?v=ziTzJUUh5dM",
-          "source": "公視P#新聞實驗室",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-01T13:00:06Z"
-        },
-        {
-          "id": "4873bd749beff0aa0d232ca9cc4158d0b9134296",
-          "title": "卡莉克勞斯 (Karlie Kloss) 如何從封面女郎變成媒體大亨賽道 / How Karlie Kloss Went From Cover Girl to Media Mogul | The Circuit",
-          "url": "https://www.youtube.com/watch?v=dat7sucxxzU",
-          "source": "The Circuit with Emily Chang",
-          "source_name": "OPML RSS",
-          "site_id": "execution",
-          "published_at": "2026-07-01T12:00:16Z"
         }
       ],
-      "item_count": 18,
-      "duplicate_count": 18,
-      "score": 0.7311,
-      "importance": 0.7311,
-      "importance_score": 0.7311,
+      "item_count": 17,
+      "duplicate_count": 17,
+      "score": 0.746,
+      "importance": 0.746,
+      "importance_score": 0.746,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9369,
+        "recency": 0.9866,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-01T12:00:16Z",
-      "latest_at": "2026-07-02T11:00:25Z",
+      "earliest_at": "2026-07-01T15:30:16Z",
+      "latest_at": "2026-07-02T12:59:58Z",
       "primary_item": {
-        "id": "04701722f20040a68bd114c4beee9b785095ae8d",
-        "title": "天氣超熱🔥15 分鐘「懶人電鍋燜飯」‼️一鍋到底，營養美味大爆發！｜素食 純素 全素｜素食美食｜➤野菜鹿鹿 Veggie Deer",
-        "url": "https://www.youtube.com/watch?v=t1_no3UQ4Vo",
-        "source": "野菜鹿鹿Veggie Deer",
+        "id": "81f434a51095af7028d6f04ca8d2e5a8fba33e88",
+        "title": "NFA直播！比特幣觸及新低 / NFA Live! Bitcoin Hit a New Low",
+        "url": "https://www.youtube.com/watch?v=oj2n8nkTTTE",
+        "source": "Benjamin Cowen",
         "source_name": "OPML RSS"
       }
     },
@@ -434,13 +414,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4228,
-      "importance": 0.4228,
-      "importance_score": 0.4228,
+      "score": 0.396,
+      "importance": 0.396,
+      "importance_score": 0.396,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.826,
+        "recency": 0.7366,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -528,13 +508,13 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.2853,
-      "importance": 0.2853,
-      "importance_score": 0.2853,
+      "score": 0.2585,
+      "importance": 0.2585,
+      "importance_score": 0.2585,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.201,
+        "recency": 0.1116,
         "story_heat": 0.5
       },
       "category": "multi_source",
