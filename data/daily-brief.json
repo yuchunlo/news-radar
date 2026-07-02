@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T00:15:11.650054Z",
+  "generated_at": "2026-07-02T04:42:45.876685Z",
   "window_hours": 24,
   "total_items": 2,
   "items": [
@@ -111,15 +111,6 @@
           "published_at": "2026-07-01T10:00:07Z"
         },
         {
-          "id": "83c10be82f01b300390b896a0b8f5b4c4f7b6a70",
-          "title": "下半年美股布局！闪迪暴涨目标3000？！云大厂急招FDE何意味？副业改变人生！",
-          "url": "https://www.youtube.com/watch?v=n-tt-nJBtyY",
-          "source": "美投侃新闻",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-01T00:40:21Z"
-        },
-        {
           "id": "64a03ad3b395969683c34624b089172a1334b850",
           "title": "漢克·格林採訪澤·弗蘭克 / Hank Green interviews Ze Frank",
           "url": "https://www.youtube.com/watch?v=bwIFDv5pHS0",
@@ -165,7 +156,7 @@
           "published_at": "2026-07-01T11:00:24Z"
         }
       ],
-      "source_count": 17,
+      "source_count": 16,
       "source_names": [
         "Benjamin Cowen",
         "Best Documentary",
@@ -180,7 +171,6 @@
         "imineo Documentaires",
         "公視P#新聞實驗室",
         "小Lin说",
-        "美投侃新闻",
         "雜書觀察室"
       ],
       "items": [
@@ -284,15 +274,6 @@
           "published_at": "2026-07-01T10:00:07Z"
         },
         {
-          "id": "83c10be82f01b300390b896a0b8f5b4c4f7b6a70",
-          "title": "下半年美股布局！闪迪暴涨目标3000？！云大厂急招FDE何意味？副业改变人生！",
-          "url": "https://www.youtube.com/watch?v=n-tt-nJBtyY",
-          "source": "美投侃新闻",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-01T00:40:21Z"
-        },
-        {
           "id": "64a03ad3b395969683c34624b089172a1334b850",
           "title": "漢克·格林採訪澤·弗蘭克 / Hank Green interviews Ze Frank",
           "url": "https://www.youtube.com/watch?v=bwIFDv5pHS0",
@@ -338,22 +319,22 @@
           "published_at": "2026-07-01T11:00:24Z"
         }
       ],
-      "item_count": 17,
-      "duplicate_count": 17,
-      "score": 0.7328,
-      "importance": 0.7328,
-      "importance_score": 0.7328,
+      "item_count": 16,
+      "duplicate_count": 16,
+      "score": 0.677,
+      "importance": 0.677,
+      "importance_score": 0.677,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9426,
+        "recency": 0.7568,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-01T00:40:21Z",
+      "earliest_at": "2026-07-01T10:00:07Z",
       "latest_at": "2026-07-01T22:52:36Z",
       "primary_item": {
         "id": "f6393f9b1cbce6e341330f9a5017f25f57e296e4",
@@ -434,13 +415,13 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.4218,
-      "importance": 0.4218,
-      "importance_score": 0.4218,
+      "score": 0.3661,
+      "importance": 0.3661,
+      "importance_score": 0.3661,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.6561,
+        "recency": 0.4703,
         "story_heat": 0.5
       },
       "category": "multi_source",
