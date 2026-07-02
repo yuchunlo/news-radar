@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-07-02T13:19:16.861338Z",
+  "generated_at": "2026-07-02T15:42:31.279610Z",
   "window_hours": 24,
   "total_items": 3,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "NFA直播！比特幣觸及新低 / NFA Live! Bitcoin Hit a New Low",
-      "url": "https://www.youtube.com/watch?v=oj2n8nkTTTE",
-      "primary_url": "https://www.youtube.com/watch?v=oj2n8nkTTTE",
-      "source": "Benjamin Cowen",
+      "title": "七年戰爭的整個歷史（1756 - 1763） / The Entire History of The Seven Years' War (1756 - 1763)",
+      "url": "https://www.youtube.com/watch?v=TifnwP97IkE",
+      "primary_url": "https://www.youtube.com/watch?v=TifnwP97IkE",
+      "source": "Knowledgia",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "126022e865e996b7ec3ffd559089c42f9550592b",
+          "title": "七年戰爭的整個歷史（1756 - 1763） / The Entire History of The Seven Years' War (1756 - 1763)",
+          "url": "https://www.youtube.com/watch?v=TifnwP97IkE",
+          "source": "Knowledgia",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-02T14:45:57Z"
+        },
         {
           "id": "81f434a51095af7028d6f04ca8d2e5a8fba33e88",
           "title": "NFA直播！比特幣觸及新低 / NFA Live! Bitcoin Hit a New Low",
@@ -127,15 +136,6 @@
           "source_name": "OPML RSS",
           "site_id": "culture",
           "published_at": "2026-07-01T16:00:06Z"
-        },
-        {
-          "id": "a924a17178ff08405c845bebc3cf782095ede726",
-          "title": "魔鬼獵犬：拯救巴黎的美國海軍陸戰隊 / Les Chiens du Diable : les Marines américains qui ont sauvé Paris",
-          "url": "https://www.youtube.com/watch?v=fmMQ7aCdqUk",
-          "source": "imineo Documentaires",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-01T15:30:16Z"
         },
         {
           "id": "b0ba9e5e8431c8d84ba5bc61a69ae1688ca679ce",
@@ -172,16 +172,25 @@
         "CYFIT兆佑",
         "Inspiraggio",
         "Invicta",
+        "Knowledgia",
         "Perspective",
         "Shepherd Capital Markets",
         "Timeline - World History Documentaries",
         "Waxy.org",
-        "imineo Documentaires",
         "探險威狼 Wilang-Explorer",
         "美投侃新闻",
         "野菜鹿鹿Veggie Deer"
       ],
       "items": [
+        {
+          "id": "126022e865e996b7ec3ffd559089c42f9550592b",
+          "title": "七年戰爭的整個歷史（1756 - 1763） / The Entire History of The Seven Years' War (1756 - 1763)",
+          "url": "https://www.youtube.com/watch?v=TifnwP97IkE",
+          "source": "Knowledgia",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-02T14:45:57Z"
+        },
         {
           "id": "81f434a51095af7028d6f04ca8d2e5a8fba33e88",
           "title": "NFA直播！比特幣觸及新低 / NFA Live! Bitcoin Hit a New Low",
@@ -300,15 +309,6 @@
           "published_at": "2026-07-01T16:00:06Z"
         },
         {
-          "id": "a924a17178ff08405c845bebc3cf782095ede726",
-          "title": "魔鬼獵犬：拯救巴黎的美國海軍陸戰隊 / Les Chiens du Diable : les Marines américains qui ont sauvé Paris",
-          "url": "https://www.youtube.com/watch?v=fmMQ7aCdqUk",
-          "source": "imineo Documentaires",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-01T15:30:16Z"
-        },
-        {
           "id": "b0ba9e5e8431c8d84ba5bc61a69ae1688ca679ce",
           "title": "【龜山島遊艇】原來遊艇還可以這樣玩，龜山島的海底生態超好｜探險威狼 Wilang Explorer ｜宜蘭｜龜山島｜烏石港｜遊艇｜潛水｜浮潛｜頭城｜比基尼｜夏天｜Yilan｜Vlog 525",
           "url": "https://www.youtube.com/watch?v=UPLBWyaOuPE",
@@ -338,26 +338,26 @@
       ],
       "item_count": 17,
       "duplicate_count": 17,
-      "score": 0.746,
-      "importance": 0.746,
-      "importance_score": 0.746,
+      "score": 0.7382,
+      "importance": 0.7382,
+      "importance_score": 0.7382,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9866,
+        "recency": 0.9607,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-01T15:30:16Z",
-      "latest_at": "2026-07-02T12:59:58Z",
+      "earliest_at": "2026-07-01T16:00:06Z",
+      "latest_at": "2026-07-02T14:45:57Z",
       "primary_item": {
-        "id": "81f434a51095af7028d6f04ca8d2e5a8fba33e88",
-        "title": "NFA直播！比特幣觸及新低 / NFA Live! Bitcoin Hit a New Low",
-        "url": "https://www.youtube.com/watch?v=oj2n8nkTTTE",
-        "source": "Benjamin Cowen",
+        "id": "126022e865e996b7ec3ffd559089c42f9550592b",
+        "title": "七年戰爭的整個歷史（1756 - 1763） / The Entire History of The Seven Years' War (1756 - 1763)",
+        "url": "https://www.youtube.com/watch?v=TifnwP97IkE",
+        "source": "Knowledgia",
         "source_name": "OPML RSS"
       }
     },
@@ -414,13 +414,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.396,
-      "importance": 0.396,
-      "importance_score": 0.396,
+      "score": 0.3661,
+      "importance": 0.3661,
+      "importance_score": 0.3661,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.7366,
+        "recency": 0.6371,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -508,13 +508,13 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.2585,
-      "importance": 0.2585,
-      "importance_score": 0.2585,
+      "score": 0.2286,
+      "importance": 0.2286,
+      "importance_score": 0.2286,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.1116,
+        "recency": 0.0121,
         "story_heat": 0.5
       },
       "category": "multi_source",
