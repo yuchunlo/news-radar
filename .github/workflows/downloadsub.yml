@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron: "0 21 * * *"
+    - cron: "0 22 * * *"
 
 concurrency:
   group: download-sub-${{ github.ref }}
@@ -39,6 +39,11 @@ jobs:
           python-version: "3.11"
           cache: "pip"
           cache-dependency-path: "requirements.txt"
+
+      - name: Setup Deno (JS runtime for yt-dlp)
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
 
       - name: Install dependencies
         run: |
