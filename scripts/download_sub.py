@@ -59,6 +59,8 @@ def main():
             "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120 Safari/537.36",
             "--extractor-args",
             "youtube:player_client=web",
+            "--remote-components",
+            "ejs:github",
             "--skip-download",
             "--ignore-no-formats",
             "--quiet",
