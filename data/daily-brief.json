@@ -1,16 +1,34 @@
 {
-  "generated_at": "2026-07-03T13:00:35.053580Z",
+  "generated_at": "2026-07-03T15:34:21.247254Z",
   "window_hours": 24,
-  "total_items": 2,
+  "total_items": 6,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "17 年，只吃過通心粉和起司：奧斯汀戴維斯的故事 / 17 Years, Only Eaten Mac & Cheese: Austin Davis' Story",
-      "url": "https://www.youtube.com/watch?v=p7CF2WGsP-I",
-      "primary_url": "https://www.youtube.com/watch?v=p7CF2WGsP-I",
-      "source": "Best Documentary",
+      "title": "Megastadium：卡梅萊昂體育場的建築天才 / Megastadium : Le génie architectural du stade Caméléon",
+      "url": "https://www.youtube.com/watch?v=FNsW45PiG_k",
+      "primary_url": "https://www.youtube.com/watch?v=FNsW45PiG_k",
+      "source": "imineo Documentaires",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "c165eeb9ee83afbc0e78a5dde87d9466d546ceed",
+          "title": "Megastadium：卡梅萊昂體育場的建築天才 / Megastadium : Le génie architectural du stade Caméléon",
+          "url": "https://www.youtube.com/watch?v=FNsW45PiG_k",
+          "source": "imineo Documentaires",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-03T14:45:18Z"
+        },
+        {
+          "id": "4b50eb196ad63ad4fbd0118d941d460c55bfa9c4",
+          "title": "獨立紀念日：最後一部手工大片 |場景藝術 / Independence Day: The Last of the Handmade Blockbusters | Art of the Scene",
+          "url": "https://www.youtube.com/watch?v=8UQ9wBfk4_Q",
+          "source": "CineFix",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-03T13:15:17Z"
+        },
         {
           "id": "1b2d1dd3126f97a97b04347141329829fa9b7025",
           "title": "17 年，只吃過通心粉和起司：奧斯汀戴維斯的故事 / 17 Years, Only Eaten Mac & Cheese: Austin Davis' Story",
@@ -93,33 +111,6 @@
           "published_at": "2026-07-02T16:00:05Z"
         },
         {
-          "id": "126022e865e996b7ec3ffd559089c42f9550592b",
-          "title": "七年戰爭的整個歷史（1756 - 1763） / The Entire History of The Seven Years' War (1756 - 1763)",
-          "url": "https://www.youtube.com/watch?v=TifnwP97IkE",
-          "source": "Knowledgia",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-02T14:45:57Z"
-        },
-        {
-          "id": "b60635739434fb014c5cd838281a8baf4dc55a84",
-          "title": "七年戰爭的整個歷史 - 這是第一次世界大戰嗎？ (1756 - 1763) / The Entire History of The Seven Years' War - Was this The First World War? (1756 - 1763)",
-          "url": "https://www.youtube.com/watch?v=TifnwP97IkE",
-          "source": "Knowledgia",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-02T14:45:57Z"
-        },
-        {
-          "id": "81f434a51095af7028d6f04ca8d2e5a8fba33e88",
-          "title": "NFA直播！比特幣觸及新低 / NFA Live! Bitcoin Hit a New Low",
-          "url": "https://www.youtube.com/watch?v=oj2n8nkTTTE",
-          "source": "Benjamin Cowen",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-02T14:00:19Z"
-        },
-        {
           "id": "99b4ea9385cb53c5b4021554be5968ce91b455ef",
           "title": "如何讓一個國家破產 / How To Bankrupt A Country",
           "url": "https://www.youtube.com/watch?v=qqxzeNuDVc8",
@@ -147,13 +138,13 @@
           "published_at": "2026-07-03T10:00:32Z"
         }
       ],
-      "source_count": 15,
+      "source_count": 14,
       "source_names": [
         "Benjamin Cowen",
         "Best Documentary",
         "Chu's Vegan",
+        "CineFix",
         "DenQ來了",
-        "Knowledgia",
         "OBF",
         "Shepherd Capital Markets",
         "Timeline - World History Documentaries",
@@ -163,6 +154,24 @@
       ],
       "items": [
         {
+          "id": "c165eeb9ee83afbc0e78a5dde87d9466d546ceed",
+          "title": "Megastadium：卡梅萊昂體育場的建築天才 / Megastadium : Le génie architectural du stade Caméléon",
+          "url": "https://www.youtube.com/watch?v=FNsW45PiG_k",
+          "source": "imineo Documentaires",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-03T14:45:18Z"
+        },
+        {
+          "id": "4b50eb196ad63ad4fbd0118d941d460c55bfa9c4",
+          "title": "獨立紀念日：最後一部手工大片 |場景藝術 / Independence Day: The Last of the Handmade Blockbusters | Art of the Scene",
+          "url": "https://www.youtube.com/watch?v=8UQ9wBfk4_Q",
+          "source": "CineFix",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-03T13:15:17Z"
+        },
+        {
           "id": "1b2d1dd3126f97a97b04347141329829fa9b7025",
           "title": "17 年，只吃過通心粉和起司：奧斯汀戴維斯的故事 / 17 Years, Only Eaten Mac & Cheese: Austin Davis' Story",
           "url": "https://www.youtube.com/watch?v=p7CF2WGsP-I",
@@ -244,33 +253,6 @@
           "published_at": "2026-07-02T16:00:05Z"
         },
         {
-          "id": "126022e865e996b7ec3ffd559089c42f9550592b",
-          "title": "七年戰爭的整個歷史（1756 - 1763） / The Entire History of The Seven Years' War (1756 - 1763)",
-          "url": "https://www.youtube.com/watch?v=TifnwP97IkE",
-          "source": "Knowledgia",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-02T14:45:57Z"
-        },
-        {
-          "id": "b60635739434fb014c5cd838281a8baf4dc55a84",
-          "title": "七年戰爭的整個歷史 - 這是第一次世界大戰嗎？ (1756 - 1763) / The Entire History of The Seven Years' War - Was this The First World War? (1756 - 1763)",
-          "url": "https://www.youtube.com/watch?v=TifnwP97IkE",
-          "source": "Knowledgia",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-02T14:45:57Z"
-        },
-        {
-          "id": "81f434a51095af7028d6f04ca8d2e5a8fba33e88",
-          "title": "NFA直播！比特幣觸及新低 / NFA Live! Bitcoin Hit a New Low",
-          "url": "https://www.youtube.com/watch?v=oj2n8nkTTTE",
-          "source": "Benjamin Cowen",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-02T14:00:19Z"
-        },
-        {
           "id": "99b4ea9385cb53c5b4021554be5968ce91b455ef",
           "title": "如何讓一個國家破產 / How To Bankrupt A Country",
           "url": "https://www.youtube.com/watch?v=qqxzeNuDVc8",
@@ -298,121 +280,407 @@
           "published_at": "2026-07-03T10:00:32Z"
         }
       ],
-      "item_count": 15,
-      "duplicate_count": 15,
-      "score": 0.7374,
-      "importance": 0.7374,
-      "importance_score": 0.7374,
+      "item_count": 14,
+      "duplicate_count": 14,
+      "score": 0.7398,
+      "importance": 0.7398,
+      "importance_score": 0.7398,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9581,
+        "recency": 0.9659,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-02T14:00:19Z",
-      "latest_at": "2026-07-03T12:00:12Z",
+      "earliest_at": "2026-07-02T16:00:05Z",
+      "latest_at": "2026-07-03T14:45:18Z",
       "primary_item": {
-        "id": "1b2d1dd3126f97a97b04347141329829fa9b7025",
-        "title": "17 年，只吃過通心粉和起司：奧斯汀戴維斯的故事 / 17 Years, Only Eaten Mac & Cheese: Austin Davis' Story",
-        "url": "https://www.youtube.com/watch?v=p7CF2WGsP-I",
-        "source": "Best Documentary",
+        "id": "c165eeb9ee83afbc0e78a5dde87d9466d546ceed",
+        "title": "Megastadium：卡梅萊昂體育場的建築天才 / Megastadium : Le génie architectural du stade Caméléon",
+        "url": "https://www.youtube.com/watch?v=FNsW45PiG_k",
+        "source": "imineo Documentaires",
         "source_name": "OPML RSS"
       }
     },
     {
-      "story_id": "story_81640b073b61",
-      "title": "微軟建立了一個擁有 6,000 名員工的組織，專門負責工程、企業培訓和管理，以支援企業進行人工智慧部署（Todd Bishop/GeekWire） / Microsoft establishes an organization with 6,000 staff specializing in engineering, corporate training, and management to support businesses with AI deployments (Todd Bishop/GeekWire)",
-      "url": "https://www.techmeme.com/260702/p22",
-      "primary_url": "https://www.techmeme.com/260702/p22",
+      "story_id": "story_b4e4857ccdc8",
+      "title": "傑夫貝佐斯與川普總統關係的變化如何幫助亞馬遜和藍色起源，例如在川普第二任期內授予更多聯邦合約（華爾街日報） / How Jeff Bezos' changing relationship with President Trump has helped Amazon and Blue Origin, such as more federal contracts awarded during Trump's second term (Wall Street Journal)",
+      "url": "https://www.techmeme.com/260703/p8",
+      "primary_url": "https://www.techmeme.com/260703/p8",
       "source": "Techmeme",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "7c812edd89ce2d974da06addc94c98be2921af4b",
-          "title": "微軟建立了一個擁有 6,000 名員工的組織，專門負責工程、企業培訓和管理，以支援企業進行人工智慧部署（Todd Bishop/GeekWire） / Microsoft establishes an organization with 6,000 staff specializing in engineering, corporate training, and management to support businesses with AI deployments (Todd Bishop/GeekWire)",
-          "url": "https://www.techmeme.com/260702/p22",
+          "id": "3e66bd12eb94b23cd3414bbe92dd59614a1d84ec",
+          "title": "傑夫貝佐斯與川普總統關係的變化如何幫助亞馬遜和藍色起源，例如在川普第二任期內授予更多聯邦合約（華爾街日報） / How Jeff Bezos' changing relationship with President Trump has helped Amazon and Blue Origin, such as more federal contracts awarded during Trump's second term (Wall Street Journal)",
+          "url": "https://www.techmeme.com/260703/p8",
           "source": "Techmeme",
           "source_name": "OPML RSS",
           "site_id": "tech",
-          "published_at": "2026-07-02T13:15:01Z"
+          "published_at": "2026-07-03T12:25:00Z"
         },
         {
-          "id": "299c280bb26783ddc54d3bfc0df031fa4c5aecbc",
-          "title": "微軟投資 2.5B 美元並成立一家新公司，將讓 6,000 名員工與客戶一起根據業務成果設計、部署和改進人工智慧系統 (Todd Bishop/GeekWire) / Microsoft invests $2.5B and forms a new company that will embed 6,000 staff with customers to design, deploy, and improve AI systems based on business outcomes (Todd Bishop/GeekWire)",
-          "url": "https://www.techmeme.com/260702/p22",
+          "id": "e67e360da830be43b4a97195b30fdbbe99c1209c",
+          "title": "傑夫貝佐斯與川普總統關係的變化如何影響他的公司，包括川普第二任期期間增加的聯邦合約授予（華爾街日報） / How Jeff Bezos' changing relationship with President Trump has impacted his companies, including increased federal contract awards during Trump's second term (Wall Street Journal)",
+          "url": "https://www.techmeme.com/260703/p8",
           "source": "Techmeme",
           "source_name": "OPML RSS",
           "site_id": "tech",
-          "published_at": "2026-07-02T13:15:01Z"
-        },
-        {
-          "id": "b8d3c6b325ea0f180d51f1df96de212875b26536",
-          "title": "微軟投資 2.5B 美元並成立 Microsoft Frontier Company，將 6,000 名前沿部署工程師與客戶一起部署，以協助部署 AI 系統 (Todd Bishop/GeekWire) / Microsoft invests $2.5B and forms the Microsoft Frontier Company to embed 6,000 forward-deployed engineers with customers to help deploy AI systems (Todd Bishop/GeekWire)",
-          "url": "https://www.techmeme.com/260702/p22",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-02T13:15:01Z"
+          "published_at": "2026-07-03T12:25:00Z"
         }
       ],
-      "source_count": 3,
+      "source_count": 2,
       "source_names": [
         "Techmeme"
       ],
       "items": [
         {
-          "id": "7c812edd89ce2d974da06addc94c98be2921af4b",
-          "title": "微軟建立了一個擁有 6,000 名員工的組織，專門負責工程、企業培訓和管理，以支援企業進行人工智慧部署（Todd Bishop/GeekWire） / Microsoft establishes an organization with 6,000 staff specializing in engineering, corporate training, and management to support businesses with AI deployments (Todd Bishop/GeekWire)",
-          "url": "https://www.techmeme.com/260702/p22",
+          "id": "3e66bd12eb94b23cd3414bbe92dd59614a1d84ec",
+          "title": "傑夫貝佐斯與川普總統關係的變化如何幫助亞馬遜和藍色起源，例如在川普第二任期內授予更多聯邦合約（華爾街日報） / How Jeff Bezos' changing relationship with President Trump has helped Amazon and Blue Origin, such as more federal contracts awarded during Trump's second term (Wall Street Journal)",
+          "url": "https://www.techmeme.com/260703/p8",
           "source": "Techmeme",
           "source_name": "OPML RSS",
           "site_id": "tech",
-          "published_at": "2026-07-02T13:15:01Z"
+          "published_at": "2026-07-03T12:25:00Z"
         },
         {
-          "id": "299c280bb26783ddc54d3bfc0df031fa4c5aecbc",
-          "title": "微軟投資 2.5B 美元並成立一家新公司，將讓 6,000 名員工與客戶一起根據業務成果設計、部署和改進人工智慧系統 (Todd Bishop/GeekWire) / Microsoft invests $2.5B and forms a new company that will embed 6,000 staff with customers to design, deploy, and improve AI systems based on business outcomes (Todd Bishop/GeekWire)",
-          "url": "https://www.techmeme.com/260702/p22",
+          "id": "e67e360da830be43b4a97195b30fdbbe99c1209c",
+          "title": "傑夫貝佐斯與川普總統關係的變化如何影響他的公司，包括川普第二任期期間增加的聯邦合約授予（華爾街日報） / How Jeff Bezos' changing relationship with President Trump has impacted his companies, including increased federal contract awards during Trump's second term (Wall Street Journal)",
+          "url": "https://www.techmeme.com/260703/p8",
           "source": "Techmeme",
           "source_name": "OPML RSS",
           "site_id": "tech",
-          "published_at": "2026-07-02T13:15:01Z"
-        },
-        {
-          "id": "b8d3c6b325ea0f180d51f1df96de212875b26536",
-          "title": "微軟投資 2.5B 美元並成立 Microsoft Frontier Company，將 6,000 名前沿部署工程師與客戶一起部署，以協助部署 AI 系統 (Todd Bishop/GeekWire) / Microsoft invests $2.5B and forms the Microsoft Frontier Company to embed 6,000 forward-deployed engineers with customers to help deploy AI systems (Todd Bishop/GeekWire)",
-          "url": "https://www.techmeme.com/260702/p22",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-02T13:15:01Z"
+          "published_at": "2026-07-03T12:25:00Z"
         }
       ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.353,
-      "importance": 0.353,
-      "importance_score": 0.353,
-      "importance_label": "多源热议",
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5606,
+      "importance": 0.5606,
+      "importance_score": 0.5606,
+      "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.01,
-        "story_heat": 0.5
+        "recency": 0.8685,
+        "story_heat": 0.25
       },
-      "category": "multi_source",
+      "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-02T13:15:01Z",
-      "latest_at": "2026-07-02T13:15:01Z",
+      "earliest_at": "2026-07-03T12:25:00Z",
+      "latest_at": "2026-07-03T12:25:00Z",
       "primary_item": {
-        "id": "7c812edd89ce2d974da06addc94c98be2921af4b",
-        "title": "微軟建立了一個擁有 6,000 名員工的組織，專門負責工程、企業培訓和管理，以支援企業進行人工智慧部署（Todd Bishop/GeekWire） / Microsoft establishes an organization with 6,000 staff specializing in engineering, corporate training, and management to support businesses with AI deployments (Todd Bishop/GeekWire)",
-        "url": "https://www.techmeme.com/260702/p22",
+        "id": "3e66bd12eb94b23cd3414bbe92dd59614a1d84ec",
+        "title": "傑夫貝佐斯與川普總統關係的變化如何幫助亞馬遜和藍色起源，例如在川普第二任期內授予更多聯邦合約（華爾街日報） / How Jeff Bezos' changing relationship with President Trump has helped Amazon and Blue Origin, such as more federal contracts awarded during Trump's second term (Wall Street Journal)",
+        "url": "https://www.techmeme.com/260703/p8",
+        "source": "Techmeme",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_51999e5ed888",
+      "title": "推薦文件：Chris Larsen 和 Palmer Luckey 向 APEC 投資了一筆金額不詳的資金，APEC 是一家衍生性商品交易所，由參議員 Kirsten Gillibrand 的兒子創立（Declan Harty/Politico） / Pitch document: Chris Larsen and Palmer Luckey invested an undisclosed amount in APEC, a derivatives exchange founded by the son of Senator Kirsten Gillibrand (Declan Harty/Politico)",
+      "url": "https://www.techmeme.com/260703/p5",
+      "primary_url": "https://www.techmeme.com/260703/p5",
+      "source": "Techmeme",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "612ccdd7336df9afe2ee29624a71212ee78ac660",
+          "title": "推薦文件：Chris Larsen 和 Palmer Luckey 向 APEC 投資了一筆金額不詳的資金，APEC 是一家衍生性商品交易所，由參議員 Kirsten Gillibrand 的兒子創立（Declan Harty/Politico） / Pitch document: Chris Larsen and Palmer Luckey invested an undisclosed amount in APEC, a derivatives exchange founded by the son of Senator Kirsten Gillibrand (Declan Harty/Politico)",
+          "url": "https://www.techmeme.com/260703/p5",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-03T10:06:02Z"
+        },
+        {
+          "id": "726f794e6fb0c9ad1ff2156d5a76613536c9dc6f",
+          "title": "推介文件：克里斯·拉森 (Chris Larsen)、帕爾默·拉基 (Palmer Luckey) 等人向 APEC 投資了未公開的金額，這是一家由參議員克爾斯滕·吉利布蘭德 (Kirsten Gillibrand) 的兒子創立的衍生品交易所 (Declan Harty/Politico) / Pitch document: Chris Larsen, Palmer Luckey, and others invested undisclosed amounts in APEC, a derivatives exchange founded by Senator Kirsten Gillibrand's son (Declan Harty/Politico)",
+          "url": "https://www.techmeme.com/260703/p5",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-03T10:06:02Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Techmeme"
+      ],
+      "items": [
+        {
+          "id": "612ccdd7336df9afe2ee29624a71212ee78ac660",
+          "title": "推薦文件：Chris Larsen 和 Palmer Luckey 向 APEC 投資了一筆金額不詳的資金，APEC 是一家衍生性商品交易所，由參議員 Kirsten Gillibrand 的兒子創立（Declan Harty/Politico） / Pitch document: Chris Larsen and Palmer Luckey invested an undisclosed amount in APEC, a derivatives exchange founded by the son of Senator Kirsten Gillibrand (Declan Harty/Politico)",
+          "url": "https://www.techmeme.com/260703/p5",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-03T10:06:02Z"
+        },
+        {
+          "id": "726f794e6fb0c9ad1ff2156d5a76613536c9dc6f",
+          "title": "推介文件：克里斯·拉森 (Chris Larsen)、帕爾默·拉基 (Palmer Luckey) 等人向 APEC 投資了未公開的金額，這是一家由參議員克爾斯滕·吉利布蘭德 (Kirsten Gillibrand) 的兒子創立的衍生品交易所 (Declan Harty/Politico) / Pitch document: Chris Larsen, Palmer Luckey, and others invested undisclosed amounts in APEC, a derivatives exchange founded by Senator Kirsten Gillibrand's son (Declan Harty/Politico)",
+          "url": "https://www.techmeme.com/260703/p5",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-03T10:06:02Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5316,
+      "importance": 0.5316,
+      "importance_score": 0.5316,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.5,
+        "recency": 0.772,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-03T10:06:02Z",
+      "latest_at": "2026-07-03T10:06:02Z",
+      "primary_item": {
+        "id": "612ccdd7336df9afe2ee29624a71212ee78ac660",
+        "title": "推薦文件：Chris Larsen 和 Palmer Luckey 向 APEC 投資了一筆金額不詳的資金，APEC 是一家衍生性商品交易所，由參議員 Kirsten Gillibrand 的兒子創立（Declan Harty/Politico） / Pitch document: Chris Larsen and Palmer Luckey invested an undisclosed amount in APEC, a derivatives exchange founded by the son of Senator Kirsten Gillibrand (Declan Harty/Politico)",
+        "url": "https://www.techmeme.com/260703/p5",
+        "source": "Techmeme",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_2bf0db3c1ded",
+      "title": "資料來源：出於人為安全考慮，阿里巴巴在內部禁止了 Claude Code，並要求員工從工作電腦中刪除所有 Claude 模型（The Information） / Sources: Alibaba banned Claude Code internally and asked its employees to remove all Claude models from their work computers due to Anthropic security concerns (The Information)",
+      "url": "https://www.techmeme.com/260703/p4",
+      "primary_url": "https://www.techmeme.com/260703/p4",
+      "source": "Techmeme",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "575201555b0d726015a1efb5541619be8cd64bf2",
+          "title": "資料來源：出於人為安全考慮，阿里巴巴在內部禁止了 Claude Code，並要求員工從工作電腦中刪除所有 Claude 模型（The Information） / Sources: Alibaba banned Claude Code internally and asked its employees to remove all Claude models from their work computers due to Anthropic security concerns (The Information)",
+          "url": "https://www.techmeme.com/260703/p4",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-03T09:45:00Z"
+        },
+        {
+          "id": "db8a8bd2fe3f089117fd9a2d6850620d56238bae",
+          "title": "資料來源：阿里巴巴以安全問題為由，禁止員工使用 Claude Code，並要求他們從工作電腦中刪除所有 Claude 模型（The Information） / Sources: Alibaba has banned employees from using Claude Code and asked them to remove all Claude models from their work computers, citing security concerns (The Information)",
+          "url": "https://www.techmeme.com/260703/p4",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-03T09:45:00Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Techmeme"
+      ],
+      "items": [
+        {
+          "id": "575201555b0d726015a1efb5541619be8cd64bf2",
+          "title": "資料來源：出於人為安全考慮，阿里巴巴在內部禁止了 Claude Code，並要求員工從工作電腦中刪除所有 Claude 模型（The Information） / Sources: Alibaba banned Claude Code internally and asked its employees to remove all Claude models from their work computers due to Anthropic security concerns (The Information)",
+          "url": "https://www.techmeme.com/260703/p4",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-03T09:45:00Z"
+        },
+        {
+          "id": "db8a8bd2fe3f089117fd9a2d6850620d56238bae",
+          "title": "資料來源：阿里巴巴以安全問題為由，禁止員工使用 Claude Code，並要求他們從工作電腦中刪除所有 Claude 模型（The Information） / Sources: Alibaba has banned employees from using Claude Code and asked them to remove all Claude models from their work computers, citing security concerns (The Information)",
+          "url": "https://www.techmeme.com/260703/p4",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-03T09:45:00Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5272,
+      "importance": 0.5272,
+      "importance_score": 0.5272,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.5,
+        "recency": 0.7574,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-03T09:45:00Z",
+      "latest_at": "2026-07-03T09:45:00Z",
+      "primary_item": {
+        "id": "575201555b0d726015a1efb5541619be8cd64bf2",
+        "title": "資料來源：出於人為安全考慮，阿里巴巴在內部禁止了 Claude Code，並要求員工從工作電腦中刪除所有 Claude 模型（The Information） / Sources: Alibaba banned Claude Code internally and asked its employees to remove all Claude models from their work computers due to Anthropic security concerns (The Information)",
+        "url": "https://www.techmeme.com/260703/p4",
+        "source": "Techmeme",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_891300a3bd59",
+      "title": "價值 90 億美元的 Vibe Coding 公司 Replit 內部 / Dentro Replit, l'azienda di Vibe Coding da 9 Miliardi",
+      "url": "https://www.youtube.com/shorts/gQ7O2R9r4uw",
+      "primary_url": "https://www.youtube.com/shorts/gQ7O2R9r4uw",
+      "source": "Marcello Ascani",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "390b8914c594aeaac9bdd322acc242123156553f",
+          "title": "價值 90 億美元的 Vibe Coding 公司 Replit 內部 / Dentro Replit, l'azienda di Vibe Coding da 9 Miliardi",
+          "url": "https://www.youtube.com/shorts/gQ7O2R9r4uw",
+          "source": "Marcello Ascani",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-03T13:00:29Z"
+        },
+        {
+          "id": "f0cad7d6094e24d7fffbea9f0701a4890803b887",
+          "title": "Replit（一家擁有 90 億資產的 Vive 編碼公司）面臨的挑戰 / Le Sfide di Replit, l'azienda di vibe coding da 9 miliardi",
+          "url": "https://www.youtube.com/shorts/9pADCqGHpuc",
+          "source": "Marcello Ascani",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-03T11:00:33Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Marcello Ascani"
+      ],
+      "items": [
+        {
+          "id": "390b8914c594aeaac9bdd322acc242123156553f",
+          "title": "價值 90 億美元的 Vibe Coding 公司 Replit 內部 / Dentro Replit, l'azienda di Vibe Coding da 9 Miliardi",
+          "url": "https://www.youtube.com/shorts/gQ7O2R9r4uw",
+          "source": "Marcello Ascani",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-03T13:00:29Z"
+        },
+        {
+          "id": "f0cad7d6094e24d7fffbea9f0701a4890803b887",
+          "title": "Replit（一家擁有 90 億資產的 Vive 編碼公司）面臨的挑戰 / Le Sfide di Replit, l'azienda di vibe coding da 9 miliardi",
+          "url": "https://www.youtube.com/shorts/9pADCqGHpuc",
+          "source": "Marcello Ascani",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-03T11:00:33Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.4429,
+      "importance": 0.4429,
+      "importance_score": 0.4429,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.25,
+        "recency": 0.8931,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-03T11:00:33Z",
+      "latest_at": "2026-07-03T13:00:29Z",
+      "primary_item": {
+        "id": "390b8914c594aeaac9bdd322acc242123156553f",
+        "title": "價值 90 億美元的 Vibe Coding 公司 Replit 內部 / Dentro Replit, l'azienda di Vibe Coding da 9 Miliardi",
+        "url": "https://www.youtube.com/shorts/gQ7O2R9r4uw",
+        "source": "Marcello Ascani",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_19eb9703e0ab",
+      "title": "致 Scott Bessent 的信：包括美光和三星在內的晶片集團 SEMI 警告稱，美國對晶片定價或產能的干預將加劇晶片短缺（Maggie Eastland/彭博社） / Letter to Scott Bessent: chip group SEMI, which includes Micron and Samsung, warns that US intervention in chip pricing or capacity would worsen chip shortages (Maggie Eastland/Bloomberg)",
+      "url": "https://www.techmeme.com/260702/p41",
+      "primary_url": "https://www.techmeme.com/260702/p41",
+      "source": "Techmeme",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "9dbcba61130c38dcb4779b59d3e2fbab2580fb54",
+          "title": "致 Scott Bessent 的信：包括美光和三星在內的晶片集團 SEMI 警告稱，美國對晶片定價或產能的干預將加劇晶片短缺（Maggie Eastland/彭博社） / Letter to Scott Bessent: chip group SEMI, which includes Micron and Samsung, warns that US intervention in chip pricing or capacity would worsen chip shortages (Maggie Eastland/Bloomberg)",
+          "url": "https://www.techmeme.com/260702/p41",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-03T02:30:01Z"
+        },
+        {
+          "id": "e79bcd2ea8a0560f573209bd1cf8acafd1c8ba0c",
+          "title": "信函：包括美光和三星在內的晶片產業組織 SEMI 警告 Scott Bessent，美國影響價格或產能的政策將加劇短缺問題（Maggie Eastland/彭博社） / Letter: chip sector group SEMI, including Micron and Samsung, warns Scott Bessent US policies affecting prices or production capacity would worsen the shortage (Maggie Eastland/Bloomberg)",
+          "url": "https://www.techmeme.com/260702/p41",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-03T02:30:01Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Techmeme"
+      ],
+      "items": [
+        {
+          "id": "9dbcba61130c38dcb4779b59d3e2fbab2580fb54",
+          "title": "致 Scott Bessent 的信：包括美光和三星在內的晶片集團 SEMI 警告稱，美國對晶片定價或產能的干預將加劇晶片短缺（Maggie Eastland/彭博社） / Letter to Scott Bessent: chip group SEMI, which includes Micron and Samsung, warns that US intervention in chip pricing or capacity would worsen chip shortages (Maggie Eastland/Bloomberg)",
+          "url": "https://www.techmeme.com/260702/p41",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-03T02:30:01Z"
+        },
+        {
+          "id": "e79bcd2ea8a0560f573209bd1cf8acafd1c8ba0c",
+          "title": "信函：包括美光和三星在內的晶片產業組織 SEMI 警告 Scott Bessent，美國影響價格或產能的政策將加劇短缺問題（Maggie Eastland/彭博社） / Letter: chip sector group SEMI, including Micron and Samsung, warns Scott Bessent US policies affecting prices or production capacity would worsen the shortage (Maggie Eastland/Bloomberg)",
+          "url": "https://www.techmeme.com/260702/p41",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-03T02:30:01Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.4366,
+      "importance": 0.4366,
+      "importance_score": 0.4366,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.5,
+        "recency": 0.4553,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-03T02:30:01Z",
+      "latest_at": "2026-07-03T02:30:01Z",
+      "primary_item": {
+        "id": "9dbcba61130c38dcb4779b59d3e2fbab2580fb54",
+        "title": "致 Scott Bessent 的信：包括美光和三星在內的晶片集團 SEMI 警告稱，美國對晶片定價或產能的干預將加劇晶片短缺（Maggie Eastland/彭博社） / Letter to Scott Bessent: chip group SEMI, which includes Micron and Samsung, warns that US intervention in chip pricing or capacity would worsen chip shortages (Maggie Eastland/Bloomberg)",
+        "url": "https://www.techmeme.com/260702/p41",
         "source": "Techmeme",
         "source_name": "OPML RSS"
       }
