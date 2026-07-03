@@ -63,7 +63,7 @@ def main():
             "ejs:github",
             "--skip-download",
             "--ignore-no-formats",
-            "--quiet",
+            "--no-progress",
             "--write-sub",
             "--write-auto-sub",
             "--sub-langs",
