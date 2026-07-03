@@ -1,0 +1,727 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.080 --> 00:00:05.280
+In November 2024, a PlayStation&nbsp;
+user noticed something… odd.&nbsp;
+
+00:00:05.280 --> 00:00:10.320
+Logged in, Astro Bot on the PS&nbsp;
+Store was $44.99. But when they&nbsp;&nbsp;
+
+00:00:10.320 --> 00:00:16.000
+logged out, it was $59.99?
+They shared it on Reddit.&nbsp;
+
+00:00:16.000 --> 00:00:21.680
+Weird, but maybe just some kind of discount?
+A year later, another post.&nbsp;
+
+00:00:21.680 --> 00:00:28.480
+Red Dead 2, same region, even the same&nbsp;
+PlayStation, but two different prices?&nbsp;
+
+00:00:28.480 --> 00:00:32.800
+More of these began to pop up.
+What was happening?&nbsp;
+
+00:00:32.800 --> 00:00:38.560
+Then, the site PSprices, which tracks PlayStation&nbsp;
+Store prices, reported that Sony had been secretly&nbsp;&nbsp;
+
+00:00:38.560 --> 00:00:42.800
+experimenting with dynamic pricing.
+Two users can secretly be given&nbsp;&nbsp;
+
+00:00:42.800 --> 00:00:46.160
+different discounts.
+Is this even legal?&nbsp;
+
+00:00:46.160 --> 00:00:52.000
+Unfortunately, this is just the beginning.
+Sony is trying to squeeze customers for as&nbsp;&nbsp;
+
+00:00:52.000 --> 00:00:57.440
+much as possible, and something&nbsp;
+far bigger is forcing their hand.&nbsp;
+
+00:00:57.440 --> 00:01:02.000
+But it's not just Sony.
+A gigantic battle over the&nbsp;&nbsp;
+
+00:01:02.000 --> 00:01:17.440
+very nature of discounts is just beginning.
+And some are doing much worse than Sony.&nbsp;
+
+00:01:17.440 --> 00:01:23.120
+So, what was actually going on?
+The team at PSPrices, the platform that tracks the&nbsp;&nbsp;
+
+00:01:23.120 --> 00:01:26.000
+PlayStation Store, noticed something strange.
+Tension&nbsp;
+
+00:01:26.000 --> 00:01:29.840
+The store's public-facing API&nbsp;
+started including weird strings.&nbsp;
+
+00:01:29.840 --> 00:01:37.680
+First was "IPT_OPR_TESTING". It was&nbsp;
+attached to 17 games in 42 regions.&nbsp;
+
+00:01:37.680 --> 00:01:46.000
+Then another: "IPT_PILOT". 139 games&nbsp;
+across 68 regions, but in particular,&nbsp;&nbsp;
+
+00:01:46.000 --> 00:01:53.200
+a lot of Sony's own titles.
+Then another in March: "IPT_LTM".&nbsp;&nbsp;
+
+00:01:53.200 --> 00:01:57.440
+US only, 104 games.
+What were these?&nbsp;
+
+00:01:57.440 --> 00:02:02.480
+Users were secretly being assigned to control&nbsp;
+and test groups. You might see a standard price,&nbsp;&nbsp;
+
+00:02:02.480 --> 00:02:08.800
+or an experimental price, depending on the group.
+So, the user who had a different price from his&nbsp;&nbsp;
+
+00:02:08.800 --> 00:02:14.320
+wife? One would have been a control group and&nbsp;
+the other a test group. Despite both being in the&nbsp;&nbsp;
+
+00:02:14.320 --> 00:02:20.400
+same region and currency — even the same house.
+"During the February PlayStation Store sales we&nbsp;&nbsp;
+
+00:02:20.400 --> 00:02:24.400
+found that experiment participants received&nbsp;
+a different discount percentage than regular&nbsp;&nbsp;
+
+00:02:24.400 --> 00:02:30.640
+users. For example, HELLDIVERS 2 was sold&nbsp;
+to regular users at -25%, while experiment&nbsp;&nbsp;
+
+00:02:30.640 --> 00:02:36.400
+participants saw -56%."
+But it gets even weirder.&nbsp;
+
+00:02:36.400 --> 00:02:41.120
+IPT_LTM, for example — the US&nbsp;
+one — was testing discounts&nbsp;&nbsp;
+
+00:02:41.120 --> 00:02:47.920
+against each other, with much bigger discounts.
+The retail price for GTA5 was $39.99. Some users&nbsp;&nbsp;
+
+00:02:47.920 --> 00:02:53.840
+saw a discount to $29.99, others $26.99.
+So what was going on?&nbsp;
+
+00:02:53.840 --> 00:03:01.120
+People are calling it "Dynamic Pricing".
+And it's "sort of, but not quite."&nbsp;
+
+00:03:01.120 --> 00:03:05.600
+It's hard to say, but it doesn't seem like it&nbsp;
+fluctuates enough based on real-time demand&nbsp;&nbsp;
+
+00:03:05.600 --> 00:03:09.440
+to be called "Dynamic Pricing."
+To be clear: no one was being&nbsp;&nbsp;
+
+00:03:09.440 --> 00:03:14.800
+charged above retail. Some users were&nbsp;
+getting bigger discounts than others.&nbsp;
+
+00:03:14.800 --> 00:03:19.360
+What's actually happening is that&nbsp;
+Sony is testing price elasticity.&nbsp;
+
+00:03:19.360 --> 00:03:23.920
+This is something businesses do to figure&nbsp;
+out how sensitive you are to price changes.&nbsp;
+
+00:03:23.920 --> 00:03:28.400
+For Sony, using A/B testing, they're trying&nbsp;
+to figure out how much they need to lower&nbsp;&nbsp;
+
+00:03:28.400 --> 00:03:33.760
+prices to get you to buy. Who will pay full&nbsp;
+price, and who needs a bit more of a nudge.&nbsp;
+
+00:03:33.760 --> 00:03:38.080
+This sort of pricing already exists.
+Airlines do this all the time,&nbsp;&nbsp;
+
+00:03:38.080 --> 00:03:41.840
+which is why people frequently pay&nbsp;
+different amounts for the same ticket.&nbsp;
+
+00:03:41.840 --> 00:03:46.560
+Amazon and other big retailers&nbsp;
+also do this, egregiously so.&nbsp;
+
+00:03:46.560 --> 00:03:48.960
+And will send targeted coupons&nbsp;
+to people based on their&nbsp;&nbsp;
+
+00:03:48.960 --> 00:03:56.000
+shopping behavior or a "welcome back" discount.
+Though very recently, this is getting a lot worse.&nbsp;
+
+00:03:56.000 --> 00:04:01.360
+But for Sony, this feels different,&nbsp;
+and unwarranted for video games.&nbsp;
+
+00:04:01.360 --> 00:04:06.400
+There's a "social contract" with a&nbsp;
+storefront. Everything is uniform.&nbsp;&nbsp;
+
+00:04:06.400 --> 00:04:12.160
+Everyone sees the same discount. That was&nbsp;
+the promise, unlike with airlines or Amazon.&nbsp;
+
+00:04:12.160 --> 00:04:16.400
+Hiding the discounts feels a bit weird,&nbsp;
+plus Sony's strong monopoly position&nbsp;&nbsp;
+
+00:04:16.400 --> 00:04:21.680
+over the store basically means you pay&nbsp;
+what they decide, or nothing at all.&nbsp;
+
+00:04:21.680 --> 00:04:26.800
+And most of all: price elasticity&nbsp;
+is also tied to supply.&nbsp;
+
+00:04:26.800 --> 00:04:33.920
+Digital games don't run out. There's no supply.&nbsp;
+No limited number of plane seats to fill.&nbsp;
+
+00:04:33.920 --> 00:04:38.320
+Plus, what determines what group you're in?
+Is it random, or something more&nbsp;&nbsp;
+
+00:04:38.320 --> 00:04:43.200
+"tailored," based on behavior?
+Gamers are, naturally, pretty annoyed at this.&nbsp;
+
+00:04:43.200 --> 00:04:48.080
+More and more posts began popping up.
+Another user had Assassin's Creed Unity&nbsp;&nbsp;
+
+00:04:48.080 --> 00:04:52.640
+displaying a discounted price of £3.74&nbsp;
+when browsed logged out, jumping to&nbsp;&nbsp;
+
+00:04:52.640 --> 00:04:58.800
+£9.99 once they logged into their account.
+But moderators deleted that one, annoyingly.&nbsp;
+
+00:04:58.800 --> 00:05:02.880
+The media quickly picked up on it.
+Push Square reported that "We've been&nbsp;&nbsp;
+
+00:05:02.880 --> 00:05:08.080
+able to replicate this on the browser-based PS&nbsp;
+Store; when logged in, we see the higher price,&nbsp;&nbsp;
+
+00:05:08.080 --> 00:05:12.480
+and it swaps to the lower one when&nbsp;
+we're not, just as shown above."&nbsp;
+
+00:05:12.480 --> 00:05:16.960
+"This is absolutely ridiculous&nbsp;
+and extremely scummy."&nbsp;
+
+00:05:16.960 --> 00:05:22.160
+"Shame on Sony. I'll be buying even&nbsp;
+less digital games than I already do."&nbsp;
+
+00:05:22.160 --> 00:05:28.080
+Someone shared the PSprices article on&nbsp;
+Reddit, which got 1,100 comments in four days.&nbsp;
+
+00:05:28.080 --> 00:05:32.800
+But why is this happening now?
+As it turns out, Sony is caught&nbsp;&nbsp;
+
+00:05:32.800 --> 00:05:45.440
+right in the middle of a huge&nbsp;
+change, and they're being squeezed.
+
+00:05:45.440 --> 00:05:49.600
+If you work in marketing, SEO,&nbsp;
+or have a website, you know&nbsp;&nbsp;
+
+00:05:49.600 --> 00:05:55.600
+that a lot of decisions feel like guesswork.
+Which topics to cover, which keywords to target,&nbsp;&nbsp;
+
+00:05:55.600 --> 00:06:02.480
+where to spend your time. Lots of decisions to&nbsp;
+make, but often with incomplete information.&nbsp;
+
+00:06:02.480 --> 00:06:07.440
+So start making the right calls&nbsp;
+with the full picture, with Ahrefs.
+
+00:06:07.440 --> 00:06:13.280
+Ahrefs is a practical, everyday marketing&nbsp;
+toolkit anyone can start using immediately.&nbsp;
+
+00:06:13.280 --> 00:06:15.760
+It gives you free tools to understand your market,&nbsp;&nbsp;
+
+00:06:15.760 --> 00:06:19.120
+find opportunities, and make&nbsp;
+better marketing decisions.
+
+00:06:19.120 --> 00:06:22.000
+Instead of wondering why your&nbsp;
+site isn't getting traffic,&nbsp;&nbsp;
+
+00:06:22.000 --> 00:06:28.800
+or what content you should be creating next,&nbsp;
+Ahrefs gives you concrete answers, and for free.
+
+00:06:28.800 --> 00:06:33.600
+Start with Site Audit. It runs a&nbsp;
+complete SEO audit of your website,&nbsp;&nbsp;
+
+00:06:33.600 --> 00:06:39.360
+flags SEO and technical problems, and shows&nbsp;
+you exactly how to fix them. And no matter&nbsp;&nbsp;
+
+00:06:39.360 --> 00:06:45.360
+your website, every SEO category is covered.
+Then use Web Analytics to see how visitors&nbsp;&nbsp;
+
+00:06:45.360 --> 00:06:49.760
+are actually behaving on your site. Where&nbsp;
+they're coming from, and where you're losing&nbsp;&nbsp;
+
+00:06:49.760 --> 00:06:56.480
+them. But Ahrefs is super fast, and lets you see&nbsp;
+website visitors within a minute of their event.&nbsp;
+
+00:06:56.480 --> 00:07:00.480
+Ahrefs also lets you create content&nbsp;
+more optimized for visibility with&nbsp;&nbsp;
+
+00:07:00.480 --> 00:07:06.000
+their AI Content helper. Spend less time&nbsp;
+researching, and more time creating.
+
+00:07:06.000 --> 00:07:11.040
+Ahrefs is designed to be deep for&nbsp;
+experts, and easy to learn for beginners.&nbsp;&nbsp;
+
+00:07:11.040 --> 00:07:14.880
+You can jump right in and start&nbsp;
+improving your website, for free.&nbsp;
+
+00:07:14.880 --> 00:07:19.840
+44% of the Fortune 500 use it to&nbsp;
+make informed marketing decisions.&nbsp;
+
+00:07:19.840 --> 00:07:24.960
+Whether you're a seasoned marketer or just&nbsp;
+starting out, Ahrefs gives you the tools you need.
+
+00:07:24.960 --> 00:07:31.680
+Click the URL in the description and head to&nbsp;
+ahrefs.com/free and start using the tools today.&nbsp;
+
+00:07:31.680 --> 00:07:34.960
+Thank you to Ahrefs for sponsoring this video.
+
+00:07:34.960 --> 00:07:41.120
+To understand what's really going on… we need to&nbsp;
+look no further than our old friend: big tech.
+
+00:07:41.120 --> 00:07:46.560
+AI companies — NVIDIA, Google, Microsoft&nbsp;
+— are paying premium prices for high-speed&nbsp;&nbsp;
+
+00:07:46.560 --> 00:07:51.680
+memory at a scale that consumer electronics&nbsp;
+manufacturers simply can't compete with.&nbsp;
+
+00:07:51.680 --> 00:07:54.960
+But they're not really&nbsp;
+buying the same RAM as Sony;&nbsp;&nbsp;
+
+00:07:54.960 --> 00:08:01.760
+they're trying to get HBM: High Bandwidth Memory.
+So, what does this have to do with PlayStation?&nbsp;
+
+00:08:01.760 --> 00:08:06.800
+Well, consoles use a particular type of&nbsp;
+DRAM: GDDR, and because companies are&nbsp;&nbsp;
+
+00:08:06.800 --> 00:08:12.320
+making more HBM to keep up, they aren't&nbsp;
+prioritizing other kinds of RAM. Micron,&nbsp;&nbsp;
+
+00:08:12.320 --> 00:08:17.040
+the third-largest RAM supplier, has&nbsp;
+left the consumer market entirely.&nbsp;
+
+00:08:17.040 --> 00:08:21.600
+There's not enough to go around,&nbsp;
+so prices have gone up a lot.&nbsp;
+
+00:08:21.600 --> 00:08:29.680
+"DRAM contract prices have been revised upward,&nbsp;
+from a previous estimate of 55–60% to now 90–95%."&nbsp;
+
+00:08:29.680 --> 00:08:34.000
+So, Sony has a bit of a&nbsp;
+problem: getting enough RAM.&nbsp;
+
+00:08:34.000 --> 00:08:39.040
+In November 2025, Sony CFO Lin Tao told&nbsp;
+investors that Sony had secured just&nbsp;&nbsp;
+
+00:08:39.040 --> 00:08:45.120
+enough memory supply to keep PS5 hardware&nbsp;
+profitable, but only through March 2026.&nbsp;
+
+00:08:45.120 --> 00:08:49.840
+Anything after that wasn't&nbsp;
+guaranteed. And it gets worse.&nbsp;
+
+00:08:49.840 --> 00:08:56.560
+PlayStation hardware margins are pretty thin.&nbsp;
+Under 10%. Way more than before, but still low.&nbsp;
+
+00:08:56.560 --> 00:08:58.880
+[Piers Harding-Rolls, Ampere Analysis]: "It&nbsp;
+is likely that Sony had price protections&nbsp;&nbsp;
+
+00:08:58.880 --> 00:09:04.800
+for its components for a set period and this&nbsp;
+may well have come to an end. With no sign&nbsp;&nbsp;
+
+00:09:04.800 --> 00:09:10.240
+of prices easing ... Sony will have made the&nbsp;
+move to protect its slim hardware margins."&nbsp;
+
+00:09:10.240 --> 00:09:16.400
+To be clear: Sony as a whole isn't struggling.&nbsp;
+Operating profits jumped 22% year-on-year in&nbsp;&nbsp;
+
+00:09:16.400 --> 00:09:23.040
+Q3 FY2025. PlayStation alone brought&nbsp;
+in around $900 million, up 19%. But&nbsp;&nbsp;
+
+00:09:23.040 --> 00:09:27.760
+things were getting worse, and fast.
+With this road of uncertainty ahead,&nbsp;&nbsp;
+
+00:09:27.760 --> 00:09:32.320
+it gives context to some decisions.
+In Sony's Q3 earnings call, February&nbsp;&nbsp;
+
+00:09:32.320 --> 00:09:38.000
+2026 — right at the end of Sony's RAM supply&nbsp;
+— CFO Lin Tao said something interesting.&nbsp;
+
+00:09:38.000 --> 00:09:43.440
+"We intend to minimize the impact of the increased&nbsp;
+memory cost on this segment going forward by&nbsp;&nbsp;
+
+00:09:43.440 --> 00:09:48.560
+prioritizing monetization of the install base to&nbsp;
+date and striving to further expand our software&nbsp;&nbsp;
+
+00:09:48.560 --> 00:09:52.480
+and network service revenue."
+The installed base — aka:&nbsp;&nbsp;
+
+00:09:52.480 --> 00:09:57.680
+the people who already own a PS5.
+So, what does all this have to&nbsp;&nbsp;
+
+00:09:57.680 --> 00:10:02.640
+do with Sony's pricing experiment?
+Sony takes a 30% cut from every PS&nbsp;&nbsp;
+
+00:10:02.640 --> 00:10:08.240
+Store purchase, like Apple and Steam,&nbsp;
+even if it's not their own games.&nbsp;
+
+00:10:08.240 --> 00:10:12.560
+Something which they're currently being sued for.
+But now they're trying to get their "install&nbsp;&nbsp;
+
+00:10:12.560 --> 00:10:18.800
+base" to buy more, by testing elasticity.
+Console margins are slim and getting slimmer,&nbsp;&nbsp;
+
+00:10:18.800 --> 00:10:22.960
+so why not extract more from the&nbsp;
+area with far better margins?
+
+00:10:22.960 --> 00:10:28.320
+Users are now expecting a price hike to PS Plus,&nbsp;
+with some threatening to cancel if they do.&nbsp;
+
+00:10:28.320 --> 00:10:33.040
+Others are suggesting buying a year's&nbsp;
+subscription now before the price jumps.&nbsp;
+
+00:10:33.040 --> 00:10:36.720
+Though… dunno how that sticks it to Sony?
+
+00:10:36.720 --> 00:10:41.120
+On March 27th, 2026. PlayStation Blog.&nbsp;
+Isabelle Tomatis, VP of Global Marketing.&nbsp;
+
+00:10:42.000 --> 00:10:46.080
+"With continued pressures in the global&nbsp;
+economic landscape, we've made the decision&nbsp;&nbsp;
+
+00:10:46.080 --> 00:10:52.105
+to increase the prices of PS5, PS5 Pro, and&nbsp;
+PlayStation Portal remote player globally."
+
+00:10:52.105 --> 00:10:52.202
+PS5 Disc Edition: $549.99 → $649.99. Up $100.
+PS5 Digital Edition: $499.99 → $599.99. Up $100.&nbsp;
+
+00:10:52.202 --> 00:10:54.320
+PS5 Pro: $749.99 → $899.99. Up $150.
+Since launch in November 2020,&nbsp;&nbsp;
+
+00:10:54.320 --> 00:11:00.560
+the PS5 Disc Edition has gone from&nbsp;
+$499.99 to $649.99 — $150 more than&nbsp;&nbsp;
+
+00:11:00.560 --> 00:11:01.600
+day one. (Lower third: With a&nbsp;
+$50 increase in August 2025).&nbsp;
+
+00:11:01.600 --> 00:11:10.080
+The PS5 Pro launched at $699.99 in late 2024.&nbsp;
+It's now $899.99. $200 more in under two years.&nbsp;
+
+00:11:10.080 --> 00:11:14.480
+I didn't realise the PlayStation was an&nbsp;
+appreciating asset! I thought consoles&nbsp;&nbsp;
+
+00:11:14.480 --> 00:11:17.840
+were supposed to get cheaper, guys.
+People are now expecting the Switch&nbsp;&nbsp;
+
+00:11:17.840 --> 00:11:22.240
+2 to also see a price hike.
+And that's not even mentioning&nbsp;&nbsp;
+
+00:11:22.240 --> 00:11:24.676
+the new digital license controversy.
+(Highlight: "now require an internet connection&nbsp;&nbsp;
+
+00:11:24.676 --> 00:11:26.240
+once every 30 days to validate the license")
+The more things change,&nbsp;&nbsp;
+
+00:11:26.240 --> 00:11:30.960
+the more they stay the same.
+But something is changing.&nbsp;
+
+00:11:30.960 --> 00:11:35.040
+This type of tailored, opaque pricing&nbsp;
+from Sony is becoming more common.&nbsp;
+
+00:11:35.040 --> 00:11:48.320
+There's a huge battle waging right now over&nbsp;
+the very nature of sales and discounts.&nbsp;
+
+00:11:48.320 --> 00:11:53.120
+More and more companies are trying to&nbsp;
+change the way discounts work altogether.&nbsp;
+
+00:11:53.120 --> 00:11:59.120
+Even worse than Sony, many companies will&nbsp;
+secretly charge you more. And not at random.&nbsp;
+
+00:11:59.120 --> 00:12:02.960
+Though I'm not talking about&nbsp;
+dynamic pricing or surge pricing.&nbsp;
+
+00:12:02.960 --> 00:12:08.880
+Where prices change based on general demand, time&nbsp;
+of day, scarcity — why hotels cost more on the&nbsp;&nbsp;
+
+00:12:08.880 --> 00:12:15.200
+same day as a big sporting event. That's normal.
+I'm talking about surveillance pricing.
+
+00:12:15.200 --> 00:12:17.760
+Instacart began using AI price experiments,&nbsp;&nbsp;
+
+00:12:17.760 --> 00:12:23.360
+and a non-profit found that prices&nbsp;
+differed by up to 23% per item.&nbsp;
+
+00:12:23.360 --> 00:12:27.600
+Target's app will display higher&nbsp;
+prices on the same products — like&nbsp;&nbsp;
+
+00:12:27.600 --> 00:12:32.800
+$148 more for the same vacuum cleaner.
+Even weirder, these price changes came&nbsp;&nbsp;
+
+00:12:32.800 --> 00:12:37.520
+when you were inside the store, versus&nbsp;
+on the far side of the parking lot.&nbsp;
+
+00:12:37.520 --> 00:12:42.640
+Staples will charge you more if you have fewer&nbsp;
+options — like if you're near a competitor.&nbsp;
+
+00:12:42.640 --> 00:12:45.840
+Delta announced it would start&nbsp;
+deploying surveillance pricing,&nbsp;&nbsp;
+
+00:12:45.840 --> 00:12:51.680
+though it quickly backpedalled after backlash.
+Hotel prices in Manhattan jumped by as much as&nbsp;&nbsp;
+
+00:12:51.680 --> 00:12:58.640
+$511 per night when browsing from a Bay Area&nbsp;
+IP address compared to Phoenix or Kansas City.&nbsp;
+
+00:12:59.280 --> 00:13:05.280
+Don't even get me started on Amazon.
+Though this pricing has started a war.
+
+00:13:05.280 --> 00:13:09.280
+This year, lawmakers across the US&nbsp;
+have introduced more than 70 bills&nbsp;&nbsp;
+
+00:13:09.280 --> 00:13:14.880
+targeting surveillance pricing — travel,&nbsp;
+grocery, rental markets, and now gaming.&nbsp;
+
+00:13:14.880 --> 00:13:18.640
+On March 5th, 2026, the House&nbsp;
+Oversight Committee formally&nbsp;&nbsp;
+
+00:13:18.640 --> 00:13:23.440
+launched an investigation into it — sending&nbsp;
+letters to major platform companies demanding&nbsp;&nbsp;
+
+00:13:23.440 --> 00:13:27.520
+documentation on their pricing algorithms.
+[Chairman Comer]: "Surveillance pricing can be&nbsp;&nbsp;
+
+00:13:27.520 --> 00:13:32.480
+difficult to detect because consumers rarely&nbsp;
+have a view into what information a company&nbsp;&nbsp;
+
+00:13:32.480 --> 00:13:37.360
+has about them, what the prices they see are&nbsp;
+based on, or what prices other customers may&nbsp;&nbsp;
+
+00:13:37.360 --> 00:13:42.880
+be seeing for the same goods or services.
+Often this takes place in a 'black box'&nbsp;&nbsp;
+
+00:13:42.880 --> 00:13:47.600
+environment where consumers do not know&nbsp;
+that personalized pricing is taking place&nbsp;&nbsp;
+
+00:13:47.600 --> 00:13:51.600
+or what information collected&nbsp;
+about them is driving prices."&nbsp;
+
+00:13:51.600 --> 00:13:56.160
+Maryland just passed the Protection From&nbsp;
+Predatory Pricing Act — the first law of its&nbsp;&nbsp;
+
+00:13:56.160 --> 00:14:01.040
+kind in the US — banning retailers and delivery&nbsp;
+services from using personal data to tailor&nbsp;&nbsp;
+
+00:14:01.040 --> 00:14:07.920
+prices. Though it might not be enough.
+Consumer Reports said it had "too many&nbsp;&nbsp;
+
+00:14:07.920 --> 00:14:11.520
+industry-friendly loopholes, and&nbsp;
+weak enforcement provisions."&nbsp;
+
+00:14:11.520 --> 00:14:16.640
+But Maryland is just the beginning.
+Hawaii, California, Illinois,&nbsp;&nbsp;
+
+00:14:16.640 --> 00:14:20.720
+Kentucky, Connecticut — more than&nbsp;
+a dozen states have bills pending.
+
+00:14:20.720 --> 00:14:25.600
+Sony's pricing might not be as bad as some&nbsp;
+of these other cases, based on your income,&nbsp;&nbsp;
+
+00:14:25.600 --> 00:14:30.560
+location, or other private factors.
+But it's along the same train of thought,&nbsp;&nbsp;
+
+00:14:30.560 --> 00:14:34.240
+and experiments are often the&nbsp;
+first step of a bigger plan.&nbsp;
+
+00:14:34.240 --> 00:14:38.960
+The worst part of all these pricing&nbsp;
+strategies is the lack of transparency.&nbsp;
+
+00:14:38.960 --> 00:14:44.400
+In 1970, economist George Akerlof published&nbsp;
+the paper "Market for Lemons," which won&nbsp;&nbsp;
+
+00:14:44.400 --> 00:14:48.400
+him a Nobel Prize and changed the&nbsp;
+way we understood the free market.&nbsp;
+
+00:14:48.400 --> 00:14:56.000
+In the used car market, sellers know whether their&nbsp;
+car is good or a "lemon," but buyers can't tell.&nbsp;&nbsp;
+
+00:14:56.000 --> 00:15:02.800
+So buyers just pay the "average price," instead&nbsp;
+of more for the good car and less for the bad.&nbsp;
+
+00:15:02.800 --> 00:15:06.320
+With more information, customers&nbsp;
+make better purchasing decisions,&nbsp;&nbsp;
+
+00:15:06.320 --> 00:15:08.400
+and better quality products win.&nbsp;
+
+00:15:08.400 --> 00:15:13.680
+But in a "black box," customers lose&nbsp;
+and spend more for worse products.
+
+00:15:13.680 --> 00:15:17.360
+Currently, Sony is in hot water&nbsp;
+over another problem as well.&nbsp;
+
+00:15:17.360 --> 00:15:23.280
+They make so much money from the PS Store because&nbsp;
+they charge 30%, since they hold all the power.&nbsp;
+
+00:15:23.280 --> 00:15:28.400
+But now they're caught in a multi-billion&nbsp;
+dollar lawsuit, as some think this is an illegal&nbsp;&nbsp;
+
+00:15:28.400 --> 00:15:39.533
+monopoly that has caused prices to be too high.
+Click this video to learn the rest of the story.
+

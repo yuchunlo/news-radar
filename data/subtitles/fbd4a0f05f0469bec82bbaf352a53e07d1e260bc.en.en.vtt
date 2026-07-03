@@ -1,0 +1,813 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.160 --> 00:00:03.440
+Adobe had a stranglehold on video editing.&nbsp;
+
+00:00:03.440 --> 00:00:08.480
+Premiere Pro. After Effects.
+$69 a month. Subscription only.&nbsp;
+
+00:00:08.480 --> 00:00:13.200
+Giant cancellation fees.
+It’s been the way for years.&nbsp;
+
+00:00:13.200 --> 00:00:16.560
+But that's changing.
+People are starting to ditch&nbsp;&nbsp;
+
+00:00:16.560 --> 00:00:21.120
+Premiere Pro, for something else.
+A software with no subscription,&nbsp;&nbsp;
+
+00:00:21.120 --> 00:00:26.480
+that you buy once and own forever.
+Which has a free version, with 95%&nbsp;&nbsp;
+
+00:00:26.480 --> 00:00:29.280
+of the features.
+Davinci Resolve.&nbsp;
+
+00:00:29.280 --> 00:00:34.160
+The software that dominates TV and&nbsp;
+Hollywood, is now coming for Adobe.&nbsp;
+
+00:00:34.160 --> 00:00:48.640
+This is how DaVinci Resolve&nbsp;
+beat Adobe at its own game.
+
+00:00:48.640 --> 00:00:53.440
+What some people miss is that DaVinci&nbsp;
+isn't really just "another editor".&nbsp;
+
+00:00:53.440 --> 00:00:57.680
+It has something very powerful,&nbsp;
+but also very specific.&nbsp;
+
+00:00:57.680 --> 00:01:02.400
+To understand why DaVinci is so important,&nbsp;
+we actually have to look where it's actually&nbsp;&nbsp;
+
+00:01:02.400 --> 00:01:05.520
+used the most.
+Hollywood movies.
+
+00:01:05.520 --> 00:01:09.440
+Imagine the movie process as&nbsp;
+lots of overlapping pipes.&nbsp;
+
+00:01:09.440 --> 00:01:13.600
+There's the rough, basic edit, using&nbsp;
+proxy files: aka lower quality versions&nbsp;&nbsp;
+
+00:01:13.600 --> 00:01:18.080
+of footage. This is often done with&nbsp;
+Avid Media Composer, or Premiere Pro.&nbsp;
+
+00:01:18.080 --> 00:01:24.480
+Then it splits into different pipes:
+There's VFX, which is a gigantic part with&nbsp;&nbsp;
+
+00:01:24.480 --> 00:01:29.200
+all kinds of artists, tools, and steps.
+Then, there's the conform stage,&nbsp;&nbsp;
+
+00:01:29.200 --> 00:01:33.760
+where that low quality is upgraded&nbsp;
+to the real, high-resolution media.&nbsp;
+
+00:01:33.760 --> 00:01:37.360
+There's sound design and&nbsp;
+mixing, often with composing.&nbsp;
+
+00:01:37.360 --> 00:01:42.400
+And then, there's color grading.
+So where does DaVinci fit?&nbsp;
+
+00:01:42.400 --> 00:01:45.840
+Right here (point to color grading).
+Color grading. Color correction, like&nbsp;&nbsp;
+
+00:01:45.840 --> 00:01:51.680
+fixing inconsistent lighting and exposure, and&nbsp;
+grading itself, the tone and palette of the movie.&nbsp;
+
+00:01:51.680 --> 00:01:58.640
+DaVinci could handle a lot of these steps, but&nbsp;
+it is hands down, undeniably the best at this.&nbsp;
+
+00:01:58.640 --> 00:02:04.400
+This isn't a small niche audience either.
+Most major movies, TV commercials, TV shows,&nbsp;&nbsp;
+
+00:02:04.400 --> 00:02:11.280
+and music videos are color graded in Resolve.
+Star Wars, Avatar, The Martian, Jason Bourne,&nbsp;&nbsp;
+
+00:02:11.280 --> 00:02:16.560
+Oppenheimer, Superman, Alien Romulus, Pirates&nbsp;
+of the Caribbean… it'd probably be easier to&nbsp;&nbsp;
+
+00:02:16.560 --> 00:02:23.360
+list blockbusters not color-graded in DaVinci.
+This is actually where one of their problems was.&nbsp;
+
+00:02:23.360 --> 00:02:28.960
+You see, DaVinci isn't new. It's&nbsp;
+actually been around for over 40 years.&nbsp;
+
+00:02:28.960 --> 00:02:33.600
+And through the 80s and 90s, DaVinci&nbsp;
+had built a reputation as the gold&nbsp;&nbsp;
+
+00:02:33.600 --> 00:02:35.360
+standard for color grading.
+(show below products on screen):&nbsp;
+
+00:02:35.360 --> 00:02:39.280
+DaVinci Classic, DaVinci&nbsp;
+Renaissance, and DaVinci 2K.&nbsp;
+
+00:02:39.280 --> 00:02:47.200
+But, it was a bit different back then.
+These products were between $200,000 and $800,000.&nbsp;
+
+00:02:47.200 --> 00:02:52.160
+Not cheap, but this was pretty&nbsp;
+standard for filmmaking tools.&nbsp;
+
+00:02:52.160 --> 00:02:56.720
+It wasn't you or me buying this&nbsp;
+software, it was giant studios.&nbsp;
+
+00:02:56.720 --> 00:03:03.040
+This continued for decades, then out of&nbsp;
+nowhere, seemed to come the end of DaVinci.
+
+00:03:03.040 --> 00:03:07.120
+The corporate owner, Acterna,&nbsp;
+went bankrupt in 2008.&nbsp;
+
+00:03:07.120 --> 00:03:10.800
+But… DaVinci, the company within&nbsp;
+Acterna, was still profitable.&nbsp;
+
+00:03:10.800 --> 00:03:14.160
+Though that didn't matter.
+Even if part of a business&nbsp;&nbsp;
+
+00:03:14.160 --> 00:03:19.840
+is profitable, when the whole thing goes&nbsp;
+into bankruptcy, it can be very messy.&nbsp;
+
+00:03:19.840 --> 00:03:25.040
+But ironically, this was probably&nbsp;
+the best thing to happen to DaVinci.&nbsp;
+
+00:03:25.040 --> 00:03:28.400
+Different assets went up for&nbsp;
+sale at a bankruptcy auction.&nbsp;
+
+00:03:28.400 --> 00:03:32.560
+DaVinci was bought by the Australian&nbsp;
+camera company Blackmagic Design.&nbsp;
+
+00:03:32.560 --> 00:03:36.960
+And more specifically, its owner Grant Petty.
+
+00:03:36.960 --> 00:03:41.680
+His company was a bit different.
+It was very self sufficient. They hadn't&nbsp;&nbsp;
+
+00:03:41.680 --> 00:03:45.840
+borrowed money and had basically no investment.
+[Grant Petty, BMD]: "If you're using venture&nbsp;&nbsp;
+
+00:03:45.840 --> 00:03:49.200
+capital, you're always desperate&nbsp;
+to pay back the investment"&nbsp;
+
+00:03:49.200 --> 00:03:54.240
+"[We were] in the right place and fit enough to&nbsp;
+take the opportunity. "Sales were up [for BMD's&nbsp;&nbsp;
+
+00:03:54.240 --> 00:03:59.200
+products] and we were doing quite well".
+The price for DaVinci was $10 million,&nbsp;&nbsp;
+
+00:03:59.200 --> 00:04:04.880
+which was quite a bargain, since buying&nbsp;
+the software itself cost $250,000.&nbsp;
+
+00:04:04.880 --> 00:04:10.080
+But Grant had big plans, which would&nbsp;
+change the world of video forever.
+
+00:04:33.360 --> 00:04:38.080
+These VPNs managed to grab highly confidential&nbsp;
+information like salaries and client payments,
+
+00:04:38.080 --> 00:04:40.240
+some even had their bank accounts emptied.&nbsp;
+
+00:04:40.240 --> 00:04:42.420
+If you’re a freelancer or run a business,&nbsp;
+putting financial information in lots of&nbsp;&nbsp;
+
+00:04:42.420 --> 00:04:42.960
+scattered, unknown tools, isn’t the best idea.
+And for something that important, it’s better to&nbsp;&nbsp;
+
+00:04:42.960 --> 00:04:45.920
+be safe than sorry.
+That’s where Xero can help.
+
+00:04:45.920 --> 00:04:49.440
+Xero is a cloud-based accounting&nbsp;
+platform that helps small businesses&nbsp;&nbsp;
+
+00:04:49.440 --> 00:04:54.320
+manage finances: with invoicing,&nbsp;
+bills, payments, payroll, sales tax,&nbsp;&nbsp;
+
+00:04:54.320 --> 00:04:57.825
+and more all in one secure location.
+Xero encrypts your business information,&nbsp;&nbsp;
+
+00:04:57.825 --> 00:04:57.895
+has multi-factor authentication, and&nbsp;
+24/7 monitoring and surveillance.&nbsp;
+
+00:04:57.895 --> 00:04:57.995
+They even have a security noticeboard to keep you&nbsp;
+informed about recent scams and how to avoid them.
+
+00:04:57.995 --> 00:05:00.880
+Xero helps with one of the&nbsp;
+hardest parts of freelancing,&nbsp;&nbsp;
+
+00:05:04.560 --> 00:05:24.556
+which is surprisingly charging people.
+Following up if clients forget can be awkward,&nbsp;&nbsp;
+
+00:05:24.556 --> 00:05:28.800
+and what if they use a different payment method&nbsp;
+others didn’t? What about different currencies?&nbsp;
+
+00:05:30.240 --> 00:05:34.560
+Xero gives your invoices a “pay now”&nbsp;
+button, which makes paying you easy,&nbsp;&nbsp;
+
+00:05:34.560 --> 00:05:38.880
+and accepts online payments, credit&nbsp;
+cards, even Apple &amp; Google Pay.&nbsp;
+
+00:05:38.880 --> 00:05:45.280
+Xero can automatically send clients reminders too.
+Xero will also help you easily prepare and file&nbsp;&nbsp;
+
+00:05:45.280 --> 00:05:49.200
+taxes, removing stress from one&nbsp;
+of the busiest times of the year.
+
+00:05:49.200 --> 00:05:53.840
+Xero have all kinds of plans. Whether you&nbsp;
+run a small business, are a freelancer,&nbsp;&nbsp;
+
+00:05:53.840 --> 00:05:58.000
+or just have a side-gig, Xero&nbsp;
+has the perfect plan for you.
+
+00:05:58.000 --> 00:06:01.040
+As of the time of making&nbsp;
+this video, Xero is offering&nbsp;&nbsp;
+
+00:06:01.040 --> 00:06:07.600
+90% off for 6 months using the link below.
+Join 4.6 million subscribers, and start using Xero&nbsp;&nbsp;
+
+00:06:07.600 --> 00:06:12.960
+to get on top of your finances, and your privacy.
+Thank you to Xero for sponsoring our videos.
+
+00:06:12.960 --> 00:06:17.100
+Even though Blackmagic was doing&nbsp;
+well, it was time to change things up.&nbsp;
+
+00:06:17.100 --> 00:06:19.760
+[Grant Petty, BMD]: "Other companies were&nbsp;
+stuck in the world of charging a lot of&nbsp;&nbsp;
+
+00:06:19.760 --> 00:06:25.600
+money for their products but we weren't playing&nbsp;
+by the same rules. Resolve was a good product,&nbsp;&nbsp;
+
+00:06:25.600 --> 00:06:31.120
+but it was the same old hardware, so&nbsp;
+we decided to focus on the software."&nbsp;
+
+00:06:31.120 --> 00:06:35.680
+Grant wanted to change things up, and&nbsp;
+the key to that was DaVinci Resolve.&nbsp;
+
+00:06:35.680 --> 00:06:40.400
+So, in 2010, at the National&nbsp;
+Association of Broadcasters show,&nbsp;&nbsp;
+
+00:06:40.400 --> 00:06:47.280
+Grant and Blackmagic made a big announcement.
+New versions, and more importantly, a new price:&nbsp;
+
+00:06:47.280 --> 00:06:52.320
+$995 for a macOS version.
+$29,995 for the advanced macOS,&nbsp;&nbsp;
+
+00:06:52.320 --> 00:06:58.160
+and $19,995 for the advanced Linux version.
+That might sound like a lot. But remember,&nbsp;&nbsp;
+
+00:06:58.160 --> 00:07:02.080
+once you bought it, you owned it.
+Highly robust, top-of-the-line&nbsp;&nbsp;
+
+00:07:02.080 --> 00:07:05.440
+tools for Hollywood movies.
+And before this, they were&nbsp;&nbsp;
+
+00:07:05.440 --> 00:07:11.440
+between $200,000 and $800,000.
+This was a huge change.&nbsp;
+
+00:07:11.440 --> 00:07:16.320
+But right after, the entire industry&nbsp;
+began to go through a metamorphosis.
+
+00:07:16.320 --> 00:07:20.320
+In 2013, Adobe dropped the&nbsp;
+"pay once and own it" model.&nbsp;
+
+00:07:20.320 --> 00:07:24.080
+Now, everything would be bundled&nbsp;
+under one big monthly payment.&nbsp;
+
+00:07:24.080 --> 00:07:26.000
+Creative Cloud.
+I don't think I&nbsp;&nbsp;
+
+00:07:26.000 --> 00:07:30.960
+need to explain why Adobe is so annoying.
+Deceptive cancellation fees, a short trial,&nbsp;&nbsp;
+
+00:07:30.960 --> 00:07:37.520
+a giant monthly price tag, the FTC lawsuit.
+But, the money doesn't lie.
+
+00:07:37.520 --> 00:07:41.680
+Other companies began to jump on.
+And soon every piece of software you&nbsp;&nbsp;
+
+00:07:41.680 --> 00:07:46.320
+could imagine moved to subscription.
+So, what about Blackmagic?&nbsp;
+
+00:07:46.320 --> 00:07:50.240
+Grant could have swapped to a subscription&nbsp;
+license here, and made a lot of money.&nbsp;
+
+00:07:50.240 --> 00:07:55.920
+But, he essentially did the opposite to Adobe.
+Grant has made it clear how much he&nbsp;&nbsp;
+
+00:07:55.920 --> 00:07:58.160
+despises these plans.
+[Grant Petty]: "Cloud&nbsp;&nbsp;
+
+00:07:58.160 --> 00:08:03.920
+licensors are like slumlords. You have to keep&nbsp;
+buying from them and the more you're loyal,&nbsp;&nbsp;
+
+00:08:03.920 --> 00:08:39.920
+the more you'll get penalized. It is like your dog&nbsp;
+does something nice and you beat it with a stick."
+
+00:08:57.680 --> 00:09:02.240
+DaVinci moved in the other direction.
+Not only did they stay a "pay once&nbsp;&nbsp;
+
+00:09:02.240 --> 00:09:08.640
+and own" model, but they doubled down.
+In 2017, with the release of DaVinci Resolve 14,&nbsp;&nbsp;
+
+00:09:08.640 --> 00:09:12.320
+the price dropped even more.
+To just $299.&nbsp;
+
+00:09:12.320 --> 00:09:15.440
+And, this wasn't a cheap, basic version either.&nbsp;
+
+00:09:15.440 --> 00:09:18.880
+This was the full package,&nbsp;
+with even more features.&nbsp;
+
+00:09:18.880 --> 00:09:22.880
+Notably, a full scale video&nbsp;
+editor. Like Premiere Pro.&nbsp;
+
+00:09:22.880 --> 00:09:29.760
+Grant also said "The full DaVinci Resolve&nbsp;
+14 Studio is now available for only $299,&nbsp;&nbsp;
+
+00:09:29.760 --> 00:09:34.640
+which is less than the cost of most&nbsp;
+annual cloud-based subscription plans"&nbsp;
+
+00:09:34.640 --> 00:09:40.800
+I think we all know who he's talking about.
+But, somehow, that wasn't even the biggest change.&nbsp;
+
+00:09:40.800 --> 00:09:43.920
+Today, if you go to DaVinci&nbsp;
+Resolve's homepage, you'll&nbsp;&nbsp;
+
+00:09:43.920 --> 00:09:51.120
+see two buttons: Free Download, and Buy now.
+So, what is that free download? A free trial?&nbsp;&nbsp;
+
+00:09:51.120 --> 00:09:53.760
+A super basic DaVinci?
+No.&nbsp;
+
+00:09:53.760 --> 00:09:57.840
+The free version has about&nbsp;
+95% of the paid product.&nbsp;
+
+00:09:57.840 --> 00:10:02.480
+I'm not kidding, you can go try&nbsp;
+it right now. It's unbelievable.&nbsp;
+
+00:10:02.480 --> 00:10:06.400
+They don't even ask for your credit&nbsp;
+card. Just a few details and then&nbsp;&nbsp;
+
+00:10:06.400 --> 00:10:11.600
+they ask you what features they should add.
+The only things it doesn't have are resolutions&nbsp;&nbsp;
+
+00:10:11.600 --> 00:10:17.200
+beyond 4k, collaboration tools, and a few&nbsp;
+other features used by industry professionals.&nbsp;
+
+00:10:17.200 --> 00:10:22.240
+It reminds me of software from the 2000s.&nbsp;
+"Here you go. We hope you like it. Anything&nbsp;&nbsp;
+
+00:10:22.240 --> 00:10:25.680
+we can do to improve?"
+And that's not all.&nbsp;
+
+00:10:25.680 --> 00:10:31.280
+Blackmagic just kept adding stuff to DaVinci.
+In 2017 they acquired Fairlight,&nbsp;&nbsp;
+
+00:10:31.280 --> 00:10:35.120
+an audio editing software.
+Then added it to DaVinci Resolve.&nbsp;
+
+00:10:35.120 --> 00:10:42.240
+Then in 2018, they added VFX and composition tools&nbsp;
+from Fusion, which they had acquired back in 2014.
+
+00:10:42.240 --> 00:10:47.920
+DaVinci just kept getting better and better.
+Soon this software had everything.&nbsp;
+
+00:10:47.920 --> 00:10:53.680
+Not only the best color-grading you could get, far&nbsp;
+better than anything Adobe had, but a great video&nbsp;&nbsp;
+
+00:10:53.680 --> 00:10:59.520
+editor, VFX tools, and audio editing.
+And all for that $299 price tag,&nbsp;&nbsp;
+
+00:10:59.520 --> 00:11:03.440
+and a robust free version.
+More and more people were beginning&nbsp;&nbsp;
+
+00:11:03.440 --> 00:11:07.680
+to look over from Premiere Pro.
+But, why do this?&nbsp;
+
+00:11:07.680 --> 00:11:13.520
+Why give away most of your product for free?
+Surely this makes no business sense, right?&nbsp;
+
+00:11:13.520 --> 00:11:17.360
+Well, it actually made much&nbsp;
+more sense than you might think.&nbsp;
+
+00:11:17.360 --> 00:11:33.920
+And even if it was still in the background, word&nbsp;
+of DaVinci Resolve was beginning to get around…
+
+00:11:33.920 --> 00:11:39.920
+All kinds of fascinating business stories happen&nbsp;
+all the time, some without anyone noticing.&nbsp;
+
+00:11:39.920 --> 00:11:44.000
+And they have heaps of things to teach us.
+We cover lots of these stories,&nbsp;&nbsp;
+
+00:11:44.000 --> 00:11:50.800
+so subscribe! We're almost at 1&nbsp;
+million, and you can help us get there.
+
+00:11:50.800 --> 00:11:54.480
+For DaVinci, there are two&nbsp;
+important factors at play.&nbsp;
+
+00:11:54.480 --> 00:11:58.240
+First, Blackmagic isn't a&nbsp;
+software company, like Adobe.&nbsp;
+
+00:11:58.240 --> 00:12:01.120
+They're still a camera and industry tool company.
+
+00:12:01.120 --> 00:12:05.280
+Highly advanced, professional&nbsp;
+tools like cameras around $30,000.
+
+00:12:05.280 --> 00:12:09.760
+Editing dashboards, color panels, all&nbsp;
+for hundreds or thousands of dollars.&nbsp;
+
+00:12:09.760 --> 00:12:13.920
+Their gigantic consoles for movie&nbsp;
+studios go for tens of thousands.
+
+00:12:13.920 --> 00:12:17.280
+Blackmagic isn't a software company like Adobe.&nbsp;
+
+00:12:17.280 --> 00:12:22.960
+They're a hardware company, and DaVinci&nbsp;
+Resolve is the software that goes alongside it.&nbsp;
+
+00:12:22.960 --> 00:12:27.600
+So why does this matter?
+Because of the second factor.
+
+00:12:27.600 --> 00:12:31.520
+Making most of it free, and the full&nbsp;
+version a "buy and own forever" license,&nbsp;&nbsp;
+
+00:12:31.520 --> 00:12:34.480
+aligns with Grant's philosophy.
+[Grant Petty]: " I think the computer&nbsp;&nbsp;
+
+00:12:34.480 --> 00:12:38.960
+industry has forgotten about the spirit&nbsp;
+behind when they were setup. Personal&nbsp;&nbsp;
+
+00:12:38.960 --> 00:12:44.560
+computers were about distributing computing&nbsp;
+power to individual people. Now it's become&nbsp;&nbsp;
+
+00:12:44.560 --> 00:12:50.720
+a centralization of your data and you're the&nbsp;
+product, not the product you're actually buying.&nbsp;
+
+00:12:50.720 --> 00:12:56.880
+I think the computer industry has lost its way."
+That point about "distributing computing&nbsp;&nbsp;
+
+00:12:56.880 --> 00:13:02.400
+power to individual people" is key.
+Grant calls this "democratizing creativity".&nbsp;
+
+00:13:02.400 --> 00:13:06.960
+It makes it easier for people to jump&nbsp;
+in, create something, and maybe end up&nbsp;&nbsp;
+
+00:13:06.960 --> 00:13:13.680
+on a path to being a filmmaker, freelance editor,&nbsp;
+color-grader, audio engineer, or even a YouTuber!&nbsp;
+
+00:13:13.680 --> 00:13:18.400
+Those who start in DaVinci may, down the&nbsp;
+road, as they go from amateur to professional,&nbsp;&nbsp;
+
+00:13:18.400 --> 00:13:23.440
+pay for the other products by Blackmagic.
+Plus, it does something very smart.&nbsp;
+
+00:13:23.440 --> 00:13:29.040
+One of the biggest challenges for a customer here&nbsp;
+isn't actually pricing. It's the switching cost.&nbsp;
+
+00:13:29.040 --> 00:13:35.280
+If you've used Premiere Pro for, say, 10 years,&nbsp;
+jumping into new editing software is very hard.&nbsp;
+
+00:13:35.280 --> 00:13:39.920
+It can take months to relearn shortcuts, the&nbsp;
+way plugins work, the way the timeline works,&nbsp;&nbsp;
+
+00:13:39.920 --> 00:13:44.080
+general muscle memory, and I say&nbsp;
+this as someone who's done it!&nbsp;
+
+00:13:44.080 --> 00:13:48.240
+But Blackmagic has made it as&nbsp;
+easy as possible to switch.&nbsp;
+
+00:13:48.240 --> 00:13:54.160
+There's no financial risk in learning it, and&nbsp;
+you're not restricted in how much you can learn.&nbsp;
+
+00:13:54.160 --> 00:14:00.080
+This also brings me to a conspiracy theory I have,&nbsp;
+that Adobe secretly allowed the rampant piracy&nbsp;&nbsp;
+
+00:14:00.080 --> 00:14:04.720
+of their products in the early 2010s.
+To get everyone into the ecosystem,&nbsp;&nbsp;
+
+00:14:04.720 --> 00:14:09.680
+and build that switching cost.
+So when those who pirated software eventually&nbsp;&nbsp;
+
+00:14:09.680 --> 00:14:14.400
+pay for it, they're already used to Adobe.
+Though, I could be wrong.&nbsp;
+
+00:14:14.400 --> 00:14:19.200
+But going back to DaVinci, this&nbsp;
+tactic actually combats piracy.&nbsp;
+
+00:14:19.200 --> 00:14:23.840
+Why pirate a product that has&nbsp;
+95% of its features for free?&nbsp;
+
+00:14:23.840 --> 00:14:28.960
+The switching cost was as low as possible,&nbsp;
+and people were beginning to notice.
+
+00:14:49.200 --> 00:14:53.680
+In just a few years, it felt like&nbsp;
+everyone was giving up Premiere.&nbsp;
+
+00:14:53.680 --> 00:15:00.000
+In 2009, DaVinci had just 100 users.
+Of course, these customers paid hundreds&nbsp;&nbsp;
+
+00:15:00.000 --> 00:15:05.760
+of thousands, but by January 2019,&nbsp;
+DaVinci Resolve had over 2 million.&nbsp;
+
+00:15:05.760 --> 00:15:11.840
+Blackmagic now had over 1000 staff,&nbsp;
+and was making $300 million a year.&nbsp;
+
+00:15:11.840 --> 00:15:15.920
+For comparison, Apple's Final Cut&nbsp;
+Pro had about 2 million as well.&nbsp;
+
+00:15:15.920 --> 00:15:23.600
+And this is even more true today.
+By 2023, Resolve had over 5.4 million users.&nbsp;
+
+00:15:23.600 --> 00:15:29.600
+Compound Annual Growth Rate (CAGR) is 116%.
+And most of that growth happened after the&nbsp;&nbsp;
+
+00:15:29.600 --> 00:15:32.960
+free version was introduced.
+Blackmagic Revenue also grew&nbsp;&nbsp;
+
+00:15:32.960 --> 00:15:36.960
+to $124 million in 2024.
+Though some estimate that&nbsp;&nbsp;
+
+00:15:36.960 --> 00:15:42.240
+by 2025, it was over $550 million.
+Adobe's ongoing price increases,&nbsp;&nbsp;
+
+00:15:42.240 --> 00:15:46.960
+AI controversies, lawsuits, cancellation&nbsp;
+fees, and software stability issues&nbsp;&nbsp;
+
+00:15:46.960 --> 00:15:53.600
+keep pushing people toward alternatives.
+Hashtags like #DitchAdobe pop up all the time.&nbsp;
+
+00:15:53.600 --> 00:15:59.040
+Ironically, the best marketing&nbsp;
+campaign for DaVinci… is Adobe.&nbsp;
+
+00:15:59.040 --> 00:16:03.280
+So, the question is: how&nbsp;
+does DaVinci really compare?&nbsp;
+
+00:16:03.280 --> 00:16:07.680
+In the professional video editing software&nbsp;
+market, Premiere Pro is still at the top,&nbsp;&nbsp;
+
+00:16:07.680 --> 00:16:14.800
+with 35% market share. Then Final&nbsp;
+Cut Pro at 25%, then DaVinci at 15%.&nbsp;
+
+00:16:14.800 --> 00:16:19.840
+But, they're growing quickly.
+And keep in mind, this is video editing,&nbsp;&nbsp;
+
+00:16:19.840 --> 00:16:23.120
+not professional color-grading,&nbsp;
+which they are still dominating.&nbsp;
+
+00:16:23.120 --> 00:16:29.280
+They are slowly eating into Adobe's market.
+However, there are two things that concern me.
+
+00:16:29.280 --> 00:16:33.120
+First is that DaVinci has&nbsp;
+introduced a subscription.&nbsp;
+
+00:16:33.120 --> 00:16:36.880
+But it's a bit different.
+What they call the rental model,&nbsp;&nbsp;
+
+00:16:36.880 --> 00:16:41.920
+they're offering a $30 per month option,&nbsp;
+alongside the full-price purchase.&nbsp;
+
+00:16:41.920 --> 00:16:47.200
+This has got people a bit concerned.&nbsp;
+But, I can see the reason.&nbsp;
+
+00:16:47.200 --> 00:16:52.640
+Imagine you're a freelancer, and you need DaVinci&nbsp;
+just for one job. You can just pay for a single&nbsp;&nbsp;
+
+00:16:52.640 --> 00:16:56.400
+month, instead of the full price.
+Importantly: The one-time,&nbsp;&nbsp;
+
+00:16:56.400 --> 00:17:02.400
+perpetual license purchase is still around.
+So for now, I think this is okay, because it&nbsp;&nbsp;
+
+00:17:02.400 --> 00:17:06.640
+gives the consumer more choice.
+Though there's something else.&nbsp;
+
+00:17:06.640 --> 00:17:11.520
+With their new growth, Blackmagic would&nbsp;
+be in the perfect position for an IPO.&nbsp;
+
+00:17:11.520 --> 00:17:15.920
+That, or activist investors, or private&nbsp;
+equity, or anything along those lines.&nbsp;
+
+00:17:15.920 --> 00:17:19.120
+I can't imagine what would happen&nbsp;
+if investors pushed the company&nbsp;&nbsp;
+
+00:17:19.120 --> 00:17:23.840
+to slowly and gradually move to an&nbsp;
+entirely cloud and subscription model.
+
+00:17:24.640 --> 00:17:28.240
+Blackmagic is one of those companies&nbsp;
+that fills a gap in the market,&nbsp;&nbsp;
+
+00:17:28.240 --> 00:17:34.480
+delivers value, and puts their customers first.
+Not only that, they're thinking big picture,&nbsp;&nbsp;
+
+00:17:34.480 --> 00:17:38.880
+instead of just the latest trend.
+Though with how Grant likes to run his&nbsp;&nbsp;
+
+00:17:38.880 --> 00:17:44.240
+company lean and without borrowing,&nbsp;
+I don't think we have to worry.
+
+00:17:46.880 --> 00:18:13.360
+Adobe, however, is in a bit of trouble.
+Remember that insane revenue graph from earlier?&nbsp;
+
+00:18:13.360 --> 00:18:15.520
+Well, take a look at this:&nbsp;
+
+00:18:15.520 --> 00:18:21.040
+Despite record revenue and profit,&nbsp;
+Adobe's share price keeps falling.&nbsp;
+
+00:18:21.040 --> 00:18:27.200
+And that's not all. The FTC lawsuit for&nbsp;
+their deceptive fees has finally concluded.&nbsp;
+
+00:18:27.200 --> 00:18:32.400
+Justice seems to finally be coming for Adobe.
+Click here to learn the rest of the story.
+

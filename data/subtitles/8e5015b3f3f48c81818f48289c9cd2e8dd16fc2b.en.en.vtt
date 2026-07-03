@@ -1,0 +1,754 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.400 --> 00:00:04.600
+Salesforce, one of the most&nbsp;
+dominant companies in software.&nbsp;
+
+00:00:05.120 --> 00:00:09.880
+The company that defined CRM.
+Now it's dying.&nbsp;
+
+00:00:10.480 --> 00:00:15.800
+In 2 years they've lost $200&nbsp;
+billion in value, down 60%.&nbsp;
+
+00:00:15.800 --> 00:00:16.640
+What happened?&nbsp;
+
+00:00:17.240 --> 00:00:23.360
+The rise and fall of Salesforce is wild.
+Fake protests, over 60 acquisitions,&nbsp;&nbsp;
+
+00:00:23.360 --> 00:00:30.040
+a war against Microsoft, activist investors,&nbsp;
+and now… AI is threatening to destroy all of it.
+
+00:00:30.040 --> 00:00:36.880
+Articles for this chapter: History of Salesforce.
+End of Software marketing campaign.
+
+00:00:36.880 --> 00:00:42.720
+Back in the 2000s, CRM — aka customer&nbsp;
+relationship management — was a nightmare.
+
+00:00:42.720 --> 00:00:47.200
+This is very important software.&nbsp;
+Pretty essential for most businesses.&nbsp;
+
+00:00:47.200 --> 00:00:50.560
+Though most businesses couldn't even afford it.&nbsp;
+
+00:00:50.560 --> 00:00:56.440
+The dominant player was Siebel, and to even&nbsp;
+sign up, you needed a budget of $5 million.&nbsp;
+
+00:00:57.040 --> 00:01:01.720
+That wasn't the cost of Siebel — that's what&nbsp;
+you needed just to start the sales process.&nbsp;&nbsp;
+
+00:01:01.720 --> 00:01:08.080
+The actual cost was probably much, much bigger.
+And somehow there were bigger problems.&nbsp;
+
+00:01:08.080 --> 00:01:13.080
+Siebel Systems depended heavily on costly&nbsp;
+hardware, in-house setup and consultants,&nbsp;&nbsp;
+
+00:01:13.080 --> 00:01:16.720
+and complex rollouts that could&nbsp;
+take months, sometimes even years.&nbsp;
+
+00:01:17.280 --> 00:01:21.120
+You needed an entire IT team&nbsp;
+to set up and maintain Siebel.&nbsp;
+
+00:01:21.840 --> 00:01:25.560
+So it was pretty much skewed entirely&nbsp;
+to the really big corporate clients.&nbsp;
+
+00:01:26.280 --> 00:01:31.120
+CRM was very complicated, and expensive.
+Which brings us to Salesforce.&nbsp;
+
+00:01:31.720 --> 00:01:36.520
+One person set out to change all this:&nbsp;
+Marc Benioff, who had just left Oracle&nbsp;&nbsp;
+
+00:01:36.520 --> 00:01:42.120
+after 13 years to start a competitor.
+But the difference… was pretty crazy.&nbsp;
+
+00:01:42.120 --> 00:01:49.840
+$50 per user, per month. $50! Didn't matter if the&nbsp;
+client was a top-500 company or a small business.&nbsp;
+
+00:01:50.400 --> 00:01:54.240
+Salesforce was also much&nbsp;
+simpler and easier to set up.&nbsp;
+
+00:01:54.240 --> 00:01:58.840
+But there was still a problem.
+They were a nobody.&nbsp;
+
+00:01:58.840 --> 00:02:04.040
+Bloomberg even called them "an ant at the picnic".
+So Marc came up with an interesting&nbsp;&nbsp;
+
+00:02:04.040 --> 00:02:06.720
+marketing campaign:
+"The End of Software."&nbsp;
+
+00:02:07.360 --> 00:02:11.760
+The slogan sounds awfully familiar&nbsp;
+to a lot of AI startups today.&nbsp;
+
+00:02:11.760 --> 00:02:15.200
+But anyway, he did some&nbsp;
+classic guerrilla marketing.&nbsp;
+
+00:02:15.200 --> 00:02:18.880
+He organised a fake protest… in&nbsp;
+front of a Siebel user conference.
+
+00:02:18.880 --> 00:02:21.280
+Then they held a giant "End of Software" party.&nbsp;
+
+00:02:21.800 --> 00:02:25.200
+It was working.
+Though then came a small hiccup.&nbsp;
+
+00:02:25.760 --> 00:02:29.160
+After the dot-com crash…&nbsp;
+Siebel never really recovered.&nbsp;
+
+00:02:29.160 --> 00:02:34.040
+Siebel's stock fell nearly 90% from its 2000&nbsp;
+peak. Oracle eventually acquired what was&nbsp;&nbsp;
+
+00:02:34.040 --> 00:02:39.440
+left of the company for $5.8 billion in 2005.
+It was this year where Marc literally stood&nbsp;&nbsp;
+
+00:02:39.440 --> 00:02:45.400
+on stage and declared victory over Siebel.
+But Salesforce only got better from here.&nbsp;
+
+00:02:45.400 --> 00:02:51.200
+They added AppExchange — or the "iTunes of&nbsp;
+business software", as Forbes described it.
+
+00:02:51.200 --> 00:02:53.520
+They introduced their own&nbsp;
+programming language, Apex,&nbsp;&nbsp;
+
+00:02:53.520 --> 00:02:55.800
+to allow third parties to write and run code.&nbsp;
+
+00:02:56.360 --> 00:03:00.160
+Third-party developers could now&nbsp;
+build directly on top of Salesforce.
+
+00:03:00.720 --> 00:03:04.160
+The subscription model immediately resonated&nbsp;
+with smaller businesses that had been&nbsp;&nbsp;
+
+00:03:04.160 --> 00:03:10.080
+priced out of Siebel Systems, then mid-sized&nbsp;
+companies, and eventually large enterprises.&nbsp;
+
+00:03:10.680 --> 00:03:15.400
+Within just three years, in 2002, Salesforce&nbsp;
+had reached $22 million in revenue.&nbsp;&nbsp;
+
+00:03:15.960 --> 00:03:21.280
+Then the company nearly doubled every year after.
+$300 million by 2006.&nbsp;
+
+00:03:21.280 --> 00:03:25.720
+$748 million by 2008.
+By 2012, Salesforce had crossed&nbsp;&nbsp;
+
+00:03:25.720 --> 00:03:32.360
+$2.2 billion, then $6.6 billion in 2016.
+Everything was going great. Salesforce was&nbsp;&nbsp;
+
+00:03:32.360 --> 00:03:39.600
+dominating. But around this point, Marc had&nbsp;
+his sights set much, much bigger: Microsoft.
+
+00:03:47.280 --> 00:03:52.480
+In the past, building software meant hiring a&nbsp;
+team. Today, one person can describe the app in&nbsp;&nbsp;
+
+00:03:52.480 --> 00:03:57.360
+plain English and get a real product back.
+That is what Emergent is, which you can&nbsp;&nbsp;
+
+00:03:57.360 --> 00:04:01.720
+try with the link in the description. It&nbsp;
+builds the frontend, backend, database,&nbsp;&nbsp;
+
+00:04:01.720 --> 00:04:06.920
+testing, and deployment together, so you’re not&nbsp;
+stitching five different tools into one product.&nbsp;
+
+00:04:06.920 --> 00:04:11.880
+And that changes the business model. A&nbsp;
+solo founder can now build a niche tool,&nbsp;&nbsp;
+
+00:04:11.880 --> 00:04:15.440
+charge monthly, and own the&nbsp;
+software instead of renting it.&nbsp;
+
+00:04:15.440 --> 00:04:21.160
+Think of a simple daily ops dashboard for small&nbsp;
+businesses. Tasks, payments, reminders, customer&nbsp;&nbsp;
+
+00:04:21.160 --> 00:04:27.080
+updates, all in one place. That used to be a full&nbsp;
+dev project. Now it can start from one prompt.&nbsp;
+
+00:04:27.080 --> 00:04:32.520
+The economics matter here. Emergent lowers the&nbsp;
+technical wall, but you still need customers,&nbsp;&nbsp;
+
+00:04:32.520 --> 00:04:37.440
+distribution, and good judgment. It’s&nbsp;
+not magic. What it removes is the excuse&nbsp;&nbsp;
+
+00:04:37.440 --> 00:04:40.880
+that you can’t build something.
+Once you’ve finished building,&nbsp;&nbsp;
+
+00:04:40.880 --> 00:04:45.960
+you can immediately deploy and start using&nbsp;
+it, sharing it, and even start making money.&nbsp;
+
+00:04:45.960 --> 00:04:50.160
+And because the code syncs to GitHub,&nbsp;
+you own it. If the idea works,&nbsp;&nbsp;
+
+00:04:50.160 --> 00:04:53.760
+it is not trapped inside a platform.
+You can build all of these types&nbsp;&nbsp;
+
+00:04:53.760 --> 00:04:58.240
+of high-quality projects on Emergent.
+If you have had a software idea sitting&nbsp;&nbsp;
+
+00:04:58.240 --> 00:05:02.600
+in a notes app for years, this is one&nbsp;
+way to see if it deserves to exist.
+
+00:05:02.600 --> 00:05:05.400
+If you want to try building&nbsp;
+with Emergent, the link’s below.&nbsp;
+
+00:05:05.400 --> 00:05:07.680
+Thank you to Emergent for sponsoring this video.
+
+00:05:08.600 --> 00:05:15.440
+Marc Benioff had a problem that sounded crazy:&nbsp;
+Salesforce was sort of "too" successful at CRM.&nbsp;
+
+00:05:15.440 --> 00:05:22.240
+CRM was the fastest-growing enterprise software&nbsp;
+market. And in 2018, CRM made up nearly 25% of the&nbsp;&nbsp;
+
+00:05:22.240 --> 00:05:26.000
+entire enterprise software revenue.
+And within CRM,&nbsp;&nbsp;
+
+00:05:26.000 --> 00:05:31.800
+Salesforce was the biggest, by far.
+But that left them with an interesting problem.&nbsp;
+
+00:05:32.320 --> 00:05:35.440
+There were only so many new&nbsp;
+customers left to sell to.&nbsp;
+
+00:05:35.440 --> 00:05:40.040
+Their incredible growth had already been baked&nbsp;
+into the share price, which had begun to flatten.&nbsp;
+
+00:05:40.760 --> 00:05:44.560
+Growth was now slowing down.
+So staying "just a CRM company"&nbsp;&nbsp;
+
+00:05:44.560 --> 00:05:47.480
+was no longer enough.
+It was time to expand.
+
+00:05:48.120 --> 00:05:53.400
+So during a 2018 investor conference,&nbsp;
+Benioff laid out a bold plan: a target of&nbsp;&nbsp;
+
+00:05:53.400 --> 00:06:00.200
+20% annual growth for the next four years.
+From $13.17 billion to $21–23 billion.&nbsp;
+
+00:06:00.880 --> 00:06:04.840
+That's crazy, especially for an industry&nbsp;
+that would soon start slowing down.&nbsp;
+
+00:06:05.440 --> 00:06:10.760
+But they weren't staying a CRM company.
+Marc introduced Customer 360,&nbsp;&nbsp;
+
+00:06:10.760 --> 00:06:15.960
+a suite of apps that brings together customer&nbsp;
+data from all kinds of sources into one platform,&nbsp;&nbsp;
+
+00:06:15.960 --> 00:06:19.240
+encouraging customers to buy more&nbsp;
+and more of Salesforce's apps.&nbsp;
+
+00:06:19.840 --> 00:06:25.760
+With this, Salesforce was starting to offer almost&nbsp;
+everything a company could need: sales, marketing,&nbsp;&nbsp;
+
+00:06:25.760 --> 00:06:30.240
+communication, e-commerce, cloud, analytics.
+[Julie Bort, Business insider]: “it's a&nbsp;&nbsp;
+
+00:06:30.240 --> 00:06:33.960
+pretty basic concept that tech companies&nbsp;
+have used since the beginning of time:&nbsp;&nbsp;
+
+00:06:34.480 --> 00:06:39.640
+Provide a way to connect all the apps a customer&nbsp;
+uses so that data is stored in one app.”&nbsp;
+
+00:06:39.640 --> 00:06:43.000
+It was a broader software&nbsp;
+ecosystem than Microsoft's.&nbsp;
+
+00:06:43.000 --> 00:06:44.880
+I mean, just look at their own slide.&nbsp;
+
+00:06:45.680 --> 00:06:50.920
+Salesforce was clearly going after Microsoft.
+And they would do so by acquiring everyone.&nbsp;
+
+00:06:51.720 --> 00:06:56.280
+Earlier that year, Salesforce acquired&nbsp;
+MuleSoft, a cloud company, for $6.5&nbsp;&nbsp;
+
+00:06:56.280 --> 00:07:01.480
+billion — their largest acquisition to date.
+Cloud was lucratively profitable,&nbsp;&nbsp;
+
+00:07:01.480 --> 00:07:04.560
+especially when combined with suite apps.
+[Mark Hawkins, CFO of Salesforce]: "When customers&nbsp;&nbsp;
+
+00:07:04.560 --> 00:07:10.240
+use more than one cloud, they spend way more money&nbsp;
+on Salesforce — as much as 10 times as much."&nbsp;
+
+00:07:10.760 --> 00:07:16.320
+Investors thought they overpaid. $6.5 billion&nbsp;
+was a bit much, though the ceiling for more&nbsp;&nbsp;
+
+00:07:16.320 --> 00:07:20.960
+revenue was pretty high. Just look at how&nbsp;
+much Microsoft makes from Azure alone.&nbsp;
+
+00:07:21.560 --> 00:07:26.440
+But this was just the beginning; Salesforce&nbsp;
+would get addicted to acquiring companies.&nbsp;
+
+00:07:27.000 --> 00:07:32.240
+And as they would soon learn, having&nbsp;
+everything didn't make for the best business.&nbsp;
+
+00:07:32.240 --> 00:07:36.520
+In 2019, Salesforce acquired&nbsp;
+Tableau for $15.7 billion.&nbsp;
+
+00:07:36.520 --> 00:07:41.320
+"World's #1 CRM and #1 analytics&nbsp;
+platform come together to supercharge&nbsp;&nbsp;
+
+00:07:41.320 --> 00:07:46.840
+customers' digital transformations," they said.
+Tableau serves as interactive data visualisation&nbsp;&nbsp;
+
+00:07:46.840 --> 00:07:52.720
+software focused on business intelligence.
+And even before the big Customer 360 announcement,&nbsp;&nbsp;
+
+00:07:52.720 --> 00:07:57.200
+Salesforce had been acquiring everyone.
+ExactTarget, an email marketing startup,&nbsp;&nbsp;
+
+00:07:57.200 --> 00:08:01.960
+for $2.5 billion in 2014.
+Then in 2016, Demandware,&nbsp;&nbsp;
+
+00:08:01.960 --> 00:08:06.440
+the e-commerce startup, for $2.8 billion.
+Then even more, like Sequence,&nbsp;&nbsp;
+
+00:08:06.440 --> 00:08:11.760
+the UX design company.
+In 2016 they actually acquired 11 companies.&nbsp;
+
+00:08:11.760 --> 00:08:17.440
+Customer 360 was basically going to be&nbsp;
+as wide and all-encompassing as possible.&nbsp;
+
+00:08:17.440 --> 00:08:24.920
+But then came the big one: their 66th acquisition,&nbsp;
+Slack Technologies, for $27.7 billion, in 2019.&nbsp;
+
+00:08:25.520 --> 00:08:31.320
+Marc was very bullish on Slack, but as they would&nbsp;
+soon learn, Slack had a very unique problem.&nbsp;
+
+00:08:32.240 --> 00:08:35.280
+But in the meantime,&nbsp;
+Salesforce had another problem.
+
+00:08:35.880 --> 00:08:42.080
+Building an empire is very costly, especially when&nbsp;
+your biggest acquisitions… don't make any money.&nbsp;
+
+00:08:42.080 --> 00:08:48.440
+Slack and Tableau weren't profitable. So adding&nbsp;
+them to the giant enterprise might help long term,&nbsp;&nbsp;
+
+00:08:48.440 --> 00:08:50.800
+but for now, it was making margins smaller.&nbsp;
+
+00:08:51.360 --> 00:08:56.960
+This caused a $306 million dip in profit after&nbsp;
+three straight years of earnings above $2 billion.&nbsp;
+
+00:08:57.720 --> 00:09:00.720
+Shareholders were annoyed.
+But it could all be&nbsp;&nbsp;
+
+00:09:00.720 --> 00:09:05.960
+worth it if the growth paid off.
+Could the company actually compete with Microsoft?&nbsp;
+
+00:09:06.600 --> 00:09:10.760
+Unfortunately, it was right here that&nbsp;
+Salesforce took an unexpected blow.&nbsp;
+
+00:09:17.600 --> 00:09:23.440
+We just passed 900,000 subscribers, and&nbsp;
+I just want to say thank you all so much.&nbsp;
+
+00:09:24.440 --> 00:09:28.960
+This ride has been awesome, and&nbsp;
+we're almost at 1 million now!
+
+00:09:29.720 --> 00:09:34.400
+In November 2022, Salesforce co-CEO&nbsp;
+Bret Taylor abruptly resigned.&nbsp;
+
+00:09:34.920 --> 00:09:39.440
+This was a huge shock to everyone&nbsp;
+— insiders and outsiders alike.
+
+00:09:47.480 --> 00:09:58.440
+Two months after standing beside Marc&nbsp;
+on stage at their big conference,&nbsp;&nbsp;
+
+00:09:58.440 --> 00:10:02.320
+where everything seemed so positive,&nbsp;
+Bret just left out of the blue.&nbsp;
+
+00:10:03.000 --> 00:10:09.080
+Bret was Marc Benioff's right-hand man.
+Not only that, he was only co-CEO for 14 months.&nbsp;
+
+00:10:09.640 --> 00:10:11.840
+He said:
+[Bret Taylor]: "After a lot of reflection,&nbsp;&nbsp;
+
+00:10:11.840 --> 00:10:16.520
+I've decided to return to my entrepreneurial&nbsp;
+roots. With Salesforce's best-in-class management&nbsp;&nbsp;
+
+00:10:16.520 --> 00:10:21.760
+team and the company executing on all cylinders,&nbsp;
+now is the right time for me to step away."&nbsp;
+
+00:10:21.760 --> 00:10:26.080
+So what was the problem?
+CEOs change all the time.&nbsp;
+
+00:10:26.080 --> 00:10:30.680
+Well, even if there wasn't anything&nbsp;
+wrong, it looked like something was.&nbsp;
+
+00:10:31.240 --> 00:10:35.320
+A new CEO resigning out of the blue&nbsp;
+isn't a good sign for the company.&nbsp;
+
+00:10:35.320 --> 00:10:38.400
+And it gets stranger.
+Keith Block held the&nbsp;&nbsp;
+
+00:10:38.400 --> 00:10:43.600
+role for 18 months before departing in 2020&nbsp;
+under similarly unexplained circumstances.&nbsp;
+
+00:10:44.160 --> 00:10:49.560
+Maybe Marc Benioff couldn't handle a co-CEO?&nbsp;
+Maybe things were looking bad internally?&nbsp;
+
+00:10:50.240 --> 00:10:53.160
+Expected revenue was below&nbsp;
+Wall Street expectations.&nbsp;
+
+00:10:53.720 --> 00:10:57.280
+It's hard to say exactly.
+But one thing did come of this.&nbsp;
+
+00:10:57.280 --> 00:11:00.600
+The share price dropped, and&nbsp;
+then came something worse.&nbsp;
+
+00:11:00.600 --> 00:11:05.400
+Activist investors started moving in.
+ValueAct Capital, Third Point,&nbsp;&nbsp;
+
+00:11:05.400 --> 00:11:09.600
+Elliott Investment Management, and Inclusive&nbsp;
+Capital all took stakes in the company.&nbsp;
+
+00:11:10.240 --> 00:11:14.840
+Another, Starboard Value, had already&nbsp;
+invested a month prior to Bret resigning.&nbsp;
+
+00:11:15.480 --> 00:11:19.120
+And quickly, they began to pressure&nbsp;
+Salesforce to make a better return.&nbsp;
+
+00:11:19.720 --> 00:11:23.360
+It always seems like it's&nbsp;
+activist investors, doesn't it?&nbsp;
+
+00:11:24.120 --> 00:11:29.800
+But to be fair, the acquisitions and big&nbsp;
+"integration" plan wasn't really working out.&nbsp;
+
+00:11:29.800 --> 00:11:35.840
+They compounded into a new problem that would&nbsp;
+have horrified the 1999 version of Marc Benioff.&nbsp;
+
+00:11:35.840 --> 00:11:40.560
+Salesforce was now hugely bloated.&nbsp;
+It now had all kinds of bottlenecks.&nbsp;
+
+00:11:41.080 --> 00:11:45.720
+Lots of great products and services?&nbsp;
+Probably. But actually knowing how to&nbsp;&nbsp;
+
+00:11:45.720 --> 00:11:50.400
+use them was becoming more challenging,&nbsp;
+especially for small to medium companies.&nbsp;
+
+00:11:50.400 --> 00:11:55.960
+Challenging, and expensive. Often you'd&nbsp;
+need dedicated, expensive consulting and&nbsp;&nbsp;
+
+00:11:55.960 --> 00:12:02.440
+ongoing support, which would cost even more.
+"I was a proud Certified SF Admin 2014–2019.&nbsp;&nbsp;
+
+00:12:03.880 --> 00:12:09.640
+Salesforce was an incredible product back then.&nbsp;
+Salesforce did NOT scale FOR small and mid-sized&nbsp;&nbsp;
+
+00:12:09.640 --> 00:12:15.960
+companies. It has been scaling straight past&nbsp;
+them. More clouds, more SKUs, more complexity,&nbsp;&nbsp;
+
+00:12:15.960 --> 00:12:23.520
+less usability. Innovation is focused on Fortune&nbsp;
+500. Sayonara Salesforce, Hello HubSpot."&nbsp;
+
+00:12:23.520 --> 00:12:29.720
+The company that disrupted Siebel so long ago&nbsp;
+by being simple… was starting to become Siebel.&nbsp;
+
+00:12:29.720 --> 00:12:32.760
+Plus, some of their&nbsp;
+acquisitions… didn't really work.&nbsp;
+
+00:12:33.480 --> 00:12:38.360
+For example, people weren't sure if Slack&nbsp;
+was a standalone product, a bundled feature,&nbsp;&nbsp;
+
+00:12:38.360 --> 00:12:43.280
+or a true competitor to Microsoft Teams.
+It wasn't bundled — you had&nbsp;&nbsp;
+
+00:12:43.280 --> 00:12:46.560
+to pay for Slack separately.
+And while Slack remained popular&nbsp;&nbsp;
+
+00:12:46.560 --> 00:12:51.520
+with startups and smaller companies, large&nbsp;
+enterprises were still leaning toward Teams.&nbsp;
+
+00:12:51.520 --> 00:12:54.600
+And as a result, the rest&nbsp;
+of Microsoft's ecosystem.&nbsp;
+
+00:12:55.280 --> 00:12:59.440
+Something needed to change, and new&nbsp;
+investor pressure was growing… and growing.&nbsp;
+
+00:13:00.000 --> 00:13:04.560
+So Salesforce cut 8,000 jobs.
+They reduced spending and shifted away&nbsp;&nbsp;
+
+00:13:04.560 --> 00:13:10.960
+from growth-at-all-costs and toward profitability.
+At first, it seemed like things might turn around.&nbsp;
+
+00:13:10.960 --> 00:13:14.400
+Profits surged.
+Just look at that change.&nbsp;
+
+00:13:14.400 --> 00:13:20.920
+By 2024, the stock climbed to a new high of $340.
+Then they announced dividends.&nbsp;
+
+00:13:20.920 --> 00:13:24.800
+It seemed like Salesforce had made&nbsp;
+it. It was time to start making money.&nbsp;
+
+00:13:25.480 --> 00:13:27.840
+Then came 2026.&nbsp;
+
+00:13:27.840 --> 00:13:32.200
+The stock was going up and down a&nbsp;
+bit, but now it began to plummet.&nbsp;
+
+00:13:32.720 --> 00:13:37.360
+What happens to per-seat CRM software&nbsp;
+when AI agents can do the work of the&nbsp;&nbsp;
+
+00:13:37.360 --> 00:13:40.920
+people sitting in those seats?
+Why pay tens of thousands and&nbsp;&nbsp;
+
+00:13:40.920 --> 00:13:47.960
+extra for consultants and ongoing support when you&nbsp;
+could just build your own internal tool using AI?&nbsp;
+
+00:13:47.960 --> 00:13:50.600
+Companies started pulling&nbsp;
+back from SaaS as a whole.&nbsp;
+
+00:13:51.120 --> 00:13:58.080
+On February 5, 2026, about $285 billion was&nbsp;
+wiped from software stocks in just 48 hours.&nbsp;
+
+00:13:58.600 --> 00:14:01.720
+Roughly $2 trillion in market&nbsp;
+value over the past year.&nbsp;
+
+00:14:02.360 --> 00:14:05.880
+Everyone is replacing traditional&nbsp;
+SaaS products with AI.&nbsp;
+
+00:14:06.400 --> 00:14:11.120
+Since peaking in 2024, Salesforce&nbsp;
+has lost more than half its value.&nbsp;
+
+00:14:11.120 --> 00:14:19.200
+From $346 billion to just $145 billion.
+So what is Salesforce doing about AI agents?&nbsp;
+
+00:14:19.760 --> 00:14:23.600
+Well… another acquisition:&nbsp;
+Informatica, for $8 billion.&nbsp;
+
+00:14:23.600 --> 00:14:28.200
+[Marc Benioff]: "Data and context&nbsp;
+is the true fuel of Agentforce,&nbsp;&nbsp;
+
+00:14:28.200 --> 00:14:34.360
+and without clean, connected, trusted data there&nbsp;
+is no intelligence — only hallucination. When&nbsp;&nbsp;
+
+00:14:34.360 --> 00:14:40.080
+companies get their data right, they get their&nbsp;
+AI right, and Agentforce becomes unstoppable."&nbsp;
+
+00:14:40.600 --> 00:14:46.040
+They also redeployed 4,000 customer support&nbsp;
+roles elsewhere as they implemented AI.&nbsp;
+
+00:14:46.040 --> 00:14:51.240
+Then another 1,000 layoffs from other roles.
+There's some pretty big irony here.&nbsp;
+
+00:14:51.240 --> 00:14:57.080
+In 2022, Salesforce released an ad called&nbsp;
+"Wow Your Customers with Salesforce".&nbsp;
+
+00:14:57.080 --> 00:15:00.280
+And now the company built to&nbsp;
+manage customer relationships&nbsp;&nbsp;
+
+00:15:00.280 --> 00:15:04.080
+has replaced its own customer&nbsp;
+service workers with AI agents.&nbsp;
+
+00:15:04.760 --> 00:15:08.040
+Salesforce became the exact&nbsp;
+problem it was created to solve.&nbsp;
+
+00:15:08.760 --> 00:15:13.880
+It was cheaper, easier to onboard, and&nbsp;
+laser-focused on the core problem: CRM.&nbsp;
+
+00:15:14.400 --> 00:15:18.440
+Siebel Systems was bloated,&nbsp;
+expensive, and overly complex.&nbsp;
+
+00:15:19.000 --> 00:15:24.040
+But Salesforce followed the same path.
+Plus, I feel like Salesforce was more&nbsp;&nbsp;
+
+00:15:24.040 --> 00:15:29.120
+focused on beating Microsoft than on&nbsp;
+offering the best solution to customers.&nbsp;&nbsp;
+
+00:15:29.120 --> 00:15:34.040
+I'm not sure how many of these acquisitions&nbsp;
+were actually good decisions long term.&nbsp;
+
+00:15:34.040 --> 00:15:36.840
+You can't just acquire your way out of a problem.&nbsp;
+
+00:15:37.360 --> 00:15:41.280
+But there's still a big&nbsp;
+question: what about Slack?&nbsp;
+
+00:15:41.280 --> 00:15:46.800
+This app is still insanely popular&nbsp;
+— why didn't it help Salesforce win?
+
+00:15:47.520 --> 00:15:53.440
+Slack might be an even stranger story. Not&nbsp;
+only was Slack first, but it was genuinely&nbsp;&nbsp;
+
+00:15:53.440 --> 00:15:59.520
+the better product. So why is it getting&nbsp;
+destroyed by Teams — a worse, blatant copy?&nbsp;
+
+00:16:00.040 --> 00:16:06.200
+Click this video to learn the rest of the story.
+
