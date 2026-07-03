@@ -377,9 +377,6 @@
       <outline text="望山 的最新评论" type="rss" category="culture"
         xmlUrl="https://www.douban.com/feed/people/105128150/reviews"
         htmlUrl="https://www.douban.com/people/105128150/reviews" />
-      <outline text="智由博集" type="rss" category=""
-        xmlUrl="https://www.proguidescreen.com/?feed=rss2"
-        htmlUrl="https://www.proguidescreen.com" />
       <outline text="映畫手民" type="rss" category=""
         xmlUrl="https://www.cinezen.hk/?feed=rss2"
         htmlUrl="https://www.cinezen.hk" />
