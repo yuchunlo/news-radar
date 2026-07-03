@@ -1,16 +1,52 @@
 {
-  "generated_at": "2026-07-03T15:34:21.247254Z",
+  "generated_at": "2026-07-03T17:39:37.734962Z",
   "window_hours": 24,
   "total_items": 6,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "Megastadium：卡梅萊昂體育場的建築天才 / Megastadium : Le génie architectural du stade Caméléon",
-      "url": "https://www.youtube.com/watch?v=FNsW45PiG_k",
-      "primary_url": "https://www.youtube.com/watch?v=FNsW45PiG_k",
-      "source": "imineo Documentaires",
+      "title": "只用100元，做一大餐意大利菜",
+      "url": "https://www.youtube.com/watch?v=ou_8RSbMJ4U",
+      "primary_url": "https://www.youtube.com/watch?v=ou_8RSbMJ4U",
+      "source": "Cadence Gao",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "f3dfd869bceeae1d8fd40b5a6d6020042095b935",
+          "title": "只用100元，做一大餐意大利菜",
+          "url": "https://www.youtube.com/watch?v=ou_8RSbMJ4U",
+          "source": "Cadence Gao",
+          "source_name": "OPML RSS",
+          "site_id": "convivium",
+          "published_at": "2026-07-03T16:47:29Z"
+        },
+        {
+          "id": "6c5069dcea321215deabdfae2a1285c025250b79",
+          "title": "熱帶核心播放列表 / a tropicalcore playlist",
+          "url": "https://www.youtube.com/watch?v=fdkC9OdgwEE",
+          "source": "nobody",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-03T16:00:30Z"
+        },
+        {
+          "id": "8921559168b45858d61f4cc06bd76c139371c93c",
+          "title": "如果喬治華盛頓是君主，誰會成為美國國王？ [更新] / Who Would Be King of America if George Washington Had Been a Monarch? [Updated]",
+          "url": "https://www.youtube.com/watch?v=dPKyTiNoIpQ",
+          "source": "UsefulCharts",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-03T16:00:15Z"
+        },
+        {
+          "id": "f58f644f1e558b46aad23928563d33731b237247",
+          "title": "德國鐵路是一場徹底的災難 / German Rail is a Complete Disaster",
+          "url": "https://www.youtube.com/watch?v=lY1UAnzv0UU",
+          "source": "Adam Something",
+          "source_name": "OPML RSS",
+          "site_id": "blog",
+          "published_at": "2026-07-03T15:45:16Z"
+        },
         {
           "id": "c165eeb9ee83afbc0e78a5dde87d9466d546ceed",
           "title": "Megastadium：卡梅萊昂體育場的建築天才 / Megastadium : Le génie architectural du stade Caméléon",
@@ -93,24 +129,6 @@
           "published_at": "2026-07-02T21:00:34Z"
         },
         {
-          "id": "2a1b2e0aa7d6a47354e5f94ee885d1e6ac819d22",
-          "title": "海灣戰爭：普羅旺斯 PMU 的沙漠風暴 / Guerre du Golfe : Tempête du désert au PMU de Provence",
-          "url": "https://www.youtube.com/watch?v=-GiRi43598Y",
-          "source": "imineo Documentaires",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-02T16:30:27Z"
-        },
-        {
-          "id": "994bef6b9e24ed0672b2fb6e31a1fd79f42bb572",
-          "title": "250 年後：為什麼你所了解的有關美國革命的一切都是錯的 / 250 Years Later: Why Everything You Learned About the American Revolution is Wrong",
-          "url": "https://www.youtube.com/watch?v=4dues5UEPic",
-          "source": "Timeline - World History Documentaries",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-02T16:00:05Z"
-        },
-        {
           "id": "99b4ea9385cb53c5b4021554be5968ce91b455ef",
           "title": "如何讓一個國家破產 / How To Bankrupt A Country",
           "url": "https://www.youtube.com/watch?v=qqxzeNuDVc8",
@@ -138,21 +156,60 @@
           "published_at": "2026-07-03T10:00:32Z"
         }
       ],
-      "source_count": 14,
+      "source_count": 16,
       "source_names": [
+        "Adam Something",
         "Benjamin Cowen",
         "Best Documentary",
+        "Cadence Gao",
         "Chu's Vegan",
         "CineFix",
         "DenQ來了",
         "OBF",
         "Shepherd Capital Markets",
-        "Timeline - World History Documentaries",
+        "UsefulCharts",
         "imineo Documentaires",
+        "nobody",
         "忽左忽右",
         "美投侃新闻"
       ],
       "items": [
+        {
+          "id": "f3dfd869bceeae1d8fd40b5a6d6020042095b935",
+          "title": "只用100元，做一大餐意大利菜",
+          "url": "https://www.youtube.com/watch?v=ou_8RSbMJ4U",
+          "source": "Cadence Gao",
+          "source_name": "OPML RSS",
+          "site_id": "convivium",
+          "published_at": "2026-07-03T16:47:29Z"
+        },
+        {
+          "id": "6c5069dcea321215deabdfae2a1285c025250b79",
+          "title": "熱帶核心播放列表 / a tropicalcore playlist",
+          "url": "https://www.youtube.com/watch?v=fdkC9OdgwEE",
+          "source": "nobody",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-03T16:00:30Z"
+        },
+        {
+          "id": "8921559168b45858d61f4cc06bd76c139371c93c",
+          "title": "如果喬治華盛頓是君主，誰會成為美國國王？ [更新] / Who Would Be King of America if George Washington Had Been a Monarch? [Updated]",
+          "url": "https://www.youtube.com/watch?v=dPKyTiNoIpQ",
+          "source": "UsefulCharts",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-03T16:00:15Z"
+        },
+        {
+          "id": "f58f644f1e558b46aad23928563d33731b237247",
+          "title": "德國鐵路是一場徹底的災難 / German Rail is a Complete Disaster",
+          "url": "https://www.youtube.com/watch?v=lY1UAnzv0UU",
+          "source": "Adam Something",
+          "source_name": "OPML RSS",
+          "site_id": "blog",
+          "published_at": "2026-07-03T15:45:16Z"
+        },
         {
           "id": "c165eeb9ee83afbc0e78a5dde87d9466d546ceed",
           "title": "Megastadium：卡梅萊昂體育場的建築天才 / Megastadium : Le génie architectural du stade Caméléon",
@@ -235,24 +292,6 @@
           "published_at": "2026-07-02T21:00:34Z"
         },
         {
-          "id": "2a1b2e0aa7d6a47354e5f94ee885d1e6ac819d22",
-          "title": "海灣戰爭：普羅旺斯 PMU 的沙漠風暴 / Guerre du Golfe : Tempête du désert au PMU de Provence",
-          "url": "https://www.youtube.com/watch?v=-GiRi43598Y",
-          "source": "imineo Documentaires",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-02T16:30:27Z"
-        },
-        {
-          "id": "994bef6b9e24ed0672b2fb6e31a1fd79f42bb572",
-          "title": "250 年後：為什麼你所了解的有關美國革命的一切都是錯的 / 250 Years Later: Why Everything You Learned About the American Revolution is Wrong",
-          "url": "https://www.youtube.com/watch?v=4dues5UEPic",
-          "source": "Timeline - World History Documentaries",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-02T16:00:05Z"
-        },
-        {
           "id": "99b4ea9385cb53c5b4021554be5968ce91b455ef",
           "title": "如何讓一個國家破產 / How To Bankrupt A Country",
           "url": "https://www.youtube.com/watch?v=qqxzeNuDVc8",
@@ -280,28 +319,28 @@
           "published_at": "2026-07-03T10:00:32Z"
         }
       ],
-      "item_count": 14,
-      "duplicate_count": 14,
-      "score": 0.7398,
-      "importance": 0.7398,
-      "importance_score": 0.7398,
+      "item_count": 16,
+      "duplicate_count": 16,
+      "score": 0.7391,
+      "importance": 0.7391,
+      "importance_score": 0.7391,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9659,
+        "recency": 0.9638,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-02T16:00:05Z",
-      "latest_at": "2026-07-03T14:45:18Z",
+      "earliest_at": "2026-07-02T17:49:38Z",
+      "latest_at": "2026-07-03T16:47:29Z",
       "primary_item": {
-        "id": "c165eeb9ee83afbc0e78a5dde87d9466d546ceed",
-        "title": "Megastadium：卡梅萊昂體育場的建築天才 / Megastadium : Le génie architectural du stade Caméléon",
-        "url": "https://www.youtube.com/watch?v=FNsW45PiG_k",
-        "source": "imineo Documentaires",
+        "id": "f3dfd869bceeae1d8fd40b5a6d6020042095b935",
+        "title": "只用100元，做一大餐意大利菜",
+        "url": "https://www.youtube.com/watch?v=ou_8RSbMJ4U",
+        "source": "Cadence Gao",
         "source_name": "OPML RSS"
       }
     },
@@ -358,13 +397,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5606,
-      "importance": 0.5606,
-      "importance_score": 0.5606,
+      "score": 0.5345,
+      "importance": 0.5345,
+      "importance_score": 0.5345,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.8685,
+        "recency": 0.7815,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -434,13 +473,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5316,
-      "importance": 0.5316,
-      "importance_score": 0.5316,
+      "score": 0.5055,
+      "importance": 0.5055,
+      "importance_score": 0.5055,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.772,
+        "recency": 0.685,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -510,13 +549,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5272,
-      "importance": 0.5272,
-      "importance_score": 0.5272,
+      "score": 0.5011,
+      "importance": 0.5011,
+      "importance_score": 0.5011,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7574,
+        "recency": 0.6704,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -586,13 +625,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4429,
-      "importance": 0.4429,
-      "importance_score": 0.4429,
+      "score": 0.4168,
+      "importance": 0.4168,
+      "importance_score": 0.4168,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.8931,
+        "recency": 0.8061,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -662,13 +701,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4366,
-      "importance": 0.4366,
-      "importance_score": 0.4366,
+      "score": 0.4105,
+      "importance": 0.4105,
+      "importance_score": 0.4105,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.4553,
+        "recency": 0.3683,
         "story_heat": 0.25
       },
       "category": "watch",
