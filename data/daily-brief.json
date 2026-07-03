@@ -1,16 +1,34 @@
 {
-  "generated_at": "2026-07-02T22:39:05.831346Z",
+  "generated_at": "2026-07-03T00:12:14.023772Z",
   "window_hours": 24,
-  "total_items": 4,
+  "total_items": 3,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "更好地打電話給霍華德：現實生活中的索爾古德曼 / Better Call Howard: The Real-Life Saul Goodman",
-      "url": "https://www.youtube.com/watch?v=MCw10ykXD7Q",
-      "primary_url": "https://www.youtube.com/watch?v=MCw10ykXD7Q",
-      "source": "Best Documentary",
+      "title": "非农就业爆雷？Meta引发热议！苹果继续大涨！特斯拉遭抛售！",
+      "url": "https://www.youtube.com/watch?v=h6-gli3HEF8",
+      "primary_url": "https://www.youtube.com/watch?v=h6-gli3HEF8",
+      "source": "美投侃新闻",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "8ed7a7f0cd227be0fb09115ba259870e3a774dec",
+          "title": "非农就业爆雷？Meta引发热议！苹果继续大涨！特斯拉遭抛售！",
+          "url": "https://www.youtube.com/watch?v=h6-gli3HEF8",
+          "source": "美投侃新闻",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-02T23:56:07Z"
+        },
+        {
+          "id": "637f21aedf723da1b929af71076e6ecba24b39d4",
+          "title": "数据好但股价暴跌？特斯拉今日上演华尔街老戏：买消息，卖事实",
+          "url": "https://www.youtube.com/watch?v=bsJxpBsCFLU",
+          "source": "Shepherd Capital Markets",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-02T23:20:32Z"
+        },
         {
           "id": "fc62e3cc478cd54e68fab7b14a18018b99d0f160",
           "title": "更好地打電話給霍華德：現實生活中的索爾古德曼 / Better Call Howard: The Real-Life Saul Goodman",
@@ -91,24 +109,6 @@
           "source_name": "OPML RSS",
           "site_id": "culture",
           "published_at": "2026-07-02T12:00:09Z"
-        },
-        {
-          "id": "209f2cbcc583c77dca28305e5569333d07b4e37a",
-          "title": "Meta要放缓资本开支？沃什罕见释放政策信号！",
-          "url": "https://www.youtube.com/watch?v=5Uk4yuYmvqg",
-          "source": "美投侃新闻",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-02T00:12:03Z"
-        },
-        {
-          "id": "f6393f9b1cbce6e341330f9a5017f25f57e296e4",
-          "title": "存储暴跌，资本大迁移？华尔街悄悄转向软件与大科技？",
-          "url": "https://www.youtube.com/watch?v=9rxfRxdyDvM",
-          "source": "Shepherd Capital Markets",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-01T22:52:36Z"
         },
         {
           "id": "99b4ea9385cb53c5b4021554be5968ce91b455ef",
@@ -155,6 +155,24 @@
       ],
       "items": [
         {
+          "id": "8ed7a7f0cd227be0fb09115ba259870e3a774dec",
+          "title": "非农就业爆雷？Meta引发热议！苹果继续大涨！特斯拉遭抛售！",
+          "url": "https://www.youtube.com/watch?v=h6-gli3HEF8",
+          "source": "美投侃新闻",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-02T23:56:07Z"
+        },
+        {
+          "id": "637f21aedf723da1b929af71076e6ecba24b39d4",
+          "title": "数据好但股价暴跌？特斯拉今日上演华尔街老戏：买消息，卖事实",
+          "url": "https://www.youtube.com/watch?v=bsJxpBsCFLU",
+          "source": "Shepherd Capital Markets",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-02T23:20:32Z"
+        },
+        {
           "id": "fc62e3cc478cd54e68fab7b14a18018b99d0f160",
           "title": "更好地打電話給霍華德：現實生活中的索爾古德曼 / Better Call Howard: The Real-Life Saul Goodman",
           "url": "https://www.youtube.com/watch?v=MCw10ykXD7Q",
@@ -236,24 +254,6 @@
           "published_at": "2026-07-02T12:00:09Z"
         },
         {
-          "id": "209f2cbcc583c77dca28305e5569333d07b4e37a",
-          "title": "Meta要放缓资本开支？沃什罕见释放政策信号！",
-          "url": "https://www.youtube.com/watch?v=5Uk4yuYmvqg",
-          "source": "美投侃新闻",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-02T00:12:03Z"
-        },
-        {
-          "id": "f6393f9b1cbce6e341330f9a5017f25f57e296e4",
-          "title": "存储暴跌，资本大迁移？华尔街悄悄转向软件与大科技？",
-          "url": "https://www.youtube.com/watch?v=9rxfRxdyDvM",
-          "source": "Shepherd Capital Markets",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-01T22:52:36Z"
-        },
-        {
           "id": "99b4ea9385cb53c5b4021554be5968ce91b455ef",
           "title": "如何讓一個國家破產 / How To Bankrupt A Country",
           "url": "https://www.youtube.com/watch?v=qqxzeNuDVc8",
@@ -283,26 +283,26 @@
       ],
       "item_count": 14,
       "duplicate_count": 14,
-      "score": 0.7295,
-      "importance": 0.7295,
-      "importance_score": 0.7295,
+      "score": 0.7466,
+      "importance": 0.7466,
+      "importance_score": 0.7466,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9316,
+        "recency": 0.9888,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-01T22:52:36Z",
-      "latest_at": "2026-07-02T21:00:34Z",
+      "earliest_at": "2026-07-02T10:00:31Z",
+      "latest_at": "2026-07-02T23:56:07Z",
       "primary_item": {
-        "id": "fc62e3cc478cd54e68fab7b14a18018b99d0f160",
-        "title": "更好地打電話給霍華德：現實生活中的索爾古德曼 / Better Call Howard: The Real-Life Saul Goodman",
-        "url": "https://www.youtube.com/watch?v=MCw10ykXD7Q",
-        "source": "Best Documentary",
+        "id": "8ed7a7f0cd227be0fb09115ba259870e3a774dec",
+        "title": "非农就业爆雷？Meta引发热议！苹果继续大涨！特斯拉遭抛售！",
+        "url": "https://www.youtube.com/watch?v=h6-gli3HEF8",
+        "source": "美投侃新闻",
         "source_name": "OPML RSS"
       }
     },
@@ -377,13 +377,13 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5325,
-      "importance": 0.5325,
-      "importance_score": 0.5325,
+      "score": 0.5131,
+      "importance": 0.5131,
+      "importance_score": 0.5131,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6083,
+        "recency": 0.5436,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -453,13 +453,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4586,
-      "importance": 0.4586,
-      "importance_score": 0.4586,
+      "score": 0.4392,
+      "importance": 0.4392,
+      "importance_score": 0.4392,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.5285,
+        "recency": 0.4639,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -473,82 +473,6 @@
         "title": "Z.ai推出ZCode，這是一個針對其新GLM-5.2模型優化的「代理開發環境」； Z.ai 的 GLM 編碼計劃每月費用從 16.20 美元到 144 美元不等（Michael Nuñez/VentureBeat） / Z.ai launches ZCode, an \"Agentic Development Environment\" optimized for its new GLM-5.2 model; Z.ai's GLM Coding Plan costs from $16.20 to $144 per month (Michael Nuñez/VentureBeat)",
         "url": "https://www.techmeme.com/260702/p19",
         "source": "Techmeme",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_abad293bfe32",
-      "title": "【美股盤勢】費半急殺逾6%，Meta卻暴衝撐住大盤？（2026.07.02） - CMoney投資網誌",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeUt6aWI0MHY4MFphMS1VbzIxYWEyNlB4SnBDQ2ZuVmNieUlUOUxXOXgzbnVQczhvczZHN1hnMWpJZUdGd3FhekhJczUxR3dPZS1QWE9aOUxOTmo3TG5RdWtGZk1WUy1tVFJvUTdTLTJVLXdXbTI0M3NaQTBaQ3ZBWHMwbktEUmxwS1U5eVFn?oc=5",
-      "primary_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeUt6aWI0MHY4MFphMS1VbzIxYWEyNlB4SnBDQ2ZuVmNieUlUOUxXOXgzbnVQczhvczZHN1hnMWpJZUdGd3FhekhJczUxR3dPZS1QWE9aOUxOTmo3TG5RdWtGZk1WUy1tVFJvUTdTLTJVLXdXbTI0M3NaQTBaQ3ZBWHMwbktEUmxwS1U5eVFn?oc=5",
-      "source": "美股盤勢 cmnews - Google 新聞",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "284d50b93a6c4a27bd2b6bb1c6671d7506348151",
-          "title": "【美股盤勢】費半急殺逾6%，Meta卻暴衝撐住大盤？（2026.07.02） - CMoney投資網誌",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeUt6aWI0MHY4MFphMS1VbzIxYWEyNlB4SnBDQ2ZuVmNieUlUOUxXOXgzbnVQczhvczZHN1hnMWpJZUdGd3FhekhJczUxR3dPZS1QWE9aOUxOTmo3TG5RdWtGZk1WUy1tVFJvUTdTLTJVLXdXbTI0M3NaQTBaQ3ZBWHMwbktEUmxwS1U5eVFn?oc=5",
-          "source": "美股盤勢 cmnews - Google 新聞",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-01T23:02:20Z"
-        },
-        {
-          "id": "04b37a712efb1cca0c1ba037a1420597e6a6b877",
-          "title": "【美股盤勢】費半急殺逾6%，Meta卻暴衝撐住大盤？（2026.07.02） - cmnews.com.tw",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeUt6aWI0MHY4MFphMS1VbzIxYWEyNlB4SnBDQ2ZuVmNieUlUOUxXOXgzbnVQczhvczZHN1hnMWpJZUdGd3FhekhJczUxR3dPZS1QWE9aOUxOTmo3TG5RdWtGZk1WUy1tVFJvUTdTLTJVLXdXbTI0M3NaQTBaQ3ZBWHMwbktEUmxwS1U5eVFn?oc=5",
-          "source": "美股盤勢 cmnews - Google 新聞",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-01T23:02:20Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "美股盤勢 cmnews - Google 新聞"
-      ],
-      "items": [
-        {
-          "id": "284d50b93a6c4a27bd2b6bb1c6671d7506348151",
-          "title": "【美股盤勢】費半急殺逾6%，Meta卻暴衝撐住大盤？（2026.07.02） - CMoney投資網誌",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeUt6aWI0MHY4MFphMS1VbzIxYWEyNlB4SnBDQ2ZuVmNieUlUOUxXOXgzbnVQczhvczZHN1hnMWpJZUdGd3FhekhJczUxR3dPZS1QWE9aOUxOTmo3TG5RdWtGZk1WUy1tVFJvUTdTLTJVLXdXbTI0M3NaQTBaQ3ZBWHMwbktEUmxwS1U5eVFn?oc=5",
-          "source": "美股盤勢 cmnews - Google 新聞",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-01T23:02:20Z"
-        },
-        {
-          "id": "04b37a712efb1cca0c1ba037a1420597e6a6b877",
-          "title": "【美股盤勢】費半急殺逾6%，Meta卻暴衝撐住大盤？（2026.07.02） - cmnews.com.tw",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeUt6aWI0MHY4MFphMS1VbzIxYWEyNlB4SnBDQ2ZuVmNieUlUOUxXOXgzbnVQczhvczZHN1hnMWpJZUdGd3FhekhJczUxR3dPZS1QWE9aOUxOTmo3TG5RdWtGZk1WUy1tVFJvUTdTLTJVLXdXbTI0M3NaQTBaQ3ZBWHMwbktEUmxwS1U5eVFn?oc=5",
-          "source": "美股盤勢 cmnews - Google 新聞",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-01T23:02:20Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.3048,
-      "importance": 0.3048,
-      "importance_score": 0.3048,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.5,
-        "recency": 0.0161,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-01T23:02:20Z",
-      "latest_at": "2026-07-01T23:02:20Z",
-      "primary_item": {
-        "id": "284d50b93a6c4a27bd2b6bb1c6671d7506348151",
-        "title": "【美股盤勢】費半急殺逾6%，Meta卻暴衝撐住大盤？（2026.07.02） - CMoney投資網誌",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeUt6aWI0MHY4MFphMS1VbzIxYWEyNlB4SnBDQ2ZuVmNieUlUOUxXOXgzbnVQczhvczZHN1hnMWpJZUdGd3FhekhJczUxR3dPZS1QWE9aOUxOTmo3TG5RdWtGZk1WUy1tVFJvUTdTLTJVLXdXbTI0M3NaQTBaQ3ZBWHMwbktEUmxwS1U5eVFn?oc=5",
-        "source": "美股盤勢 cmnews - Google 新聞",
         "source_name": "OPML RSS"
       }
     }
