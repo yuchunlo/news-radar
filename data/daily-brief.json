@@ -1,16 +1,34 @@
 {
-  "generated_at": "2026-07-03T21:14:48.367247Z",
+  "generated_at": "2026-07-03T22:35:57.770377Z",
   "window_hours": 24,
   "total_items": 2,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "他們認為這是一個網路笑話……事實並非如此。 / They Thought It Was an Online Joke... It Wasn’t.",
-      "url": "https://www.youtube.com/watch?v=pHX962HNjkI",
-      "primary_url": "https://www.youtube.com/watch?v=pHX962HNjkI",
-      "source": "Best Documentary",
+      "title": "紐約市14年來最熱的一天 / New York City's Hottest Day in 14 Years",
+      "url": "https://www.youtube.com/watch?v=B-46uG6raX4",
+      "primary_url": "https://www.youtube.com/watch?v=B-46uG6raX4",
+      "source": "CaseyNeistat",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "4a1fb77f3b25520738ca7a3c71779baf8f6fdf6f",
+          "title": "紐約市14年來最熱的一天 / New York City's Hottest Day in 14 Years",
+          "url": "https://www.youtube.com/watch?v=B-46uG6raX4",
+          "source": "CaseyNeistat",
+          "source_name": "OPML RSS",
+          "site_id": "design",
+          "published_at": "2026-07-03T22:05:09Z"
+        },
+        {
+          "id": "89d97776d5427fe2627881ab8fb427700ab0156a",
+          "title": "美國革命：歷史上最大的謊言？ / The American Revolution: History's Biggest Fib?",
+          "url": "https://www.youtube.com/watch?v=sqkJ3Dmc7A8",
+          "source": "Timeline - World History Documentaries",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-03T21:00:12Z"
+        },
         {
           "id": "dcc514bb156018223f1ec998195d3b76c61270a1",
           "title": "他們認為這是一個網路笑話……事實並非如此。 / They Thought It Was an Online Joke... It Wasn’t.",
@@ -147,17 +165,19 @@
           "published_at": "2026-07-03T10:00:32Z"
         }
       ],
-      "source_count": 15,
+      "source_count": 17,
       "source_names": [
         "Adam Something",
         "Benjamin Cowen",
         "Best Documentary",
         "Cadence Gao",
+        "CaseyNeistat",
         "Chu's Vegan",
         "CineFix",
         "DenQ來了",
         "Logically Answered",
         "Shepherd Capital Markets",
+        "Timeline - World History Documentaries",
         "UsefulCharts",
         "imineo Documentaires",
         "nobody",
@@ -166,6 +186,24 @@
       ],
       "items": [
         {
+          "id": "4a1fb77f3b25520738ca7a3c71779baf8f6fdf6f",
+          "title": "紐約市14年來最熱的一天 / New York City's Hottest Day in 14 Years",
+          "url": "https://www.youtube.com/watch?v=B-46uG6raX4",
+          "source": "CaseyNeistat",
+          "source_name": "OPML RSS",
+          "site_id": "design",
+          "published_at": "2026-07-03T22:05:09Z"
+        },
+        {
+          "id": "89d97776d5427fe2627881ab8fb427700ab0156a",
+          "title": "美國革命：歷史上最大的謊言？ / The American Revolution: History's Biggest Fib?",
+          "url": "https://www.youtube.com/watch?v=sqkJ3Dmc7A8",
+          "source": "Timeline - World History Documentaries",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-03T21:00:12Z"
+        },
+        {
           "id": "dcc514bb156018223f1ec998195d3b76c61270a1",
           "title": "他們認為這是一個網路笑話……事實並非如此。 / They Thought It Was an Online Joke... It Wasn’t.",
           "url": "https://www.youtube.com/watch?v=pHX962HNjkI",
@@ -301,15 +339,15 @@
           "published_at": "2026-07-03T10:00:32Z"
         }
       ],
-      "item_count": 15,
-      "duplicate_count": 15,
-      "score": 0.7469,
-      "importance": 0.7469,
-      "importance_score": 0.7469,
+      "item_count": 17,
+      "duplicate_count": 17,
+      "score": 0.7436,
+      "importance": 0.7436,
+      "importance_score": 0.7436,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9898,
+        "recency": 0.9786,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -317,12 +355,12 @@
         "multi_source"
       ],
       "earliest_at": "2026-07-02T23:20:32Z",
-      "latest_at": "2026-07-03T21:00:06Z",
+      "latest_at": "2026-07-03T22:05:09Z",
       "primary_item": {
-        "id": "dcc514bb156018223f1ec998195d3b76c61270a1",
-        "title": "他們認為這是一個網路笑話……事實並非如此。 / They Thought It Was an Online Joke... It Wasn’t.",
-        "url": "https://www.youtube.com/watch?v=pHX962HNjkI",
-        "source": "Best Documentary",
+        "id": "4a1fb77f3b25520738ca7a3c71779baf8f6fdf6f",
+        "title": "紐約市14年來最熱的一天 / New York City's Hottest Day in 14 Years",
+        "url": "https://www.youtube.com/watch?v=B-46uG6raX4",
+        "source": "CaseyNeistat",
         "source_name": "OPML RSS"
       }
     },
@@ -379,13 +417,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.372,
-      "importance": 0.372,
-      "importance_score": 0.372,
+      "score": 0.3551,
+      "importance": 0.3551,
+      "importance_score": 0.3551,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.6567,
+        "recency": 0.6004,
         "story_heat": 0.25
       },
       "category": "watch",
