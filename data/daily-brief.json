@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T22:35:57.770377Z",
+  "generated_at": "2026-07-04T00:11:04.409145Z",
   "window_hours": 24,
   "total_items": 2,
   "items": [
@@ -129,24 +129,6 @@
           "published_at": "2026-07-03T03:48:55Z"
         },
         {
-          "id": "8ed7a7f0cd227be0fb09115ba259870e3a774dec",
-          "title": "非农就业爆雷？Meta引发热议！苹果继续大涨！特斯拉遭抛售！",
-          "url": "https://www.youtube.com/watch?v=h6-gli3HEF8",
-          "source": "美投侃新闻",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-02T23:56:07Z"
-        },
-        {
-          "id": "637f21aedf723da1b929af71076e6ecba24b39d4",
-          "title": "数据好但股价暴跌？特斯拉今日上演华尔街老戏：买消息，卖事实",
-          "url": "https://www.youtube.com/watch?v=bsJxpBsCFLU",
-          "source": "Shepherd Capital Markets",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-02T23:20:32Z"
-        },
-        {
           "id": "0fc50a172ba4eb6da777f4ade0cbed671243237f",
           "title": "呃，代幣越來越貴了… / Uh oh, tokens are getting too expensive...",
           "url": "https://www.youtube.com/watch?v=c-kFj1avb5Y",
@@ -165,7 +147,7 @@
           "published_at": "2026-07-03T10:00:32Z"
         }
       ],
-      "source_count": 17,
+      "source_count": 15,
       "source_names": [
         "Adam Something",
         "Benjamin Cowen",
@@ -176,13 +158,11 @@
         "CineFix",
         "DenQ來了",
         "Logically Answered",
-        "Shepherd Capital Markets",
         "Timeline - World History Documentaries",
         "UsefulCharts",
         "imineo Documentaires",
         "nobody",
-        "忽左忽右",
-        "美投侃新闻"
+        "忽左忽右"
       ],
       "items": [
         {
@@ -303,24 +283,6 @@
           "published_at": "2026-07-03T03:48:55Z"
         },
         {
-          "id": "8ed7a7f0cd227be0fb09115ba259870e3a774dec",
-          "title": "非农就业爆雷？Meta引发热议！苹果继续大涨！特斯拉遭抛售！",
-          "url": "https://www.youtube.com/watch?v=h6-gli3HEF8",
-          "source": "美投侃新闻",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-02T23:56:07Z"
-        },
-        {
-          "id": "637f21aedf723da1b929af71076e6ecba24b39d4",
-          "title": "数据好但股价暴跌？特斯拉今日上演华尔街老戏：买消息，卖事实",
-          "url": "https://www.youtube.com/watch?v=bsJxpBsCFLU",
-          "source": "Shepherd Capital Markets",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-02T23:20:32Z"
-        },
-        {
           "id": "0fc50a172ba4eb6da777f4ade0cbed671243237f",
           "title": "呃，代幣越來越貴了… / Uh oh, tokens are getting too expensive...",
           "url": "https://www.youtube.com/watch?v=c-kFj1avb5Y",
@@ -339,22 +301,22 @@
           "published_at": "2026-07-03T10:00:32Z"
         }
       ],
-      "item_count": 17,
-      "duplicate_count": 17,
-      "score": 0.7436,
-      "importance": 0.7436,
-      "importance_score": 0.7436,
+      "item_count": 15,
+      "duplicate_count": 15,
+      "score": 0.7238,
+      "importance": 0.7238,
+      "importance_score": 0.7238,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9786,
+        "recency": 0.9126,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-02T23:20:32Z",
+      "earliest_at": "2026-07-03T03:48:55Z",
       "latest_at": "2026-07-03T22:05:09Z",
       "primary_item": {
         "id": "4a1fb77f3b25520738ca7a3c71779baf8f6fdf6f",
@@ -417,13 +379,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3551,
-      "importance": 0.3551,
-      "importance_score": 0.3551,
+      "score": 0.3353,
+      "importance": 0.3353,
+      "importance_score": 0.3353,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.6004,
+        "recency": 0.5343,
         "story_heat": 0.25
       },
       "category": "watch",
