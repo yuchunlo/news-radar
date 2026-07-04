@@ -1,0 +1,9941 @@
+WEBVTT
+Kind: captions
+Language: zh
+
+00:00:00.083 --> 00:00:00.666
+[Ray] 在现在这个市场下，
+[Ray] In this market,
+
+00:00:00.708 --> 00:00:02.208
+像我这样的普通投资者
+can a normal investor
+
+00:00:02.250 --> 00:00:03.458
+还能继续无脑买入吗？
+like me just keep buying?
+
+00:00:03.541 --> 00:00:03.791
+[Nick] 你知道吗？
+[Nick] You know what?
+
+00:00:03.875 --> 00:00:04.833
+现在的行情看起来太疯狂了。
+This seems too crazy.
+
+00:00:05.041 --> 00:00:06.750
+我甚至一度变得有点悲观。
+I even got a little pessimistic at point.
+
+00:00:06.875 --> 00:00:07.916
+[Ray] 哇，这可真少见。
+[Ray] Wow, that, that's new.
+
+00:00:08.041 --> 00:00:12.041
+三年前我读过一本很火的投资书，叫做《持续买入》。作者 Nick Maggiulli，
+
+00:00:12.083 --> 00:00:14.750
+华尔街数据分析师，博客写了十年，五百多篇。
+
+00:00:14.750 --> 00:00:17.166
+那这本书的核心理念就一句话：
+
+00:00:17.166 --> 00:00:20.958
+无论市场发生什么，你要做的就只有持续买入。
+
+00:00:20.958 --> 00:00:23.333
+那过去几年我一直照着做，从没怀疑过。
+
+00:00:23.333 --> 00:00:26.291
+但是现在是二零二六年的五月，
+
+00:00:26.291 --> 00:00:27.250
+我有点不敢买了。
+
+00:00:27.250 --> 00:00:32.750
+全球股市涨得有点离谱，标普五百连创新高，日韩台股同步起飞，
+
+00:00:32.916 --> 00:00:37.500
+光Nvidia 一家公司的市值就超过了中美之外任何一个国家的 GDP。
+
+00:00:37.500 --> 00:00:39.458
+这让很多投资者都开始焦虑。
+
+00:00:39.458 --> 00:00:40.875
+那我身边总共有四种人，
+
+00:00:40.875 --> 00:00:42.958
+满仓 AI 翻倍的，怕这是顶；
+
+00:00:42.958 --> 00:00:45.625
+一路加仓的，怕自己是高位接盘的傻子；
+
+00:00:45.625 --> 00:00:48.708
+攒着现金等机会的，越等越觉得错过了；
+
+00:00:48.708 --> 00:00:51.375
+想进场的，又被泡沫论吓得不敢动。
+
+00:00:51.458 --> 00:00:54.333
+更让人困惑的是，巴菲特手持历史最高仓位的现金，
+
+00:00:54.333 --> 00:00:58.416
+将近四千亿美金，连他都在等，那我们呢？
+
+00:00:58.500 --> 00:01:02.041
+而这本《持续买入》的方法论今天还管用吗？
+
+00:01:02.041 --> 00:01:04.375
+带着这些问题，我找 Nick 聊了聊。
+
+00:01:04.500 --> 00:01:04.583
+[Nick] 嗯，
+[Nick] Well,
+
+00:01:04.583 --> 00:01:06.333
+如果我接下来的十年都赶上熊市怎么办？
+what happens if I go through a bad decade?
+
+00:01:06.416 --> 00:01:07.583
+我写过相关的文章，还专门写过一本书，
+I've written about, I have a book on it,
+
+00:01:07.625 --> 00:01:09.708
+结果因为最近的行情，
+and even I went against that because of
+
+00:01:09.750 --> 00:01:10.416
+连我自己都违背了我的原则。
+what was happening.
+
+00:01:10.500 --> 00:01:11.625
+相信我，这背后的数学逻辑，
+Trust me on this, the math on,
+
+00:01:12.041 --> 00:01:13.291
+是无可辩驳的。
+on this is undeniable.
+
+00:01:13.500 --> 00:01:15.250
+哪怕你完美踩中了每一次择时，
+Even if you perfectly timed it,
+
+00:01:15.333 --> 00:01:16.583
+我也确实看走眼了，这种事常有，你懂吧？
+I was wrong, and it happens, you know?
+
+00:01:16.625 --> 00:01:18.000
+如果我只能给你一句，
+If I can only give you one line,
+
+00:01:18.083 --> 00:01:18.833
+一句关于投资的，
+one investment,
+
+00:01:18.916 --> 00:01:19.750
+投资建议的话，
+piece of investment advice,
+
+00:01:19.833 --> 00:01:20.666
+那一定是这句。
+it would be this.
+
+00:01:22.541 --> 00:01:24.166
+[Ray] 那因为嘉宾讲英文啊，
+
+00:01:24.166 --> 00:01:26.750
+为了方便大家理解，我制作了详细的章节和时间戳、
+
+00:01:26.750 --> 00:01:29.250
+中英对照字幕和必要的视觉讲解。
+
+00:01:29.250 --> 00:01:30.791
+那这做起来并不容易，
+
+00:01:30.791 --> 00:01:33.583
+所以在开始之前，我想先感谢大家的支持
+
+00:01:33.583 --> 00:01:36.375
+和我的长期赞助商 Interactive Brokers。
+
+00:01:36.458 --> 00:01:38.958
+IB呢，是我美股投资使用的唯一券商，
+
+00:01:38.958 --> 00:01:42.833
+因为它功能强大且值得信任，是屡获殊荣的券商，
+
+00:01:42.833 --> 00:01:48.125
+那交易费率可以低到忽略不计，那它的换汇和投资全球市场也都十分的方便。
+
+00:01:48.125 --> 00:01:51.291
+那我在加拿大经常要把加币换成美元，相比加拿大券商
+
+00:01:51.291 --> 00:01:56.041
+动则百分之一点五的费率来说，IB 的换汇费率简直就是低到几乎可以忽略不计。
+
+00:01:56.041 --> 00:02:00.250
+而且 IB 还会为符合条件账户中的现金支付有竞争力的利息。
+
+00:02:00.250 --> 00:02:04.166
+十分推荐大家点击评论区的链接查看一下 Interactive Brokers。
+
+00:02:04.166 --> 00:02:06.916
+你点击链接我会有收益，这也算是对我的支持啦。
+
+00:02:06.916 --> 00:02:10.250
+好，那我们就现在回到视频最初的那个问题，
+
+00:02:10.250 --> 00:02:15.166
+在这个疯狂的市场里，一个普通投资者还能持续买入吗？
+
+00:02:15.250 --> 00:02:16.500
+[Nick] 这取决于你的投资期限。
+[Nick] Depends on your timeframe.
+
+00:02:16.875 --> 00:02:17.375
+这是最关键的。
+That's everything.
+
+00:02:17.458 --> 00:02:17.791
+比如说，如果你——
+Like, if y-
+
+00:02:17.875 --> 00:02:18.541
+如果你需要这笔钱
+if you need the money
+
+00:02:18.583 --> 00:02:19.500
+在未来五年内用到，
+in the next five years,
+
+00:02:19.625 --> 00:02:20.000
+那不行。
+no.
+
+00:02:20.083 --> 00:02:21.333
+我会说绝对不行，
+I would say absolutely not,
+
+00:02:21.416 --> 00:02:22.500
+你现在千万不要买。
+you should not be buying right now.
+
+00:02:22.666 --> 00:02:23.000
+如果你的——
+If your--
+
+00:02:23.083 --> 00:02:24.708
+这是一个为了二三十年后的
+this is a retirement account for twenty,
+
+00:02:24.833 --> 00:02:25.625
+退休金账户，
+thirty years in the future,
+
+00:02:25.666 --> 00:02:26.333
+那我会说没问题，
+I would say yes,
+
+00:02:26.375 --> 00:02:28.291
+因为市场会在很多方面
+'cause the market will surprise you
+
+00:02:28.333 --> 00:02:29.041
+给你带来惊喜。
+in many ways.
+
+00:02:29.083 --> 00:02:32.208
+[Ray] 但是紧接着他的另一个回答让我感到有些意外。
+
+00:02:32.250 --> 00:02:33.458
+[Nick] 一年前，我看跌市场，
+[Nick] A year ago, I was bearish,
+
+00:02:33.625 --> 00:02:34.875
+现在我又重新看涨了。
+I'm now bullish once again.
+
+00:02:34.958 --> 00:02:36.583
+过去一年，因为 AI 看起来——
+Over the last year, because AI was--
+
+00:02:36.625 --> 00:02:38.041
+实在太疯狂了，
+seemed so crazy,
+
+00:02:38.166 --> 00:02:38.875
+我变得有点悲观了，
+I got a little bearish
+
+00:02:38.958 --> 00:02:39.791
+这可是破天荒头一次，
+for the first time ever,
+
+00:02:39.833 --> 00:02:42.208
+而且我把我的股票仓位，
+and I reduced my stock exposure by,
+
+00:02:42.291 --> 00:02:43.125
+你知道，减了 20%。
+you know, twenty percent.
+
+00:02:43.208 --> 00:02:44.833
+我的退休账户从 100% 全仓股票，
+I went from a hundred percent stocks
+
+00:02:44.875 --> 00:02:46.416
+变成了 80/20 的股债配置，
+in my retirement account to eighty/twenty,
+
+00:02:46.500 --> 00:02:48.000
+对我来说，这就等于是看跌了。
+which to me, that's like being bearish.
+
+00:02:48.125 --> 00:02:49.291
+而到了现在这个节点，我就在想，
+And at this point now, I'm like,
+
+00:02:49.708 --> 00:02:51.000
+“为什么——我当时干嘛要这么做？”
+"W-why am-- why did I do that?"
+
+00:02:51.125 --> 00:02:54.083
+[Ray] 那为什么连写《持续买入》的作者都有些犹豫呢？
+
+00:02:54.083 --> 00:02:55.541
+那想要回答这个问题啊，
+
+00:02:55.541 --> 00:02:58.708
+我们得看看二零二六年这个市场有多特殊。
+
+00:02:58.708 --> 00:03:01.916
+那毫无疑问啊，现在的这个市场全是关于AI。
+
+00:03:01.916 --> 00:03:03.208
+那关于 AI 有两个争论，
+
+00:03:03.208 --> 00:03:04.708
+第一就是它到底是不是泡沫，
+
+00:03:04.708 --> 00:03:08.250
+第二，它到底是不是一个真正的范式转移。
+
+00:03:08.291 --> 00:03:09.708
+[Nick] 可能两者都有点吧，对吧？
+[Nick] It's probably a bit of both, right?
+
+00:03:09.791 --> 00:03:10.541
+如果你回顾一下
+If you look at the history
+
+00:03:10.625 --> 00:03:12.416
+任何重大技术变革的历史，
+of any large technological change,
+
+00:03:12.791 --> 00:03:14.125
+总会有大量的玩家
+there's always a ton of players
+
+00:03:14.208 --> 00:03:14.583
+蜂拥而至。
+that rush in.
+
+00:03:14.666 --> 00:03:16.125
+也会有大量的资金涌入。
+There's a lot of capital that goes in.
+
+00:03:16.166 --> 00:03:17.791
+过度投资总是难免的，
+There's always overinvestment,
+
+00:03:18.208 --> 00:03:19.666
+我敢保证，在这次浪潮中，
+and I guarantee in this case,
+
+00:03:19.750 --> 00:03:21.166
+也一定会有一些过度投资，
+there's gonna be some overinvestment,
+
+00:03:21.250 --> 00:03:22.250
+无论这是否已经发生，
+whether it's already happened,
+
+00:03:22.291 --> 00:03:23.208
+还是说在未来
+whether it's going to happen
+
+00:03:23.250 --> 00:03:23.916
+将会发生，
+in the future,
+
+00:03:24.000 --> 00:03:24.500
+我不清楚。
+I don't know.
+
+00:03:24.541 --> 00:03:25.708
+毕竟，我们无法预测未来。
+Like, we can't predict the future.
+
+00:03:26.208 --> 00:03:26.916
+但与此同时，
+At the same time,
+
+00:03:27.000 --> 00:03:28.291
+对于很多领域来说，
+it is a paradigm shift for a lot
+
+00:03:28.375 --> 00:03:28.708
+它确实是一场范式转移。
+of things.
+
+00:03:28.750 --> 00:03:31.166
+任何用过，你知道的，ChatGPT，
+Anyone that's used, you know, ChatGPT,
+
+00:03:31.416 --> 00:03:33.541
+Claude，或者是 Perplexity，等等这些的人，
+Claude, you know, Perplexity, you name it,
+
+00:03:34.000 --> 00:03:35.166
+都会觉得，哇，
+you've seen things like, wow,
+
+00:03:35.208 --> 00:03:36.250
+这真的能帮我省时间，
+this can save me time,
+
+00:03:36.333 --> 00:03:37.625
+而且现在已经有很多机器人
+and there's now bots out there
+
+00:03:37.666 --> 00:03:38.333
+能干不少事了。
+that can do things.
+
+00:03:38.416 --> 00:03:39.541
+虽然它们还不完美，
+And they're not perfect,
+
+00:03:39.583 --> 00:03:40.791
+但能省下大把时间。
+but they can save a lot of time.
+
+00:03:40.958 --> 00:03:41.875
+现在的问题更像是，
+It's the question of, like,
+
+00:03:42.041 --> 00:03:44.041
+我觉得这背后的经济账，
+the economics haven't, I think,
+
+00:03:44.250 --> 00:03:45.375
+还没有完全算清楚，对吧？
+fully worn out yet, right?
+
+00:03:45.458 --> 00:03:46.291
+因为说到底，
+'Cause at the end of the day,
+
+00:03:46.625 --> 00:03:48.291
+AI 可能和人类一样出色，
+AI could be just as good as a human,
+
+00:03:48.375 --> 00:03:49.500
+但如果它的成本
+but what if it's more expensive
+
+00:03:49.541 --> 00:03:49.958
+比用人还高呢？
+than a human?
+
+00:03:50.041 --> 00:03:50.500
+当然了，
+Of course,
+
+00:03:50.583 --> 00:03:51.541
+大家都觉得
+everyone thinks the cost
+
+00:03:51.625 --> 00:03:52.791
+算力成本会持续下降，
+of compute's gonna keep coming down
+
+00:03:52.875 --> 00:03:54.500
+降到比，比人工
+to the point where it's cheaper than,
+
+00:03:54.791 --> 00:03:56.333
+还要便宜的地步，如果真是那样，
+than people, and if that's the case,
+
+00:03:56.416 --> 00:03:57.083
+那当然很棒。
+then that's great.
+
+00:03:57.125 --> 00:03:58.333
+但这中间还有很多东西，
+But there's a lot of things we have
+
+00:03:58.375 --> 00:03:58.958
+我们需要仔细想清楚。
+to think through there.
+
+00:03:59.041 --> 00:03:59.375
+这是一个，一个，
+It's, it's a,
+
+00:03:59.458 --> 00:04:00.791
+这是一个非常复杂的问题。
+it's a very complex question.
+
+00:04:00.833 --> 00:04:02.375
+所以总的来说，我会说，是的，
+So overall, I would say yes,
+
+00:04:02.458 --> 00:04:03.916
+这里存在过度投资，但同时我们也，
+there's overinvestment, but also we,
+
+00:04:04.000 --> 00:04:04.916
+我们知道这是一场范式转移，
+we know it's a paradigm shift,
+
+00:04:05.000 --> 00:04:05.416
+所以两者兼有，
+so it's both,
+
+00:04:05.500 --> 00:04:06.750
+这就是为什么现在的情况让人如此困惑。
+and that's why it's so confusing.
+
+00:04:06.833 --> 00:04:07.958
+如果答案显而易见，
+If it was an obvious answer,
+
+00:04:08.291 --> 00:04:09.625
+我们现在就不需要
+we wouldn't be having this debate right
+
+00:04:09.708 --> 00:04:09.916
+在这讨论了。
+now.
+
+00:04:10.000 --> 00:04:10.083
+[Ray] 好的，
+[Ray] Okay,
+
+00:04:10.166 --> 00:04:11.125
+很有意思的一点是
+that's really interesting is
+
+00:04:11.208 --> 00:04:13.166
+你开始有一点看跌了。
+that you turned a little bit bearish.
+
+00:04:13.208 --> 00:04:14.000
+那么你的依据是什么？
+So based on what?
+
+00:04:14.041 --> 00:04:14.166
+比如说，
+Like,
+
+00:04:14.250 --> 00:04:16.208
+是基于盈利数据，还是市场情绪？
+is that the earnings or the sentimentals?
+
+00:04:16.291 --> 00:04:17.375
+[Nick] 是市销率（Price to sales）。
+[Nick] Price over sales.
+
+00:04:17.458 --> 00:04:18.416
+它，它只是……
+It, it just...
+
+00:04:18.500 --> 00:04:19.333
+有太多东西
+There were too many things
+
+00:04:19.416 --> 00:04:20.125
+让我想起了
+that just reminded me
+
+00:04:20.166 --> 00:04:20.916
+2021年的情况，
+of twenty twenty-one,
+
+00:04:21.000 --> 00:04:22.625
+我觉得我有点既视感（déjà vu）了。
+and I think I got a little bit of déjà vu.
+
+00:04:22.708 --> 00:04:23.541
+比如说，
+Like,
+
+00:04:23.666 --> 00:04:25.791
+Chamath 又出来搞 SPAC 了。
+Chamath was coming out with SPACs again.
+
+00:04:25.833 --> 00:04:27.750
+再比如，我在看市盈率。
+Like, I was seeing price to earnings.
+
+00:04:28.041 --> 00:04:28.333
+我，
+I,
+
+00:04:28.416 --> 00:04:30.916
+我把 Nvidia 现在的市销率
+I overlaid the Nvidia price to sales
+
+00:04:31.000 --> 00:04:33.000
+和 99 年 Microsoft 的市销率放在一起看，
+with the Microsoft price to sales in '99,
+
+00:04:33.041 --> 00:04:34.333
+发现，简直一模一样。
+and, like, the, they matched.
+
+00:04:34.416 --> 00:04:35.750
+当然，这中间有很多巧合。
+Of course, there's a lot of coincidences.
+
+00:04:35.791 --> 00:04:36.000
+我当时就觉得，
+I was like,
+
+00:04:36.041 --> 00:04:37.875
+“这简直太疯狂了。” 就像，
+"This is just too crazy." Like, the,
+
+00:04:37.958 --> 00:04:38.750
+你知道，市销率，
+you know, price to sales,
+
+00:04:38.791 --> 00:04:40.000
+相比起盈利，我更喜欢这个指标，
+I like that metric more than earnings,
+
+00:04:40.041 --> 00:04:41.125
+因为盈利可以通过
+'cause earnings can be manipulated
+
+00:04:41.208 --> 00:04:42.375
+各种财务技巧来操纵。
+with all sorts of accounting tricks.
+
+00:04:42.791 --> 00:04:44.375
+销售额则是实打实的。
+Sales is like, that's what you have.
+
+00:04:44.458 --> 00:04:44.541
+就像，
+Like,
+
+00:04:44.583 --> 00:04:45.625
+你有你的公司市值，
+you have the price of your company
+
+00:04:45.666 --> 00:04:46.375
+也有你的营收。
+and you have your revenue.
+
+00:04:46.458 --> 00:04:48.583
+你不能——去伪造销售额就等于，
+You can't-- To fake sales is, like,
+
+00:04:48.750 --> 00:04:49.458
+直接就是诈骗了，
+straight up fraud,
+
+00:04:49.500 --> 00:04:50.750
+很少有人敢这么干。
+and people very rarely do that.
+
+00:04:50.791 --> 00:04:51.916
+人们可以在盈利上
+People can play accounting tricks
+
+00:04:52.000 --> 00:04:52.625
+玩弄财务技巧。
+with earnings.
+
+00:04:52.708 --> 00:04:53.750
+但在销售额上你玩不了。
+You can't do that with sales.
+
+00:04:53.833 --> 00:04:54.208
+所以对我来说，
+So for me,
+
+00:04:54.291 --> 00:04:55.500
+我当时看着这些数据列，
+I was looking at these data series
+
+00:04:55.541 --> 00:04:56.333
+心里想，
+and I was like,
+
+00:04:56.416 --> 00:04:57.000
+“这，这简直
+"This is, like,
+
+00:04:57.041 --> 00:04:58.666
+看起来比 dot-com 泡沫还要疯狂。”
+seems crazier than the dot-com bubble."
+
+00:04:59.166 --> 00:05:00.583
+而且我觉得它……
+And I think it...
+
+00:05:00.916 --> 00:05:01.791
+因为增长确实非常快，
+There's just a lot of growth,
+
+00:05:01.875 --> 00:05:02.916
+这或许证明了它的合理性，
+and that maybe justified it,
+
+00:05:03.000 --> 00:05:04.166
+因为很多增长已经成为了现实。
+'cause a lot of that growth has happened.
+
+00:05:04.250 --> 00:05:04.333
+我的意思是，
+I mean,
+
+00:05:04.416 --> 00:05:05.666
+看看 Anthropic 发生了什么。
+look at what happened with Anthropic.
+
+00:05:05.791 --> 00:05:07.541
+我记得，我好像刚看到过，
+I think, I think I just read, like,
+
+00:05:07.583 --> 00:05:08.916
+他们的 ARR 之前是 30 亿，
+they were three billion ARR,
+
+00:05:09.000 --> 00:05:10.375
+现在的 ARR 变成了 450 亿，
+now they're forty-five billion ARR
+
+00:05:10.458 --> 00:05:11.125
+仅仅过了一年。
+in a year.
+
+00:05:11.208 --> 00:05:13.291
+这增长速度真是太离谱了。
+Like, that is absurd growth.
+
+00:05:13.375 --> 00:05:14.666
+所以，所以增长确实来了，
+So, so the growth is coming,
+
+00:05:14.750 --> 00:05:15.500
+虽然不是每家公司都有，
+not for every company,
+
+00:05:15.583 --> 00:05:16.291
+但很多公司确实实现了。
+but for a lot of them.
+
+00:05:16.375 --> 00:05:18.458
+所以也许是我，你知道，
+And so maybe I was, you know,
+
+00:05:18.666 --> 00:05:19.375
+我之前太悲观了，
+I was too bearish
+
+00:05:19.458 --> 00:05:20.375
+因为我当时觉得这种增长
+because I just thought the growth
+
+00:05:20.458 --> 00:05:21.458
+预期简直是天方夜谭，
+expectations were crazy,
+
+00:05:21.541 --> 00:05:22.833
+结果，它们真的实现了。
+and th-they've happened.
+
+00:05:22.875 --> 00:05:23.833
+增长如期而至。
+The growth has come.
+
+00:05:23.916 --> 00:05:25.083
+这真的很有意思。
+And so it's interesting.
+
+00:05:25.166 --> 00:05:26.375
+这种增长是否还能持续，那又是，
+Whether it'll keep coming, that's a,
+
+00:05:26.458 --> 00:05:27.583
+另一码事了。
+that's a second debate to have.
+
+00:05:27.625 --> 00:05:29.291
+但我觉得这就是我当初看跌的原因，
+But I think that's why I got bearish,
+
+00:05:29.375 --> 00:05:29.833
+因为我只是……
+'cause I just...
+
+00:05:29.916 --> 00:05:31.375
+我无法想象一种情况，
+I couldn't imagine a scenario
+
+00:05:31.458 --> 00:05:32.291
+一家公司怎么能在一年内
+where a company would go
+
+00:05:32.375 --> 00:05:33.791
+把 ARR 从 30 亿
+from three billion ARR
+
+00:05:33.833 --> 00:05:35.166
+做到 450 亿，
+to forty-five billion in a year
+
+00:05:35.416 --> 00:05:36.500
+甚至接近这个数字都不可能，
+or anything even close to that,
+
+00:05:36.625 --> 00:05:38.000
+但他们竟然轻轻松松就做到了。
+and they've easily done that.
+
+00:05:38.041 --> 00:05:38.208
+而且
+And
+
+00:05:38.250 --> 00:05:40.208
+所以这只是其中的一个例子，
+so that's just an example of the type
+
+00:05:40.291 --> 00:05:41.083
+说明了目前
+of stuff that's happening
+
+00:05:41.166 --> 00:05:41.916
+在这些市场中正在发生的事情。
+in these markets.
+
+00:05:42.000 --> 00:05:43.541
+[Ray] 你还记得你当时
+[Ray] Do you still remember the moment you
+
+00:05:43.583 --> 00:05:45.125
+从看跌转为
+changed from being bearish
+
+00:05:45.250 --> 00:05:46.000
+看涨的那个时刻吗，
+to bullish and,
+
+00:05:46.083 --> 00:05:46.625
+为什么会发生这种转变？
+and why?
+
+00:05:46.666 --> 00:05:46.833
+[Nick] 我，
+[Nick] I,
+
+00:05:46.916 --> 00:05:48.291
+我觉得并没有某一个特定的时刻。
+I don't think there's one moment.
+
+00:05:48.375 --> 00:05:50.208
+我觉得这是一个慢慢意识到的过程，
+I think it's a slow realization
+
+00:05:50.291 --> 00:05:51.416
+意识到这些事情正在发生。
+of these things are happening.
+
+00:05:51.500 --> 00:05:52.583
+而且，就像，很多……
+And, like, a lot of...
+
+00:05:52.625 --> 00:05:53.916
+就像，我当时看着数据在想，
+Like, I was looking at the data saying,
+
+00:05:54.000 --> 00:05:54.208
+“嘿，
+"Hey,
+
+00:05:54.250 --> 00:05:54.625
+看起来
+this looks
+
+00:05:54.666 --> 00:05:56.708
+确实是这么回事。”但这不可能一直
+like this is the case."This can't keep
+
+00:05:56.791 --> 00:05:57.250
+持续下去吧，
+going,
+
+00:05:57.333 --> 00:05:58.458
+然后很多——
+and then a lot of--
+
+00:05:58.583 --> 00:05:59.958
+它们确实达到了很多预期目标，对吧？
+They hit a lot of those targets, right?
+
+00:06:00.000 --> 00:06:01.125
+盈利在持续增长，
+The earnings keep going up,
+
+00:06:01.208 --> 00:06:01.583
+而且很多
+and like a lot
+
+00:06:01.625 --> 00:06:02.541
+我本来认为不会发生的事情，
+of these things I didn't think were,
+
+00:06:02.833 --> 00:06:04.208
+最终都发生了。
+were gonna happen ended up happening.
+
+00:06:04.291 --> 00:06:05.833
+所以我错了，这种事很正常，
+And so I was wrong, and it happens,
+
+00:06:05.916 --> 00:06:06.625
+你懂吧？
+you know?
+
+00:06:06.708 --> 00:06:07.833
+这就是为什么在很大程度上，
+That's why for the most part,
+
+00:06:08.000 --> 00:06:09.125
+我只想说你必须……
+I just say like you have...
+
+00:06:09.291 --> 00:06:11.125
+说这话似乎显得很蠢，
+It, it seems so stupid to say this,
+
+00:06:11.541 --> 00:06:13.333
+但你就是得忽略掉所有
+but like you have to ignore all
+
+00:06:13.375 --> 00:06:14.541
+外界的那些杂音，
+of the stuff that's coming out
+
+00:06:14.583 --> 00:06:14.958
+然后告诉自己，
+and just be like,
+
+00:06:15.000 --> 00:06:15.375
+“历史是，
+"What did,
+
+00:06:15.458 --> 00:06:16.750
+历史是怎么说的？”而历史告诉我们，
+what does history say?" And history says,
+
+00:06:16.833 --> 00:06:18.416
+“Just keep buying（持续买入）。”我写过这个。
+"Just keep buying." I've written about it.
+
+00:06:18.500 --> 00:06:19.083
+我还为此写了本书。
+I have a book on it.
+
+00:06:19.166 --> 00:06:21.208
+但即使是我，也因为当时发生的事情
+And even I went against that because of
+
+00:06:21.250 --> 00:06:23.041
+而违背了这个原则，
+what was happening in a moment,
+
+00:06:23.166 --> 00:06:23.416
+对吧？
+right?
+
+00:06:23.500 --> 00:06:26.208
+所以我觉得这就是你需要，
+And so that's where I think you're,
+
+00:06:26.333 --> 00:06:27.625
+你需要去克服自己情绪的地方。
+you have to like override your emotion.
+
+00:06:27.666 --> 00:06:28.708
+不过，我倒是没做什么疯狂的事。
+Now, I didn't do anything crazy.
+
+00:06:28.916 --> 00:06:29.791
+我，我，无论如何，
+I, I, no matter what,
+
+00:06:30.291 --> 00:06:32.125
+哪怕这个市场比 dot-com
+even if this market was even crazier
+
+00:06:32.208 --> 00:06:32.875
+还要疯狂，
+than dot-com,
+
+00:06:32.958 --> 00:06:34.666
+我依然会买入美股。
+I would still be buying US stocks.
+
+00:06:34.708 --> 00:06:35.625
+我只是会减少——
+I would just reduce m-
+
+00:06:35.708 --> 00:06:36.541
+减少我买入的金额。
+how much I'm buying.
+
+00:06:36.625 --> 00:06:37.083
+所以对我来说，
+And so for me,
+
+00:06:37.166 --> 00:06:38.583
+就好像我一直在买入美股一样。
+it's like I'm always buying US stocks.
+
+00:06:38.625 --> 00:06:39.458
+只是买多少的问题。
+It's just a question of how much.
+
+00:06:39.541 --> 00:06:40.791
+所以，正如我所说的，在我的退休账户里，
+So instead of going, as I said,
+
+00:06:40.833 --> 00:06:41.625
+与其像以前那样，
+in my retirement account,
+
+00:06:41.708 --> 00:06:44.333
+把 100% 的资金都投入到，
+instead of going on, you know, 100% into,
+
+00:06:44.416 --> 00:06:45.583
+股票里，也就是，
+you know, equities, which is like,
+
+00:06:45.708 --> 00:06:47.250
+发达国家、
+you know, developed, you know,
+
+00:06:47.458 --> 00:06:49.583
+国际市场加上美国的股票，
+world international plus US equities,
+
+00:06:49.916 --> 00:06:50.166
+我会说，“好吧，
+I say, "Okay,
+
+00:06:50.250 --> 00:06:51.541
+我只投 80% 到这些资产里。”
+I'm gonna only do 80% into those."
+
+00:06:51.625 --> 00:06:53.500
+所以我只是稍微降低了我的风险敞口，
+So I just drop my exposure a little bit,
+
+00:06:53.541 --> 00:06:55.125
+然后就继续这么买入。
+and I just kept buying from there.
+
+00:06:55.250 --> 00:06:57.125
+所以当我，
+So I always make micro shifts when I get,
+
+00:06:57.208 --> 00:06:57.416
+打引号的
+quote,
+
+00:06:57.458 --> 00:06:57.875
+“看跌”时，我总是做一些微调，
+"bearish,"
+
+00:06:57.958 --> 00:06:59.416
+但我绝不会看跌到那种程度，说：
+but I'm never bearish enough to be like,
+
+00:06:59.458 --> 00:06:59.583
+“哦，
+"Oh,
+
+00:06:59.625 --> 00:07:01.041
+我要清仓所有的股票。”我绝不会
+I'm selling out all my stocks." I would
+
+00:07:01.083 --> 00:07:01.916
+做这样的事情，
+never do something like
+
+00:07:02.000 --> 00:07:03.875
+因为数据具有压倒性的
+that 'cause the data is overwhelmingly
+
+00:07:03.958 --> 00:07:04.458
+积极意义。
+positive.
+
+00:07:04.541 --> 00:07:05.958
+你永远不应该做那样的事。
+You should never do something like that.
+
+00:07:05.958 --> 00:07:07.458
+[Ray] OK,我们聊了这个疯狂的市场
+
+00:07:07.458 --> 00:07:09.875
+以及Nick作为一个投资者短暂的犹豫,
+
+00:07:09.875 --> 00:07:15.000
+那现在我们就来聊聊这本书中所倡导的持续买入的底层核心是什么?
+
+00:07:15.000 --> 00:07:18.916
+为什么即使在这个市场里,你也应该持续买入?
+
+00:07:18.916 --> 00:07:21.125
+[Nick] 这本书的信条是，
+[Nick] The mantra of the book is,
+
+00:07:21.250 --> 00:07:22.666
+如果我只能给你一句话，
+if I could only give you one line,
+
+00:07:22.750 --> 00:07:23.500
+一条投资，
+one investment,
+
+00:07:23.583 --> 00:07:24.416
+投资建议，
+piece of investment advice,
+
+00:07:24.500 --> 00:07:25.166
+那就是：
+it would be this:
+
+00:07:25.208 --> 00:07:28.291
+持续买入多样化的
+the continual purchase of a diverse set
+
+00:07:28.791 --> 00:07:30.000
+创收资产。
+of income-producing assets.
+
+00:07:30.041 --> 00:07:31.750
+这里有三大支柱。
+There's three pillars to that.
+
+00:07:32.041 --> 00:07:32.875
+持续买入，
+Continual purchase,
+
+00:07:32.958 --> 00:07:33.791
+你需要随着时间不断买入，
+you're buying over time,
+
+00:07:33.833 --> 00:07:35.791
+我在数据中展示了
+and I show in the data like
+
+00:07:35.916 --> 00:07:36.750
+为什么这是对的。
+why this is true.
+
+00:07:36.833 --> 00:07:37.541
+甚至，
+Even,
+
+00:07:37.583 --> 00:07:37.708
+哪怕
+even
+
+00:07:37.791 --> 00:07:39.125
+我给了你关于未来的
+if I gave you information
+
+00:07:39.166 --> 00:07:39.916
+信息，
+about the future,
+
+00:07:40.000 --> 00:07:41.083
+每个月坚持买入也会是
+you would've been better off just buying
+
+00:07:41.166 --> 00:07:41.500
+更好的选择，
+every month,
+
+00:07:41.541 --> 00:07:42.833
+书中有专门的章节讲这个。
+and there's chapters that cover that.
+
+00:07:42.916 --> 00:07:44.750
+持续买入多样化的资产，
+The continual purchase of a diverse set,
+
+00:07:44.791 --> 00:07:46.166
+所以多元化是这个信条的
+so diversification is at the heart
+
+00:07:46.208 --> 00:07:46.500
+核心，
+of this,
+
+00:07:46.583 --> 00:07:47.875
+然后是创收资产。
+and then of income-producing assets.
+
+00:07:47.958 --> 00:07:49.125
+创收资产是指任何
+So income-producing assets are anything
+
+00:07:49.208 --> 00:07:50.333
+能够产生某种收入的资产。
+that can produce some sort of income.
+
+00:07:50.416 --> 00:07:51.875
+这包括股票，
+That includes equities,
+
+00:07:51.958 --> 00:07:53.208
+包括固定收益产品，
+that includes fixed income,
+
+00:07:53.291 --> 00:07:54.500
+也包括房地产，对吧？
+that includes real estate, right?
+
+00:07:54.583 --> 00:07:55.500
+我们可以顺着这个思路往下看。
+We can go down there.
+
+00:07:55.541 --> 00:07:57.333
+但它不包括像黄金、
+That does not include things like gold,
+
+00:07:57.458 --> 00:07:58.166
+比特币等这类的东西。
+Bitcoin, et cetera.
+
+00:07:58.250 --> 00:07:59.791
+这意味着你不应该持有这些吗？
+Does that mean you shouldn't own those?
+
+00:07:59.916 --> 00:08:00.166
+不是，
+No,
+
+00:08:00.208 --> 00:08:02.000
+但我不认为它们应该占据你投资组合的
+but I don't think they should be the vast
+
+00:08:02.083 --> 00:08:03.250
+绝大部分。
+majority of your portfolio.
+
+00:08:03.333 --> 00:08:05.125
+所以，如果你坚持这个信条，
+So if you just take that mantra,
+
+00:08:05.291 --> 00:08:06.833
+持续买入多样化的
+the continual purchase of a diverse set
+
+00:08:06.916 --> 00:08:08.000
+创收资产，
+of income-producing assets,
+
+00:08:08.375 --> 00:08:09.458
+我一直都在遵循这个原则。
+I follow that always.
+
+00:08:09.500 --> 00:08:10.333
+这始终是我的信条。
+That is always my mantra.
+
+00:08:10.416 --> 00:08:12.500
+现在的问题是：我在买什么，
+Now, the question is: What am I buying,
+
+00:08:12.583 --> 00:08:12.666
+对吧？
+right?
+
+00:08:12.708 --> 00:08:14.000
+所以我从未停止买入。
+So I'm never stopping buying.
+
+00:08:14.291 --> 00:08:15.708
+无论美股发生什么，
+No matter what happens with US stocks,
+
+00:08:15.916 --> 00:08:17.041
+我可能会做出调整，比如，好的，
+I might shift from, okay,
+
+00:08:17.125 --> 00:08:18.291
+我不会买那么多美股了。
+I'm not buying as much US stocks.
+
+00:08:18.375 --> 00:08:19.750
+我可能会买更多的国际股票，
+I might buy more international stocks,
+
+00:08:19.833 --> 00:08:21.750
+或者我可能会买更多的固定收益产品，
+or I might bor- buy more fixed income,
+
+00:08:21.833 --> 00:08:22.666
+又或者我可能会买，
+or I might buy,
+
+00:08:22.833 --> 00:08:23.958
+转向购买一些房地产。
+shift and buy some real estate.
+
+00:08:24.041 --> 00:08:26.041
+就像，关键是，我，
+Like the, the thing is, I,
+
+00:08:26.250 --> 00:08:27.583
+我从来没有在书里说过你需要
+I never say in the book you need
+
+00:08:27.666 --> 00:08:28.958
+只买美股，
+to only buy US stocks
+
+00:08:29.041 --> 00:08:30.625
+或者只买国际股票，
+or only buy international stocks
+
+00:08:30.666 --> 00:08:31.500
+或诸如此类的。
+or whatever.
+
+00:08:31.666 --> 00:08:32.333
+我并不遵循——
+I don't f-
+
+00:08:32.416 --> 00:08:33.583
+绝不遵循那种做法。
+follow that approach whatsoever.
+
+00:08:33.916 --> 00:08:35.291
+我认为你应该买入一个多元化的
+I think you should be buying a diverse
+
+00:08:35.416 --> 00:08:35.833
+资产篮子。
+basket.
+
+00:08:35.875 --> 00:08:36.708
+而且是的，
+And yes, the,
+
+00:08:36.791 --> 00:08:38.208
+你可能会随着时间推移
+you might change the weights over time
+
+00:08:38.291 --> 00:08:39.833
+根据感觉之类的事情改变权重，
+based on feelings and things like that,
+
+00:08:40.000 --> 00:08:41.458
+要永远坚持
+and it's hard to just stick
+
+00:08:41.500 --> 00:08:42.958
+一种策略是很难的。
+with one strategy for forever.
+
+00:08:43.000 --> 00:08:43.958
+我知道大家都说，“哦，就，
+I know everyone says, "Oh, just,
+
+00:08:44.333 --> 00:08:46.083
+就别去看它。”如果你能做到，
+just never look at it." And if you can do
+
+00:08:46.125 --> 00:08:46.250
+那很好，
+that,
+
+00:08:46.333 --> 00:08:47.708
+但我觉得如果你，
+great, but I think you will,
+
+00:08:47.833 --> 00:08:49.000
+如果你关注市场之类的，
+if you're following markets and stuff,
+
+00:08:49.083 --> 00:08:50.166
+你难免会有点情绪化。
+you're gonna get a little emotional.
+
+00:08:50.250 --> 00:08:51.083
+所以你必须弄清楚：
+So you have to figure out:
+
+00:08:51.333 --> 00:08:52.333
+我该如何以一种
+How do I do this in a way
+
+00:08:52.375 --> 00:08:53.541
+无论发生什么都能
+that I'm gonna still be successful
+
+00:08:53.583 --> 00:08:55.333
+在长期取得成功的方式来投资，
+in the long run no matter what happens,
+
+00:08:55.458 --> 00:08:55.541
+对吧？
+right?
+
+00:08:55.625 --> 00:08:57.125
+所以我可能会有一点情绪化，然后，
+So I might get a little emotional and,
+
+00:08:57.250 --> 00:08:57.666
+就像我说的，
+as I said,
+
+00:08:57.750 --> 00:09:00.375
+把投资组合从 100-0 调整到 80-20，
+shift from 100-0 to an 80-20 portfolio,
+
+00:09:00.500 --> 00:09:00.750
+对吧？
+right?
+
+00:09:00.833 --> 00:09:02.750
+我可能会做这样一个小小的调整，
+I might do a s- a minor shift like that,
+
+00:09:02.833 --> 00:09:04.416
+然后我会继续买入。
+and then I'll keep buying going forward.
+
+00:09:04.500 --> 00:09:07.125
+所以我认为这就是你需要具备的
+So I think that's the framework you need
+
+00:09:07.208 --> 00:09:08.500
+投资者框架：
+to have as an investor is like:
+
+00:09:08.625 --> 00:09:11.166
+我能做些什么，以确保无论发生什么，
+What can I do so no matter what happens,
+
+00:09:11.250 --> 00:09:12.083
+我都能安然无恙，对吧？
+I'll be okay, right?
+
+00:09:12.166 --> 00:09:13.625
+因为这不会是……
+'Cause it's not gonna be...
+
+00:09:13.708 --> 00:09:15.208
+我觉得很多人认为这就像是，
+I think a lot of people think it's like,
+
+00:09:15.291 --> 00:09:16.416
+哦，我要么持有 100%——
+oh, I'm either gonna have 100 per-
+
+00:09:16.791 --> 00:09:18.875
+100% 的股票，要么持有 100% 的现金。
+100% stocks, or I'm gonna have 100% cash.
+
+00:09:18.958 --> 00:09:21.000
+我认为这两种想法，
+And I think both of those are,
+
+00:09:21.083 --> 00:09:22.333
+在我看来，都是失败的。
+are in my mind, are failure.
+
+00:09:22.416 --> 00:09:23.750
+你不能只做，
+Like you can't just do,
+
+00:09:23.791 --> 00:09:25.250
+你不能把这两种作为投资心态。
+you can't have both of those as a mindset.
+
+00:09:25.291 --> 00:09:26.333
+你必须折中一下，
+You have to have something in between
+
+00:09:26.416 --> 00:09:27.916
+这样如果市场暴涨，
+where if the market rips upward,
+
+00:09:28.000 --> 00:09:28.250
+你会收益丰厚，
+you're great,
+
+00:09:28.291 --> 00:09:29.333
+而如果市场崩盘，
+and if the market crashes
+
+00:09:29.416 --> 00:09:30.541
+甚至经历大萧条，
+and we go through the Great Depression,
+
+00:09:30.625 --> 00:09:31.458
+你也一样没事，对吧？
+you're fine, right?
+
+00:09:31.625 --> 00:09:33.500
+如果你在 1929 年 100% 持有股票，
+If you were 100% stocks in tw- 1929,
+
+00:09:33.541 --> 00:09:34.416
+你肯定就完蛋了。
+you would've been destroyed.
+
+00:09:34.708 --> 00:09:36.541
+如果你在 1980 年 100% 持有现金，
+If you were 100% cash in 1980,
+
+00:09:36.583 --> 00:09:37.708
+你也会在接下来的 20 年里完蛋，
+you would've been destroyed over the next
+
+00:09:37.833 --> 00:09:39.500
+因为股市表现太好了，
+20 years because stocks did so well,
+
+00:09:39.583 --> 00:09:39.750
+对吧？
+right?
+
+00:09:39.791 --> 00:09:41.458
+所以在任何一个时期，
+So just every time period,
+
+00:09:41.625 --> 00:09:42.041
+我都可以告诉你
+I can tell you
+
+00:09:42.125 --> 00:09:43.666
+你的投资组合在什么时候会失败。
+when your portfolio would've failed.
+
+00:09:44.583 --> 00:09:46.041
+唯一能挺过这些的
+The only way to kind of get past
+
+00:09:46.083 --> 00:09:47.041
+方法，就是有某种形式的
+that is to have some form
+
+00:09:47.125 --> 00:09:48.250
+多元化。
+of diversification.
+
+00:09:48.333 --> 00:09:49.250
+这就是我的方法。
+So that's my approach there.
+
+00:09:49.500 --> 00:09:51.166
+[Ray] 就持续买入，例如，
+[Ray] Just keep buying, like for example,
+
+00:09:51.375 --> 00:09:52.708
+S&amp;P 500 指数，对吗？
+S&amp;P 500 index, right?
+
+00:09:52.958 --> 00:09:54.333
+你觉得这真的是信念吗？
+Do you think that's really conviction?
+
+00:09:54.416 --> 00:09:56.125
+我的意思是，这叫模式识别。
+I mean, that's pattern recognition.
+
+00:09:56.291 --> 00:09:58.458
+你只是在信任历史数据，
+You're just trusting historical data,
+
+00:09:58.541 --> 00:09:58.666
+对吗？
+right?
+
+00:09:58.708 --> 00:09:59.208
+你在信任
+You are trusting
+
+00:09:59.291 --> 00:10:01.083
+过去 100 年里行之有效的方法。
+what has worked for the last 100 years.
+
+00:10:01.166 --> 00:10:02.000
+所以我的问题是，
+So my question is,
+
+00:10:02.291 --> 00:10:02.375
+那么
+so
+
+00:10:02.416 --> 00:10:04.125
+你是如何对“持续买入”这个概念本身
+how do you build real conviction
+
+00:10:04.208 --> 00:10:06.625
+建立真正的信念的？
+for the notion of just keep buying itself?
+
+00:10:06.750 --> 00:10:07.291
+[Nick] 是的，不，我，
+[Nick] Yeah, no, I,
+
+00:10:07.375 --> 00:10:08.708
+完全明白你的意思。
+I understand your point completely.
+
+00:10:08.750 --> 00:10:08.958
+你会想，
+You're like,
+
+00:10:09.041 --> 00:10:10.333
+“这种信念从何而来？”
+"Where does the conviction come from?"
+
+00:10:10.416 --> 00:10:12.458
+我觉得这种信念不仅仅是
+And I think the conviction doesn't just
+
+00:10:12.500 --> 00:10:13.125
+源于类似，
+come from like,
+
+00:10:13.166 --> 00:10:15.125
+好吧，我们有一个国家拥有，
+okay, we have one country with a,
+
+00:10:15.166 --> 00:10:16.416
+你知道，长达一个世纪的回报。
+you know, a century of return.
+
+00:10:16.541 --> 00:10:17.500
+如果你没读过《Stocks
+If you haven't read the book "Stocks
+
+00:10:17.583 --> 00:10:19.000
+for the Long Run》这本书，那是一本非常出色的
+for the Long Run," that's an incredible
+
+00:10:19.041 --> 00:10:19.541
+书，
+book,
+
+00:10:19.625 --> 00:10:20.041
+或者是《Triumph
+or "Triumph
+
+00:10:20.083 --> 00:10:21.125
+of the Optimists》。现在有很多
+of the Optimists." There's a lot
+
+00:10:21.208 --> 00:10:22.166
+优秀的著作
+of great books out there
+
+00:10:22.208 --> 00:10:23.250
+在某种程度上着眼于，
+that kind of looks at,
+
+00:10:23.375 --> 00:10:24.916
+着眼于不同的数据系列，
+that look at different data series,
+
+00:10:25.000 --> 00:10:25.916
+而不仅仅是美国。
+not just the US.
+
+00:10:26.000 --> 00:10:26.541
+所以
+And so
+
+00:10:26.583 --> 00:10:26.833
+如果你
+if you look
+
+00:10:26.916 --> 00:10:29.041
+用长期的眼光来看待很多
+at a long-term approach across many
+
+00:10:29.083 --> 00:10:29.791
+发达国家
+developed countries
+
+00:10:29.875 --> 00:10:30.791
+曾经拥有的股票市场，
+that had stock markets,
+
+00:10:30.916 --> 00:10:32.000
+然后你看看
+and you look at like
+
+00:10:32.041 --> 00:10:34.000
+这些市场在很长一段时期内
+how those markets return over very long
+
+00:10:34.083 --> 00:10:34.916
+是如何产生回报的，
+periods of time,
+
+00:10:35.375 --> 00:10:37.875
+你会非常有信心
+you have a very high conviction rate
+
+00:10:37.958 --> 00:10:40.458
+相信市场大概率会
+in the sense ofMarkets are gonna probably
+
+00:10:40.500 --> 00:10:42.750
+带来比国债高出 4% 左右的回报，
+return about 4% above Treasury bills,
+
+00:10:42.833 --> 00:10:43.000
+对吧？
+right?
+
+00:10:43.083 --> 00:10:44.250
+比那些安全的，
+4% above the safe,
+
+00:10:44.625 --> 00:10:46.041
+不管那些安全资产是什么，对吧，
+whatever the safe asset is, right,
+
+00:10:46.083 --> 00:10:46.583
+高出 4%。
+out there.
+
+00:10:46.666 --> 00:10:47.916
+比如说，比现金高出 4%。
+4% above cash, let's say.
+
+00:10:48.416 --> 00:10:49.916
+4% 听起来可能不算多，
+And so 4% may not sound like a lot,
+
+00:10:50.000 --> 00:10:50.958
+但你如果这样做，而且要记住，
+but you do that, and remember,
+
+00:10:51.041 --> 00:10:52.458
+是扣除通胀后还有 4%，
+inflation adjusted 4%,
+
+00:10:52.500 --> 00:10:54.333
+如果你坚持一个世纪，
+you do that over the course of a century,
+
+00:10:54.416 --> 00:10:55.250
+最终这会是一笔非常，
+that ends up being a very,
+
+00:10:55.291 --> 00:10:56.375
+非常可观的回报。
+very good return.
+
+00:10:56.458 --> 00:10:57.083
+当然，
+Now, of course,
+
+00:10:57.125 --> 00:11:00.000
+美国的长期回报大约高出通胀 7%，你知道，
+the US has done about 7% above, you know,
+
+00:11:00.291 --> 00:11:01.416
+是长期来看的。
+inflation over the long haul.
+
+00:11:01.500 --> 00:11:01.833
+所以我并没有，
+So I'm not,
+
+00:11:01.916 --> 00:11:03.708
+并不指望未来还能有 7%。
+I'm not expecting 7% going forward.
+
+00:11:03.750 --> 00:11:04.625
+我觉得很多人都有这种期待。
+I think a lot of people do.
+
+00:11:04.750 --> 00:11:05.583
+但我没有。
+I do not.
+
+00:11:05.833 --> 00:11:07.166
+但只要你能保持 4%，
+But if you just stay 4%,
+
+00:11:07.291 --> 00:11:08.791
+我认为你就能证明，
+I think you can justify
+
+00:11:08.875 --> 00:11:11.250
+在全球众多不同的股票市场中，
+that across many different equity markets
+
+00:11:11.291 --> 00:11:12.083
+这样做是合理的，
+across the world,
+
+00:11:12.125 --> 00:11:13.166
+并且在房地产领域也可以，
+and you can do that with real estate,
+
+00:11:13.208 --> 00:11:13.500
+还可以用在很多
+with a lot
+
+00:11:13.541 --> 00:11:14.750
+不同的生息资产上。
+of different income producing assets.
+
+00:11:14.833 --> 00:11:16.291
+当然，这其中也存在风险。
+Now, of course, there's risk there.
+
+00:11:16.375 --> 00:11:18.041
+但如果你有一个分散的投资组合，
+But if you have a diversified portfolio,
+
+00:11:18.125 --> 00:11:19.625
+就像你在过去的一个世纪里
+like you would have done quite well over
+
+00:11:19.708 --> 00:11:20.333
+应该也能取得相当不错的成绩一样，
+the last century,
+
+00:11:20.416 --> 00:11:21.875
+这其中包括持有美股、
+and that includes having US stocks,
+
+00:11:22.166 --> 00:11:24.041
+国际股票、房地产，
+international stocks, having real estate,
+
+00:11:24.083 --> 00:11:24.500
+等等。
+et cetera.
+
+00:11:24.583 --> 00:11:25.458
+所以这就是
+So that's
+
+00:11:25.541 --> 00:11:27.041
+这种信念的来源。
+where this conviction comes from.
+
+00:11:27.083 --> 00:11:28.250
+它来源于多元化投资。
+It comes from diversification.
+
+00:11:28.333 --> 00:11:29.750
+如果没有多元化，我同意你的看法。
+Without diversification, I agree with you.
+
+00:11:29.833 --> 00:11:31.125
+如果我只能挑选一只股票
+If I just had to pick one stock
+
+00:11:31.208 --> 00:11:32.041
+或者一个市场，
+or one market,
+
+00:11:32.375 --> 00:11:33.500
+我确实会有些担心，对吧？
+I would be a little worried, right?
+
+00:11:33.541 --> 00:11:35.083
+如果我说，“哦，我只打算投资于，
+If I said, "Oh, I'm only gonna invest in,
+
+00:11:35.125 --> 00:11:35.916
+你知道，
+you know,
+
+00:11:35.958 --> 00:11:37.541
+日本股票、韩国股票，
+Japanese stocks or Korean stocks
+
+00:11:37.625 --> 00:11:39.250
+或者是台湾股票”，那确实会有点
+or Taiwanese stocks," it would be a little
+
+00:11:39.375 --> 00:11:39.541
+让人担忧。
+worrying.
+
+00:11:39.625 --> 00:11:39.708
+但是
+But
+
+00:11:39.708 --> 00:11:41.000
+如果我的投资组合里还能有其他东西
+if I could have something else
+
+00:11:41.083 --> 00:11:42.041
+或是
+in the portfolio or m-
+
+00:11:42.500 --> 00:11:43.416
+其他类型的资产
+other types of assets
+
+00:11:43.458 --> 00:11:44.875
+能给我带来更广泛的风险敞口，
+that give me broader exposure,
+
+00:11:44.958 --> 00:11:46.208
+那我的担忧就会少很多。
+then I would be far less worried.
+
+00:11:46.250 --> 00:11:46.750
+所以我觉得这就是
+So I think that's
+
+00:11:46.833 --> 00:11:47.958
+这种信念的由来。
+where the conviction comes from.
+
+00:11:48.083 --> 00:11:49.875
+至少从，你知道，19世纪开始，
+Since at least, you know, the 1800s,
+
+00:11:49.958 --> 00:11:51.416
+从工业革命以来，
+you know, since the Industrial Revolution,
+
+00:11:51.875 --> 00:11:52.583
+我们就一直在进行生产，
+we've been producing,
+
+00:11:52.625 --> 00:11:53.958
+全人类生产的东西越来越多，
+humans as a whole have been producing more
+
+00:11:54.041 --> 00:11:54.875
+越来越多，
+and more and more and more,
+
+00:11:54.916 --> 00:11:55.750
+而且我不认为
+and I don't think
+
+00:11:55.833 --> 00:11:56.958
+这种趋势会停止。
+that trend is going to stop.
+
+00:11:57.000 --> 00:11:57.666
+所以这就是
+And so that's
+
+00:11:57.750 --> 00:11:58.875
+这种信念的由来。
+where the conviction comes from.
+
+00:11:59.250 --> 00:12:01.125
+这种长期的技术发展趋势，
+It's that long-term technological trend
+
+00:12:01.208 --> 00:12:03.333
+我们一直在努力，
+which we keep managing to,
+
+00:12:03.416 --> 00:12:05.250
+你知道，每隔几年就能，
+you know, hit every single, you know,
+
+00:12:05.375 --> 00:12:06.250
+触及一个新的节点。
+every few years.
+
+00:12:06.333 --> 00:12:07.875
+我们仍然在这条曲线上。
+We're still on that curve.
+
+00:12:07.916 --> 00:12:08.041
+所以
+So
+
+00:12:08.041 --> 00:12:09.000
+如果你说这是在进行模式
+if you're gonna say that's pattern
+
+00:12:09.083 --> 00:12:09.500
+识别，
+recognition,
+
+00:12:09.583 --> 00:12:10.416
+那么，到底什么
+well, what,
+
+00:12:10.500 --> 00:12:11.750
+不是模式识别呢？
+what isn't pattern recognition?
+
+00:12:11.833 --> 00:12:12.333
+在某种程度上，
+At some point,
+
+00:12:12.416 --> 00:12:13.750
+万事万物都像是在进行模式识别。
+like everything's pattern recognition.
+
+00:12:13.791 --> 00:12:14.708
+当你观察一家企业，
+You're looking at a business,
+
+00:12:14.750 --> 00:12:15.583
+当你查看，
+you're looking at,
+
+00:12:15.666 --> 00:12:16.750
+查看他们的资产负债表时，
+you're looking at their balance sheet,
+
+00:12:16.833 --> 00:12:17.833
+你就在识别某种
+and you're recognizing some sort
+
+00:12:17.916 --> 00:12:19.625
+收入增长的模式，
+of pattern of the revenue going up,
+
+00:12:19.666 --> 00:12:19.916
+对吧？
+right?
+
+00:12:19.958 --> 00:12:22.125
+那么，我们要在哪里停止这种争论呢，
+So where, where do we stop that argument,
+
+00:12:22.208 --> 00:12:23.125
+我想，这就是我的问题。
+I guess, is my question.
+
+00:12:23.416 --> 00:12:26.208
+[Ray] So if you are buying into S&amp;P 500,
+[Ray] So if you are buying into S&amp;P 500,
+
+00:12:26.375 --> 00:12:28.000
+basically you are buying into the story,
+basically you are buying into the story,
+
+00:12:28.125 --> 00:12:29.500
+the economy, the GDP,
+the economy, the GDP,
+
+00:12:29.583 --> 00:12:31.291
+the future economy is going up.
+the future economy is going up.
+
+00:12:31.375 --> 00:12:32.958
+Basically, you are buying into that story.
+Basically, you are buying into that story.
+
+00:12:33.125 --> 00:12:33.791
+So that's
+So that's
+
+00:12:33.875 --> 00:12:36.041
+how I personally get the conviction
+how I personally get the conviction
+
+00:12:36.125 --> 00:12:37.916
+of buying a broad-based index fund.
+of buying a broad-based index fund.
+
+00:12:38.083 --> 00:12:38.958
+You, you are a data guy,
+You, you are a data guy,
+
+00:12:39.083 --> 00:12:40.208
+and your books are full of it.
+and your books are full of it.
+
+00:12:40.291 --> 00:12:41.666
+You've been writing about investing for,
+You've been writing about investing for,
+
+00:12:41.833 --> 00:12:42.458
+for years now.
+for years now.
+
+00:12:42.541 --> 00:12:43.166
+Beyond the data,
+Beyond the data,
+
+00:12:43.208 --> 00:12:44.458
+what have you actually learned
+what have you actually learned
+
+00:12:44.541 --> 00:12:46.833
+about investor behavior and psychology
+about investor behavior and psychology
+
+00:12:46.916 --> 00:12:48.458
+that surprised you over the last few
+that surprised you over the last few
+
+00:12:48.541 --> 00:12:48.875
+years?
+years?
+
+00:12:48.958 --> 00:12:50.041
+[Nick] 我觉得你只是意识到，
+[Nick] I think you just realize
+
+00:12:50.125 --> 00:12:51.208
+克服自身的偏见
+how difficult it is
+
+00:12:51.250 --> 00:12:52.916
+有多么困难。
+to get over biases you have.
+
+00:12:53.000 --> 00:12:54.708
+比如我就对房地产有偏见，
+Like I'm biased against real estate,
+
+00:12:54.750 --> 00:12:55.583
+我之所以知道这一点，
+and I know this
+
+00:12:55.625 --> 00:12:57.750
+是因为我经历了 08 年的次贷危机。
+because of I lived through '08.
+
+00:12:57.875 --> 00:13:00.166
+我住在南加州的一个地区，
+I lived in an area in Southern California
+
+00:13:00.208 --> 00:13:02.166
+那里经历了全美最疯狂的
+that had one of the worst housing booms
+
+00:13:02.208 --> 00:13:03.250
+房地产泡沫之一。
+in the entire country.
+
+00:13:03.458 --> 00:13:05.708
+我亲眼看到当时的房价从，
+I saw prices go from, at the time,
+
+00:13:05.791 --> 00:13:05.875
+你知道的，
+you know,
+
+00:13:05.958 --> 00:13:06.208
+一套
+a house
+
+00:13:06.291 --> 00:13:08.083
+25 万美元的房子，
+that was $250,000 got up to
+
+00:13:08.166 --> 00:13:10.375
+在两年内涨到了大约 60 万美元。
+about $600,000 within two years.
+
+00:13:10.458 --> 00:13:11.916
+看到这种情况发生真是太疯狂了。
+That's crazy to see that happen.
+
+00:13:12.041 --> 00:13:14.041
+你不会指望你的房子
+You don't expect your home to over double
+
+00:13:14.083 --> 00:13:15.083
+价格翻倍以上，
+in price within the f-
+
+00:13:15.125 --> 00:13:16.708
+在，你知道，仅仅两年时间里。
+within, you know, a two-year span.
+
+00:13:16.750 --> 00:13:18.083
+我亲眼目睹了这一切。
+And so I saw that happen.
+
+00:13:18.541 --> 00:13:19.666
+然后我看到它崩盘了，
+I-- Then I saw it blow up,
+
+00:13:19.750 --> 00:13:21.000
+我看到了人们陷入困境（资不抵债）。
+and I saw people underwater.
+
+00:13:21.125 --> 00:13:21.416
+比如，你知道，
+Like, you know,
+
+00:13:21.500 --> 00:13:23.708
+我自己的家庭在房子上欠的钱，
+my own family owed more money on a home
+
+00:13:23.791 --> 00:13:25.250
+都比那套房子本身的价值还多，
+that they had than what it was worth,
+
+00:13:25.375 --> 00:13:25.458
+对吧？
+right?
+
+00:13:25.500 --> 00:13:26.416
+这就叫做资不抵债。
+So it's called being underwater.
+
+00:13:26.500 --> 00:13:27.291
+在崩盘发生后，
+The mortgage is larger
+
+00:13:27.375 --> 00:13:29.208
+抵押贷款的金额甚至超过了
+than the property value after the crash
+
+00:13:29.291 --> 00:13:29.583
+房产的价值。
+happened.
+
+00:13:29.625 --> 00:13:30.625
+所以我也看到了这一点。
+So I saw that, too.
+
+00:13:30.708 --> 00:13:31.750
+这就是我的一个偏见。
+That's a bias I have.
+
+00:13:31.875 --> 00:13:33.708
+我觉得在行为模式方面，
+I think in terms of behavioral things,
+
+00:13:33.791 --> 00:13:35.541
+你必须意识到自己的偏见是什么，
+you have to realize what are your biases
+
+00:13:35.583 --> 00:13:36.916
+以及你要如何克服它们，
+and how do you overcome them,
+
+00:13:36.958 --> 00:13:38.625
+或者是你要如何去抵消它们，
+or how do you try to counteract them,
+
+00:13:38.666 --> 00:13:38.791
+对吧？
+right?
+
+00:13:38.875 --> 00:13:39.416
+所以我，
+So I,
+
+00:13:39.500 --> 00:13:39.833
+我尽量
+I try
+
+00:13:39.916 --> 00:13:41.583
+去继续持有房地产，尽管事实上
+to still own real estate despite the fact
+
+00:13:41.625 --> 00:13:43.416
+我对它多少有些偏见，
+that I'm kind of biased against it,
+
+00:13:43.541 --> 00:13:43.750
+对吧？
+right?
+
+00:13:43.833 --> 00:13:45.416
+甚至像我这样专门写这些东西的人也是。
+And even like I write about this stuff.
+
+00:13:45.583 --> 00:13:46.833
+我有数据支撑，我做了所有的研究，
+I have data, I do all this stuff,
+
+00:13:46.916 --> 00:13:47.958
+但我依然，你知道的，
+and I still, you know,
+
+00:13:48.041 --> 00:13:49.625
+会有这种时候，我会觉得，“呃，我，
+have my moments where I'm like, "Ugh, I'm,
+
+00:13:49.708 --> 00:13:50.916
+这感觉有点怪异，”然后我，
+this feels weird to me," and I,
+
+00:13:51.000 --> 00:13:51.833
+我做了一些调整，
+I make changes,
+
+00:13:51.916 --> 00:13:53.250
+在我的投资组合中做了一些微调。
+slight changes in my portfolio.
+
+00:13:53.291 --> 00:13:54.041
+所以这就好比，
+So it's like,
+
+00:13:54.083 --> 00:13:54.375
+你要怎么做
+what do you do
+
+00:13:54.458 --> 00:13:56.166
+来保护自己免受自身
+to safeguard yourself against your own
+
+00:13:56.208 --> 00:13:56.958
+行为偏见的影响？
+behavioral biases?
+
+00:13:57.000 --> 00:13:58.083
+我的做法是，我只是……
+What I do is I just...
+
+00:13:58.166 --> 00:13:59.000
+我把它称作“小小的放纵”，
+I call it sinning a little,
+
+00:13:59.125 --> 00:14:00.375
+这个说法来自 Clifford Asness，
+which comes from Clifford Asness,
+
+00:14:00.458 --> 00:14:00.708
+他是这么说的，
+and he's like,
+
+00:14:00.750 --> 00:14:02.625
+“如果你要做出战术上的改变，
+"If you're gonna make a tactical change,
+
+00:14:02.708 --> 00:14:05.166
+也就是从 100/0 变为 80/20，
+AKA go from 100/0 to 80/20,
+
+00:14:05.333 --> 00:14:06.333
+那你只需要做一个微调。
+you make a slight change.
+
+00:14:06.416 --> 00:14:07.666
+基本上，你不能孤注一掷。
+You don't bet the farm, basically.
+
+00:14:07.750 --> 00:14:08.000
+你不能，
+You don't,
+
+00:14:08.041 --> 00:14:09.458
+不能一次性调整所有的资产，
+you don't move everything at once,
+
+00:14:09.500 --> 00:14:10.583
+对吧？” 所以对我来说，
+right?" And so for me,
+
+00:14:10.666 --> 00:14:11.958
+这就是要在我的投资组合中
+it's about making micro changes
+
+00:14:12.041 --> 00:14:12.708
+做出微调，
+to my portfolio
+
+00:14:12.750 --> 00:14:13.833
+这些调整能让我晚上安然入睡，
+that allow me to sleep at night
+
+00:14:13.916 --> 00:14:15.333
+并在一定程度上克服一些
+and kind of get past some
+
+00:14:15.416 --> 00:14:16.916
+行为上的问题，同时也不会真正
+of those behavioral issues without really
+
+00:14:17.000 --> 00:14:18.166
+给长期的投资带来任何风险。
+risking anything for the long.
+
+00:14:18.250 --> 00:14:19.541
+所以这是最关键的一点，就
+So that's the big one there in terms
+
+00:14:19.625 --> 00:14:21.291
+我喜欢采取的许多行为
+of a lot of the behavioral things I like
+
+00:14:21.375 --> 00:14:21.958
+习惯而言。
+to do.
+
+00:14:22.000 --> 00:14:22.666
+但你必须弄清楚，比如说，
+But you have to figure out, like,
+
+00:14:22.750 --> 00:14:23.875
+你自己的行为倾向是什么？
+what are your behavioral things?
+
+00:14:23.916 --> 00:14:25.375
+对你来说，到底哪些事情
+What are those things for you
+
+00:14:25.416 --> 00:14:26.458
+在给你造成麻烦？
+that are causing you problems?
+
+00:14:26.500 --> 00:14:26.833
+然后
+And then
+
+00:14:26.916 --> 00:14:29.416
+你该如何想办法“骗”过自己，
+how do you find ways to trick yourself so
+
+00:14:29.500 --> 00:14:32.166
+从而避免因此犯下长期的
+that you don't cause a big long-term error
+
+00:14:32.208 --> 00:14:32.625
+大错？
+from them?
+
+00:14:32.666 --> 00:14:33.625
+[Ray] 老实跟你说，
+[Ray] I'll be honest with you,
+
+00:14:33.833 --> 00:14:34.666
+我的偏好
+my bias
+
+00:14:34.750 --> 00:14:36.375
+或者说我的习惯就是逢低买入。
+or my preference is buying the dip.
+
+00:14:36.500 --> 00:14:37.541
+在疫情导致崩盘期间，
+During the COVID crash,
+
+00:14:37.875 --> 00:14:39.333
+我一直在不停地买。
+I have been buying and buying.
+
+00:14:39.458 --> 00:14:41.333
+多年来，我已经变成了那种人，
+Over the years, I have become the guy,
+
+00:14:41.500 --> 00:14:42.375
+我不会在，
+I don't buy when the,
+
+00:14:42.458 --> 00:14:43.500
+市场陷入疯狂时买入。
+when the market goes crazy.
+
+00:14:43.583 --> 00:14:44.916
+我总是逢低买入。
+I always buy the dips.
+
+00:14:45.166 --> 00:14:46.000
+这，这有什么问题吗？
+What, what's wrong with that?
+
+00:14:46.208 --> 00:14:47.250
+[Nick] 问题在于，
+[Nick] The issue is,
+
+00:14:47.333 --> 00:14:48.416
+我们先只谈市场指数。
+let's just talk about a market index.
+
+00:14:48.500 --> 00:14:50.083
+之后我们再讨论个股。
+We can talk about individual stocks after.
+
+00:14:50.166 --> 00:14:51.833
+但普遍的问题是，
+But the general issue is
+
+00:14:51.916 --> 00:14:53.083
+如果你一直等回调，
+if you wait for a dip,
+
+00:14:53.541 --> 00:14:54.291
+很多时候当
+a lot of times when
+
+00:14:54.375 --> 00:14:55.625
+那个回调终于到来时，
+that dip finally comes,
+
+00:14:55.791 --> 00:14:57.666
+价格甚至会更高。
+it's gonna be even higher.
+
+00:14:57.750 --> 00:14:58.833
+价格会比
+The price will be higher than
+
+00:14:58.916 --> 00:15:00.125
+你之前本来可以买入的位置还要高，
+where you could have bought previously,
+
+00:15:00.250 --> 00:15:00.500
+对吧？
+right?
+
+00:15:00.541 --> 00:15:01.416
+我经常讲的故事是，
+The story I tell is,
+
+00:15:01.875 --> 00:15:03.416
+我记得回到2017年，
+I remember back in 2017,
+
+00:15:03.458 --> 00:15:04.625
+我认识一位投资者，
+there was an investor I knew,
+
+00:15:04.666 --> 00:15:05.791
+他跟我说，“哦，
+and he was telling me, "Oh,
+
+00:15:05.916 --> 00:15:06.541
+我只逢低买入。
+I only buy the dip.
+
+00:15:06.583 --> 00:15:07.583
+我要等到市场大崩盘时，
+I'm gonna wait till there's a big crash,
+
+00:15:07.666 --> 00:15:08.166
+然后我再买。”
+then I'm gonna buy."
+
+00:15:08.208 --> 00:15:09.625
+而那是2017年初。
+And this is early 2017.
+
+00:15:09.916 --> 00:15:10.833
+于是他等啊，等啊，等啊。
+So he waited, waited, waited.
+
+00:15:11.541 --> 00:15:13.083
+终于，疫情爆发了。
+Finally, COVID happens.
+
+00:15:13.291 --> 00:15:13.625
+2020年。
+2020.
+
+00:15:13.708 --> 00:15:14.750
+已经过去三年了，对吧？
+It's been three years, right?
+
+00:15:14.833 --> 00:15:17.166
+2020年3月，特别是3月23日，
+March 2020, in particular March 23rd,
+
+00:15:17.333 --> 00:15:18.958
+2020年，那是绝对的谷底。
+2020, which was the absolute bottom.
+
+00:15:19.000 --> 00:15:19.583
+在那个时候，
+At that point,
+
+00:15:19.666 --> 00:15:22.916
+市场比高点下跌了33%，对吧？
+the market was 33% below its high, right?
+
+00:15:23.041 --> 00:15:24.750
+就算他完美地把握了时机，
+Even if he perfectly timed it,
+
+00:15:24.833 --> 00:15:25.833
+当然他不可能预知，
+which of course he doesn't know,
+
+00:15:25.916 --> 00:15:26.583
+那就是谷底吗？
+is that the bottom?
+
+00:15:26.625 --> 00:15:27.500
+还会继续跌吗？
+Is it gonna keep going?
+
+00:15:27.583 --> 00:15:28.250
+我该不该等？
+Should I wait?
+
+00:15:28.333 --> 00:15:28.916
+我该在哪个点位买？
+Where do I buy?
+
+00:15:29.000 --> 00:15:30.416
+所以把，把所有这些放在一边，
+So put all, putting all that aside,
+
+00:15:30.791 --> 00:15:32.125
+哪怕他完全知道底在哪里，
+even if he perfectly knew the bottom
+
+00:15:32.166 --> 00:15:33.708
+并在3月23日买入，
+and bought on March 23rd,
+
+00:15:33.875 --> 00:15:34.625
+也就是2020年，
+2020,
+
+00:15:34.708 --> 00:15:35.416
+他的买入价依然会
+he still would have bought
+
+00:15:35.500 --> 00:15:36.708
+高于
+at a higher price than
+
+00:15:36.791 --> 00:15:38.458
+他当年在2017年买入的价格，
+if he had bought back in 2017,
+
+00:15:38.541 --> 00:15:39.916
+比如2017年初。
+like in early 2017.
+
+00:15:40.041 --> 00:15:42.666
+所以这就是，我的反驳观点，
+So that's the, my counterargument,
+
+00:15:42.750 --> 00:15:43.833
+很多时候确实有回调。
+is like a lot of times there's a dip.
+
+00:15:43.875 --> 00:15:44.000
+“哦，
+"Oh,
+
+00:15:44.000 --> 00:15:44.916
+我等到了一个5%的跌幅，”
+I got a 5% dip,"
+
+00:15:45.000 --> 00:15:47.083
+但你买入的价格却高了10%
+but you're buying at a 10% higher price
+
+00:15:47.166 --> 00:15:48.333
+相比于你之前本可以买入的价格，
+than you could have bought before,
+
+00:15:48.416 --> 00:15:48.958
+对吧？
+right?
+
+00:15:49.000 --> 00:15:50.166
+所以我觉得这就是人们
+So I think that's the thing people
+
+00:15:50.250 --> 00:15:50.375
+不会去想的……
+don't...
+
+00:15:50.458 --> 00:15:51.791
+人们不会回头去想，“好吧，
+People don't go back and say, "Okay,
+
+00:15:52.250 --> 00:15:54.541
+我今天不买，比方说，在5月
+I'm not buying today on, let's say, May,
+
+00:15:54.666 --> 00:15:55.375
+12日。
+you know, 12th.
+
+00:15:55.416 --> 00:15:56.375
+我今天不买。
+I'm not buying today.
+
+00:15:56.708 --> 00:15:57.208
+但我要，
+But I'm gonna,
+
+00:15:57.250 --> 00:15:58.666
+但我要等到下一次大跌。”然后
+but I'm gonna wait till the next dip." And
+
+00:15:58.750 --> 00:15:59.041
+你再看看，
+then look,
+
+00:15:59.083 --> 00:15:59.916
+当你抄底时，
+and when you buy the dip,
+
+00:16:00.041 --> 00:16:01.000
+那个价格有低于
+is that price lower
+
+00:16:01.083 --> 00:16:02.333
+你没买入那天吗？
+than the day you didn't buy?
+
+00:16:02.416 --> 00:16:03.166
+这才是问题所在。
+And that's the question.
+
+00:16:03.250 --> 00:16:04.500
+而绝大多数人不会这样做。
+And most people don't do that.
+
+00:16:04.541 --> 00:16:05.625
+他们不会记录下来。
+They don't write it down.
+
+00:16:05.708 --> 00:16:06.708
+他们从不去复盘说，“哦，
+They never check and say, "Oh,
+
+00:16:06.833 --> 00:16:07.666
+我买入的价格低于
+I bought it lower than
+
+00:16:07.708 --> 00:16:08.375
+我之前
+what I could have bought it
+
+00:16:08.416 --> 00:16:09.250
+本能买入的价格，”对吧？
+at before," right?
+
+00:16:09.541 --> 00:16:10.291
+而且如果你等得太久，
+And if you wait too long,
+
+00:16:10.375 --> 00:16:11.833
+市场可能只会一直猛涨。
+the market can just keep ripping upward.
+
+00:16:11.916 --> 00:16:13.250
+关于逢低买入还有最后一点。
+And one last thing on buying the dip.
+
+00:16:13.333 --> 00:16:14.125
+我觉得你必须意识到，
+I think you have to realize,
+
+00:16:14.208 --> 00:16:15.708
+这也是为什么我喜欢借鉴历史，
+and this is why I like using history,
+
+00:16:15.750 --> 00:16:16.916
+美国市场历史上，你知道的，
+the worst dip in, you know,
+
+00:16:16.958 --> 00:16:18.166
+最糟糕的一次大跌是
+US market history was the Great
+
+00:16:18.208 --> 00:16:18.708
+大萧条时期，
+Depression,
+
+00:16:18.750 --> 00:16:18.958
+对吧？
+right?
+
+00:16:19.041 --> 00:16:20.291
+你知道发生了什么吗？
+And do you know what happened?
+
+00:16:20.458 --> 00:16:21.583
+你知道，1929年，
+You know, 1929,
+
+00:16:21.625 --> 00:16:22.500
+人们都在谈论那次大崩盘
+they talk about the great crash
+
+00:16:22.541 --> 00:16:23.375
+等等。
+and everything.
+
+00:16:23.458 --> 00:16:24.791
+那甚至都不是最糟的一年。
+That wasn't even the worst year.
+
+00:16:24.875 --> 00:16:28.250
+最糟的一年是从1931年到1932年。
+The worst year was from 1931 to 1932.
+
+00:16:28.875 --> 00:16:30.208
+市场当时已经下跌了，我想，
+The market was already down, I think,
+
+00:16:30.291 --> 00:16:31.666
+大概50%左右。
+like 50% or something.
+
+00:16:31.708 --> 00:16:32.750
+所以你会觉得，“天哪，
+So like you're like, "Oh my God,
+
+00:16:32.875 --> 00:16:35.250
+这简直是个绝佳的买入机会。”从1931年
+this is a buying opportunity." From 1931
+
+00:16:35.333 --> 00:16:36.833
+到1932年夏天，
+to the summer of 1932,
+
+00:16:36.916 --> 00:16:38.416
+底部大约出现在7月份，
+which was the bottom in, I think, July,
+
+00:16:38.916 --> 00:16:40.875
+市场又下跌了60%。
+the market went down 60%.
+
+00:16:41.208 --> 00:16:43.500
+并且那是在市场已经经历了两年
+This is after it already had two years
+
+00:16:43.583 --> 00:16:44.750
+的毁灭性打击之后。
+of just getting destroyed.
+
+00:16:44.833 --> 00:16:46.791
+所以你总把逢低买入挂在嘴边，
+So you keep talking about buying the dip,
+
+00:16:46.875 --> 00:16:48.833
+但在某些时候你可能会面临一次
+but at some point you may face a dip
+
+00:16:48.916 --> 00:16:49.958
+跌不见底的暴跌。
+where it just keeps dipping.
+
+00:16:50.041 --> 00:16:51.000
+比如你可能会说，“哦，
+Like you could have said, "Oh,
+
+00:16:51.083 --> 00:16:52.083
+市场都跌了50%了。
+the market's 50% down.
+
+00:16:52.166 --> 00:16:53.666
+我要把我的一切都押在这上面。”
+I'm gonna bet everything I have on this."
+
+00:16:53.750 --> 00:16:54.833
+然后你投入了所有的钱，
+And then you put all your money in,
+
+00:16:54.916 --> 00:16:56.625
+接着在这上面又亏了60%，
+and then you lose 60% on that,
+
+00:16:56.791 --> 00:16:56.875
+而
+and
+
+00:16:56.916 --> 00:16:58.958
+那真的是毁灭性的，
+that is truly destructive
+
+00:16:59.000 --> 00:16:59.875
+无与伦比的灾难。
+like nothing else.
+
+00:17:00.000 --> 00:17:01.833
+所以我知道我们还没遇到过那种情况，
+And so I know we haven't had one of those,
+
+00:17:01.916 --> 00:17:02.916
+而且我希望我们永远都不会遇到。
+and I hope we never do.
+
+00:17:03.416 --> 00:17:03.500
+但是
+But
+
+00:17:03.500 --> 00:17:04.333
+如果我们真的碰上了
+if we ever come into one
+
+00:17:04.416 --> 00:17:05.041
+那种情况之一，
+of those scenarios,
+
+00:17:05.083 --> 00:17:06.791
+逢低买入就会变得极其恐怖，
+buying the dip can get very scary
+
+00:17:06.875 --> 00:17:08.083
+并能迅速摧毁
+and can destroy a lot
+
+00:17:08.125 --> 00:17:09.291
+大量的资本。
+of capital very quickly.
+
+00:17:09.375 --> 00:17:10.875
+所以你必须为这种情况
+And so you just have to be prepared for
+
+00:17:10.916 --> 00:17:11.083
+做好准备。
+that.
+
+00:17:11.166 --> 00:17:12.541
+我知道那是极其糟糕的情况，
+I know that's the worst case scenario,
+
+00:17:12.583 --> 00:17:14.166
+但我必须把它提出来，因为这就是
+but I need to bring it out because that's
+
+00:17:14.208 --> 00:17:15.416
+下行风险中可能发生的情况，
+what can happen on the downside
+
+00:17:15.458 --> 00:17:16.625
+只是人们通常不会去想。
+that people don't really think about.
+
+00:17:16.875 --> 00:17:16.958
+[Ray] 我，
+[Ray] I,
+
+00:17:17.000 --> 00:17:19.083
+我想多聊聊现金的话题。
+I want to talk about more about cash.
+
+00:17:19.458 --> 00:17:21.416
+你觉得有没有一种合理的说法，
+Do you think there's a case to be made,
+
+00:17:21.541 --> 00:17:23.041
+比如像我这样的普通个人，
+like for an individual like me,
+
+00:17:23.458 --> 00:17:26.250
+除了紧急备用金外还应该持有现金？
+to have cash besides your emergency fund?
+
+00:17:26.375 --> 00:17:28.166
+[Nick] 我觉得问题在于，这是，
+[Nick] I guess the question is like, what,
+
+00:17:28.333 --> 00:17:29.958
+这笔钱的需求是什么？
+what's the need for that money?
+
+00:17:30.041 --> 00:17:30.875
+是，你是在……
+Is, are you...
+
+00:17:30.916 --> 00:17:31.791
+如果你是在等……
+If you're waiting for...
+
+00:17:32.041 --> 00:17:33.166
+我猜你这么做
+I'm guessing you're doing it
+
+00:17:33.250 --> 00:17:34.166
+是因为你在等市场回调，
+because you're waiting for a dip,
+
+00:17:34.250 --> 00:17:35.541
+我们刚才已经讨论过为什么
+and we've already talked about why
+
+00:17:35.625 --> 00:17:37.250
+那可能不是最佳策略。
+that may not be optimal.
+
+00:17:37.333 --> 00:17:37.875
+当然，
+Now,
+
+00:17:37.916 --> 00:17:38.583
+我能理解
+I understand
+
+00:17:38.666 --> 00:17:39.666
+为什么有些人
+why certain people
+
+00:17:39.708 --> 00:17:42.208
+喜欢那样。但我个人不这么做。
+like that.I personally don't do that.
+
+00:17:42.291 --> 00:17:43.000
+再说一遍，之所以
+The reason, once again,
+
+00:17:43.083 --> 00:17:43.916
+我持有现金
+I'm holding cash is
+
+00:17:44.000 --> 00:17:45.416
+是因为我正打算买房，
+because I'm trying to buy a house,
+
+00:17:45.500 --> 00:17:46.833
+所以也许我也在试图，嗯，
+and so maybe I am trying to, like,
+
+00:17:47.166 --> 00:17:49.375
+把握房地产市场回调的时机，
+time the dip in the real estate market
+
+00:17:49.416 --> 00:17:50.250
+如果真会回调的话。
+if there's gonna be one.
+
+00:17:50.375 --> 00:17:51.291
+我不知道究竟会不会跌。
+I don't know if there's gonna be one.
+
+00:17:51.375 --> 00:17:52.833
+但不管怎样，我都得留着那笔现金。
+But either way, I need to have that cash.
+
+00:17:52.958 --> 00:17:54.541
+如果我最终以现在的价格
+If I end up buying at the prices
+
+00:17:54.583 --> 00:17:55.125
+买下了房子，
+as they are,
+
+00:17:55.166 --> 00:17:55.291
+那么，
+like,
+
+00:17:55.375 --> 00:17:56.916
+我依然需要现金来支付，
+I still need to have the cash to do it,
+
+00:17:57.041 --> 00:17:57.458
+对吧？
+right?
+
+00:17:57.541 --> 00:17:59.041
+又或者我需要存一大笔钱，
+Or I may need to save up so much cash
+
+00:17:59.125 --> 00:18:00.541
+以便支付更高比例的首付，
+that I put down a larger down payment
+
+00:18:00.583 --> 00:18:01.750
+因为现在的利率太高了，
+because of where interest rates are,
+
+00:18:01.791 --> 00:18:01.916
+对吧？
+right?
+
+00:18:01.916 --> 00:18:02.916
+因为如果利率是百分之六
+Because if interest rates are six
+
+00:18:03.000 --> 00:18:03.833
+甚至百分之七，
+or seven percent,
+
+00:18:04.291 --> 00:18:05.333
+我可不想把
+I don't wanna borrow all
+
+00:18:05.416 --> 00:18:06.458
+那么多钱都以7%的利率借出来。
+that money at seven percent.
+
+00:18:06.500 --> 00:18:06.708
+我愿意
+I'm willing
+
+00:18:06.791 --> 00:18:07.916
+借款少得多的一笔钱
+to borrow a much smaller amount
+
+00:18:07.958 --> 00:18:08.791
+也许以7%的利率，
+at seven percent maybe,
+
+00:18:08.875 --> 00:18:10.125
+但我不想按，你知道的，
+but I don't wanna borrow, you know,
+
+00:18:10.333 --> 00:18:11.916
+房产价值80%的比例
+80% of the value of a property
+
+00:18:11.958 --> 00:18:12.625
+以7%的利率借款。
+at seven percent.
+
+00:18:12.666 --> 00:18:13.625
+这就是……
+That's the...
+
+00:18:13.708 --> 00:18:14.291
+你懂的，这大部分是，
+You know, most of that,
+
+00:18:14.375 --> 00:18:15.291
+如果你了解的话
+if you know anything about
+
+00:18:15.666 --> 00:18:17.125
+买房贷款还款是怎么运作的。
+how loan payments work on a house.
+
+00:18:17.208 --> 00:18:17.625
+对我来说，
+For me,
+
+00:18:17.666 --> 00:18:19.125
+持有现金完全是个人原因。
+the cash thing is a personal thing.
+
+00:18:19.208 --> 00:18:20.333
+你为什么要持有现金？
+Why would you have cash?
+
+00:18:20.458 --> 00:18:20.583
+这个——
+It--
+
+00:18:20.666 --> 00:18:21.416
+我的问题仅仅是
+My question is just
+
+00:18:21.500 --> 00:18:23.875
+为什么你要持有现金，除非是，
+why would you own cash outside of,
+
+00:18:23.958 --> 00:18:25.291
+比如需要，嗯，
+like, a need for s- an,
+
+00:18:25.375 --> 00:18:26.375
+应对一笔实际的负债
+an actual liability
+
+00:18:26.416 --> 00:18:27.625
+或者你生活中打算购买的东西？
+or a thing you're gonna buy in your life?
+
+00:18:27.666 --> 00:18:29.791
+除了这些之外，为什么你需要，
+Outside of that, why would you need,
+
+00:18:29.875 --> 00:18:30.708
+你知道，持有现金？
+you know, cash?
+
+00:18:30.791 --> 00:18:31.791
+除了作为紧急储备金，
+Outside of an emergency fund,
+
+00:18:31.875 --> 00:18:32.875
+除了买房的需求，
+outside of I need to buy a house,
+
+00:18:32.958 --> 00:18:33.916
+或者办婚礼的开销，
+I need to pay for a wedding,
+
+00:18:34.041 --> 00:18:34.750
+诸如此类的用处外，
+something like that,
+
+00:18:34.791 --> 00:18:35.291
+你为什么还需要持有现金呢？
+why would you need it?
+
+00:18:35.333 --> 00:18:36.166
+可能有人会说：“嗯，
+And someone's like, "Well,
+
+00:18:36.416 --> 00:18:37.333
+我想等回调，” 或者，
+I wanna wait for a dip," or,
+
+00:18:37.375 --> 00:18:38.958
+“我想逢低买入。” 我理解这个观点，
+"I wanna buy a dip." I see the argument,
+
+00:18:39.083 --> 00:18:39.583
+但话又说回来，
+but once again,
+
+00:18:39.625 --> 00:18:41.000
+数据并不支持这种做法。
+the data doesn't support it.
+
+00:18:41.083 --> 00:18:42.250
+多数情况下，你会……
+Most of the time, you're gonna...
+
+00:18:42.666 --> 00:18:44.250
+从统计上看，在大部分历史时期，
+Statistically, most of history,
+
+00:18:44.333 --> 00:18:45.875
+你最终都会以更高的价格买入。
+you're going to buy at a higher price.
+
+00:18:46.041 --> 00:18:48.291
+你的现金早就该用来
+Your cash would've been better deployed in
+
+00:18:48.375 --> 00:18:50.166
+买你本来就想买的东西了，
+that thing that you wanted to buy already,
+
+00:18:50.250 --> 00:18:50.375
+对吧？
+right?
+
+00:18:50.416 --> 00:18:51.541
+现在就买，然后，
+Just buy it now, and just,
+
+00:18:51.666 --> 00:18:52.541
+放手去投吧。
+just take the plunge.
+
+00:18:52.708 --> 00:18:54.166
+当然，从行为心理学上来说，这挺吓人的。
+Of course, that's scary behaviorally.
+
+00:18:54.208 --> 00:18:54.916
+我完全理解。
+I understand that.
+
+00:18:54.958 --> 00:18:55.666
+[Ray] 有意思的是，
+[Ray] What's interesting
+
+00:18:55.708 --> 00:18:56.750
+关于 Warren Buffett，
+about Warren Buffett is,
+
+00:18:57.041 --> 00:18:58.666
+他本人就是个选股专家，
+he himself is stock picker,
+
+00:18:59.041 --> 00:19:01.625
+但他却不建议普通投资者
+but he advise against individual stocks
+
+00:19:01.708 --> 00:19:02.916
+去买个股。
+to normal investors.
+
+00:19:03.000 --> 00:19:05.416
+你也同样建议大家不要
+And you also advise against individual
+
+00:19:05.458 --> 00:19:06.458
+去投资个股。
+stock investing.
+
+00:19:06.500 --> 00:19:07.666
+[Nick] 对于大多数散户投资者来说，
+[Nick] For most retail investors,
+
+00:19:07.791 --> 00:19:08.125
+我认为
+I think
+
+00:19:08.166 --> 00:19:09.541
+如果你非要选个股，
+if you're gonna pick individual stocks,
+
+00:19:09.625 --> 00:19:10.958
+并且是因为你喜欢、
+and you wanna do it 'cause you enjoy it,
+
+00:19:11.000 --> 00:19:12.250
+觉得好玩才这么做，那挺好。
+it's fun for you, great.
+
+00:19:12.333 --> 00:19:13.000
+把它的比例控制在，比如，
+Keep it at, like,
+
+00:19:13.041 --> 00:19:14.750
+你投资组合的 5% 到 10%，
+five to ten percent of your portfolio
+
+00:19:14.833 --> 00:19:15.375
+然后随便玩。
+and have at it.
+
+00:19:15.458 --> 00:19:15.875
+玩得开心就好。
+Have fun.
+
+00:19:15.916 --> 00:19:16.875
+我不反对。
+I'm not against it.
+
+00:19:16.958 --> 00:19:17.625
+我只是觉得，
+I'm just like,
+
+00:19:17.708 --> 00:19:19.208
+你得降低风险敞口，
+you gotta reduce your exposure,
+
+00:19:19.250 --> 00:19:20.875
+因为一旦你判断错了，
+'cause in the event that you're wrong,
+
+00:19:21.250 --> 00:19:22.166
+后果可能会很严重。
+it could go very badly.
+
+00:19:22.208 --> 00:19:23.166
+当然，如果你猜对了，
+Or obviously, if you're right,
+
+00:19:23.291 --> 00:19:23.916
+收益也会不错。
+it'll do well.
+
+00:19:23.958 --> 00:19:24.416
+但是
+But
+
+00:19:24.458 --> 00:19:25.416
+如果它只占
+if it's only five to ten percent
+
+00:19:25.458 --> 00:19:26.041
+你投资组合的 5% 到 10%，
+of your portfolio,
+
+00:19:26.125 --> 00:19:27.250
+那它也就是锦上添花，对吧？
+it's, like, a nice to have, right?
+
+00:19:27.458 --> 00:19:27.916
+我在研究这个问题时，
+I've come up with
+
+00:19:27.958 --> 00:19:29.333
+总结出了
+so many different arguments looking
+
+00:19:29.416 --> 00:19:29.708
+很多不同的观点。
+at this.
+
+00:19:29.750 --> 00:19:30.666
+大家最常听到的
+The original argument
+
+00:19:30.750 --> 00:19:31.541
+最初的一个观点，
+that most people have heard is
+
+00:19:31.625 --> 00:19:32.791
+我称之为“业绩论”，
+what I call the performance argument,
+
+00:19:32.875 --> 00:19:34.041
+意思就是，
+which is just, like,
+
+00:19:34.083 --> 00:19:36.416
+如果你去看看那些专业基金经理，
+if you look at professional managers,
+
+00:19:36.500 --> 00:19:37.750
+那些以此为生的人，
+people that do this for a living,
+
+00:19:37.875 --> 00:19:38.708
+他们中的大多数，你知道的，
+most of them, you know,
+
+00:19:38.750 --> 00:19:40.250
+在五年的时间跨度里，大概有
+over a five-year time period, it's, like,
+
+00:19:40.291 --> 00:19:40.916
+70%
+something like 70
+
+00:19:40.958 --> 00:19:43.375
+到 80% 的人都跑不赢基准。
+to 80% don't beat their benchmarks.
+
+00:19:43.416 --> 00:19:44.500
+有个东西叫 SPIVA
+There's something called the SPIVA
+
+00:19:44.583 --> 00:19:45.125
+报告，
+reports,
+
+00:19:45.166 --> 00:19:46.833
+S-P-I-V-A。
+S-P-I-V-A.
+
+00:19:46.916 --> 00:19:47.583
+你可以去查一下。
+You can look them up.
+
+00:19:47.625 --> 00:19:49.041
+你可以查到不同国家的情况，
+You can look up at different countries,
+
+00:19:49.125 --> 00:19:49.833
+各种数据都有。
+all this stuff.
+
+00:19:49.875 --> 00:19:51.791
+大多数专业人士都跑不赢
+Most professionals don't beat the
+
+00:19:51.875 --> 00:19:52.208
+基准，
+benchmark,
+
+00:19:52.291 --> 00:19:53.583
+也就是 S&amp;P 500，
+which is the S&amp;P 500
+
+00:19:53.666 --> 00:19:55.916
+或者他们目标市场的指数，
+or whatever their target index market is,
+
+00:19:55.958 --> 00:19:56.083
+对吧？
+right?
+
+00:19:56.083 --> 00:19:56.750
+比如，如果是
+If it's, like,
+
+00:19:56.833 --> 00:19:58.208
+台湾股市，或者韩国股市
+the Taiwanese stock market or the Korean,
+
+00:19:58.291 --> 00:19:58.958
+等等。
+et cetera.
+
+00:19:59.000 --> 00:20:00.708
+所以这是最初的观点，
+So that was the original argument,
+
+00:20:00.750 --> 00:20:01.958
+也就是：“嘿，这叫业绩论。
+was like, "Hey, the performance argument.
+
+00:20:02.000 --> 00:20:02.833
+这就是为什么你不该去选股。”
+That's why you shouldn't do it."
+
+00:20:03.375 --> 00:20:03.958
+后来我又提出了
+Then I came up
+
+00:20:04.041 --> 00:20:05.250
+一个叫做“存在主义”
+with something called the existential
+
+00:20:05.291 --> 00:20:05.541
+的观点，
+argument,
+
+00:20:05.625 --> 00:20:06.333
+它的核心是，
+which is like,
+
+00:20:06.416 --> 00:20:06.708
+你怎么知道
+how do you know
+
+00:20:06.750 --> 00:20:08.250
+自己到底擅不擅长选股？
+if you're good at stock picking?
+
+00:20:08.333 --> 00:20:08.750
+你并不知道……
+You don't...
+
+00:20:08.833 --> 00:20:09.416
+举个例子，如果
+Like, if,
+
+00:20:09.458 --> 00:20:11.041
+如果你和我去打篮球，
+if you and I went to play basketball,
+
+00:20:11.541 --> 00:20:13.708
+任何在场边看的人，不出三分钟就能看出
+anyone watching could tell within three
+
+00:20:13.791 --> 00:20:15.333
+谁有天赋谁没有，
+minutes who has talent and who doesn't,
+
+00:20:15.416 --> 00:20:15.583
+对吧？
+right?
+
+00:20:15.625 --> 00:20:16.750
+比如我和 LeBron James 单挑。
+Me versus LeBron James.
+
+00:20:16.958 --> 00:20:18.208
+如果，如果 LeBron James 没这么出名，
+If, if LeBron James wasn't famous,
+
+00:20:18.291 --> 00:20:19.125
+我们俩直接上场，
+and we just went on the court,
+
+00:20:19.541 --> 00:20:20.625
+你一分钟内就能看出来
+you would know within a minute
+
+00:20:20.708 --> 00:20:21.500
+他比我强得多，
+that he was better than me,
+
+00:20:21.541 --> 00:20:21.666
+对吧？
+right?
+
+00:20:21.666 --> 00:20:23.083
+根本不需要花多长时间。
+It wouldn't take you any time.
+
+00:20:23.166 --> 00:20:24.083
+现在，Ray，假设
+Now, let's say, Ray,
+
+00:20:24.166 --> 00:20:25.750
+你和我一起去选股。
+you and I went to pick stocks.
+
+00:20:25.833 --> 00:20:27.416
+大家要花多久才能看出来
+How long would it take before they knew
+
+00:20:27.458 --> 00:20:28.458
+我们到底厉不厉害？
+whether we were good?
+
+00:20:28.541 --> 00:20:29.250
+可能要花好几年。
+It could take years.
+
+00:20:29.333 --> 00:20:30.708
+可能得等上十年你才会知道，
+It could take a decade before you know
+
+00:20:30.791 --> 00:20:31.708
+到底谁才是真有本事，
+who actually has skill,
+
+00:20:31.791 --> 00:20:33.041
+对吧，或者谁只是运气好而已。
+right, and, or who's just lucky.
+
+00:20:33.583 --> 00:20:35.166
+所以这是我的第二个观点，就是
+So that's my next argument is, like,
+
+00:20:35.666 --> 00:20:36.666
+你其实不知道自己是不是纯靠运气，
+you don't know if you're just lucky
+
+00:20:36.708 --> 00:20:37.041
+不是吗？
+or not,
+
+00:20:37.125 --> 00:20:37.208
+对吧？
+right?
+
+00:20:37.291 --> 00:20:38.041
+这就是个问题。
+And that's a problem.
+
+00:20:38.083 --> 00:20:39.333
+没有人愿意照着镜子
+And no one wants to look in the mirror
+
+00:20:39.375 --> 00:20:39.541
+然后对自己说：
+and be like,
+
+00:20:39.583 --> 00:20:39.708
+“是啊，
+"Yeah,
+
+00:20:39.791 --> 00:20:40.750
+我这次只是走狗屎运罢了。”
+I just got lucky with that."
+
+00:20:40.833 --> 00:20:42.500
+但很多时候事实就是如此。
+But that's the case a lot of times.
+
+00:20:42.625 --> 00:20:44.083
+所以这是我反对选股的第二个观点，
+So that's my second argument against stock
+
+00:20:44.125 --> 00:20:44.375
+也就是
+picking,
+
+00:20:44.458 --> 00:20:45.666
+这个存在主义论点。
+which is the existential point.
+
+00:20:46.083 --> 00:20:47.541
+最后，我认为我，
+And then finally, I think my,
+
+00:20:47.750 --> 00:20:49.458
+我反对选股最有力的观点，其实
+my best argument against it is actually
+
+00:20:49.500 --> 00:20:49.625
+就是，
+just,
+
+00:20:49.708 --> 00:20:52.083
+这真的是你时间的最佳利用方式吗？
+like, is that the best use of your time?
+
+00:20:52.375 --> 00:20:52.833
+比如，我，
+Like, I,
+
+00:20:52.916 --> 00:20:54.375
+我就拿我自己举个例子吧，
+I'm just gonna use myself as an example,
+
+00:20:54.458 --> 00:20:55.750
+因为我不太了解你的观众。
+'cause I don't know your audience as well.
+
+00:20:55.791 --> 00:20:57.083
+我不知道他们具体是做什么的，
+I don't know kind of what they do,
+
+00:20:57.125 --> 00:20:57.833
+有什么样的职业。
+what their careers are.
+
+00:20:57.875 --> 00:21:00.166
+但是，比如，如果你给我一个小时，对吧，
+But, like, if you gave me an hour, right,
+
+00:21:00.750 --> 00:21:02.166
+在这一个小时里，
+what is the best use of my time in
+
+00:21:02.250 --> 00:21:02.583
+我时间的最佳利用方式是什么？
+that hour?
+
+00:21:02.625 --> 00:21:03.791
+对我来说，是写点东西。
+For me, it's writing something.
+
+00:21:03.875 --> 00:21:04.458
+因为我可以去，
+'Cause I could go,
+
+00:21:04.500 --> 00:21:06.166
+并且我也确实能通过写作
+and I'm gonna generate more income
+
+00:21:06.208 --> 00:21:07.041
+创造更多的收入，
+from my writing,
+
+00:21:07.083 --> 00:21:08.083
+比如写篇博客，
+from writing a blog post,
+
+00:21:08.416 --> 00:21:10.041
+或者是帮忙写本书之类的，
+helping to write a book, whatever it is,
+
+00:21:10.458 --> 00:21:13.041
+这比我去研究一只股票，对吧，
+than I am from researching a stock, right,
+
+00:21:13.125 --> 00:21:14.208
+然后再把钱投进去赚得多。
+and putting my money into that.
+
+00:21:14.291 --> 00:21:15.250
+所以特别是对那些
+So especially for those people
+
+00:21:15.291 --> 00:21:16.291
+资金还不充裕的人，
+that don't have a lot of money,
+
+00:21:16.416 --> 00:21:17.500
+如果你才刚刚起步，
+if you're just starting out, like,
+
+00:21:17.958 --> 00:21:19.583
+你花那么多时间，
+all that time you're spending,
+
+00:21:19.666 --> 00:21:20.916
+远不如好好打份工
+you're gonna make far more money
+
+00:21:21.000 --> 00:21:22.583
+赚的钱多，
+by just working a job
+
+00:21:22.666 --> 00:21:24.208
+或者去做一些能为你创造
+or doing something that's gonna create
+
+00:21:24.291 --> 00:21:24.541
+收入的事情。
+income.
+
+00:21:24.583 --> 00:21:25.625
+这能为你创造的回报
+It's gonna create you more
+
+00:21:25.666 --> 00:21:27.166
+比你的投资组合多得多。
+than your portfolio will.
+
+00:21:27.250 --> 00:21:28.125
+但是反过来看，
+Now, on the flip side,
+
+00:21:28.208 --> 00:21:29.625
+如果你已经很有钱了，
+if you have a bunch of money already,
+
+00:21:29.708 --> 00:21:30.291
+那确实，
+then yeah,
+
+00:21:30.375 --> 00:21:32.291
+我觉得研究股票能让你赚更多
+I think stock research can make you more
+
+00:21:32.375 --> 00:21:32.541
+钱，
+money
+
+00:21:32.625 --> 00:21:34.000
+因为你有大量的资本
+because you have a lot of capital
+
+00:21:34.041 --> 00:21:34.750
+可以任你调配，
+at your display,
+
+00:21:34.833 --> 00:21:35.416
+对吧？
+right?
+
+00:21:35.500 --> 00:21:36.833
+你知道，我经常说如果，你知道的，
+You know, I, I say if, you know,
+
+00:21:36.916 --> 00:21:38.041
+如果你有一千块，
+if you have a thousand bucks,
+
+00:21:38.083 --> 00:21:40.000
+获得了 10% 的回报，那就是 100 块，
+and you get a 10% return, that's $100,
+
+00:21:40.083 --> 00:21:41.208
+从大局来看，
+which is, in the grand scheme of things,
+
+00:21:41.291 --> 00:21:42.500
+这笔钱并不算多，对吧？
+is not that much money, right?
+
+00:21:42.916 --> 00:21:43.041
+但是
+But
+
+00:21:43.083 --> 00:21:44.708
+如果你的投资组合有一百万美元，
+if you have a million dollar portfolio,
+
+00:21:44.750 --> 00:21:47.083
+获得了 10% 的回报，那就是十万美元，
+and you get a 10% return, that's $100,000,
+
+00:21:47.125 --> 00:21:48.750
+对于很多美国人来说，这相当于，
+which for a lot of Americans, that's,
+
+00:21:48.833 --> 00:21:49.333
+一份不错的、
+like, a good,
+
+00:21:49.416 --> 00:21:51.208
+体面的工作年薪了，对吧？
+decent job in the United States, right?
+
+00:21:51.333 --> 00:21:52.291
+所以你看，你可以
+So you can see you could get
+
+00:21:52.375 --> 00:21:53.333
+在一年内拿到这么高的回报。
+that return in a year.
+
+00:21:53.416 --> 00:21:55.291
+因此，研究股票、击败市场，
+So stock research and beating the market
+
+00:21:55.375 --> 00:21:55.458
+所有这些事情，
+and all
+
+00:21:55.458 --> 00:21:57.291
+只有在你拥有大量的
+that only makes sense once you have a ton
+
+00:21:57.375 --> 00:21:57.708
+资金时才有意义。
+of money.
+
+00:21:57.791 --> 00:21:58.875
+如果你其实并没有那么多钱，
+If you don't really have a lot of money,
+
+00:21:58.916 --> 00:22:00.541
+在上面浪费时间是毫无意义的，
+it makes no sense to waste your time on
+
+00:22:00.583 --> 00:22:00.791
+真的，
+that,
+
+00:22:00.875 --> 00:22:01.083
+对吧？
+right?
+
+00:22:01.166 --> 00:22:01.875
+所以显然，
+So obviously,
+
+00:22:01.958 --> 00:22:03.375
+除非你花时间去研究，否则你不可能擅长，
+you can't get good unless you spend time
+
+00:22:03.458 --> 00:22:03.916
+这我明白。
+researching it,
+
+00:22:04.000 --> 00:22:04.666
+是能理解的。
+so I get that.
+
+00:22:04.750 --> 00:22:05.583
+但与此同时，
+But at the same time, like,
+
+00:22:05.958 --> 00:22:07.375
+我认为对大多数人来说，
+I think most people would be better spent
+
+00:22:07.458 --> 00:22:09.125
+要想获得财务上的成功，
+in terms of their financial success
+
+00:22:09.208 --> 00:22:11.041
+如果把这些时间花在事业上，
+if they spent that time on their career
+
+00:22:11.083 --> 00:22:12.416
+远比光去试着挑股票划算得多。
+than on just trying to pick stocks.
+
+00:22:12.583 --> 00:22:12.750
+[Ray] 是的。
+[Ray] Yeah.
+
+00:22:12.791 --> 00:22:14.375
+我记得你在书里好像是
+I remember in your book you said something
+
+00:22:14.416 --> 00:22:14.958
+这么说的：
+like this,
+
+00:22:15.000 --> 00:22:16.416
+“存钱是穷人的做法，
+"Savings is for the poor,
+
+00:22:16.458 --> 00:22:18.125
+而投资是富人的游戏。” 就在
+and investments is for the wealthy." The,
+
+00:22:18.250 --> 00:22:20.125
+前几天，我在 X 上发了条推文。
+the other day I, I sent a tweet on X.
+
+00:22:20.208 --> 00:22:20.458
+我说，
+I said,
+
+00:22:20.541 --> 00:22:21.500
+“大家真的应该把精力放在
+"People really should focus
+
+00:22:21.541 --> 00:22:22.291
+提升自己的收入上，
+on their income,
+
+00:22:22.375 --> 00:22:23.916
+尤其是当你还年轻的时候，”对吧？
+especially if you are young," right?
+
+00:22:24.375 --> 00:22:25.750
+然后我收到了这样的回复。
+And I got this reply.
+
+00:22:25.958 --> 00:22:26.750
+他说，
+he said,
+
+00:22:26.791 --> 00:22:27.375
+“如果
+"If it were
+
+00:22:27.416 --> 00:22:29.708
+增加收入有那么容易，
+that easy to increase my income,
+
+00:22:30.166 --> 00:22:31.916
+我就不会去
+I wouldn't be investing
+
+00:22:31.958 --> 00:22:33.166
+投资股市了。”那么
+in the stock market." So
+
+00:22:33.708 --> 00:22:35.666
+这个回复说明了
+what does this reply tell you
+
+00:22:35.750 --> 00:22:37.208
+这些
+about the mentality of the,
+
+00:22:37.333 --> 00:22:38.291
+新手投资者的什么心态呢？
+the new investors?
+
+00:22:38.375 --> 00:22:39.958
+[Nick] 嗯，这，这确实不容易。
+[Nick] Well, it's, it's not easy.
+
+00:22:40.083 --> 00:22:40.916
+没人说过，“哦对，
+No one said, "Oh yeah,
+
+00:22:40.958 --> 00:22:41.708
+只要增加收入就行。
+just increase your income.
+
+00:22:41.750 --> 00:22:42.500
+这是最简单的事。”根本不是……
+It's the easiest thing." It's not...
+
+00:22:42.583 --> 00:22:43.375
+你不可能按个按钮，
+You can't just hit a button,
+
+00:22:43.416 --> 00:22:44.458
+你的收入就增加了。
+and it's gonna increase your income.
+
+00:22:44.541 --> 00:22:45.416
+但是，
+But, like,
+
+00:22:45.458 --> 00:22:47.208
+考虑一下你的长期职业生涯，以及，
+think about your long-term career and,
+
+00:22:47.250 --> 00:22:47.500
+呃，
+like,
+
+00:22:47.541 --> 00:22:49.208
+你能做些什么来增加收入。
+what you can do to increase your income.
+
+00:22:49.291 --> 00:22:50.125
+我，我来举个……
+And I, and I'll give...
+
+00:22:50.166 --> 00:22:50.916
+再说一次，我，
+Once again, I,
+
+00:22:51.000 --> 00:22:52.333
+我只能举我自己的例子，因为我不可能
+I can only give my example 'cause I don't
+
+00:22:52.416 --> 00:22:53.583
+了解每一个人，
+know every single person,
+
+00:22:53.666 --> 00:22:53.750
+对吧？
+right?
+
+00:22:53.833 --> 00:22:55.666
+但是，像在我的例子中，我说，“嘿，
+But, like, in my example, I said, "Hey,
+
+00:22:55.791 --> 00:22:56.541
+我想开始写作。
+I wanna start writing.
+
+00:22:56.583 --> 00:22:57.666
+我想写我热爱的东西。
+I wanna write about something I love.
+
+00:22:57.750 --> 00:22:58.250
+我想磨练
+I wanna build
+
+00:22:58.333 --> 00:23:00.000
+这门手艺。”整整三年，
+that craft." For three years,
+
+00:23:00.041 --> 00:23:01.458
+我做这个没赚到一分钱。
+I didn't make any money doing this.
+
+00:23:01.750 --> 00:23:02.583
+一，一无所获。
+No- nothing.
+
+00:23:02.666 --> 00:23:03.500
+零，对吧？
+Zilch, right?
+
+00:23:03.833 --> 00:23:04.875
+然后终于，
+And then finally,
+
+00:23:04.916 --> 00:23:06.416
+我开始在博客上投放广告。
+I started running ads on my blog.
+
+00:23:06.500 --> 00:23:07.708
+接着我拿到了出书的合同。
+Then I'd have book deals.
+
+00:23:07.750 --> 00:23:09.250
+然后我开始做演讲之类的活动，
+Then I'm starting to do speaking stuff,
+
+00:23:09.333 --> 00:23:09.458
+对吧？
+right?
+
+00:23:09.500 --> 00:23:11.000
+所以这就像是，
+So it's one of those things that, like,
+
+00:23:11.083 --> 00:23:11.958
+我不是说这种事会发生
+I'm not saying that's gonna happen
+
+00:23:12.000 --> 00:23:12.666
+在每个人身上，
+for every person,
+
+00:23:12.750 --> 00:23:13.166
+但是
+but
+
+00:23:13.250 --> 00:23:14.791
+如果你用长远的眼光来看待
+if you take a long-term approach
+
+00:23:14.875 --> 00:23:15.375
+你的职业生涯，
+to your career,
+
+00:23:15.458 --> 00:23:16.916
+并且付出了足够的努力，
+and you put in enough work, like,
+
+00:23:17.375 --> 00:23:18.541
+你会看到一些成果的。
+you will see some results.
+
+00:23:18.625 --> 00:23:20.041
+我不是说你会变得
+I'm not saying you're gonna be a household
+
+00:23:20.083 --> 00:23:20.291
+家喻户晓。
+name.
+
+00:23:20.375 --> 00:23:21.750
+我不是说你会成为一个出名的
+I'm not saying you're gonna be a famous
+
+00:23:21.833 --> 00:23:22.250
+名人。
+celebrity.
+
+00:23:22.333 --> 00:23:23.750
+我只是说你会看到一些
+I'm just saying you're gonna see something
+
+00:23:23.791 --> 00:23:24.625
+呃，
+that's gonna be,
+
+00:23:24.708 --> 00:23:25.000
+你懂的，
+you know,
+
+00:23:25.083 --> 00:23:26.791
+对得起你所付出的所有努力的
+a decent result for all the work you put
+
+00:23:26.875 --> 00:23:26.958
+不错的回报。
+in.
+
+00:23:26.958 --> 00:23:27.958
+而且你必须为此努力，
+And you have to work at it,
+
+00:23:28.083 --> 00:23:29.083
+这需要很长的时间。
+and it takes a long time.
+
+00:23:29.166 --> 00:23:31.000
+但是，我见过这种做法成功的例子。
+But, like, I've seen this succeed.
+
+00:23:31.041 --> 00:23:32.416
+我见过很多人以此
+I've seen a lot of people succeed
+
+00:23:32.458 --> 00:23:33.250
+获得了成功。
+in this way.
+
+00:23:33.333 --> 00:23:34.708
+这只是比你想象的要花更多的时间。
+It just takes more time than you think.
+
+00:23:34.750 --> 00:23:36.041
+但你必须对你的事业
+But you have to be diligent
+
+00:23:36.125 --> 00:23:36.833
+保持勤奋。
+about your career.
+
+00:23:36.916 --> 00:23:38.166
+所以你说得对。
+And so you're right.
+
+00:23:38.208 --> 00:23:40.708
+比如说，如果，如果选择是，好吧，
+Like, if, if the choices are, like, okay,
+
+00:23:41.000 --> 00:23:42.208
+我不想付出任何努力，
+I don't wanna put in any effort,
+
+00:23:42.291 --> 00:23:43.750
+或者我只想炒股。
+or I wanna just do the stock market.
+
+00:23:43.875 --> 00:23:44.208
+那么是的，
+Like yeah,
+
+00:23:44.250 --> 00:23:46.000
+不付出任何努力是不会，
+putting in no effort is gonna not,
+
+00:23:46.083 --> 00:23:47.500
+是无法战胜市场的。
+is not gonna beat the stock market.
+
+00:23:47.541 --> 00:23:49.125
+但你需要付出一些努力去尝试
+But you need to put in some effort to try
+
+00:23:49.166 --> 00:23:51.083
+提升你的职业生涯来获得更多收入，
+and boost your career to have more income,
+
+00:23:51.166 --> 00:23:51.291
+这样
+so
+
+00:23:51.333 --> 00:23:52.708
+你才能真正地去投资
+then you can actually play the stock
+
+00:23:52.750 --> 00:23:53.916
+股市，并真正赚到更多的钱，
+market and actually make more money,
+
+00:23:54.041 --> 00:23:54.833
+对吧？
+right?
+
+00:23:54.916 --> 00:23:56.000
+比如说，现在在某一天，
+Like, in a given day now,
+
+00:23:56.083 --> 00:23:57.500
+如果股市大涨或大跌，
+if the market's up or down a lot,
+
+00:23:57.625 --> 00:24:00.666
+我现在赚的或亏的，甚至会比我当初，
+I'll make more or lose more than I made,
+
+00:24:00.708 --> 00:24:02.958
+你懂的，在那种非常好的，
+you know, in, like, a really good,
+
+00:24:03.041 --> 00:24:03.500
+呃，
+you know,
+
+00:24:03.541 --> 00:24:05.333
+刚开始工作的大半年里赚的还要多，对吧？
+half a year when I first started, right?
+
+00:24:05.416 --> 00:24:06.208
+所以这就是那种，
+So it's one of those things
+
+00:24:06.291 --> 00:24:08.333
+随着你的投资组合越来越大，
+where as your portfolio gets bigger,
+
+00:24:08.416 --> 00:24:09.958
+它的波动也会变得非常大，
+the swings on it get so large
+
+00:24:10.041 --> 00:24:10.375
+以至于它就是
+that it's just
+
+00:24:10.416 --> 00:24:11.541
+感觉你最终赚到的钱
+like you could end up making
+
+00:24:11.625 --> 00:24:13.125
+可能会比你刚开始工作时
+so much more money than you ever could've
+
+00:24:13.208 --> 00:24:14.250
+能赚到的钱多得多。
+when you first started working.
+
+00:24:14.291 --> 00:24:15.833
+所以，专注于你的事业，
+So focus on your career,
+
+00:24:15.916 --> 00:24:16.500
+然后利用
+but then use
+
+00:24:16.583 --> 00:24:17.708
+它来建立你的投资组合。
+that to build your investments.
+
+00:24:18.333 --> 00:24:19.666
+[Ray] 是的，我以前在我的频道里分享过，
+[Ray] Yeah, I used to share in my channel,
+
+00:24:19.708 --> 00:24:20.541
+我说过，
+I said,
+
+00:24:20.916 --> 00:24:21.791
+你是不可能
+you cannot get rich
+
+00:24:21.875 --> 00:24:25.833
+在股市里致富的，除非你先在
+in the stock market before you get rich
+
+00:24:26.416 --> 00:24:27.333
+股市之外致富。
+outside the market.
+
+00:24:27.833 --> 00:24:29.375
+但是很多人在争论，比如，
+And a lot of people are arguing, like,
+
+00:24:29.416 --> 00:24:31.083
+比如反驳说：“不，这……
+like pushing back, like, "No, there...
+
+00:24:31.166 --> 00:24:32.000
+似乎有很多人
+It seems to be a lot
+
+00:24:32.083 --> 00:24:35.166
+都是在股市里发家致富的。”
+of people are getting rich inside the
+
+00:24:35.208 --> 00:24:36.708
+那么你是个懂数据的人。
+market." So you're a data guy.
+
+00:24:36.791 --> 00:24:38.000
+关于这一点，你有任何数据
+Do you have any data on,
+
+00:24:38.208 --> 00:24:39.833
+可以分享一些见解吗？
+on this to share some insights?
+
+00:24:40.000 --> 00:24:41.041
+那么，比如，
+So is it true, like,
+
+00:24:41.458 --> 00:24:41.833
+真的有越来越多人
+there are more
+
+00:24:41.916 --> 00:24:44.083
+单靠炒股
+and more people are getting rich solely
+
+00:24:44.166 --> 00:24:45.333
+发家致富吗？
+by investing in stocks?
+
+00:24:45.541 --> 00:24:47.708
+[Nick] 数据压倒性地支持这样一种
+[Nick] The data overwhelmingly supports a
+
+00:24:47.750 --> 00:24:48.166
+模式：
+model
+
+00:24:48.208 --> 00:24:50.166
+人们在一段时间内攒下钱，
+where people are saving over time
+
+00:24:50.250 --> 00:24:51.625
+然后把它投入市场，
+and putting it into the market,
+
+00:24:51.750 --> 00:24:51.875
+对吧？
+right?
+
+00:24:51.916 --> 00:24:52.958
+也就是他们的事业。
+It's their careers.
+
+00:24:53.041 --> 00:24:54.625
+比如，如果你真的去看，比如，
+Like, if you actually look at, like,
+
+00:24:54.666 --> 00:24:55.833
+什么东西和财富
+what's the most correlated thing
+
+00:24:55.916 --> 00:24:56.375
+相关度最高，
+with wealth,
+
+00:24:56.416 --> 00:24:57.208
+那就是收入。
+it's income.
+
+00:24:57.250 --> 00:24:58.875
+这不是——这毫无争议。
+It's not-- There's no debate.
+
+00:24:58.916 --> 00:25:00.041
+你可以去查阅每一份数据集。
+You can look at every data set.
+
+00:25:00.416 --> 00:25:01.166
+我确实查阅过。
+I've actually looked.
+
+00:25:01.250 --> 00:25:02.291
+我做了一门课，
+I did a course for,
+
+00:25:02.750 --> 00:25:03.458
+我为《持续买进》
+I did Just Keep Buying,
+
+00:25:03.541 --> 00:25:05.625
+做了一门台湾版的课程，我研究了，比如，
+a course in Taiwan, and I looked at, like,
+
+00:25:05.708 --> 00:25:08.208
+一些台湾的，比如，金融数据，
+some Taiwanese, like, financial data,
+
+00:25:08.291 --> 00:25:09.666
+如果你看储蓄率
+and if you look at savings rates
+
+00:25:09.750 --> 00:25:10.250
+和收入，
+and incomes,
+
+00:25:10.333 --> 00:25:11.375
+它们是正相关的，
+they're positively correlated,
+
+00:25:11.416 --> 00:25:12.000
+这意味着
+which means people
+
+00:25:12.083 --> 00:25:13.708
+收入高的人存的钱更多。
+with higher incomes save more money.
+
+00:25:13.791 --> 00:25:15.208
+那么，我说的存钱是什么意思？
+Now, what do I mean save money?
+
+00:25:15.250 --> 00:25:16.833
+他们把钱攒下来，并且很可能会去投资，
+They save it, and they probably invest it,
+
+00:25:16.916 --> 00:25:18.375
+或者去买房产，对吧？
+or they buy a property, right?
+
+00:25:18.416 --> 00:25:18.958
+所以
+So
+
+00:25:19.041 --> 00:25:20.458
+如果储蓄率
+if savings rates are correlated
+
+00:25:20.541 --> 00:25:21.083
+和收入相关，
+with income,
+
+00:25:21.125 --> 00:25:22.083
+那就意味着那些
+that means that those people
+
+00:25:22.166 --> 00:25:23.541
+收入较高的人
+that have higher incomes are going
+
+00:25:23.625 --> 00:25:24.916
+就会有更多的钱去投资，
+to have more money to invest,
+
+00:25:25.000 --> 00:25:25.666
+对吧？
+right?
+
+00:25:25.708 --> 00:25:27.750
+我看过的每一个数据集都显示了
+Every single data set I've seen shows
+
+00:25:27.833 --> 00:25:28.166
+这一点。
+that.
+
+00:25:28.250 --> 00:25:29.541
+那是不是说就不存在某个人，
+Does that mean there's not someone
+
+00:25:29.625 --> 00:25:30.791
+他买了一只股票，
+who bought a stock
+
+00:25:30.875 --> 00:25:32.333
+最后涨了100倍，
+that ended up going up 100x
+
+00:25:32.416 --> 00:25:33.000
+从而赚到了钱？
+and made money?
+
+00:25:33.083 --> 00:25:33.666
+当然不是。
+Of course not.
+
+00:25:33.708 --> 00:25:34.541
+人们会有走运的时候。
+People get lucky.
+
+00:25:34.625 --> 00:25:35.625
+这种事是会发生的，
+Those types of things happen,
+
+00:25:35.708 --> 00:25:36.875
+也许他们并非纯靠运气。
+and maybe they weren't lucky.
+
+00:25:36.916 --> 00:25:38.333
+也许他们在挑选这些股票方面
+Maybe they have really deep skill
+
+00:25:38.375 --> 00:25:39.666
+有着极其高深的技巧。
+at identifying these stocks.
+
+00:25:39.750 --> 00:25:40.583
+那很棒。
+That's great.
+
+00:25:40.791 --> 00:25:42.125
+但总的来说，
+But in general,
+
+00:25:42.166 --> 00:25:43.875
+这类事情是非常罕见的。
+those types of things are quite rare.
+
+00:25:43.958 --> 00:25:44.208
+你懂吧？
+You know?
+
+00:25:44.250 --> 00:25:45.500
+你不会经常看到这种事。
+You don't see those too often.
+
+00:25:45.583 --> 00:25:46.041
+所以，
+So the,
+
+00:25:46.125 --> 00:25:48.541
+人们最常见的致富途径是，
+the most common way people get rich is
+
+00:25:48.625 --> 00:25:49.791
+要么有一份工作
+by either working a job
+
+00:25:49.833 --> 00:25:50.875
+然后长期攒钱，
+and saving for a long time,
+
+00:25:51.083 --> 00:25:52.750
+要么创办一家企业然后把它
+or starting a business and selling
+
+00:25:52.791 --> 00:25:53.541
+卖个好价钱，
+that for a lot of money,
+
+00:25:53.625 --> 00:25:53.708
+对吧？
+right?
+
+00:25:53.750 --> 00:25:54.833
+或者持有某家企业的
+Or having some sort of equity
+
+00:25:54.875 --> 00:25:55.666
+某种股权。
+in a business.
+
+00:25:55.708 --> 00:25:56.583
+也许他们在一家初创公司，
+Maybe they're on a startup,
+
+00:25:56.666 --> 00:25:57.875
+然后拿到了股权，接着他们，
+and they get equity, and then they,
+
+00:25:57.958 --> 00:25:59.583
+这家公司变得非常非常大，
+the business just gets really, really big,
+
+00:25:59.625 --> 00:26:00.208
+然后他们套现了。
+and they sell that.
+
+00:26:00.291 --> 00:26:01.000
+所以不管怎样，
+So one way or another,
+
+00:26:01.083 --> 00:26:02.291
+要么是持有某个私人企业的
+it's either some sort of equity ownership
+
+00:26:02.375 --> 00:26:02.791
+呃，
+in a,
+
+00:26:02.833 --> 00:26:04.833
+某种股权，要么是长期从事一份，
+in a private business, or it's working a,
+
+00:26:04.958 --> 00:26:05.083
+你知道的，
+you know,
+
+00:26:05.125 --> 00:26:07.000
+高收入的职业，
+a high-income career for a long time,
+
+00:26:07.125 --> 00:26:07.333
+对吧？
+right?
+
+00:26:07.416 --> 00:26:09.208
+数据显示的就是这样，
+So that's what the data shows,
+
+00:26:09.291 --> 00:26:10.583
+而且我从很多不同的角度
+and I've analyzed that
+
+00:26:10.666 --> 00:26:11.333
+分析过这个现象。
+so many different ways.
+
+00:26:11.416 --> 00:26:11.916
+所以，这并不是说
+So it's not
+
+00:26:12.000 --> 00:26:13.125
+你不能
+that you can't get wealthy
+
+00:26:13.208 --> 00:26:13.916
+在股市里致富。
+in the stock market.
+
+00:26:14.000 --> 00:26:14.625
+我觉得问题在于，
+I guess the question is
+
+00:26:14.708 --> 00:26:15.625
+第一，致富的程度是多少，
+how wealthy is one,
+
+00:26:15.708 --> 00:26:16.625
+其次，第二，
+and then two,
+
+00:26:16.666 --> 00:26:18.583
+我们谈论的时间跨度是多久？
+over what timescale are we talking?
+
+00:26:20.083 --> 00:26:21.416
+[Ray] 我想问你最后一个
+[Ray] I want to ask you one final question
+
+00:26:21.500 --> 00:26:22.125
+关于当前市场行情的
+about the market
+
+00:26:22.166 --> 00:26:23.333
+问题。
+of the current situation.
+
+00:26:23.375 --> 00:26:25.416
+那么你对卖出股票
+So what's your opinion on selling
+
+00:26:25.750 --> 00:26:27.333
+和止盈有什么看法？
+and taking profits?
+
+00:26:27.416 --> 00:26:29.583
+现在市场涨得这么高了。
+Like, the market is so high.
+
+00:26:29.708 --> 00:26:31.666
+大家应该止盈吗？
+Should people take profits?
+
+00:26:32.000 --> 00:26:33.000
+[Nick] 我想我的反问是，
+[Nick] I guess my question is,
+
+00:26:33.083 --> 00:26:34.125
+你卖出的目的是什么？
+what are you selling for?
+
+00:26:34.416 --> 00:26:34.750
+还是那句话，
+Once again,
+
+00:26:34.791 --> 00:26:36.333
+这个问题的答案永远
+this is always gonna be an individualized
+
+00:26:36.416 --> 00:26:36.625
+因人而异。
+answer.
+
+00:26:36.666 --> 00:26:38.500
+就像，好吧，如果我现在要卖出……
+Like, okay, if right now I were to sell...
+
+00:26:38.583 --> 00:26:39.708
+假设我被迫
+Let's say I was forced
+
+00:26:39.750 --> 00:26:40.791
+卖掉我所有的股票，
+to sell all my stocks,
+
+00:26:40.875 --> 00:26:42.333
+那么，我会用这笔钱做什么？
+like, what would I do with that money?
+
+00:26:42.458 --> 00:26:43.000
+就像，我——
+Like, I--
+
+00:26:43.083 --> 00:26:44.625
+我会去买一大堆东西吗？
+Am I gonna go buy a bunch of stuff?
+
+00:26:44.708 --> 00:26:45.041
+显然不会。
+Like, no.
+
+00:26:45.125 --> 00:26:45.833
+如果我想要什么东西，
+If I wanted something,
+
+00:26:45.875 --> 00:26:47.125
+我现在就会直接去买，对吧？
+I would just go buy it now, right?
+
+00:26:47.125 --> 00:26:47.250
+我，
+I,
+
+00:26:47.250 --> 00:26:49.708
+我不需要毫无理由地为了去买东西
+I don't need to sell something to go buy
+
+00:26:49.791 --> 00:26:50.375
+而卖掉手里的资产，
+for no reason,
+
+00:26:50.458 --> 00:26:50.541
+对吧？
+right?
+
+00:26:50.625 --> 00:26:51.416
+所以就像，
+So it's like,
+
+00:26:51.500 --> 00:26:52.875
+你打算把这笔钱用在什么地方？
+what are you gonna use that money for?
+
+00:26:52.958 --> 00:26:53.666
+如果你说，“哦，
+If you're like, "Oh,
+
+00:26:53.708 --> 00:26:54.916
+我需要卖出套现，
+I need to sell and take profits
+
+00:26:55.000 --> 00:26:57.250
+因为我要去买房，”或者，
+because I need to go and buy a house," or,
+
+00:26:57.333 --> 00:26:59.541
+“我需要为某件事筹集资金
+"I need to go and fund this thing
+
+00:26:59.625 --> 00:27:01.375
+或者支付婚礼费用，”不管是啥吧，
+or pay for a wedding," or whatever it is,
+
+00:27:01.750 --> 00:27:03.375
+那么是的，获利了结是有道理的。
+then yes, taking profits makes sense.
+
+00:27:03.416 --> 00:27:03.625
+如果这里，
+If there,
+
+00:27:03.708 --> 00:27:05.916
+你在现实生活中有合理的理由
+you have a legit real life reason
+
+00:27:05.958 --> 00:27:06.750
+来使用这笔钱，
+to use the money,
+
+00:27:06.791 --> 00:27:07.375
+那就去做吧。
+do it.
+
+00:27:07.416 --> 00:27:09.583
+但如果是为了套现而套现，
+But taking profits just to take profits,
+
+00:27:09.666 --> 00:27:10.250
+就像，
+like,
+
+00:27:10.333 --> 00:27:11.625
+我并不总能看懂这有什么意义。
+I don't always see the point in that.
+
+00:27:11.708 --> 00:27:12.333
+当然，如果你说，“嗯，
+Now, if you're like, "Well,
+
+00:27:12.416 --> 00:27:12.958
+我这样做
+I'm doing this
+
+00:27:13.041 --> 00:27:14.291
+是为了分散投资，”那就是另一码事了，
+to diversify," that's a different
+
+00:27:14.333 --> 00:27:14.666
+对吧？
+argument,
+
+00:27:14.750 --> 00:27:15.125
+是的。
+right?
+
+00:27:15.166 --> 00:27:16.041
+我认为套现
+I think taking profits
+
+00:27:16.125 --> 00:27:17.833
+和分散投资是可以一致的，
+and diversifying can be aligned,
+
+00:27:17.916 --> 00:27:18.708
+但它们不一定非得如此。
+but they don't have to be.
+
+00:27:18.791 --> 00:27:19.958
+所以在我们说，“嘿，
+So before we say, "Hey,
+
+00:27:20.041 --> 00:27:21.875
+我们套现吧”之前，在很多情况下
+let's take profit," that's a taxable event
+
+00:27:21.916 --> 00:27:22.708
+这是一项应税事件，
+in a lot of cases,
+
+00:27:22.750 --> 00:27:24.250
+所以你必须为所有这些交税。
+so you have to pay taxes on all that.
+
+00:27:24.625 --> 00:27:25.416
+问题在于，就像，
+The question is, like,
+
+00:27:25.541 --> 00:27:26.541
+你为什么需要套现？
+why are you taking profit?
+
+00:27:26.625 --> 00:27:27.875
+你套现是为了分散投资吗？
+Are you taking profit to diversify?
+
+00:27:28.000 --> 00:27:28.541
+很好。
+Great.
+
+00:27:28.625 --> 00:27:30.541
+你套现仅仅是因为随性而为？
+Are you taking profit just because?
+
+00:27:30.625 --> 00:27:30.708
+就像，
+Like,
+
+00:27:30.750 --> 00:27:32.375
+你打算用它来买什么东西吗？
+are you gonna use it to buy something?
+
+00:27:32.458 --> 00:27:32.833
+好的。
+Okay.
+
+00:27:32.916 --> 00:27:33.583
+但是，就像，
+But, like,
+
+00:27:33.625 --> 00:27:34.916
+如果你不知道自己为什么要这么做，
+if you don't know why you're doing it,
+
+00:27:35.041 --> 00:27:36.666
+那么你就不应该做，这就是我的观点。
+you shouldn't do it is my, is my point.
+
+00:27:37.125 --> 00:27:39.000
+[Ray] 现在让我们谈谈买什么以及
+[Ray] Now let's move on to what to buy and
+
+00:27:39.083 --> 00:27:39.750
+怎么买的问题。
+how to buy it.
+
+00:27:39.833 --> 00:27:41.791
+你介意跟我们分享一下吗，就像，
+And do you mind sharing with us, like,
+
+00:27:41.833 --> 00:27:42.916
+你到底在买些什么？
+what, what are you buying?
+
+00:27:43.000 --> 00:27:43.291
+你这些年做了
+What kind
+
+00:27:43.333 --> 00:27:45.125
+什么样的调整吗？
+of adjustment you did over the years?
+
+00:27:45.291 --> 00:27:45.916
+[Nick] 我可以直接给你，就像，
+[Nick] I can just give you, like,
+
+00:27:46.000 --> 00:27:47.125
+一段也许是关于我资产配置的
+kind of a long-term history
+
+00:27:47.166 --> 00:27:48.291
+长期历史情况。
+of maybe my allocation.
+
+00:27:48.375 --> 00:27:52.541
+在我 2012 年刚起步的时候，我大概是，
+So when I started in 2012, I was, like,
+
+00:27:52.666 --> 00:27:55.833
+85% 股票，15% 美国债券。
+85% equities, 15% US bonds.
+
+00:27:56.250 --> 00:27:57.458
+然后股票部分也被拆分了。
+And so the equities were split.
+
+00:27:57.541 --> 00:27:59.291
+我基本上一半投资于美国股票，
+I've always basically been split 50/50
+
+00:27:59.375 --> 00:28:02.000
+另一半投资于国际股票，这样五五开，
+between US stocks and then international,
+
+00:28:02.083 --> 00:28:02.166
+然后
+and
+
+00:28:02.166 --> 00:28:03.291
+就连国际股票也被分成了
+then even the international's split
+
+00:28:03.375 --> 00:28:04.708
+两半，一半发达市场一半新兴市场。
+in half between developed and emerging.
+
+00:28:04.833 --> 00:28:06.458
+所以这确实，就像……
+So it's really, like...
+
+00:28:06.541 --> 00:28:09.250
+随着时间的推移，那 85% 的比例发生了变化，
+And that 85% share has shifted over time,
+
+00:28:09.375 --> 00:28:09.625
+对吧？
+right?
+
+00:28:09.708 --> 00:28:12.208
+这个 85% 在某个阶段，你知道，
+So the 85% at one point, you know,
+
+00:28:12.333 --> 00:28:13.625
+我变成了 100比0。
+I was 100-0.
+
+00:28:13.666 --> 00:28:15.208
+在大概两三年后，
+I, I got tired of bonds after, like,
+
+00:28:15.291 --> 00:28:15.916
+我，我就厌倦了债券。
+two to three years.
+
+00:28:15.958 --> 00:28:17.083
+我当时的比例是 100比0，然后我说，“等等，
+I was 100-0, and I said, "Wait,
+
+00:28:17.166 --> 00:28:17.791
+我为什么要这么做？”
+why am I doing this?"
+
+00:28:17.875 --> 00:28:18.875
+所以我又把债券加了回来，
+So I added bonds back,
+
+00:28:19.000 --> 00:28:19.208
+对吧？
+right?
+
+00:28:19.250 --> 00:28:21.500
+所以我想说，现在我可投资资产的
+So I would say right now my portfolio
+
+00:28:21.750 --> 00:28:23.666
+投资组合大概是，
+of my investable assets is,
+
+00:28:23.750 --> 00:28:27.291
+就像，也许在，对，85/20，
+like, probably in, yeah, 85/20,
+
+00:28:27.375 --> 00:28:29.166
+或者说 80/20，不是 85/15。
+or we'll say 80/20, not 85/15.
+
+00:28:29.583 --> 00:28:30.583
+所以可能仍然是 80/20。
+So it's probably still 80/20.
+
+00:28:30.625 --> 00:28:31.750
+实际上并没有太大变化。
+It actually hasn't changed much.
+
+00:28:31.833 --> 00:28:31.916
+就像，
+Like,
+
+00:28:31.958 --> 00:28:33.000
+有些其他资产来了
+there's other pieces that have come
+
+00:28:33.083 --> 00:28:33.750
+又走了。
+and gone.
+
+00:28:33.791 --> 00:28:34.875
+很久以前我卖掉了黄金。
+I sold gold a long time ago.
+
+00:28:34.958 --> 00:28:35.791
+后来我又买回了黄金。
+I bought gold back.
+
+00:28:35.875 --> 00:28:37.000
+诸如此类的事情发生过。
+Those types of things have happened.
+
+00:28:37.083 --> 00:28:38.083
+但我要再说一次，
+But once again,
+
+00:28:38.166 --> 00:28:39.958
+那占我投资组合的比例不到 5%。
+that's been less than 5% of my portfolio.
+
+00:28:40.041 --> 00:28:42.083
+当你把黄金、比特币、艺术品
+When you include gold and Bitcoin and art
+
+00:28:42.166 --> 00:28:43.166
+以及类似的东西算在内时，
+and things like that,
+
+00:28:43.250 --> 00:28:43.958
+这些就像，
+those represent, like,
+
+00:28:44.041 --> 00:28:45.625
+只占我投资组合不到 5% 的比例。
+less than 5% of my portfolio.
+
+00:28:45.666 --> 00:28:47.166
+另一个唯一很大的变动，
+The only other big change
+
+00:28:47.250 --> 00:28:48.125
+这个变动和投资没有任何关系，
+which has nothing to do
+
+00:28:48.166 --> 00:28:49.583
+更多的是关于我的个人生活，
+with investing is more my personal life,
+
+00:28:49.666 --> 00:28:50.000
+就是，就像，
+is, like,
+
+00:28:50.083 --> 00:28:51.791
+我一直在购买更多的短期国债，
+I've been buying way more treasury bills,
+
+00:28:51.833 --> 00:28:53.041
+所以我的现金储备在不断增加，
+so my cash pile is going up
+
+00:28:53.125 --> 00:28:54.875
+因为我正准备买房。
+because I'm trying to buy a house.
+
+00:28:55.375 --> 00:28:56.375
+我有一个正当的理由。
+I have a legit reason.
+
+00:28:56.500 --> 00:28:57.458
+我需要付首付。
+I need to pay a down payment.
+
+00:28:57.541 --> 00:28:58.958
+所以再说一次，
+So once again,
+
+00:28:59.166 --> 00:29:01.250
+如果我们把这些资产
+if we include those assets
+
+00:29:01.333 --> 00:29:02.500
+算进我的投资组合，
+in my portfolio,
+
+00:29:03.125 --> 00:29:04.625
+我的配置就会更像，
+my allocation would be more like,
+
+00:29:05.583 --> 00:29:09.416
+你知道，35% 的债券和 65% 的股票。
+you know, 35% bonds and 65% stocks.
+
+00:29:09.500 --> 00:29:10.333
+但是我不，
+But I don't,
+
+00:29:10.541 --> 00:29:11.708
+我不知道我们是否应该把它算进去，
+I don't know if we should include that
+
+00:29:11.750 --> 00:29:13.875
+因为我对此有具体的需求，
+because I have a specific need for that,
+
+00:29:13.958 --> 00:29:14.083
+对吧？
+right?
+
+00:29:14.125 --> 00:29:14.791
+所以我认为很多时候
+So I think a lot of times
+
+00:29:14.875 --> 00:29:15.916
+当我们谈论投资时，
+when we talk about investing,
+
+00:29:16.625 --> 00:29:17.416
+你知道，我们总是说，“听着，
+you know, we always say, "Look,
+
+00:29:17.500 --> 00:29:18.291
+让我们看看你所有的钱，
+let's just look at all your money,
+
+00:29:18.375 --> 00:29:19.875
+那就是你的投资组合。”但是，就像，
+and that's your portfolio." But, like,
+
+00:29:19.916 --> 00:29:20.208
+如果其中一些
+if some of
+
+00:29:20.291 --> 00:29:21.833
+钱是为了某种需求而留出来的，
+that money is set aside for a need,
+
+00:29:21.916 --> 00:29:22.041
+“哦，
+"Oh,
+
+00:29:22.125 --> 00:29:23.333
+我想买一套房子，”我不知道
+I wanna buy a house," I don't know
+
+00:29:23.375 --> 00:29:24.666
+你是否会把这包含在我的，
+if you would include that in my,
+
+00:29:24.708 --> 00:29:26.666
+就像，风险资产投资组合里面，对吧？
+like, risk asset portfolio, right?
+
+00:29:26.708 --> 00:29:27.166
+或者，就像，
+Or, like,
+
+00:29:27.250 --> 00:29:28.375
+我的投资组合未来
+what my portfolio's gonna do
+
+00:29:28.416 --> 00:29:29.000
+会表现如何。
+in the future.
+
+00:29:29.083 --> 00:29:30.791
+所以我认为有不同的方式
+So I think there's different ways to think
+
+00:29:30.833 --> 00:29:31.125
+来思考这个问题。
+about this.
+
+00:29:31.208 --> 00:29:32.708
+所以如果你算上我的短期国债，是的，
+So if you include my treasury bills, yeah,
+
+00:29:32.791 --> 00:29:35.500
+我可能大概有 35% 的固定收益资产，
+I'm probably, like, 35% fixed income,
+
+00:29:35.583 --> 00:29:37.583
+这对于像我这个年纪的人来说，这并不……
+which for someone my age that doesn't...
+
+00:29:37.625 --> 00:29:37.916
+我不……
+I don't...
+
+00:29:38.000 --> 00:29:39.291
+你知道，我只有 36 岁。
+You know, I'm only 36 years old.
+
+00:29:39.333 --> 00:29:41.500
+我不一定想要持有 35% 的固定
+I wouldn't necessarily wanna be 35% fixed
+
+00:29:41.583 --> 00:29:42.333
+收益资产。
+income.
+
+00:29:42.375 --> 00:29:45.041
+但同时，在我买房之前就是这样，
+But at the same time, until I buy a house,
+
+00:29:45.125 --> 00:29:46.500
+而一旦我买了房，那么是的，
+and once I buy one, then yes,
+
+00:29:46.583 --> 00:29:48.250
+我可能就会回到 80/20 的比例。
+I'll go back to probably 80/20.
+
+00:29:48.375 --> 00:29:48.708
+你懂吗？
+You know?
+
+00:29:48.750 --> 00:29:49.166
+所有剩下
+All the rest
+
+00:29:49.208 --> 00:29:50.666
+的资产配置就会恢复，一旦我
+of those assets will move back once I
+
+00:29:50.750 --> 00:29:51.125
+搞定，
+have,
+
+00:29:51.208 --> 00:29:51.333
+一旦
+once
+
+00:29:51.416 --> 00:29:53.208
+那笔钱被重新分配到了房子上。
+that money's reallocated into a house.
+
+00:29:53.250 --> 00:29:54.791
+所以我认为这又是
+So I think that's another piece
+
+00:29:54.833 --> 00:29:55.208
+另一个部分，
+of this is,
+
+00:29:55.250 --> 00:29:55.375
+就像，
+like,
+
+00:29:55.458 --> 00:29:56.125
+它其实很大程度上取决于
+it's really dependent
+
+00:29:56.166 --> 00:29:57.125
+你所处的生活状况，
+on your life situation,
+
+00:29:57.166 --> 00:29:57.791
+以及正在发生的事情。
+what's going on.
+
+00:29:57.875 --> 00:29:58.583
+比如，你知道，
+Like, you know,
+
+00:29:58.625 --> 00:29:59.916
+我妻子和我去年结婚了。
+my wife and I got married last year.
+
+00:29:59.958 --> 00:30:01.875
+你知道，我们在几个月前
+We just had our first child, you know,
+
+00:30:01.916 --> 00:30:02.666
+刚迎来了我们的第一个孩子。
+a few months ago.
+
+00:30:02.708 --> 00:30:03.875
+所以这就像，那是属于这种事情，
+So it's, like, one of those things where,
+
+00:30:03.916 --> 00:30:05.833
+就是，因为我生活中的变化，
+like, because of changes in my life,
+
+00:30:05.875 --> 00:30:06.916
+我的投资组合也在发生变化，
+my portfolio is changing
+
+00:30:06.958 --> 00:30:09.750
+以反映这一点。而这毫无关系，
+to reflect that.And this has nothing to do
+
+00:30:09.833 --> 00:30:10.000
+关于
+with
+
+00:30:10.041 --> 00:30:11.625
+我怎么看待未来的市场，
+what I think about the future of markets
+
+00:30:11.666 --> 00:30:12.750
+或者我持有更多现金
+or I have more cash
+
+00:30:12.833 --> 00:30:14.166
+胜过以往，是因为我认为 AI 会……
+than ever 'cause I think AI's gonna...
+
+00:30:14.250 --> 00:30:15.666
+就像，没-这和那些毫无关系。
+Like, noth- it's nothing to do with that.
+
+00:30:15.750 --> 00:30:17.125
+它仅仅是因为我的个人情况。
+It's just my personal situation.
+
+00:30:17.208 --> 00:30:19.416
+我认为更多的投资者会做得更好，
+I think more investors would do better
+
+00:30:19.458 --> 00:30:20.708
+如果他们只是更多地去思考，
+if they just thought more about,
+
+00:30:20.791 --> 00:30:22.500
+就像，你的实际情况到底是什么？
+like, just what's your actual situation?
+
+00:30:22.541 --> 00:30:23.916
+你到底需要这笔钱做什么？
+What do you really need the money for?
+
+00:30:24.000 --> 00:30:24.833
+我认为，大多数人不会
+Most people don't, I think,
+
+00:30:25.000 --> 00:30:25.708
+问那个问题，
+ask that question,
+
+00:30:25.750 --> 00:30:28.291
+然后他们只是盲目地投资，就像，是的，
+and they just invest based on, like, yeah,
+
+00:30:28.375 --> 00:30:29.291
+有数据和所有这些，但是，就像，
+there's data and all that, but, like,
+
+00:30:29.375 --> 00:30:29.916
+你到底打算怎么利用
+what are you actually gonna do
+
+00:30:29.958 --> 00:30:30.291
+这笔钱？
+with the money?
+
+00:30:30.375 --> 00:30:31.125
+如果你不知道，
+If you don't know,
+
+00:30:31.166 --> 00:30:32.333
+投资真的有点毫无意义。
+there's kind of no point really.
+
+00:30:32.416 --> 00:30:33.958
+就像，投资的全部意义就在于，
+Like, the whole point of investing is,
+
+00:30:34.000 --> 00:30:34.125
+就像，
+like,
+
+00:30:34.208 --> 00:30:35.208
+我现在放弃消费，
+I give up consumption now
+
+00:30:35.291 --> 00:30:36.833
+是为了将来能有更多的消费，
+to have more consumption in the future,
+
+00:30:36.916 --> 00:30:37.000
+对吧？
+right?
+
+00:30:37.083 --> 00:30:38.416
+就是这么个理，对吧？
+That's the idea, right?
+
+00:30:38.458 --> 00:30:40.291
+所以问题在于，就像，
+So the question is, like,
+
+00:30:40.375 --> 00:30:41.333
+你到底为了什么而放弃消费？
+what are you giving that up for?
+
+00:30:41.416 --> 00:30:42.083
+你打算把它用在什么地方？
+What are you using it for?
+
+00:30:42.166 --> 00:30:43.125
+如果你最后永远都用不上它，
+If you never end up using it,
+
+00:30:43.208 --> 00:30:43.833
+那还有什么意义？
+what's the point?
+
+00:30:43.916 --> 00:30:45.291
+这一切都只是在装样子。
+This is all just for show.
+
+00:30:45.375 --> 00:30:47.041
+从这个意义上说，这就像大富翁里的钱一样。
+It's like Monopoly money in that sense.
+
+00:30:47.125 --> 00:30:49.125
+[Ray] 我的很多观众其实，
+[Ray] A lot of my viewers are actually,
+
+00:30:49.416 --> 00:30:50.375
+都是被动投资者，
+passive investors,
+
+00:30:50.541 --> 00:30:50.791
+所以
+so
+
+00:30:50.875 --> 00:30:52.458
+当他们听到
+when they hear the notion just keep
+
+00:30:52.541 --> 00:30:52.958
+“持续买入”这个概念时，
+buying,
+
+00:30:53.000 --> 00:30:55.458
+对他们来说那就是买 S&amp;P 500。
+to, to them it's S&amp;P 500.
+
+00:30:55.750 --> 00:30:57.791
+让我们，让我们来聊聊，S&amp;P 500。
+Let's, let's talk about, S&amp;P 500.
+
+00:30:57.916 --> 00:30:58.375
+所以它，它，
+So it, it,
+
+00:30:58.458 --> 00:30:58.708
+看起来
+it seems
+
+00:30:58.791 --> 00:31:01.250
+好像所有这些 AI 公司都将
+like all those AI companies are gonna
+
+00:31:01.291 --> 00:31:02.916
+主导 S&amp;P 500。
+dominate S&amp;P 500.
+
+00:31:02.958 --> 00:31:05.500
+那么如果我作为一个普通投资者，
+So if I, as a normal investor,
+
+00:31:05.791 --> 00:31:07.833
+买入 S&amp;P 500，这，
+buy into S&amp;P 500, does,
+
+00:31:07.916 --> 00:31:09.708
+这会不会让我处于一种，你知道的，
+does that put me in- into a, you know,
+
+00:31:09.833 --> 00:31:11.916
+相对集中的持仓位置？
+a relatively concentrated position?
+
+00:31:12.083 --> 00:31:13.666
+是不是不够分散？
+It's not diversified enough?
+
+00:31:13.916 --> 00:31:14.750
+[Nick] 这得看情况。
+[Nick] It depends.
+
+00:31:14.875 --> 00:31:16.625
+我的意思是，在某些方面，是的，
+I mean, in some ways, yes,
+
+00:31:16.708 --> 00:31:17.500
+它的科技股比重更大了，
+it's more tech-heavy,
+
+00:31:17.583 --> 00:31:18.375
+所以问题是，
+and so the question is,
+
+00:31:18.416 --> 00:31:21.125
+你想买等权重的 S&amp;P 5 吗？
+do you wanna buy an equal weight S&amp;P 5?
+
+00:31:21.166 --> 00:31:22.625
+就是不按市值权重买 S&amp;P 500，
+So instead of S&amp;P 500 market weight,
+
+00:31:22.666 --> 00:31:23.500
+而是买等权重的。
+we buy an equal weight.
+
+00:31:23.583 --> 00:31:24.750
+你可以这么做。
+You could do something like that.
+
+00:31:24.875 --> 00:31:25.708
+我觉得这没问题。
+I think that's fine.
+
+00:31:26.208 --> 00:31:27.208
+如果你想通过
+If you wanna offset
+
+00:31:27.291 --> 00:31:30.125
+持有另一个国家的股票来平衡这一点，
+that by owning stocks from another country
+
+00:31:30.166 --> 00:31:30.291
+那个，
+that,
+
+00:31:30.333 --> 00:31:32.041
+那个国家的科技股没那么重，
+where that country's not as tech-heavy,
+
+00:31:32.125 --> 00:31:32.791
+那也可以。
+that's fine, too.
+
+00:31:32.875 --> 00:31:33.625
+但是，就像，
+But, like,
+
+00:31:33.708 --> 00:31:35.333
+科技是经济的很大一部分
+tech's a large part of the economy
+
+00:31:35.416 --> 00:31:36.250
+因为它已经
+because it's c-
+
+00:31:36.333 --> 00:31:37.333
+开始主导很多东西。
+come, come to dominate a lot of stuff.
+
+00:31:37.416 --> 00:31:38.916
+你如果回到，你知道的，
+You went back to the, you know,
+
+00:31:38.958 --> 00:31:40.333
+19 世纪末，
+the late 1800s,
+
+00:31:40.416 --> 00:31:41.458
+你的投资里会有铁路。
+and you would've had a railroad.
+
+00:31:41.500 --> 00:31:43.000
+就像，那时的道琼斯或者……
+Like, what was the Dow or the...
+
+00:31:43.166 --> 00:31:44.291
+你知道，你只能买到铁路股。
+You know, you would've had railroads.
+
+00:31:44.375 --> 00:31:44.958
+就是这样。
+That was it.
+
+00:31:45.000 --> 00:31:45.916
+那就是当时的经济。
+That was the economy.
+
+00:31:45.958 --> 00:31:47.000
+全是铁路，对吧？
+It was railroads, right?
+
+00:31:47.041 --> 00:31:49.083
+所以，就像这种事情总是会发生。
+So it's like this type of stuff happens.
+
+00:31:49.125 --> 00:31:50.791
+今天，S&amp;P 500 依然是，就像，
+Today, the S&amp;P 500 is still, like,
+
+00:31:50.875 --> 00:31:51.916
+最多元化的市场。
+the most diversified market.
+
+00:31:52.125 --> 00:31:54.416
+即使里面集中度很高，
+Even with all that concentration in there,
+
+00:31:54.791 --> 00:31:56.333
+它仍然包含很多其他东西，
+it still has a lot of other things,
+
+00:31:56.416 --> 00:31:58.041
+比如金融，对吧？
+financials, right?
+
+00:31:58.458 --> 00:32:00.041
+里面还有各种其他板块，
+there's all sorts of other sectors
+
+00:32:00.125 --> 00:32:00.666
+在那里，
+in there,
+
+00:32:00.750 --> 00:32:02.708
+你知道，能源，这些也很重要，而且，
+you know, energy, that, that matter and,
+
+00:32:02.791 --> 00:32:04.250
+而且能影响你的投资组合。
+and can impact your portfolio.
+
+00:32:04.291 --> 00:32:05.708
+就像，我一般会说，
+Like, I would say in general,
+
+00:32:05.875 --> 00:32:08.625
+大多数非美国股票市场比美国
+most non-US equity markets are more
+
+00:32:08.666 --> 00:32:10.958
+更集中，因为，
+concentrated than the US is because,
+
+00:32:11.041 --> 00:32:12.291
+你知道，很多时候情况是，哦，
+you know, a lot of times it's like, oh,
+
+00:32:12.375 --> 00:32:13.833
+我们有一家大公司，
+well, we have this one big company,
+
+00:32:13.916 --> 00:32:14.000
+而
+and
+
+00:32:14.000 --> 00:32:15.625
+那家大公司刚好在这个行业。
+that big company happens to be in this.
+
+00:32:15.708 --> 00:32:16.666
+就像，在一个较小的国家，
+It's, like, in a smaller country,
+
+00:32:16.708 --> 00:32:18.208
+所以就变成了，那就是全部，
+and so it's like that's all,
+
+00:32:18.291 --> 00:32:19.083
+那就是我们的股票市场。
+that's our stock market.
+
+00:32:19.166 --> 00:32:20.208
+你的股市通常就是一两家
+Your stock market is usually one
+
+00:32:20.291 --> 00:32:21.291
+那样的公司，
+or two of those companies
+
+00:32:21.375 --> 00:32:22.958
+它们直接主导了整个指数。
+that just dominate the entire index.
+
+00:32:23.041 --> 00:32:25.125
+所以对于，对于美国市场，
+So with the, with the US market,
+
+00:32:25.208 --> 00:32:26.750
+至少你还有其他选择，
+at least you have other options,
+
+00:32:26.833 --> 00:32:27.500
+尽管，是的，
+even though, yes,
+
+00:32:27.541 --> 00:32:28.541
+它确实变得越来越集中，
+it is getting concentrated,
+
+00:32:28.625 --> 00:32:30.333
+但仍然有相当多，
+but there's still quite a few,
+
+00:32:31.375 --> 00:32:33.166
+非科技类的公司在 S&amp;P 里。
+non-tech companies in the S&amp;P.
+
+00:32:33.416 --> 00:32:35.583
+[Ray] 关于 S&amp;P 500 的另一个担忧是，
+[Ray] Another concern about S&amp;P 500 is,
+
+00:32:36.208 --> 00:32:37.041
+我的很多观众，他们，
+a lot of my viewers, they,
+
+00:32:37.125 --> 00:32:38.000
+他们奉行这样一个信条，就是，
+they hold this mantra that,
+
+00:32:38.083 --> 00:32:39.166
+就是不要随波逐流。
+that don't go with the herd.
+
+00:32:39.250 --> 00:32:39.500
+似乎
+It seems
+
+00:32:39.583 --> 00:32:42.083
+现在每个人都在买 S&amp;P 500。
+like everybody's now is buying S&amp;P 500.
+
+00:32:42.166 --> 00:32:44.291
+所以首先我想问你，这是真的吗？
+So first I want to ask you, is that true?
+
+00:32:44.375 --> 00:32:46.750
+其次，这会不会造成一个问题，
+And secondly, does that create a problem,
+
+00:32:46.791 --> 00:32:48.250
+比如一个自我强化的循环？
+like a self-feeding loop?
+
+00:32:48.291 --> 00:32:48.625
+就像，我的意思是，
+Like, I mean,
+
+00:32:48.708 --> 00:32:48.833
+很多
+a lot
+
+00:32:48.916 --> 00:32:50.791
+人认为被动投资
+of people are arguing passive investing
+
+00:32:50.875 --> 00:32:53.416
+本身正在制造泡沫，
+itself is creating a bubble
+
+00:32:53.500 --> 00:32:54.625
+并给投资市场
+and creates some risks
+
+00:32:54.708 --> 00:32:55.458
+带来了一些风险。
+to the investment market.
+
+00:32:55.541 --> 00:32:57.125
+我想听听你怎么看这些。
+I wanna hear what you think about those.
+
+00:32:57.208 --> 00:32:57.791
+[Nick] 我的意思是，这个，
+[Nick] I mean, this,
+
+00:32:57.833 --> 00:33:00.541
+这个话题已经被争论了……
+this topic has been debated for...
+
+00:33:00.625 --> 00:33:01.458
+实际上从，像，
+It's been debated since, like,
+
+00:33:01.875 --> 00:33:03.375
+70 年代就开始争论了，
+started in the '70s really,
+
+00:33:03.416 --> 00:33:05.291
+但被动投资并没有真正起飞
+but passive didn't really start taking off
+
+00:33:05.375 --> 00:33:06.208
+直到 90 年代，
+more until the '90s
+
+00:33:06.291 --> 00:33:07.250
+以及更近的时期。
+and even more recently.
+
+00:33:07.333 --> 00:33:08.166
+所以，是的。
+So yes.
+
+00:33:08.291 --> 00:33:10.000
+每个人都在买 S&amp;P 500 吗？
+Is everyone buying the S&amp;P 500?
+
+00:33:10.083 --> 00:33:11.000
+在，在很多方面，
+Y- in a lot of ways,
+
+00:33:11.083 --> 00:33:12.333
+至少在美国，是的。
+at least in the United States, yes.
+
+00:33:12.416 --> 00:33:14.291
+人们用他们的 401 买。
+People are buying their 401s.
+
+00:33:14.375 --> 00:33:15.541
+他们在 IRA 账户里持有。
+They have it in their IRAs.
+
+00:33:15.625 --> 00:33:17.000
+他们在券商账户里买。
+They buy it on their brokerage accounts.
+
+00:33:17.083 --> 00:33:17.166
+就像，
+Like,
+
+00:33:17.250 --> 00:33:18.916
+现在这么多人都有它的敞口。
+now so many people have exposure to this.
+
+00:33:19.333 --> 00:33:21.250
+这会形成一个自我延续的循环吗？
+Is that creating a self-perpetuating loop?
+
+00:33:21.375 --> 00:33:22.625
+是的，在很大程度上是的，但是，就像，
+Yes, in a lot of ways, but, like,
+
+00:33:23.166 --> 00:33:24.041
+如果每两周……
+if every two weeks...
+
+00:33:24.083 --> 00:33:24.875
+或者这么想。
+Or think about this.
+
+00:33:24.916 --> 00:33:25.625
+我们有 401，
+We have 401,
+
+00:33:25.708 --> 00:33:27.000
+这就是一个退休计划，
+which is just like a retirement plan,
+
+00:33:27.083 --> 00:33:28.958
+在那里每两周你发工资的时候，
+where every two weeks when you get paid,
+
+00:33:29.250 --> 00:33:30.166
+其中一部分钱会被扣除，
+some of that money comes out
+
+00:33:30.208 --> 00:33:31.333
+然后进入一个，
+and goes into a,
+
+00:33:31.416 --> 00:33:32.250
+一个投资账户。
+an investment account.
+
+00:33:32.250 --> 00:33:32.375
+那么，
+Well,
+
+00:33:32.375 --> 00:33:32.583
+如果
+if
+
+00:33:32.583 --> 00:33:34.416
+那个投资账户里有 S&amp;P 500，
+that investment account has the S&amp;P 500,
+
+00:33:34.416 --> 00:33:36.375
+那意味着我们一直在买 S&amp;P
+that means we're always buying the S&amp;P
+
+00:33:36.541 --> 00:33:36.833
+500。
+500.
+
+00:33:36.916 --> 00:33:38.541
+所以有成千上万
+And so there's millions
+
+00:33:38.625 --> 00:33:39.375
+的工人，
+and millions of workers
+
+00:33:39.458 --> 00:33:39.958
+在美国，
+in the United States
+
+00:33:40.041 --> 00:33:41.500
+每两周都在做这件事。
+that are doing this every two weeks.
+
+00:33:42.041 --> 00:33:44.000
+所以只要人们继续赚钱，
+So as long as people keep making money
+
+00:33:44.041 --> 00:33:44.916
+并继续买入，
+and keep buying that,
+
+00:33:45.000 --> 00:33:46.375
+就一直会有买盘存在。
+there's going to be a bid there.
+
+00:33:46.458 --> 00:33:46.875
+就一直会
+There's going
+
+00:33:46.958 --> 00:33:48.625
+有人买入这些份额。
+to be people buying those shares.
+
+00:33:48.708 --> 00:33:50.458
+那么，什么会打破这种局面？
+Now, what's gonna undo that?
+
+00:33:50.541 --> 00:33:52.041
+如果经济崩溃，
+If the economy crashes,
+
+00:33:52.125 --> 00:33:53.500
+人们失去工作，
+people lose their jobs,
+
+00:33:53.541 --> 00:33:55.125
+他们不再买这些东西，
+they stop buying these things,
+
+00:33:55.166 --> 00:33:56.291
+他们不再有那笔钱。
+they stop having that.
+
+00:33:56.375 --> 00:33:57.000
+这会发生吗？
+Could that happen?
+
+00:33:57.083 --> 00:33:57.541
+当然。
+Of course.
+
+00:33:57.583 --> 00:33:58.416
+但再说一次，
+But once again,
+
+00:33:58.791 --> 00:34:00.541
+这是一个非常黑暗的设想。
+that is a very dark scenario.
+
+00:34:00.625 --> 00:34:02.125
+经济发生了很多变化，而且，就像，
+The economy's changed a lot, and, like,
+
+00:34:02.458 --> 00:34:02.541
+这
+is
+
+00:34:02.625 --> 00:34:04.375
+会消除大量的购买力吗？
+that gonna undo a lot of the buying power?
+
+00:34:04.458 --> 00:34:04.708
+是的。
+Yes.
+
+00:34:04.750 --> 00:34:06.000
+那会导致价格下跌吗？
+Would that cause prices to fall?
+
+00:34:06.083 --> 00:34:06.291
+是的。
+Yes.
+
+00:34:06.375 --> 00:34:07.166
+但再说一次，
+But once again,
+
+00:34:07.250 --> 00:34:09.666
+必须有这种巨大的事情
+there has to be this huge thing
+
+00:34:09.750 --> 00:34:11.750
+发生在经济中，从而导致
+that happens in the economy that causes
+
+00:34:11.833 --> 00:34:11.916
+那种情况。
+that.
+
+00:34:12.000 --> 00:34:13.708
+只要人们还在赚钱，
+As long as people are still making money,
+
+00:34:13.750 --> 00:34:14.750
+还有工作，
+there's still jobs,
+
+00:34:15.000 --> 00:34:16.000
+人们还在向
+people are still contributing
+
+00:34:16.083 --> 00:34:16.916
+他们的 401 缴款，
+to their 401,
+
+00:34:17.000 --> 00:34:18.375
+就一直会有买盘。
+there's going to be a bid there.
+
+00:34:18.416 --> 00:34:19.500
+至于，
+Now,
+
+00:34:19.583 --> 00:34:19.875
+是否
+whether
+
+00:34:19.916 --> 00:34:21.750
+这扭曲了其他公司
+that distorts prices
+
+00:34:21.833 --> 00:34:23.666
+的价格，我觉得还有待商榷。
+of other companies I think is debatable.
+
+00:34:23.750 --> 00:34:24.583
+就像，
+Like, how,
+
+00:34:24.666 --> 00:34:25.833
+Nvidia 是怎么从
+how would Nvidia have gone from
+
+00:34:25.916 --> 00:34:26.500
+过去的位置涨到
+where it was to
+
+00:34:26.541 --> 00:34:28.416
+现在的位置的，是因为被动投资吗？
+where it is from passive investing?
+
+00:34:28.500 --> 00:34:28.958
+并不是。
+It didn't.
+
+00:34:29.000 --> 00:34:30.500
+做到那一点的是主动资金流，
+That was active flows that did that,
+
+00:34:30.583 --> 00:34:30.708
+对吧？
+right?
+
+00:34:30.791 --> 00:34:32.875
+人们看到销售额增长，
+People saw that sales went up,
+
+00:34:32.958 --> 00:34:33.458
+利润增长，
+earnings went up,
+
+00:34:33.500 --> 00:34:34.875
+然后他们抬高了价格，对吧？
+and then they bid up the price, right?
+
+00:34:34.958 --> 00:34:36.041
+那不是被动投资干的。
+That's not passive doing.
+
+00:34:36.083 --> 00:34:37.791
+被动投资者没有说，我没有说，“嘿，
+A passive didn't say, I didn't say, "Hey,
+
+00:34:37.875 --> 00:34:40.041
+我的 401 给 Nvidia 多投点。”没人能
+my 401 put more in Nvidia." No one can do
+
+00:34:40.125 --> 00:34:40.291
+那样做，
+that,
+
+00:34:40.375 --> 00:34:40.500
+对吧？
+right?
+
+00:34:40.541 --> 00:34:41.333
+在大多数，你知道的，
+In most, you know,
+
+00:34:41.416 --> 00:34:42.625
+401 账户里你做不到。
+401s you cannot do that.
+
+00:34:42.708 --> 00:34:44.166
+因此，就像，
+So as a result, like,
+
+00:34:44.250 --> 00:34:45.833
+我觉得主动市场依然在发挥作用。
+I think active markets are still working.
+
+00:34:45.916 --> 00:34:47.791
+我觉得价格发现机制运行得相当
+I think price discovery is working quite
+
+00:34:47.875 --> 00:34:48.541
+好。
+well.
+
+00:34:48.625 --> 00:34:51.333
+所以我不认为那扭曲了这些
+So I don't think that's distorting those
+
+00:34:51.416 --> 00:34:51.666
+东西。
+things.
+
+00:34:51.750 --> 00:34:52.833
+也许它扭曲了整个市场
+Maybe it's distorting the market
+
+00:34:52.916 --> 00:34:53.333
+的整体情况，
+as a whole,
+
+00:34:53.416 --> 00:34:54.583
+但我不认为它
+but I don't think it's messing
+
+00:34:54.666 --> 00:34:57.083
+对相对价格产生了多大的干扰，
+with relative prices all that much,
+
+00:34:57.125 --> 00:34:57.958
+这是我的看法。
+in my opinion.
+
+00:34:58.416 --> 00:34:59.375
+[Ray] 你，在你的书里你说，
+[Ray] You, in your book you said,
+
+00:35:00.000 --> 00:35:01.625
+我们应该只管持续买入那些
+we should just keep buying those
+
+00:35:01.666 --> 00:35:03.000
+能产生收益的资产。
+income-producing assets.
+
+00:35:03.125 --> 00:35:05.083
+有趣的是，你提到了黄金、
+And interestingly, you mentioned gold,
+
+00:35:05.458 --> 00:35:06.708
+艺术品、crypto。
+art, crypto.
+
+00:35:06.750 --> 00:35:07.666
+你，你曾经有一些，
+You, you had some,
+
+00:35:07.708 --> 00:35:08.916
+你的投资组合里有一些这类资产。
+some of those in your portfolios.
+
+00:35:09.208 --> 00:35:09.916
+也许你现在还有。
+probably you still do.
+
+00:35:09.958 --> 00:35:11.125
+这背后的原因是什么？
+What's the reason behind that?
+
+00:35:11.291 --> 00:35:12.833
+[Nick] 我觉得这些只是对冲
+[Nick] I think these were just hedge
+
+00:35:12.916 --> 00:35:13.583
+资产，作为，
+assets as,
+
+00:35:13.666 --> 00:35:14.666
+算是一种，感觉像是，嘿，
+like, a way of like, hey,
+
+00:35:14.833 --> 00:35:16.708
+我不知道这玩意儿以后能不能成，
+I don't know if this is gonna be a thing,
+
+00:35:16.791 --> 00:35:18.666
+但我持有它们就当是一种对冲。
+but I own them as, like, a hedge.
+
+00:35:18.750 --> 00:35:19.125
+而且，
+And, like,
+
+00:35:19.166 --> 00:35:19.708
+你可以看看
+you can look at some
+
+00:35:19.750 --> 00:35:21.166
+我跑出来的一些历史数据。
+of the historical data I've run.
+
+00:35:21.250 --> 00:35:21.875
+比如，
+Like,
+
+00:35:21.958 --> 00:35:23.583
+你可以运行这些投资组合优化器，
+you can run these portfolio optimizers,
+
+00:35:23.625 --> 00:35:24.291
+它会告诉你，嘿，
+which is like, hey,
+
+00:35:24.375 --> 00:35:25.541
+在所有这些资产类别中，
+given all these asset classes,
+
+00:35:25.625 --> 00:35:27.375
+什么才是最佳的投资组合？
+what was the optimal portfolio?
+
+00:35:27.458 --> 00:35:28.333
+也就是说，
+Which means, like,
+
+00:35:28.416 --> 00:35:30.041
+在你承担的风险水平下
+the highest return for level
+
+00:35:30.083 --> 00:35:30.916
+能获得的最高回报。
+of risk you take.
+
+00:35:30.958 --> 00:35:32.291
+举个例子，
+And for example,
+
+00:35:32.458 --> 00:35:34.375
+我记得我大概是在，
+I ran this back I think in, like,
+
+00:35:34.500 --> 00:35:36.333
+2019年左右跑过这个数据，结果显示，
+2019 or something, and it was like,
+
+00:35:36.416 --> 00:35:37.791
+你需要配置2%的Bitcoin。
+you need to have 2% Bitcoin.
+
+00:35:37.875 --> 00:35:39.125
+所以从那以后，我的投资组合里
+So I've had 2% Bitcoin
+
+00:35:39.208 --> 00:35:40.250
+就一直保留着2%的Bitcoin。
+in my portfolio ever since.
+
+00:35:40.333 --> 00:35:42.291
+这是我在承担最小风险的情况下
+It's the highest return I can get
+
+00:35:42.375 --> 00:35:44.208
+能拿到的最高回报，
+with the least amount of risk I can take,
+
+00:35:44.291 --> 00:35:44.458
+对吧？
+right?
+
+00:35:44.500 --> 00:35:46.333
+所以我就一直持有2%的Bitcoin。
+And so I've had 2% Bitcoin.
+
+00:35:46.416 --> 00:35:47.541
+显然，它的价格有涨有跌。
+Obviously, it's gone up and down.
+
+00:35:47.875 --> 00:35:50.000
+我曾一度卖掉了一些，让比例降回
+I sold at one point some of it to get back
+
+00:35:50.041 --> 00:35:51.500
+2%，因为它涨得太多了，
+to 2% 'cause it went up too much,
+
+00:35:51.916 --> 00:35:52.750
+而现在它又跌下来了。
+and now it's come down.
+
+00:35:52.875 --> 00:35:55.125
+我差点就得再买点了，因为最近
+I almost had to buy more because recently,
+
+00:35:55.208 --> 00:35:55.875
+它的价格跌了下来。
+like, the price came down.
+
+00:35:55.916 --> 00:35:56.916
+虽然还没跌到
+It didn't get to the point
+
+00:35:57.000 --> 00:35:58.291
+我需要补仓回到2%的地步，
+where I needed to get back to 2%,
+
+00:35:58.375 --> 00:35:59.208
+但也快了。
+but it got close.
+
+00:35:59.708 --> 00:36:01.041
+所以，你知道，我，
+And so, you know, I,
+
+00:36:01.166 --> 00:36:02.125
+我就把它放在那儿不管了。
+I just kinda let it sit there.
+
+00:36:02.208 --> 00:36:02.916
+它其实也没啥大动静。
+It doesn't really do much.
+
+00:36:02.958 --> 00:36:04.250
+我已经很久没碰过
+I haven't done any Bitcoin stuff
+
+00:36:04.291 --> 00:36:05.125
+Bitcoin相关的操作了。
+in a long time.
+
+00:36:05.458 --> 00:36:06.708
+黄金涨涨跌跌，行情来来去去。
+Gold has come and gone.
+
+00:36:06.833 --> 00:36:08.708
+嗯，我认为
+Um-I think
+
+00:36:08.791 --> 00:36:09.958
+随着过去一年里
+with everything that's happened over the
+
+00:36:10.041 --> 00:36:10.458
+发生的所有事情，
+last year,
+
+00:36:10.541 --> 00:36:10.833
+我们看……
+we s-
+
+00:36:10.916 --> 00:36:11.166
+我们看到
+we see
+
+00:36:11.208 --> 00:36:12.750
+美元的霸主地位现在正受到
+that the dollar dominance is now being
+
+00:36:12.791 --> 00:36:14.250
+某种程度的质疑。
+questioned in some ways.
+
+00:36:14.291 --> 00:36:14.916
+所以我觉得这就是
+And so I think that's
+
+00:36:14.958 --> 00:36:16.666
+黄金大涨的原因。
+why the gold run happened.
+
+00:36:17.291 --> 00:36:18.458
+未来会发生什么，
+what, what's gonna happen in the future,
+
+00:36:18.541 --> 00:36:19.083
+我也不知道。
+I don't know.
+
+00:36:19.166 --> 00:36:20.541
+所以这、这些都是不产生收益的资产，
+So th- those are non-income producing,
+
+00:36:20.625 --> 00:36:21.916
+所以再说一次，这些占比不到……
+and so once again, those are less than...
+
+00:36:22.458 --> 00:36:24.125
+整体来看，它们大概不到10%。
+Overall, those are, like, less than 10%.
+
+00:36:24.166 --> 00:36:25.875
+我觉得差不多占我投资组合的5%吧。
+I'd say about 5% of my portfolio.
+
+00:36:26.333 --> 00:36:27.791
+至于艺术品，基本等于零。
+And art is, like, basically nothing.
+
+00:36:27.875 --> 00:36:28.250
+我曾经有过，大概……
+I had, like...
+
+00:36:28.333 --> 00:36:28.625
+它一度占到过我
+It was, like,
+
+00:36:28.708 --> 00:36:30.125
+投资组合的1%。
+1% of my portfolio at one point.
+
+00:36:31.416 --> 00:36:32.666
+但当你把所有这些加起来，就像，
+but when you put all that together, like,
+
+00:36:32.708 --> 00:36:33.791
+你看着这些东西，感觉就是，
+you look at all this stuff, and it's like,
+
+00:36:34.375 --> 00:36:35.333
+那都是不产生收益的。
+that's non-income producing.
+
+00:36:35.375 --> 00:36:36.541
+我真正关注的，
+All the stuff I really focus on,
+
+00:36:36.625 --> 00:36:37.916
+再说一遍，主要还是股票。
+once again, is mostly equities.
+
+00:36:37.958 --> 00:36:40.375
+包括美国股市和国际股市。
+That's gonna be US, international.
+
+00:36:40.500 --> 00:36:41.666
+我也持有一些REITs，也就是，
+I have, like, REITs, which is, like,
+
+00:36:41.708 --> 00:36:42.750
+房地产相关的敞口，
+a real estate exposure,
+
+00:36:42.791 --> 00:36:44.208
+因为我目前实际上还没有任何
+'cause I don't actually have any physical
+
+00:36:44.250 --> 00:36:45.541
+实体房产。
+real estate yet.
+
+00:36:45.875 --> 00:36:47.250
+如果你想的话，你也可以投资农田。
+you can do farmland if you want.
+
+00:36:47.333 --> 00:36:47.916
+我没投。
+I have not.
+
+00:36:48.000 --> 00:36:49.166
+我，我是想在某个时候投一点。
+I, I want to at some point.
+
+00:36:49.333 --> 00:36:50.583
+只是还没顾得上，
+I just haven't gotten around to it yet,
+
+00:36:50.666 --> 00:36:51.291
+我觉得是因为……
+I think because of the...
+
+00:36:51.375 --> 00:36:52.791
+我正在攒钱买房。
+I'm buy- saving to buy a house.
+
+00:36:52.833 --> 00:36:54.000
+我觉得一旦我买了房，那我就可以……
+I think once I have a house, then I can...
+
+00:36:54.333 --> 00:36:54.625
+我不想在还没买房的时候
+I don't wanna go
+
+00:36:54.708 --> 00:36:55.791
+就跑去投资什么农田，
+and start investing in farmland,
+
+00:36:55.833 --> 00:36:56.666
+毕竟我连自己的房子都没有。
+and I don't have a house yet.
+
+00:36:56.708 --> 00:36:58.041
+我觉得这对我来说有点怪，所以。
+I think that's kind of weird to me, so.
+
+00:36:58.708 --> 00:36:59.583
+你也可以做版税投资。
+You can do royalty investing.
+
+00:36:59.666 --> 00:37:01.000
+外面的选择太多了。
+There's so many options out there.
+
+00:37:01.041 --> 00:37:02.083
+我经常谈论这些东西，
+I talk about a lot of these things,
+
+00:37:02.166 --> 00:37:03.333
+当然我也有固定收益资产。
+and obviously I have fixed income.
+
+00:37:03.416 --> 00:37:05.083
+但我认为最主要的，
+But the main one, I think,
+
+00:37:05.333 --> 00:37:06.791
+如果你仅仅回顾历史记录的话，
+if you look at just the record of history,
+
+00:37:06.875 --> 00:37:07.666
+还是股票。
+is gonna be equities.
+
+00:37:07.750 --> 00:37:08.666
+就是各种企业，
+It's gonna be businesses,
+
+00:37:08.708 --> 00:37:09.166
+而那也将是
+and that's
+
+00:37:09.250 --> 00:37:11.291
+我余生大部分资金
+where most of my money is gonna be
+
+00:37:11.333 --> 00:37:12.625
+的归宿。
+for the rest of my life.
+
+00:37:12.666 --> 00:37:13.625
+[Ray] 在目前这种市场环境下，
+[Ray] In this market, is,
+
+00:37:13.708 --> 00:37:15.333
+个人投资者还有理由去
+is there still a case for individual,
+
+00:37:15.750 --> 00:37:17.833
+考虑投资债券吗？
+investors to consider bonds?
+
+00:37:18.666 --> 00:37:19.833
+[Nick] 是的，绝对有，
+[Nick] yes, there are definitely,
+
+00:37:20.125 --> 00:37:20.958
+当然有理由。
+there's a case for that.
+
+00:37:21.000 --> 00:37:21.875
+就……而言，
+In terms of...
+
+00:37:22.666 --> 00:37:24.875
+我个人推荐短期的，
+I personally recommend short-term,
+
+00:37:24.958 --> 00:37:26.666
+也就是久期不到
+so anything with a duration of less
+
+00:37:26.750 --> 00:37:27.583
+五年的任何债券。
+than five years.
+
+00:37:27.708 --> 00:37:29.083
+我不喜欢持有任何长期的债券，
+I don't like having anything long-term
+
+00:37:29.166 --> 00:37:30.208
+因为我们……
+because what,
+
+00:37:30.291 --> 00:37:30.916
+我们看到的，
+what we saw,
+
+00:37:31.000 --> 00:37:32.666
+我觉得最好的例子就是，
+I think the best example of this was,
+
+00:37:32.750 --> 00:37:32.916
+你知道的，
+you know,
+
+00:37:33.000 --> 00:37:35.791
+从2021年到2022年的那波加息。
+the rate increase from 2021 into 2022.
+
+00:37:36.375 --> 00:37:36.625
+任何
+Anyone
+
+00:37:36.666 --> 00:37:38.958
+买入长期债券的人都亏惨了，
+that bought long-dated bonds got destroyed
+
+00:37:39.000 --> 00:37:39.833
+因为，
+because as,
+
+00:37:40.041 --> 00:37:41.250
+就像你知道的，当利率上升时，
+as you know, when rates go up,
+
+00:37:41.583 --> 00:37:42.958
+价格就会下降，反之亦然。
+prices go down, and vice versa.
+
+00:37:43.041 --> 00:37:43.666
+所以你猜怎么着？
+So guess what?
+
+00:37:43.750 --> 00:37:44.291
+如果你在2021年持有很多
+If you were owning a lot
+
+00:37:44.333 --> 00:37:46.000
+长期债券，
+of long-dated bonds in 2021,
+
+00:37:46.375 --> 00:37:47.500
+当利率在22年开始
+when the rates started to shoot up
+
+00:37:47.583 --> 00:37:48.416
+飙升的时候，
+into '22,
+
+00:37:48.833 --> 00:37:49.541
+你就被血洗了。
+you got destroyed.
+
+00:37:49.625 --> 00:37:51.750
+所以经典的60/40组合度过了史上最惨的一年，
+So the 60/40 had its worst year ever,
+
+00:37:51.791 --> 00:37:52.750
+我想大概是在2022年。
+I think, in 2022.
+
+00:37:53.708 --> 00:37:54.375
+所以这就是为什么
+it's one of those things
+
+00:37:54.458 --> 00:37:56.333
+你必须得保持短久期
+where you gotta just keep your duration
+
+00:37:56.416 --> 00:37:56.666
+操作。
+short.
+
+00:37:56.750 --> 00:37:57.500
+而且，关于
+And, the,
+
+00:37:57.583 --> 00:37:57.708
+ETFs，
+the thing
+
+00:37:57.791 --> 00:37:59.208
+人们不知道的一点是，
+that people don't know about ETFs,
+
+00:37:59.541 --> 00:38:01.041
+如果你买了一个，比方说……
+if you're buying a, let's say a, a...
+
+00:38:01.666 --> 00:38:03.666
+假设久期是10年，对吧？
+Let's say the duration's 10 years, right?
+
+00:38:03.750 --> 00:38:04.708
+当你持有这只ETF时，
+When you own the ETF,
+
+00:38:05.125 --> 00:38:07.000
+它其实每天都在重置那个久期，
+it's resetting that duration every day,
+
+00:38:07.083 --> 00:38:08.708
+或者每隔一段时间当债券到期时重置。
+or every so often when the bonds mature.
+
+00:38:09.125 --> 00:38:10.541
+你就永远处于一个10年的久期之中。
+You're always in a 10-year duration.
+
+00:38:10.625 --> 00:38:10.958
+它不像，哦，
+It's not like, oh,
+
+00:38:11.000 --> 00:38:11.750
+我今天买入，
+I buy today and
+
+00:38:11.791 --> 00:38:12.791
+然后10年后，
+then 10 years from now I'm,
+
+00:38:12.833 --> 00:38:13.875
+我的久期就变成0了，
+my duration's zero
+
+00:38:13.958 --> 00:38:14.750
+并且我能拿回所有的钱。
+and I get all my money back.
+
+00:38:14.833 --> 00:38:16.625
+它不像单独的个人债券。
+It's not like an, an individual bond.
+
+00:38:17.083 --> 00:38:18.500
+你总是在不断重置你的久期，
+You're always resetting your duration,
+
+00:38:18.541 --> 00:38:20.250
+所以你总是在承担
+so you're always taking interest rate risk
+
+00:38:20.291 --> 00:38:21.166
+这个10年期的利率风险，
+over a 10-year period,
+
+00:38:21.250 --> 00:38:22.791
+而大家……
+which people...
+
+00:38:22.833 --> 00:38:24.000
+我不是说你不能这么做，
+I'm not saying you can't do that,
+
+00:38:24.041 --> 00:38:25.416
+但很多人并没有意识到这正是
+but a lot of people don't realize that's
+
+00:38:25.458 --> 00:38:26.041
+他们在做的事情。
+what they're doing.
+
+00:38:26.125 --> 00:38:28.208
+所以你不会想在利率处于历史低位时
+And so you don't wanna be taking that risk
+
+00:38:28.250 --> 00:38:29.833
+去承担这种风险，
+when rates are at all-time lows
+
+00:38:29.916 --> 00:38:31.666
+因为只要发生像那样疯狂的事件，
+because all it takes is a crazy event like
+
+00:38:31.750 --> 00:38:32.833
+利率飙升了一大截，然后
+that where rates shoot up a ton and
+
+00:38:32.916 --> 00:38:34.041
+你就会被直接带走。
+then you just get destroyed.
+
+00:38:34.125 --> 00:38:36.083
+所以，我不反对买债券。
+So, I'm not against bonds.
+
+00:38:36.166 --> 00:38:36.833
+我绝对支持买，
+I'm definitely for them,
+
+00:38:36.916 --> 00:38:38.000
+但如果要买的话
+but I'm short duration
+
+00:38:38.083 --> 00:38:38.833
+我只会选短久期的。
+if I'm ever gonna do that.
+
+00:38:38.916 --> 00:38:39.333
+并且关于这个有很长的，
+And there's a long,
+
+00:38:39.375 --> 00:38:40.333
+很多的历史数据支撑，
+a lot of history on this,
+
+00:38:40.375 --> 00:38:41.208
+至少在美国是这样。
+at least in the US.
+
+00:38:41.833 --> 00:38:42.750
+你知道的，单位风险回报率最高的
+The highest, you know,
+
+00:38:42.791 --> 00:38:44.208
+债券是
+return per unit risk bonds were the
+
+00:38:44.458 --> 00:38:45.458
+五年期国债，
+five-year Treasuries,
+
+00:38:45.500 --> 00:38:45.625
+对吧？
+right?
+
+00:38:45.666 --> 00:38:46.875
+所以任何五年期或更短的
+So anything five year
+
+00:38:46.916 --> 00:38:48.041
+才是明智之选。
+or less was the way to go.
+
+00:38:48.166 --> 00:38:49.375
+一旦超过了五年，
+Once you went beyond five years,
+
+00:38:49.458 --> 00:38:51.625
+那种风险回报比就不存在了。
+the risk-return just wasn't there.
+
+00:38:52.250 --> 00:38:53.208
+[Ray] 所以最近我发现
+[Ray] So recently I realized
+
+00:38:53.291 --> 00:38:54.083
+我的很多朋友，
+that a lot of my friends,
+
+00:38:54.166 --> 00:38:57.041
+他们，他们开始去，开始去买期权。
+they, they start to, start buying options.
+
+00:38:57.125 --> 00:38:59.083
+然后他们会说，“我们是长期的，
+And they say, like, "We are, long-term,
+
+00:38:59.208 --> 00:39:00.333
+我们是长期投资者。
+we are long-term investors.
+
+00:39:00.458 --> 00:39:01.291
+我们在，你知道的，卖出……
+We are, you know, sell-
+
+00:39:01.333 --> 00:39:02.833
+卖出看涨期权，并获取那些，
+selling calls and get that,
+
+00:39:02.958 --> 00:39:03.375
+那些现金，
+that cash
+
+00:39:03.458 --> 00:39:06.666
+然后再投资到我们的股票里。” 所以，
+and re-investing into our stocks." So,
+
+00:39:06.875 --> 00:39:09.583
+那么你对使用保证金，
+so what's your opinion on using margin,
+
+00:39:09.666 --> 00:39:11.875
+使用借款来为你的投资提供资金有什么看法？
+using debt to fund your investment?
+
+00:39:12.083 --> 00:39:13.333
+[Nick] 核心问题永远是利率，
+[Nick] The question's always the rate,
+
+00:39:13.625 --> 00:39:13.708
+对吧？
+right?
+
+00:39:13.750 --> 00:39:14.708
+如果有人说：“嘿，Nick，
+If someone said, "Hey, Nick,
+
+00:39:14.791 --> 00:39:16.166
+你可以零成本
+you could borrow all this money
+
+00:39:16.291 --> 00:39:18.916
+借走所有的钱，” 我会毫不犹豫地借，
+for no cost," I would do it in a second,
+
+00:39:19.000 --> 00:39:19.541
+对吧？
+right?
+
+00:39:19.625 --> 00:39:20.250
+但如果是……
+But if it...
+
+00:39:20.291 --> 00:39:21.250
+关键永远在于利率。
+It's always about the rate.
+
+00:39:21.333 --> 00:39:22.375
+而且，而且如果我说：“嘿，
+And, and if I said, "Hey,
+
+00:39:22.583 --> 00:39:23.875
+我可以借给你钱，但是，
+I'm gonna let you borrow, but the,
+
+00:39:24.250 --> 00:39:26.500
+日利率是100%，” 我只是
+the daily interest rate is 100%," I'm
+
+00:39:26.583 --> 00:39:28.041
+举个很夸张的例子，它的
+coming up with something crazy where the,
+
+00:39:28.166 --> 00:39:29.250
+年化利率，你知道的，
+the annualized rate's, you know,
+
+00:39:29.333 --> 00:39:30.708
+高达几万倍，对吧？
+in the tens of thousands, right?
+
+00:39:30.750 --> 00:39:31.583
+你肯定会拒绝，对吧？
+You would say no, right?
+
+00:39:31.666 --> 00:39:31.833
+在，在，
+At, at,
+
+00:39:31.916 --> 00:39:33.291
+在这种极端情况下，你可以看出来
+at the extremes you can see
+
+00:39:33.375 --> 00:39:34.083
+为什么这是不合理的，
+why it doesn't make sense,
+
+00:39:34.166 --> 00:39:34.250
+对吧？
+right?
+
+00:39:34.250 --> 00:39:35.791
+在100%的日利率下，
+At 100% daily interest rate,
+
+00:39:35.916 --> 00:39:37.416
+负债根本说不通。
+makes no sense to have debt.
+
+00:39:37.458 --> 00:39:38.791
+在利率是0%的时候，这么做是有道理的。
+At 0%, it makes sense.
+
+00:39:39.416 --> 00:39:41.750
+但具体到你个人的界限在哪里，
+Where that personal number is for you,
+
+00:39:42.625 --> 00:39:44.500
+每个人都会有所不同。
+that is gonna differ by person.
+
+00:39:44.583 --> 00:39:45.041
+总的来说，
+In general,
+
+00:39:45.125 --> 00:39:45.791
+我建议最好别碰，
+I say don't do it
+
+00:39:45.833 --> 00:39:47.916
+因为这一切
+because the only guarantee
+
+00:39:48.166 --> 00:39:48.708
+唯一能保证的，
+from all this is
+
+00:39:48.791 --> 00:39:49.666
+就是你需要为这笔债务
+that you're gonna owe interest
+
+00:39:49.750 --> 00:39:50.416
+支付利息。
+on the debt.
+
+00:39:50.458 --> 00:39:51.666
+这是我唯一能确定的事。
+That's the only thing I can guarantee.
+
+00:39:51.708 --> 00:39:51.958
+没人知道
+You don't know
+
+00:39:52.041 --> 00:39:53.166
+你的投资会有什么结果。
+what your investments are gonna do.
+
+00:39:53.625 --> 00:39:55.000
+那些卖出看涨期权的人，是的，
+Those people selling call options, yeah,
+
+00:39:55.083 --> 00:39:55.708
+现在看起来很美好，
+it looks great now,
+
+00:39:55.791 --> 00:39:56.583
+钱正源源不断地流进来，
+that money's coming in,
+
+00:39:56.666 --> 00:39:58.583
+但俗话说，这就像是在压路机前
+but they say it's like picking up nickels
+
+00:39:58.666 --> 00:39:59.625
+捡硬币。
+in front of a steamroller.
+
+00:39:59.750 --> 00:40:01.250
+总有一天你会错过那枚硬币，
+One day you're gonna miss the nickel
+
+00:40:01.291 --> 00:40:02.250
+然后被直接碾过。
+and you're gonna get run over.
+
+00:40:02.291 --> 00:40:04.000
+所以，你知道，
+And so it's, you know,
+
+00:40:04.166 --> 00:40:05.583
+塔勒布曾提出过一个“火鸡问题”，
+Taleb has this thing called the turkey
+
+00:40:05.666 --> 00:40:06.125
+关于火鸡的故事，
+problem,
+
+00:40:06.166 --> 00:40:07.625
+这里有一只火鸡，
+where there's a turkey,
+
+00:40:07.666 --> 00:40:09.125
+农夫养了这只火鸡，
+and a farmer has this turkey,
+
+00:40:09.208 --> 00:40:10.833
+每天他都给这只火鸡喂食，
+and every day he feeds the turkey,
+
+00:40:10.875 --> 00:40:12.541
+于是火鸡越来越胖，越来越胖，
+and the turkey gets fatter and, and,
+
+00:40:12.625 --> 00:40:14.083
+渐渐地，这只火鸡开始想：“哇，
+and the, the turkey starts thinking, "Wow,
+
+00:40:14.166 --> 00:40:15.083
+这些人类真爱我。
+these humans love me.
+
+00:40:15.166 --> 00:40:16.458
+哇，人类太棒了。
+Wow, the humans are so great.
+
+00:40:16.541 --> 00:40:17.625
+他们每天都给我送来更多好吃的，
+Every day they bring me more food
+
+00:40:17.666 --> 00:40:18.291
+我长得越来越壮了，
+and I get bigger
+
+00:40:18.375 --> 00:40:20.291
+我的羽毛也一天比一天漂亮。”然而，
+and my feathers get nicer every day." And
+
+00:40:20.375 --> 00:40:21.208
+突然有一天，
+then all of a sudden,
+
+00:40:21.250 --> 00:40:23.791
+在那最后的一天，
+at, on the very last day that the,
+
+00:40:23.875 --> 00:40:26.208
+农夫带着，你知道的，
+the farmer comes with the, you know,
+
+00:40:26.666 --> 00:40:28.125
+一把菜刀走过来，砍掉了它的头，对吧？
+a cleaver and cuts his head off, right?
+
+00:40:28.166 --> 00:40:29.375
+所以你可以看到，
+And so you see the,
+
+00:40:29.416 --> 00:40:30.625
+火鸡的自信心一直飙升，
+the confidence of the turkey goes up and
+
+00:40:30.666 --> 00:40:31.583
+然后就这样瞬间归零。
+then it just falls like that.
+
+00:40:31.666 --> 00:40:33.500
+这就是卖出看涨期权的下场。
+That's what selling call options is like.
+
+00:40:33.541 --> 00:40:34.208
+你的信心越来越膨胀：
+You get more confidence.
+
+00:40:34.291 --> 00:40:35.041
+“天哪，我猜对了。
+"Oh my God, I'm right.
+
+00:40:35.125 --> 00:40:35.583
+我真是个天才。
+I'm a genius.
+
+00:40:35.666 --> 00:40:36.125
+看看这赚来的钱。
+Look at all this money.
+
+00:40:36.166 --> 00:40:36.916
+看看这么多钱。”然后，
+Look at all this money." And
+
+00:40:36.958 --> 00:40:38.291
+有一天你遭遇了，
+then one day you have this,
+
+00:40:38.416 --> 00:40:40.000
+一场你根本无法预见的市场事件，
+a market event you couldn't have foreseen,
+
+00:40:40.041 --> 00:40:41.708
+然后你失去了一切，你知道的。
+and then you lose everything, you know.
+
+00:40:41.791 --> 00:40:43.833
+或者瞬间输光了大部分利润。
+Or lose most of your profits right there.
+
+00:40:43.958 --> 00:40:44.958
+所以我并不是说
+So I'm not saying
+
+00:40:45.000 --> 00:40:46.208
+每个人都会落得这般田地，
+that happens to every person,
+
+00:40:46.666 --> 00:40:48.000
+但这种事情确实发生过。
+but these types of things have happened.
+
+00:40:48.083 --> 00:40:50.208
+你可以查一下，有一只叫做XIV的基金。
+You can look up, there's a fund, XIV.
+
+00:40:51.875 --> 00:40:52.500
+查查那只基金。
+look up that fund.
+
+00:40:52.583 --> 00:40:53.583
+看看那只基金经历了什么。
+Look what happened to that fund.
+
+00:40:54.083 --> 00:40:54.833
+那就是一个
+That's an example
+
+00:40:54.875 --> 00:40:56.208
+为了蝇头小利冒险的经典案例。
+of people picking up pennies.
+
+00:40:56.541 --> 00:40:58.041
+简直跟卖出看涨期权一模一样。
+It's just like selling call options.
+
+00:40:58.166 --> 00:40:58.750
+非常相似。
+Very similar.
+
+00:40:58.833 --> 00:40:59.125
+你……
+You...
+
+00:40:59.208 --> 00:41:00.166
+人们总是想：“天哪，
+People are like, "Oh my gosh,
+
+00:41:00.208 --> 00:41:00.791
+波动率这么低，
+low volatility,
+
+00:41:00.833 --> 00:41:01.541
+这玩意儿太棒了。”可一旦
+this thing's great." As soon
+
+00:41:01.625 --> 00:41:02.666
+波动率飙升，
+as volatility ripped up
+
+00:41:02.708 --> 00:41:03.791
+这只基金就彻底崩盘，
+or this thing got destroyed
+
+00:41:03.833 --> 00:41:04.583
+宣告破产了。
+and it went bankrupt.
+
+00:41:04.666 --> 00:41:06.791
+所以一定要记住这一点，
+So just keep that in mind, like,
+
+00:41:06.875 --> 00:41:07.708
+这就是其中一种情况，
+it's one of those things, like,
+
+00:41:07.791 --> 00:41:08.875
+你得理解火鸡问题，
+understand the turkey problem
+
+00:41:08.958 --> 00:41:11.208
+并且弄清楚目前的投资方式，
+and understand how am I investing
+
+00:41:11.291 --> 00:41:12.541
+它是不是像火鸡问题一样，
+and is it like the turkey problem
+
+00:41:12.625 --> 00:41:13.708
+还是说它是另一种情况？
+or is it like something else?
+
+00:41:13.750 --> 00:41:14.666
+这就是为什么
+And so that's
+
+00:41:14.750 --> 00:41:16.000
+我会警告大家谨慎使用债务。
+where I would caution using debt.
+
+00:41:16.250 --> 00:41:17.083
+[Ray] 让我们来聊聊
+[Ray] Let's talk about
+
+00:41:17.166 --> 00:41:18.458
+我们该如何持续买入。
+how we should keep buying.
+
+00:41:18.583 --> 00:41:18.666
+你，
+You,
+
+00:41:18.708 --> 00:41:19.000
+你提到
+you mentioned
+
+00:41:19.041 --> 00:41:20.791
+在书中我们最好直接定投（DCA）。
+in the book we are better off just DCA.
+
+00:41:20.875 --> 00:41:21.333
+但是，
+But
+
+00:41:21.375 --> 00:41:23.208
+一提到定投（Dollar Cost Averaging），
+when in terms of dollar cost averaging,
+
+00:41:23.416 --> 00:41:23.625
+我，
+I,
+
+00:41:23.666 --> 00:41:26.166
+我发现这里存在一个误解。
+I find there's a misunderstanding there.
+
+00:41:26.458 --> 00:41:28.583
+到底什么是定投？
+What exactly is dollar cost averaging?
+
+00:41:28.833 --> 00:41:30.375
+[Nick] 问题在于实际上有两个
+[Nick] The problem is there's actually two
+
+00:41:30.416 --> 00:41:31.375
+截然不同的定义，
+different definitions,
+
+00:41:31.416 --> 00:41:32.750
+这就是为什么它会如此令人困惑。
+which is why it's so confusing.
+
+00:41:32.833 --> 00:41:35.083
+最初的定义，
+So the original definition,
+
+00:41:35.166 --> 00:41:36.208
+来源于本杰明·格雷厄姆，
+which comes from Benjamin Graham,
+
+00:41:36.250 --> 00:41:37.750
+也就是沃伦·巴菲特的导师，
+which was Warren Buffett's mentor,
+
+00:41:37.833 --> 00:41:39.666
+意思是随着时间的推移不断买入。
+is buying over time.
+
+00:41:39.750 --> 00:41:40.708
+就是一直在买。
+You're just buying.
+
+00:41:40.750 --> 00:41:42.291
+每次发薪水，你手头有了钱，
+Every time you get paid, you have money,
+
+00:41:42.375 --> 00:41:43.041
+你就买入，对吧？
+you buy, right?
+
+00:41:43.125 --> 00:41:44.500
+无论是买个股，
+You're buying an individual stock,
+
+00:41:44.583 --> 00:41:45.500
+还是买指数基金。
+you're buying an index fund.
+
+00:41:45.541 --> 00:41:46.375
+买什么并不重要，
+It doesn't matter what you're buying,
+
+00:41:46.458 --> 00:41:48.041
+重点是随着时间推移不断买入。
+you're just buying over time.
+
+00:41:48.208 --> 00:41:49.416
+这跟定投的
+That is different
+
+00:41:49.875 --> 00:41:51.500
+另一个定义
+from the other definition
+
+00:41:51.583 --> 00:41:52.583
+截然不同，
+of dollar cost averaging,
+
+00:41:52.666 --> 00:41:54.833
+那就是你今天手里有一大笔钱。
+which is you have a bunch of money today.
+
+00:41:54.875 --> 00:41:56.500
+假设你有10万美元。
+Let's say you have $100,000.
+
+00:41:57.041 --> 00:41:57.875
+然后你说：“嘿，
+And you say, "Hey,
+
+00:41:58.083 --> 00:42:00.041
+我打算每个月买入1万美元。
+I'm gonna buy $10,000 a month.
+
+00:42:00.125 --> 00:42:01.333
+我要分批买”，这就是我所说的
+I'm gonna wait," kind of
+
+00:42:01.375 --> 00:42:02.666
+“分批买入”（averaging in）。
+what I call averaging in.
+
+00:42:02.791 --> 00:42:03.666
+你分批建仓。
+You average in.
+
+00:42:03.708 --> 00:42:06.000
+相当于慢慢试探着进入市场，
+You kind of slowly wade into the market,
+
+00:42:06.166 --> 00:42:06.708
+对吧？
+right?
+
+00:42:06.750 --> 00:42:08.916
+这也被称作定投（Dollar Cost Averaging）。
+That's also called dollar cost averaging.
+
+00:42:09.000 --> 00:42:11.458
+就像你看到的——这真的很让人困惑，
+As you can see-This is quite confusing
+
+00:42:11.541 --> 00:42:12.458
+因为它们完全是两码事，
+because they're kind of different,
+
+00:42:12.500 --> 00:42:13.125
+对吧？
+right?
+
+00:42:13.208 --> 00:42:14.291
+这两者简直是……
+One and the other are...
+
+00:42:14.333 --> 00:42:15.458
+它们之间有天壤之别。
+They're very different from each other.
+
+00:42:15.541 --> 00:42:16.708
+它们完全就是
+They're literally the opposites
+
+00:42:16.750 --> 00:42:17.291
+相互对立的概念，
+from each other,
+
+00:42:17.333 --> 00:42:17.666
+也就是说——
+which is-
+
+00:42:17.750 --> 00:42:17.916
+[Ray] 嗯。
+[Ray] Mm.
+
+00:42:18.000 --> 00:42:19.083
+[Nick] 没有比这更……
+[Nick] Couldn't be more like...
+
+00:42:19.166 --> 00:42:19.958
+其中一个是说：“嘿，
+One of them is saying, "Hey,
+
+00:42:20.000 --> 00:42:20.833
+一旦你有钱了，
+as soon as you get the money,
+
+00:42:20.916 --> 00:42:22.583
+马上投资。”而另一个则是说：“嘿，
+invest." The other one is saying, "Hey,
+
+00:42:22.666 --> 00:42:23.500
+当你有钱时，
+when you have the money,
+
+00:42:23.791 --> 00:42:25.500
+要慢慢买入。”而我，
+slowly buy in." And I'm,
+
+00:42:25.583 --> 00:42:27.250
+我是反对慢慢买入的那种做法的。
+I'm against the slowly buying one.
+
+00:42:27.333 --> 00:42:29.083
+我完全支持
+I'm in fully support of the one
+
+00:42:29.166 --> 00:42:30.083
+有钱就立刻买入的做法，
+where you buy right away,
+
+00:42:30.208 --> 00:42:30.375
+懂吗？
+right?
+
+00:42:30.458 --> 00:42:32.458
+所以你可以说，一个人在退休账户中，
+So you could say someone buying
+
+00:42:32.541 --> 00:42:33.875
+每两
+in their retirement account every two
+
+00:42:33.958 --> 00:42:34.083
+周
+weeks
+
+00:42:34.125 --> 00:42:36.541
+往401k里投资一次，这就是定投。
+in their 401 is dollar cost averaging.
+
+00:42:36.625 --> 00:42:37.666
+你也可以说某个人
+You could also say that someone
+
+00:42:37.750 --> 00:42:38.625
+卖掉了一家公司，
+who sold a business
+
+00:42:38.708 --> 00:42:39.791
+现在手头握有一大笔现金，
+and now is sitting on a lot of money
+
+00:42:39.833 --> 00:42:40.916
+然后慢慢分批入场，
+and they're slowly wading
+
+00:42:41.000 --> 00:42:42.500
+这也是定投。
+in is also dollar cost averaging.
+
+00:42:42.875 --> 00:42:44.291
+混淆正是由此而生。
+That's where the confusion comes in.
+
+00:42:45.250 --> 00:42:47.916
+总而言之，快买慢卖。
+Generally, buy quickly, sell slowly.
+
+00:42:48.041 --> 00:42:49.333
+这是我的口头禅。
+That's my mantra.
+
+00:42:49.416 --> 00:42:50.166
+这样会让事情简单很多。
+It makes it much easier.
+
+00:42:50.250 --> 00:42:50.833
+所以如果你在想，
+So if you're like,
+
+00:42:50.875 --> 00:42:51.250
+“在这种情况下
+"What should I do
+
+00:42:51.291 --> 00:42:52.500
+我该怎么做？”——快买，
+in this scenario?" Buy quickly,
+
+00:42:52.625 --> 00:42:53.458
+慢卖。
+sell slowly.
+
+00:42:53.666 --> 00:42:55.750
+一般来说，从历史数据来看，
+That generally makes you the most money
+
+00:42:55.791 --> 00:42:56.625
+在几乎所有资产类别中，
+historically
+
+00:42:56.750 --> 00:42:58.416
+这种策略能让你赚得最多。
+in basically every asset class.
+
+00:42:58.958 --> 00:43:00.250
+[Ray] 我，我不是那种直接定投的人。
+[Ray] I, I'm not the guy DCA.
+
+00:43:00.375 --> 00:43:01.833
+我，我更像是那种，你知道的，
+I, I'm more of the guy, you know,
+
+00:43:01.875 --> 00:43:03.208
+喜欢分批买入的人。
+like averaging in.
+
+00:43:03.291 --> 00:43:04.000
+但我觉得这——
+But I think there's-
+
+00:43:04.041 --> 00:43:05.250
+背后是有原因的，因为，
+a reason behind it because,
+
+00:43:05.625 --> 00:43:06.458
+我没有固定的工资。
+I do not have a paycheck.
+
+00:43:06.541 --> 00:43:07.500
+我没有薪水，
+I do not have a salary,
+
+00:43:07.875 --> 00:43:09.000
+所以我自己做生意。
+so I run my own business.
+
+00:43:09.208 --> 00:43:09.708
+通常情况下，
+Usually,
+
+00:43:09.750 --> 00:43:11.000
+收入并不像一条稳定的水流
+the money doesn't come
+
+00:43:11.125 --> 00:43:12.166
+那样涌入，
+like a steady stream,
+
+00:43:12.250 --> 00:43:13.416
+所以这就产生了一个问题。
+so that creates a problem.
+
+00:43:13.583 --> 00:43:14.916
+你会对像我这样的人说些什么呢？
+What do you say to people like me
+
+00:43:15.166 --> 00:43:17.125
+比如自由职业者，
+who are either freelancers,
+
+00:43:17.250 --> 00:43:18.791
+创作者，或是经营，
+creators, or run,
+
+00:43:18.833 --> 00:43:20.875
+自己小生意的人？
+runs their own small business?
+
+00:43:21.250 --> 00:43:23.458
+通常他们的收入是一大笔进账，
+So usually their money comes in a chunk,
+
+00:43:23.500 --> 00:43:24.583
+这就使得他们，
+and that makes it really,
+
+00:43:24.666 --> 00:43:26.583
+真的很难去，你知道的，
+really difficult for them to, you know,
+
+00:43:26.625 --> 00:43:27.875
+去做定投，因为你不知道
+to DCA because you don't know
+
+00:43:27.916 --> 00:43:29.458
+你的生意明天会变成什么样，
+what happens to your business tomorrow,
+
+00:43:29.625 --> 00:43:29.833
+对吧？
+right?
+
+00:43:29.875 --> 00:43:30.000
+[Nick] 是的。
+[Nick] Yeah.
+
+00:43:30.083 --> 00:43:31.750
+那是截然不同的一种情况，
+That's a very different scenario
+
+00:43:31.791 --> 00:43:33.333
+因为你没有
+because you don't have
+
+00:43:33.375 --> 00:43:35.125
+持续不断的现金流，
+that consistent flow of money or
+
+00:43:35.291 --> 00:43:35.791
+无法确定：
+where you know,
+
+00:43:35.875 --> 00:43:35.958
+“嘿，
+"Hey,
+
+00:43:36.041 --> 00:43:36.541
+再过两周
+I'm gonna get paid
+
+00:43:36.625 --> 00:43:38.250
+我就会有一笔进账。”我对此唯一的
+in two weeks." My only slight counter
+
+00:43:38.291 --> 00:43:38.500
+微小反对意见是，
+to this,
+
+00:43:38.541 --> 00:43:39.875
+如果有人想分批买入，
+if someone wants to average in,
+
+00:43:39.958 --> 00:43:41.291
+随着时间推移建仓，随便你怎么叫，
+whatever you wanna call it, over time,
+
+00:43:41.375 --> 00:43:42.541
+我觉得这没问题。
+I think that's fine.
+
+00:43:42.625 --> 00:43:43.833
+但问题在于，
+The question is,
+
+00:43:43.875 --> 00:43:45.958
+你打算花多长时间分批买入？
+how long are you taking to average in?
+
+00:43:46.041 --> 00:43:47.583
+这才是最重要的变量，对吧？
+That's the most important variable, right?
+
+00:43:47.625 --> 00:43:48.250
+平均而言，
+On average,
+
+00:43:48.291 --> 00:43:49.625
+数据就是这么显示的，
+and this is just what the data shows,
+
+00:43:50.125 --> 00:43:51.041
+如果你花一年的时间，
+if you take one year,
+
+00:43:51.166 --> 00:43:53.583
+假设你有12万美元，
+let's say you have $120,000,
+
+00:43:53.666 --> 00:43:54.041
+你不选择……
+and instead of...
+
+00:43:54.125 --> 00:43:54.958
+你面临两个选择。
+You have two choices.
+
+00:43:55.000 --> 00:43:56.208
+假设现在只有两个选择。
+Let's just say there's only two choices.
+
+00:43:56.500 --> 00:43:58.500
+要么你今天一次性投入12万美元，
+You put in 120,000 today
+
+00:43:58.625 --> 00:44:00.583
+要么你每个月投入1万美元，
+or you put in $10,000 a month
+
+00:44:00.666 --> 00:44:01.541
+连续投12个月。
+for the next 12 months.
+
+00:44:01.625 --> 00:44:02.750
+这样到了12个月末，
+So by the end of 12 months,
+
+00:44:03.083 --> 00:44:03.916
+你就完成了全额投资。
+you're fully invested.
+
+00:44:04.000 --> 00:44:05.125
+所以这就是你的两个选项，对吧？
+So those are two options, right?
+
+00:44:05.541 --> 00:44:06.958
+选项A，现在就全仓买入。
+Option A, buy now.
+
+00:44:07.041 --> 00:44:09.416
+选项B，你算是定投进场。
+Option B, you kind of average in.
+
+00:44:09.458 --> 00:44:11.666
+从美国股市的历史平均来看，
+On average, historically in US stocks,
+
+00:44:12.000 --> 00:44:13.000
+选第二种方式，
+the second option,
+
+00:44:13.375 --> 00:44:14.708
+你的收益率会跑输，
+you would have underperformed by,
+
+00:44:14.750 --> 00:44:16.083
+平均大概会跑输4%。
+on average by about 4%.
+
+00:44:16.583 --> 00:44:18.875
+所以如果你愿意放弃这4%的收益，
+So if you're willing to give up 4%
+
+00:44:18.916 --> 00:44:21.000
+来换取不用面临买入后
+so you don't experience a huge crash right
+
+00:44:21.125 --> 00:44:21.708
+马上暴跌的风险，
+after,
+
+00:44:21.791 --> 00:44:22.208
+那也是没问题的，
+that's fine,
+
+00:44:22.291 --> 00:44:23.333
+我觉得很多人也愿意
+and I think a lot of people are willing
+
+00:44:23.416 --> 00:44:23.666
+这么做。
+to do that.
+
+00:44:23.750 --> 00:44:25.541
+他们会觉得，“嘿，从行为心理上来说，
+They're saying, "Hey, behaviorally,
+
+00:44:25.583 --> 00:44:26.875
+就算我少赚了那4%，
+it's okay if I lose 4% of
+
+00:44:26.916 --> 00:44:27.666
+也是可以接受的，
+that as long
+
+00:44:27.750 --> 00:44:29.375
+只要我不用去承受那种
+as I don't experience an outcome
+
+00:44:29.458 --> 00:44:31.291
+市场立刻崩盘的糟糕结果就行。”
+where the market crashes right away."
+
+00:44:31.375 --> 00:44:31.583
+好的，
+Okay,
+
+00:44:31.666 --> 00:44:32.000
+没问题。
+that's fine.
+
+00:44:32.083 --> 00:44:32.708
+这样一来...
+And so...
+
+00:44:32.791 --> 00:44:33.625
+你可能又会问，“那个，Nick，我...
+And you're like, "Well, Nick, I...
+
+00:44:34.000 --> 00:44:34.125
+如果
+What
+
+00:44:34.125 --> 00:44:35.166
+我只分6个月
+if I only take six months
+
+00:44:35.250 --> 00:44:36.083
+来定投呢？”好。
+to average in?" Okay.
+
+00:44:36.125 --> 00:44:38.000
+那平均跑输的收益大概是2%，对吧？
+Then the average loss is 2%, right?
+
+00:44:38.083 --> 00:44:39.583
+你承担的损失大概是一半，对吧？
+You take roughly half of it, right?
+
+00:44:39.666 --> 00:44:41.458
+所以不管你怎么看，
+So no matter how you look at it,
+
+00:44:41.916 --> 00:44:43.416
+你都得接受，好吧，在、
+you just have to accept, okay, on,
+
+00:44:43.666 --> 00:44:44.083
+在平均情况下，
+on average,
+
+00:44:44.125 --> 00:44:45.125
+这就是可能会发生的事，
+here's what's probably gonna happen,
+
+00:44:45.208 --> 00:44:46.791
+所以我可以在一开始就接受它，
+so I can just accept that upfront,
+
+00:44:47.083 --> 00:44:48.208
+然后再做决定。
+and then make your decision.
+
+00:44:48.291 --> 00:44:49.416
+这就是我的看法。
+That's how I would view it.
+
+00:44:49.500 --> 00:44:50.333
+所以如果你觉得可以，
+So if you're okay,
+
+00:44:50.625 --> 00:44:51.541
+如果你能很舒服地说，“嘿，
+if you're comfortable saying, "Hey,
+
+00:44:51.666 --> 00:44:52.583
+我愿意接受少赚一点点
+I'm willing to take a little bit
+
+00:44:52.666 --> 00:44:54.958
+来换取用6个月的、
+of a haircut to take six months to,
+
+00:44:55.041 --> 00:44:55.583
+的时间去把这笔钱
+to average in
+
+00:44:55.666 --> 00:44:57.250
+分批投进去，”那是可以的。
+with this money," that's fine.
+
+00:44:57.375 --> 00:44:58.916
+只是别拉长到5年来搞，
+Just don't take five years to do it,
+
+00:44:59.000 --> 00:45:00.125
+因为那样的话，
+'cause that's where the,
+
+00:45:00.250 --> 00:45:02.083
+收益表现的差距就会变得
+the performance differences start getting
+
+00:45:02.166 --> 00:45:03.000
+相当大了。
+quite large.
+
+00:45:03.041 --> 00:45:04.875
+[Ray] 前面你提到你对你的
+[Ray] Earlier you mentioned you did some
+
+00:45:04.958 --> 00:45:06.166
+买入操作
+adjustment to your,
+
+00:45:06.458 --> 00:45:07.041
+做了一些调整。
+buyings.
+
+00:45:07.083 --> 00:45:08.666
+那么，到底是什么原因让我需要
+So what's the reason behind I should
+
+00:45:08.750 --> 00:45:11.833
+调整我定投市场的频率，
+adjust the frequency or the amount of,
+
+00:45:12.250 --> 00:45:15.083
+或者说投入的金额呢？
+money I should, DCA into the market?
+
+00:45:15.291 --> 00:45:16.333
+[Nick] 这真的完全取决于你自己。
+[Nick] It's up to you really.
+
+00:45:16.375 --> 00:45:17.208
+还是那句话，
+Once again,
+
+00:45:17.750 --> 00:45:19.041
+你必须得做那些在行为上
+you have to do whatever's gonna work
+
+00:45:19.125 --> 00:45:19.916
+适合你自己的事。
+for you behaviorally.
+
+00:45:20.000 --> 00:45:21.208
+我可以在这儿跟你讲到口干舌燥，
+I can sit here until I'm blue
+
+00:45:21.291 --> 00:45:22.041
+告诉你，
+in the face telling you,
+
+00:45:22.083 --> 00:45:22.833
+“嘿，
+"Hey,
+
+00:45:22.875 --> 00:45:24.250
+数据是这么显示的，”诸如此类。
+here's what the data says," whatever.
+
+00:45:24.333 --> 00:45:25.666
+如果你觉得心里不踏实，
+If you don't feel comfortable with it,
+
+00:45:25.750 --> 00:45:26.541
+那就别这么干。
+don't do it.
+
+00:45:26.583 --> 00:45:27.833
+比如，我……还是那句话，
+Like, I- th- once again,
+
+00:45:27.916 --> 00:45:28.500
+到最后——
+at the end of the ti-
+
+00:45:28.583 --> 00:45:29.416
+归根结底，
+at the end of the day,
+
+00:45:29.625 --> 00:45:31.833
+为了那4%的收益而让你，你知道的，
+is it worth 4% to have, you know,
+
+00:45:31.916 --> 00:45:32.916
+晚上睡不着觉，这值得吗？
+not be able to sleep at night?
+
+00:45:33.041 --> 00:45:33.291
+不值得。
+No.
+
+00:45:33.333 --> 00:45:34.666
+那就定投吧。
+Just average in.
+
+00:45:34.791 --> 00:45:35.166
+谁在乎呢？
+Who cares?
+
+00:45:35.250 --> 00:45:35.458
+你损——
+You lo-
+
+00:45:35.541 --> 00:45:36.958
+你平均可能也就跑输个4%。
+you're probably gonna lose 4% on average.
+
+00:45:37.041 --> 00:45:37.208
+就这样而已。
+That's it.
+
+00:45:37.250 --> 00:45:37.750
+才4%。
+It's 4%.
+
+00:45:37.833 --> 00:45:39.083
+又不是世界末日，对吧？
+It's not the end of the world, right?
+
+00:45:39.166 --> 00:45:39.541
+你会好好的。
+You'll live.
+
+00:45:39.625 --> 00:45:40.750
+这又不是那种，比如，
+It's not one of those things where, like,
+
+00:45:41.083 --> 00:45:41.541
+会成就
+it's gonna make
+
+00:45:41.625 --> 00:45:42.833
+或是毁掉你财务计划的大事。
+or break your financial plan.
+
+00:45:42.875 --> 00:45:43.750
+我觉得在很多事情上，
+I think a lot of things,
+
+00:45:44.416 --> 00:45:45.625
+我们都太过于纠结了。
+we get so obsessed.
+
+00:45:46.000 --> 00:45:46.125
+我...
+I...
+
+00:45:46.125 --> 00:45:47.833
+这种现象叫做“在小事上斤斤计较”，
+This is called majoring in the minor,
+
+00:45:48.250 --> 00:45:49.791
+我们太沉迷于此了。
+where we get so obsessed.
+
+00:45:49.875 --> 00:45:50.958
+而且这不仅在金融领域是这样。
+And this is not just true in finance.
+
+00:45:51.041 --> 00:45:52.041
+在很多事情上都是如此。
+This is true with so many things.
+
+00:45:52.333 --> 00:45:52.833
+我们总是纠结
+We get obsessed
+
+00:45:52.875 --> 00:45:54.458
+那些最细枝末节的东西，
+with the most minor details
+
+00:45:54.500 --> 00:45:56.458
+但它们其实对你的生活
+that are gonna have no real impact
+
+00:45:56.541 --> 00:45:57.166
+没有实质性的影响。
+on your life.
+
+00:45:57.250 --> 00:45:57.708
+就像，让...
+Like, let...
+
+00:45:57.750 --> 00:45:58.083
+你的生活。
+Your life.
+
+00:45:58.166 --> 00:45:59.083
+记住，你的生活才是最高层级的。
+Remember, your life's up here.
+
+00:45:59.166 --> 00:46:00.666
+你的财务生活只是其中的一部分。
+Your financial life's one piece of that.
+
+00:46:00.750 --> 00:46:01.291
+就像，
+Like,
+
+00:46:01.333 --> 00:46:03.416
+我们现在讨论的只是你财务生活
+we're talking about the smallest detail
+
+00:46:03.541 --> 00:46:05.625
+这一小部分里最微小的一个细节，
+in one part of your financial life,
+
+00:46:05.708 --> 00:46:07.416
+更别提你生活的其他部分了，
+let alone the rest of your life,
+
+00:46:07.500 --> 00:46:08.750
+你的健康，你的朋友，你的家人。
+your health, your friends, your family.
+
+00:46:08.833 --> 00:46:10.416
+就是，你的生活有那么多组成部分，
+Like, there's so many parts of your life,
+
+00:46:10.750 --> 00:46:11.291
+而我们却坐在这里
+and we're sitting here
+
+00:46:11.333 --> 00:46:14.083
+为了一个最微不足道的细节争论不休，
+and arguing over the most minor detail
+
+00:46:14.166 --> 00:46:15.000
+而这仅仅发生在你生活中一、
+in one s-
+
+00:46:15.041 --> 00:46:16.083
+一小部分里，
+small portion of your life,
+
+00:46:16.625 --> 00:46:18.041
+我觉得我们错失了全局观。
+and I think we miss the big picture.
+
+00:46:18.416 --> 00:46:18.708
+这到底会
+How is
+
+00:46:18.791 --> 00:46:20.416
+怎么影响你整个财务状况
+that gonna affect the entire financial
+
+00:46:20.500 --> 00:46:20.708
+这块大蛋糕，
+pie,
+
+00:46:20.791 --> 00:46:21.208
+然后又会
+and then how is
+
+00:46:21.291 --> 00:46:22.750
+怎么影响你的一生？
+that gonna affect your whole life?
+
+00:46:22.833 --> 00:46:23.958
+无论你决定现在就买，
+Whether you decide to buy now
+
+00:46:24.000 --> 00:46:24.708
+还是等上12个月再买，
+or wait 12 months,
+
+00:46:24.791 --> 00:46:26.208
+说实话，这都没什么太大关系。
+it's kind of irrelevant, honestly.
+
+00:46:26.250 --> 00:46:28.250
+我不是想回避这个问题，
+I'm not trying to dodge the question,
+
+00:46:28.333 --> 00:46:29.750
+因为我都……比如，这些事我都干过，
+'cause I've d- like, I've done all that,
+
+00:46:29.833 --> 00:46:31.416
+我花了好几年的时间做这些，但现在我，
+so I spent years doing that, and now I'm,
+
+00:46:31.458 --> 00:46:32.916
+就像是，把视野拉远，然后觉得，好吧，
+like, zooming out and be like, well,
+
+00:46:32.958 --> 00:46:35.041
+我的意思是，我做的时候觉得挺酷，但我不、
+I mean, it was cool I did it, but I don't,
+
+00:46:35.083 --> 00:46:35.916
+我现在看不出做这些事
+I don't see the purpose
+
+00:46:35.958 --> 00:46:37.458
+还有什么意义了，因为感觉就是，
+in these things anymore because it's like,
+
+00:46:37.916 --> 00:46:39.583
+它不会影响你的财务计划。
+it's not gonna affect your financial plan.
+
+00:46:39.666 --> 00:46:41.208
+它也不会对
+It's not gonna have any impact on
+
+00:46:41.291 --> 00:46:42.333
+你的家人是否爱你产生任何影响，
+whether your family loves you,
+
+00:46:42.416 --> 00:46:43.333
+不会影响你是否是个好人。
+whether you're a good person.
+
+00:46:43.375 --> 00:46:45.708
+它就是起不到什么作用，对吧？
+Like, it doesn't do anything right?
+
+00:46:45.791 --> 00:46:47.750
+所以就是，了解一下挺有趣的，但是，
+So it's like, it's fun to know, but just,
+
+00:46:47.791 --> 00:46:48.958
+随便选一个方法，然后继续生活吧。
+just pick something and move on.
+
+00:46:49.083 --> 00:46:50.291
+把你的精力集中在其他事情上，
+Focus your energy on other things,
+
+00:46:50.375 --> 00:46:51.833
+比如你的健康，或者别的什么，你懂吧？
+your health or something else, you know?
+
+00:46:52.166 --> 00:46:53.375
+[Ray] 那些读过你的书
+[Ray] People who read your book
+
+00:46:53.458 --> 00:46:55.166
+并且照着做的人，在过去、
+and followed it have been doing
+
+00:46:55.291 --> 00:46:56.708
+过去的几年里
+pretty well during the past,
+
+00:46:56.916 --> 00:46:57.708
+收益都相当不错。
+several years.
+
+00:46:57.750 --> 00:46:59.541
+但是当他们上了社交媒体，
+But when they go on social media,
+
+00:46:59.666 --> 00:47:01.958
+看到别人晒出巨额的
+they see other people posting massive
+
+00:47:02.041 --> 00:47:02.291
+收益。
+gains.
+
+00:47:02.333 --> 00:47:04.250
+我、我在我的推特信息流里看到，比如：“好吧，
+I, I see on my Twitter feeds like, "Okay,
+
+00:47:04.375 --> 00:47:05.291
+这太简单了。
+this is so easy.
+
+00:47:05.375 --> 00:47:08.583
+今年赚了100万美元。”“我、
+This is up $1 million this year." "I,
+
+00:47:08.666 --> 00:47:10.250
+我因为 Nvidia（英伟达）
+I quit my job because of Nvidia
+
+00:47:10.375 --> 00:47:12.958
+或者是那些半导体股票辞职了，”对吧？
+or those semiconductor stocks," right?
+
+00:47:13.000 --> 00:47:15.291
+“我翻了10倍。”所以即便
+"I 10X'd." So even
+
+00:47:15.375 --> 00:47:17.416
+你自己的投资组合也在赚钱，
+though your own portfolio is winning,
+
+00:47:17.666 --> 00:47:17.750
+但就是，
+like,
+
+00:47:17.833 --> 00:47:19.083
+你感觉自己像是在亏钱，
+you feel like you're losing
+
+00:47:19.375 --> 00:47:20.458
+因为大家似乎，
+because everyone is,
+
+00:47:20.583 --> 00:47:20.791
+你知道的，
+you know,
+
+00:47:20.875 --> 00:47:22.500
+似乎赚得比你多，也比你快，
+seems to be winning more and faster,
+
+00:47:22.625 --> 00:47:22.750
+对吧？
+right?
+
+00:47:22.833 --> 00:47:23.583
+所以，
+So,
+
+00:47:23.625 --> 00:47:25.125
+所以你到底会怎么对
+so what do you actually say to
+
+00:47:25.208 --> 00:47:25.791
+那样的人说呢？
+that person?
+
+00:47:25.833 --> 00:47:27.166
+那么，你是怎么保——
+So how do you s-
+
+00:47:27.250 --> 00:47:29.041
+在牛市中保持理智的？
+stay sane in a bull market
+
+00:47:29.125 --> 00:47:30.416
+毕竟社交媒体会让人觉得
+where social media makes it feel
+
+00:47:30.458 --> 00:47:32.458
+好像每个人赚得都比你多？
+like everyone is making more than you?
+
+00:47:32.625 --> 00:47:33.708
+你会感受到那种压力吗？
+Do you feel that pressure?
+
+00:47:33.791 --> 00:47:34.916
+[Nick] 我的意思是，没有，完全没有。
+[Nick] I mean, no, not at all.
+
+00:47:35.000 --> 00:47:36.583
+老实说，我没有感受到那种。
+I mean, to be honest, not that one.
+
+00:47:36.666 --> 00:47:37.000
+怎么说呢，
+I mean,
+
+00:47:37.041 --> 00:47:38.291
+我会感受到不同类型的压力，
+I feel different types of pressure,
+
+00:47:38.375 --> 00:47:38.916
+来自各种不同的事情，
+different things,
+
+00:47:38.958 --> 00:47:41.125
+但绝对不是那种压力，因为那、
+but not that one at all because it's the,
+
+00:47:41.208 --> 00:47:41.500
+那是，
+it's,
+
+00:47:41.583 --> 00:47:43.416
+那就是披着其他外衣的
+it's the turkey problem disguised
+
+00:47:43.500 --> 00:47:44.208
+火鸡问题。
+as something else.
+
+00:47:44.250 --> 00:47:44.916
+当然，这不像，
+Now, it's not as,
+
+00:47:45.000 --> 00:47:46.583
+这不像火鸡问题那么糟糕，
+it's not as bad as the turkey problem,
+
+00:47:46.625 --> 00:47:47.541
+但它有点类似，
+but it's kind of like it
+
+00:47:47.583 --> 00:47:48.000
+因为这就
+because it's
+
+00:47:48.083 --> 00:47:49.916
+像是一个人现在采用的
+like you have someone who's taking a
+
+00:47:50.041 --> 00:47:52.041
+策略可能非常冒险，
+strategy now might be quite risky,
+
+00:47:52.083 --> 00:47:52.916
+然后他们可能会——
+and they're g-
+
+00:47:52.958 --> 00:47:54.166
+他们现在可能赚得盆满钵满，
+they might be doing well now,
+
+00:47:54.250 --> 00:47:55.416
+如果他们收手，如果他们说，“嘿，
+and if they quit, if they say, "Hey,
+
+00:47:55.583 --> 00:47:55.958
+我不玩了。
+I'm done.
+
+00:47:56.000 --> 00:47:57.166
+我辞职了。
+I quit my job.
+
+00:47:57.250 --> 00:47:59.041
+我不打算继续让我的钱去冒险了，”
+I'm not gonna keep risking my money,"
+
+00:47:59.583 --> 00:48:00.958
+那么他们大概率会过得不错。
+they're gonna probably do fine.
+
+00:48:01.333 --> 00:48:02.166
+但实际发生的是，
+But what happens,
+
+00:48:02.250 --> 00:48:04.708
+你会发现这些人根本停不下来。
+and you'll see these people cannot quit.
+
+00:48:04.833 --> 00:48:06.291
+比如，我在加密货币圈就见过。
+Like, I've seen it with crypto.
+
+00:48:06.375 --> 00:48:07.083
+大家...
+People...
+
+00:48:07.166 --> 00:48:08.916
+我读过一些炒币的人的故事，
+I've read stories of crypto people
+
+00:48:09.000 --> 00:48:09.791
+他们赚了，
+who are up,
+
+00:48:09.875 --> 00:48:10.666
+你懂的，八位数。
+you know, eight figures.
+
+00:48:10.750 --> 00:48:12.291
+他们赚到了1000万美金。
+They hit $10 million.
+
+00:48:12.333 --> 00:48:13.583
+那可是一大笔钱。
+That is a ton of money.
+
+00:48:13.875 --> 00:48:15.083
+他们有没有，他们有没有卖掉所有资产，
+Did they, did they sell everything,
+
+00:48:15.250 --> 00:48:16.125
+全买成国债，
+go into treasury bills,
+
+00:48:16.208 --> 00:48:17.875
+然后就靠那笔钱生活了，你知道的，
+and just live their life off of, you know,
+
+00:48:18.333 --> 00:48:19.250
+它的4%是多少？
+what, what's 4% of that?
+
+00:48:19.375 --> 00:48:20.083
+40万？
+400,000?
+
+00:48:20.166 --> 00:48:22.000
+他们每年可以靠40万美元生活，
+They could live off of $400,000 a year,
+
+00:48:22.208 --> 00:48:23.666
+余生都遵循4%法则。
+4% rule for the rest of their life.
+
+00:48:23.750 --> 00:48:24.833
+再也不用为钱发愁了，对吧？
+Never have to worry about it, right?
+
+00:48:25.250 --> 00:48:26.083
+他们这么做了吗？
+Did they do that?
+
+00:48:26.166 --> 00:48:27.041
+大多数人并没有。
+Most did not.
+
+00:48:27.250 --> 00:48:28.916
+他们继续玩这个游戏，然后，“哦，
+They kept playing the game and then, "Oh,
+
+00:48:28.958 --> 00:48:31.625
+我跌了90%。”我见过有人坐过山车，
+I'm down 90%." I've seen people round trip
+
+00:48:31.708 --> 00:48:32.250
+涨到七位，
+up to seven,
+
+00:48:32.333 --> 00:48:32.583
+你知道，
+you know,
+
+00:48:32.625 --> 00:48:33.916
+七位数，达到几百万，
+seven figures into the millions and
+
+00:48:34.000 --> 00:48:34.250
+然后跌——
+then d-
+
+00:48:34.291 --> 00:48:34.791
+跌回原点。
+back down.
+
+00:48:34.875 --> 00:48:35.000
+你知道，
+You know,
+
+00:48:35.083 --> 00:48:36.166
+我有个好朋友
+I have a good friend
+
+00:48:36.250 --> 00:48:38.000
+买了一些Solana猴子的
+who bought these Solana monkey,
+
+00:48:38.625 --> 00:48:39.458
+NFT。
+NFTs.
+
+00:48:39.541 --> 00:48:40.416
+他有七个。
+He had seven of them.
+
+00:48:40.541 --> 00:48:43.291
+他花了，我想大概是350，250块钱左右，
+He spent, I think $350, 250 bucks,
+
+00:48:43.375 --> 00:48:43.875
+差不多这个数，
+something like that,
+
+00:48:43.916 --> 00:48:45.125
+几乎等于没花钱。
+like literally almost nothing.
+
+00:48:45.708 --> 00:48:46.291
+有一段时间，
+At one point,
+
+00:48:46.375 --> 00:48:48.458
+他手里有超过一百万美元。扣除
+he had over a million dollars.All
+
+00:48:48.583 --> 00:48:49.833
+税费和其他一切后全额的钱，
+in after you pay taxes and everything,
+
+00:48:49.875 --> 00:48:51.083
+然后市场崩盘了，他卖掉了，
+and everything crashed and he sold,
+
+00:48:51.375 --> 00:48:52.375
+他拿回了9万块。
+he got $90,000.
+
+00:48:52.416 --> 00:48:54.375
+所以他还是把300块
+So he still took 300 bucks
+
+00:48:54.416 --> 00:48:55.708
+变成了9万美元。
+and turned it into $90,000.
+
+00:48:55.750 --> 00:48:56.500
+疯了吧，对吧？
+Insane, right?
+
+00:48:56.541 --> 00:48:57.958
+这，这太——那可是一大笔钱，
+It's, it's cha-- That's a lot of money,
+
+00:48:58.041 --> 00:48:58.125
+对吧？
+right?
+
+00:48:58.166 --> 00:48:59.000
+又不是一笔小数目。
+It's not nothing.
+
+00:48:59.208 --> 00:49:00.333
+但他本来可以有一百万的，
+But he could have had a million
+
+00:49:00.416 --> 00:49:01.041
+如果他在最高点抛售，
+if he sold the top,
+
+00:49:01.083 --> 00:49:02.375
+但这，这很难预测，对吧？
+but it, it's hard to know that, right?
+
+00:49:02.458 --> 00:49:03.625
+他不知道哪里是顶点。
+He didn't know where the top was.
+
+00:49:03.666 --> 00:49:05.041
+他继续持有，然后亏了一大笔。
+He kept going and then he lost a ton.
+
+00:49:05.333 --> 00:49:06.625
+亏的比赚的多，对吧？
+He lost more than he made, right?
+
+00:49:06.708 --> 00:49:07.583
+但他还是赚了一大笔。
+But he still made a ton.
+
+00:49:07.625 --> 00:49:09.375
+所以这，这是个奇怪的例子。
+So it's, it's a weird example.
+
+00:49:09.750 --> 00:49:10.666
+这种事时有发生。
+These things happen.
+
+00:49:11.041 --> 00:49:11.916
+但非常罕见。
+They're quite rare.
+
+00:49:12.125 --> 00:49:13.750
+第一，在社交媒体上，这很罕见。
+Number one, social media, it's quite rare.
+
+00:49:13.833 --> 00:49:14.875
+你只会看到赢家。
+You're only gonna see the winners.
+
+00:49:15.291 --> 00:49:15.666
+你知道，
+You know,
+
+00:49:15.750 --> 00:49:16.541
+很少有人会说，
+it's very rare that people are like,
+
+00:49:16.583 --> 00:49:16.958
+“我的天，
+"Oh my God,
+
+00:49:17.000 --> 00:49:17.125
+看看
+look at
+
+00:49:17.166 --> 00:49:18.208
+这么多钱。”谁会去说，
+how much money." Who's gonna be like,
+
+00:49:18.291 --> 00:49:18.625
+“嘿，伙计们，
+"Hey, guys,
+
+00:49:18.666 --> 00:49:19.541
+看看我亏了多少钱”？
+look at how much money I lost"?
+
+00:49:19.625 --> 00:49:20.041
+非常罕见。
+Very rare.
+
+00:49:20.083 --> 00:49:21.333
+确实有，但很少见，对吧？
+It does happen, but it's rare, right?
+
+00:49:21.958 --> 00:49:22.666
+所以这是一点。
+So that's one thing.
+
+00:49:22.750 --> 00:49:24.041
+你不会看到所有的输家，
+You're not gonna see all the losers,
+
+00:49:25.041 --> 00:49:26.000
+这会让你产生偏见。
+and it kind of biases you.
+
+00:49:26.416 --> 00:49:28.375
+然后第二，就像，这会如何影响，
+And then two, like, how does it impact,
+
+00:49:28.458 --> 00:49:29.125
+你的长期规划？
+like, your long term?
+
+00:49:29.208 --> 00:49:29.541
+再说一次，
+Once again,
+
+00:49:29.625 --> 00:49:31.000
+你的长期财务计划是什么？
+what's your long-term financial plan?
+
+00:49:31.083 --> 00:49:32.750
+这对你有什么影响，比如，
+How is that impacting you, like,
+
+00:49:33.000 --> 00:49:34.458
+去尝试这些策略？
+going and trying these strategies?
+
+00:49:34.541 --> 00:49:36.875
+我唯一关心的成功，
+The only version of success I care
+
+00:49:36.916 --> 00:49:38.291
+就是你是否存活下来了。
+about is whether you survive.
+
+00:49:38.500 --> 00:49:39.250
+仅此而已。
+That's it.
+
+00:49:39.333 --> 00:49:40.041
+你可以觉得，“看，
+You can be like, "Look,
+
+00:49:40.083 --> 00:49:41.083
+我的钱比你多得多，
+I have way more money than you,
+
+00:49:41.166 --> 00:49:41.833
+Nick。”很好。
+Nick." Great.
+
+00:49:41.916 --> 00:49:42.666
+没关系。
+That's fine.
+
+00:49:42.708 --> 00:49:43.375
+如果你——
+If you're d-
+
+00:49:43.416 --> 00:49:43.875
+如果你是通过高风险策略
+if you made
+
+00:49:43.958 --> 00:49:46.208
+赚到那笔钱的，
+that money following a risky strategy,
+
+00:49:46.291 --> 00:49:47.333
+我会祝你好运，
+I will say good luck to you,
+
+00:49:47.416 --> 00:49:49.375
+因为如果你不放弃这种策略，
+because if you don't quit that strategy,
+
+00:49:49.416 --> 00:49:50.333
+很有可能
+it's very likely
+
+00:49:50.500 --> 00:49:52.125
+最后你会输掉大部分的
+in the end you will end up losing a lot of
+
+00:49:52.208 --> 00:49:52.916
+钱，
+that money,
+
+00:49:53.000 --> 00:49:54.416
+到那时候我的钱
+and then I might end up having more
+
+00:49:54.500 --> 00:49:54.833
+可能会比你多。
+than you.
+
+00:49:54.875 --> 00:49:55.958
+甚至，根本不是比这个。
+And it, it's not even about that.
+
+00:49:56.041 --> 00:49:57.041
+但你明白我的意思，对吧？
+But you get my point, right?
+
+00:49:57.375 --> 00:49:57.625
+唯一
+The only thing
+
+00:49:57.666 --> 00:49:58.916
+重要的事就是你能否活到
+that matters is do you just survive
+
+00:49:59.000 --> 00:49:59.375
+最后？
+to the end?
+
+00:49:59.416 --> 00:50:00.208
+你能用你的钱
+Can you use your money
+
+00:50:00.291 --> 00:50:01.166
+去过你想过的生活吗？
+to live the life you want?
+
+00:50:01.250 --> 00:50:03.041
+那才是终极
+That's the ultimate only thing
+
+00:50:03.083 --> 00:50:03.583
+唯一重要的事。
+that matters.
+
+00:50:03.625 --> 00:50:03.750
+而且
+And
+
+00:50:03.791 --> 00:50:05.083
+所以你能用你的钱
+so can you use your money
+
+00:50:05.125 --> 00:50:05.958
+去过你想过的生活吗？
+to live the life you want?
+
+00:50:06.125 --> 00:50:06.958
+如果能，那很好。
+If so, great.
+
+00:50:07.041 --> 00:50:07.458
+如果不能，
+If not,
+
+00:50:07.541 --> 00:50:08.041
+那也许你需要
+then maybe you need
+
+00:50:08.125 --> 00:50:09.000
+改变你的策略。
+to change your strategy.
+
+00:50:09.416 --> 00:50:11.375
+现在我正过着我想过的生活。
+So I'm living the life I wanna live.
+
+00:50:11.500 --> 00:50:12.875
+我认为这对我来说才是重要的。
+I think that's what's important to me.
+
+00:50:13.791 --> 00:50:15.208
+你是在为你自己这么做吗？
+Are you doing that for yourself?
+
+00:50:15.291 --> 00:50:16.750
+这是我要抛给，
+That's the question I have to,
+
+00:50:16.833 --> 00:50:17.333
+抛给观众的问题。
+to the viewer.
+
+00:50:17.416 --> 00:50:18.791
+所以不要再担心别人了，
+And so stop worrying about other people
+
+00:50:18.833 --> 00:50:19.916
+因为你不知道他们身上
+because you don't know what's gonna happen
+
+00:50:20.000 --> 00:50:20.125
+会发生什么。
+to them.
+
+00:50:20.208 --> 00:50:21.125
+你不知道结局。
+You don't know the end.
+
+00:50:21.583 --> 00:50:22.791
+你只知道中间，或者，像，
+You just know the middle or, like,
+
+00:50:22.833 --> 00:50:24.125
+开始的章节或是中间。
+the beginning chapter or the middle.
+
+00:50:24.208 --> 00:50:25.708
+你还不知道那故事的
+You don't know the ending of that story
+
+00:50:25.791 --> 00:50:25.916
+结局。
+yet.
+
+00:50:26.000 --> 00:50:27.625
+所以很容易会说，“哦，
+And so it's very easy to say, "Oh,
+
+00:50:27.750 --> 00:50:29.416
+我做错了。”你不知道
+I'm doing the wrong thing." You don't know
+
+00:50:29.500 --> 00:50:30.291
+结果会是怎样。
+how that's gonna turn out.
+
+00:50:30.375 --> 00:50:30.583
+甚至
+And even
+
+00:50:30.666 --> 00:50:31.708
+就算结果真的是那样，
+if it does turn out a certain way,
+
+00:50:31.791 --> 00:50:32.500
+他们可能只是运气好。
+they could just get lucky.
+
+00:50:32.541 --> 00:50:33.291
+你并不真的清楚。
+You don't really know.
+
+00:50:33.375 --> 00:50:33.916
+这就是，
+That's the,
+
+00:50:34.000 --> 00:50:35.208
+很多这类事情的
+that's the problem with a lot
+
+00:50:35.250 --> 00:50:35.666
+问题所在。
+of these things.
+
+00:50:35.708 --> 00:50:36.791
+在很多这些领域，你分不清运气
+You don't know the difference between luck
+
+00:50:36.875 --> 00:50:38.500
+和实力之间的区别。
+and skill in a lot of these areas.
+
+00:50:38.708 --> 00:50:39.541
+[Ray] 很多人说，
+[Ray] A lot of people saying,
+
+00:50:39.833 --> 00:50:40.958
+市场处于如此高位，
+with market this high,
+
+00:50:41.416 --> 00:50:42.750
+那些
+the investors
+
+00:50:43.083 --> 00:50:43.458
+处境
+that are
+
+00:50:43.541 --> 00:50:45.875
+最尴尬的投资者就是刚刚入场的
+in the most awkward position are the new
+
+00:50:45.958 --> 00:50:47.166
+新人。
+ones who just started.
+
+00:50:47.416 --> 00:50:48.333
+他们有这样一种恐惧，
+They have this fear
+
+00:50:48.375 --> 00:50:49.666
+觉得自己买入了一个非常、
+that I'm buying to a really,
+
+00:50:49.750 --> 00:50:51.291
+非常高的市场，
+really high market,
+
+00:50:51.916 --> 00:50:54.458
+未来市场走势大概率
+and the chances it's gonna be against me
+
+00:50:54.541 --> 00:50:55.375
+会对自己不利。
+in the future.
+
+00:50:55.541 --> 00:50:56.500
+[Nick] 你——你可能不会喜欢我的答案，
+[Nick] Y- you're not gonna like my answer,
+
+00:50:56.583 --> 00:50:58.291
+但我要说，这对年轻的新投资者来说
+but I'm gonna say it really doesn't matter
+
+00:50:58.375 --> 00:51:00.458
+真的没那么重要。
+that much for the new young investor.
+
+00:51:00.541 --> 00:51:01.375
+我这么说，
+And when I say that,
+
+00:51:01.708 --> 00:51:03.416
+是假设这位年轻的新投资者一开始
+I'm assuming the new young investor does
+
+00:51:03.458 --> 00:51:05.375
+就没有多少钱
+not have a lot of money to lose to begin
+
+00:51:05.416 --> 00:51:05.625
+可以亏。
+with.
+
+00:51:05.708 --> 00:51:06.375
+坦白说吧。
+Let's be honest.
+
+00:51:06.416 --> 00:51:07.083
+所以——
+So-
+
+00:51:07.166 --> 00:51:07.375
+[Ray] 是的
+[Ray] Yeah
+
+00:51:07.416 --> 00:51:07.541
+[Nick] ……
+[Nick] ...
+
+00:51:07.541 --> 00:51:08.500
+真的没那么重要。
+it doesn't matter that much.
+
+00:51:08.541 --> 00:51:09.958
+那我会建议关注什么呢？
+So what do I say to focus on?
+
+00:51:10.041 --> 00:51:11.375
+关注你的事业。
+Focus on your career.
+
+00:51:11.416 --> 00:51:13.208
+你会赚到多得多的钱，
+You're gonna make so much more money
+
+00:51:13.333 --> 00:51:14.000
+如果你长期
+if you focus
+
+00:51:14.083 --> 00:51:15.958
+把重心放在事业上。
+on your career over the long term.
+
+00:51:16.041 --> 00:51:17.000
+你能培养什么技能？
+What skills can you build?
+
+00:51:17.083 --> 00:51:18.416
+你怎样才能学会更好地使用AI？
+How can you learn to use AI better?
+
+00:51:18.500 --> 00:51:18.708
+你怎样……
+How can...
+
+00:51:18.791 --> 00:51:19.250
+诸如此类。
+Whatever.
+
+00:51:19.333 --> 00:51:19.708
+现实中有很多
+There's a lot
+
+00:51:19.791 --> 00:51:20.833
+不同的职业，
+of different careers out there,
+
+00:51:20.875 --> 00:51:21.208
+也有很多
+and there's a lot
+
+00:51:21.291 --> 00:51:22.541
+不同的事情你可以做。
+of different things you can do.
+
+00:51:22.666 --> 00:51:23.583
+你想做内容吗？
+Do you wanna make content?
+
+00:51:23.625 --> 00:51:24.791
+你想开发软件吗？
+Do you wanna create software?
+
+00:51:25.000 --> 00:51:27.333
+无论是什么，把那件事搞清楚。
+Whatever it is, figure that thing out.
+
+00:51:27.500 --> 00:51:28.416
+这比市场
+That's way more important
+
+00:51:28.500 --> 00:51:29.458
+正在发生什么要重要得多。
+than what's happening with the market.
+
+00:51:29.541 --> 00:51:30.625
+你说得对，比如，好吧，
+And you're right, like, well,
+
+00:51:30.708 --> 00:51:32.375
+如果我经历了一个糟糕的十年会怎样？
+what happens if I go through a bad decade?
+
+00:51:32.791 --> 00:51:34.125
+经历一个糟糕的十年，
+It's better to go through a bad decade
+
+00:51:34.208 --> 00:51:36.000
+在你投资生涯的初期
+at the beginning of your investment career
+
+00:51:36.041 --> 00:51:36.791
+远比在末期要好。
+than the end.
+
+00:51:36.875 --> 00:51:37.250
+相信我，
+Trust me,
+
+00:51:37.291 --> 00:51:39.000
+你绝对不想在最后一年
+you do not want the bad decade
+
+00:51:39.041 --> 00:51:39.875
+遇到糟糕的十年。
+in the last year.
+
+00:51:39.958 --> 00:51:41.041
+你会希望你最好的十年
+You want your best decade
+
+00:51:41.125 --> 00:51:42.750
+是你投资生涯的最后十年，
+to be the last decade you ever invest,
+
+00:51:42.791 --> 00:51:44.541
+那时也是你可亏损的本金最多的时候。
+when you have the most money to lose.
+
+00:51:44.833 --> 00:51:45.375
+在这点上相信我。
+Trust me on this.
+
+00:51:45.458 --> 00:51:47.666
+这背后的数学逻辑是无可辩驳的。
+The math on, on this is undeniable.
+
+00:51:47.791 --> 00:51:49.291
+你可以算算，比如，如果你投100……
+You can do, like, if you're putting 100...
+
+00:51:49.458 --> 00:51:50.875
+假设你每年投入1000美元，
+Let's say you put $1,000 a year
+
+00:51:50.958 --> 00:51:52.250
+市场上涨五年，
+and the market's going up five years,
+
+00:51:52.333 --> 00:51:53.625
+然后下跌五年。
+then down five years.
+
+00:51:53.708 --> 00:51:54.958
+或者市场先下跌
+Or you have the market go down
+
+00:51:55.041 --> 00:51:55.416
+五年，
+for five years,
+
+00:51:55.500 --> 00:51:56.166
+再以上涨相同的幅度
+then up for five years
+
+00:51:56.250 --> 00:51:57.375
+回升五年。
+by the same magnitude.
+
+00:51:57.458 --> 00:51:59.000
+先跌远比先涨要好。
+It's far better to go down than up.
+
+00:51:59.083 --> 00:52:00.875
+最终你会拥有更多的钱，对吧？
+You will end up with more money, right?
+
+00:52:00.958 --> 00:52:01.625
+而且因为你……
+And because you...
+
+00:52:01.708 --> 00:52:02.083
+猜怎么着？
+Guess what?
+
+00:52:02.166 --> 00:52:02.708
+到了第五年，
+By year five,
+
+00:52:02.791 --> 00:52:03.916
+你投入了更多的钱。
+you have more money invested.
+
+00:52:04.000 --> 00:52:05.875
+你的本金盘子变得更大了。
+You have more money added to the pile.
+
+00:52:05.958 --> 00:52:06.375
+所以
+So
+
+00:52:06.458 --> 00:52:07.833
+当市场在接下来的五年里
+when you come back up over the next five
+
+00:52:07.875 --> 00:52:08.375
+回升时，
+years,
+
+00:52:08.458 --> 00:52:10.083
+你最终会赚到多得多的钱。
+you end up making so much more money.
+
+00:52:10.208 --> 00:52:12.625
+所以相信我，你会希望坏的、
+So trust me, you want the, the bad,
+
+00:52:12.916 --> 00:52:13.958
+你希望现在就把糟糕的经历走完。
+you want the bad stuff now.
+
+00:52:14.041 --> 00:52:15.708
+所以，我宁愿在今天做一个年轻的投资者，
+So I'd rather be a young investor today
+
+00:52:15.791 --> 00:52:16.291
+而不是，
+than,
+
+00:52:16.333 --> 00:52:17.208
+在其他条件相同的情况下……
+all else equal with my...
+
+00:52:17.291 --> 00:52:18.333
+假设我的职业发展轨迹一样，
+Assuming my career was the same,
+
+00:52:18.666 --> 00:52:20.125
+我宁愿在今天做个年轻投资者，
+I'd rather be a young investor today
+
+00:52:20.208 --> 00:52:21.500
+也不愿像2012年那样开始投资。
+than starting in 2012.
+
+00:52:21.541 --> 00:52:22.416
+我想说的就是这些。
+I'll tell you that much.
+
+00:52:22.625 --> 00:52:24.750
+[Ray] 一是专注于提升自己的收入。
+[Ray] One is, to, focus on their income.
+
+00:52:25.125 --> 00:52:27.333
+另一点是专注于学习
+Another thing is focusing on learning
+
+00:52:27.416 --> 00:52:28.291
+投资相关的知识。
+about investment.
+
+00:52:28.416 --> 00:52:31.166
+如果我是一个刚起步的年轻投资者，
+If I'm a young starting investor,
+
+00:52:31.541 --> 00:52:32.875
+我的收入并不高。
+I don't have a lot of, income.
+
+00:52:32.958 --> 00:52:33.875
+我在努力提升收入，
+I'm focusing on my income,
+
+00:52:33.958 --> 00:52:34.708
+但与此同时，
+but at the same time,
+
+00:52:34.750 --> 00:52:36.541
+我也想学习投资。
+I wanna learn about investing.
+
+00:52:36.625 --> 00:52:38.000
+那我应该从哪里开始呢？
+So where should I start?
+
+00:52:38.166 --> 00:52:38.791
+[Nick] 我觉得……
+[Nick] I mean, I'm...
+
+00:52:38.875 --> 00:52:41.208
+你应该选择最适合你
+You should do whatever type of information
+
+00:52:41.291 --> 00:52:42.625
+吸收信息的任何方式。
+that you absorb the best.
+
+00:52:42.833 --> 00:52:44.583
+我个人很喜欢阅读。
+I personally love reading.
+
+00:52:44.916 --> 00:52:46.000
+我什么都尽量去读。
+I try to read everything.
+
+00:52:46.125 --> 00:52:47.541
+所以我就会一直阅读，
+So I would just read,
+
+00:52:47.666 --> 00:52:48.500
+看看你对什么感兴趣，
+kind of see what interests you,
+
+00:52:48.583 --> 00:52:49.541
+然后不断阅读这些内容。
+kind of keep reading this stuff.
+
+00:52:50.083 --> 00:52:52.250
+我知道，我也理解，
+And I know, I understand, like, you know,
+
+00:52:52.333 --> 00:52:53.708
+当你只是在吸收信息时，你会感觉
+it can feel like you're getting a lot done
+
+00:52:53.750 --> 00:52:55.125
+自己好像完成了很多事情。
+when you're just consuming information.
+
+00:52:55.208 --> 00:52:55.833
+但在某个阶段，
+At some point,
+
+00:52:55.875 --> 00:52:57.250
+你得真正去做点什么，
+you wanna actually do something,
+
+00:52:57.333 --> 00:52:59.000
+去产出点东西，无论是做内容，
+produce something, whether that's content,
+
+00:52:59.041 --> 00:53:00.375
+还是写点什么，
+whether that's you wanna write something,
+
+00:53:00.416 --> 00:53:01.666
+或是写投资日志。
+have a investment log.
+
+00:53:01.750 --> 00:53:03.041
+有很多方法可以做到这一点。
+There's a lot of ways you can do this.
+
+00:53:03.125 --> 00:53:04.541
+但是，你知道的，在某个阶段，
+But, you know, at some point,
+
+00:53:04.625 --> 00:53:06.000
+你会想要真正开始
+you're gonna wanna start actually
+
+00:53:06.083 --> 00:53:06.458
+去产出。
+producing.
+
+00:53:06.541 --> 00:53:07.458
+这不一定要马上发生。
+It doesn't have to happen right away.
+
+00:53:07.541 --> 00:53:08.416
+你可以花几年的时间。
+You can take a few years.
+
+00:53:08.541 --> 00:53:09.750
+我也不是一开始就写作的……
+I didn't start writing...
+
+00:53:09.833 --> 00:53:11.083
+要知道，我开始接触投资
+I was into investing, you know,
+
+00:53:11.166 --> 00:53:11.875
+是在2012年。
+since 2012.
+
+00:53:11.958 --> 00:53:13.791
+但直到2017年我才开始写博客。
+I didn't start my blog till 2017.
+
+00:53:13.875 --> 00:53:15.541
+所以我花了五年的时间去阅读，
+So it took me five years of me reading
+
+00:53:15.583 --> 00:53:16.416
+去做这些事情。
+and doing all this stuff.
+
+00:53:16.500 --> 00:53:17.333
+当我刚开始写作的时候，
+When I first started writing,
+
+00:53:17.375 --> 00:53:18.208
+我写得并不好。
+I wasn't that good at it.
+
+00:53:18.291 --> 00:53:19.708
+随着时间的推移，我也进步了很多。
+I got a lot better over time as well.
+
+00:53:19.750 --> 00:53:20.583
+所以这里有很多……
+So there's a lot of...
+
+00:53:20.708 --> 00:53:22.791
+“做”这个动作会迫使你在很多方面
+The act of doing forces you to get better
+
+00:53:22.875 --> 00:53:23.500
+变得更好。
+at a lot of things.
+
+00:53:23.583 --> 00:53:24.541
+这就是我的建议。
+So that's what I would say.
+
+00:53:24.583 --> 00:53:25.958
+[Ray] 那你每天读多少书呢？
+[Ray] So how much do you read every day?
+
+00:53:26.166 --> 00:53:27.458
+[Nick] 我以前读得比较多。
+[Nick] I used to read a lot more.
+
+00:53:27.791 --> 00:53:28.916
+再说一次，我刚生了孩子，
+I just, once again, I just had a kid,
+
+00:53:29.000 --> 00:53:29.833
+所以……
+so it's...
+
+00:53:30.125 --> 00:53:30.875
+这其实没什么可比性。
+That, that's not really relevant.
+
+00:53:30.958 --> 00:53:32.125
+在有孩子之前，我
+Before I had the kid, I,
+
+00:53:32.166 --> 00:53:33.000
+阅读量还挺大的。
+I read a decent amount.
+
+00:53:33.041 --> 00:53:33.916
+我大概每年能读
+I'd probably say I read
+
+00:53:34.000 --> 00:53:34.833
+10本书左右。
+about 10 books a year.
+
+00:53:34.875 --> 00:53:36.833
+不是什么疯狂或让人惊叹的数字，比如
+Nothing that crazy or impressive, like,
+
+00:53:36.875 --> 00:53:38.416
+“天哪，一年读100本书”那种。
+oh my God, reading 100 books a year.
+
+00:53:38.541 --> 00:53:38.916
+我知道有人能做到。
+I know.
+
+00:53:39.000 --> 00:53:40.541
+我想我一年内读得最多的一次，
+I think my highest I ever did in a year,
+
+00:53:40.666 --> 00:53:42.000
+大概是25到30本书。
+maybe 25, 30 books.
+
+00:53:42.083 --> 00:53:43.416
+所以我的阅读量并不算
+So I wasn't doing super,
+
+00:53:43.500 --> 00:53:44.500
+特别特别大。
+super crazy volume.
+
+00:53:44.958 --> 00:53:46.625
+但你知道，重要的不是数量。
+But you know, it's not really the volume.
+
+00:53:46.708 --> 00:53:47.833
+更多的是关于理解
+It's more about just understanding
+
+00:53:47.916 --> 00:53:48.666
+以及投入时间。
+and just spending time.
+
+00:53:48.708 --> 00:53:49.916
+而且我不只读投资类的书。
+And I'm not just reading investment books.
+
+00:53:50.000 --> 00:53:52.041
+我读了很多非虚构类的书，
+I read a lot of just nonfiction,
+
+00:53:52.083 --> 00:53:52.875
+非投资类的书，
+non-investment books,
+
+00:53:52.958 --> 00:53:54.666
+因为你可以从生物学、
+'cause you learn things from biology,
+
+00:53:54.708 --> 00:53:57.291
+历史学、地质学等等学科中学到东西，
+from, you know, history, geology, what,
+
+00:53:57.375 --> 00:53:58.125
+所有这些不同的领域。
+all these different things.
+
+00:53:58.208 --> 00:53:58.583
+通常，
+There's,
+
+00:53:58.666 --> 00:53:59.916
+里面都会有一些内容
+there's usually pieces in there
+
+00:54:00.000 --> 00:54:01.416
+以某种方式
+that are related to investing in some way
+
+00:54:01.500 --> 00:54:02.083
+和投资联系起来。
+or another.
+
+00:54:02.125 --> 00:54:02.958
+[Ray] 最后一个问题。
+[Ray] One last question.
+
+00:54:02.958 --> 00:54:03.208
+[Nick] 嗯哼。
+[Nick] Mm-hmm.
+
+00:54:03.208 --> 00:54:03.666
+[Ray] 在目前的市场中，
+[Ray] What do you see
+
+00:54:03.750 --> 00:54:05.791
+你觉得散户投资者犯的
+in this market the biggest mistake
+
+00:54:05.958 --> 00:54:07.791
+最大的错误是什么？
+retail investors are making?
+
+00:54:07.958 --> 00:54:09.291
+[Nick] 我手头没有这方面的数据。
+[Nick] I don't have data on this.
+
+00:54:09.458 --> 00:54:10.750
+我不知道具体的错误是什么。
+I don't know what the mistake is.
+
+00:54:11.416 --> 00:54:14.208
+我猜人们现在可能承担了
+My guess is people are probably taking too
+
+00:54:14.250 --> 00:54:15.041
+太多的风险，
+much risk right now,
+
+00:54:15.083 --> 00:54:16.875
+太多不够分散的风险。
+too much undiversified risk.
+
+00:54:16.958 --> 00:54:17.625
+这是我的猜测。
+That's my guess.
+
+00:54:17.708 --> 00:54:17.791
+比如，
+Like,
+
+00:54:17.875 --> 00:54:20.791
+你可以持有 Nvidia 和 Microsoft
+you can own NVIDIA and Microsoft
+
+00:54:21.166 --> 00:54:21.958
+还有 Apple，
+and Apple,
+
+00:54:22.041 --> 00:54:22.791
+然后你会觉得：“哦你看，
+and you're like, "Oh look,
+
+00:54:22.833 --> 00:54:24.166
+我的投资很分散了，” 但实际上，
+I'm diversified," but you're really,
+
+00:54:24.458 --> 00:54:25.833
+你在科技股上非常集中。
+you're pretty concentrated in tech.
+
+00:54:25.916 --> 00:54:27.458
+我知道有人会说：“可是 Nick，
+And I know someone said, "Well, Nick,
+
+00:54:27.541 --> 00:54:29.083
+S&amp;P 500 不也是集中在
+isn't the S&amp;P 500 concentrated
+
+00:54:29.125 --> 00:54:30.125
+科技股吗？” 是的，
+in tech?" Yes,
+
+00:54:30.250 --> 00:54:32.041
+确实如此，但这其实更糟。
+it is, but that's even worse.
+
+00:54:32.125 --> 00:54:33.666
+只投资少数几家公司的
+Only individual stocks in a handful
+
+00:54:33.708 --> 00:54:34.208
+个股，
+of companies
+
+00:54:34.250 --> 00:54:35.333
+还以为自己的投资很分散。
+and thinking you're diversified.
+
+00:54:35.916 --> 00:54:36.791
+我觉得这并不像大家想的
+I don't think it's diversified
+
+00:54:36.875 --> 00:54:37.583
+那么分散。
+as people think it is.
+
+00:54:37.625 --> 00:54:38.625
+所以这是我的看法，
+So that's my,
+
+00:54:38.791 --> 00:54:40.458
+总的来说我认为，
+my counter is I think in general,
+
+00:54:40.541 --> 00:54:41.958
+散户投资者的资金分散程度
+retail investors are probably not
+
+00:54:42.041 --> 00:54:42.875
+可能还不够。
+diversified enough.
+
+00:54:43.000 --> 00:54:43.958
+[Ray] 感谢你抽出时间，Nick，
+[Ray] Thank you, Nick, for your time,
+
+00:54:44.125 --> 00:54:44.833
+我很期待
+and I look forward
+
+00:54:44.916 --> 00:54:46.458
+下次与你的对话。
+to our next conversation with you.
+
+00:54:46.541 --> 00:54:46.750
+[Nick] 谢谢。
+[Nick] Thank you.
+
+00:54:46.833 --> 00:54:47.166
+很感谢。
+Appreciate it.
+
+00:54:47.250 --> 00:54:48.041
+如果有人有问题，
+If anyone has questions,
+
+00:54:48.083 --> 00:54:50.833
+随时可以在 X、Instagram、
+feel free to DM me on X, Instagram,
+
+00:54:51.541 --> 00:54:52.583
+LinkedIn 上私信我，哪里能找到我都行。
+LinkedIn, wherever you find me.
+
+00:54:52.625 --> 00:54:54.250
+我很乐意回答你们的任何问题。
+I'm happy to answer any questions you can.
+
+00:54:54.333 --> 00:54:54.833
+如果你不会说英语，
+Feel free to, like,
+
+00:54:54.875 --> 00:54:55.791
+也可以随时
+just use a translator
+
+00:54:55.875 --> 00:54:56.916
+使用翻译软件。
+if you don't speak English.
+
+00:54:57.000 --> 00:54:57.791
+我可以翻译回来。
+I can translate back.
+
+00:54:57.875 --> 00:54:58.291
+没问题的。
+It's all good.
+
+00:54:58.375 --> 00:54:59.041
+感谢你的时间，
+Thank you for your time,
+
+00:54:59.083 --> 00:54:59.750
+也感谢你邀请我。
+and thank you for having me on.
+
+00:54:59.833 --> 00:55:00.750
+我真的很感激，Ray。
+I truly appreciate it, Ray.
+
+00:55:00.750 --> 00:55:02.625
+OK,非常感谢Nick就是这个访谈,
+
+00:55:02.625 --> 00:55:04.333
+最后想给大家分享个有趣的事,
+
+00:55:04.333 --> 00:55:07.875
+就是我是个投资博主,很长一段时间我对我太太说,
+
+00:55:07.875 --> 00:55:10.791
+你就应该持续买入,但是最终都是我替她操作,
+
+00:55:10.791 --> 00:55:14.416
+而真正影响她,让她行动起来,主动操控自己投资的,
+
+00:55:14.416 --> 00:55:16.958
+就是在她读了这本Just Keep Buying之后。
+
+00:55:16.958 --> 00:55:19.875
+所以强烈推荐大家去看一看这本书,
+
+00:55:19.875 --> 00:55:24.458
+以及Nick今年推出的新书The Wealth Ladder。
+
+00:55:24.458 --> 00:55:28.333
+那这两本书也都是我们一口新饭社群过去共同读过的书,
+
+00:55:28.333 --> 00:55:30.041
+对很多饭友都产生很大影响。
+
+00:55:30.041 --> 00:55:33.333
+也欢迎大家加入社群,我们一起阅读,共同成长。
+
+00:55:33.333 --> 00:55:36.416
+感谢收看本次的节目,那我们下次再见,拜拜。
+
