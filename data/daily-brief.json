@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T21:05:22.553117Z",
+  "generated_at": "2026-07-04T22:30:11.711713Z",
   "window_hours": 24,
   "total_items": 1,
   "items": [
@@ -19,6 +19,15 @@
           "source_name": "OPML RSS",
           "site_id": "culture",
           "published_at": "2026-07-04T21:00:36Z"
+        },
+        {
+          "id": "1d20e7a47cf08314e716e2c1ec4c1cc43fa67af3",
+          "title": "利比越獄：美國內戰中最大膽的越獄 / Libby Prison Escape: The Most Audacious Prison Break Of The American Civil War",
+          "url": "https://www.youtube.com/watch?v=Ntn29bbosEk",
+          "source": "Timeline - World History Documentaries",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-04T21:00:09Z"
         },
         {
           "id": "d69478dc0e6973457123e90788bd0e8b93aa699e",
@@ -46,15 +55,6 @@
           "source_name": "OPML RSS",
           "site_id": "culture",
           "published_at": "2026-07-04T12:00:35Z"
-        },
-        {
-          "id": "4a1fb77f3b25520738ca7a3c71779baf8f6fdf6f",
-          "title": "紐約市14年來最熱的一天 / New York City's Hottest Day in 14 Years",
-          "url": "https://www.youtube.com/watch?v=B-46uG6raX4",
-          "source": "CaseyNeistat",
-          "source_name": "OPML RSS",
-          "site_id": "design",
-          "published_at": "2026-07-03T22:05:09Z"
         },
         {
           "id": "3a8053e3269d3ee4efcdaeb81bac6fd9d8e73d61",
@@ -105,10 +105,10 @@
       "source_count": 10,
       "source_names": [
         "Best Documentary",
-        "CaseyNeistat",
         "DenQ來了",
         "Invicta",
         "Peter Santenello",
+        "Timeline - World History Documentaries",
         "imineo Documentaires",
         "沙發人物誌",
         "胖貓堂主",
@@ -123,6 +123,15 @@
           "source_name": "OPML RSS",
           "site_id": "culture",
           "published_at": "2026-07-04T21:00:36Z"
+        },
+        {
+          "id": "1d20e7a47cf08314e716e2c1ec4c1cc43fa67af3",
+          "title": "利比越獄：美國內戰中最大膽的越獄 / Libby Prison Escape: The Most Audacious Prison Break Of The American Civil War",
+          "url": "https://www.youtube.com/watch?v=Ntn29bbosEk",
+          "source": "Timeline - World History Documentaries",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-04T21:00:09Z"
         },
         {
           "id": "d69478dc0e6973457123e90788bd0e8b93aa699e",
@@ -150,15 +159,6 @@
           "source_name": "OPML RSS",
           "site_id": "culture",
           "published_at": "2026-07-04T12:00:35Z"
-        },
-        {
-          "id": "4a1fb77f3b25520738ca7a3c71779baf8f6fdf6f",
-          "title": "紐約市14年來最熱的一天 / New York City's Hottest Day in 14 Years",
-          "url": "https://www.youtube.com/watch?v=B-46uG6raX4",
-          "source": "CaseyNeistat",
-          "source_name": "OPML RSS",
-          "site_id": "design",
-          "published_at": "2026-07-03T22:05:09Z"
         },
         {
           "id": "3a8053e3269d3ee4efcdaeb81bac6fd9d8e73d61",
@@ -208,20 +208,20 @@
       ],
       "item_count": 10,
       "duplicate_count": 10,
-      "score": 0.749,
-      "importance": 0.749,
-      "importance_score": 0.749,
+      "score": 0.7313,
+      "importance": 0.7313,
+      "importance_score": 0.7313,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9967,
+        "recency": 0.9378,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-03T22:05:09Z",
+      "earliest_at": "2026-07-04T04:00:07Z",
       "latest_at": "2026-07-04T21:00:36Z",
       "primary_item": {
         "id": "de719d81f34b2a2979a18a80f4cd3f6347117027",
