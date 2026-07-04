@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-04T09:38:19.064489Z",
+  "generated_at": "2026-07-04T11:38:53.679713Z",
   "window_hours": 24,
-  "total_items": 2,
+  "total_items": 1,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
@@ -111,31 +111,13 @@
           "published_at": "2026-07-03T12:00:12Z"
         },
         {
-          "id": "f2522cf989e28ab17712af7438dd7c286cd6d82a",
-          "title": "「素食」炝拌空心菜丝｜夏天最好吃的凉拌菜！爽脆开胃，吃一次就上瘾 |【Vegan】Crispy Water Spinach Salad | Summer Vegetable Recipe",
-          "url": "https://www.youtube.com/watch?v=kZsP6_s_BVA",
-          "source": "Chu's Vegan",
-          "source_name": "OPML RSS",
-          "site_id": "convivium",
-          "published_at": "2026-07-03T11:00:22Z"
-        },
-        {
-          "id": "866975be20548a5e15550f6390848620e18c3bdd",
-          "title": "480 从「西印度毁灭述略」到冷战核危机：漫谈古巴与加勒比海五百年",
-          "url": "https://www.youtube.com/watch?v=qPX4zxW95lU",
-          "source": "忽左忽右",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-03T09:48:32Z"
-        },
-        {
           "id": "cd8b6fc90b53d9458fca4d5410eb41e9afa39826",
           "title": "【吉爾吉斯EP3】】跟著遊牧民族一起搬家！騎馬趕牛6小時，體驗最真實的草原生活！Moving with Nomads! 6 Hours Herding Cattle on Horseback",
           "url": "https://www.youtube.com/watch?v=VmtPrwFH2f8",
           "source": "融融歷險記Ben's Adventure",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-04T05:34:41Z"
+          "published_at": "2026-07-04T11:00:06Z"
         },
         {
           "id": "fa78dedcb0fc17c54060caa6ede0083e9310376b",
@@ -147,8 +129,8 @@
           "published_at": "2026-07-04T04:00:07Z"
         },
         {
-          "id": "d3c7dfd49787b6e332e271c5887daf529deca1b2",
-          "title": "惹錯人了！日本‘撞人族’遇上韓國猛男 超俗辣反應網友笑翻｜DenQ",
+          "id": "69b93cc8e9ac12f75f78437bd547fb76cc93d330",
+          "title": "惹錯人了！日本‘撞人族’踢到鐵板..遭韓國猛男教訓｜DenQ",
           "url": "https://www.youtube.com/watch?v=41RKKxaCSzw",
           "source": "DenQ來了",
           "source_name": "OPML RSS",
@@ -163,24 +145,14 @@
           "source_name": "OPML RSS",
           "site_id": "trending",
           "published_at": "2026-07-03T19:00:11Z"
-        },
-        {
-          "id": "7d68d406a7c3a46447054e6c7efd4e00b00c3808",
-          "title": "真的做錯了？《RM》開播15年首次發生的事/    太妍翻唱日本爆紅神曲韓網反應/CORTIS機場爭議/tripleS《KPOP獵魔女團》｜DenQ",
-          "url": "https://www.youtube.com/watch?v=5LrCgF_TgbQ",
-          "source": "DenQ來了",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-03T10:00:32Z"
         }
       ],
-      "source_count": 18,
+      "source_count": 15,
       "source_names": [
         "Adam Something",
         "Best Documentary",
         "Cadence Gao",
         "CaseyNeistat",
-        "Chu's Vegan",
         "CineFix",
         "DenQ來了",
         "Logically Answered",
@@ -188,7 +160,6 @@
         "UsefulCharts",
         "imineo Documentaires",
         "nobody",
-        "忽左忽右",
         "胖貓堂主",
         "融融歷險記Ben's Adventure"
       ],
@@ -293,31 +264,13 @@
           "published_at": "2026-07-03T12:00:12Z"
         },
         {
-          "id": "f2522cf989e28ab17712af7438dd7c286cd6d82a",
-          "title": "「素食」炝拌空心菜丝｜夏天最好吃的凉拌菜！爽脆开胃，吃一次就上瘾 |【Vegan】Crispy Water Spinach Salad | Summer Vegetable Recipe",
-          "url": "https://www.youtube.com/watch?v=kZsP6_s_BVA",
-          "source": "Chu's Vegan",
-          "source_name": "OPML RSS",
-          "site_id": "convivium",
-          "published_at": "2026-07-03T11:00:22Z"
-        },
-        {
-          "id": "866975be20548a5e15550f6390848620e18c3bdd",
-          "title": "480 从「西印度毁灭述略」到冷战核危机：漫谈古巴与加勒比海五百年",
-          "url": "https://www.youtube.com/watch?v=qPX4zxW95lU",
-          "source": "忽左忽右",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-03T09:48:32Z"
-        },
-        {
           "id": "cd8b6fc90b53d9458fca4d5410eb41e9afa39826",
           "title": "【吉爾吉斯EP3】】跟著遊牧民族一起搬家！騎馬趕牛6小時，體驗最真實的草原生活！Moving with Nomads! 6 Hours Herding Cattle on Horseback",
           "url": "https://www.youtube.com/watch?v=VmtPrwFH2f8",
           "source": "融融歷險記Ben's Adventure",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-04T05:34:41Z"
+          "published_at": "2026-07-04T11:00:06Z"
         },
         {
           "id": "fa78dedcb0fc17c54060caa6ede0083e9310376b",
@@ -329,8 +282,8 @@
           "published_at": "2026-07-04T04:00:07Z"
         },
         {
-          "id": "d3c7dfd49787b6e332e271c5887daf529deca1b2",
-          "title": "惹錯人了！日本‘撞人族’遇上韓國猛男 超俗辣反應網友笑翻｜DenQ",
+          "id": "69b93cc8e9ac12f75f78437bd547fb76cc93d330",
+          "title": "惹錯人了！日本‘撞人族’踢到鐵板..遭韓國猛男教訓｜DenQ",
           "url": "https://www.youtube.com/watch?v=41RKKxaCSzw",
           "source": "DenQ來了",
           "source_name": "OPML RSS",
@@ -345,115 +298,30 @@
           "source_name": "OPML RSS",
           "site_id": "trending",
           "published_at": "2026-07-03T19:00:11Z"
-        },
-        {
-          "id": "7d68d406a7c3a46447054e6c7efd4e00b00c3808",
-          "title": "真的做錯了？《RM》開播15年首次發生的事/    太妍翻唱日本爆紅神曲韓網反應/CORTIS機場爭議/tripleS《KPOP獵魔女團》｜DenQ",
-          "url": "https://www.youtube.com/watch?v=5LrCgF_TgbQ",
-          "source": "DenQ來了",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-03T10:00:32Z"
         }
       ],
-      "item_count": 18,
-      "duplicate_count": 18,
-      "score": 0.6056,
-      "importance": 0.6056,
-      "importance_score": 0.6056,
+      "item_count": 15,
+      "duplicate_count": 15,
+      "score": 0.5805,
+      "importance": 0.5805,
+      "importance_score": 0.5805,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.5186,
+        "recency": 0.4349,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-03T09:48:32Z",
-      "latest_at": "2026-07-04T05:34:41Z",
+      "earliest_at": "2026-07-03T12:00:12Z",
+      "latest_at": "2026-07-04T11:00:06Z",
       "primary_item": {
         "id": "4a1fb77f3b25520738ca7a3c71779baf8f6fdf6f",
         "title": "紐約市14年來最熱的一天 / New York City's Hottest Day in 14 Years",
         "url": "https://www.youtube.com/watch?v=B-46uG6raX4",
         "source": "CaseyNeistat",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_891300a3bd59",
-      "title": "價值 90 億美元的 Vibe Coding 公司 Replit 內部 / Dentro Replit, l'azienda di Vibe Coding da 9 Miliardi",
-      "url": "https://www.youtube.com/shorts/gQ7O2R9r4uw",
-      "primary_url": "https://www.youtube.com/shorts/gQ7O2R9r4uw",
-      "source": "Marcello Ascani",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "390b8914c594aeaac9bdd322acc242123156553f",
-          "title": "價值 90 億美元的 Vibe Coding 公司 Replit 內部 / Dentro Replit, l'azienda di Vibe Coding da 9 Miliardi",
-          "url": "https://www.youtube.com/shorts/gQ7O2R9r4uw",
-          "source": "Marcello Ascani",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-03T13:00:29Z"
-        },
-        {
-          "id": "f0cad7d6094e24d7fffbea9f0701a4890803b887",
-          "title": "Replit（一家擁有 90 億資產的 Vive 編碼公司）面臨的挑戰 / Le Sfide di Replit, l'azienda di vibe coding da 9 miliardi",
-          "url": "https://www.youtube.com/shorts/9pADCqGHpuc",
-          "source": "Marcello Ascani",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-03T11:00:33Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Marcello Ascani"
-      ],
-      "items": [
-        {
-          "id": "390b8914c594aeaac9bdd322acc242123156553f",
-          "title": "價值 90 億美元的 Vibe Coding 公司 Replit 內部 / Dentro Replit, l'azienda di Vibe Coding da 9 Miliardi",
-          "url": "https://www.youtube.com/shorts/gQ7O2R9r4uw",
-          "source": "Marcello Ascani",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-03T13:00:29Z"
-        },
-        {
-          "id": "f0cad7d6094e24d7fffbea9f0701a4890803b887",
-          "title": "Replit（一家擁有 90 億資產的 Vive 編碼公司）面臨的挑戰 / Le Sfide di Replit, l'azienda di vibe coding da 9 miliardi",
-          "url": "https://www.youtube.com/shorts/9pADCqGHpuc",
-          "source": "Marcello Ascani",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-03T11:00:33Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.2171,
-      "importance": 0.2171,
-      "importance_score": 0.2171,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.25,
-        "recency": 0.1404,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-03T11:00:33Z",
-      "latest_at": "2026-07-03T13:00:29Z",
-      "primary_item": {
-        "id": "390b8914c594aeaac9bdd322acc242123156553f",
-        "title": "價值 90 億美元的 Vibe Coding 公司 Replit 內部 / Dentro Replit, l'azienda di Vibe Coding da 9 Miliardi",
-        "url": "https://www.youtube.com/shorts/gQ7O2R9r4uw",
-        "source": "Marcello Ascani",
         "source_name": "OPML RSS"
       }
     }
