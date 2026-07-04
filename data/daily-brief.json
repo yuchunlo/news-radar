@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T16:33:15.967596Z",
+  "generated_at": "2026-07-04T18:06:34.388286Z",
   "window_hours": 24,
   "total_items": 1,
   "items": [
@@ -66,15 +66,6 @@
           "published_at": "2026-07-03T21:00:06Z"
         },
         {
-          "id": "f3dfd869bceeae1d8fd40b5a6d6020042095b935",
-          "title": "只用100元，做一大餐意大利菜",
-          "url": "https://www.youtube.com/watch?v=ou_8RSbMJ4U",
-          "source": "Cadence Gao",
-          "source_name": "OPML RSS",
-          "site_id": "convivium",
-          "published_at": "2026-07-03T16:47:29Z"
-        },
-        {
           "id": "3a8053e3269d3ee4efcdaeb81bac6fd9d8e73d61",
           "title": "美國從這裡開始 - 費城現在是什麼樣子？ / America Started Here - What's Philadelphia Like Now?",
           "url": "https://www.youtube.com/watch?v=xUDUgbmle5I",
@@ -129,10 +120,9 @@
           "published_at": "2026-07-03T19:00:11Z"
         }
       ],
-      "source_count": 13,
+      "source_count": 12,
       "source_names": [
         "Best Documentary",
-        "Cadence Gao",
         "CaseyNeistat",
         "DenQ來了",
         "Invicta",
@@ -200,15 +190,6 @@
           "published_at": "2026-07-03T21:00:06Z"
         },
         {
-          "id": "f3dfd869bceeae1d8fd40b5a6d6020042095b935",
-          "title": "只用100元，做一大餐意大利菜",
-          "url": "https://www.youtube.com/watch?v=ou_8RSbMJ4U",
-          "source": "Cadence Gao",
-          "source_name": "OPML RSS",
-          "site_id": "convivium",
-          "published_at": "2026-07-03T16:47:29Z"
-        },
-        {
           "id": "3a8053e3269d3ee4efcdaeb81bac6fd9d8e73d61",
           "title": "美國從這裡開始 - 費城現在是什麼樣子？ / America Started Here - What's Philadelphia Like Now?",
           "url": "https://www.youtube.com/watch?v=xUDUgbmle5I",
@@ -263,22 +244,22 @@
           "published_at": "2026-07-03T19:00:11Z"
         }
       ],
-      "item_count": 13,
-      "duplicate_count": 13,
-      "score": 0.749,
-      "importance": 0.749,
-      "importance_score": 0.749,
+      "item_count": 12,
+      "duplicate_count": 12,
+      "score": 0.7296,
+      "importance": 0.7296,
+      "importance_score": 0.7296,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9967,
+        "recency": 0.932,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-03T16:47:29Z",
+      "earliest_at": "2026-07-03T19:00:11Z",
       "latest_at": "2026-07-04T16:28:35Z",
       "primary_item": {
         "id": "d69478dc0e6973457123e90788bd0e8b93aa699e",
