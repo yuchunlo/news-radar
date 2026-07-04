@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T00:11:04.409145Z",
+  "generated_at": "2026-07-04T04:21:15.030091Z",
   "window_hours": 24,
   "total_items": 2,
   "items": [
@@ -66,6 +66,15 @@
           "published_at": "2026-07-03T16:00:15Z"
         },
         {
+          "id": "4d179e4a3d3b5a6781617e5e65803fdad12e1e2c",
+          "title": "德國鐵路 / GERMAN RAIL",
+          "url": "https://www.youtube.com/watch?v=lY1UAnzv0UU",
+          "source": "Adam Something",
+          "source_name": "OPML RSS",
+          "site_id": "blog",
+          "published_at": "2026-07-03T15:45:16Z"
+        },
+        {
           "id": "185e163df8ebccc2e517fac477474bff62e116ad",
           "title": "德國鐵路就是個笑話 / German Rail is a Joke",
           "url": "https://www.youtube.com/watch?v=lY1UAnzv0UU",
@@ -120,13 +129,22 @@
           "published_at": "2026-07-03T09:48:32Z"
         },
         {
-          "id": "c0b44e084c526fb8e9623833fab4f84f411a4209",
-          "title": "比特幣：數學之美（第 71 部分） / Bitcoin: The Beauty of Mathematics (Part 71)",
-          "url": "https://www.youtube.com/watch?v=uoF9yzXHmt4",
-          "source": "Benjamin Cowen",
+          "id": "fa78dedcb0fc17c54060caa6ede0083e9310376b",
+          "title": "一年狂赚154亿！逼死同行「萨莉亚」瞒了全世界50年的秘密，到底是什么？",
+          "url": "https://www.youtube.com/watch?v=sk6Fc9TllDk",
+          "source": "胖貓堂主",
           "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-03T03:48:55Z"
+          "site_id": "opmlrss",
+          "published_at": "2026-07-04T04:00:07Z"
+        },
+        {
+          "id": "d3c7dfd49787b6e332e271c5887daf529deca1b2",
+          "title": "惹錯人了！日本‘撞人族’遇上韓國猛男 超俗辣反應網友笑翻｜DenQ",
+          "url": "https://www.youtube.com/watch?v=41RKKxaCSzw",
+          "source": "DenQ來了",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-04T04:00:22Z"
         },
         {
           "id": "0fc50a172ba4eb6da777f4ade0cbed671243237f",
@@ -147,10 +165,9 @@
           "published_at": "2026-07-03T10:00:32Z"
         }
       ],
-      "source_count": 15,
+      "source_count": 17,
       "source_names": [
         "Adam Something",
-        "Benjamin Cowen",
         "Best Documentary",
         "Cadence Gao",
         "CaseyNeistat",
@@ -162,7 +179,8 @@
         "UsefulCharts",
         "imineo Documentaires",
         "nobody",
-        "忽左忽右"
+        "忽左忽右",
+        "胖貓堂主"
       ],
       "items": [
         {
@@ -220,6 +238,15 @@
           "published_at": "2026-07-03T16:00:15Z"
         },
         {
+          "id": "4d179e4a3d3b5a6781617e5e65803fdad12e1e2c",
+          "title": "德國鐵路 / GERMAN RAIL",
+          "url": "https://www.youtube.com/watch?v=lY1UAnzv0UU",
+          "source": "Adam Something",
+          "source_name": "OPML RSS",
+          "site_id": "blog",
+          "published_at": "2026-07-03T15:45:16Z"
+        },
+        {
           "id": "185e163df8ebccc2e517fac477474bff62e116ad",
           "title": "德國鐵路就是個笑話 / German Rail is a Joke",
           "url": "https://www.youtube.com/watch?v=lY1UAnzv0UU",
@@ -274,13 +301,22 @@
           "published_at": "2026-07-03T09:48:32Z"
         },
         {
-          "id": "c0b44e084c526fb8e9623833fab4f84f411a4209",
-          "title": "比特幣：數學之美（第 71 部分） / Bitcoin: The Beauty of Mathematics (Part 71)",
-          "url": "https://www.youtube.com/watch?v=uoF9yzXHmt4",
-          "source": "Benjamin Cowen",
+          "id": "fa78dedcb0fc17c54060caa6ede0083e9310376b",
+          "title": "一年狂赚154亿！逼死同行「萨莉亚」瞒了全世界50年的秘密，到底是什么？",
+          "url": "https://www.youtube.com/watch?v=sk6Fc9TllDk",
+          "source": "胖貓堂主",
           "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-03T03:48:55Z"
+          "site_id": "opmlrss",
+          "published_at": "2026-07-04T04:00:07Z"
+        },
+        {
+          "id": "d3c7dfd49787b6e332e271c5887daf529deca1b2",
+          "title": "惹錯人了！日本‘撞人族’遇上韓國猛男 超俗辣反應網友笑翻｜DenQ",
+          "url": "https://www.youtube.com/watch?v=41RKKxaCSzw",
+          "source": "DenQ來了",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-04T04:00:22Z"
         },
         {
           "id": "0fc50a172ba4eb6da777f4ade0cbed671243237f",
@@ -301,23 +337,23 @@
           "published_at": "2026-07-03T10:00:32Z"
         }
       ],
-      "item_count": 15,
-      "duplicate_count": 15,
-      "score": 0.7238,
-      "importance": 0.7238,
-      "importance_score": 0.7238,
+      "item_count": 17,
+      "duplicate_count": 17,
+      "score": 0.6716,
+      "importance": 0.6716,
+      "importance_score": 0.6716,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9126,
+        "recency": 0.7388,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-03T03:48:55Z",
-      "latest_at": "2026-07-03T22:05:09Z",
+      "earliest_at": "2026-07-03T09:48:32Z",
+      "latest_at": "2026-07-04T04:00:22Z",
       "primary_item": {
         "id": "4a1fb77f3b25520738ca7a3c71779baf8f6fdf6f",
         "title": "紐約市14年來最熱的一天 / New York City's Hottest Day in 14 Years",
@@ -379,13 +415,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3353,
-      "importance": 0.3353,
-      "importance_score": 0.3353,
+      "score": 0.2832,
+      "importance": 0.2832,
+      "importance_score": 0.2832,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.5343,
+        "recency": 0.3606,
         "story_heat": 0.25
       },
       "category": "watch",
