@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-07-04T11:38:53.679713Z",
+  "generated_at": "2026-07-04T13:47:09.849332Z",
   "window_hours": 24,
   "total_items": 1,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "紐約市14年來最熱的一天 / New York City's Hottest Day in 14 Years",
-      "url": "https://www.youtube.com/watch?v=B-46uG6raX4",
-      "primary_url": "https://www.youtube.com/watch?v=B-46uG6raX4",
-      "source": "CaseyNeistat",
+      "title": "為什麼蚊子選擇你 / Why Mosquitoes Choose YOU",
+      "url": "https://www.youtube.com/watch?v=wxOaEo_vEnM",
+      "primary_url": "https://www.youtube.com/watch?v=wxOaEo_vEnM",
+      "source": "Best Documentary",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "68308d431ca305e8bbbb64bbd4bffc76c108d432",
+          "title": "為什麼蚊子選擇你 / Why Mosquitoes Choose YOU",
+          "url": "https://www.youtube.com/watch?v=wxOaEo_vEnM",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-04T12:00:35Z"
+        },
         {
           "id": "4a1fb77f3b25520738ca7a3c71779baf8f6fdf6f",
           "title": "紐約市14年來最熱的一天 / New York City's Hottest Day in 14 Years",
@@ -93,22 +102,13 @@
           "published_at": "2026-07-03T14:45:18Z"
         },
         {
-          "id": "4b50eb196ad63ad4fbd0118d941d460c55bfa9c4",
-          "title": "獨立紀念日：最後一部手工大片 |場景藝術 / Independence Day: The Last of the Handmade Blockbusters | Art of the Scene",
-          "url": "https://www.youtube.com/watch?v=8UQ9wBfk4_Q",
-          "source": "CineFix",
+          "id": "bf58a78cd36776b7b24d4089602cbbbd1cf8663a",
+          "title": "世界盃16強馬上開打！巴西VS挪威誰能獲勝，梅西和C羅會在這一輪出局嗎？｜不負責任世界盃16強預測",
+          "url": "https://www.youtube.com/watch?v=bPnQePkemfI",
+          "source": "沙發人物誌",
           "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-03T13:15:17Z"
-        },
-        {
-          "id": "1b2d1dd3126f97a97b04347141329829fa9b7025",
-          "title": "17 年，只吃過通心粉和起司：奧斯汀戴維斯的故事 / 17 Years, Only Eaten Mac & Cheese: Austin Davis' Story",
-          "url": "https://www.youtube.com/watch?v=p7CF2WGsP-I",
-          "source": "Best Documentary",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-03T12:00:12Z"
+          "site_id": "opmlrss",
+          "published_at": "2026-07-04T12:06:54Z"
         },
         {
           "id": "cd8b6fc90b53d9458fca4d5410eb41e9afa39826",
@@ -153,17 +153,26 @@
         "Best Documentary",
         "Cadence Gao",
         "CaseyNeistat",
-        "CineFix",
         "DenQ來了",
         "Logically Answered",
         "Timeline - World History Documentaries",
         "UsefulCharts",
         "imineo Documentaires",
         "nobody",
+        "沙發人物誌",
         "胖貓堂主",
         "融融歷險記Ben's Adventure"
       ],
       "items": [
+        {
+          "id": "68308d431ca305e8bbbb64bbd4bffc76c108d432",
+          "title": "為什麼蚊子選擇你 / Why Mosquitoes Choose YOU",
+          "url": "https://www.youtube.com/watch?v=wxOaEo_vEnM",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-04T12:00:35Z"
+        },
         {
           "id": "4a1fb77f3b25520738ca7a3c71779baf8f6fdf6f",
           "title": "紐約市14年來最熱的一天 / New York City's Hottest Day in 14 Years",
@@ -246,22 +255,13 @@
           "published_at": "2026-07-03T14:45:18Z"
         },
         {
-          "id": "4b50eb196ad63ad4fbd0118d941d460c55bfa9c4",
-          "title": "獨立紀念日：最後一部手工大片 |場景藝術 / Independence Day: The Last of the Handmade Blockbusters | Art of the Scene",
-          "url": "https://www.youtube.com/watch?v=8UQ9wBfk4_Q",
-          "source": "CineFix",
+          "id": "bf58a78cd36776b7b24d4089602cbbbd1cf8663a",
+          "title": "世界盃16強馬上開打！巴西VS挪威誰能獲勝，梅西和C羅會在這一輪出局嗎？｜不負責任世界盃16強預測",
+          "url": "https://www.youtube.com/watch?v=bPnQePkemfI",
+          "source": "沙發人物誌",
           "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-03T13:15:17Z"
-        },
-        {
-          "id": "1b2d1dd3126f97a97b04347141329829fa9b7025",
-          "title": "17 年，只吃過通心粉和起司：奧斯汀戴維斯的故事 / 17 Years, Only Eaten Mac & Cheese: Austin Davis' Story",
-          "url": "https://www.youtube.com/watch?v=p7CF2WGsP-I",
-          "source": "Best Documentary",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-03T12:00:12Z"
+          "site_id": "opmlrss",
+          "published_at": "2026-07-04T12:06:54Z"
         },
         {
           "id": "cd8b6fc90b53d9458fca4d5410eb41e9afa39826",
@@ -302,26 +302,26 @@
       ],
       "item_count": 15,
       "duplicate_count": 15,
-      "score": 0.5805,
-      "importance": 0.5805,
-      "importance_score": 0.5805,
+      "score": 0.7278,
+      "importance": 0.7278,
+      "importance_score": 0.7278,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.4349,
+        "recency": 0.926,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-03T12:00:12Z",
-      "latest_at": "2026-07-04T11:00:06Z",
+      "earliest_at": "2026-07-03T14:45:18Z",
+      "latest_at": "2026-07-04T12:06:54Z",
       "primary_item": {
-        "id": "4a1fb77f3b25520738ca7a3c71779baf8f6fdf6f",
-        "title": "紐約市14年來最熱的一天 / New York City's Hottest Day in 14 Years",
-        "url": "https://www.youtube.com/watch?v=B-46uG6raX4",
-        "source": "CaseyNeistat",
+        "id": "68308d431ca305e8bbbb64bbd4bffc76c108d432",
+        "title": "為什麼蚊子選擇你 / Why Mosquitoes Choose YOU",
+        "url": "https://www.youtube.com/watch?v=wxOaEo_vEnM",
+        "source": "Best Documentary",
         "source_name": "OPML RSS"
       }
     }
