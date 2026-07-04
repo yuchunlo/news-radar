@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-04T07:24:15.737514Z",
+  "generated_at": "2026-07-04T09:38:19.064489Z",
   "window_hours": 24,
   "total_items": 2,
   "items": [
@@ -129,6 +129,15 @@
           "published_at": "2026-07-03T09:48:32Z"
         },
         {
+          "id": "cd8b6fc90b53d9458fca4d5410eb41e9afa39826",
+          "title": "【吉爾吉斯EP3】】跟著遊牧民族一起搬家！騎馬趕牛6小時，體驗最真實的草原生活！Moving with Nomads! 6 Hours Herding Cattle on Horseback",
+          "url": "https://www.youtube.com/watch?v=VmtPrwFH2f8",
+          "source": "融融歷險記Ben's Adventure",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-04T05:34:41Z"
+        },
+        {
           "id": "fa78dedcb0fc17c54060caa6ede0083e9310376b",
           "title": "一年狂赚154亿！逼死同行「萨莉亚」瞒了全世界50年的秘密，到底是什么？",
           "url": "https://www.youtube.com/watch?v=sk6Fc9TllDk",
@@ -165,7 +174,7 @@
           "published_at": "2026-07-03T10:00:32Z"
         }
       ],
-      "source_count": 17,
+      "source_count": 18,
       "source_names": [
         "Adam Something",
         "Best Documentary",
@@ -180,7 +189,8 @@
         "imineo Documentaires",
         "nobody",
         "忽左忽右",
-        "胖貓堂主"
+        "胖貓堂主",
+        "融融歷險記Ben's Adventure"
       ],
       "items": [
         {
@@ -301,6 +311,15 @@
           "published_at": "2026-07-03T09:48:32Z"
         },
         {
+          "id": "cd8b6fc90b53d9458fca4d5410eb41e9afa39826",
+          "title": "【吉爾吉斯EP3】】跟著遊牧民族一起搬家！騎馬趕牛6小時，體驗最真實的草原生活！Moving with Nomads! 6 Hours Herding Cattle on Horseback",
+          "url": "https://www.youtube.com/watch?v=VmtPrwFH2f8",
+          "source": "融融歷險記Ben's Adventure",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-04T05:34:41Z"
+        },
+        {
           "id": "fa78dedcb0fc17c54060caa6ede0083e9310376b",
           "title": "一年狂赚154亿！逼死同行「萨莉亚」瞒了全世界50年的秘密，到底是什么？",
           "url": "https://www.youtube.com/watch?v=sk6Fc9TllDk",
@@ -337,15 +356,15 @@
           "published_at": "2026-07-03T10:00:32Z"
         }
       ],
-      "item_count": 17,
-      "duplicate_count": 17,
-      "score": 0.6335,
-      "importance": 0.6335,
-      "importance_score": 0.6335,
+      "item_count": 18,
+      "duplicate_count": 18,
+      "score": 0.6056,
+      "importance": 0.6056,
+      "importance_score": 0.6056,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6117,
+        "recency": 0.5186,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -353,7 +372,7 @@
         "multi_source"
       ],
       "earliest_at": "2026-07-03T09:48:32Z",
-      "latest_at": "2026-07-04T04:00:22Z",
+      "latest_at": "2026-07-04T05:34:41Z",
       "primary_item": {
         "id": "4a1fb77f3b25520738ca7a3c71779baf8f6fdf6f",
         "title": "紐約市14年來最熱的一天 / New York City's Hottest Day in 14 Years",
@@ -415,13 +434,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.245,
-      "importance": 0.245,
-      "importance_score": 0.245,
+      "score": 0.2171,
+      "importance": 0.2171,
+      "importance_score": 0.2171,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.2335,
+        "recency": 0.1404,
         "story_heat": 0.25
       },
       "category": "watch",
