@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-07-04T13:47:09.849332Z",
+  "generated_at": "2026-07-04T15:11:48.295865Z",
   "window_hours": 24,
   "total_items": 1,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "為什麼蚊子選擇你 / Why Mosquitoes Choose YOU",
-      "url": "https://www.youtube.com/watch?v=wxOaEo_vEnM",
-      "primary_url": "https://www.youtube.com/watch?v=wxOaEo_vEnM",
-      "source": "Best Documentary",
+      "title": "中國：最後的鸕鶿大師 / China: The last masters of Cormorant",
+      "url": "https://www.youtube.com/watch?v=9hAZJ29VHuo",
+      "primary_url": "https://www.youtube.com/watch?v=9hAZJ29VHuo",
+      "source": "imineo Documentaires",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "115b34d31d22823bb2cf40676f7d78bd0e9b7c50",
+          "title": "中國：最後的鸕鶿大師 / China: The last masters of Cormorant",
+          "url": "https://www.youtube.com/watch?v=9hAZJ29VHuo",
+          "source": "imineo Documentaires",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-04T14:45:36Z"
+        },
         {
           "id": "68308d431ca305e8bbbb64bbd4bffc76c108d432",
           "title": "為什麼蚊子選擇你 / Why Mosquitoes Choose YOU",
@@ -93,13 +102,13 @@
           "published_at": "2026-07-03T15:45:16Z"
         },
         {
-          "id": "c165eeb9ee83afbc0e78a5dde87d9466d546ceed",
-          "title": "Megastadium：卡梅萊昂體育場的建築天才 / Megastadium : Le génie architectural du stade Caméléon",
-          "url": "https://www.youtube.com/watch?v=FNsW45PiG_k",
-          "source": "imineo Documentaires",
+          "id": "3a8053e3269d3ee4efcdaeb81bac6fd9d8e73d61",
+          "title": "美國從這裡開始 - 費城現在是什麼樣子？ / America Started Here - What's Philadelphia Like Now?",
+          "url": "https://www.youtube.com/watch?v=xUDUgbmle5I",
+          "source": "Peter Santenello",
           "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-03T14:45:18Z"
+          "site_id": "opmlrss",
+          "published_at": "2026-07-04T15:00:27Z"
         },
         {
           "id": "bf58a78cd36776b7b24d4089602cbbbd1cf8663a",
@@ -147,7 +156,7 @@
           "published_at": "2026-07-03T19:00:11Z"
         }
       ],
-      "source_count": 15,
+      "source_count": 16,
       "source_names": [
         "Adam Something",
         "Best Documentary",
@@ -155,6 +164,7 @@
         "CaseyNeistat",
         "DenQ來了",
         "Logically Answered",
+        "Peter Santenello",
         "Timeline - World History Documentaries",
         "UsefulCharts",
         "imineo Documentaires",
@@ -165,6 +175,15 @@
       ],
       "items": [
         {
+          "id": "115b34d31d22823bb2cf40676f7d78bd0e9b7c50",
+          "title": "中國：最後的鸕鶿大師 / China: The last masters of Cormorant",
+          "url": "https://www.youtube.com/watch?v=9hAZJ29VHuo",
+          "source": "imineo Documentaires",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-04T14:45:36Z"
+        },
+        {
           "id": "68308d431ca305e8bbbb64bbd4bffc76c108d432",
           "title": "為什麼蚊子選擇你 / Why Mosquitoes Choose YOU",
           "url": "https://www.youtube.com/watch?v=wxOaEo_vEnM",
@@ -246,13 +265,13 @@
           "published_at": "2026-07-03T15:45:16Z"
         },
         {
-          "id": "c165eeb9ee83afbc0e78a5dde87d9466d546ceed",
-          "title": "Megastadium：卡梅萊昂體育場的建築天才 / Megastadium : Le génie architectural du stade Caméléon",
-          "url": "https://www.youtube.com/watch?v=FNsW45PiG_k",
-          "source": "imineo Documentaires",
+          "id": "3a8053e3269d3ee4efcdaeb81bac6fd9d8e73d61",
+          "title": "美國從這裡開始 - 費城現在是什麼樣子？ / America Started Here - What's Philadelphia Like Now?",
+          "url": "https://www.youtube.com/watch?v=xUDUgbmle5I",
+          "source": "Peter Santenello",
           "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-03T14:45:18Z"
+          "site_id": "opmlrss",
+          "published_at": "2026-07-04T15:00:27Z"
         },
         {
           "id": "bf58a78cd36776b7b24d4089602cbbbd1cf8663a",
@@ -300,28 +319,28 @@
           "published_at": "2026-07-03T19:00:11Z"
         }
       ],
-      "item_count": 15,
-      "duplicate_count": 15,
-      "score": 0.7278,
-      "importance": 0.7278,
-      "importance_score": 0.7278,
+      "item_count": 16,
+      "duplicate_count": 16,
+      "score": 0.7445,
+      "importance": 0.7445,
+      "importance_score": 0.7445,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.926,
+        "recency": 0.9818,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-03T14:45:18Z",
-      "latest_at": "2026-07-04T12:06:54Z",
+      "earliest_at": "2026-07-03T15:45:16Z",
+      "latest_at": "2026-07-04T15:00:27Z",
       "primary_item": {
-        "id": "68308d431ca305e8bbbb64bbd4bffc76c108d432",
-        "title": "為什麼蚊子選擇你 / Why Mosquitoes Choose YOU",
-        "url": "https://www.youtube.com/watch?v=wxOaEo_vEnM",
-        "source": "Best Documentary",
+        "id": "115b34d31d22823bb2cf40676f7d78bd0e9b7c50",
+        "title": "中國：最後的鸕鶿大師 / China: The last masters of Cormorant",
+        "url": "https://www.youtube.com/watch?v=9hAZJ29VHuo",
+        "source": "imineo Documentaires",
         "source_name": "OPML RSS"
       }
     }
