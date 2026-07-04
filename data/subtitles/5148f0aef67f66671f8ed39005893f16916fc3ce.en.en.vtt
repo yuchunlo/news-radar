@@ -1,0 +1,3300 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.180 --> 00:00:02.610
+- [Derek] On the morning
+of the 17th of April, 2013,
+
+00:00:02.610 --> 00:00:06.270
+the journal Annals of Mathematics
+received a curious email.
+
+00:00:06.270 --> 00:00:09.240
+It claimed to contain a 50
+page proof relating to one
+
+00:00:09.240 --> 00:00:12.540
+of the oldest unsolved
+problems in mathematics.
+
+00:00:12.540 --> 00:00:15.300
+A problem that great
+mathematician Edmund Landau
+
+00:00:15.300 --> 00:00:16.923
+called unattackable.
+
+00:00:18.720 --> 00:00:21.120
+But this proof didn't come
+from a famous professor,
+
+00:00:21.120 --> 00:00:23.640
+it came from an unknown.
+
+00:00:23.640 --> 00:00:25.200
+(bright music)
+
+00:00:25.200 --> 00:00:27.570
+Someone who had once spent years working
+
+00:00:27.570 --> 00:00:29.010
+at a subway restaurant.
+
+00:00:29.010 --> 00:00:30.360
+- So, they're like, okay,
+
+00:00:30.360 --> 00:00:32.430
+surely this isn't gonna
+work out, but whatever.
+
+00:00:32.430 --> 00:00:34.470
+You know, we'll send it to a referee.
+
+00:00:34.470 --> 00:00:37.710
+- [Derek] They expected to
+find a mistake in an afternoon,
+
+00:00:37.710 --> 00:00:39.090
+but they didn't.
+
+00:00:39.090 --> 00:00:40.470
+So, they went through it again,
+
+00:00:40.470 --> 00:00:42.480
+closely studying the fragile parts
+
+00:00:42.480 --> 00:00:45.540
+where a proof like this
+normally falls apart,
+
+00:00:45.540 --> 00:00:47.760
+but still nothing.
+
+00:00:47.760 --> 00:00:50.490
+Soon they realized they were
+witnessing a breakthrough.
+
+00:00:50.490 --> 00:00:52.620
+- Oh, damn, he did it.
+
+00:00:52.620 --> 00:00:54.330
+- So, how did he do It?
+
+00:00:54.330 --> 00:00:57.030
+What did the experts miss
+and what was the problem
+
+00:00:57.030 --> 00:00:58.740
+he was working on?
+
+00:00:58.740 --> 00:00:59.970
+He was working on a new way
+
+00:00:59.970 --> 00:01:02.610
+to attack one of the
+hardest unsolved problems
+
+00:01:02.610 --> 00:01:03.630
+in number theory,
+
+00:01:03.630 --> 00:01:05.403
+the twin prime conjecture.
+
+00:01:06.900 --> 00:01:07.733
+The twin primes
+
+00:01:07.733 --> 00:01:10.200
+are prime numbers separated
+by just one number,
+
+00:01:10.200 --> 00:01:13.650
+like 11 and 13 or 17 and 19.
+
+00:01:13.650 --> 00:01:16.290
+As you go up, the number
+line, primes become rarer
+
+00:01:16.290 --> 00:01:18.960
+and twin primes become rarer still.
+
+00:01:18.960 --> 00:01:20.760
+But the twin prime conjecture claims
+
+00:01:20.760 --> 00:01:24.093
+that there are infinitely many
+of them you never run out.
+
+00:01:25.470 --> 00:01:26.940
+But is it true?
+
+00:01:26.940 --> 00:01:28.650
+Well, one way to approach this problem
+
+00:01:28.650 --> 00:01:31.800
+is to look at the gaps
+between consecutive primes
+
+00:01:31.800 --> 00:01:33.381
+as you go up the number line.
+
+00:01:33.381 --> 00:01:34.214
+(bright music)
+
+00:01:34.214 --> 00:01:36.360
+Now, at first they seem chaotic,
+
+00:01:36.360 --> 00:01:39.813
+but if you average them
+out, a clear trend emerges.
+
+00:01:41.040 --> 00:01:43.920
+The average gap between
+two primes grows roughly
+
+00:01:43.920 --> 00:01:47.490
+as the natural logarithm of the number N.
+
+00:01:47.490 --> 00:01:49.110
+So, for example, the average gap
+
+00:01:49.110 --> 00:01:53.596
+between primes around
+100, is approximately 4.6.
+
+00:01:53.596 --> 00:01:57.420
+The average gap between
+primes around 1000 is 6.9.
+
+00:01:57.420 --> 00:01:59.190
+Logarithms grow very slowly,
+
+00:01:59.190 --> 00:02:01.590
+but they do keep growing forever.
+
+00:02:01.590 --> 00:02:03.450
+So, as N approaches infinity,
+
+00:02:03.450 --> 00:02:07.770
+the average gap between
+primes also goes to infinity,
+
+00:02:07.770 --> 00:02:09.840
+which is not particularly encouraging
+
+00:02:09.840 --> 00:02:12.930
+if you expect to always
+be able to find primes
+
+00:02:12.930 --> 00:02:14.613
+that are just two apart.
+
+00:02:15.600 --> 00:02:17.610
+But if you start checking large numbers,
+
+00:02:17.610 --> 00:02:20.597
+then after a million you
+quickly find the twin primes,
+
+00:02:20.597 --> 00:02:23.523
+1,000,037 and 1,000,039.
+
+00:02:24.510 --> 00:02:28.800
+Past a billion, there's
+1,000,000,007 and 1,000,000,009.
+
+00:02:28.800 --> 00:02:31.740
+In fact, we have found a
+twin prime that's as large
+
+00:02:31.740 --> 00:02:38.670
+as 2,996,863,034,895
+
+00:02:38.670 --> 00:02:42.450
+times two to the power of 1,290,000
+
+00:02:42.450 --> 00:02:44.490
+plus or minus one.
+
+00:02:44.490 --> 00:02:51.120
+That is a pair of numbers
+each 388,342 digits long.
+
+00:02:51.120 --> 00:02:54.360
+If you wanted to print those
+in a book for some reason,
+
+00:02:54.360 --> 00:02:58.263
+you would need around
+260 pages per number.
+
+00:02:59.700 --> 00:03:02.160
+All of this is to say that
+as far as we've looked,
+
+00:03:02.160 --> 00:03:04.620
+we've kept finding twin primes.
+
+00:03:04.620 --> 00:03:06.630
+But of course, that is not how you solve
+
+00:03:06.630 --> 00:03:07.620
+the twin prime conjecture,
+
+00:03:07.620 --> 00:03:09.750
+because you cannot physically check
+
+00:03:09.750 --> 00:03:11.520
+all the numbers out to infinity.
+
+00:03:11.520 --> 00:03:13.860
+So, we need another way.
+
+00:03:13.860 --> 00:03:15.480
+And around 100 years ago,
+
+00:03:15.480 --> 00:03:17.670
+it felt like mathematicians
+were getting close
+
+00:03:17.670 --> 00:03:20.310
+with a more sophisticated method.
+
+00:03:20.310 --> 00:03:22.440
+In 1923, English mathematicians,
+
+00:03:22.440 --> 00:03:25.200
+Hardy and Littlewood figured
+out how you can estimate
+
+00:03:25.200 --> 00:03:27.420
+how many twin primes there should be.
+
+00:03:27.420 --> 00:03:29.880
+To do it, they started with one
+of the crowning achievements
+
+00:03:29.880 --> 00:03:32.310
+of number theory, the
+prime number theorem,
+
+00:03:32.310 --> 00:03:33.780
+which tells you that the odds
+
+00:03:33.780 --> 00:03:35.940
+of a large number near N being prime
+
+00:03:35.940 --> 00:03:39.240
+are roughly one over the
+natural logarithm of N.
+
+00:03:39.240 --> 00:03:42.303
+So, let's do a quick example
+to see how they use this.
+
+00:03:43.290 --> 00:03:47.590
+Say you wanna find the
+odds that 137,037 is prime.
+
+00:03:47.590 --> 00:03:49.170
+Well, you just plug that in
+
+00:03:49.170 --> 00:03:51.300
+and find that it has about
+an eight and a half percent
+
+00:03:51.300 --> 00:03:53.340
+chance of being prime.
+
+00:03:53.340 --> 00:03:54.870
+Of course, you could use the same trick
+
+00:03:54.870 --> 00:03:58.830
+to find the odds that 137,039 is prime,
+
+00:03:58.830 --> 00:04:01.193
+which is also around 8.5%.
+
+00:04:02.130 --> 00:04:05.220
+So, what are the odds that
+both of them are prime?
+
+00:04:05.220 --> 00:04:07.470
+Well, you just multiply
+those odds together,
+
+00:04:07.470 --> 00:04:10.770
+that gives you around a 0.7% chance.
+
+00:04:10.770 --> 00:04:12.630
+Now we are simplifying a little here
+
+00:04:12.630 --> 00:04:15.180
+because we're assuming that
+primes are independent,
+
+00:04:15.180 --> 00:04:16.440
+which they're not.
+
+00:04:16.440 --> 00:04:18.030
+But putting that to one side,
+
+00:04:18.030 --> 00:04:20.520
+the odds of both a large number N
+
+00:04:20.520 --> 00:04:22.380
+and N plus two being prime,
+
+00:04:22.380 --> 00:04:26.400
+is one over ln(n) times
+one over ln(n) plus two,
+
+00:04:26.400 --> 00:04:29.430
+for large N the plus two is insignificant.
+
+00:04:29.430 --> 00:04:32.250
+So, we get the odds of any pair of numbers
+
+00:04:32.250 --> 00:04:34.110
+of size N being a twin prime
+
+00:04:34.110 --> 00:04:37.113
+are roughly one over ln(n) squared.
+
+00:04:38.460 --> 00:04:40.140
+But of course, the
+problem with this approach
+
+00:04:40.140 --> 00:04:43.290
+is that the odds of a pair
+being a twin prime decrease
+
+00:04:43.290 --> 00:04:44.820
+as you go to larger numbers.
+
+00:04:44.820 --> 00:04:47.100
+So, to count all twin primes up to N,
+
+00:04:47.100 --> 00:04:49.740
+we add up the odds at
+every single position.
+
+00:04:49.740 --> 00:04:52.080
+In other words, we
+integrate this expression
+
+00:04:52.080 --> 00:04:55.290
+from the first prime
+two up to that number.
+
+00:04:55.290 --> 00:04:58.170
+Now Hardy and Littlewood
+refine this argument further
+
+00:04:58.170 --> 00:04:59.490
+to account for the fact that primes
+
+00:04:59.490 --> 00:05:01.530
+aren't really independent.
+
+00:05:01.530 --> 00:05:04.770
+But all that added is just
+this correction factor upfront.
+
+00:05:04.770 --> 00:05:07.625
+So, the final expression looks like this.
+
+00:05:07.625 --> 00:05:08.760
+(bright music)
+
+00:05:08.760 --> 00:05:10.620
+Now let's plot how many twin primes,
+
+00:05:10.620 --> 00:05:12.360
+this predicts up to 1 trillion.
+
+00:05:12.360 --> 00:05:13.860
+We see that it keeps growing
+
+00:05:13.860 --> 00:05:16.380
+and if we fill in the actual count,
+
+00:05:16.380 --> 00:05:18.640
+you'll notice that it is extremely close
+
+00:05:20.040 --> 00:05:21.960
+to the point where by 1 trillion,
+
+00:05:21.960 --> 00:05:26.028
+our estimate is only off by 0.001%.
+
+00:05:26.028 --> 00:05:29.070
+(bright music)
+
+00:05:29.070 --> 00:05:33.450
+- The only issue though, is
+that this is just an estimate
+
+00:05:33.450 --> 00:05:36.330
+or what mathematicians call a heuristic.
+
+00:05:36.330 --> 00:05:39.780
+It can tell you roughly how
+many twin primes to expect,
+
+00:05:39.780 --> 00:05:42.570
+but it can't guarantee that they never stop.
+
+00:05:42.570 --> 00:05:45.390
+As Terry Tao puts it, for all we know,
+
+00:05:45.390 --> 00:05:47.400
+there could be this fast conspiracy
+
+00:05:47.400 --> 00:05:50.550
+that every time a number
+N decides to be prime,
+
+00:05:50.550 --> 00:05:52.500
+it has some secret agreement
+
+00:05:52.500 --> 00:05:54.810
+with its neighbor N plus two saying
+
+00:05:54.810 --> 00:05:57.150
+you're not allowed to be prime anymore.
+
+00:05:57.150 --> 00:06:02.150
+So, what we need is a rigorous
+airtight mathematical proof,
+
+00:06:02.160 --> 00:06:03.570
+but finding such a proof
+
+00:06:03.570 --> 00:06:06.243
+it turns out, is extremely difficult.
+
+00:06:07.170 --> 00:06:08.730
+One of the first mathematicians
+
+00:06:08.730 --> 00:06:12.650
+to really try was a 29-year-old
+Norwegian Viggo Brun.
+
+00:06:12.650 --> 00:06:14.100
+(bright music)
+
+00:06:14.100 --> 00:06:16.170
+Brun was working during the early years
+
+00:06:16.170 --> 00:06:17.730
+of the first World War,
+
+00:06:17.730 --> 00:06:19.110
+and with travel disrupted
+
+00:06:19.110 --> 00:06:22.050
+and Europe's mathematical
+centers largely out of reach,
+
+00:06:22.050 --> 00:06:26.013
+much of his work happened in
+quiet isolation back in Norway.
+
+00:06:27.360 --> 00:06:30.570
+His goal was simple to try
+and prove that the number
+
+00:06:30.570 --> 00:06:33.510
+or count of twin primes always increases.
+
+00:06:33.510 --> 00:06:37.200
+And to do this, he took a 2000
+year old prime counting tool
+
+00:06:37.200 --> 00:06:39.870
+and tried to adapt it for twin primes.
+
+00:06:39.870 --> 00:06:41.940
+Now the normal version
+of this tool is called
+
+00:06:41.940 --> 00:06:46.189
+the sieve of Eratosthenes, and
+it works something like this.
+
+00:06:46.189 --> 00:06:47.220
+(bright music)
+
+00:06:47.220 --> 00:06:50.160
+Say we want to find the primes up to 100.
+
+00:06:50.160 --> 00:06:53.190
+First we remove one
+because that's not prime.
+
+00:06:53.190 --> 00:06:55.557
+Then we circle the first
+prime, that is two,
+
+00:06:55.557 --> 00:06:58.260
+and we remove all of its multiples.
+
+00:06:58.260 --> 00:06:59.610
+We do the same for three.
+
+00:06:59.610 --> 00:07:02.174
+Circle it and remove its multiples,
+
+00:07:02.174 --> 00:07:03.390
+(bright music)
+
+00:07:03.390 --> 00:07:05.613
+and then repeat that for five and seven.
+
+00:07:06.780 --> 00:07:09.690
+And with these four very quick operations,
+
+00:07:09.690 --> 00:07:12.930
+every single number that's
+left on your 10 by 10 grid
+
+00:07:12.930 --> 00:07:15.000
+is a prime number.
+
+00:07:15.000 --> 00:07:17.370
+Now we stop the sieve at seven,
+
+00:07:17.370 --> 00:07:21.000
+and we could keep going sieve by 11 or 30,
+
+00:07:21.000 --> 00:07:23.250
+but it turns out that we don't have to.
+
+00:07:23.250 --> 00:07:24.423
+So, why is that?
+
+00:07:25.830 --> 00:07:27.420
+Well, the next prime is 11.
+
+00:07:27.420 --> 00:07:29.670
+So, let's check the numbers below 100
+
+00:07:29.670 --> 00:07:31.830
+that are divisible by 11.
+
+00:07:31.830 --> 00:07:33.750
+22 is two times 11,
+
+00:07:33.750 --> 00:07:36.600
+but since it's divisible by
+two, we already caught it.
+
+00:07:36.600 --> 00:07:39.720
+We also have 33, but that
+is divisible by three.
+
+00:07:39.720 --> 00:07:43.530
+And a similar logic holds for 55 and 77.
+
+00:07:43.530 --> 00:07:46.080
+But what about 11 times 11?
+
+00:07:46.080 --> 00:07:51.080
+Well notice that is 121,
+which is not in our range.
+
+00:07:51.540 --> 00:07:54.630
+So, every multiple of 11 below 100
+
+00:07:54.630 --> 00:07:57.360
+was already caught by a smaller prime.
+
+00:07:57.360 --> 00:08:00.720
+So, sieving by 11 would
+cross out nothing new.
+
+00:08:00.720 --> 00:08:02.400
+- So, Eratosthenes,
+
+00:08:02.400 --> 00:08:05.070
+has this idea that you
+only need to sieve out
+
+00:08:05.070 --> 00:08:06.690
+the primes that are at most square root,
+
+00:08:06.690 --> 00:08:08.160
+the size of the number.
+
+00:08:08.160 --> 00:08:11.730
+- But there's also a second
+wave to visualize this sieve.
+
+00:08:11.730 --> 00:08:13.020
+Take the number line
+
+00:08:13.020 --> 00:08:16.560
+and let each prime send out a
+wave with the wavelength equal
+
+00:08:16.560 --> 00:08:18.240
+to the size of that number.
+
+00:08:18.240 --> 00:08:21.000
+So, the wave from two lands
+on every second number
+
+00:08:21.000 --> 00:08:24.416
+and the wave from three
+on every third and so on.
+
+00:08:24.416 --> 00:08:26.010
+(bright music)
+
+00:08:26.010 --> 00:08:29.040
+Now, notice that wherever a wave lands,
+
+00:08:29.040 --> 00:08:31.203
+that number has to be composite.
+
+00:08:32.100 --> 00:08:34.680
+But the numbers that escape
+every preceding wave,
+
+00:08:34.680 --> 00:08:36.813
+well those have to be prime.
+
+00:08:37.950 --> 00:08:41.010
+And so you end up with this
+beautiful visualization
+
+00:08:41.010 --> 00:08:42.369
+of the sieve.
+
+00:08:42.369 --> 00:08:43.740
+(bright music)
+
+00:08:43.740 --> 00:08:46.950
+And both of these methods
+make it incredibly easy
+
+00:08:46.950 --> 00:08:49.410
+to identify the primes.
+
+00:08:49.410 --> 00:08:52.800
+- But Brun didn't care about
+which primes were left,
+
+00:08:52.800 --> 00:08:55.470
+he just needed to know how many were left.
+
+00:08:55.470 --> 00:08:58.110
+And to do this, he counted all the numbers
+
+00:08:58.110 --> 00:09:00.360
+that were crossed out and then subtracted
+
+00:09:00.360 --> 00:09:01.950
+this from the total,
+
+00:09:01.950 --> 00:09:05.640
+since whatever is not
+crossed out must be prime.
+
+00:09:05.640 --> 00:09:09.150
+So, let's use this to find the
+number of primes below 100.
+
+00:09:09.150 --> 00:09:10.710
+We can keep a running count.
+
+00:09:10.710 --> 00:09:12.660
+So, we'll start with 100.
+
+00:09:12.660 --> 00:09:14.460
+We're gonna throw out
+all the multiples of two.
+
+00:09:14.460 --> 00:09:16.083
+Well, that's 50 numbers left, okay?
+
+00:09:16.083 --> 00:09:18.450
+Then we're gonna throw
+away multiples of three.
+
+00:09:18.450 --> 00:09:19.590
+Well, how many multiples of three
+
+00:09:19.590 --> 00:09:20.423
+are there less than 100.
+
+00:09:20.423 --> 00:09:22.590
+100 divided by three
+is not a whole number.
+
+00:09:22.590 --> 00:09:26.400
+It's like 33 and a third, but
+we don't throw out fractions.
+
+00:09:26.400 --> 00:09:28.590
+So, okay, forget that
+stupid little fraction.
+
+00:09:28.590 --> 00:09:30.960
+We do the same for the
+multiples of five and seven,
+
+00:09:30.960 --> 00:09:33.330
+but now the count has gone negative.
+
+00:09:33.330 --> 00:09:36.090
+Well, it turns out that some
+numbers got crossed out twice,
+
+00:09:36.090 --> 00:09:39.390
+like six for example, it's
+a multiple of two and three.
+
+00:09:39.390 --> 00:09:42.450
+So, we crossed it out once when
+we removed multiples of two
+
+00:09:42.450 --> 00:09:44.970
+and again when we removed
+multiples of three.
+
+00:09:44.970 --> 00:09:46.740
+So, we have to add it back once.
+
+00:09:46.740 --> 00:09:48.630
+The same thing happens
+for multiples of 10,
+
+00:09:48.630 --> 00:09:50.220
+which is two times five,
+
+00:09:50.220 --> 00:09:51.780
+14 which is two times seven,
+
+00:09:51.780 --> 00:09:54.420
+15, which is three times five and so on.
+
+00:09:54.420 --> 00:09:56.640
+So, we add these overlaps back
+
+00:09:56.640 --> 00:09:59.100
+and now the count rises to 28,
+
+00:09:59.100 --> 00:10:01.140
+but it's still not quite right.
+
+00:10:01.140 --> 00:10:04.560
+- Now we've triple added
+back in the multiples
+
+00:10:04.560 --> 00:10:06.510
+of two times three times five,
+
+00:10:06.510 --> 00:10:08.730
+so that we need to subtract one more time.
+
+00:10:08.730 --> 00:10:10.680
+- The same thing happens for 42,
+
+00:10:10.680 --> 00:10:12.420
+which is two times three times seven,
+
+00:10:12.420 --> 00:10:15.030
+and 70, which is two
+times five times seven.
+
+00:10:15.030 --> 00:10:17.820
+There's a fourth triple two,
+three times five times seven,
+
+00:10:17.820 --> 00:10:21.390
+which is 105, but that's
+already bigger than 100.
+
+00:10:21.390 --> 00:10:23.460
+So, it contributes nothing here.
+
+00:10:23.460 --> 00:10:26.880
+But we'll write it in to
+keep the pattern complete.
+
+00:10:26.880 --> 00:10:29.520
+After the triples, we
+add back the quadruple,
+
+00:10:29.520 --> 00:10:32.760
+two times three times five
+times seven, which is 210.
+
+00:10:32.760 --> 00:10:34.170
+That's also bigger than 100,
+
+00:10:34.170 --> 00:10:36.720
+so it contributes zero as well.
+
+00:10:36.720 --> 00:10:40.140
+And finally, we add back the
+four sieving primes themselves
+
+00:10:40.140 --> 00:10:43.890
+and subtract one because it
+was included in the count.
+
+00:10:43.890 --> 00:10:47.130
+So, the count lands at 25 primes.
+
+00:10:47.130 --> 00:10:48.810
+This process of alternating
+
+00:10:48.810 --> 00:10:51.150
+between subtracting and
+adding numbers back in
+
+00:10:51.150 --> 00:10:53.490
+is called inclusion exclusion.
+
+00:10:53.490 --> 00:10:54.960
+And it makes it super easy to find out
+
+00:10:54.960 --> 00:10:58.530
+how many primes there are
+up to some given number.
+
+00:10:58.530 --> 00:11:01.920
+Now this equation still looks
+a little bit like a mess,
+
+00:11:01.920 --> 00:11:05.430
+but actually we can
+rearrange it into this form.
+
+00:11:05.430 --> 00:11:07.500
+Now notice that every prime factor
+
+00:11:07.500 --> 00:11:10.980
+we added just adds an
+additional term in this series.
+
+00:11:10.980 --> 00:11:13.200
+We've got the two that goes over here,
+
+00:11:13.200 --> 00:11:16.200
+the three goes over here,
+five goes over here,
+
+00:11:16.200 --> 00:11:18.330
+and seven goes over here.
+
+00:11:18.330 --> 00:11:21.360
+And if we were trying to find
+primes for some higher number
+
+00:11:21.360 --> 00:11:23.400
+and we wanted to add 11 as a prime factor,
+
+00:11:23.400 --> 00:11:27.720
+it would just add one additional
+one minus one over 11 term.
+
+00:11:27.720 --> 00:11:28.590
+Now in general,
+
+00:11:28.590 --> 00:11:31.170
+if we keep the sieve
+going up to some prime P,
+
+00:11:31.170 --> 00:11:33.090
+which is less than the square root of N,
+
+00:11:33.090 --> 00:11:35.643
+then the count becomes approximately this.
+
+00:11:38.160 --> 00:11:40.890
+- But this is still just
+the count of primes.
+
+00:11:40.890 --> 00:11:43.907
+What Brun really wanted was
+the count of twin primes.
+
+00:11:43.907 --> 00:11:47.430
+And so this is the part
+where he adapted his sieve,
+
+00:11:47.430 --> 00:11:51.360
+to find a case where both
+N and N plus two are prime.
+
+00:11:51.360 --> 00:11:53.820
+For example, when you're sieving by five,
+
+00:11:53.820 --> 00:11:56.790
+you remove the numbers where
+N is divisible by five,
+
+00:11:56.790 --> 00:11:58.230
+just as before.
+
+00:11:58.230 --> 00:12:00.450
+But in addition, you need
+to remove the numbers
+
+00:12:00.450 --> 00:12:03.570
+where N plus two is divisible by five.
+
+00:12:03.570 --> 00:12:07.800
+So, you also remove 23, 28, 33 and so on
+
+00:12:07.800 --> 00:12:12.800
+because in those cases, N plus
+two is 25, 30, 35 and so on.
+
+00:12:13.500 --> 00:12:16.140
+So, this means that while
+in the ordinary sieve
+
+00:12:16.140 --> 00:12:19.860
+a prime P removes about
+one out of every P numbers,
+
+00:12:19.860 --> 00:12:22.500
+the twin prime sieve removes two.
+
+00:12:22.500 --> 00:12:25.410
+And this changes the count to this,
+
+00:12:25.410 --> 00:12:28.500
+where the numerator for
+all the terms after two,
+
+00:12:28.500 --> 00:12:30.183
+ends up getting a two.
+
+00:12:31.140 --> 00:12:34.650
+Now, if we plot the count of
+twin primes that this predicts,
+
+00:12:34.650 --> 00:12:36.870
+we see that it grows roughly like N
+
+00:12:36.870 --> 00:12:39.660
+over the natural logarithm of N squared,
+
+00:12:39.660 --> 00:12:41.340
+just as for our heuristic.
+
+00:12:41.340 --> 00:12:43.890
+And so it seems like Brun did it,
+
+00:12:43.890 --> 00:12:47.490
+but unfortunately that is not the case.
+
+00:12:47.490 --> 00:12:51.210
+- We said that 100 divided
+by three is 33, and a third,
+
+00:12:51.210 --> 00:12:52.500
+but forget about that little error,
+
+00:12:52.500 --> 00:12:54.270
+those little errors,
+
+00:12:54.270 --> 00:12:56.370
+it's very difficult to
+control those errors
+
+00:12:56.370 --> 00:12:58.110
+'cause there are so many
+of those little errors.
+
+00:12:58.110 --> 00:13:00.960
+Each one of them is at most
+one it's a rounding error.
+
+00:13:00.960 --> 00:13:03.360
+- Take the traditional
+sieve of Eratosthenes again,
+
+00:13:03.360 --> 00:13:05.430
+when we're sieving with just one prime,
+
+00:13:05.430 --> 00:13:07.260
+we just have an over two.
+
+00:13:07.260 --> 00:13:09.120
+So, one rounding error,
+
+00:13:09.120 --> 00:13:10.770
+with two primes, two and three,
+
+00:13:10.770 --> 00:13:13.140
+there are three separate rounding errors,
+
+00:13:13.140 --> 00:13:15.540
+but with three primes,
+two, three, and five,
+
+00:13:15.540 --> 00:13:18.780
+there are already seven
+separate rounding errors,
+
+00:13:18.780 --> 00:13:22.350
+each for one term in
+the inclusion exclusion.
+
+00:13:22.350 --> 00:13:25.290
+And so you might start to
+see the general pattern here.
+
+00:13:25.290 --> 00:13:28.710
+One prime gives two to the
+power one minus one terms,
+
+00:13:28.710 --> 00:13:31.500
+two gives two to the
+power two minus one terms,
+
+00:13:31.500 --> 00:13:33.240
+and three primes gives two
+
+00:13:33.240 --> 00:13:35.640
+to the power three minus one terms.
+
+00:13:35.640 --> 00:13:38.370
+In general, if you sieve by K primes,
+
+00:13:38.370 --> 00:13:42.630
+you get roughly two to the
+power K minus one error terms,
+
+00:13:42.630 --> 00:13:43.800
+but we can drop the one
+
+00:13:43.800 --> 00:13:47.040
+because it doesn't really
+make much of a difference.
+
+00:13:47.040 --> 00:13:49.650
+So, that means that if you're
+sieving for normal primes,
+
+00:13:49.650 --> 00:13:53.160
+the error grows roughly
+like two to the power K.
+
+00:13:53.160 --> 00:13:56.370
+But if you're saving for twin
+primes, it gets even worse.
+
+00:13:56.370 --> 00:13:59.940
+And now the error grows roughly
+like four to the power K.
+
+00:13:59.940 --> 00:14:03.622
+And so this causes a lot of
+trouble very, very quick.
+
+00:14:03.622 --> 00:14:06.300
+(bright music)
+
+00:14:06.300 --> 00:14:10.173
+And then here for the twin
+primes, it's even worse.
+
+00:14:11.070 --> 00:14:14.193
+The main term grows a bit more slowly,
+
+00:14:15.330 --> 00:14:18.630
+but the error term grows much faster.
+
+00:14:18.630 --> 00:14:21.120
+So, it still starts off slow.
+
+00:14:21.120 --> 00:14:22.350
+And so you can quickly see
+
+00:14:22.350 --> 00:14:25.020
+that once these error
+terms start dominating,
+
+00:14:25.020 --> 00:14:26.190
+you get into trouble.
+
+00:14:26.190 --> 00:14:28.950
+So, the issue he was facing
+is he had this main term
+
+00:14:28.950 --> 00:14:30.390
+and the main term, you know,
+
+00:14:30.390 --> 00:14:32.310
+it grew in the way he wanted to,
+
+00:14:32.310 --> 00:14:34.110
+but then it just got overtaken
+
+00:14:34.110 --> 00:14:35.640
+and dominated by those error terms.
+
+00:14:35.640 --> 00:14:36.473
+- Exactly.
+
+00:14:36.473 --> 00:14:37.920
+And that's all of analysis,
+
+00:14:37.920 --> 00:14:40.200
+in general analytic number
+theory in particular
+
+00:14:40.200 --> 00:14:41.640
+is the fight between the main term
+
+00:14:41.640 --> 00:14:44.190
+that you think is the truth,
+if it actually is the truth,
+
+00:14:44.190 --> 00:14:47.790
+and getting the error
+term to be provably lower order.
+
+00:14:47.790 --> 00:14:49.080
+- So, for twin primes,
+
+00:14:49.080 --> 00:14:51.390
+the main term grows roughly like this,
+
+00:14:51.390 --> 00:14:55.320
+something like N over the
+natural logarithm of N squared.
+
+00:14:55.320 --> 00:14:56.670
+But that's not the true count,
+
+00:14:56.670 --> 00:14:57.900
+because to get the true count,
+
+00:14:57.900 --> 00:15:00.660
+we must add and subtract the error terms,
+
+00:15:00.660 --> 00:15:03.960
+which gives us this upper and lower bound.
+
+00:15:03.960 --> 00:15:05.550
+And now you can see the problem.
+
+00:15:05.550 --> 00:15:08.340
+Because the true count can
+be anywhere in this range,
+
+00:15:08.340 --> 00:15:11.850
+and as you can see, a big
+swath of it is negative.
+
+00:15:11.850 --> 00:15:14.160
+So, to prove the
+conjecture, what we must do
+
+00:15:14.160 --> 00:15:16.500
+is we must show that this lower bound
+
+00:15:16.500 --> 00:15:19.290
+is always positive and growing.
+
+00:15:19.290 --> 00:15:21.780
+But that is where we run into a problem
+
+00:15:21.780 --> 00:15:23.790
+with the sieve we've been using.
+
+00:15:23.790 --> 00:15:25.950
+Because the more primes we sieve by,
+
+00:15:25.950 --> 00:15:29.010
+the more those error
+terms start to accumulate
+
+00:15:29.010 --> 00:15:30.900
+and we just can show this.
+
+00:15:30.900 --> 00:15:33.870
+- And so what Brun eventually realized
+
+00:15:33.870 --> 00:15:35.670
+is that if you weaken the sieve,
+
+00:15:35.670 --> 00:15:37.980
+if you don't sieve all the
+way up to square root X,
+
+00:15:37.980 --> 00:15:40.110
+but to up to something less than that,
+
+00:15:40.110 --> 00:15:44.430
+and you are very careful about
+your inclusion exclusion,
+
+00:15:44.430 --> 00:15:46.440
+you can actually take
+care of those error terms.
+
+00:15:46.440 --> 00:15:48.840
+- So, run a sieve by fewer factors,
+
+00:15:48.840 --> 00:15:52.380
+only up to N to the power one over 10.
+
+00:15:52.380 --> 00:15:53.430
+And as a result,
+
+00:15:53.430 --> 00:15:56.220
+he gained enough control
+over the error term.
+
+00:15:56.220 --> 00:15:58.500
+But this chooses a trade off.
+
+00:15:58.500 --> 00:16:00.810
+Say you wanted to find
+all the prime numbers
+
+00:16:00.810 --> 00:16:02.070
+up to 10 billion,
+
+00:16:02.070 --> 00:16:03.870
+then using the square root method,
+
+00:16:03.870 --> 00:16:06.810
+you would need to sieve up to
+the square root of 10 billion,
+
+00:16:06.810 --> 00:16:08.760
+which is 100,000.
+
+00:16:08.760 --> 00:16:12.090
+But that gives you a lot of error terms.
+
+00:16:12.090 --> 00:16:13.890
+But with Brun's method,
+
+00:16:13.890 --> 00:16:16.260
+you would only need to
+sieve up to 10 billion
+
+00:16:16.260 --> 00:16:20.220
+to the power one over
+10, which is just 10.
+
+00:16:20.220 --> 00:16:21.630
+But there's a catch.
+
+00:16:21.630 --> 00:16:24.000
+Because Brun, didn't
+sieve by all the primes,
+
+00:16:24.000 --> 00:16:26.790
+there were some survivors
+that weren't prime at all,
+
+00:16:26.790 --> 00:16:29.040
+but numbers with many prime factors,
+
+00:16:29.040 --> 00:16:31.083
+in Brun's case up to nine.
+
+00:16:31.920 --> 00:16:34.080
+So, what he actually ended up proving
+
+00:16:34.080 --> 00:16:36.180
+is that there are infinitely many pairs
+
+00:16:36.180 --> 00:16:37.860
+of numbers two apart,
+
+00:16:37.860 --> 00:16:41.253
+where each number has at
+most nine prime factors.
+
+00:16:42.270 --> 00:16:45.990
+- Brun's techniques were improved
+and improved and improved,
+
+00:16:45.990 --> 00:16:49.050
+and we went from nine prime
+factors to seven prime factors
+
+00:16:49.050 --> 00:16:50.670
+to three prime factors.
+
+00:16:50.670 --> 00:16:52.800
+Until in 1973,
+
+00:16:52.800 --> 00:16:56.070
+a Chinese mathematician
+Chen Jingrun comes along
+
+00:16:56.070 --> 00:16:58.680
+and proved that there are
+infinitely many prime P,
+
+00:16:58.680 --> 00:17:02.910
+where P plus two has at
+most two prime factors.
+
+00:17:02.910 --> 00:17:05.520
+- This is as close as you could get
+
+00:17:05.520 --> 00:17:07.710
+to proving the twin prime conjecture
+
+00:17:07.710 --> 00:17:09.180
+without actually getting there.
+
+00:17:09.180 --> 00:17:12.840
+We're stuck like we're
+like as close as we can get
+
+00:17:12.840 --> 00:17:14.070
+and no further.
+
+00:17:14.070 --> 00:17:14.903
+- Right.
+
+00:17:14.903 --> 00:17:17.040
+So, that's one approximation,
+
+00:17:17.040 --> 00:17:19.770
+one mechanism for
+approximating twin primes.
+
+00:17:19.770 --> 00:17:20.880
+There's another.
+
+00:17:20.880 --> 00:17:24.480
+So, the other mechanism
+is what's the smallest gap
+
+00:17:24.480 --> 00:17:25.890
+between two consecutive primes?
+
+00:17:25.890 --> 00:17:27.870
+So, instead of saying they differ by two
+
+00:17:27.870 --> 00:17:30.030
+and one of them's prime
+and the other one, well,
+
+00:17:30.030 --> 00:17:32.280
+we're gonna try to get,
+you know, reduce the number
+
+00:17:32.280 --> 00:17:33.390
+of prime factors that it has.
+
+00:17:33.390 --> 00:17:36.630
+Instead we're gonna say
+both numbers must be prime,
+
+00:17:36.630 --> 00:17:38.793
+but let's reduce the
+distance between them.
+
+00:17:39.660 --> 00:17:42.390
+- Now remember, on average
+consecutive primes sit
+
+00:17:42.390 --> 00:17:45.240
+about the natural logarithm of N apart.
+
+00:17:45.240 --> 00:17:48.120
+And so the question became,
+can we at least prove
+
+00:17:48.120 --> 00:17:51.153
+that primes come closer
+than that average gap?
+
+00:17:52.620 --> 00:17:55.140
+For decades, mathematicians
+kept chipping away
+
+00:17:55.140 --> 00:17:56.040
+at this problem.
+
+00:17:56.040 --> 00:17:58.770
+By 1988, the gap had
+dropped all the way down
+
+00:17:58.770 --> 00:18:01.350
+to roughly a quarter of the average gap.
+
+00:18:01.350 --> 00:18:03.960
+This means that say the average gap is 100
+
+00:18:03.960 --> 00:18:05.340
+at some enormous scale,
+
+00:18:05.340 --> 00:18:07.260
+then primes must sometimes come
+
+00:18:07.260 --> 00:18:09.543
+within about 25 of each other.
+
+00:18:10.920 --> 00:18:14.280
+But then in 2005, Goldston,
+Pintz and Yildirim,
+
+00:18:14.280 --> 00:18:17.340
+proved a result that shocked
+the mathematical community.
+
+00:18:17.340 --> 00:18:20.490
+- And they announced the
+proof of a spectacular result,
+
+00:18:20.490 --> 00:18:24.690
+0% bounded gaps of 0% of the average.
+
+00:18:24.690 --> 00:18:26.100
+- Wait, what?
+
+00:18:26.100 --> 00:18:27.990
+- They proved that you
+can make the fraction
+
+00:18:27.990 --> 00:18:29.910
+as small as you want.
+
+00:18:29.910 --> 00:18:33.240
+This means the gap could
+be one 10th or 100th,
+
+00:18:33.240 --> 00:18:35.910
+or even 1000000th of the average gap.
+
+00:18:35.910 --> 00:18:38.460
+It could be as arbitrarily
+small as you like,
+
+00:18:38.460 --> 00:18:41.493
+and infinitely often
+primes get that close.
+
+00:18:42.780 --> 00:18:44.790
+- When I was young, we didn't
+know there were gaps of size,
+
+00:18:44.790 --> 00:18:46.890
+less than say one 10th log X
+
+00:18:46.890 --> 00:18:50.010
+or infinitely many primes pairs
+
+00:18:50.010 --> 00:18:50.940
+and Goldston and Yildirim,
+
+00:18:50.940 --> 00:18:54.360
+came up with a method to attack that.
+
+00:18:54.360 --> 00:18:57.900
+- But the method also came
+close to something even bigger,
+
+00:18:57.900 --> 00:19:01.429
+an absolute bounded
+gap between two primes.
+
+00:19:01.429 --> 00:19:02.430
+(bright music)
+
+00:19:02.430 --> 00:19:04.680
+- And so that was like a big thing.
+
+00:19:04.680 --> 00:19:07.560
+- What was the big desire to go from 0%
+
+00:19:07.560 --> 00:19:11.760
+or arbitrarily small to
+a concrete bounded gap?
+
+00:19:11.760 --> 00:19:13.290
+- Well, because we think that the bound
+
+00:19:13.290 --> 00:19:15.720
+between two consecutive primes
+infinitely often is two,
+
+00:19:15.720 --> 00:19:18.960
+and right now we're showing
+that it's log X, and X grows.
+
+00:19:18.960 --> 00:19:21.270
+- If they could get to bounded gaps,
+
+00:19:21.270 --> 00:19:25.020
+then they had another method
+to attack the conjecture.
+
+00:19:25.020 --> 00:19:26.400
+The only problem
+
+00:19:26.400 --> 00:19:30.360
+was that it seemed like
+their tool ran into a wall.
+
+00:19:30.360 --> 00:19:32.040
+And so in 2005,
+
+00:19:32.040 --> 00:19:35.610
+the American Institute of
+Mathematics convened a meeting,
+
+00:19:35.610 --> 00:19:39.570
+gathering all the world's
+leading experts on this problem.
+
+00:19:39.570 --> 00:19:43.380
+GPY, Andrew Granville,
+Kannan Soundararajan,
+
+00:19:43.380 --> 00:19:46.230
+all gathered for a week in California
+
+00:19:46.230 --> 00:19:48.390
+with one explicit goal,
+
+00:19:48.390 --> 00:19:51.690
+to prove a bounded gap between primes.
+
+00:19:51.690 --> 00:19:53.610
+- I was a young graduate student,
+
+00:19:53.610 --> 00:19:56.850
+I was very lucky to get
+to go to this meeting.
+
+00:19:56.850 --> 00:19:58.590
+You're surrounded by
+the world's top experts
+
+00:19:58.590 --> 00:19:59.423
+on this subject.
+
+00:19:59.423 --> 00:20:01.290
+We spent an entire week.
+
+00:20:01.290 --> 00:20:02.790
+And the upshot of this week
+
+00:20:02.790 --> 00:20:04.140
+was basically that it's impossible.
+
+00:20:04.140 --> 00:20:07.470
+And Soundararajan shows
+how it's not possible
+
+00:20:07.470 --> 00:20:08.340
+to do this thing.
+
+00:20:08.340 --> 00:20:11.160
+And so as far as I was
+concerned, that was that, and I,
+
+00:20:11.160 --> 00:20:13.140
+you know, this wasn't
+gonna be my thesis problem,
+
+00:20:13.140 --> 00:20:14.280
+I'd have to do something else
+
+00:20:14.280 --> 00:20:16.500
+and I went off and and did other things.
+
+00:20:16.500 --> 00:20:19.140
+But there was one person
+who was not at this meeting,
+
+00:20:19.140 --> 00:20:20.602
+Yitang Zhang.
+
+00:20:20.602 --> 00:20:22.770
+(bright music)
+
+00:20:22.770 --> 00:20:24.420
+- Zhang grew up in China,
+
+00:20:24.420 --> 00:20:27.120
+and around the age of 30 moved to the U.S.
+
+00:20:27.120 --> 00:20:29.310
+to get his PhD in mathematics,
+
+00:20:29.310 --> 00:20:31.650
+but he never got any
+recommendation letters
+
+00:20:31.650 --> 00:20:33.873
+and so struggled to find a job.
+
+00:20:36.630 --> 00:20:38.490
+He ended up living in his car for time
+
+00:20:38.490 --> 00:20:41.910
+and ultimately working
+odd jobs for seven years,
+
+00:20:41.910 --> 00:20:44.730
+including at Subway,
+where he kept the books
+
+00:20:44.730 --> 00:20:46.293
+and sorted receipts.
+
+00:20:47.610 --> 00:20:50.360
+Yet, while doing all of
+that in his spare time,
+
+00:20:50.360 --> 00:20:52.980
+he would drive down to the local library
+
+00:20:52.980 --> 00:20:56.175
+to read books and
+journals on number theory.
+
+00:20:56.175 --> 00:20:57.810
+(bright music)
+
+00:20:57.810 --> 00:21:01.500
+Then in 1999, he got a lucky break.
+
+00:21:01.500 --> 00:21:04.440
+One of his friends helped
+him get a job as a lecturer
+
+00:21:04.440 --> 00:21:06.990
+at the University of New Hampshire.
+
+00:21:06.990 --> 00:21:09.780
+So, now he could spend all his time doing
+
+00:21:09.780 --> 00:21:12.180
+what he loved most, math.
+
+00:21:12.180 --> 00:21:14.130
+Zhang said that when he was a kid,
+
+00:21:14.130 --> 00:21:15.870
+he "Imagined there would be a day
+
+00:21:15.870 --> 00:21:18.627
+that I would solve a major math problem."
+
+00:21:19.560 --> 00:21:21.930
+And by 2010, he had identified
+
+00:21:21.930 --> 00:21:24.210
+his major problem to focus on,
+
+00:21:24.210 --> 00:21:26.403
+bounded gaps between primes.
+
+00:21:27.240 --> 00:21:29.760
+But to understand what he was working on,
+
+00:21:29.760 --> 00:21:34.760
+we need to understand what
+exactly it is that GPY had built.
+
+00:21:35.130 --> 00:21:38.700
+See, they wanted to find two
+primes within a bounded gap.
+
+00:21:38.700 --> 00:21:41.970
+And to do this, they
+imagined a stencil of sorts
+
+00:21:41.970 --> 00:21:43.560
+with some holes in it.
+
+00:21:43.560 --> 00:21:44.970
+So, let's do the same,
+
+00:21:44.970 --> 00:21:47.010
+and for the sake of this example,
+
+00:21:47.010 --> 00:21:49.860
+let's say the stencil
+has a diameter of six
+
+00:21:49.860 --> 00:21:53.490
+and holes at spot zero, two and six.
+
+00:21:53.490 --> 00:21:56.700
+Next we place the stencil
+anywhere on the number line,
+
+00:21:56.700 --> 00:21:58.413
+say starting at 12.
+
+00:21:59.280 --> 00:22:03.600
+And we ask a simple question,
+how many primes do we see?
+
+00:22:03.600 --> 00:22:06.780
+In this case, we see 12, 14, and 18,
+
+00:22:06.780 --> 00:22:07.860
+none of which are prime.
+
+00:22:07.860 --> 00:22:09.780
+So, we write down zero.
+
+00:22:09.780 --> 00:22:13.470
+Next we shift the stencil
+over one spot and repeat,
+
+00:22:13.470 --> 00:22:17.010
+13, 15, and 19, two of which are prime.
+
+00:22:17.010 --> 00:22:18.960
+So, we write down two.
+
+00:22:18.960 --> 00:22:20.460
+And then we keep doing this.
+
+00:22:20.460 --> 00:22:21.780
+If you slide it a bit further,
+
+00:22:21.780 --> 00:22:25.830
+we catch two primes again, 23 and 29.
+
+00:22:25.830 --> 00:22:29.400
+Now, if you keep moving the
+stencil across the number line
+
+00:22:29.400 --> 00:22:31.710
+and it keeps catching two primes,
+
+00:22:31.710 --> 00:22:33.150
+then you have proven
+
+00:22:33.150 --> 00:22:36.030
+that infinitely often
+pairs of primes exist
+
+00:22:36.030 --> 00:22:37.530
+within a bounded gap.
+
+00:22:37.530 --> 00:22:42.000
+Six in this case, since that's
+the diameter of our stencil.
+
+00:22:42.000 --> 00:22:45.180
+But there are two problems
+with this approach.
+
+00:22:45.180 --> 00:22:47.550
+The first is that we don't know exactly
+
+00:22:47.550 --> 00:22:49.350
+where all the primes are.
+
+00:22:49.350 --> 00:22:52.740
+And the second is that of
+course you can't keep sliding
+
+00:22:52.740 --> 00:22:54.840
+a stencil down the number line forever
+
+00:22:54.840 --> 00:22:57.210
+because well, it's infinitely long.
+
+00:22:57.210 --> 00:22:59.580
+Fortunately, there is an easy way
+
+00:22:59.580 --> 00:23:01.140
+to get around that first problem.
+
+00:23:01.140 --> 00:23:04.500
+See, while we don't know exactly
+where all the primes are,
+
+00:23:04.500 --> 00:23:07.500
+we do know how they behave on average.
+
+00:23:07.500 --> 00:23:10.860
+For example, say we take some
+stretch of the number line
+
+00:23:10.860 --> 00:23:14.130
+from some very large number X to two X,
+
+00:23:14.130 --> 00:23:16.890
+then we can't predict
+exactly which numbers
+
+00:23:16.890 --> 00:23:18.480
+in this stretch will be prime.
+
+00:23:18.480 --> 00:23:21.690
+But what we can do is put this
+into the prime number theorem
+
+00:23:21.690 --> 00:23:25.613
+and estimate how many
+primes to expect on average.
+
+00:23:25.613 --> 00:23:27.240
+(bright music)
+
+00:23:27.240 --> 00:23:30.480
+And GPY realized they
+could do a similar thing
+
+00:23:30.480 --> 00:23:32.130
+for their stencil method
+
+00:23:32.130 --> 00:23:35.160
+to build an averaging machine of sorts.
+
+00:23:35.160 --> 00:23:37.680
+All you do is you set
+up the stencil you want,
+
+00:23:37.680 --> 00:23:40.860
+input your range, and out comes
+the average number of primes
+
+00:23:40.860 --> 00:23:42.930
+it caught per position.
+
+00:23:42.930 --> 00:23:46.140
+So, let's do a quick
+example without the machine
+
+00:23:46.140 --> 00:23:48.060
+to see how this helps.
+
+00:23:48.060 --> 00:23:50.250
+Let's use the same stencil from before
+
+00:23:50.250 --> 00:23:52.860
+and use the range 20 to 40.
+
+00:23:52.860 --> 00:23:55.860
+Now, in reality, you would
+use a much larger range,
+
+00:23:55.860 --> 00:23:58.680
+but for simplicity, let's stick to this.
+
+00:23:58.680 --> 00:24:01.380
+To find the average, you
+just place the stencil
+
+00:24:01.380 --> 00:24:02.760
+at the start of your range,
+
+00:24:02.760 --> 00:24:04.980
+and you'll look at which numbers you see,
+
+00:24:04.980 --> 00:24:06.990
+20, 22 and 26.
+
+00:24:06.990 --> 00:24:08.040
+None of which are prime
+
+00:24:08.040 --> 00:24:10.620
+and so the total prime count is zero.
+
+00:24:10.620 --> 00:24:12.840
+Then we shift the stencil over one spot
+
+00:24:12.840 --> 00:24:15.900
+and see 21, 23 and 27.
+
+00:24:15.900 --> 00:24:19.890
+One of which is prime, so we
+increase the total by one.
+
+00:24:19.890 --> 00:24:21.990
+Now let's keep shifting the stencil
+
+00:24:21.990 --> 00:24:24.540
+and keep adding all the primes we see.
+
+00:24:24.540 --> 00:24:26.160
+No primes, so add zero,
+
+00:24:26.160 --> 00:24:29.117
+two primes, add two, and so on.
+
+00:24:29.117 --> 00:24:31.920
+(stencil shuffling)
+
+00:24:31.920 --> 00:24:33.930
+Now, if you keep shifting the stencil
+
+00:24:33.930 --> 00:24:35.460
+all the way until the end,
+
+00:24:35.460 --> 00:24:40.124
+you find a total of 14 primes
+across 21 starting positions.
+
+00:24:40.124 --> 00:24:42.570
+(bright music)
+
+00:24:42.570 --> 00:24:45.930
+And so the average is 14 over 21,
+
+00:24:45.930 --> 00:24:49.953
+or about 0.67 primes per location.
+
+00:24:51.690 --> 00:24:55.470
+Now in this case where we
+checked every spot by hand,
+
+00:24:55.470 --> 00:24:58.380
+we could see that the stencil
+caught several positions
+
+00:24:58.380 --> 00:25:00.360
+with two primes in them.
+
+00:25:00.360 --> 00:25:03.150
+But the averaging machine
+doesn't tell us this.
+
+00:25:03.150 --> 00:25:05.340
+All that spits out is an average,
+
+00:25:05.340 --> 00:25:07.050
+and that average alone
+
+00:25:07.050 --> 00:25:10.470
+can't guarantee that it
+caught two primes at once,
+
+00:25:10.470 --> 00:25:12.960
+because you could just
+as well imagine spreading
+
+00:25:12.960 --> 00:25:17.340
+all of these 14 primes over
+14 individual positions.
+
+00:25:17.340 --> 00:25:21.360
+And the same would be true
+if the average was 0.8, 0.9,
+
+00:25:21.360 --> 00:25:23.100
+or even one.
+
+00:25:23.100 --> 00:25:24.570
+I know it's unlikely,
+
+00:25:24.570 --> 00:25:28.800
+but it could be that every
+position only caught one prime
+
+00:25:28.800 --> 00:25:31.230
+to bring the average to one.
+
+00:25:31.230 --> 00:25:34.410
+But what if the average
+was larger than one?
+
+00:25:34.410 --> 00:25:37.950
+What if we found 22 primes in total?
+
+00:25:37.950 --> 00:25:41.580
+Well, even if every position
+had caught one prime,
+
+00:25:41.580 --> 00:25:43.650
+you would still have one prime left over
+
+00:25:43.650 --> 00:25:47.010
+and that needs to go in one
+of those other positions.
+
+00:25:47.010 --> 00:25:50.220
+So, in other words, if
+the average is above one,
+
+00:25:50.220 --> 00:25:51.720
+then that guarantees
+
+00:25:51.720 --> 00:25:55.140
+that at least one position
+caught two primes.
+
+00:25:55.140 --> 00:25:56.520
+And so that's the game.
+
+00:25:56.520 --> 00:25:59.760
+Get the average number
+of primes above one,
+
+00:25:59.760 --> 00:26:02.640
+but that still leaves one question.
+
+00:26:02.640 --> 00:26:06.900
+Even if you could do that, then
+how does that help you prove
+
+00:26:06.900 --> 00:26:08.940
+that you keep getting bounded gaps
+
+00:26:08.940 --> 00:26:10.980
+all the way up to infinity?
+
+00:26:10.980 --> 00:26:15.180
+Well, remember you just proved
+that for any large number X,
+
+00:26:15.180 --> 00:26:18.300
+so there's nothing stopping
+you from replacing that X
+
+00:26:18.300 --> 00:26:21.780
+with two X, and that two X with four X,
+
+00:26:21.780 --> 00:26:23.970
+and then you could replace
+the two X with four X
+
+00:26:23.970 --> 00:26:27.170
+and the four X with eight X, and so,
+
+00:26:27.170 --> 00:26:29.310
+on all the way up to infinity.
+
+00:26:29.310 --> 00:26:31.830
+So, if you can prove that the average gap
+
+00:26:31.830 --> 00:26:35.190
+is above one for any large number X,
+
+00:26:35.190 --> 00:26:36.870
+then with this clever setup,
+
+00:26:36.870 --> 00:26:40.470
+it immediately extends all
+the way out to infinity,
+
+00:26:40.470 --> 00:26:43.109
+and you would've proven your bounded gap.
+
+00:26:43.109 --> 00:26:45.450
+(bright music)
+
+00:26:45.450 --> 00:26:47.010
+- Unfortunately, running the machine
+
+00:26:47.010 --> 00:26:48.540
+with just the current inputs,
+
+00:26:48.540 --> 00:26:50.250
+the stencil visits many positions
+
+00:26:50.250 --> 00:26:52.320
+where it catches zero primes,
+
+00:26:52.320 --> 00:26:53.790
+this drags the average down
+
+00:26:53.790 --> 00:26:56.190
+and means it will never get above one.
+
+00:26:56.190 --> 00:26:59.640
+So, GPY made one final
+tweak to their machine.
+
+00:26:59.640 --> 00:27:01.680
+They realize that some starting positions
+
+00:27:01.680 --> 00:27:04.200
+are more likely to catch
+primes than others.
+
+00:27:04.200 --> 00:27:07.230
+For example, if the stencil
+only lands on even numbers,
+
+00:27:07.230 --> 00:27:11.130
+it will always give zero
+primes unless it includes two.
+
+00:27:11.130 --> 00:27:12.420
+So, those positions
+
+00:27:12.420 --> 00:27:15.120
+should not be weighted
+equally to the others.
+
+00:27:15.120 --> 00:27:17.460
+Similarly, if you can divide
+one or more of the numbers
+
+00:27:17.460 --> 00:27:19.440
+in the stencil by three, five, seven,
+
+00:27:19.440 --> 00:27:21.270
+or other small prime factors,
+
+00:27:21.270 --> 00:27:24.720
+it's also more unlikely you
+have primes in your stencil.
+
+00:27:24.720 --> 00:27:27.390
+So, they should also be weighted less.
+
+00:27:27.390 --> 00:27:30.960
+Now, GPY did a few simple checks
+like this for each position
+
+00:27:30.960 --> 00:27:33.750
+to assign it a weight,
+and estimate of how likely
+
+00:27:33.750 --> 00:27:36.300
+it is that this position contains primes.
+
+00:27:36.300 --> 00:27:38.100
+This turned their averaging machine
+
+00:27:38.100 --> 00:27:40.650
+into a weighted averaging machine.
+
+00:27:40.650 --> 00:27:43.920
+And as a result, that
+weighted average shot up.
+
+00:27:43.920 --> 00:27:45.390
+With their updated machine
+
+00:27:45.390 --> 00:27:48.390
+they proved that if you
+pick any large number X,
+
+00:27:48.390 --> 00:27:50.580
+then in the range X to two X,
+
+00:27:50.580 --> 00:27:54.060
+you could get the weighted
+average arbitrarily close to one,
+
+00:27:54.060 --> 00:27:56.190
+but not above one.
+
+00:27:56.190 --> 00:27:59.730
+They were close, but they ran into a wall.
+
+00:27:59.730 --> 00:28:02.190
+A wall that came from their weights,
+
+00:28:02.190 --> 00:28:04.770
+because to figure out how to
+weigh different positions,
+
+00:28:04.770 --> 00:28:07.050
+they needed to know how
+primes are distributed
+
+00:28:07.050 --> 00:28:09.990
+in something known as an
+arithmetic progression.
+
+00:28:09.990 --> 00:28:12.300
+These are basically just series of numbers
+
+00:28:12.300 --> 00:28:15.000
+where they're all the
+same step size apart.
+
+00:28:15.000 --> 00:28:17.640
+So, 3, 7, 11, 15,
+
+00:28:17.640 --> 00:28:21.090
+that's an arithmetic progression
+with a step size of four.
+
+00:28:21.090 --> 00:28:24.420
+Now, GPY needed to know
+how primes were distributed
+
+00:28:24.420 --> 00:28:26.700
+over many such arithmetic progressions
+
+00:28:26.700 --> 00:28:29.400
+with all kinds of different step sizes.
+
+00:28:29.400 --> 00:28:32.310
+Fortunately, they knew
+of theorem from the 1960s
+
+00:28:32.310 --> 00:28:34.410
+they could use to do exactly this.
+
+00:28:34.410 --> 00:28:37.560
+- It's the substitute for the
+Riemann hypothesis on average,
+
+00:28:37.560 --> 00:28:40.260
+and it turns out that that's
+what's actually necessary
+
+00:28:40.260 --> 00:28:42.600
+in a lot of these arithmetic applications.
+
+00:28:42.600 --> 00:28:45.180
+- But that theorem
+doesn't work everywhere.
+
+00:28:45.180 --> 00:28:48.480
+It only works for step sizes
+up to the square root of X
+
+00:28:48.480 --> 00:28:50.460
+or X to the one half.
+
+00:28:50.460 --> 00:28:52.770
+The technical term for this one half
+
+00:28:52.770 --> 00:28:55.500
+is the level of distribution or theta.
+
+00:28:55.500 --> 00:28:57.840
+It tells you how large the step sizes
+
+00:28:57.840 --> 00:29:00.840
+can be while still getting
+a reliable count of primes
+
+00:29:00.840 --> 00:29:02.100
+in those progressions.
+
+00:29:02.100 --> 00:29:03.570
+And mathematicians believed
+
+00:29:03.570 --> 00:29:06.510
+that the theorem worked
+beyond X to the half,
+
+00:29:06.510 --> 00:29:08.760
+but this was never proven,
+
+00:29:08.760 --> 00:29:11.310
+and that is where the trouble lies.
+
+00:29:11.310 --> 00:29:14.610
+When GPY ran their
+calculation with this ceiling,
+
+00:29:14.610 --> 00:29:17.250
+they found the maximum
+weighted average they could get
+
+00:29:17.250 --> 00:29:19.350
+was two times theta.
+
+00:29:19.350 --> 00:29:22.260
+In other words, they
+got really close to one,
+
+00:29:22.260 --> 00:29:25.260
+but they could never actually cross it.
+
+00:29:25.260 --> 00:29:26.460
+- They showed in their method
+
+00:29:26.460 --> 00:29:28.110
+that if you could get beyond a half,
+
+00:29:28.110 --> 00:29:31.200
+you could do 0.5000001.
+
+00:29:31.200 --> 00:29:34.710
+Then instead of just getting
+0% of the average gap,
+
+00:29:34.710 --> 00:29:36.060
+they can get bounded gaps.
+
+00:29:36.060 --> 00:29:38.880
+The primes would be some
+fixed distance apart.
+
+00:29:38.880 --> 00:29:41.370
+- That's what the 2005
+meeting was all about.
+
+00:29:41.370 --> 00:29:45.060
+They kept trying to push
+past that one half barrier,
+
+00:29:45.060 --> 00:29:49.140
+but they ended up concluding
+that it was impossible.
+
+00:29:49.140 --> 00:29:52.620
+From 2010 on, Zhang spent
+two years hacking away
+
+00:29:52.620 --> 00:29:56.100
+at it as well, internalizing
+the GPY argument,
+
+00:29:56.100 --> 00:29:59.643
+working day and night just to
+try and find a way through.
+
+00:30:00.709 --> 00:30:02.310
+(bright music)
+
+00:30:02.310 --> 00:30:04.410
+But by the summer of 2012,
+
+00:30:04.410 --> 00:30:08.340
+Zhang was exhausted, and
+had nothing to show for it.
+
+00:30:08.340 --> 00:30:12.450
+Hoping to clear his head, he
+visited a friend in Colorado,
+
+00:30:12.450 --> 00:30:14.490
+where one evening while they were waiting
+
+00:30:14.490 --> 00:30:15.870
+to leave for concert,
+
+00:30:15.870 --> 00:30:19.680
+Zhang stepped outside
+alone into the backyard,
+
+00:30:19.680 --> 00:30:23.100
+looking out for the deer that
+usually roamed the property,
+
+00:30:23.100 --> 00:30:24.663
+but no deer came.
+
+00:30:26.340 --> 00:30:28.920
+So, he was just walking and thinking
+
+00:30:28.920 --> 00:30:31.953
+when all of a sudden
+the answer came to him.
+
+00:30:33.180 --> 00:30:35.550
+He hadn't brought any notes or paper,
+
+00:30:35.550 --> 00:30:38.703
+but Zhang believed his idea would work.
+
+00:30:38.703 --> 00:30:41.040
+(bright music)
+
+00:30:41.040 --> 00:30:42.870
+- You see, GPY had to count primes
+
+00:30:42.870 --> 00:30:44.670
+in many different arithmetic progressions
+
+00:30:44.670 --> 00:30:46.860
+with all sorts of step sizes.
+
+00:30:46.860 --> 00:30:49.920
+But Zhang focused on a
+special class of step sizes,
+
+00:30:49.920 --> 00:30:52.530
+one's built only from small prime factors,
+
+00:30:52.530 --> 00:30:55.110
+and he realized he could
+reorganize the error terms
+
+00:30:55.110 --> 00:30:58.620
+into a form where most
+of them get canceled out.
+
+00:30:58.620 --> 00:31:00.960
+This allowed him to push
+past the half barrier
+
+00:31:00.960 --> 00:31:05.283
+by a tiny fraction, just one over 584.
+
+00:31:06.120 --> 00:31:09.120
+Zhang spent the next year
+finalizing his proof,
+
+00:31:09.120 --> 00:31:11.550
+and then on the 17th of April, 2013,
+
+00:31:11.550 --> 00:31:15.273
+he sent off that curious email
+to the Annals of Mathematics.
+
+00:31:16.350 --> 00:31:17.430
+- Now, the Annals gets a proof
+
+00:31:17.430 --> 00:31:20.370
+of the Riemann Hypothesis every other day,
+
+00:31:20.370 --> 00:31:23.100
+so they're like, okay, surely
+this isn't gonna work out,
+
+00:31:23.100 --> 00:31:23.933
+but whatever.
+
+00:31:23.933 --> 00:31:25.800
+You know, we'll send it to a referee.
+
+00:31:25.800 --> 00:31:28.470
+And they're like, well,
+
+00:31:28.470 --> 00:31:30.240
+let's spend a few hours this afternoon.
+
+00:31:30.240 --> 00:31:31.410
+We'll find a mistake.
+
+00:31:31.410 --> 00:31:33.390
+We'll tell the annals, you
+know, sorry, it didn't work out.
+
+00:31:33.390 --> 00:31:35.940
+Here's where the the gap is.
+
+00:31:35.940 --> 00:31:37.470
+And they start reading it,
+
+00:31:37.470 --> 00:31:39.270
+and then they flip back,
+because they're experts.
+
+00:31:39.270 --> 00:31:41.160
+So, they can just flip through
+like, yeah, this'll work,
+
+00:31:41.160 --> 00:31:42.450
+this will work, but wait a second,
+
+00:31:42.450 --> 00:31:43.890
+you're gonna get stuck here.
+
+00:31:43.890 --> 00:31:46.140
+And they flip five pages
+and they're like, oh,
+
+00:31:46.140 --> 00:31:46.980
+that's interesting.
+
+00:31:46.980 --> 00:31:48.510
+That's how you're gonna handle that.
+
+00:31:48.510 --> 00:31:50.640
+Okay, but then you're gonna have another,
+
+00:31:50.640 --> 00:31:53.182
+it's like trying to lay down a carpet
+
+00:31:53.182 --> 00:31:54.533
+in a room.
+
+00:31:54.533 --> 00:31:56.070
+You're like, okay, I know that corner,
+
+00:31:56.070 --> 00:31:57.300
+that corner's gonna screw you up
+
+00:31:57.300 --> 00:31:59.490
+even if you managed to
+make it work over there.
+
+00:31:59.490 --> 00:32:01.500
+And then he goes over there,
+no, he cut it just right.
+
+00:32:01.500 --> 00:32:02.370
+It fits in that corner.
+
+00:32:02.370 --> 00:32:03.420
+Wait a second.
+
+00:32:03.420 --> 00:32:05.820
+And then they flip, you
+know, five more pages
+
+00:32:05.820 --> 00:32:06.690
+and by the end of the week,
+
+00:32:06.690 --> 00:32:09.440
+they've reconstructed the
+proof and everything's right.
+
+00:32:10.410 --> 00:32:11.997
+- Wow.
+
+00:32:11.997 --> 00:32:12.830
+(bright music)
+
+00:32:12.830 --> 00:32:16.020
+- Zhang's stencil had 3.5 million slots,
+
+00:32:16.020 --> 00:32:18.960
+spread across a span of 70 million.
+
+00:32:18.960 --> 00:32:22.440
+And by proving two of those
+slots always catch primes,
+
+00:32:22.440 --> 00:32:26.190
+he proved a bounded gap of 70 million.
+
+00:32:26.190 --> 00:32:27.120
+When the news broke,
+
+00:32:27.120 --> 00:32:29.190
+mathematicians were in disbelief.
+
+00:32:29.190 --> 00:32:31.260
+- It was basically an
+unknown in the field.
+
+00:32:31.260 --> 00:32:32.160
+I actually thought
+
+00:32:32.160 --> 00:32:33.720
+when I started reading
+Yitang Zhang's paper
+
+00:32:33.720 --> 00:32:36.180
+and started realizing
+it was probably correct,
+
+00:32:36.180 --> 00:32:37.620
+I thought it was probably
+one of the people
+
+00:32:37.620 --> 00:32:39.180
+I knew under a pseudonym,
+
+00:32:39.180 --> 00:32:41.520
+trying to avoid being
+embarrassed by being wrong.
+
+00:32:41.520 --> 00:32:42.870
+If they were wrong.
+
+00:32:42.870 --> 00:32:45.660
+- Of course it wasn't, Zhang was real.
+
+00:32:45.660 --> 00:32:46.980
+And just over a year later
+
+00:32:46.980 --> 00:32:49.875
+he was awarded the MacArthur Genius Grant.
+
+00:32:49.875 --> 00:32:51.780
+(bright music)
+
+00:32:51.780 --> 00:32:54.780
+- To me, this is a
+really interesting aspect
+
+00:32:54.780 --> 00:32:56.340
+of mathematics in particular.
+
+00:32:56.340 --> 00:32:58.590
+I think it's one of the very few fields
+
+00:32:58.590 --> 00:33:02.400
+where we have a truly honest approach
+
+00:33:02.400 --> 00:33:05.880
+to success and what counts as success.
+
+00:33:05.880 --> 00:33:08.490
+He sent in an argument,
+people took it seriously.
+
+00:33:08.490 --> 00:33:09.323
+They looked at it.
+
+00:33:09.323 --> 00:33:10.920
+They didn't think that
+he had a true proof.
+
+00:33:10.920 --> 00:33:14.340
+They sat there, they gave him the time
+
+00:33:14.340 --> 00:33:15.360
+that the argument was due,
+
+00:33:15.360 --> 00:33:17.820
+and he was immediately made a
+hero as he should have been.
+
+00:33:17.820 --> 00:33:19.980
+To me, it shows that
+mathematics culture works.
+
+00:33:19.980 --> 00:33:21.630
+We're doing the right thing.
+
+00:33:21.630 --> 00:33:24.600
+I think the cover of
+like Scientific American
+
+00:33:24.600 --> 00:33:27.150
+or whatever in 2013 is
+the story Yitang Zhang
+
+00:33:27.150 --> 00:33:28.860
+and how he got this bounded gap
+
+00:33:28.860 --> 00:33:31.710
+between primes toiling
+in complete isolation.
+
+00:33:31.710 --> 00:33:33.600
+And maybe it's because he was in isolation
+
+00:33:33.600 --> 00:33:35.820
+that he didn't have the group
+think that the rest of us did.
+
+00:33:35.820 --> 00:33:37.980
+To know that this was not,
+
+00:33:37.980 --> 00:33:39.870
+we were all told it's
+an impossible problem.
+
+00:33:39.870 --> 00:33:44.040
+- After realizing a bounded gap
+was not an impossible dream,
+
+00:33:44.040 --> 00:33:47.460
+people reworked Zhang's
+method to optimize it.
+
+00:33:47.460 --> 00:33:50.430
+Terence Tao spearheaded an
+online group called Polymath,
+
+00:33:50.430 --> 00:33:52.050
+and they sharpened the method.
+
+00:33:52.050 --> 00:33:54.750
+So, every month, week or day,
+
+00:33:54.750 --> 00:33:56.970
+that upper bound kept coming down.
+
+00:33:56.970 --> 00:33:59.220
+One of the attendees described
+being at a conference
+
+00:33:59.220 --> 00:34:02.100
+at the time, as I remember,
+sort of day by day,
+
+00:34:02.100 --> 00:34:04.650
+everyone was refreshing
+their screens to see
+
+00:34:04.650 --> 00:34:06.660
+who had the world record now,
+
+00:34:06.660 --> 00:34:08.310
+and ultimately they got the number
+
+00:34:08.310 --> 00:34:10.923
+all the way down to 4,680.
+
+00:34:12.540 --> 00:34:16.020
+- Meanwhile, there's a young
+postdoc named James Maynard,
+
+00:34:16.020 --> 00:34:19.020
+who just got his PhD at
+Oxford with Roger Heath-Brown
+
+00:34:19.020 --> 00:34:22.800
+and other one of these analytic
+number theory world experts.
+
+00:34:22.800 --> 00:34:25.683
+And he's working with Andrew
+Granville, in Montreal.
+
+00:34:26.850 --> 00:34:31.620
+And he has a completely orthogonal
+approach to this problem
+
+00:34:31.620 --> 00:34:32.453
+that he'd been making
+
+00:34:32.453 --> 00:34:34.770
+some very incremental
+progress on independently.
+
+00:34:34.770 --> 00:34:38.227
+- When Maynard started, his
+advisor explicitly told him,
+
+00:34:38.227 --> 00:34:41.370
+"I hope you won't work on
+this problem full time,
+
+00:34:41.370 --> 00:34:44.517
+because I'm really pretty
+confident you're going to fail."
+
+00:34:45.840 --> 00:34:47.910
+But Maynard ignored the warning,
+
+00:34:47.910 --> 00:34:51.510
+and came up with a different
+way to attack the problem,
+
+00:34:51.510 --> 00:34:55.320
+and within just a few
+months, he got it to work.
+
+00:34:55.320 --> 00:34:57.693
+Further bring down the gap to 600.
+
+00:34:58.740 --> 00:35:01.620
+But his method also proved something else.
+
+00:35:01.620 --> 00:35:03.720
+- He can get three primes
+in a bounded window.
+
+00:35:03.720 --> 00:35:05.640
+The bound has to change
+depending on how many primes
+
+00:35:05.640 --> 00:35:06.990
+you wanna put in that window,
+
+00:35:06.990 --> 00:35:08.400
+and that his number is better.
+
+00:35:08.400 --> 00:35:11.910
+And the method has nothing to
+do with the exponent one half.
+
+00:35:11.910 --> 00:35:13.110
+- Wait, what?
+
+00:35:13.110 --> 00:35:16.800
+- One half was a pure mirage.
+
+00:35:16.800 --> 00:35:18.450
+It was a red herring.
+
+00:35:18.450 --> 00:35:19.590
+- That is crazy.
+
+00:35:19.590 --> 00:35:22.590
+One half was not a
+fundamental limit at all.
+
+00:35:22.590 --> 00:35:26.220
+See where GPY average was
+stuck at two times theta,
+
+00:35:26.220 --> 00:35:29.520
+Maynard's average grew
+roughly like theta over two
+
+00:35:29.520 --> 00:35:31.500
+times the natural logarithm of K,
+
+00:35:31.500 --> 00:35:34.440
+where K is the number
+of slots in the stencil.
+
+00:35:34.440 --> 00:35:38.103
+So, all Maynard needed was
+enough slots and it worked.
+
+00:35:39.030 --> 00:35:41.340
+- You need any number greater than zero.
+
+00:35:41.340 --> 00:35:43.200
+When you go up to one half
+because you have one half,
+
+00:35:43.200 --> 00:35:45.060
+you'll get better numerics.
+
+00:35:45.060 --> 00:35:47.730
+But the bounded gaps you
+could do, just going up to,
+
+00:35:47.730 --> 00:35:50.910
+you know, 0.01, not 0.50101.
+
+00:35:50.910 --> 00:35:54.090
+Now, curiously, Terry Tao independently
+
+00:35:54.090 --> 00:35:56.430
+has the same approach.
+
+00:35:56.430 --> 00:35:57.810
+He tells Ben Green about it,
+
+00:35:57.810 --> 00:36:00.600
+Ben Green is meeting
+with Andrew Granville,
+
+00:36:00.600 --> 00:36:03.690
+and says, "Hey, Terry's got this new idea
+
+00:36:03.690 --> 00:36:05.520
+that he thinks is gonna get even farther."
+
+00:36:05.520 --> 00:36:06.750
+And Granville, says, wait a second.
+
+00:36:06.750 --> 00:36:09.810
+My postdoc, Maynard, is
+doing exactly the same thing.
+
+00:36:09.810 --> 00:36:11.700
+We gotta get these two guys
+to talk to one another.
+
+00:36:11.700 --> 00:36:13.170
+Terry's a Fields medalist,
+
+00:36:13.170 --> 00:36:16.740
+he's like a super
+heavyweight by this point,
+
+00:36:16.740 --> 00:36:21.240
+whereas James is this,
+you know, fresh PhD,
+
+00:36:21.240 --> 00:36:23.760
+and Terry says, you take
+it, I don't need this.
+
+00:36:23.760 --> 00:36:24.690
+You know, you this,
+
+00:36:24.690 --> 00:36:26.610
+it's your idea, you go with it.
+
+00:36:26.610 --> 00:36:29.400
+- By early 2014, Maynard joined forces
+
+00:36:29.400 --> 00:36:31.080
+with Tao's Polymath group.
+
+00:36:31.080 --> 00:36:34.560
+- It was clear that somehow 600
+was just a proof of concept,
+
+00:36:34.560 --> 00:36:37.500
+and the same methods would
+give something smaller,
+
+00:36:37.500 --> 00:36:40.770
+but there were extra ideas
+that you could maybe use
+
+00:36:40.770 --> 00:36:42.150
+to squeeze everything out.
+
+00:36:42.150 --> 00:36:43.890
+And so the current world record
+
+00:36:43.890 --> 00:36:45.690
+is that there's infinitely
+many pairs of primes
+
+00:36:45.690 --> 00:36:49.108
+that differ by no more than 246.
+
+00:36:49.108 --> 00:36:49.941
+(bright music)
+
+00:36:49.941 --> 00:36:52.950
+- And that for now is where it stops.
+
+00:36:52.950 --> 00:36:56.490
+In 2022, James Maynard was
+awarded the Fields Medal,
+
+00:36:56.490 --> 00:37:00.960
+Mathematics, highest honor
+for his work on prime gaps.
+
+00:37:00.960 --> 00:37:03.180
+- Yeah, I think that's the basic outline
+
+00:37:03.180 --> 00:37:06.060
+is the kind of two
+directions of approximation
+
+00:37:06.060 --> 00:37:08.670
+to twin primes Chen's direction,
+
+00:37:08.670 --> 00:37:12.750
+Brun, Chen, whatever,
+versus Zhang and Maynard,
+
+00:37:12.750 --> 00:37:15.000
+and this story that the
+Zhang wasn't at this meeting,
+
+00:37:15.000 --> 00:37:16.320
+so he didn't know it was impossible.
+
+00:37:16.320 --> 00:37:17.880
+- It reminded me of the four minute mile
+
+00:37:17.880 --> 00:37:19.650
+where everyone thought it was impossible.
+
+00:37:19.650 --> 00:37:21.030
+No one did it.
+
+00:37:21.030 --> 00:37:22.680
+- And then for the first time ever,
+
+00:37:22.680 --> 00:37:25.860
+Roger Bannister broke it in 1954,
+
+00:37:25.860 --> 00:37:27.780
+and after knowing it was possible,
+
+00:37:27.780 --> 00:37:29.640
+just 46 days later,
+
+00:37:29.640 --> 00:37:32.970
+another runner called John
+Landy broke it as well.
+
+00:37:32.970 --> 00:37:37.350
+And by the end of 1956,
+10 people had broken it,
+
+00:37:37.350 --> 00:37:39.693
+all from knowing that it was possible.
+
+00:37:41.490 --> 00:37:44.940
+So, what about pushing
+that gap down even lower?
+
+00:37:44.940 --> 00:37:46.230
+Is that possible?
+
+00:37:46.230 --> 00:37:48.180
+Well, mathematicians have found ways
+
+00:37:48.180 --> 00:37:50.100
+to bring it down even more,
+
+00:37:50.100 --> 00:37:52.920
+but all of these results are conditional.
+
+00:37:52.920 --> 00:37:56.550
+For example, there is the
+Elliot-Halberstam conjecture,
+
+00:37:56.550 --> 00:37:57.900
+which assumes primes
+
+00:37:57.900 --> 00:38:00.780
+are spread evenly across
+arithmetic progressions,
+
+00:38:00.780 --> 00:38:02.520
+or that the level of distribution
+
+00:38:02.520 --> 00:38:04.830
+can be taken as large as one.
+
+00:38:04.830 --> 00:38:08.190
+And in 2013, Maynard
+showed that if you assume
+
+00:38:08.190 --> 00:38:09.540
+this conjecture is true,
+
+00:38:09.540 --> 00:38:12.060
+then the gap plummets to just 12.
+
+00:38:12.060 --> 00:38:12.893
+A year later,
+
+00:38:12.893 --> 00:38:15.180
+the Polymath Group
+proved that if you assume
+
+00:38:15.180 --> 00:38:17.790
+an even stronger version
+of this conjecture,
+
+00:38:17.790 --> 00:38:21.000
+the gap drops all the way down to six.
+
+00:38:21.000 --> 00:38:25.473
+But without assuming
+anything, 246 still stands.
+
+00:38:27.930 --> 00:38:30.060
+Let me ask you, do you
+think we're gonna solve
+
+00:38:30.060 --> 00:38:31.650
+the twin Prime conjecture?
+
+00:38:31.650 --> 00:38:36.000
+- I am totally convinced that
+humanity will eventually solve
+
+00:38:36.000 --> 00:38:37.410
+the twin prime conjecture.
+
+00:38:37.410 --> 00:38:40.710
+Often when I'm asked about some
+of these big famous problems
+
+00:38:40.710 --> 00:38:45.120
+like Twin Primes or Riemann
+or something like that,
+
+00:38:45.120 --> 00:38:48.330
+one way of kind of avoiding the question
+
+00:38:48.330 --> 00:38:52.080
+is that if you imagine you
+are randomly distributed in time,
+
+00:38:52.080 --> 00:38:57.030
+you'd expect to be sort of
+typically roughly halfway
+
+00:38:57.030 --> 00:38:59.490
+through when the
+conjectures been open for.
+
+00:38:59.490 --> 00:39:02.340
+So, an actual guess, if you
+have no other information,
+
+00:39:02.340 --> 00:39:05.460
+is to guess that a problem will be open
+
+00:39:05.460 --> 00:39:07.860
+for as long as it has been open for already.
+
+00:39:07.860 --> 00:39:09.750
+But obviously this doesn't
+work for twin primes,
+
+00:39:09.750 --> 00:39:11.940
+'cause we don't know whether it's-
+
+00:39:11.940 --> 00:39:12.899
+- Right.
+
+00:39:12.899 --> 00:39:13.732
+(all laughing)
+
+00:39:13.732 --> 00:39:16.890
+- 125 years old or whether
+it's like 2000 years old.
+
+00:39:16.890 --> 00:39:18.600
+So, I think it's a fools game to guess,
+
+00:39:18.600 --> 00:39:21.690
+but it clearly needs a really big idea,
+
+00:39:21.690 --> 00:39:24.780
+but maybe it only needs one big idea.
+
+00:39:24.780 --> 00:39:27.270
+- Although maybe, just maybe,
+
+00:39:27.270 --> 00:39:30.510
+not knowing this with
+certainty is for the best.
+
+00:39:30.510 --> 00:39:34.470
+Because if we knew for sure
+that this was impossible,
+
+00:39:34.470 --> 00:39:36.240
+then we would've likely missed out
+
+00:39:36.240 --> 00:39:37.920
+on most of these inventions
+
+00:39:37.920 --> 00:39:40.290
+and new methods over the past century.
+
+00:39:40.290 --> 00:39:43.680
+So, sometimes it pays
+not to know everything.
+
+00:39:46.290 --> 00:39:48.630
+- You know, before I started this channel,
+
+00:39:48.630 --> 00:39:50.850
+I was a teacher at a tutoring company,
+
+00:39:50.850 --> 00:39:52.680
+and honestly, it was the best job
+
+00:39:52.680 --> 00:39:54.900
+I'd had up until that point.
+
+00:39:54.900 --> 00:39:56.880
+I could be the person who gave my students
+
+00:39:56.880 --> 00:40:00.180
+that one big idea that
+would help everything click.
+
+00:40:00.180 --> 00:40:02.640
+You know, the fastest
+way to learn something
+
+00:40:02.640 --> 00:40:06.510
+is to have someone next to you
+who already understands it.
+
+00:40:06.510 --> 00:40:08.640
+Unfortunately, many
+students don't have access
+
+00:40:08.640 --> 00:40:10.320
+to that kind of support.
+
+00:40:10.320 --> 00:40:13.830
+That is, until now, our
+long-term sponsor Brilliant,
+
+00:40:13.830 --> 00:40:15.480
+has just launched Koji,
+
+00:40:15.480 --> 00:40:17.640
+which is a revolutionary personal tutor
+
+00:40:17.640 --> 00:40:20.640
+that makes one-on-one learning
+accessible for everyone.
+
+00:40:20.640 --> 00:40:22.080
+Koji can see what you do
+
+00:40:22.080 --> 00:40:24.120
+and answer any questions.
+
+00:40:24.120 --> 00:40:27.240
+He can even draw onscreen to
+help explain those big ideas,
+
+00:40:27.240 --> 00:40:29.340
+just like a person sitting next to you.
+
+00:40:29.340 --> 00:40:30.810
+He asks guiding questions,
+
+00:40:30.810 --> 00:40:32.820
+walks you through problems step by step,
+
+00:40:32.820 --> 00:40:35.310
+and adapts to where
+you're at in real time.
+
+00:40:35.310 --> 00:40:38.100
+You get a world class
+personal tutor in your pocket.
+
+00:40:38.100 --> 00:40:40.650
+Koji can help you work through
+math and coding streams
+
+00:40:40.650 --> 00:40:43.500
+from grade five through
+college and beyond.
+
+00:40:43.500 --> 00:40:46.710
+Each course is designed by
+experts from places like MIT,
+
+00:40:46.710 --> 00:40:48.450
+Harvard, Stanford, and Caltech.
+
+00:40:48.450 --> 00:40:51.960
+It's a great way to get seriously
+engaged with math, coding,
+
+00:40:51.960 --> 00:40:53.430
+think hard and have fun,
+
+00:40:53.430 --> 00:40:56.010
+especially for students on
+summer break to stay sharp
+
+00:40:56.010 --> 00:40:57.750
+or get ahead for next year.
+
+00:40:57.750 --> 00:40:59.610
+So, click the link below to get started
+
+00:40:59.610 --> 00:41:01.440
+with Brilliant's tutor for free,
+
+00:41:01.440 --> 00:41:03.720
+and you can also upgrade to Premium
+
+00:41:03.720 --> 00:41:05.580
+to get full tutor support.
+
+00:41:05.580 --> 00:41:07.830
+Right now, Brilliant is
+giving Veritasium viewers
+
+00:41:07.830 --> 00:41:11.280
+a special 20% off an annual
+premium subscription.
+
+00:41:11.280 --> 00:41:14.280
+Just go to brilliant.org/veritasium.
+
+00:41:14.280 --> 00:41:15.990
+You can scan this QR code
+
+00:41:15.990 --> 00:41:18.030
+or click the link in the description.
+
+00:41:18.030 --> 00:41:20.370
+So, I wanna thank Brilliant
+for sponsoring this video
+
+00:41:20.370 --> 00:41:22.120
+and I wanna thank you for watching.
+

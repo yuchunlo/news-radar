@@ -1,0 +1,1475 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.239
+[Submit subtitle corrections at criblate.com]
+These days, whenever I look at the back of my beloved 7 month old baby's head,
+
+00:00:04.239 --> 00:00:07.608
+this little swirl of tiny hairs reminds me of one of the most
+
+00:00:07.608 --> 00:00:10.760
+ridiculously named facts in math, the hairy ball theorem.
+
+00:00:11.360 --> 00:00:14.096
+I promise this is a genuinely serious bit of math,
+
+00:00:14.096 --> 00:00:18.582
+where informally the statement is that if you have a ball that's covered in hair,
+
+00:00:18.582 --> 00:00:22.849
+and you try to comb it down, there is no way to do it without having the hair
+
+00:00:22.849 --> 00:00:24.600
+stick up at at least one point.
+
+00:00:25.060 --> 00:00:29.240
+For example, let's say you try to comb it all counterclockwise around some axis.
+
+00:00:29.760 --> 00:00:33.248
+Then at the top and the bottom, you end up with these little swirls,
+
+00:00:33.248 --> 00:00:37.300
+and the hair at the centermost point of those swirls would have nowhere to go.
+
+00:00:37.580 --> 00:00:38.680
+It's forced to stick up.
+
+00:00:39.460 --> 00:00:42.386
+It's actually very fun to play around with this in your mind,
+
+00:00:42.386 --> 00:00:44.927
+where no matter how you try to flatten out the hair,
+
+00:00:44.927 --> 00:00:49.100
+it is a mathematical guarantee that you will be left with at least one tuft like this.
+
+00:00:49.880 --> 00:00:52.971
+In fact, even getting it down to just a single problem point,
+
+00:00:52.971 --> 00:00:55.200
+as opposed to two, is a bit of a challenge.
+
+00:00:55.620 --> 00:00:58.021
+It is possible, and if you like puzzles, I encourage
+
+00:00:58.021 --> 00:00:59.960
+you to try thinking of how it could work.
+
+00:01:00.400 --> 00:01:02.298
+Later on in this video, I'm going to show you
+
+00:01:02.298 --> 00:01:04.280
+at least one way you can think about doing it.
+
+00:01:04.760 --> 00:01:07.916
+For the moment, though, I imagine there's a more burning question,
+
+00:01:07.916 --> 00:01:12.171
+which is that you might be wondering why a mathematician would care about combing fluffy
+
+00:01:12.171 --> 00:01:13.080
+spheres like this.
+
+00:01:13.460 --> 00:01:15.020
+And of course the answer is, they don't.
+
+00:01:15.260 --> 00:01:17.960
+The name and the informal statement are a bit tongue-in-cheek.
+
+00:01:18.240 --> 00:01:20.552
+I will of course share the more formal statement,
+
+00:01:20.552 --> 00:01:23.571
+and in fact my real reason for making this video is to share an
+
+00:01:23.571 --> 00:01:27.440
+unusually elegant way to prove it, one that I think will delight any math lovers.
+
+00:01:27.860 --> 00:01:31.428
+But before any of that, let's motivate things with an example of
+
+00:01:31.428 --> 00:01:35.778
+the kind of situation where these fluffy spheres naturally arise in practice,
+
+00:01:35.778 --> 00:01:38.900
+in a context that initially seems completely unrelated.
+
+00:01:43.620 --> 00:01:46.225
+Okay, so imagine that you are a game developer,
+
+00:01:46.225 --> 00:01:50.382
+and you're programming some game where you have a 3D model of an airplane,
+
+00:01:50.382 --> 00:01:55.148
+and what you want is to be able to take an arbitrary trajectory for this plane to fly
+
+00:01:55.148 --> 00:01:59.748
+along, presumably something user-defined, and your job is to write a function that
+
+00:01:59.748 --> 00:02:03.240
+orients the plane correctly as it moves along that trajectory.
+
+00:02:04.060 --> 00:02:07.740
+So, for example, let's say you're at a given point on some given trajectory.
+
+00:02:08.020 --> 00:02:11.575
+You obviously want to move the center of the model to be on that point,
+
+00:02:11.575 --> 00:02:15.180
+but you're left with ambiguity on how it should be rotated in 3D space.
+
+00:02:15.880 --> 00:02:19.900
+The obvious constraint here is that you know the nose of that plane should
+
+00:02:19.900 --> 00:02:24.300
+point along the tangent vector of the path, but even that leaves some ambiguity.
+
+00:02:24.700 --> 00:02:28.360
+How is the plane rotated about this nose-to-tail axis?
+
+00:02:29.000 --> 00:02:32.462
+One way you could think about defining that last degree of freedom is in
+
+00:02:32.462 --> 00:02:36.260
+terms of where this perpendicular vector along the left wing direction points.
+
+00:02:36.940 --> 00:02:40.116
+The task for you, as the programmer of this video game,
+
+00:02:40.116 --> 00:02:44.852
+is to figure out what that perpendicular wing direction should be at every single
+
+00:02:44.852 --> 00:02:46.700
+point along a given trajectory.
+
+00:02:48.180 --> 00:02:52.058
+Now, there is a correct way to do this, which would involve calculating the second
+
+00:02:52.058 --> 00:02:56.173
+derivative of the trajectory, working out how to get this to match the lift force from
+
+00:02:56.173 --> 00:03:00.240
+the wings together with gravity, but maybe that seems a little complicated right now.
+
+00:03:00.680 --> 00:03:04.299
+Resourceful and lazy programmer that you are, you might think, hey,
+
+00:03:04.299 --> 00:03:08.349
+is there just some reasonable thing I can do to choose some wing direction
+
+00:03:08.349 --> 00:03:12.940
+that's perpendicular to a given velocity vector, the heading direction of the plane?
+
+00:03:14.240 --> 00:03:15.480
+Here's one way you might think about it.
+
+00:03:15.800 --> 00:03:18.852
+All of the possible ways this plane could point in space,
+
+00:03:18.852 --> 00:03:21.959
+the various heading directions that I'm colouring in red,
+
+00:03:21.959 --> 00:03:23.940
+make up the points of a unit sphere.
+
+00:03:24.460 --> 00:03:28.818
+What you want is to write a function that takes in a given vector on this sphere and
+
+00:03:28.818 --> 00:03:31.620
+returns some choice for a vector perpendicular to it,
+
+00:03:31.620 --> 00:03:33.540
+the ones that I'm colouring in pink.
+
+00:03:33.940 --> 00:03:37.534
+The only real constraint is that you want this association to be continuous,
+
+00:03:37.534 --> 00:03:40.750
+otherwise it would mean the plane's orientation could sharply jump,
+
+00:03:40.750 --> 00:03:43.020
+which would be a very clear glitch in the game.
+
+00:03:43.600 --> 00:03:47.800
+And if you know nothing else, it really feels like this should be a possible task.
+
+00:03:48.180 --> 00:03:51.560
+After all, for a given heading direction, you are not starved for choices.
+
+00:03:51.920 --> 00:03:54.931
+You have infinitely many wing directions to choose from,
+
+00:03:54.931 --> 00:03:56.920
+an entire circle's worth of options.
+
+00:03:57.500 --> 00:04:00.455
+So how hard could it be to make some reasonable choice
+
+00:04:00.455 --> 00:04:03.520
+for every point on the sphere that varies continuously?
+
+00:04:04.160 --> 00:04:05.880
+You might see where I'm going with this.
+
+00:04:05.880 --> 00:04:09.691
+Choosing a perpendicular direction like this is equivalent to
+
+00:04:09.691 --> 00:04:13.440
+choosing a unit tangent vector to that point of the sphere.
+
+00:04:13.940 --> 00:04:17.503
+So if you're assigning a specific perpendicular to every possible
+
+00:04:17.503 --> 00:04:21.066
+direction that plane could be pointed, that's basically the same
+
+00:04:21.066 --> 00:04:24.520
+thing as defining a tangent vector at every point on a sphere.
+
+00:04:25.180 --> 00:04:28.480
+Now this is starting to look a little bit more like a hairy ball.
+
+00:04:29.000 --> 00:04:31.610
+And in fact, now is as good a time as any to step back and
+
+00:04:31.610 --> 00:04:34.580
+describe what the hairy ball theorem actually says more formally.
+
+00:04:35.120 --> 00:04:39.620
+If you have a sphere and you choose some point on that sphere and a plane tangent
+
+00:04:39.620 --> 00:04:44.064
+to the sphere at that point, then any vector that you choose within that plane,
+
+00:04:44.064 --> 00:04:48.120
+which is rooted at that point, is called a tangent vector of the sphere.
+
+00:04:48.580 --> 00:04:52.350
+If you assign a tangent vector to every single point on the sphere,
+
+00:04:52.350 --> 00:04:56.740
+one for each possible tangent plane, we call it a vector field on the sphere.
+
+00:04:57.140 --> 00:04:59.428
+And whenever you're drawing vector fields like this,
+
+00:04:59.428 --> 00:05:02.860
+it's always standard to scale the vectors down so that you can avoid clutter.
+
+00:05:03.340 --> 00:05:06.863
+And the other thing to keep in mind is that even though an illustration
+
+00:05:06.863 --> 00:05:09.742
+like this necessarily only shows a finite set of vectors,
+
+00:05:09.742 --> 00:05:12.124
+rooted at a finite set of points on the sphere,
+
+00:05:12.124 --> 00:05:15.200
+of course a vector field consists of infinitely many vectors,
+
+00:05:15.200 --> 00:05:17.880
+one for every single point on the continuous surface.
+
+00:05:18.900 --> 00:05:23.384
+So the theorem, our main character for today, states that if your vector field is
+
+00:05:23.384 --> 00:05:26.926
+continuous, meaning there are no sudden jumps in its direction,
+
+00:05:26.926 --> 00:05:30.081
+then it must have at least one point with a null vector,
+
+00:05:30.081 --> 00:05:32.240
+meaning a vector whose length is zero.
+
+00:05:33.280 --> 00:05:35.600
+For example, look back at our 3D model case.
+
+00:05:36.020 --> 00:05:40.123
+The function that I was using for many of the animations there was essentially
+
+00:05:40.123 --> 00:05:43.700
+trying to keep the roof of the plane pointed as upward as possible.
+
+00:05:44.240 --> 00:05:47.673
+And when you express this function as a vector field, where again,
+
+00:05:47.673 --> 00:05:51.263
+each possible direction for the nose of the plane is thought of as a
+
+00:05:51.263 --> 00:05:55.061
+point on the sphere, and each corresponding wing direction is thought of
+
+00:05:55.061 --> 00:05:57.610
+as a tangent vector at that point of the sphere,
+
+00:05:57.610 --> 00:06:01.251
+then it turns out that function I was using gives a vector field that
+
+00:06:01.251 --> 00:06:03.020
+spirals around the vertical axis.
+
+00:06:03.880 --> 00:06:07.303
+This actually does give reasonable enough animations in most cases,
+
+00:06:07.303 --> 00:06:10.420
+but the problem is that it has a discontinuity at the poles.
+
+00:06:10.960 --> 00:06:14.909
+So if ever I let the plane point straight up or straight down using this function,
+
+00:06:14.909 --> 00:06:18.520
+you would get this glitching behavior as it passes through that direction.
+
+00:06:19.320 --> 00:06:21.990
+Now, if you're just a programmer messing around with this,
+
+00:06:21.990 --> 00:06:25.028
+you might think you can tweak things to avoid glitches like that,
+
+00:06:25.028 --> 00:06:28.664
+but actually, the Harry Ball Theorem guarantees, no matter how clever you are,
+
+00:06:28.664 --> 00:06:31.840
+you are doomed to have some direction producing this kind of glitch.
+
+00:06:32.420 --> 00:06:35.848
+So for robust animations, you cannot simply use the direction
+
+00:06:35.848 --> 00:06:39.220
+of the nose of the plane to determine its full orientation.
+
+00:06:39.740 --> 00:06:42.652
+You have no choice but to step back and incorporate more
+
+00:06:42.652 --> 00:06:45.980
+information from the trajectory than the velocity vector alone.
+
+00:06:47.000 --> 00:06:51.226
+As another example, think about the wind velocity at every point on the Earth,
+
+00:06:51.226 --> 00:06:52.960
+say, at some constant altitude.
+
+00:06:53.680 --> 00:06:56.949
+A pretty reasonable assumption is that wind velocity varies continuously,
+
+00:06:56.949 --> 00:06:58.740
+so the Harry Ball Theorem should apply.
+
+00:06:59.240 --> 00:07:03.637
+The wind pattern I'm animating here is completely unrealistic from a meteorological
+
+00:07:03.637 --> 00:07:08.300
+standpoint, but the point is that whatever wind pattern you dream up, realistic or not,
+
+00:07:08.300 --> 00:07:12.485
+the Harry Ball Theorem is going to guarantee that there is always one place on
+
+00:07:12.485 --> 00:07:16.300
+the Earth for a given altitude where the wind velocity is exactly zero.
+
+00:07:17.180 --> 00:07:20.840
+Now, if we're being pedantic, you could say atmosphere is three-dimensional,
+
+00:07:20.840 --> 00:07:23.825
+so the more accurate statement would be that the component of
+
+00:07:23.825 --> 00:07:26.040
+wind velocity parallel to the ground is zero.
+
+00:07:26.480 --> 00:07:28.783
+You know, it could be going straight up or straight down,
+
+00:07:28.783 --> 00:07:30.520
+but still, it is kind of counterintuitive.
+
+00:07:31.540 --> 00:07:35.334
+A slightly more pragmatic example is if you want a radio signal that
+
+00:07:35.334 --> 00:07:38.458
+is completely identical in every direction of 3D space,
+
+00:07:38.458 --> 00:07:42.085
+in the sense that everyone a given distance away from the source
+
+00:07:42.085 --> 00:07:46.660
+receives an identical radio wave, same phase and amplitude at all points of time.
+
+00:07:47.040 --> 00:07:50.752
+That might seem like a reasonable objective, but if you know a little bit
+
+00:07:50.752 --> 00:07:54.566
+about electromagnetic waves, you'll know that they are oscillations in two
+
+00:07:54.566 --> 00:07:58.380
+distinct vector fields, the electric and the magnetic fields specifically.
+
+00:07:58.900 --> 00:08:03.305
+Importantly, the direction of oscillation for each one of these fields is always
+
+00:08:03.305 --> 00:08:07.820
+perpendicular to the direction of propagation, at least far away from the source.
+
+00:08:08.620 --> 00:08:10.120
+So, think about what that means.
+
+00:08:10.460 --> 00:08:14.588
+At a given distance away from the source, either one of these fields looks
+
+00:08:14.588 --> 00:08:18.492
+like a tangent vector field on the sphere, and the hairy ball theorem
+
+00:08:18.492 --> 00:08:22.007
+states at least one point of that vector field has to be zero,
+
+00:08:22.007 --> 00:08:26.079
+so the only way to have a completely identical signal in every direction
+
+00:08:26.079 --> 00:08:30.820
+of 3D space is for the signal itself to be zero, which presumably defeats the point.
+
+00:08:32.000 --> 00:08:35.588
+I bring up these examples just to say that this seemingly playful fact
+
+00:08:35.588 --> 00:08:38.613
+about fluffy spheres really does pop up in unusual places,
+
+00:08:38.613 --> 00:08:42.458
+but what I really want to do with this video, the fun that I want to have,
+
+00:08:42.458 --> 00:08:46.200
+is to let you explore this idea the way that a pure mathematician might.
+
+00:08:46.740 --> 00:08:50.545
+First, that puzzle that I mentioned at the start actually gives a really
+
+00:08:50.545 --> 00:08:54.720
+great way to flex your mind and see how what feels obvious is not always true.
+
+00:08:55.320 --> 00:08:57.644
+And then after that, I want to share a completely
+
+00:08:57.644 --> 00:09:00.300
+beautiful proof that explains why this theorem is true.
+
+00:09:01.820 --> 00:09:02.840
+So, to the puzzle.
+
+00:09:03.200 --> 00:09:06.348
+I don't know about you, but when I was first playing around with
+
+00:09:06.348 --> 00:09:08.611
+this idea in my mind to build some intuition,
+
+00:09:08.611 --> 00:09:12.940
+it was really not at all obvious that reducing to a single null point is even possible.
+
+00:09:13.540 --> 00:09:15.956
+For most of the vector fields I could dream up,
+
+00:09:15.956 --> 00:09:20.120
+you get at least one swirl going one way, and another swirl going the other way.
+
+00:09:20.200 --> 00:09:23.820
+Or maybe a source at one point, and a sink at another.
+
+00:09:24.500 --> 00:09:27.849
+This makes it really tempting to suggest that there should be
+
+00:09:27.849 --> 00:09:31.197
+some universal law about needing at least two different null
+
+00:09:31.197 --> 00:09:34.820
+points with something opposite about them that has to cancel out.
+
+00:09:35.280 --> 00:09:37.900
+Something like the north and south poles of a magnet.
+
+00:09:38.560 --> 00:09:42.960
+Tempting as that is, with a little cleverness, it is possible to get just one null point.
+
+00:09:43.640 --> 00:09:48.758
+And a nice way to define this is by using something known as a stereographic projection,
+
+00:09:48.758 --> 00:09:52.247
+where every point on the sphere, except for the north pole,
+
+00:09:52.247 --> 00:09:54.980
+gets mapped to a unique point on the xy-plane.
+
+00:09:56.200 --> 00:09:57.460
+The way this works is very pretty.
+
+00:09:57.700 --> 00:10:00.856
+You imagine a light shining from that north pole,
+
+00:10:00.856 --> 00:10:05.879
+and every ray of light that passes some point on the sphere also hits one and
+
+00:10:05.879 --> 00:10:07.940
+only one point of the xy-plane.
+
+00:10:08.440 --> 00:10:09.880
+And it goes the other way around too.
+
+00:10:09.880 --> 00:10:13.979
+Every point of the xy-plane corresponds to a unique point on that sphere,
+
+00:10:13.979 --> 00:10:17.684
+meaning that plane can get mapped onto every point of the sphere,
+
+00:10:17.684 --> 00:10:19.200
+except for the north pole.
+
+00:10:19.880 --> 00:10:22.565
+This is a favorite mapping among mathematicians,
+
+00:10:22.565 --> 00:10:26.873
+and the way we can use it here is to imagine having some vector field on the
+
+00:10:26.873 --> 00:10:28.440
+xy-plane that's never zero.
+
+00:10:28.960 --> 00:10:30.360
+That's simple enough to define.
+
+00:10:30.480 --> 00:10:34.040
+You could just take a constant vector field, always pointing one unit to the right.
+
+00:10:34.380 --> 00:10:37.539
+If you project that vector field back onto the sphere,
+
+00:10:37.539 --> 00:10:42.220
+this gives you something that's non-zero everywhere, except for the north pole.
+
+00:10:43.260 --> 00:10:45.916
+Admittedly, the way I'm showing it right now makes it kind of
+
+00:10:45.916 --> 00:10:48.660
+hard to parse what exactly is going on around that north pole.
+
+00:10:49.160 --> 00:10:52.953
+The basic reason is that if you take a uniform sample of points on the plane,
+
+00:10:52.953 --> 00:10:56.500
+they get infinitely dense around that north pole under this projection.
+
+00:10:57.220 --> 00:11:00.622
+So let me show you a second way I could illustrate things, which also,
+
+00:11:00.622 --> 00:11:03.830
+by the way, lends itself to a more rigorous definition for what I
+
+00:11:03.830 --> 00:11:06.940
+even mean by projecting a vector field onto a sphere like this.
+
+00:11:06.940 --> 00:11:10.937
+Imagine a fluid flowing on the plane with a uniform velocity one unit
+
+00:11:10.937 --> 00:11:15.049
+per second to the right, and then consider what the projection of each
+
+00:11:15.049 --> 00:11:19.220
+particle of that fluid would look like on the sphere during its motion.
+
+00:11:19.980 --> 00:11:24.365
+If you take the velocity vectors for those projected particles on the sphere,
+
+00:11:24.365 --> 00:11:27.440
+that defines the vector field that I'm talking about.
+
+00:11:28.760 --> 00:11:32.391
+And illustrated this way, you can really nicely see how the flow
+
+00:11:32.391 --> 00:11:35.001
+lines all form perfect circles on the sphere,
+
+00:11:35.001 --> 00:11:39.540
+all of which are mutually tangent with the velocity of zero at that north pole.
+
+00:11:40.040 --> 00:11:41.560
+It really is a lovely projection.
+
+00:11:42.660 --> 00:11:46.543
+The point is, even if initial mental play and intuition might suggest
+
+00:11:46.543 --> 00:11:50.483
+that vector fields on a sphere have to have at least two null points,
+
+00:11:50.483 --> 00:11:53.860
+a little creativity can give you a field that just has one.
+
+00:11:54.680 --> 00:11:57.560
+So, how do you know that it stops there?
+
+00:11:57.840 --> 00:12:02.167
+How can you rigorously prove that no matter how clever and creative you are,
+
+00:12:02.167 --> 00:12:05.698
+it is simply not possible to define a continuous vector field
+
+00:12:05.698 --> 00:12:09.000
+without forcing at least one point to have a zero vector?
+
+00:12:10.180 --> 00:12:12.440
+This is where the real cleverness kicks in.
+
+00:12:12.880 --> 00:12:16.603
+The way that we're going to approach this is with a proof by contradiction,
+
+00:12:16.603 --> 00:12:20.823
+meaning you will assume that such a non-zero vector field on the sphere is possible,
+
+00:12:20.823 --> 00:12:24.000
+and then deduce that something impossible would have to follow.
+
+00:12:24.740 --> 00:12:27.732
+Like I said, the argument I want to show is just really beautiful,
+
+00:12:27.732 --> 00:12:31.586
+and I think it's made all the more so if you feel like it's something you could have
+
+00:12:31.586 --> 00:12:32.720
+discovered for yourself.
+
+00:12:33.180 --> 00:12:36.900
+So, as always, please do pause and ponder whenever you feel like you see the key idea.
+
+00:12:37.600 --> 00:12:41.903
+This argument is not my own, it came my way via the mathematician Senia Sheydvasser,
+
+00:12:41.903 --> 00:12:46.360
+who also very kindly put together the following animation to illustrate the core idea.
+
+00:12:46.860 --> 00:12:52.222
+The basic outline is that if such a non-zero continuous vector field really did exist,
+
+00:12:52.222 --> 00:12:55.901
+you could use it to create a continuous deformation of the
+
+00:12:55.901 --> 00:12:58.520
+sphere that turns that sphere inside out.
+
+00:12:58.920 --> 00:13:02.872
+And then we're going to prove why it's actually impossible to turn a sphere inside out,
+
+00:13:02.872 --> 00:13:04.780
+at least in a certain manner of speaking.
+
+00:13:05.400 --> 00:13:09.856
+It's at this point that viewers of classic math YouTube will be yelling at their screens,
+
+00:13:09.856 --> 00:13:12.260
+but bear with me, I promise I will get to that.
+
+00:13:15.220 --> 00:13:19.140
+Okay, so this continuous deformation is a little weird to define, but here's how it works.
+
+00:13:19.500 --> 00:13:24.460
+Imagine that your sphere is centered at the origin for some coordinate system in 3D space.
+
+00:13:24.460 --> 00:13:28.895
+For a given point on that sphere, consider the vector attached to that point,
+
+00:13:28.895 --> 00:13:30.680
+the one from our vector field.
+
+00:13:31.080 --> 00:13:35.190
+If you slice the sphere along a plane, which is defined by that vector
+
+00:13:35.190 --> 00:13:39.417
+and the radial line to the origin, the plane intersects the sphere at a
+
+00:13:39.417 --> 00:13:43.820
+certain great circle, meaning a circle that's also centered at the origin.
+
+00:13:44.300 --> 00:13:49.039
+What you're going to do is let that point of the sphere move along this circle
+
+00:13:49.039 --> 00:13:53.900
+in the direction of that initial vector until it gets precisely halfway around.
+
+00:13:54.460 --> 00:13:56.470
+Just to be clear, I'm not saying that it flows
+
+00:13:56.470 --> 00:13:58.480
+along the general vector field of the sphere.
+
+00:13:58.760 --> 00:14:03.540
+Its motion is entirely determined just by the one vector that it started out on.
+
+00:14:04.400 --> 00:14:08.235
+The two important facts to highlight are that it ends up on the negative
+
+00:14:08.235 --> 00:14:12.177
+of where it started, and then also because its motion is entirely defined
+
+00:14:12.177 --> 00:14:16.118
+by what vector it started on, and because we're assuming the whole vector
+
+00:14:16.118 --> 00:14:20.060
+field is continuous, nearby points are going to have nearby trajectories.
+
+00:14:20.060 --> 00:14:24.705
+Right now, I'm just showing you one point moving along its prescribed half-circle path,
+
+00:14:24.705 --> 00:14:28.816
+but we could just as well highlight a handful of other points on the sphere,
+
+00:14:28.816 --> 00:14:31.646
+each of which has its own vector associated with it,
+
+00:14:31.646 --> 00:14:34.422
+each of which defines a great circle to walk along,
+
+00:14:34.422 --> 00:14:38.320
+and you could watch all of those points wander along the assigned paths.
+
+00:14:38.720 --> 00:14:41.940
+Now remember, we're assuming that the vector field is non-zero everywhere.
+
+00:14:42.340 --> 00:14:44.400
+We hope to contradict that, but that's the assumption.
+
+00:14:44.740 --> 00:14:48.235
+And what that means is that every single point on the infinite
+
+00:14:48.235 --> 00:14:51.560
+continuous sphere has a similarly well-defined trajectory.
+
+00:14:52.100 --> 00:14:54.071
+So naturally, you want to see what it looks like
+
+00:14:54.071 --> 00:14:55.960
+for the entire sphere to undergo that motion.
+
+00:14:56.380 --> 00:14:59.271
+But it's at this point that animations become a little tricky,
+
+00:14:59.271 --> 00:15:02.861
+because of something intrinsically paradoxical about illustrating a proof by
+
+00:15:02.861 --> 00:15:03.560
+contradiction.
+
+00:15:04.040 --> 00:15:04.580
+Think about it.
+
+00:15:04.700 --> 00:15:07.600
+We want to show what this motion looks like, as defined by
+
+00:15:07.600 --> 00:15:10.600
+some hypothetical vector field that is non-zero everywhere.
+
+00:15:11.100 --> 00:15:14.040
+But of course, the whole point is that no such vector field exists.
+
+00:15:14.440 --> 00:15:17.759
+As the next best thing, we're going to use that special vector field
+
+00:15:17.759 --> 00:15:20.980
+that we just defined, only a single null point at the North Pole.
+
+00:15:21.520 --> 00:15:24.947
+That way, if we chop away the North Pole, we can at least see the kind
+
+00:15:24.947 --> 00:15:27.787
+of thing that this motion would do to most of the sphere,
+
+00:15:27.787 --> 00:15:31.900
+even if there's something impossible about this being applied to all of the sphere.
+
+00:15:32.580 --> 00:15:35.240
+I'll go ahead and remove the vectors themselves to avoid clutter.
+
+00:15:35.720 --> 00:15:40.174
+And this right here is what it looks like for every point on the surface
+
+00:15:40.174 --> 00:15:43.329
+to undergo that bizarre, specially defined motion,
+
+00:15:43.329 --> 00:15:46.422
+each one marching along its own half-circle path,
+
+00:15:46.422 --> 00:15:49.020
+defined by whatever vector it started on.
+
+00:15:50.680 --> 00:15:53.020
+And actually, that's kind of confusing to follow.
+
+00:15:53.480 --> 00:15:56.030
+So let me roll back the clock a bit here, where you see that
+
+00:15:56.030 --> 00:15:58.580
+the whole sphere ends up awkwardly crossing through itself.
+
+00:15:58.900 --> 00:16:01.906
+To clarify things, we might perturb the motion a little by
+
+00:16:01.906 --> 00:16:04.860
+letting the radius of the points vary during the motion.
+
+00:16:05.120 --> 00:16:08.600
+And it also makes things clear if we widen out that hole on the top.
+
+00:16:09.160 --> 00:16:14.045
+This makes it much, much easier to follow, at least for this subset of the sphere,
+
+00:16:14.045 --> 00:16:17.500
+you can clearly see two important features of the motion.
+
+00:16:18.660 --> 00:16:21.340
+Number one, the sphere gets turned inside out.
+
+00:16:22.060 --> 00:16:26.160
+Number two, at no point in time does any part of the sphere cross the origin.
+
+00:16:26.820 --> 00:16:27.660
+And that should make sense.
+
+00:16:27.960 --> 00:16:31.504
+Each individual point is just following a half-circle centered at the origin,
+
+00:16:31.504 --> 00:16:33.760
+so of course it never passes through the origin.
+
+00:16:34.360 --> 00:16:36.100
+Those are the two key ingredients.
+
+00:16:36.540 --> 00:16:41.520
+For our proof, what we want to say is that these two facts are somehow incompatible.
+
+00:16:42.220 --> 00:16:44.980
+Before we can do that though, we need to linger on this first point.
+
+00:16:45.400 --> 00:16:48.720
+Why exactly does this motion turn the sphere inside out?
+
+00:16:49.380 --> 00:16:51.860
+And actually, what do we even mean by the phrase inside out here?
+
+00:16:52.260 --> 00:16:54.620
+And in fact, let me start with an even more basic question.
+
+00:16:55.040 --> 00:16:57.472
+If you're standing at some point on the sphere,
+
+00:16:57.472 --> 00:17:00.680
+how do you know which way is outside and which way is inside?
+
+00:17:01.760 --> 00:17:04.380
+I realize that might sound like a very dumb question.
+
+00:17:04.760 --> 00:17:08.180
+You might say just look at whichever way is pointed away from the origin.
+
+00:17:08.339 --> 00:17:09.060
+What's wrong with you?
+
+00:17:09.060 --> 00:17:13.169
+The real conundrum here though comes from the fact that we intend to let
+
+00:17:13.169 --> 00:17:17.220
+the surface warp and deform and get all manipulated in some crazy way.
+
+00:17:17.800 --> 00:17:21.387
+So really what you want is a clear notion of what we mean by
+
+00:17:21.387 --> 00:17:25.214
+inside and outside that remains clear even after you manipulate
+
+00:17:25.214 --> 00:17:29.040
+and massage and contort the whole surface however you dream up.
+
+00:17:29.800 --> 00:17:33.695
+The easiest way to do this I think is going to be something familiar to any
+
+00:17:33.695 --> 00:17:37.797
+graphics programmers, which is that you start by assigning a coordinate system
+
+00:17:37.797 --> 00:17:41.640
+to the sphere, something like our usual notion of latitude and longitude.
+
+00:17:42.200 --> 00:17:45.390
+The image you should have in your mind is that every point of the
+
+00:17:45.390 --> 00:17:48.580
+sphere has a little label attached to it with a pair of numbers.
+
+00:17:49.260 --> 00:17:52.180
+And importantly, these labels could follow along during
+
+00:17:52.180 --> 00:17:54.940
+any motion or manipulation you apply to the sphere.
+
+00:17:56.180 --> 00:18:01.014
+Around a given point, consider the direction of increasing longitude and constant
+
+00:18:01.014 --> 00:18:04.236
+latitude and draw a tangent vector in that direction,
+
+00:18:04.236 --> 00:18:08.951
+and then draw a line of increasing latitude with constant longitude and draw a
+
+00:18:08.951 --> 00:18:10.980
+tangent vector in that direction.
+
+00:18:11.640 --> 00:18:16.220
+From here, the way we define orientation is using what's known as the right hand rule.
+
+00:18:16.780 --> 00:18:21.008
+You can point your index finger along that first vector and your middle finger along that
+
+00:18:21.008 --> 00:18:25.140
+second vector, and then when you stick out your thumb, it'll be perpendicular to both.
+
+00:18:25.780 --> 00:18:29.040
+Notice using our right hand, the thumb is pointed outside.
+
+00:18:29.660 --> 00:18:33.280
+And in fact, this is how we are going to define what we even
+
+00:18:33.280 --> 00:18:36.960
+mean by outside with respect to the given coordinate system.
+
+00:18:37.340 --> 00:18:41.460
+Doing this at every point, you get what are known in the business as unit normal vectors.
+
+00:18:42.220 --> 00:18:44.957
+As I referenced, these are very important in computer graphics,
+
+00:18:44.957 --> 00:18:48.780
+where for example they let you compute how light should reflect off of a given surface.
+
+00:18:49.420 --> 00:18:51.824
+And for our story, the thing we care about is how,
+
+00:18:51.824 --> 00:18:54.229
+no matter how you manipulate or warp the surface,
+
+00:18:54.229 --> 00:18:58.220
+because that coordinate system you give to it can kind of come along for the ride,
+
+00:18:58.220 --> 00:19:02.067
+you can always play this game of pointing your index finger along the direction
+
+00:19:02.067 --> 00:19:05.962
+where the first coordinate increases, and your middle finger along the direction
+
+00:19:05.962 --> 00:19:09.280
+where that second coordinate increases, and sticking out your thumb.
+
+00:19:10.520 --> 00:19:13.770
+It's otherwise surprisingly tricky to define what you mean by inside
+
+00:19:13.770 --> 00:19:17.020
+and outside in a way that naturally follows along for any function.
+
+00:19:18.080 --> 00:19:19.540
+So, why are we doing this?
+
+00:19:20.020 --> 00:19:24.800
+Think now about that strange deformation induced by a vector field on the sphere.
+
+00:19:25.140 --> 00:19:29.660
+How can we conclude beyond any doubt that this must turn the sphere inside out?
+
+00:19:30.220 --> 00:19:35.140
+Well, remember how each individual point starting at p ends up at negative p?
+
+00:19:35.960 --> 00:19:38.823
+The much more straightforward way to get there, literally,
+
+00:19:38.823 --> 00:19:41.340
+would be to reflect through the origin, like this.
+
+00:19:42.280 --> 00:19:45.296
+So consider that picture that we just had of an example point,
+
+00:19:45.296 --> 00:19:49.140
+together with the oriented lines of latitude and longitude passing through it.
+
+00:19:49.520 --> 00:19:55.180
+Notice what it looks like if we let every point in that diagram move over to its negative.
+
+00:19:55.700 --> 00:20:00.272
+Again, you might imagine all the coordinate labels of the surface riding along with it,
+
+00:20:00.272 --> 00:20:04.372
+so when you play the same game of pointing your index finger in the direction
+
+00:20:04.372 --> 00:20:08.524
+where that first coordinate increases, and your middle finger in the direction
+
+00:20:08.524 --> 00:20:12.728
+where that second coordinate increases, now, after everything has been negated,
+
+00:20:12.728 --> 00:20:16.460
+notice that your thumb is pointing towards the origin instead of away.
+
+00:20:17.200 --> 00:20:20.981
+This is all to say, the function that maps every point p of a
+
+00:20:20.981 --> 00:20:24.949
+sphere to its negative necessarily turns the sphere inside out,
+
+00:20:24.949 --> 00:20:29.040
+in the sense of reversing orientation the way we just defined it.
+
+00:20:29.620 --> 00:20:34.720
+In particular, that very weird deformation that we described in terms of a hypothetical
+
+00:20:34.720 --> 00:20:39.820
+vector field must reverse orientation because it's mapping each point p to negative p.
+
+00:20:40.540 --> 00:20:42.708
+You can also see this effect with a much simpler
+
+00:20:42.708 --> 00:20:44.740
+motion that gets us to the same final place.
+
+00:20:45.100 --> 00:20:48.870
+Imagine rotating the sphere 180 degrees around the z-axis,
+
+00:20:48.870 --> 00:20:51.600
+and then reflecting through the xy-plane.
+
+00:20:51.600 --> 00:20:54.757
+That results in every point p landing on its negative,
+
+00:20:54.757 --> 00:20:59.961
+and notice how all the unit normal vectors that started pointing outward end up pointing
+
+00:20:59.961 --> 00:21:04.463
+inward, and as it's rendered here with a blue exterior and a brown interior,
+
+00:21:04.463 --> 00:21:06.860
+those two colors end up getting swapped.
+
+00:21:07.760 --> 00:21:11.464
+And it's at this point that viewers of classic math videos all might
+
+00:21:11.464 --> 00:21:15.168
+be bringing to mind an absolute banger of a video that was produced
+
+00:21:15.168 --> 00:21:18.600
+in 1994 by the Geometry Center at the University of Minnesota.
+
+00:21:18.600 --> 00:21:21.980
+This is really one of the true classics in all of math exposition.
+
+00:21:22.480 --> 00:21:25.458
+It walks through this mind-blowing way to turn a sphere
+
+00:21:25.458 --> 00:21:28.220
+inside out using a certain continuous deformation.
+
+00:21:28.640 --> 00:21:31.087
+The reason I bring this up for any of you who watched that
+
+00:21:31.087 --> 00:21:33.660
+is to say that the context there was a little bit different.
+
+00:21:33.960 --> 00:21:37.176
+The phenomenon that they were trying to avoid was creating
+
+00:21:37.176 --> 00:21:40.060
+cusps and creases on the sphere during the process.
+
+00:21:40.780 --> 00:21:43.800
+But over here, for our purposes, we don't really care about that.
+
+00:21:43.800 --> 00:21:47.342
+However, there is one feature of our bizarre vector
+
+00:21:47.342 --> 00:21:51.440
+field-induced deformation that really would be impossible.
+
+00:21:52.120 --> 00:21:55.020
+No point of the sphere ever passes through the origin.
+
+00:21:55.940 --> 00:21:59.132
+And there is a very beautiful way to see why turning a sphere
+
+00:21:59.132 --> 00:22:02.480
+inside out without crossing the origin just could never happen.
+
+00:22:03.200 --> 00:22:06.340
+Maybe the most fun way to illustrate this is with a physical model.
+
+00:22:06.840 --> 00:22:11.817
+Imagine a fountain at the origin spewing out water uniformly in all directions,
+
+00:22:11.817 --> 00:22:14.400
+say at a rate of one liter every second.
+
+00:22:14.880 --> 00:22:18.686
+The way I'm animating it here is with a bunch of droplets spewing away,
+
+00:22:18.686 --> 00:22:22.600
+but in principle, I want you to think of this as a continuous flow of an
+
+00:22:22.600 --> 00:22:25.763
+incompressible fluid, something uniform in all directions,
+
+00:22:25.763 --> 00:22:30.105
+and with that incompressibility, we'll imagine that the density of water through
+
+00:22:30.105 --> 00:22:31.660
+all of space stays constant.
+
+00:22:32.000 --> 00:22:32.560
+That's important.
+
+00:22:33.080 --> 00:22:37.458
+If you have some oriented surface, something like our sphere with its unit normal
+
+00:22:37.458 --> 00:22:42.160
+vectors, you can measure how much water is flowing through that surface per unit time.
+
+00:22:42.740 --> 00:22:44.440
+Physicists have a special name for this.
+
+00:22:44.560 --> 00:22:47.511
+They call it the flux, where on a given patch of area,
+
+00:22:47.511 --> 00:22:50.954
+the flux measures how much water passes through it per second,
+
+00:22:50.954 --> 00:22:54.998
+and you count it as positive when the water flows from inside to outside,
+
+00:22:54.998 --> 00:22:57.894
+aligned with the unit normal vectors of the surface,
+
+00:22:57.894 --> 00:23:01.173
+whereas flux would be negative if it's going the other way,
+
+00:23:01.173 --> 00:23:03.140
+going against those normal vectors.
+
+00:23:03.760 --> 00:23:08.317
+When you add all of this up over the whole surface, this gives you the total flux,
+
+00:23:08.317 --> 00:23:12.819
+and the key observation is that this total flux has to match the amount of water
+
+00:23:12.819 --> 00:23:16.265
+being produced inside the surface, that one liter per second,
+
+00:23:16.265 --> 00:23:20.655
+and the cool part is that this will remain true even if you warp or deform the
+
+00:23:20.655 --> 00:23:22.100
+sphere just a little bit.
+
+00:23:22.500 --> 00:23:25.071
+That total flux stays at one liter per second,
+
+00:23:25.071 --> 00:23:29.544
+even if the flux through a particular patch of area changes during the process,
+
+00:23:29.544 --> 00:23:33.736
+and the basic reason is that we're treating the water as an incompressible
+
+00:23:33.736 --> 00:23:36.699
+fluid with a constant uniform density through space,
+
+00:23:36.699 --> 00:23:40.724
+so every little bit of water produced at the origin has to be cancelled
+
+00:23:40.724 --> 00:23:42.960
+out by one that is exiting the surface.
+
+00:23:44.100 --> 00:23:48.620
+Importantly, for what I just said to be true, we have to be counting flux with a sign.
+
+00:23:49.100 --> 00:23:52.969
+For example, let's say you warp the sphere so that it kind of folds over
+
+00:23:52.969 --> 00:23:56.140
+itself like this, then you'll notice along a certain line,
+
+00:23:56.140 --> 00:24:00.600
+the water goes out of the surface, and then back into it, and then back out again.
+
+00:24:01.020 --> 00:24:05.660
+So you would want to count this flux as positive whenever it goes from inside to outside,
+
+00:24:05.660 --> 00:24:08.267
+but negative when it goes from outside to inside,
+
+00:24:08.267 --> 00:24:11.760
+so that you're not counting those particles three different times.
+
+00:24:12.300 --> 00:24:15.900
+And from here, you can maybe see the key point I'm getting at towards our contradiction.
+
+00:24:16.400 --> 00:24:20.009
+The only way that you could ever change the net flux through a surface
+
+00:24:20.009 --> 00:24:23.360
+like this is if part of that surface crosses through the origin.
+
+00:24:24.020 --> 00:24:26.509
+For example, if you pull it over to the side so that it
+
+00:24:26.509 --> 00:24:29.360
+doesn't include the source at all, the net flux would be zero.
+
+00:24:29.720 --> 00:24:34.080
+There are as many water molecules flowing in as there are flowing out.
+
+00:24:34.540 --> 00:24:37.540
+So with that in mind, think about everything we've been talking about.
+
+00:24:38.100 --> 00:24:42.843
+If you could define this non-zero vector field on a sphere that lets you create this
+
+00:24:42.843 --> 00:24:47.360
+bizarre deformation that turns the sphere inside out, what happens to the flux?
+
+00:24:48.140 --> 00:24:51.532
+Well, what we mean by turning the sphere inside out is that all
+
+00:24:51.532 --> 00:24:55.140
+the unit normal vectors end up pointing inside instead of outside.
+
+00:24:56.000 --> 00:24:59.718
+So for any particular patch of area, at some point the flux through it
+
+00:24:59.718 --> 00:25:03.435
+transitions from being positive to negative, and overall, at the end,
+
+00:25:03.435 --> 00:25:07.100
+that total flux would have to end at negative one liters per second.
+
+00:25:07.460 --> 00:25:11.900
+But at the same time, if it never crosses the origin, the net flux can never change.
+
+00:25:12.160 --> 00:25:15.260
+It starts at positive one, so it has to end at positive one.
+
+00:25:15.920 --> 00:25:17.220
+This is the contradiction.
+
+00:25:17.740 --> 00:25:20.680
+No deformation with these two properties can possibly exist.
+
+00:25:21.180 --> 00:25:22.060
+And there you have it.
+
+00:25:22.180 --> 00:25:25.800
+A non-zero continuous vector field on the sphere would be impossible.
+
+00:25:26.280 --> 00:25:28.540
+You truly cannot comb a hairy ball.
+
+00:25:29.440 --> 00:25:32.000
+I don't know about you, but I think that's so beautiful.
+
+00:25:32.440 --> 00:25:36.911
+Very often topology is this game where seemingly intuitive facts have these surprising
+
+00:25:36.911 --> 00:25:41.226
+but kind of frustrating counter-examples, but the real insights and the creativity
+
+00:25:41.226 --> 00:25:45.437
+often comes from the other side of the coin, where you take something that seems
+
+00:25:45.437 --> 00:25:49.908
+intuitive, but you find the construction that really justifies why it's fundamentally
+
+00:25:49.908 --> 00:25:50.220
+true.
+
+00:25:50.680 --> 00:25:54.520
+Now there is more to say about making the argument I just showed you fully rigorous,
+
+00:25:54.520 --> 00:25:57.354
+and also more to say about how this whole thing does and does
+
+00:25:57.354 --> 00:25:59.000
+not generalize to other dimensions.
+
+00:25:59.400 --> 00:26:03.184
+But before that, if you'll indulge me in shifting gears entirely for a minute here,
+
+00:26:03.184 --> 00:26:06.967
+I want to tell you about an experimental new thing that I'm starting up this year,
+
+00:26:06.967 --> 00:26:09.520
+which I'm thinking of as a kind of virtual career fair.
+
+00:26:09.980 --> 00:26:13.044
+If you go to 3b1b.co/talent, what you'll find is
+
+00:26:13.044 --> 00:26:16.300
+a set of companies that have two things in common.
+
+00:26:16.720 --> 00:26:19.089
+The first one, essentially by definition, is that
+
+00:26:19.089 --> 00:26:21.700
+they are interested in recruiting from this audience.
+
+00:26:22.060 --> 00:26:25.767
+They value the kind of mathematical and technical curiosity clearly to
+
+00:26:25.767 --> 00:26:29.580
+be found in someone like you, who's watching a video like this for fun.
+
+00:26:29.580 --> 00:26:32.444
+If you go and explore the page and see the kind of puzzles and
+
+00:26:32.444 --> 00:26:35.862
+challenges and technical work that each one has chosen to share with you,
+
+00:26:35.862 --> 00:26:38.680
+you'll pretty quickly get a sense of the shared values here.
+
+00:26:39.080 --> 00:26:41.162
+The second thing they have in common is that the
+
+00:26:41.162 --> 00:26:43.200
+people working there really love what they do.
+
+00:26:43.520 --> 00:26:44.520
+And this one's important to me.
+
+00:26:44.720 --> 00:26:47.442
+I was pretty careful about it while setting this whole thing up,
+
+00:26:47.442 --> 00:26:51.100
+because all of this only makes sense to do if it's actually valuable to the audience.
+
+00:26:51.560 --> 00:26:55.202
+So I took some time to sit down and chat with the technical teams at each group,
+
+00:26:55.202 --> 00:26:58.480
+and inclusion only really made sense if they clearly like what they do.
+
+00:26:58.480 --> 00:27:01.582
+Pretty universally, a core reason that the people enjoyed their
+
+00:27:01.582 --> 00:27:04.880
+work was out of a very sincere respect for all of their teammates.
+
+00:27:05.440 --> 00:27:08.719
+In the hopes of making this relevant to you, whoever you might be,
+
+00:27:08.719 --> 00:27:12.197
+there is a range of job types available across a range of industries,
+
+00:27:12.197 --> 00:27:16.320
+including senior roles, new careers, internships, or even part-time tutoring gigs.
+
+00:27:17.000 --> 00:27:20.295
+For broader context, if you're curious, I recorded a whole video on
+
+00:27:20.295 --> 00:27:23.640
+the second channel explaining why I started this, what the deal is.
+
+00:27:24.000 --> 00:27:27.759
+One thing that I mention over there is how I'm looking to make a few hires myself,
+
+00:27:27.759 --> 00:27:31.610
+and whenever this is the case, I will include my own page up on this virtual career
+
+00:27:31.610 --> 00:27:35.278
+fair, where you can go and find the description of what I'm looking for and the
+
+00:27:35.278 --> 00:27:35.920
+applications.
+
+00:27:36.760 --> 00:27:38.897
+The whole page will stay updated as time goes on,
+
+00:27:38.897 --> 00:27:42.430
+so even if you're not looking for a job now, but you are sometime in the future,
+
+00:27:42.430 --> 00:27:43.520
+be sure to check it out.
+
+00:27:44.400 --> 00:27:46.060
+Alright, so back to the hairy ball theorem.
+
+00:27:46.440 --> 00:27:49.238
+The argument at the end rested on this whole idea of flux,
+
+00:27:49.238 --> 00:27:52.325
+which admittedly is a little hand-wavy without further details,
+
+00:27:52.325 --> 00:27:55.846
+so I'll leave up on screen a set of exercises outlining one way that you
+
+00:27:55.846 --> 00:27:59.415
+could make this more rigorous if you have a background with multivariable
+
+00:27:59.415 --> 00:28:01.200
+calculus and the divergence theorem.
+
+00:28:01.660 --> 00:28:04.533
+There is another, deeper way to get at the same basic idea,
+
+00:28:04.533 --> 00:28:08.332
+using something called a homology group, but that one is certainly beyond the
+
+00:28:08.332 --> 00:28:09.160
+scope for today.
+
+00:28:09.800 --> 00:28:13.400
+The last point I want to leave you pondering on is the nature of other dimensions.
+
+00:28:13.940 --> 00:28:18.045
+It's not hard to see that you can comb down the hairs on a fluffy circle,
+
+00:28:18.045 --> 00:28:22.825
+even though you can't do it for a sphere, and in general the rule is that spheres in
+
+00:28:22.825 --> 00:28:27.830
+all the even dimensions can be combed down, but those in all the odd-numbered dimensions
+
+00:28:27.830 --> 00:28:28.280
+cannot.
+
+00:28:28.660 --> 00:28:31.977
+Now what I like about the argument that we just talked about for this
+
+00:28:31.977 --> 00:28:35.631
+whole video is that it offers a pretty direct clue for why that's the rule,
+
+00:28:35.631 --> 00:28:38.660
+at least if you're comfortable with the notion of orientation.
+
+00:28:39.160 --> 00:28:42.859
+In all the even dimensions, the function that maps a point to
+
+00:28:42.859 --> 00:28:46.011
+its negative is an orientation-preserving function,
+
+00:28:46.011 --> 00:28:50.680
+whereas in all the odd dimensions, that's an orientation-reversing function.
+
+00:28:50.680 --> 00:28:56.230
+You might enjoy taking a moment to pause and ponder on why that means the proof we just
+
+00:28:56.230 --> 00:29:01.844
+outlined works in all of the odd dimensions, and even though it doesn't explicitly tell
+
+00:29:01.844 --> 00:29:05.162
+you that nothing could work in the even dimensions,
+
+00:29:05.162 --> 00:29:10.712
+it's a fun puzzle to see if you can construct an explicit example of a non-zero vector
+
+00:29:10.712 --> 00:29:13.200
+field in all of those even dimensions.
+
+00:29:13.200 --> 00:29:16.340
+For example, how do you comb down the hairs on a hypersphere in four dimensions.
+
