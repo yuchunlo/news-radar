@@ -93,7 +93,9 @@ jobs:
           fi
           git commit -m "chore: update subtitles"
 
-          git push
+          git pull --rebase -X ours origin main
+
+          git push origin main
 
       - name: Cleanup
         if: always()
