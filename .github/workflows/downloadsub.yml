@@ -81,7 +81,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add data/subtitles
+          git add data/subtitles data/archive.json
           if [ -n "$(git status --porcelain --untracked-files=all -- data/ | grep -v '^[MADRC]' || true)" ]; then
             echo "::error::Unstaged generated files under data/ detected"
             git status --porcelain --untracked-files=all -- data/ | grep -v '^[MADRC]'
