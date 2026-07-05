@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T16:36:27.074734Z",
+  "generated_at": "2026-07-05T18:09:48.349766Z",
   "window_hours": 24,
   "total_items": 1,
   "items": [
@@ -147,6 +147,15 @@
           "published_at": "2026-07-05T11:00:20Z"
         },
         {
+          "id": "0992ad2a498e05dcaadb2ff33cd6d0d561e1d5fe",
+          "title": "高人氣相機GoUltra 戶外實戰小配件5選 🚴旅行 日常 技巧分享 #法蘭克黃 #goultra  #露營",
+          "url": "https://www.youtube.com/watch?v=9SWLNkuh_Fo",
+          "source": "法蘭克黃",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-05T11:00:20Z"
+        },
+        {
           "id": "78b84f987e38ce99b1e0d07667728f73964c7b13",
           "title": "我強迫我的團隊 24 小時用 AI 編程 / Ho costretto il mio Team a Programmare con l’AI per 24h",
           "url": "https://www.youtube.com/watch?v=V7NmyU5-V5k",
@@ -174,7 +183,7 @@
           "published_at": "2026-07-05T09:21:56Z"
         }
       ],
-      "source_count": 18,
+      "source_count": 19,
       "source_names": [
         "Best Documentary",
         "Knowledgia",
@@ -327,6 +336,15 @@
           "published_at": "2026-07-05T11:00:20Z"
         },
         {
+          "id": "0992ad2a498e05dcaadb2ff33cd6d0d561e1d5fe",
+          "title": "高人氣相機GoUltra 戶外實戰小配件5選 🚴旅行 日常 技巧分享 #法蘭克黃 #goultra  #露營",
+          "url": "https://www.youtube.com/watch?v=9SWLNkuh_Fo",
+          "source": "法蘭克黃",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-05T11:00:20Z"
+        },
+        {
           "id": "78b84f987e38ce99b1e0d07667728f73964c7b13",
           "title": "我強迫我的團隊 24 小時用 AI 編程 / Ho costretto il mio Team a Programmare con l’AI per 24h",
           "url": "https://www.youtube.com/watch?v=V7NmyU5-V5k",
@@ -354,15 +372,15 @@
           "published_at": "2026-07-05T09:21:56Z"
         }
       ],
-      "item_count": 18,
-      "duplicate_count": 18,
-      "score": 0.7424,
-      "importance": 0.7424,
-      "importance_score": 0.7424,
+      "item_count": 19,
+      "duplicate_count": 19,
+      "score": 0.723,
+      "importance": 0.723,
+      "importance_score": 0.723,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9747,
+        "recency": 0.9099,
         "story_heat": 1.0
       },
       "category": "multi_source",
