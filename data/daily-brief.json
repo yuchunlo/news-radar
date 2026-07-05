@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-07-05T07:44:15.613100Z",
+  "generated_at": "2026-07-05T10:23:12.926148Z",
   "window_hours": 24,
   "total_items": 1,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "涨的要跌？跌的要涨？下半年2大短期风险，1大致富机会，你必须了解！",
+      "title": "涨的要跌？跌的要涨？下半年2大风险，1大致富机会，你必须了解！",
       "url": "https://www.youtube.com/watch?v=px5M4ry8IO4",
       "primary_url": "https://www.youtube.com/watch?v=px5M4ry8IO4",
       "source": "美投讲美股",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "ff910d3b9f102198da25f5095fabbbac93eec765",
-          "title": "涨的要跌？跌的要涨？下半年2大短期风险，1大致富机会，你必须了解！",
+          "id": "61524d7f8463107af6055bbfc40d916af20d4a44",
+          "title": "涨的要跌？跌的要涨？下半年2大风险，1大致富机会，你必须了解！",
           "url": "https://www.youtube.com/watch?v=px5M4ry8IO4",
           "source": "美投讲美股",
           "source_name": "OPML RSS",
@@ -84,6 +84,15 @@
           "published_at": "2026-07-05T06:37:41Z"
         },
         {
+          "id": "498424374c4b2aecaf6c1419155a6838437ac801",
+          "title": "想幫台灣長出自己的「PayPal 黑手黨」！矽谷的成功配方在這裡「失效」了嗎？｜YouTube 共同創辦人 Steve Chen 陳士駿【塞掐 Side Chat】E413",
+          "url": "https://www.youtube.com/watch?v=FcMk18AmVKA",
+          "source": "【塞掐】訪談大人物",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-05T06:19:11Z"
+        },
+        {
           "id": "3a8053e3269d3ee4efcdaeb81bac6fd9d8e73d61",
           "title": "美國從這裡開始 - 費城現在是什麼樣子？ / America Started Here - What's Philadelphia Like Now?",
           "url": "https://www.youtube.com/watch?v=xUDUgbmle5I",
@@ -109,9 +118,18 @@
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
           "published_at": "2026-07-04T11:00:06Z"
+        },
+        {
+          "id": "1d1f4a16117bfd283acd0e2e10cf67d5f4d0013a",
+          "title": "阿里烧几千亿搞新零售，拼多多躺着就赢了：这十年到底谁看懂了零售？",
+          "url": "https://www.youtube.com/watch?v=bSF98toNC5Y",
+          "source": "冲浪普拉斯",
+          "source_name": "OPML RSS",
+          "site_id": "execution",
+          "published_at": "2026-07-05T09:21:56Z"
         }
       ],
-      "source_count": 11,
+      "source_count": 13,
       "source_names": [
         "Best Documentary",
         "Invicta",
@@ -119,6 +137,8 @@
         "Shepherd Capital Markets",
         "Timeline - World History Documentaries",
         "imineo Documentaires",
+        "【塞掐】訪談大人物",
+        "冲浪普拉斯",
         "山上加美Lovely Hill",
         "沙發人物誌",
         "美投讲美股",
@@ -126,8 +146,8 @@
       ],
       "items": [
         {
-          "id": "ff910d3b9f102198da25f5095fabbbac93eec765",
-          "title": "涨的要跌？跌的要涨？下半年2大短期风险，1大致富机会，你必须了解！",
+          "id": "61524d7f8463107af6055bbfc40d916af20d4a44",
+          "title": "涨的要跌？跌的要涨？下半年2大风险，1大致富机会，你必须了解！",
           "url": "https://www.youtube.com/watch?v=px5M4ry8IO4",
           "source": "美投讲美股",
           "source_name": "OPML RSS",
@@ -198,6 +218,15 @@
           "published_at": "2026-07-05T06:37:41Z"
         },
         {
+          "id": "498424374c4b2aecaf6c1419155a6838437ac801",
+          "title": "想幫台灣長出自己的「PayPal 黑手黨」！矽谷的成功配方在這裡「失效」了嗎？｜YouTube 共同創辦人 Steve Chen 陳士駿【塞掐 Side Chat】E413",
+          "url": "https://www.youtube.com/watch?v=FcMk18AmVKA",
+          "source": "【塞掐】訪談大人物",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-05T06:19:11Z"
+        },
+        {
           "id": "3a8053e3269d3ee4efcdaeb81bac6fd9d8e73d61",
           "title": "美國從這裡開始 - 費城現在是什麼樣子？ / America Started Here - What's Philadelphia Like Now?",
           "url": "https://www.youtube.com/watch?v=xUDUgbmle5I",
@@ -223,17 +252,26 @@
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
           "published_at": "2026-07-04T11:00:06Z"
+        },
+        {
+          "id": "1d1f4a16117bfd283acd0e2e10cf67d5f4d0013a",
+          "title": "阿里烧几千亿搞新零售，拼多多躺着就赢了：这十年到底谁看懂了零售？",
+          "url": "https://www.youtube.com/watch?v=bSF98toNC5Y",
+          "source": "冲浪普拉斯",
+          "source_name": "OPML RSS",
+          "site_id": "execution",
+          "published_at": "2026-07-05T09:21:56Z"
         }
       ],
-      "item_count": 11,
-      "duplicate_count": 11,
-      "score": 0.6933,
-      "importance": 0.6933,
-      "importance_score": 0.6933,
+      "item_count": 13,
+      "duplicate_count": 13,
+      "score": 0.6602,
+      "importance": 0.6602,
+      "importance_score": 0.6602,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.811,
+        "recency": 0.7007,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -241,10 +279,10 @@
         "multi_source"
       ],
       "earliest_at": "2026-07-04T11:00:06Z",
-      "latest_at": "2026-07-05T06:37:41Z",
+      "latest_at": "2026-07-05T09:21:56Z",
       "primary_item": {
-        "id": "ff910d3b9f102198da25f5095fabbbac93eec765",
-        "title": "涨的要跌？跌的要涨？下半年2大短期风险，1大致富机会，你必须了解！",
+        "id": "61524d7f8463107af6055bbfc40d916af20d4a44",
+        "title": "涨的要跌？跌的要涨？下半年2大风险，1大致富机会，你必须了解！",
         "url": "https://www.youtube.com/watch?v=px5M4ry8IO4",
         "source": "美投讲美股",
         "source_name": "OPML RSS"
