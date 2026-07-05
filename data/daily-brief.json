@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T04:01:19.827354Z",
+  "generated_at": "2026-07-05T07:44:15.613100Z",
   "window_hours": 24,
   "total_items": 1,
   "items": [
@@ -75,6 +75,15 @@
           "published_at": "2026-07-04T12:00:35Z"
         },
         {
+          "id": "def1963c245c2946386ff94489a65caf2423cce5",
+          "title": "猴崁水圳步道健行5km，陽明山最美水圳秘境，高棧橋、吊橋瀑布峽谷一次收集｜山上加美 Lovely Hill",
+          "url": "https://www.youtube.com/watch?v=ar5sxiOCwD4",
+          "source": "山上加美Lovely Hill",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-05T06:37:41Z"
+        },
+        {
           "id": "3a8053e3269d3ee4efcdaeb81bac6fd9d8e73d61",
           "title": "美國從這裡開始 - 費城現在是什麼樣子？ / America Started Here - What's Philadelphia Like Now?",
           "url": "https://www.youtube.com/watch?v=xUDUgbmle5I",
@@ -102,7 +111,7 @@
           "published_at": "2026-07-04T11:00:06Z"
         }
       ],
-      "source_count": 10,
+      "source_count": 11,
       "source_names": [
         "Best Documentary",
         "Invicta",
@@ -110,6 +119,7 @@
         "Shepherd Capital Markets",
         "Timeline - World History Documentaries",
         "imineo Documentaires",
+        "山上加美Lovely Hill",
         "沙發人物誌",
         "美投讲美股",
         "融融歷險記Ben's Adventure"
@@ -179,6 +189,15 @@
           "published_at": "2026-07-04T12:00:35Z"
         },
         {
+          "id": "def1963c245c2946386ff94489a65caf2423cce5",
+          "title": "猴崁水圳步道健行5km，陽明山最美水圳秘境，高棧橋、吊橋瀑布峽谷一次收集｜山上加美 Lovely Hill",
+          "url": "https://www.youtube.com/watch?v=ar5sxiOCwD4",
+          "source": "山上加美Lovely Hill",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-05T06:37:41Z"
+        },
+        {
           "id": "3a8053e3269d3ee4efcdaeb81bac6fd9d8e73d61",
           "title": "美國從這裡開始 - 費城現在是什麼樣子？ / America Started Here - What's Philadelphia Like Now?",
           "url": "https://www.youtube.com/watch?v=xUDUgbmle5I",
@@ -206,15 +225,15 @@
           "published_at": "2026-07-04T11:00:06Z"
         }
       ],
-      "item_count": 10,
-      "duplicate_count": 10,
-      "score": 0.7398,
-      "importance": 0.7398,
-      "importance_score": 0.7398,
+      "item_count": 11,
+      "duplicate_count": 11,
+      "score": 0.6933,
+      "importance": 0.6933,
+      "importance_score": 0.6933,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9659,
+        "recency": 0.811,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -222,7 +241,7 @@
         "multi_source"
       ],
       "earliest_at": "2026-07-04T11:00:06Z",
-      "latest_at": "2026-07-05T03:12:10Z",
+      "latest_at": "2026-07-05T06:37:41Z",
       "primary_item": {
         "id": "ff910d3b9f102198da25f5095fabbbac93eec765",
         "title": "涨的要跌？跌的要涨？下半年2大短期风险，1大致富机会，你必须了解！",
