@@ -1,0 +1,690 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.320 --> 00:00:03.360
+Asus.
+The dominant motherboard producer,&nbsp;&nbsp;
+
+00:00:03.360 --> 00:00:10.880
+trusted by gamers for being premium, and reliable.
+But, they were wronging customers for years.
+
+00:00:10.880 --> 00:00:14.880
+This is how Asus was screwing&nbsp;
+consumers, and how one YouTuber&nbsp;&nbsp;
+
+00:00:14.880 --> 00:00:25.520
+caught them red-handed, not once, but twice.
+And even confronted them face to face.&nbsp;
+
+00:00:30.080 --> 00:00:35.520
+Asus was at the top of the game.
+Out of 37 million projected motherboard sales,&nbsp;&nbsp;
+
+00:00:35.520 --> 00:00:40.640
+15 million were from Asus, with&nbsp;
+Gigabyte far behind at 9 million.&nbsp;
+
+00:00:40.640 --> 00:00:46.880
+Asus even held over 38% of the global&nbsp;
+market share, and was a $10 billion company.&nbsp;
+
+00:00:46.880 --> 00:00:50.160
+And perhaps even stronger, was their reputation.&nbsp;
+
+00:00:50.160 --> 00:00:56.080
+They were the enthusiast's choice. They were&nbsp;
+innovative, reliable, and had great performance.&nbsp;
+
+00:00:56.080 --> 00:01:00.080
+Their gaming brand: Republic&nbsp;
+of Gamers, is also huge.&nbsp;
+
+00:01:00.080 --> 00:01:06.000
+And Asus isn't just motherboards either.
+They compete across the full stack: GPUs,&nbsp;&nbsp;
+
+00:01:06.000 --> 00:01:11.840
+laptops, monitors, gaming handhelds, pretty&nbsp;
+much every product line in PC gaming.&nbsp;
+
+00:01:11.840 --> 00:01:16.640
+But, soon, cracks in Asus's&nbsp;
+pristine brand began to show.
+
+00:01:16.640 --> 00:01:23.600
+In early 2023, users were noticing AMD&nbsp;
+Ryzen CPUs, specifically the 7000X3D line,&nbsp;&nbsp;
+
+00:01:23.600 --> 00:01:29.600
+were physically bulging and charred.
+Users were, understandably, very alarmed.
+
+00:01:29.600 --> 00:01:33.840
+When investigated, the community&nbsp;
+found a common factor: Asus.&nbsp;
+
+00:01:33.840 --> 00:01:40.560
+Specifically, the ASUS 7800x3d Motherboard.
+Customers began to compile more cases of this.&nbsp;
+
+00:01:40.560 --> 00:01:43.440
+What was going on?
+Well, that question&nbsp;&nbsp;
+
+00:01:43.440 --> 00:01:48.160
+brings us to Asus's worst nightmare.
+In the comments of one of the posts,&nbsp;&nbsp;
+
+00:01:48.160 --> 00:01:52.800
+a user asked if they could buy both&nbsp;
+the board, and the CPU, to investigate.&nbsp;
+
+00:01:52.800 --> 00:01:57.520
+This was GamersNexus, a hardware&nbsp;
+review and tech journalism channel.&nbsp;
+
+00:01:57.520 --> 00:02:17.760
+And soon they revealed their findings.
+Here's what happened.&nbsp;
+
+00:02:17.760 --> 00:02:23.200
+In the ASUS BIOS, or "basic input/output system",&nbsp;
+there's an overclock setting called EXPO,&nbsp;&nbsp;
+
+00:02:23.200 --> 00:02:28.880
+which allows RAM to run at its high advertised&nbsp;
+speeds, instead of the default, slower speed.&nbsp;
+
+00:02:28.880 --> 00:02:32.880
+Gamers often overclock their components&nbsp;
+to get the most performance out of them.&nbsp;
+
+00:02:32.880 --> 00:02:37.600
+When you overclock with a setting like EXPO, the&nbsp;
+motherboard also needs to increase a separate&nbsp;&nbsp;
+
+00:02:37.600 --> 00:02:45.600
+voltage, called SoC, which runs through the CPU.
+But... ASUS was setting this way, way too high.&nbsp;
+
+00:02:45.600 --> 00:02:51.920
+The BIOS on the ASUS motherboard showed&nbsp;
+1.35 volts, already high for an AMD CPU.&nbsp;
+
+00:02:51.920 --> 00:02:56.000
+But physically measuring the motherboard, Steve&nbsp;
+from GamersNexus showed the real number was&nbsp;&nbsp;
+
+00:02:56.000 --> 00:03:01.040
+between 1.39 or even 1.4 volts.
+Doesn't sound like much,&nbsp;&nbsp;
+
+00:03:01.040 --> 00:03:26.720
+but it was enough to physically burn the CPU.
+Yet, Asus, somehow in attempting to fix it,&nbsp;&nbsp;
+
+00:03:26.720 --> 00:03:32.880
+was about to make the problem much worse.
+Asus sent out BIOS version 1410.&nbsp;
+
+00:03:32.880 --> 00:03:38.640
+And users noticed something very strange.
+"ASUS does not give any warranties,&nbsp;&nbsp;
+
+00:03:38.640 --> 00:03:46.160
+as to the suitability, compatibility, or usability&nbsp;
+of the UEFI, its firmware or any of its content".&nbsp;
+
+00:03:46.160 --> 00:03:51.120
+That's right, while rolling out a fix, they&nbsp;
+quietly added that downloading it would void&nbsp;&nbsp;
+
+00:03:51.120 --> 00:03:54.160
+your motherboard warranty.
+Insane.&nbsp;
+
+00:03:54.160 --> 00:03:58.880
+But, it somehow gets worse.
+Asus noted that "any intentional&nbsp;&nbsp;
+
+00:03:58.880 --> 00:04:03.440
+manipulation can damage the processor, socket&nbsp;
+and motherboard". (Show quote at 23:42).&nbsp;
+
+00:04:03.440 --> 00:04:10.560
+They're right, but here they're referring to EXPO.
+There's intentional manipulation, and then&nbsp;&nbsp;
+
+00:04:10.560 --> 00:04:15.680
+there's running EXPO, a heavily&nbsp;
+marketed, widely used feature.&nbsp;
+
+00:04:15.680 --> 00:04:20.640
+ASUS also quietly removed the older&nbsp;
+BIOS versions from their download page.&nbsp;
+
+00:04:20.640 --> 00:04:26.720
+So, customers could stay on the original BIOS&nbsp;
+and risk burning their CPU, or install the fix&nbsp;&nbsp;
+
+00:04:26.720 --> 00:04:33.120
+and lose their warranty. Great.
+Either way, ASUS wins. At least,&nbsp;&nbsp;
+
+00:04:33.120 --> 00:05:01.440
+that's probably what they thought.
+Steve also pointed out that,&nbsp;&nbsp;
+
+00:05:01.440 --> 00:05:07.600
+if you did follow Asus's guidance to not&nbsp;
+use EXPO, you'd see major performance drops.&nbsp;
+
+00:05:07.600 --> 00:05:12.560
+Y'know, on the big fancy gaming motherboard&nbsp;
+you spent hundreds of dollars on.&nbsp;
+
+00:05:12.560 --> 00:05:18.960
+This follow-up video passed 1.1 million views&nbsp;
+in just one month, and soon, it began to spread.
+
+00:05:31.120 --> 00:05:38.560
+"For those who dare" went from a live love laugh&nbsp;
+marketing tag to an actual threat. Awesome"&nbsp;
+
+00:05:38.560 --> 00:05:43.360
+"I don't understand how Asus went from "slightly&nbsp;
+more expensive but feature rich and reliable" a&nbsp;&nbsp;
+
+00:05:43.360 --> 00:05:50.240
+decade ago to "overpriced gimmicks and missing out&nbsp;
+on important features". Massive shame. Asus used&nbsp;&nbsp;
+
+00:05:50.240 --> 00:05:54.560
+to be one of the brands I could trust."
+It was all falling apart,&nbsp;&nbsp;
+
+00:05:54.560 --> 00:06:00.400
+including Asus's prestigious reputation.
+The thing is, even with the burning socket,&nbsp;&nbsp;
+
+00:06:00.400 --> 00:06:13.680
+things could have been very different.
+So, what happened?&nbsp;
+
+00:06:13.680 --> 00:06:17.200
+Asus released a statement:
+"We want to address the concerns&nbsp;&nbsp;
+
+00:06:17.200 --> 00:06:21.040
+that have been raised by our users about&nbsp;
+whether recent BIOS updates will impact&nbsp;&nbsp;
+
+00:06:21.040 --> 00:06:26.720
+the warranty of ASUS AM5 motherboards."
+They outlined that, contrary to their&nbsp;&nbsp;
+
+00:06:26.720 --> 00:06:32.080
+BIOS update, the warranty would cover&nbsp;
+the motherboard, including EXPO use.&nbsp;
+
+00:06:32.080 --> 00:06:34.640
+Though, it doesn't seem&nbsp;
+like there was compensation&nbsp;&nbsp;
+
+00:06:34.640 --> 00:06:42.000
+for those who already had burned CPUs.
+And unfortunately, this was just the beginning.&nbsp;
+
+00:06:42.000 --> 00:06:46.160
+This somehow, wasn't even the&nbsp;
+worst thing Asus would do.&nbsp;
+
+00:06:46.160 --> 00:06:52.640
+And, guess who was about to catch them red-handed?
+But this time it would be different, and would&nbsp;&nbsp;
+
+00:06:52.640 --> 00:07:02.240
+set off a long string of dominoes, ending&nbsp;
+with Steve confronting Asus face to face.
+
+00:07:06.960 --> 00:07:13.600
+If you're a developer, you know building real-time&nbsp;
+features like chat, video, and activity feeds is&nbsp;&nbsp;
+
+00:07:13.600 --> 00:07:21.280
+deceptively difficult. And when you finally deploy&nbsp;
+them after months, even more problems pop up. What&nbsp;&nbsp;
+
+00:07:21.280 --> 00:07:27.680
+happens when you hit 10,000 concurrent users&nbsp;
+instead of 10? It's months of build time and&nbsp;&nbsp;
+
+00:07:27.680 --> 00:07:34.720
+problem-solving. And the worst part: people&nbsp;
+have already solved these problems. So why&nbsp;&nbsp;
+
+00:07:34.720 --> 00:07:41.280
+build it all over again? Just use GetStream.
+GetStream gives you production-grade chat,&nbsp;&nbsp;
+
+00:07:41.280 --> 00:07:49.440
+video, audio, and activity feed APIs through one&nbsp;
+platform. Their SDKs cover iOS, Android, React,&nbsp;&nbsp;
+
+00:07:49.440 --> 00:07:55.840
+React Native, and Flutter on the client side.&nbsp;
+You get pre-built UI components, but also raw&nbsp;&nbsp;
+
+00:07:55.840 --> 00:08:01.360
+API access if you'd like to build that yourself!
+Building real-time communication infrastructure&nbsp;&nbsp;
+
+00:08:01.360 --> 00:08:05.920
+from scratch can take months. But often&nbsp;
+you just don't have enough runway,&nbsp;&nbsp;
+
+00:08:05.920 --> 00:08:12.240
+especially in a startup. But with Stream's APIs,&nbsp;
+it can be ready to ship in just a few days,&nbsp;&nbsp;
+
+00:08:12.240 --> 00:08:17.840
+so you can focus on what really needs your&nbsp;
+attention. GetStream has solutions for pretty&nbsp;&nbsp;
+
+00:08:17.840 --> 00:08:24.480
+much anything you'd need. Education, healthcare,&nbsp;
+gaming, social media, fitness — you name it.&nbsp;
+
+00:08:24.480 --> 00:08:34.939
+And GetStream just got better, with Vision Agents.&nbsp;
+These AI agents can analyze real-time visual data,&nbsp;&nbsp;
+
+00:08:34.939 --> 00:08:38.938
+which lets you build a voice or video agent&nbsp;
+that can understand conversations or detect&nbsp;&nbsp;
+
+00:08:38.938 --> 00:08:49.360
+objects in real time, with minimal code.
+GetStream supports over 1 billion end users,&nbsp;&nbsp;
+
+00:08:49.360 --> 00:08:54.480
+with consistent uptime and incredible&nbsp;
+speed. They've been providing powerful&nbsp;&nbsp;
+
+00:08:54.480 --> 00:09:00.720
+APIs for over 10 years, so they've already&nbsp;
+solved the problems you'd face on your own.&nbsp;
+
+00:09:00.720 --> 00:09:04.880
+If you're a developer building the next&nbsp;
+big app, use the link below to check out&nbsp;&nbsp;
+
+00:09:04.880 --> 00:09:09.840
+Stream's APIs for in-app chat, audio,&nbsp;
+video, moderation, and feeds that scale&nbsp;&nbsp;
+
+00:09:09.840 --> 00:09:17.280
+from day one. Start for free at getstream.io
+Thank you to GetStream for sponsoring this video.
+
+00:09:17.280 --> 00:09:21.760
+Something ASUS is unfortunately&nbsp;
+known for, is bad customer service.&nbsp;
+
+00:09:21.760 --> 00:09:28.800
+They will look for any way to void your warranty,&nbsp;
+and… even damage your device themselves?&nbsp;
+
+00:09:28.800 --> 00:09:35.600
+"I sent my laptop for repair. The problem was&nbsp;
+fixed, but I received it back with new damages.&nbsp;&nbsp;
+
+00:09:35.600 --> 00:09:40.720
+There is now a dent on the back of the screen that&nbsp;
+wasn't there before, and there are slight bulges&nbsp;&nbsp;
+
+00:09:40.720 --> 00:09:46.000
+on the left and right sides of the trackpad"
+"Not only are customers' devices treated poorly,&nbsp;&nbsp;
+
+00:09:46.000 --> 00:09:49.680
+but they also try to make customers pay for&nbsp;
+something that should actually be covered&nbsp;&nbsp;
+
+00:09:49.680 --> 00:09:54.240
+by the warranty. To be honest, the entire&nbsp;
+process feels like dealing with a fraudulent&nbsp;&nbsp;
+
+00:09:54.240 --> 00:09:59.360
+company that is trying to scam you."
+This was shockingly common, but,&nbsp;&nbsp;
+
+00:09:59.360 --> 00:10:03.520
+there wasn't much people could do.
+They were negligent and slow, but,&nbsp;&nbsp;
+
+00:10:03.520 --> 00:10:07.520
+ASUS had all the power here.
+The problem though, is that&nbsp;&nbsp;
+
+00:10:07.520 --> 00:10:12.080
+every now and then, you stumble onto&nbsp;
+someone who flips the power dynamic.&nbsp;
+
+00:10:12.080 --> 00:10:18.720
+Just one year after the burning CPU scandal,&nbsp;
+GamersNexus sent in a defective ROG Ally handheld.&nbsp;
+
+00:10:18.720 --> 00:10:23.200
+But unbeknownst to ASUS,&nbsp;
+this would be an experiment.&nbsp;
+
+00:10:23.840 --> 00:10:45.840
+They documented everything.
+As soon as Asus received&nbsp;&nbsp;
+
+00:10:45.840 --> 00:11:18.000
+the ROG Ally, the red flags appeared.
+Asus claimed the device had "signs of damage&nbsp;&nbsp;
+
+00:11:18.000 --> 00:11:23.200
+which is not covered under warranty".
+So, what was the damage?&nbsp;
+
+00:11:23.200 --> 00:11:38.080
+But, it gets even weirder.
+Asus didn't even acknowledge the real problem,&nbsp;&nbsp;
+
+00:11:38.080 --> 00:11:43.600
+the joystick issue, which was under warranty.
+And Asus said that, if payment wasn’t&nbsp;&nbsp;
+
+00:11:43.600 --> 00:11:48.720
+received, it would be sent back…&nbsp;
+unrepaired and even disassembled.&nbsp;
+
+00:11:48.720 --> 00:11:53.440
+You would send Asus a faulty product,&nbsp;
+they would ignore it, void your warranty,&nbsp;&nbsp;
+
+00:11:53.440 --> 00:11:58.480
+charge you for something else, then threaten&nbsp;
+to send you back a truly unusable product.
+
+00:12:20.720 --> 00:12:24.240
+But what made all this&nbsp;
+worse, was the time pressure.
+
+00:12:51.360 --> 00:12:57.200
+Asus, eventually, after a lot of persuasion&nbsp;
+and confusing, contradictory emails,&nbsp;&nbsp;
+
+00:12:57.200 --> 00:13:01.520
+finally fixed the product.
+But here's the bigger problem.&nbsp;
+
+00:13:01.520 --> 00:13:07.120
+Steve didn't just get unlucky&nbsp;
+— these are routine for ASUS.&nbsp;
+
+00:13:07.120 --> 00:13:12.800
+Someone shared that a repair quote for an RTX&nbsp;
+4090, which had just a tiny dent by the way,&nbsp;&nbsp;
+
+00:13:12.800 --> 00:13:21.680
+was $3,728 CAD. For context, you could&nbsp;
+buy the same card new for $2,799.&nbsp;
+
+00:13:21.680 --> 00:13:29.520
+In just one week, GamersNexus's video passed 1.5&nbsp;
+million views. To date, it's over 2.3 million.&nbsp;
+
+00:13:36.160 --> 00:13:41.120
+Asus's fraud was blown right open,&nbsp;
+and everyone's eyes were on them.&nbsp;
+
+00:13:41.120 --> 00:13:54.720
+So, how did Asus respond?
+If you enjoy stories like this,&nbsp;&nbsp;
+
+00:13:54.720 --> 00:13:58.720
+with deep dives into companies&nbsp;
+like ASUS, please subscribe!&nbsp;&nbsp;
+
+00:13:58.720 --> 00:14:04.480
+It's free, and, we don't hit you with a&nbsp;
+secret repair fee down the road. Thanks.
+
+00:14:04.480 --> 00:14:11.280
+On May 16, 2024, five days after the video,&nbsp;
+Asus issued a statement… a weird one.&nbsp;
+
+00:14:11.280 --> 00:14:16.480
+"Currently, we perform a full analysis of&nbsp;
+devices sent for RMA, and send customers&nbsp;&nbsp;
+
+00:14:16.480 --> 00:14:22.560
+a comprehensive list of available repairs,&nbsp;
+free and paid, in our messaging to customers.&nbsp;&nbsp;
+
+00:14:22.560 --> 00:14:27.440
+We understand this may have caused confusion&nbsp;
+when a customer has only ordered a specific&nbsp;&nbsp;
+
+00:14:27.440 --> 00:14:33.840
+repair. We will no longer automatically offer&nbsp;
+repair quotations for cosmetic imperfections"&nbsp;
+
+00:14:33.840 --> 00:14:38.560
+"We deeply apologize to our customers and the&nbsp;
+community for any confusion and frustration&nbsp;&nbsp;
+
+00:14:38.560 --> 00:14:44.320
+they might have experienced from this."
+Apparently, it was the customers who were&nbsp;&nbsp;
+
+00:14:44.320 --> 00:14:49.200
+"confused". And Asus was simply, and&nbsp;
+graciously, giving consumers their&nbsp;&nbsp;
+
+00:14:49.200 --> 00:14:54.240
+options — when overcharging for non-existent&nbsp;
+damage, voiding your warranty, and threatening&nbsp;&nbsp;
+
+00:14:54.240 --> 00:15:00.080
+to send back your device unassembled.
+People weren't happy, understandably so.&nbsp;
+
+00:15:00.080 --> 00:15:06.480
+The backlash began to escalate.
+Soon, on May 23rd they released another statement.&nbsp;
+
+00:15:06.480 --> 00:15:11.520
+A more comprehensive overhaul to repairs.
+Promises of better communication,&nbsp;&nbsp;
+
+00:15:11.520 --> 00:15:16.640
+documentation, changes to repair prices&nbsp;
+— all of which were notorious before.&nbsp;
+
+00:15:16.640 --> 00:15:22.560
+But, customers still weren't convinced.
+"This is just a PR stunt to make it look like&nbsp;&nbsp;
+
+00:15:22.560 --> 00:15:29.120
+they care, and that they're doing something.&nbsp;
+They won't change, this is who they are"&nbsp;
+
+00:15:29.120 --> 00:15:33.280
+"From now on Asus goes on&nbsp;
+my warranty scammer list".&nbsp;
+
+00:15:33.280 --> 00:15:38.080
+Was anything going to change… really?
+Two days later, GamersNexus&nbsp;&nbsp;
+
+00:15:38.080 --> 00:15:42.480
+released a "Warranty Response Kit".
+If real change was going to happen,&nbsp;&nbsp;
+
+00:15:42.480 --> 00:15:46.320
+customers had to make themselves heard.
+But not to ASUS.&nbsp;
+
+00:15:46.320 --> 00:15:50.480
+To the Federal Trade Commission.
+The page detailed steps to file a&nbsp;&nbsp;
+
+00:15:50.480 --> 00:15:53.570
+complaint, along with everything a customer&nbsp;
+would need to know. (show Warranty Fraud:&nbsp;&nbsp;
+
+00:15:53.570 --> 00:15:56.000
+How to File a Report section).
+And that's not all.&nbsp;
+
+00:15:56.000 --> 00:16:00.720
+"We have begun the process of connecting with&nbsp;
+Congressional and Senatorial representatives,&nbsp;&nbsp;
+
+00:16:00.720 --> 00:16:05.200
+are contacting the Federal Trade Commission,&nbsp;
+and have begun interviews with experts and&nbsp;&nbsp;
+
+00:16:05.200 --> 00:16:12.480
+advocates for consumers on these matters."
+This was a big problem for ASUS, because they&nbsp;&nbsp;
+
+00:16:12.480 --> 00:16:17.680
+had already been on the FTC's watch list.
+They were one of six companies to receive&nbsp;&nbsp;
+
+00:16:17.680 --> 00:16:23.760
+a warning letter about illegal warranty terms.
+In the meantime however, GamersNexus was going&nbsp;&nbsp;
+
+00:16:23.760 --> 00:16:29.440
+to confront Asus, face to face, in Taiwan.
+In their statements, their promises of&nbsp;&nbsp;
+
+00:16:29.440 --> 00:16:34.960
+"changes" were just broad statements.
+What were they actually going to fix?
+
+00:16:34.960 --> 00:16:40.880
+Across two different discussions over three hours,&nbsp;
+Steve pressed ASUS on answers and commitments to&nbsp;&nbsp;
+
+00:16:40.880 --> 00:16:46.320
+improving RMA, to make them accountable.
+And while there were some breakthroughs,&nbsp;&nbsp;
+
+00:16:46.320 --> 00:16:50.480
+the results were mixed.
+At the very least, Steve twisted&nbsp;&nbsp;
+
+00:16:50.480 --> 00:16:57.040
+their arm into agreeing to a list of changes.
+Then, a month later, in July 2024, the FTC sent&nbsp;&nbsp;
+
+00:16:57.040 --> 00:17:02.640
+a new round of warning letters to companies about&nbsp;
+making warranties void, including ASRock, Zotac,&nbsp;&nbsp;
+
+00:17:02.640 --> 00:17:10.080
+and Gigabyte, though not ASUS — although they had&nbsp;
+already received a warning from the FTC in 2018.&nbsp;
+
+00:17:10.080 --> 00:17:15.600
+And that brings us to ASUS today.
+Has anything changed?&nbsp;
+
+00:17:15.600 --> 00:17:21.040
+There are signs of improvement. Asus opened a&nbsp;
+new email where customers with past disputed&nbsp;&nbsp;
+
+00:17:21.040 --> 00:17:27.040
+warranty claims could submit them for re-review.
+And, Asus, to their credit, went back and settled&nbsp;&nbsp;
+
+00:17:27.040 --> 00:17:32.960
+over 120 cases, and reached out to over 300&nbsp;
+customers who were incorrectly overcharged.&nbsp;
+
+00:17:32.960 --> 00:17:36.960
+A new repair center also opened in&nbsp;
+North America, instead of passing&nbsp;&nbsp;
+
+00:17:36.960 --> 00:17:42.880
+repairs to third parties at a lower cost.
+There's also more clarity, and any "customer&nbsp;&nbsp;
+
+00:17:42.880 --> 00:17:48.240
+induced damage" cases have much more scrutiny.
+They've simplified the RMA search system and&nbsp;&nbsp;
+
+00:17:48.240 --> 00:17:51.920
+removed shipping fees for mixed repairs.
+A lot of good stuff,&nbsp;&nbsp;
+
+00:17:51.920 --> 00:17:58.560
+to Asus's credit. But it's not perfect.
+It seems like a few things are slipping through.&nbsp;
+
+00:17:58.560 --> 00:18:05.440
+In December 2025, a customer sent a ROG&nbsp;
+RTX 5090 to RMA after random black screens.&nbsp;
+
+00:18:05.440 --> 00:18:11.360
+Asus declined the warranty, due to a crack so&nbsp;
+small it was only visible under a microscope.&nbsp;
+
+00:18:11.360 --> 00:18:16.880
+They quoted $4,661 CAD to replace&nbsp;
+the card, even though brand new it&nbsp;&nbsp;
+
+00:18:16.880 --> 00:18:22.640
+usually retails around $4,059 CAD.
+Even after months of back and forth,&nbsp;&nbsp;
+
+00:18:22.640 --> 00:18:29.840
+the best they could do was a 50% discount — even&nbsp;
+though it should be under warranty, at no cost.&nbsp;
+
+00:18:29.840 --> 00:18:35.200
+Customers are still nervous about&nbsp;
+buying ASUS, and I don't blame them.&nbsp;
+
+00:18:35.200 --> 00:18:39.760
+The damage has been done. Asus&nbsp;
+betrayed customers' trust.&nbsp;
+
+00:18:39.760 --> 00:18:43.440
+They tried to cut costs and void&nbsp;
+warranties wherever possible,&nbsp;&nbsp;
+
+00:18:43.440 --> 00:18:48.960
+and their reputation has taken a huge hit.
+They're still making money, of course,&nbsp;&nbsp;
+
+00:18:48.960 --> 00:18:55.680
+but dedicated fans and enthusiasts have&nbsp;
+moved on, and many will never return.&nbsp;
+
+00:18:55.680 --> 00:19:00.240
+It's going to take a long time&nbsp;
+to rebuild that trust, if ever.
+
+00:19:00.240 --> 00:19:03.040
+The crazy thing is, this isn't even the first time&nbsp;&nbsp;
+
+00:19:03.040 --> 00:19:07.040
+Steve from GamersNexus has gone&nbsp;
+head to head with a tech giant.&nbsp;
+
+00:19:07.040 --> 00:19:10.960
+If you wanna hear about the Newegg&nbsp;
+controversy, click this video.
+

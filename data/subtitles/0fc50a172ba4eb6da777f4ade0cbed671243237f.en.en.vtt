@@ -1,0 +1,720 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.160 --> 00:00:05.440
+You’ve probably seen the headlines.
+Uber burnt through its AI budget in 4 months.&nbsp;
+
+00:00:05.440 --> 00:00:08.720
+Another company spent $500 million in just one.&nbsp;
+
+00:00:08.720 --> 00:00:13.200
+Token costs have even gone “far&nbsp;
+beyond the costs of the employees”.&nbsp;
+
+00:00:13.200 --> 00:00:18.320
+Yet, all these companies tried to&nbsp;
+spend as much as possible on tokens.
+
+00:00:18.320 --> 00:00:23.760
+Companies have wildly overspent on&nbsp;
+tokens, and are now cutting back.&nbsp;
+
+00:00:23.760 --> 00:00:29.680
+But, all of this is especially weird, because&nbsp;
+tokens aren’t actually getting more expensive.&nbsp;
+
+00:00:29.680 --> 00:00:31.440
+They’re getting cheaper.&nbsp;
+
+00:00:31.440 --> 00:00:36.640
+The price of a single token has&nbsp;
+fallen by about 90% since 2023.&nbsp;
+
+00:00:36.640 --> 00:00:41.840
+But, AI spend keeps going up.
+So what’s going on?&nbsp;
+
+00:00:41.840 --> 00:00:45.840
+Why did cheaper tokens make&nbsp;
+AI more expensive than ever?&nbsp;
+
+00:00:45.840 --> 00:00:54.480
+Something’s happened that may have&nbsp;
+changed the AI industry for good.
+
+00:00:59.680 --> 00:01:03.760
+It feels like just a few months ago,&nbsp;
+companies were pushing every employee&nbsp;&nbsp;
+
+00:01:03.760 --> 00:01:09.760
+to spend as many tokens as possible.
+Many were calling it… “tokenmaxxing”,&nbsp;&nbsp;
+
+00:01:09.760 --> 00:01:16.160
+literally meaning 'maximizing token usage’.
+You can probably see where this is going…
+
+00:01:16.160 --> 00:01:20.480
+At Uber, engineers were given&nbsp;
+access to Claude Code and Cursor,&nbsp;&nbsp;
+
+00:01:20.480 --> 00:01:28.320
+and by March 2026, 84% of Uber's developers&nbsp;
+were classified as agentic coding users.&nbsp;
+
+00:01:28.320 --> 00:01:31.840
+Then, Uber placed a cap on employee AI spend,&nbsp;&nbsp;
+
+00:01:31.840 --> 00:01:36.103
+after going through their entire&nbsp;
+AI budget in just 4 months.&nbsp;
+
+00:01:36.103 --> 00:01:37.280
+[Praveen Neppalli Naga, Chief Technology&nbsp;
+Officer, Uber]: "I'm back to the drawing&nbsp;&nbsp;
+
+00:01:37.280 --> 00:01:41.840
+board because the budget I thought&nbsp;
+I would need is blown away already”.&nbsp;
+
+00:01:41.840 --> 00:01:45.440
+Even worse, Uber’s COO and president said
+[Andrew Macdonald, Uber President/COO] “If&nbsp;&nbsp;
+
+00:01:45.440 --> 00:01:50.320
+you’re not actually able to draw a direct line&nbsp;
+to how [many] useful features and functionality&nbsp;&nbsp;
+
+00:01:50.320 --> 00:01:56.880
+you’re shipping to your users, that trade becomes&nbsp;
+harder to justify. That link is not there yet.”&nbsp;
+
+00:01:56.880 --> 00:02:02.240
+But, this list goes on and on.
+In 30 days, Meta workers reportedly&nbsp;&nbsp;
+
+00:02:02.240 --> 00:02:06.960
+ran through 60 trillion Claude tokens.
+Microsoft encouraged employees to use&nbsp;&nbsp;
+
+00:02:06.960 --> 00:02:11.680
+different AI tools, but is now pushing&nbsp;
+everyone back to GitHub Copilot.
+
+00:02:11.680 --> 00:02:17.040
+Even though this is framed as&nbsp;
+“consolidation”, most see it as cost cutting.&nbsp;
+
+00:02:17.040 --> 00:02:22.080
+Amazon set targets for more than 80%&nbsp;
+of developers to use AI each week.&nbsp;
+
+00:02:22.080 --> 00:02:27.600
+They even had an AI leaderboard, KiroRank,&nbsp;
+which tracked AI token use among employees.&nbsp;
+
+00:02:27.600 --> 00:02:32.960
+Employees then began inflating their scores&nbsp;
+through “tokenmaxxing”. Basically giving AI&nbsp;&nbsp;
+
+00:02:32.960 --> 00:02:38.320
+useless tasks to increase token use.
+KiroRank was then taken offline.&nbsp;
+
+00:02:38.320 --> 00:02:45.520
+Amazon’s Senior Vice President said “Please&nbsp;
+don’t use AI just for the sake of using AI,”.&nbsp;
+
+00:02:45.520 --> 00:02:48.160
+An even stranger case is NVIDIA.
+
+00:03:26.640 --> 00:03:29.336
+About a month later, an NVIDIA executive said
+[Bryan Catanzaro, vice president of applied&nbsp;&nbsp;
+
+00:03:29.336 --> 00:03:34.640
+deep learning, NVIDIA]: “For my team, the cost of&nbsp;
+compute is far beyond the costs of the employees”.&nbsp;
+
+00:03:34.640 --> 00:03:40.320
+Another anonymous AI client burned through $500&nbsp;
+million on AI in just one month, because they&nbsp;&nbsp;
+
+00:03:40.320 --> 00:03:45.120
+didn’t set limits on employee licenses.
+Shopify, Spotify, ServiceNow,&nbsp;&nbsp;
+
+00:03:45.120 --> 00:03:50.000
+and Roku all mentioned in their earnings&nbsp;
+calls that AI has become a major pressure&nbsp;&nbsp;
+
+00:03:50.000 --> 00:03:54.400
+point on operating expenses.
+Not only is the cost spiking,&nbsp;&nbsp;
+
+00:03:54.400 --> 00:03:58.800
+but so are the problems.
+One being “code churn”.&nbsp;&nbsp;
+
+00:03:58.800 --> 00:04:05.280
+Aka lines of code deleted versus added.
+Alex Circei, the CEO of Waydev, said that&nbsp;&nbsp;
+
+00:04:05.280 --> 00:04:12.400
+managers are seeing code acceptance rates of 80%&nbsp;
+to 90%, aka the AI code developers approve and&nbsp;&nbsp;
+
+00:04:12.400 --> 00:04:18.560
+keep, but don’t consider the amount of revision&nbsp;
+engineers have to do in the following weeks.&nbsp;
+
+00:04:18.560 --> 00:04:24.240
+“Which drives the real-world acceptance rate&nbsp;
+down between 10% and 30% of generated code.”&nbsp;
+
+00:04:24.240 --> 00:04:29.040
+GitClear found in a report that AI tools&nbsp;
+did make developers more productive,&nbsp;&nbsp;
+
+00:04:29.040 --> 00:04:35.210
+but the amount of code churn they had to do was&nbsp;
+2.2x greater than their productivity increase.&nbsp;
+
+00:04:35.210 --> 00:04:42.320
+Faros AI found that, based on two years of&nbsp;
+customer data, code churn had increased by 861%.&nbsp;
+
+00:04:42.320 --> 00:04:48.880
+Another study of 2,444 companies found that&nbsp;
+for every dollar a company spends on AI tokens,&nbsp;&nbsp;
+
+00:04:48.880 --> 00:04:55.440
+$0.44 is used to fix bugs generated by AI,&nbsp;
+$0.27 to rewrite AI-produced code, and $0.11&nbsp;&nbsp;
+
+00:04:55.440 --> 00:05:00.160
+is consumed in review and merge delays.
+“In other words, behind every dollar&nbsp;&nbsp;
+
+00:05:00.160 --> 00:05:04.800
+of AI procurement cost lies&nbsp;
+nearly 80% in hidden losses.”&nbsp;
+
+00:05:04.800 --> 00:05:09.440
+People are calling this the “Tokenpocalypse”.
+Companies tied token consumption to&nbsp;&nbsp;
+
+00:05:09.440 --> 00:05:14.640
+productivity and output, but all&nbsp;
+that happened was way higher costs.&nbsp;
+
+00:05:14.640 --> 00:05:18.400
+They all fell into the same&nbsp;
+problem: Goodhart's Law.&nbsp;
+
+00:05:18.400 --> 00:05:23.280
+When a measure becomes a target,&nbsp;
+it ceases to be a good measure.
+
+00:05:23.280 --> 00:05:27.280
+Silicon Valley, collectively, just&nbsp;
+went through a very strange experiment.&nbsp;
+
+00:05:27.280 --> 00:05:31.360
+Goldman Sachs reported that companies&nbsp;
+are “overrunning their initial budgets&nbsp;&nbsp;
+
+00:05:31.360 --> 00:05:36.480
+for inference by orders of magnitude.”
+And what makes all this even stranger,&nbsp;&nbsp;
+
+00:05:36.480 --> 00:05:41.520
+is that token cost, has gone down.
+90% since 2023.&nbsp;
+
+00:05:41.520 --> 00:05:48.080
+By other metrics, they’ve dropped by 280x.
+But simultaneously AI spend is exploding,&nbsp;&nbsp;
+
+00:05:48.080 --> 00:05:53.600
+by an estimated 320%.
+Worldwide IT spending is expected to hit&nbsp;&nbsp;
+
+00:05:53.600 --> 00:06:02.000
+$6.31 trillion in 2026, up 13.5% year over year.
+More than the entire annual GDP of the UK.&nbsp;
+
+00:06:02.000 --> 00:06:06.000
+U.S. enterprises have become more&nbsp;
+cost-conscious in their AI spending,&nbsp;&nbsp;
+
+00:06:06.000 --> 00:06:11.760
+and this has caused another surprising&nbsp;
+phenomenon, more on that later.&nbsp;
+
+00:06:11.760 --> 00:06:17.120
+More importantly, why isn’t more token&nbsp;
+usage converting into better results?&nbsp;
+
+00:06:17.120 --> 00:06:30.080
+Why does it feel like AI&nbsp;
+is getting more expensive?
+
+00:06:30.080 --> 00:06:34.480
+Before we can answer this, what&nbsp;
+does “token” actually mean?&nbsp;
+
+00:06:34.480 --> 00:06:40.880
+LLMs like ChatGPT don’t understand language. They&nbsp;
+can’t read what you say, see an image you send,&nbsp;&nbsp;
+
+00:06:40.880 --> 00:06:44.480
+or hear the audio you speak.
+“The word darkness, for example,&nbsp;&nbsp;
+
+00:06:44.480 --> 00:06:49.440
+would be split into two tokens, “dark”&nbsp;
+and “ness,” with each token bearing a&nbsp;&nbsp;
+
+00:06:49.440 --> 00:06:55.920
+numerical representation, such as 217 and&nbsp;
+655. The model processes these input tokens,&nbsp;&nbsp;
+
+00:06:55.920 --> 00:07:00.640
+generates its response as tokens and then&nbsp;
+translates it to the user’s expected format.”&nbsp;
+
+00:07:00.640 --> 00:07:05.680
+According to NVIDIA: “The goal is to achieve&nbsp;
+the fastest processing time and lowest cost per&nbsp;&nbsp;
+
+00:07:05.680 --> 00:07:09.920
+token to optimize AI infrastructure&nbsp;
+and maximize revenue generation”.&nbsp;
+
+00:07:09.920 --> 00:07:15.680
+Keep that in mind, because something that’s&nbsp;
+happening now, makes that claim rather ironic.&nbsp;
+
+00:07:15.680 --> 00:07:20.960
+And as a disclaimer I’m not&nbsp;
+an AI expert, not even close.
+
+00:07:20.960 --> 00:07:23.760
+But what I am extremely interested in is the&nbsp;&nbsp;
+
+00:07:23.760 --> 00:07:28.240
+business side, and why many businesses&nbsp;
+have done a 180 on their token spend.
+
+00:07:28.240 --> 00:07:32.240
+There are a few factors to this.&nbsp;
+The first is that tokens consumed&nbsp;&nbsp;
+
+00:07:32.240 --> 00:07:37.280
+don’t scale linearly with productive output.
+A study by Jellyfish found that larger token&nbsp;&nbsp;
+
+00:07:37.280 --> 00:07:42.800
+budgets did result in more pull requests,&nbsp;
+aka, proposed changes to a shared codebase,&nbsp;&nbsp;
+
+00:07:42.800 --> 00:07:47.680
+but ten times the tokens,&nbsp;
+produced about 2 times the output.
+
+00:07:47.680 --> 00:07:52.800
+“Tokens, in this sense, behave less like&nbsp;
+a linear input and more like rocket fuel.&nbsp;&nbsp;
+
+00:07:52.800 --> 00:07:58.400
+Going faster is possible, but it requires&nbsp;
+exponentially more resources to do so.”&nbsp;
+
+00:07:58.400 --> 00:08:01.760
+Another problem, one that’s&nbsp;
+perhaps most surprising,&nbsp;&nbsp;
+
+00:08:01.760 --> 00:08:06.400
+comes from the more advanced reasoning models.
+Remember what NVIDIA said about “fastest&nbsp;&nbsp;
+
+00:08:06.400 --> 00:08:10.400
+processing time”? Well, that’s&nbsp;
+where we run into a problem.&nbsp;
+
+00:08:10.400 --> 00:08:15.680
+Claude Opus, GPT o3, the ones that can&nbsp;
+tackle harder problems, spend minutes&nbsp;&nbsp;
+
+00:08:15.680 --> 00:08:20.960
+or even hours thinking to solve a problem.
+“Reasoning AI models, the latest advancement in&nbsp;&nbsp;
+
+00:08:20.960 --> 00:08:26.960
+LLMs, can tackle more complex queries by treating&nbsp;
+tokens differently than before. Here, in addition&nbsp;&nbsp;
+
+00:08:26.960 --> 00:08:32.880
+to input and output tokens, the model generates&nbsp;
+a host of reasoning tokens over minutes or hours&nbsp;&nbsp;
+
+00:08:32.880 --> 00:08:39.280
+as it thinks about how to solve a given problem.”
+The power of these things, is pretty unbelievable.
+
+00:08:39.280 --> 00:08:43.440
+So powerful, that the US Government has&nbsp;
+issued an export control on Claude Fable,&nbsp;&nbsp;
+
+00:08:43.440 --> 00:08:47.360
+due to national security risks.
+But, the more powerful models have&nbsp;&nbsp;
+
+00:08:47.360 --> 00:08:51.760
+caused an… interesting problem to occur.
+If you ask your friend “What’s 1+1”,&nbsp;&nbsp;
+
+00:08:52.640 --> 00:08:56.800
+they’ll probably say “2” straight away.
+But, imagine if they stopped,&nbsp;&nbsp;
+
+00:08:56.800 --> 00:09:01.200
+and really deeply thought about it&nbsp;
+for 30 seconds, and then said “2”.&nbsp;
+
+00:09:01.200 --> 00:09:05.680
+You’d think “You already know the answer,&nbsp;
+why’d you think so hard about it”.&nbsp;
+
+00:09:05.680 --> 00:09:10.240
+That’s basically what’s happening.
+AI right now has a bit of a reasoning&nbsp;&nbsp;
+
+00:09:10.240 --> 00:09:16.480
+problem. Or, rather, an inefficiency problem.
+If you ask some, not all, but some of the&nbsp;&nbsp;
+
+00:09:16.480 --> 00:09:20.240
+state-of-the-art reasoning LLMs&nbsp;
+this question, they will stop,&nbsp;&nbsp;
+
+00:09:20.240 --> 00:09:25.040
+break down the question, deliberate over&nbsp;
+it, and may even take 10 or 20 seconds.&nbsp;
+
+00:09:25.040 --> 00:09:29.360
+They can break tasks into smaller&nbsp;
+subtasks of a larger problem. Greater&nbsp;&nbsp;
+
+00:09:29.360 --> 00:09:34.960
+potential output, but more tokens consumed.
+What’s weird, is the “lighter” AI models,&nbsp;&nbsp;
+
+00:09:34.960 --> 00:09:40.160
+can do this immediately, not that they inherently&nbsp;
+do math, but based on training and probability,&nbsp;&nbsp;
+
+00:09:40.160 --> 00:09:43.200
+the right response to your query is “2”.
+[Firat Elbey, Principal Product Manager]:“Every&nbsp;&nbsp;
+
+00:09:43.200 --> 00:09:48.480
+unnecessary reasoning cycle increases latency,&nbsp;
+compounds infrastructure costs, and consumes&nbsp;&nbsp;
+
+00:09:48.480 --> 00:09:54.880
+energy. Recent analyses suggest that unnecessary&nbsp;
+prompt verbosity alone costs tens of millions of&nbsp;&nbsp;
+
+00:09:54.880 --> 00:09:59.680
+dollars in excess computation annually”.
+So even though all those engineers get&nbsp;&nbsp;
+
+00:09:59.680 --> 00:10:05.120
+encouraged to use more AI, if the way they’re&nbsp;
+used isn’t extremely specific and intentional&nbsp;&nbsp;
+
+00:10:05.120 --> 00:10:10.480
+to the task, it can be totally off.
+Complex task to a low-level model?&nbsp;&nbsp;
+
+00:10:10.480 --> 00:10:15.360
+More problems, inadequate results.
+Easy task to a high-level model? Longer&nbsp;&nbsp;
+
+00:10:15.360 --> 00:10:19.280
+task duration, overconsumption&nbsp;
+of tokens, inefficient results.&nbsp;
+
+00:10:19.280 --> 00:10:21.360
+[Firat Elbey, Principal Product Manager]:&nbsp;
+”While these are powerful tools,&nbsp;&nbsp;
+
+00:10:21.360 --> 00:10:26.720
+they're often deployed indiscriminately across&nbsp;
+a wide variety of tasks, including countless&nbsp;&nbsp;
+
+00:10:26.720 --> 00:10:33.120
+queries that likely require no reasoning at all&nbsp;
+— and this inefficiency has real consequences.”&nbsp;
+
+00:10:33.120 --> 00:10:37.760
+All of this compounds even more,&nbsp;
+when we look at Agentic AI.
+
+00:10:37.760 --> 00:10:42.400
+This is when you give an AI model a goal,&nbsp;
+and a collection of tools. Running code,&nbsp;&nbsp;
+
+00:10:42.400 --> 00:10:47.200
+searching the web, writing files,&nbsp;
+calling APIs, and it runs autonomously.&nbsp;
+
+00:10:47.200 --> 00:10:50.000
+But, while chatting is a single call and response,&nbsp;&nbsp;
+
+00:10:50.000 --> 00:10:53.600
+an agent goes in a loop&nbsp;
+until it deems the task done.
+
+00:10:53.600 --> 00:10:57.920
+Look at the result, think again,&nbsp;
+do the next thing, repeat. Lots&nbsp;&nbsp;
+
+00:10:57.920 --> 00:11:03.680
+of small steps, lots of tokens used.
+But, this gets more expensive because&nbsp;&nbsp;
+
+00:11:03.680 --> 00:11:08.480
+every time it loops back to “think”,&nbsp;
+it re-reads all the context so far.&nbsp;
+
+00:11:08.480 --> 00:11:13.680
+This is the Agentic Loop Multiplier, and&nbsp;
+it’s what’s driving up a lot of cost.&nbsp;
+
+00:11:13.680 --> 00:11:19.920
+Goldman Sachs forecasts agentic AI could drive&nbsp;
+a 24-fold increase in token consumption by 2030,&nbsp;&nbsp;
+
+00:11:19.920 --> 00:11:25.840
+reaching 120 quadrillion tokens per month.
+With this in mind, you can see how easy it would&nbsp;&nbsp;
+
+00:11:25.840 --> 00:11:31.040
+be for employees to waste tokens on… nothing.
+Especially when they’re given a blanket rule&nbsp;&nbsp;
+
+00:11:31.040 --> 00:11:35.600
+to “spend more tokens!”
+Again: Goodhart's Law.
+
+00:11:35.600 --> 00:11:41.360
+More tokens, doesn’t always mean better results.
+But, something doesn’t quite add up.&nbsp;
+
+00:11:41.360 --> 00:11:46.400
+We still come back to the question: Why&nbsp;
+did cheaper tokens cause a spike in cost?&nbsp;
+
+00:11:46.400 --> 00:11:51.600
+Well, this isn’t actually anything new.
+Not only that, have you noticed how almost&nbsp;&nbsp;
+
+00:11:51.600 --> 00:11:54.880
+all AI companies have recently&nbsp;
+changed their business model?&nbsp;
+
+00:11:54.880 --> 00:12:08.320
+We might be moving into a totally&nbsp;
+new stage in the AI lifecycle.
+
+00:12:08.320 --> 00:12:10.080
+If you haven’t subscribed yet,&nbsp;&nbsp;
+
+00:12:10.080 --> 00:12:16.560
+consider subscribing. We’re on the road to&nbsp;
+1 million and are over 90% there! Thank you.&nbsp;
+
+00:12:16.560 --> 00:12:20.400
+Ironically, cheaper tokens,&nbsp;
+are what drove more cost.&nbsp;
+
+00:12:20.400 --> 00:12:24.960
+As cost of production decreases,&nbsp;
+demand and consumption often increase.
+
+00:12:24.960 --> 00:12:27.360
+The Jevons paradox.
+The more efficient&nbsp;&nbsp;
+
+00:12:27.360 --> 00:12:30.480
+you make a resource the greater the demand for it.&nbsp;
+
+00:12:30.480 --> 00:12:34.560
+This gives us crucial context for&nbsp;
+a major change in the world of AI.
+
+00:12:34.560 --> 00:12:39.360
+Have you noticed that many of these platforms have&nbsp;
+changed from subscriptions to token use pricing?&nbsp;
+
+00:12:39.360 --> 00:12:43.200
+There’s still subscriptions, of course,&nbsp;
+but these just give you an allocation&nbsp;&nbsp;
+
+00:12:43.200 --> 00:12:47.280
+of tokens, which you can use daily.
+The high spending engineers and companies,&nbsp;&nbsp;
+
+00:12:47.280 --> 00:12:51.360
+will likely be setting token budgets,&nbsp;
+rather than a fixed subscription rate.&nbsp;
+
+00:12:51.360 --> 00:12:57.120
+We’re experiencing what I think is a major market&nbsp;
+transition we’ve seen in all kinds of industries.&nbsp;
+
+00:12:57.120 --> 00:13:00.080
+Streaming services appear,&nbsp;
+charging a low subscription,&nbsp;&nbsp;
+
+00:13:00.080 --> 00:13:04.880
+gaining market adoption, then raising&nbsp;
+prices and introducing new revenue streams.&nbsp;
+
+00:13:04.880 --> 00:13:08.720
+Delivery apps did the same thing,&nbsp;
+losing money to get market penetration,&nbsp;&nbsp;
+
+00:13:08.720 --> 00:13:14.400
+then changing to focus on profit.
+AI is doing the same thing, except changing&nbsp;&nbsp;
+
+00:13:14.400 --> 00:13:20.320
+the model to charge based on token use.
+Since spring 2025, every major AI agent&nbsp;&nbsp;
+
+00:13:20.320 --> 00:13:25.920
+company — Cursor, Vercel's V0, Replit,&nbsp;
+Lovable — almost simultaneously moved to&nbsp;&nbsp;
+
+00:13:25.920 --> 00:13:31.732
+token-based billing, shrank or eliminated free&nbsp;
+tiers, and pushed overage charges onto users.&nbsp;
+
+00:13:31.732 --> 00:13:36.320
+[Christian Klein, CEO, SAP] "It would be foolish&nbsp;
+to still charge a subscription base, because AI is&nbsp;&nbsp;
+
+00:13:36.320 --> 00:13:42.320
+so powerful that it will automate a lot of tasks”.
+It’s not just AI models either.&nbsp;
+
+00:13:42.320 --> 00:13:48.400
+Just a few years ago, most software as a service&nbsp;
+companies used to use seat-based pricing.&nbsp;
+
+00:13:48.400 --> 00:13:53.680
+But with AI agents, that’s largely disappearing.
+Hence why so many are overhauling&nbsp;&nbsp;
+
+00:13:53.680 --> 00:13:58.080
+their entire business model.
+We’re at a tipping point with AI right now.&nbsp;
+
+00:13:58.080 --> 00:14:02.240
+When reviewing spending data from&nbsp;
+over 50,000 US companies, Ramp,&nbsp;&nbsp;
+
+00:14:02.240 --> 00:14:07.680
+a U.S. corporate spending management platform,&nbsp;
+found DeepSeek, the Chinese AI, is rising fast.&nbsp;
+
+00:14:07.680 --> 00:14:12.000
+“Past regulars on this list have been&nbsp;
+Silicon Valley favorites like Figma and&nbsp;&nbsp;
+
+00:14:12.000 --> 00:14:17.040
+Fireworks AI—this is the first time a&nbsp;
+Chinese model company has topped it.”&nbsp;
+
+00:14:17.040 --> 00:14:23.600
+DeepSeek’s V4-Pro model will cost $3.48 for&nbsp;
+1 million tokens of output; by comparison,&nbsp;&nbsp;
+
+00:14:23.600 --> 00:14:28.880
+OpenAI and Anthropic charge $30 and $25&nbsp;
+respectively for the same amount of work.&nbsp;
+
+00:14:28.880 --> 00:14:32.880
+Another Chinese AI Kimi&nbsp;
+cost $4 per million tokens.&nbsp;
+
+00:14:32.880 --> 00:14:37.040
+Note that this is just price,&nbsp;
+not quality of model output.&nbsp;
+
+00:14:37.040 --> 00:14:40.640
+But not only are token prices&nbsp;
+from Chinese AI cheaper, but their&nbsp;&nbsp;
+
+00:14:40.640 --> 00:14:46.720
+models are surpassing US ones in downloads.
+Does this mean total use? I don’t think so.&nbsp;
+
+00:14:46.720 --> 00:14:53.120
+Anthropic and OpenAI are still leading&nbsp;
+corporate adoption at 34.4% and 32.3%,&nbsp;&nbsp;
+
+00:14:53.120 --> 00:14:57.280
+but DeepSeek is securing a place&nbsp;
+as the cost-effective alternative.&nbsp;
+
+00:14:57.280 --> 00:15:02.640
+I do think we’re moving from one stage of&nbsp;
+AI to another, even if it takes a while.&nbsp;
+
+00:15:02.640 --> 00:15:07.600
+Companies are becoming more critical of their&nbsp;
+AI spend, and how it translates into output.&nbsp;
+
+00:15:07.600 --> 00:15:12.960
+In a lot of cases, it’s just the&nbsp;
+same results, but with more cost.&nbsp;
+
+00:15:12.960 --> 00:15:15.760
+Once again, humans are underrated.
+[Firat Elbey, Principal Product Manager]:&nbsp;&nbsp;
+
+00:15:15.760 --> 00:15:18.640
+“Efficient AI can learn from&nbsp;
+human cognition's adaptive&nbsp;&nbsp;
+
+00:15:18.640 --> 00:15:22.240
+resource allocation — knowing&nbsp;
+when to engage deep processing,&nbsp;&nbsp;
+
+00:15:22.240 --> 00:15:25.520
+not just how to process deeply.”
+[Whizy Kim, Techbrew]: “unlike AI,&nbsp;&nbsp;
+
+00:15:25.520 --> 00:15:30.080
+human workers can actually be held&nbsp;
+accountable for their mistakes”&nbsp;
+
+00:15:30.080 --> 00:15:35.040
+What I find particularly funny, is actually&nbsp;
+Microsoft, pivoting back to Copilot.&nbsp;
+
+00:15:35.040 --> 00:15:38.640
+They’ve had nothing but problems with&nbsp;
+this thing, and managed to annoy seemingly&nbsp;&nbsp;
+
+00:15:38.640 --> 00:15:51.040
+all 365 customers… and Windows users.
+Click here to learn the rest of the story.
+

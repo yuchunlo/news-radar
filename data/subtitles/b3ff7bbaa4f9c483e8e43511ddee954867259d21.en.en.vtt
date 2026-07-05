@@ -1,0 +1,758 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.240 --> 00:00:03.760
+Slack was the king.
+Explosive growth,&nbsp;&nbsp;
+
+00:00:03.760 --> 00:00:08.880
+over a billion in funding, a billion&nbsp;
+dollar valuation in 8 months.
+
+00:00:08.880 --> 00:00:12.960
+But most of all, users loved it.
+Slack practically invented&nbsp;&nbsp;
+
+00:00:12.960 --> 00:00:17.920
+messaging for businesses.
+But now, it’s being replaced.&nbsp;
+
+00:00:17.920 --> 00:00:23.280
+Things were going too well, so&nbsp;
+along came Microsoft to the rescue.&nbsp;
+
+00:00:23.280 --> 00:00:28.000
+Now, Slack is fighting for its life.
+How did Slack lose, while in most ways,&nbsp;&nbsp;
+
+00:00:28.000 --> 00:00:43.760
+it was better than Microsoft Teams?
+And… will Slack survive?
+
+00:00:43.760 --> 00:00:48.880
+One of the strangest parts of this story&nbsp;
+is that Slack was sort of an accident.&nbsp;
+
+00:00:48.880 --> 00:00:52.560
+It was an internal tool at&nbsp;
+a game studio: Tiny Speck.&nbsp;
+
+00:00:52.560 --> 00:00:57.200
+When their game failed in 2012, co-founder&nbsp;
+Stewart Butterfield had an idea.&nbsp;
+
+00:00:57.200 --> 00:01:01.920
+The messaging tool was really good.
+It was clear to Butterfield that Slack,&nbsp;&nbsp;
+
+00:01:01.920 --> 00:01:09.120
+as it was now called, was solving a problem,&nbsp;
+and oh boy, was this massive problem.
+
+00:01:09.120 --> 00:01:15.200
+I want you to imagine a world 15 years ago.
+There's no Teams, Slack, Discord, or any group&nbsp;&nbsp;
+
+00:01:15.200 --> 00:01:21.680
+messaging apps. All businesses were just using&nbsp;
+email. And the only alternative was meetings.&nbsp;
+
+00:01:21.680 --> 00:01:26.960
+For one-on-one conversations, yeah, not&nbsp;
+bad, but as soon as you need two, three,&nbsp;&nbsp;
+
+00:01:26.960 --> 00:01:32.240
+or more people, it was a nightmare.
+Forwarding, CCing, BCCing people,&nbsp;&nbsp;
+
+00:01:32.240 --> 00:01:38.400
+just scrolling up the conversation… Collaborating&nbsp;
+was… and still is a nightmare inside email.&nbsp;
+
+00:01:38.400 --> 00:01:43.760
+There was a huge opportunity, which brings us&nbsp;
+back to Tiny Speck, now Slack Technologies,&nbsp;&nbsp;
+
+00:01:43.760 --> 00:01:47.280
+who made their new platform public in August 2013.
+
+00:02:02.160 --> 00:02:07.920
+There was a certain vibe to Slack.
+It felt like the new, cool, upstart tech product.&nbsp;
+
+00:02:07.920 --> 00:02:13.360
+Startups, small and medium businesses,&nbsp;
+loved Slack. Especially in Silicon Valley.&nbsp;
+
+00:02:13.360 --> 00:02:19.440
+A slick UX, custom emojis, great and robust file&nbsp;
+sharing, searchable chats, quick communication,&nbsp;&nbsp;
+
+00:02:19.440 --> 00:02:26.160
+threaded conversations, channels — it had it all.
+Slack began exploding, but not in the way&nbsp;&nbsp;
+
+00:02:26.160 --> 00:02:29.200
+you might expect.
+This software was&nbsp;&nbsp;
+
+00:02:29.200 --> 00:02:34.560
+really good. Everyone in tech was saying&nbsp;
+the same thing: "You have to use Slack".&nbsp;
+
+00:02:34.560 --> 00:02:38.320
+Slack didn't have an outbound&nbsp;
+sales team until 2016.&nbsp;
+
+00:02:38.320 --> 00:02:42.560
+It was growing by word of mouth.
+"We begged and cajoled our friends at other&nbsp;&nbsp;
+
+00:02:42.560 --> 00:02:47.840
+companies to try it out and give us feedback."
+On day one, they had 8,000 users,&nbsp;&nbsp;
+
+00:02:47.840 --> 00:02:53.040
+then 15,000 two weeks later.
+Slack was growing fast.&nbsp;
+
+00:02:53.040 --> 00:02:58.960
+They reached a $1.1 billion valuation in 8 months.
+It was the "fastest-growing business app&nbsp;&nbsp;
+
+00:02:58.960 --> 00:03:05.600
+ever" — at least, according to Slack.
+And before they even had a CMO.&nbsp;
+
+00:03:05.600 --> 00:03:10.800
+Yet, even when they did have sales staff,&nbsp;
+their technique was, honestly, pretty great.&nbsp;
+
+00:03:10.800 --> 00:03:17.760
+They pitched Slack not to a top executive like&nbsp;
+a CTO or CIO, but to a regular team manager.&nbsp;
+
+00:03:17.760 --> 00:03:23.040
+"For small organizations, team and company&nbsp;
+may be one and the same. But if you look at&nbsp;&nbsp;
+
+00:03:23.040 --> 00:03:29.440
+an organization of 15,000 people, you end up&nbsp;
+with a situation like Adobe, with nine paid&nbsp;&nbsp;
+
+00:03:29.440 --> 00:03:35.920
+Slack teams. Mid-level managers could say, 'This&nbsp;
+thing sounds cool, let's try it out for our team.'&nbsp;&nbsp;
+
+00:03:35.920 --> 00:03:40.240
+If they liked it, it was affordable enough to&nbsp;
+just expense it." (Stewart Butterfield, 2015).&nbsp;
+
+00:03:40.240 --> 00:03:44.160
+That's great. Building for the end&nbsp;
+user first. Yet, unfortunately,&nbsp;&nbsp;
+
+00:03:44.160 --> 00:03:51.040
+this would come back to bite Slack down the line.
+Nonetheless, for now, Slack was unstoppable.&nbsp;
+
+00:03:51.040 --> 00:03:56.640
+In February 2014, it had 15,000 daily&nbsp;
+users. The same time the following year,&nbsp;&nbsp;
+
+00:03:56.640 --> 00:04:03.840
+that was over 500,000, with 135,000 paid users.
+They crossed 2 million by the end of the year,&nbsp;&nbsp;
+
+00:04:03.840 --> 00:04:07.680
+then 4 million in October&nbsp;
+2016, less than a year later.&nbsp;
+
+00:04:07.680 --> 00:04:14.240
+By January 2019, Slack had passed 10 million&nbsp;
+daily users, with $400 million in revenue.&nbsp;
+
+00:04:14.240 --> 00:04:18.720
+The same goes for funding too.
+$42 million in 2014, then $110&nbsp;&nbsp;
+
+00:04:18.720 --> 00:04:22.240
+million later that year.
+$172 million in 2015,&nbsp;&nbsp;
+
+00:04:22.240 --> 00:04:29.200
+$208 million in 2016, $412 million in&nbsp;
+2017, then another $427 million in 2018!&nbsp;
+
+00:04:29.200 --> 00:04:33.360
+They were gearing up for an IPO too.
+Everything was going great…&nbsp;&nbsp;
+
+00:04:33.360 --> 00:04:38.480
+at least, on the outside.
+Behind the scenes, a huge battle was taking place.&nbsp;
+
+00:04:38.480 --> 00:04:48.240
+And as many stories go, it got&nbsp;
+worse when Microsoft stepped in.
+
+00:04:53.840 --> 00:04:58.800
+One of the biggest problems facing those&nbsp;
+in software is actually something called&nbsp;&nbsp;
+
+00:04:58.800 --> 00:05:04.560
+"legacy tech debt". You know, those walls of&nbsp;
+code built years ago by a senior developer,&nbsp;&nbsp;
+
+00:05:04.560 --> 00:05:10.800
+who's gone now. Documentation is hazy, and&nbsp;
+there are comments that say "don't touch this,&nbsp;&nbsp;
+
+00:05:10.800 --> 00:05:16.880
+it breaks everything, we don't know&nbsp;
+why". Now, no one knows how it works.
+
+00:05:16.880 --> 00:05:20.720
+People have tried to modernize it,&nbsp;
+with ChatGPT or CoPilot, and… nothing's&nbsp;&nbsp;
+
+00:05:20.720 --> 00:05:26.560
+worked. So you just… keep using the build&nbsp;
+that's held together by duct tape. That's&nbsp;&nbsp;
+
+00:05:26.560 --> 00:05:33.600
+because you need a tool tailor-made for this&nbsp;
+problem. Luckily, there's a solution: Morph.
+
+00:05:33.600 --> 00:05:39.360
+Morph is the world's leading Generative AI&nbsp;
+platform built specifically to modernize legacy&nbsp;&nbsp;
+
+00:05:39.360 --> 00:05:46.080
+codebases. Turn that ancient spaghetti code into&nbsp;
+something modern, efficient, and maintainable.&nbsp;
+
+00:05:46.080 --> 00:05:52.880
+But Morph isn't just another AI tool. It's built&nbsp;
+from the ground up to fix this particular problem.&nbsp;
+
+00:05:52.880 --> 00:05:57.200
+Morph analyzes, maps, plans, executes, tests,&nbsp;&nbsp;
+
+00:05:57.200 --> 00:06:02.080
+and lets you approve every step&nbsp;
+before anything hits production.
+
+00:06:02.080 --> 00:06:07.280
+Whether it's moving from .NET 4.5 to&nbsp;
+.NET 10, LAMP stack to Python, Web&nbsp;&nbsp;
+
+00:06:07.280 --> 00:06:10.160
+Forms to React, Morph handles it.
+
+00:06:10.160 --> 00:06:14.800
+It's already used by enterprise and&nbsp;
+industrial customers, and is SOC 2 and&nbsp;&nbsp;
+
+00:06:14.800 --> 00:06:21.200
+ISO 27001 compliant. It’s even used by the&nbsp;
+world’s most trusted defense contractors.&nbsp;
+
+00:06:21.200 --> 00:06:24.240
+Morph customers have reported&nbsp;
+timelines shrinking from years&nbsp;&nbsp;
+
+00:06:24.240 --> 00:06:28.240
+to just a matter of months, weeks, or even less.&nbsp;
+
+00:06:28.240 --> 00:06:33.520
+Engineers spend a ton of time just refactoring&nbsp;
+someone else's mess from a decade ago,&nbsp;&nbsp;
+
+00:06:33.520 --> 00:06:38.800
+instead of actually shipping something&nbsp;
+new. With Morph, you can do just that.
+
+00:06:38.800 --> 00:06:45.840
+Morph is offering a free trial and a 50% discount&nbsp;
+on your first year. This is a limited-time offer,&nbsp;&nbsp;
+
+00:06:45.840 --> 00:06:53.360
+which expires on the 30th of April. Go to&nbsp;
+modelcode.ai/MORPH — that's M-O-R-P-H — and&nbsp;&nbsp;
+
+00:06:53.360 --> 00:06:59.360
+use my code LOGICALLYANSWERED to get&nbsp;
+50% off your first year. That's almost&nbsp;&nbsp;
+
+00:06:59.360 --> 00:07:05.760
+$5,000 in savings. This is a limited-time&nbsp;
+offer exclusive to my channel — link is&nbsp;&nbsp;
+
+00:07:05.760 --> 00:07:09.840
+in the description. Thank you to&nbsp;
+Morph for sponsoring this video.
+
+00:07:09.840 --> 00:07:14.960
+Let's go back to 2016. Slack was&nbsp;
+exploding, and Microsoft wanted in.&nbsp;
+
+00:07:14.960 --> 00:07:19.760
+In March 2016, Microsoft considered&nbsp;
+buying Slack for $8 billion.&nbsp;
+
+00:07:19.760 --> 00:07:24.320
+But they didn’t. Why?
+Bill Gates.&nbsp;
+
+00:07:24.320 --> 00:07:26.880
+He believed Microsoft didn't need Slack.&nbsp;
+
+00:07:26.880 --> 00:07:32.480
+Rather, he argued Microsoft should just&nbsp;
+build a competitor… on top of… Skype.&nbsp;
+
+00:07:32.480 --> 00:07:38.160
+A twist, I know. Skype? Really?
+But here's some important context.
+
+00:07:38.160 --> 00:07:44.480
+Microsoft had just spent $8.5 billion&nbsp;
+on Skype, and it wasn't going too well.&nbsp;
+
+00:07:44.480 --> 00:07:49.280
+This app wasn't really making any money.
+They tried to make the platform a business&nbsp;&nbsp;
+
+00:07:49.280 --> 00:07:53.840
+platform, as well as a personal one.
+It wasn't working.&nbsp;
+
+00:07:53.840 --> 00:07:59.600
+But they had the template right in front of them.
+Why not make Skype the new Slack?&nbsp;
+
+00:07:59.600 --> 00:08:04.800
+Skype Teams, as it was called, already&nbsp;
+had different channels, aka chat rooms.&nbsp;
+
+00:08:04.800 --> 00:08:09.440
+It was just lacking a few special bits&nbsp;
+from Slack, like threaded conversations.&nbsp;
+
+00:08:09.440 --> 00:08:14.640
+It would soon join the Office 365 suite as part&nbsp;
+of the monthly subscription for businesses.&nbsp;
+
+00:08:14.640 --> 00:08:20.560
+But things didn't go as planned.
+Skype was… well… not very good.&nbsp;
+
+00:08:20.560 --> 00:08:26.400
+It was an old app already, its brand was messy,&nbsp;
+and users were having all kinds of problems.&nbsp;
+
+00:08:26.400 --> 00:08:32.160
+So Microsoft went back to the drawing&nbsp;
+board. Cut Skype, build from the ground up:&nbsp;
+
+00:08:32.160 --> 00:08:36.160
+Teams.
+Skype Teams, just without Skype.&nbsp;
+
+00:08:36.160 --> 00:08:41.120
+And this app was a huge blow to Slack.
+Because Teams was actually a very&nbsp;&nbsp;
+
+00:08:41.120 --> 00:08:44.000
+well-built product.
+Slack was better in a&nbsp;&nbsp;
+
+00:08:44.000 --> 00:08:49.760
+lot of ways. It had way more app integrations,
+had a better developer experience, a nicer UX,&nbsp;&nbsp;
+
+00:08:49.760 --> 00:08:54.720
+but Teams was better in ways that mattered more.
+It was almost as good as Slack,&nbsp;&nbsp;
+
+00:08:54.720 --> 00:08:58.880
+and it also did something better.
+Small to medium companies loved it,&nbsp;&nbsp;
+
+00:08:58.880 --> 00:09:05.760
+especially in Silicon Valley, but the big players&nbsp;
+— aka the ones with deep pockets — not so much.&nbsp;
+
+00:09:05.760 --> 00:09:10.400
+Giants like Uber, even after using&nbsp;
+Slack, eventually ditched it.&nbsp;
+
+00:09:10.400 --> 00:09:14.240
+Teams was in the perfect spot.
+It had voice, but also&nbsp;&nbsp;
+
+00:09:14.240 --> 00:09:18.640
+video — aka video conferencing — plus&nbsp;
+dial-in calling, and PSTN integration.&nbsp;
+
+00:09:18.640 --> 00:09:24.400
+This was definitely a weak spot of Slack's. Many&nbsp;
+companies using Slack would also use Google Meet&nbsp;&nbsp;
+
+00:09:24.400 --> 00:09:27.760
+or other software.
+But there was more.&nbsp;
+
+00:09:27.760 --> 00:09:33.280
+Uber ditched Slack, not due to features,&nbsp;
+but for another reason: security.&nbsp;
+
+00:09:33.280 --> 00:09:39.280
+Slack had done an SOC 2 audit, but didn't&nbsp;
+have compliance for PCI-DSS or HIPAA.&nbsp;
+
+00:09:39.280 --> 00:09:41.950
+Microsoft did, and more. (Show on screen in a list&nbsp;
+side by side: Microsoft: SOC I and 2, ISO 27001,&nbsp;&nbsp;
+
+00:09:41.950 --> 00:09:44.960
+HIPAA, EU Model Clauses. Slack: SOC 2, ISO 27001).
+Teams was more secure, and for big corporations,&nbsp;&nbsp;
+
+00:09:44.960 --> 00:09:52.160
+this was very important. For some, like a&nbsp;
+hospital or bank, this is just a hard requirement.&nbsp;
+
+00:09:52.160 --> 00:09:56.480
+But Microsoft wasn't just coming for&nbsp;
+enterprise. It was coming for everything.&nbsp;
+
+00:09:56.480 --> 00:10:00.000
+Slack was a better sell to end&nbsp;
+users and middle management,&nbsp;&nbsp;
+
+00:10:00.000 --> 00:10:04.160
+but Teams was a better sell to&nbsp;
+heads of IT and heads of companies.
+
+00:10:04.160 --> 00:10:09.600
+Teams didn't need to be a better app. Because&nbsp;
+Microsoft didn't build it for the end user.&nbsp;
+
+00:10:09.600 --> 00:10:15.840
+The biggest difference, by far, was that&nbsp;
+Teams was included in 365. That's it.&nbsp;
+
+00:10:15.840 --> 00:10:20.160
+Teams was force-installed for&nbsp;
+every Office 365 subscriber.&nbsp;
+
+00:10:20.160 --> 00:10:25.680
+Millions of enterprise users, overnight.
+And very quickly, managers everywhere did&nbsp;&nbsp;
+
+00:10:25.680 --> 00:10:32.080
+the math: We already have Teams in&nbsp;
+365… why are we paying for Slack?&nbsp;
+
+00:10:32.080 --> 00:10:48.320
+But this isn't the end of the story.
+Slack wasn't about to roll over on this.
+
+00:10:48.320 --> 00:10:52.800
+Like Slack, we’re still trying to&nbsp;
+grow. So if you could subscribe,&nbsp;&nbsp;
+
+00:10:52.800 --> 00:10:58.080
+it’d mean a lot! We’re almost at 1&nbsp;
+million, and we need your help. Thanks.
+
+00:10:59.360 --> 00:11:06.080
+On November 2nd, 2016, readers saw an&nbsp;
+entire, full-page ad titled "Dear Microsoft."
+
+00:11:06.080 --> 00:11:10.400
+It was a long, extensive list of&nbsp;
+"advice" to Microsoft on how to make a&nbsp;&nbsp;
+
+00:11:10.400 --> 00:11:17.840
+good product — aka, why Slack was so good.
+"One final point: Slack is here to stay.&nbsp;&nbsp;
+
+00:11:17.840 --> 00:11:23.280
+We are where work happens for millions of people&nbsp;
+around the world. We're glad you're going to be&nbsp;&nbsp;
+
+00:11:23.280 --> 00:11:28.240
+helping us define this new product category. We&nbsp;
+admire many of your achievements and know you'll&nbsp;&nbsp;
+
+00:11:28.240 --> 00:11:30.960
+be a worthy competitor."
+Slack also published&nbsp;&nbsp;
+
+00:11:30.960 --> 00:11:35.200
+the same letter on their website.
+Slack was ready for a fight. But they&nbsp;&nbsp;
+
+00:11:35.200 --> 00:11:38.000
+were certainly a bit rattled.
+And for good reason.&nbsp;
+
+00:11:38.000 --> 00:11:43.120
+Teams added 31 million daily users in&nbsp;
+a single month in 2020. For context,&nbsp;&nbsp;
+
+00:11:43.120 --> 00:11:47.120
+Slack had 12 million total.
+There was a great exodus.&nbsp;
+
+00:11:47.120 --> 00:11:52.560
+Thousands of companies were leaving the colorful&nbsp;
+UI for that bleak, corporate, purple knock-off.&nbsp;
+
+00:11:52.560 --> 00:11:56.000
+Unfortunately, their opponent&nbsp;
+had broken the rules.&nbsp;
+
+00:11:56.000 --> 00:12:01.200
+Instead of competing for customers by having the&nbsp;
+best product — aka, the free market — Microsoft&nbsp;&nbsp;
+
+00:12:01.200 --> 00:12:05.360
+just bundled Teams with something hundreds&nbsp;
+of millions were already paying for.&nbsp;
+
+00:12:05.360 --> 00:12:10.560
+Microsoft didn't "win people over" from&nbsp;
+Slack. They were trying to kill Slack.&nbsp;
+
+00:12:10.560 --> 00:12:16.800
+So, Slack went to war.
+[Slack Complaint, 2020]:&nbsp;
+
+00:12:37.920 --> 00:12:43.760
+"Microsoft is reverting to past behavior. They&nbsp;
+created a weak, copycat product and tied it to&nbsp;&nbsp;
+
+00:12:43.760 --> 00:12:49.680
+their dominant Office product, force installing it&nbsp;
+and blocking its removal — a carbon copy of their&nbsp;&nbsp;
+
+00:12:49.680 --> 00:12:54.880
+illegal behavior during the 'browser wars.'"
+"Slack simply wants fair competition and a&nbsp;&nbsp;
+
+00:12:54.880 --> 00:12:59.200
+level playing field. Healthy competition&nbsp;
+drives innovation and creates the best&nbsp;&nbsp;
+
+00:12:59.200 --> 00:13:04.960
+products and the most choice for customers.&nbsp;
+We're asking the EU to be a neutral referee,&nbsp;&nbsp;
+
+00:13:04.960 --> 00:13:10.960
+examine the facts, and enforce the law."
+Butterfield also said "Microsoft is perhaps&nbsp;&nbsp;
+
+00:13:10.960 --> 00:13:16.400
+unhealthily preoccupied with killing us,&nbsp;
+and Teams is the vehicle to do that."&nbsp;
+
+00:13:16.400 --> 00:13:21.920
+But the EU, being a government body,&nbsp;
+was very slow. It would be years&nbsp;&nbsp;
+
+00:13:21.920 --> 00:13:26.320
+before they got to Slack's complaint.
+And Slack was running out of time.&nbsp;
+
+00:13:26.320 --> 00:13:31.600
+Every day, more businesses left Slack&nbsp;
+for Teams, and Slack's revenue fell.&nbsp;
+
+00:13:31.600 --> 00:13:36.880
+Then came an unexpected rescue.
+Butterfield had met with Bret Taylor, Co-CEO&nbsp;&nbsp;
+
+00:13:36.880 --> 00:13:42.480
+of Salesforce, about potentially buying Quip&nbsp;
+from them. Though the discussion soon flipped.&nbsp;
+
+00:13:42.480 --> 00:13:51.200
+In late 2020, Salesforce would buy Slack for over&nbsp;
+$27 billion — their largest acquisition ever.&nbsp;
+
+00:13:51.200 --> 00:13:57.520
+Slack would be integrated into Customer&nbsp;
+360 — aka Salesforce's own 365 suite.&nbsp;
+
+00:13:57.520 --> 00:14:02.240
+This could save Slack, but&nbsp;
+then came an unexpected hurdle.&nbsp;
+
+00:14:02.240 --> 00:14:09.280
+Exactly two years later, Bret Taylor resigned.
+Just days later, Butterfield also resigned.&nbsp;
+
+00:14:09.280 --> 00:14:13.760
+Slack's own chief product officer&nbsp;
+and SVP of marketing followed.&nbsp;
+
+00:14:13.760 --> 00:14:16.960
+Why?
+First, Butterfield.&nbsp;
+
+00:14:16.960 --> 00:14:19.760
+He had a number of obligations&nbsp;
+after the acquisition.&nbsp;
+
+00:14:19.760 --> 00:14:23.200
+And it seems like those&nbsp;
+lasted for exactly two years.&nbsp;
+
+00:14:23.200 --> 00:14:27.760
+So, when his contractual obligations from&nbsp;
+the acquisition were up, he stepped away.&nbsp;
+
+00:14:27.760 --> 00:14:31.440
+And it's hard to blame him:
+"Butterfield's exit also has to&nbsp;&nbsp;
+
+00:14:31.440 --> 00:14:36.720
+do with Salesforce asserting itself more with&nbsp;
+Slack, and as that happens, other longtime&nbsp;&nbsp;
+
+00:14:36.720 --> 00:14:41.040
+executives are taking the opportunity to leave."
+[Jason Wong, Analyst]: "It's clear that Salesforce&nbsp;&nbsp;
+
+00:14:41.040 --> 00:14:44.400
+is taking Slack in a direction&nbsp;
+that is more aligned to extending&nbsp;&nbsp;
+
+00:14:44.400 --> 00:14:50.400
+and enabling their Customer 360 Platform."
+Bret Taylor, though, was a bit more worrying.&nbsp;
+
+00:14:50.400 --> 00:14:54.880
+He was the architect of the acquisition.&nbsp;
+His vision was for Salesforce to become&nbsp;&nbsp;
+
+00:14:54.880 --> 00:15:00.240
+a "digital HQ", with Slack at the center.
+But Taylor leaving at the same time signaled&nbsp;&nbsp;
+
+00:15:00.240 --> 00:15:06.160
+that the bet might not be working.
+Microsoft 365 was just too strong.&nbsp;
+
+00:15:06.160 --> 00:15:10.240
+Salesforce stock fell 8.3% the&nbsp;
+day after Taylor's resignation,&nbsp;&nbsp;
+
+00:15:10.240 --> 00:15:17.360
+then another 7.4% the day Butterfield resigned.
+The whole year, it had lost 47% of its value.&nbsp;
+
+00:15:17.360 --> 00:15:24.080
+And, ironically, replacing Taylor was Lidiane&nbsp;
+Jones, who had spent twelve years at Microsoft.&nbsp;
+
+00:15:24.080 --> 00:15:28.560
+Speaking of Microsoft, there was&nbsp;
+some good news for Slack at last.&nbsp;
+
+00:15:28.560 --> 00:15:33.040
+In 2023, the EU had finally gotten&nbsp;
+around to their investigation,&nbsp;&nbsp;
+
+00:15:33.040 --> 00:15:38.480
+and it wasn't in Microsoft's favor.
+But something unexpected happened.&nbsp;
+
+00:15:38.480 --> 00:15:44.720
+Microsoft knew they were in the wrong. So they&nbsp;
+quietly separated Teams from 365 in Europe.&nbsp;
+
+00:15:44.720 --> 00:15:48.880
+Then globally in 2024.
+Then in 2025,&nbsp;&nbsp;
+
+00:15:48.880 --> 00:15:53.840
+the European Commission made their verdict.
+Teams had to stay unbundled for 7 years.&nbsp;
+
+00:15:53.840 --> 00:15:57.600
+But it could be offered at&nbsp;
+a discount to 365 customers.&nbsp;
+
+00:15:57.600 --> 00:16:01.760
+The penalties were up to 10% of&nbsp;
+Microsoft's worldwide revenue.&nbsp;
+
+00:16:01.760 --> 00:16:05.600
+But, there was no fine.
+Microsoft just had to separate it,&nbsp;&nbsp;
+
+00:16:05.600 --> 00:16:08.240
+years after the damage was done.
+[Marc Benioff, Salesforce CEO]: "You&nbsp;&nbsp;
+
+00:16:08.240 --> 00:16:12.560
+can see the horrible things that Microsoft&nbsp;
+did to Slack before we bought it. That was&nbsp;&nbsp;
+
+00:16:12.560 --> 00:16:17.120
+pretty bad and they were running their&nbsp;
+playbook and did a lot of dark stuff."
+
+00:16:17.120 --> 00:16:23.280
+Despite all this, Slack isn't dying.&nbsp;
+But its situation still isn't great.&nbsp;
+
+00:16:23.280 --> 00:16:31.040
+Revenue in 2023 was $1.7 billion, up 17%.
+They currently have 47 million daily active users.&nbsp;
+
+00:16:31.040 --> 00:16:35.520
+Slack still has a strong hold on niche&nbsp;
+markets, like small businesses and startups,&nbsp;&nbsp;
+
+00:16:35.520 --> 00:16:41.680
+and even some giants in the Fortune 100.
+But the clear winner is Microsoft Teams.&nbsp;
+
+00:16:41.680 --> 00:16:46.080
+They have 37% market share,&nbsp;
+while Slack has just 13%.&nbsp;
+
+00:16:46.080 --> 00:16:50.240
+Though, I don’t know many&nbsp;
+people who actually love Teams.&nbsp;
+
+00:16:50.240 --> 00:16:54.960
+It makes me a bit sad, what happened.
+There are a lot of what ifs but in&nbsp;&nbsp;
+
+00:16:54.960 --> 00:17:01.280
+the end, Microsoft won by changing the rules.
+Then quietly abiding by them when they got caught.&nbsp;
+
+00:17:01.280 --> 00:17:07.440
+While Teams is killing Slack, Microsoft is also&nbsp;
+killing one of their own beloved apps in 365.&nbsp;
+
+00:17:07.440 --> 00:17:13.040
+Microsoft, weirdly, has two different mailing&nbsp;
+apps. Now it's trying to combine them into one,&nbsp;&nbsp;
+
+00:17:13.040 --> 00:17:17.520
+much worse app: New Outlook.
+And users aren't happy.&nbsp;
+
+00:17:17.520 --> 00:17:19.680
+Click here to learn the rest of the story.
+
