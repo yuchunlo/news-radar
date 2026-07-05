@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-07-05T13:59:58.845066Z",
+  "generated_at": "2026-07-05T15:23:04.052164Z",
   "window_hours": 24,
   "total_items": 1,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "哈薩克：最後的聖鷹 / Kazakhstan: The last Sacred Eagles",
-      "url": "https://www.youtube.com/watch?v=6j9vO3ot9lM",
-      "primary_url": "https://www.youtube.com/watch?v=6j9vO3ot9lM",
-      "source": "imineo Documentaires",
+      "title": "西西里島的穆斯林占多數怎麼了？ / What Happened with the Muslim Majority of Sicily?",
+      "url": "https://www.youtube.com/watch?v=3U5GDrTfaKA",
+      "primary_url": "https://www.youtube.com/watch?v=3U5GDrTfaKA",
+      "source": "Knowledgia",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "c25f7a5be2dea3540638ced44782846d5bf11306",
+          "title": "西西里島的穆斯林占多數怎麼了？ / What Happened with the Muslim Majority of Sicily?",
+          "url": "https://www.youtube.com/watch?v=3U5GDrTfaKA",
+          "source": "Knowledgia",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-05T13:58:58Z"
+        },
         {
           "id": "3a52204e3bd975e92ffbcbf35f3021514f55e0f2",
           "title": "哈薩克：最後的聖鷹 / Kazakhstan: The last Sacred Eagles",
@@ -84,17 +93,17 @@
           "published_at": "2026-07-04T16:28:35Z"
         },
         {
-          "id": "115b34d31d22823bb2cf40676f7d78bd0e9b7c50",
-          "title": "中國：最後的鸕鶿大師 / China: The last masters of Cormorant",
-          "url": "https://www.youtube.com/watch?v=9hAZJ29VHuo",
-          "source": "imineo Documentaires",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-04T14:45:36Z"
-        },
-        {
           "id": "eaa0fd561c0311666d9e17d9ff5606bd2ed0430a",
           "title": "人工智慧正在摧毀你的思考能力 / AI is destroying your ability to think",
+          "url": "https://www.youtube.com/watch?v=gbwLDWUXE4s",
+          "source": "Reysu",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-05T13:30:10Z"
+        },
+        {
+          "id": "b98f7bc04bd581a5b39f46a5643ae745dbdb1755",
+          "title": "我嘗試每天使用人工智慧 3 年（這就是發生的事情） / I tried using AI every day for 3 years (this is what happened)",
           "url": "https://www.youtube.com/watch?v=gbwLDWUXE4s",
           "source": "Reysu",
           "source_name": "OPML RSS",
@@ -120,17 +129,8 @@
           "published_at": "2026-07-05T06:19:11Z"
         },
         {
-          "id": "3a8053e3269d3ee4efcdaeb81bac6fd9d8e73d61",
-          "title": "美國從這裡開始 - 費城現在是什麼樣子？ / America Started Here - What's Philadelphia Like Now?",
-          "url": "https://www.youtube.com/watch?v=xUDUgbmle5I",
-          "source": "Peter Santenello",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-04T15:00:27Z"
-        },
-        {
-          "id": "848adfcf1415dfd9b0e1dbe27247340289f4ff94",
-          "title": "▲GoUltra 小配件5選 🚴單車 旅行 日常 隨拍心得分享 #法蘭克黃 #goultra  #露營",
+          "id": "6c107aadbc9e0d8e8e95fdcde763c95252df8192",
+          "title": "▲GoUltra 小配件5選 🚴單車 旅行 日常 隨拍 拍攝技巧分享 #法蘭克黃 #goultra  #露營",
           "url": "https://www.youtube.com/watch?v=9SWLNkuh_Fo",
           "source": "法蘭克黃",
           "source_name": "OPML RSS",
@@ -169,9 +169,9 @@
       "source_names": [
         "Best Documentary",
         "Invicta",
+        "Knowledgia",
         "Marcello Ascani",
         "Perspective",
-        "Peter Santenello",
         "Reysu",
         "Shepherd Capital Markets",
         "Timeline - World History Documentaries",
@@ -183,6 +183,15 @@
         "美投讲美股"
       ],
       "items": [
+        {
+          "id": "c25f7a5be2dea3540638ced44782846d5bf11306",
+          "title": "西西里島的穆斯林占多數怎麼了？ / What Happened with the Muslim Majority of Sicily?",
+          "url": "https://www.youtube.com/watch?v=3U5GDrTfaKA",
+          "source": "Knowledgia",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-05T13:58:58Z"
+        },
         {
           "id": "3a52204e3bd975e92ffbcbf35f3021514f55e0f2",
           "title": "哈薩克：最後的聖鷹 / Kazakhstan: The last Sacred Eagles",
@@ -256,17 +265,17 @@
           "published_at": "2026-07-04T16:28:35Z"
         },
         {
-          "id": "115b34d31d22823bb2cf40676f7d78bd0e9b7c50",
-          "title": "中國：最後的鸕鶿大師 / China: The last masters of Cormorant",
-          "url": "https://www.youtube.com/watch?v=9hAZJ29VHuo",
-          "source": "imineo Documentaires",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-04T14:45:36Z"
-        },
-        {
           "id": "eaa0fd561c0311666d9e17d9ff5606bd2ed0430a",
           "title": "人工智慧正在摧毀你的思考能力 / AI is destroying your ability to think",
+          "url": "https://www.youtube.com/watch?v=gbwLDWUXE4s",
+          "source": "Reysu",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-05T13:30:10Z"
+        },
+        {
+          "id": "b98f7bc04bd581a5b39f46a5643ae745dbdb1755",
+          "title": "我嘗試每天使用人工智慧 3 年（這就是發生的事情） / I tried using AI every day for 3 years (this is what happened)",
           "url": "https://www.youtube.com/watch?v=gbwLDWUXE4s",
           "source": "Reysu",
           "source_name": "OPML RSS",
@@ -292,17 +301,8 @@
           "published_at": "2026-07-05T06:19:11Z"
         },
         {
-          "id": "3a8053e3269d3ee4efcdaeb81bac6fd9d8e73d61",
-          "title": "美國從這裡開始 - 費城現在是什麼樣子？ / America Started Here - What's Philadelphia Like Now?",
-          "url": "https://www.youtube.com/watch?v=xUDUgbmle5I",
-          "source": "Peter Santenello",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-04T15:00:27Z"
-        },
-        {
-          "id": "848adfcf1415dfd9b0e1dbe27247340289f4ff94",
-          "title": "▲GoUltra 小配件5選 🚴單車 旅行 日常 隨拍心得分享 #法蘭克黃 #goultra  #露營",
+          "id": "6c107aadbc9e0d8e8e95fdcde763c95252df8192",
+          "title": "▲GoUltra 小配件5選 🚴單車 旅行 日常 隨拍 拍攝技巧分享 #法蘭克黃 #goultra  #露營",
           "url": "https://www.youtube.com/watch?v=9SWLNkuh_Fo",
           "source": "法蘭克黃",
           "source_name": "OPML RSS",
@@ -339,26 +339,26 @@
       ],
       "item_count": 17,
       "duplicate_count": 17,
-      "score": 0.7439,
-      "importance": 0.7439,
-      "importance_score": 0.7439,
+      "score": 0.7325,
+      "importance": 0.7325,
+      "importance_score": 0.7325,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9796,
+        "recency": 0.9416,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-04T14:45:36Z",
-      "latest_at": "2026-07-05T13:30:33Z",
+      "earliest_at": "2026-07-04T16:28:35Z",
+      "latest_at": "2026-07-05T13:58:58Z",
       "primary_item": {
-        "id": "3a52204e3bd975e92ffbcbf35f3021514f55e0f2",
-        "title": "哈薩克：最後的聖鷹 / Kazakhstan: The last Sacred Eagles",
-        "url": "https://www.youtube.com/watch?v=6j9vO3ot9lM",
-        "source": "imineo Documentaires",
+        "id": "c25f7a5be2dea3540638ced44782846d5bf11306",
+        "title": "西西里島的穆斯林占多數怎麼了？ / What Happened with the Muslim Majority of Sicily?",
+        "url": "https://www.youtube.com/watch?v=3U5GDrTfaKA",
+        "source": "Knowledgia",
         "source_name": "OPML RSS"
       }
     }
