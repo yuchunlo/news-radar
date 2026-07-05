@@ -1,16 +1,43 @@
 {
-  "generated_at": "2026-07-05T11:56:46.804579Z",
+  "generated_at": "2026-07-05T13:59:58.845066Z",
   "window_hours": 24,
   "total_items": 1,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "涨的要跌？跌的要涨？下半年2大风险，1大致富机会，你必须了解！",
-      "url": "https://www.youtube.com/watch?v=px5M4ry8IO4",
-      "primary_url": "https://www.youtube.com/watch?v=px5M4ry8IO4",
-      "source": "美投讲美股",
+      "title": "哈薩克：最後的聖鷹 / Kazakhstan: The last Sacred Eagles",
+      "url": "https://www.youtube.com/watch?v=6j9vO3ot9lM",
+      "primary_url": "https://www.youtube.com/watch?v=6j9vO3ot9lM",
+      "source": "imineo Documentaires",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "3a52204e3bd975e92ffbcbf35f3021514f55e0f2",
+          "title": "哈薩克：最後的聖鷹 / Kazakhstan: The last Sacred Eagles",
+          "url": "https://www.youtube.com/watch?v=6j9vO3ot9lM",
+          "source": "imineo Documentaires",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-05T13:30:33Z"
+        },
+        {
+          "id": "59ba1deda44a088a8091e625eea837732129e219",
+          "title": "我來這裡是為了收錢，這就是我所做的 / I'm Here to Collect Money, That's What I Do",
+          "url": "https://www.youtube.com/watch?v=C-B6AW1Da20",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-05T12:00:26Z"
+        },
+        {
+          "id": "21ffd394a52ca8d26ec27250cb6bbb2b270f4495",
+          "title": "英國皇宮的秘密 - 隱藏的歷史和失落的食譜揭曉 / Secrets of Britain’s Royal Palaces - Hidden History and Lost Recipes Revealed",
+          "url": "https://www.youtube.com/watch?v=s7FYvUW2P1U",
+          "source": "Perspective",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-05T12:00:05Z"
+        },
         {
           "id": "61524d7f8463107af6055bbfc40d916af20d4a44",
           "title": "涨的要跌？跌的要涨？下半年2大风险，1大致富机会，你必须了解！",
@@ -66,13 +93,13 @@
           "published_at": "2026-07-04T14:45:36Z"
         },
         {
-          "id": "68308d431ca305e8bbbb64bbd4bffc76c108d432",
-          "title": "為什麼蚊子選擇你 / Why Mosquitoes Choose YOU",
-          "url": "https://www.youtube.com/watch?v=wxOaEo_vEnM",
-          "source": "Best Documentary",
+          "id": "eaa0fd561c0311666d9e17d9ff5606bd2ed0430a",
+          "title": "人工智慧正在摧毀你的思考能力 / AI is destroying your ability to think",
+          "url": "https://www.youtube.com/watch?v=gbwLDWUXE4s",
+          "source": "Reysu",
           "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-04T12:00:35Z"
+          "site_id": "opmlrss",
+          "published_at": "2026-07-05T13:30:10Z"
         },
         {
           "id": "def1963c245c2946386ff94489a65caf2423cce5",
@@ -102,15 +129,6 @@
           "published_at": "2026-07-04T15:00:27Z"
         },
         {
-          "id": "bf58a78cd36776b7b24d4089602cbbbd1cf8663a",
-          "title": "世界盃16強馬上開打！巴西VS挪威誰能獲勝，梅西和C羅會在這一輪出局嗎？｜不負責任世界盃16強預測",
-          "url": "https://www.youtube.com/watch?v=bPnQePkemfI",
-          "source": "沙發人物誌",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-04T12:06:54Z"
-        },
-        {
           "id": "848adfcf1415dfd9b0e1dbe27247340289f4ff94",
           "title": "▲GoUltra 小配件5選 🚴單車 旅行 日常 隨拍心得分享 #法蘭克黃 #goultra  #露營",
           "url": "https://www.youtube.com/watch?v=9SWLNkuh_Fo",
@@ -129,6 +147,15 @@
           "published_at": "2026-07-05T11:00:07Z"
         },
         {
+          "id": "7811d63e667d1ba6f96285e38d06d46403505777",
+          "title": "新零售折腾十年，到头来才发现：消费者根本不要新零售，只要便宜",
+          "url": "https://www.youtube.com/watch?v=bSF98toNC5Y",
+          "source": "冲浪普拉斯",
+          "source_name": "OPML RSS",
+          "site_id": "execution",
+          "published_at": "2026-07-05T09:21:56Z"
+        },
+        {
           "id": "1d1f4a16117bfd283acd0e2e10cf67d5f4d0013a",
           "title": "阿里烧几千亿搞新零售，拼多多躺着就赢了：这十年到底谁看懂了零售？",
           "url": "https://www.youtube.com/watch?v=bSF98toNC5Y",
@@ -138,23 +165,51 @@
           "published_at": "2026-07-05T09:21:56Z"
         }
       ],
-      "source_count": 14,
+      "source_count": 17,
       "source_names": [
         "Best Documentary",
         "Invicta",
         "Marcello Ascani",
+        "Perspective",
         "Peter Santenello",
+        "Reysu",
         "Shepherd Capital Markets",
         "Timeline - World History Documentaries",
         "imineo Documentaires",
         "【塞掐】訪談大人物",
         "冲浪普拉斯",
         "山上加美Lovely Hill",
-        "沙發人物誌",
         "法蘭克黃",
         "美投讲美股"
       ],
       "items": [
+        {
+          "id": "3a52204e3bd975e92ffbcbf35f3021514f55e0f2",
+          "title": "哈薩克：最後的聖鷹 / Kazakhstan: The last Sacred Eagles",
+          "url": "https://www.youtube.com/watch?v=6j9vO3ot9lM",
+          "source": "imineo Documentaires",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-05T13:30:33Z"
+        },
+        {
+          "id": "59ba1deda44a088a8091e625eea837732129e219",
+          "title": "我來這裡是為了收錢，這就是我所做的 / I'm Here to Collect Money, That's What I Do",
+          "url": "https://www.youtube.com/watch?v=C-B6AW1Da20",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-05T12:00:26Z"
+        },
+        {
+          "id": "21ffd394a52ca8d26ec27250cb6bbb2b270f4495",
+          "title": "英國皇宮的秘密 - 隱藏的歷史和失落的食譜揭曉 / Secrets of Britain’s Royal Palaces - Hidden History and Lost Recipes Revealed",
+          "url": "https://www.youtube.com/watch?v=s7FYvUW2P1U",
+          "source": "Perspective",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-05T12:00:05Z"
+        },
         {
           "id": "61524d7f8463107af6055bbfc40d916af20d4a44",
           "title": "涨的要跌？跌的要涨？下半年2大风险，1大致富机会，你必须了解！",
@@ -210,13 +265,13 @@
           "published_at": "2026-07-04T14:45:36Z"
         },
         {
-          "id": "68308d431ca305e8bbbb64bbd4bffc76c108d432",
-          "title": "為什麼蚊子選擇你 / Why Mosquitoes Choose YOU",
-          "url": "https://www.youtube.com/watch?v=wxOaEo_vEnM",
-          "source": "Best Documentary",
+          "id": "eaa0fd561c0311666d9e17d9ff5606bd2ed0430a",
+          "title": "人工智慧正在摧毀你的思考能力 / AI is destroying your ability to think",
+          "url": "https://www.youtube.com/watch?v=gbwLDWUXE4s",
+          "source": "Reysu",
           "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-04T12:00:35Z"
+          "site_id": "opmlrss",
+          "published_at": "2026-07-05T13:30:10Z"
         },
         {
           "id": "def1963c245c2946386ff94489a65caf2423cce5",
@@ -246,15 +301,6 @@
           "published_at": "2026-07-04T15:00:27Z"
         },
         {
-          "id": "bf58a78cd36776b7b24d4089602cbbbd1cf8663a",
-          "title": "世界盃16強馬上開打！巴西VS挪威誰能獲勝，梅西和C羅會在這一輪出局嗎？｜不負責任世界盃16強預測",
-          "url": "https://www.youtube.com/watch?v=bPnQePkemfI",
-          "source": "沙發人物誌",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-04T12:06:54Z"
-        },
-        {
           "id": "848adfcf1415dfd9b0e1dbe27247340289f4ff94",
           "title": "▲GoUltra 小配件5選 🚴單車 旅行 日常 隨拍心得分享 #法蘭克黃 #goultra  #露營",
           "url": "https://www.youtube.com/watch?v=9SWLNkuh_Fo",
@@ -273,6 +319,15 @@
           "published_at": "2026-07-05T11:00:07Z"
         },
         {
+          "id": "7811d63e667d1ba6f96285e38d06d46403505777",
+          "title": "新零售折腾十年，到头来才发现：消费者根本不要新零售，只要便宜",
+          "url": "https://www.youtube.com/watch?v=bSF98toNC5Y",
+          "source": "冲浪普拉斯",
+          "source_name": "OPML RSS",
+          "site_id": "execution",
+          "published_at": "2026-07-05T09:21:56Z"
+        },
+        {
           "id": "1d1f4a16117bfd283acd0e2e10cf67d5f4d0013a",
           "title": "阿里烧几千亿搞新零售，拼多多躺着就赢了：这十年到底谁看懂了零售？",
           "url": "https://www.youtube.com/watch?v=bSF98toNC5Y",
@@ -282,28 +337,28 @@
           "published_at": "2026-07-05T09:21:56Z"
         }
       ],
-      "item_count": 14,
-      "duplicate_count": 14,
-      "score": 0.6407,
-      "importance": 0.6407,
-      "importance_score": 0.6407,
+      "item_count": 17,
+      "duplicate_count": 17,
+      "score": 0.7439,
+      "importance": 0.7439,
+      "importance_score": 0.7439,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6357,
+        "recency": 0.9796,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-04T12:00:35Z",
-      "latest_at": "2026-07-05T11:00:20Z",
+      "earliest_at": "2026-07-04T14:45:36Z",
+      "latest_at": "2026-07-05T13:30:33Z",
       "primary_item": {
-        "id": "61524d7f8463107af6055bbfc40d916af20d4a44",
-        "title": "涨的要跌？跌的要涨？下半年2大风险，1大致富机会，你必须了解！",
-        "url": "https://www.youtube.com/watch?v=px5M4ry8IO4",
-        "source": "美投讲美股",
+        "id": "3a52204e3bd975e92ffbcbf35f3021514f55e0f2",
+        "title": "哈薩克：最後的聖鷹 / Kazakhstan: The last Sacred Eagles",
+        "url": "https://www.youtube.com/watch?v=6j9vO3ot9lM",
+        "source": "imineo Documentaires",
         "source_name": "OPML RSS"
       }
     }
