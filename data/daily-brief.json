@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-07-06T00:13:05.008064Z",
+  "generated_at": "2026-07-06T04:54:02.581538Z",
   "window_hours": 24,
   "total_items": 1,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "美國內戰：從小說中解碼事實 / The American Civil War: Decoding Fact From Fiction",
-      "url": "https://www.youtube.com/watch?v=Mb_n0bZmI80",
-      "primary_url": "https://www.youtube.com/watch?v=Mb_n0bZmI80",
-      "source": "Timeline - World History Documentaries",
+      "title": "比特幣：四年周期再次襲來 / Bitcoin: The Four Year Cycle Strikes Again",
+      "url": "https://www.youtube.com/watch?v=sy6AxBbgico",
+      "primary_url": "https://www.youtube.com/watch?v=sy6AxBbgico",
+      "source": "Benjamin Cowen",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "0fafe103bf5acce8570646edded66cda6fa5ee26",
+          "title": "比特幣：四年周期再次襲來 / Bitcoin: The Four Year Cycle Strikes Again",
+          "url": "https://www.youtube.com/watch?v=sy6AxBbgico",
+          "source": "Benjamin Cowen",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-06T04:11:15Z"
+        },
         {
           "id": "718fc95e452f22a44818e4329249e7cde07abf6f",
           "title": "美國內戰：從小說中解碼事實 / The American Civil War: Decoding Fact From Fiction",
@@ -66,13 +75,13 @@
           "published_at": "2026-07-05T12:00:05Z"
         },
         {
-          "id": "61524d7f8463107af6055bbfc40d916af20d4a44",
-          "title": "涨的要跌？跌的要涨？下半年2大风险，1大致富机会，你必须了解！",
-          "url": "https://www.youtube.com/watch?v=px5M4ry8IO4",
-          "source": "美投讲美股",
+          "id": "498424374c4b2aecaf6c1419155a6838437ac801",
+          "title": "想幫台灣長出自己的「PayPal 黑手黨」！矽谷的成功配方在這裡「失效」了嗎？｜YouTube 共同創辦人 Steve Chen 陳士駿【塞掐 Side Chat】E413",
+          "url": "https://www.youtube.com/watch?v=FcMk18AmVKA",
+          "source": "【塞掐】訪談大人物",
           "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-05T03:12:10Z"
+          "site_id": "opmlrss",
+          "published_at": "2026-07-06T04:45:06Z"
         },
         {
           "id": "eaa0fd561c0311666d9e17d9ff5606bd2ed0430a",
@@ -100,15 +109,6 @@
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
           "published_at": "2026-07-05T06:37:41Z"
-        },
-        {
-          "id": "498424374c4b2aecaf6c1419155a6838437ac801",
-          "title": "想幫台灣長出自己的「PayPal 黑手黨」！矽谷的成功配方在這裡「失效」了嗎？｜YouTube 共同創辦人 Steve Chen 陳士駿【塞掐 Side Chat】E413",
-          "url": "https://www.youtube.com/watch?v=FcMk18AmVKA",
-          "source": "【塞掐】訪談大人物",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-05T06:19:11Z"
         },
         {
           "id": "848adfcf1415dfd9b0e1dbe27247340289f4ff94",
@@ -167,6 +167,7 @@
       ],
       "source_count": 17,
       "source_names": [
+        "Benjamin Cowen",
         "Best Documentary",
         "Knowledgia",
         "Marcello Ascani",
@@ -177,10 +178,18 @@
         "【塞掐】訪談大人物",
         "冲浪普拉斯",
         "山上加美Lovely Hill",
-        "法蘭克黃",
-        "美投讲美股"
+        "法蘭克黃"
       ],
       "items": [
+        {
+          "id": "0fafe103bf5acce8570646edded66cda6fa5ee26",
+          "title": "比特幣：四年周期再次襲來 / Bitcoin: The Four Year Cycle Strikes Again",
+          "url": "https://www.youtube.com/watch?v=sy6AxBbgico",
+          "source": "Benjamin Cowen",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-06T04:11:15Z"
+        },
         {
           "id": "718fc95e452f22a44818e4329249e7cde07abf6f",
           "title": "美國內戰：從小說中解碼事實 / The American Civil War: Decoding Fact From Fiction",
@@ -236,13 +245,13 @@
           "published_at": "2026-07-05T12:00:05Z"
         },
         {
-          "id": "61524d7f8463107af6055bbfc40d916af20d4a44",
-          "title": "涨的要跌？跌的要涨？下半年2大风险，1大致富机会，你必须了解！",
-          "url": "https://www.youtube.com/watch?v=px5M4ry8IO4",
-          "source": "美投讲美股",
+          "id": "498424374c4b2aecaf6c1419155a6838437ac801",
+          "title": "想幫台灣長出自己的「PayPal 黑手黨」！矽谷的成功配方在這裡「失效」了嗎？｜YouTube 共同創辦人 Steve Chen 陳士駿【塞掐 Side Chat】E413",
+          "url": "https://www.youtube.com/watch?v=FcMk18AmVKA",
+          "source": "【塞掐】訪談大人物",
           "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-05T03:12:10Z"
+          "site_id": "opmlrss",
+          "published_at": "2026-07-06T04:45:06Z"
         },
         {
           "id": "eaa0fd561c0311666d9e17d9ff5606bd2ed0430a",
@@ -270,15 +279,6 @@
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
           "published_at": "2026-07-05T06:37:41Z"
-        },
-        {
-          "id": "498424374c4b2aecaf6c1419155a6838437ac801",
-          "title": "想幫台灣長出自己的「PayPal 黑手黨」！矽谷的成功配方在這裡「失效」了嗎？｜YouTube 共同創辦人 Steve Chen 陳士駿【塞掐 Side Chat】E413",
-          "url": "https://www.youtube.com/watch?v=FcMk18AmVKA",
-          "source": "【塞掐】訪談大人物",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-05T06:19:11Z"
         },
         {
           "id": "848adfcf1415dfd9b0e1dbe27247340289f4ff94",
@@ -337,26 +337,26 @@
       ],
       "item_count": 17,
       "duplicate_count": 17,
-      "score": 0.7098,
-      "importance": 0.7098,
-      "importance_score": 0.7098,
+      "score": 0.7411,
+      "importance": 0.7411,
+      "importance_score": 0.7411,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.8659,
+        "recency": 0.9703,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-05T03:12:10Z",
-      "latest_at": "2026-07-05T21:00:01Z",
+      "earliest_at": "2026-07-05T06:37:41Z",
+      "latest_at": "2026-07-06T04:45:06Z",
       "primary_item": {
-        "id": "718fc95e452f22a44818e4329249e7cde07abf6f",
-        "title": "美國內戰：從小說中解碼事實 / The American Civil War: Decoding Fact From Fiction",
-        "url": "https://www.youtube.com/watch?v=Mb_n0bZmI80",
-        "source": "Timeline - World History Documentaries",
+        "id": "0fafe103bf5acce8570646edded66cda6fa5ee26",
+        "title": "比特幣：四年周期再次襲來 / Bitcoin: The Four Year Cycle Strikes Again",
+        "url": "https://www.youtube.com/watch?v=sy6AxBbgico",
+        "source": "Benjamin Cowen",
         "source_name": "OPML RSS"
       }
     }
