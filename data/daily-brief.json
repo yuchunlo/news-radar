@@ -1,16 +1,34 @@
 {
-  "generated_at": "2026-07-06T20:58:09.377739Z",
+  "generated_at": "2026-07-06T22:21:31.306651Z",
   "window_hours": 24,
   "total_items": 4,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "芝加哥的政策之王：愛德華瓊斯的隱藏故事 / Chicago’s Policy King: The hidden story of Edward Jones",
-      "url": "https://www.youtube.com/watch?v=QxSymrSf0bU",
-      "primary_url": "https://www.youtube.com/watch?v=QxSymrSf0bU",
-      "source": "imineo Documentaires",
+      "title": "AC/DC 如何克服重重困難成為傳奇 / How AC/DC Became Legends Against All Odds",
+      "url": "https://www.youtube.com/watch?v=673HqTtna0w",
+      "primary_url": "https://www.youtube.com/watch?v=673HqTtna0w",
+      "source": "Best Documentary",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "50548715e1db37827cf916aed0d02ba789f50c59",
+          "title": "AC/DC 如何克服重重困難成為傳奇 / How AC/DC Became Legends Against All Odds",
+          "url": "https://www.youtube.com/watch?v=673HqTtna0w",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-06T21:00:18Z"
+        },
+        {
+          "id": "4fabce1bc4f785b6e3a8fadc70e08ec1c6031056",
+          "title": "冷戰時期推動美國成為全球霸主的欺騙行為 / The Deceptions That Propelled The US Into Global Supremacy In The Cold War",
+          "url": "https://www.youtube.com/watch?v=MIT-2eXNQLo",
+          "source": "Timeline - World History Documentaries",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-06T21:00:05Z"
+        },
         {
           "id": "109053b827757a373facb9a86c73a00203837449",
           "title": "芝加哥的政策之王：愛德華瓊斯的隱藏故事 / Chicago’s Policy King: The hidden story of Edward Jones",
@@ -57,15 +75,6 @@
           "published_at": "2026-07-06T04:11:15Z"
         },
         {
-          "id": "718fc95e452f22a44818e4329249e7cde07abf6f",
-          "title": "美國內戰：從小說中解碼事實 / The American Civil War: Decoding Fact From Fiction",
-          "url": "https://www.youtube.com/watch?v=Mb_n0bZmI80",
-          "source": "Timeline - World History Documentaries",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-05T21:00:01Z"
-        },
-        {
           "id": "ec46e05397289aae1949b0d7cad8ecdec413f8ba",
           "title": "人工智慧比人類更擅長數學嗎？ / Is AI better at maths than humans?",
           "url": "https://www.youtube.com/watch?v=ZJ8KThKAfbs",
@@ -102,7 +111,7 @@
           "published_at": "2026-07-06T11:00:03Z"
         }
       ],
-      "source_count": 10,
+      "source_count": 11,
       "source_names": [
         "Benjamin Cowen",
         "Best Documentary",
@@ -117,6 +126,24 @@
       ],
       "items": [
         {
+          "id": "50548715e1db37827cf916aed0d02ba789f50c59",
+          "title": "AC/DC 如何克服重重困難成為傳奇 / How AC/DC Became Legends Against All Odds",
+          "url": "https://www.youtube.com/watch?v=673HqTtna0w",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-06T21:00:18Z"
+        },
+        {
+          "id": "4fabce1bc4f785b6e3a8fadc70e08ec1c6031056",
+          "title": "冷戰時期推動美國成為全球霸主的欺騙行為 / The Deceptions That Propelled The US Into Global Supremacy In The Cold War",
+          "url": "https://www.youtube.com/watch?v=MIT-2eXNQLo",
+          "source": "Timeline - World History Documentaries",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-06T21:00:05Z"
+        },
+        {
           "id": "109053b827757a373facb9a86c73a00203837449",
           "title": "芝加哥的政策之王：愛德華瓊斯的隱藏故事 / Chicago’s Policy King: The hidden story of Edward Jones",
           "url": "https://www.youtube.com/watch?v=QxSymrSf0bU",
@@ -162,15 +189,6 @@
           "published_at": "2026-07-06T04:11:15Z"
         },
         {
-          "id": "718fc95e452f22a44818e4329249e7cde07abf6f",
-          "title": "美國內戰：從小說中解碼事實 / The American Civil War: Decoding Fact From Fiction",
-          "url": "https://www.youtube.com/watch?v=Mb_n0bZmI80",
-          "source": "Timeline - World History Documentaries",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-05T21:00:01Z"
-        },
-        {
           "id": "ec46e05397289aae1949b0d7cad8ecdec413f8ba",
           "title": "人工智慧比人類更擅長數學嗎？ / Is AI better at maths than humans?",
           "url": "https://www.youtube.com/watch?v=ZJ8KThKAfbs",
@@ -207,28 +225,28 @@
           "published_at": "2026-07-06T11:00:03Z"
         }
       ],
-      "item_count": 10,
-      "duplicate_count": 10,
-      "score": 0.6817,
-      "importance": 0.6817,
-      "importance_score": 0.6817,
+      "item_count": 11,
+      "duplicate_count": 11,
+      "score": 0.7331,
+      "importance": 0.7331,
+      "importance_score": 0.7331,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7723,
+        "recency": 0.9436,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-05T21:00:01Z",
-      "latest_at": "2026-07-06T19:00:36Z",
+      "earliest_at": "2026-07-06T04:11:15Z",
+      "latest_at": "2026-07-06T21:00:18Z",
       "primary_item": {
-        "id": "109053b827757a373facb9a86c73a00203837449",
-        "title": "芝加哥的政策之王：愛德華瓊斯的隱藏故事 / Chicago’s Policy King: The hidden story of Edward Jones",
-        "url": "https://www.youtube.com/watch?v=QxSymrSf0bU",
-        "source": "imineo Documentaires",
+        "id": "50548715e1db37827cf916aed0d02ba789f50c59",
+        "title": "AC/DC 如何克服重重困難成為傳奇 / How AC/DC Became Legends Against All Odds",
+        "url": "https://www.youtube.com/watch?v=673HqTtna0w",
+        "source": "Best Documentary",
         "source_name": "OPML RSS"
       }
     },
@@ -285,13 +303,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5091,
-      "importance": 0.5091,
-      "importance_score": 0.5091,
+      "score": 0.4917,
+      "importance": 0.4917,
+      "importance_score": 0.4917,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6971,
+        "recency": 0.6392,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -361,13 +379,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4931,
-      "importance": 0.4931,
-      "importance_score": 0.4931,
+      "score": 0.4757,
+      "importance": 0.4757,
+      "importance_score": 0.4757,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6436,
+        "recency": 0.5857,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -438,13 +456,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3983,
-      "importance": 0.3983,
-      "importance_score": 0.3983,
+      "score": 0.3809,
+      "importance": 0.3809,
+      "importance_score": 0.3809,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.7442,
+        "recency": 0.6863,
         "story_heat": 0.25
       },
       "category": "watch",
