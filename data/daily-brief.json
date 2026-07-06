@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-06T16:39:37.324879Z",
+  "generated_at": "2026-07-06T19:00:02.771911Z",
   "window_hours": 24,
-  "total_items": 3,
+  "total_items": 4,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
@@ -190,13 +190,13 @@
       ],
       "item_count": 9,
       "duplicate_count": 9,
-      "score": 0.7356,
-      "importance": 0.7356,
-      "importance_score": 0.7356,
+      "score": 0.7063,
+      "importance": 0.7063,
+      "importance_score": 0.7063,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9519,
+        "recency": 0.8544,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -210,6 +210,82 @@
         "title": "芝加哥的政策之王：愛德華瓊斯的隱藏故事 / Chicago’s Policy King: The hidden story of Edward Jones",
         "url": "https://www.youtube.com/watch?v=QxSymrSf0bU",
         "source": "imineo Documentaires",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_7be72adc4ff4",
+      "title": "微軟 Xbox 部門計劃在明年裁員 3,200 人，其中周一裁員 1,600 人，並在「重置」中剝離包括 Ninja Theory 在內的最多 5 個工作室（彭博社） / Microsoft's Xbox unit plans to cut 3,200 jobs over the next year, including 1,600 on Monday, and divest up to five studios, including Ninja Theory, in a \"reset\" (Bloomberg)",
+      "url": "https://www.techmeme.com/260706/p20",
+      "primary_url": "https://www.techmeme.com/260706/p20",
+      "source": "Techmeme",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "c530887ea439528b745b81b33f918751146cbab8",
+          "title": "微軟 Xbox 部門計劃在明年裁員 3,200 人，其中周一裁員 1,600 人，並在「重置」中剝離包括 Ninja Theory 在內的最多 5 個工作室（彭博社） / Microsoft's Xbox unit plans to cut 3,200 jobs over the next year, including 1,600 on Monday, and divest up to five studios, including Ninja Theory, in a \"reset\" (Bloomberg)",
+          "url": "https://www.techmeme.com/260706/p20",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-06T13:41:55Z"
+        },
+        {
+          "id": "476bb6ba72eb0cb44cda7315c1e8d9b4de5f7058",
+          "title": "Xbox 執行長 Asha Sharma 表示，該部門將剝離包括 Ninja Theory 在內的 5 個工作室，並裁員約 3,200 人，以「重置」以精簡業務（彭博社） / Xbox CEO Asha Sharma says the unit will divest five studios, including Ninja Theory, alongside ~3,200 job cuts, to streamline the business, in a \"reset\" (Bloomberg)",
+          "url": "https://www.techmeme.com/260706/p20",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-06T13:41:55Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Techmeme"
+      ],
+      "items": [
+        {
+          "id": "c530887ea439528b745b81b33f918751146cbab8",
+          "title": "微軟 Xbox 部門計劃在明年裁員 3,200 人，其中周一裁員 1,600 人，並在「重置」中剝離包括 Ninja Theory 在內的最多 5 個工作室（彭博社） / Microsoft's Xbox unit plans to cut 3,200 jobs over the next year, including 1,600 on Monday, and divest up to five studios, including Ninja Theory, in a \"reset\" (Bloomberg)",
+          "url": "https://www.techmeme.com/260706/p20",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-06T13:41:55Z"
+        },
+        {
+          "id": "476bb6ba72eb0cb44cda7315c1e8d9b4de5f7058",
+          "title": "Xbox 執行長 Asha Sharma 表示，該部門將剝離包括 Ninja Theory 在內的 5 個工作室，並裁員約 3,200 人，以「重置」以精簡業務（彭博社） / Xbox CEO Asha Sharma says the unit will divest five studios, including Ninja Theory, alongside ~3,200 job cuts, to streamline the business, in a \"reset\" (Bloomberg)",
+          "url": "https://www.techmeme.com/260706/p20",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-06T13:41:55Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5337,
+      "importance": 0.5337,
+      "importance_score": 0.5337,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.5,
+        "recency": 0.7791,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-06T13:41:55Z",
+      "latest_at": "2026-07-06T13:41:55Z",
+      "primary_item": {
+        "id": "c530887ea439528b745b81b33f918751146cbab8",
+        "title": "微軟 Xbox 部門計劃在明年裁員 3,200 人，其中周一裁員 1,600 人，並在「重置」中剝離包括 Ninja Theory 在內的最多 5 個工作室（彭博社） / Microsoft's Xbox unit plans to cut 3,200 jobs over the next year, including 1,600 on Monday, and divest up to five studios, including Ninja Theory, in a \"reset\" (Bloomberg)",
+        "url": "https://www.techmeme.com/260706/p20",
+        "source": "Techmeme",
         "source_name": "OPML RSS"
       }
     },
@@ -266,13 +342,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.547,
-      "importance": 0.547,
-      "importance_score": 0.547,
+      "score": 0.5177,
+      "importance": 0.5177,
+      "importance_score": 0.5177,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.8232,
+        "recency": 0.7257,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -343,13 +419,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4521,
-      "importance": 0.4521,
-      "importance_score": 0.4521,
+      "score": 0.4229,
+      "importance": 0.4229,
+      "importance_score": 0.4229,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.9237,
+        "recency": 0.8262,
         "story_heat": 0.25
       },
       "category": "watch",
