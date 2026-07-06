@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T22:32:39.596543Z",
+  "generated_at": "2026-07-06T00:13:05.008064Z",
   "window_hours": 24,
   "total_items": 1,
   "items": [
@@ -75,15 +75,6 @@
           "published_at": "2026-07-05T03:12:10Z"
         },
         {
-          "id": "48824a5504006048eca6a171f62abef89e164d51",
-          "title": "总统是如何管钱的？拆解最新特朗普资产披露",
-          "url": "https://www.youtube.com/watch?v=2Lw6xA1jNs4",
-          "source": "Shepherd Capital Markets",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-04T23:35:54Z"
-        },
-        {
           "id": "eaa0fd561c0311666d9e17d9ff5606bd2ed0430a",
           "title": "人工智慧正在摧毀你的思考能力 / AI is destroying your ability to think",
           "url": "https://www.youtube.com/watch?v=gbwLDWUXE4s",
@@ -174,14 +165,13 @@
           "published_at": "2026-07-05T09:21:56Z"
         }
       ],
-      "source_count": 18,
+      "source_count": 17,
       "source_names": [
         "Best Documentary",
         "Knowledgia",
         "Marcello Ascani",
         "Perspective",
         "Reysu",
-        "Shepherd Capital Markets",
         "Timeline - World History Documentaries",
         "imineo Documentaires",
         "【塞掐】訪談大人物",
@@ -255,15 +245,6 @@
           "published_at": "2026-07-05T03:12:10Z"
         },
         {
-          "id": "48824a5504006048eca6a171f62abef89e164d51",
-          "title": "总统是如何管钱的？拆解最新特朗普资产披露",
-          "url": "https://www.youtube.com/watch?v=2Lw6xA1jNs4",
-          "source": "Shepherd Capital Markets",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-04T23:35:54Z"
-        },
-        {
           "id": "eaa0fd561c0311666d9e17d9ff5606bd2ed0430a",
           "title": "人工智慧正在摧毀你的思考能力 / AI is destroying your ability to think",
           "url": "https://www.youtube.com/watch?v=gbwLDWUXE4s",
@@ -354,22 +335,22 @@
           "published_at": "2026-07-05T09:21:56Z"
         }
       ],
-      "item_count": 18,
-      "duplicate_count": 18,
-      "score": 0.7307,
-      "importance": 0.7307,
-      "importance_score": 0.7307,
+      "item_count": 17,
+      "duplicate_count": 17,
+      "score": 0.7098,
+      "importance": 0.7098,
+      "importance_score": 0.7098,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9357,
+        "recency": 0.8659,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-04T23:35:54Z",
+      "earliest_at": "2026-07-05T03:12:10Z",
       "latest_at": "2026-07-05T21:00:01Z",
       "primary_item": {
         "id": "718fc95e452f22a44818e4329249e7cde07abf6f",
