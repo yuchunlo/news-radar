@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-07-06T04:54:02.581538Z",
+  "generated_at": "2026-07-06T09:04:15.170506Z",
   "window_hours": 24,
   "total_items": 1,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "比特幣：四年周期再次襲來 / Bitcoin: The Four Year Cycle Strikes Again",
-      "url": "https://www.youtube.com/watch?v=sy6AxBbgico",
-      "primary_url": "https://www.youtube.com/watch?v=sy6AxBbgico",
-      "source": "Benjamin Cowen",
+      "title": "2026上半年，你看了哪些演唱会呢？Miguel/Thundercat/Dijon",
+      "url": "https://www.youtube.com/watch?v=E6hNT6C1BV0",
+      "primary_url": "https://www.youtube.com/watch?v=E6hNT6C1BV0",
+      "source": "GOATFANS",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "902ae1869c55fd62e9af461e0f93d1e37087a61b",
+          "title": "2026上半年，你看了哪些演唱会呢？Miguel/Thundercat/Dijon",
+          "url": "https://www.youtube.com/watch?v=E6hNT6C1BV0",
+          "source": "GOATFANS",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-06T09:00:15Z"
+        },
         {
           "id": "0fafe103bf5acce8570646edded66cda6fa5ee26",
           "title": "比特幣：四年周期再次襲來 / Bitcoin: The Four Year Cycle Strikes Again",
@@ -102,15 +111,6 @@
           "published_at": "2026-07-05T13:30:10Z"
         },
         {
-          "id": "def1963c245c2946386ff94489a65caf2423cce5",
-          "title": "猴崁水圳步道健行5km，陽明山最美水圳秘境，高棧橋、吊橋瀑布峽谷一次收集｜山上加美 Lovely Hill",
-          "url": "https://www.youtube.com/watch?v=ar5sxiOCwD4",
-          "source": "山上加美Lovely Hill",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-05T06:37:41Z"
-        },
-        {
           "id": "848adfcf1415dfd9b0e1dbe27247340289f4ff94",
           "title": "▲GoUltra 小配件5選 🚴單車 旅行 日常 隨拍心得分享 #法蘭克黃 #goultra  #露營",
           "url": "https://www.youtube.com/watch?v=9SWLNkuh_Fo",
@@ -129,8 +129,8 @@
           "published_at": "2026-07-05T11:00:20Z"
         },
         {
-          "id": "0992ad2a498e05dcaadb2ff33cd6d0d561e1d5fe",
-          "title": "高人氣相機GoUltra 戶外實戰小配件5選 🚴旅行 日常 技巧分享 #法蘭克黃 #goultra  #露營",
+          "id": "41d99565fc255dfc9b6fdb98d036befd036fa1e6",
+          "title": "人氣小相機GoUltra 戶外實戰小配件5選 🚴旅行 日常 技巧分享 #法蘭克黃 #goultra  #露營",
           "url": "https://www.youtube.com/watch?v=9SWLNkuh_Fo",
           "source": "法蘭克黃",
           "source_name": "OPML RSS",
@@ -169,6 +169,7 @@
       "source_names": [
         "Benjamin Cowen",
         "Best Documentary",
+        "GOATFANS",
         "Knowledgia",
         "Marcello Ascani",
         "Perspective",
@@ -177,10 +178,18 @@
         "imineo Documentaires",
         "【塞掐】訪談大人物",
         "冲浪普拉斯",
-        "山上加美Lovely Hill",
         "法蘭克黃"
       ],
       "items": [
+        {
+          "id": "902ae1869c55fd62e9af461e0f93d1e37087a61b",
+          "title": "2026上半年，你看了哪些演唱会呢？Miguel/Thundercat/Dijon",
+          "url": "https://www.youtube.com/watch?v=E6hNT6C1BV0",
+          "source": "GOATFANS",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-06T09:00:15Z"
+        },
         {
           "id": "0fafe103bf5acce8570646edded66cda6fa5ee26",
           "title": "比特幣：四年周期再次襲來 / Bitcoin: The Four Year Cycle Strikes Again",
@@ -272,15 +281,6 @@
           "published_at": "2026-07-05T13:30:10Z"
         },
         {
-          "id": "def1963c245c2946386ff94489a65caf2423cce5",
-          "title": "猴崁水圳步道健行5km，陽明山最美水圳秘境，高棧橋、吊橋瀑布峽谷一次收集｜山上加美 Lovely Hill",
-          "url": "https://www.youtube.com/watch?v=ar5sxiOCwD4",
-          "source": "山上加美Lovely Hill",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-05T06:37:41Z"
-        },
-        {
           "id": "848adfcf1415dfd9b0e1dbe27247340289f4ff94",
           "title": "▲GoUltra 小配件5選 🚴單車 旅行 日常 隨拍心得分享 #法蘭克黃 #goultra  #露營",
           "url": "https://www.youtube.com/watch?v=9SWLNkuh_Fo",
@@ -299,8 +299,8 @@
           "published_at": "2026-07-05T11:00:20Z"
         },
         {
-          "id": "0992ad2a498e05dcaadb2ff33cd6d0d561e1d5fe",
-          "title": "高人氣相機GoUltra 戶外實戰小配件5選 🚴旅行 日常 技巧分享 #法蘭克黃 #goultra  #露營",
+          "id": "41d99565fc255dfc9b6fdb98d036befd036fa1e6",
+          "title": "人氣小相機GoUltra 戶外實戰小配件5選 🚴旅行 日常 技巧分享 #法蘭克黃 #goultra  #露營",
           "url": "https://www.youtube.com/watch?v=9SWLNkuh_Fo",
           "source": "法蘭克黃",
           "source_name": "OPML RSS",
@@ -337,26 +337,26 @@
       ],
       "item_count": 17,
       "duplicate_count": 17,
-      "score": 0.7411,
-      "importance": 0.7411,
-      "importance_score": 0.7411,
+      "score": 0.7492,
+      "importance": 0.7492,
+      "importance_score": 0.7492,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9703,
+        "recency": 0.9972,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-05T06:37:41Z",
-      "latest_at": "2026-07-06T04:45:06Z",
+      "earliest_at": "2026-07-05T09:21:56Z",
+      "latest_at": "2026-07-06T09:00:15Z",
       "primary_item": {
-        "id": "0fafe103bf5acce8570646edded66cda6fa5ee26",
-        "title": "比特幣：四年周期再次襲來 / Bitcoin: The Four Year Cycle Strikes Again",
-        "url": "https://www.youtube.com/watch?v=sy6AxBbgico",
-        "source": "Benjamin Cowen",
+        "id": "902ae1869c55fd62e9af461e0f93d1e37087a61b",
+        "title": "2026上半年，你看了哪些演唱会呢？Miguel/Thundercat/Dijon",
+        "url": "https://www.youtube.com/watch?v=E6hNT6C1BV0",
+        "source": "GOATFANS",
         "source_name": "OPML RSS"
       }
     }
