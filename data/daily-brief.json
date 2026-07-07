@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-07-07T21:08:27.851967Z",
+  "generated_at": "2026-07-07T22:39:44.697795Z",
   "window_hours": 24,
   "total_items": 5,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "西藏：佛教的神祕境界 / Tibet: Mystical Realms of Buddhism",
-      "url": "https://www.youtube.com/watch?v=WzkbITfp4So",
-      "primary_url": "https://www.youtube.com/watch?v=WzkbITfp4So",
-      "source": "Best Documentary",
+      "title": "好萊塢傳奇權力掮客 — Guy Oseary 談管理麥當娜 36 年、26 次 IPO 等 / The Legendary Hollywood Power Broker — Guy Oseary on 36 Years of Managing Madonna, 26 IPOs, and More",
+      "url": "https://www.youtube.com/watch?v=-e-gDi-nB1w",
+      "primary_url": "https://www.youtube.com/watch?v=-e-gDi-nB1w",
+      "source": "Tim Ferriss",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "0d78b73e6f01c1761598d6db7cf58999b7ba2a5c",
+          "title": "好萊塢傳奇權力掮客 — Guy Oseary 談管理麥當娜 36 年、26 次 IPO 等 / The Legendary Hollywood Power Broker — Guy Oseary on 36 Years of Managing Madonna, 26 IPOs, and More",
+          "url": "https://www.youtube.com/watch?v=-e-gDi-nB1w",
+          "source": "Tim Ferriss",
+          "source_name": "OPML RSS",
+          "site_id": "blog",
+          "published_at": "2026-07-07T21:30:02Z"
+        },
         {
           "id": "98aa00638f346dd07ea0545c35a1361402a07360",
           "title": "西藏：佛教的神祕境界 / Tibet: Mystical Realms of Buddhism",
@@ -19,6 +28,15 @@
           "source_name": "OPML RSS",
           "site_id": "culture",
           "published_at": "2026-07-07T21:00:05Z"
+        },
+        {
+          "id": "195de5326e256a2d720c99c6e99265ca12170e5c",
+          "title": "巴格拉季昂行動：二戰最致命的夏季攻勢 / Operation Bagration: The Deadliest Summer Offensive Of WW2",
+          "url": "https://www.youtube.com/watch?v=mqhDr7Zxj-o",
+          "source": "Timeline - World History Documentaries",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-07T21:00:02Z"
         },
         {
           "id": "330de2655ac51834c23579f2fa752351d6773e63",
@@ -84,18 +102,29 @@
           "published_at": "2026-07-07T10:00:00Z"
         }
       ],
-      "source_count": 8,
+      "source_count": 10,
       "source_names": [
         "Best Documentary",
         "DenQ來了",
         "Inspiraggio",
         "Shepherd Capital Markets",
+        "Tim Ferriss",
+        "Timeline - World History Documentaries",
         "东海嘉措",
         "忽左忽右",
         "美投侃新闻"
       ],
       "items": [
         {
+          "id": "0d78b73e6f01c1761598d6db7cf58999b7ba2a5c",
+          "title": "好萊塢傳奇權力掮客 — Guy Oseary 談管理麥當娜 36 年、26 次 IPO 等 / The Legendary Hollywood Power Broker — Guy Oseary on 36 Years of Managing Madonna, 26 IPOs, and More",
+          "url": "https://www.youtube.com/watch?v=-e-gDi-nB1w",
+          "source": "Tim Ferriss",
+          "source_name": "OPML RSS",
+          "site_id": "blog",
+          "published_at": "2026-07-07T21:30:02Z"
+        },
+        {
           "id": "98aa00638f346dd07ea0545c35a1361402a07360",
           "title": "西藏：佛教的神祕境界 / Tibet: Mystical Realms of Buddhism",
           "url": "https://www.youtube.com/watch?v=WzkbITfp4So",
@@ -103,6 +132,15 @@
           "source_name": "OPML RSS",
           "site_id": "culture",
           "published_at": "2026-07-07T21:00:05Z"
+        },
+        {
+          "id": "195de5326e256a2d720c99c6e99265ca12170e5c",
+          "title": "巴格拉季昂行動：二戰最致命的夏季攻勢 / Operation Bagration: The Deadliest Summer Offensive Of WW2",
+          "url": "https://www.youtube.com/watch?v=mqhDr7Zxj-o",
+          "source": "Timeline - World History Documentaries",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-07T21:00:02Z"
         },
         {
           "id": "330de2655ac51834c23579f2fa752351d6773e63",
@@ -168,15 +206,15 @@
           "published_at": "2026-07-07T10:00:00Z"
         }
       ],
-      "item_count": 8,
-      "duplicate_count": 8,
-      "score": 0.7483,
-      "importance": 0.7483,
-      "importance_score": 0.7483,
+      "item_count": 10,
+      "duplicate_count": 10,
+      "score": 0.7355,
+      "importance": 0.7355,
+      "importance_score": 0.7355,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9942,
+        "recency": 0.9516,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -184,12 +222,88 @@
         "multi_source"
       ],
       "earliest_at": "2026-07-06T22:48:24Z",
-      "latest_at": "2026-07-07T21:00:05Z",
+      "latest_at": "2026-07-07T21:30:02Z",
       "primary_item": {
-        "id": "98aa00638f346dd07ea0545c35a1361402a07360",
-        "title": "西藏：佛教的神祕境界 / Tibet: Mystical Realms of Buddhism",
-        "url": "https://www.youtube.com/watch?v=WzkbITfp4So",
-        "source": "Best Documentary",
+        "id": "0d78b73e6f01c1761598d6db7cf58999b7ba2a5c",
+        "title": "好萊塢傳奇權力掮客 — Guy Oseary 談管理麥當娜 36 年、26 次 IPO 等 / The Legendary Hollywood Power Broker — Guy Oseary on 36 Years of Managing Madonna, 26 IPOs, and More",
+        "url": "https://www.youtube.com/watch?v=-e-gDi-nB1w",
+        "source": "Tim Ferriss",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_2963c75af236",
+      "title": "Muse Image 簡介：為您的世界建立圖像生成（Meta Newsroom） / Introducing Muse Image: Image Generation Built for Your World (Meta Newsroom)",
+      "url": "https://www.techmeme.com/260707/p30",
+      "primary_url": "https://www.techmeme.com/260707/p30",
+      "source": "Techmeme",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "ddb13f19401234ed8f45c7cacd82ca7e684ec680",
+          "title": "Muse Image 簡介：為您的世界建立圖像生成（Meta Newsroom） / Introducing Muse Image: Image Generation Built for Your World (Meta Newsroom)",
+          "url": "https://www.techmeme.com/260707/p30",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-07T18:17:30Z"
+        },
+        {
+          "id": "cd8918c48f7f1513cf2f19a61b0c10f0617afc25",
+          "title": "Meta 在 Meta AI 中推出了 Muse Image，這是其超級智慧實驗室的第一個圖像生成模型；它也將為 Instagram 和 WhatsApp 中的新工具提供支援（Meta Newsroom） / Meta rolls out Muse Image, the first image generation model from its Superintelligence Labs, in Meta AI; it will also power new tools in Instagram and WhatsApp (Meta Newsroom)",
+          "url": "https://www.techmeme.com/260707/p30",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-07T18:17:30Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Techmeme"
+      ],
+      "items": [
+        {
+          "id": "ddb13f19401234ed8f45c7cacd82ca7e684ec680",
+          "title": "Muse Image 簡介：為您的世界建立圖像生成（Meta Newsroom） / Introducing Muse Image: Image Generation Built for Your World (Meta Newsroom)",
+          "url": "https://www.techmeme.com/260707/p30",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-07T18:17:30Z"
+        },
+        {
+          "id": "cd8918c48f7f1513cf2f19a61b0c10f0617afc25",
+          "title": "Meta 在 Meta AI 中推出了 Muse Image，這是其超級智慧實驗室的第一個圖像生成模型；它也將為 Instagram 和 WhatsApp 中的新工具提供支援（Meta Newsroom） / Meta rolls out Muse Image, the first image generation model from its Superintelligence Labs, in Meta AI; it will also power new tools in Instagram and WhatsApp (Meta Newsroom)",
+          "url": "https://www.techmeme.com/260707/p30",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-07T18:17:30Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5454,
+      "importance": 0.5454,
+      "importance_score": 0.5454,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.5,
+        "recency": 0.8179,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-07T18:17:30Z",
+      "latest_at": "2026-07-07T18:17:30Z",
+      "primary_item": {
+        "id": "ddb13f19401234ed8f45c7cacd82ca7e684ec680",
+        "title": "Muse Image 簡介：為您的世界建立圖像生成（Meta Newsroom） / Introducing Muse Image: Image Generation Built for Your World (Meta Newsroom)",
+        "url": "https://www.techmeme.com/260707/p30",
+        "source": "Techmeme",
         "source_name": "OPML RSS"
       }
     },
@@ -246,13 +360,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5035,
-      "importance": 0.5035,
-      "importance_score": 0.5035,
+      "score": 0.4845,
+      "importance": 0.4845,
+      "importance_score": 0.4845,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6783,
+        "recency": 0.6149,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -322,13 +436,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4701,
-      "importance": 0.4701,
-      "importance_score": 0.4701,
+      "score": 0.4511,
+      "importance": 0.4511,
+      "importance_score": 0.4511,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.567,
+        "recency": 0.5036,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -398,13 +512,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3995,
-      "importance": 0.3995,
-      "importance_score": 0.3995,
+      "score": 0.3805,
+      "importance": 0.3805,
+      "importance_score": 0.3805,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.7485,
+        "recency": 0.6851,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -418,82 +532,6 @@
         "title": "維持有罪判決但獲縮減DQ刑期  瑪蓮勒龐2027可選總統  惟要戴電子手鐐拉票",
         "url": "https://europechinese.blogspot.com/2026/07/dq-2027.html",
         "source": "歐洲動態(國際)",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_a28414cf0d9a",
-      "title": "xAI 更名為 SpaceXAI 並推出新標誌（Kelsey Vlamis/Business Insider） / xAI rebrands to SpaceXAI and debuts a new logo (Kelsey Vlamis/Business Insider)",
-      "url": "https://www.techmeme.com/260706/p36",
-      "primary_url": "https://www.techmeme.com/260706/p36",
-      "source": "Techmeme",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "677e3671852606b98769cd83ffffc4cd6e3f881c",
-          "title": "xAI 更名為 SpaceXAI 並推出新標誌（Kelsey Vlamis/Business Insider） / xAI rebrands to SpaceXAI and debuts a new logo (Kelsey Vlamis/Business Insider)",
-          "url": "https://www.techmeme.com/260706/p36",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-06T22:20:00Z"
-        },
-        {
-          "id": "fe0e87b68b0134aa5bb996097817554881ff2b11",
-          "title": "xAI 更名為 SpaceXAI 並推出新標誌； Elon Musk 5 月表示，xAI 將作為一家獨立公司解散，並成為 SpaceX 的人工智慧產品（Kelsey Vlamis/Business Insider） / xAI rebrands to SpaceXAI and unveils a new logo; Elon Musk said in May that xAI would be dissolved as a separate company and become the AI products from SpaceX (Kelsey Vlamis/Business Insider)",
-          "url": "https://www.techmeme.com/260706/p36",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-06T22:20:00Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Techmeme"
-      ],
-      "items": [
-        {
-          "id": "677e3671852606b98769cd83ffffc4cd6e3f881c",
-          "title": "xAI 更名為 SpaceXAI 並推出新標誌（Kelsey Vlamis/Business Insider） / xAI rebrands to SpaceXAI and debuts a new logo (Kelsey Vlamis/Business Insider)",
-          "url": "https://www.techmeme.com/260706/p36",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-06T22:20:00Z"
-        },
-        {
-          "id": "fe0e87b68b0134aa5bb996097817554881ff2b11",
-          "title": "xAI 更名為 SpaceXAI 並推出新標誌； Elon Musk 5 月表示，xAI 將作為一家獨立公司解散，並成為 SpaceX 的人工智慧產品（Kelsey Vlamis/Business Insider） / xAI rebrands to SpaceXAI and unveils a new logo; Elon Musk said in May that xAI would be dissolved as a separate company and become the AI products from SpaceX (Kelsey Vlamis/Business Insider)",
-          "url": "https://www.techmeme.com/260706/p36",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-06T22:20:00Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.3149,
-      "importance": 0.3149,
-      "importance_score": 0.3149,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.5,
-        "recency": 0.0497,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-06T22:20:00Z",
-      "latest_at": "2026-07-06T22:20:00Z",
-      "primary_item": {
-        "id": "677e3671852606b98769cd83ffffc4cd6e3f881c",
-        "title": "xAI 更名為 SpaceXAI 並推出新標誌（Kelsey Vlamis/Business Insider） / xAI rebrands to SpaceXAI and debuts a new logo (Kelsey Vlamis/Business Insider)",
-        "url": "https://www.techmeme.com/260706/p36",
-        "source": "Techmeme",
         "source_name": "OPML RSS"
       }
     }
