@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-07-07T03:58:19.881315Z",
+  "generated_at": "2026-07-07T07:50:02.019380Z",
   "window_hours": 24,
-  "total_items": 4,
+  "total_items": 5,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "被波动耍了？TSLA大反弹上涨6.7%！为什么金融板块这么强？",
-      "url": "https://www.youtube.com/watch?v=k1pkRbcJV1g",
-      "primary_url": "https://www.youtube.com/watch?v=k1pkRbcJV1g",
-      "source": "Shepherd Capital Markets",
+      "title": "英伟达又被小作文搞？苹果博通大合作！买QQQ不买SpaceX！",
+      "url": "https://www.youtube.com/watch?v=x770wK7RjWE",
+      "primary_url": "https://www.youtube.com/watch?v=x770wK7RjWE",
+      "source": "美投侃新闻",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "25179765956eca79e76ad13239ca9881073b087f",
+          "title": "英伟达又被小作文搞？苹果博通大合作！买QQQ不买SpaceX！",
+          "url": "https://www.youtube.com/watch?v=x770wK7RjWE",
+          "source": "美投侃新闻",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-06T23:37:31Z"
+        },
         {
           "id": "538cd6bdb480e39237e83224f1932a1947486743",
           "title": "被波动耍了？TSLA大反弹上涨6.7%！为什么金融板块这么强？",
@@ -75,15 +84,6 @@
           "published_at": "2026-07-06T09:00:15Z"
         },
         {
-          "id": "0fafe103bf5acce8570646edded66cda6fa5ee26",
-          "title": "比特幣：四年周期再次襲來 / Bitcoin: The Four Year Cycle Strikes Again",
-          "url": "https://www.youtube.com/watch?v=sy6AxBbgico",
-          "source": "Benjamin Cowen",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-06T04:11:15Z"
-        },
-        {
           "id": "e440a9e88b8c384b5e500c50d20f62f42671fcc6",
           "title": "人工智慧發現了新的數學嗎？ / Has an AI discovered new maths?",
           "url": "https://www.youtube.com/watch?v=ZJ8KThKAfbs",
@@ -100,15 +100,6 @@
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
           "published_at": "2026-07-06T16:25:01Z"
-        },
-        {
-          "id": "498424374c4b2aecaf6c1419155a6838437ac801",
-          "title": "想幫台灣長出自己的「PayPal 黑手黨」！矽谷的成功配方在這裡「失效」了嗎？｜YouTube 共同創辦人 Steve Chen 陳士駿【塞掐 Side Chat】E413",
-          "url": "https://www.youtube.com/watch?v=FcMk18AmVKA",
-          "source": "【塞掐】訪談大人物",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-06T04:45:06Z"
         },
         {
           "id": "37640748eeeaf5e604b26cd006642c1c928b38de",
@@ -129,9 +120,8 @@
           "published_at": "2026-07-06T11:00:03Z"
         }
       ],
-      "source_count": 13,
+      "source_count": 12,
       "source_names": [
-        "Benjamin Cowen",
         "Best Documentary",
         "DenQ來了",
         "GOATFANS",
@@ -141,9 +131,18 @@
         "Tim Ferriss",
         "Timeline - World History Documentaries",
         "imineo Documentaires",
-        "【塞掐】訪談大人物"
+        "美投侃新闻"
       ],
       "items": [
+        {
+          "id": "25179765956eca79e76ad13239ca9881073b087f",
+          "title": "英伟达又被小作文搞？苹果博通大合作！买QQQ不买SpaceX！",
+          "url": "https://www.youtube.com/watch?v=x770wK7RjWE",
+          "source": "美投侃新闻",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-06T23:37:31Z"
+        },
         {
           "id": "538cd6bdb480e39237e83224f1932a1947486743",
           "title": "被波动耍了？TSLA大反弹上涨6.7%！为什么金融板块这么强？",
@@ -208,15 +207,6 @@
           "published_at": "2026-07-06T09:00:15Z"
         },
         {
-          "id": "0fafe103bf5acce8570646edded66cda6fa5ee26",
-          "title": "比特幣：四年周期再次襲來 / Bitcoin: The Four Year Cycle Strikes Again",
-          "url": "https://www.youtube.com/watch?v=sy6AxBbgico",
-          "source": "Benjamin Cowen",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-06T04:11:15Z"
-        },
-        {
           "id": "e440a9e88b8c384b5e500c50d20f62f42671fcc6",
           "title": "人工智慧發現了新的數學嗎？ / Has an AI discovered new maths?",
           "url": "https://www.youtube.com/watch?v=ZJ8KThKAfbs",
@@ -233,15 +223,6 @@
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
           "published_at": "2026-07-06T16:25:01Z"
-        },
-        {
-          "id": "498424374c4b2aecaf6c1419155a6838437ac801",
-          "title": "想幫台灣長出自己的「PayPal 黑手黨」！矽谷的成功配方在這裡「失效」了嗎？｜YouTube 共同創辦人 Steve Chen 陳士駿【塞掐 Side Chat】E413",
-          "url": "https://www.youtube.com/watch?v=FcMk18AmVKA",
-          "source": "【塞掐】訪談大人物",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-06T04:45:06Z"
         },
         {
           "id": "37640748eeeaf5e604b26cd006642c1c928b38de",
@@ -262,28 +243,104 @@
           "published_at": "2026-07-06T11:00:03Z"
         }
       ],
-      "item_count": 13,
-      "duplicate_count": 13,
-      "score": 0.6854,
-      "importance": 0.6854,
-      "importance_score": 0.6854,
+      "item_count": 12,
+      "duplicate_count": 12,
+      "score": 0.6474,
+      "importance": 0.6474,
+      "importance_score": 0.6474,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7848,
+        "recency": 0.658,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-06T04:11:15Z",
-      "latest_at": "2026-07-06T22:48:24Z",
+      "earliest_at": "2026-07-06T09:00:15Z",
+      "latest_at": "2026-07-06T23:37:31Z",
       "primary_item": {
-        "id": "538cd6bdb480e39237e83224f1932a1947486743",
-        "title": "被波动耍了？TSLA大反弹上涨6.7%！为什么金融板块这么强？",
-        "url": "https://www.youtube.com/watch?v=k1pkRbcJV1g",
-        "source": "Shepherd Capital Markets",
+        "id": "25179765956eca79e76ad13239ca9881073b087f",
+        "title": "英伟达又被小作文搞？苹果博通大合作！买QQQ不买SpaceX！",
+        "url": "https://www.youtube.com/watch?v=x770wK7RjWE",
+        "source": "美投侃新闻",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_a28414cf0d9a",
+      "title": "xAI 更名為 SpaceXAI 並推出新標誌（Kelsey Vlamis/Business Insider） / xAI rebrands to SpaceXAI and debuts a new logo (Kelsey Vlamis/Business Insider)",
+      "url": "https://www.techmeme.com/260706/p36",
+      "primary_url": "https://www.techmeme.com/260706/p36",
+      "source": "Techmeme",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "677e3671852606b98769cd83ffffc4cd6e3f881c",
+          "title": "xAI 更名為 SpaceXAI 並推出新標誌（Kelsey Vlamis/Business Insider） / xAI rebrands to SpaceXAI and debuts a new logo (Kelsey Vlamis/Business Insider)",
+          "url": "https://www.techmeme.com/260706/p36",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-06T22:20:00Z"
+        },
+        {
+          "id": "fe0e87b68b0134aa5bb996097817554881ff2b11",
+          "title": "xAI 更名為 SpaceXAI 並推出新標誌； Elon Musk 5 月表示，xAI 將作為一家獨立公司解散，並成為 SpaceX 的人工智慧產品（Kelsey Vlamis/Business Insider） / xAI rebrands to SpaceXAI and unveils a new logo; Elon Musk said in May that xAI would be dissolved as a separate company and become the AI products from SpaceX (Kelsey Vlamis/Business Insider)",
+          "url": "https://www.techmeme.com/260706/p36",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-06T22:20:00Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Techmeme"
+      ],
+      "items": [
+        {
+          "id": "677e3671852606b98769cd83ffffc4cd6e3f881c",
+          "title": "xAI 更名為 SpaceXAI 並推出新標誌（Kelsey Vlamis/Business Insider） / xAI rebrands to SpaceXAI and debuts a new logo (Kelsey Vlamis/Business Insider)",
+          "url": "https://www.techmeme.com/260706/p36",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-06T22:20:00Z"
+        },
+        {
+          "id": "fe0e87b68b0134aa5bb996097817554881ff2b11",
+          "title": "xAI 更名為 SpaceXAI 並推出新標誌； Elon Musk 5 月表示，xAI 將作為一家獨立公司解散，並成為 SpaceX 的人工智慧產品（Kelsey Vlamis/Business Insider） / xAI rebrands to SpaceXAI and unveils a new logo; Elon Musk said in May that xAI would be dissolved as a separate company and become the AI products from SpaceX (Kelsey Vlamis/Business Insider)",
+          "url": "https://www.techmeme.com/260706/p36",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-06T22:20:00Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.4812,
+      "importance": 0.4812,
+      "importance_score": 0.4812,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.5,
+        "recency": 0.6041,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-06T22:20:00Z",
+      "latest_at": "2026-07-06T22:20:00Z",
+      "primary_item": {
+        "id": "677e3671852606b98769cd83ffffc4cd6e3f881c",
+        "title": "xAI 更名為 SpaceXAI 並推出新標誌（Kelsey Vlamis/Business Insider） / xAI rebrands to SpaceXAI and debuts a new logo (Kelsey Vlamis/Business Insider)",
+        "url": "https://www.techmeme.com/260706/p36",
+        "source": "Techmeme",
         "source_name": "OPML RSS"
       }
     },
@@ -340,13 +397,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4216,
-      "importance": 0.4216,
-      "importance_score": 0.4216,
+      "score": 0.3733,
+      "importance": 0.3733,
+      "importance_score": 0.3733,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.4053,
+        "recency": 0.2444,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -416,13 +473,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4056,
-      "importance": 0.4056,
-      "importance_score": 0.4056,
+      "score": 0.3573,
+      "importance": 0.3573,
+      "importance_score": 0.3573,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.3519,
+        "recency": 0.1909,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -493,13 +550,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3107,
-      "importance": 0.3107,
-      "importance_score": 0.3107,
+      "score": 0.2624,
+      "importance": 0.2624,
+      "importance_score": 0.2624,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.4524,
+        "recency": 0.2915,
         "story_heat": 0.25
       },
       "category": "watch",
