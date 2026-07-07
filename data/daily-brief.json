@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-07-07T16:35:44.596753Z",
+  "generated_at": "2026-07-07T19:06:05.716584Z",
   "window_hours": 24,
-  "total_items": 4,
+  "total_items": 5,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "政府與組織犯罪：終極背叛（墨西哥、中國、牙買加） / Governments & Organized Crime: The Ultimate Betrayal (Mexico, China, Jamaica)",
-      "url": "https://www.youtube.com/watch?v=jG4xUOPho_w",
-      "primary_url": "https://www.youtube.com/watch?v=jG4xUOPho_w",
-      "source": "Best Documentary",
+      "title": "藝術史上最可怕的巧合 / The Scariest Coincidence in Art History",
+      "url": "https://www.youtube.com/watch?v=qex4M2o8Z5o",
+      "primary_url": "https://www.youtube.com/watch?v=qex4M2o8Z5o",
+      "source": "Inspiraggio",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "330de2655ac51834c23579f2fa752351d6773e63",
+          "title": "藝術史上最可怕的巧合 / The Scariest Coincidence in Art History",
+          "url": "https://www.youtube.com/watch?v=qex4M2o8Z5o",
+          "source": "Inspiraggio",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-07T18:19:26Z"
+        },
         {
           "id": "f514636c2752fb4c1bccbb05aacbd61a717d9c4b",
           "title": "政府與組織犯罪：終極背叛（墨西哥、中國、牙買加） / Governments & Organized Crime: The Ultimate Betrayal (Mexico, China, Jamaica)",
@@ -82,22 +91,13 @@
           "source_name": "OPML RSS",
           "site_id": "trending",
           "published_at": "2026-07-07T10:00:00Z"
-        },
-        {
-          "id": "37640748eeeaf5e604b26cd006642c1c928b38de",
-          "title": "當人工智慧一夜之間殺死你的生意：HubSpot 的衰落 / When AI Kills Your Business Overnight: The Fall Of HubSpot",
-          "url": "https://www.youtube.com/watch?v=V22VtQ916Y0",
-          "source": "Logically Answered",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-06T19:00:36Z"
         }
       ],
       "source_count": 9,
       "source_names": [
         "Best Documentary",
         "DenQ來了",
-        "Logically Answered",
+        "Inspiraggio",
         "Shepherd Capital Markets",
         "Timeline - World History Documentaries",
         "东海嘉措",
@@ -106,6 +106,15 @@
       ],
       "items": [
         {
+          "id": "330de2655ac51834c23579f2fa752351d6773e63",
+          "title": "藝術史上最可怕的巧合 / The Scariest Coincidence in Art History",
+          "url": "https://www.youtube.com/watch?v=qex4M2o8Z5o",
+          "source": "Inspiraggio",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-07T18:19:26Z"
+        },
+        {
           "id": "f514636c2752fb4c1bccbb05aacbd61a717d9c4b",
           "title": "政府與組織犯罪：終極背叛（墨西哥、中國、牙買加） / Governments & Organized Crime: The Ultimate Betrayal (Mexico, China, Jamaica)",
           "url": "https://www.youtube.com/watch?v=jG4xUOPho_w",
@@ -176,39 +185,30 @@
           "source_name": "OPML RSS",
           "site_id": "trending",
           "published_at": "2026-07-07T10:00:00Z"
-        },
-        {
-          "id": "37640748eeeaf5e604b26cd006642c1c928b38de",
-          "title": "當人工智慧一夜之間殺死你的生意：HubSpot 的衰落 / When AI Kills Your Business Overnight: The Fall Of HubSpot",
-          "url": "https://www.youtube.com/watch?v=V22VtQ916Y0",
-          "source": "Logically Answered",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-06T19:00:36Z"
         }
       ],
       "item_count": 9,
       "duplicate_count": 9,
-      "score": 0.6927,
-      "importance": 0.6927,
-      "importance_score": 0.6927,
+      "score": 0.7403,
+      "importance": 0.7403,
+      "importance_score": 0.7403,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.8089,
+        "recency": 0.9676,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-06T19:00:36Z",
-      "latest_at": "2026-07-07T12:00:30Z",
+      "earliest_at": "2026-07-06T21:00:05Z",
+      "latest_at": "2026-07-07T18:19:26Z",
       "primary_item": {
-        "id": "f514636c2752fb4c1bccbb05aacbd61a717d9c4b",
-        "title": "政府與組織犯罪：終極背叛（墨西哥、中國、牙買加） / Governments & Organized Crime: The Ultimate Betrayal (Mexico, China, Jamaica)",
-        "url": "https://www.youtube.com/watch?v=jG4xUOPho_w",
-        "source": "Best Documentary",
+        "id": "330de2655ac51834c23579f2fa752351d6773e63",
+        "title": "藝術史上最可怕的巧合 / The Scariest Coincidence in Art History",
+        "url": "https://www.youtube.com/watch?v=qex4M2o8Z5o",
+        "source": "Inspiraggio",
         "source_name": "OPML RSS"
       }
     },
@@ -265,13 +265,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5603,
-      "importance": 0.5603,
-      "importance_score": 0.5603,
+      "score": 0.529,
+      "importance": 0.529,
+      "importance_score": 0.529,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.8676,
+        "recency": 0.7632,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -341,13 +341,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5269,
-      "importance": 0.5269,
-      "importance_score": 0.5269,
+      "score": 0.4956,
+      "importance": 0.4956,
+      "importance_score": 0.4956,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7564,
+        "recency": 0.652,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -361,6 +361,82 @@
         "title": "消息來源：DeepSeek 正處於開發自己的推理人工智慧晶片的早期階段，此舉可能會減少對 Nvidia 和華為晶片的依賴（路透社） / Sources: DeepSeek is at an early stage of developing its own AI chip designed for inference, in a push that could reduce its reliance on Nvidia and Huawei chips (Reuters)",
         "url": "https://www.techmeme.com/260707/p10",
         "source": "Techmeme",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_b7ac9c7131a3",
+      "title": "維持有罪判決但獲縮減DQ刑期  瑪蓮勒龐2027可選總統  惟要戴電子手鐐拉票",
+      "url": "https://europechinese.blogspot.com/2026/07/dq-2027.html",
+      "primary_url": "https://europechinese.blogspot.com/2026/07/dq-2027.html",
+      "source": "歐洲動態(國際)",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "5bd3c60e2db83b4be98e5ebf5e6287aaebd4577d",
+          "title": "維持有罪判決但獲縮減DQ刑期  瑪蓮勒龐2027可選總統  惟要戴電子手鐐拉票",
+          "url": "https://europechinese.blogspot.com/2026/07/dq-2027.html",
+          "source": "歐洲動態(國際)",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-07T15:06:15Z"
+        },
+        {
+          "id": "5e43eaefe52b140ebba96f25b5fcdac4bb00fc83",
+          "title": "維持有罪判決但獲縮減DQ刑期  瑪蓮勒龐宣佈：去馬2027總統大選",
+          "url": "https://europechinese.blogspot.com/2026/07/dq-2027.html",
+          "source": "歐洲動態(國際)",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-07T15:06:15Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "歐洲動態(國際)"
+      ],
+      "items": [
+        {
+          "id": "5bd3c60e2db83b4be98e5ebf5e6287aaebd4577d",
+          "title": "維持有罪判決但獲縮減DQ刑期  瑪蓮勒龐2027可選總統  惟要戴電子手鐐拉票",
+          "url": "https://europechinese.blogspot.com/2026/07/dq-2027.html",
+          "source": "歐洲動態(國際)",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-07T15:06:15Z"
+        },
+        {
+          "id": "5e43eaefe52b140ebba96f25b5fcdac4bb00fc83",
+          "title": "維持有罪判決但獲縮減DQ刑期  瑪蓮勒龐宣佈：去馬2027總統大選",
+          "url": "https://europechinese.blogspot.com/2026/07/dq-2027.html",
+          "source": "歐洲動態(國際)",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-07T15:06:15Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.425,
+      "importance": 0.425,
+      "importance_score": 0.425,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.25,
+        "recency": 0.8334,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-07T15:06:15Z",
+      "latest_at": "2026-07-07T15:06:15Z",
+      "primary_item": {
+        "id": "5bd3c60e2db83b4be98e5ebf5e6287aaebd4577d",
+        "title": "維持有罪判決但獲縮減DQ刑期  瑪蓮勒龐2027可選總統  惟要戴電子手鐐拉票",
+        "url": "https://europechinese.blogspot.com/2026/07/dq-2027.html",
+        "source": "歐洲動態(國際)",
         "source_name": "OPML RSS"
       }
     },
@@ -417,13 +493,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3717,
-      "importance": 0.3717,
-      "importance_score": 0.3717,
+      "score": 0.3404,
+      "importance": 0.3404,
+      "importance_score": 0.3404,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.2391,
+        "recency": 0.1347,
         "story_heat": 0.25
       },
       "category": "watch",
