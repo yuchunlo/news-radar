@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-07-07T11:14:31.203032Z",
+  "generated_at": "2026-07-07T13:37:14.487943Z",
   "window_hours": 24,
   "total_items": 5,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "发现宝藏 | 我在西藏发现大量的海洋生物化石，侏罗纪之门",
-      "url": "https://www.youtube.com/watch?v=9YR0qubK3Uo",
-      "primary_url": "https://www.youtube.com/watch?v=9YR0qubK3Uo",
-      "source": "东海嘉措",
+      "title": "政府與組織犯罪：終極背叛（墨西哥、中國、牙買加） / Governments & Organized Crime: The Ultimate Betrayal (Mexico, China, Jamaica)",
+      "url": "https://www.youtube.com/watch?v=jG4xUOPho_w",
+      "primary_url": "https://www.youtube.com/watch?v=jG4xUOPho_w",
+      "source": "Best Documentary",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "f514636c2752fb4c1bccbb05aacbd61a717d9c4b",
+          "title": "政府與組織犯罪：終極背叛（墨西哥、中國、牙買加） / Governments & Organized Crime: The Ultimate Betrayal (Mexico, China, Jamaica)",
+          "url": "https://www.youtube.com/watch?v=jG4xUOPho_w",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-07T12:00:30Z"
+        },
         {
           "id": "11f104cc4589e07535c0b6576792eb2ce79e4940",
           "title": "发现宝藏 | 我在西藏发现大量的海洋生物化石，侏罗纪之门",
@@ -82,15 +91,6 @@
           "source_name": "OPML RSS",
           "site_id": "blog",
           "published_at": "2026-07-06T14:50:55Z"
-        },
-        {
-          "id": "fd2c6f3cd6cb2f119502c81ffcb287aac4095050",
-          "title": "歐洲就是這樣保衛自己的：看看歐盟的對外行動 / This Is How Europe Defends Itself: A Look at the EU's External Action",
-          "url": "https://www.youtube.com/watch?v=nvm2u2mgj8s",
-          "source": "Best Documentary",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-06T12:00:05Z"
         },
         {
           "id": "e440a9e88b8c384b5e500c50d20f62f42671fcc6",
@@ -145,6 +145,15 @@
       ],
       "items": [
         {
+          "id": "f514636c2752fb4c1bccbb05aacbd61a717d9c4b",
+          "title": "政府與組織犯罪：終極背叛（墨西哥、中國、牙買加） / Governments & Organized Crime: The Ultimate Betrayal (Mexico, China, Jamaica)",
+          "url": "https://www.youtube.com/watch?v=jG4xUOPho_w",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-07T12:00:30Z"
+        },
+        {
           "id": "11f104cc4589e07535c0b6576792eb2ce79e4940",
           "title": "发现宝藏 | 我在西藏发现大量的海洋生物化石，侏罗纪之门",
           "url": "https://www.youtube.com/watch?v=9YR0qubK3Uo",
@@ -217,15 +226,6 @@
           "published_at": "2026-07-06T14:50:55Z"
         },
         {
-          "id": "fd2c6f3cd6cb2f119502c81ffcb287aac4095050",
-          "title": "歐洲就是這樣保衛自己的：看看歐盟的對外行動 / This Is How Europe Defends Itself: A Look at the EU's External Action",
-          "url": "https://www.youtube.com/watch?v=nvm2u2mgj8s",
-          "source": "Best Documentary",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-06T12:00:05Z"
-        },
-        {
           "id": "e440a9e88b8c384b5e500c50d20f62f42671fcc6",
           "title": "人工智慧發現了新的數學嗎？ / Has an AI discovered new maths?",
           "url": "https://www.youtube.com/watch?v=ZJ8KThKAfbs",
@@ -264,26 +264,102 @@
       ],
       "item_count": 13,
       "duplicate_count": 13,
-      "score": 0.7351,
-      "importance": 0.7351,
-      "importance_score": 0.7351,
+      "score": 0.7298,
+      "importance": 0.7298,
+      "importance_score": 0.7298,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9504,
+        "recency": 0.9328,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-06T12:00:05Z",
-      "latest_at": "2026-07-07T10:03:06Z",
+      "earliest_at": "2026-07-06T14:50:55Z",
+      "latest_at": "2026-07-07T12:00:30Z",
       "primary_item": {
-        "id": "11f104cc4589e07535c0b6576792eb2ce79e4940",
-        "title": "发现宝藏 | 我在西藏发现大量的海洋生物化石，侏罗纪之门",
-        "url": "https://www.youtube.com/watch?v=9YR0qubK3Uo",
-        "source": "东海嘉措",
+        "id": "f514636c2752fb4c1bccbb05aacbd61a717d9c4b",
+        "title": "政府與組織犯罪：終極背叛（墨西哥、中國、牙買加） / Governments & Organized Crime: The Ultimate Betrayal (Mexico, China, Jamaica)",
+        "url": "https://www.youtube.com/watch?v=jG4xUOPho_w",
+        "source": "Best Documentary",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_afe9a7674b7c",
+      "title": "消息來源：DeepSeek 正處於開發自己的推理人工智慧晶片的早期階段，此舉可能會減少對 Nvidia 和華為晶片的依賴（路透社） / Sources: DeepSeek is at an early stage of developing its own AI chip designed for inference, in a push that could reduce its reliance on Nvidia and Huawei chips (Reuters)",
+      "url": "https://www.techmeme.com/260707/p10",
+      "primary_url": "https://www.techmeme.com/260707/p10",
+      "source": "Techmeme",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "c1d847f8280f9283049a8769be42fd3c75a63e8a",
+          "title": "消息來源：DeepSeek 正處於開發自己的推理人工智慧晶片的早期階段，此舉可能會減少對 Nvidia 和華為晶片的依賴（路透社） / Sources: DeepSeek is at an early stage of developing its own AI chip designed for inference, in a push that could reduce its reliance on Nvidia and Huawei chips (Reuters)",
+          "url": "https://www.techmeme.com/260707/p10",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-07T10:45:00Z"
+        },
+        {
+          "id": "74477274e181292410492beecbad0abf4ac6f9a4",
+          "title": "消息來源：DeepSeek 正處於開發自己的推理人工智慧晶片的早期階段，以減少對 Nvidia 和華為硬體的依賴（路透社） / Sources: DeepSeek is in the early stages of developing its own AI chip designed for inference, in a bid to reduce its reliance on Nvidia and Huawei hardware (Reuters)",
+          "url": "https://www.techmeme.com/260707/p10",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-07T10:45:00Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Techmeme"
+      ],
+      "items": [
+        {
+          "id": "c1d847f8280f9283049a8769be42fd3c75a63e8a",
+          "title": "消息來源：DeepSeek 正處於開發自己的推理人工智慧晶片的早期階段，此舉可能會減少對 Nvidia 和華為晶片的依賴（路透社） / Sources: DeepSeek is at an early stage of developing its own AI chip designed for inference, in a push that could reduce its reliance on Nvidia and Huawei chips (Reuters)",
+          "url": "https://www.techmeme.com/260707/p10",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-07T10:45:00Z"
+        },
+        {
+          "id": "74477274e181292410492beecbad0abf4ac6f9a4",
+          "title": "消息來源：DeepSeek 正處於開發自己的推理人工智慧晶片的早期階段，以減少對 Nvidia 和華為硬體的依賴（路透社） / Sources: DeepSeek is in the early stages of developing its own AI chip designed for inference, in a bid to reduce its reliance on Nvidia and Huawei hardware (Reuters)",
+          "url": "https://www.techmeme.com/260707/p10",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-07T10:45:00Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5641,
+      "importance": 0.5641,
+      "importance_score": 0.5641,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.5,
+        "recency": 0.8804,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-07T10:45:00Z",
+      "latest_at": "2026-07-07T10:45:00Z",
+      "primary_item": {
+        "id": "c1d847f8280f9283049a8769be42fd3c75a63e8a",
+        "title": "消息來源：DeepSeek 正處於開發自己的推理人工智慧晶片的早期階段，此舉可能會減少對 Nvidia 和華為晶片的依賴（路透社） / Sources: DeepSeek is at an early stage of developing its own AI chip designed for inference, in a push that could reduce its reliance on Nvidia and Huawei chips (Reuters)",
+        "url": "https://www.techmeme.com/260707/p10",
+        "source": "Techmeme",
         "source_name": "OPML RSS"
       }
     },
@@ -340,13 +416,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4386,
-      "importance": 0.4386,
-      "importance_score": 0.4386,
+      "score": 0.4089,
+      "importance": 0.4089,
+      "importance_score": 0.4089,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.4621,
+        "recency": 0.363,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -416,13 +492,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3307,
-      "importance": 0.3307,
-      "importance_score": 0.3307,
+      "score": 0.301,
+      "importance": 0.301,
+      "importance_score": 0.301,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.1024,
+        "recency": 0.0032,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -435,82 +511,6 @@
         "id": "c530887ea439528b745b81b33f918751146cbab8",
         "title": "微軟 Xbox 部門計劃在明年裁員 3,200 人，其中周一裁員 1,600 人，並在「重置」中剝離包括 Ninja Theory 在內的最多 5 個工作室（彭博社） / Microsoft's Xbox unit plans to cut 3,200 jobs over the next year, including 1,600 on Monday, and divest up to five studios, including Ninja Theory, in a \"reset\" (Bloomberg)",
         "url": "https://www.techmeme.com/260706/p20",
-        "source": "Techmeme",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_0a768b4ee551",
-      "title": "Anthropic 簽署了一項為期 20 年、價值 19B 美元的租約，使用肯塔基州的 TeraWulf 資料中心，該資料中心的容量約為 400MW，並於 2027 年下半年首次供電 (CNBC) / Anthropic signs a 20-year, $19B lease to use a TeraWulf data center in Kentucky, set to have a ~400MW capacity, with the first power delivery in H2 2027 (CNBC)",
-      "url": "https://www.techmeme.com/260706/p16",
-      "primary_url": "https://www.techmeme.com/260706/p16",
-      "source": "Techmeme",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "b6c3a7ee5e32d18fc8917ed28eb819607dcdd33c",
-          "title": "Anthropic 簽署了一項為期 20 年、價值 19B 美元的租約，使用肯塔基州的 TeraWulf 資料中心，該資料中心的容量約為 400MW，並於 2027 年下半年首次供電 (CNBC) / Anthropic signs a 20-year, $19B lease to use a TeraWulf data center in Kentucky, set to have a ~400MW capacity, with the first power delivery in H2 2027 (CNBC)",
-          "url": "https://www.techmeme.com/260706/p16",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-06T12:25:00Z"
-        },
-        {
-          "id": "e95c471631f01157285c17935098c580ff34d5c3",
-          "title": "Anthropic 簽署了一項為期 20 年、約 19B 美元的租約，使用肯塔基州的 TeraWulf 資料中心，該資料中心的容量約為 400MW，並於 2027 年下半年開始供電 (CNBC) / Anthropic signs a 20-year, ~$19B lease to use a TeraWulf data center in Kentucky, set to have a ~400MW capacity and to start delivering power in H2 2027 (CNBC)",
-          "url": "https://www.techmeme.com/260706/p16",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-06T12:25:00Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Techmeme"
-      ],
-      "items": [
-        {
-          "id": "b6c3a7ee5e32d18fc8917ed28eb819607dcdd33c",
-          "title": "Anthropic 簽署了一項為期 20 年、價值 19B 美元的租約，使用肯塔基州的 TeraWulf 資料中心，該資料中心的容量約為 400MW，並於 2027 年下半年首次供電 (CNBC) / Anthropic signs a 20-year, $19B lease to use a TeraWulf data center in Kentucky, set to have a ~400MW capacity, with the first power delivery in H2 2027 (CNBC)",
-          "url": "https://www.techmeme.com/260706/p16",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-06T12:25:00Z"
-        },
-        {
-          "id": "e95c471631f01157285c17935098c580ff34d5c3",
-          "title": "Anthropic 簽署了一項為期 20 年、約 19B 美元的租約，使用肯塔基州的 TeraWulf 資料中心，該資料中心的容量約為 400MW，並於 2027 年下半年開始供電 (CNBC) / Anthropic signs a 20-year, ~$19B lease to use a TeraWulf data center in Kentucky, set to have a ~400MW capacity and to start delivering power in H2 2027 (CNBC)",
-          "url": "https://www.techmeme.com/260706/p16",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-06T12:25:00Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.3147,
-      "importance": 0.3147,
-      "importance_score": 0.3147,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.5,
-        "recency": 0.0489,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-06T12:25:00Z",
-      "latest_at": "2026-07-06T12:25:00Z",
-      "primary_item": {
-        "id": "b6c3a7ee5e32d18fc8917ed28eb819607dcdd33c",
-        "title": "Anthropic 簽署了一項為期 20 年、價值 19B 美元的租約，使用肯塔基州的 TeraWulf 資料中心，該資料中心的容量約為 400MW，並於 2027 年下半年首次供電 (CNBC) / Anthropic signs a 20-year, $19B lease to use a TeraWulf data center in Kentucky, set to have a ~400MW capacity, with the first power delivery in H2 2027 (CNBC)",
-        "url": "https://www.techmeme.com/260706/p16",
         "source": "Techmeme",
         "source_name": "OPML RSS"
       }
@@ -569,13 +569,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.2198,
-      "importance": 0.2198,
-      "importance_score": 0.2198,
+      "score": 0.1901,
+      "importance": 0.1901,
+      "importance_score": 0.1901,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.1495,
+        "recency": 0.0504,
         "story_heat": 0.25
       },
       "category": "watch",
