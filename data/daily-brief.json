@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-07-08T21:15:09.598667Z",
+  "generated_at": "2026-07-08T22:34:35.113840Z",
   "window_hours": 24,
   "total_items": 7,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "白天的父親，晚上的怪物：打破沉默 / Fathers by Day, Monsters by Night: Breaking the Silence",
-      "url": "https://www.youtube.com/watch?v=dK6j78tNXw4",
-      "primary_url": "https://www.youtube.com/watch?v=dK6j78tNXw4",
-      "source": "Best Documentary",
+      "title": "苹果，英伟达背水一战，撑起畸形的美股市场",
+      "url": "https://www.youtube.com/watch?v=Y-0vqTc0OxA",
+      "primary_url": "https://www.youtube.com/watch?v=Y-0vqTc0OxA",
+      "source": "Shepherd Capital Markets",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "82f5951e0fe2c2779d80be867c41ea34240167c3",
+          "title": "苹果，英伟达背水一战，撑起畸形的美股市场",
+          "url": "https://www.youtube.com/watch?v=Y-0vqTc0OxA",
+          "source": "Shepherd Capital Markets",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-08T22:21:28Z"
+        },
         {
           "id": "9944bd3b65b87762c2a8a6ca33148a16b176272e",
           "title": "白天的父親，晚上的怪物：打破沉默 / Fathers by Day, Monsters by Night: Breaking the Silence",
@@ -64,15 +73,6 @@
           "source_name": "OPML RSS",
           "site_id": "finance",
           "published_at": "2026-07-08T00:15:19Z"
-        },
-        {
-          "id": "0d78b73e6f01c1761598d6db7cf58999b7ba2a5c",
-          "title": "好萊塢傳奇權力掮客 — Guy Oseary 談管理麥當娜 36 年、26 次 IPO 等 / The Legendary Hollywood Power Broker — Guy Oseary on 36 Years of Managing Madonna, 26 IPOs, and More",
-          "url": "https://www.youtube.com/watch?v=-e-gDi-nB1w",
-          "source": "Tim Ferriss",
-          "source_name": "OPML RSS",
-          "site_id": "blog",
-          "published_at": "2026-07-07T21:30:02Z"
         },
         {
           "id": "a06fa00dfc7223301718f4648caea226b9953351",
@@ -118,12 +118,21 @@
         "DenQ來了",
         "GOATFANS",
         "Pursuit of Wonder",
-        "Tim Ferriss",
+        "Shepherd Capital Markets",
         "imineo Documentaires",
         "公視P#新聞實驗室",
         "美投侃新闻"
       ],
       "items": [
+        {
+          "id": "82f5951e0fe2c2779d80be867c41ea34240167c3",
+          "title": "苹果，英伟达背水一战，撑起畸形的美股市场",
+          "url": "https://www.youtube.com/watch?v=Y-0vqTc0OxA",
+          "source": "Shepherd Capital Markets",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-08T22:21:28Z"
+        },
         {
           "id": "9944bd3b65b87762c2a8a6ca33148a16b176272e",
           "title": "白天的父親，晚上的怪物：打破沉默 / Fathers by Day, Monsters by Night: Breaking the Silence",
@@ -179,15 +188,6 @@
           "published_at": "2026-07-08T00:15:19Z"
         },
         {
-          "id": "0d78b73e6f01c1761598d6db7cf58999b7ba2a5c",
-          "title": "好萊塢傳奇權力掮客 — Guy Oseary 談管理麥當娜 36 年、26 次 IPO 等 / The Legendary Hollywood Power Broker — Guy Oseary on 36 Years of Managing Madonna, 26 IPOs, and More",
-          "url": "https://www.youtube.com/watch?v=-e-gDi-nB1w",
-          "source": "Tim Ferriss",
-          "source_name": "OPML RSS",
-          "site_id": "blog",
-          "published_at": "2026-07-07T21:30:02Z"
-        },
-        {
           "id": "a06fa00dfc7223301718f4648caea226b9953351",
           "title": "量子自悖論：科學中最奇怪的想法 / The Quantum-Self Paradox: The Strangest Idea in Science",
           "url": "https://www.youtube.com/watch?v=gm8Bj2kCkfs",
@@ -226,26 +226,26 @@
       ],
       "item_count": 11,
       "duplicate_count": 11,
-      "score": 0.7469,
-      "importance": 0.7469,
-      "importance_score": 0.7469,
+      "score": 0.7473,
+      "importance": 0.7473,
+      "importance_score": 0.7473,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9896,
+        "recency": 0.9909,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-07T21:30:02Z",
-      "latest_at": "2026-07-08T21:00:14Z",
+      "earliest_at": "2026-07-08T00:15:19Z",
+      "latest_at": "2026-07-08T22:21:28Z",
       "primary_item": {
-        "id": "9944bd3b65b87762c2a8a6ca33148a16b176272e",
-        "title": "白天的父親，晚上的怪物：打破沉默 / Fathers by Day, Monsters by Night: Breaking the Silence",
-        "url": "https://www.youtube.com/watch?v=dK6j78tNXw4",
-        "source": "Best Documentary",
+        "id": "82f5951e0fe2c2779d80be867c41ea34240167c3",
+        "title": "苹果，英伟达背水一战，撑起畸形的美股市场",
+        "url": "https://www.youtube.com/watch?v=Y-0vqTc0OxA",
+        "source": "Shepherd Capital Markets",
         "source_name": "OPML RSS"
       }
     },
@@ -302,13 +302,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5218,
-      "importance": 0.5218,
-      "importance_score": 0.5218,
+      "score": 0.5053,
+      "importance": 0.5053,
+      "importance_score": 0.5053,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7395,
+        "recency": 0.6843,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -378,13 +378,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4958,
-      "importance": 0.4958,
-      "importance_score": 0.4958,
+      "score": 0.4793,
+      "importance": 0.4793,
+      "importance_score": 0.4793,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6527,
+        "recency": 0.5975,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -472,13 +472,13 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.4593,
-      "importance": 0.4593,
-      "importance_score": 0.4593,
+      "score": 0.4428,
+      "importance": 0.4428,
+      "importance_score": 0.4428,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.7811,
+        "recency": 0.726,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -548,13 +548,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4864,
-      "importance": 0.4864,
-      "importance_score": 0.4864,
+      "score": 0.4699,
+      "importance": 0.4699,
+      "importance_score": 0.4699,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6214,
+        "recency": 0.5663,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -624,13 +624,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3772,
-      "importance": 0.3772,
-      "importance_score": 0.3772,
+      "score": 0.3606,
+      "importance": 0.3606,
+      "importance_score": 0.3606,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.2572,
+        "recency": 0.2021,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -700,13 +700,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3646,
-      "importance": 0.3646,
-      "importance_score": 0.3646,
+      "score": 0.348,
+      "importance": 0.348,
+      "importance_score": 0.348,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.2152,
+        "recency": 0.16,
         "story_heat": 0.25
       },
       "category": "watch",
