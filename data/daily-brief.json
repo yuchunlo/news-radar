@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T22:39:44.697795Z",
+  "generated_at": "2026-07-08T00:03:20.009129Z",
   "window_hours": 24,
   "total_items": 5,
   "items": [
@@ -75,24 +75,6 @@
           "published_at": "2026-07-07T09:49:40Z"
         },
         {
-          "id": "25179765956eca79e76ad13239ca9881073b087f",
-          "title": "英伟达又被小作文搞？苹果博通大合作！买QQQ不买SpaceX！",
-          "url": "https://www.youtube.com/watch?v=x770wK7RjWE",
-          "source": "美投侃新闻",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-06T23:37:31Z"
-        },
-        {
-          "id": "538cd6bdb480e39237e83224f1932a1947486743",
-          "title": "被波动耍了？TSLA大反弹上涨6.7%！为什么金融板块这么强？",
-          "url": "https://www.youtube.com/watch?v=k1pkRbcJV1g",
-          "source": "Shepherd Capital Markets",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-06T22:48:24Z"
-        },
-        {
           "id": "3268057b02e194e8f631fa6e627fa12c1d1c5ea0",
           "title": "i-dle新曲韓網反應/出道9年宣布解散了/最近讓韓網集體淪陷的男團成員｜DenQ",
           "url": "https://www.youtube.com/watch?v=n8Onfs_oHGs",
@@ -102,17 +84,15 @@
           "published_at": "2026-07-07T10:00:00Z"
         }
       ],
-      "source_count": 10,
+      "source_count": 8,
       "source_names": [
         "Best Documentary",
         "DenQ來了",
         "Inspiraggio",
-        "Shepherd Capital Markets",
         "Tim Ferriss",
         "Timeline - World History Documentaries",
         "东海嘉措",
-        "忽左忽右",
-        "美投侃新闻"
+        "忽左忽右"
       ],
       "items": [
         {
@@ -179,24 +159,6 @@
           "published_at": "2026-07-07T09:49:40Z"
         },
         {
-          "id": "25179765956eca79e76ad13239ca9881073b087f",
-          "title": "英伟达又被小作文搞？苹果博通大合作！买QQQ不买SpaceX！",
-          "url": "https://www.youtube.com/watch?v=x770wK7RjWE",
-          "source": "美投侃新闻",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-06T23:37:31Z"
-        },
-        {
-          "id": "538cd6bdb480e39237e83224f1932a1947486743",
-          "title": "被波动耍了？TSLA大反弹上涨6.7%！为什么金融板块这么强？",
-          "url": "https://www.youtube.com/watch?v=k1pkRbcJV1g",
-          "source": "Shepherd Capital Markets",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-06T22:48:24Z"
-        },
-        {
           "id": "3268057b02e194e8f631fa6e627fa12c1d1c5ea0",
           "title": "i-dle新曲韓網反應/出道9年宣布解散了/最近讓韓網集體淪陷的男團成員｜DenQ",
           "url": "https://www.youtube.com/watch?v=n8Onfs_oHGs",
@@ -206,22 +168,22 @@
           "published_at": "2026-07-07T10:00:00Z"
         }
       ],
-      "item_count": 10,
-      "duplicate_count": 10,
-      "score": 0.7355,
-      "importance": 0.7355,
-      "importance_score": 0.7355,
+      "item_count": 8,
+      "duplicate_count": 8,
+      "score": 0.7181,
+      "importance": 0.7181,
+      "importance_score": 0.7181,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9516,
+        "recency": 0.8935,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-06T22:48:24Z",
+      "earliest_at": "2026-07-07T09:49:40Z",
       "latest_at": "2026-07-07T21:30:02Z",
       "primary_item": {
         "id": "0d78b73e6f01c1761598d6db7cf58999b7ba2a5c",
@@ -284,13 +246,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5454,
-      "importance": 0.5454,
-      "importance_score": 0.5454,
+      "score": 0.528,
+      "importance": 0.528,
+      "importance_score": 0.528,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.8179,
+        "recency": 0.7598,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -360,13 +322,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4845,
-      "importance": 0.4845,
-      "importance_score": 0.4845,
+      "score": 0.467,
+      "importance": 0.467,
+      "importance_score": 0.467,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6149,
+        "recency": 0.5568,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -436,13 +398,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4511,
-      "importance": 0.4511,
-      "importance_score": 0.4511,
+      "score": 0.4337,
+      "importance": 0.4337,
+      "importance_score": 0.4337,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.5036,
+        "recency": 0.4456,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -512,13 +474,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3805,
-      "importance": 0.3805,
-      "importance_score": 0.3805,
+      "score": 0.3631,
+      "importance": 0.3631,
+      "importance_score": 0.3631,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.6851,
+        "recency": 0.627,
         "story_heat": 0.25
       },
       "category": "watch",
