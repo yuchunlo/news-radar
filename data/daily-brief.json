@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-08T03:55:56.897637Z",
+  "generated_at": "2026-07-08T06:35:06.897215Z",
   "window_hours": 24,
-  "total_items": 5,
+  "total_items": 6,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
@@ -170,13 +170,13 @@
       ],
       "item_count": 8,
       "duplicate_count": 8,
-      "score": 0.6696,
-      "importance": 0.6696,
-      "importance_score": 0.6696,
+      "score": 0.6364,
+      "importance": 0.6364,
+      "importance_score": 0.6364,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.732,
+        "recency": 0.6215,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -190,6 +190,82 @@
         "title": "好萊塢傳奇權力掮客 — Guy Oseary 談管理麥當娜 36 年、26 次 IPO 等 / The Legendary Hollywood Power Broker — Guy Oseary on 36 Years of Managing Madonna, 26 IPOs, and More",
         "url": "https://www.youtube.com/watch?v=-e-gDi-nB1w",
         "source": "Tim Ferriss",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_218d9b6b28d0",
+      "title": "OpenAI 表示 GPT-5.6 Sol 以及 Terra 和 Luna 將於週四公開發布；消息人士稱，美國商務部已批准廣泛部署 (Axios) / OpenAI says GPT-5.6 Sol, along with Terra and Luna, will launch publicly on Thursday; a source says the US Department of Commerce cleared a broad rollout (Axios)",
+      "url": "https://www.techmeme.com/260707/p45",
+      "primary_url": "https://www.techmeme.com/260707/p45",
+      "source": "Techmeme",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "13477b8807d43565ca67300a4a17929d40641404",
+          "title": "OpenAI 表示 GPT-5.6 Sol 以及 Terra 和 Luna 將於週四公開發布；消息人士稱，美國商務部已批准廣泛部署 (Axios) / OpenAI says GPT-5.6 Sol, along with Terra and Luna, will launch publicly on Thursday; a source says the US Department of Commerce cleared a broad rollout (Axios)",
+          "url": "https://www.techmeme.com/260707/p45",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-08T03:25:33Z"
+        },
+        {
+          "id": "8c0730153d502c60ed39852c6b8a235eef1abf6d",
+          "title": "資料來源：美國商務部已為 OpenAI 廣泛推出 GPT 5.6 開綠燈；該公司預計本週將進行廣泛發布（Axios） / Source: the US Department of Commerce has given OpenAI the green light for a broad launch of GPT 5.6; the company expects to do a wide release this week (Axios)",
+          "url": "https://www.techmeme.com/260707/p45",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-08T03:25:33Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Techmeme"
+      ],
+      "items": [
+        {
+          "id": "13477b8807d43565ca67300a4a17929d40641404",
+          "title": "OpenAI 表示 GPT-5.6 Sol 以及 Terra 和 Luna 將於週四公開發布；消息人士稱，美國商務部已批准廣泛部署 (Axios) / OpenAI says GPT-5.6 Sol, along with Terra and Luna, will launch publicly on Thursday; a source says the US Department of Commerce cleared a broad rollout (Axios)",
+          "url": "https://www.techmeme.com/260707/p45",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-08T03:25:33Z"
+        },
+        {
+          "id": "8c0730153d502c60ed39852c6b8a235eef1abf6d",
+          "title": "資料來源：美國商務部已為 OpenAI 廣泛推出 GPT 5.6 開綠燈；該公司預計本週將進行廣泛發布（Axios） / Source: the US Department of Commerce has given OpenAI the green light for a broad launch of GPT 5.6; the company expects to do a wide release this week (Axios)",
+          "url": "https://www.techmeme.com/260707/p45",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-08T03:25:33Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5605,
+      "importance": 0.5605,
+      "importance_score": 0.5605,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.5,
+        "recency": 0.8684,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-08T03:25:33Z",
+      "latest_at": "2026-07-08T03:25:33Z",
+      "primary_item": {
+        "id": "13477b8807d43565ca67300a4a17929d40641404",
+        "title": "OpenAI 表示 GPT-5.6 Sol 以及 Terra 和 Luna 將於週四公開發布；消息人士稱，美國商務部已批准廣泛部署 (Axios) / OpenAI says GPT-5.6 Sol, along with Terra and Luna, will launch publicly on Thursday; a source says the US Department of Commerce cleared a broad rollout (Axios)",
+        "url": "https://www.techmeme.com/260707/p45",
+        "source": "Techmeme",
         "source_name": "OPML RSS"
       }
     },
@@ -246,13 +322,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4795,
-      "importance": 0.4795,
-      "importance_score": 0.4795,
+      "score": 0.4463,
+      "importance": 0.4463,
+      "importance_score": 0.4463,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.5983,
+        "recency": 0.4878,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -322,13 +398,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4186,
-      "importance": 0.4186,
-      "importance_score": 0.4186,
+      "score": 0.3854,
+      "importance": 0.3854,
+      "importance_score": 0.3854,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.3953,
+        "recency": 0.2847,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -341,82 +417,6 @@
         "id": "05b73907a4fa6b07a1bc9c2a184ebd7ba8812522",
         "title": "研究：儘管澳洲法律規定禁止 16 歲以下兒童，但在澳洲 9 個平台上創建的 50 個測試帳戶從未被要求驗證其年齡（Byron Kaye/路透社） / Study: 50 test accounts created in Australia across nine platforms were never asked to verify their age, despite the Australian law mandating a ban on under-16s (Byron Kaye/Reuters)",
         "url": "https://www.techmeme.com/260707/p18",
-        "source": "Techmeme",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_afe9a7674b7c",
-      "title": "消息來源：DeepSeek 正處於開發自己的推理人工智慧晶片的早期階段，此舉可能會減少對 Nvidia 和華為晶片的依賴（路透社） / Sources: DeepSeek is at an early stage of developing its own AI chip designed for inference, in a push that could reduce its reliance on Nvidia and Huawei chips (Reuters)",
-      "url": "https://www.techmeme.com/260707/p10",
-      "primary_url": "https://www.techmeme.com/260707/p10",
-      "source": "Techmeme",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "c1d847f8280f9283049a8769be42fd3c75a63e8a",
-          "title": "消息來源：DeepSeek 正處於開發自己的推理人工智慧晶片的早期階段，此舉可能會減少對 Nvidia 和華為晶片的依賴（路透社） / Sources: DeepSeek is at an early stage of developing its own AI chip designed for inference, in a push that could reduce its reliance on Nvidia and Huawei chips (Reuters)",
-          "url": "https://www.techmeme.com/260707/p10",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-07T10:45:00Z"
-        },
-        {
-          "id": "74477274e181292410492beecbad0abf4ac6f9a4",
-          "title": "消息來源：DeepSeek 正處於開發自己的推理人工智慧晶片的早期階段，以減少對 Nvidia 和華為硬體的依賴（路透社） / Sources: DeepSeek is in the early stages of developing its own AI chip designed for inference, in a bid to reduce its reliance on Nvidia and Huawei hardware (Reuters)",
-          "url": "https://www.techmeme.com/260707/p10",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-07T10:45:00Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Techmeme"
-      ],
-      "items": [
-        {
-          "id": "c1d847f8280f9283049a8769be42fd3c75a63e8a",
-          "title": "消息來源：DeepSeek 正處於開發自己的推理人工智慧晶片的早期階段，此舉可能會減少對 Nvidia 和華為晶片的依賴（路透社） / Sources: DeepSeek is at an early stage of developing its own AI chip designed for inference, in a push that could reduce its reliance on Nvidia and Huawei chips (Reuters)",
-          "url": "https://www.techmeme.com/260707/p10",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-07T10:45:00Z"
-        },
-        {
-          "id": "74477274e181292410492beecbad0abf4ac6f9a4",
-          "title": "消息來源：DeepSeek 正處於開發自己的推理人工智慧晶片的早期階段，以減少對 Nvidia 和華為硬體的依賴（路透社） / Sources: DeepSeek is in the early stages of developing its own AI chip designed for inference, in a bid to reduce its reliance on Nvidia and Huawei hardware (Reuters)",
-          "url": "https://www.techmeme.com/260707/p10",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-07T10:45:00Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.3852,
-      "importance": 0.3852,
-      "importance_score": 0.3852,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.5,
-        "recency": 0.2841,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-07T10:45:00Z",
-      "latest_at": "2026-07-07T10:45:00Z",
-      "primary_item": {
-        "id": "c1d847f8280f9283049a8769be42fd3c75a63e8a",
-        "title": "消息來源：DeepSeek 正處於開發自己的推理人工智慧晶片的早期階段，此舉可能會減少對 Nvidia 和華為晶片的依賴（路透社） / Sources: DeepSeek is at an early stage of developing its own AI chip designed for inference, in a push that could reduce its reliance on Nvidia and Huawei chips (Reuters)",
-        "url": "https://www.techmeme.com/260707/p10",
         "source": "Techmeme",
         "source_name": "OPML RSS"
       }
@@ -474,13 +474,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3146,
-      "importance": 0.3146,
-      "importance_score": 0.3146,
+      "score": 0.2815,
+      "importance": 0.2815,
+      "importance_score": 0.2815,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.4655,
+        "recency": 0.355,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -494,6 +494,82 @@
         "title": "維持有罪判決但獲縮減DQ刑期  瑪蓮勒龐2027可選總統  惟要戴電子手鐐拉票",
         "url": "https://europechinese.blogspot.com/2026/07/dq-2027.html",
         "source": "歐洲動態(國際)",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_afe9a7674b7c",
+      "title": "消息來源：DeepSeek 正處於開發自己的推理人工智慧晶片的早期階段，此舉可能會減少對 Nvidia 和華為晶片的依賴（路透社） / Sources: DeepSeek is at an early stage of developing its own AI chip designed for inference, in a push that could reduce its reliance on Nvidia and Huawei chips (Reuters)",
+      "url": "https://www.techmeme.com/260707/p10",
+      "primary_url": "https://www.techmeme.com/260707/p10",
+      "source": "Techmeme",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "c1d847f8280f9283049a8769be42fd3c75a63e8a",
+          "title": "消息來源：DeepSeek 正處於開發自己的推理人工智慧晶片的早期階段，此舉可能會減少對 Nvidia 和華為晶片的依賴（路透社） / Sources: DeepSeek is at an early stage of developing its own AI chip designed for inference, in a push that could reduce its reliance on Nvidia and Huawei chips (Reuters)",
+          "url": "https://www.techmeme.com/260707/p10",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-07T10:45:00Z"
+        },
+        {
+          "id": "74477274e181292410492beecbad0abf4ac6f9a4",
+          "title": "消息來源：DeepSeek 正處於開發自己的推理人工智慧晶片的早期階段，以減少對 Nvidia 和華為硬體的依賴（路透社） / Sources: DeepSeek is in the early stages of developing its own AI chip designed for inference, in a bid to reduce its reliance on Nvidia and Huawei hardware (Reuters)",
+          "url": "https://www.techmeme.com/260707/p10",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-07T10:45:00Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Techmeme"
+      ],
+      "items": [
+        {
+          "id": "c1d847f8280f9283049a8769be42fd3c75a63e8a",
+          "title": "消息來源：DeepSeek 正處於開發自己的推理人工智慧晶片的早期階段，此舉可能會減少對 Nvidia 和華為晶片的依賴（路透社） / Sources: DeepSeek is at an early stage of developing its own AI chip designed for inference, in a push that could reduce its reliance on Nvidia and Huawei chips (Reuters)",
+          "url": "https://www.techmeme.com/260707/p10",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-07T10:45:00Z"
+        },
+        {
+          "id": "74477274e181292410492beecbad0abf4ac6f9a4",
+          "title": "消息來源：DeepSeek 正處於開發自己的推理人工智慧晶片的早期階段，以減少對 Nvidia 和華為硬體的依賴（路透社） / Sources: DeepSeek is in the early stages of developing its own AI chip designed for inference, in a bid to reduce its reliance on Nvidia and Huawei hardware (Reuters)",
+          "url": "https://www.techmeme.com/260707/p10",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-07T10:45:00Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.3521,
+      "importance": 0.3521,
+      "importance_score": 0.3521,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.5,
+        "recency": 0.1735,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-07T10:45:00Z",
+      "latest_at": "2026-07-07T10:45:00Z",
+      "primary_item": {
+        "id": "c1d847f8280f9283049a8769be42fd3c75a63e8a",
+        "title": "消息來源：DeepSeek 正處於開發自己的推理人工智慧晶片的早期階段，此舉可能會減少對 Nvidia 和華為晶片的依賴（路透社） / Sources: DeepSeek is at an early stage of developing its own AI chip designed for inference, in a push that could reduce its reliance on Nvidia and Huawei chips (Reuters)",
+        "url": "https://www.techmeme.com/260707/p10",
+        "source": "Techmeme",
         "source_name": "OPML RSS"
       }
     }
