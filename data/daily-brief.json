@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-07-08T15:51:43.725859Z",
+  "generated_at": "2026-07-08T17:44:11.693323Z",
   "window_hours": 24,
-  "total_items": 7,
+  "total_items": 8,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "普斯卡什競技場：東歐的傳奇體育場 / Puskás Arena : Le stade mythique d'Europe de l'Est",
-      "url": "https://www.youtube.com/watch?v=2jutiwczMnQ",
-      "primary_url": "https://www.youtube.com/watch?v=2jutiwczMnQ",
-      "source": "imineo Documentaires",
+      "title": "伊朗：抵抗運動內部 / Iran: Inside the Resistance",
+      "url": "https://www.youtube.com/watch?v=fVajLGj2zUI",
+      "primary_url": "https://www.youtube.com/watch?v=fVajLGj2zUI",
+      "source": "Best Documentary",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "755b558c57569cdfcd38e0527143cf75e1a9a391",
+          "title": "伊朗：抵抗運動內部 / Iran: Inside the Resistance",
+          "url": "https://www.youtube.com/watch?v=fVajLGj2zUI",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-08T17:06:36Z"
+        },
         {
           "id": "fd59209ea62781e1ee247bcba83dea2766153156",
           "title": "普斯卡什競技場：東歐的傳奇體育場 / Puskás Arena : Le stade mythique d'Europe de l'Est",
@@ -84,6 +93,15 @@
           "published_at": "2026-07-07T18:19:26Z"
         },
         {
+          "id": "a06fa00dfc7223301718f4648caea226b9953351",
+          "title": "量子自悖論：科學中最奇怪的想法 / The Quantum-Self Paradox: The Strangest Idea in Science",
+          "url": "https://www.youtube.com/watch?v=gm8Bj2kCkfs",
+          "source": "Pursuit of Wonder",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-08T16:05:08Z"
+        },
+        {
           "id": "5ad9ee385bbc2bbc886b2209a208637230ec3668",
           "title": "女團成員因”1個字” 引爆韓國最離譜炎上事件｜DenQ",
           "url": "https://www.youtube.com/watch?v=RpjbfL8ibuc",
@@ -102,13 +120,14 @@
           "published_at": "2026-07-08T07:45:23Z"
         }
       ],
-      "source_count": 10,
+      "source_count": 12,
       "source_names": [
         "Benjamin Cowen",
         "Best Documentary",
         "DenQ來了",
         "GOATFANS",
         "Inspiraggio",
+        "Pursuit of Wonder",
         "Tim Ferriss",
         "Timeline - World History Documentaries",
         "imineo Documentaires",
@@ -117,6 +136,15 @@
       ],
       "items": [
         {
+          "id": "755b558c57569cdfcd38e0527143cf75e1a9a391",
+          "title": "伊朗：抵抗運動內部 / Iran: Inside the Resistance",
+          "url": "https://www.youtube.com/watch?v=fVajLGj2zUI",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-08T17:06:36Z"
+        },
+        {
           "id": "fd59209ea62781e1ee247bcba83dea2766153156",
           "title": "普斯卡什競技場：東歐的傳奇體育場 / Puskás Arena : Le stade mythique d'Europe de l'Est",
           "url": "https://www.youtube.com/watch?v=2jutiwczMnQ",
@@ -189,6 +217,15 @@
           "published_at": "2026-07-07T18:19:26Z"
         },
         {
+          "id": "a06fa00dfc7223301718f4648caea226b9953351",
+          "title": "量子自悖論：科學中最奇怪的想法 / The Quantum-Self Paradox: The Strangest Idea in Science",
+          "url": "https://www.youtube.com/watch?v=gm8Bj2kCkfs",
+          "source": "Pursuit of Wonder",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-08T16:05:08Z"
+        },
+        {
           "id": "5ad9ee385bbc2bbc886b2209a208637230ec3668",
           "title": "女團成員因”1個字” 引爆韓國最離譜炎上事件｜DenQ",
           "url": "https://www.youtube.com/watch?v=RpjbfL8ibuc",
@@ -207,15 +244,15 @@
           "published_at": "2026-07-08T07:45:23Z"
         }
       ],
-      "item_count": 10,
-      "duplicate_count": 10,
-      "score": 0.7455,
-      "importance": 0.7455,
-      "importance_score": 0.7455,
+      "item_count": 12,
+      "duplicate_count": 12,
+      "score": 0.7422,
+      "importance": 0.7422,
+      "importance_score": 0.7422,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9851,
+        "recency": 0.9739,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -223,12 +260,88 @@
         "multi_source"
       ],
       "earliest_at": "2026-07-07T18:19:26Z",
-      "latest_at": "2026-07-08T15:30:19Z",
+      "latest_at": "2026-07-08T17:06:36Z",
       "primary_item": {
-        "id": "fd59209ea62781e1ee247bcba83dea2766153156",
-        "title": "普斯卡什競技場：東歐的傳奇體育場 / Puskás Arena : Le stade mythique d'Europe de l'Est",
-        "url": "https://www.youtube.com/watch?v=2jutiwczMnQ",
-        "source": "imineo Documentaires",
+        "id": "755b558c57569cdfcd38e0527143cf75e1a9a391",
+        "title": "伊朗：抵抗運動內部 / Iran: Inside the Resistance",
+        "url": "https://www.youtube.com/watch?v=fVajLGj2zUI",
+        "source": "Best Documentary",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_3664bd7a562b",
+      "title": "資料來源：中國計劃讓一些最大的人工智慧公司購買少量 Nvidia 的 H200 晶片，以抵消近幾個月國內運算短缺的情況（Qianer Liu/The Information） / Sources: China plans to let some of its biggest AI companies buy a small number of Nvidia's H200 chips to offset a domestic computing shortage in recent months (Qianer Liu/The Information)",
+      "url": "https://www.techmeme.com/260708/p30",
+      "primary_url": "https://www.techmeme.com/260708/p30",
+      "source": "Techmeme",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "daf8eab1c2d9b10c8eadadb246dec73b4521a551",
+          "title": "資料來源：中國計劃讓一些最大的人工智慧公司購買少量 Nvidia 的 H200 晶片，以抵消近幾個月國內運算短缺的情況（Qianer Liu/The Information） / Sources: China plans to let some of its biggest AI companies buy a small number of Nvidia's H200 chips to offset a domestic computing shortage in recent months (Qianer Liu/The Information)",
+          "url": "https://www.techmeme.com/260708/p30",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-08T15:00:01Z"
+        },
+        {
+          "id": "a7d4f358a43634d47bdabf4deb837d452668b645",
+          "title": "資料來源：中國計劃讓國內一些主要人工智慧公司購買少量 Nvidia 的 H200 晶片，以緩解國內運算短缺（Qianer Liu/The Information） / Sources: China plans to let some of the country's major AI companies buy a small number of Nvidia's H200 chips to alleviate a domestic computing shortage (Qianer Liu/The Information)",
+          "url": "https://www.techmeme.com/260708/p30",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-08T15:00:01Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Techmeme"
+      ],
+      "items": [
+        {
+          "id": "daf8eab1c2d9b10c8eadadb246dec73b4521a551",
+          "title": "資料來源：中國計劃讓一些最大的人工智慧公司購買少量 Nvidia 的 H200 晶片，以抵消近幾個月國內運算短缺的情況（Qianer Liu/The Information） / Sources: China plans to let some of its biggest AI companies buy a small number of Nvidia's H200 chips to offset a domestic computing shortage in recent months (Qianer Liu/The Information)",
+          "url": "https://www.techmeme.com/260708/p30",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-08T15:00:01Z"
+        },
+        {
+          "id": "a7d4f358a43634d47bdabf4deb837d452668b645",
+          "title": "資料來源：中國計劃讓國內一些主要人工智慧公司購買少量 Nvidia 的 H200 晶片，以緩解國內運算短缺（Qianer Liu/The Information） / Sources: China plans to let some of the country's major AI companies buy a small number of Nvidia's H200 chips to alleviate a domestic computing shortage (Qianer Liu/The Information)",
+          "url": "https://www.techmeme.com/260708/p30",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-08T15:00:01Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5658,
+      "importance": 0.5658,
+      "importance_score": 0.5658,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.5,
+        "recency": 0.886,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-08T15:00:01Z",
+      "latest_at": "2026-07-08T15:00:01Z",
+      "primary_item": {
+        "id": "daf8eab1c2d9b10c8eadadb246dec73b4521a551",
+        "title": "資料來源：中國計劃讓一些最大的人工智慧公司購買少量 Nvidia 的 H200 晶片，以抵消近幾個月國內運算短缺的情況（Qianer Liu/The Information） / Sources: China plans to let some of its biggest AI companies buy a small number of Nvidia's H200 chips to offset a domestic computing shortage in recent months (Qianer Liu/The Information)",
+        "url": "https://www.techmeme.com/260708/p30",
+        "source": "Techmeme",
         "source_name": "OPML RSS"
       }
     },
@@ -285,13 +398,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5632,
-      "importance": 0.5632,
-      "importance_score": 0.5632,
+      "score": 0.5398,
+      "importance": 0.5398,
+      "importance_score": 0.5398,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.8773,
+        "recency": 0.7992,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -379,13 +492,13 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.525,
-      "importance": 0.525,
-      "importance_score": 0.525,
+      "score": 0.5033,
+      "importance": 0.5033,
+      "importance_score": 0.5033,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 1.0,
+        "recency": 0.9276,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -455,13 +568,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5538,
-      "importance": 0.5538,
-      "importance_score": 0.5538,
+      "score": 0.5304,
+      "importance": 0.5304,
+      "importance_score": 0.5304,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.846,
+        "recency": 0.7679,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -531,13 +644,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4445,
-      "importance": 0.4445,
-      "importance_score": 0.4445,
+      "score": 0.4211,
+      "importance": 0.4211,
+      "importance_score": 0.4211,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.4818,
+        "recency": 0.4037,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -607,13 +720,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4319,
-      "importance": 0.4319,
-      "importance_score": 0.4319,
+      "score": 0.4085,
+      "importance": 0.4085,
+      "importance_score": 0.4085,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.4398,
+        "recency": 0.3617,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -683,13 +796,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3304,
-      "importance": 0.3304,
-      "importance_score": 0.3304,
+      "score": 0.3069,
+      "importance": 0.3069,
+      "importance_score": 0.3069,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.1012,
+        "recency": 0.0231,
         "story_heat": 0.25
       },
       "category": "watch",
