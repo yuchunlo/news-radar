@@ -1,0 +1,296 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.160 --> 00:00:01.949 align:start position:0%
+ 
+The <00:00:00.480><c>key </c><00:00:00.800><c>improvement </c><00:00:01.120><c>was </c><00:00:01.440><c>in </c><00:00:01.760><c>the</c>
+
+00:00:01.949 --> 00:00:01.959 align:start position:0%
+The key improvement was in the
+ 
+
+00:00:01.959 --> 00:00:03.709 align:start position:0%
+The key improvement was in the
+models.  <00:00:02.247><c>Again, </c><00:00:02.535><c>I </c><00:00:02.823><c>might </c><00:00:03.111><c>have </c><00:00:03.399><c>heard</c>
+
+00:00:03.709 --> 00:00:03.719 align:start position:0%
+models.  Again, I might have heard
+ 
+
+00:00:03.719 --> 00:00:05.829 align:start position:0%
+models.  Again, I might have heard
+of <00:00:04.252><c>post-training, </c><00:00:04.785><c>of </c><00:00:05.318><c>reinforce</c>
+
+00:00:05.829 --> 00:00:05.839 align:start position:0%
+of post-training, of reinforce
+ 
+
+00:00:05.839 --> 00:00:08.190 align:start position:0%
+of post-training, of reinforce
+and <00:00:06.212><c>learning.  </c><00:00:06.585><c>There </c><00:00:06.958><c>are </c><00:00:07.331><c>new </c><00:00:07.704><c>techniques, </c><00:00:08.077><c>but</c>
+
+00:00:08.190 --> 00:00:08.200 align:start position:0%
+and learning.  There are new techniques, but
+ 
+
+00:00:08.200 --> 00:00:09.830 align:start position:0%
+and learning.  There are new techniques, but
+especially <00:00:08.559><c>we </c><00:00:08.918><c>have </c><00:00:09.277><c>understood </c><00:00:09.636><c>how</c>
+
+00:00:09.830 --> 00:00:09.840 align:start position:0%
+especially we have understood how
+ 
+
+00:00:09.840 --> 00:00:11.990 align:start position:0%
+especially we have understood how
+to <00:00:10.159><c>use </c><00:00:10.478><c>much </c><00:00:10.797><c>more </c><00:00:11.116><c>compute </c><00:00:11.435><c>in </c><00:00:11.754><c>this</c>
+
+00:00:11.990 --> 00:00:12.000 align:start position:0%
+to use much more compute in this
+ 
+
+00:00:12.000 --> 00:00:13.509 align:start position:0%
+to use much more compute in this
+post-training <00:00:12.360><c>phase </c><00:00:12.720><c>which </c><00:00:13.080><c>makes </c><00:00:13.440><c>the</c>
+
+00:00:13.509 --> 00:00:13.519 align:start position:0%
+post-training phase which makes the
+ 
+
+00:00:13.519 --> 00:00:16.070 align:start position:0%
+post-training phase which makes the
+models <00:00:13.935><c>not </c><00:00:14.351><c>only </c><00:00:14.767><c>powerful </c><00:00:15.183><c>in </c><00:00:15.599><c>generating</c>
+
+00:00:16.070 --> 00:00:16.080 align:start position:0%
+models not only powerful in generating
+ 
+
+00:00:16.080 --> 00:00:18.349 align:start position:0%
+models not only powerful in generating
+code, <00:00:16.426><c>but </c><00:00:16.772><c>also </c><00:00:17.118><c>able </c><00:00:17.464><c>to </c><00:00:17.810><c>understand </c><00:00:18.156><c>the</c>
+
+00:00:18.349 --> 00:00:18.359 align:start position:0%
+code, but also able to understand the
+ 
+
+00:00:18.359 --> 00:00:20.070 align:start position:0%
+code, but also able to understand the
+series <00:00:18.576><c>of </c><00:00:18.793><c>actions </c><00:00:19.010><c>that </c><00:00:19.227><c>must </c><00:00:19.444><c>be </c><00:00:19.661><c>performed </c><00:00:19.878><c>to</c>
+
+00:00:20.070 --> 00:00:20.080 align:start position:0%
+series of actions that must be performed to
+ 
+
+00:00:20.080 --> 00:00:22.109 align:start position:0%
+series of actions that must be performed to
+obtain <00:00:20.392><c>a </c><00:00:20.704><c>certain </c><00:00:21.016><c>result.  </c><00:00:21.328><c>Essentially, </c><00:00:21.640><c>they</c>
+
+00:00:22.109 --> 00:00:22.119 align:start position:0%
+obtain a certain result.  Essentially, they
+ 
+
+00:00:22.119 --> 00:00:24.429 align:start position:0%
+obtain a certain result.  Essentially, they
+start <00:00:23.059><c>behaving </c><00:00:23.999><c>similarly</c>
+
+00:00:24.429 --> 00:00:24.439 align:start position:0%
+start behaving similarly
+ 
+
+00:00:24.439 --> 00:00:26.669 align:start position:0%
+start behaving similarly
+to <00:00:24.765><c>a </c><00:00:25.091><c>software </c><00:00:25.417><c>engineer, </c><00:00:25.743><c>perhaps </c><00:00:26.069><c>not </c><00:00:26.395><c>a</c>
+
+00:00:26.669 --> 00:00:26.679 align:start position:0%
+to a software engineer, perhaps not a
+ 
+
+00:00:26.679 --> 00:00:28.589 align:start position:0%
+to a software engineer, perhaps not a
+principal <00:00:26.884><c>level, </c><00:00:27.089><c>a </c><00:00:27.294><c>person </c><00:00:27.499><c>who </c><00:00:27.704><c>has </c><00:00:27.909><c>been </c><00:00:28.114><c>in </c><00:00:28.319><c>the</c>
+
+00:00:28.589 --> 00:00:28.599 align:start position:0%
+principal level, a person who has been in the
+ 
+
+00:00:28.599 --> 00:00:30.109 align:start position:0%
+principal level, a person who has been in the
+business <00:00:28.855><c>for </c><00:00:29.111><c>30 </c><00:00:29.367><c>years.  </c><00:00:29.623><c>Although </c><00:00:29.879><c>we're</c>
+
+00:00:30.109 --> 00:00:30.119 align:start position:0%
+business for 30 years.  Although we're
+ 
+
+00:00:30.119 --> 00:00:31.910 align:start position:0%
+business for 30 years.  Although we're
+getting <00:00:30.519><c>there </c><00:00:30.919><c>pretty </c><00:00:31.319><c>quickly.  </c><00:00:31.719><c>This</c>
+
+00:00:31.910 --> 00:00:31.920 align:start position:0%
+getting there pretty quickly.  This
+ 
+
+00:00:31.920 --> 00:00:34.069 align:start position:0%
+getting there pretty quickly.  This
+unlock <00:00:32.272><c>has </c><00:00:32.624><c>been </c><00:00:32.976><c>happening </c><00:00:33.328><c>literally </c><00:00:33.680><c>since</c>
+
+00:00:34.069 --> 00:00:34.079 align:start position:0%
+unlock has been happening literally since
+ 
+
+00:00:34.079 --> 00:00:36.150 align:start position:0%
+unlock has been happening literally since
+December <00:00:34.447><c>of </c><00:00:34.815><c>last </c><00:00:35.183><c>year.  </c><00:00:35.551><c>The </c><00:00:35.919><c>new</c>
+
+00:00:36.150 --> 00:00:36.160 align:start position:0%
+December of last year.  The new
+ 
+
+00:00:36.160 --> 00:00:38.229 align:start position:0%
+December of last year.  The new
+version <00:00:36.939><c>of </c><00:00:37.718><c>Opus,</c>
+
+00:00:38.229 --> 00:00:38.239 align:start position:0%
+version of Opus,
+ 
+
+00:00:38.239 --> 00:00:40.470 align:start position:0%
+version of Opus,
+Antropic's <00:00:38.709><c>flagship </c><00:00:39.179><c>model, </c><00:00:39.649><c>was </c><00:00:40.119><c>another</c>
+
+00:00:40.470 --> 00:00:40.480 align:start position:0%
+Antropic's flagship model, was another
+ 
+
+00:00:40.480 --> 00:00:42.150 align:start position:0%
+Antropic's flagship model, was another
+major <00:00:40.986><c>feature </c><00:00:41.492><c>improvement </c><00:00:41.998><c>over</c>
+
+00:00:42.150 --> 00:00:42.160 align:start position:0%
+major feature improvement over
+ 
+
+00:00:42.160 --> 00:00:43.430 align:start position:0%
+major feature improvement over
+what <00:00:42.370><c>we'd </c><00:00:42.580><c>seen </c><00:00:42.790><c>in </c><00:00:43.000><c>the</c>
+
+00:00:43.430 --> 00:00:43.440 align:start position:0%
+what we'd seen in the
+ 
+
+00:00:43.440 --> 00:00:46.150 align:start position:0%
+what we'd seen in the
+previous <00:00:43.895><c>year, </c><00:00:44.350><c>and </c><00:00:44.805><c>suddenly </c><00:00:45.260><c>all </c><00:00:45.715><c>agents</c>
+
+00:00:46.150 --> 00:00:46.160 align:start position:0%
+previous year, and suddenly all agents
+ 
+
+00:00:46.160 --> 00:00:47.990 align:start position:0%
+previous year, and suddenly all agents
+using <00:00:46.573><c>that </c><00:00:46.986><c>model </c><00:00:47.399><c>became</c>
+
+00:00:47.990 --> 00:00:48.000 align:start position:0%
+using that model became
+ 
+
+00:00:48.000 --> 00:00:49.709 align:start position:0%
+using that model became
+much <00:00:48.234><c>more </c><00:00:48.468><c>powerful.  </c><00:00:48.702><c>For </c><00:00:48.936><c>that </c><00:00:49.170><c>reason, </c><00:00:49.404><c>it </c><00:00:49.638><c>has</c>
+
+00:00:49.709 --> 00:00:49.719 align:start position:0%
+much more powerful.  For that reason, it has
+ 
+
+00:00:49.719 --> 00:00:51.590 align:start position:0%
+much more powerful.  For that reason, it has
+also <00:00:50.047><c>seen </c><00:00:50.375><c>many </c><00:00:50.703><c>companies </c><00:00:51.031><c>grow </c><00:00:51.359><c>in</c>
+
+00:00:51.590 --> 00:00:51.600 align:start position:0%
+also seen many companies grow in
+ 
+
+00:00:51.600 --> 00:00:53.549 align:start position:0%
+also seen many companies grow in
+terms <00:00:52.479><c>of </c><00:00:53.358><c>revenue,</c>
+
+00:00:53.549 --> 00:00:53.559 align:start position:0%
+terms of revenue,
+ 
+
+00:00:53.559 --> 00:00:55.750 align:start position:0%
+terms of revenue,
+number <00:00:53.949><c>of </c><00:00:54.339><c>customers, </c><00:00:54.729><c>and </c><00:00:55.119><c>adoption.</c>
+
+00:00:55.750 --> 00:00:55.760 align:start position:0%
+number of customers, and adoption.
+ 
+
+00:00:55.760 --> 00:00:57.830 align:start position:0%
+number of customers, and adoption.
+Everything <00:00:56.112><c>was </c><00:00:56.464><c>key </c><00:00:56.816><c>on </c><00:00:57.168><c>these </c><00:00:57.520><c>models</c>
+
+00:00:57.830 --> 00:00:57.840 align:start position:0%
+Everything was key on these models
+ 
+
+00:00:57.840 --> 00:00:59.389 align:start position:0%
+Everything was key on these models
+that <00:00:58.266><c>became </c><00:00:58.692><c>better.  </c><00:00:59.118><c>We're</c>
+
+00:00:59.389 --> 00:00:59.399 align:start position:0%
+that became better.  We're
+ 
+
+00:00:59.399 --> 00:01:01.590 align:start position:0%
+that became better.  We're
+doing <00:00:59.767><c>this </c><00:01:00.135><c>extreme </c><00:01:00.503><c>focus </c><00:01:00.871><c>on </c><00:01:01.239><c>people</c>
+
+00:01:01.590 --> 00:01:01.600 align:start position:0%
+doing this extreme focus on people
+ 
+
+00:01:01.600 --> 00:01:03.590 align:start position:0%
+doing this extreme focus on people
+who <00:01:01.866><c>aren't </c><00:01:02.132><c>technical, </c><00:01:02.398><c>but </c><00:01:02.664><c>who </c><00:01:02.930><c>are </c><00:01:03.196><c>able</c>
+
+00:01:03.590 --> 00:01:03.600 align:start position:0%
+who aren't technical, but who are able
+ 
+
+00:01:03.600 --> 00:01:05.950 align:start position:0%
+who aren't technical, but who are able
+to <00:01:04.020><c>build </c><00:01:04.440><c>very </c><00:01:04.860><c>advanced </c><00:01:05.280><c>software.</c>
+
+00:01:05.950 --> 00:01:05.960 align:start position:0%
+to build very advanced software.
+ 
+
+00:01:05.960 --> 00:01:08.789 align:start position:0%
+to build very advanced software.
+Now <00:01:06.265><c>I </c><00:01:06.570><c>have </c><00:01:06.875><c>a </c><00:01:07.180><c>long </c><00:01:07.485><c>list </c><00:01:07.790><c>of </c><00:01:08.095><c>companies </c><00:01:08.400><c>that</c>
+
+00:01:08.789 --> 00:01:08.799 align:start position:0%
+Now I have a long list of companies that
+ 
+
+00:01:08.799 --> 00:01:10.670 align:start position:0%
+Now I have a long list of companies that
+rebuild <00:01:09.345><c>maybe </c><00:01:09.891><c>software </c><00:01:10.437><c>that</c>
+
+00:01:10.670 --> 00:01:10.680 align:start position:0%
+rebuild maybe software that
+ 
+
+00:01:10.680 --> 00:01:12.749 align:start position:0%
+rebuild maybe software that
+they <00:01:11.006><c>bought </c><00:01:11.332><c>for </c><00:01:11.658><c>hundreds </c><00:01:11.984><c>of </c><00:01:12.310><c>thousands </c><00:01:12.636><c>of</c>
+
+00:01:12.749 --> 00:01:12.759 align:start position:0%
+they bought for hundreds of thousands of
+ 
+
+00:01:12.759 --> 00:01:17.280 align:start position:0%
+they bought for hundreds of thousands of
+dollars <00:01:13.319><c>with </c><00:01:13.879><c>10,000 </c><00:01:14.439><c>on </c><00:01:14.999><c>repliit.</c>
+
