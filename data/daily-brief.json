@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T09:29:28.323836Z",
+  "generated_at": "2026-07-08T11:25:51.136133Z",
   "window_hours": 24,
   "total_items": 7,
   "items": [
@@ -75,34 +75,25 @@
           "published_at": "2026-07-07T12:00:30Z"
         },
         {
-          "id": "11f104cc4589e07535c0b6576792eb2ce79e4940",
-          "title": "发现宝藏 | 我在西藏发现大量的海洋生物化石，侏罗纪之门",
-          "url": "https://www.youtube.com/watch?v=9YR0qubK3Uo",
-          "source": "东海嘉措",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-07T10:03:06Z"
-        },
-        {
-          "id": "49bf0a9b8e7352612f8cae570c4d8d95ba03e809",
-          "title": "481 与柏琳漫谈巴尔干千年史：从古南斯拉夫诸国到近代科索沃危机",
-          "url": "https://www.youtube.com/watch?v=nyL7aPGeVoE",
-          "source": "忽左忽右",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-07T09:49:40Z"
-        },
-        {
-          "id": "3268057b02e194e8f631fa6e627fa12c1d1c5ea0",
-          "title": "i-dle新曲韓網反應/出道9年宣布解散了/最近讓韓網集體淪陷的男團成員｜DenQ",
-          "url": "https://www.youtube.com/watch?v=n8Onfs_oHGs",
+          "id": "5ad9ee385bbc2bbc886b2209a208637230ec3668",
+          "title": "女團成員因”1個字” 引爆韓國最離譜炎上事件｜DenQ",
+          "url": "https://www.youtube.com/watch?v=RpjbfL8ibuc",
           "source": "DenQ來了",
           "source_name": "OPML RSS",
           "site_id": "trending",
-          "published_at": "2026-07-07T10:00:00Z"
+          "published_at": "2026-07-08T11:00:32Z"
+        },
+        {
+          "id": "03d5fbc4744b32d59ec87d3fb3f400a4b1bfe240",
+          "title": "海纜常斷！低軌衛星能派上用場嗎？台灣的通訊韌性夠嗎？｜公視P# 新聞實驗室",
+          "url": "https://www.youtube.com/watch?v=xICvY586XZ8",
+          "source": "公視P#新聞實驗室",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-08T07:45:23Z"
         }
       ],
-      "source_count": 10,
+      "source_count": 9,
       "source_names": [
         "Best Documentary",
         "DenQ來了",
@@ -110,8 +101,7 @@
         "Inspiraggio",
         "Tim Ferriss",
         "Timeline - World History Documentaries",
-        "东海嘉措",
-        "忽左忽右",
+        "公視P#新聞實驗室",
         "美投侃新闻"
       ],
       "items": [
@@ -179,50 +169,41 @@
           "published_at": "2026-07-07T12:00:30Z"
         },
         {
-          "id": "11f104cc4589e07535c0b6576792eb2ce79e4940",
-          "title": "发现宝藏 | 我在西藏发现大量的海洋生物化石，侏罗纪之门",
-          "url": "https://www.youtube.com/watch?v=9YR0qubK3Uo",
-          "source": "东海嘉措",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-07T10:03:06Z"
-        },
-        {
-          "id": "49bf0a9b8e7352612f8cae570c4d8d95ba03e809",
-          "title": "481 与柏琳漫谈巴尔干千年史：从古南斯拉夫诸国到近代科索沃危机",
-          "url": "https://www.youtube.com/watch?v=nyL7aPGeVoE",
-          "source": "忽左忽右",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-07T09:49:40Z"
-        },
-        {
-          "id": "3268057b02e194e8f631fa6e627fa12c1d1c5ea0",
-          "title": "i-dle新曲韓網反應/出道9年宣布解散了/最近讓韓網集體淪陷的男團成員｜DenQ",
-          "url": "https://www.youtube.com/watch?v=n8Onfs_oHGs",
+          "id": "5ad9ee385bbc2bbc886b2209a208637230ec3668",
+          "title": "女團成員因”1個字” 引爆韓國最離譜炎上事件｜DenQ",
+          "url": "https://www.youtube.com/watch?v=RpjbfL8ibuc",
           "source": "DenQ來了",
           "source_name": "OPML RSS",
           "site_id": "trending",
-          "published_at": "2026-07-07T10:00:00Z"
+          "published_at": "2026-07-08T11:00:32Z"
+        },
+        {
+          "id": "03d5fbc4744b32d59ec87d3fb3f400a4b1bfe240",
+          "title": "海纜常斷！低軌衛星能派上用場嗎？台灣的通訊韌性夠嗎？｜公視P# 新聞實驗室",
+          "url": "https://www.youtube.com/watch?v=xICvY586XZ8",
+          "source": "公視P#新聞實驗室",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-08T07:45:23Z"
         }
       ],
-      "item_count": 10,
-      "duplicate_count": 10,
-      "score": 0.744,
-      "importance": 0.744,
-      "importance_score": 0.744,
+      "item_count": 9,
+      "duplicate_count": 9,
+      "score": 0.7197,
+      "importance": 0.7197,
+      "importance_score": 0.7197,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9799,
+        "recency": 0.899,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-07T09:49:40Z",
-      "latest_at": "2026-07-08T09:00:28Z",
+      "earliest_at": "2026-07-07T12:00:30Z",
+      "latest_at": "2026-07-08T11:00:32Z",
       "primary_item": {
         "id": "656237ed8a2a76c74dea05852bfcf501ab8d2471",
         "title": "Stevie Wonder 竟然给宝可梦“做过”配乐？",
@@ -232,16 +213,110 @@
       }
     },
     {
+      "story_id": "story_7d23c0769328",
+      "title": "一千天內，AI內容時代來臨　「手工痕跡」如何成為奢侈品？",
+      "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014396",
+      "primary_url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014396",
+      "source": "商業周刊 當期雜誌開放文章",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "6c4b4b1581f276ad78264a84abedbfb464f16678",
+          "title": "一千天內，AI內容時代來臨　「手工痕跡」如何成為奢侈品？",
+          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014396",
+          "source": "商業周刊 當期雜誌開放文章",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-08T16:00:00Z"
+        },
+        {
+          "id": "9ec21f8df4b0491ef5ab6a04b977e0d576f92607",
+          "title": "從司儀到百人派對導演！婚宴龍頭新天地一絕招逆勢成長",
+          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014418",
+          "source": "商業周刊 當期雜誌開放文章",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-08T16:00:00Z"
+        },
+        {
+          "id": "7ec5b45f0d9c0a9a15bd312b609f6764b979dc2c",
+          "title": "從瀕倒自行車廠到AI液冷新星　精確8年營收翻12倍浴火重生記",
+          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014416",
+          "source": "商業周刊 當期雜誌開放文章",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-08T16:00:00Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "商業周刊 當期雜誌開放文章"
+      ],
+      "items": [
+        {
+          "id": "6c4b4b1581f276ad78264a84abedbfb464f16678",
+          "title": "一千天內，AI內容時代來臨　「手工痕跡」如何成為奢侈品？",
+          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014396",
+          "source": "商業周刊 當期雜誌開放文章",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-08T16:00:00Z"
+        },
+        {
+          "id": "9ec21f8df4b0491ef5ab6a04b977e0d576f92607",
+          "title": "從司儀到百人派對導演！婚宴龍頭新天地一絕招逆勢成長",
+          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014418",
+          "source": "商業周刊 當期雜誌開放文章",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-08T16:00:00Z"
+        },
+        {
+          "id": "7ec5b45f0d9c0a9a15bd312b609f6764b979dc2c",
+          "title": "從瀕倒自行車廠到AI液冷新星　精確8年營收翻12倍浴火重生記",
+          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014416",
+          "source": "商業周刊 當期雜誌開放文章",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-08T16:00:00Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.525,
+      "importance": 0.525,
+      "importance_score": 0.525,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "source_tier": 0.25,
+        "recency": 1.0,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-08T16:00:00Z",
+      "latest_at": "2026-07-08T16:00:00Z",
+      "primary_item": {
+        "id": "6c4b4b1581f276ad78264a84abedbfb464f16678",
+        "title": "一千天內，AI內容時代來臨　「手工痕跡」如何成為奢侈品？",
+        "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014396",
+        "source": "商業周刊 當期雜誌開放文章",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
       "story_id": "story_218d9b6b28d0",
-      "title": "OpenAI 表示 GPT-5.6 Sol 以及 Terra 和 Luna 將於週四公開發布；消息人士稱，美國商務部已批准廣泛部署 (Axios) / OpenAI says GPT-5.6 Sol, along with Terra and Luna, will launch publicly on Thursday; a source says the US Department of Commerce cleared a broad rollout (Axios)",
+      "title": "OpenAI 表示將於週四公開推出 GPT-5.6 Sol，以及 Terra 和 Luna；消息人士稱，美國商務部已批准廣泛部署 (Axios) / OpenAI says it will launch GPT-5.6 Sol, along with Terra and Luna, publicly on Thursday; a source says the US Department of Commerce cleared a broad rollout (Axios)",
       "url": "https://www.techmeme.com/260707/p45",
       "primary_url": "https://www.techmeme.com/260707/p45",
       "source": "Techmeme",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "13477b8807d43565ca67300a4a17929d40641404",
-          "title": "OpenAI 表示 GPT-5.6 Sol 以及 Terra 和 Luna 將於週四公開發布；消息人士稱，美國商務部已批准廣泛部署 (Axios) / OpenAI says GPT-5.6 Sol, along with Terra and Luna, will launch publicly on Thursday; a source says the US Department of Commerce cleared a broad rollout (Axios)",
+          "id": "f2dd89eb917df73850978ee89b0afa2b7f09caf7",
+          "title": "OpenAI 表示將於週四公開推出 GPT-5.6 Sol，以及 Terra 和 Luna；消息人士稱，美國商務部已批准廣泛部署 (Axios) / OpenAI says it will launch GPT-5.6 Sol, along with Terra and Luna, publicly on Thursday; a source says the US Department of Commerce cleared a broad rollout (Axios)",
           "url": "https://www.techmeme.com/260707/p45",
           "source": "Techmeme",
           "source_name": "OPML RSS",
@@ -264,8 +339,8 @@
       ],
       "items": [
         {
-          "id": "13477b8807d43565ca67300a4a17929d40641404",
-          "title": "OpenAI 表示 GPT-5.6 Sol 以及 Terra 和 Luna 將於週四公開發布；消息人士稱，美國商務部已批准廣泛部署 (Axios) / OpenAI says GPT-5.6 Sol, along with Terra and Luna, will launch publicly on Thursday; a source says the US Department of Commerce cleared a broad rollout (Axios)",
+          "id": "f2dd89eb917df73850978ee89b0afa2b7f09caf7",
+          "title": "OpenAI 表示將於週四公開推出 GPT-5.6 Sol，以及 Terra 和 Luna；消息人士稱，美國商務部已批准廣泛部署 (Axios) / OpenAI says it will launch GPT-5.6 Sol, along with Terra and Luna, publicly on Thursday; a source says the US Department of Commerce cleared a broad rollout (Axios)",
           "url": "https://www.techmeme.com/260707/p45",
           "source": "Techmeme",
           "source_name": "OPML RSS",
@@ -284,13 +359,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5242,
-      "importance": 0.5242,
-      "importance_score": 0.5242,
+      "score": 0.4999,
+      "importance": 0.4999,
+      "importance_score": 0.4999,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7473,
+        "recency": 0.6665,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -300,8 +375,8 @@
       "earliest_at": "2026-07-08T03:25:33Z",
       "latest_at": "2026-07-08T03:25:33Z",
       "primary_item": {
-        "id": "13477b8807d43565ca67300a4a17929d40641404",
-        "title": "OpenAI 表示 GPT-5.6 Sol 以及 Terra 和 Luna 將於週四公開發布；消息人士稱，美國商務部已批准廣泛部署 (Axios) / OpenAI says GPT-5.6 Sol, along with Terra and Luna, will launch publicly on Thursday; a source says the US Department of Commerce cleared a broad rollout (Axios)",
+        "id": "f2dd89eb917df73850978ee89b0afa2b7f09caf7",
+        "title": "OpenAI 表示將於週四公開推出 GPT-5.6 Sol，以及 Terra 和 Luna；消息人士稱，美國商務部已批准廣泛部署 (Axios) / OpenAI says it will launch GPT-5.6 Sol, along with Terra and Luna, publicly on Thursday; a source says the US Department of Commerce cleared a broad rollout (Axios)",
         "url": "https://www.techmeme.com/260707/p45",
         "source": "Techmeme",
         "source_name": "OPML RSS"
@@ -360,13 +435,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5116,
-      "importance": 0.5116,
-      "importance_score": 0.5116,
+      "score": 0.4873,
+      "importance": 0.4873,
+      "importance_score": 0.4873,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7052,
+        "recency": 0.6244,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -436,13 +511,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.41,
-      "importance": 0.41,
-      "importance_score": 0.41,
+      "score": 0.3858,
+      "importance": 0.3858,
+      "importance_score": 0.3858,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.3667,
+        "recency": 0.2859,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -512,13 +587,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3491,
-      "importance": 0.3491,
-      "importance_score": 0.3491,
+      "score": 0.3249,
+      "importance": 0.3249,
+      "importance_score": 0.3249,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.1637,
+        "recency": 0.0828,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -588,13 +663,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.2452,
-      "importance": 0.2452,
-      "importance_score": 0.2452,
+      "score": 0.2209,
+      "importance": 0.2209,
+      "importance_score": 0.2209,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.2339,
+        "recency": 0.1531,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -608,82 +683,6 @@
         "title": "維持有罪判決但獲縮減DQ刑期  瑪蓮勒龐2027可選總統  惟要戴電子手鐐拉票",
         "url": "https://europechinese.blogspot.com/2026/07/dq-2027.html",
         "source": "歐洲動態(國際)",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_afe9a7674b7c",
-      "title": "消息來源：DeepSeek 正處於開發自己的推理人工智慧晶片的早期階段，此舉可能會減少對 Nvidia 和華為晶片的依賴（路透社） / Sources: DeepSeek is at an early stage of developing its own AI chip designed for inference, in a push that could reduce its reliance on Nvidia and Huawei chips (Reuters)",
-      "url": "https://www.techmeme.com/260707/p10",
-      "primary_url": "https://www.techmeme.com/260707/p10",
-      "source": "Techmeme",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "c1d847f8280f9283049a8769be42fd3c75a63e8a",
-          "title": "消息來源：DeepSeek 正處於開發自己的推理人工智慧晶片的早期階段，此舉可能會減少對 Nvidia 和華為晶片的依賴（路透社） / Sources: DeepSeek is at an early stage of developing its own AI chip designed for inference, in a push that could reduce its reliance on Nvidia and Huawei chips (Reuters)",
-          "url": "https://www.techmeme.com/260707/p10",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-07T10:45:00Z"
-        },
-        {
-          "id": "74477274e181292410492beecbad0abf4ac6f9a4",
-          "title": "消息來源：DeepSeek 正處於開發自己的推理人工智慧晶片的早期階段，以減少對 Nvidia 和華為硬體的依賴（路透社） / Sources: DeepSeek is in the early stages of developing its own AI chip designed for inference, in a bid to reduce its reliance on Nvidia and Huawei hardware (Reuters)",
-          "url": "https://www.techmeme.com/260707/p10",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-07T10:45:00Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Techmeme"
-      ],
-      "items": [
-        {
-          "id": "c1d847f8280f9283049a8769be42fd3c75a63e8a",
-          "title": "消息來源：DeepSeek 正處於開發自己的推理人工智慧晶片的早期階段，此舉可能會減少對 Nvidia 和華為晶片的依賴（路透社） / Sources: DeepSeek is at an early stage of developing its own AI chip designed for inference, in a push that could reduce its reliance on Nvidia and Huawei chips (Reuters)",
-          "url": "https://www.techmeme.com/260707/p10",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-07T10:45:00Z"
-        },
-        {
-          "id": "74477274e181292410492beecbad0abf4ac6f9a4",
-          "title": "消息來源：DeepSeek 正處於開發自己的推理人工智慧晶片的早期階段，以減少對 Nvidia 和華為硬體的依賴（路透社） / Sources: DeepSeek is in the early stages of developing its own AI chip designed for inference, in a bid to reduce its reliance on Nvidia and Huawei hardware (Reuters)",
-          "url": "https://www.techmeme.com/260707/p10",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-07T10:45:00Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.3157,
-      "importance": 0.3157,
-      "importance_score": 0.3157,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.5,
-        "recency": 0.0524,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-07T10:45:00Z",
-      "latest_at": "2026-07-07T10:45:00Z",
-      "primary_item": {
-        "id": "c1d847f8280f9283049a8769be42fd3c75a63e8a",
-        "title": "消息來源：DeepSeek 正處於開發自己的推理人工智慧晶片的早期階段，此舉可能會減少對 Nvidia 和華為晶片的依賴（路透社） / Sources: DeepSeek is at an early stage of developing its own AI chip designed for inference, in a push that could reduce its reliance on Nvidia and Huawei chips (Reuters)",
-        "url": "https://www.techmeme.com/260707/p10",
-        "source": "Techmeme",
         "source_name": "OPML RSS"
       }
     }
