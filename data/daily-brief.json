@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-08T17:44:11.693323Z",
+  "generated_at": "2026-07-08T19:43:05.002575Z",
   "window_hours": 24,
-  "total_items": 8,
+  "total_items": 7,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
@@ -84,17 +84,17 @@
           "published_at": "2026-07-07T21:00:02Z"
         },
         {
-          "id": "330de2655ac51834c23579f2fa752351d6773e63",
-          "title": "藝術史上最可怕的巧合 / The Scariest Coincidence in Art History",
-          "url": "https://www.youtube.com/watch?v=qex4M2o8Z5o",
-          "source": "Inspiraggio",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-07T18:19:26Z"
-        },
-        {
           "id": "a06fa00dfc7223301718f4648caea226b9953351",
           "title": "量子自悖論：科學中最奇怪的想法 / The Quantum-Self Paradox: The Strangest Idea in Science",
+          "url": "https://www.youtube.com/watch?v=gm8Bj2kCkfs",
+          "source": "Pursuit of Wonder",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-08T16:05:08Z"
+        },
+        {
+          "id": "027b2bdb1792c2645c85875314becf6d04094e62",
+          "title": "這種量子悖論是如此奇怪，令科學家們感到恐懼 / This Quantum Paradox Is So Strange, It Terrifies Scientists",
           "url": "https://www.youtube.com/watch?v=gm8Bj2kCkfs",
           "source": "Pursuit of Wonder",
           "source_name": "OPML RSS",
@@ -126,7 +126,6 @@
         "Best Documentary",
         "DenQ來了",
         "GOATFANS",
-        "Inspiraggio",
         "Pursuit of Wonder",
         "Tim Ferriss",
         "Timeline - World History Documentaries",
@@ -208,17 +207,17 @@
           "published_at": "2026-07-07T21:00:02Z"
         },
         {
-          "id": "330de2655ac51834c23579f2fa752351d6773e63",
-          "title": "藝術史上最可怕的巧合 / The Scariest Coincidence in Art History",
-          "url": "https://www.youtube.com/watch?v=qex4M2o8Z5o",
-          "source": "Inspiraggio",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-07T18:19:26Z"
-        },
-        {
           "id": "a06fa00dfc7223301718f4648caea226b9953351",
           "title": "量子自悖論：科學中最奇怪的想法 / The Quantum-Self Paradox: The Strangest Idea in Science",
+          "url": "https://www.youtube.com/watch?v=gm8Bj2kCkfs",
+          "source": "Pursuit of Wonder",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-08T16:05:08Z"
+        },
+        {
+          "id": "027b2bdb1792c2645c85875314becf6d04094e62",
+          "title": "這種量子悖論是如此奇怪，令科學家們感到恐懼 / This Quantum Paradox Is So Strange, It Terrifies Scientists",
           "url": "https://www.youtube.com/watch?v=gm8Bj2kCkfs",
           "source": "Pursuit of Wonder",
           "source_name": "OPML RSS",
@@ -246,20 +245,20 @@
       ],
       "item_count": 12,
       "duplicate_count": 12,
-      "score": 0.7422,
-      "importance": 0.7422,
-      "importance_score": 0.7422,
+      "score": 0.7174,
+      "importance": 0.7174,
+      "importance_score": 0.7174,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9739,
+        "recency": 0.8913,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-07T18:19:26Z",
+      "earliest_at": "2026-07-07T21:00:02Z",
       "latest_at": "2026-07-08T17:06:36Z",
       "primary_item": {
         "id": "755b558c57569cdfcd38e0527143cf75e1a9a391",
@@ -322,13 +321,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5658,
-      "importance": 0.5658,
-      "importance_score": 0.5658,
+      "score": 0.541,
+      "importance": 0.541,
+      "importance_score": 0.541,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.886,
+        "recency": 0.8034,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -398,13 +397,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5398,
-      "importance": 0.5398,
-      "importance_score": 0.5398,
+      "score": 0.515,
+      "importance": 0.515,
+      "importance_score": 0.515,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7992,
+        "recency": 0.7166,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -492,13 +491,13 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5033,
-      "importance": 0.5033,
-      "importance_score": 0.5033,
+      "score": 0.4785,
+      "importance": 0.4785,
+      "importance_score": 0.4785,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.9276,
+        "recency": 0.8451,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -568,13 +567,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5304,
-      "importance": 0.5304,
-      "importance_score": 0.5304,
+      "score": 0.5056,
+      "importance": 0.5056,
+      "importance_score": 0.5056,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7679,
+        "recency": 0.6854,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -644,13 +643,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4211,
-      "importance": 0.4211,
-      "importance_score": 0.4211,
+      "score": 0.3963,
+      "importance": 0.3963,
+      "importance_score": 0.3963,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.4037,
+        "recency": 0.3212,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -720,13 +719,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4085,
-      "importance": 0.4085,
-      "importance_score": 0.4085,
+      "score": 0.3837,
+      "importance": 0.3837,
+      "importance_score": 0.3837,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.3617,
+        "recency": 0.2791,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -739,82 +738,6 @@
         "id": "0c991c454e819ec16fe0fe7e411048a6144198de",
         "title": "蘋果對購買長鑫記憶體晶片的興趣使這家中國記憶體晶片製造商及其與北京的關係成為人工智慧供應鏈的焦點（金融時報） / Apple's interest in buying CXMT chips has thrust the Chinese memory chip maker and its relationship with Beijing into the AI supply chain spotlight (Financial Times)",
         "url": "https://www.techmeme.com/260707/p43",
-        "source": "Techmeme",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_2963c75af236",
-      "title": "Muse Image 簡介：為您的世界建立圖像生成（Meta Newsroom） / Introducing Muse Image: Image Generation Built for Your World (Meta Newsroom)",
-      "url": "https://www.techmeme.com/260707/p30",
-      "primary_url": "https://www.techmeme.com/260707/p30",
-      "source": "Techmeme",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "ddb13f19401234ed8f45c7cacd82ca7e684ec680",
-          "title": "Muse Image 簡介：為您的世界建立圖像生成（Meta Newsroom） / Introducing Muse Image: Image Generation Built for Your World (Meta Newsroom)",
-          "url": "https://www.techmeme.com/260707/p30",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-07T18:17:30Z"
-        },
-        {
-          "id": "cd8918c48f7f1513cf2f19a61b0c10f0617afc25",
-          "title": "Meta 在 Meta AI 中推出了 Muse Image，這是其超級智慧實驗室的第一個圖像生成模型；它也將為 Instagram 和 WhatsApp 中的新工具提供支援（Meta Newsroom） / Meta rolls out Muse Image, the first image generation model from its Superintelligence Labs, in Meta AI; it will also power new tools in Instagram and WhatsApp (Meta Newsroom)",
-          "url": "https://www.techmeme.com/260707/p30",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-07T18:17:30Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Techmeme"
-      ],
-      "items": [
-        {
-          "id": "ddb13f19401234ed8f45c7cacd82ca7e684ec680",
-          "title": "Muse Image 簡介：為您的世界建立圖像生成（Meta Newsroom） / Introducing Muse Image: Image Generation Built for Your World (Meta Newsroom)",
-          "url": "https://www.techmeme.com/260707/p30",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-07T18:17:30Z"
-        },
-        {
-          "id": "cd8918c48f7f1513cf2f19a61b0c10f0617afc25",
-          "title": "Meta 在 Meta AI 中推出了 Muse Image，這是其超級智慧實驗室的第一個圖像生成模型；它也將為 Instagram 和 WhatsApp 中的新工具提供支援（Meta Newsroom） / Meta rolls out Muse Image, the first image generation model from its Superintelligence Labs, in Meta AI; it will also power new tools in Instagram and WhatsApp (Meta Newsroom)",
-          "url": "https://www.techmeme.com/260707/p30",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-07T18:17:30Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.3069,
-      "importance": 0.3069,
-      "importance_score": 0.3069,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.5,
-        "recency": 0.0231,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-07T18:17:30Z",
-      "latest_at": "2026-07-07T18:17:30Z",
-      "primary_item": {
-        "id": "ddb13f19401234ed8f45c7cacd82ca7e684ec680",
-        "title": "Muse Image 簡介：為您的世界建立圖像生成（Meta Newsroom） / Introducing Muse Image: Image Generation Built for Your World (Meta Newsroom)",
-        "url": "https://www.techmeme.com/260707/p30",
         "source": "Techmeme",
         "source_name": "OPML RSS"
       }
