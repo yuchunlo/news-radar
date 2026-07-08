@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-07-08T11:25:51.136133Z",
+  "generated_at": "2026-07-08T13:09:30.603542Z",
   "window_hours": 24,
   "total_items": 7,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "Stevie Wonder 竟然给宝可梦“做过”配乐？",
-      "url": "https://www.youtube.com/watch?v=3xiNte_q94Y",
-      "primary_url": "https://www.youtube.com/watch?v=3xiNte_q94Y",
-      "source": "GOATFANS",
+      "title": "比特幣：短暫的強勢窗 / Bitcoin: Brief Window of Strength",
+      "url": "https://www.youtube.com/watch?v=n9yTkx3r904",
+      "primary_url": "https://www.youtube.com/watch?v=n9yTkx3r904",
+      "source": "Benjamin Cowen",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "63e213bd5d44f036839e577a335721833f82e032",
+          "title": "比特幣：短暫的強勢窗 / Bitcoin: Brief Window of Strength",
+          "url": "https://www.youtube.com/watch?v=n9yTkx3r904",
+          "source": "Benjamin Cowen",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-08T12:21:50Z"
+        },
         {
           "id": "656237ed8a2a76c74dea05852bfcf501ab8d2471",
           "title": "Stevie Wonder 竟然给宝可梦“做过”配乐？",
@@ -64,15 +73,6 @@
           "source_name": "OPML RSS",
           "site_id": "culture",
           "published_at": "2026-07-07T18:19:26Z"
-        },
-        {
-          "id": "f514636c2752fb4c1bccbb05aacbd61a717d9c4b",
-          "title": "政府與組織犯罪：終極背叛（墨西哥、中國、牙買加） / Governments & Organized Crime: The Ultimate Betrayal (Mexico, China, Jamaica)",
-          "url": "https://www.youtube.com/watch?v=jG4xUOPho_w",
-          "source": "Best Documentary",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-07T12:00:30Z"
         },
         {
           "id": "5ad9ee385bbc2bbc886b2209a208637230ec3668",
@@ -95,6 +95,7 @@
       ],
       "source_count": 9,
       "source_names": [
+        "Benjamin Cowen",
         "Best Documentary",
         "DenQ來了",
         "GOATFANS",
@@ -105,6 +106,15 @@
         "美投侃新闻"
       ],
       "items": [
+        {
+          "id": "63e213bd5d44f036839e577a335721833f82e032",
+          "title": "比特幣：短暫的強勢窗 / Bitcoin: Brief Window of Strength",
+          "url": "https://www.youtube.com/watch?v=n9yTkx3r904",
+          "source": "Benjamin Cowen",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-08T12:21:50Z"
+        },
         {
           "id": "656237ed8a2a76c74dea05852bfcf501ab8d2471",
           "title": "Stevie Wonder 竟然给宝可梦“做过”配乐？",
@@ -160,15 +170,6 @@
           "published_at": "2026-07-07T18:19:26Z"
         },
         {
-          "id": "f514636c2752fb4c1bccbb05aacbd61a717d9c4b",
-          "title": "政府與組織犯罪：終極背叛（墨西哥、中國、牙買加） / Governments & Organized Crime: The Ultimate Betrayal (Mexico, China, Jamaica)",
-          "url": "https://www.youtube.com/watch?v=jG4xUOPho_w",
-          "source": "Best Documentary",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-07T12:00:30Z"
-        },
-        {
           "id": "5ad9ee385bbc2bbc886b2209a208637230ec3668",
           "title": "女團成員因”1個字” 引爆韓國最離譜炎上事件｜DenQ",
           "url": "https://www.youtube.com/watch?v=RpjbfL8ibuc",
@@ -189,26 +190,26 @@
       ],
       "item_count": 9,
       "duplicate_count": 9,
-      "score": 0.7197,
-      "importance": 0.7197,
-      "importance_score": 0.7197,
+      "score": 0.7401,
+      "importance": 0.7401,
+      "importance_score": 0.7401,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.899,
+        "recency": 0.9669,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-07T12:00:30Z",
-      "latest_at": "2026-07-08T11:00:32Z",
+      "earliest_at": "2026-07-07T18:19:26Z",
+      "latest_at": "2026-07-08T12:21:50Z",
       "primary_item": {
-        "id": "656237ed8a2a76c74dea05852bfcf501ab8d2471",
-        "title": "Stevie Wonder 竟然给宝可梦“做过”配乐？",
-        "url": "https://www.youtube.com/watch?v=3xiNte_q94Y",
-        "source": "GOATFANS",
+        "id": "63e213bd5d44f036839e577a335721833f82e032",
+        "title": "比特幣：短暫的強勢窗 / Bitcoin: Brief Window of Strength",
+        "url": "https://www.youtube.com/watch?v=n9yTkx3r904",
+        "source": "Benjamin Cowen",
         "source_name": "OPML RSS"
       }
     },
@@ -359,13 +360,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4999,
-      "importance": 0.4999,
-      "importance_score": 0.4999,
+      "score": 0.4783,
+      "importance": 0.4783,
+      "importance_score": 0.4783,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6665,
+        "recency": 0.5945,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -435,13 +436,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4873,
-      "importance": 0.4873,
-      "importance_score": 0.4873,
+      "score": 0.4657,
+      "importance": 0.4657,
+      "importance_score": 0.4657,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6244,
+        "recency": 0.5524,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -511,13 +512,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3858,
-      "importance": 0.3858,
-      "importance_score": 0.3858,
+      "score": 0.3642,
+      "importance": 0.3642,
+      "importance_score": 0.3642,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.2859,
+        "recency": 0.2139,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -587,13 +588,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3249,
-      "importance": 0.3249,
-      "importance_score": 0.3249,
+      "score": 0.3033,
+      "importance": 0.3033,
+      "importance_score": 0.3033,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.0828,
+        "recency": 0.0109,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -663,13 +664,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.2209,
-      "importance": 0.2209,
-      "importance_score": 0.2209,
+      "score": 0.1993,
+      "importance": 0.1993,
+      "importance_score": 0.1993,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.1531,
+        "recency": 0.0811,
         "story_heat": 0.25
       },
       "category": "watch",
