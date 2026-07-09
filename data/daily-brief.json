@@ -1,16 +1,34 @@
 {
-  "generated_at": "2026-07-09T20:22:26.652263Z",
+  "generated_at": "2026-07-09T22:02:16.729919Z",
   "window_hours": 24,
   "total_items": 7,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "安迪沃荷不為人知的一生——藝術、名譽與隱藏的秘密 / The Untold Life of Andy Warhol - Art, Fame and Hidden Secrets",
-      "url": "https://www.youtube.com/watch?v=qjwVobY-4Jc",
-      "primary_url": "https://www.youtube.com/watch?v=qjwVobY-4Jc",
-      "source": "Perspective",
+      "title": "「我永遠不會停止打電話給你」：完美的搭配變壞了 / \"I Will Never Stop Calling You\": The Perfect Match Went Bad",
+      "url": "https://www.youtube.com/watch?v=J4DsKwO8nso",
+      "primary_url": "https://www.youtube.com/watch?v=J4DsKwO8nso",
+      "source": "Best Documentary",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "dd38f4fc6f85d500e7680f6d9f257a5d825aa1f5",
+          "title": "「我永遠不會停止打電話給你」：完美的搭配變壞了 / \"I Will Never Stop Calling You\": The Perfect Match Went Bad",
+          "url": "https://www.youtube.com/watch?v=J4DsKwO8nso",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-09T21:00:29Z"
+        },
+        {
+          "id": "c61133d7235a1f9c6303b423d5ed2309a52efa38",
+          "title": "拉文斯布呂克內部：被遺忘的二戰時期全女性集中營 / Inside Ravensbrück: The Forgotten All-Female Concentration Camp Of WW2",
+          "url": "https://www.youtube.com/watch?v=kfhX_XkHsmg",
+          "source": "Timeline - World History Documentaries",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-09T21:00:26Z"
+        },
         {
           "id": "5438756b5c3324faf3b2bbc720e004538232ae47",
           "title": "安迪沃荷不為人知的一生——藝術、名譽與隱藏的秘密 / The Untold Life of Andy Warhol - Art, Fame and Hidden Secrets",
@@ -93,15 +111,6 @@
           "published_at": "2026-07-08T22:21:28Z"
         },
         {
-          "id": "9944bd3b65b87762c2a8a6ca33148a16b176272e",
-          "title": "白天的父親，晚上的怪物：打破沉默 / Fathers by Day, Monsters by Night: Breaking the Silence",
-          "url": "https://www.youtube.com/watch?v=dK6j78tNXw4",
-          "source": "Best Documentary",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-08T21:00:14Z"
-        },
-        {
           "id": "ba256f6d3a7883dc6c9496281959cd8dae24b07e",
           "title": "克里米亞局勢瘋狂 / Crimea Situation Is Insane",
           "url": "https://www.youtube.com/watch?v=QjhqB3tC1Ko",
@@ -156,7 +165,7 @@
           "published_at": "2026-07-09T14:02:04Z"
         }
       ],
-      "source_count": 16,
+      "source_count": 17,
       "source_names": [
         "Benjamin Cowen",
         "Best Documentary",
@@ -166,6 +175,7 @@
         "Perspective",
         "RealLifeLore",
         "Shepherd Capital Markets",
+        "Timeline - World History Documentaries",
         "imineo Documentaires",
         "东海嘉措",
         "探險威狼 Wilang-Explorer",
@@ -174,6 +184,24 @@
         "阿峇卡巴 東南亞電台"
       ],
       "items": [
+        {
+          "id": "dd38f4fc6f85d500e7680f6d9f257a5d825aa1f5",
+          "title": "「我永遠不會停止打電話給你」：完美的搭配變壞了 / \"I Will Never Stop Calling You\": The Perfect Match Went Bad",
+          "url": "https://www.youtube.com/watch?v=J4DsKwO8nso",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-09T21:00:29Z"
+        },
+        {
+          "id": "c61133d7235a1f9c6303b423d5ed2309a52efa38",
+          "title": "拉文斯布呂克內部：被遺忘的二戰時期全女性集中營 / Inside Ravensbrück: The Forgotten All-Female Concentration Camp Of WW2",
+          "url": "https://www.youtube.com/watch?v=kfhX_XkHsmg",
+          "source": "Timeline - World History Documentaries",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-09T21:00:26Z"
+        },
         {
           "id": "5438756b5c3324faf3b2bbc720e004538232ae47",
           "title": "安迪沃荷不為人知的一生——藝術、名譽與隱藏的秘密 / The Untold Life of Andy Warhol - Art, Fame and Hidden Secrets",
@@ -256,15 +284,6 @@
           "published_at": "2026-07-08T22:21:28Z"
         },
         {
-          "id": "9944bd3b65b87762c2a8a6ca33148a16b176272e",
-          "title": "白天的父親，晚上的怪物：打破沉默 / Fathers by Day, Monsters by Night: Breaking the Silence",
-          "url": "https://www.youtube.com/watch?v=dK6j78tNXw4",
-          "source": "Best Documentary",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-08T21:00:14Z"
-        },
-        {
           "id": "ba256f6d3a7883dc6c9496281959cd8dae24b07e",
           "title": "克里米亞局勢瘋狂 / Crimea Situation Is Insane",
           "url": "https://www.youtube.com/watch?v=QjhqB3tC1Ko",
@@ -319,28 +338,28 @@
           "published_at": "2026-07-09T14:02:04Z"
         }
       ],
-      "item_count": 16,
-      "duplicate_count": 16,
-      "score": 0.7329,
-      "importance": 0.7329,
-      "importance_score": 0.7329,
+      "item_count": 17,
+      "duplicate_count": 17,
+      "score": 0.7371,
+      "importance": 0.7371,
+      "importance_score": 0.7371,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9431,
+        "recency": 0.9571,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-08T21:00:14Z",
-      "latest_at": "2026-07-09T19:00:29Z",
+      "earliest_at": "2026-07-08T22:21:28Z",
+      "latest_at": "2026-07-09T21:00:29Z",
       "primary_item": {
-        "id": "5438756b5c3324faf3b2bbc720e004538232ae47",
-        "title": "安迪沃荷不為人知的一生——藝術、名譽與隱藏的秘密 / The Untold Life of Andy Warhol - Art, Fame and Hidden Secrets",
-        "url": "https://www.youtube.com/watch?v=qjwVobY-4Jc",
-        "source": "Perspective",
+        "id": "dd38f4fc6f85d500e7680f6d9f257a5d825aa1f5",
+        "title": "「我永遠不會停止打電話給你」：完美的搭配變壞了 / \"I Will Never Stop Calling You\": The Perfect Match Went Bad",
+        "url": "https://www.youtube.com/watch?v=J4DsKwO8nso",
+        "source": "Best Documentary",
         "source_name": "OPML RSS"
       }
     },
@@ -397,13 +416,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.538,
-      "importance": 0.538,
-      "importance_score": 0.538,
+      "score": 0.5172,
+      "importance": 0.5172,
+      "importance_score": 0.5172,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7935,
+        "recency": 0.7241,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -473,13 +492,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5266,
-      "importance": 0.5266,
-      "importance_score": 0.5266,
+      "score": 0.5058,
+      "importance": 0.5058,
+      "importance_score": 0.5058,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7554,
+        "recency": 0.6861,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -549,13 +568,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5182,
-      "importance": 0.5182,
-      "importance_score": 0.5182,
+      "score": 0.4974,
+      "importance": 0.4974,
+      "importance_score": 0.4974,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7275,
+        "recency": 0.6581,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -625,13 +644,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5162,
-      "importance": 0.5162,
-      "importance_score": 0.5162,
+      "score": 0.4954,
+      "importance": 0.4954,
+      "importance_score": 0.4954,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7205,
+        "recency": 0.6512,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -701,13 +720,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.512,
-      "importance": 0.512,
-      "importance_score": 0.512,
+      "score": 0.4912,
+      "importance": 0.4912,
+      "importance_score": 0.4912,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7066,
+        "recency": 0.6373,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -777,13 +796,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3912,
-      "importance": 0.3912,
-      "importance_score": 0.3912,
+      "score": 0.3704,
+      "importance": 0.3704,
+      "importance_score": 0.3704,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.3039,
+        "recency": 0.2345,
         "story_heat": 0.25
       },
       "category": "watch",
