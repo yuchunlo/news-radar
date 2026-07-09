@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T22:34:35.113840Z",
+  "generated_at": "2026-07-09T00:16:59.098220Z",
   "window_hours": 24,
   "total_items": 7,
   "items": [
@@ -66,13 +66,13 @@
           "published_at": "2026-07-08T09:00:28Z"
         },
         {
-          "id": "8af0a87da32f18746290638ec602f201a477a7ef",
-          "title": "该转向了！买云！微软的小计谋？SpaceX看到300？！",
-          "url": "https://www.youtube.com/watch?v=kVy56ShFwac",
-          "source": "美投侃新闻",
+          "id": "e9a7a9ebbe21e49e0bdcebf5a36f18e196a6d153",
+          "title": "當我們檢查意識時，奇怪的事情發生了... / Something Strange Happens When We Examine Consciousness...",
+          "url": "https://www.youtube.com/watch?v=gm8Bj2kCkfs",
+          "source": "Pursuit of Wonder",
           "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-08T00:15:19Z"
+          "site_id": "opmlrss",
+          "published_at": "2026-07-08T16:05:08Z"
         },
         {
           "id": "a06fa00dfc7223301718f4648caea226b9953351",
@@ -120,8 +120,7 @@
         "Pursuit of Wonder",
         "Shepherd Capital Markets",
         "imineo Documentaires",
-        "公視P#新聞實驗室",
-        "美投侃新闻"
+        "公視P#新聞實驗室"
       ],
       "items": [
         {
@@ -179,13 +178,13 @@
           "published_at": "2026-07-08T09:00:28Z"
         },
         {
-          "id": "8af0a87da32f18746290638ec602f201a477a7ef",
-          "title": "该转向了！买云！微软的小计谋？SpaceX看到300？！",
-          "url": "https://www.youtube.com/watch?v=kVy56ShFwac",
-          "source": "美投侃新闻",
+          "id": "e9a7a9ebbe21e49e0bdcebf5a36f18e196a6d153",
+          "title": "當我們檢查意識時，奇怪的事情發生了... / Something Strange Happens When We Examine Consciousness...",
+          "url": "https://www.youtube.com/watch?v=gm8Bj2kCkfs",
+          "source": "Pursuit of Wonder",
           "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-08T00:15:19Z"
+          "site_id": "opmlrss",
+          "published_at": "2026-07-08T16:05:08Z"
         },
         {
           "id": "a06fa00dfc7223301718f4648caea226b9953351",
@@ -226,20 +225,20 @@
       ],
       "item_count": 11,
       "duplicate_count": 11,
-      "score": 0.7473,
-      "importance": 0.7473,
-      "importance_score": 0.7473,
+      "score": 0.7259,
+      "importance": 0.7259,
+      "importance_score": 0.7259,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9909,
+        "recency": 0.9198,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-08T00:15:19Z",
+      "earliest_at": "2026-07-08T07:45:23Z",
       "latest_at": "2026-07-08T22:21:28Z",
       "primary_item": {
         "id": "82f5951e0fe2c2779d80be867c41ea34240167c3",
@@ -302,13 +301,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5053,
-      "importance": 0.5053,
-      "importance_score": 0.5053,
+      "score": 0.484,
+      "importance": 0.484,
+      "importance_score": 0.484,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6843,
+        "recency": 0.6132,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -378,13 +377,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4793,
-      "importance": 0.4793,
-      "importance_score": 0.4793,
+      "score": 0.4579,
+      "importance": 0.4579,
+      "importance_score": 0.4579,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.5975,
+        "recency": 0.5264,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -472,13 +471,13 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.4428,
-      "importance": 0.4428,
-      "importance_score": 0.4428,
+      "score": 0.4215,
+      "importance": 0.4215,
+      "importance_score": 0.4215,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.726,
+        "recency": 0.6549,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -548,13 +547,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4699,
-      "importance": 0.4699,
-      "importance_score": 0.4699,
+      "score": 0.4486,
+      "importance": 0.4486,
+      "importance_score": 0.4486,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.5663,
+        "recency": 0.4952,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -624,13 +623,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3606,
-      "importance": 0.3606,
-      "importance_score": 0.3606,
+      "score": 0.3393,
+      "importance": 0.3393,
+      "importance_score": 0.3393,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.2021,
+        "recency": 0.1309,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -700,13 +699,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.348,
-      "importance": 0.348,
-      "importance_score": 0.348,
+      "score": 0.3267,
+      "importance": 0.3267,
+      "importance_score": 0.3267,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.16,
+        "recency": 0.0889,
         "story_heat": 0.25
       },
       "category": "watch",
