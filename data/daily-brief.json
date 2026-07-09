@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-09T00:16:59.098220Z",
+  "generated_at": "2026-07-09T04:33:13.450113Z",
   "window_hours": 24,
-  "total_items": 7,
+  "total_items": 5,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
@@ -225,13 +225,13 @@
       ],
       "item_count": 11,
       "duplicate_count": 11,
-      "score": 0.7259,
-      "importance": 0.7259,
-      "importance_score": 0.7259,
+      "score": 0.6726,
+      "importance": 0.6726,
+      "importance_score": 0.6726,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9198,
+        "recency": 0.7418,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -301,13 +301,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.484,
-      "importance": 0.484,
-      "importance_score": 0.484,
+      "score": 0.4306,
+      "importance": 0.4306,
+      "importance_score": 0.4306,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6132,
+        "recency": 0.4353,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -377,13 +377,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4579,
-      "importance": 0.4579,
-      "importance_score": 0.4579,
+      "score": 0.4045,
+      "importance": 0.4045,
+      "importance_score": 0.4045,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.5264,
+        "recency": 0.3485,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -471,13 +471,13 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.4215,
-      "importance": 0.4215,
-      "importance_score": 0.4215,
+      "score": 0.3681,
+      "importance": 0.3681,
+      "importance_score": 0.3681,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.6549,
+        "recency": 0.4769,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -547,13 +547,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4486,
-      "importance": 0.4486,
-      "importance_score": 0.4486,
+      "score": 0.3952,
+      "importance": 0.3952,
+      "importance_score": 0.3952,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.4952,
+        "recency": 0.3172,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -566,158 +566,6 @@
         "id": "6b6bda0f6f7114e45657ad3bb00448d0e0aeb3e1",
         "title": "備案：中國人工智慧模型製造商 Z.ai 尋求以每股約 202 美元至約 216 美元的價格出售 1,980 萬股股票，籌集約 40 億美元，此前其香港股票年初至今飆升 1,400% 以上（彭博社） / Filing: Chinese AI model maker Z.ai is seeking to raise ~$4B from the sale of 19.8M shares at ~$202 to ~$216 each, after its Hong Kong stock soared 1,400%+ YTD (Bloomberg)",
         "url": "https://www.techmeme.com/260708/p19",
-        "source": "Techmeme",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_218d9b6b28d0",
-      "title": "OpenAI 表示將於週四公開推出 GPT-5.6 Sol，以及 Terra 和 Luna；消息人士稱，美國商務部已批准廣泛部署 (Axios) / OpenAI says it will launch GPT-5.6 Sol, along with Terra and Luna, publicly on Thursday; a source says the US Department of Commerce cleared a broad rollout (Axios)",
-      "url": "https://www.techmeme.com/260707/p45",
-      "primary_url": "https://www.techmeme.com/260707/p45",
-      "source": "Techmeme",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "f2dd89eb917df73850978ee89b0afa2b7f09caf7",
-          "title": "OpenAI 表示將於週四公開推出 GPT-5.6 Sol，以及 Terra 和 Luna；消息人士稱，美國商務部已批准廣泛部署 (Axios) / OpenAI says it will launch GPT-5.6 Sol, along with Terra and Luna, publicly on Thursday; a source says the US Department of Commerce cleared a broad rollout (Axios)",
-          "url": "https://www.techmeme.com/260707/p45",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-08T03:25:33Z"
-        },
-        {
-          "id": "8c0730153d502c60ed39852c6b8a235eef1abf6d",
-          "title": "資料來源：美國商務部已為 OpenAI 廣泛推出 GPT 5.6 開綠燈；該公司預計本週將進行廣泛發布（Axios） / Source: the US Department of Commerce has given OpenAI the green light for a broad launch of GPT 5.6; the company expects to do a wide release this week (Axios)",
-          "url": "https://www.techmeme.com/260707/p45",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-08T03:25:33Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Techmeme"
-      ],
-      "items": [
-        {
-          "id": "f2dd89eb917df73850978ee89b0afa2b7f09caf7",
-          "title": "OpenAI 表示將於週四公開推出 GPT-5.6 Sol，以及 Terra 和 Luna；消息人士稱，美國商務部已批准廣泛部署 (Axios) / OpenAI says it will launch GPT-5.6 Sol, along with Terra and Luna, publicly on Thursday; a source says the US Department of Commerce cleared a broad rollout (Axios)",
-          "url": "https://www.techmeme.com/260707/p45",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-08T03:25:33Z"
-        },
-        {
-          "id": "8c0730153d502c60ed39852c6b8a235eef1abf6d",
-          "title": "資料來源：美國商務部已為 OpenAI 廣泛推出 GPT 5.6 開綠燈；該公司預計本週將進行廣泛發布（Axios） / Source: the US Department of Commerce has given OpenAI the green light for a broad launch of GPT 5.6; the company expects to do a wide release this week (Axios)",
-          "url": "https://www.techmeme.com/260707/p45",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-08T03:25:33Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.3393,
-      "importance": 0.3393,
-      "importance_score": 0.3393,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.5,
-        "recency": 0.1309,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-08T03:25:33Z",
-      "latest_at": "2026-07-08T03:25:33Z",
-      "primary_item": {
-        "id": "f2dd89eb917df73850978ee89b0afa2b7f09caf7",
-        "title": "OpenAI 表示將於週四公開推出 GPT-5.6 Sol，以及 Terra 和 Luna；消息人士稱，美國商務部已批准廣泛部署 (Axios) / OpenAI says it will launch GPT-5.6 Sol, along with Terra and Luna, publicly on Thursday; a source says the US Department of Commerce cleared a broad rollout (Axios)",
-        "url": "https://www.techmeme.com/260707/p45",
-        "source": "Techmeme",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_c5ac9ac0d98a",
-      "title": "蘋果對購買長鑫記憶體晶片的興趣使這家中國記憶體晶片製造商及其與北京的關係成為人工智慧供應鏈的焦點（金融時報） / Apple's interest in buying CXMT chips has thrust the Chinese memory chip maker and its relationship with Beijing into the AI supply chain spotlight (Financial Times)",
-      "url": "https://www.techmeme.com/260707/p43",
-      "primary_url": "https://www.techmeme.com/260707/p43",
-      "source": "Techmeme",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "0c991c454e819ec16fe0fe7e411048a6144198de",
-          "title": "蘋果對購買長鑫記憶體晶片的興趣使這家中國記憶體晶片製造商及其與北京的關係成為人工智慧供應鏈的焦點（金融時報） / Apple's interest in buying CXMT chips has thrust the Chinese memory chip maker and its relationship with Beijing into the AI supply chain spotlight (Financial Times)",
-          "url": "https://www.techmeme.com/260707/p43",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-08T02:25:01Z"
-        },
-        {
-          "id": "42b90df2ce46820778464af109ccba175ea7cddd",
-          "title": "資料來源：蘋果開始測試長鑫儲存的 DRAM 晶片，用於在中國銷售的設備；蘋果的興趣使長鑫儲存及其與北京的關係成為人們關注的焦點（金融時報） / Sources: Apple begins testing CXMT's DRAM chips for devices sold in China; Apple's interest thrusts CXMT and its relationship with Beijing into the spotlight (Financial Times)",
-          "url": "https://www.techmeme.com/260707/p43",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-08T02:25:01Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Techmeme"
-      ],
-      "items": [
-        {
-          "id": "0c991c454e819ec16fe0fe7e411048a6144198de",
-          "title": "蘋果對購買長鑫記憶體晶片的興趣使這家中國記憶體晶片製造商及其與北京的關係成為人工智慧供應鏈的焦點（金融時報） / Apple's interest in buying CXMT chips has thrust the Chinese memory chip maker and its relationship with Beijing into the AI supply chain spotlight (Financial Times)",
-          "url": "https://www.techmeme.com/260707/p43",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-08T02:25:01Z"
-        },
-        {
-          "id": "42b90df2ce46820778464af109ccba175ea7cddd",
-          "title": "資料來源：蘋果開始測試長鑫儲存的 DRAM 晶片，用於在中國銷售的設備；蘋果的興趣使長鑫儲存及其與北京的關係成為人們關注的焦點（金融時報） / Sources: Apple begins testing CXMT's DRAM chips for devices sold in China; Apple's interest thrusts CXMT and its relationship with Beijing into the spotlight (Financial Times)",
-          "url": "https://www.techmeme.com/260707/p43",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-08T02:25:01Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.3267,
-      "importance": 0.3267,
-      "importance_score": 0.3267,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.5,
-        "recency": 0.0889,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-08T02:25:01Z",
-      "latest_at": "2026-07-08T02:25:01Z",
-      "primary_item": {
-        "id": "0c991c454e819ec16fe0fe7e411048a6144198de",
-        "title": "蘋果對購買長鑫記憶體晶片的興趣使這家中國記憶體晶片製造商及其與北京的關係成為人工智慧供應鏈的焦點（金融時報） / Apple's interest in buying CXMT chips has thrust the Chinese memory chip maker and its relationship with Beijing into the AI supply chain spotlight (Financial Times)",
-        "url": "https://www.techmeme.com/260707/p43",
         "source": "Techmeme",
         "source_name": "OPML RSS"
       }
