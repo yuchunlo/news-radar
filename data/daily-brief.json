@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-09T15:42:29.858966Z",
+  "generated_at": "2026-07-09T18:01:56.403973Z",
   "window_hours": 24,
-  "total_items": 3,
+  "total_items": 7,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
@@ -93,13 +93,13 @@
           "published_at": "2026-07-08T21:00:14Z"
         },
         {
-          "id": "755b558c57569cdfcd38e0527143cf75e1a9a391",
-          "title": "伊朗：抵抗運動內部 / Iran: Inside the Resistance",
-          "url": "https://www.youtube.com/watch?v=fVajLGj2zUI",
-          "source": "Best Documentary",
+          "id": "886223e55cd66a3aea4ab84a162c904b6c6e54fc",
+          "title": "烏克蘭如何將克里米亞變成一個島嶼 / How Ukraine is Transforming Crimea Into an Island",
+          "url": "https://www.youtube.com/watch?v=QjhqB3tC1Ko",
+          "source": "RealLifeLore",
           "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-08T17:06:36Z"
+          "site_id": "opmlrss",
+          "published_at": "2026-07-09T17:22:11Z"
         },
         {
           "id": "b040ffae1810c4e29f2a4f9e575443fb5323bd42",
@@ -120,40 +120,13 @@
           "published_at": "2026-07-09T11:00:32Z"
         },
         {
-          "id": "e9a7a9ebbe21e49e0bdcebf5a36f18e196a6d153",
-          "title": "當我們檢查意識時，奇怪的事情發生了... / Something Strange Happens When We Examine Consciousness...",
-          "url": "https://www.youtube.com/watch?v=gm8Bj2kCkfs",
-          "source": "Pursuit of Wonder",
+          "id": "4873869d303eb53735ab776d4711266061e6d921",
+          "title": "運動迷|我的西部各州 2026 / A fan of the sport | My Western States 2026",
+          "url": "https://www.youtube.com/watch?v=XuLueFTj_kw",
+          "source": "Kilian Jornet Burgada",
           "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-08T16:05:08Z"
-        },
-        {
-          "id": "5436ffc76cc91cb6b1a389810a1e70c43c053cb8",
-          "title": "讓科學家感到恐懼的量子意識理論 / The Quantum Theory of Consciousness That’s Terrifying Scientists",
-          "url": "https://www.youtube.com/watch?v=gm8Bj2kCkfs",
-          "source": "Pursuit of Wonder",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-08T16:05:08Z"
-        },
-        {
-          "id": "a06fa00dfc7223301718f4648caea226b9953351",
-          "title": "量子自悖論：科學中最奇怪的想法 / The Quantum-Self Paradox: The Strangest Idea in Science",
-          "url": "https://www.youtube.com/watch?v=gm8Bj2kCkfs",
-          "source": "Pursuit of Wonder",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-08T16:05:08Z"
-        },
-        {
-          "id": "027b2bdb1792c2645c85875314becf6d04094e62",
-          "title": "這種量子悖論是如此奇怪，令科學家們感到恐懼 / This Quantum Paradox Is So Strange, It Terrifies Scientists",
-          "url": "https://www.youtube.com/watch?v=gm8Bj2kCkfs",
-          "source": "Pursuit of Wonder",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-08T16:05:08Z"
+          "site_id": "functionality",
+          "published_at": "2026-07-09T16:01:01Z"
         },
         {
           "id": "9321b651ec366e2595b0ff1915a2e4629d912dd4",
@@ -165,13 +138,14 @@
           "published_at": "2026-07-09T14:02:04Z"
         }
       ],
-      "source_count": 17,
+      "source_count": 14,
       "source_names": [
         "Benjamin Cowen",
         "Best Documentary",
         "CaspianReport",
+        "Kilian Jornet Burgada",
         "NPR Music",
-        "Pursuit of Wonder",
+        "RealLifeLore",
         "Shepherd Capital Markets",
         "imineo Documentaires",
         "东海嘉措",
@@ -263,13 +237,13 @@
           "published_at": "2026-07-08T21:00:14Z"
         },
         {
-          "id": "755b558c57569cdfcd38e0527143cf75e1a9a391",
-          "title": "伊朗：抵抗運動內部 / Iran: Inside the Resistance",
-          "url": "https://www.youtube.com/watch?v=fVajLGj2zUI",
-          "source": "Best Documentary",
+          "id": "886223e55cd66a3aea4ab84a162c904b6c6e54fc",
+          "title": "烏克蘭如何將克里米亞變成一個島嶼 / How Ukraine is Transforming Crimea Into an Island",
+          "url": "https://www.youtube.com/watch?v=QjhqB3tC1Ko",
+          "source": "RealLifeLore",
           "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-08T17:06:36Z"
+          "site_id": "opmlrss",
+          "published_at": "2026-07-09T17:22:11Z"
         },
         {
           "id": "b040ffae1810c4e29f2a4f9e575443fb5323bd42",
@@ -290,40 +264,13 @@
           "published_at": "2026-07-09T11:00:32Z"
         },
         {
-          "id": "e9a7a9ebbe21e49e0bdcebf5a36f18e196a6d153",
-          "title": "當我們檢查意識時，奇怪的事情發生了... / Something Strange Happens When We Examine Consciousness...",
-          "url": "https://www.youtube.com/watch?v=gm8Bj2kCkfs",
-          "source": "Pursuit of Wonder",
+          "id": "4873869d303eb53735ab776d4711266061e6d921",
+          "title": "運動迷|我的西部各州 2026 / A fan of the sport | My Western States 2026",
+          "url": "https://www.youtube.com/watch?v=XuLueFTj_kw",
+          "source": "Kilian Jornet Burgada",
           "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-08T16:05:08Z"
-        },
-        {
-          "id": "5436ffc76cc91cb6b1a389810a1e70c43c053cb8",
-          "title": "讓科學家感到恐懼的量子意識理論 / The Quantum Theory of Consciousness That’s Terrifying Scientists",
-          "url": "https://www.youtube.com/watch?v=gm8Bj2kCkfs",
-          "source": "Pursuit of Wonder",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-08T16:05:08Z"
-        },
-        {
-          "id": "a06fa00dfc7223301718f4648caea226b9953351",
-          "title": "量子自悖論：科學中最奇怪的想法 / The Quantum-Self Paradox: The Strangest Idea in Science",
-          "url": "https://www.youtube.com/watch?v=gm8Bj2kCkfs",
-          "source": "Pursuit of Wonder",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-08T16:05:08Z"
-        },
-        {
-          "id": "027b2bdb1792c2645c85875314becf6d04094e62",
-          "title": "這種量子悖論是如此奇怪，令科學家們感到恐懼 / This Quantum Paradox Is So Strange, It Terrifies Scientists",
-          "url": "https://www.youtube.com/watch?v=gm8Bj2kCkfs",
-          "source": "Pursuit of Wonder",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-08T16:05:08Z"
+          "site_id": "functionality",
+          "published_at": "2026-07-09T16:01:01Z"
         },
         {
           "id": "9321b651ec366e2595b0ff1915a2e4629d912dd4",
@@ -335,28 +282,408 @@
           "published_at": "2026-07-09T14:02:04Z"
         }
       ],
-      "item_count": 17,
-      "duplicate_count": 17,
-      "score": 0.735,
-      "importance": 0.735,
-      "importance_score": 0.735,
+      "item_count": 14,
+      "duplicate_count": 14,
+      "score": 0.7059,
+      "importance": 0.7059,
+      "importance_score": 0.7059,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9499,
+        "recency": 0.853,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-08T16:05:08Z",
-      "latest_at": "2026-07-09T14:30:18Z",
+      "earliest_at": "2026-07-08T21:00:14Z",
+      "latest_at": "2026-07-09T17:22:11Z",
       "primary_item": {
         "id": "f7c4dc9e14fdb137f19446607cab80d77b9b2c90",
         "title": "印度的沙漠遊牧民族和他們的神聖駱駝 / India’s Desert Nomads and their Sacred Camels",
         "url": "https://www.youtube.com/watch?v=1TisYOhhYpo",
         "source": "imineo Documentaires",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_8ebe26966e42",
+      "title": "Bun 的創建者表示，他使用 Claude Fable 5 的預發行版本在 11 天內將 Bun 從 Zig 重寫為 Rust；這項任務需要三名工程師大約一年的時間 (Jarred Sumner/bun.com) / Bun creator says he rewrote Bun from Zig to Rust using a pre-release version of Claude Fable 5 in 11 days; the task would've taken three engineers about a year (Jarred Sumner/bun.com)",
+      "url": "https://www.techmeme.com/260709/p24",
+      "primary_url": "https://www.techmeme.com/260709/p24",
+      "source": "Techmeme",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "b4cb99101dbf40ff9d95af1142a42bb7a181ae46",
+          "title": "Bun 的創建者表示，他使用 Claude Fable 5 的預發行版本在 11 天內將 Bun 從 Zig 重寫為 Rust；這項任務需要三名工程師大約一年的時間 (Jarred Sumner/bun.com) / Bun creator says he rewrote Bun from Zig to Rust using a pre-release version of Claude Fable 5 in 11 days; the task would've taken three engineers about a year (Jarred Sumner/bun.com)",
+          "url": "https://www.techmeme.com/260709/p24",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-09T15:25:01Z"
+        },
+        {
+          "id": "e2ef7d89ea5906a358761ef53ffe2df0c8373086",
+          "title": "Bun 的創建者表示，他使用 Claude Fable 5 預發布版本在 11 天內將 Bun 從 Zig 重寫為 Rust，並指出這需要三名工程師「大約一年」（Jarred Sumner/bun.com） / Bun's creator says he rewrote Bun from Zig to Rust using a Claude Fable 5 prerelease version in 11 days, noting it would've taken three engineers \"about a year\" (Jarred Sumner/bun.com)",
+          "url": "https://www.techmeme.com/260709/p24",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-09T15:25:01Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Techmeme"
+      ],
+      "items": [
+        {
+          "id": "b4cb99101dbf40ff9d95af1142a42bb7a181ae46",
+          "title": "Bun 的創建者表示，他使用 Claude Fable 5 的預發行版本在 11 天內將 Bun 從 Zig 重寫為 Rust；這項任務需要三名工程師大約一年的時間 (Jarred Sumner/bun.com) / Bun creator says he rewrote Bun from Zig to Rust using a pre-release version of Claude Fable 5 in 11 days; the task would've taken three engineers about a year (Jarred Sumner/bun.com)",
+          "url": "https://www.techmeme.com/260709/p24",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-09T15:25:01Z"
+        },
+        {
+          "id": "e2ef7d89ea5906a358761ef53ffe2df0c8373086",
+          "title": "Bun 的創建者表示，他使用 Claude Fable 5 預發布版本在 11 天內將 Bun 從 Zig 重寫為 Rust，並指出這需要三名工程師「大約一年」（Jarred Sumner/bun.com） / Bun's creator says he rewrote Bun from Zig to Rust using a Claude Fable 5 prerelease version in 11 days, noting it would've taken three engineers \"about a year\" (Jarred Sumner/bun.com)",
+          "url": "https://www.techmeme.com/260709/p24",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-09T15:25:01Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5673,
+      "importance": 0.5673,
+      "importance_score": 0.5673,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.5,
+        "recency": 0.891,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-09T15:25:01Z",
+      "latest_at": "2026-07-09T15:25:01Z",
+      "primary_item": {
+        "id": "b4cb99101dbf40ff9d95af1142a42bb7a181ae46",
+        "title": "Bun 的創建者表示，他使用 Claude Fable 5 的預發行版本在 11 天內將 Bun 從 Zig 重寫為 Rust；這項任務需要三名工程師大約一年的時間 (Jarred Sumner/bun.com) / Bun creator says he rewrote Bun from Zig to Rust using a pre-release version of Claude Fable 5 in 11 days; the task would've taken three engineers about a year (Jarred Sumner/bun.com)",
+        "url": "https://www.techmeme.com/260709/p24",
+        "source": "Techmeme",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_fd35e13171f8",
+      "title": "Meta 將 Muse Spark 1.1 定價為 1.25 美元/100 萬輸入代幣和 4.25 美元/100 萬輸出代幣； Alexandr Wang 表示改進編碼和代理性能是重點（Ina Fried/Axios） / Meta prices Muse Spark 1.1 at $1.25/1M input tokens and $4.25/1M output tokens; Alexandr Wang says improving coding and agentic performance was a key focus (Ina Fried/Axios)",
+      "url": "https://www.techmeme.com/260709/p22",
+      "primary_url": "https://www.techmeme.com/260709/p22",
+      "source": "Techmeme",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "5a0d2d015ff506eb61a0ebe26fa78e933b3347e8",
+          "title": "Meta 將 Muse Spark 1.1 定價為 1.25 美元/100 萬輸入代幣和 4.25 美元/100 萬輸出代幣； Alexandr Wang 表示改進編碼和代理性能是重點（Ina Fried/Axios） / Meta prices Muse Spark 1.1 at $1.25/1M input tokens and $4.25/1M output tokens; Alexandr Wang says improving coding and agentic performance was a key focus (Ina Fried/Axios)",
+          "url": "https://www.techmeme.com/260709/p22",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-09T14:30:17Z"
+        },
+        {
+          "id": "06222485712d8f0bb49abf4d6c56003214dbd442",
+          "title": "Muse Spark 1.1 每 100 萬個輸入代幣的成本為 1.25 美元，每 100 萬個輸出代幣的成本為 4.25 美元； Alexandr Wang 表示編碼和代理任務是重點（Ina Fried/Axios） / Muse Spark 1.1 costs $1.25 per 1M input tokens and $4.25 per 1M output tokens; Alexandr Wang says coding and agentic tasks were key focuses (Ina Fried/Axios)",
+          "url": "https://www.techmeme.com/260709/p22",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-09T14:30:17Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Techmeme"
+      ],
+      "items": [
+        {
+          "id": "5a0d2d015ff506eb61a0ebe26fa78e933b3347e8",
+          "title": "Meta 將 Muse Spark 1.1 定價為 1.25 美元/100 萬輸入代幣和 4.25 美元/100 萬輸出代幣； Alexandr Wang 表示改進編碼和代理性能是重點（Ina Fried/Axios） / Meta prices Muse Spark 1.1 at $1.25/1M input tokens and $4.25/1M output tokens; Alexandr Wang says improving coding and agentic performance was a key focus (Ina Fried/Axios)",
+          "url": "https://www.techmeme.com/260709/p22",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-09T14:30:17Z"
+        },
+        {
+          "id": "06222485712d8f0bb49abf4d6c56003214dbd442",
+          "title": "Muse Spark 1.1 每 100 萬個輸入代幣的成本為 1.25 美元，每 100 萬個輸出代幣的成本為 4.25 美元； Alexandr Wang 表示編碼和代理任務是重點（Ina Fried/Axios） / Muse Spark 1.1 costs $1.25 per 1M input tokens and $4.25 per 1M output tokens; Alexandr Wang says coding and agentic tasks were key focuses (Ina Fried/Axios)",
+          "url": "https://www.techmeme.com/260709/p22",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-09T14:30:17Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5559,
+      "importance": 0.5559,
+      "importance_score": 0.5559,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.5,
+        "recency": 0.853,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-09T14:30:17Z",
+      "latest_at": "2026-07-09T14:30:17Z",
+      "primary_item": {
+        "id": "5a0d2d015ff506eb61a0ebe26fa78e933b3347e8",
+        "title": "Meta 將 Muse Spark 1.1 定價為 1.25 美元/100 萬輸入代幣和 4.25 美元/100 萬輸出代幣； Alexandr Wang 表示改進編碼和代理性能是重點（Ina Fried/Axios） / Meta prices Muse Spark 1.1 at $1.25/1M input tokens and $4.25/1M output tokens; Alexandr Wang says improving coding and agentic performance was a key focus (Ina Fried/Axios)",
+        "url": "https://www.techmeme.com/260709/p22",
+        "source": "Techmeme",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_0d22e1c62168",
+      "title": "Anthropic 在測試版中為 Free、Pro 和 Max 用戶推出了一個「反射」儀表板，並打開了內存，以追蹤他們在 1、3、6 或 12 個月內的 Claude 活動 (Anthropic) / Anthropic debuts a \"reflection\" dashboard in beta for Free, Pro, and Max users with memory turned on, to track their Claude activity over 1, 3, 6, or 12 months (Anthropic)",
+      "url": "https://www.techmeme.com/260709/p18",
+      "primary_url": "https://www.techmeme.com/260709/p18",
+      "source": "Techmeme",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "f6f854a25ae6113a9e87f6f2d0b852d65ec7b8b9",
+          "title": "Anthropic 在測試版中為 Free、Pro 和 Max 用戶推出了一個「反射」儀表板，並打開了內存，以追蹤他們在 1、3、6 或 12 個月內的 Claude 活動 (Anthropic) / Anthropic debuts a \"reflection\" dashboard in beta for Free, Pro, and Max users with memory turned on, to track their Claude activity over 1, 3, 6, or 12 months (Anthropic)",
+          "url": "https://www.techmeme.com/260709/p18",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-09T13:50:00Z"
+        },
+        {
+          "id": "45c110cb31698a382519204218f8cb29f58e4d60",
+          "title": "Anthropic 為 Free、Pro 和 Max 用戶推出了測試版「反思」儀表板，以追蹤 Claude 在 1、3、6 或 12 個月間隔內的使用模式 (Anthropic) / Anthropic launches a \"reflection\" dashboard in beta for Free, Pro, and Max users to track Claude usage patterns over 1-, 3-, 6-, or 12-month intervals (Anthropic)",
+          "url": "https://www.techmeme.com/260709/p18",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-09T13:50:00Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Techmeme"
+      ],
+      "items": [
+        {
+          "id": "f6f854a25ae6113a9e87f6f2d0b852d65ec7b8b9",
+          "title": "Anthropic 在測試版中為 Free、Pro 和 Max 用戶推出了一個「反射」儀表板，並打開了內存，以追蹤他們在 1、3、6 或 12 個月內的 Claude 活動 (Anthropic) / Anthropic debuts a \"reflection\" dashboard in beta for Free, Pro, and Max users with memory turned on, to track their Claude activity over 1, 3, 6, or 12 months (Anthropic)",
+          "url": "https://www.techmeme.com/260709/p18",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-09T13:50:00Z"
+        },
+        {
+          "id": "45c110cb31698a382519204218f8cb29f58e4d60",
+          "title": "Anthropic 為 Free、Pro 和 Max 用戶推出了測試版「反思」儀表板，以追蹤 Claude 在 1、3、6 或 12 個月間隔內的使用模式 (Anthropic) / Anthropic launches a \"reflection\" dashboard in beta for Free, Pro, and Max users to track Claude usage patterns over 1-, 3-, 6-, or 12-month intervals (Anthropic)",
+          "url": "https://www.techmeme.com/260709/p18",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-09T13:50:00Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5475,
+      "importance": 0.5475,
+      "importance_score": 0.5475,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.5,
+        "recency": 0.825,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-09T13:50:00Z",
+      "latest_at": "2026-07-09T13:50:00Z",
+      "primary_item": {
+        "id": "f6f854a25ae6113a9e87f6f2d0b852d65ec7b8b9",
+        "title": "Anthropic 在測試版中為 Free、Pro 和 Max 用戶推出了一個「反射」儀表板，並打開了內存，以追蹤他們在 1、3、6 或 12 個月內的 Claude 活動 (Anthropic) / Anthropic debuts a \"reflection\" dashboard in beta for Free, Pro, and Max users with memory turned on, to track their Claude activity over 1, 3, 6, or 12 months (Anthropic)",
+        "url": "https://www.techmeme.com/260709/p18",
+        "source": "Techmeme",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_329ce1aaabff",
+      "title": "美光將 2035 年的美國資本支出承諾提高到 250B 美元，為紐約、愛達荷、維吉尼亞和其他項目增加 50B 美元，並向 GlobalWafers 投資 5 億美元（Maggie Eastland/彭博） / Micron raises its US capex commitment to $250B through 2035, adding $50B for New York, Idaho, Virginia, and other projects, and invests $500M in GlobalWafers (Maggie Eastland/Bloomberg)",
+      "url": "https://www.techmeme.com/260709/p16",
+      "primary_url": "https://www.techmeme.com/260709/p16",
+      "source": "Techmeme",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "a0544d6cbd3f8b8f6372499525e7cf50997425fb",
+          "title": "美光將 2035 年的美國資本支出承諾提高到 250B 美元，為紐約、愛達荷、維吉尼亞和其他項目增加 50B 美元，並向 GlobalWafers 投資 5 億美元（Maggie Eastland/彭博） / Micron raises its US capex commitment to $250B through 2035, adding $50B for New York, Idaho, Virginia, and other projects, and invests $500M in GlobalWafers (Maggie Eastland/Bloomberg)",
+          "url": "https://www.techmeme.com/260709/p16",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-09T13:40:01Z"
+        },
+        {
+          "id": "e4ca914f5fedc8e251a39038c857514336a2dd68",
+          "title": "美光將其美國資本支出承諾提高到 2035 年 250B 美元，為紐約、愛達荷州、維吉尼亞州和其他地方的設施增加 50B 美元，並向 GlobalWafers 投資 5 億美元（Maggie Eastland/彭博） / Micron raises its US capex commitment to $250B through 2035, adding $50B for facilities in NY, ID, VA, and elsewhere, and invests $500M in GlobalWafers (Maggie Eastland/Bloomberg)",
+          "url": "https://www.techmeme.com/260709/p16",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-09T13:40:01Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Techmeme"
+      ],
+      "items": [
+        {
+          "id": "a0544d6cbd3f8b8f6372499525e7cf50997425fb",
+          "title": "美光將 2035 年的美國資本支出承諾提高到 250B 美元，為紐約、愛達荷、維吉尼亞和其他項目增加 50B 美元，並向 GlobalWafers 投資 5 億美元（Maggie Eastland/彭博） / Micron raises its US capex commitment to $250B through 2035, adding $50B for New York, Idaho, Virginia, and other projects, and invests $500M in GlobalWafers (Maggie Eastland/Bloomberg)",
+          "url": "https://www.techmeme.com/260709/p16",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-09T13:40:01Z"
+        },
+        {
+          "id": "e4ca914f5fedc8e251a39038c857514336a2dd68",
+          "title": "美光將其美國資本支出承諾提高到 2035 年 250B 美元，為紐約、愛達荷州、維吉尼亞州和其他地方的設施增加 50B 美元，並向 GlobalWafers 投資 5 億美元（Maggie Eastland/彭博） / Micron raises its US capex commitment to $250B through 2035, adding $50B for facilities in NY, ID, VA, and elsewhere, and invests $500M in GlobalWafers (Maggie Eastland/Bloomberg)",
+          "url": "https://www.techmeme.com/260709/p16",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-09T13:40:01Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5454,
+      "importance": 0.5454,
+      "importance_score": 0.5454,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.5,
+        "recency": 0.8181,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-09T13:40:01Z",
+      "latest_at": "2026-07-09T13:40:01Z",
+      "primary_item": {
+        "id": "a0544d6cbd3f8b8f6372499525e7cf50997425fb",
+        "title": "美光將 2035 年的美國資本支出承諾提高到 250B 美元，為紐約、愛達荷、維吉尼亞和其他項目增加 50B 美元，並向 GlobalWafers 投資 5 億美元（Maggie Eastland/彭博） / Micron raises its US capex commitment to $250B through 2035, adding $50B for New York, Idaho, Virginia, and other projects, and invests $500M in GlobalWafers (Maggie Eastland/Bloomberg)",
+        "url": "https://www.techmeme.com/260709/p16",
+        "source": "Techmeme",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_8f8e6d32918a",
+      "title": "PrismML 表示，它在 iPhone 17 Pro 上運行了 27B 參數的 Qwen 3.6 模型，比之前任何設備上的模型都要大；消息來源：Apple 與 PrismML 就此進行了會談（Aaron Tilley/The Information） / PrismML says it ran a 27B-parameter Qwen 3.6 model on an iPhone 17 Pro, bigger than any prior on-device model; sources: Apple held talks with PrismML about it (Aaron Tilley/The Information)",
+      "url": "https://www.techmeme.com/260709/p14",
+      "primary_url": "https://www.techmeme.com/260709/p14",
+      "source": "Techmeme",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "612078b5119b4896dd322e50481706f2137c6c4d",
+          "title": "PrismML 表示，它在 iPhone 17 Pro 上運行了 27B 參數的 Qwen 3.6 模型，比之前任何設備上的模型都要大；消息來源：Apple 與 PrismML 就此進行了會談（Aaron Tilley/The Information） / PrismML says it ran a 27B-parameter Qwen 3.6 model on an iPhone 17 Pro, bigger than any prior on-device model; sources: Apple held talks with PrismML about it (Aaron Tilley/The Information)",
+          "url": "https://www.techmeme.com/260709/p14",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-09T13:20:01Z"
+        },
+        {
+          "id": "bb8a4f1727ee83c8bfec01e792dacf22b3a088c7",
+          "title": "PrismML 將 Qwen 3.6 參數縮小至 27B，並在 iPhone 17 Pro 上運行，比之前的任何移動型號都要大；來源：Apple 與 PrismML 討論了其技術（Aaron Tilley/The Information） / PrismML shrunk Qwen 3.6 to 27B parameters and ran it on an iPhone 17 Pro, bigger than any prior mobile model; sources: Apple talked with PrismML about its tech (Aaron Tilley/The Information)",
+          "url": "https://www.techmeme.com/260709/p14",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-09T13:20:01Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Techmeme"
+      ],
+      "items": [
+        {
+          "id": "612078b5119b4896dd322e50481706f2137c6c4d",
+          "title": "PrismML 表示，它在 iPhone 17 Pro 上運行了 27B 參數的 Qwen 3.6 模型，比之前任何設備上的模型都要大；消息來源：Apple 與 PrismML 就此進行了會談（Aaron Tilley/The Information） / PrismML says it ran a 27B-parameter Qwen 3.6 model on an iPhone 17 Pro, bigger than any prior on-device model; sources: Apple held talks with PrismML about it (Aaron Tilley/The Information)",
+          "url": "https://www.techmeme.com/260709/p14",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-09T13:20:01Z"
+        },
+        {
+          "id": "bb8a4f1727ee83c8bfec01e792dacf22b3a088c7",
+          "title": "PrismML 將 Qwen 3.6 參數縮小至 27B，並在 iPhone 17 Pro 上運行，比之前的任何移動型號都要大；來源：Apple 與 PrismML 討論了其技術（Aaron Tilley/The Information） / PrismML shrunk Qwen 3.6 to 27B parameters and ran it on an iPhone 17 Pro, bigger than any prior mobile model; sources: Apple talked with PrismML about its tech (Aaron Tilley/The Information)",
+          "url": "https://www.techmeme.com/260709/p14",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-09T13:20:01Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5413,
+      "importance": 0.5413,
+      "importance_score": 0.5413,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.5,
+        "recency": 0.8042,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-09T13:20:01Z",
+      "latest_at": "2026-07-09T13:20:01Z",
+      "primary_item": {
+        "id": "612078b5119b4896dd322e50481706f2137c6c4d",
+        "title": "PrismML 表示，它在 iPhone 17 Pro 上運行了 27B 參數的 Qwen 3.6 模型，比之前任何設備上的模型都要大；消息來源：Apple 與 PrismML 就此進行了會談（Aaron Tilley/The Information） / PrismML says it ran a 27B-parameter Qwen 3.6 model on an iPhone 17 Pro, bigger than any prior on-device model; sources: Apple held talks with PrismML about it (Aaron Tilley/The Information)",
+        "url": "https://www.techmeme.com/260709/p14",
+        "source": "Techmeme",
         "source_name": "OPML RSS"
       }
     },
@@ -413,13 +740,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4495,
-      "importance": 0.4495,
-      "importance_score": 0.4495,
+      "score": 0.4204,
+      "importance": 0.4204,
+      "importance_score": 0.4204,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.4983,
+        "recency": 0.4014,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -433,100 +760,6 @@
         "title": "文件：Grubhub 母公司 Wonder 正在以 90 億美元的估值籌集數億美元資金；資料來源：創辦人 Marc Lore 表示他將為本輪融資 2 億美元（The Information） / Filings: Grubhub parent Wonder is raising hundreds of millions at a $9B valuation; source: founder Marc Lore indicated he'll contribute $200M to the round (The Information)",
         "url": "https://www.techmeme.com/260708/p46",
         "source": "Techmeme",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_7d23c0769328",
-      "title": "一千天內，AI內容時代來臨！「手工痕跡」如何成為奢侈品？",
-      "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014396",
-      "primary_url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014396",
-      "source": "商業周刊 當期雜誌開放文章",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "d7c20a542b4d373846a323ea69087df18c18b174",
-          "title": "一千天內，AI內容時代來臨！「手工痕跡」如何成為奢侈品？",
-          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014396",
-          "source": "商業周刊 當期雜誌開放文章",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-08T16:00:00Z"
-        },
-        {
-          "id": "9ec21f8df4b0491ef5ab6a04b977e0d576f92607",
-          "title": "從司儀到百人派對導演！婚宴龍頭新天地一絕招逆勢成長",
-          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014418",
-          "source": "商業周刊 當期雜誌開放文章",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-08T16:00:00Z"
-        },
-        {
-          "id": "f8801684113e8dd99c76ed7bc300f4b8f6edfc19",
-          "title": "從瀕倒自行車廠到AI液冷新星，精確8年營收翻12倍浴火重生記",
-          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014416",
-          "source": "商業周刊 當期雜誌開放文章",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-08T16:00:00Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "商業周刊 當期雜誌開放文章"
-      ],
-      "items": [
-        {
-          "id": "d7c20a542b4d373846a323ea69087df18c18b174",
-          "title": "一千天內，AI內容時代來臨！「手工痕跡」如何成為奢侈品？",
-          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014396",
-          "source": "商業周刊 當期雜誌開放文章",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-08T16:00:00Z"
-        },
-        {
-          "id": "9ec21f8df4b0491ef5ab6a04b977e0d576f92607",
-          "title": "從司儀到百人派對導演！婚宴龍頭新天地一絕招逆勢成長",
-          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014418",
-          "source": "商業周刊 當期雜誌開放文章",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-08T16:00:00Z"
-        },
-        {
-          "id": "f8801684113e8dd99c76ed7bc300f4b8f6edfc19",
-          "title": "從瀕倒自行車廠到AI液冷新星，精確8年營收翻12倍浴火重生記",
-          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014416",
-          "source": "商業周刊 當期雜誌開放文章",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-08T16:00:00Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.2286,
-      "importance": 0.2286,
-      "importance_score": 0.2286,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "source_tier": 0.25,
-        "recency": 0.0122,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-08T16:00:00Z",
-      "latest_at": "2026-07-08T16:00:00Z",
-      "primary_item": {
-        "id": "d7c20a542b4d373846a323ea69087df18c18b174",
-        "title": "一千天內，AI內容時代來臨！「手工痕跡」如何成為奢侈品？",
-        "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014396",
-        "source": "商業周刊 當期雜誌開放文章",
         "source_name": "OPML RSS"
       }
     }
