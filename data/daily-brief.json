@@ -1,16 +1,43 @@
 {
-  "generated_at": "2026-07-09T04:33:13.450113Z",
+  "generated_at": "2026-07-09T08:32:45.356743Z",
   "window_hours": 24,
-  "total_items": 5,
+  "total_items": 6,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "苹果，英伟达背水一战，撑起畸形的美股市场",
-      "url": "https://www.youtube.com/watch?v=Y-0vqTc0OxA",
-      "primary_url": "https://www.youtube.com/watch?v=Y-0vqTc0OxA",
-      "source": "Shepherd Capital Markets",
+      "title": "发财了？我在西藏阿里发现大量古生物化石",
+      "url": "https://www.youtube.com/watch?v=s8zS6o33j-U",
+      "primary_url": "https://www.youtube.com/watch?v=s8zS6o33j-U",
+      "source": "东海嘉措",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "3093d546939f5e200e1475259659f437b25dd882",
+          "title": "发财了？我在西藏阿里发现大量古生物化石",
+          "url": "https://www.youtube.com/watch?v=s8zS6o33j-U",
+          "source": "东海嘉措",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-09T05:32:58Z"
+        },
+        {
+          "id": "3427248b4887ae2571c4ed2264a042e8f4c266da",
+          "title": "喜茶攻入曼谷！中國手搖飲版圖再擴大",
+          "url": "https://www.youtube.com/watch?v=9vJm18Y2Wm8",
+          "source": "阿峇卡巴 東南亞電台",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-09T05:11:04Z"
+        },
+        {
+          "id": "0ae079a815828652fdef855bb4bf4afe8c198214",
+          "title": "美联储怕AI通胀？海力士还是美光？Anthropic有600亿ARR！比特币现买入信号！",
+          "url": "https://www.youtube.com/watch?v=-lseu1zMNvs",
+          "source": "美投侃新闻",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-09T00:23:52Z"
+        },
         {
           "id": "82f5951e0fe2c2779d80be867c41ea34240167c3",
           "title": "苹果，英伟达背水一战，撑起畸形的美股市场",
@@ -75,6 +102,15 @@
           "published_at": "2026-07-08T16:05:08Z"
         },
         {
+          "id": "5436ffc76cc91cb6b1a389810a1e70c43c053cb8",
+          "title": "讓科學家感到恐懼的量子意識理論 / The Quantum Theory of Consciousness That’s Terrifying Scientists",
+          "url": "https://www.youtube.com/watch?v=gm8Bj2kCkfs",
+          "source": "Pursuit of Wonder",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-08T16:05:08Z"
+        },
+        {
           "id": "a06fa00dfc7223301718f4648caea226b9953351",
           "title": "量子自悖論：科學中最奇怪的想法 / The Quantum-Self Paradox: The Strangest Idea in Science",
           "url": "https://www.youtube.com/watch?v=gm8Bj2kCkfs",
@@ -100,18 +136,9 @@
           "source_name": "OPML RSS",
           "site_id": "trending",
           "published_at": "2026-07-08T11:00:32Z"
-        },
-        {
-          "id": "03d5fbc4744b32d59ec87d3fb3f400a4b1bfe240",
-          "title": "海纜常斷！低軌衛星能派上用場嗎？台灣的通訊韌性夠嗎？｜公視P# 新聞實驗室",
-          "url": "https://www.youtube.com/watch?v=xICvY586XZ8",
-          "source": "公視P#新聞實驗室",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-08T07:45:23Z"
         }
       ],
-      "source_count": 11,
+      "source_count": 14,
       "source_names": [
         "Benjamin Cowen",
         "Best Documentary",
@@ -120,9 +147,38 @@
         "Pursuit of Wonder",
         "Shepherd Capital Markets",
         "imineo Documentaires",
-        "公視P#新聞實驗室"
+        "东海嘉措",
+        "美投侃新闻",
+        "阿峇卡巴 東南亞電台"
       ],
       "items": [
+        {
+          "id": "3093d546939f5e200e1475259659f437b25dd882",
+          "title": "发财了？我在西藏阿里发现大量古生物化石",
+          "url": "https://www.youtube.com/watch?v=s8zS6o33j-U",
+          "source": "东海嘉措",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-09T05:32:58Z"
+        },
+        {
+          "id": "3427248b4887ae2571c4ed2264a042e8f4c266da",
+          "title": "喜茶攻入曼谷！中國手搖飲版圖再擴大",
+          "url": "https://www.youtube.com/watch?v=9vJm18Y2Wm8",
+          "source": "阿峇卡巴 東南亞電台",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-09T05:11:04Z"
+        },
+        {
+          "id": "0ae079a815828652fdef855bb4bf4afe8c198214",
+          "title": "美联储怕AI通胀？海力士还是美光？Anthropic有600亿ARR！比特币现买入信号！",
+          "url": "https://www.youtube.com/watch?v=-lseu1zMNvs",
+          "source": "美投侃新闻",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-09T00:23:52Z"
+        },
         {
           "id": "82f5951e0fe2c2779d80be867c41ea34240167c3",
           "title": "苹果，英伟达背水一战，撑起畸形的美股市场",
@@ -187,6 +243,15 @@
           "published_at": "2026-07-08T16:05:08Z"
         },
         {
+          "id": "5436ffc76cc91cb6b1a389810a1e70c43c053cb8",
+          "title": "讓科學家感到恐懼的量子意識理論 / The Quantum Theory of Consciousness That’s Terrifying Scientists",
+          "url": "https://www.youtube.com/watch?v=gm8Bj2kCkfs",
+          "source": "Pursuit of Wonder",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-08T16:05:08Z"
+        },
+        {
           "id": "a06fa00dfc7223301718f4648caea226b9953351",
           "title": "量子自悖論：科學中最奇怪的想法 / The Quantum-Self Paradox: The Strangest Idea in Science",
           "url": "https://www.youtube.com/watch?v=gm8Bj2kCkfs",
@@ -212,39 +277,106 @@
           "source_name": "OPML RSS",
           "site_id": "trending",
           "published_at": "2026-07-08T11:00:32Z"
-        },
-        {
-          "id": "03d5fbc4744b32d59ec87d3fb3f400a4b1bfe240",
-          "title": "海纜常斷！低軌衛星能派上用場嗎？台灣的通訊韌性夠嗎？｜公視P# 新聞實驗室",
-          "url": "https://www.youtube.com/watch?v=xICvY586XZ8",
-          "source": "公視P#新聞實驗室",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-08T07:45:23Z"
         }
       ],
-      "item_count": 11,
-      "duplicate_count": 11,
-      "score": 0.6726,
-      "importance": 0.6726,
-      "importance_score": 0.6726,
+      "item_count": 14,
+      "duplicate_count": 14,
+      "score": 0.7125,
+      "importance": 0.7125,
+      "importance_score": 0.7125,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7418,
+        "recency": 0.8751,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-08T07:45:23Z",
-      "latest_at": "2026-07-08T22:21:28Z",
+      "earliest_at": "2026-07-08T09:00:28Z",
+      "latest_at": "2026-07-09T05:32:58Z",
       "primary_item": {
-        "id": "82f5951e0fe2c2779d80be867c41ea34240167c3",
-        "title": "苹果，英伟达背水一战，撑起畸形的美股市场",
-        "url": "https://www.youtube.com/watch?v=Y-0vqTc0OxA",
-        "source": "Shepherd Capital Markets",
+        "id": "3093d546939f5e200e1475259659f437b25dd882",
+        "title": "发财了？我在西藏阿里发现大量古生物化石",
+        "url": "https://www.youtube.com/watch?v=s8zS6o33j-U",
+        "source": "东海嘉措",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_68608c91a176",
+      "title": "文件：Grubhub 母公司 Wonder 正在以 90 億美元的估值籌集數億美元資金；資料來源：創辦人 Marc Lore 表示他將為本輪融資 2 億美元（The Information） / Filings: Grubhub parent Wonder is raising hundreds of millions at a $9B valuation; source: founder Marc Lore indicated he'll contribute $200M to the round (The Information)",
+      "url": "https://www.techmeme.com/260708/p46",
+      "primary_url": "https://www.techmeme.com/260708/p46",
+      "source": "Techmeme",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "cd799fba732db60ea92b9bec861c4baab997b4e9",
+          "title": "文件：Grubhub 母公司 Wonder 正在以 90 億美元的估值籌集數億美元資金；資料來源：創辦人 Marc Lore 表示他將為本輪融資 2 億美元（The Information） / Filings: Grubhub parent Wonder is raising hundreds of millions at a $9B valuation; source: founder Marc Lore indicated he'll contribute $200M to the round (The Information)",
+          "url": "https://www.techmeme.com/260708/p46",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-09T03:40:01Z"
+        },
+        {
+          "id": "df4dbbe81ca9f76883ebca211cd164cb04955ab3",
+          "title": "文件：Grubhub 母公司 Wonder 正在以 9B 美元的估值籌集數億美元；消息人士稱，創始人 Marc Lore 表示他將捐贈 2 億美元（The Information） / Filings: Grubhub parent Wonder is raising hundreds of millions of dollars at a $9B valuation; a source says founder Marc Lore indicated he will contribute $200M (The Information)",
+          "url": "https://www.techmeme.com/260708/p46",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-09T03:40:01Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Techmeme"
+      ],
+      "items": [
+        {
+          "id": "cd799fba732db60ea92b9bec861c4baab997b4e9",
+          "title": "文件：Grubhub 母公司 Wonder 正在以 90 億美元的估值籌集數億美元資金；資料來源：創辦人 Marc Lore 表示他將為本輪融資 2 億美元（The Information） / Filings: Grubhub parent Wonder is raising hundreds of millions at a $9B valuation; source: founder Marc Lore indicated he'll contribute $200M to the round (The Information)",
+          "url": "https://www.techmeme.com/260708/p46",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-09T03:40:01Z"
+        },
+        {
+          "id": "df4dbbe81ca9f76883ebca211cd164cb04955ab3",
+          "title": "文件：Grubhub 母公司 Wonder 正在以 9B 美元的估值籌集數億美元；消息人士稱，創始人 Marc Lore 表示他將捐贈 2 億美元（The Information） / Filings: Grubhub parent Wonder is raising hundreds of millions of dollars at a $9B valuation; a source says founder Marc Lore indicated he will contribute $200M (The Information)",
+          "url": "https://www.techmeme.com/260708/p46",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-09T03:40:01Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.539,
+      "importance": 0.539,
+      "importance_score": 0.539,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.5,
+        "recency": 0.7967,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-09T03:40:01Z",
+      "latest_at": "2026-07-09T03:40:01Z",
+      "primary_item": {
+        "id": "cd799fba732db60ea92b9bec861c4baab997b4e9",
+        "title": "文件：Grubhub 母公司 Wonder 正在以 90 億美元的估值籌集數億美元資金；資料來源：創辦人 Marc Lore 表示他將為本輪融資 2 億美元（The Information） / Filings: Grubhub parent Wonder is raising hundreds of millions at a $9B valuation; source: founder Marc Lore indicated he'll contribute $200M to the round (The Information)",
+        "url": "https://www.techmeme.com/260708/p46",
+        "source": "Techmeme",
         "source_name": "OPML RSS"
       }
     },
@@ -301,13 +433,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4306,
-      "importance": 0.4306,
-      "importance_score": 0.4306,
+      "score": 0.3807,
+      "importance": 0.3807,
+      "importance_score": 0.3807,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.4353,
+        "recency": 0.2689,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -321,6 +453,100 @@
         "title": "資料來源：中國計劃讓一些最大的人工智慧公司購買少量 Nvidia 的 H200 晶片，以抵消近幾個月國內運算短缺的情況（Qianer Liu/The Information） / Sources: China plans to let some of its biggest AI companies buy a small number of Nvidia's H200 chips to offset a domestic computing shortage in recent months (Qianer Liu/The Information)",
         "url": "https://www.techmeme.com/260708/p30",
         "source": "Techmeme",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_7d23c0769328",
+      "title": "一千天內，AI內容時代來臨！「手工痕跡」如何成為奢侈品？",
+      "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014396",
+      "primary_url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014396",
+      "source": "商業周刊 當期雜誌開放文章",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "d7c20a542b4d373846a323ea69087df18c18b174",
+          "title": "一千天內，AI內容時代來臨！「手工痕跡」如何成為奢侈品？",
+          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014396",
+          "source": "商業周刊 當期雜誌開放文章",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-08T16:00:00Z"
+        },
+        {
+          "id": "9ec21f8df4b0491ef5ab6a04b977e0d576f92607",
+          "title": "從司儀到百人派對導演！婚宴龍頭新天地一絕招逆勢成長",
+          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014418",
+          "source": "商業周刊 當期雜誌開放文章",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-08T16:00:00Z"
+        },
+        {
+          "id": "f8801684113e8dd99c76ed7bc300f4b8f6edfc19",
+          "title": "從瀕倒自行車廠到AI液冷新星，精確8年營收翻12倍浴火重生記",
+          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014416",
+          "source": "商業周刊 當期雜誌開放文章",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-08T16:00:00Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "商業周刊 當期雜誌開放文章"
+      ],
+      "items": [
+        {
+          "id": "d7c20a542b4d373846a323ea69087df18c18b174",
+          "title": "一千天內，AI內容時代來臨！「手工痕跡」如何成為奢侈品？",
+          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014396",
+          "source": "商業周刊 當期雜誌開放文章",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-08T16:00:00Z"
+        },
+        {
+          "id": "9ec21f8df4b0491ef5ab6a04b977e0d576f92607",
+          "title": "從司儀到百人派對導演！婚宴龍頭新天地一絕招逆勢成長",
+          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014418",
+          "source": "商業周刊 當期雜誌開放文章",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-08T16:00:00Z"
+        },
+        {
+          "id": "f8801684113e8dd99c76ed7bc300f4b8f6edfc19",
+          "title": "從瀕倒自行車廠到AI液冷新星，精確8年營收翻12倍浴火重生記",
+          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014416",
+          "source": "商業周刊 當期雜誌開放文章",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-08T16:00:00Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.3182,
+      "importance": 0.3182,
+      "importance_score": 0.3182,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "source_tier": 0.25,
+        "recency": 0.3106,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-08T16:00:00Z",
+      "latest_at": "2026-07-08T16:00:00Z",
+      "primary_item": {
+        "id": "d7c20a542b4d373846a323ea69087df18c18b174",
+        "title": "一千天內，AI內容時代來臨！「手工痕跡」如何成為奢侈品？",
+        "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014396",
+        "source": "商業周刊 當期雜誌開放文章",
         "source_name": "OPML RSS"
       }
     },
@@ -377,13 +603,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4045,
-      "importance": 0.4045,
-      "importance_score": 0.4045,
+      "score": 0.3546,
+      "importance": 0.3546,
+      "importance_score": 0.3546,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.3485,
+        "recency": 0.1821,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -397,100 +623,6 @@
         "title": "SK 海力士尋求在納斯達克籌集約 28B 美元資金時的 IPO 招股說明書分析：對 HBM 的高槓桿、與中國的深厚而廣泛的聯繫以及健康和安全問題 (Tim Culpan/Culpium) / SK Hynix's IPO prospectus analysis, as it seeks to raise ~$28B on the Nasdaq: highly leveraged to HBM, deep and broad China ties, and health and safety concerns (Tim Culpan/Culpium)",
         "url": "https://www.techmeme.com/260708/p23",
         "source": "Techmeme",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_7d23c0769328",
-      "title": "一千天內，AI內容時代來臨　「手工痕跡」如何成為奢侈品？",
-      "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014396",
-      "primary_url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014396",
-      "source": "商業周刊 當期雜誌開放文章",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "6c4b4b1581f276ad78264a84abedbfb464f16678",
-          "title": "一千天內，AI內容時代來臨　「手工痕跡」如何成為奢侈品？",
-          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014396",
-          "source": "商業周刊 當期雜誌開放文章",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-08T16:00:00Z"
-        },
-        {
-          "id": "9ec21f8df4b0491ef5ab6a04b977e0d576f92607",
-          "title": "從司儀到百人派對導演！婚宴龍頭新天地一絕招逆勢成長",
-          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014418",
-          "source": "商業周刊 當期雜誌開放文章",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-08T16:00:00Z"
-        },
-        {
-          "id": "7ec5b45f0d9c0a9a15bd312b609f6764b979dc2c",
-          "title": "從瀕倒自行車廠到AI液冷新星　精確8年營收翻12倍浴火重生記",
-          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014416",
-          "source": "商業周刊 當期雜誌開放文章",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-08T16:00:00Z"
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "商業周刊 當期雜誌開放文章"
-      ],
-      "items": [
-        {
-          "id": "6c4b4b1581f276ad78264a84abedbfb464f16678",
-          "title": "一千天內，AI內容時代來臨　「手工痕跡」如何成為奢侈品？",
-          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014396",
-          "source": "商業周刊 當期雜誌開放文章",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-08T16:00:00Z"
-        },
-        {
-          "id": "9ec21f8df4b0491ef5ab6a04b977e0d576f92607",
-          "title": "從司儀到百人派對導演！婚宴龍頭新天地一絕招逆勢成長",
-          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014418",
-          "source": "商業周刊 當期雜誌開放文章",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-08T16:00:00Z"
-        },
-        {
-          "id": "7ec5b45f0d9c0a9a15bd312b609f6764b979dc2c",
-          "title": "從瀕倒自行車廠到AI液冷新星　精確8年營收翻12倍浴火重生記",
-          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014416",
-          "source": "商業周刊 當期雜誌開放文章",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-08T16:00:00Z"
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.3681,
-      "importance": 0.3681,
-      "importance_score": 0.3681,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "source_tier": 0.25,
-        "recency": 0.4769,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-08T16:00:00Z",
-      "latest_at": "2026-07-08T16:00:00Z",
-      "primary_item": {
-        "id": "6c4b4b1581f276ad78264a84abedbfb464f16678",
-        "title": "一千天內，AI內容時代來臨　「手工痕跡」如何成為奢侈品？",
-        "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014396",
-        "source": "商業周刊 當期雜誌開放文章",
         "source_name": "OPML RSS"
       }
     },
@@ -547,13 +679,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3952,
-      "importance": 0.3952,
-      "importance_score": 0.3952,
+      "score": 0.3453,
+      "importance": 0.3453,
+      "importance_score": 0.3453,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.3172,
+        "recency": 0.1509,
         "story_heat": 0.25
       },
       "category": "watch",
