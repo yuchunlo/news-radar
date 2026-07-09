@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-07-09T18:01:56.403973Z",
+  "generated_at": "2026-07-09T20:22:26.652263Z",
   "window_hours": 24,
   "total_items": 7,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "印度的沙漠遊牧民族和他們的神聖駱駝 / India’s Desert Nomads and their Sacred Camels",
-      "url": "https://www.youtube.com/watch?v=1TisYOhhYpo",
-      "primary_url": "https://www.youtube.com/watch?v=1TisYOhhYpo",
-      "source": "imineo Documentaires",
+      "title": "安迪沃荷不為人知的一生——藝術、名譽與隱藏的秘密 / The Untold Life of Andy Warhol - Art, Fame and Hidden Secrets",
+      "url": "https://www.youtube.com/watch?v=qjwVobY-4Jc",
+      "primary_url": "https://www.youtube.com/watch?v=qjwVobY-4Jc",
+      "source": "Perspective",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "5438756b5c3324faf3b2bbc720e004538232ae47",
+          "title": "安迪沃荷不為人知的一生——藝術、名譽與隱藏的秘密 / The Untold Life of Andy Warhol - Art, Fame and Hidden Secrets",
+          "url": "https://www.youtube.com/watch?v=qjwVobY-4Jc",
+          "source": "Perspective",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-09T19:00:29Z"
+        },
         {
           "id": "f7c4dc9e14fdb137f19446607cab80d77b9b2c90",
           "title": "印度的沙漠遊牧民族和他們的神聖駱駝 / India’s Desert Nomads and their Sacred Camels",
@@ -93,6 +102,15 @@
           "published_at": "2026-07-08T21:00:14Z"
         },
         {
+          "id": "ba256f6d3a7883dc6c9496281959cd8dae24b07e",
+          "title": "克里米亞局勢瘋狂 / Crimea Situation Is Insane",
+          "url": "https://www.youtube.com/watch?v=QjhqB3tC1Ko",
+          "source": "RealLifeLore",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-09T17:22:11Z"
+        },
+        {
           "id": "886223e55cd66a3aea4ab84a162c904b6c6e54fc",
           "title": "烏克蘭如何將克里米亞變成一個島嶼 / How Ukraine is Transforming Crimea Into an Island",
           "url": "https://www.youtube.com/watch?v=QjhqB3tC1Ko",
@@ -138,13 +156,14 @@
           "published_at": "2026-07-09T14:02:04Z"
         }
       ],
-      "source_count": 14,
+      "source_count": 16,
       "source_names": [
         "Benjamin Cowen",
         "Best Documentary",
         "CaspianReport",
         "Kilian Jornet Burgada",
         "NPR Music",
+        "Perspective",
         "RealLifeLore",
         "Shepherd Capital Markets",
         "imineo Documentaires",
@@ -156,6 +175,15 @@
       ],
       "items": [
         {
+          "id": "5438756b5c3324faf3b2bbc720e004538232ae47",
+          "title": "安迪沃荷不為人知的一生——藝術、名譽與隱藏的秘密 / The Untold Life of Andy Warhol - Art, Fame and Hidden Secrets",
+          "url": "https://www.youtube.com/watch?v=qjwVobY-4Jc",
+          "source": "Perspective",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-09T19:00:29Z"
+        },
+        {
           "id": "f7c4dc9e14fdb137f19446607cab80d77b9b2c90",
           "title": "印度的沙漠遊牧民族和他們的神聖駱駝 / India’s Desert Nomads and their Sacred Camels",
           "url": "https://www.youtube.com/watch?v=1TisYOhhYpo",
@@ -237,6 +265,15 @@
           "published_at": "2026-07-08T21:00:14Z"
         },
         {
+          "id": "ba256f6d3a7883dc6c9496281959cd8dae24b07e",
+          "title": "克里米亞局勢瘋狂 / Crimea Situation Is Insane",
+          "url": "https://www.youtube.com/watch?v=QjhqB3tC1Ko",
+          "source": "RealLifeLore",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-09T17:22:11Z"
+        },
+        {
           "id": "886223e55cd66a3aea4ab84a162c904b6c6e54fc",
           "title": "烏克蘭如何將克里米亞變成一個島嶼 / How Ukraine is Transforming Crimea Into an Island",
           "url": "https://www.youtube.com/watch?v=QjhqB3tC1Ko",
@@ -282,15 +319,15 @@
           "published_at": "2026-07-09T14:02:04Z"
         }
       ],
-      "item_count": 14,
-      "duplicate_count": 14,
-      "score": 0.7059,
-      "importance": 0.7059,
-      "importance_score": 0.7059,
+      "item_count": 16,
+      "duplicate_count": 16,
+      "score": 0.7329,
+      "importance": 0.7329,
+      "importance_score": 0.7329,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.853,
+        "recency": 0.9431,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -298,12 +335,12 @@
         "multi_source"
       ],
       "earliest_at": "2026-07-08T21:00:14Z",
-      "latest_at": "2026-07-09T17:22:11Z",
+      "latest_at": "2026-07-09T19:00:29Z",
       "primary_item": {
-        "id": "f7c4dc9e14fdb137f19446607cab80d77b9b2c90",
-        "title": "印度的沙漠遊牧民族和他們的神聖駱駝 / India’s Desert Nomads and their Sacred Camels",
-        "url": "https://www.youtube.com/watch?v=1TisYOhhYpo",
-        "source": "imineo Documentaires",
+        "id": "5438756b5c3324faf3b2bbc720e004538232ae47",
+        "title": "安迪沃荷不為人知的一生——藝術、名譽與隱藏的秘密 / The Untold Life of Andy Warhol - Art, Fame and Hidden Secrets",
+        "url": "https://www.youtube.com/watch?v=qjwVobY-4Jc",
+        "source": "Perspective",
         "source_name": "OPML RSS"
       }
     },
@@ -360,13 +397,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5673,
-      "importance": 0.5673,
-      "importance_score": 0.5673,
+      "score": 0.538,
+      "importance": 0.538,
+      "importance_score": 0.538,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.891,
+        "recency": 0.7935,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -436,13 +473,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5559,
-      "importance": 0.5559,
-      "importance_score": 0.5559,
+      "score": 0.5266,
+      "importance": 0.5266,
+      "importance_score": 0.5266,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.853,
+        "recency": 0.7554,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -512,13 +549,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5475,
-      "importance": 0.5475,
-      "importance_score": 0.5475,
+      "score": 0.5182,
+      "importance": 0.5182,
+      "importance_score": 0.5182,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.825,
+        "recency": 0.7275,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -588,13 +625,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5454,
-      "importance": 0.5454,
-      "importance_score": 0.5454,
+      "score": 0.5162,
+      "importance": 0.5162,
+      "importance_score": 0.5162,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.8181,
+        "recency": 0.7205,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -664,13 +701,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5413,
-      "importance": 0.5413,
-      "importance_score": 0.5413,
+      "score": 0.512,
+      "importance": 0.512,
+      "importance_score": 0.512,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.8042,
+        "recency": 0.7066,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -740,13 +777,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4204,
-      "importance": 0.4204,
-      "importance_score": 0.4204,
+      "score": 0.3912,
+      "importance": 0.3912,
+      "importance_score": 0.3912,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.4014,
+        "recency": 0.3039,
         "story_heat": 0.25
       },
       "category": "watch",
