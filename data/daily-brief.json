@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-07-10T19:45:13.027323Z",
+  "generated_at": "2026-07-10T21:11:16.668741Z",
   "window_hours": 24,
-  "total_items": 4,
+  "total_items": 5,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "每個人對中國和人工智慧安全的看法都是錯誤的——Sebastian Mallaby 解釋道 / Everyone Is Wrong About China and AI Safety — Sebastian Mallaby Explains",
-      "url": "https://www.youtube.com/watch?v=jO22a9BG1tg",
-      "primary_url": "https://www.youtube.com/watch?v=jO22a9BG1tg",
-      "source": "Tim Ferriss",
+      "title": "Moochie & Jill Halliburton 案：邁阿密豪宅到底發生了什麼事？ / Moochie & Jill Halliburton Case: What Really Happened in the Miami Mansion?",
+      "url": "https://www.youtube.com/watch?v=jjbQ4OZ3wws",
+      "primary_url": "https://www.youtube.com/watch?v=jjbQ4OZ3wws",
+      "source": "Best Documentary",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "38c8f968741cbcd75caeecbe6316131832e75f1a",
+          "title": "Moochie & Jill Halliburton 案：邁阿密豪宅到底發生了什麼事？ / Moochie & Jill Halliburton Case: What Really Happened in the Miami Mansion?",
+          "url": "https://www.youtube.com/watch?v=jjbQ4OZ3wws",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-10T21:00:02Z"
+        },
         {
           "id": "72549bbbcf2bd3908f47e616a84e3d1380ff1af3",
           "title": "每個人對中國和人工智慧安全的看法都是錯誤的——Sebastian Mallaby 解釋道 / Everyone Is Wrong About China and AI Safety — Sebastian Mallaby Explains",
@@ -19,6 +28,15 @@
           "source_name": "OPML RSS",
           "site_id": "blog",
           "published_at": "2026-07-10T18:57:32Z"
+        },
+        {
+          "id": "3d7b907ac9db623ce3ab35e5d13ba5b8cb531df6",
+          "title": "最強大的古代戰艦實際上是如何運作的 / How the Most Powerful Ancient Warship Actually Worked",
+          "url": "https://www.youtube.com/watch?v=ZLHCdo9VWeg",
+          "source": "Deconstructed",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-10T16:00:29Z"
         },
         {
           "id": "78a79170159e5a53ed4efcc0247072c6dc95c643",
@@ -120,24 +138,6 @@
           "published_at": "2026-07-09T22:00:32Z"
         },
         {
-          "id": "dd38f4fc6f85d500e7680f6d9f257a5d825aa1f5",
-          "title": "「我永遠不會停止打電話給你」：完美的搭配變壞了 / \"I Will Never Stop Calling You\": The Perfect Match Went Bad",
-          "url": "https://www.youtube.com/watch?v=J4DsKwO8nso",
-          "source": "Best Documentary",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-09T21:00:29Z"
-        },
-        {
-          "id": "c61133d7235a1f9c6303b423d5ed2309a52efa38",
-          "title": "拉文斯布呂克內部：被遺忘的二戰時期全女性集中營 / Inside Ravensbrück: The Forgotten All-Female Concentration Camp Of WW2",
-          "url": "https://www.youtube.com/watch?v=kfhX_XkHsmg",
-          "source": "Timeline - World History Documentaries",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-09T21:00:26Z"
-        },
-        {
           "id": "bba3675c1047c5643c42cd90ff98d65017c5ce7c",
           "title": "德國夾在中美之間 / Germany Caught Between China and America",
           "url": "https://www.youtube.com/watch?v=_xZKlh8ZBmk",
@@ -145,6 +145,15 @@
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
           "published_at": "2026-07-10T14:50:40Z"
+        },
+        {
+          "id": "269e50d9cc8979db3caf34725b605179c65d6da9",
+          "title": "遊戲界被起訴最多的人 / The Most Sued Man In Gaming",
+          "url": "https://www.youtube.com/watch?v=YvmE2IhrrNI",
+          "source": "Logically Answered",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-10T20:30:16Z"
         },
         {
           "id": "0f9975eb8cae0d03bc1a2255ddbca292ba722149",
@@ -165,7 +174,7 @@
           "published_at": "2026-07-10T03:15:30Z"
         }
       ],
-      "source_count": 17,
+      "source_count": 18,
       "source_names": [
         "Benjamin Cowen",
         "Best Documentary",
@@ -174,16 +183,25 @@
         "DenQ來了",
         "Good Times Bad Times",
         "Knowledgia",
+        "Logically Answered",
         "MoneyXYZ",
         "Shepherd Capital Markets",
         "Tim Ferriss",
-        "Timeline - World History Documentaries",
         "UsefulCharts",
         "忽左忽右",
         "美投侃新闻",
         "雜書觀察室"
       ],
       "items": [
+        {
+          "id": "38c8f968741cbcd75caeecbe6316131832e75f1a",
+          "title": "Moochie & Jill Halliburton 案：邁阿密豪宅到底發生了什麼事？ / Moochie & Jill Halliburton Case: What Really Happened in the Miami Mansion?",
+          "url": "https://www.youtube.com/watch?v=jjbQ4OZ3wws",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-10T21:00:02Z"
+        },
         {
           "id": "72549bbbcf2bd3908f47e616a84e3d1380ff1af3",
           "title": "每個人對中國和人工智慧安全的看法都是錯誤的——Sebastian Mallaby 解釋道 / Everyone Is Wrong About China and AI Safety — Sebastian Mallaby Explains",
@@ -192,6 +210,15 @@
           "source_name": "OPML RSS",
           "site_id": "blog",
           "published_at": "2026-07-10T18:57:32Z"
+        },
+        {
+          "id": "3d7b907ac9db623ce3ab35e5d13ba5b8cb531df6",
+          "title": "最強大的古代戰艦實際上是如何運作的 / How the Most Powerful Ancient Warship Actually Worked",
+          "url": "https://www.youtube.com/watch?v=ZLHCdo9VWeg",
+          "source": "Deconstructed",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-10T16:00:29Z"
         },
         {
           "id": "78a79170159e5a53ed4efcc0247072c6dc95c643",
@@ -293,24 +320,6 @@
           "published_at": "2026-07-09T22:00:32Z"
         },
         {
-          "id": "dd38f4fc6f85d500e7680f6d9f257a5d825aa1f5",
-          "title": "「我永遠不會停止打電話給你」：完美的搭配變壞了 / \"I Will Never Stop Calling You\": The Perfect Match Went Bad",
-          "url": "https://www.youtube.com/watch?v=J4DsKwO8nso",
-          "source": "Best Documentary",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-09T21:00:29Z"
-        },
-        {
-          "id": "c61133d7235a1f9c6303b423d5ed2309a52efa38",
-          "title": "拉文斯布呂克內部：被遺忘的二戰時期全女性集中營 / Inside Ravensbrück: The Forgotten All-Female Concentration Camp Of WW2",
-          "url": "https://www.youtube.com/watch?v=kfhX_XkHsmg",
-          "source": "Timeline - World History Documentaries",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-09T21:00:26Z"
-        },
-        {
           "id": "bba3675c1047c5643c42cd90ff98d65017c5ce7c",
           "title": "德國夾在中美之間 / Germany Caught Between China and America",
           "url": "https://www.youtube.com/watch?v=_xZKlh8ZBmk",
@@ -318,6 +327,15 @@
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
           "published_at": "2026-07-10T14:50:40Z"
+        },
+        {
+          "id": "269e50d9cc8979db3caf34725b605179c65d6da9",
+          "title": "遊戲界被起訴最多的人 / The Most Sued Man In Gaming",
+          "url": "https://www.youtube.com/watch?v=YvmE2IhrrNI",
+          "source": "Logically Answered",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-10T20:30:16Z"
         },
         {
           "id": "0f9975eb8cae0d03bc1a2255ddbca292ba722149",
@@ -338,56 +356,56 @@
           "published_at": "2026-07-10T03:15:30Z"
         }
       ],
-      "item_count": 17,
-      "duplicate_count": 17,
-      "score": 0.7401,
-      "importance": 0.7401,
-      "importance_score": 0.7401,
+      "item_count": 18,
+      "duplicate_count": 18,
+      "score": 0.7477,
+      "importance": 0.7477,
+      "importance_score": 0.7477,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9669,
+        "recency": 0.9922,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-09T21:00:26Z",
-      "latest_at": "2026-07-10T18:57:32Z",
+      "earliest_at": "2026-07-09T22:00:32Z",
+      "latest_at": "2026-07-10T21:00:02Z",
       "primary_item": {
-        "id": "72549bbbcf2bd3908f47e616a84e3d1380ff1af3",
-        "title": "每個人對中國和人工智慧安全的看法都是錯誤的——Sebastian Mallaby 解釋道 / Everyone Is Wrong About China and AI Safety — Sebastian Mallaby Explains",
-        "url": "https://www.youtube.com/watch?v=jO22a9BG1tg",
-        "source": "Tim Ferriss",
+        "id": "38c8f968741cbcd75caeecbe6316131832e75f1a",
+        "title": "Moochie & Jill Halliburton 案：邁阿密豪宅到底發生了什麼事？ / Moochie & Jill Halliburton Case: What Really Happened in the Miami Mansion?",
+        "url": "https://www.youtube.com/watch?v=jjbQ4OZ3wws",
+        "source": "Best Documentary",
         "source_name": "OPML RSS"
       }
     },
     {
-      "story_id": "story_a5dc2da97dce",
-      "title": "備案：Polymarket 正在尋求 CFTC 批准在美國提供保證金交易，此舉將允許用戶以較少的預付資金押注賽事（彭博） / Filing: Polymarket is seeking CFTC approval to offer margin trading in the US, a move that would let users bet on events with less capital upfront (Bloomberg)",
-      "url": "https://www.techmeme.com/260710/p7",
-      "primary_url": "https://www.techmeme.com/260710/p7",
+      "story_id": "story_0945361372d8",
+      "title": "SK 海力士在納斯達克上市首日收盤上漲 12.76%，至 168.01 美元，這是外國公司有史以來在美國市場首次亮相的最大金額，籌集了 26.5B 美元（Kif Leswing/CNBC） / SK Hynix closed up 12.76% at $168.01 in its first day of trading on Nasdaq, after raising $26.5B in the largest ever US market debut by a foreign company (Kif Leswing/CNBC)",
+      "url": "https://www.techmeme.com/260710/p18",
+      "primary_url": "https://www.techmeme.com/260710/p18",
       "source": "Techmeme",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "689d8a28c62f0b6350271462af9e6f48147e1d55",
-          "title": "備案：Polymarket 正在尋求 CFTC 批准在美國提供保證金交易，此舉將允許用戶以較少的預付資金押注賽事（彭博） / Filing: Polymarket is seeking CFTC approval to offer margin trading in the US, a move that would let users bet on events with less capital upfront (Bloomberg)",
-          "url": "https://www.techmeme.com/260710/p7",
+          "id": "36403584061e761ea716a212ac905ca5187195a9",
+          "title": "SK 海力士在納斯達克上市首日收盤上漲 12.76%，至 168.01 美元，這是外國公司有史以來在美國市場首次亮相的最大金額，籌集了 26.5B 美元（Kif Leswing/CNBC） / SK Hynix closed up 12.76% at $168.01 in its first day of trading on Nasdaq, after raising $26.5B in the largest ever US market debut by a foreign company (Kif Leswing/CNBC)",
+          "url": "https://www.techmeme.com/260710/p18",
           "source": "Techmeme",
           "source_name": "OPML RSS",
           "site_id": "tech",
-          "published_at": "2026-07-10T10:20:01Z"
+          "published_at": "2026-07-10T15:50:01Z"
         },
         {
-          "id": "2153de8edfbcbb5d3ca84e91a257cbb0897c767d",
-          "title": "Polymarket 正在尋求 CFTC 和 NFA 批准在美國提供保證金交易，這將使用戶能夠以較少的預付資金押注事件並吸引交易者（彭博） / Polymarket is seeking CFTC and NFA approval to offer margin trading in the US, which would let users bet on events with less capital upfront and attract traders (Bloomberg)",
-          "url": "https://www.techmeme.com/260710/p7",
+          "id": "1d51e2ed916d20fe42da234cdf6ef316784ba62d",
+          "title": "SK 海力士在外國公司有史以來最大的美國市場首次亮相中籌集了 26.5B 美元後，開盤上漲 14%，報 170 美元（Kif Leswing/CNBC） / SK Hynix opens up 14% at $170 after raising $26.5B in the largest ever US market debut by a foreign company (Kif Leswing/CNBC)",
+          "url": "https://www.techmeme.com/260710/p18",
           "source": "Techmeme",
           "source_name": "OPML RSS",
           "site_id": "tech",
-          "published_at": "2026-07-10T10:20:01Z"
+          "published_at": "2026-07-10T15:50:01Z"
         }
       ],
       "source_count": 2,
@@ -396,45 +414,45 @@
       ],
       "items": [
         {
-          "id": "689d8a28c62f0b6350271462af9e6f48147e1d55",
-          "title": "備案：Polymarket 正在尋求 CFTC 批准在美國提供保證金交易，此舉將允許用戶以較少的預付資金押注賽事（彭博） / Filing: Polymarket is seeking CFTC approval to offer margin trading in the US, a move that would let users bet on events with less capital upfront (Bloomberg)",
-          "url": "https://www.techmeme.com/260710/p7",
+          "id": "36403584061e761ea716a212ac905ca5187195a9",
+          "title": "SK 海力士在納斯達克上市首日收盤上漲 12.76%，至 168.01 美元，這是外國公司有史以來在美國市場首次亮相的最大金額，籌集了 26.5B 美元（Kif Leswing/CNBC） / SK Hynix closed up 12.76% at $168.01 in its first day of trading on Nasdaq, after raising $26.5B in the largest ever US market debut by a foreign company (Kif Leswing/CNBC)",
+          "url": "https://www.techmeme.com/260710/p18",
           "source": "Techmeme",
           "source_name": "OPML RSS",
           "site_id": "tech",
-          "published_at": "2026-07-10T10:20:01Z"
+          "published_at": "2026-07-10T15:50:01Z"
         },
         {
-          "id": "2153de8edfbcbb5d3ca84e91a257cbb0897c767d",
-          "title": "Polymarket 正在尋求 CFTC 和 NFA 批准在美國提供保證金交易，這將使用戶能夠以較少的預付資金押注事件並吸引交易者（彭博） / Polymarket is seeking CFTC and NFA approval to offer margin trading in the US, which would let users bet on events with less capital upfront and attract traders (Bloomberg)",
-          "url": "https://www.techmeme.com/260710/p7",
+          "id": "1d51e2ed916d20fe42da234cdf6ef316784ba62d",
+          "title": "SK 海力士在外國公司有史以來最大的美國市場首次亮相中籌集了 26.5B 美元後，開盤上漲 14%，報 170 美元（Kif Leswing/CNBC） / SK Hynix opens up 14% at $170 after raising $26.5B in the largest ever US market debut by a foreign company (Kif Leswing/CNBC)",
+          "url": "https://www.techmeme.com/260710/p18",
           "source": "Techmeme",
           "source_name": "OPML RSS",
           "site_id": "tech",
-          "published_at": "2026-07-10T10:20:01Z"
+          "published_at": "2026-07-10T15:50:01Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4822,
-      "importance": 0.4822,
-      "importance_score": 0.4822,
+      "score": 0.5331,
+      "importance": 0.5331,
+      "importance_score": 0.5331,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6075,
+        "recency": 0.7769,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-10T10:20:01Z",
-      "latest_at": "2026-07-10T10:20:01Z",
+      "earliest_at": "2026-07-10T15:50:01Z",
+      "latest_at": "2026-07-10T15:50:01Z",
       "primary_item": {
-        "id": "689d8a28c62f0b6350271462af9e6f48147e1d55",
-        "title": "備案：Polymarket 正在尋求 CFTC 批准在美國提供保證金交易，此舉將允許用戶以較少的預付資金押注賽事（彭博） / Filing: Polymarket is seeking CFTC approval to offer margin trading in the US, a move that would let users bet on events with less capital upfront (Bloomberg)",
-        "url": "https://www.techmeme.com/260710/p7",
+        "id": "36403584061e761ea716a212ac905ca5187195a9",
+        "title": "SK 海力士在納斯達克上市首日收盤上漲 12.76%，至 168.01 美元，這是外國公司有史以來在美國市場首次亮相的最大金額，籌集了 26.5B 美元（Kif Leswing/CNBC） / SK Hynix closed up 12.76% at $168.01 in its first day of trading on Nasdaq, after raising $26.5B in the largest ever US market debut by a foreign company (Kif Leswing/CNBC)",
+        "url": "https://www.techmeme.com/260710/p18",
         "source": "Techmeme",
         "source_name": "OPML RSS"
       }
@@ -492,13 +510,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4737,
-      "importance": 0.4737,
-      "importance_score": 0.4737,
+      "score": 0.4558,
+      "importance": 0.4558,
+      "importance_score": 0.4558,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.579,
+        "recency": 0.5192,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -512,6 +530,82 @@
         "title": "獲得兩個學位看起來很多 / Making two degrees looks like a lot",
         "url": "https://flowingdata.com/2026/07/10/two-degrees-looks-like-a-lot",
         "source": "FlowingData",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_a5dc2da97dce",
+      "title": "備案：Polymarket 正在尋求 CFTC 批准在美國提供保證金交易，此舉將允許用戶以較少的預付資金押注賽事（彭博） / Filing: Polymarket is seeking CFTC approval to offer margin trading in the US, a move that would let users bet on events with less capital upfront (Bloomberg)",
+      "url": "https://www.techmeme.com/260710/p7",
+      "primary_url": "https://www.techmeme.com/260710/p7",
+      "source": "Techmeme",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "689d8a28c62f0b6350271462af9e6f48147e1d55",
+          "title": "備案：Polymarket 正在尋求 CFTC 批准在美國提供保證金交易，此舉將允許用戶以較少的預付資金押注賽事（彭博） / Filing: Polymarket is seeking CFTC approval to offer margin trading in the US, a move that would let users bet on events with less capital upfront (Bloomberg)",
+          "url": "https://www.techmeme.com/260710/p7",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-10T10:20:01Z"
+        },
+        {
+          "id": "2153de8edfbcbb5d3ca84e91a257cbb0897c767d",
+          "title": "Polymarket 正在尋求 CFTC 和 NFA 批准在美國提供保證金交易，這將使用戶能夠以較少的預付資金押注事件並吸引交易者（彭博） / Polymarket is seeking CFTC and NFA approval to offer margin trading in the US, which would let users bet on events with less capital upfront and attract traders (Bloomberg)",
+          "url": "https://www.techmeme.com/260710/p7",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-10T10:20:01Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Techmeme"
+      ],
+      "items": [
+        {
+          "id": "689d8a28c62f0b6350271462af9e6f48147e1d55",
+          "title": "備案：Polymarket 正在尋求 CFTC 批准在美國提供保證金交易，此舉將允許用戶以較少的預付資金押注賽事（彭博） / Filing: Polymarket is seeking CFTC approval to offer margin trading in the US, a move that would let users bet on events with less capital upfront (Bloomberg)",
+          "url": "https://www.techmeme.com/260710/p7",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-10T10:20:01Z"
+        },
+        {
+          "id": "2153de8edfbcbb5d3ca84e91a257cbb0897c767d",
+          "title": "Polymarket 正在尋求 CFTC 和 NFA 批准在美國提供保證金交易，這將使用戶能夠以較少的預付資金押注事件並吸引交易者（彭博） / Polymarket is seeking CFTC and NFA approval to offer margin trading in the US, which would let users bet on events with less capital upfront and attract traders (Bloomberg)",
+          "url": "https://www.techmeme.com/260710/p7",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-10T10:20:01Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.4643,
+      "importance": 0.4643,
+      "importance_score": 0.4643,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.5,
+        "recency": 0.5477,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-10T10:20:01Z",
+      "latest_at": "2026-07-10T10:20:01Z",
+      "primary_item": {
+        "id": "689d8a28c62f0b6350271462af9e6f48147e1d55",
+        "title": "備案：Polymarket 正在尋求 CFTC 批准在美國提供保證金交易，此舉將允許用戶以較少的預付資金押注賽事（彭博） / Filing: Polymarket is seeking CFTC approval to offer margin trading in the US, a move that would let users bet on events with less capital upfront (Bloomberg)",
+        "url": "https://www.techmeme.com/260710/p7",
+        "source": "Techmeme",
         "source_name": "OPML RSS"
       }
     },
@@ -568,13 +662,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3657,
-      "importance": 0.3657,
-      "importance_score": 0.3657,
+      "score": 0.3477,
+      "importance": 0.3477,
+      "importance_score": 0.3477,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.6355,
+        "recency": 0.5758,
         "story_heat": 0.25
       },
       "category": "watch",
