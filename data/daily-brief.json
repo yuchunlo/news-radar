@@ -1,16 +1,34 @@
 {
-  "generated_at": "2026-07-10T15:59:34.018382Z",
+  "generated_at": "2026-07-10T17:56:15.718421Z",
   "window_hours": 24,
-  "total_items": 3,
+  "total_items": 4,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "比特幣：可疑的投機 / Bitcoin: Dubious Speculation",
-      "url": "https://www.youtube.com/watch?v=sigSZCnSa6M",
-      "primary_url": "https://www.youtube.com/watch?v=sigSZCnSa6M",
-      "source": "Benjamin Cowen",
+      "title": "最強大的古代戰艦內部 / Inside the Most Powerful Ancient Warship",
+      "url": "https://www.youtube.com/watch?v=ZLHCdo9VWeg",
+      "primary_url": "https://www.youtube.com/watch?v=ZLHCdo9VWeg",
+      "source": "Deconstructed",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "78a79170159e5a53ed4efcc0247072c6dc95c643",
+          "title": "最強大的古代戰艦內部 / Inside the Most Powerful Ancient Warship",
+          "url": "https://www.youtube.com/watch?v=ZLHCdo9VWeg",
+          "source": "Deconstructed",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-10T16:00:29Z"
+        },
+        {
+          "id": "d1e4e0ebced50d1e00883eb142fdff031b053310",
+          "title": "太空探索的時間表|第 2 部分：車站和班車 / Timeline of Space Exploration | Part 2: Stations & Shuttles",
+          "url": "https://www.youtube.com/watch?v=XcH8z7lQPL8",
+          "source": "UsefulCharts",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-10T16:00:22Z"
+        },
         {
           "id": "d5a5c1d2af8d82606744c8660f26e086100309ae",
           "title": "比特幣：可疑的投機 / Bitcoin: Dubious Speculation",
@@ -129,24 +147,6 @@
           "published_at": "2026-07-10T14:50:40Z"
         },
         {
-          "id": "ba256f6d3a7883dc6c9496281959cd8dae24b07e",
-          "title": "克里米亞局勢瘋狂 / Crimea Situation Is Insane",
-          "url": "https://www.youtube.com/watch?v=QjhqB3tC1Ko",
-          "source": "RealLifeLore",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-09T17:22:11Z"
-        },
-        {
-          "id": "886223e55cd66a3aea4ab84a162c904b6c6e54fc",
-          "title": "烏克蘭如何將克里米亞變成一個島嶼 / How Ukraine is Transforming Crimea Into an Island",
-          "url": "https://www.youtube.com/watch?v=QjhqB3tC1Ko",
-          "source": "RealLifeLore",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-09T17:22:11Z"
-        },
-        {
           "id": "0f9975eb8cae0d03bc1a2255ddbca292ba722149",
           "title": "IU,李鍾碩宣布分手/大S遺產爭議上熱搜/又一個女團逆行神話/金秀賢法院風向大變/台灣選手王彥程圓夢了/BIGBANG回歸｜DenQ",
           "url": "https://www.youtube.com/watch?v=Tfretqd73bY",
@@ -163,37 +163,46 @@
           "source_name": "OPML RSS",
           "site_id": "execution",
           "published_at": "2026-07-10T03:15:30Z"
-        },
-        {
-          "id": "4873869d303eb53735ab776d4711266061e6d921",
-          "title": "運動迷|我的西部各州 2026 / A fan of the sport | My Western States 2026",
-          "url": "https://www.youtube.com/watch?v=XuLueFTj_kw",
-          "source": "Kilian Jornet Burgada",
-          "source_name": "OPML RSS",
-          "site_id": "functionality",
-          "published_at": "2026-07-09T16:01:01Z"
         }
       ],
-      "source_count": 18,
+      "source_count": 17,
       "source_names": [
         "Benjamin Cowen",
         "Best Documentary",
         "Chu's Vegan",
+        "Deconstructed",
         "DenQ來了",
         "Good Times Bad Times",
-        "Kilian Jornet Burgada",
         "Knowledgia",
         "MoneyXYZ",
         "Perspective",
-        "RealLifeLore",
         "Shepherd Capital Markets",
         "Timeline - World History Documentaries",
+        "UsefulCharts",
         "忽左忽右",
         "美投侃新闻",
         "雜書觀察室"
       ],
       "items": [
         {
+          "id": "78a79170159e5a53ed4efcc0247072c6dc95c643",
+          "title": "最強大的古代戰艦內部 / Inside the Most Powerful Ancient Warship",
+          "url": "https://www.youtube.com/watch?v=ZLHCdo9VWeg",
+          "source": "Deconstructed",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-10T16:00:29Z"
+        },
+        {
+          "id": "d1e4e0ebced50d1e00883eb142fdff031b053310",
+          "title": "太空探索的時間表|第 2 部分：車站和班車 / Timeline of Space Exploration | Part 2: Stations & Shuttles",
+          "url": "https://www.youtube.com/watch?v=XcH8z7lQPL8",
+          "source": "UsefulCharts",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-10T16:00:22Z"
+        },
+        {
           "id": "d5a5c1d2af8d82606744c8660f26e086100309ae",
           "title": "比特幣：可疑的投機 / Bitcoin: Dubious Speculation",
           "url": "https://www.youtube.com/watch?v=sigSZCnSa6M",
@@ -311,24 +320,6 @@
           "published_at": "2026-07-10T14:50:40Z"
         },
         {
-          "id": "ba256f6d3a7883dc6c9496281959cd8dae24b07e",
-          "title": "克里米亞局勢瘋狂 / Crimea Situation Is Insane",
-          "url": "https://www.youtube.com/watch?v=QjhqB3tC1Ko",
-          "source": "RealLifeLore",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-09T17:22:11Z"
-        },
-        {
-          "id": "886223e55cd66a3aea4ab84a162c904b6c6e54fc",
-          "title": "烏克蘭如何將克里米亞變成一個島嶼 / How Ukraine is Transforming Crimea Into an Island",
-          "url": "https://www.youtube.com/watch?v=QjhqB3tC1Ko",
-          "source": "RealLifeLore",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-09T17:22:11Z"
-        },
-        {
           "id": "0f9975eb8cae0d03bc1a2255ddbca292ba722149",
           "title": "IU,李鍾碩宣布分手/大S遺產爭議上熱搜/又一個女團逆行神話/金秀賢法院風向大變/台灣選手王彥程圓夢了/BIGBANG回歸｜DenQ",
           "url": "https://www.youtube.com/watch?v=Tfretqd73bY",
@@ -345,39 +336,30 @@
           "source_name": "OPML RSS",
           "site_id": "execution",
           "published_at": "2026-07-10T03:15:30Z"
-        },
-        {
-          "id": "4873869d303eb53735ab776d4711266061e6d921",
-          "title": "運動迷|我的西部各州 2026 / A fan of the sport | My Western States 2026",
-          "url": "https://www.youtube.com/watch?v=XuLueFTj_kw",
-          "source": "Kilian Jornet Burgada",
-          "source_name": "OPML RSS",
-          "site_id": "functionality",
-          "published_at": "2026-07-09T16:01:01Z"
         }
       ],
-      "item_count": 18,
-      "duplicate_count": 18,
-      "score": 0.7422,
-      "importance": 0.7422,
-      "importance_score": 0.7422,
+      "item_count": 17,
+      "duplicate_count": 17,
+      "score": 0.7259,
+      "importance": 0.7259,
+      "importance_score": 0.7259,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9739,
+        "recency": 0.9196,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-09T16:01:01Z",
-      "latest_at": "2026-07-10T15:21:55Z",
+      "earliest_at": "2026-07-09T19:00:29Z",
+      "latest_at": "2026-07-10T16:00:29Z",
       "primary_item": {
-        "id": "d5a5c1d2af8d82606744c8660f26e086100309ae",
-        "title": "比特幣：可疑的投機 / Bitcoin: Dubious Speculation",
-        "url": "https://www.youtube.com/watch?v=sigSZCnSa6M",
-        "source": "Benjamin Cowen",
+        "id": "78a79170159e5a53ed4efcc0247072c6dc95c643",
+        "title": "最強大的古代戰艦內部 / Inside the Most Powerful Ancient Warship",
+        "url": "https://www.youtube.com/watch?v=ZLHCdo9VWeg",
+        "source": "Deconstructed",
         "source_name": "OPML RSS"
       }
     },
@@ -434,13 +416,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5293,
-      "importance": 0.5293,
-      "importance_score": 0.5293,
+      "score": 0.5049,
+      "importance": 0.5049,
+      "importance_score": 0.5049,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7642,
+        "recency": 0.6832,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -454,6 +436,82 @@
         "title": "備案：Polymarket 正在尋求 CFTC 批准在美國提供保證金交易，此舉將允許用戶以較少的預付資金押注賽事（彭博） / Filing: Polymarket is seeking CFTC approval to offer margin trading in the US, a move that would let users bet on events with less capital upfront (Bloomberg)",
         "url": "https://www.techmeme.com/260710/p7",
         "source": "Techmeme",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_ea463cfc34cf",
+      "title": "獲得兩個學位看起來很多 / Making two degrees looks like a lot",
+      "url": "https://flowingdata.com/2026/07/10/two-degrees-looks-like-a-lot",
+      "primary_url": "https://flowingdata.com/2026/07/10/two-degrees-looks-like-a-lot",
+      "source": "FlowingData",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "45cc629120e8e055ed7a6ff38c2712145011bf07",
+          "title": "獲得兩個學位看起來很多 / Making two degrees looks like a lot",
+          "url": "https://flowingdata.com/2026/07/10/two-degrees-looks-like-a-lot",
+          "source": "FlowingData",
+          "source_name": "OPML RSS",
+          "site_id": "design",
+          "published_at": "2026-07-10T09:38:56Z"
+        },
+        {
+          "id": "a0c01c0725316c65716a25cc3b2aad054e0d1c38",
+          "title": "兩度看起來很多 / Two degrees looks like a lot",
+          "url": "https://flowingdata.com/2026/07/10/two-degrees-looks-like-a-lot",
+          "source": "FlowingData",
+          "source_name": "OPML RSS",
+          "site_id": "design",
+          "published_at": "2026-07-10T09:38:56Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "FlowingData"
+      ],
+      "items": [
+        {
+          "id": "45cc629120e8e055ed7a6ff38c2712145011bf07",
+          "title": "獲得兩個學位看起來很多 / Making two degrees looks like a lot",
+          "url": "https://flowingdata.com/2026/07/10/two-degrees-looks-like-a-lot",
+          "source": "FlowingData",
+          "source_name": "OPML RSS",
+          "site_id": "design",
+          "published_at": "2026-07-10T09:38:56Z"
+        },
+        {
+          "id": "a0c01c0725316c65716a25cc3b2aad054e0d1c38",
+          "title": "兩度看起來很多 / Two degrees looks like a lot",
+          "url": "https://flowingdata.com/2026/07/10/two-degrees-looks-like-a-lot",
+          "source": "FlowingData",
+          "source_name": "OPML RSS",
+          "site_id": "design",
+          "published_at": "2026-07-10T09:38:56Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.4964,
+      "importance": 0.4964,
+      "importance_score": 0.4964,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.5,
+        "recency": 0.6546,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-10T09:38:56Z",
+      "latest_at": "2026-07-10T09:38:56Z",
+      "primary_item": {
+        "id": "45cc629120e8e055ed7a6ff38c2712145011bf07",
+        "title": "獲得兩個學位看起來很多 / Making two degrees looks like a lot",
+        "url": "https://flowingdata.com/2026/07/10/two-degrees-looks-like-a-lot",
+        "source": "FlowingData",
         "source_name": "OPML RSS"
       }
     },
@@ -510,13 +568,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4127,
-      "importance": 0.4127,
-      "importance_score": 0.4127,
+      "score": 0.3884,
+      "importance": 0.3884,
+      "importance_score": 0.3884,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.7922,
+        "recency": 0.7112,
         "story_heat": 0.25
       },
       "category": "watch",
