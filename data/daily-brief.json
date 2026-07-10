@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-09T23:47:17.074594Z",
+  "generated_at": "2026-07-10T03:53:21.936959Z",
   "window_hours": 24,
-  "total_items": 7,
+  "total_items": 6,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
@@ -120,15 +120,6 @@
           "published_at": "2026-07-09T05:11:04Z"
         },
         {
-          "id": "0ae079a815828652fdef855bb4bf4afe8c198214",
-          "title": "美联储怕AI通胀？海力士还是美光？Anthropic有600亿ARR！比特币现买入信号！",
-          "url": "https://www.youtube.com/watch?v=-lseu1zMNvs",
-          "source": "美投侃新闻",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-09T00:23:52Z"
-        },
-        {
           "id": "ba256f6d3a7883dc6c9496281959cd8dae24b07e",
           "title": "克里米亞局勢瘋狂 / Crimea Situation Is Insane",
           "url": "https://www.youtube.com/watch?v=QjhqB3tC1Ko",
@@ -183,7 +174,7 @@
           "published_at": "2026-07-09T14:02:04Z"
         }
       ],
-      "source_count": 19,
+      "source_count": 18,
       "source_names": [
         "Benjamin Cowen",
         "Best Documentary",
@@ -312,15 +303,6 @@
           "published_at": "2026-07-09T05:11:04Z"
         },
         {
-          "id": "0ae079a815828652fdef855bb4bf4afe8c198214",
-          "title": "美联储怕AI通胀？海力士还是美光？Anthropic有600亿ARR！比特币现买入信号！",
-          "url": "https://www.youtube.com/watch?v=-lseu1zMNvs",
-          "source": "美投侃新闻",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-09T00:23:52Z"
-        },
-        {
           "id": "ba256f6d3a7883dc6c9496281959cd8dae24b07e",
           "title": "克里米亞局勢瘋狂 / Crimea Situation Is Insane",
           "url": "https://www.youtube.com/watch?v=QjhqB3tC1Ko",
@@ -375,22 +357,22 @@
           "published_at": "2026-07-09T14:02:04Z"
         }
       ],
-      "item_count": 19,
-      "duplicate_count": 19,
-      "score": 0.7492,
-      "importance": 0.7492,
-      "importance_score": 0.7492,
+      "item_count": 18,
+      "duplicate_count": 18,
+      "score": 0.698,
+      "importance": 0.698,
+      "importance_score": 0.698,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9975,
+        "recency": 0.8266,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-09T00:23:52Z",
+      "earliest_at": "2026-07-09T05:11:04Z",
       "latest_at": "2026-07-09T23:43:39Z",
       "primary_item": {
         "id": "a99b849462897da12762d947fb592ddeeee3f303",
@@ -453,13 +435,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4954,
-      "importance": 0.4954,
-      "importance_score": 0.4954,
+      "score": 0.4441,
+      "importance": 0.4441,
+      "importance_score": 0.4441,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6512,
+        "recency": 0.4803,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -529,13 +511,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.484,
-      "importance": 0.484,
-      "importance_score": 0.484,
+      "score": 0.4327,
+      "importance": 0.4327,
+      "importance_score": 0.4327,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6132,
+        "recency": 0.4423,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -605,13 +587,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4756,
-      "importance": 0.4756,
-      "importance_score": 0.4756,
+      "score": 0.4243,
+      "importance": 0.4243,
+      "importance_score": 0.4243,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.5852,
+        "recency": 0.4143,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -681,13 +663,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4735,
-      "importance": 0.4735,
-      "importance_score": 0.4735,
+      "score": 0.4222,
+      "importance": 0.4222,
+      "importance_score": 0.4222,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.5783,
+        "recency": 0.4074,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -757,13 +739,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4693,
-      "importance": 0.4693,
-      "importance_score": 0.4693,
+      "score": 0.4181,
+      "importance": 0.4181,
+      "importance_score": 0.4181,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.5644,
+        "recency": 0.3935,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -776,82 +758,6 @@
         "id": "612078b5119b4896dd322e50481706f2137c6c4d",
         "title": "PrismML 表示，它在 iPhone 17 Pro 上運行了 27B 參數的 Qwen 3.6 模型，比之前任何設備上的模型都要大；消息來源：Apple 與 PrismML 就此進行了會談（Aaron Tilley/The Information） / PrismML says it ran a 27B-parameter Qwen 3.6 model on an iPhone 17 Pro, bigger than any prior on-device model; sources: Apple held talks with PrismML about it (Aaron Tilley/The Information)",
         "url": "https://www.techmeme.com/260709/p14",
-        "source": "Techmeme",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_68608c91a176",
-      "title": "文件：Grubhub 母公司 Wonder 正在以 90 億美元的估值籌集數億美元資金；資料來源：創辦人 Marc Lore 表示他將為本輪融資 2 億美元（The Information） / Filings: Grubhub parent Wonder is raising hundreds of millions at a $9B valuation; source: founder Marc Lore indicated he'll contribute $200M to the round (The Information)",
-      "url": "https://www.techmeme.com/260708/p46",
-      "primary_url": "https://www.techmeme.com/260708/p46",
-      "source": "Techmeme",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "cd799fba732db60ea92b9bec861c4baab997b4e9",
-          "title": "文件：Grubhub 母公司 Wonder 正在以 90 億美元的估值籌集數億美元資金；資料來源：創辦人 Marc Lore 表示他將為本輪融資 2 億美元（The Information） / Filings: Grubhub parent Wonder is raising hundreds of millions at a $9B valuation; source: founder Marc Lore indicated he'll contribute $200M to the round (The Information)",
-          "url": "https://www.techmeme.com/260708/p46",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-09T03:40:01Z"
-        },
-        {
-          "id": "df4dbbe81ca9f76883ebca211cd164cb04955ab3",
-          "title": "文件：Grubhub 母公司 Wonder 正在以 9B 美元的估值籌集數億美元；消息人士稱，創始人 Marc Lore 表示他將捐贈 2 億美元（The Information） / Filings: Grubhub parent Wonder is raising hundreds of millions of dollars at a $9B valuation; a source says founder Marc Lore indicated he will contribute $200M (The Information)",
-          "url": "https://www.techmeme.com/260708/p46",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-09T03:40:01Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Techmeme"
-      ],
-      "items": [
-        {
-          "id": "cd799fba732db60ea92b9bec861c4baab997b4e9",
-          "title": "文件：Grubhub 母公司 Wonder 正在以 90 億美元的估值籌集數億美元資金；資料來源：創辦人 Marc Lore 表示他將為本輪融資 2 億美元（The Information） / Filings: Grubhub parent Wonder is raising hundreds of millions at a $9B valuation; source: founder Marc Lore indicated he'll contribute $200M to the round (The Information)",
-          "url": "https://www.techmeme.com/260708/p46",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-09T03:40:01Z"
-        },
-        {
-          "id": "df4dbbe81ca9f76883ebca211cd164cb04955ab3",
-          "title": "文件：Grubhub 母公司 Wonder 正在以 9B 美元的估值籌集數億美元；消息人士稱，創始人 Marc Lore 表示他將捐贈 2 億美元（The Information） / Filings: Grubhub parent Wonder is raising hundreds of millions of dollars at a $9B valuation; a source says founder Marc Lore indicated he will contribute $200M (The Information)",
-          "url": "https://www.techmeme.com/260708/p46",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-09T03:40:01Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.3485,
-      "importance": 0.3485,
-      "importance_score": 0.3485,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.5,
-        "recency": 0.1616,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-09T03:40:01Z",
-      "latest_at": "2026-07-09T03:40:01Z",
-      "primary_item": {
-        "id": "cd799fba732db60ea92b9bec861c4baab997b4e9",
-        "title": "文件：Grubhub 母公司 Wonder 正在以 90 億美元的估值籌集數億美元資金；資料來源：創辦人 Marc Lore 表示他將為本輪融資 2 億美元（The Information） / Filings: Grubhub parent Wonder is raising hundreds of millions at a $9B valuation; source: founder Marc Lore indicated he'll contribute $200M to the round (The Information)",
-        "url": "https://www.techmeme.com/260708/p46",
         "source": "Techmeme",
         "source_name": "OPML RSS"
       }
