@@ -1,16 +1,34 @@
 {
-  "generated_at": "2026-07-10T13:28:43.787882Z",
+  "generated_at": "2026-07-10T15:59:34.018382Z",
   "window_hours": 24,
-  "total_items": 6,
+  "total_items": 3,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "追尋教父：光榮帝國內部 / Chasing the Godfather: Inside the 'Ndrangheta Empire",
-      "url": "https://www.youtube.com/watch?v=NPwYvLilMpk",
-      "primary_url": "https://www.youtube.com/watch?v=NPwYvLilMpk",
-      "source": "Best Documentary",
+      "title": "比特幣：可疑的投機 / Bitcoin: Dubious Speculation",
+      "url": "https://www.youtube.com/watch?v=sigSZCnSa6M",
+      "primary_url": "https://www.youtube.com/watch?v=sigSZCnSa6M",
+      "source": "Benjamin Cowen",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "d5a5c1d2af8d82606744c8660f26e086100309ae",
+          "title": "比特幣：可疑的投機 / Bitcoin: Dubious Speculation",
+          "url": "https://www.youtube.com/watch?v=sigSZCnSa6M",
+          "source": "Benjamin Cowen",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-10T15:21:55Z"
+        },
+        {
+          "id": "1dbab937e238589cf63302b7c95c5e923cc7352d",
+          "title": "為什麼美洲沒有穆斯林殖民地？ / Why there were NO Muslim Colonies in the Americas?",
+          "url": "https://www.youtube.com/watch?v=zAnCyuJrVmQ",
+          "source": "Knowledgia",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-10T15:14:35Z"
+        },
         {
           "id": "27d70e37ce0fcebdea1a67af182a2a954bdc2b20",
           "title": "追尋教父：光榮帝國內部 / Chasing the Godfather: Inside the 'Ndrangheta Empire",
@@ -102,13 +120,13 @@
           "published_at": "2026-07-09T19:00:29Z"
         },
         {
-          "id": "f7c4dc9e14fdb137f19446607cab80d77b9b2c90",
-          "title": "印度的沙漠遊牧民族和他們的神聖駱駝 / India’s Desert Nomads and their Sacred Camels",
-          "url": "https://www.youtube.com/watch?v=1TisYOhhYpo",
-          "source": "imineo Documentaires",
+          "id": "bba3675c1047c5643c42cd90ff98d65017c5ce7c",
+          "title": "德國夾在中美之間 / Germany Caught Between China and America",
+          "url": "https://www.youtube.com/watch?v=_xZKlh8ZBmk",
+          "source": "Good Times Bad Times",
           "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-09T14:30:18Z"
+          "site_id": "opmlrss",
+          "published_at": "2026-07-10T14:50:40Z"
         },
         {
           "id": "ba256f6d3a7883dc6c9496281959cd8dae24b07e",
@@ -154,36 +172,46 @@
           "source_name": "OPML RSS",
           "site_id": "functionality",
           "published_at": "2026-07-09T16:01:01Z"
-        },
-        {
-          "id": "9321b651ec366e2595b0ff1915a2e4629d912dd4",
-          "title": "海灣國家計畫如何圍堵伊朗 / How the Gulf states plan to checkmate Iran",
-          "url": "https://www.youtube.com/watch?v=T5W2LWLYpms",
-          "source": "CaspianReport",
-          "source_name": "OPML RSS",
-          "site_id": "execution",
-          "published_at": "2026-07-09T14:02:04Z"
         }
       ],
-      "source_count": 17,
+      "source_count": 18,
       "source_names": [
+        "Benjamin Cowen",
         "Best Documentary",
-        "CaspianReport",
         "Chu's Vegan",
         "DenQ來了",
+        "Good Times Bad Times",
         "Kilian Jornet Burgada",
+        "Knowledgia",
         "MoneyXYZ",
         "Perspective",
         "RealLifeLore",
         "Shepherd Capital Markets",
         "Timeline - World History Documentaries",
-        "imineo Documentaires",
         "忽左忽右",
         "美投侃新闻",
         "雜書觀察室"
       ],
       "items": [
         {
+          "id": "d5a5c1d2af8d82606744c8660f26e086100309ae",
+          "title": "比特幣：可疑的投機 / Bitcoin: Dubious Speculation",
+          "url": "https://www.youtube.com/watch?v=sigSZCnSa6M",
+          "source": "Benjamin Cowen",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-10T15:21:55Z"
+        },
+        {
+          "id": "1dbab937e238589cf63302b7c95c5e923cc7352d",
+          "title": "為什麼美洲沒有穆斯林殖民地？ / Why there were NO Muslim Colonies in the Americas?",
+          "url": "https://www.youtube.com/watch?v=zAnCyuJrVmQ",
+          "source": "Knowledgia",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-10T15:14:35Z"
+        },
+        {
           "id": "27d70e37ce0fcebdea1a67af182a2a954bdc2b20",
           "title": "追尋教父：光榮帝國內部 / Chasing the Godfather: Inside the 'Ndrangheta Empire",
           "url": "https://www.youtube.com/watch?v=NPwYvLilMpk",
@@ -274,13 +302,13 @@
           "published_at": "2026-07-09T19:00:29Z"
         },
         {
-          "id": "f7c4dc9e14fdb137f19446607cab80d77b9b2c90",
-          "title": "印度的沙漠遊牧民族和他們的神聖駱駝 / India’s Desert Nomads and their Sacred Camels",
-          "url": "https://www.youtube.com/watch?v=1TisYOhhYpo",
-          "source": "imineo Documentaires",
+          "id": "bba3675c1047c5643c42cd90ff98d65017c5ce7c",
+          "title": "德國夾在中美之間 / Germany Caught Between China and America",
+          "url": "https://www.youtube.com/watch?v=_xZKlh8ZBmk",
+          "source": "Good Times Bad Times",
           "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-09T14:30:18Z"
+          "site_id": "opmlrss",
+          "published_at": "2026-07-10T14:50:40Z"
         },
         {
           "id": "ba256f6d3a7883dc6c9496281959cd8dae24b07e",
@@ -326,39 +354,30 @@
           "source_name": "OPML RSS",
           "site_id": "functionality",
           "published_at": "2026-07-09T16:01:01Z"
-        },
-        {
-          "id": "9321b651ec366e2595b0ff1915a2e4629d912dd4",
-          "title": "海灣國家計畫如何圍堵伊朗 / How the Gulf states plan to checkmate Iran",
-          "url": "https://www.youtube.com/watch?v=T5W2LWLYpms",
-          "source": "CaspianReport",
-          "source_name": "OPML RSS",
-          "site_id": "execution",
-          "published_at": "2026-07-09T14:02:04Z"
         }
       ],
-      "item_count": 17,
-      "duplicate_count": 17,
-      "score": 0.7316,
-      "importance": 0.7316,
-      "importance_score": 0.7316,
+      "item_count": 18,
+      "duplicate_count": 18,
+      "score": 0.7422,
+      "importance": 0.7422,
+      "importance_score": 0.7422,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9385,
+        "recency": 0.9739,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-09T14:02:04Z",
-      "latest_at": "2026-07-10T12:00:14Z",
+      "earliest_at": "2026-07-09T16:01:01Z",
+      "latest_at": "2026-07-10T15:21:55Z",
       "primary_item": {
-        "id": "27d70e37ce0fcebdea1a67af182a2a954bdc2b20",
-        "title": "追尋教父：光榮帝國內部 / Chasing the Godfather: Inside the 'Ndrangheta Empire",
-        "url": "https://www.youtube.com/watch?v=NPwYvLilMpk",
-        "source": "Best Documentary",
+        "id": "d5a5c1d2af8d82606744c8660f26e086100309ae",
+        "title": "比特幣：可疑的投機 / Bitcoin: Dubious Speculation",
+        "url": "https://www.youtube.com/watch?v=sigSZCnSa6M",
+        "source": "Benjamin Cowen",
         "source_name": "OPML RSS"
       }
     },
@@ -415,13 +434,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5607,
-      "importance": 0.5607,
-      "importance_score": 0.5607,
+      "score": 0.5293,
+      "importance": 0.5293,
+      "importance_score": 0.5293,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.8689,
+        "recency": 0.7642,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -439,306 +458,78 @@
       }
     },
     {
-      "story_id": "story_8ebe26966e42",
-      "title": "Bun 的創建者表示，他使用 Claude Fable 5 的預發行版本在 11 天內將 Bun 從 Zig 重寫為 Rust；這項任務需要三名工程師大約一年的時間 (Jarred Sumner/bun.com) / Bun creator says he rewrote Bun from Zig to Rust using a pre-release version of Claude Fable 5 in 11 days; the task would've taken three engineers about a year (Jarred Sumner/bun.com)",
-      "url": "https://www.techmeme.com/260709/p24",
-      "primary_url": "https://www.techmeme.com/260709/p24",
-      "source": "Techmeme",
+      "story_id": "story_8926df16737b",
+      "title": "🍳為什麼你的鍋會沾？搞懂這2點 食物直接變好吃 #露營 #鑄鐵鍋 #法蘭克黃",
+      "url": "https://www.youtube.com/shorts/85dposIoERw",
+      "primary_url": "https://www.youtube.com/shorts/85dposIoERw",
+      "source": "法蘭克黃",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "b4cb99101dbf40ff9d95af1142a42bb7a181ae46",
-          "title": "Bun 的創建者表示，他使用 Claude Fable 5 的預發行版本在 11 天內將 Bun 從 Zig 重寫為 Rust；這項任務需要三名工程師大約一年的時間 (Jarred Sumner/bun.com) / Bun creator says he rewrote Bun from Zig to Rust using a pre-release version of Claude Fable 5 in 11 days; the task would've taken three engineers about a year (Jarred Sumner/bun.com)",
-          "url": "https://www.techmeme.com/260709/p24",
-          "source": "Techmeme",
+          "id": "42be960ff425e8c251ff16fcb2809d1d7bbc0099",
+          "title": "🍳為什麼你的鍋會沾？搞懂這2點 食物直接變好吃 #露營 #鑄鐵鍋 #法蘭克黃",
+          "url": "https://www.youtube.com/shorts/85dposIoERw",
+          "source": "法蘭克黃",
           "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-09T15:25:01Z"
+          "site_id": "trending",
+          "published_at": "2026-07-10T11:00:22Z"
         },
         {
-          "id": "e2ef7d89ea5906a358761ef53ffe2df0c8373086",
-          "title": "Bun 的創建者表示，他使用 Claude Fable 5 預發布版本在 11 天內將 Bun 從 Zig 重寫為 Rust，並指出這需要三名工程師「大約一年」（Jarred Sumner/bun.com） / Bun's creator says he rewrote Bun from Zig to Rust using a Claude Fable 5 prerelease version in 11 days, noting it would've taken three engineers \"about a year\" (Jarred Sumner/bun.com)",
-          "url": "https://www.techmeme.com/260709/p24",
-          "source": "Techmeme",
+          "id": "7e6805e7ba3e08d7b79e2e37048788c0f0c6915d",
+          "title": "🍳為什麼會沾鍋？60秒搞懂2大美味秘訣 食物直接變好吃 #露營 #鑄鐵鍋 #法蘭克黃",
+          "url": "https://www.youtube.com/shorts/85dposIoERw",
+          "source": "法蘭克黃",
           "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-09T15:25:01Z"
+          "site_id": "trending",
+          "published_at": "2026-07-10T11:00:22Z"
         }
       ],
       "source_count": 2,
       "source_names": [
-        "Techmeme"
+        "法蘭克黃"
       ],
       "items": [
         {
-          "id": "b4cb99101dbf40ff9d95af1142a42bb7a181ae46",
-          "title": "Bun 的創建者表示，他使用 Claude Fable 5 的預發行版本在 11 天內將 Bun 從 Zig 重寫為 Rust；這項任務需要三名工程師大約一年的時間 (Jarred Sumner/bun.com) / Bun creator says he rewrote Bun from Zig to Rust using a pre-release version of Claude Fable 5 in 11 days; the task would've taken three engineers about a year (Jarred Sumner/bun.com)",
-          "url": "https://www.techmeme.com/260709/p24",
-          "source": "Techmeme",
+          "id": "42be960ff425e8c251ff16fcb2809d1d7bbc0099",
+          "title": "🍳為什麼你的鍋會沾？搞懂這2點 食物直接變好吃 #露營 #鑄鐵鍋 #法蘭克黃",
+          "url": "https://www.youtube.com/shorts/85dposIoERw",
+          "source": "法蘭克黃",
           "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-09T15:25:01Z"
+          "site_id": "trending",
+          "published_at": "2026-07-10T11:00:22Z"
         },
         {
-          "id": "e2ef7d89ea5906a358761ef53ffe2df0c8373086",
-          "title": "Bun 的創建者表示，他使用 Claude Fable 5 預發布版本在 11 天內將 Bun 從 Zig 重寫為 Rust，並指出這需要三名工程師「大約一年」（Jarred Sumner/bun.com） / Bun's creator says he rewrote Bun from Zig to Rust using a Claude Fable 5 prerelease version in 11 days, noting it would've taken three engineers \"about a year\" (Jarred Sumner/bun.com)",
-          "url": "https://www.techmeme.com/260709/p24",
-          "source": "Techmeme",
+          "id": "7e6805e7ba3e08d7b79e2e37048788c0f0c6915d",
+          "title": "🍳為什麼會沾鍋？60秒搞懂2大美味秘訣 食物直接變好吃 #露營 #鑄鐵鍋 #法蘭克黃",
+          "url": "https://www.youtube.com/shorts/85dposIoERw",
+          "source": "法蘭克黃",
           "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-09T15:25:01Z"
+          "site_id": "trending",
+          "published_at": "2026-07-10T11:00:22Z"
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3242,
-      "importance": 0.3242,
-      "importance_score": 0.3242,
+      "score": 0.4127,
+      "importance": 0.4127,
+      "importance_score": 0.4127,
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "source_tier": 0.5,
-        "recency": 0.0808,
+        "source_tier": 0.25,
+        "recency": 0.7922,
         "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-09T15:25:01Z",
-      "latest_at": "2026-07-09T15:25:01Z",
+      "earliest_at": "2026-07-10T11:00:22Z",
+      "latest_at": "2026-07-10T11:00:22Z",
       "primary_item": {
-        "id": "b4cb99101dbf40ff9d95af1142a42bb7a181ae46",
-        "title": "Bun 的創建者表示，他使用 Claude Fable 5 的預發行版本在 11 天內將 Bun 從 Zig 重寫為 Rust；這項任務需要三名工程師大約一年的時間 (Jarred Sumner/bun.com) / Bun creator says he rewrote Bun from Zig to Rust using a pre-release version of Claude Fable 5 in 11 days; the task would've taken three engineers about a year (Jarred Sumner/bun.com)",
-        "url": "https://www.techmeme.com/260709/p24",
-        "source": "Techmeme",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_fd35e13171f8",
-      "title": "Meta 將 Muse Spark 1.1 定價為 1.25 美元/100 萬輸入代幣和 4.25 美元/100 萬輸出代幣； Alexandr Wang 表示改進編碼和代理性能是重點（Ina Fried/Axios） / Meta prices Muse Spark 1.1 at $1.25/1M input tokens and $4.25/1M output tokens; Alexandr Wang says improving coding and agentic performance was a key focus (Ina Fried/Axios)",
-      "url": "https://www.techmeme.com/260709/p22",
-      "primary_url": "https://www.techmeme.com/260709/p22",
-      "source": "Techmeme",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "5a0d2d015ff506eb61a0ebe26fa78e933b3347e8",
-          "title": "Meta 將 Muse Spark 1.1 定價為 1.25 美元/100 萬輸入代幣和 4.25 美元/100 萬輸出代幣； Alexandr Wang 表示改進編碼和代理性能是重點（Ina Fried/Axios） / Meta prices Muse Spark 1.1 at $1.25/1M input tokens and $4.25/1M output tokens; Alexandr Wang says improving coding and agentic performance was a key focus (Ina Fried/Axios)",
-          "url": "https://www.techmeme.com/260709/p22",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-09T14:30:17Z"
-        },
-        {
-          "id": "06222485712d8f0bb49abf4d6c56003214dbd442",
-          "title": "Muse Spark 1.1 每 100 萬個輸入代幣的成本為 1.25 美元，每 100 萬個輸出代幣的成本為 4.25 美元； Alexandr Wang 表示編碼和代理任務是重點（Ina Fried/Axios） / Muse Spark 1.1 costs $1.25 per 1M input tokens and $4.25 per 1M output tokens; Alexandr Wang says coding and agentic tasks were key focuses (Ina Fried/Axios)",
-          "url": "https://www.techmeme.com/260709/p22",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-09T14:30:17Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Techmeme"
-      ],
-      "items": [
-        {
-          "id": "5a0d2d015ff506eb61a0ebe26fa78e933b3347e8",
-          "title": "Meta 將 Muse Spark 1.1 定價為 1.25 美元/100 萬輸入代幣和 4.25 美元/100 萬輸出代幣； Alexandr Wang 表示改進編碼和代理性能是重點（Ina Fried/Axios） / Meta prices Muse Spark 1.1 at $1.25/1M input tokens and $4.25/1M output tokens; Alexandr Wang says improving coding and agentic performance was a key focus (Ina Fried/Axios)",
-          "url": "https://www.techmeme.com/260709/p22",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-09T14:30:17Z"
-        },
-        {
-          "id": "06222485712d8f0bb49abf4d6c56003214dbd442",
-          "title": "Muse Spark 1.1 每 100 萬個輸入代幣的成本為 1.25 美元，每 100 萬個輸出代幣的成本為 4.25 美元； Alexandr Wang 表示編碼和代理任務是重點（Ina Fried/Axios） / Muse Spark 1.1 costs $1.25 per 1M input tokens and $4.25 per 1M output tokens; Alexandr Wang says coding and agentic tasks were key focuses (Ina Fried/Axios)",
-          "url": "https://www.techmeme.com/260709/p22",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-09T14:30:17Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.3128,
-      "importance": 0.3128,
-      "importance_score": 0.3128,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.5,
-        "recency": 0.0427,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-09T14:30:17Z",
-      "latest_at": "2026-07-09T14:30:17Z",
-      "primary_item": {
-        "id": "5a0d2d015ff506eb61a0ebe26fa78e933b3347e8",
-        "title": "Meta 將 Muse Spark 1.1 定價為 1.25 美元/100 萬輸入代幣和 4.25 美元/100 萬輸出代幣； Alexandr Wang 表示改進編碼和代理性能是重點（Ina Fried/Axios） / Meta prices Muse Spark 1.1 at $1.25/1M input tokens and $4.25/1M output tokens; Alexandr Wang says improving coding and agentic performance was a key focus (Ina Fried/Axios)",
-        "url": "https://www.techmeme.com/260709/p22",
-        "source": "Techmeme",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_0d22e1c62168",
-      "title": "Anthropic 在測試版中為 Free、Pro 和 Max 用戶推出了一個「反射」儀表板，並打開了內存，以追蹤他們在 1、3、6 或 12 個月內的 Claude 活動 (Anthropic) / Anthropic debuts a \"reflection\" dashboard in beta for Free, Pro, and Max users with memory turned on, to track their Claude activity over 1, 3, 6, or 12 months (Anthropic)",
-      "url": "https://www.techmeme.com/260709/p18",
-      "primary_url": "https://www.techmeme.com/260709/p18",
-      "source": "Techmeme",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "f6f854a25ae6113a9e87f6f2d0b852d65ec7b8b9",
-          "title": "Anthropic 在測試版中為 Free、Pro 和 Max 用戶推出了一個「反射」儀表板，並打開了內存，以追蹤他們在 1、3、6 或 12 個月內的 Claude 活動 (Anthropic) / Anthropic debuts a \"reflection\" dashboard in beta for Free, Pro, and Max users with memory turned on, to track their Claude activity over 1, 3, 6, or 12 months (Anthropic)",
-          "url": "https://www.techmeme.com/260709/p18",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-09T13:50:00Z"
-        },
-        {
-          "id": "45c110cb31698a382519204218f8cb29f58e4d60",
-          "title": "Anthropic 為 Free、Pro 和 Max 用戶推出了測試版「反思」儀表板，以追蹤 Claude 在 1、3、6 或 12 個月間隔內的使用模式 (Anthropic) / Anthropic launches a \"reflection\" dashboard in beta for Free, Pro, and Max users to track Claude usage patterns over 1-, 3-, 6-, or 12-month intervals (Anthropic)",
-          "url": "https://www.techmeme.com/260709/p18",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-09T13:50:00Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Techmeme"
-      ],
-      "items": [
-        {
-          "id": "f6f854a25ae6113a9e87f6f2d0b852d65ec7b8b9",
-          "title": "Anthropic 在測試版中為 Free、Pro 和 Max 用戶推出了一個「反射」儀表板，並打開了內存，以追蹤他們在 1、3、6 或 12 個月內的 Claude 活動 (Anthropic) / Anthropic debuts a \"reflection\" dashboard in beta for Free, Pro, and Max users with memory turned on, to track their Claude activity over 1, 3, 6, or 12 months (Anthropic)",
-          "url": "https://www.techmeme.com/260709/p18",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-09T13:50:00Z"
-        },
-        {
-          "id": "45c110cb31698a382519204218f8cb29f58e4d60",
-          "title": "Anthropic 為 Free、Pro 和 Max 用戶推出了測試版「反思」儀表板，以追蹤 Claude 在 1、3、6 或 12 個月間隔內的使用模式 (Anthropic) / Anthropic launches a \"reflection\" dashboard in beta for Free, Pro, and Max users to track Claude usage patterns over 1-, 3-, 6-, or 12-month intervals (Anthropic)",
-          "url": "https://www.techmeme.com/260709/p18",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-09T13:50:00Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.3044,
-      "importance": 0.3044,
-      "importance_score": 0.3044,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.5,
-        "recency": 0.0148,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-09T13:50:00Z",
-      "latest_at": "2026-07-09T13:50:00Z",
-      "primary_item": {
-        "id": "f6f854a25ae6113a9e87f6f2d0b852d65ec7b8b9",
-        "title": "Anthropic 在測試版中為 Free、Pro 和 Max 用戶推出了一個「反射」儀表板，並打開了內存，以追蹤他們在 1、3、6 或 12 個月內的 Claude 活動 (Anthropic) / Anthropic debuts a \"reflection\" dashboard in beta for Free, Pro, and Max users with memory turned on, to track their Claude activity over 1, 3, 6, or 12 months (Anthropic)",
-        "url": "https://www.techmeme.com/260709/p18",
-        "source": "Techmeme",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_329ce1aaabff",
-      "title": "美光將 2035 年的美國資本支出承諾提高到 250B 美元，為紐約、愛達荷、維吉尼亞和其他項目增加 50B 美元，並向 GlobalWafers 投資 5 億美元（Maggie Eastland/彭博） / Micron raises its US capex commitment to $250B through 2035, adding $50B for New York, Idaho, Virginia, and other projects, and invests $500M in GlobalWafers (Maggie Eastland/Bloomberg)",
-      "url": "https://www.techmeme.com/260709/p16",
-      "primary_url": "https://www.techmeme.com/260709/p16",
-      "source": "Techmeme",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "a0544d6cbd3f8b8f6372499525e7cf50997425fb",
-          "title": "美光將 2035 年的美國資本支出承諾提高到 250B 美元，為紐約、愛達荷、維吉尼亞和其他項目增加 50B 美元，並向 GlobalWafers 投資 5 億美元（Maggie Eastland/彭博） / Micron raises its US capex commitment to $250B through 2035, adding $50B for New York, Idaho, Virginia, and other projects, and invests $500M in GlobalWafers (Maggie Eastland/Bloomberg)",
-          "url": "https://www.techmeme.com/260709/p16",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-09T13:40:01Z"
-        },
-        {
-          "id": "e4ca914f5fedc8e251a39038c857514336a2dd68",
-          "title": "美光將其美國資本支出承諾提高到 2035 年 250B 美元，為紐約、愛達荷州、維吉尼亞州和其他地方的設施增加 50B 美元，並向 GlobalWafers 投資 5 億美元（Maggie Eastland/彭博） / Micron raises its US capex commitment to $250B through 2035, adding $50B for facilities in NY, ID, VA, and elsewhere, and invests $500M in GlobalWafers (Maggie Eastland/Bloomberg)",
-          "url": "https://www.techmeme.com/260709/p16",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-09T13:40:01Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Techmeme"
-      ],
-      "items": [
-        {
-          "id": "a0544d6cbd3f8b8f6372499525e7cf50997425fb",
-          "title": "美光將 2035 年的美國資本支出承諾提高到 250B 美元，為紐約、愛達荷、維吉尼亞和其他項目增加 50B 美元，並向 GlobalWafers 投資 5 億美元（Maggie Eastland/彭博） / Micron raises its US capex commitment to $250B through 2035, adding $50B for New York, Idaho, Virginia, and other projects, and invests $500M in GlobalWafers (Maggie Eastland/Bloomberg)",
-          "url": "https://www.techmeme.com/260709/p16",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-09T13:40:01Z"
-        },
-        {
-          "id": "e4ca914f5fedc8e251a39038c857514336a2dd68",
-          "title": "美光將其美國資本支出承諾提高到 2035 年 250B 美元，為紐約、愛達荷州、維吉尼亞州和其他地方的設施增加 50B 美元，並向 GlobalWafers 投資 5 億美元（Maggie Eastland/彭博） / Micron raises its US capex commitment to $250B through 2035, adding $50B for facilities in NY, ID, VA, and elsewhere, and invests $500M in GlobalWafers (Maggie Eastland/Bloomberg)",
-          "url": "https://www.techmeme.com/260709/p16",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-09T13:40:01Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.3024,
-      "importance": 0.3024,
-      "importance_score": 0.3024,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.5,
-        "recency": 0.0078,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-09T13:40:01Z",
-      "latest_at": "2026-07-09T13:40:01Z",
-      "primary_item": {
-        "id": "a0544d6cbd3f8b8f6372499525e7cf50997425fb",
-        "title": "美光將 2035 年的美國資本支出承諾提高到 250B 美元，為紐約、愛達荷、維吉尼亞和其他項目增加 50B 美元，並向 GlobalWafers 投資 5 億美元（Maggie Eastland/彭博） / Micron raises its US capex commitment to $250B through 2035, adding $50B for New York, Idaho, Virginia, and other projects, and invests $500M in GlobalWafers (Maggie Eastland/Bloomberg)",
-        "url": "https://www.techmeme.com/260709/p16",
-        "source": "Techmeme",
+        "id": "42be960ff425e8c251ff16fcb2809d1d7bbc0099",
+        "title": "🍳為什麼你的鍋會沾？搞懂這2點 食物直接變好吃 #露營 #鑄鐵鍋 #法蘭克黃",
+        "url": "https://www.youtube.com/shorts/85dposIoERw",
+        "source": "法蘭克黃",
         "source_name": "OPML RSS"
       }
     }
