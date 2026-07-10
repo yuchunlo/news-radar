@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-07-10T07:42:18.182550Z",
+  "generated_at": "2026-07-10T11:11:05.067424Z",
   "window_hours": 24,
-  "total_items": 7,
+  "total_items": 6,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "Meta缺不缺算力？英伟达被错杀了？星巴克重创微软？手机能装大模型！",
-      "url": "https://www.youtube.com/watch?v=83b7hC_WuUM",
-      "primary_url": "https://www.youtube.com/watch?v=83b7hC_WuUM",
-      "source": "美投侃新闻",
+      "title": "482 「推广国音」与「收听敌台」：王雨谈20世纪中国的广播技术政治史",
+      "url": "https://www.youtube.com/watch?v=JGszNlCXIzg",
+      "primary_url": "https://www.youtube.com/watch?v=JGszNlCXIzg",
+      "source": "忽左忽右",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "9811ff687343151a3824b64ce088c8c4fb15f1ef",
+          "title": "482 「推广国音」与「收听敌台」：王雨谈20世纪中国的广播技术政治史",
+          "url": "https://www.youtube.com/watch?v=JGszNlCXIzg",
+          "source": "忽左忽右",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-10T09:45:58Z"
+        },
         {
           "id": "a99b849462897da12762d947fb592ddeeee3f303",
           "title": "Meta缺不缺算力？英伟达被错杀了？星巴克重创微软？手机能装大模型！",
@@ -102,15 +111,6 @@
           "published_at": "2026-07-09T12:00:20Z"
         },
         {
-          "id": "3a10d5547c19ddaab0f8259c01b9745e521692b7",
-          "title": "redveil：小桌子音樂會 / redveil: Tiny Desk Concert",
-          "url": "https://www.youtube.com/watch?v=Oa_Wpi-KWrg",
-          "source": "NPR Music",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-09T09:00:10Z"
-        },
-        {
           "id": "ba256f6d3a7883dc6c9496281959cd8dae24b07e",
           "title": "克里米亞局勢瘋狂 / Crimea Situation Is Insane",
           "url": "https://www.youtube.com/watch?v=QjhqB3tC1Ko",
@@ -138,13 +138,13 @@
           "published_at": "2026-07-09T12:00:01Z"
         },
         {
-          "id": "fa78779403bd94cc825d6c5a01d31e096a4ebc5c",
-          "title": "【石山工作站】南南段我們撤退了，但意外發現超美復古建築｜ 探險威狼 Wilang Explorer ｜石山林道｜藤枝｜撤退｜南南段｜ 石山｜石山秀湖｜登山 ｜健行｜高雄秘境 ｜Vlog 526",
-          "url": "https://www.youtube.com/watch?v=UmAnE9Pnrtg",
-          "source": "探險威狼 Wilang-Explorer",
+          "id": "0f9975eb8cae0d03bc1a2255ddbca292ba722149",
+          "title": "IU,李鍾碩宣布分手/大S遺產爭議上熱搜/又一個女團逆行神話/金秀賢法院風向大變/台灣選手王彥程圓夢了/BIGBANG回歸｜DenQ",
+          "url": "https://www.youtube.com/watch?v=Tfretqd73bY",
+          "source": "DenQ來了",
           "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-09T11:00:32Z"
+          "site_id": "trending",
+          "published_at": "2026-07-10T10:00:16Z"
         },
         {
           "id": "4eab9f075295603b420aba788505e92b4da75912",
@@ -179,20 +179,29 @@
         "Benjamin Cowen",
         "Best Documentary",
         "CaspianReport",
+        "DenQ來了",
         "Kilian Jornet Burgada",
         "MoneyXYZ",
-        "NPR Music",
         "Perspective",
         "RealLifeLore",
         "Shepherd Capital Markets",
         "Timeline - World History Documentaries",
         "imineo Documentaires",
-        "探險威狼 Wilang-Explorer",
+        "忽左忽右",
         "沙發人物誌",
         "美投侃新闻",
         "雜書觀察室"
       ],
       "items": [
+        {
+          "id": "9811ff687343151a3824b64ce088c8c4fb15f1ef",
+          "title": "482 「推广国音」与「收听敌台」：王雨谈20世纪中国的广播技术政治史",
+          "url": "https://www.youtube.com/watch?v=JGszNlCXIzg",
+          "source": "忽左忽右",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-10T09:45:58Z"
+        },
         {
           "id": "a99b849462897da12762d947fb592ddeeee3f303",
           "title": "Meta缺不缺算力？英伟达被错杀了？星巴克重创微软？手机能装大模型！",
@@ -284,15 +293,6 @@
           "published_at": "2026-07-09T12:00:20Z"
         },
         {
-          "id": "3a10d5547c19ddaab0f8259c01b9745e521692b7",
-          "title": "redveil：小桌子音樂會 / redveil: Tiny Desk Concert",
-          "url": "https://www.youtube.com/watch?v=Oa_Wpi-KWrg",
-          "source": "NPR Music",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-09T09:00:10Z"
-        },
-        {
           "id": "ba256f6d3a7883dc6c9496281959cd8dae24b07e",
           "title": "克里米亞局勢瘋狂 / Crimea Situation Is Insane",
           "url": "https://www.youtube.com/watch?v=QjhqB3tC1Ko",
@@ -320,13 +320,13 @@
           "published_at": "2026-07-09T12:00:01Z"
         },
         {
-          "id": "fa78779403bd94cc825d6c5a01d31e096a4ebc5c",
-          "title": "【石山工作站】南南段我們撤退了，但意外發現超美復古建築｜ 探險威狼 Wilang Explorer ｜石山林道｜藤枝｜撤退｜南南段｜ 石山｜石山秀湖｜登山 ｜健行｜高雄秘境 ｜Vlog 526",
-          "url": "https://www.youtube.com/watch?v=UmAnE9Pnrtg",
-          "source": "探險威狼 Wilang-Explorer",
+          "id": "0f9975eb8cae0d03bc1a2255ddbca292ba722149",
+          "title": "IU,李鍾碩宣布分手/大S遺產爭議上熱搜/又一個女團逆行神話/金秀賢法院風向大變/台灣選手王彥程圓夢了/BIGBANG回歸｜DenQ",
+          "url": "https://www.youtube.com/watch?v=Tfretqd73bY",
+          "source": "DenQ來了",
           "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-09T11:00:32Z"
+          "site_id": "trending",
+          "published_at": "2026-07-10T10:00:16Z"
         },
         {
           "id": "4eab9f075295603b420aba788505e92b4da75912",
@@ -358,26 +358,26 @@
       ],
       "item_count": 18,
       "duplicate_count": 18,
-      "score": 0.6503,
-      "importance": 0.6503,
-      "importance_score": 0.6503,
+      "score": 0.7323,
+      "importance": 0.7323,
+      "importance_score": 0.7323,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6676,
+        "recency": 0.9409,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-09T09:00:10Z",
-      "latest_at": "2026-07-10T03:15:30Z",
+      "earliest_at": "2026-07-09T12:00:01Z",
+      "latest_at": "2026-07-10T10:00:16Z",
       "primary_item": {
-        "id": "a99b849462897da12762d947fb592ddeeee3f303",
-        "title": "Meta缺不缺算力？英伟达被错杀了？星巴克重创微软？手机能装大模型！",
-        "url": "https://www.youtube.com/watch?v=83b7hC_WuUM",
-        "source": "美投侃新闻",
+        "id": "9811ff687343151a3824b64ce088c8c4fb15f1ef",
+        "title": "482 「推广国音」与「收听敌台」：王雨谈20世纪中国的广播技术政治史",
+        "url": "https://www.youtube.com/watch?v=JGszNlCXIzg",
+        "source": "忽左忽右",
         "source_name": "OPML RSS"
       }
     },
@@ -434,13 +434,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3964,
-      "importance": 0.3964,
-      "importance_score": 0.3964,
+      "score": 0.3529,
+      "importance": 0.3529,
+      "importance_score": 0.3529,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.3213,
+        "recency": 0.1763,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -510,13 +510,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.385,
-      "importance": 0.385,
-      "importance_score": 0.385,
+      "score": 0.3415,
+      "importance": 0.3415,
+      "importance_score": 0.3415,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.2833,
+        "recency": 0.1383,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -586,13 +586,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3766,
-      "importance": 0.3766,
-      "importance_score": 0.3766,
+      "score": 0.3331,
+      "importance": 0.3331,
+      "importance_score": 0.3331,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.2553,
+        "recency": 0.1104,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -662,13 +662,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3745,
-      "importance": 0.3745,
-      "importance_score": 0.3745,
+      "score": 0.331,
+      "importance": 0.331,
+      "importance_score": 0.331,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.2484,
+        "recency": 0.1034,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -738,13 +738,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3704,
-      "importance": 0.3704,
-      "importance_score": 0.3704,
+      "score": 0.3269,
+      "importance": 0.3269,
+      "importance_score": 0.3269,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.2345,
+        "recency": 0.0895,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -758,82 +758,6 @@
         "title": "PrismML 表示，它在 iPhone 17 Pro 上運行了 27B 參數的 Qwen 3.6 模型，比之前任何設備上的模型都要大；消息來源：Apple 與 PrismML 就此進行了會談（Aaron Tilley/The Information） / PrismML says it ran a 27B-parameter Qwen 3.6 model on an iPhone 17 Pro, bigger than any prior on-device model; sources: Apple held talks with PrismML about it (Aaron Tilley/The Information)",
         "url": "https://www.techmeme.com/260709/p14",
         "source": "Techmeme",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_56d8f1ba2215",
-      "title": "269. 内容工厂 VS 内容工匠：真人短剧的两种生存模式",
-      "url": "https://www.xiaoyuzhoufm.com/episode/6a4f777d1e32575f5eb3cbc1",
-      "primary_url": "https://www.xiaoyuzhoufm.com/episode/6a4f777d1e32575f5eb3cbc1",
-      "source": "乱翻书",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "3b8e6858f391c635092ae6d3c69dcf1ce3dd3b99",
-          "title": "269. 内容工厂 VS 内容工匠：真人短剧的两种生存模式",
-          "url": "https://www.xiaoyuzhoufm.com/episode/6a4f777d1e32575f5eb3cbc1",
-          "source": "乱翻书",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-09T10:32:06Z"
-        },
-        {
-          "id": "e6c45083963165454fece7fce5884c8c47df4171",
-          "title": "269.真人短剧的下一战：与AI共生、工业化和好故事",
-          "url": "https://www.xiaoyuzhoufm.com/episode/6a4f777d1e32575f5eb3cbc1",
-          "source": "乱翻书",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-09T10:32:06Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "乱翻书"
-      ],
-      "items": [
-        {
-          "id": "3b8e6858f391c635092ae6d3c69dcf1ce3dd3b99",
-          "title": "269. 内容工厂 VS 内容工匠：真人短剧的两种生存模式",
-          "url": "https://www.xiaoyuzhoufm.com/episode/6a4f777d1e32575f5eb3cbc1",
-          "source": "乱翻书",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-09T10:32:06Z"
-        },
-        {
-          "id": "e6c45083963165454fece7fce5884c8c47df4171",
-          "title": "269.真人短剧的下一战：与AI共生、工业化和好故事",
-          "url": "https://www.xiaoyuzhoufm.com/episode/6a4f777d1e32575f5eb3cbc1",
-          "source": "乱翻书",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-09T10:32:06Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.2104,
-      "importance": 0.2104,
-      "importance_score": 0.2104,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.25,
-        "recency": 0.1179,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-09T10:32:06Z",
-      "latest_at": "2026-07-09T10:32:06Z",
-      "primary_item": {
-        "id": "3b8e6858f391c635092ae6d3c69dcf1ce3dd3b99",
-        "title": "269. 内容工厂 VS 内容工匠：真人短剧的两种生存模式",
-        "url": "https://www.xiaoyuzhoufm.com/episode/6a4f777d1e32575f5eb3cbc1",
-        "source": "乱翻书",
         "source_name": "OPML RSS"
       }
     }
