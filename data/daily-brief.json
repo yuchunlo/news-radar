@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T21:11:16.668741Z",
+  "generated_at": "2026-07-10T22:33:40.984338Z",
   "window_hours": 24,
   "total_items": 5,
   "items": [
@@ -120,24 +120,6 @@
           "published_at": "2026-07-09T22:40:15Z"
         },
         {
-          "id": "01f8a1afd77e36d41b37b2d68006f1a8c766cd4f",
-          "title": "《設限》： 爛好人拒絕情緒勒索｜六大界線防護網｜討好型人格與罪惡感綁架｜終結職場內耗與交友災難｜找回人生主導權",
-          "url": "https://www.youtube.com/watch?v=-xy0noDn4VI",
-          "source": "雜書觀察室",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-09T22:00:32Z"
-        },
-        {
-          "id": "960c114e5f6cb422df1f74226df80cd437186188",
-          "title": "《設限》： 爛好人拒絕情緒勒索｜單親媽媽六大界線防護網｜酒鬼老爸最後通牒｜終結職場奴性與交友災難｜找回人生主導權",
-          "url": "https://www.youtube.com/watch?v=-xy0noDn4VI",
-          "source": "雜書觀察室",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-09T22:00:32Z"
-        },
-        {
           "id": "bba3675c1047c5643c42cd90ff98d65017c5ce7c",
           "title": "德國夾在中美之間 / Germany Caught Between China and America",
           "url": "https://www.youtube.com/watch?v=_xZKlh8ZBmk",
@@ -174,7 +156,7 @@
           "published_at": "2026-07-10T03:15:30Z"
         }
       ],
-      "source_count": 18,
+      "source_count": 16,
       "source_names": [
         "Benjamin Cowen",
         "Best Documentary",
@@ -189,8 +171,7 @@
         "Tim Ferriss",
         "UsefulCharts",
         "忽左忽右",
-        "美投侃新闻",
-        "雜書觀察室"
+        "美投侃新闻"
       ],
       "items": [
         {
@@ -302,24 +283,6 @@
           "published_at": "2026-07-09T22:40:15Z"
         },
         {
-          "id": "01f8a1afd77e36d41b37b2d68006f1a8c766cd4f",
-          "title": "《設限》： 爛好人拒絕情緒勒索｜六大界線防護網｜討好型人格與罪惡感綁架｜終結職場內耗與交友災難｜找回人生主導權",
-          "url": "https://www.youtube.com/watch?v=-xy0noDn4VI",
-          "source": "雜書觀察室",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-09T22:00:32Z"
-        },
-        {
-          "id": "960c114e5f6cb422df1f74226df80cd437186188",
-          "title": "《設限》： 爛好人拒絕情緒勒索｜單親媽媽六大界線防護網｜酒鬼老爸最後通牒｜終結職場奴性與交友災難｜找回人生主導權",
-          "url": "https://www.youtube.com/watch?v=-xy0noDn4VI",
-          "source": "雜書觀察室",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-09T22:00:32Z"
-        },
-        {
           "id": "bba3675c1047c5643c42cd90ff98d65017c5ce7c",
           "title": "德國夾在中美之間 / Germany Caught Between China and America",
           "url": "https://www.youtube.com/watch?v=_xZKlh8ZBmk",
@@ -356,22 +319,22 @@
           "published_at": "2026-07-10T03:15:30Z"
         }
       ],
-      "item_count": 18,
-      "duplicate_count": 18,
-      "score": 0.7477,
-      "importance": 0.7477,
-      "importance_score": 0.7477,
+      "item_count": 16,
+      "duplicate_count": 16,
+      "score": 0.7305,
+      "importance": 0.7305,
+      "importance_score": 0.7305,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9922,
+        "recency": 0.935,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-09T22:00:32Z",
+      "earliest_at": "2026-07-09T22:40:15Z",
       "latest_at": "2026-07-10T21:00:02Z",
       "primary_item": {
         "id": "38c8f968741cbcd75caeecbe6316131832e75f1a",
@@ -434,13 +397,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5331,
-      "importance": 0.5331,
-      "importance_score": 0.5331,
+      "score": 0.5159,
+      "importance": 0.5159,
+      "importance_score": 0.5159,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7769,
+        "recency": 0.7197,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -510,13 +473,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4558,
-      "importance": 0.4558,
-      "importance_score": 0.4558,
+      "score": 0.4386,
+      "importance": 0.4386,
+      "importance_score": 0.4386,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.5192,
+        "recency": 0.462,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -586,13 +549,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4643,
-      "importance": 0.4643,
-      "importance_score": 0.4643,
+      "score": 0.4472,
+      "importance": 0.4472,
+      "importance_score": 0.4472,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.5477,
+        "recency": 0.4905,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -662,13 +625,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3477,
-      "importance": 0.3477,
-      "importance_score": 0.3477,
+      "score": 0.3306,
+      "importance": 0.3306,
+      "importance_score": 0.3306,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.5758,
+        "recency": 0.5185,
         "story_heat": 0.25
       },
       "category": "watch",
