@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-10T03:53:21.936959Z",
+  "generated_at": "2026-07-10T07:42:18.182550Z",
   "window_hours": 24,
-  "total_items": 6,
+  "total_items": 7,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
@@ -30,6 +30,15 @@
           "published_at": "2026-07-09T22:40:15Z"
         },
         {
+          "id": "01f8a1afd77e36d41b37b2d68006f1a8c766cd4f",
+          "title": "《設限》： 爛好人拒絕情緒勒索｜六大界線防護網｜討好型人格與罪惡感綁架｜終結職場內耗與交友災難｜找回人生主導權",
+          "url": "https://www.youtube.com/watch?v=-xy0noDn4VI",
+          "source": "雜書觀察室",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-09T22:00:32Z"
+        },
+        {
           "id": "960c114e5f6cb422df1f74226df80cd437186188",
           "title": "《設限》： 爛好人拒絕情緒勒索｜單親媽媽六大界線防護網｜酒鬼老爸最後通牒｜終結職場奴性與交友災難｜找回人生主導權",
           "url": "https://www.youtube.com/watch?v=-xy0noDn4VI",
@@ -102,24 +111,6 @@
           "published_at": "2026-07-09T09:00:10Z"
         },
         {
-          "id": "3093d546939f5e200e1475259659f437b25dd882",
-          "title": "发财了？我在西藏阿里发现大量古生物化石",
-          "url": "https://www.youtube.com/watch?v=s8zS6o33j-U",
-          "source": "东海嘉措",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-09T05:32:58Z"
-        },
-        {
-          "id": "3427248b4887ae2571c4ed2264a042e8f4c266da",
-          "title": "喜茶攻入曼谷！中國手搖飲版圖再擴大",
-          "url": "https://www.youtube.com/watch?v=9vJm18Y2Wm8",
-          "source": "阿峇卡巴 東南亞電台",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-09T05:11:04Z"
-        },
-        {
           "id": "ba256f6d3a7883dc6c9496281959cd8dae24b07e",
           "title": "克里米亞局勢瘋狂 / Crimea Situation Is Insane",
           "url": "https://www.youtube.com/watch?v=QjhqB3tC1Ko",
@@ -154,6 +145,15 @@
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
           "published_at": "2026-07-09T11:00:32Z"
+        },
+        {
+          "id": "4eab9f075295603b420aba788505e92b4da75912",
+          "title": "不要讓兩個「不夠好」阻礙你的成功【讀書聊天】",
+          "url": "https://www.youtube.com/watch?v=subGeHuQ_lY",
+          "source": "MoneyXYZ",
+          "source_name": "OPML RSS",
+          "site_id": "execution",
+          "published_at": "2026-07-10T03:15:30Z"
         },
         {
           "id": "4873869d303eb53735ab776d4711266061e6d921",
@@ -180,17 +180,16 @@
         "Best Documentary",
         "CaspianReport",
         "Kilian Jornet Burgada",
+        "MoneyXYZ",
         "NPR Music",
         "Perspective",
         "RealLifeLore",
         "Shepherd Capital Markets",
         "Timeline - World History Documentaries",
         "imineo Documentaires",
-        "东海嘉措",
         "探險威狼 Wilang-Explorer",
         "沙發人物誌",
         "美投侃新闻",
-        "阿峇卡巴 東南亞電台",
         "雜書觀察室"
       ],
       "items": [
@@ -211,6 +210,15 @@
           "source_name": "OPML RSS",
           "site_id": "finance",
           "published_at": "2026-07-09T22:40:15Z"
+        },
+        {
+          "id": "01f8a1afd77e36d41b37b2d68006f1a8c766cd4f",
+          "title": "《設限》： 爛好人拒絕情緒勒索｜六大界線防護網｜討好型人格與罪惡感綁架｜終結職場內耗與交友災難｜找回人生主導權",
+          "url": "https://www.youtube.com/watch?v=-xy0noDn4VI",
+          "source": "雜書觀察室",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-09T22:00:32Z"
         },
         {
           "id": "960c114e5f6cb422df1f74226df80cd437186188",
@@ -285,24 +293,6 @@
           "published_at": "2026-07-09T09:00:10Z"
         },
         {
-          "id": "3093d546939f5e200e1475259659f437b25dd882",
-          "title": "发财了？我在西藏阿里发现大量古生物化石",
-          "url": "https://www.youtube.com/watch?v=s8zS6o33j-U",
-          "source": "东海嘉措",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-09T05:32:58Z"
-        },
-        {
-          "id": "3427248b4887ae2571c4ed2264a042e8f4c266da",
-          "title": "喜茶攻入曼谷！中國手搖飲版圖再擴大",
-          "url": "https://www.youtube.com/watch?v=9vJm18Y2Wm8",
-          "source": "阿峇卡巴 東南亞電台",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-09T05:11:04Z"
-        },
-        {
           "id": "ba256f6d3a7883dc6c9496281959cd8dae24b07e",
           "title": "克里米亞局勢瘋狂 / Crimea Situation Is Insane",
           "url": "https://www.youtube.com/watch?v=QjhqB3tC1Ko",
@@ -339,6 +329,15 @@
           "published_at": "2026-07-09T11:00:32Z"
         },
         {
+          "id": "4eab9f075295603b420aba788505e92b4da75912",
+          "title": "不要讓兩個「不夠好」阻礙你的成功【讀書聊天】",
+          "url": "https://www.youtube.com/watch?v=subGeHuQ_lY",
+          "source": "MoneyXYZ",
+          "source_name": "OPML RSS",
+          "site_id": "execution",
+          "published_at": "2026-07-10T03:15:30Z"
+        },
+        {
           "id": "4873869d303eb53735ab776d4711266061e6d921",
           "title": "運動迷|我的西部各州 2026 / A fan of the sport | My Western States 2026",
           "url": "https://www.youtube.com/watch?v=XuLueFTj_kw",
@@ -359,21 +358,21 @@
       ],
       "item_count": 18,
       "duplicate_count": 18,
-      "score": 0.698,
-      "importance": 0.698,
-      "importance_score": 0.698,
+      "score": 0.6503,
+      "importance": 0.6503,
+      "importance_score": 0.6503,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.8266,
+        "recency": 0.6676,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-09T05:11:04Z",
-      "latest_at": "2026-07-09T23:43:39Z",
+      "earliest_at": "2026-07-09T09:00:10Z",
+      "latest_at": "2026-07-10T03:15:30Z",
       "primary_item": {
         "id": "a99b849462897da12762d947fb592ddeeee3f303",
         "title": "Meta缺不缺算力？英伟达被错杀了？星巴克重创微软？手机能装大模型！",
@@ -435,13 +434,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4441,
-      "importance": 0.4441,
-      "importance_score": 0.4441,
+      "score": 0.3964,
+      "importance": 0.3964,
+      "importance_score": 0.3964,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.4803,
+        "recency": 0.3213,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -511,13 +510,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4327,
-      "importance": 0.4327,
-      "importance_score": 0.4327,
+      "score": 0.385,
+      "importance": 0.385,
+      "importance_score": 0.385,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.4423,
+        "recency": 0.2833,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -587,13 +586,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4243,
-      "importance": 0.4243,
-      "importance_score": 0.4243,
+      "score": 0.3766,
+      "importance": 0.3766,
+      "importance_score": 0.3766,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.4143,
+        "recency": 0.2553,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -663,13 +662,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4222,
-      "importance": 0.4222,
-      "importance_score": 0.4222,
+      "score": 0.3745,
+      "importance": 0.3745,
+      "importance_score": 0.3745,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.4074,
+        "recency": 0.2484,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -739,13 +738,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4181,
-      "importance": 0.4181,
-      "importance_score": 0.4181,
+      "score": 0.3704,
+      "importance": 0.3704,
+      "importance_score": 0.3704,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.3935,
+        "recency": 0.2345,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -759,6 +758,82 @@
         "title": "PrismML 表示，它在 iPhone 17 Pro 上運行了 27B 參數的 Qwen 3.6 模型，比之前任何設備上的模型都要大；消息來源：Apple 與 PrismML 就此進行了會談（Aaron Tilley/The Information） / PrismML says it ran a 27B-parameter Qwen 3.6 model on an iPhone 17 Pro, bigger than any prior on-device model; sources: Apple held talks with PrismML about it (Aaron Tilley/The Information)",
         "url": "https://www.techmeme.com/260709/p14",
         "source": "Techmeme",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_56d8f1ba2215",
+      "title": "269. 内容工厂 VS 内容工匠：真人短剧的两种生存模式",
+      "url": "https://www.xiaoyuzhoufm.com/episode/6a4f777d1e32575f5eb3cbc1",
+      "primary_url": "https://www.xiaoyuzhoufm.com/episode/6a4f777d1e32575f5eb3cbc1",
+      "source": "乱翻书",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "3b8e6858f391c635092ae6d3c69dcf1ce3dd3b99",
+          "title": "269. 内容工厂 VS 内容工匠：真人短剧的两种生存模式",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6a4f777d1e32575f5eb3cbc1",
+          "source": "乱翻书",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-09T10:32:06Z"
+        },
+        {
+          "id": "e6c45083963165454fece7fce5884c8c47df4171",
+          "title": "269.真人短剧的下一战：与AI共生、工业化和好故事",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6a4f777d1e32575f5eb3cbc1",
+          "source": "乱翻书",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-09T10:32:06Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "乱翻书"
+      ],
+      "items": [
+        {
+          "id": "3b8e6858f391c635092ae6d3c69dcf1ce3dd3b99",
+          "title": "269. 内容工厂 VS 内容工匠：真人短剧的两种生存模式",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6a4f777d1e32575f5eb3cbc1",
+          "source": "乱翻书",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-09T10:32:06Z"
+        },
+        {
+          "id": "e6c45083963165454fece7fce5884c8c47df4171",
+          "title": "269.真人短剧的下一战：与AI共生、工业化和好故事",
+          "url": "https://www.xiaoyuzhoufm.com/episode/6a4f777d1e32575f5eb3cbc1",
+          "source": "乱翻书",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-09T10:32:06Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.2104,
+      "importance": 0.2104,
+      "importance_score": 0.2104,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.25,
+        "recency": 0.1179,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-09T10:32:06Z",
+      "latest_at": "2026-07-09T10:32:06Z",
+      "primary_item": {
+        "id": "3b8e6858f391c635092ae6d3c69dcf1ce3dd3b99",
+        "title": "269. 内容工厂 VS 内容工匠：真人短剧的两种生存模式",
+        "url": "https://www.xiaoyuzhoufm.com/episode/6a4f777d1e32575f5eb3cbc1",
+        "source": "乱翻书",
         "source_name": "OPML RSS"
       }
     }
