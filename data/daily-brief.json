@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-07-10T17:56:15.718421Z",
+  "generated_at": "2026-07-10T19:45:13.027323Z",
   "window_hours": 24,
   "total_items": 4,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "最強大的古代戰艦內部 / Inside the Most Powerful Ancient Warship",
-      "url": "https://www.youtube.com/watch?v=ZLHCdo9VWeg",
-      "primary_url": "https://www.youtube.com/watch?v=ZLHCdo9VWeg",
-      "source": "Deconstructed",
+      "title": "每個人對中國和人工智慧安全的看法都是錯誤的——Sebastian Mallaby 解釋道 / Everyone Is Wrong About China and AI Safety — Sebastian Mallaby Explains",
+      "url": "https://www.youtube.com/watch?v=jO22a9BG1tg",
+      "primary_url": "https://www.youtube.com/watch?v=jO22a9BG1tg",
+      "source": "Tim Ferriss",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "72549bbbcf2bd3908f47e616a84e3d1380ff1af3",
+          "title": "每個人對中國和人工智慧安全的看法都是錯誤的——Sebastian Mallaby 解釋道 / Everyone Is Wrong About China and AI Safety — Sebastian Mallaby Explains",
+          "url": "https://www.youtube.com/watch?v=jO22a9BG1tg",
+          "source": "Tim Ferriss",
+          "source_name": "OPML RSS",
+          "site_id": "blog",
+          "published_at": "2026-07-10T18:57:32Z"
+        },
         {
           "id": "78a79170159e5a53ed4efcc0247072c6dc95c643",
           "title": "最強大的古代戰艦內部 / Inside the Most Powerful Ancient Warship",
@@ -127,15 +136,6 @@
           "source_name": "OPML RSS",
           "site_id": "culture",
           "published_at": "2026-07-09T21:00:26Z"
-        },
-        {
-          "id": "5438756b5c3324faf3b2bbc720e004538232ae47",
-          "title": "安迪沃荷不為人知的一生——藝術、名譽與隱藏的秘密 / The Untold Life of Andy Warhol - Art, Fame and Hidden Secrets",
-          "url": "https://www.youtube.com/watch?v=qjwVobY-4Jc",
-          "source": "Perspective",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-09T19:00:29Z"
         },
         {
           "id": "bba3675c1047c5643c42cd90ff98d65017c5ce7c",
@@ -175,8 +175,8 @@
         "Good Times Bad Times",
         "Knowledgia",
         "MoneyXYZ",
-        "Perspective",
         "Shepherd Capital Markets",
+        "Tim Ferriss",
         "Timeline - World History Documentaries",
         "UsefulCharts",
         "忽左忽右",
@@ -184,6 +184,15 @@
         "雜書觀察室"
       ],
       "items": [
+        {
+          "id": "72549bbbcf2bd3908f47e616a84e3d1380ff1af3",
+          "title": "每個人對中國和人工智慧安全的看法都是錯誤的——Sebastian Mallaby 解釋道 / Everyone Is Wrong About China and AI Safety — Sebastian Mallaby Explains",
+          "url": "https://www.youtube.com/watch?v=jO22a9BG1tg",
+          "source": "Tim Ferriss",
+          "source_name": "OPML RSS",
+          "site_id": "blog",
+          "published_at": "2026-07-10T18:57:32Z"
+        },
         {
           "id": "78a79170159e5a53ed4efcc0247072c6dc95c643",
           "title": "最強大的古代戰艦內部 / Inside the Most Powerful Ancient Warship",
@@ -302,15 +311,6 @@
           "published_at": "2026-07-09T21:00:26Z"
         },
         {
-          "id": "5438756b5c3324faf3b2bbc720e004538232ae47",
-          "title": "安迪沃荷不為人知的一生——藝術、名譽與隱藏的秘密 / The Untold Life of Andy Warhol - Art, Fame and Hidden Secrets",
-          "url": "https://www.youtube.com/watch?v=qjwVobY-4Jc",
-          "source": "Perspective",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-09T19:00:29Z"
-        },
-        {
           "id": "bba3675c1047c5643c42cd90ff98d65017c5ce7c",
           "title": "德國夾在中美之間 / Germany Caught Between China and America",
           "url": "https://www.youtube.com/watch?v=_xZKlh8ZBmk",
@@ -340,26 +340,26 @@
       ],
       "item_count": 17,
       "duplicate_count": 17,
-      "score": 0.7259,
-      "importance": 0.7259,
-      "importance_score": 0.7259,
+      "score": 0.7401,
+      "importance": 0.7401,
+      "importance_score": 0.7401,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9196,
+        "recency": 0.9669,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-09T19:00:29Z",
-      "latest_at": "2026-07-10T16:00:29Z",
+      "earliest_at": "2026-07-09T21:00:26Z",
+      "latest_at": "2026-07-10T18:57:32Z",
       "primary_item": {
-        "id": "78a79170159e5a53ed4efcc0247072c6dc95c643",
-        "title": "最強大的古代戰艦內部 / Inside the Most Powerful Ancient Warship",
-        "url": "https://www.youtube.com/watch?v=ZLHCdo9VWeg",
-        "source": "Deconstructed",
+        "id": "72549bbbcf2bd3908f47e616a84e3d1380ff1af3",
+        "title": "每個人對中國和人工智慧安全的看法都是錯誤的——Sebastian Mallaby 解釋道 / Everyone Is Wrong About China and AI Safety — Sebastian Mallaby Explains",
+        "url": "https://www.youtube.com/watch?v=jO22a9BG1tg",
+        "source": "Tim Ferriss",
         "source_name": "OPML RSS"
       }
     },
@@ -416,13 +416,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5049,
-      "importance": 0.5049,
-      "importance_score": 0.5049,
+      "score": 0.4822,
+      "importance": 0.4822,
+      "importance_score": 0.4822,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6832,
+        "recency": 0.6075,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -492,13 +492,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4964,
-      "importance": 0.4964,
-      "importance_score": 0.4964,
+      "score": 0.4737,
+      "importance": 0.4737,
+      "importance_score": 0.4737,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6546,
+        "recency": 0.579,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -568,13 +568,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3884,
-      "importance": 0.3884,
-      "importance_score": 0.3884,
+      "score": 0.3657,
+      "importance": 0.3657,
+      "importance_score": 0.3657,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.7112,
+        "recency": 0.6355,
         "story_heat": 0.25
       },
       "category": "watch",
