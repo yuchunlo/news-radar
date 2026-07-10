@@ -1,16 +1,34 @@
 {
-  "generated_at": "2026-07-10T11:11:05.067424Z",
+  "generated_at": "2026-07-10T13:28:43.787882Z",
   "window_hours": 24,
   "total_items": 6,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "482 「推广国音」与「收听敌台」：王雨谈20世纪中国的广播技术政治史",
-      "url": "https://www.youtube.com/watch?v=JGszNlCXIzg",
-      "primary_url": "https://www.youtube.com/watch?v=JGszNlCXIzg",
-      "source": "忽左忽右",
+      "title": "追尋教父：光榮帝國內部 / Chasing the Godfather: Inside the 'Ndrangheta Empire",
+      "url": "https://www.youtube.com/watch?v=NPwYvLilMpk",
+      "primary_url": "https://www.youtube.com/watch?v=NPwYvLilMpk",
+      "source": "Best Documentary",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "27d70e37ce0fcebdea1a67af182a2a954bdc2b20",
+          "title": "追尋教父：光榮帝國內部 / Chasing the Godfather: Inside the 'Ndrangheta Empire",
+          "url": "https://www.youtube.com/watch?v=NPwYvLilMpk",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-10T12:00:14Z"
+        },
+        {
+          "id": "6a4ca9f1a7b7dd96b18febed9127f9e7f7e1e1ce",
+          "title": "「素食」不用寿司帘！牛油果寿司蛋糕🥑做法超简单|【Vegan】No-Roll Avocado Sushi Cake | Easy Japanese-Inspired Summer Meal",
+          "url": "https://www.youtube.com/watch?v=5dqH8GSgiLA",
+          "source": "Chu's Vegan",
+          "source_name": "OPML RSS",
+          "site_id": "convivium",
+          "published_at": "2026-07-10T11:30:25Z"
+        },
         {
           "id": "9811ff687343151a3824b64ce088c8c4fb15f1ef",
           "title": "482 「推广国音」与「收听敌台」：王雨谈20世纪中国的广播技术政治史",
@@ -93,24 +111,6 @@
           "published_at": "2026-07-09T14:30:18Z"
         },
         {
-          "id": "c3ff68d348e2d7518327b2ebc043a1c751298d0c",
-          "title": "NFA直播！比特幣、世界盃（不是足球建議） / NFA Live! Bitcoin, World Cup (Not Football Advice)",
-          "url": "https://www.youtube.com/watch?v=OgvqZ2BiHZw",
-          "source": "Benjamin Cowen",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-09T13:18:29Z"
-        },
-        {
-          "id": "0b186351d57fa81ee1398fdcc93de217065ad3e5",
-          "title": "俄克拉荷馬城爆炸案：到底發生了什麼事？ / Oklahoma City Bombing: What Really Happened?",
-          "url": "https://www.youtube.com/watch?v=xAP1IHLDMMo",
-          "source": "Best Documentary",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-09T12:00:20Z"
-        },
-        {
           "id": "ba256f6d3a7883dc6c9496281959cd8dae24b07e",
           "title": "克里米亞局勢瘋狂 / Crimea Situation Is Insane",
           "url": "https://www.youtube.com/watch?v=QjhqB3tC1Ko",
@@ -127,15 +127,6 @@
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
           "published_at": "2026-07-09T17:22:11Z"
-        },
-        {
-          "id": "b040ffae1810c4e29f2a4f9e575443fb5323bd42",
-          "title": "從八強賽一路預測到冠軍！挪威能不能一黑到底，阿根廷還有希望衛冕嗎？誰能夠贏下最後的冠軍？｜世界冠軍之路不負責任預測",
-          "url": "https://www.youtube.com/watch?v=d2oMa_5QluY",
-          "source": "沙發人物誌",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-09T12:00:01Z"
         },
         {
           "id": "0f9975eb8cae0d03bc1a2255ddbca292ba722149",
@@ -174,11 +165,11 @@
           "published_at": "2026-07-09T14:02:04Z"
         }
       ],
-      "source_count": 18,
+      "source_count": 17,
       "source_names": [
-        "Benjamin Cowen",
         "Best Documentary",
         "CaspianReport",
+        "Chu's Vegan",
         "DenQ來了",
         "Kilian Jornet Burgada",
         "MoneyXYZ",
@@ -188,11 +179,28 @@
         "Timeline - World History Documentaries",
         "imineo Documentaires",
         "忽左忽右",
-        "沙發人物誌",
         "美投侃新闻",
         "雜書觀察室"
       ],
       "items": [
+        {
+          "id": "27d70e37ce0fcebdea1a67af182a2a954bdc2b20",
+          "title": "追尋教父：光榮帝國內部 / Chasing the Godfather: Inside the 'Ndrangheta Empire",
+          "url": "https://www.youtube.com/watch?v=NPwYvLilMpk",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-10T12:00:14Z"
+        },
+        {
+          "id": "6a4ca9f1a7b7dd96b18febed9127f9e7f7e1e1ce",
+          "title": "「素食」不用寿司帘！牛油果寿司蛋糕🥑做法超简单|【Vegan】No-Roll Avocado Sushi Cake | Easy Japanese-Inspired Summer Meal",
+          "url": "https://www.youtube.com/watch?v=5dqH8GSgiLA",
+          "source": "Chu's Vegan",
+          "source_name": "OPML RSS",
+          "site_id": "convivium",
+          "published_at": "2026-07-10T11:30:25Z"
+        },
         {
           "id": "9811ff687343151a3824b64ce088c8c4fb15f1ef",
           "title": "482 「推广国音」与「收听敌台」：王雨谈20世纪中国的广播技术政治史",
@@ -275,24 +283,6 @@
           "published_at": "2026-07-09T14:30:18Z"
         },
         {
-          "id": "c3ff68d348e2d7518327b2ebc043a1c751298d0c",
-          "title": "NFA直播！比特幣、世界盃（不是足球建議） / NFA Live! Bitcoin, World Cup (Not Football Advice)",
-          "url": "https://www.youtube.com/watch?v=OgvqZ2BiHZw",
-          "source": "Benjamin Cowen",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-09T13:18:29Z"
-        },
-        {
-          "id": "0b186351d57fa81ee1398fdcc93de217065ad3e5",
-          "title": "俄克拉荷馬城爆炸案：到底發生了什麼事？ / Oklahoma City Bombing: What Really Happened?",
-          "url": "https://www.youtube.com/watch?v=xAP1IHLDMMo",
-          "source": "Best Documentary",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-09T12:00:20Z"
-        },
-        {
           "id": "ba256f6d3a7883dc6c9496281959cd8dae24b07e",
           "title": "克里米亞局勢瘋狂 / Crimea Situation Is Insane",
           "url": "https://www.youtube.com/watch?v=QjhqB3tC1Ko",
@@ -309,15 +299,6 @@
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
           "published_at": "2026-07-09T17:22:11Z"
-        },
-        {
-          "id": "b040ffae1810c4e29f2a4f9e575443fb5323bd42",
-          "title": "從八強賽一路預測到冠軍！挪威能不能一黑到底，阿根廷還有希望衛冕嗎？誰能夠贏下最後的冠軍？｜世界冠軍之路不負責任預測",
-          "url": "https://www.youtube.com/watch?v=d2oMa_5QluY",
-          "source": "沙發人物誌",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-09T12:00:01Z"
         },
         {
           "id": "0f9975eb8cae0d03bc1a2255ddbca292ba722149",
@@ -356,28 +337,104 @@
           "published_at": "2026-07-09T14:02:04Z"
         }
       ],
-      "item_count": 18,
-      "duplicate_count": 18,
-      "score": 0.7323,
-      "importance": 0.7323,
-      "importance_score": 0.7323,
+      "item_count": 17,
+      "duplicate_count": 17,
+      "score": 0.7316,
+      "importance": 0.7316,
+      "importance_score": 0.7316,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9409,
+        "recency": 0.9385,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-09T12:00:01Z",
-      "latest_at": "2026-07-10T10:00:16Z",
+      "earliest_at": "2026-07-09T14:02:04Z",
+      "latest_at": "2026-07-10T12:00:14Z",
       "primary_item": {
-        "id": "9811ff687343151a3824b64ce088c8c4fb15f1ef",
-        "title": "482 「推广国音」与「收听敌台」：王雨谈20世纪中国的广播技术政治史",
-        "url": "https://www.youtube.com/watch?v=JGszNlCXIzg",
-        "source": "忽左忽右",
+        "id": "27d70e37ce0fcebdea1a67af182a2a954bdc2b20",
+        "title": "追尋教父：光榮帝國內部 / Chasing the Godfather: Inside the 'Ndrangheta Empire",
+        "url": "https://www.youtube.com/watch?v=NPwYvLilMpk",
+        "source": "Best Documentary",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_a5dc2da97dce",
+      "title": "備案：Polymarket 正在尋求 CFTC 批准在美國提供保證金交易，此舉將允許用戶以較少的預付資金押注賽事（彭博） / Filing: Polymarket is seeking CFTC approval to offer margin trading in the US, a move that would let users bet on events with less capital upfront (Bloomberg)",
+      "url": "https://www.techmeme.com/260710/p7",
+      "primary_url": "https://www.techmeme.com/260710/p7",
+      "source": "Techmeme",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "689d8a28c62f0b6350271462af9e6f48147e1d55",
+          "title": "備案：Polymarket 正在尋求 CFTC 批准在美國提供保證金交易，此舉將允許用戶以較少的預付資金押注賽事（彭博） / Filing: Polymarket is seeking CFTC approval to offer margin trading in the US, a move that would let users bet on events with less capital upfront (Bloomberg)",
+          "url": "https://www.techmeme.com/260710/p7",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-10T10:20:01Z"
+        },
+        {
+          "id": "2153de8edfbcbb5d3ca84e91a257cbb0897c767d",
+          "title": "Polymarket 正在尋求 CFTC 和 NFA 批准在美國提供保證金交易，這將使用戶能夠以較少的預付資金押注事件並吸引交易者（彭博） / Polymarket is seeking CFTC and NFA approval to offer margin trading in the US, which would let users bet on events with less capital upfront and attract traders (Bloomberg)",
+          "url": "https://www.techmeme.com/260710/p7",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-10T10:20:01Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Techmeme"
+      ],
+      "items": [
+        {
+          "id": "689d8a28c62f0b6350271462af9e6f48147e1d55",
+          "title": "備案：Polymarket 正在尋求 CFTC 批准在美國提供保證金交易，此舉將允許用戶以較少的預付資金押注賽事（彭博） / Filing: Polymarket is seeking CFTC approval to offer margin trading in the US, a move that would let users bet on events with less capital upfront (Bloomberg)",
+          "url": "https://www.techmeme.com/260710/p7",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-10T10:20:01Z"
+        },
+        {
+          "id": "2153de8edfbcbb5d3ca84e91a257cbb0897c767d",
+          "title": "Polymarket 正在尋求 CFTC 和 NFA 批准在美國提供保證金交易，這將使用戶能夠以較少的預付資金押注事件並吸引交易者（彭博） / Polymarket is seeking CFTC and NFA approval to offer margin trading in the US, which would let users bet on events with less capital upfront and attract traders (Bloomberg)",
+          "url": "https://www.techmeme.com/260710/p7",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-10T10:20:01Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5607,
+      "importance": 0.5607,
+      "importance_score": 0.5607,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.5,
+        "recency": 0.8689,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-10T10:20:01Z",
+      "latest_at": "2026-07-10T10:20:01Z",
+      "primary_item": {
+        "id": "689d8a28c62f0b6350271462af9e6f48147e1d55",
+        "title": "備案：Polymarket 正在尋求 CFTC 批准在美國提供保證金交易，此舉將允許用戶以較少的預付資金押注賽事（彭博） / Filing: Polymarket is seeking CFTC approval to offer margin trading in the US, a move that would let users bet on events with less capital upfront (Bloomberg)",
+        "url": "https://www.techmeme.com/260710/p7",
+        "source": "Techmeme",
         "source_name": "OPML RSS"
       }
     },
@@ -434,13 +491,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3529,
-      "importance": 0.3529,
-      "importance_score": 0.3529,
+      "score": 0.3242,
+      "importance": 0.3242,
+      "importance_score": 0.3242,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.1763,
+        "recency": 0.0808,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -510,13 +567,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3415,
-      "importance": 0.3415,
-      "importance_score": 0.3415,
+      "score": 0.3128,
+      "importance": 0.3128,
+      "importance_score": 0.3128,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.1383,
+        "recency": 0.0427,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -586,13 +643,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3331,
-      "importance": 0.3331,
-      "importance_score": 0.3331,
+      "score": 0.3044,
+      "importance": 0.3044,
+      "importance_score": 0.3044,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.1104,
+        "recency": 0.0148,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -662,13 +719,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.331,
-      "importance": 0.331,
-      "importance_score": 0.331,
+      "score": 0.3024,
+      "importance": 0.3024,
+      "importance_score": 0.3024,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.1034,
+        "recency": 0.0078,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -681,82 +738,6 @@
         "id": "a0544d6cbd3f8b8f6372499525e7cf50997425fb",
         "title": "美光將 2035 年的美國資本支出承諾提高到 250B 美元，為紐約、愛達荷、維吉尼亞和其他項目增加 50B 美元，並向 GlobalWafers 投資 5 億美元（Maggie Eastland/彭博） / Micron raises its US capex commitment to $250B through 2035, adding $50B for New York, Idaho, Virginia, and other projects, and invests $500M in GlobalWafers (Maggie Eastland/Bloomberg)",
         "url": "https://www.techmeme.com/260709/p16",
-        "source": "Techmeme",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_8f8e6d32918a",
-      "title": "PrismML 表示，它在 iPhone 17 Pro 上運行了 27B 參數的 Qwen 3.6 模型，比之前任何設備上的模型都要大；消息來源：Apple 與 PrismML 就此進行了會談（Aaron Tilley/The Information） / PrismML says it ran a 27B-parameter Qwen 3.6 model on an iPhone 17 Pro, bigger than any prior on-device model; sources: Apple held talks with PrismML about it (Aaron Tilley/The Information)",
-      "url": "https://www.techmeme.com/260709/p14",
-      "primary_url": "https://www.techmeme.com/260709/p14",
-      "source": "Techmeme",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "612078b5119b4896dd322e50481706f2137c6c4d",
-          "title": "PrismML 表示，它在 iPhone 17 Pro 上運行了 27B 參數的 Qwen 3.6 模型，比之前任何設備上的模型都要大；消息來源：Apple 與 PrismML 就此進行了會談（Aaron Tilley/The Information） / PrismML says it ran a 27B-parameter Qwen 3.6 model on an iPhone 17 Pro, bigger than any prior on-device model; sources: Apple held talks with PrismML about it (Aaron Tilley/The Information)",
-          "url": "https://www.techmeme.com/260709/p14",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-09T13:20:01Z"
-        },
-        {
-          "id": "bb8a4f1727ee83c8bfec01e792dacf22b3a088c7",
-          "title": "PrismML 將 Qwen 3.6 參數縮小至 27B，並在 iPhone 17 Pro 上運行，比之前的任何移動型號都要大；來源：Apple 與 PrismML 討論了其技術（Aaron Tilley/The Information） / PrismML shrunk Qwen 3.6 to 27B parameters and ran it on an iPhone 17 Pro, bigger than any prior mobile model; sources: Apple talked with PrismML about its tech (Aaron Tilley/The Information)",
-          "url": "https://www.techmeme.com/260709/p14",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-09T13:20:01Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Techmeme"
-      ],
-      "items": [
-        {
-          "id": "612078b5119b4896dd322e50481706f2137c6c4d",
-          "title": "PrismML 表示，它在 iPhone 17 Pro 上運行了 27B 參數的 Qwen 3.6 模型，比之前任何設備上的模型都要大；消息來源：Apple 與 PrismML 就此進行了會談（Aaron Tilley/The Information） / PrismML says it ran a 27B-parameter Qwen 3.6 model on an iPhone 17 Pro, bigger than any prior on-device model; sources: Apple held talks with PrismML about it (Aaron Tilley/The Information)",
-          "url": "https://www.techmeme.com/260709/p14",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-09T13:20:01Z"
-        },
-        {
-          "id": "bb8a4f1727ee83c8bfec01e792dacf22b3a088c7",
-          "title": "PrismML 將 Qwen 3.6 參數縮小至 27B，並在 iPhone 17 Pro 上運行，比之前的任何移動型號都要大；來源：Apple 與 PrismML 討論了其技術（Aaron Tilley/The Information） / PrismML shrunk Qwen 3.6 to 27B parameters and ran it on an iPhone 17 Pro, bigger than any prior mobile model; sources: Apple talked with PrismML about its tech (Aaron Tilley/The Information)",
-          "url": "https://www.techmeme.com/260709/p14",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-09T13:20:01Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.3269,
-      "importance": 0.3269,
-      "importance_score": 0.3269,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.5,
-        "recency": 0.0895,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-09T13:20:01Z",
-      "latest_at": "2026-07-09T13:20:01Z",
-      "primary_item": {
-        "id": "612078b5119b4896dd322e50481706f2137c6c4d",
-        "title": "PrismML 表示，它在 iPhone 17 Pro 上運行了 27B 參數的 Qwen 3.6 模型，比之前任何設備上的模型都要大；消息來源：Apple 與 PrismML 就此進行了會談（Aaron Tilley/The Information） / PrismML says it ran a 27B-parameter Qwen 3.6 model on an iPhone 17 Pro, bigger than any prior on-device model; sources: Apple held talks with PrismML about it (Aaron Tilley/The Information)",
-        "url": "https://www.techmeme.com/260709/p14",
         "source": "Techmeme",
         "source_name": "OPML RSS"
       }
