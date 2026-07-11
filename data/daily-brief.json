@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-07-11T11:31:17.825795Z",
+  "generated_at": "2026-07-11T13:40:07.634347Z",
   "window_hours": 24,
   "total_items": 2,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "海力士首日大涨！Meta完全逆转！谷歌被机构看空？Reddit成稀缺资产？年轻人就不买房？",
-      "url": "https://www.youtube.com/watch?v=B5bcAl1u3Uk",
-      "primary_url": "https://www.youtube.com/watch?v=B5bcAl1u3Uk",
-      "source": "美投侃新闻",
+      "title": "薩赫勒地區的聖戰：地球上不幸者的反抗 / Jihad in the Sahel: A Revolt of the Wretched of the Earth",
+      "url": "https://www.youtube.com/watch?v=Hwp_9tCWk-s",
+      "primary_url": "https://www.youtube.com/watch?v=Hwp_9tCWk-s",
+      "source": "Best Documentary",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "c0b9c6f1a0e3b24c2e02bb1dc847e9e416247cd8",
+          "title": "薩赫勒地區的聖戰：地球上不幸者的反抗 / Jihad in the Sahel: A Revolt of the Wretched of the Earth",
+          "url": "https://www.youtube.com/watch?v=Hwp_9tCWk-s",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-11T12:00:06Z"
+        },
         {
           "id": "eeeb6edd324f4ada5d0d37f1e5050220a0056b42",
           "title": "海力士首日大涨！Meta完全逆转！谷歌被机构看空？Reddit成稀缺资产？年轻人就不买房？",
@@ -93,15 +102,6 @@
           "published_at": "2026-07-10T15:14:35Z"
         },
         {
-          "id": "27d70e37ce0fcebdea1a67af182a2a954bdc2b20",
-          "title": "追尋教父：光榮帝國內部 / Chasing the Godfather: Inside the 'Ndrangheta Empire",
-          "url": "https://www.youtube.com/watch?v=NPwYvLilMpk",
-          "source": "Best Documentary",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-10T12:00:14Z"
-        },
-        {
           "id": "bba3675c1047c5643c42cd90ff98d65017c5ce7c",
           "title": "德國夾在中美之間 / Germany Caught Between China and America",
           "url": "https://www.youtube.com/watch?v=_xZKlh8ZBmk",
@@ -109,6 +109,15 @@
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
           "published_at": "2026-07-10T14:50:40Z"
+        },
+        {
+          "id": "b0d1dbe495c756c7d14840fd3e81d19219c43fe9",
+          "title": "洛杉磯最大的錯誤 / LA's Biggest Mistake",
+          "url": "https://www.youtube.com/watch?v=M0Hv7nxmS2I",
+          "source": "Hoog",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-11T12:52:06Z"
         },
         {
           "id": "aee3406356841da942dabd952abfb68c6fd2575d",
@@ -129,12 +138,13 @@
           "published_at": "2026-07-10T20:30:16Z"
         }
       ],
-      "source_count": 13,
+      "source_count": 14,
       "source_names": [
         "Benjamin Cowen",
         "Best Documentary",
         "Deconstructed",
         "Good Times Bad Times",
+        "Hoog",
         "Knowledgia",
         "Logically Answered",
         "Shepherd Capital Markets",
@@ -144,6 +154,15 @@
       ],
       "items": [
         {
+          "id": "c0b9c6f1a0e3b24c2e02bb1dc847e9e416247cd8",
+          "title": "薩赫勒地區的聖戰：地球上不幸者的反抗 / Jihad in the Sahel: A Revolt of the Wretched of the Earth",
+          "url": "https://www.youtube.com/watch?v=Hwp_9tCWk-s",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-11T12:00:06Z"
+        },
+        {
           "id": "eeeb6edd324f4ada5d0d37f1e5050220a0056b42",
           "title": "海力士首日大涨！Meta完全逆转！谷歌被机构看空？Reddit成稀缺资产？年轻人就不买房？",
           "url": "https://www.youtube.com/watch?v=B5bcAl1u3Uk",
@@ -225,15 +244,6 @@
           "published_at": "2026-07-10T15:14:35Z"
         },
         {
-          "id": "27d70e37ce0fcebdea1a67af182a2a954bdc2b20",
-          "title": "追尋教父：光榮帝國內部 / Chasing the Godfather: Inside the 'Ndrangheta Empire",
-          "url": "https://www.youtube.com/watch?v=NPwYvLilMpk",
-          "source": "Best Documentary",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-10T12:00:14Z"
-        },
-        {
           "id": "bba3675c1047c5643c42cd90ff98d65017c5ce7c",
           "title": "德國夾在中美之間 / Germany Caught Between China and America",
           "url": "https://www.youtube.com/watch?v=_xZKlh8ZBmk",
@@ -241,6 +251,15 @@
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
           "published_at": "2026-07-10T14:50:40Z"
+        },
+        {
+          "id": "b0d1dbe495c756c7d14840fd3e81d19219c43fe9",
+          "title": "洛杉磯最大的錯誤 / LA's Biggest Mistake",
+          "url": "https://www.youtube.com/watch?v=M0Hv7nxmS2I",
+          "source": "Hoog",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-11T12:52:06Z"
         },
         {
           "id": "aee3406356841da942dabd952abfb68c6fd2575d",
@@ -261,28 +280,28 @@
           "published_at": "2026-07-10T20:30:16Z"
         }
       ],
-      "item_count": 13,
-      "duplicate_count": 13,
-      "score": 0.6183,
-      "importance": 0.6183,
-      "importance_score": 0.6183,
+      "item_count": 14,
+      "duplicate_count": 14,
+      "score": 0.7292,
+      "importance": 0.7292,
+      "importance_score": 0.7292,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.5609,
+        "recency": 0.9305,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-10T12:00:14Z",
-      "latest_at": "2026-07-11T00:59:03Z",
+      "earliest_at": "2026-07-10T14:50:40Z",
+      "latest_at": "2026-07-11T12:52:06Z",
       "primary_item": {
-        "id": "eeeb6edd324f4ada5d0d37f1e5050220a0056b42",
-        "title": "海力士首日大涨！Meta完全逆转！谷歌被机构看空？Reddit成稀缺资产？年轻人就不买房？",
-        "url": "https://www.youtube.com/watch?v=B5bcAl1u3Uk",
-        "source": "美投侃新闻",
+        "id": "c0b9c6f1a0e3b24c2e02bb1dc847e9e416247cd8",
+        "title": "薩赫勒地區的聖戰：地球上不幸者的反抗 / Jihad in the Sahel: A Revolt of the Wretched of the Earth",
+        "url": "https://www.youtube.com/watch?v=Hwp_9tCWk-s",
+        "source": "Best Documentary",
         "source_name": "OPML RSS"
       }
     },
@@ -339,13 +358,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3539,
-      "importance": 0.3539,
-      "importance_score": 0.3539,
+      "score": 0.3271,
+      "importance": 0.3271,
+      "importance_score": 0.3271,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.1797,
+        "recency": 0.0902,
         "story_heat": 0.25
       },
       "category": "watch",
