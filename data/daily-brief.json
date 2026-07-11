@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-11T15:00:14.103630Z",
+  "generated_at": "2026-07-11T16:05:33.331319Z",
   "window_hours": 24,
-  "total_items": 2,
+  "total_items": 1,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
@@ -84,49 +84,13 @@
           "published_at": "2026-07-10T18:57:32Z"
         },
         {
-          "id": "3d7b907ac9db623ce3ab35e5d13ba5b8cb531df6",
-          "title": "最強大的古代戰艦實際上是如何運作的 / How the Most Powerful Ancient Warship Actually Worked",
-          "url": "https://www.youtube.com/watch?v=ZLHCdo9VWeg",
-          "source": "Deconstructed",
+          "id": "22dcb31151dd675ce5669f6feafede8430054f11",
+          "title": "緬因州 - 第一印象（波特蘭） / Maine - First Impressions (Portland)",
+          "url": "https://www.youtube.com/watch?v=ujo3vXID7dM",
+          "source": "Peter Santenello",
           "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-10T16:00:29Z"
-        },
-        {
-          "id": "78a79170159e5a53ed4efcc0247072c6dc95c643",
-          "title": "最強大的古代戰艦內部 / Inside the Most Powerful Ancient Warship",
-          "url": "https://www.youtube.com/watch?v=ZLHCdo9VWeg",
-          "source": "Deconstructed",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-10T16:00:29Z"
-        },
-        {
-          "id": "d1e4e0ebced50d1e00883eb142fdff031b053310",
-          "title": "太空探索的時間表|第 2 部分：車站和班車 / Timeline of Space Exploration | Part 2: Stations & Shuttles",
-          "url": "https://www.youtube.com/watch?v=XcH8z7lQPL8",
-          "source": "UsefulCharts",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-10T16:00:22Z"
-        },
-        {
-          "id": "d5a5c1d2af8d82606744c8660f26e086100309ae",
-          "title": "比特幣：可疑的投機 / Bitcoin: Dubious Speculation",
-          "url": "https://www.youtube.com/watch?v=sigSZCnSa6M",
-          "source": "Benjamin Cowen",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-10T15:21:55Z"
-        },
-        {
-          "id": "1dbab937e238589cf63302b7c95c5e923cc7352d",
-          "title": "為什麼美洲沒有穆斯林殖民地？ / Why there were NO Muslim Colonies in the Americas?",
-          "url": "https://www.youtube.com/watch?v=zAnCyuJrVmQ",
-          "source": "Knowledgia",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-10T15:14:35Z"
+          "site_id": "opmlrss",
+          "published_at": "2026-07-11T15:00:05Z"
         },
         {
           "id": "42e308b33788dbde155ef7352eb7d93c9d611691",
@@ -165,17 +129,14 @@
           "published_at": "2026-07-10T20:30:16Z"
         }
       ],
-      "source_count": 17,
+      "source_count": 13,
       "source_names": [
-        "Benjamin Cowen",
         "Best Documentary",
-        "Deconstructed",
         "Hoog",
-        "Knowledgia",
         "Logically Answered",
+        "Peter Santenello",
         "Shepherd Capital Markets",
         "Tim Ferriss",
-        "UsefulCharts",
         "imineo Documentaires",
         "有点艺思哦",
         "美投侃新闻",
@@ -255,49 +216,13 @@
           "published_at": "2026-07-10T18:57:32Z"
         },
         {
-          "id": "3d7b907ac9db623ce3ab35e5d13ba5b8cb531df6",
-          "title": "最強大的古代戰艦實際上是如何運作的 / How the Most Powerful Ancient Warship Actually Worked",
-          "url": "https://www.youtube.com/watch?v=ZLHCdo9VWeg",
-          "source": "Deconstructed",
+          "id": "22dcb31151dd675ce5669f6feafede8430054f11",
+          "title": "緬因州 - 第一印象（波特蘭） / Maine - First Impressions (Portland)",
+          "url": "https://www.youtube.com/watch?v=ujo3vXID7dM",
+          "source": "Peter Santenello",
           "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-10T16:00:29Z"
-        },
-        {
-          "id": "78a79170159e5a53ed4efcc0247072c6dc95c643",
-          "title": "最強大的古代戰艦內部 / Inside the Most Powerful Ancient Warship",
-          "url": "https://www.youtube.com/watch?v=ZLHCdo9VWeg",
-          "source": "Deconstructed",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-10T16:00:29Z"
-        },
-        {
-          "id": "d1e4e0ebced50d1e00883eb142fdff031b053310",
-          "title": "太空探索的時間表|第 2 部分：車站和班車 / Timeline of Space Exploration | Part 2: Stations & Shuttles",
-          "url": "https://www.youtube.com/watch?v=XcH8z7lQPL8",
-          "source": "UsefulCharts",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-10T16:00:22Z"
-        },
-        {
-          "id": "d5a5c1d2af8d82606744c8660f26e086100309ae",
-          "title": "比特幣：可疑的投機 / Bitcoin: Dubious Speculation",
-          "url": "https://www.youtube.com/watch?v=sigSZCnSa6M",
-          "source": "Benjamin Cowen",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-10T15:21:55Z"
-        },
-        {
-          "id": "1dbab937e238589cf63302b7c95c5e923cc7352d",
-          "title": "為什麼美洲沒有穆斯林殖民地？ / Why there were NO Muslim Colonies in the Americas?",
-          "url": "https://www.youtube.com/watch?v=zAnCyuJrVmQ",
-          "source": "Knowledgia",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-10T15:14:35Z"
+          "site_id": "opmlrss",
+          "published_at": "2026-07-11T15:00:05Z"
         },
         {
           "id": "42e308b33788dbde155ef7352eb7d93c9d611691",
@@ -336,104 +261,28 @@
           "published_at": "2026-07-10T20:30:16Z"
         }
       ],
-      "item_count": 17,
-      "duplicate_count": 17,
-      "score": 0.7452,
-      "importance": 0.7452,
-      "importance_score": 0.7452,
+      "item_count": 13,
+      "duplicate_count": 13,
+      "score": 0.7316,
+      "importance": 0.7316,
+      "importance_score": 0.7316,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.984,
+        "recency": 0.9386,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-10T15:14:35Z",
-      "latest_at": "2026-07-11T14:37:08Z",
+      "earliest_at": "2026-07-10T18:57:32Z",
+      "latest_at": "2026-07-11T15:00:05Z",
       "primary_item": {
         "id": "029c0379d2e2f240318ec29f998fb51506bffd78",
         "title": "中式美学精华在书法",
         "url": "https://www.youtube.com/watch?v=f2PmiKtvlv0",
         "source": "有点艺思哦",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_0945361372d8",
-      "title": "SK 海力士在納斯達克上市首日收盤上漲 12.76%，至 168.01 美元，這是外國公司有史以來在美國市場首次亮相的最大金額，籌集了 26.5B 美元（Kif Leswing/CNBC） / SK Hynix closed up 12.76% at $168.01 in its first day of trading on Nasdaq, after raising $26.5B in the largest ever US market debut by a foreign company (Kif Leswing/CNBC)",
-      "url": "https://www.techmeme.com/260710/p18",
-      "primary_url": "https://www.techmeme.com/260710/p18",
-      "source": "Techmeme",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "36403584061e761ea716a212ac905ca5187195a9",
-          "title": "SK 海力士在納斯達克上市首日收盤上漲 12.76%，至 168.01 美元，這是外國公司有史以來在美國市場首次亮相的最大金額，籌集了 26.5B 美元（Kif Leswing/CNBC） / SK Hynix closed up 12.76% at $168.01 in its first day of trading on Nasdaq, after raising $26.5B in the largest ever US market debut by a foreign company (Kif Leswing/CNBC)",
-          "url": "https://www.techmeme.com/260710/p18",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-10T15:50:01Z"
-        },
-        {
-          "id": "1d51e2ed916d20fe42da234cdf6ef316784ba62d",
-          "title": "SK 海力士在外國公司有史以來最大的美國市場首次亮相中籌集了 26.5B 美元後，開盤上漲 14%，報 170 美元（Kif Leswing/CNBC） / SK Hynix opens up 14% at $170 after raising $26.5B in the largest ever US market debut by a foreign company (Kif Leswing/CNBC)",
-          "url": "https://www.techmeme.com/260710/p18",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-10T15:50:01Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Techmeme"
-      ],
-      "items": [
-        {
-          "id": "36403584061e761ea716a212ac905ca5187195a9",
-          "title": "SK 海力士在納斯達克上市首日收盤上漲 12.76%，至 168.01 美元，這是外國公司有史以來在美國市場首次亮相的最大金額，籌集了 26.5B 美元（Kif Leswing/CNBC） / SK Hynix closed up 12.76% at $168.01 in its first day of trading on Nasdaq, after raising $26.5B in the largest ever US market debut by a foreign company (Kif Leswing/CNBC)",
-          "url": "https://www.techmeme.com/260710/p18",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-10T15:50:01Z"
-        },
-        {
-          "id": "1d51e2ed916d20fe42da234cdf6ef316784ba62d",
-          "title": "SK 海力士在外國公司有史以來最大的美國市場首次亮相中籌集了 26.5B 美元後，開盤上漲 14%，報 170 美元（Kif Leswing/CNBC） / SK Hynix opens up 14% at $170 after raising $26.5B in the largest ever US market debut by a foreign company (Kif Leswing/CNBC)",
-          "url": "https://www.techmeme.com/260710/p18",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-10T15:50:01Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.3104,
-      "importance": 0.3104,
-      "importance_score": 0.3104,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.5,
-        "recency": 0.0346,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-10T15:50:01Z",
-      "latest_at": "2026-07-10T15:50:01Z",
-      "primary_item": {
-        "id": "36403584061e761ea716a212ac905ca5187195a9",
-        "title": "SK 海力士在納斯達克上市首日收盤上漲 12.76%，至 168.01 美元，這是外國公司有史以來在美國市場首次亮相的最大金額，籌集了 26.5B 美元（Kif Leswing/CNBC） / SK Hynix closed up 12.76% at $168.01 in its first day of trading on Nasdaq, after raising $26.5B in the largest ever US market debut by a foreign company (Kif Leswing/CNBC)",
-        "url": "https://www.techmeme.com/260710/p18",
-        "source": "Techmeme",
         "source_name": "OPML RSS"
       }
     }
