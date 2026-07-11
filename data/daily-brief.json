@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-11T08:21:05.979797Z",
+  "generated_at": "2026-07-11T10:01:13.965171Z",
   "window_hours": 24,
-  "total_items": 5,
+  "total_items": 4,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
@@ -111,15 +111,6 @@
           "published_at": "2026-07-10T11:30:25Z"
         },
         {
-          "id": "9811ff687343151a3824b64ce088c8c4fb15f1ef",
-          "title": "482 「推广国音」与「收听敌台」：王雨谈20世纪中国的广播技术政治史",
-          "url": "https://www.youtube.com/watch?v=JGszNlCXIzg",
-          "source": "忽左忽右",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-10T09:45:58Z"
-        },
-        {
           "id": "bba3675c1047c5643c42cd90ff98d65017c5ce7c",
           "title": "德國夾在中美之間 / Germany Caught Between China and America",
           "url": "https://www.youtube.com/watch?v=_xZKlh8ZBmk",
@@ -136,31 +127,20 @@
           "source_name": "OPML RSS",
           "site_id": "trending",
           "published_at": "2026-07-10T20:30:16Z"
-        },
-        {
-          "id": "0f9975eb8cae0d03bc1a2255ddbca292ba722149",
-          "title": "IU,李鍾碩宣布分手/大S遺產爭議上熱搜/又一個女團逆行神話/金秀賢法院風向大變/台灣選手王彥程圓夢了/BIGBANG回歸｜DenQ",
-          "url": "https://www.youtube.com/watch?v=Tfretqd73bY",
-          "source": "DenQ來了",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-10T10:00:16Z"
         }
       ],
-      "source_count": 15,
+      "source_count": 13,
       "source_names": [
         "Benjamin Cowen",
         "Best Documentary",
         "Chu's Vegan",
         "Deconstructed",
-        "DenQ來了",
         "Good Times Bad Times",
         "Knowledgia",
         "Logically Answered",
         "Shepherd Capital Markets",
         "Tim Ferriss",
         "UsefulCharts",
-        "忽左忽右",
         "美投侃新闻"
       ],
       "items": [
@@ -264,15 +244,6 @@
           "published_at": "2026-07-10T11:30:25Z"
         },
         {
-          "id": "9811ff687343151a3824b64ce088c8c4fb15f1ef",
-          "title": "482 「推广国音」与「收听敌台」：王雨谈20世纪中国的广播技术政治史",
-          "url": "https://www.youtube.com/watch?v=JGszNlCXIzg",
-          "source": "忽左忽右",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-10T09:45:58Z"
-        },
-        {
           "id": "bba3675c1047c5643c42cd90ff98d65017c5ce7c",
           "title": "德國夾在中美之間 / Germany Caught Between China and America",
           "url": "https://www.youtube.com/watch?v=_xZKlh8ZBmk",
@@ -289,33 +260,24 @@
           "source_name": "OPML RSS",
           "site_id": "trending",
           "published_at": "2026-07-10T20:30:16Z"
-        },
-        {
-          "id": "0f9975eb8cae0d03bc1a2255ddbca292ba722149",
-          "title": "IU,李鍾碩宣布分手/大S遺產爭議上熱搜/又一個女團逆行神話/金秀賢法院風向大變/台灣選手王彥程圓夢了/BIGBANG回歸｜DenQ",
-          "url": "https://www.youtube.com/watch?v=Tfretqd73bY",
-          "source": "DenQ來了",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-10T10:00:16Z"
         }
       ],
-      "item_count": 15,
-      "duplicate_count": 15,
-      "score": 0.6579,
-      "importance": 0.6579,
-      "importance_score": 0.6579,
+      "item_count": 13,
+      "duplicate_count": 13,
+      "score": 0.637,
+      "importance": 0.637,
+      "importance_score": 0.637,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.693,
+        "recency": 0.6235,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-10T09:45:58Z",
+      "earliest_at": "2026-07-10T11:30:25Z",
       "latest_at": "2026-07-11T00:59:03Z",
       "primary_item": {
         "id": "eeeb6edd324f4ada5d0d37f1e5050220a0056b42",
@@ -378,13 +340,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3935,
-      "importance": 0.3935,
-      "importance_score": 0.3935,
+      "score": 0.3727,
+      "importance": 0.3727,
+      "importance_score": 0.3727,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.3117,
+        "recency": 0.2422,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -398,82 +360,6 @@
         "title": "SK 海力士在納斯達克上市首日收盤上漲 12.76%，至 168.01 美元，這是外國公司有史以來在美國市場首次亮相的最大金額，籌集了 26.5B 美元（Kif Leswing/CNBC） / SK Hynix closed up 12.76% at $168.01 in its first day of trading on Nasdaq, after raising $26.5B in the largest ever US market debut by a foreign company (Kif Leswing/CNBC)",
         "url": "https://www.techmeme.com/260710/p18",
         "source": "Techmeme",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_ea463cfc34cf",
-      "title": "獲得兩個學位看起來很多 / Making two degrees looks like a lot",
-      "url": "https://flowingdata.com/2026/07/10/two-degrees-looks-like-a-lot",
-      "primary_url": "https://flowingdata.com/2026/07/10/two-degrees-looks-like-a-lot",
-      "source": "FlowingData",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "45cc629120e8e055ed7a6ff38c2712145011bf07",
-          "title": "獲得兩個學位看起來很多 / Making two degrees looks like a lot",
-          "url": "https://flowingdata.com/2026/07/10/two-degrees-looks-like-a-lot",
-          "source": "FlowingData",
-          "source_name": "OPML RSS",
-          "site_id": "design",
-          "published_at": "2026-07-10T09:38:56Z"
-        },
-        {
-          "id": "a0c01c0725316c65716a25cc3b2aad054e0d1c38",
-          "title": "兩度看起來很多 / Two degrees looks like a lot",
-          "url": "https://flowingdata.com/2026/07/10/two-degrees-looks-like-a-lot",
-          "source": "FlowingData",
-          "source_name": "OPML RSS",
-          "site_id": "design",
-          "published_at": "2026-07-10T09:38:56Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "FlowingData"
-      ],
-      "items": [
-        {
-          "id": "45cc629120e8e055ed7a6ff38c2712145011bf07",
-          "title": "獲得兩個學位看起來很多 / Making two degrees looks like a lot",
-          "url": "https://flowingdata.com/2026/07/10/two-degrees-looks-like-a-lot",
-          "source": "FlowingData",
-          "source_name": "OPML RSS",
-          "site_id": "design",
-          "published_at": "2026-07-10T09:38:56Z"
-        },
-        {
-          "id": "a0c01c0725316c65716a25cc3b2aad054e0d1c38",
-          "title": "兩度看起來很多 / Two degrees looks like a lot",
-          "url": "https://flowingdata.com/2026/07/10/two-degrees-looks-like-a-lot",
-          "source": "FlowingData",
-          "source_name": "OPML RSS",
-          "site_id": "design",
-          "published_at": "2026-07-10T09:38:56Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.3162,
-      "importance": 0.3162,
-      "importance_score": 0.3162,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.5,
-        "recency": 0.0541,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-10T09:38:56Z",
-      "latest_at": "2026-07-10T09:38:56Z",
-      "primary_item": {
-        "id": "45cc629120e8e055ed7a6ff38c2712145011bf07",
-        "title": "獲得兩個學位看起來很多 / Making two degrees looks like a lot",
-        "url": "https://flowingdata.com/2026/07/10/two-degrees-looks-like-a-lot",
-        "source": "FlowingData",
         "source_name": "OPML RSS"
       }
     },
@@ -530,13 +416,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3248,
-      "importance": 0.3248,
-      "importance_score": 0.3248,
+      "score": 0.3039,
+      "importance": 0.3039,
+      "importance_score": 0.3039,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.0826,
+        "recency": 0.013,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -606,13 +492,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.2082,
-      "importance": 0.2082,
-      "importance_score": 0.2082,
+      "score": 0.1873,
+      "importance": 0.1873,
+      "importance_score": 0.1873,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.1106,
+        "recency": 0.0411,
         "story_heat": 0.25
       },
       "category": "watch",
