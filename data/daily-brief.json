@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-07-10T22:33:40.984338Z",
+  "generated_at": "2026-07-11T00:03:46.681951Z",
   "window_hours": 24,
   "total_items": 5,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "Moochie & Jill Halliburton 案：邁阿密豪宅到底發生了什麼事？ / Moochie & Jill Halliburton Case: What Really Happened in the Miami Mansion?",
-      "url": "https://www.youtube.com/watch?v=jjbQ4OZ3wws",
-      "primary_url": "https://www.youtube.com/watch?v=jjbQ4OZ3wws",
-      "source": "Best Documentary",
+      "title": "美股全力冲向新高？META大涨6%，NVDA大涨4%的背后逻辑",
+      "url": "https://www.youtube.com/watch?v=E8h0lm-OWrA",
+      "primary_url": "https://www.youtube.com/watch?v=E8h0lm-OWrA",
+      "source": "Shepherd Capital Markets",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "350414fa87fd9ac025cde588e8a77468db056490",
+          "title": "美股全力冲向新高？META大涨6%，NVDA大涨4%的背后逻辑",
+          "url": "https://www.youtube.com/watch?v=E8h0lm-OWrA",
+          "source": "Shepherd Capital Markets",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-10T22:35:36Z"
+        },
         {
           "id": "38c8f968741cbcd75caeecbe6316131832e75f1a",
           "title": "Moochie & Jill Halliburton 案：邁阿密豪宅到底發生了什麼事？ / Moochie & Jill Halliburton Case: What Really Happened in the Miami Mansion?",
@@ -102,24 +111,6 @@
           "published_at": "2026-07-10T09:45:58Z"
         },
         {
-          "id": "a99b849462897da12762d947fb592ddeeee3f303",
-          "title": "Meta缺不缺算力？英伟达被错杀了？星巴克重创微软？手机能装大模型！",
-          "url": "https://www.youtube.com/watch?v=83b7hC_WuUM",
-          "source": "美投侃新闻",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-09T23:43:39Z"
-        },
-        {
-          "id": "f85c5ba2b44fb920eed09c9d7d4e09b93b2a838f",
-          "title": "美股市场当前两条最重要的线 - 成长 Vs 通胀",
-          "url": "https://www.youtube.com/watch?v=7Z6yO0j7s6Q",
-          "source": "Shepherd Capital Markets",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-09T22:40:15Z"
-        },
-        {
           "id": "bba3675c1047c5643c42cd90ff98d65017c5ce7c",
           "title": "德國夾在中美之間 / Germany Caught Between China and America",
           "url": "https://www.youtube.com/watch?v=_xZKlh8ZBmk",
@@ -156,7 +147,7 @@
           "published_at": "2026-07-10T03:15:30Z"
         }
       ],
-      "source_count": 16,
+      "source_count": 15,
       "source_names": [
         "Benjamin Cowen",
         "Best Documentary",
@@ -170,10 +161,18 @@
         "Shepherd Capital Markets",
         "Tim Ferriss",
         "UsefulCharts",
-        "忽左忽右",
-        "美投侃新闻"
+        "忽左忽右"
       ],
       "items": [
+        {
+          "id": "350414fa87fd9ac025cde588e8a77468db056490",
+          "title": "美股全力冲向新高？META大涨6%，NVDA大涨4%的背后逻辑",
+          "url": "https://www.youtube.com/watch?v=E8h0lm-OWrA",
+          "source": "Shepherd Capital Markets",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-10T22:35:36Z"
+        },
         {
           "id": "38c8f968741cbcd75caeecbe6316131832e75f1a",
           "title": "Moochie & Jill Halliburton 案：邁阿密豪宅到底發生了什麼事？ / Moochie & Jill Halliburton Case: What Really Happened in the Miami Mansion?",
@@ -265,24 +264,6 @@
           "published_at": "2026-07-10T09:45:58Z"
         },
         {
-          "id": "a99b849462897da12762d947fb592ddeeee3f303",
-          "title": "Meta缺不缺算力？英伟达被错杀了？星巴克重创微软？手机能装大模型！",
-          "url": "https://www.youtube.com/watch?v=83b7hC_WuUM",
-          "source": "美投侃新闻",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-09T23:43:39Z"
-        },
-        {
-          "id": "f85c5ba2b44fb920eed09c9d7d4e09b93b2a838f",
-          "title": "美股市场当前两条最重要的线 - 成长 Vs 通胀",
-          "url": "https://www.youtube.com/watch?v=7Z6yO0j7s6Q",
-          "source": "Shepherd Capital Markets",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-09T22:40:15Z"
-        },
-        {
           "id": "bba3675c1047c5643c42cd90ff98d65017c5ce7c",
           "title": "德國夾在中美之間 / Germany Caught Between China and America",
           "url": "https://www.youtube.com/watch?v=_xZKlh8ZBmk",
@@ -319,28 +300,28 @@
           "published_at": "2026-07-10T03:15:30Z"
         }
       ],
-      "item_count": 16,
-      "duplicate_count": 16,
-      "score": 0.7305,
-      "importance": 0.7305,
-      "importance_score": 0.7305,
+      "item_count": 15,
+      "duplicate_count": 15,
+      "score": 0.7316,
+      "importance": 0.7316,
+      "importance_score": 0.7316,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.935,
+        "recency": 0.9388,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-09T22:40:15Z",
-      "latest_at": "2026-07-10T21:00:02Z",
+      "earliest_at": "2026-07-10T03:15:30Z",
+      "latest_at": "2026-07-10T22:35:36Z",
       "primary_item": {
-        "id": "38c8f968741cbcd75caeecbe6316131832e75f1a",
-        "title": "Moochie & Jill Halliburton 案：邁阿密豪宅到底發生了什麼事？ / Moochie & Jill Halliburton Case: What Really Happened in the Miami Mansion?",
-        "url": "https://www.youtube.com/watch?v=jjbQ4OZ3wws",
-        "source": "Best Documentary",
+        "id": "350414fa87fd9ac025cde588e8a77468db056490",
+        "title": "美股全力冲向新高？META大涨6%，NVDA大涨4%的背后逻辑",
+        "url": "https://www.youtube.com/watch?v=E8h0lm-OWrA",
+        "source": "Shepherd Capital Markets",
         "source_name": "OPML RSS"
       }
     },
@@ -397,13 +378,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5159,
-      "importance": 0.5159,
-      "importance_score": 0.5159,
+      "score": 0.4971,
+      "importance": 0.4971,
+      "importance_score": 0.4971,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7197,
+        "recency": 0.6571,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -473,13 +454,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4386,
-      "importance": 0.4386,
-      "importance_score": 0.4386,
+      "score": 0.4198,
+      "importance": 0.4198,
+      "importance_score": 0.4198,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.462,
+        "recency": 0.3994,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -549,13 +530,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4472,
-      "importance": 0.4472,
-      "importance_score": 0.4472,
+      "score": 0.4284,
+      "importance": 0.4284,
+      "importance_score": 0.4284,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.4905,
+        "recency": 0.4279,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -625,13 +606,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3306,
-      "importance": 0.3306,
-      "importance_score": 0.3306,
+      "score": 0.3118,
+      "importance": 0.3118,
+      "importance_score": 0.3118,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.5185,
+        "recency": 0.456,
         "story_heat": 0.25
       },
       "category": "watch",
