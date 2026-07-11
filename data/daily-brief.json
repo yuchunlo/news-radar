@@ -1,16 +1,34 @@
 {
-  "generated_at": "2026-07-11T20:24:18.275972Z",
+  "generated_at": "2026-07-11T21:23:52.433915Z",
   "window_hours": 24,
   "total_items": 1,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "中式美学精华在书法",
-      "url": "https://www.youtube.com/watch?v=f2PmiKtvlv0",
-      "primary_url": "https://www.youtube.com/watch?v=f2PmiKtvlv0",
-      "source": "有点艺思哦",
+      "title": "布萊尼姆宮和溫莎城堡內部：英國保存最完好的宮殿 / Inside Blenheim Palace & Windsor Castle: Britain's Best Preserved Palaces",
+      "url": "https://www.youtube.com/watch?v=jylac0_Arr4",
+      "primary_url": "https://www.youtube.com/watch?v=jylac0_Arr4",
+      "source": "Timeline - World History Documentaries",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "200887a38a1e5627fb6cc6695abb7da6c3fa8dc8",
+          "title": "布萊尼姆宮和溫莎城堡內部：英國保存最完好的宮殿 / Inside Blenheim Palace & Windsor Castle: Britain's Best Preserved Palaces",
+          "url": "https://www.youtube.com/watch?v=jylac0_Arr4",
+          "source": "Timeline - World History Documentaries",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-11T21:00:39Z"
+        },
+        {
+          "id": "09a1e16875d6abee5259775a568e2f546751d026",
+          "title": "當你失踪時會發生什麼？ |法醫檔案 / What Happens When You Go Missing? | Forensic Files",
+          "url": "https://www.youtube.com/watch?v=lM0QWQyeVY8",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-11T21:00:20Z"
+        },
         {
           "id": "029c0379d2e2f240318ec29f998fb51506bffd78",
           "title": "中式美学精华在书法",
@@ -66,15 +84,6 @@
           "published_at": "2026-07-10T22:35:36Z"
         },
         {
-          "id": "38c8f968741cbcd75caeecbe6316131832e75f1a",
-          "title": "Moochie & Jill Halliburton 案：邁阿密豪宅到底發生了什麼事？ / Moochie & Jill Halliburton Case: What Really Happened in the Miami Mansion?",
-          "url": "https://www.youtube.com/watch?v=jjbQ4OZ3wws",
-          "source": "Best Documentary",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-10T21:00:02Z"
-        },
-        {
           "id": "22dcb31151dd675ce5669f6feafede8430054f11",
           "title": "緬因州 - 第一印象（波特蘭） / Maine - First Impressions (Portland)",
           "url": "https://www.youtube.com/watch?v=ujo3vXID7dM",
@@ -100,34 +109,16 @@
           "source_name": "OPML RSS",
           "site_id": "trending",
           "published_at": "2026-07-11T12:52:06Z"
-        },
-        {
-          "id": "aee3406356841da942dabd952abfb68c6fd2575d",
-          "title": "針對 Steam 的隱藏戰爭 / The Hidden War Against Steam",
-          "url": "https://www.youtube.com/watch?v=YvmE2IhrrNI",
-          "source": "Logically Answered",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-10T20:30:16Z"
-        },
-        {
-          "id": "269e50d9cc8979db3caf34725b605179c65d6da9",
-          "title": "遊戲界被起訴最多的人 / The Most Sued Man In Gaming",
-          "url": "https://www.youtube.com/watch?v=YvmE2IhrrNI",
-          "source": "Logically Answered",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-10T20:30:16Z"
         }
       ],
-      "source_count": 12,
+      "source_count": 11,
       "source_names": [
         "Best Documentary",
         "Hoog",
-        "Logically Answered",
         "Peter Santenello",
         "Shepherd Capital Markets",
         "Tim Ferriss",
+        "Timeline - World History Documentaries",
         "imineo Documentaires",
         "有点艺思哦",
         "美投侃新闻",
@@ -135,6 +126,24 @@
       ],
       "items": [
         {
+          "id": "200887a38a1e5627fb6cc6695abb7da6c3fa8dc8",
+          "title": "布萊尼姆宮和溫莎城堡內部：英國保存最完好的宮殿 / Inside Blenheim Palace & Windsor Castle: Britain's Best Preserved Palaces",
+          "url": "https://www.youtube.com/watch?v=jylac0_Arr4",
+          "source": "Timeline - World History Documentaries",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-11T21:00:39Z"
+        },
+        {
+          "id": "09a1e16875d6abee5259775a568e2f546751d026",
+          "title": "當你失踪時會發生什麼？ |法醫檔案 / What Happens When You Go Missing? | Forensic Files",
+          "url": "https://www.youtube.com/watch?v=lM0QWQyeVY8",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-11T21:00:20Z"
+        },
+        {
           "id": "029c0379d2e2f240318ec29f998fb51506bffd78",
           "title": "中式美学精华在书法",
           "url": "https://www.youtube.com/watch?v=f2PmiKtvlv0",
@@ -189,15 +198,6 @@
           "published_at": "2026-07-10T22:35:36Z"
         },
         {
-          "id": "38c8f968741cbcd75caeecbe6316131832e75f1a",
-          "title": "Moochie & Jill Halliburton 案：邁阿密豪宅到底發生了什麼事？ / Moochie & Jill Halliburton Case: What Really Happened in the Miami Mansion?",
-          "url": "https://www.youtube.com/watch?v=jjbQ4OZ3wws",
-          "source": "Best Documentary",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-10T21:00:02Z"
-        },
-        {
           "id": "22dcb31151dd675ce5669f6feafede8430054f11",
           "title": "緬因州 - 第一印象（波特蘭） / Maine - First Impressions (Portland)",
           "url": "https://www.youtube.com/watch?v=ujo3vXID7dM",
@@ -223,48 +223,30 @@
           "source_name": "OPML RSS",
           "site_id": "trending",
           "published_at": "2026-07-11T12:52:06Z"
-        },
-        {
-          "id": "aee3406356841da942dabd952abfb68c6fd2575d",
-          "title": "針對 Steam 的隱藏戰爭 / The Hidden War Against Steam",
-          "url": "https://www.youtube.com/watch?v=YvmE2IhrrNI",
-          "source": "Logically Answered",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-10T20:30:16Z"
-        },
-        {
-          "id": "269e50d9cc8979db3caf34725b605179c65d6da9",
-          "title": "遊戲界被起訴最多的人 / The Most Sued Man In Gaming",
-          "url": "https://www.youtube.com/watch?v=YvmE2IhrrNI",
-          "source": "Logically Answered",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-10T20:30:16Z"
         }
       ],
-      "item_count": 12,
-      "duplicate_count": 12,
-      "score": 0.6777,
-      "importance": 0.6777,
-      "importance_score": 0.6777,
+      "item_count": 11,
+      "duplicate_count": 11,
+      "score": 0.7452,
+      "importance": 0.7452,
+      "importance_score": 0.7452,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7589,
+        "recency": 0.9839,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-10T20:30:16Z",
-      "latest_at": "2026-07-11T15:00:05Z",
+      "earliest_at": "2026-07-10T22:35:36Z",
+      "latest_at": "2026-07-11T21:00:39Z",
       "primary_item": {
-        "id": "029c0379d2e2f240318ec29f998fb51506bffd78",
-        "title": "中式美学精华在书法",
-        "url": "https://www.youtube.com/watch?v=f2PmiKtvlv0",
-        "source": "有点艺思哦",
+        "id": "200887a38a1e5627fb6cc6695abb7da6c3fa8dc8",
+        "title": "布萊尼姆宮和溫莎城堡內部：英國保存最完好的宮殿 / Inside Blenheim Palace & Windsor Castle: Britain's Best Preserved Palaces",
+        "url": "https://www.youtube.com/watch?v=jylac0_Arr4",
+        "source": "Timeline - World History Documentaries",
         "source_name": "OPML RSS"
       }
     }
