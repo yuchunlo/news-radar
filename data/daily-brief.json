@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-07-12T15:35:21.372882Z",
+  "generated_at": "2026-07-12T17:05:46.464034Z",
   "window_hours": 24,
   "total_items": 1,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "人工智慧創辦人認為他們正在創造上帝嗎？ / Do AI Founders Think They're Building God?",
-      "url": "https://www.youtube.com/watch?v=eRO1w9TS2t4",
-      "primary_url": "https://www.youtube.com/watch?v=eRO1w9TS2t4",
-      "source": "Tim Ferriss",
+      "title": "加拿大被遺忘的二戰戰爭藝術家 - 畫作背後的故事 / Canada's Forgotten WWII War Artists - Stories Behind the Paintings",
+      "url": "https://www.youtube.com/watch?v=QqaqWXB2ITE",
+      "primary_url": "https://www.youtube.com/watch?v=QqaqWXB2ITE",
+      "source": "Perspective",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "dea82296bdd63e8e06700d129958d9342a832dbb",
+          "title": "加拿大被遺忘的二戰戰爭藝術家 - 畫作背後的故事 / Canada's Forgotten WWII War Artists - Stories Behind the Paintings",
+          "url": "https://www.youtube.com/watch?v=QqaqWXB2ITE",
+          "source": "Perspective",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-12T16:00:01Z"
+        },
         {
           "id": "231854fd74e8f2f41b83c114308b50f51d2f0a67",
           "title": "人工智慧創辦人認為他們正在創造上帝嗎？ / Do AI Founders Think They're Building God?",
@@ -129,7 +138,7 @@
           "published_at": "2026-07-12T10:08:03Z"
         }
       ],
-      "source_count": 13,
+      "source_count": 14,
       "source_names": [
         "Best Documentary",
         "Marcello Ascani",
@@ -145,6 +154,15 @@
       ],
       "items": [
         {
+          "id": "dea82296bdd63e8e06700d129958d9342a832dbb",
+          "title": "加拿大被遺忘的二戰戰爭藝術家 - 畫作背後的故事 / Canada's Forgotten WWII War Artists - Stories Behind the Paintings",
+          "url": "https://www.youtube.com/watch?v=QqaqWXB2ITE",
+          "source": "Perspective",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-12T16:00:01Z"
+        },
+        {
           "id": "231854fd74e8f2f41b83c114308b50f51d2f0a67",
           "title": "人工智慧創辦人認為他們正在創造上帝嗎？ / Do AI Founders Think They're Building God?",
           "url": "https://www.youtube.com/watch?v=eRO1w9TS2t4",
@@ -262,15 +280,15 @@
           "published_at": "2026-07-12T10:08:03Z"
         }
       ],
-      "item_count": 13,
-      "duplicate_count": 13,
-      "score": 0.7302,
-      "importance": 0.7302,
-      "importance_score": 0.7302,
+      "item_count": 14,
+      "duplicate_count": 14,
+      "score": 0.7363,
+      "importance": 0.7363,
+      "importance_score": 0.7363,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9339,
+        "recency": 0.9543,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -278,12 +296,12 @@
         "multi_source"
       ],
       "earliest_at": "2026-07-11T21:00:20Z",
-      "latest_at": "2026-07-12T14:00:08Z",
+      "latest_at": "2026-07-12T16:00:01Z",
       "primary_item": {
-        "id": "231854fd74e8f2f41b83c114308b50f51d2f0a67",
-        "title": "人工智慧創辦人認為他們正在創造上帝嗎？ / Do AI Founders Think They're Building God?",
-        "url": "https://www.youtube.com/watch?v=eRO1w9TS2t4",
-        "source": "Tim Ferriss",
+        "id": "dea82296bdd63e8e06700d129958d9342a832dbb",
+        "title": "加拿大被遺忘的二戰戰爭藝術家 - 畫作背後的故事 / Canada's Forgotten WWII War Artists - Stories Behind the Paintings",
+        "url": "https://www.youtube.com/watch?v=QqaqWXB2ITE",
+        "source": "Perspective",
         "source_name": "OPML RSS"
       }
     }
