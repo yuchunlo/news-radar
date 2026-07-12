@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T17:05:46.464034Z",
+  "generated_at": "2026-07-12T18:29:20.295495Z",
   "window_hours": 24,
   "total_items": 1,
   "items": [
@@ -129,8 +129,8 @@
           "published_at": "2026-07-12T10:08:03Z"
         },
         {
-          "id": "138e905c8eb67a84f45170c44a61af604297bd3a",
-          "title": "▲極致輕量化！11公斤單車露營全攻略！恆春半島多日單車露營裝備清單｜Bikepacking打包技巧 #環島 #法蘭克黃",
+          "id": "1cf787957940ba8dc06aa329f13cb6824bb70efc",
+          "title": "▲極致輕量化！11公斤單車露營全攻略！多日單車露營裝備清單｜Bikepacking打包技巧 #環島 #法蘭克黃",
           "url": "https://www.youtube.com/watch?v=OZ4Jcs_mMxg",
           "source": "法蘭克黃",
           "source_name": "OPML RSS",
@@ -271,8 +271,8 @@
           "published_at": "2026-07-12T10:08:03Z"
         },
         {
-          "id": "138e905c8eb67a84f45170c44a61af604297bd3a",
-          "title": "▲極致輕量化！11公斤單車露營全攻略！恆春半島多日單車露營裝備清單｜Bikepacking打包技巧 #環島 #法蘭克黃",
+          "id": "1cf787957940ba8dc06aa329f13cb6824bb70efc",
+          "title": "▲極致輕量化！11公斤單車露營全攻略！多日單車露營裝備清單｜Bikepacking打包技巧 #環島 #法蘭克黃",
           "url": "https://www.youtube.com/watch?v=OZ4Jcs_mMxg",
           "source": "法蘭克黃",
           "source_name": "OPML RSS",
@@ -282,13 +282,13 @@
       ],
       "item_count": 14,
       "duplicate_count": 14,
-      "score": 0.7363,
-      "importance": 0.7363,
-      "importance_score": 0.7363,
+      "score": 0.7189,
+      "importance": 0.7189,
+      "importance_score": 0.7189,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9543,
+        "recency": 0.8963,
         "story_heat": 1.0
       },
       "category": "multi_source",
