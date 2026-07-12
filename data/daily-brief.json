@@ -1,16 +1,43 @@
 {
-  "generated_at": "2026-07-12T11:18:01.171887Z",
+  "generated_at": "2026-07-12T12:28:55.200215Z",
   "window_hours": 24,
   "total_items": 1,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "布萊尼姆宮和溫莎城堡內部：英國保存最完好的宮殿 / Inside Blenheim Palace & Windsor Castle: Britain's Best Preserved Palaces",
-      "url": "https://www.youtube.com/watch?v=jylac0_Arr4",
-      "primary_url": "https://www.youtube.com/watch?v=jylac0_Arr4",
-      "source": "Timeline - World History Documentaries",
+      "title": "英國皇宮的秘密－隱藏的塗鴉、女巫痕跡和逝去的生命 / Secrets of Britain's Royal Palaces - Hidden Graffiti, Witch Marks and Lost Lives",
+      "url": "https://www.youtube.com/watch?v=HZJyTnQgQwI",
+      "primary_url": "https://www.youtube.com/watch?v=HZJyTnQgQwI",
+      "source": "Perspective",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "8cc44002f797641be5b4bd52bfd76a438369da40",
+          "title": "英國皇宮的秘密－隱藏的塗鴉、女巫痕跡和逝去的生命 / Secrets of Britain's Royal Palaces - Hidden Graffiti, Witch Marks and Lost Lives",
+          "url": "https://www.youtube.com/watch?v=HZJyTnQgQwI",
+          "source": "Perspective",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-12T12:00:33Z"
+        },
+        {
+          "id": "f55ef202b8963aab9cc7b31c02b8e3f13b7dddad",
+          "title": "教父 vs 總統 | 教父 vs 總統黑手黨領主 / The Godfather vs. the President | Lords of the Mafia",
+          "url": "https://www.youtube.com/watch?v=FUM0q8XTb8s",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-12T12:00:29Z"
+        },
+        {
+          "id": "8232da83f7117089afcbc9c2ecbe6d1a8fbead68",
+          "title": "連續押中 Facebook、Uber 成功出場，與矽谷大神聊聊選公司的眼光、創業與 AI feat. Jarsy 創辦人秦漢 | S2E64",
+          "url": "https://www.youtube.com/watch?v=a_kF19Vgv_g",
+          "source": "矽谷輕鬆談 Just Kidding Tech",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-12T12:00:03Z"
+        },
         {
           "id": "200887a38a1e5627fb6cc6695abb7da6c3fa8dc8",
           "title": "布萊尼姆宮和溫莎城堡內部：英國保存最完好的宮殿 / Inside Blenheim Palace & Windsor Castle: Britain's Best Preserved Palaces",
@@ -55,15 +82,6 @@
           "source_name": "OPML RSS",
           "site_id": "culture",
           "published_at": "2026-07-11T13:30:08Z"
-        },
-        {
-          "id": "c0b9c6f1a0e3b24c2e02bb1dc847e9e416247cd8",
-          "title": "薩赫勒地區的聖戰：地球上不幸者的反抗 / Jihad in the Sahel: A Revolt of the Wretched of the Earth",
-          "url": "https://www.youtube.com/watch?v=Hwp_9tCWk-s",
-          "source": "Best Documentary",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-11T12:00:06Z"
         },
         {
           "id": "d94b17dca4b534f40b1d064e4913fe48cb10a5c1",
@@ -129,11 +147,12 @@
           "published_at": "2026-07-11T12:52:06Z"
         }
       ],
-      "source_count": 13,
+      "source_count": 15,
       "source_names": [
         "Best Documentary",
         "Hoog",
         "Marcello Ascani",
+        "Perspective",
         "Peter Santenello",
         "Tim Ferriss",
         "Timeline - World History Documentaries",
@@ -141,10 +160,38 @@
         "山上加美Lovely Hill",
         "有点艺思哦",
         "法蘭克黃",
+        "矽谷輕鬆談 Just Kidding Tech",
         "胖貓堂主",
         "融融歷險記Ben's Adventure"
       ],
       "items": [
+        {
+          "id": "8cc44002f797641be5b4bd52bfd76a438369da40",
+          "title": "英國皇宮的秘密－隱藏的塗鴉、女巫痕跡和逝去的生命 / Secrets of Britain's Royal Palaces - Hidden Graffiti, Witch Marks and Lost Lives",
+          "url": "https://www.youtube.com/watch?v=HZJyTnQgQwI",
+          "source": "Perspective",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-12T12:00:33Z"
+        },
+        {
+          "id": "f55ef202b8963aab9cc7b31c02b8e3f13b7dddad",
+          "title": "教父 vs 總統 | 教父 vs 總統黑手黨領主 / The Godfather vs. the President | Lords of the Mafia",
+          "url": "https://www.youtube.com/watch?v=FUM0q8XTb8s",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-12T12:00:29Z"
+        },
+        {
+          "id": "8232da83f7117089afcbc9c2ecbe6d1a8fbead68",
+          "title": "連續押中 Facebook、Uber 成功出場，與矽谷大神聊聊選公司的眼光、創業與 AI feat. Jarsy 創辦人秦漢 | S2E64",
+          "url": "https://www.youtube.com/watch?v=a_kF19Vgv_g",
+          "source": "矽谷輕鬆談 Just Kidding Tech",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-12T12:00:03Z"
+        },
         {
           "id": "200887a38a1e5627fb6cc6695abb7da6c3fa8dc8",
           "title": "布萊尼姆宮和溫莎城堡內部：英國保存最完好的宮殿 / Inside Blenheim Palace & Windsor Castle: Britain's Best Preserved Palaces",
@@ -189,15 +236,6 @@
           "source_name": "OPML RSS",
           "site_id": "culture",
           "published_at": "2026-07-11T13:30:08Z"
-        },
-        {
-          "id": "c0b9c6f1a0e3b24c2e02bb1dc847e9e416247cd8",
-          "title": "薩赫勒地區的聖戰：地球上不幸者的反抗 / Jihad in the Sahel: A Revolt of the Wretched of the Earth",
-          "url": "https://www.youtube.com/watch?v=Hwp_9tCWk-s",
-          "source": "Best Documentary",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-11T12:00:06Z"
         },
         {
           "id": "d94b17dca4b534f40b1d064e4913fe48cb10a5c1",
@@ -263,28 +301,28 @@
           "published_at": "2026-07-11T12:52:06Z"
         }
       ],
-      "item_count": 13,
-      "duplicate_count": 13,
-      "score": 0.5714,
-      "importance": 0.5714,
-      "importance_score": 0.5714,
+      "item_count": 15,
+      "duplicate_count": 15,
+      "score": 0.7441,
+      "importance": 0.7441,
+      "importance_score": 0.7441,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.4046,
+        "recency": 0.9803,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-11T12:00:06Z",
-      "latest_at": "2026-07-12T11:00:36Z",
+      "earliest_at": "2026-07-11T12:52:06Z",
+      "latest_at": "2026-07-12T12:00:33Z",
       "primary_item": {
-        "id": "200887a38a1e5627fb6cc6695abb7da6c3fa8dc8",
-        "title": "布萊尼姆宮和溫莎城堡內部：英國保存最完好的宮殿 / Inside Blenheim Palace & Windsor Castle: Britain's Best Preserved Palaces",
-        "url": "https://www.youtube.com/watch?v=jylac0_Arr4",
-        "source": "Timeline - World History Documentaries",
+        "id": "8cc44002f797641be5b4bd52bfd76a438369da40",
+        "title": "英國皇宮的秘密－隱藏的塗鴉、女巫痕跡和逝去的生命 / Secrets of Britain's Royal Palaces - Hidden Graffiti, Witch Marks and Lost Lives",
+        "url": "https://www.youtube.com/watch?v=HZJyTnQgQwI",
+        "source": "Perspective",
         "source_name": "OPML RSS"
       }
     }
