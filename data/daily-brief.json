@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T04:56:09.763149Z",
+  "generated_at": "2026-07-12T07:33:03.598281Z",
   "window_hours": 24,
   "total_items": 1,
   "items": [
@@ -66,6 +66,24 @@
           "published_at": "2026-07-11T12:00:06Z"
         },
         {
+          "id": "d94b17dca4b534f40b1d064e4913fe48cb10a5c1",
+          "title": "老崎古道健行5km，頭份後花園、楓香林、扶桑花步道、181.9高地賞無敵山景｜山上加美Lovely Hill",
+          "url": "https://www.youtube.com/watch?v=0mYZRe7XpNQ",
+          "source": "山上加美Lovely Hill",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-12T05:51:51Z"
+        },
+        {
+          "id": "bfdf19b0d6a4f5c7329ec0cf15494eb7bfc9ebf0",
+          "title": "三条人命、14年争产：台湾百亿豪门为何走到兄弟相残？",
+          "url": "https://www.youtube.com/watch?v=eoQUO2YoHEQ",
+          "source": "胖貓堂主",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-12T05:00:36Z"
+        },
+        {
           "id": "22dcb31151dd675ce5669f6feafede8430054f11",
           "title": "緬因州 - 第一印象（波特蘭） / Maine - First Impressions (Portland)",
           "url": "https://www.youtube.com/watch?v=ujo3vXID7dM",
@@ -93,7 +111,7 @@
           "published_at": "2026-07-11T12:52:06Z"
         }
       ],
-      "source_count": 9,
+      "source_count": 11,
       "source_names": [
         "Best Documentary",
         "Hoog",
@@ -101,7 +119,9 @@
         "Tim Ferriss",
         "Timeline - World History Documentaries",
         "imineo Documentaires",
+        "山上加美Lovely Hill",
         "有点艺思哦",
+        "胖貓堂主",
         "融融歷險記Ben's Adventure"
       ],
       "items": [
@@ -160,6 +180,24 @@
           "published_at": "2026-07-11T12:00:06Z"
         },
         {
+          "id": "d94b17dca4b534f40b1d064e4913fe48cb10a5c1",
+          "title": "老崎古道健行5km，頭份後花園、楓香林、扶桑花步道、181.9高地賞無敵山景｜山上加美Lovely Hill",
+          "url": "https://www.youtube.com/watch?v=0mYZRe7XpNQ",
+          "source": "山上加美Lovely Hill",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-12T05:51:51Z"
+        },
+        {
+          "id": "bfdf19b0d6a4f5c7329ec0cf15494eb7bfc9ebf0",
+          "title": "三条人命、14年争产：台湾百亿豪门为何走到兄弟相残？",
+          "url": "https://www.youtube.com/watch?v=eoQUO2YoHEQ",
+          "source": "胖貓堂主",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-12T05:00:36Z"
+        },
+        {
           "id": "22dcb31151dd675ce5669f6feafede8430054f11",
           "title": "緬因州 - 第一印象（波特蘭） / Maine - First Impressions (Portland)",
           "url": "https://www.youtube.com/watch?v=ujo3vXID7dM",
@@ -187,15 +225,15 @@
           "published_at": "2026-07-11T12:52:06Z"
         }
       ],
-      "item_count": 9,
-      "duplicate_count": 9,
-      "score": 0.6509,
-      "importance": 0.6509,
-      "importance_score": 0.6509,
+      "item_count": 11,
+      "duplicate_count": 11,
+      "score": 0.6182,
+      "importance": 0.6182,
+      "importance_score": 0.6182,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6698,
+        "recency": 0.5608,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -203,7 +241,7 @@
         "multi_source"
       ],
       "earliest_at": "2026-07-11T12:00:06Z",
-      "latest_at": "2026-07-11T21:00:39Z",
+      "latest_at": "2026-07-12T05:51:51Z",
       "primary_item": {
         "id": "200887a38a1e5627fb6cc6695abb7da6c3fa8dc8",
         "title": "布萊尼姆宮和溫莎城堡內部：英國保存最完好的宮殿 / Inside Blenheim Palace & Windsor Castle: Britain's Best Preserved Palaces",
