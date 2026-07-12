@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-11T23:29:39.773311Z",
+  "generated_at": "2026-07-12T01:08:50.481321Z",
   "window_hours": 24,
   "total_items": 1,
   "items": [
@@ -66,15 +66,6 @@
           "published_at": "2026-07-11T12:00:06Z"
         },
         {
-          "id": "eeeb6edd324f4ada5d0d37f1e5050220a0056b42",
-          "title": "海力士首日大涨！Meta完全逆转！谷歌被机构看空？Reddit成稀缺资产？年轻人就不买房？",
-          "url": "https://www.youtube.com/watch?v=B5bcAl1u3Uk",
-          "source": "美投侃新闻",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-11T00:59:03Z"
-        },
-        {
           "id": "22dcb31151dd675ce5669f6feafede8430054f11",
           "title": "緬因州 - 第一印象（波特蘭） / Maine - First Impressions (Portland)",
           "url": "https://www.youtube.com/watch?v=ujo3vXID7dM",
@@ -102,7 +93,7 @@
           "published_at": "2026-07-11T12:52:06Z"
         }
       ],
-      "source_count": 10,
+      "source_count": 9,
       "source_names": [
         "Best Documentary",
         "Hoog",
@@ -111,7 +102,6 @@
         "Timeline - World History Documentaries",
         "imineo Documentaires",
         "有点艺思哦",
-        "美投侃新闻",
         "融融歷險記Ben's Adventure"
       ],
       "items": [
@@ -170,15 +160,6 @@
           "published_at": "2026-07-11T12:00:06Z"
         },
         {
-          "id": "eeeb6edd324f4ada5d0d37f1e5050220a0056b42",
-          "title": "海力士首日大涨！Meta完全逆转！谷歌被机构看空？Reddit成稀缺资产？年轻人就不买房？",
-          "url": "https://www.youtube.com/watch?v=B5bcAl1u3Uk",
-          "source": "美投侃新闻",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-11T00:59:03Z"
-        },
-        {
           "id": "22dcb31151dd675ce5669f6feafede8430054f11",
           "title": "緬因州 - 第一印象（波特蘭） / Maine - First Impressions (Portland)",
           "url": "https://www.youtube.com/watch?v=ujo3vXID7dM",
@@ -206,22 +187,22 @@
           "published_at": "2026-07-11T12:52:06Z"
         }
       ],
-      "item_count": 10,
-      "duplicate_count": 10,
-      "score": 0.719,
-      "importance": 0.719,
-      "importance_score": 0.719,
+      "item_count": 9,
+      "duplicate_count": 9,
+      "score": 0.6983,
+      "importance": 0.6983,
+      "importance_score": 0.6983,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.8965,
+        "recency": 0.8276,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-11T00:59:03Z",
+      "earliest_at": "2026-07-11T12:00:06Z",
       "latest_at": "2026-07-11T21:00:39Z",
       "primary_item": {
         "id": "200887a38a1e5627fb6cc6695abb7da6c3fa8dc8",
