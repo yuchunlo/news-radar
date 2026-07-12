@@ -1,16 +1,34 @@
 {
-  "generated_at": "2026-07-12T20:58:07.328175Z",
+  "generated_at": "2026-07-12T22:00:34.536857Z",
   "window_hours": 24,
   "total_items": 1,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "加拿大被遺忘的二戰戰爭藝術家 - 畫作背後的故事 / Canada's Forgotten WWII War Artists - Stories Behind the Paintings",
-      "url": "https://www.youtube.com/watch?v=QqaqWXB2ITE",
-      "primary_url": "https://www.youtube.com/watch?v=QqaqWXB2ITE",
-      "source": "Perspective",
+      "title": "拉斐爾是天才的另一個證據 / Another Proof That Raphael Was a Genius",
+      "url": "https://www.youtube.com/watch?v=yQcavV2bHrA",
+      "primary_url": "https://www.youtube.com/watch?v=yQcavV2bHrA",
+      "source": "Inspiraggio",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "c7ca3b21ea54ca115811b4ab5d4f7753b96450be",
+          "title": "拉斐爾是天才的另一個證據 / Another Proof That Raphael Was a Genius",
+          "url": "https://www.youtube.com/watch?v=yQcavV2bHrA",
+          "source": "Inspiraggio",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-12T21:17:02Z"
+        },
+        {
+          "id": "98614b74425b8f0ceb5f834d379fde1b96889b8a",
+          "title": "成吉思汗與蒙古帝國的真實故事 / The Real Story Of Genghis Khan And The Mongol Empire",
+          "url": "https://www.youtube.com/watch?v=183QbggzAZw",
+          "source": "Timeline - World History Documentaries",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-12T21:00:07Z"
+        },
         {
           "id": "dea82296bdd63e8e06700d129958d9342a832dbb",
           "title": "加拿大被遺忘的二戰戰爭藝術家 - 畫作背後的故事 / Canada's Forgotten WWII War Artists - Stories Behind the Paintings",
@@ -73,24 +91,6 @@
           "source_name": "OPML RSS",
           "site_id": "tech",
           "published_at": "2026-07-12T12:00:03Z"
-        },
-        {
-          "id": "200887a38a1e5627fb6cc6695abb7da6c3fa8dc8",
-          "title": "布萊尼姆宮和溫莎城堡內部：英國保存最完好的宮殿 / Inside Blenheim Palace & Windsor Castle: Britain's Best Preserved Palaces",
-          "url": "https://www.youtube.com/watch?v=jylac0_Arr4",
-          "source": "Timeline - World History Documentaries",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-11T21:00:39Z"
-        },
-        {
-          "id": "09a1e16875d6abee5259775a568e2f546751d026",
-          "title": "當你失踪時會發生什麼？ |法醫檔案 / What Happens When You Go Missing? | Forensic Files",
-          "url": "https://www.youtube.com/watch?v=lM0QWQyeVY8",
-          "source": "Best Documentary",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-11T21:00:20Z"
         },
         {
           "id": "d94b17dca4b534f40b1d064e4913fe48cb10a5c1",
@@ -141,6 +141,7 @@
       "source_count": 14,
       "source_names": [
         "Best Documentary",
+        "Inspiraggio",
         "Marcello Ascani",
         "Perspective",
         "Tim Ferriss",
@@ -153,6 +154,24 @@
         "胖貓堂主"
       ],
       "items": [
+        {
+          "id": "c7ca3b21ea54ca115811b4ab5d4f7753b96450be",
+          "title": "拉斐爾是天才的另一個證據 / Another Proof That Raphael Was a Genius",
+          "url": "https://www.youtube.com/watch?v=yQcavV2bHrA",
+          "source": "Inspiraggio",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-12T21:17:02Z"
+        },
+        {
+          "id": "98614b74425b8f0ceb5f834d379fde1b96889b8a",
+          "title": "成吉思汗與蒙古帝國的真實故事 / The Real Story Of Genghis Khan And The Mongol Empire",
+          "url": "https://www.youtube.com/watch?v=183QbggzAZw",
+          "source": "Timeline - World History Documentaries",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-12T21:00:07Z"
+        },
         {
           "id": "dea82296bdd63e8e06700d129958d9342a832dbb",
           "title": "加拿大被遺忘的二戰戰爭藝術家 - 畫作背後的故事 / Canada's Forgotten WWII War Artists - Stories Behind the Paintings",
@@ -217,24 +236,6 @@
           "published_at": "2026-07-12T12:00:03Z"
         },
         {
-          "id": "200887a38a1e5627fb6cc6695abb7da6c3fa8dc8",
-          "title": "布萊尼姆宮和溫莎城堡內部：英國保存最完好的宮殿 / Inside Blenheim Palace & Windsor Castle: Britain's Best Preserved Palaces",
-          "url": "https://www.youtube.com/watch?v=jylac0_Arr4",
-          "source": "Timeline - World History Documentaries",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-11T21:00:39Z"
-        },
-        {
-          "id": "09a1e16875d6abee5259775a568e2f546751d026",
-          "title": "當你失踪時會發生什麼？ |法醫檔案 / What Happens When You Go Missing? | Forensic Files",
-          "url": "https://www.youtube.com/watch?v=lM0QWQyeVY8",
-          "source": "Best Documentary",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-11T21:00:20Z"
-        },
-        {
           "id": "d94b17dca4b534f40b1d064e4913fe48cb10a5c1",
           "title": "老崎古道健行5km，頭份後花園、楓香林、扶桑花步道、181.9高地賞無敵山景｜山上加美Lovely Hill",
           "url": "https://www.youtube.com/watch?v=0mYZRe7XpNQ",
@@ -282,26 +283,26 @@
       ],
       "item_count": 14,
       "duplicate_count": 14,
-      "score": 0.6879,
-      "importance": 0.6879,
-      "importance_score": 0.6879,
+      "score": 0.7409,
+      "importance": 0.7409,
+      "importance_score": 0.7409,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.793,
+        "recency": 0.9698,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-11T21:00:20Z",
-      "latest_at": "2026-07-12T16:00:01Z",
+      "earliest_at": "2026-07-12T05:00:36Z",
+      "latest_at": "2026-07-12T21:17:02Z",
       "primary_item": {
-        "id": "dea82296bdd63e8e06700d129958d9342a832dbb",
-        "title": "加拿大被遺忘的二戰戰爭藝術家 - 畫作背後的故事 / Canada's Forgotten WWII War Artists - Stories Behind the Paintings",
-        "url": "https://www.youtube.com/watch?v=QqaqWXB2ITE",
-        "source": "Perspective",
+        "id": "c7ca3b21ea54ca115811b4ab5d4f7753b96450be",
+        "title": "拉斐爾是天才的另一個證據 / Another Proof That Raphael Was a Genius",
+        "url": "https://www.youtube.com/watch?v=yQcavV2bHrA",
+        "source": "Inspiraggio",
         "source_name": "OPML RSS"
       }
     }
