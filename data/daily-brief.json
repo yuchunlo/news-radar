@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-07-13T21:02:56.840045Z",
+  "generated_at": "2026-07-13T22:29:43.834138Z",
   "window_hours": 24,
   "total_items": 4,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "人工智慧可怕思想實驗的教父 / Godfather of AI's Scary Thought Experiment",
-      "url": "https://www.youtube.com/watch?v=zvHr1yBmeEU",
-      "primary_url": "https://www.youtube.com/watch?v=zvHr1yBmeEU",
-      "source": "Tim Ferriss",
+      "title": "甘地成為聖雄之前的秘密生活 / The Secret Life Of Gandhi Before He Became The Mahatma",
+      "url": "https://www.youtube.com/watch?v=Rns1fRb8Fio",
+      "primary_url": "https://www.youtube.com/watch?v=Rns1fRb8Fio",
+      "source": "Timeline - World History Documentaries",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "40a2583ceaa8f38e8650460b48ae1bd6b8f5dafd",
+          "title": "甘地成為聖雄之前的秘密生活 / The Secret Life Of Gandhi Before He Became The Mahatma",
+          "url": "https://www.youtube.com/watch?v=Rns1fRb8Fio",
+          "source": "Timeline - World History Documentaries",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-13T21:00:20Z"
+        },
         {
           "id": "c35fa45decaa21e5aebc89de6f5bcc7b1bdfd5a8",
           "title": "人工智慧可怕思想實驗的教父 / Godfather of AI's Scary Thought Experiment",
@@ -64,15 +73,6 @@
           "source_name": "OPML RSS",
           "site_id": "finance",
           "published_at": "2026-07-12T22:30:08Z"
-        },
-        {
-          "id": "c7ca3b21ea54ca115811b4ab5d4f7753b96450be",
-          "title": "拉斐爾是天才的另一個證據 / Another Proof That Raphael Was a Genius",
-          "url": "https://www.youtube.com/watch?v=yQcavV2bHrA",
-          "source": "Inspiraggio",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-12T21:17:02Z"
         },
         {
           "id": "b360291492c2a49ea31344e09b8cf088211f6dae",
@@ -107,15 +107,24 @@
         "Benjamin Cowen",
         "Best Documentary",
         "DenQ來了",
-        "Inspiraggio",
         "NPR Music",
         "Shepherd Capital Markets",
         "Tim Ferriss",
+        "Timeline - World History Documentaries",
         "imineo Documentaires",
         "neo",
         "【塞掐】訪談大人物"
       ],
       "items": [
+        {
+          "id": "40a2583ceaa8f38e8650460b48ae1bd6b8f5dafd",
+          "title": "甘地成為聖雄之前的秘密生活 / The Secret Life Of Gandhi Before He Became The Mahatma",
+          "url": "https://www.youtube.com/watch?v=Rns1fRb8Fio",
+          "source": "Timeline - World History Documentaries",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-13T21:00:20Z"
+        },
         {
           "id": "c35fa45decaa21e5aebc89de6f5bcc7b1bdfd5a8",
           "title": "人工智慧可怕思想實驗的教父 / Godfather of AI's Scary Thought Experiment",
@@ -171,15 +180,6 @@
           "published_at": "2026-07-12T22:30:08Z"
         },
         {
-          "id": "c7ca3b21ea54ca115811b4ab5d4f7753b96450be",
-          "title": "拉斐爾是天才的另一個證據 / Another Proof That Raphael Was a Genius",
-          "url": "https://www.youtube.com/watch?v=yQcavV2bHrA",
-          "source": "Inspiraggio",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-12T21:17:02Z"
-        },
-        {
           "id": "b360291492c2a49ea31344e09b8cf088211f6dae",
           "title": "美國末日飛機內部 / Inside the U.S. Doomsday Plane",
           "url": "https://www.youtube.com/watch?v=krSePO1QsDI",
@@ -209,26 +209,26 @@
       ],
       "item_count": 10,
       "duplicate_count": 10,
-      "score": 0.7418,
-      "importance": 0.7418,
-      "importance_score": 0.7418,
+      "score": 0.7314,
+      "importance": 0.7314,
+      "importance_score": 0.7314,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9727,
+        "recency": 0.9379,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-12T21:17:02Z",
-      "latest_at": "2026-07-13T20:23:35Z",
+      "earliest_at": "2026-07-12T22:30:08Z",
+      "latest_at": "2026-07-13T21:00:20Z",
       "primary_item": {
-        "id": "c35fa45decaa21e5aebc89de6f5bcc7b1bdfd5a8",
-        "title": "人工智慧可怕思想實驗的教父 / Godfather of AI's Scary Thought Experiment",
-        "url": "https://www.youtube.com/watch?v=zvHr1yBmeEU",
-        "source": "Tim Ferriss",
+        "id": "40a2583ceaa8f38e8650460b48ae1bd6b8f5dafd",
+        "title": "甘地成為聖雄之前的秘密生活 / The Secret Life Of Gandhi Before He Became The Mahatma",
+        "url": "https://www.youtube.com/watch?v=Rns1fRb8Fio",
+        "source": "Timeline - World History Documentaries",
         "source_name": "OPML RSS"
       }
     },
@@ -285,13 +285,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4671,
-      "importance": 0.4671,
-      "importance_score": 0.4671,
+      "score": 0.449,
+      "importance": 0.449,
+      "importance_score": 0.449,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.557,
+        "recency": 0.4967,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -361,13 +361,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4621,
-      "importance": 0.4621,
-      "importance_score": 0.4621,
+      "score": 0.444,
+      "importance": 0.444,
+      "importance_score": 0.444,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.5402,
+        "recency": 0.48,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -437,13 +437,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.2119,
-      "importance": 0.2119,
-      "importance_score": 0.2119,
+      "score": 0.1938,
+      "importance": 0.1938,
+      "importance_score": 0.1938,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.123,
+        "recency": 0.0627,
         "story_heat": 0.25
       },
       "category": "watch",
