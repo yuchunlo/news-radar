@@ -1,16 +1,34 @@
 {
-  "generated_at": "2026-07-13T08:34:07.096008Z",
+  "generated_at": "2026-07-13T12:11:55.697656Z",
   "window_hours": 24,
   "total_items": 1,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "2026 年黃金之路 / Gold Path for 2026",
-      "url": "https://www.youtube.com/watch?v=sjt1LV2iDog",
-      "primary_url": "https://www.youtube.com/watch?v=sjt1LV2iDog",
-      "source": "Benjamin Cowen",
+      "title": "泰格伍茲：破碎的帝國 / Tiger Woods: The Broken Empire",
+      "url": "https://www.youtube.com/watch?v=Gs8wK09Jve0",
+      "primary_url": "https://www.youtube.com/watch?v=Gs8wK09Jve0",
+      "source": "Best Documentary",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "9e86e649d1da56c8ffe5e12f51053a35ce93e525",
+          "title": "泰格伍茲：破碎的帝國 / Tiger Woods: The Broken Empire",
+          "url": "https://www.youtube.com/watch?v=Gs8wK09Jve0",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-13T12:00:28Z"
+        },
+        {
+          "id": "7c81d96e459a12193127cc0a813f45b688cdf44b",
+          "title": "跳蚤和霍諾拉樂隊：小桌子音樂會 / Flea and the Honora Band: Tiny Desk Concert",
+          "url": "https://www.youtube.com/watch?v=dQK2U-KrhuA",
+          "source": "NPR Music",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-13T09:00:11Z"
+        },
         {
           "id": "5553b2728fb2d85a4586735b94a16fb35061990b",
           "title": "2026 年黃金之路 / Gold Path for 2026",
@@ -84,33 +102,6 @@
           "published_at": "2026-07-12T13:06:33Z"
         },
         {
-          "id": "8cc44002f797641be5b4bd52bfd76a438369da40",
-          "title": "英國皇宮的秘密－隱藏的塗鴉、女巫痕跡和逝去的生命 / Secrets of Britain's Royal Palaces - Hidden Graffiti, Witch Marks and Lost Lives",
-          "url": "https://www.youtube.com/watch?v=HZJyTnQgQwI",
-          "source": "Perspective",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-12T12:00:33Z"
-        },
-        {
-          "id": "f55ef202b8963aab9cc7b31c02b8e3f13b7dddad",
-          "title": "教父 vs 總統 | 教父 vs 總統黑手黨領主 / The Godfather vs. the President | Lords of the Mafia",
-          "url": "https://www.youtube.com/watch?v=FUM0q8XTb8s",
-          "source": "Best Documentary",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-12T12:00:29Z"
-        },
-        {
-          "id": "8232da83f7117089afcbc9c2ecbe6d1a8fbead68",
-          "title": "連續押中 Facebook、Uber 成功出場，與矽谷大神聊聊選公司的眼光、創業與 AI feat. Jarsy 創辦人秦漢 | S2E64",
-          "url": "https://www.youtube.com/watch?v=a_kF19Vgv_g",
-          "source": "矽谷輕鬆談 Just Kidding Tech",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-12T12:00:03Z"
-        },
-        {
           "id": "50daa68d6ca92bc61a2fe03ddc9bfe3decd51e2b",
           "title": "半年出口衝上 18 萬架！台灣「去紅」無人機還有哪些挑戰？｜台大機械系教授 陳炳煇【塞掐 Side Chat】E414",
           "url": "https://www.youtube.com/watch?v=OKbkiESy1QE",
@@ -120,50 +111,49 @@
           "published_at": "2026-07-13T04:45:06Z"
         },
         {
-          "id": "7d43b67b95d9b289b1d4f4260b1e8330f72a8ba1",
-          "title": "從網路安全研究員到 10 億美元 / Da Ricercatore a 1 MILIARDO nella Cyber Security",
-          "url": "https://www.youtube.com/watch?v=1BcbyVhDlUE",
-          "source": "Marcello Ascani",
+          "id": "f892721a874e1d2f77905f15b897df8d3f945e0c",
+          "title": "被IG網美店騙怕了？韓國人比米其林更相信的‘郵其林’到底是什麼？｜DenQ",
+          "url": "https://www.youtube.com/watch?v=TpV4C06zToc",
+          "source": "DenQ來了",
           "source_name": "OPML RSS",
           "site_id": "trending",
-          "published_at": "2026-07-12T11:00:36Z"
-        },
-        {
-          "id": "db6585c6c66f4c93e950376c1cb0e886174a92c3",
-          "title": "▲好多可愛小裝備！恆春半島多日單車露營裝備清單｜Bikepacking打包技巧 #法蘭可黃",
-          "url": "https://www.youtube.com/watch?v=OZ4Jcs_mMxg",
-          "source": "法蘭克黃",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-12T10:08:03Z"
-        },
-        {
-          "id": "1cf787957940ba8dc06aa329f13cb6824bb70efc",
-          "title": "▲極致輕量化！11公斤單車露營全攻略！多日單車露營裝備清單｜Bikepacking打包技巧 #環島 #法蘭克黃",
-          "url": "https://www.youtube.com/watch?v=OZ4Jcs_mMxg",
-          "source": "法蘭克黃",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-12T10:08:03Z"
+          "published_at": "2026-07-13T11:00:16Z"
         }
       ],
-      "source_count": 15,
+      "source_count": 12,
       "source_names": [
         "Benjamin Cowen",
         "Best Documentary",
+        "DenQ來了",
         "Inspiraggio",
-        "Marcello Ascani",
+        "NPR Music",
         "Perspective",
         "Shepherd Capital Markets",
         "Tim Ferriss",
         "Timeline - World History Documentaries",
         "imineo Documentaires",
         "【塞掐】訪談大人物",
-        "法蘭克黃",
-        "矽谷輕鬆談 Just Kidding Tech",
         "美投讲美股"
       ],
       "items": [
+        {
+          "id": "9e86e649d1da56c8ffe5e12f51053a35ce93e525",
+          "title": "泰格伍茲：破碎的帝國 / Tiger Woods: The Broken Empire",
+          "url": "https://www.youtube.com/watch?v=Gs8wK09Jve0",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-13T12:00:28Z"
+        },
+        {
+          "id": "7c81d96e459a12193127cc0a813f45b688cdf44b",
+          "title": "跳蚤和霍諾拉樂隊：小桌子音樂會 / Flea and the Honora Band: Tiny Desk Concert",
+          "url": "https://www.youtube.com/watch?v=dQK2U-KrhuA",
+          "source": "NPR Music",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-13T09:00:11Z"
+        },
         {
           "id": "5553b2728fb2d85a4586735b94a16fb35061990b",
           "title": "2026 年黃金之路 / Gold Path for 2026",
@@ -237,33 +227,6 @@
           "published_at": "2026-07-12T13:06:33Z"
         },
         {
-          "id": "8cc44002f797641be5b4bd52bfd76a438369da40",
-          "title": "英國皇宮的秘密－隱藏的塗鴉、女巫痕跡和逝去的生命 / Secrets of Britain's Royal Palaces - Hidden Graffiti, Witch Marks and Lost Lives",
-          "url": "https://www.youtube.com/watch?v=HZJyTnQgQwI",
-          "source": "Perspective",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-12T12:00:33Z"
-        },
-        {
-          "id": "f55ef202b8963aab9cc7b31c02b8e3f13b7dddad",
-          "title": "教父 vs 總統 | 教父 vs 總統黑手黨領主 / The Godfather vs. the President | Lords of the Mafia",
-          "url": "https://www.youtube.com/watch?v=FUM0q8XTb8s",
-          "source": "Best Documentary",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-12T12:00:29Z"
-        },
-        {
-          "id": "8232da83f7117089afcbc9c2ecbe6d1a8fbead68",
-          "title": "連續押中 Facebook、Uber 成功出場，與矽谷大神聊聊選公司的眼光、創業與 AI feat. Jarsy 創辦人秦漢 | S2E64",
-          "url": "https://www.youtube.com/watch?v=a_kF19Vgv_g",
-          "source": "矽谷輕鬆談 Just Kidding Tech",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-12T12:00:03Z"
-        },
-        {
           "id": "50daa68d6ca92bc61a2fe03ddc9bfe3decd51e2b",
           "title": "半年出口衝上 18 萬架！台灣「去紅」無人機還有哪些挑戰？｜台大機械系教授 陳炳煇【塞掐 Side Chat】E414",
           "url": "https://www.youtube.com/watch?v=OKbkiESy1QE",
@@ -273,55 +236,37 @@
           "published_at": "2026-07-13T04:45:06Z"
         },
         {
-          "id": "7d43b67b95d9b289b1d4f4260b1e8330f72a8ba1",
-          "title": "從網路安全研究員到 10 億美元 / Da Ricercatore a 1 MILIARDO nella Cyber Security",
-          "url": "https://www.youtube.com/watch?v=1BcbyVhDlUE",
-          "source": "Marcello Ascani",
+          "id": "f892721a874e1d2f77905f15b897df8d3f945e0c",
+          "title": "被IG網美店騙怕了？韓國人比米其林更相信的‘郵其林’到底是什麼？｜DenQ",
+          "url": "https://www.youtube.com/watch?v=TpV4C06zToc",
+          "source": "DenQ來了",
           "source_name": "OPML RSS",
           "site_id": "trending",
-          "published_at": "2026-07-12T11:00:36Z"
-        },
-        {
-          "id": "db6585c6c66f4c93e950376c1cb0e886174a92c3",
-          "title": "▲好多可愛小裝備！恆春半島多日單車露營裝備清單｜Bikepacking打包技巧 #法蘭可黃",
-          "url": "https://www.youtube.com/watch?v=OZ4Jcs_mMxg",
-          "source": "法蘭克黃",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-12T10:08:03Z"
-        },
-        {
-          "id": "1cf787957940ba8dc06aa329f13cb6824bb70efc",
-          "title": "▲極致輕量化！11公斤單車露營全攻略！多日單車露營裝備清單｜Bikepacking打包技巧 #環島 #法蘭克黃",
-          "url": "https://www.youtube.com/watch?v=OZ4Jcs_mMxg",
-          "source": "法蘭克黃",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-12T10:08:03Z"
+          "published_at": "2026-07-13T11:00:16Z"
         }
       ],
-      "item_count": 15,
-      "duplicate_count": 15,
-      "score": 0.6947,
-      "importance": 0.6947,
-      "importance_score": 0.6947,
+      "item_count": 12,
+      "duplicate_count": 12,
+      "score": 0.7476,
+      "importance": 0.7476,
+      "importance_score": 0.7476,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.8158,
+        "recency": 0.992,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-12T10:08:03Z",
-      "latest_at": "2026-07-13T04:45:06Z",
+      "earliest_at": "2026-07-12T13:06:33Z",
+      "latest_at": "2026-07-13T12:00:28Z",
       "primary_item": {
-        "id": "5553b2728fb2d85a4586735b94a16fb35061990b",
-        "title": "2026 年黃金之路 / Gold Path for 2026",
-        "url": "https://www.youtube.com/watch?v=sjt1LV2iDog",
-        "source": "Benjamin Cowen",
+        "id": "9e86e649d1da56c8ffe5e12f51053a35ce93e525",
+        "title": "泰格伍茲：破碎的帝國 / Tiger Woods: The Broken Empire",
+        "url": "https://www.youtube.com/watch?v=Gs8wK09Jve0",
+        "source": "Best Documentary",
         "source_name": "OPML RSS"
       }
     }
