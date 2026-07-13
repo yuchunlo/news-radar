@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-07-13T01:11:32.551007Z",
+  "generated_at": "2026-07-13T05:02:51.385908Z",
   "window_hours": 24,
   "total_items": 1,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "卖方上调TSLA目标价3倍！这个视频教你看懂卖方目标价",
-      "url": "https://www.youtube.com/watch?v=Q-fWBEDltMk",
-      "primary_url": "https://www.youtube.com/watch?v=Q-fWBEDltMk",
-      "source": "Shepherd Capital Markets",
+      "title": "2026 年黃金之路 / Gold Path for 2026",
+      "url": "https://www.youtube.com/watch?v=sjt1LV2iDog",
+      "primary_url": "https://www.youtube.com/watch?v=sjt1LV2iDog",
+      "source": "Benjamin Cowen",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "5553b2728fb2d85a4586735b94a16fb35061990b",
+          "title": "2026 年黃金之路 / Gold Path for 2026",
+          "url": "https://www.youtube.com/watch?v=sjt1LV2iDog",
+          "source": "Benjamin Cowen",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-13T04:08:52Z"
+        },
         {
           "id": "39f21f664a5e6b2ccdc34174ab51fb645ee6ad8d",
           "title": "卖方上调TSLA目标价3倍！这个视频教你看懂卖方目标价",
@@ -102,6 +111,15 @@
           "published_at": "2026-07-12T12:00:03Z"
         },
         {
+          "id": "50daa68d6ca92bc61a2fe03ddc9bfe3decd51e2b",
+          "title": "半年出口衝上 18 萬架！台灣「去紅」無人機還有哪些挑戰？｜台大機械系教授 陳炳煇【塞掐 Side Chat】E414",
+          "url": "https://www.youtube.com/watch?v=OKbkiESy1QE",
+          "source": "【塞掐】訪談大人物",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-13T04:45:06Z"
+        },
+        {
           "id": "d94b17dca4b534f40b1d064e4913fe48cb10a5c1",
           "title": "老崎古道健行5km，頭份後花園、楓香林、扶桑花步道、181.9高地賞無敵山景｜山上加美Lovely Hill",
           "url": "https://www.youtube.com/watch?v=0mYZRe7XpNQ",
@@ -109,15 +127,6 @@
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
           "published_at": "2026-07-12T05:51:51Z"
-        },
-        {
-          "id": "bfdf19b0d6a4f5c7329ec0cf15494eb7bfc9ebf0",
-          "title": "三条人命、14年争产：台湾百亿豪门为何走到兄弟相残？",
-          "url": "https://www.youtube.com/watch?v=eoQUO2YoHEQ",
-          "source": "胖貓堂主",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-12T05:00:36Z"
         },
         {
           "id": "7d43b67b95d9b289b1d4f4260b1e8330f72a8ba1",
@@ -147,8 +156,9 @@
           "published_at": "2026-07-12T10:08:03Z"
         }
       ],
-      "source_count": 15,
+      "source_count": 16,
       "source_names": [
+        "Benjamin Cowen",
         "Best Documentary",
         "Inspiraggio",
         "Marcello Ascani",
@@ -157,13 +167,22 @@
         "Tim Ferriss",
         "Timeline - World History Documentaries",
         "imineo Documentaires",
+        "【塞掐】訪談大人物",
         "山上加美Lovely Hill",
         "法蘭克黃",
         "矽谷輕鬆談 Just Kidding Tech",
-        "美投讲美股",
-        "胖貓堂主"
+        "美投讲美股"
       ],
       "items": [
+        {
+          "id": "5553b2728fb2d85a4586735b94a16fb35061990b",
+          "title": "2026 年黃金之路 / Gold Path for 2026",
+          "url": "https://www.youtube.com/watch?v=sjt1LV2iDog",
+          "source": "Benjamin Cowen",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-13T04:08:52Z"
+        },
         {
           "id": "39f21f664a5e6b2ccdc34174ab51fb645ee6ad8d",
           "title": "卖方上调TSLA目标价3倍！这个视频教你看懂卖方目标价",
@@ -255,6 +274,15 @@
           "published_at": "2026-07-12T12:00:03Z"
         },
         {
+          "id": "50daa68d6ca92bc61a2fe03ddc9bfe3decd51e2b",
+          "title": "半年出口衝上 18 萬架！台灣「去紅」無人機還有哪些挑戰？｜台大機械系教授 陳炳煇【塞掐 Side Chat】E414",
+          "url": "https://www.youtube.com/watch?v=OKbkiESy1QE",
+          "source": "【塞掐】訪談大人物",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-13T04:45:06Z"
+        },
+        {
           "id": "d94b17dca4b534f40b1d064e4913fe48cb10a5c1",
           "title": "老崎古道健行5km，頭份後花園、楓香林、扶桑花步道、181.9高地賞無敵山景｜山上加美Lovely Hill",
           "url": "https://www.youtube.com/watch?v=0mYZRe7XpNQ",
@@ -262,15 +290,6 @@
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
           "published_at": "2026-07-12T05:51:51Z"
-        },
-        {
-          "id": "bfdf19b0d6a4f5c7329ec0cf15494eb7bfc9ebf0",
-          "title": "三条人命、14年争产：台湾百亿豪门为何走到兄弟相残？",
-          "url": "https://www.youtube.com/watch?v=eoQUO2YoHEQ",
-          "source": "胖貓堂主",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-12T05:00:36Z"
         },
         {
           "id": "7d43b67b95d9b289b1d4f4260b1e8330f72a8ba1",
@@ -300,28 +319,28 @@
           "published_at": "2026-07-12T10:08:03Z"
         }
       ],
-      "item_count": 15,
-      "duplicate_count": 15,
-      "score": 0.7164,
-      "importance": 0.7164,
-      "importance_score": 0.7164,
+      "item_count": 16,
+      "duplicate_count": 16,
+      "score": 0.7388,
+      "importance": 0.7388,
+      "importance_score": 0.7388,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.8879,
+        "recency": 0.9625,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-12T05:00:36Z",
-      "latest_at": "2026-07-12T22:30:08Z",
+      "earliest_at": "2026-07-12T05:51:51Z",
+      "latest_at": "2026-07-13T04:45:06Z",
       "primary_item": {
-        "id": "39f21f664a5e6b2ccdc34174ab51fb645ee6ad8d",
-        "title": "卖方上调TSLA目标价3倍！这个视频教你看懂卖方目标价",
-        "url": "https://www.youtube.com/watch?v=Q-fWBEDltMk",
-        "source": "Shepherd Capital Markets",
+        "id": "5553b2728fb2d85a4586735b94a16fb35061990b",
+        "title": "2026 年黃金之路 / Gold Path for 2026",
+        "url": "https://www.youtube.com/watch?v=sjt1LV2iDog",
+        "source": "Benjamin Cowen",
         "source_name": "OPML RSS"
       }
     }
