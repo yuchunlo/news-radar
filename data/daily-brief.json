@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-07-13T12:11:55.697656Z",
+  "generated_at": "2026-07-13T15:24:05.876294Z",
   "window_hours": 24,
-  "total_items": 1,
+  "total_items": 4,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "泰格伍茲：破碎的帝國 / Tiger Woods: The Broken Empire",
-      "url": "https://www.youtube.com/watch?v=Gs8wK09Jve0",
-      "primary_url": "https://www.youtube.com/watch?v=Gs8wK09Jve0",
-      "source": "Best Documentary",
+      "title": "英傑華體育場：都柏林市中心的未來體育場 / Aviva Stadium : le stade futuriste au cœur de Dublin",
+      "url": "https://www.youtube.com/watch?v=AhlHc-0m9YA",
+      "primary_url": "https://www.youtube.com/watch?v=AhlHc-0m9YA",
+      "source": "imineo Documentaires",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "cf2b1181aabf1c57e1d04f45915c6cd66b063593",
+          "title": "英傑華體育場：都柏林市中心的未來體育場 / Aviva Stadium : le stade futuriste au cœur de Dublin",
+          "url": "https://www.youtube.com/watch?v=AhlHc-0m9YA",
+          "source": "imineo Documentaires",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-13T14:30:29Z"
+        },
         {
           "id": "9e86e649d1da56c8ffe5e12f51053a35ce93e525",
           "title": "泰格伍茲：破碎的帝國 / Tiger Woods: The Broken Empire",
@@ -75,33 +84,6 @@
           "published_at": "2026-07-12T16:00:01Z"
         },
         {
-          "id": "231854fd74e8f2f41b83c114308b50f51d2f0a67",
-          "title": "人工智慧創辦人認為他們正在創造上帝嗎？ / Do AI Founders Think They're Building God?",
-          "url": "https://www.youtube.com/watch?v=eRO1w9TS2t4",
-          "source": "Tim Ferriss",
-          "source_name": "OPML RSS",
-          "site_id": "blog",
-          "published_at": "2026-07-12T14:00:08Z"
-        },
-        {
-          "id": "972d88623ffd57e3d7bded5f4b5d83d7cb6e6e01",
-          "title": "以色列-阿拉伯衝突的起源|稀有檔案 / Les origines du conflit israélo-arabe | Archives Rares",
-          "url": "https://www.youtube.com/watch?v=0KXkKo42mrQ",
-          "source": "imineo Documentaires",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-12T13:30:05Z"
-        },
-        {
-          "id": "7361e4d1e00e80e20d2f896405117faf160fd56c",
-          "title": "AI竟与100年前电力革命如此相似？90%的人都看错方向，历史已指明最大商机！",
-          "url": "https://www.youtube.com/watch?v=0kvj3lbJqoY",
-          "source": "美投讲美股",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-12T13:06:33Z"
-        },
-        {
           "id": "50daa68d6ca92bc61a2fe03ddc9bfe3decd51e2b",
           "title": "半年出口衝上 18 萬架！台灣「去紅」無人機還有哪些挑戰？｜台大機械系教授 陳炳煇【塞掐 Side Chat】E414",
           "url": "https://www.youtube.com/watch?v=OKbkiESy1QE",
@@ -120,7 +102,7 @@
           "published_at": "2026-07-13T11:00:16Z"
         }
       ],
-      "source_count": 12,
+      "source_count": 10,
       "source_names": [
         "Benjamin Cowen",
         "Best Documentary",
@@ -129,13 +111,20 @@
         "NPR Music",
         "Perspective",
         "Shepherd Capital Markets",
-        "Tim Ferriss",
         "Timeline - World History Documentaries",
         "imineo Documentaires",
-        "【塞掐】訪談大人物",
-        "美投讲美股"
+        "【塞掐】訪談大人物"
       ],
       "items": [
+        {
+          "id": "cf2b1181aabf1c57e1d04f45915c6cd66b063593",
+          "title": "英傑華體育場：都柏林市中心的未來體育場 / Aviva Stadium : le stade futuriste au cœur de Dublin",
+          "url": "https://www.youtube.com/watch?v=AhlHc-0m9YA",
+          "source": "imineo Documentaires",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-13T14:30:29Z"
+        },
         {
           "id": "9e86e649d1da56c8ffe5e12f51053a35ce93e525",
           "title": "泰格伍茲：破碎的帝國 / Tiger Woods: The Broken Empire",
@@ -200,33 +189,6 @@
           "published_at": "2026-07-12T16:00:01Z"
         },
         {
-          "id": "231854fd74e8f2f41b83c114308b50f51d2f0a67",
-          "title": "人工智慧創辦人認為他們正在創造上帝嗎？ / Do AI Founders Think They're Building God?",
-          "url": "https://www.youtube.com/watch?v=eRO1w9TS2t4",
-          "source": "Tim Ferriss",
-          "source_name": "OPML RSS",
-          "site_id": "blog",
-          "published_at": "2026-07-12T14:00:08Z"
-        },
-        {
-          "id": "972d88623ffd57e3d7bded5f4b5d83d7cb6e6e01",
-          "title": "以色列-阿拉伯衝突的起源|稀有檔案 / Les origines du conflit israélo-arabe | Archives Rares",
-          "url": "https://www.youtube.com/watch?v=0KXkKo42mrQ",
-          "source": "imineo Documentaires",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-12T13:30:05Z"
-        },
-        {
-          "id": "7361e4d1e00e80e20d2f896405117faf160fd56c",
-          "title": "AI竟与100年前电力革命如此相似？90%的人都看错方向，历史已指明最大商机！",
-          "url": "https://www.youtube.com/watch?v=0kvj3lbJqoY",
-          "source": "美投讲美股",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-12T13:06:33Z"
-        },
-        {
           "id": "50daa68d6ca92bc61a2fe03ddc9bfe3decd51e2b",
           "title": "半年出口衝上 18 萬架！台灣「去紅」無人機還有哪些挑戰？｜台大機械系教授 陳炳煇【塞掐 Side Chat】E414",
           "url": "https://www.youtube.com/watch?v=OKbkiESy1QE",
@@ -245,28 +207,256 @@
           "published_at": "2026-07-13T11:00:16Z"
         }
       ],
-      "item_count": 12,
-      "duplicate_count": 12,
-      "score": 0.7476,
-      "importance": 0.7476,
-      "importance_score": 0.7476,
+      "item_count": 10,
+      "duplicate_count": 10,
+      "score": 0.7388,
+      "importance": 0.7388,
+      "importance_score": 0.7388,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.992,
+        "recency": 0.9628,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-12T13:06:33Z",
-      "latest_at": "2026-07-13T12:00:28Z",
+      "earliest_at": "2026-07-12T16:00:01Z",
+      "latest_at": "2026-07-13T14:30:29Z",
       "primary_item": {
-        "id": "9e86e649d1da56c8ffe5e12f51053a35ce93e525",
-        "title": "泰格伍茲：破碎的帝國 / Tiger Woods: The Broken Empire",
-        "url": "https://www.youtube.com/watch?v=Gs8wK09Jve0",
-        "source": "Best Documentary",
+        "id": "cf2b1181aabf1c57e1d04f45915c6cd66b063593",
+        "title": "英傑華體育場：都柏林市中心的未來體育場 / Aviva Stadium : le stade futuriste au cœur de Dublin",
+        "url": "https://www.youtube.com/watch?v=AhlHc-0m9YA",
+        "source": "imineo Documentaires",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_7d4d8df3e46f",
+      "title": "由於投資者在美國股票估值不確定的情況下獲利了結，SK 海力士股價在首爾下跌 15% 以上，創歷史最大跌幅，在納斯達克上市後表現強勁（Lee Ying Shan/CNBC） / SK Hynix's shares fall 15%+ in Seoul, posting its largest-ever fall, after a strong Nasdaq debut, as investors book profit amid US share valuation uncertainty (Lee Ying Shan/CNBC)",
+      "url": "https://www.techmeme.com/260713/p12",
+      "primary_url": "https://www.techmeme.com/260713/p12",
+      "source": "Techmeme",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "734ec493ab0c67f9c185707bc59e4cb7c15b41d5",
+          "title": "由於投資者在美國股票估值不確定的情況下獲利了結，SK 海力士股價在首爾下跌 15% 以上，創歷史最大跌幅，在納斯達克上市後表現強勁（Lee Ying Shan/CNBC） / SK Hynix's shares fall 15%+ in Seoul, posting its largest-ever fall, after a strong Nasdaq debut, as investors book profit amid US share valuation uncertainty (Lee Ying Shan/CNBC)",
+          "url": "https://www.techmeme.com/260713/p12",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-13T10:25:00Z"
+        },
+        {
+          "id": "d8ad9d9d61c0144d52402f0ff4e563ec96e766bf",
+          "title": "SK 海力士股價在納斯達克上市後，在首爾下跌 15% 以上，創歷史最大跌幅，原因是投資者在美國股票估值不確定的情況下獲利了結（Lee Ying Shan/CNBC） / SK Hynix's stock falls 15%+ in Seoul, its largest-ever decline, after a strong Nasdaq debut, as investors book profits amid its US stock valuation uncertainty (Lee Ying Shan/CNBC)",
+          "url": "https://www.techmeme.com/260713/p12",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-13T10:25:00Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Techmeme"
+      ],
+      "items": [
+        {
+          "id": "734ec493ab0c67f9c185707bc59e4cb7c15b41d5",
+          "title": "由於投資者在美國股票估值不確定的情況下獲利了結，SK 海力士股價在首爾下跌 15% 以上，創歷史最大跌幅，在納斯達克上市後表現強勁（Lee Ying Shan/CNBC） / SK Hynix's shares fall 15%+ in Seoul, posting its largest-ever fall, after a strong Nasdaq debut, as investors book profit amid US share valuation uncertainty (Lee Ying Shan/CNBC)",
+          "url": "https://www.techmeme.com/260713/p12",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-13T10:25:00Z"
+        },
+        {
+          "id": "d8ad9d9d61c0144d52402f0ff4e563ec96e766bf",
+          "title": "SK 海力士股價在納斯達克上市後，在首爾下跌 15% 以上，創歷史最大跌幅，原因是投資者在美國股票估值不確定的情況下獲利了結（Lee Ying Shan/CNBC） / SK Hynix's stock falls 15%+ in Seoul, its largest-ever decline, after a strong Nasdaq debut, as investors book profits amid its US stock valuation uncertainty (Lee Ying Shan/CNBC)",
+          "url": "https://www.techmeme.com/260713/p12",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-13T10:25:00Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5377,
+      "importance": 0.5377,
+      "importance_score": 0.5377,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.5,
+        "recency": 0.7923,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-13T10:25:00Z",
+      "latest_at": "2026-07-13T10:25:00Z",
+      "primary_item": {
+        "id": "734ec493ab0c67f9c185707bc59e4cb7c15b41d5",
+        "title": "由於投資者在美國股票估值不確定的情況下獲利了結，SK 海力士股價在首爾下跌 15% 以上，創歷史最大跌幅，在納斯達克上市後表現強勁（Lee Ying Shan/CNBC） / SK Hynix's shares fall 15%+ in Seoul, posting its largest-ever fall, after a strong Nasdaq debut, as investors book profit amid US share valuation uncertainty (Lee Ying Shan/CNBC)",
+        "url": "https://www.techmeme.com/260713/p12",
+        "source": "Techmeme",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_6f4034bd26e9",
+      "title": "歐盟委員會主席烏蘇拉·馮德萊恩表示，夏季過後，歐盟將提出一個“未成年人社交媒體開始日期”，並“逐步使用”（Barbara Moens/金融時報） / European Commission President Ursula von der Leyen says after the summer the bloc is set to propose a \"social media start date for minors\" with \"gradual access\" (Barbara Moens/Financial Times)",
+      "url": "https://www.techmeme.com/260713/p10",
+      "primary_url": "https://www.techmeme.com/260713/p10",
+      "source": "Techmeme",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "3f774ebc2b18c94949bd37c652060245061c26c6",
+          "title": "歐盟委員會主席烏蘇拉·馮德萊恩表示，夏季過後，歐盟將提出一個“未成年人社交媒體開始日期”，並“逐步使用”（Barbara Moens/金融時報） / European Commission President Ursula von der Leyen says after the summer the bloc is set to propose a \"social media start date for minors\" with \"gradual access\" (Barbara Moens/Financial Times)",
+          "url": "https://www.techmeme.com/260713/p10",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-13T10:00:52Z"
+        },
+        {
+          "id": "61d9ce988f058f68b20e1b498447c6f3c5b2f3ea",
+          "title": "歐盟委員會主席烏蘇拉·馮德萊恩表示，歐盟將在暑假後提出「未成年社群媒體開始日期」（Barbara Moens/金融時報） / European Commission President Ursula von der Leyen says the bloc is set to propose a \"social media start date for minors\", with a proposal after a summer break (Barbara Moens/Financial Times)",
+          "url": "https://www.techmeme.com/260713/p10",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-13T10:00:52Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Techmeme"
+      ],
+      "items": [
+        {
+          "id": "3f774ebc2b18c94949bd37c652060245061c26c6",
+          "title": "歐盟委員會主席烏蘇拉·馮德萊恩表示，夏季過後，歐盟將提出一個“未成年人社交媒體開始日期”，並“逐步使用”（Barbara Moens/金融時報） / European Commission President Ursula von der Leyen says after the summer the bloc is set to propose a \"social media start date for minors\" with \"gradual access\" (Barbara Moens/Financial Times)",
+          "url": "https://www.techmeme.com/260713/p10",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-13T10:00:52Z"
+        },
+        {
+          "id": "61d9ce988f058f68b20e1b498447c6f3c5b2f3ea",
+          "title": "歐盟委員會主席烏蘇拉·馮德萊恩表示，歐盟將在暑假後提出「未成年社群媒體開始日期」（Barbara Moens/金融時報） / European Commission President Ursula von der Leyen says the bloc is set to propose a \"social media start date for minors\", with a proposal after a summer break (Barbara Moens/Financial Times)",
+          "url": "https://www.techmeme.com/260713/p10",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-13T10:00:52Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5327,
+      "importance": 0.5327,
+      "importance_score": 0.5327,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.5,
+        "recency": 0.7755,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-13T10:00:52Z",
+      "latest_at": "2026-07-13T10:00:52Z",
+      "primary_item": {
+        "id": "3f774ebc2b18c94949bd37c652060245061c26c6",
+        "title": "歐盟委員會主席烏蘇拉·馮德萊恩表示，夏季過後，歐盟將提出一個“未成年人社交媒體開始日期”，並“逐步使用”（Barbara Moens/金融時報） / European Commission President Ursula von der Leyen says after the summer the bloc is set to propose a \"social media start date for minors\" with \"gradual access\" (Barbara Moens/Financial Times)",
+        "url": "https://www.techmeme.com/260713/p10",
+        "source": "Techmeme",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_d410836ab0fe",
+      "title": "福壽新增2款油品苯駢芘超標！中聯問題批號擴大至5批　行政院要求其餘批次1週內驗完、最上游擬改逐批檢驗",
+      "url": "https://www.foodnext.net/news/newsnow/paper/6971181033",
+      "primary_url": "https://www.foodnext.net/news/newsnow/paper/6971181033",
+      "source": "食力FoodNEXT",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "7b56357ac9eec9eb99cb608ffc24ab9d398c6141",
+          "title": "福壽新增2款油品苯駢芘超標！中聯問題批號擴大至5批　行政院要求其餘批次1週內驗完、最上游擬改逐批檢驗",
+          "url": "https://www.foodnext.net/news/newsnow/paper/6971181033",
+          "source": "食力FoodNEXT",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-13T00:00:00Z"
+        },
+        {
+          "id": "a87503d9e236ce36a6180210cfd8bbfa3c3105bb",
+          "title": "福壽新增2款油品苯駢芘超標！中聯問題批號擴大至5批　食藥署將公布重新上架原則",
+          "url": "https://www.foodnext.net/news/newsnow/paper/6971181033",
+          "source": "食力FoodNEXT",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-13T00:00:00Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "食力FoodNEXT"
+      ],
+      "items": [
+        {
+          "id": "7b56357ac9eec9eb99cb608ffc24ab9d398c6141",
+          "title": "福壽新增2款油品苯駢芘超標！中聯問題批號擴大至5批　行政院要求其餘批次1週內驗完、最上游擬改逐批檢驗",
+          "url": "https://www.foodnext.net/news/newsnow/paper/6971181033",
+          "source": "食力FoodNEXT",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-13T00:00:00Z"
+        },
+        {
+          "id": "a87503d9e236ce36a6180210cfd8bbfa3c3105bb",
+          "title": "福壽新增2款油品苯駢芘超標！中聯問題批號擴大至5批　食藥署將公布重新上架原則",
+          "url": "https://www.foodnext.net/news/newsnow/paper/6971181033",
+          "source": "食力FoodNEXT",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-13T00:00:00Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.2825,
+      "importance": 0.2825,
+      "importance_score": 0.2825,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.25,
+        "recency": 0.3583,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-13T00:00:00Z",
+      "latest_at": "2026-07-13T00:00:00Z",
+      "primary_item": {
+        "id": "7b56357ac9eec9eb99cb608ffc24ab9d398c6141",
+        "title": "福壽新增2款油品苯駢芘超標！中聯問題批號擴大至5批　行政院要求其餘批次1週內驗完、最上游擬改逐批檢驗",
+        "url": "https://www.foodnext.net/news/newsnow/paper/6971181033",
+        "source": "食力FoodNEXT",
         "source_name": "OPML RSS"
       }
     }
