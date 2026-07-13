@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-07-13T19:37:03.456928Z",
+  "generated_at": "2026-07-13T21:02:56.840045Z",
   "window_hours": 24,
   "total_items": 4,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "英傑華體育場：都柏林市中心的未來體育場 / Aviva Stadium : le stade futuriste au cœur de Dublin",
-      "url": "https://www.youtube.com/watch?v=AhlHc-0m9YA",
-      "primary_url": "https://www.youtube.com/watch?v=AhlHc-0m9YA",
-      "source": "imineo Documentaires",
+      "title": "人工智慧可怕思想實驗的教父 / Godfather of AI's Scary Thought Experiment",
+      "url": "https://www.youtube.com/watch?v=zvHr1yBmeEU",
+      "primary_url": "https://www.youtube.com/watch?v=zvHr1yBmeEU",
+      "source": "Tim Ferriss",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "c35fa45decaa21e5aebc89de6f5bcc7b1bdfd5a8",
+          "title": "人工智慧可怕思想實驗的教父 / Godfather of AI's Scary Thought Experiment",
+          "url": "https://www.youtube.com/watch?v=zvHr1yBmeEU",
+          "source": "Tim Ferriss",
+          "source_name": "OPML RSS",
+          "site_id": "blog",
+          "published_at": "2026-07-13T20:23:35Z"
+        },
         {
           "id": "cf2b1181aabf1c57e1d04f45915c6cd66b063593",
           "title": "英傑華體育場：都柏林市中心的未來體育場 / Aviva Stadium : le stade futuriste au cœur de Dublin",
@@ -64,15 +73,6 @@
           "source_name": "OPML RSS",
           "site_id": "culture",
           "published_at": "2026-07-12T21:17:02Z"
-        },
-        {
-          "id": "98614b74425b8f0ceb5f834d379fde1b96889b8a",
-          "title": "成吉思汗與蒙古帝國的真實故事 / The Real Story Of Genghis Khan And The Mongol Empire",
-          "url": "https://www.youtube.com/watch?v=183QbggzAZw",
-          "source": "Timeline - World History Documentaries",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-12T21:00:07Z"
         },
         {
           "id": "b360291492c2a49ea31344e09b8cf088211f6dae",
@@ -110,12 +110,21 @@
         "Inspiraggio",
         "NPR Music",
         "Shepherd Capital Markets",
-        "Timeline - World History Documentaries",
+        "Tim Ferriss",
         "imineo Documentaires",
         "neo",
         "【塞掐】訪談大人物"
       ],
       "items": [
+        {
+          "id": "c35fa45decaa21e5aebc89de6f5bcc7b1bdfd5a8",
+          "title": "人工智慧可怕思想實驗的教父 / Godfather of AI's Scary Thought Experiment",
+          "url": "https://www.youtube.com/watch?v=zvHr1yBmeEU",
+          "source": "Tim Ferriss",
+          "source_name": "OPML RSS",
+          "site_id": "blog",
+          "published_at": "2026-07-13T20:23:35Z"
+        },
         {
           "id": "cf2b1181aabf1c57e1d04f45915c6cd66b063593",
           "title": "英傑華體育場：都柏林市中心的未來體育場 / Aviva Stadium : le stade futuriste au cœur de Dublin",
@@ -171,15 +180,6 @@
           "published_at": "2026-07-12T21:17:02Z"
         },
         {
-          "id": "98614b74425b8f0ceb5f834d379fde1b96889b8a",
-          "title": "成吉思汗與蒙古帝國的真實故事 / The Real Story Of Genghis Khan And The Mongol Empire",
-          "url": "https://www.youtube.com/watch?v=183QbggzAZw",
-          "source": "Timeline - World History Documentaries",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-12T21:00:07Z"
-        },
-        {
           "id": "b360291492c2a49ea31344e09b8cf088211f6dae",
           "title": "美國末日飛機內部 / Inside the U.S. Doomsday Plane",
           "url": "https://www.youtube.com/watch?v=krSePO1QsDI",
@@ -209,26 +209,26 @@
       ],
       "item_count": 10,
       "duplicate_count": 10,
-      "score": 0.6861,
-      "importance": 0.6861,
-      "importance_score": 0.6861,
+      "score": 0.7418,
+      "importance": 0.7418,
+      "importance_score": 0.7418,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7871,
+        "recency": 0.9727,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-12T21:00:07Z",
-      "latest_at": "2026-07-13T16:23:28Z",
+      "earliest_at": "2026-07-12T21:17:02Z",
+      "latest_at": "2026-07-13T20:23:35Z",
       "primary_item": {
-        "id": "cf2b1181aabf1c57e1d04f45915c6cd66b063593",
-        "title": "英傑華體育場：都柏林市中心的未來體育場 / Aviva Stadium : le stade futuriste au cœur de Dublin",
-        "url": "https://www.youtube.com/watch?v=AhlHc-0m9YA",
-        "source": "imineo Documentaires",
+        "id": "c35fa45decaa21e5aebc89de6f5bcc7b1bdfd5a8",
+        "title": "人工智慧可怕思想實驗的教父 / Godfather of AI's Scary Thought Experiment",
+        "url": "https://www.youtube.com/watch?v=zvHr1yBmeEU",
+        "source": "Tim Ferriss",
         "source_name": "OPML RSS"
       }
     },
@@ -285,13 +285,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.485,
-      "importance": 0.485,
-      "importance_score": 0.485,
+      "score": 0.4671,
+      "importance": 0.4671,
+      "importance_score": 0.4671,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6166,
+        "recency": 0.557,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -361,13 +361,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.48,
-      "importance": 0.48,
-      "importance_score": 0.48,
+      "score": 0.4621,
+      "importance": 0.4621,
+      "importance_score": 0.4621,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.5999,
+        "recency": 0.5402,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -437,13 +437,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.2298,
-      "importance": 0.2298,
-      "importance_score": 0.2298,
+      "score": 0.2119,
+      "importance": 0.2119,
+      "importance_score": 0.2119,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.1826,
+        "recency": 0.123,
         "story_heat": 0.25
       },
       "category": "watch",
