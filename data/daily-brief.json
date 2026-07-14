@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-14T12:49:11.678401Z",
+  "generated_at": "2026-07-14T14:58:33.105541Z",
   "window_hours": 24,
-  "total_items": 3,
+  "total_items": 4,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
@@ -75,13 +75,13 @@
           "published_at": "2026-07-13T20:23:35Z"
         },
         {
-          "id": "cf2b1181aabf1c57e1d04f45915c6cd66b063593",
-          "title": "英傑華體育場：都柏林市中心的未來體育場 / Aviva Stadium : le stade futuriste au cœur de Dublin",
-          "url": "https://www.youtube.com/watch?v=AhlHc-0m9YA",
-          "source": "imineo Documentaires",
+          "id": "42f170952eee015e26b783937febd0a6e21a5838",
+          "title": "泰國TNF100越野跑賽！在叢林中溯溪越野50公里！",
+          "url": "https://www.youtube.com/watch?v=0CEiwKYIuvo",
+          "source": "Hiker CP",
           "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-13T14:30:29Z"
+          "site_id": "opmlrss",
+          "published_at": "2026-07-14T14:00:05Z"
         },
         {
           "id": "437c8cecf45fc62685cd9586fb54d7f15589bbc4",
@@ -93,15 +93,6 @@
           "published_at": "2026-07-14T12:00:32Z"
         },
         {
-          "id": "42f170952eee015e26b783937febd0a6e21a5838",
-          "title": "泰國TNF100越野跑賽！在叢林中溯溪越野50公里！",
-          "url": "https://www.youtube.com/watch?v=0CEiwKYIuvo",
-          "source": "Hiker CP",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-14T02:56:52Z"
-        },
-        {
           "id": "b360291492c2a49ea31344e09b8cf088211f6dae",
           "title": "美國末日飛機內部 / Inside the U.S. Doomsday Plane",
           "url": "https://www.youtube.com/watch?v=krSePO1QsDI",
@@ -111,14 +102,13 @@
           "published_at": "2026-07-13T16:23:28Z"
         }
       ],
-      "source_count": 11,
+      "source_count": 10,
       "source_names": [
         "Benjamin Cowen",
         "Best Documentary",
         "Hiker CP",
         "Tim Ferriss",
         "Timeline - World History Documentaries",
-        "imineo Documentaires",
         "neo",
         "忽左忽右",
         "沙發人物誌",
@@ -190,13 +180,13 @@
           "published_at": "2026-07-13T20:23:35Z"
         },
         {
-          "id": "cf2b1181aabf1c57e1d04f45915c6cd66b063593",
-          "title": "英傑華體育場：都柏林市中心的未來體育場 / Aviva Stadium : le stade futuriste au cœur de Dublin",
-          "url": "https://www.youtube.com/watch?v=AhlHc-0m9YA",
-          "source": "imineo Documentaires",
+          "id": "42f170952eee015e26b783937febd0a6e21a5838",
+          "title": "泰國TNF100越野跑賽！在叢林中溯溪越野50公里！",
+          "url": "https://www.youtube.com/watch?v=0CEiwKYIuvo",
+          "source": "Hiker CP",
           "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-13T14:30:29Z"
+          "site_id": "opmlrss",
+          "published_at": "2026-07-14T14:00:05Z"
         },
         {
           "id": "437c8cecf45fc62685cd9586fb54d7f15589bbc4",
@@ -208,15 +198,6 @@
           "published_at": "2026-07-14T12:00:32Z"
         },
         {
-          "id": "42f170952eee015e26b783937febd0a6e21a5838",
-          "title": "泰國TNF100越野跑賽！在叢林中溯溪越野50公里！",
-          "url": "https://www.youtube.com/watch?v=0CEiwKYIuvo",
-          "source": "Hiker CP",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-14T02:56:52Z"
-        },
-        {
           "id": "b360291492c2a49ea31344e09b8cf088211f6dae",
           "title": "美國末日飛機內部 / Inside the U.S. Doomsday Plane",
           "url": "https://www.youtube.com/watch?v=krSePO1QsDI",
@@ -226,28 +207,104 @@
           "published_at": "2026-07-13T16:23:28Z"
         }
       ],
-      "item_count": 11,
-      "duplicate_count": 11,
-      "score": 0.7398,
-      "importance": 0.7398,
-      "importance_score": 0.7398,
+      "item_count": 10,
+      "duplicate_count": 10,
+      "score": 0.7128,
+      "importance": 0.7128,
+      "importance_score": 0.7128,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9659,
+        "recency": 0.876,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-13T14:30:29Z",
-      "latest_at": "2026-07-14T12:00:32Z",
+      "earliest_at": "2026-07-13T16:23:28Z",
+      "latest_at": "2026-07-14T14:00:05Z",
       "primary_item": {
         "id": "5b907c8fdb4362267fb70a92cc06d38ba09e23e2",
         "title": "巴勃羅·埃斯科瓦爾 vs. 吉爾伯托·羅德里格斯：毒梟真實歷史 / Pablo Escobar vs. Gilberto Rodriguez: Narcos Real History",
         "url": "https://www.youtube.com/watch?v=Du3vowmh0ZU",
         "source": "Best Documentary",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_dcd5d4d1d84e",
+      "title": "紐約州州長 Kathy Hochul 簽署了一項暫停令，禁止向超過 50MW 的資料中心發放新的環境許可證，期限長達一年，這是第一個這樣做的州（Lauren Feiner/The Verge） / New York Governor Kathy Hochul signs a moratorium blocking new environmental permits for data centers over 50MW for up to one year, the first state to do so (Lauren Feiner/The Verge)",
+      "url": "https://www.techmeme.com/260714/p11",
+      "primary_url": "https://www.techmeme.com/260714/p11",
+      "source": "Techmeme",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "01d3bb333996d94ac097ce0101352ef1113ff77e",
+          "title": "紐約州州長 Kathy Hochul 簽署了一項暫停令，禁止向超過 50MW 的資料中心發放新的環境許可證，期限長達一年，這是第一個這樣做的州（Lauren Feiner/The Verge） / New York Governor Kathy Hochul signs a moratorium blocking new environmental permits for data centers over 50MW for up to one year, the first state to do so (Lauren Feiner/The Verge)",
+          "url": "https://www.techmeme.com/260714/p11",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-14T11:05:00Z"
+        },
+        {
+          "id": "4551eeecc2d1d05504f0c403e5973d3d40c6cb85",
+          "title": "紐約州州長 Kathy Hochul 簽署了一項暫停令，禁止向超過 50MW 的超大規模資料中心發放新許可證，期限長達一年，這是第一個這樣做的州（Lauren Feiner/The Verge） / New York Governor Kathy Hochul signs a moratorium blocking new permits for hyperscale data centers exceeding 50MW for up to one year, the first state to do so (Lauren Feiner/The Verge)",
+          "url": "https://www.techmeme.com/260714/p11",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-14T11:05:00Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Techmeme"
+      ],
+      "items": [
+        {
+          "id": "01d3bb333996d94ac097ce0101352ef1113ff77e",
+          "title": "紐約州州長 Kathy Hochul 簽署了一項暫停令，禁止向超過 50MW 的資料中心發放新的環境許可證，期限長達一年，這是第一個這樣做的州（Lauren Feiner/The Verge） / New York Governor Kathy Hochul signs a moratorium blocking new environmental permits for data centers over 50MW for up to one year, the first state to do so (Lauren Feiner/The Verge)",
+          "url": "https://www.techmeme.com/260714/p11",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-14T11:05:00Z"
+        },
+        {
+          "id": "4551eeecc2d1d05504f0c403e5973d3d40c6cb85",
+          "title": "紐約州州長 Kathy Hochul 簽署了一項暫停令，禁止向超過 50MW 的超大規模資料中心發放新許可證，期限長達一年，這是第一個這樣做的州（Lauren Feiner/The Verge） / New York Governor Kathy Hochul signs a moratorium blocking new permits for hyperscale data centers exceeding 50MW for up to one year, the first state to do so (Lauren Feiner/The Verge)",
+          "url": "https://www.techmeme.com/260714/p11",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-14T11:05:00Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5513,
+      "importance": 0.5513,
+      "importance_score": 0.5513,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.5,
+        "recency": 0.8378,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-14T11:05:00Z",
+      "latest_at": "2026-07-14T11:05:00Z",
+      "primary_item": {
+        "id": "01d3bb333996d94ac097ce0101352ef1113ff77e",
+        "title": "紐約州州長 Kathy Hochul 簽署了一項暫停令，禁止向超過 50MW 的資料中心發放新的環境許可證，期限長達一年，這是第一個這樣做的州（Lauren Feiner/The Verge） / New York Governor Kathy Hochul signs a moratorium blocking new environmental permits for data centers over 50MW for up to one year, the first state to do so (Lauren Feiner/The Verge)",
+        "url": "https://www.techmeme.com/260714/p11",
+        "source": "Techmeme",
         "source_name": "OPML RSS"
       }
     },
@@ -304,13 +361,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4263,
-      "importance": 0.4263,
-      "importance_score": 0.4263,
+      "score": 0.3994,
+      "importance": 0.3994,
+      "importance_score": 0.3994,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.4211,
+        "recency": 0.3313,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -380,13 +437,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3023,
-      "importance": 0.3023,
-      "importance_score": 0.3023,
+      "score": 0.2754,
+      "importance": 0.2754,
+      "importance_score": 0.2754,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.4244,
+        "recency": 0.3345,
         "story_heat": 0.25
       },
       "category": "watch",
