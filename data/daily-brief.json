@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-07-14T21:05:10.723047Z",
+  "generated_at": "2026-07-14T22:31:48.232180Z",
   "window_hours": 24,
   "total_items": 5,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "大腦內部：我們實際上如何辨識臉孔 / Inside the Brain: How We Actually Recognize Faces",
-      "url": "https://www.youtube.com/watch?v=dKzXi9NVp2c",
-      "primary_url": "https://www.youtube.com/watch?v=dKzXi9NVp2c",
-      "source": "Best Documentary",
+      "title": "太吓人了，IBM暴跌25%居然怪客户？CPI暴跌，新高不远了！",
+      "url": "https://www.youtube.com/watch?v=0EWpXNaNZew",
+      "primary_url": "https://www.youtube.com/watch?v=0EWpXNaNZew",
+      "source": "Shepherd Capital Markets",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "11428ef1c8f98aeea3987a3c3ab264972480c386",
+          "title": "太吓人了，IBM暴跌25%居然怪客户？CPI暴跌，新高不远了！",
+          "url": "https://www.youtube.com/watch?v=0EWpXNaNZew",
+          "source": "Shepherd Capital Markets",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-14T21:50:59Z"
+        },
         {
           "id": "721a58c3b930489dc4fc80254626e590c9796f64",
           "title": "大腦內部：我們實際上如何辨識臉孔 / Inside the Brain: How We Actually Recognize Faces",
@@ -138,13 +147,14 @@
           "published_at": "2026-07-14T16:35:13Z"
         }
       ],
-      "source_count": 14,
+      "source_count": 15,
       "source_names": [
         "Benjamin Cowen",
         "Best Documentary",
         "Hiker CP",
         "Kilian Jornet Burgada",
         "OBF",
+        "Shepherd Capital Markets",
         "Timeline - World History Documentaries",
         "Veritasium",
         "忽左忽右",
@@ -154,6 +164,15 @@
       ],
       "items": [
         {
+          "id": "11428ef1c8f98aeea3987a3c3ab264972480c386",
+          "title": "太吓人了，IBM暴跌25%居然怪客户？CPI暴跌，新高不远了！",
+          "url": "https://www.youtube.com/watch?v=0EWpXNaNZew",
+          "source": "Shepherd Capital Markets",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-14T21:50:59Z"
+        },
+        {
           "id": "721a58c3b930489dc4fc80254626e590c9796f64",
           "title": "大腦內部：我們實際上如何辨識臉孔 / Inside the Brain: How We Actually Recognize Faces",
           "url": "https://www.youtube.com/watch?v=dKzXi9NVp2c",
@@ -280,15 +299,15 @@
           "published_at": "2026-07-14T16:35:13Z"
         }
       ],
-      "item_count": 14,
-      "duplicate_count": 14,
-      "score": 0.749,
-      "importance": 0.749,
-      "importance_score": 0.749,
+      "item_count": 15,
+      "duplicate_count": 15,
+      "score": 0.7415,
+      "importance": 0.7415,
+      "importance_score": 0.7415,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9966,
+        "recency": 0.9717,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -296,12 +315,12 @@
         "multi_source"
       ],
       "earliest_at": "2026-07-13T23:33:40Z",
-      "latest_at": "2026-07-14T21:00:20Z",
+      "latest_at": "2026-07-14T21:50:59Z",
       "primary_item": {
-        "id": "721a58c3b930489dc4fc80254626e590c9796f64",
-        "title": "大腦內部：我們實際上如何辨識臉孔 / Inside the Brain: How We Actually Recognize Faces",
-        "url": "https://www.youtube.com/watch?v=dKzXi9NVp2c",
-        "source": "Best Documentary",
+        "id": "11428ef1c8f98aeea3987a3c3ab264972480c386",
+        "title": "太吓人了，IBM暴跌25%居然怪客户？CPI暴跌，新高不远了！",
+        "url": "https://www.youtube.com/watch?v=0EWpXNaNZew",
+        "source": "Shepherd Capital Markets",
         "source_name": "OPML RSS"
       }
     },
@@ -358,13 +377,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5198,
-      "importance": 0.5198,
-      "importance_score": 0.5198,
+      "score": 0.5017,
+      "importance": 0.5017,
+      "importance_score": 0.5017,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7325,
+        "recency": 0.6724,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -434,13 +453,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.475,
-      "importance": 0.475,
-      "importance_score": 0.475,
+      "score": 0.4569,
+      "importance": 0.4569,
+      "importance_score": 0.4569,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.5832,
+        "recency": 0.5231,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -510,13 +529,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.323,
-      "importance": 0.323,
-      "importance_score": 0.323,
+      "score": 0.305,
+      "importance": 0.305,
+      "importance_score": 0.305,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.0767,
+        "recency": 0.0165,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -586,13 +605,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.199,
-      "importance": 0.199,
-      "importance_score": 0.199,
+      "score": 0.1809,
+      "importance": 0.1809,
+      "importance_score": 0.1809,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.0799,
+        "recency": 0.0198,
         "story_heat": 0.25
       },
       "category": "watch",
