@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T00:58:22.690109Z",
+  "generated_at": "2026-07-14T04:11:12.164028Z",
   "window_hours": 24,
   "total_items": 3,
   "items": [
@@ -66,15 +66,6 @@
           "published_at": "2026-07-13T09:00:11Z"
         },
         {
-          "id": "5553b2728fb2d85a4586735b94a16fb35061990b",
-          "title": "2026 年黃金之路 / Gold Path for 2026",
-          "url": "https://www.youtube.com/watch?v=sjt1LV2iDog",
-          "source": "Benjamin Cowen",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-13T04:08:52Z"
-        },
-        {
           "id": "b360291492c2a49ea31344e09b8cf088211f6dae",
           "title": "美國末日飛機內部 / Inside the U.S. Doomsday Plane",
           "url": "https://www.youtube.com/watch?v=krSePO1QsDI",
@@ -102,9 +93,8 @@
           "published_at": "2026-07-13T11:00:16Z"
         }
       ],
-      "source_count": 10,
+      "source_count": 9,
       "source_names": [
-        "Benjamin Cowen",
         "Best Documentary",
         "DenQ來了",
         "NPR Music",
@@ -171,15 +161,6 @@
           "published_at": "2026-07-13T09:00:11Z"
         },
         {
-          "id": "5553b2728fb2d85a4586735b94a16fb35061990b",
-          "title": "2026 年黃金之路 / Gold Path for 2026",
-          "url": "https://www.youtube.com/watch?v=sjt1LV2iDog",
-          "source": "Benjamin Cowen",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-13T04:08:52Z"
-        },
-        {
           "id": "b360291492c2a49ea31344e09b8cf088211f6dae",
           "title": "美國末日飛機內部 / Inside the U.S. Doomsday Plane",
           "url": "https://www.youtube.com/watch?v=krSePO1QsDI",
@@ -207,22 +188,22 @@
           "published_at": "2026-07-13T11:00:16Z"
         }
       ],
-      "item_count": 10,
-      "duplicate_count": 10,
-      "score": 0.7324,
-      "importance": 0.7324,
-      "importance_score": 0.7324,
+      "item_count": 9,
+      "duplicate_count": 9,
+      "score": 0.6922,
+      "importance": 0.6922,
+      "importance_score": 0.6922,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9412,
+        "recency": 0.8073,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-13T04:08:52Z",
+      "earliest_at": "2026-07-13T04:45:06Z",
       "latest_at": "2026-07-13T23:33:40Z",
       "primary_item": {
         "id": "930303b522e5f9fc19a32e69ca2f38774f386e7d",
@@ -285,13 +266,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.418,
-      "importance": 0.418,
-      "importance_score": 0.418,
+      "score": 0.3779,
+      "importance": 0.3779,
+      "importance_score": 0.3779,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.3935,
+        "recency": 0.2596,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -361,13 +342,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.413,
-      "importance": 0.413,
-      "importance_score": 0.413,
+      "score": 0.3728,
+      "importance": 0.3728,
+      "importance_score": 0.3728,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.3767,
+        "recency": 0.2428,
         "story_heat": 0.25
       },
       "category": "watch",
