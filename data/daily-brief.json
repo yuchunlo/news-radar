@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T16:22:56.238369Z",
+  "generated_at": "2026-07-14T17:42:08.669615Z",
   "window_hours": 24,
   "total_items": 5,
   "items": [
@@ -84,6 +84,15 @@
           "published_at": "2026-07-14T15:17:32Z"
         },
         {
+          "id": "7ca6ae1791a41886d43ac42db2da967538b0736a",
+          "title": "為什麼蘇黎世禁止汽車進入城市 / Why Zurich Stops Cars From Entering The City",
+          "url": "https://www.youtube.com/watch?v=kew0EIR5oxk",
+          "source": "OBF",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-14T15:17:32Z"
+        },
+        {
           "id": "42f170952eee015e26b783937febd0a6e21a5838",
           "title": "泰國TNF100越野跑賽！在叢林中溯溪越野50公里！",
           "url": "https://www.youtube.com/watch?v=0CEiwKYIuvo",
@@ -102,24 +111,24 @@
           "published_at": "2026-07-14T12:00:32Z"
         },
         {
-          "id": "b360291492c2a49ea31344e09b8cf088211f6dae",
-          "title": "美國末日飛機內部 / Inside the U.S. Doomsday Plane",
-          "url": "https://www.youtube.com/watch?v=krSePO1QsDI",
-          "source": "neo",
+          "id": "2f655530a0f83e3c8db2879126b46914f0e2fa5e",
+          "title": "對話漢斯·特洛耶 / In conversation with: Hans Troyer",
+          "url": "https://www.youtube.com/watch?v=P3V_R44Sv5w",
+          "source": "Kilian Jornet Burgada",
           "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-13T16:23:28Z"
+          "site_id": "functionality",
+          "published_at": "2026-07-14T16:35:13Z"
         }
       ],
-      "source_count": 11,
+      "source_count": 12,
       "source_names": [
         "Benjamin Cowen",
         "Best Documentary",
         "Hiker CP",
+        "Kilian Jornet Burgada",
         "OBF",
         "Tim Ferriss",
         "Timeline - World History Documentaries",
-        "neo",
         "忽左忽右",
         "沙發人物誌",
         "矽谷輕鬆談 Just Kidding Tech",
@@ -199,6 +208,15 @@
           "published_at": "2026-07-14T15:17:32Z"
         },
         {
+          "id": "7ca6ae1791a41886d43ac42db2da967538b0736a",
+          "title": "為什麼蘇黎世禁止汽車進入城市 / Why Zurich Stops Cars From Entering The City",
+          "url": "https://www.youtube.com/watch?v=kew0EIR5oxk",
+          "source": "OBF",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-14T15:17:32Z"
+        },
+        {
           "id": "42f170952eee015e26b783937febd0a6e21a5838",
           "title": "泰國TNF100越野跑賽！在叢林中溯溪越野50公里！",
           "url": "https://www.youtube.com/watch?v=0CEiwKYIuvo",
@@ -217,32 +235,32 @@
           "published_at": "2026-07-14T12:00:32Z"
         },
         {
-          "id": "b360291492c2a49ea31344e09b8cf088211f6dae",
-          "title": "美國末日飛機內部 / Inside the U.S. Doomsday Plane",
-          "url": "https://www.youtube.com/watch?v=krSePO1QsDI",
-          "source": "neo",
+          "id": "2f655530a0f83e3c8db2879126b46914f0e2fa5e",
+          "title": "對話漢斯·特洛耶 / In conversation with: Hans Troyer",
+          "url": "https://www.youtube.com/watch?v=P3V_R44Sv5w",
+          "source": "Kilian Jornet Burgada",
           "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-13T16:23:28Z"
+          "site_id": "functionality",
+          "published_at": "2026-07-14T16:35:13Z"
         }
       ],
-      "item_count": 11,
-      "duplicate_count": 11,
-      "score": 0.6952,
-      "importance": 0.6952,
-      "importance_score": 0.6952,
+      "item_count": 12,
+      "duplicate_count": 12,
+      "score": 0.6787,
+      "importance": 0.6787,
+      "importance_score": 0.6787,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.8174,
+        "recency": 0.7624,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-13T16:23:28Z",
-      "latest_at": "2026-07-14T15:17:32Z",
+      "earliest_at": "2026-07-13T20:23:35Z",
+      "latest_at": "2026-07-14T16:35:13Z",
       "primary_item": {
         "id": "5b907c8fdb4362267fb70a92cc06d38ba09e23e2",
         "title": "巴勃羅·埃斯科瓦爾 vs. 吉爾伯托·羅德里格斯：毒梟真實歷史 / Pablo Escobar vs. Gilberto Rodriguez: Narcos Real History",
@@ -304,13 +322,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5786,
-      "importance": 0.5786,
-      "importance_score": 0.5786,
+      "score": 0.5621,
+      "importance": 0.5621,
+      "importance_score": 0.5621,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9285,
+        "recency": 0.8735,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -380,13 +398,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5338,
-      "importance": 0.5338,
-      "importance_score": 0.5338,
+      "score": 0.5173,
+      "importance": 0.5173,
+      "importance_score": 0.5173,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7792,
+        "recency": 0.7242,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -456,13 +474,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3818,
-      "importance": 0.3818,
-      "importance_score": 0.3818,
+      "score": 0.3653,
+      "importance": 0.3653,
+      "importance_score": 0.3653,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.2727,
+        "recency": 0.2177,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -532,13 +550,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.2578,
-      "importance": 0.2578,
-      "importance_score": 0.2578,
+      "score": 0.2413,
+      "importance": 0.2413,
+      "importance_score": 0.2413,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.2759,
+        "recency": 0.2209,
         "story_heat": 0.25
       },
       "category": "watch",
