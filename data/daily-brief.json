@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-14T09:08:50.304000Z",
+  "generated_at": "2026-07-14T11:08:51.508618Z",
   "window_hours": 24,
-  "total_items": 5,
+  "total_items": 3,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
@@ -91,22 +91,12 @@
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
           "published_at": "2026-07-13T16:23:28Z"
-        },
-        {
-          "id": "f892721a874e1d2f77905f15b897df8d3f945e0c",
-          "title": "被IG網美店騙怕了？韓國人比米其林更相信的‘郵其林’到底是什麼？｜DenQ",
-          "url": "https://www.youtube.com/watch?v=TpV4C06zToc",
-          "source": "DenQ來了",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-13T11:00:16Z"
         }
       ],
-      "source_count": 10,
+      "source_count": 9,
       "source_names": [
         "Benjamin Cowen",
         "Best Documentary",
-        "DenQ來了",
         "Hiker CP",
         "Tim Ferriss",
         "Timeline - World History Documentaries",
@@ -196,33 +186,24 @@
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
           "published_at": "2026-07-13T16:23:28Z"
-        },
-        {
-          "id": "f892721a874e1d2f77905f15b897df8d3f945e0c",
-          "title": "被IG網美店騙怕了？韓國人比米其林更相信的‘郵其林’到底是什麼？｜DenQ",
-          "url": "https://www.youtube.com/watch?v=TpV4C06zToc",
-          "source": "DenQ來了",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-13T11:00:16Z"
         }
       ],
-      "item_count": 10,
-      "duplicate_count": 10,
-      "score": 0.7423,
-      "importance": 0.7423,
-      "importance_score": 0.7423,
+      "item_count": 9,
+      "duplicate_count": 9,
+      "score": 0.7173,
+      "importance": 0.7173,
+      "importance_score": 0.7173,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9743,
+        "recency": 0.8909,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-13T11:00:16Z",
+      "earliest_at": "2026-07-13T12:00:28Z",
       "latest_at": "2026-07-14T08:31:46Z",
       "primary_item": {
         "id": "dfc91bca987ad27aef60c472eeec8d97554e17bb",
@@ -285,13 +266,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4722,
-      "importance": 0.4722,
-      "importance_score": 0.4722,
+      "score": 0.4472,
+      "importance": 0.4472,
+      "importance_score": 0.4472,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.5741,
+        "recency": 0.4908,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -361,13 +342,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3482,
-      "importance": 0.3482,
-      "importance_score": 0.3482,
+      "score": 0.3232,
+      "importance": 0.3232,
+      "importance_score": 0.3232,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.5774,
+        "recency": 0.494,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -381,158 +362,6 @@
         "title": "中國記憶體雙雄大撒幣擴產，長鑫存儲年底產能直逼美光",
         "url": "https://finance.technews.tw/2026/07/14/chinas-two-memory-chip-giants-are-spending-heavily-to-expand-production",
         "source": "財經 – TechNews 科技新報",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_7d4d8df3e46f",
-      "title": "由於投資者在美國股票估值不確定的情況下獲利了結，SK 海力士股價在首爾下跌 15% 以上，創歷史最大跌幅，在納斯達克上市後表現強勁（Lee Ying Shan/CNBC） / SK Hynix's shares fall 15%+ in Seoul, posting its largest-ever fall, after a strong Nasdaq debut, as investors book profit amid US share valuation uncertainty (Lee Ying Shan/CNBC)",
-      "url": "https://www.techmeme.com/260713/p12",
-      "primary_url": "https://www.techmeme.com/260713/p12",
-      "source": "Techmeme",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "734ec493ab0c67f9c185707bc59e4cb7c15b41d5",
-          "title": "由於投資者在美國股票估值不確定的情況下獲利了結，SK 海力士股價在首爾下跌 15% 以上，創歷史最大跌幅，在納斯達克上市後表現強勁（Lee Ying Shan/CNBC） / SK Hynix's shares fall 15%+ in Seoul, posting its largest-ever fall, after a strong Nasdaq debut, as investors book profit amid US share valuation uncertainty (Lee Ying Shan/CNBC)",
-          "url": "https://www.techmeme.com/260713/p12",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-13T10:25:00Z"
-        },
-        {
-          "id": "d8ad9d9d61c0144d52402f0ff4e563ec96e766bf",
-          "title": "SK 海力士股價在納斯達克上市後，在首爾下跌 15% 以上，創歷史最大跌幅，原因是投資者在美國股票估值不確定的情況下獲利了結（Lee Ying Shan/CNBC） / SK Hynix's stock falls 15%+ in Seoul, its largest-ever decline, after a strong Nasdaq debut, as investors book profits amid its US stock valuation uncertainty (Lee Ying Shan/CNBC)",
-          "url": "https://www.techmeme.com/260713/p12",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-13T10:25:00Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Techmeme"
-      ],
-      "items": [
-        {
-          "id": "734ec493ab0c67f9c185707bc59e4cb7c15b41d5",
-          "title": "由於投資者在美國股票估值不確定的情況下獲利了結，SK 海力士股價在首爾下跌 15% 以上，創歷史最大跌幅，在納斯達克上市後表現強勁（Lee Ying Shan/CNBC） / SK Hynix's shares fall 15%+ in Seoul, posting its largest-ever fall, after a strong Nasdaq debut, as investors book profit amid US share valuation uncertainty (Lee Ying Shan/CNBC)",
-          "url": "https://www.techmeme.com/260713/p12",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-13T10:25:00Z"
-        },
-        {
-          "id": "d8ad9d9d61c0144d52402f0ff4e563ec96e766bf",
-          "title": "SK 海力士股價在納斯達克上市後，在首爾下跌 15% 以上，創歷史最大跌幅，原因是投資者在美國股票估值不確定的情況下獲利了結（Lee Ying Shan/CNBC） / SK Hynix's stock falls 15%+ in Seoul, its largest-ever decline, after a strong Nasdaq debut, as investors book profits amid its US stock valuation uncertainty (Lee Ying Shan/CNBC)",
-          "url": "https://www.techmeme.com/260713/p12",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-13T10:25:00Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.3159,
-      "importance": 0.3159,
-      "importance_score": 0.3159,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.5,
-        "recency": 0.0529,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-13T10:25:00Z",
-      "latest_at": "2026-07-13T10:25:00Z",
-      "primary_item": {
-        "id": "734ec493ab0c67f9c185707bc59e4cb7c15b41d5",
-        "title": "由於投資者在美國股票估值不確定的情況下獲利了結，SK 海力士股價在首爾下跌 15% 以上，創歷史最大跌幅，在納斯達克上市後表現強勁（Lee Ying Shan/CNBC） / SK Hynix's shares fall 15%+ in Seoul, posting its largest-ever fall, after a strong Nasdaq debut, as investors book profit amid US share valuation uncertainty (Lee Ying Shan/CNBC)",
-        "url": "https://www.techmeme.com/260713/p12",
-        "source": "Techmeme",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_6f4034bd26e9",
-      "title": "歐盟委員會主席烏蘇拉·馮德萊恩表示，夏季過後，歐盟將提出一個“未成年人社交媒體開始日期”，並“逐步使用”（Barbara Moens/金融時報） / European Commission President Ursula von der Leyen says after the summer the bloc is set to propose a \"social media start date for minors\" with \"gradual access\" (Barbara Moens/Financial Times)",
-      "url": "https://www.techmeme.com/260713/p10",
-      "primary_url": "https://www.techmeme.com/260713/p10",
-      "source": "Techmeme",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "3f774ebc2b18c94949bd37c652060245061c26c6",
-          "title": "歐盟委員會主席烏蘇拉·馮德萊恩表示，夏季過後，歐盟將提出一個“未成年人社交媒體開始日期”，並“逐步使用”（Barbara Moens/金融時報） / European Commission President Ursula von der Leyen says after the summer the bloc is set to propose a \"social media start date for minors\" with \"gradual access\" (Barbara Moens/Financial Times)",
-          "url": "https://www.techmeme.com/260713/p10",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-13T10:00:52Z"
-        },
-        {
-          "id": "61d9ce988f058f68b20e1b498447c6f3c5b2f3ea",
-          "title": "歐盟委員會主席烏蘇拉·馮德萊恩表示，歐盟將在暑假後提出「未成年社群媒體開始日期」（Barbara Moens/金融時報） / European Commission President Ursula von der Leyen says the bloc is set to propose a \"social media start date for minors\", with a proposal after a summer break (Barbara Moens/Financial Times)",
-          "url": "https://www.techmeme.com/260713/p10",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-13T10:00:52Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Techmeme"
-      ],
-      "items": [
-        {
-          "id": "3f774ebc2b18c94949bd37c652060245061c26c6",
-          "title": "歐盟委員會主席烏蘇拉·馮德萊恩表示，夏季過後，歐盟將提出一個“未成年人社交媒體開始日期”，並“逐步使用”（Barbara Moens/金融時報） / European Commission President Ursula von der Leyen says after the summer the bloc is set to propose a \"social media start date for minors\" with \"gradual access\" (Barbara Moens/Financial Times)",
-          "url": "https://www.techmeme.com/260713/p10",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-13T10:00:52Z"
-        },
-        {
-          "id": "61d9ce988f058f68b20e1b498447c6f3c5b2f3ea",
-          "title": "歐盟委員會主席烏蘇拉·馮德萊恩表示，歐盟將在暑假後提出「未成年社群媒體開始日期」（Barbara Moens/金融時報） / European Commission President Ursula von der Leyen says the bloc is set to propose a \"social media start date for minors\", with a proposal after a summer break (Barbara Moens/Financial Times)",
-          "url": "https://www.techmeme.com/260713/p10",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-13T10:00:52Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.3108,
-      "importance": 0.3108,
-      "importance_score": 0.3108,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.5,
-        "recency": 0.0361,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-13T10:00:52Z",
-      "latest_at": "2026-07-13T10:00:52Z",
-      "primary_item": {
-        "id": "3f774ebc2b18c94949bd37c652060245061c26c6",
-        "title": "歐盟委員會主席烏蘇拉·馮德萊恩表示，夏季過後，歐盟將提出一個“未成年人社交媒體開始日期”，並“逐步使用”（Barbara Moens/金融時報） / European Commission President Ursula von der Leyen says after the summer the bloc is set to propose a \"social media start date for minors\" with \"gradual access\" (Barbara Moens/Financial Times)",
-        "url": "https://www.techmeme.com/260713/p10",
-        "source": "Techmeme",
         "source_name": "OPML RSS"
       }
     }
