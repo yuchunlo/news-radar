@@ -1,16 +1,34 @@
 {
-  "generated_at": "2026-07-14T06:36:06.488774Z",
+  "generated_at": "2026-07-14T09:08:50.304000Z",
   "window_hours": 24,
-  "total_items": 4,
+  "total_items": 5,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "明天就吃TACO！聪明钱在偷偷加仓？设备股要翻身了？马斯克又来拱火？",
-      "url": "https://www.youtube.com/watch?v=-jiPzp5eF18",
-      "primary_url": "https://www.youtube.com/watch?v=-jiPzp5eF18",
-      "source": "美投侃新闻",
+      "title": "誰能擋得住法國？2026 世界盃四強全解析！史上第一次 FIFA 前四強全數歸位",
+      "url": "https://www.youtube.com/watch?v=stGMmMf4k5w",
+      "primary_url": "https://www.youtube.com/watch?v=stGMmMf4k5w",
+      "source": "矽谷輕鬆談 Just Kidding Tech",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "dfc91bca987ad27aef60c472eeec8d97554e17bb",
+          "title": "誰能擋得住法國？2026 世界盃四強全解析！史上第一次 FIFA 前四強全數歸位",
+          "url": "https://www.youtube.com/watch?v=stGMmMf4k5w",
+          "source": "矽谷輕鬆談 Just Kidding Tech",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-14T08:31:46Z"
+        },
+        {
+          "id": "a532904d7adf623eeb3c663109f6418d746e0fb5",
+          "title": "了解比特幣熊市 / Understanding This Bitcoin Bear Market",
+          "url": "https://www.youtube.com/watch?v=Wf7vUIoGQrE",
+          "source": "Benjamin Cowen",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-14T02:58:31Z"
+        },
         {
           "id": "930303b522e5f9fc19a32e69ca2f38774f386e7d",
           "title": "明天就吃TACO！聪明钱在偷偷加仓？设备股要翻身了？马斯克又来拱火？",
@@ -57,13 +75,13 @@
           "published_at": "2026-07-13T12:00:28Z"
         },
         {
-          "id": "7c81d96e459a12193127cc0a813f45b688cdf44b",
-          "title": "跳蚤和霍諾拉樂隊：小桌子音樂會 / Flea and the Honora Band: Tiny Desk Concert",
-          "url": "https://www.youtube.com/watch?v=dQK2U-KrhuA",
-          "source": "NPR Music",
+          "id": "42f170952eee015e26b783937febd0a6e21a5838",
+          "title": "泰國TNF100越野跑賽！在叢林中溯溪越野50公里！",
+          "url": "https://www.youtube.com/watch?v=0CEiwKYIuvo",
+          "source": "Hiker CP",
           "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-13T09:00:11Z"
+          "site_id": "opmlrss",
+          "published_at": "2026-07-14T02:56:52Z"
         },
         {
           "id": "b360291492c2a49ea31344e09b8cf088211f6dae",
@@ -84,18 +102,38 @@
           "published_at": "2026-07-13T11:00:16Z"
         }
       ],
-      "source_count": 8,
+      "source_count": 10,
       "source_names": [
+        "Benjamin Cowen",
         "Best Documentary",
         "DenQ來了",
-        "NPR Music",
+        "Hiker CP",
         "Tim Ferriss",
         "Timeline - World History Documentaries",
         "imineo Documentaires",
         "neo",
+        "矽谷輕鬆談 Just Kidding Tech",
         "美投侃新闻"
       ],
       "items": [
+        {
+          "id": "dfc91bca987ad27aef60c472eeec8d97554e17bb",
+          "title": "誰能擋得住法國？2026 世界盃四強全解析！史上第一次 FIFA 前四強全數歸位",
+          "url": "https://www.youtube.com/watch?v=stGMmMf4k5w",
+          "source": "矽谷輕鬆談 Just Kidding Tech",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-14T08:31:46Z"
+        },
+        {
+          "id": "a532904d7adf623eeb3c663109f6418d746e0fb5",
+          "title": "了解比特幣熊市 / Understanding This Bitcoin Bear Market",
+          "url": "https://www.youtube.com/watch?v=Wf7vUIoGQrE",
+          "source": "Benjamin Cowen",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-14T02:58:31Z"
+        },
         {
           "id": "930303b522e5f9fc19a32e69ca2f38774f386e7d",
           "title": "明天就吃TACO！聪明钱在偷偷加仓？设备股要翻身了？马斯克又来拱火？",
@@ -142,13 +180,13 @@
           "published_at": "2026-07-13T12:00:28Z"
         },
         {
-          "id": "7c81d96e459a12193127cc0a813f45b688cdf44b",
-          "title": "跳蚤和霍諾拉樂隊：小桌子音樂會 / Flea and the Honora Band: Tiny Desk Concert",
-          "url": "https://www.youtube.com/watch?v=dQK2U-KrhuA",
-          "source": "NPR Music",
+          "id": "42f170952eee015e26b783937febd0a6e21a5838",
+          "title": "泰國TNF100越野跑賽！在叢林中溯溪越野50公里！",
+          "url": "https://www.youtube.com/watch?v=0CEiwKYIuvo",
+          "source": "Hiker CP",
           "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-13T09:00:11Z"
+          "site_id": "opmlrss",
+          "published_at": "2026-07-14T02:56:52Z"
         },
         {
           "id": "b360291492c2a49ea31344e09b8cf088211f6dae",
@@ -169,28 +207,104 @@
           "published_at": "2026-07-13T11:00:16Z"
         }
       ],
-      "item_count": 8,
-      "duplicate_count": 8,
-      "score": 0.662,
-      "importance": 0.662,
-      "importance_score": 0.662,
+      "item_count": 10,
+      "duplicate_count": 10,
+      "score": 0.7423,
+      "importance": 0.7423,
+      "importance_score": 0.7423,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7066,
+        "recency": 0.9743,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-13T09:00:11Z",
-      "latest_at": "2026-07-13T23:33:40Z",
+      "earliest_at": "2026-07-13T11:00:16Z",
+      "latest_at": "2026-07-14T08:31:46Z",
       "primary_item": {
-        "id": "930303b522e5f9fc19a32e69ca2f38774f386e7d",
-        "title": "明天就吃TACO！聪明钱在偷偷加仓？设备股要翻身了？马斯克又来拱火？",
-        "url": "https://www.youtube.com/watch?v=-jiPzp5eF18",
-        "source": "美投侃新闻",
+        "id": "dfc91bca987ad27aef60c472eeec8d97554e17bb",
+        "title": "誰能擋得住法國？2026 世界盃四強全解析！史上第一次 FIFA 前四強全數歸位",
+        "url": "https://www.youtube.com/watch?v=stGMmMf4k5w",
+        "source": "矽谷輕鬆談 Just Kidding Tech",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_4c627d20a110",
+      "title": "蘋果發布了 iOS 27、iPadOS 27、macOS 27 Golden Gate、watchOS 27 和 tvOS 27 的首個公開測試版，標誌著新 Siri AI 的首次公開發布（Will Shanklin/Engadget） / Apple releases the first public betas of iOS 27, iPadOS 27, macOS 27 Golden Gate, watchOS 27, and tvOS 27, marking the new Siri AI's first public launch (Will Shanklin/Engadget)",
+      "url": "https://www.techmeme.com/260713/p31",
+      "primary_url": "https://www.techmeme.com/260713/p31",
+      "source": "Techmeme",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "ff4b402d28ab2a0d8c686c9c2cc8240612e2b9ee",
+          "title": "蘋果發布了 iOS 27、iPadOS 27、macOS 27 Golden Gate、watchOS 27 和 tvOS 27 的首個公開測試版，標誌著新 Siri AI 的首次公開發布（Will Shanklin/Engadget） / Apple releases the first public betas of iOS 27, iPadOS 27, macOS 27 Golden Gate, watchOS 27, and tvOS 27, marking the new Siri AI's first public launch (Will Shanklin/Engadget)",
+          "url": "https://www.techmeme.com/260713/p31",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-13T22:55:35Z"
+        },
+        {
+          "id": "6ecadcaa8d2f7e2cd9736dd00cfd97d6a0deb163",
+          "title": "蘋果發布了 iOS 27、iPadOS 27、macOS 27 Golden Gate、watchOS 27 和 tvOS 27 的首個公開測試版，標誌著新 Siri AI 的公開亮相（Will Shanklin/Engadget） / Apple releases the first public betas of iOS 27, iPadOS 27, macOS 27 Golden Gate, watchOS 27, and tvOS 27, marking the public debut of the new Siri AI (Will Shanklin/Engadget)",
+          "url": "https://www.techmeme.com/260713/p31",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-13T22:55:35Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Techmeme"
+      ],
+      "items": [
+        {
+          "id": "ff4b402d28ab2a0d8c686c9c2cc8240612e2b9ee",
+          "title": "蘋果發布了 iOS 27、iPadOS 27、macOS 27 Golden Gate、watchOS 27 和 tvOS 27 的首個公開測試版，標誌著新 Siri AI 的首次公開發布（Will Shanklin/Engadget） / Apple releases the first public betas of iOS 27, iPadOS 27, macOS 27 Golden Gate, watchOS 27, and tvOS 27, marking the new Siri AI's first public launch (Will Shanklin/Engadget)",
+          "url": "https://www.techmeme.com/260713/p31",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-13T22:55:35Z"
+        },
+        {
+          "id": "6ecadcaa8d2f7e2cd9736dd00cfd97d6a0deb163",
+          "title": "蘋果發布了 iOS 27、iPadOS 27、macOS 27 Golden Gate、watchOS 27 和 tvOS 27 的首個公開測試版，標誌著新 Siri AI 的公開亮相（Will Shanklin/Engadget） / Apple releases the first public betas of iOS 27, iPadOS 27, macOS 27 Golden Gate, watchOS 27, and tvOS 27, marking the public debut of the new Siri AI (Will Shanklin/Engadget)",
+          "url": "https://www.techmeme.com/260713/p31",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-13T22:55:35Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.4722,
+      "importance": 0.4722,
+      "importance_score": 0.4722,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.5,
+        "recency": 0.5741,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-13T22:55:35Z",
+      "latest_at": "2026-07-13T22:55:35Z",
+      "primary_item": {
+        "id": "ff4b402d28ab2a0d8c686c9c2cc8240612e2b9ee",
+        "title": "蘋果發布了 iOS 27、iPadOS 27、macOS 27 Golden Gate、watchOS 27 和 tvOS 27 的首個公開測試版，標誌著新 Siri AI 的首次公開發布（Will Shanklin/Engadget） / Apple releases the first public betas of iOS 27, iPadOS 27, macOS 27 Golden Gate, watchOS 27, and tvOS 27, marking the new Siri AI's first public launch (Will Shanklin/Engadget)",
+        "url": "https://www.techmeme.com/260713/p31",
+        "source": "Techmeme",
         "source_name": "OPML RSS"
       }
     },
@@ -247,13 +361,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.38,
-      "importance": 0.38,
-      "importance_score": 0.38,
+      "score": 0.3482,
+      "importance": 0.3482,
+      "importance_score": 0.3482,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.6834,
+        "recency": 0.5774,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -323,13 +437,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3477,
-      "importance": 0.3477,
-      "importance_score": 0.3477,
+      "score": 0.3159,
+      "importance": 0.3159,
+      "importance_score": 0.3159,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.159,
+        "recency": 0.0529,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -399,13 +513,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3427,
-      "importance": 0.3427,
-      "importance_score": 0.3427,
+      "score": 0.3108,
+      "importance": 0.3108,
+      "importance_score": 0.3108,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.1422,
+        "recency": 0.0361,
         "story_heat": 0.25
       },
       "category": "watch",
