@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-14T14:58:33.105541Z",
+  "generated_at": "2026-07-14T16:22:56.238369Z",
   "window_hours": 24,
-  "total_items": 4,
+  "total_items": 5,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
@@ -75,6 +75,15 @@
           "published_at": "2026-07-13T20:23:35Z"
         },
         {
+          "id": "4e764169ea14ddb3cb6952337a44f4f1be203d0a",
+          "title": "讓駕駛變得更糟修復了這座城市的交通 / Making Driving Worse Fixed This City's Traffic",
+          "url": "https://www.youtube.com/watch?v=kew0EIR5oxk",
+          "source": "OBF",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-14T15:17:32Z"
+        },
+        {
           "id": "42f170952eee015e26b783937febd0a6e21a5838",
           "title": "泰國TNF100越野跑賽！在叢林中溯溪越野50公里！",
           "url": "https://www.youtube.com/watch?v=0CEiwKYIuvo",
@@ -102,11 +111,12 @@
           "published_at": "2026-07-13T16:23:28Z"
         }
       ],
-      "source_count": 10,
+      "source_count": 11,
       "source_names": [
         "Benjamin Cowen",
         "Best Documentary",
         "Hiker CP",
+        "OBF",
         "Tim Ferriss",
         "Timeline - World History Documentaries",
         "neo",
@@ -180,6 +190,15 @@
           "published_at": "2026-07-13T20:23:35Z"
         },
         {
+          "id": "4e764169ea14ddb3cb6952337a44f4f1be203d0a",
+          "title": "讓駕駛變得更糟修復了這座城市的交通 / Making Driving Worse Fixed This City's Traffic",
+          "url": "https://www.youtube.com/watch?v=kew0EIR5oxk",
+          "source": "OBF",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-14T15:17:32Z"
+        },
+        {
           "id": "42f170952eee015e26b783937febd0a6e21a5838",
           "title": "泰國TNF100越野跑賽！在叢林中溯溪越野50公里！",
           "url": "https://www.youtube.com/watch?v=0CEiwKYIuvo",
@@ -207,15 +226,15 @@
           "published_at": "2026-07-13T16:23:28Z"
         }
       ],
-      "item_count": 10,
-      "duplicate_count": 10,
-      "score": 0.7128,
-      "importance": 0.7128,
-      "importance_score": 0.7128,
+      "item_count": 11,
+      "duplicate_count": 11,
+      "score": 0.6952,
+      "importance": 0.6952,
+      "importance_score": 0.6952,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.876,
+        "recency": 0.8174,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -223,12 +242,88 @@
         "multi_source"
       ],
       "earliest_at": "2026-07-13T16:23:28Z",
-      "latest_at": "2026-07-14T14:00:05Z",
+      "latest_at": "2026-07-14T15:17:32Z",
       "primary_item": {
         "id": "5b907c8fdb4362267fb70a92cc06d38ba09e23e2",
         "title": "巴勃羅·埃斯科瓦爾 vs. 吉爾伯托·羅德里格斯：毒梟真實歷史 / Pablo Escobar vs. Gilberto Rodriguez: Narcos Real History",
         "url": "https://www.youtube.com/watch?v=Du3vowmh0ZU",
         "source": "Best Documentary",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_b7d8066bba7c",
+      "title": "備案：中國晶片製造商長鑫儲存尋求在上海晶片為主的科創板 IPO 中籌集約 9.8B 美元，定價 6.69B 股，每股約 1.28 美元（David Morris/彭博） / Filing: Chinese chipmaker CXMT is seeking to raise ~$9.8B in an IPO on Shanghai's chip-heavy STAR Board, pricing 6.69B shares at ~$1.28 each (David Morris/Bloomberg)",
+      "url": "https://www.techmeme.com/260714/p23",
+      "primary_url": "https://www.techmeme.com/260714/p23",
+      "source": "Techmeme",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "79259d1c4f57c5c02e2a4dff8b7b7bda568843e5",
+          "title": "備案：中國晶片製造商長鑫儲存尋求在上海晶片為主的科創板 IPO 中籌集約 9.8B 美元，定價 6.69B 股，每股約 1.28 美元（David Morris/彭博） / Filing: Chinese chipmaker CXMT is seeking to raise ~$9.8B in an IPO on Shanghai's chip-heavy STAR Board, pricing 6.69B shares at ~$1.28 each (David Morris/Bloomberg)",
+          "url": "https://www.techmeme.com/260714/p23",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-14T14:40:01Z"
+        },
+        {
+          "id": "91126c51199fc507db01b298cb8b68a68330654d",
+          "title": "備案：中國晶片製造商長鑫儲存尋求在上海晶片為主的科創板 IPO 中籌集約 9.8B 美元 (David Morris/彭博) / Filing: Chinese chipmaker CXMT seeks to raise ~$9.8B in an IPO on Shanghai's chip-heavy STAR Board (David Morris/Bloomberg)",
+          "url": "https://www.techmeme.com/260714/p23",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-14T14:40:01Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Techmeme"
+      ],
+      "items": [
+        {
+          "id": "79259d1c4f57c5c02e2a4dff8b7b7bda568843e5",
+          "title": "備案：中國晶片製造商長鑫儲存尋求在上海晶片為主的科創板 IPO 中籌集約 9.8B 美元，定價 6.69B 股，每股約 1.28 美元（David Morris/彭博） / Filing: Chinese chipmaker CXMT is seeking to raise ~$9.8B in an IPO on Shanghai's chip-heavy STAR Board, pricing 6.69B shares at ~$1.28 each (David Morris/Bloomberg)",
+          "url": "https://www.techmeme.com/260714/p23",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-14T14:40:01Z"
+        },
+        {
+          "id": "91126c51199fc507db01b298cb8b68a68330654d",
+          "title": "備案：中國晶片製造商長鑫儲存尋求在上海晶片為主的科創板 IPO 中籌集約 9.8B 美元 (David Morris/彭博) / Filing: Chinese chipmaker CXMT seeks to raise ~$9.8B in an IPO on Shanghai's chip-heavy STAR Board (David Morris/Bloomberg)",
+          "url": "https://www.techmeme.com/260714/p23",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-14T14:40:01Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5786,
+      "importance": 0.5786,
+      "importance_score": 0.5786,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.5,
+        "recency": 0.9285,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-14T14:40:01Z",
+      "latest_at": "2026-07-14T14:40:01Z",
+      "primary_item": {
+        "id": "79259d1c4f57c5c02e2a4dff8b7b7bda568843e5",
+        "title": "備案：中國晶片製造商長鑫儲存尋求在上海晶片為主的科創板 IPO 中籌集約 9.8B 美元，定價 6.69B 股，每股約 1.28 美元（David Morris/彭博） / Filing: Chinese chipmaker CXMT is seeking to raise ~$9.8B in an IPO on Shanghai's chip-heavy STAR Board, pricing 6.69B shares at ~$1.28 each (David Morris/Bloomberg)",
+        "url": "https://www.techmeme.com/260714/p23",
+        "source": "Techmeme",
         "source_name": "OPML RSS"
       }
     },
@@ -285,13 +380,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5513,
-      "importance": 0.5513,
-      "importance_score": 0.5513,
+      "score": 0.5338,
+      "importance": 0.5338,
+      "importance_score": 0.5338,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.8378,
+        "recency": 0.7792,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -361,13 +456,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3994,
-      "importance": 0.3994,
-      "importance_score": 0.3994,
+      "score": 0.3818,
+      "importance": 0.3818,
+      "importance_score": 0.3818,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.3313,
+        "recency": 0.2727,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -437,13 +532,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.2754,
-      "importance": 0.2754,
-      "importance_score": 0.2754,
+      "score": 0.2578,
+      "importance": 0.2578,
+      "importance_score": 0.2578,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.3345,
+        "recency": 0.2759,
         "story_heat": 0.25
       },
       "category": "watch",
