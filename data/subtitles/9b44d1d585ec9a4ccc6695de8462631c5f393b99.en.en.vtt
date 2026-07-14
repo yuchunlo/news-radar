@@ -1,0 +1,1811 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.160 --> 00:00:04.480
+This is the scariest chart in electrical&nbsp;
+engineering. It puts the fear of God into
+
+00:00:04.480 --> 00:00:09.120
+all undergraduate students. First time that you&nbsp;
+ever laid eyes on this chart. What was your first
+
+00:00:09.120 --> 00:00:14.800
+impression? Holy. It's like terrifying. It&nbsp;
+looks almost like a wormhole in some sci-fi
+
+00:00:14.800 --> 00:00:20.960
+movie. I mean, on many versions, it literally&nbsp;
+says black magic. But for all the fear, it's
+
+00:00:20.960 --> 00:00:25.840
+everywhere. Millions of copies have been printed,&nbsp;
+and it's built into the most advanced software we
+
+00:00:25.840 --> 00:00:30.640
+have today. That's because this chart solves one&nbsp;
+of the most paradoxical problems in electrical
+
+00:00:30.640 --> 00:00:35.920
+engineering. So, we put it to the test. This is&nbsp;
+crazy. We're getting way more power transfer,
+
+00:00:35.920 --> 00:00:41.120
+even though we've cut the line. How does that&nbsp;
+make any sense? There have been some great
+
+00:00:41.120 --> 00:00:45.600
+YouTube videos explaining how to use it, like&nbsp;
+one from my friend Zach Star. But I always felt
+
+00:00:45.600 --> 00:00:50.000
+like they were missing something essential. You&nbsp;
+also, you want to know why this chart looks the
+
+00:00:50.000 --> 00:00:55.200
+way it does? Yes. But then I need to know the&nbsp;
+physics. I would want to know what the circles
+
+00:00:55.200 --> 00:00:59.200
+are and what I'm looking at at first because&nbsp;
+even once you know how to use this chart,
+
+00:00:59.200 --> 00:01:04.320
+you're still left wondering how it pulls off its&nbsp;
+strangest bit of witchcraft, trapping infinity
+
+00:01:04.320 --> 00:01:10.000
+inside a finite circle. Well, to understand that,&nbsp;
+we have to go back a hundred years to the origins
+
+00:01:10.000 --> 00:01:14.960
+of this chart. In 1928, Phillip H. Smith,&nbsp;
+fresh out of electrical engineering school,
+
+00:01:14.960 --> 00:01:20.320
+got his first job at Bell Labs. The telephone&nbsp;
+industry was booming. Americans were placing
+
+00:01:20.320 --> 00:01:25.680
+more than 65 million calls a day. But because&nbsp;
+telephone calls had to go through copper cables,
+
+00:01:25.680 --> 00:01:32.160
+every call had a limit, the coast. At the time, no&nbsp;
+telephone cables crossed the Atlantic. So the only
+
+00:01:32.160 --> 00:01:37.920
+way to call across continents was by using radio&nbsp;
+waves. Smith began work on a mission to send radio
+
+00:01:37.920 --> 00:01:42.560
+signals from New Jersey to receiving stations&nbsp;
+thousands of kilometers away. One in England
+
+00:01:42.560 --> 00:01:48.880
+and one in Argentina. With only one antenna, the&nbsp;
+signal radiates across the whole sky, and only a
+
+00:01:48.880 --> 00:01:54.160
+small portion of the power reaches the receiver.&nbsp;
+But with two antennas, the waves combine. In some
+
+00:01:54.160 --> 00:01:58.160
+directions, they cancel each other out, and in&nbsp;
+others, they reinforce. So, right here in the
+
+00:01:58.160 --> 00:02:03.120
+middle, the power doubles. If you add even more&nbsp;
+antennas, it narrows the beam further. Focus it to
+
+00:02:03.120 --> 00:02:08.880
+about 10° across, and the power in that direction&nbsp;
+is 400 times stronger. So, to have any chance of
+
+00:02:08.880 --> 00:02:13.280
+their signal reaching across the globe, Smith's&nbsp;
+team connected more than 20 smaller antennas into
+
+00:02:13.280 --> 00:02:19.200
+a massive directional array linked by over 2 km&nbsp;
+of transmission line. Smith's job was to test this
+
+00:02:19.200 --> 00:02:23.840
+massive array. But when he tried sending a signal&nbsp;
+from the source down the line to an antenna, well,
+
+00:02:23.840 --> 00:02:29.120
+he noticed something strange. Part of it was&nbsp;
+bouncing back. And that reflection meant that
+
+00:02:29.120 --> 00:02:33.840
+a large portion of the power never reached the&nbsp;
+antenna. If he wanted to send a signal across the
+
+00:02:33.840 --> 00:02:38.560
+planet, he needed to make sure that all the power&nbsp;
+reached the emitting antennas. So, he needed to
+
+00:02:38.560 --> 00:02:44.640
+find a way to minimize the reflections. Now, the&nbsp;
+reason Smith was getting these reflections is that
+
+00:02:44.640 --> 00:02:48.160
+he wasn't working with the kind of electricity&nbsp;
+that we might be used to, like with a battery and
+
+00:02:48.160 --> 00:02:53.120
+a light bulb. Here the battery provides a constant&nbsp;
+voltage which drives a steady current through the
+
+00:02:53.120 --> 00:02:58.480
+wire which lights up the bulb. This is direct&nbsp;
+current or DC. But to generate radio signals,
+
+00:02:58.480 --> 00:03:03.200
+electrons have to oscillate back and forth at&nbsp;
+radio frequency. As they accelerate, they create
+
+00:03:03.200 --> 00:03:08.960
+changing electromagnetic fields that propagate&nbsp;
+out as radio waves. So the voltage has to rise
+
+00:03:08.960 --> 00:03:15.600
+and fall and reverse direction and the current&nbsp;
+has to as well. That's alternating current or AC.
+
+00:03:15.600 --> 00:03:20.320
+In the simplest case, both the voltage and the&nbsp;
+current are smooth sine waves. Now, in reality,
+
+00:03:20.320 --> 00:03:24.720
+it does get a bit more complicated than that, but&nbsp;
+for now, let's just look at a single sinusoidal
+
+00:03:24.720 --> 00:03:31.360
+voltage and current. Let's recreate Smith's signal&nbsp;
+by shaking a slinky up and down. You can think of
+
+00:03:31.360 --> 00:03:36.880
+my arm as the power source. So, waves travel down&nbsp;
+the line to the other end. And you can see that
+
+00:03:36.880 --> 00:03:41.200
+they have some key characteristics. The distance&nbsp;
+from one peak to another or from one valley to
+
+00:03:41.200 --> 00:03:46.400
+another is consistent. This is the wavelength&nbsp;
+and how many peaks pass a point per second is
+
+00:03:46.400 --> 00:03:51.040
+the frequency of the wave. So if you know the&nbsp;
+number of peaks that go by and you know the
+
+00:03:51.040 --> 00:03:55.840
+distance between those peaks, well by multiplying&nbsp;
+the two together, you get the speed of the wave.
+
+00:03:55.840 --> 00:04:00.400
+The formula is that the speed is equal to the&nbsp;
+wavelength times the frequency. In Smith's case,
+
+00:04:00.400 --> 00:04:05.200
+he needed to emit radio waves and they sit on the&nbsp;
+electromagnetic spectrum alongside microwaves,
+
+00:04:05.200 --> 00:04:10.480
+infrared, and visible light. And light waves all&nbsp;
+travel at the same speed in a vacuum, about 300
+
+00:04:10.480 --> 00:04:16.560
+million m/s or c. In a transmission line, the&nbsp;
+wave travels more slowly, but for a given line,
+
+00:04:16.560 --> 00:04:21.520
+that speed is still fixed. And if the speed is&nbsp;
+fixed, well, that means that frequency must be
+
+00:04:21.520 --> 00:04:29.280
+inversely proportional to wavelength. Let&nbsp;
+me show you. If you decrease the frequency,
+
+00:04:29.280 --> 00:04:35.280
+the wavelength gets longer. And if you&nbsp;
+increase it, the wavelength gets shorter.
+
+00:04:35.280 --> 00:04:40.880
+And this wavelength is crucial to our problem.&nbsp;
+We'll also show you in simulation here without
+
+00:04:40.880 --> 00:04:44.800
+the effects of friction and damping. See,&nbsp;
+if we start out with a long wavelength,
+
+00:04:44.800 --> 00:04:49.360
+the signal barely changes during the time it&nbsp;
+takes to travel down the slinky. Once the wave
+
+00:04:49.360 --> 00:04:53.920
+reaches the other fixed end, any reflection that&nbsp;
+comes back looks almost identical to the original
+
+00:04:53.920 --> 00:04:58.480
+wave. The resulting interference of these two&nbsp;
+waves doesn't change the overall shape of the
+
+00:04:58.480 --> 00:05:03.840
+original signal all that much. So, there's nothing&nbsp;
+to worry about. But when I increase the frequency
+
+00:05:03.840 --> 00:05:08.320
+to the point where the wave becomes shorter than&nbsp;
+the slinky itself. Well, now when the wave reaches
+
+00:05:08.320 --> 00:05:15.840
+the fixed end, the reflection back interferes with&nbsp;
+the incoming wave. After a reflection, the forward
+
+00:05:15.840 --> 00:05:21.680
+and reflected waves combine. At some points,&nbsp;
+the two waves cancel and the voltage is very
+
+00:05:21.680 --> 00:05:29.280
+small. And at other points, they add together.&nbsp;
+This is what's called a standing wave pattern.
+
+00:05:31.840 --> 00:05:36.400
+In electrical systems, the standing wave pattern&nbsp;
+can be a big problem. That's because if the
+
+00:05:36.400 --> 00:05:40.400
+reflections in your transmission line are bad&nbsp;
+enough, the peak voltages can reach up to twice
+
+00:05:40.400 --> 00:05:46.240
+the input voltage. And if your line isn't rated&nbsp;
+for that, well, it burns out. There was a huge
+
+00:05:46.240 --> 00:05:53.840
+reflection and powerful standing wave did this&nbsp;
+to the inner conductor of that transmission line.
+
+00:05:53.840 --> 00:06:00.320
+This is the effect of the standing wave. It's not&nbsp;
+made up. In most electrical systems we're used to,
+
+00:06:00.320 --> 00:06:04.960
+this isn't too much of a problem. Your house&nbsp;
+supplies AC power at a frequency of 50 or 60
+
+00:06:04.960 --> 00:06:11.040
+Hz. So that corresponds to a wavelength of about&nbsp;
+5 to 6,000 km, which is far longer than any wire
+
+00:06:11.040 --> 00:06:16.480
+that takes power from the station to your home.&nbsp;
+But Smith was generating radio waves in the MHz
+
+00:06:16.480 --> 00:06:21.600
+range. And at 10 MHz, the wavelength is about&nbsp;
+30 m. With the transmission line he was working
+
+00:06:21.600 --> 00:06:27.440
+on more than 2 km long, well, that's many times&nbsp;
+the wavelength. So reflections were significant.
+
+00:06:27.440 --> 00:06:32.240
+That's why we went to Imperial College London's&nbsp;
+screened radio frequency anechoic chamber to see
+
+00:06:32.240 --> 00:06:37.120
+if we could recreate what Smith was up against. As&nbsp;
+you can see, it's very small. It's very compact,
+
+00:06:37.120 --> 00:06:42.000
+but we can do a lot of antenna measurements in&nbsp;
+here. We can do electromagnetic compatibility
+
+00:06:42.000 --> 00:06:47.440
+measurements here. Here's the experiment. We've&nbsp;
+got a power source sending a radio signal down a
+
+00:06:47.440 --> 00:06:51.920
+transmission line to an antenna array, and we put&nbsp;
+it in an anechoic chamber to reduce interference.
+
+00:06:51.920 --> 00:06:55.520
+We've got a receiving antenna at the other end&nbsp;
+which is able to pick up the signal and tell
+
+00:06:55.520 --> 00:06:59.360
+us just how much power is actually making&nbsp;
+it to our antennas. It's a scaled model of
+
+00:06:59.360 --> 00:07:04.240
+Smith's configuration. Now, based on our input&nbsp;
+power and the distance between the antennas,
+
+00:07:04.240 --> 00:07:11.440
+we expect a signal of about -55 dB. But that's&nbsp;
+not what we see. We've lost half the power.
+
+00:07:11.440 --> 00:07:16.800
+We're picking up around -59 dB. And because&nbsp;
+signal is measured on a logarithmic scale,
+
+00:07:16.800 --> 00:07:22.560
+that 4-decibel drop means we've lost more than&nbsp;
+half the power, exactly what was happening to
+
+00:07:22.560 --> 00:07:27.120
+Smith. So let's find out what's stealing it.&nbsp;
+To do that, let's simplify this like a true
+
+00:07:27.120 --> 00:07:32.320
+engineer. We can model the electrical signal as&nbsp;
+a simple sinusoidal voltage and current source
+
+00:07:32.320 --> 00:07:37.040
+which we draw like this. Next is the transmission&nbsp;
+line. It consists of two conductors that form a
+
+00:07:37.040 --> 00:07:42.560
+loop. At the far end is the antenna and its exact&nbsp;
+design varies. So for now we'll just represent it
+
+00:07:42.560 --> 00:07:47.360
+with a black box. That gives us a very simple&nbsp;
+toy model with just three parts. And we can
+
+00:07:47.360 --> 00:07:52.320
+represent these parts with slinkies. Now, so&nbsp;
+far we've used just one slinky with one set of
+
+00:07:52.320 --> 00:07:57.600
+properties to show how waves travel. But the real&nbsp;
+setup is more than just the transmission line.
+
+00:07:57.600 --> 00:08:01.200
+Since both the antenna and the transmission&nbsp;
+line have their own electrical properties,
+
+00:08:01.200 --> 00:08:06.000
+we can model Smith's whole system by tying two&nbsp;
+slinkies together. One for the transmission line
+
+00:08:06.000 --> 00:08:10.720
+and the other for the antenna. First, we're&nbsp;
+going to try two very different slinkies. One
+
+00:08:10.720 --> 00:08:17.280
+with a high mass per unit length and one with a&nbsp;
+low mass per unit length. Let's see what happens.
+
+00:08:19.600 --> 00:08:22.720
+Well, when we send a pulse down&nbsp;
+the line, it reaches the boundary
+
+00:08:22.720 --> 00:08:29.280
+between the two slinkies. Part&nbsp;
+of the energy continues through
+
+00:08:29.280 --> 00:08:34.560
+and part of it reflects back. The severity of&nbsp;
+the reflection is captured by a ratio called the
+
+00:08:34.560 --> 00:08:39.360
+reflection coefficient. Its magnitude is just the&nbsp;
+size of the reflected wave divided by the forward
+
+00:08:39.360 --> 00:08:44.720
+wave. But if the two slinkies have the same mass&nbsp;
+per unit length, the wave passes straight through.
+
+00:08:44.720 --> 00:08:48.960
+The reflection coefficient is then zero. So when&nbsp;
+there's a big mismatch in mass per unit length,
+
+00:08:48.960 --> 00:08:53.760
+we get large reflections. But when the properties&nbsp;
+match, the reflections disappear. That's because
+
+00:08:53.760 --> 00:08:59.200
+how the wave actually travels through the slinky&nbsp;
+depends on two properties. How tightly the slinky
+
+00:08:59.200 --> 00:09:03.680
+is stretched and this mass per unit length.&nbsp;
+But since in this setup, both slinkies are
+
+00:09:03.680 --> 00:09:07.840
+tied together, they're under the same tension. So&nbsp;
+then the only difference is their mass per unit
+
+00:09:07.840 --> 00:09:12.720
+length. If we can match this property, it's like&nbsp;
+the discontinuity is gone and it's just one slinky
+
+00:09:12.720 --> 00:09:17.840
+again. So, you might think Smith could do the same&nbsp;
+thing, except instead of matching slinkies, he had
+
+00:09:17.840 --> 00:09:23.200
+to match his transmission line to his antenna.&nbsp;
+But what electrical property could do that? Well,
+
+00:09:23.200 --> 00:09:27.520
+the mass per unit length decides how easy it&nbsp;
+is for a wave to travel through our slinky. So,
+
+00:09:27.520 --> 00:09:32.080
+an analogous version for our electrical system&nbsp;
+might just be its resistance. Because the higher
+
+00:09:32.080 --> 00:09:36.720
+the resistance, the harder it is for current&nbsp;
+to flow. That's Ohm's law. The resistance is
+
+00:09:36.720 --> 00:09:41.520
+equal to the voltage divided by the current. So&nbsp;
+if a voltage wave hits the boundary between the
+
+00:09:41.520 --> 00:09:45.600
+transmission line and the antenna and the&nbsp;
+resistance changes across that boundary,
+
+00:09:45.600 --> 00:09:49.760
+well the whole wave can't pass through. Some&nbsp;
+of it reflects just like what we saw with the
+
+00:09:49.760 --> 00:09:55.520
+slinkies. Indeed in real life when we checked the&nbsp;
+resistances didn't match. So the antenna array is
+
+00:09:55.520 --> 00:10:00.400
+at 12 1/2 ohms and the transmission line is at&nbsp;
+50. So what we're going to do is we're going to
+
+00:10:00.400 --> 00:10:05.440
+add this 37 1/2 ohm or 40 ohm resistor to try to&nbsp;
+bring it up so that they match and we'll see what
+
+00:10:05.440 --> 00:10:11.280
+happens to the power. Okay, what are we looking&nbsp;
+So now it's uh yeah, it hasn't helped us at all.
+
+00:10:11.280 --> 00:10:16.480
+It's actually Yeah, we're at half the power.&nbsp;
+Interesting. But why is that? Resistors have a
+
+00:10:16.480 --> 00:10:22.000
+problem. They work by taking power and dissipating&nbsp;
+it through heat. So they're fundamentally lossy.
+
+00:10:22.000 --> 00:10:26.000
+That means by putting it in our system here,&nbsp;
+we're going to lose energy no matter what. But
+
+00:10:26.000 --> 00:10:29.280
+there's another problem with using resistors,&nbsp;
+and that's that real life systems don't just
+
+00:10:29.280 --> 00:10:35.440
+have resistances. Take this disposable camera.&nbsp;
+When I turn on the flash, it takes a moment to
+
+00:10:35.440 --> 00:10:43.600
+charge. You can hear it. Then when I take a&nbsp;
+picture, it releases all that energy at once.
+
+00:10:43.600 --> 00:10:48.160
+That's because inside are two conductive plates&nbsp;
+separated by a gap. When I turn on the flash,
+
+00:10:48.160 --> 00:10:52.560
+I apply a voltage across them. And because they're&nbsp;
+not connected, charge builds up on each side,
+
+00:10:52.560 --> 00:10:58.400
+storing energy. This forms a capacitor, and its&nbsp;
+ability to store charge is called its capacitance.
+
+00:10:58.400 --> 00:11:02.640
+When I take the picture, the circuit closes,&nbsp;
+and that stored energy is released all at once,
+
+00:11:02.640 --> 00:11:07.520
+which produces the flash. But this isn't&nbsp;
+just in cameras. A transmission line has
+
+00:11:07.520 --> 00:11:12.800
+two conductors held a distance apart. So it has&nbsp;
+a capacitance as well, but it uses alternating
+
+00:11:12.800 --> 00:11:16.880
+current. So let's see what happens when we have&nbsp;
+a capacitor with an alternating current signal.
+
+00:11:16.880 --> 00:11:23.920
+Okay. So we're going to make a chart and on&nbsp;
+the horizontal axis I'm going to draw time.
+
+00:11:23.920 --> 00:11:29.360
+And on the vertical axis we'll&nbsp;
+just have magnitude of our wave.
+
+00:11:29.360 --> 00:11:34.480
+Okay. So we'll start with our voltage&nbsp;
+wave which we'll just draw like this.
+
+00:11:36.240 --> 00:11:42.000
+Now we'll draw a current wave in red.
+
+00:11:42.000 --> 00:11:46.720
+As the voltage rises, charge builds up. At&nbsp;
+the peak voltage, that buildup stops. And
+
+00:11:46.720 --> 00:11:50.960
+since current is the flow of charge, when the&nbsp;
+charges stop moving, at that point the current
+
+00:11:50.960 --> 00:11:55.520
+is zero. Then as the voltage falls, the charge&nbsp;
+flows back. And that's when the current is the
+
+00:11:55.520 --> 00:12:01.280
+largest. So unlike resistance, voltage and current&nbsp;
+don't peak at the same time. Since the horizontal
+
+00:12:01.280 --> 00:12:06.160
+axis is time, this shows the current peaking&nbsp;
+before the voltage, always by the same amount,
+
+00:12:06.160 --> 00:12:13.200
+a quarter of a cycle. In other words, the voltage&nbsp;
+lags the current by 90°. But there is another
+
+00:12:13.200 --> 00:12:17.040
+effect we need to take into account. That's&nbsp;
+because whenever current flows through a wire,
+
+00:12:17.040 --> 00:12:22.480
+it creates a magnetic field. And if you coil that&nbsp;
+wire many times over, the magnetic field from each
+
+00:12:22.480 --> 00:12:26.960
+loop adds together, which makes the effect much&nbsp;
+stronger. That's why in circuits, you might often
+
+00:12:26.960 --> 00:12:31.840
+see components that look like this. But even&nbsp;
+on a straight wire like our transmission line,
+
+00:12:31.840 --> 00:12:36.800
+these fields still exist and they affect the&nbsp;
+way that our current and voltage waves behave.
+
+00:12:36.800 --> 00:12:41.680
+A changing magnetic field induces a voltage&nbsp;
+that opposes any change in the current. And the
+
+00:12:41.680 --> 00:12:46.720
+faster you try to change that current, the more&nbsp;
+voltage pushes back. When the current is at zero,
+
+00:12:46.720 --> 00:12:51.760
+the slope of the curve is at its steepest. So&nbsp;
+the current is changing the fastest. Therefore,
+
+00:12:51.760 --> 00:12:56.560
+the voltage is at its peak. Further along&nbsp;
+the cycle, the current reaches its maximum.
+
+00:12:56.560 --> 00:13:01.200
+For just an instant, it has stopped changing. So&nbsp;
+the slope is flat, and that's when voltage drops
+
+00:13:01.200 --> 00:13:07.280
+to zero. Past the peak, the current begins to&nbsp;
+fall and the voltage flips direction. So again,
+
+00:13:07.280 --> 00:13:13.040
+the voltage and current peaks don't line up.&nbsp;
+The voltage leads the current by 90°. So that's
+
+00:13:13.040 --> 00:13:18.160
+why matching resistances alone wasn't enough in&nbsp;
+our demo. With resistance, we can only describe
+
+00:13:18.160 --> 00:13:23.120
+the relative size of our voltage and current&nbsp;
+waves or the magnitude. But it says nothing
+
+00:13:23.120 --> 00:13:28.000
+about their timing. Capacitance and inductance&nbsp;
+shift the current wave relative to the voltage
+
+00:13:28.000 --> 00:13:33.600
+wave. That is they shift the phase. So a real&nbsp;
+match needs two things to line up not just one.
+
+00:13:33.600 --> 00:13:39.600
+We have to match the magnitude and the phase. Now&nbsp;
+one common way to represent something with both a
+
+00:13:39.600 --> 00:13:44.720
+magnitude and a phase is to use complex numbers.&nbsp;
+They consist of two parts. A real part represented
+
+00:13:44.720 --> 00:13:52.320
+on the x-axis and an imaginary part represented&nbsp;
+on the y-axis. This is the complex plane. Now,
+
+00:13:52.320 --> 00:13:56.240
+because electrical engineers use I to refer to&nbsp;
+current, we're going to refer to imaginary numbers
+
+00:13:56.240 --> 00:14:02.000
+with a J. And just to shake things up even more,&nbsp;
+most electrical engineering textbooks swap the
+
+00:14:02.000 --> 00:14:07.600
+order. So instead of saying something like 3J, we&nbsp;
+have J3. Now, a purely resistive component changes
+
+00:14:07.600 --> 00:14:12.320
+the ratio of voltage and current waves relative&nbsp;
+to each other, but it doesn't shift their phase.
+
+00:14:12.320 --> 00:14:17.840
+So on this plane, pure resistance lies along&nbsp;
+the horizontal axis where phase is zero. Since
+
+00:14:17.840 --> 00:14:21.360
+we care about positive resistances, we're only&nbsp;
+going to look at the right side of the plane.
+
+00:14:22.160 --> 00:14:26.080
+Now compare that to pure capacitors and&nbsp;
+inductors. These components do shift the
+
+00:14:26.080 --> 00:14:31.520
+phase of our waves relative to each other. Since&nbsp;
+an inductor causes voltage to lead current by 90°,
+
+00:14:31.520 --> 00:14:37.840
+we rotate it up to +90° on the vertical axis. A&nbsp;
+capacitor causes voltage to lag current by 90°.
+
+00:14:37.840 --> 00:14:45.440
+So we rotate it down to - 90°. Put them together&nbsp;
+and this vertical axis is called reactance.
+
+00:14:45.440 --> 00:14:50.720
+We can now describe any combination of resistance,&nbsp;
+capacitance, and inductance pretty easily on this
+
+00:14:50.720 --> 00:14:56.480
+two-dimensional plane as just a combination of a&nbsp;
+resistance value and a reactance. This combined
+
+00:14:56.480 --> 00:15:01.920
+quantity we represent with Z. It's called the&nbsp;
+impedance. Now, impedance is still defined as
+
+00:15:01.920 --> 00:15:08.720
+the ratio of voltage to current. It's Ohm's law&nbsp;
+for AC circuits. Z is equal to V over I. But now,
+
+00:15:08.720 --> 00:15:13.440
+its magnitude tells you the relative size of your&nbsp;
+current and voltage waves, and its angle tells you
+
+00:15:13.440 --> 00:15:18.560
+how the phase has shifted. It's a pretty great&nbsp;
+real life application of imaginary numbers. So
+
+00:15:18.560 --> 00:15:23.920
+perhaps this is what Smith needed to match. See,&nbsp;
+in every transmission line, there's a built-in
+
+00:15:23.920 --> 00:15:28.640
+impedance called its characteristic impedance&nbsp;
+or Z-naught. This is just a fixed property of
+
+00:15:28.640 --> 00:15:33.440
+the line. It's kind of like mass per unit length&nbsp;
+with the slinkies. Now, in most radio frequency
+
+00:15:33.440 --> 00:15:39.120
+or RF systems, this is designed to be 50 ohms,&nbsp;
+a pure resistance. This is the value we need to
+
+00:15:39.120 --> 00:15:45.360
+match. Do that and it's like we've made the two&nbsp;
+slinkies identical. No reflections. Let's suppose
+
+00:15:45.360 --> 00:15:50.560
+we measure the impedance at the antenna and it's&nbsp;
+10 minus J30. This is a pretty bad match. It's
+
+00:15:50.560 --> 00:15:55.280
+like having two slinkies that are quite different.&nbsp;
+We have to cancel out that negative J30. And we
+
+00:15:55.280 --> 00:16:00.880
+can do that by adding a series inductor of plus 30&nbsp;
+and the imaginary part drops to zero. So inductive
+
+00:16:00.880 --> 00:16:07.120
+and capacitive parts cancel each other out. That&nbsp;
+leaves the real part 10 ohms and we need 50. So
+
+00:16:07.120 --> 00:16:11.920
+you might think just add 40 ohms of resistance,&nbsp;
+but a resistor loses power through heat.
+
+00:16:11.920 --> 00:16:16.160
+That's the very thing we're trying to stop. And&nbsp;
+what if the resistance were too high? You can't
+
+00:16:16.160 --> 00:16:21.280
+add a negative resistance in a passive system. So,&nbsp;
+how do you match a resistance without a resistor?
+
+00:16:21.280 --> 00:16:26.240
+Well, the answer actually already lies on the&nbsp;
+transmission line. When part of a wave reflects,
+
+00:16:26.240 --> 00:16:31.200
+the line now carries two waves at once, the&nbsp;
+forward one and the reflected one. At any point,
+
+00:16:31.200 --> 00:16:36.400
+the voltage you'd measure is now the two voltage&nbsp;
+waves added together. But the reflected current
+
+00:16:36.400 --> 00:16:42.400
+wave is flipped. So, wherever the voltages&nbsp;
+reinforce, the currents cancel. That means that
+
+00:16:42.400 --> 00:16:47.600
+the impedance, the voltage over the current, isn't&nbsp;
+just one number anymore. It changes as you move
+
+00:16:47.600 --> 00:16:51.920
+along the line. And if the impedance is changing&nbsp;
+anyway, well, maybe there's a point on the line
+
+00:16:51.920 --> 00:16:57.040
+where a resistance is matched. All that we have&nbsp;
+to do then is find that point and then deal with
+
+00:16:57.040 --> 00:17:01.520
+the remaining imaginary part of the impedance.&nbsp;
+And we can do that with a lossless capacitor
+
+00:17:01.520 --> 00:17:06.720
+or inductor. No resistor needed. At that point,&nbsp;
+the characteristic impedance of the line will be
+
+00:17:06.720 --> 00:17:12.480
+matched. But how do you find that point? Well,&nbsp;
+more than half a century before Smith, Oliver
+
+00:17:12.480 --> 00:17:16.960
+Heaviside had described how voltage and current&nbsp;
+waves behave on transmission lines with a set of
+
+00:17:16.960 --> 00:17:22.400
+equations. But actually using them to eliminate&nbsp;
+reflections was difficult. Calculating the right
+
+00:17:22.400 --> 00:17:28.880
+values meant working through long expressions with&nbsp;
+the slide rule. In the 1930s, this was no longer
+
+00:17:28.880 --> 00:17:33.920
+just an abstract problem. As political tensions&nbsp;
+rose across the globe, the ability to send
+
+00:17:33.920 --> 00:17:39.200
+clear signals across oceans became strategically&nbsp;
+important. It meant you could coordinate ships,
+
+00:17:39.200 --> 00:17:45.520
+aircraft, entire supply networks, activities&nbsp;
+crucial to waging war. So scientists in other
+
+00:17:45.520 --> 00:17:50.960
+powerful nations began to take notice. In the&nbsp;
+Soviet Union, engineer Amiel Volpert began working
+
+00:17:50.960 --> 00:17:57.200
+on the same problem as Smith. And in Japan,&nbsp;
+engineer Tosaku Mizuhashi did as well. They all
+
+00:17:57.200 --> 00:18:02.080
+wanted the same thing, a simple graphical system&nbsp;
+that would make matching impedances quick and
+
+00:18:02.080 --> 00:18:07.760
+reliable. See, when Phillip Smith tried sending&nbsp;
+a signal down his transmission line, some of the
+
+00:18:07.760 --> 00:18:12.720
+energy didn't reach the other end. It reflected&nbsp;
+and it came bouncing straight back at him. And the
+
+00:18:12.720 --> 00:18:16.960
+same thing happens with your personal data. You&nbsp;
+put it online, meaning for it to go to one place,
+
+00:18:16.960 --> 00:18:21.840
+but it ends up coming right back at you through&nbsp;
+scam calls, phishing texts, and identity theft. I
+
+00:18:21.840 --> 00:18:26.560
+know I once got a text from a person who I thought&nbsp;
+was Derek, asking me for some personal info. I was
+
+00:18:26.560 --> 00:18:30.800
+in a rush, so I just sent it right over to him.&nbsp;
+And of course, that wasn't actually Derek. They
+
+00:18:30.800 --> 00:18:35.120
+just gathered info about me and then used it to&nbsp;
+trick me into responding. There's a whole business
+
+00:18:35.120 --> 00:18:39.680
+around this. People who grab your data and then&nbsp;
+sell it to the highest bidder. But there's no hope
+
+00:18:39.680 --> 00:18:43.920
+for an impedance match to solve this problem.&nbsp;
+Fixing it means tracking down hundreds of data
+
+00:18:43.920 --> 00:18:48.800
+brokers and then forcing each one to delete&nbsp;
+your info. But with today's sponsor, Incogni,
+
+00:18:48.800 --> 00:18:53.440
+you don't have to. Incogni finds those brokers for&nbsp;
+you. They figure out who's holding your data. Then
+
+00:18:53.440 --> 00:18:58.080
+they send removal requests to each one. You just&nbsp;
+make an account, tell them whose data to scrub,
+
+00:18:58.080 --> 00:19:03.760
+and you let them do the work. So far, they filed&nbsp;
+120 requests for me, and 115 have already been
+
+00:19:03.760 --> 00:19:08.960
+completed. That's roughly 86 hours that I didn't&nbsp;
+have to spend arguing with data brokers. Two full
+
+00:19:08.960 --> 00:19:14.080
+work weeks. Now, brokers are one thing. What&nbsp;
+about that one specific site that you know has
+
+00:19:14.080 --> 00:19:18.800
+your info with your address sitting right there?&nbsp;
+Well, with Incogni's custom removals feature,
+
+00:19:18.800 --> 00:19:23.120
+you point them at any site where your information&nbsp;
+is exposed, and then one of their privacy agents
+
+00:19:23.120 --> 00:19:28.880
+takes it down for you. If you want to try it, go&nbsp;
+to incogni.com/veritasium. Click the link in the
+
+00:19:28.880 --> 00:19:34.720
+description or scan this QR code on screen and&nbsp;
+use code veritasium for 60% off. It's the closest
+
+00:19:34.720 --> 00:19:39.280
+thing to an impedance match that you'll find for&nbsp;
+your personal data. The junk stops bouncing back.
+
+00:19:39.280 --> 00:19:45.520
+So head to incogni.com/veritasium and use code&nbsp;
+veritasium for 60% off. I'd like to thank incogni
+
+00:19:45.520 --> 00:19:50.480
+for sponsoring this video. Now Smith, of course,&nbsp;
+didn't have a shortcut. To stop his reflections,
+
+00:19:50.480 --> 00:19:55.840
+he had to build the solution himself. So Smith&nbsp;
+started designing a chart. He started with the
+
+00:19:55.840 --> 00:20:01.120
+complex plane but with a small change. Most&nbsp;
+transmission lines today have a characteristic
+
+00:20:01.120 --> 00:20:07.520
+impedance of 50 ohms but that value can change.&nbsp;
+The 75 ohm line for example needs a completely
+
+00:20:07.520 --> 00:20:12.480
+different match. So if Smith had just plotted raw&nbsp;
+values well then every system would need its own
+
+00:20:12.480 --> 00:20:17.760
+chart with a different goal. Instead he divided&nbsp;
+everything by the characteristic impedance of the
+
+00:20:17.760 --> 00:20:23.040
+line Z0. This normalized the values so that&nbsp;
+everything was now dimensionless. And now a
+
+00:20:23.040 --> 00:20:28.640
+value of one meant a perfect match, whatever&nbsp;
+the line's actual characteristic impedance.
+
+00:20:28.640 --> 00:20:33.920
+But already there was a problem. See, the values&nbsp;
+of real circuits can fall anywhere between two
+
+00:20:33.920 --> 00:20:39.280
+extremes. A short circuit where current flows&nbsp;
+freely with almost no voltage, so impedance is
+
+00:20:39.280 --> 00:20:45.280
+zero. And an open circuit where there's a voltage&nbsp;
+but no current, so impedance is infinite. A real
+
+00:20:45.280 --> 00:20:50.000
+impedance can take on any value between these&nbsp;
+two extremes. So to show everything, Smith's
+
+00:20:50.000 --> 00:20:55.680
+chart would also have to be infinite. Not so&nbsp;
+practical. Smith then had a new problem to solve,
+
+00:20:55.680 --> 00:21:02.000
+a geometry problem. How to represent infinity&nbsp;
+on a finite chart. Smith realized he was a bit
+
+00:21:02.000 --> 00:21:06.640
+out of his depth. So he called in the help of two&nbsp;
+of his colleagues who specialized in mathematics,
+
+00:21:06.640 --> 00:21:11.520
+Ferrell and McRae. And together they realized&nbsp;
+they could use a powerful property of complex
+
+00:21:11.520 --> 00:21:17.600
+numbers to address the problem. To see how this&nbsp;
+works, we'll follow an approach 3Blue1Brown laid
+
+00:21:17.600 --> 00:21:22.720
+out in an excellent video that I highly recommend&nbsp;
+you checking out. See, if we multiply any complex
+
+00:21:22.720 --> 00:21:28.480
+number Z by some constant like three, everything&nbsp;
+scales by a factor of three. So, multiplying by
+
+00:21:28.480 --> 00:21:35.040
+real numbers lets us scale our value. What about&nbsp;
+multiplying by something imaginary like J? Well,
+
+00:21:35.040 --> 00:21:42.720
+if we start with one, multiply by J, then you move&nbsp;
+to J, a 90° rotation. Multiply by J again and by
+
+00:21:42.720 --> 00:21:50.080
+definition you get -1. Again and you get -J. One&nbsp;
+more time and you're back at one. So multiplying
+
+00:21:50.080 --> 00:21:56.720
+by imaginary numbers lets us rotate our value. In&nbsp;
+general, multiplying by any complex constant does
+
+00:21:56.720 --> 00:22:03.440
+two things. It scales and it rotates. Now suppose&nbsp;
+instead of multiplying by a constant, we try a
+
+00:22:03.440 --> 00:22:11.840
+more complicated function like 1 / z and we apply&nbsp;
+that transformation to the entire complex plane.
+
+00:22:11.840 --> 00:22:16.320
+Now the lines curve and the whole plane warps&nbsp;
+and at first glance it seems like all geometric
+
+00:22:16.320 --> 00:22:21.360
+structure is lost. But zoom in and you'll see&nbsp;
+that at a small enough scale every tiny patch
+
+00:22:21.360 --> 00:22:26.880
+still looks square. This transformation preserves&nbsp;
+shapes and angles. It's called a conformal map.
+
+00:22:26.880 --> 00:22:31.040
+And you'll notice that all the values in this&nbsp;
+map that used to stretch off to infinity, well,
+
+00:22:31.040 --> 00:22:37.200
+they now fit in the center of this chart. So it&nbsp;
+represents infinity in a finite space. And 1 / Z
+
+00:22:37.200 --> 00:22:41.680
+is just one example. There are other conformal&nbsp;
+maps that warp the plane this way. And that's
+
+00:22:41.680 --> 00:22:45.920
+what Smith realized. If he could find the right&nbsp;
+map for his problem, then he could bend the
+
+00:22:45.920 --> 00:22:50.320
+impedance plane into something far more useful.&nbsp;
+See, up till now, he'd been working in impedance,
+
+00:22:50.320 --> 00:22:55.840
+but it had two problems. It stretched off to&nbsp;
+infinity, so it wouldn't fit in one chart. And it
+
+00:22:55.840 --> 00:23:01.040
+changed as you moved along the line. So there was&nbsp;
+no single value for engineers to match. But think
+
+00:23:01.040 --> 00:23:05.520
+back to those two waves. And instead of dividing&nbsp;
+voltage by current, try dividing the forward
+
+00:23:05.520 --> 00:23:10.560
+wave by the reflected one. That gives you the&nbsp;
+reflection coefficient. Now on a lossless line,
+
+00:23:10.560 --> 00:23:15.600
+the amplitude of our forward wave stays the same&nbsp;
+size everywhere. So does the reflected wave. So
+
+00:23:15.600 --> 00:23:20.000
+the magnitude of our reflection coefficient is&nbsp;
+constant along the line. The only thing that
+
+00:23:20.000 --> 00:23:24.800
+changes as you move is the phase. So the phase&nbsp;
+angle of the reflection coefficient picks out
+
+00:23:24.800 --> 00:23:29.680
+an impedance on the line. The two quantities then&nbsp;
+carry the same information, but unlike impedance,
+
+00:23:29.680 --> 00:23:34.960
+it's a lot more tame. That's because the reflected&nbsp;
+wave can at most be the same size as the forward
+
+00:23:34.960 --> 00:23:40.000
+wave. So the reflection coefficient can never grow&nbsp;
+past one. So you no longer have to deal with this
+
+00:23:40.000 --> 00:23:46.080
+problem of infinity. Let's plot it. We start by&nbsp;
+plotting one vertical line on the complex plane.
+
+00:23:46.080 --> 00:23:53.600
+This is a line of constant resistance. Now apply&nbsp;
+the transformation and that line becomes a circle.
+
+00:23:53.600 --> 00:24:00.480
+Let's try another constant resistance line. Again&nbsp;
+this line becomes a circle. And we can do this for
+
+00:24:00.480 --> 00:24:06.880
+all positive constant resistance lines. What we&nbsp;
+get is this whole family of circles. At r equals
+
+00:24:06.880 --> 00:24:12.560
+0, the circle is the largest. Its diameter runs&nbsp;
+from -1 to 1 on the reflection coefficient plane.
+
+00:24:12.560 --> 00:24:17.280
+As we increase resistance, the circles shrink and&nbsp;
+their centers move to the right. At r equals 1,
+
+00:24:17.280 --> 00:24:21.440
+the circle passes through the center. That's&nbsp;
+the match case where resistance equals our
+
+00:24:21.440 --> 00:24:26.880
+characteristic impedance. As r increases further&nbsp;
+going off to infinity, the circles get smaller and
+
+00:24:26.880 --> 00:24:32.000
+cluster towards the right approaching the point&nbsp;
+1 0. Now let's do the same thing but plot all the
+
+00:24:32.000 --> 00:24:38.160
+lines of constant reactance. These are horizontal&nbsp;
+lines on the complex plane. For positive values,
+
+00:24:38.160 --> 00:24:43.040
+these are inductances and they map to circles&nbsp;
+above the axis. As reactance increases,
+
+00:24:43.040 --> 00:24:48.000
+the circles shrink. For negative values, these&nbsp;
+are capacitances and they map to circles below
+
+00:24:48.000 --> 00:24:53.040
+the axis. As reactance decreases, you get the&nbsp;
+same pattern mirrored below. When reactance
+
+00:24:53.040 --> 00:24:57.120
+equals zero, the circle has infinite radius.&nbsp;
+So, it appears as a straight line along the
+
+00:24:57.120 --> 00:25:01.280
+horizontal axis. We can get rid of the left half&nbsp;
+of the impedance plane, and we're left with our
+
+00:25:01.280 --> 00:25:07.600
+final chart. One family of circles now tells you&nbsp;
+resistance. The other tells you reactance. So,
+
+00:25:07.600 --> 00:25:11.600
+we can still easily read each point on the chart&nbsp;
+in terms of its impedance by just seeing where
+
+00:25:11.600 --> 00:25:16.160
+these circles intersect. But because this is&nbsp;
+the reflection coefficient plane, every point
+
+00:25:16.160 --> 00:25:20.640
+also maps to a reflection coefficient. And how far&nbsp;
+it sits from the center tells you the reflection
+
+00:25:20.640 --> 00:25:26.160
+coefficient's magnitude. Now, that's really the&nbsp;
+magic. Every point now holds two things at once,
+
+00:25:26.160 --> 00:25:30.320
+an impedance and a reflection coefficient.&nbsp;
+And as that reflection coefficient rotates,
+
+00:25:30.320 --> 00:25:34.960
+it walks you along the line, cycling through&nbsp;
+every impedance you'd actually measure. And just
+
+00:25:34.960 --> 00:25:40.640
+like our 1 / Z example, those values can now be&nbsp;
+anything. Impedances that once ran off to infinity
+
+00:25:40.640 --> 00:25:47.120
+now sit inside this single circle. The entire&nbsp;
+infinite range captured on one finite chart. So
+
+00:25:47.120 --> 00:25:53.680
+Smith found the transformation he needed for the&nbsp;
+Smith chart. For the first time, engineers had a
+
+00:25:53.680 --> 00:25:58.000
+practical way to analyze transmission lines and it&nbsp;
+opened up a whole new way of solving problems. Let
+
+00:25:58.000 --> 00:26:03.360
+me show you how. Here it is. We printed a massive&nbsp;
+chart to show you how it works. We're going to
+
+00:26:03.360 --> 00:26:09.040
+start over here. If you walk along this horizontal&nbsp;
+line, you're still moving along resistances. Above
+
+00:26:09.040 --> 00:26:15.600
+the line, you still have inductances. And below&nbsp;
+the line, you still have capacitances. And the
+
+00:26:15.600 --> 00:26:20.800
+whole chart fits in a circle with magnitude of&nbsp;
+one all the way around. So that's our chart. Now,
+
+00:26:20.800 --> 00:26:24.800
+let's put it to work to help us with the line we&nbsp;
+measured earlier, the one that was losing half its
+
+00:26:24.800 --> 00:26:30.720
+power. So the measurement in the lab gave us 36&nbsp;
+ohms of real resistance and 74 ohms of reactance.
+
+00:26:30.720 --> 00:26:35.360
+So we have to match that impedance. We divide by&nbsp;
+50 ohms to normalize. That gives us a value of
+
+00:26:35.360 --> 00:26:41.680
+Z = 0.7 + 1.5J. So we start with the real part of&nbsp;
+our impedance. These circles get bigger along the
+
+00:26:41.680 --> 00:26:49.360
+horizontal axis. So 0.7 is the circle right here.&nbsp;
+Now let's find the imaginary part. It's positive.
+
+00:26:49.360 --> 00:26:54.400
+So it's above this axis. So I'll walk along&nbsp;
+this way looking at these circles here to see
+
+00:26:54.400 --> 00:26:59.600
+where they intersect. And once we find where it&nbsp;
+intersects with 1.5, well that's our impedance.
+
+00:26:59.600 --> 00:27:03.680
+Finding any impedance on this chart, we just go&nbsp;
+through the same process. We just find where the
+
+00:27:03.680 --> 00:27:08.240
+two circles intersect. Now, we know to eliminate&nbsp;
+reflections, we need to match the impedance of
+
+00:27:08.240 --> 00:27:12.640
+the transmission line. And that happens when the&nbsp;
+resistance is one. So, it matches our reference
+
+00:27:12.640 --> 00:27:17.920
+impedance. And that reactance is then zero.&nbsp;
+That's at the very center of our chart. Now,
+
+00:27:17.920 --> 00:27:22.560
+on a reflection coefficient plane, that's the&nbsp;
+point 0 0, which makes sense. That's when you
+
+00:27:22.560 --> 00:27:28.720
+have no reflection. So, VR has to be zero. Okay.&nbsp;
+So, our goal is pretty clear. We need to move from
+
+00:27:28.720 --> 00:27:34.160
+our impedance here all the way to the center of&nbsp;
+the chart. So we draw an arrow from the center
+
+00:27:34.160 --> 00:27:38.000
+to our point. Because this plane represents&nbsp;
+the reflection coefficient, the length of
+
+00:27:38.000 --> 00:27:44.240
+that arrow is then the magnitude of our reflection&nbsp;
+coefficient. In this case, the magnitude is 0.68,
+
+00:27:44.240 --> 00:27:49.760
+which means that the reflected wave is 0.68&nbsp;
+times the forward wave. And that's exactly
+
+00:27:49.760 --> 00:27:54.960
+what we saw in the demo. We also know that as we&nbsp;
+move along our transmission line, because the same
+
+00:27:54.960 --> 00:27:58.960
+forward and reflected waves are interfering,&nbsp;
+the magnitude of the reflection coefficient
+
+00:27:58.960 --> 00:28:04.240
+shouldn't change. So if we keep the distance&nbsp;
+from the center fixed and we rotate around it,
+
+00:28:04.240 --> 00:28:08.640
+we can trace out a circle. And then every point&nbsp;
+on that circle corresponds to a different position
+
+00:28:08.640 --> 00:28:14.560
+along the line. Because the standing wave pattern&nbsp;
+repeats every half wavelength, we know that a 360°
+
+00:28:14.560 --> 00:28:19.920
+rotation on the chart corresponds to moving half&nbsp;
+a wavelength along the line. And we can use this
+
+00:28:19.920 --> 00:28:25.040
+to make our life easier. In our example, we want&nbsp;
+to move to the center of the chart. And for that,
+
+00:28:25.040 --> 00:28:30.400
+we need a normalized resistance of one. So, we&nbsp;
+want our point on this circle. Lucky for us,
+
+00:28:30.400 --> 00:28:40.480
+there are already two places on our line&nbsp;
+that match the resistance we want. Here.
+
+00:28:40.480 --> 00:28:45.040
+We can take advantage of that by moving to that&nbsp;
+place on the line. To do that, just see how far it
+
+00:28:45.040 --> 00:28:52.880
+is to rotate. In this case, it's 12°. Now, since&nbsp;
+360° is half a wavelength, then 12° here with a
+
+00:28:52.880 --> 00:28:58.800
+signal of 1085 MHz. Well, that's 3.1 mm. It's a&nbsp;
+bit close to where we want to put the line. So,
+
+00:28:58.800 --> 00:29:03.440
+we're actually going to go to the next available&nbsp;
+spot, which is over here. We measure it out on
+
+00:29:03.440 --> 00:29:10.000
+this plate and lay it down in copper tape. 28 mm&nbsp;
+of extra line. I'm going to say it's there, which
+
+00:29:10.000 --> 00:29:17.280
+is approximately correct. Nice. Okay, perfect.&nbsp;
+Now, all we have is this remaining reactance. In
+
+00:29:17.280 --> 00:29:22.800
+this case, it's on this circle, so it's roughly -&nbsp;
+1.8. All that's left to do is cancel it out like
+
+00:29:22.800 --> 00:29:28.000
+what we did before. In this case, since it's&nbsp;
+a negative capacitive 1.8, we can just add a
+
+00:29:28.000 --> 00:29:35.040
+positive inductive element in series. The equation&nbsp;
+is pretty simple. 1.8= omega L over Z0. We
+
+00:29:35.040 --> 00:29:40.800
+rearrange and we get 13.2 nanohenries. So, we can&nbsp;
+try adding something like that in the lab. Now, we
+
+00:29:40.800 --> 00:29:46.000
+decided to start out with a smaller inductor just&nbsp;
+to test how we move. All right. Yeah. Okay. Okay.
+
+00:29:46.000 --> 00:29:50.640
+So, what you can what you can see is we've moved&nbsp;
+along the constant resistance circle. Not quite
+
+00:29:50.640 --> 00:29:57.040
+enough. So, we have to actually up the size of our&nbsp;
+inductor. Now, we add the inductance we actually
+
+00:29:57.040 --> 00:30:08.320
+calculated. And sure enough, okay, bold. There we&nbsp;
+go. Not bad. There we go. Just like that. Yeah. No
+
+00:30:08.320 --> 00:30:15.200
+reflections. We did it. We did it. Let's go. Okay.&nbsp;
+Come on. Come on, brother. Come on. That's fire.
+
+00:30:15.200 --> 00:30:19.680
+Let's go. Look at that. Okay, we're getting and&nbsp;
+we're getting what? Like optimal power transfer
+
+00:30:19.680 --> 00:30:23.760
+down. Yeah, there we go. For sure, man. That's&nbsp;
+the That's the highest power output we've seen.
+
+00:30:23.760 --> 00:30:29.680
+I think so. I do think this is important. Like&nbsp;
+we've verified that this crazy map switch from the
+
+00:30:29.680 --> 00:30:35.680
+complex plane to the reflection coefficient plane&nbsp;
+leading to these insane appearing circles. They
+
+00:30:35.680 --> 00:30:40.560
+actually mean something. Like in real life, we've&nbsp;
+used it to increase the power. Crazy. It is crazy.
+
+00:30:40.560 --> 00:30:46.640
+It is crazy. This is cool. This chart represented&nbsp;
+the whole problem graphically. And in a way, radio
+
+00:30:46.640 --> 00:30:52.640
+engineers could actually use. And Smith wasn't&nbsp;
+alone. In 1937, Smith finished his chart and
+
+00:30:52.640 --> 00:30:58.000
+almost simultaneously Mizuhashi in Japan arrived&nbsp;
+at a similar representation that same year. And
+
+00:30:58.000 --> 00:31:03.760
+Volpert in the Soviet Union in 1939. Three groups&nbsp;
+working independently all converged on the same
+
+00:31:03.760 --> 00:31:08.080
+elegant solution. And it revealed a much better&nbsp;
+way to solve the impedance matching problem.
+
+00:31:08.080 --> 00:31:12.800
+One that was rarely used before because it had&nbsp;
+been too difficult to implement. On the chart,
+
+00:31:12.800 --> 00:31:19.200
+an open circuit has infinite resistance. So, it's&nbsp;
+here. A short circuit is all the way on the other
+
+00:31:19.200 --> 00:31:25.920
+side because it has no resistance. So, it's over&nbsp;
+here. What you'll notice is both lie on this outer
+
+00:31:25.920 --> 00:31:31.440
+circle. And that makes sense. An open or a short&nbsp;
+absorbs nothing. Every bit of the wave comes back.
+
+00:31:31.440 --> 00:31:37.120
+So, it sits on this reflection coefficient circle&nbsp;
+of magnitude 1, the biggest reflection there is.
+
+00:31:37.120 --> 00:31:42.640
+And this rim works like every other circle on the&nbsp;
+chart. Moving along the line walks you around it.
+
+00:31:42.640 --> 00:31:47.840
+One full lap every half wavelength. So start at&nbsp;
+a short or an open, add a bit of line and look
+
+00:31:47.840 --> 00:31:52.880
+what you pass through. Every reactance there is.&nbsp;
+What that means is that by adding a short or open
+
+00:31:52.880 --> 00:31:58.000
+circuit with any length of line, we can make any&nbsp;
+reactance. So instead of adding an inductor or
+
+00:31:58.000 --> 00:32:02.400
+capacitor, we get the same effect by just using a&nbsp;
+length of transmission line. So we need to cancel
+
+00:32:02.400 --> 00:32:08.720
+out the imaginary part of 1.8. Now the cable we're&nbsp;
+using is coaxial. It's really two conductors,
+
+00:32:08.720 --> 00:32:13.520
+an inner wire and an outer shield held a precise&nbsp;
+distance apart. Normally, it just runs to the
+
+00:32:13.520 --> 00:32:18.480
+antenna carrying the signal in a loop. But we&nbsp;
+can splice in a side branch of the same cable,
+
+00:32:18.480 --> 00:32:23.520
+a bit of extra transmission line called a stub.&nbsp;
+We've connected one branch to the inner cable of
+
+00:32:23.520 --> 00:32:28.400
+the stub, one branch to the outer. And since at&nbsp;
+the end of our stub, the inner wire and the outer
+
+00:32:28.400 --> 00:32:33.280
+shield aren't actually connected, this means we've&nbsp;
+created a break in our circuit. On the Smith chart
+
+00:32:33.280 --> 00:32:38.240
+that means we know that the end of the stub lies&nbsp;
+here at the open circuit position. But the rest
+
+00:32:38.240 --> 00:32:42.720
+of the circuit doesn't see the far end directly.&nbsp;
+It sees the impedance at the input of the stub,
+
+00:32:42.720 --> 00:32:48.240
+which is this connection point. And that depends&nbsp;
+on how long the stub is. Think of the stub as a
+
+00:32:48.240 --> 00:32:53.120
+little cove branching off a river. Water runs&nbsp;
+in, bounces off the back wall, and flows out
+
+00:32:53.120 --> 00:32:58.080
+again. And the length of the cove sets the timing&nbsp;
+of that returning water. Size the cove right,
+
+00:32:58.080 --> 00:33:02.480
+and the water flowing out pushes exactly when&nbsp;
+you want it to. And that's what the stub's length
+
+00:33:02.480 --> 00:33:09.280
+does. It sets the timing of the wave that reflects&nbsp;
+back. We want it to equal 1.8 positive. So,
+
+00:33:09.280 --> 00:33:16.480
+we start at where the open circuit is&nbsp;
+and walk all the way around our chart.
+
+00:33:16.480 --> 00:33:25.840
+And we stop at 1.8. When we measure the angle, we&nbsp;
+see that that's about 302°. Okay. Now, 302 / 360,
+
+00:33:25.840 --> 00:33:30.080
+that gives us how far along we've been on the&nbsp;
+circle. And we know that one full circle turn
+
+00:33:30.080 --> 00:33:35.280
+gives us half the wavelength. We get 77 mm.&nbsp;
+That should be the length of our stub. Now,
+
+00:33:35.280 --> 00:33:38.880
+that's the shortest length that works. But&nbsp;
+since the chart repeats every half wavelength,
+
+00:33:38.880 --> 00:33:44.960
+we could add another full lap, 92 mm, and reach&nbsp;
+exactly the same reactance. We're going to start
+
+00:33:44.960 --> 00:33:49.520
+with a longer stub and then trim it down to try&nbsp;
+and tune our match. We haven't matched it yet,
+
+00:33:49.520 --> 00:33:52.640
+so we're still we still have some&nbsp;
+of this reactance that we have to
+
+00:33:52.640 --> 00:33:57.280
+cancel out. Exactly. And hopefully as we cut&nbsp;
+this transmission line shorter and shorter,
+
+00:33:57.280 --> 00:34:00.880
+we'll move through that point. All right. All&nbsp;
+right. So, let's do it. Let's do it. You tell
+
+00:34:00.880 --> 00:34:08.880
+tell me what's happening. Okay. Just like a&nbsp;
+little bit basically like that might be. Come
+
+00:34:08.880 --> 00:34:17.840
+on. Give me that. Ooh, that's not too bad.&nbsp;
+Yes. All right. Here's the last little bit.
+
+00:34:17.840 --> 00:34:23.040
+That's not bad. That's a good match. That's&nbsp;
+a good match. Okay. That's awesome. It's
+
+00:34:23.040 --> 00:34:28.160
+actually so weird. Literally by just changing&nbsp;
+the length of this line here, this this stub,
+
+00:34:28.160 --> 00:34:33.840
+we've matched the impedance. Insane. Look.&nbsp;
+Look at it. We stopped every reflection on
+
+00:34:33.840 --> 00:34:38.480
+this line with just a break in the circuit. A&nbsp;
+dangling piece of cable connected to nothing
+
+00:34:38.480 --> 00:34:43.200
+trimmed to the right length. And because the&nbsp;
+stub is just more of the same cable, the fix
+
+00:34:43.200 --> 00:34:48.080
+is made of the thing that it's fixing. Now, the&nbsp;
+series stub we've shown gets the idea across, but
+
+00:34:48.080 --> 00:34:52.400
+you'd rarely build one this way because a series&nbsp;
+stub means cutting into your line. In practice,
+
+00:34:52.400 --> 00:34:56.560
+you'd rather just solder it in parallel. But&nbsp;
+that introduces a new problem. In series,
+
+00:34:56.560 --> 00:35:01.600
+impedances add together cleanly. In parallel,&nbsp;
+they don't, but one over impedance does. That's
+
+00:35:01.600 --> 00:35:06.400
+admittance. The only catch is that admittance&nbsp;
+curves the other way on the Smith chart. So,
+
+00:35:06.400 --> 00:35:10.720
+engineers use a flipped version of it called&nbsp;
+the admittance Smith chart. Using this chart,
+
+00:35:10.720 --> 00:35:16.240
+matching stubs in parallel is easy. So, what&nbsp;
+we've done today is basically what RF engineers
+
+00:35:16.240 --> 00:35:20.560
+do every day. They play a game trying to zigzag&nbsp;
+their way to the middle of the Smith chart.
+
+00:35:21.760 --> 00:35:26.160
+But all these charts have one big drawback.&nbsp;
+They only work for a single frequency. But real
+
+00:35:26.160 --> 00:35:29.760
+world signals aren't this perfect. The moment&nbsp;
+you turn them on or change them in any way,
+
+00:35:29.760 --> 00:35:34.160
+they spread across a range of frequencies. There&nbsp;
+are even radio techniques that encode information
+
+00:35:34.160 --> 00:35:39.680
+by changing the frequency. I mean, you've probably&nbsp;
+heard of them, frequency modulation or FM radio.
+
+00:35:39.680 --> 00:35:44.000
+In practice, then the response of a system doesn't&nbsp;
+just map to a single point on a chart, but rather
+
+00:35:44.000 --> 00:35:48.960
+it traces out a curve across its frequency range.&nbsp;
+So instead of matching one point on a Smith chart,
+
+00:35:48.960 --> 00:35:52.480
+you try to bring that curve as close to the&nbsp;
+center as possible over the range you care
+
+00:35:52.480 --> 00:35:58.000
+about. So even then the chart is still useful.&nbsp;
+So Phillip Smith designed a chart that could
+
+00:35:58.000 --> 00:36:04.080
+revolutionize how radio engineers worked. But at&nbsp;
+first, no one really cared. It took about 2 years
+
+00:36:04.080 --> 00:36:09.360
+of slow responses and rejections from technical&nbsp;
+magazines before Electronics finally published
+
+00:36:09.360 --> 00:36:13.760
+Smith's chart. Engineers already had their own&nbsp;
+methods, and this one required a completely
+
+00:36:13.760 --> 00:36:21.680
+different way of thinking. At first, adoption&nbsp;
+was slow, but World War II changed everything.
+
+00:36:21.680 --> 00:36:26.080
+In the Battle for the Atlantic, German U-boats&nbsp;
+were sinking Allied ships faster than they could
+
+00:36:26.080 --> 00:36:31.680
+be replaced. At night or in bad weather, the&nbsp;
+predators were almost impossible to find. At
+
+00:36:31.680 --> 00:36:35.920
+the MIT Radiation Laboratory, scientists&nbsp;
+were building new microwave radar systems
+
+00:36:35.920 --> 00:36:41.600
+that could detect submarines on the surface, even&nbsp;
+in complete darkness. And in the middle of a war,
+
+00:36:41.600 --> 00:36:46.080
+you don't have time for trial and error. You&nbsp;
+need a fast, reliable way to fix these systems.
+
+00:36:46.080 --> 00:36:50.560
+So Smith's chart was used constantly. When the&nbsp;
+war ended, those same engineers took the chart
+
+00:36:50.560 --> 00:36:54.800
+with them out into industry. Into the universities&nbsp;
+they'd work in and the textbooks they'd go on to
+
+00:36:54.800 --> 00:36:59.840
+write. Meanwhile, the other versions of the chart&nbsp;
+by Mizuhashi and Volpert were used in Japan and
+
+00:36:59.840 --> 00:37:04.800
+the Soviet Union locally, but weren't spread&nbsp;
+as widely. That's why today we refer to this
+
+00:37:04.800 --> 00:37:10.240
+chart as the Smith chart. Now granted, engineers&nbsp;
+don't need to impedance match by hand anymore.
+
+00:37:10.240 --> 00:37:14.800
+Computers can do it a lot faster. But this chart&nbsp;
+is still taught around the world in engineering
+
+00:37:14.800 --> 00:37:20.240
+classrooms and many engineers still rely on it&nbsp;
+to this day. That's because while a computer
+
+00:37:20.240 --> 00:37:25.360
+can tell you the perfect match, it doesn't tell&nbsp;
+you what to try or why it works. The Smith chart
+
+00:37:25.360 --> 00:37:29.520
+encodes that intuition. And because of that,&nbsp;
+it's still a popular visualization tool in
+
+00:37:29.520 --> 00:37:34.640
+modern software. And it's used in almost all radio&nbsp;
+frequency measurement tools. So, historically,
+
+00:37:34.640 --> 00:37:40.720
+we would get a Smith chart and we'd use rulers and&nbsp;
+we'd use protractors and compasses. These days,
+
+00:37:40.720 --> 00:37:45.600
+we use a Smith chart more like a back of the&nbsp;
+envelope calculation where it's like a map.
+
+00:37:45.600 --> 00:37:50.800
+It's like if if somebody asks you, "How do you get&nbsp;
+to the nearest tube station?" You'd say, "Well,
+
+00:37:50.800 --> 00:37:54.560
+um, here's an envelope, you go down&nbsp;
+the street here, turn left there,
+
+00:37:54.560 --> 00:37:59.440
+go further down there." And in the same&nbsp;
+way, we use it to navigate from where
+
+00:37:59.440 --> 00:38:03.280
+we are to where we want to be. Sure. So it&nbsp;
+gives you an intuition of what direction to
+
+00:38:03.280 --> 00:38:08.080
+go. That's right. Okay. Before the Smith chart,&nbsp;
+engineers were stuck using cumbersome formulas
+
+00:38:08.080 --> 00:38:13.120
+and guessing. It took a concerted effort by&nbsp;
+Phillip Smith, Tosaku Mizuhashi, and Amiel
+
+00:38:13.120 --> 00:38:18.160
+Volpert to make this complex world of reflections&nbsp;
+and standing waves easier to understand. For me,
+
+00:38:18.160 --> 00:38:23.920
+it brings to mind Mendeleev and the periodic table&nbsp;
+or Feynman and his diagrams. The Smith chart is
+
+00:38:23.920 --> 00:38:28.560
+in that same vein. So much of scientific&nbsp;
+progress comes not from new discoveries,
+
+00:38:28.560 --> 00:38:34.000
+but from new forms of representation. They make&nbsp;
+hard problems easier to solve and make further
+
+00:38:34.000 --> 00:38:39.120
+innovation and discovery possible. The Smith chart&nbsp;
+helped advance radio frequency engineering. It
+
+00:38:39.120 --> 00:38:44.080
+was crucial in building modern radar and sensing&nbsp;
+systems. And the communication networks we rely on
+
+00:38:44.080 --> 00:38:54.960
+today were no small part built from this chart.&nbsp;
+So yes, it's scary, but it's also damn useful.
+
+00:38:54.960 --> 00:38:58.640
+One last thing, last year we launched&nbsp;
+the official Veritasium board game,
+
+00:38:58.640 --> 00:39:03.440
+Elements of Truth. It's a trivia game with over&nbsp;
+800 questions about science and technology. But
+
+00:39:03.440 --> 00:39:07.520
+the twist is you don't just answer. You also&nbsp;
+have to put down a number from 1 to 10 for
+
+00:39:07.520 --> 00:39:11.600
+how confident you are that you're right. So, you&nbsp;
+can know the answer and still miss out on points
+
+00:39:11.600 --> 00:39:16.080
+by doubting yourself, which it turns out gets&nbsp;
+people pretty fired up. Our team is competitive,
+
+00:39:16.080 --> 00:39:19.920
+so every time we play, things do get pretty&nbsp;
+heated. The game comes out later this year,
+
+00:39:19.920 --> 00:39:23.200
+so if you want to pre-order, there's a link in&nbsp;
+the description that'll take you to the Elements
+
+00:39:23.200 --> 00:39:28.320
+of Truth website. Thank you for supporting this&nbsp;
+project, and as always, thanks for watching.
+
+00:39:32.560 --> 00:39:36.800
+Before we go, I want to thank Imperial College&nbsp;
+London for having us and especially Dr. Stepan
+
+00:39:36.800 --> 00:39:42.480
+Lucyszyn and Ian Rossuck for setting up the demo.&nbsp;
+And as always, want to thank you for watching.
+
