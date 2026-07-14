@@ -1,16 +1,34 @@
 {
-  "generated_at": "2026-07-14T11:08:51.508618Z",
+  "generated_at": "2026-07-14T12:49:11.678401Z",
   "window_hours": 24,
   "total_items": 3,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "誰能擋得住法國？2026 世界盃四強全解析！史上第一次 FIFA 前四強全數歸位",
-      "url": "https://www.youtube.com/watch?v=stGMmMf4k5w",
-      "primary_url": "https://www.youtube.com/watch?v=stGMmMf4k5w",
-      "source": "矽谷輕鬆談 Just Kidding Tech",
+      "title": "巴勃羅·埃斯科瓦爾 vs. 吉爾伯托·羅德里格斯：毒梟真實歷史 / Pablo Escobar vs. Gilberto Rodriguez: Narcos Real History",
+      "url": "https://www.youtube.com/watch?v=Du3vowmh0ZU",
+      "primary_url": "https://www.youtube.com/watch?v=Du3vowmh0ZU",
+      "source": "Best Documentary",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "5b907c8fdb4362267fb70a92cc06d38ba09e23e2",
+          "title": "巴勃羅·埃斯科瓦爾 vs. 吉爾伯托·羅德里格斯：毒梟真實歷史 / Pablo Escobar vs. Gilberto Rodriguez: Narcos Real History",
+          "url": "https://www.youtube.com/watch?v=Du3vowmh0ZU",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-14T12:00:03Z"
+        },
+        {
+          "id": "5e76e7817212a37596013e5085a59bb015b1077c",
+          "title": "483 郦菁、赵鼎新谈《大转型》与「波兰尼时刻」",
+          "url": "https://www.youtube.com/watch?v=EzbuVajTAZI",
+          "source": "忽左忽右",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-14T11:16:19Z"
+        },
         {
           "id": "dfc91bca987ad27aef60c472eeec8d97554e17bb",
           "title": "誰能擋得住法國？2026 世界盃四強全解析！史上第一次 FIFA 前四強全數歸位",
@@ -66,13 +84,13 @@
           "published_at": "2026-07-13T14:30:29Z"
         },
         {
-          "id": "9e86e649d1da56c8ffe5e12f51053a35ce93e525",
-          "title": "泰格伍茲：破碎的帝國 / Tiger Woods: The Broken Empire",
-          "url": "https://www.youtube.com/watch?v=Gs8wK09Jve0",
-          "source": "Best Documentary",
+          "id": "437c8cecf45fc62685cd9586fb54d7f15589bbc4",
+          "title": "一個失誤葬送比賽！2打1局面為什麼不傳球？挪威的7號Sørloth是不想傳還是傳不到？｜挪威VS英格蘭巨大失誤",
+          "url": "https://www.youtube.com/watch?v=MZLW9Zp44us",
+          "source": "沙發人物誌",
           "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-13T12:00:28Z"
+          "site_id": "opmlrss",
+          "published_at": "2026-07-14T12:00:32Z"
         },
         {
           "id": "42f170952eee015e26b783937febd0a6e21a5838",
@@ -93,7 +111,7 @@
           "published_at": "2026-07-13T16:23:28Z"
         }
       ],
-      "source_count": 9,
+      "source_count": 11,
       "source_names": [
         "Benjamin Cowen",
         "Best Documentary",
@@ -102,10 +120,30 @@
         "Timeline - World History Documentaries",
         "imineo Documentaires",
         "neo",
+        "忽左忽右",
+        "沙發人物誌",
         "矽谷輕鬆談 Just Kidding Tech",
         "美投侃新闻"
       ],
       "items": [
+        {
+          "id": "5b907c8fdb4362267fb70a92cc06d38ba09e23e2",
+          "title": "巴勃羅·埃斯科瓦爾 vs. 吉爾伯托·羅德里格斯：毒梟真實歷史 / Pablo Escobar vs. Gilberto Rodriguez: Narcos Real History",
+          "url": "https://www.youtube.com/watch?v=Du3vowmh0ZU",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-14T12:00:03Z"
+        },
+        {
+          "id": "5e76e7817212a37596013e5085a59bb015b1077c",
+          "title": "483 郦菁、赵鼎新谈《大转型》与「波兰尼时刻」",
+          "url": "https://www.youtube.com/watch?v=EzbuVajTAZI",
+          "source": "忽左忽右",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-14T11:16:19Z"
+        },
         {
           "id": "dfc91bca987ad27aef60c472eeec8d97554e17bb",
           "title": "誰能擋得住法國？2026 世界盃四強全解析！史上第一次 FIFA 前四強全數歸位",
@@ -161,13 +199,13 @@
           "published_at": "2026-07-13T14:30:29Z"
         },
         {
-          "id": "9e86e649d1da56c8ffe5e12f51053a35ce93e525",
-          "title": "泰格伍茲：破碎的帝國 / Tiger Woods: The Broken Empire",
-          "url": "https://www.youtube.com/watch?v=Gs8wK09Jve0",
-          "source": "Best Documentary",
+          "id": "437c8cecf45fc62685cd9586fb54d7f15589bbc4",
+          "title": "一個失誤葬送比賽！2打1局面為什麼不傳球？挪威的7號Sørloth是不想傳還是傳不到？｜挪威VS英格蘭巨大失誤",
+          "url": "https://www.youtube.com/watch?v=MZLW9Zp44us",
+          "source": "沙發人物誌",
           "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-13T12:00:28Z"
+          "site_id": "opmlrss",
+          "published_at": "2026-07-14T12:00:32Z"
         },
         {
           "id": "42f170952eee015e26b783937febd0a6e21a5838",
@@ -188,28 +226,28 @@
           "published_at": "2026-07-13T16:23:28Z"
         }
       ],
-      "item_count": 9,
-      "duplicate_count": 9,
-      "score": 0.7173,
-      "importance": 0.7173,
-      "importance_score": 0.7173,
+      "item_count": 11,
+      "duplicate_count": 11,
+      "score": 0.7398,
+      "importance": 0.7398,
+      "importance_score": 0.7398,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.8909,
+        "recency": 0.9659,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-13T12:00:28Z",
-      "latest_at": "2026-07-14T08:31:46Z",
+      "earliest_at": "2026-07-13T14:30:29Z",
+      "latest_at": "2026-07-14T12:00:32Z",
       "primary_item": {
-        "id": "dfc91bca987ad27aef60c472eeec8d97554e17bb",
-        "title": "誰能擋得住法國？2026 世界盃四強全解析！史上第一次 FIFA 前四強全數歸位",
-        "url": "https://www.youtube.com/watch?v=stGMmMf4k5w",
-        "source": "矽谷輕鬆談 Just Kidding Tech",
+        "id": "5b907c8fdb4362267fb70a92cc06d38ba09e23e2",
+        "title": "巴勃羅·埃斯科瓦爾 vs. 吉爾伯托·羅德里格斯：毒梟真實歷史 / Pablo Escobar vs. Gilberto Rodriguez: Narcos Real History",
+        "url": "https://www.youtube.com/watch?v=Du3vowmh0ZU",
+        "source": "Best Documentary",
         "source_name": "OPML RSS"
       }
     },
@@ -266,13 +304,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4472,
-      "importance": 0.4472,
-      "importance_score": 0.4472,
+      "score": 0.4263,
+      "importance": 0.4263,
+      "importance_score": 0.4263,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.4908,
+        "recency": 0.4211,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -342,13 +380,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3232,
-      "importance": 0.3232,
-      "importance_score": 0.3232,
+      "score": 0.3023,
+      "importance": 0.3023,
+      "importance_score": 0.3023,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.494,
+        "recency": 0.4244,
         "story_heat": 0.25
       },
       "category": "watch",
