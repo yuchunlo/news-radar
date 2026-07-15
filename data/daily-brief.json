@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T23:57:02.488612Z",
+  "generated_at": "2026-07-15T03:21:04.458487Z",
   "window_hours": 24,
   "total_items": 3,
   "items": [
@@ -75,15 +75,6 @@
           "published_at": "2026-07-14T08:31:46Z"
         },
         {
-          "id": "a532904d7adf623eeb3c663109f6418d746e0fb5",
-          "title": "了解比特幣熊市 / Understanding This Bitcoin Bear Market",
-          "url": "https://www.youtube.com/watch?v=Wf7vUIoGQrE",
-          "source": "Benjamin Cowen",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-14T02:58:31Z"
-        },
-        {
           "id": "940eea40944a1f117bfa168d37a0a9ab2eeeae19",
           "title": "蘇黎世如何解決交通問題 / How Zurich Solved Traffic",
           "url": "https://www.youtube.com/watch?v=kew0EIR5oxk",
@@ -138,9 +129,8 @@
           "published_at": "2026-07-14T16:35:13Z"
         }
       ],
-      "source_count": 14,
+      "source_count": 13,
       "source_names": [
-        "Benjamin Cowen",
         "Best Documentary",
         "Hiker CP",
         "Kilian Jornet Burgada",
@@ -217,15 +207,6 @@
           "published_at": "2026-07-14T08:31:46Z"
         },
         {
-          "id": "a532904d7adf623eeb3c663109f6418d746e0fb5",
-          "title": "了解比特幣熊市 / Understanding This Bitcoin Bear Market",
-          "url": "https://www.youtube.com/watch?v=Wf7vUIoGQrE",
-          "source": "Benjamin Cowen",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-14T02:58:31Z"
-        },
-        {
           "id": "940eea40944a1f117bfa168d37a0a9ab2eeeae19",
           "title": "蘇黎世如何解決交通問題 / How Zurich Solved Traffic",
           "url": "https://www.youtube.com/watch?v=kew0EIR5oxk",
@@ -280,22 +261,22 @@
           "published_at": "2026-07-14T16:35:13Z"
         }
       ],
-      "item_count": 14,
-      "duplicate_count": 14,
-      "score": 0.7237,
-      "importance": 0.7237,
-      "importance_score": 0.7237,
+      "item_count": 13,
+      "duplicate_count": 13,
+      "score": 0.6812,
+      "importance": 0.6812,
+      "importance_score": 0.6812,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9125,
+        "recency": 0.7708,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-14T02:58:31Z",
+      "earliest_at": "2026-07-14T08:31:46Z",
       "latest_at": "2026-07-14T21:50:59Z",
       "primary_item": {
         "id": "11428ef1c8f98aeea3987a3c3ab264972480c386",
@@ -358,13 +339,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.484,
-      "importance": 0.484,
-      "importance_score": 0.484,
+      "score": 0.4414,
+      "importance": 0.4414,
+      "importance_score": 0.4414,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6132,
+        "recency": 0.4715,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -434,13 +415,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4392,
-      "importance": 0.4392,
-      "importance_score": 0.4392,
+      "score": 0.3967,
+      "importance": 0.3967,
+      "importance_score": 0.3967,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.4639,
+        "recency": 0.3222,
         "story_heat": 0.25
       },
       "category": "watch",
