@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-07-15T08:24:24.893179Z",
+  "generated_at": "2026-07-15T10:22:25.462942Z",
   "window_hours": 24,
-  "total_items": 3,
+  "total_items": 4,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "通貨膨脹和比特幣 / Inflation and Bitcoin",
-      "url": "https://www.youtube.com/watch?v=rWfLRMiyQVY",
-      "primary_url": "https://www.youtube.com/watch?v=rWfLRMiyQVY",
-      "source": "Benjamin Cowen",
+      "title": "凝固汽油彈死亡：小桌音樂會 / Napalm Death: Tiny Desk Concert",
+      "url": "https://www.youtube.com/watch?v=e81LZCHhNKQ",
+      "primary_url": "https://www.youtube.com/watch?v=e81LZCHhNKQ",
+      "source": "NPR Music",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "ed4b5f16b28e188d93acd611ebc15607dc686f46",
+          "title": "凝固汽油彈死亡：小桌音樂會 / Napalm Death: Tiny Desk Concert",
+          "url": "https://www.youtube.com/watch?v=e81LZCHhNKQ",
+          "source": "NPR Music",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-15T09:00:14Z"
+        },
         {
           "id": "1c46f9b78899d7dc6761a8e61d88e428fcb95b7a",
           "title": "通貨膨脹和比特幣 / Inflation and Bitcoin",
@@ -93,15 +102,6 @@
           "published_at": "2026-07-14T11:16:19Z"
         },
         {
-          "id": "dfc91bca987ad27aef60c472eeec8d97554e17bb",
-          "title": "誰能擋得住法國？2026 世界盃四強全解析！史上第一次 FIFA 前四強全數歸位",
-          "url": "https://www.youtube.com/watch?v=stGMmMf4k5w",
-          "source": "矽谷輕鬆談 Just Kidding Tech",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-14T08:31:46Z"
-        },
-        {
           "id": "940eea40944a1f117bfa168d37a0a9ab2eeeae19",
           "title": "蘇黎世如何解決交通問題 / How Zurich Solved Traffic",
           "url": "https://www.youtube.com/watch?v=kew0EIR5oxk",
@@ -147,6 +147,15 @@
           "published_at": "2026-07-14T12:00:32Z"
         },
         {
+          "id": "30cbad52da08b2149612e7899a20bb7f00bdb56e",
+          "title": "電動機車不好嗎？市售不到7%，2040年拚100%可能嗎？ 【新聞實驗室】",
+          "url": "https://www.youtube.com/watch?v=v90_U4GO354",
+          "source": "公視P#新聞實驗室",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-15T09:12:54Z"
+        },
+        {
           "id": "2f655530a0f83e3c8db2879126b46914f0e2fa5e",
           "title": "對話漢斯·特洛耶 / In conversation with: Hans Troyer",
           "url": "https://www.youtube.com/watch?v=P3V_R44Sv5w",
@@ -156,23 +165,33 @@
           "published_at": "2026-07-14T16:35:13Z"
         }
       ],
-      "source_count": 16,
+      "source_count": 17,
       "source_names": [
         "Benjamin Cowen",
         "Best Documentary",
         "Hiker CP",
         "Kilian Jornet Burgada",
+        "NPR Music",
         "OBF",
         "Shepherd Capital Markets",
         "Timeline - World History Documentaries",
         "Veritasium",
         "【隱形工廠｜戶外教學】",
+        "公視P#新聞實驗室",
         "忽左忽右",
         "沙發人物誌",
-        "矽谷輕鬆談 Just Kidding Tech",
         "美投侃新闻"
       ],
       "items": [
+        {
+          "id": "ed4b5f16b28e188d93acd611ebc15607dc686f46",
+          "title": "凝固汽油彈死亡：小桌音樂會 / Napalm Death: Tiny Desk Concert",
+          "url": "https://www.youtube.com/watch?v=e81LZCHhNKQ",
+          "source": "NPR Music",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-15T09:00:14Z"
+        },
         {
           "id": "1c46f9b78899d7dc6761a8e61d88e428fcb95b7a",
           "title": "通貨膨脹和比特幣 / Inflation and Bitcoin",
@@ -255,15 +274,6 @@
           "published_at": "2026-07-14T11:16:19Z"
         },
         {
-          "id": "dfc91bca987ad27aef60c472eeec8d97554e17bb",
-          "title": "誰能擋得住法國？2026 世界盃四強全解析！史上第一次 FIFA 前四強全數歸位",
-          "url": "https://www.youtube.com/watch?v=stGMmMf4k5w",
-          "source": "矽谷輕鬆談 Just Kidding Tech",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-14T08:31:46Z"
-        },
-        {
           "id": "940eea40944a1f117bfa168d37a0a9ab2eeeae19",
           "title": "蘇黎世如何解決交通問題 / How Zurich Solved Traffic",
           "url": "https://www.youtube.com/watch?v=kew0EIR5oxk",
@@ -309,6 +319,15 @@
           "published_at": "2026-07-14T12:00:32Z"
         },
         {
+          "id": "30cbad52da08b2149612e7899a20bb7f00bdb56e",
+          "title": "電動機車不好嗎？市售不到7%，2040年拚100%可能嗎？ 【新聞實驗室】",
+          "url": "https://www.youtube.com/watch?v=v90_U4GO354",
+          "source": "公視P#新聞實驗室",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-15T09:12:54Z"
+        },
+        {
           "id": "2f655530a0f83e3c8db2879126b46914f0e2fa5e",
           "title": "對話漢斯·特洛耶 / In conversation with: Hans Troyer",
           "url": "https://www.youtube.com/watch?v=P3V_R44Sv5w",
@@ -318,28 +337,122 @@
           "published_at": "2026-07-14T16:35:13Z"
         }
       ],
-      "item_count": 16,
-      "duplicate_count": 16,
-      "score": 0.6729,
-      "importance": 0.6729,
-      "importance_score": 0.6729,
+      "item_count": 17,
+      "duplicate_count": 17,
+      "score": 0.7329,
+      "importance": 0.7329,
+      "importance_score": 0.7329,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7429,
+        "recency": 0.9429,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-14T08:31:46Z",
-      "latest_at": "2026-07-15T02:14:08Z",
+      "earliest_at": "2026-07-14T11:16:19Z",
+      "latest_at": "2026-07-15T09:12:54Z",
       "primary_item": {
-        "id": "1c46f9b78899d7dc6761a8e61d88e428fcb95b7a",
-        "title": "通貨膨脹和比特幣 / Inflation and Bitcoin",
-        "url": "https://www.youtube.com/watch?v=rWfLRMiyQVY",
-        "source": "Benjamin Cowen",
+        "id": "ed4b5f16b28e188d93acd611ebc15607dc686f46",
+        "title": "凝固汽油彈死亡：小桌音樂會 / Napalm Death: Tiny Desk Concert",
+        "url": "https://www.youtube.com/watch?v=e81LZCHhNKQ",
+        "source": "NPR Music",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_7d23c0769328",
+      "title": "AI創新百強》病人問不清楚、醫師反覆衛教　北榮眼科用AI紓解50年診間困境",
+      "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014447",
+      "primary_url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014447",
+      "source": "商業周刊 當期雜誌開放文章",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "b98920264163821815517d0893ada65d22d3e3cd",
+          "title": "AI創新百強》病人問不清楚、醫師反覆衛教　北榮眼科用AI紓解50年診間困境",
+          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014447",
+          "source": "商業周刊 當期雜誌開放文章",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-15T16:00:00Z"
+        },
+        {
+          "id": "3e55e18b837626935d6cf6a1c8688ec6cb1cbe9c",
+          "title": "iPhone殺了諾基亞、AI卻沒殺死資安　關鍵差在「補充性資產」重估",
+          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014448",
+          "source": "商業周刊 當期雜誌開放文章",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-15T16:00:00Z"
+        },
+        {
+          "id": "c938bad866f8ad4ded3b47126baf924e3f23fb47",
+          "title": "新升任主管，心裡卻很虛？職場政治真相：權力是越用越多的",
+          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014436",
+          "source": "商業周刊 當期雜誌開放文章",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-15T16:00:00Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "商業周刊 當期雜誌開放文章"
+      ],
+      "items": [
+        {
+          "id": "b98920264163821815517d0893ada65d22d3e3cd",
+          "title": "AI創新百強》病人問不清楚、醫師反覆衛教　北榮眼科用AI紓解50年診間困境",
+          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014447",
+          "source": "商業周刊 當期雜誌開放文章",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-15T16:00:00Z"
+        },
+        {
+          "id": "3e55e18b837626935d6cf6a1c8688ec6cb1cbe9c",
+          "title": "iPhone殺了諾基亞、AI卻沒殺死資安　關鍵差在「補充性資產」重估",
+          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014448",
+          "source": "商業周刊 當期雜誌開放文章",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-15T16:00:00Z"
+        },
+        {
+          "id": "c938bad866f8ad4ded3b47126baf924e3f23fb47",
+          "title": "新升任主管，心裡卻很虛？職場政治真相：權力是越用越多的",
+          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014436",
+          "source": "商業周刊 當期雜誌開放文章",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-15T16:00:00Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.525,
+      "importance": 0.525,
+      "importance_score": 0.525,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "source_tier": 0.25,
+        "recency": 1.0,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-15T16:00:00Z",
+      "latest_at": "2026-07-15T16:00:00Z",
+      "primary_item": {
+        "id": "b98920264163821815517d0893ada65d22d3e3cd",
+        "title": "AI創新百強》病人問不清楚、醫師反覆衛教　北榮眼科用AI紓解50年診間困境",
+        "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014447",
+        "source": "商業周刊 當期雜誌開放文章",
         "source_name": "OPML RSS"
       }
     },
@@ -396,13 +509,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3783,
-      "importance": 0.3783,
-      "importance_score": 0.3783,
+      "score": 0.3537,
+      "importance": 0.3537,
+      "importance_score": 0.3537,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.2608,
+        "recency": 0.1789,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -472,13 +585,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3335,
-      "importance": 0.3335,
-      "importance_score": 0.3335,
+      "score": 0.3089,
+      "importance": 0.3089,
+      "importance_score": 0.3089,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.1115,
+        "recency": 0.0296,
         "story_heat": 0.25
       },
       "category": "watch",
