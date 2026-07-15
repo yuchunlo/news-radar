@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T16:04:30.938173Z",
+  "generated_at": "2026-07-15T17:48:49.160786Z",
   "window_hours": 24,
   "total_items": 2,
   "items": [
@@ -129,6 +129,15 @@
           "published_at": "2026-07-15T14:00:01Z"
         },
         {
+          "id": "5d8f53869b8e6c300602ad1197403f1904602897",
+          "title": "為什麼美國的房子這麼脆弱 / Why American Houses Are So Flimsy",
+          "url": "https://www.youtube.com/watch?v=VuliaG_-uao",
+          "source": "Wendover Productions",
+          "source_name": "OPML RSS",
+          "site_id": "execution",
+          "published_at": "2026-07-15T16:49:56Z"
+        },
+        {
           "id": "056fab364aca6cd000fdb2198a8155c44f5c79ad",
           "title": "難怪能這麼囂張..韓國最扯‘女高中生命案’ 引爆全網怒火｜DenQ",
           "url": "https://www.youtube.com/watch?v=CNv6IMbEMXw",
@@ -154,15 +163,6 @@
           "source_name": "OPML RSS",
           "site_id": "trending",
           "published_at": "2026-07-15T09:12:54Z"
-        },
-        {
-          "id": "2f655530a0f83e3c8db2879126b46914f0e2fa5e",
-          "title": "對話漢斯·特洛耶 / In conversation with: Hans Troyer",
-          "url": "https://www.youtube.com/watch?v=P3V_R44Sv5w",
-          "source": "Kilian Jornet Burgada",
-          "source_name": "OPML RSS",
-          "site_id": "functionality",
-          "published_at": "2026-07-14T16:35:13Z"
         }
       ],
       "source_count": 17,
@@ -171,11 +171,11 @@
         "Best Documentary",
         "DenQ來了",
         "Good Times Bad Times",
-        "Kilian Jornet Burgada",
         "NPR Music",
         "Shepherd Capital Markets",
         "Timeline - World History Documentaries",
         "Veritasium",
+        "Wendover Productions",
         "imineo Documentaires",
         "【隱形工廠｜戶外教學】",
         "公視P#新聞實驗室",
@@ -303,6 +303,15 @@
           "published_at": "2026-07-15T14:00:01Z"
         },
         {
+          "id": "5d8f53869b8e6c300602ad1197403f1904602897",
+          "title": "為什麼美國的房子這麼脆弱 / Why American Houses Are So Flimsy",
+          "url": "https://www.youtube.com/watch?v=VuliaG_-uao",
+          "source": "Wendover Productions",
+          "source_name": "OPML RSS",
+          "site_id": "execution",
+          "published_at": "2026-07-15T16:49:56Z"
+        },
+        {
           "id": "056fab364aca6cd000fdb2198a8155c44f5c79ad",
           "title": "難怪能這麼囂張..韓國最扯‘女高中生命案’ 引爆全網怒火｜DenQ",
           "url": "https://www.youtube.com/watch?v=CNv6IMbEMXw",
@@ -328,34 +337,25 @@
           "source_name": "OPML RSS",
           "site_id": "trending",
           "published_at": "2026-07-15T09:12:54Z"
-        },
-        {
-          "id": "2f655530a0f83e3c8db2879126b46914f0e2fa5e",
-          "title": "對話漢斯·特洛耶 / In conversation with: Hans Troyer",
-          "url": "https://www.youtube.com/watch?v=P3V_R44Sv5w",
-          "source": "Kilian Jornet Burgada",
-          "source_name": "OPML RSS",
-          "site_id": "functionality",
-          "published_at": "2026-07-14T16:35:13Z"
         }
       ],
       "item_count": 17,
       "duplicate_count": 17,
-      "score": 0.7335,
-      "importance": 0.7335,
-      "importance_score": 0.7335,
+      "score": 0.7117,
+      "importance": 0.7117,
+      "importance_score": 0.7117,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9449,
+        "recency": 0.8725,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-14T16:35:13Z",
-      "latest_at": "2026-07-15T14:56:11Z",
+      "earliest_at": "2026-07-14T18:03:28Z",
+      "latest_at": "2026-07-15T16:49:56Z",
       "primary_item": {
         "id": "ad9f1b6889b3af748fea7552867c2394eb1b0c15",
         "title": "米南人：天收割者的秘密生活 / The Minang People: The secret life of the Sky Harvesters",
@@ -435,13 +435,13 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5241,
-      "importance": 0.5241,
-      "importance_score": 0.5241,
+      "score": 0.5023,
+      "importance": 0.5023,
+      "importance_score": 0.5023,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.9969,
+        "recency": 0.9244,
         "story_heat": 0.5
       },
       "category": "multi_source",
