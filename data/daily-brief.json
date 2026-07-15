@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-07-15T14:21:56.834848Z",
+  "generated_at": "2026-07-15T16:04:30.938173Z",
   "window_hours": 24,
-  "total_items": 3,
+  "total_items": 2,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "喬登彼得森：世界上最危險的教授？ / Jordan Peterson: The Most Dangerous Professor in the World?",
-      "url": "https://www.youtube.com/watch?v=BNsgHc8RfDk",
-      "primary_url": "https://www.youtube.com/watch?v=BNsgHc8RfDk",
-      "source": "Best Documentary",
+      "title": "米南人：天收割者的秘密生活 / The Minang People: The secret life of the Sky Harvesters",
+      "url": "https://www.youtube.com/watch?v=GI0zp5MOkY0",
+      "primary_url": "https://www.youtube.com/watch?v=GI0zp5MOkY0",
+      "source": "imineo Documentaires",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "ad9f1b6889b3af748fea7552867c2394eb1b0c15",
+          "title": "米南人：天收割者的秘密生活 / The Minang People: The secret life of the Sky Harvesters",
+          "url": "https://www.youtube.com/watch?v=GI0zp5MOkY0",
+          "source": "imineo Documentaires",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-15T14:45:09Z"
+        },
         {
           "id": "b9b1e45fd40e4e90c05300722243cde85ff28845",
           "title": "喬登彼得森：世界上最危險的教授？ / Jordan Peterson: The Most Dangerous Professor in the World?",
@@ -102,6 +111,15 @@
           "published_at": "2026-07-14T18:03:28Z"
         },
         {
+          "id": "f6904109e8cff667a1cb43a12a7960a4c104ae39",
+          "title": "UPA 如何分裂波蘭和烏克蘭：爭端的核心 / How the UPA Is Dividing Poland and Ukraine: The Heart of the Dispute",
+          "url": "https://www.youtube.com/watch?v=ED509nskSmc",
+          "source": "Good Times Bad Times",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-15T14:56:11Z"
+        },
+        {
           "id": "7219cfc6faadb1ccd7d78f9a19f19d0848b237dc",
           "title": "跨越政治和足球的民族恩怨！世界盃五次交手每次都爭議滿滿，一個在歐洲一個在南美洲為什麼是世仇？｜阿根廷 VS 英格蘭世仇對決",
           "url": "https://www.youtube.com/watch?v=PeQCkGePxdw",
@@ -109,33 +127,6 @@
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
           "published_at": "2026-07-15T14:00:01Z"
-        },
-        {
-          "id": "940eea40944a1f117bfa168d37a0a9ab2eeeae19",
-          "title": "蘇黎世如何解決交通問題 / How Zurich Solved Traffic",
-          "url": "https://www.youtube.com/watch?v=kew0EIR5oxk",
-          "source": "OBF",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-14T15:17:32Z"
-        },
-        {
-          "id": "4e764169ea14ddb3cb6952337a44f4f1be203d0a",
-          "title": "讓駕駛變得更糟修復了這座城市的交通 / Making Driving Worse Fixed This City's Traffic",
-          "url": "https://www.youtube.com/watch?v=kew0EIR5oxk",
-          "source": "OBF",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-14T15:17:32Z"
-        },
-        {
-          "id": "7ca6ae1791a41886d43ac42db2da967538b0736a",
-          "title": "為什麼蘇黎世禁止汽車進入城市 / Why Zurich Stops Cars From Entering The City",
-          "url": "https://www.youtube.com/watch?v=kew0EIR5oxk",
-          "source": "OBF",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-14T15:17:32Z"
         },
         {
           "id": "056fab364aca6cd000fdb2198a8155c44f5c79ad",
@@ -174,17 +165,18 @@
           "published_at": "2026-07-14T16:35:13Z"
         }
       ],
-      "source_count": 18,
+      "source_count": 17,
       "source_names": [
         "Benjamin Cowen",
         "Best Documentary",
         "DenQ來了",
+        "Good Times Bad Times",
         "Kilian Jornet Burgada",
         "NPR Music",
-        "OBF",
         "Shepherd Capital Markets",
         "Timeline - World History Documentaries",
         "Veritasium",
+        "imineo Documentaires",
         "【隱形工廠｜戶外教學】",
         "公視P#新聞實驗室",
         "冲浪普拉斯",
@@ -194,6 +186,15 @@
       ],
       "items": [
         {
+          "id": "ad9f1b6889b3af748fea7552867c2394eb1b0c15",
+          "title": "米南人：天收割者的秘密生活 / The Minang People: The secret life of the Sky Harvesters",
+          "url": "https://www.youtube.com/watch?v=GI0zp5MOkY0",
+          "source": "imineo Documentaires",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-15T14:45:09Z"
+        },
+        {
           "id": "b9b1e45fd40e4e90c05300722243cde85ff28845",
           "title": "喬登彼得森：世界上最危險的教授？ / Jordan Peterson: The Most Dangerous Professor in the World?",
           "url": "https://www.youtube.com/watch?v=BNsgHc8RfDk",
@@ -284,6 +285,15 @@
           "published_at": "2026-07-14T18:03:28Z"
         },
         {
+          "id": "f6904109e8cff667a1cb43a12a7960a4c104ae39",
+          "title": "UPA 如何分裂波蘭和烏克蘭：爭端的核心 / How the UPA Is Dividing Poland and Ukraine: The Heart of the Dispute",
+          "url": "https://www.youtube.com/watch?v=ED509nskSmc",
+          "source": "Good Times Bad Times",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-15T14:56:11Z"
+        },
+        {
           "id": "7219cfc6faadb1ccd7d78f9a19f19d0848b237dc",
           "title": "跨越政治和足球的民族恩怨！世界盃五次交手每次都爭議滿滿，一個在歐洲一個在南美洲為什麼是世仇？｜阿根廷 VS 英格蘭世仇對決",
           "url": "https://www.youtube.com/watch?v=PeQCkGePxdw",
@@ -291,33 +301,6 @@
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
           "published_at": "2026-07-15T14:00:01Z"
-        },
-        {
-          "id": "940eea40944a1f117bfa168d37a0a9ab2eeeae19",
-          "title": "蘇黎世如何解決交通問題 / How Zurich Solved Traffic",
-          "url": "https://www.youtube.com/watch?v=kew0EIR5oxk",
-          "source": "OBF",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-14T15:17:32Z"
-        },
-        {
-          "id": "4e764169ea14ddb3cb6952337a44f4f1be203d0a",
-          "title": "讓駕駛變得更糟修復了這座城市的交通 / Making Driving Worse Fixed This City's Traffic",
-          "url": "https://www.youtube.com/watch?v=kew0EIR5oxk",
-          "source": "OBF",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-14T15:17:32Z"
-        },
-        {
-          "id": "7ca6ae1791a41886d43ac42db2da967538b0736a",
-          "title": "為什麼蘇黎世禁止汽車進入城市 / Why Zurich Stops Cars From Entering The City",
-          "url": "https://www.youtube.com/watch?v=kew0EIR5oxk",
-          "source": "OBF",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-14T15:17:32Z"
         },
         {
           "id": "056fab364aca6cd000fdb2198a8155c44f5c79ad",
@@ -356,28 +339,28 @@
           "published_at": "2026-07-14T16:35:13Z"
         }
       ],
-      "item_count": 18,
-      "duplicate_count": 18,
-      "score": 0.7205,
-      "importance": 0.7205,
-      "importance_score": 0.7205,
+      "item_count": 17,
+      "duplicate_count": 17,
+      "score": 0.7335,
+      "importance": 0.7335,
+      "importance_score": 0.7335,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9016,
+        "recency": 0.9449,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-14T15:17:32Z",
-      "latest_at": "2026-07-15T14:00:01Z",
+      "earliest_at": "2026-07-14T16:35:13Z",
+      "latest_at": "2026-07-15T14:56:11Z",
       "primary_item": {
-        "id": "b9b1e45fd40e4e90c05300722243cde85ff28845",
-        "title": "喬登彼得森：世界上最危險的教授？ / Jordan Peterson: The Most Dangerous Professor in the World?",
-        "url": "https://www.youtube.com/watch?v=BNsgHc8RfDk",
-        "source": "Best Documentary",
+        "id": "ad9f1b6889b3af748fea7552867c2394eb1b0c15",
+        "title": "米南人：天收割者的秘密生活 / The Minang People: The secret life of the Sky Harvesters",
+        "url": "https://www.youtube.com/watch?v=GI0zp5MOkY0",
+        "source": "imineo Documentaires",
         "source_name": "OPML RSS"
       }
     },
@@ -452,13 +435,13 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.525,
-      "importance": 0.525,
-      "importance_score": 0.525,
+      "score": 0.5241,
+      "importance": 0.5241,
+      "importance_score": 0.5241,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 1.0,
+        "recency": 0.9969,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -472,82 +455,6 @@
         "title": "AI創新百強》病人問不清楚、醫師反覆衛教　北榮眼科用AI紓解50年診間困境",
         "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014447",
         "source": "商業周刊 當期雜誌開放文章",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_b7d8066bba7c",
-      "title": "備案：中國晶片製造商長鑫儲存尋求在上海晶片為主的科創板 IPO 中籌集約 9.8B 美元，定價 6.69B 股，每股約 1.28 美元（David Morris/彭博） / Filing: Chinese chipmaker CXMT is seeking to raise ~$9.8B in an IPO on Shanghai's chip-heavy STAR Board, pricing 6.69B shares at ~$1.28 each (David Morris/Bloomberg)",
-      "url": "https://www.techmeme.com/260714/p23",
-      "primary_url": "https://www.techmeme.com/260714/p23",
-      "source": "Techmeme",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "79259d1c4f57c5c02e2a4dff8b7b7bda568843e5",
-          "title": "備案：中國晶片製造商長鑫儲存尋求在上海晶片為主的科創板 IPO 中籌集約 9.8B 美元，定價 6.69B 股，每股約 1.28 美元（David Morris/彭博） / Filing: Chinese chipmaker CXMT is seeking to raise ~$9.8B in an IPO on Shanghai's chip-heavy STAR Board, pricing 6.69B shares at ~$1.28 each (David Morris/Bloomberg)",
-          "url": "https://www.techmeme.com/260714/p23",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-14T14:40:01Z"
-        },
-        {
-          "id": "91126c51199fc507db01b298cb8b68a68330654d",
-          "title": "備案：中國晶片製造商長鑫儲存尋求在上海晶片為主的科創板 IPO 中籌集約 9.8B 美元 (David Morris/彭博) / Filing: Chinese chipmaker CXMT seeks to raise ~$9.8B in an IPO on Shanghai's chip-heavy STAR Board (David Morris/Bloomberg)",
-          "url": "https://www.techmeme.com/260714/p23",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-14T14:40:01Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Techmeme"
-      ],
-      "items": [
-        {
-          "id": "79259d1c4f57c5c02e2a4dff8b7b7bda568843e5",
-          "title": "備案：中國晶片製造商長鑫儲存尋求在上海晶片為主的科創板 IPO 中籌集約 9.8B 美元，定價 6.69B 股，每股約 1.28 美元（David Morris/彭博） / Filing: Chinese chipmaker CXMT is seeking to raise ~$9.8B in an IPO on Shanghai's chip-heavy STAR Board, pricing 6.69B shares at ~$1.28 each (David Morris/Bloomberg)",
-          "url": "https://www.techmeme.com/260714/p23",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-14T14:40:01Z"
-        },
-        {
-          "id": "91126c51199fc507db01b298cb8b68a68330654d",
-          "title": "備案：中國晶片製造商長鑫儲存尋求在上海晶片為主的科創板 IPO 中籌集約 9.8B 美元 (David Morris/彭博) / Filing: Chinese chipmaker CXMT seeks to raise ~$9.8B in an IPO on Shanghai's chip-heavy STAR Board (David Morris/Bloomberg)",
-          "url": "https://www.techmeme.com/260714/p23",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-14T14:40:01Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.3038,
-      "importance": 0.3038,
-      "importance_score": 0.3038,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.5,
-        "recency": 0.0125,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-14T14:40:01Z",
-      "latest_at": "2026-07-14T14:40:01Z",
-      "primary_item": {
-        "id": "79259d1c4f57c5c02e2a4dff8b7b7bda568843e5",
-        "title": "備案：中國晶片製造商長鑫儲存尋求在上海晶片為主的科創板 IPO 中籌集約 9.8B 美元，定價 6.69B 股，每股約 1.28 美元（David Morris/彭博） / Filing: Chinese chipmaker CXMT is seeking to raise ~$9.8B in an IPO on Shanghai's chip-heavy STAR Board, pricing 6.69B shares at ~$1.28 each (David Morris/Bloomberg)",
-        "url": "https://www.techmeme.com/260714/p23",
-        "source": "Techmeme",
         "source_name": "OPML RSS"
       }
     }
