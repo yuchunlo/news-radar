@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T17:48:49.160786Z",
+  "generated_at": "2026-07-15T19:20:53.757118Z",
   "window_hours": 24,
   "total_items": 2,
   "items": [
@@ -102,15 +102,6 @@
           "published_at": "2026-07-14T21:00:13Z"
         },
         {
-          "id": "9b44d1d585ec9a4ccc6695de8462631c5f393b99",
-          "title": "電機工程中最可怕的圖表 / The Scariest Chart In Electrical Engineering",
-          "url": "https://www.youtube.com/watch?v=GK2pZ_oVU1o",
-          "source": "Veritasium",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-14T18:03:28Z"
-        },
-        {
           "id": "f6904109e8cff667a1cb43a12a7960a4c104ae39",
           "title": "UPA 如何分裂波蘭和烏克蘭：爭端的核心 / How the UPA Is Dividing Poland and Ukraine: The Heart of the Dispute",
           "url": "https://www.youtube.com/watch?v=ED509nskSmc",
@@ -165,7 +156,7 @@
           "published_at": "2026-07-15T09:12:54Z"
         }
       ],
-      "source_count": 17,
+      "source_count": 16,
       "source_names": [
         "Benjamin Cowen",
         "Best Documentary",
@@ -174,7 +165,6 @@
         "NPR Music",
         "Shepherd Capital Markets",
         "Timeline - World History Documentaries",
-        "Veritasium",
         "Wendover Productions",
         "imineo Documentaires",
         "【隱形工廠｜戶外教學】",
@@ -276,15 +266,6 @@
           "published_at": "2026-07-14T21:00:13Z"
         },
         {
-          "id": "9b44d1d585ec9a4ccc6695de8462631c5f393b99",
-          "title": "電機工程中最可怕的圖表 / The Scariest Chart In Electrical Engineering",
-          "url": "https://www.youtube.com/watch?v=GK2pZ_oVU1o",
-          "source": "Veritasium",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-14T18:03:28Z"
-        },
-        {
           "id": "f6904109e8cff667a1cb43a12a7960a4c104ae39",
           "title": "UPA 如何分裂波蘭和烏克蘭：爭端的核心 / How the UPA Is Dividing Poland and Ukraine: The Heart of the Dispute",
           "url": "https://www.youtube.com/watch?v=ED509nskSmc",
@@ -339,22 +320,22 @@
           "published_at": "2026-07-15T09:12:54Z"
         }
       ],
-      "item_count": 17,
-      "duplicate_count": 17,
-      "score": 0.7117,
-      "importance": 0.7117,
-      "importance_score": 0.7117,
+      "item_count": 16,
+      "duplicate_count": 16,
+      "score": 0.6926,
+      "importance": 0.6926,
+      "importance_score": 0.6926,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.8725,
+        "recency": 0.8085,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-14T18:03:28Z",
+      "earliest_at": "2026-07-14T21:00:13Z",
       "latest_at": "2026-07-15T16:49:56Z",
       "primary_item": {
         "id": "ad9f1b6889b3af748fea7552867c2394eb1b0c15",
@@ -435,13 +416,13 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5023,
-      "importance": 0.5023,
-      "importance_score": 0.5023,
+      "score": 0.4831,
+      "importance": 0.4831,
+      "importance_score": 0.4831,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.9244,
+        "recency": 0.8605,
         "story_heat": 0.5
       },
       "category": "multi_source",
