@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T22:06:51.763255Z",
+  "generated_at": "2026-07-15T23:31:35.377755Z",
   "window_hours": 24,
   "total_items": 4,
   "items": [
@@ -284,13 +284,13 @@
       ],
       "item_count": 14,
       "duplicate_count": 14,
-      "score": 0.7361,
-      "importance": 0.7361,
-      "importance_score": 0.7361,
+      "score": 0.7185,
+      "importance": 0.7185,
+      "importance_score": 0.7185,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9538,
+        "recency": 0.8949,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -360,13 +360,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5621,
-      "importance": 0.5621,
-      "importance_score": 0.5621,
+      "score": 0.5445,
+      "importance": 0.5445,
+      "importance_score": 0.5445,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.8737,
+        "recency": 0.8149,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -436,13 +436,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.51,
-      "importance": 0.51,
-      "importance_score": 0.51,
+      "score": 0.4924,
+      "importance": 0.4924,
+      "importance_score": 0.4924,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7001,
+        "recency": 0.6413,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -530,13 +530,13 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.4486,
-      "importance": 0.4486,
-      "importance_score": 0.4486,
+      "score": 0.4309,
+      "importance": 0.4309,
+      "importance_score": 0.4309,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.7452,
+        "recency": 0.6864,
         "story_heat": 0.5
       },
       "category": "multi_source",
