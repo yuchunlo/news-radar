@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-07-16T21:38:01.002782Z",
+  "generated_at": "2026-07-16T23:02:27.026774Z",
   "window_hours": 24,
-  "total_items": 5,
+  "total_items": 6,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "“畫光是不可能的” / \"It's Impossible to Paint Light\"",
-      "url": "https://www.youtube.com/watch?v=1ZHjvb6c1lk",
-      "primary_url": "https://www.youtube.com/watch?v=1ZHjvb6c1lk",
-      "source": "Inspiraggio",
+      "title": "借着存储行情，我想讲讲亏钱这堂课",
+      "url": "https://www.youtube.com/watch?v=7yKfWwdgi-c",
+      "primary_url": "https://www.youtube.com/watch?v=7yKfWwdgi-c",
+      "source": "Shepherd Capital Markets",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "d16a5acce598cb56d667d94c696e1483a38d72bf",
+          "title": "借着存储行情，我想讲讲亏钱这堂课",
+          "url": "https://www.youtube.com/watch?v=7yKfWwdgi-c",
+          "source": "Shepherd Capital Markets",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-16T21:49:36Z"
+        },
         {
           "id": "d92166d138b7b35a9c375b6444f6c6dd49dc10ae",
           "title": "“畫光是不可能的” / \"It's Impossible to Paint Light\"",
@@ -174,7 +183,7 @@
           "published_at": "2026-07-16T10:00:14Z"
         }
       ],
-      "source_count": 18,
+      "source_count": 19,
       "source_names": [
         "3Blue1Brown",
         "Benjamin Cowen",
@@ -196,6 +205,15 @@
       ],
       "items": [
         {
+          "id": "d16a5acce598cb56d667d94c696e1483a38d72bf",
+          "title": "借着存储行情，我想讲讲亏钱这堂课",
+          "url": "https://www.youtube.com/watch?v=7yKfWwdgi-c",
+          "source": "Shepherd Capital Markets",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-16T21:49:36Z"
+        },
+        {
           "id": "d92166d138b7b35a9c375b6444f6c6dd49dc10ae",
           "title": "“畫光是不可能的” / \"It's Impossible to Paint Light\"",
           "url": "https://www.youtube.com/watch?v=1ZHjvb6c1lk",
@@ -358,15 +376,15 @@
           "published_at": "2026-07-16T10:00:14Z"
         }
       ],
-      "item_count": 18,
-      "duplicate_count": 18,
-      "score": 0.7445,
-      "importance": 0.7445,
-      "importance_score": 0.7445,
+      "item_count": 19,
+      "duplicate_count": 19,
+      "score": 0.7348,
+      "importance": 0.7348,
+      "importance_score": 0.7348,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9818,
+        "recency": 0.9494,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -374,12 +392,88 @@
         "multi_source"
       ],
       "earliest_at": "2026-07-15T23:30:43Z",
-      "latest_at": "2026-07-16T21:11:46Z",
+      "latest_at": "2026-07-16T21:49:36Z",
       "primary_item": {
-        "id": "d92166d138b7b35a9c375b6444f6c6dd49dc10ae",
-        "title": "“畫光是不可能的” / \"It's Impossible to Paint Light\"",
-        "url": "https://www.youtube.com/watch?v=1ZHjvb6c1lk",
-        "source": "Inspiraggio",
+        "id": "d16a5acce598cb56d667d94c696e1483a38d72bf",
+        "title": "借着存储行情，我想讲讲亏钱这堂课",
+        "url": "https://www.youtube.com/watch?v=7yKfWwdgi-c",
+        "source": "Shepherd Capital Markets",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_ccb26cb92404",
+      "title": "消息來源：Google在交付 Gemini 3.5 Pro 方面比原計劃晚了幾個月，因為它試圖提高其能力，特別是在編碼方面； GOOG 收盤下跌 4.43%（彭博社） / Sources: Google is months behind schedule on delivering Gemini 3.5 Pro as it tries to improve its capabilities, particularly in coding; GOOG closes down 4.43% (Bloomberg)",
+      "url": "https://www.techmeme.com/260716/p47",
+      "primary_url": "https://www.techmeme.com/260716/p47",
+      "source": "Techmeme",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "7ff40157c3ab3390d2cacfa5bd42a69279842eae",
+          "title": "消息來源：Google在交付 Gemini 3.5 Pro 方面比原計劃晚了幾個月，因為它試圖提高其能力，特別是在編碼方面； GOOG 收盤下跌 4.43%（彭博社） / Sources: Google is months behind schedule on delivering Gemini 3.5 Pro as it tries to improve its capabilities, particularly in coding; GOOG closes down 4.43% (Bloomberg)",
+          "url": "https://www.techmeme.com/260716/p47",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-16T18:15:02Z"
+        },
+        {
+          "id": "35969e74efad4334bd4bfedb1320613e4b1381f8",
+          "title": "資料來源：Google 交付 Gemini 3.5 Pro 的進度比原計劃晚了幾個月，因為該公司一直在努力提高其能力，特別是在編碼方面（彭博社） / Sources: Google is months behind schedule on delivering Gemini 3.5 Pro because the company has been trying to improve its capabilities, particularly in coding (Bloomberg)",
+          "url": "https://www.techmeme.com/260716/p47",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-16T18:15:02Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Techmeme"
+      ],
+      "items": [
+        {
+          "id": "7ff40157c3ab3390d2cacfa5bd42a69279842eae",
+          "title": "消息來源：Google在交付 Gemini 3.5 Pro 方面比原計劃晚了幾個月，因為它試圖提高其能力，特別是在編碼方面； GOOG 收盤下跌 4.43%（彭博社） / Sources: Google is months behind schedule on delivering Gemini 3.5 Pro as it tries to improve its capabilities, particularly in coding; GOOG closes down 4.43% (Bloomberg)",
+          "url": "https://www.techmeme.com/260716/p47",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-16T18:15:02Z"
+        },
+        {
+          "id": "35969e74efad4334bd4bfedb1320613e4b1381f8",
+          "title": "資料來源：Google 交付 Gemini 3.5 Pro 的進度比原計劃晚了幾個月，因為該公司一直在努力提高其能力，特別是在編碼方面（彭博社） / Sources: Google is months behind schedule on delivering Gemini 3.5 Pro because the company has been trying to improve its capabilities, particularly in coding (Bloomberg)",
+          "url": "https://www.techmeme.com/260716/p47",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-16T18:15:02Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5401,
+      "importance": 0.5401,
+      "importance_score": 0.5401,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.5,
+        "recency": 0.8004,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-16T18:15:02Z",
+      "latest_at": "2026-07-16T18:15:02Z",
+      "primary_item": {
+        "id": "7ff40157c3ab3390d2cacfa5bd42a69279842eae",
+        "title": "消息來源：Google在交付 Gemini 3.5 Pro 方面比原計劃晚了幾個月，因為它試圖提高其能力，特別是在編碼方面； GOOG 收盤下跌 4.43%（彭博社） / Sources: Google is months behind schedule on delivering Gemini 3.5 Pro as it tries to improve its capabilities, particularly in coding; GOOG closes down 4.43% (Bloomberg)",
+        "url": "https://www.techmeme.com/260716/p47",
+        "source": "Techmeme",
         "source_name": "OPML RSS"
       }
     },
@@ -436,13 +530,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5223,
-      "importance": 0.5223,
-      "importance_score": 0.5223,
+      "score": 0.5047,
+      "importance": 0.5047,
+      "importance_score": 0.5047,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.741,
+        "recency": 0.6823,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -512,13 +606,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5192,
-      "importance": 0.5192,
-      "importance_score": 0.5192,
+      "score": 0.5016,
+      "importance": 0.5016,
+      "importance_score": 0.5016,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7306,
+        "recency": 0.6719,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -588,13 +682,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5004,
-      "importance": 0.5004,
-      "importance_score": 0.5004,
+      "score": 0.4828,
+      "importance": 0.4828,
+      "importance_score": 0.4828,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6681,
+        "recency": 0.6094,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -664,13 +758,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.377,
-      "importance": 0.377,
-      "importance_score": 0.377,
+      "score": 0.3594,
+      "importance": 0.3594,
+      "importance_score": 0.3594,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.6733,
+        "recency": 0.6146,
         "story_heat": 0.25
       },
       "category": "watch",
