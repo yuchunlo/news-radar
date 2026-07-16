@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-07-16T19:21:26.437961Z",
+  "generated_at": "2026-07-16T20:28:00.403828Z",
   "window_hours": 24,
   "total_items": 5,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "《超級無敵掌門狗》如何賦予黏土靈魂 / How Wallace & Gromit Gives Clay a Soul",
-      "url": "https://www.youtube.com/watch?v=xHUjKm5f2j8",
-      "primary_url": "https://www.youtube.com/watch?v=xHUjKm5f2j8",
-      "source": "Mosaics of Time",
+      "title": "比特幣市場週期 / Bitcoin Market Cycles",
+      "url": "https://www.youtube.com/watch?v=XQN1M-sIuGs",
+      "primary_url": "https://www.youtube.com/watch?v=XQN1M-sIuGs",
+      "source": "Benjamin Cowen",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "8e8af9f5ad4c48b499f4c1ff713b331bcbe92417",
+          "title": "比特幣市場週期 / Bitcoin Market Cycles",
+          "url": "https://www.youtube.com/watch?v=XQN1M-sIuGs",
+          "source": "Benjamin Cowen",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-16T19:48:27Z"
+        },
         {
           "id": "d2367faed84f8e77a21fb9cbaaf3c25142c4b9a9",
           "title": "《超級無敵掌門狗》如何賦予黏土靈魂 / How Wallace & Gromit Gives Clay a Soul",
@@ -156,9 +165,10 @@
           "published_at": "2026-07-16T10:00:14Z"
         }
       ],
-      "source_count": 16,
+      "source_count": 17,
       "source_names": [
         "3Blue1Brown",
+        "Benjamin Cowen",
         "Best Documentary",
         "CYFIT兆佑",
         "Knowledgia",
@@ -175,6 +185,15 @@
       ],
       "items": [
         {
+          "id": "8e8af9f5ad4c48b499f4c1ff713b331bcbe92417",
+          "title": "比特幣市場週期 / Bitcoin Market Cycles",
+          "url": "https://www.youtube.com/watch?v=XQN1M-sIuGs",
+          "source": "Benjamin Cowen",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-16T19:48:27Z"
+        },
+        {
           "id": "d2367faed84f8e77a21fb9cbaaf3c25142c4b9a9",
           "title": "《超級無敵掌門狗》如何賦予黏土靈魂 / How Wallace & Gromit Gives Clay a Soul",
           "url": "https://www.youtube.com/watch?v=xHUjKm5f2j8",
@@ -319,15 +338,15 @@
           "published_at": "2026-07-16T10:00:14Z"
         }
       ],
-      "item_count": 16,
-      "duplicate_count": 16,
-      "score": 0.7176,
-      "importance": 0.7176,
-      "importance_score": 0.7176,
+      "item_count": 17,
+      "duplicate_count": 17,
+      "score": 0.7418,
+      "importance": 0.7418,
+      "importance_score": 0.7418,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.8919,
+        "recency": 0.9725,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -335,12 +354,12 @@
         "multi_source"
       ],
       "earliest_at": "2026-07-15T21:00:17Z",
-      "latest_at": "2026-07-16T18:01:22Z",
+      "latest_at": "2026-07-16T19:48:27Z",
       "primary_item": {
-        "id": "d2367faed84f8e77a21fb9cbaaf3c25142c4b9a9",
-        "title": "《超級無敵掌門狗》如何賦予黏土靈魂 / How Wallace & Gromit Gives Clay a Soul",
-        "url": "https://www.youtube.com/watch?v=xHUjKm5f2j8",
-        "source": "Mosaics of Time",
+        "id": "8e8af9f5ad4c48b499f4c1ff713b331bcbe92417",
+        "title": "比特幣市場週期 / Bitcoin Market Cycles",
+        "url": "https://www.youtube.com/watch?v=XQN1M-sIuGs",
+        "source": "Benjamin Cowen",
         "source_name": "OPML RSS"
       }
     },
@@ -397,13 +416,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5507,
-      "importance": 0.5507,
-      "importance_score": 0.5507,
+      "score": 0.5369,
+      "importance": 0.5369,
+      "importance_score": 0.5369,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.8358,
+        "recency": 0.7896,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -473,13 +492,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5476,
-      "importance": 0.5476,
-      "importance_score": 0.5476,
+      "score": 0.5338,
+      "importance": 0.5338,
+      "importance_score": 0.5338,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.8254,
+        "recency": 0.7792,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -549,13 +568,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5289,
-      "importance": 0.5289,
-      "importance_score": 0.5289,
+      "score": 0.515,
+      "importance": 0.515,
+      "importance_score": 0.515,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7629,
+        "recency": 0.7167,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -625,13 +644,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4054,
-      "importance": 0.4054,
-      "importance_score": 0.4054,
+      "score": 0.3916,
+      "importance": 0.3916,
+      "importance_score": 0.3916,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.7681,
+        "recency": 0.7219,
         "story_heat": 0.25
       },
       "category": "watch",
