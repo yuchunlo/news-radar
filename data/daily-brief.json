@@ -1,16 +1,34 @@
 {
-  "generated_at": "2026-07-16T12:24:00.281021Z",
+  "generated_at": "2026-07-16T14:34:13.741701Z",
   "window_hours": 24,
   "total_items": 4,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "福島的幽靈 / The Ghosts of Fukushima",
-      "url": "https://www.youtube.com/watch?v=dWy2gcb4lHU",
-      "primary_url": "https://www.youtube.com/watch?v=dWy2gcb4lHU",
-      "source": "Best Documentary",
+      "title": "為什麼虎式坦克沒有贏得戰爭？ / Why didn't the TIGER TANK win the WAR?",
+      "url": "https://www.youtube.com/watch?v=FX_WDr75Zyk",
+      "primary_url": "https://www.youtube.com/watch?v=FX_WDr75Zyk",
+      "source": "Knowledgia",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "9038f6e29cf56a3b4226c3398fb0f6ef0768f518",
+          "title": "為什麼虎式坦克沒有贏得戰爭？ / Why didn't the TIGER TANK win the WAR?",
+          "url": "https://www.youtube.com/watch?v=FX_WDr75Zyk",
+          "source": "Knowledgia",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-16T14:05:06Z"
+        },
+        {
+          "id": "aeca4f99f861a699035d10151754e6e4b253fe8f",
+          "title": "隨機秀！死亡率、人工智慧、補充劑、攀岩等等 / The Random Show! Mortality, AI, Supplements, Rock Climbing, & More",
+          "url": "https://www.youtube.com/watch?v=JT7QpL4XRtw",
+          "source": "Tim Ferriss",
+          "source_name": "OPML RSS",
+          "site_id": "blog",
+          "published_at": "2026-07-16T13:00:22Z"
+        },
         {
           "id": "ae33df2279fd068f4ed55bb6393e6c412545a9c2",
           "title": "福島的幽靈 / The Ghosts of Fukushima",
@@ -111,13 +129,13 @@
           "published_at": "2026-07-15T14:56:11Z"
         },
         {
-          "id": "7219cfc6faadb1ccd7d78f9a19f19d0848b237dc",
-          "title": "跨越政治和足球的民族恩怨！世界盃五次交手每次都爭議滿滿，一個在歐洲一個在南美洲為什麼是世仇？｜阿根廷 VS 英格蘭世仇對決",
-          "url": "https://www.youtube.com/watch?v=PeQCkGePxdw",
-          "source": "沙發人物誌",
+          "id": "5632e4793e5f3c621a0ae587a06a5c41ff4f3bb7",
+          "title": "為什麼波蘭和烏克蘭面臨多年來最嚴重的危機 / Why Poland and Ukraine Are Facing Their Worst Crisis in Years",
+          "url": "https://www.youtube.com/watch?v=ED509nskSmc",
+          "source": "Good Times Bad Times",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-15T14:00:01Z"
+          "published_at": "2026-07-15T14:56:11Z"
         },
         {
           "id": "ea5c1f6d5ff680f49b3403e84bd59e6164979763",
@@ -145,36 +163,45 @@
           "source_name": "OPML RSS",
           "site_id": "execution",
           "published_at": "2026-07-15T16:49:56Z"
-        },
-        {
-          "id": "0e5f76caf1524288c30d4aec0606d0e826cb0695",
-          "title": "電動機車不好嗎？市售不到7%，2040年拚100%可能嗎？公視P#新聞實驗室",
-          "url": "https://www.youtube.com/watch?v=v90_U4GO354",
-          "source": "公視P#新聞實驗室",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-15T13:00:08Z"
         }
       ],
-      "source_count": 16,
+      "source_count": 17,
       "source_names": [
         "3Blue1Brown",
         "Best Documentary",
         "CYFIT兆佑",
         "Good Times Bad Times",
+        "Knowledgia",
         "Perspective",
         "Shepherd Capital Markets",
+        "Tim Ferriss",
         "Wendover Productions",
         "imineo Documentaires",
         "【隱形工廠｜戶外教學】",
-        "公視P#新聞實驗室",
         "冲浪普拉斯",
         "左手+",
         "探險威狼 Wilang-Explorer",
-        "沙發人物誌",
         "美投侃新闻"
       ],
       "items": [
+        {
+          "id": "9038f6e29cf56a3b4226c3398fb0f6ef0768f518",
+          "title": "為什麼虎式坦克沒有贏得戰爭？ / Why didn't the TIGER TANK win the WAR?",
+          "url": "https://www.youtube.com/watch?v=FX_WDr75Zyk",
+          "source": "Knowledgia",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-16T14:05:06Z"
+        },
+        {
+          "id": "aeca4f99f861a699035d10151754e6e4b253fe8f",
+          "title": "隨機秀！死亡率、人工智慧、補充劑、攀岩等等 / The Random Show! Mortality, AI, Supplements, Rock Climbing, & More",
+          "url": "https://www.youtube.com/watch?v=JT7QpL4XRtw",
+          "source": "Tim Ferriss",
+          "source_name": "OPML RSS",
+          "site_id": "blog",
+          "published_at": "2026-07-16T13:00:22Z"
+        },
         {
           "id": "ae33df2279fd068f4ed55bb6393e6c412545a9c2",
           "title": "福島的幽靈 / The Ghosts of Fukushima",
@@ -275,13 +302,13 @@
           "published_at": "2026-07-15T14:56:11Z"
         },
         {
-          "id": "7219cfc6faadb1ccd7d78f9a19f19d0848b237dc",
-          "title": "跨越政治和足球的民族恩怨！世界盃五次交手每次都爭議滿滿，一個在歐洲一個在南美洲為什麼是世仇？｜阿根廷 VS 英格蘭世仇對決",
-          "url": "https://www.youtube.com/watch?v=PeQCkGePxdw",
-          "source": "沙發人物誌",
+          "id": "5632e4793e5f3c621a0ae587a06a5c41ff4f3bb7",
+          "title": "為什麼波蘭和烏克蘭面臨多年來最嚴重的危機 / Why Poland and Ukraine Are Facing Their Worst Crisis in Years",
+          "url": "https://www.youtube.com/watch?v=ED509nskSmc",
+          "source": "Good Times Bad Times",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-15T14:00:01Z"
+          "published_at": "2026-07-15T14:56:11Z"
         },
         {
           "id": "ea5c1f6d5ff680f49b3403e84bd59e6164979763",
@@ -309,39 +336,30 @@
           "source_name": "OPML RSS",
           "site_id": "execution",
           "published_at": "2026-07-15T16:49:56Z"
-        },
-        {
-          "id": "0e5f76caf1524288c30d4aec0606d0e826cb0695",
-          "title": "電動機車不好嗎？市售不到7%，2040年拚100%可能嗎？公視P#新聞實驗室",
-          "url": "https://www.youtube.com/watch?v=v90_U4GO354",
-          "source": "公視P#新聞實驗室",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-15T13:00:08Z"
         }
       ],
-      "item_count": 16,
-      "duplicate_count": 16,
-      "score": 0.7451,
-      "importance": 0.7451,
-      "importance_score": 0.7451,
+      "item_count": 17,
+      "duplicate_count": 17,
+      "score": 0.7439,
+      "importance": 0.7439,
+      "importance_score": 0.7439,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9837,
+        "recency": 0.9798,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-15T13:00:08Z",
-      "latest_at": "2026-07-16T12:00:36Z",
+      "earliest_at": "2026-07-15T14:45:09Z",
+      "latest_at": "2026-07-16T14:05:06Z",
       "primary_item": {
-        "id": "ae33df2279fd068f4ed55bb6393e6c412545a9c2",
-        "title": "福島的幽靈 / The Ghosts of Fukushima",
-        "url": "https://www.youtube.com/watch?v=dWy2gcb4lHU",
-        "source": "Best Documentary",
+        "id": "9038f6e29cf56a3b4226c3398fb0f6ef0768f518",
+        "title": "為什麼虎式坦克沒有贏得戰爭？ / Why didn't the TIGER TANK win the WAR?",
+        "url": "https://www.youtube.com/watch?v=FX_WDr75Zyk",
+        "source": "Knowledgia",
         "source_name": "OPML RSS"
       }
     },
@@ -398,13 +416,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3835,
-      "importance": 0.3835,
-      "importance_score": 0.3835,
+      "score": 0.3564,
+      "importance": 0.3564,
+      "importance_score": 0.3564,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.2785,
+        "recency": 0.1881,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -474,13 +492,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3315,
-      "importance": 0.3315,
-      "importance_score": 0.3315,
+      "score": 0.3043,
+      "importance": 0.3043,
+      "importance_score": 0.3043,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.1049,
+        "recency": 0.0144,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -568,13 +586,13 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.27,
-      "importance": 0.27,
-      "importance_score": 0.27,
+      "score": 0.2429,
+      "importance": 0.2429,
+      "importance_score": 0.2429,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.15,
+        "recency": 0.0596,
         "story_heat": 0.5
       },
       "category": "multi_source",
