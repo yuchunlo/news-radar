@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T08:28:41.733683Z",
+  "generated_at": "2026-07-16T10:30:38.046247Z",
   "window_hours": 24,
   "total_items": 4,
   "items": [
@@ -75,15 +75,6 @@
           "published_at": "2026-07-15T11:34:06Z"
         },
         {
-          "id": "ed4b5f16b28e188d93acd611ebc15607dc686f46",
-          "title": "凝固汽油彈死亡：小桌音樂會 / Napalm Death: Tiny Desk Concert",
-          "url": "https://www.youtube.com/watch?v=e81LZCHhNKQ",
-          "source": "NPR Music",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-15T09:00:14Z"
-        },
-        {
           "id": "f6904109e8cff667a1cb43a12a7960a4c104ae39",
           "title": "UPA 如何分裂波蘭和烏克蘭：爭端的核心 / How the UPA Is Dividing Poland and Ukraine: The Heart of the Dispute",
           "url": "https://www.youtube.com/watch?v=ED509nskSmc",
@@ -102,6 +93,15 @@
           "published_at": "2026-07-15T14:00:01Z"
         },
         {
+          "id": "f875ec21b238346903d8b7e75e8deaf69ff1f38a",
+          "title": "深蹲前趴、屁股眨眼？3個動作立刻解鎖髖關節活動度！",
+          "url": "https://www.youtube.com/watch?v=X29Jp4x-On8",
+          "source": "CYFIT兆佑",
+          "source_name": "OPML RSS",
+          "site_id": "functionality",
+          "published_at": "2026-07-16T10:00:14Z"
+        },
+        {
           "id": "5d8f53869b8e6c300602ad1197403f1904602897",
           "title": "為什麼美國的房子這麼脆弱 / Why American Houses Are So Flimsy",
           "url": "https://www.youtube.com/watch?v=VuliaG_-uao",
@@ -111,6 +111,15 @@
           "published_at": "2026-07-15T16:49:56Z"
         },
         {
+          "id": "0e5f76caf1524288c30d4aec0606d0e826cb0695",
+          "title": "電動機車不好嗎？市售不到7%，2040年拚100%可能嗎？公視P#新聞實驗室",
+          "url": "https://www.youtube.com/watch?v=v90_U4GO354",
+          "source": "公視P#新聞實驗室",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-15T13:00:08Z"
+        },
+        {
           "id": "056fab364aca6cd000fdb2198a8155c44f5c79ad",
           "title": "難怪能這麼囂張..韓國最扯‘女高中生命案’ 引爆全網怒火｜DenQ",
           "url": "https://www.youtube.com/watch?v=CNv6IMbEMXw",
@@ -118,37 +127,18 @@
           "source_name": "OPML RSS",
           "site_id": "trending",
           "published_at": "2026-07-15T11:00:08Z"
-        },
-        {
-          "id": "ecb4072a6dd7d670747db8f6cf0f604c9593720e",
-          "title": "世界杯赌球真相：庄家根本不用猜对比赛，为什么还能稳赚？",
-          "url": "https://www.youtube.com/watch?v=Zbc7W8ZK6QQ",
-          "source": "冲浪普拉斯",
-          "source_name": "OPML RSS",
-          "site_id": "execution",
-          "published_at": "2026-07-15T10:23:36Z"
-        },
-        {
-          "id": "30cbad52da08b2149612e7899a20bb7f00bdb56e",
-          "title": "電動機車不好嗎？市售不到7%，2040年拚100%可能嗎？ 【新聞實驗室】",
-          "url": "https://www.youtube.com/watch?v=v90_U4GO354",
-          "source": "公視P#新聞實驗室",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-15T09:12:54Z"
         }
       ],
-      "source_count": 14,
+      "source_count": 13,
       "source_names": [
         "Best Documentary",
+        "CYFIT兆佑",
         "DenQ來了",
         "Good Times Bad Times",
-        "NPR Music",
         "Shepherd Capital Markets",
         "Wendover Productions",
         "imineo Documentaires",
         "公視P#新聞實驗室",
-        "冲浪普拉斯",
         "左手+",
         "播客文化土豆 | Podcast Culture Potato",
         "沙發人物誌",
@@ -219,15 +209,6 @@
           "published_at": "2026-07-15T11:34:06Z"
         },
         {
-          "id": "ed4b5f16b28e188d93acd611ebc15607dc686f46",
-          "title": "凝固汽油彈死亡：小桌音樂會 / Napalm Death: Tiny Desk Concert",
-          "url": "https://www.youtube.com/watch?v=e81LZCHhNKQ",
-          "source": "NPR Music",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-15T09:00:14Z"
-        },
-        {
           "id": "f6904109e8cff667a1cb43a12a7960a4c104ae39",
           "title": "UPA 如何分裂波蘭和烏克蘭：爭端的核心 / How the UPA Is Dividing Poland and Ukraine: The Heart of the Dispute",
           "url": "https://www.youtube.com/watch?v=ED509nskSmc",
@@ -246,6 +227,15 @@
           "published_at": "2026-07-15T14:00:01Z"
         },
         {
+          "id": "f875ec21b238346903d8b7e75e8deaf69ff1f38a",
+          "title": "深蹲前趴、屁股眨眼？3個動作立刻解鎖髖關節活動度！",
+          "url": "https://www.youtube.com/watch?v=X29Jp4x-On8",
+          "source": "CYFIT兆佑",
+          "source_name": "OPML RSS",
+          "site_id": "functionality",
+          "published_at": "2026-07-16T10:00:14Z"
+        },
+        {
           "id": "5d8f53869b8e6c300602ad1197403f1904602897",
           "title": "為什麼美國的房子這麼脆弱 / Why American Houses Are So Flimsy",
           "url": "https://www.youtube.com/watch?v=VuliaG_-uao",
@@ -255,6 +245,15 @@
           "published_at": "2026-07-15T16:49:56Z"
         },
         {
+          "id": "0e5f76caf1524288c30d4aec0606d0e826cb0695",
+          "title": "電動機車不好嗎？市售不到7%，2040年拚100%可能嗎？公視P#新聞實驗室",
+          "url": "https://www.youtube.com/watch?v=v90_U4GO354",
+          "source": "公視P#新聞實驗室",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-15T13:00:08Z"
+        },
+        {
           "id": "056fab364aca6cd000fdb2198a8155c44f5c79ad",
           "title": "難怪能這麼囂張..韓國最扯‘女高中生命案’ 引爆全網怒火｜DenQ",
           "url": "https://www.youtube.com/watch?v=CNv6IMbEMXw",
@@ -262,43 +261,25 @@
           "source_name": "OPML RSS",
           "site_id": "trending",
           "published_at": "2026-07-15T11:00:08Z"
-        },
-        {
-          "id": "ecb4072a6dd7d670747db8f6cf0f604c9593720e",
-          "title": "世界杯赌球真相：庄家根本不用猜对比赛，为什么还能稳赚？",
-          "url": "https://www.youtube.com/watch?v=Zbc7W8ZK6QQ",
-          "source": "冲浪普拉斯",
-          "source_name": "OPML RSS",
-          "site_id": "execution",
-          "published_at": "2026-07-15T10:23:36Z"
-        },
-        {
-          "id": "30cbad52da08b2149612e7899a20bb7f00bdb56e",
-          "title": "電動機車不好嗎？市售不到7%，2040年拚100%可能嗎？ 【新聞實驗室】",
-          "url": "https://www.youtube.com/watch?v=v90_U4GO354",
-          "source": "公視P#新聞實驗室",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-15T09:12:54Z"
         }
       ],
-      "item_count": 14,
-      "duplicate_count": 14,
-      "score": 0.6503,
-      "importance": 0.6503,
-      "importance_score": 0.6503,
+      "item_count": 13,
+      "duplicate_count": 13,
+      "score": 0.6249,
+      "importance": 0.6249,
+      "importance_score": 0.6249,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6677,
+        "recency": 0.583,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-15T09:00:14Z",
-      "latest_at": "2026-07-16T00:30:08Z",
+      "earliest_at": "2026-07-15T11:00:08Z",
+      "latest_at": "2026-07-16T10:00:14Z",
       "primary_item": {
         "id": "71c2a0a31858317120914b6d4237d8a7f311777a",
         "title": "哈苏都没做到的——NiSi 16mm F2.8 XCD 超广角镜头实拍",
@@ -360,13 +341,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4326,
-      "importance": 0.4326,
-      "importance_score": 0.4326,
+      "score": 0.4072,
+      "importance": 0.4072,
+      "importance_score": 0.4072,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.4419,
+        "recency": 0.3572,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -436,13 +417,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3805,
-      "importance": 0.3805,
-      "importance_score": 0.3805,
+      "score": 0.3551,
+      "importance": 0.3551,
+      "importance_score": 0.3551,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.2683,
+        "recency": 0.1836,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -530,13 +511,13 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.319,
-      "importance": 0.319,
-      "importance_score": 0.319,
+      "score": 0.2936,
+      "importance": 0.2936,
+      "importance_score": 0.2936,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.3134,
+        "recency": 0.2287,
         "story_heat": 0.5
       },
       "category": "multi_source",
