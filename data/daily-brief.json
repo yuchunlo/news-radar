@@ -1,16 +1,43 @@
 {
-  "generated_at": "2026-07-16T10:30:38.046247Z",
+  "generated_at": "2026-07-16T12:24:00.281021Z",
   "window_hours": 24,
   "total_items": 4,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "哈苏都没做到的——NiSi 16mm F2.8 XCD 超广角镜头实拍",
-      "url": "https://www.youtube.com/watch?v=R3Q7j403ecg",
-      "primary_url": "https://www.youtube.com/watch?v=R3Q7j403ecg",
-      "source": "左手+",
+      "title": "福島的幽靈 / The Ghosts of Fukushima",
+      "url": "https://www.youtube.com/watch?v=dWy2gcb4lHU",
+      "primary_url": "https://www.youtube.com/watch?v=dWy2gcb4lHU",
+      "source": "Best Documentary",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "ae33df2279fd068f4ed55bb6393e6c412545a9c2",
+          "title": "福島的幽靈 / The Ghosts of Fukushima",
+          "url": "https://www.youtube.com/watch?v=dWy2gcb4lHU",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-16T12:00:36Z"
+        },
+        {
+          "id": "34735c690972ade641e1201e7da0e4b769a55ed4",
+          "title": "唐墓的秘密 - 揭開中國黃金時代的面紗 / Secrets of the Tang Dynasty Tombs - Unveiling China's Golden Age",
+          "url": "https://www.youtube.com/watch?v=o1hlS1NxXfQ",
+          "source": "Perspective",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-16T12:00:11Z"
+        },
+        {
+          "id": "da02a84727db41925ceb8635f6bd57f694e116c8",
+          "title": "鑽石是如何做出來的 用微波爐「種」出來的鑽石 毀掉百年產業？我們拍到現場了【全球獨家】CVD Daimond",
+          "url": "https://www.youtube.com/watch?v=wLktVLjM94w",
+          "source": "【隱形工廠｜戶外教學】",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-16T11:00:06Z"
+        },
         {
           "id": "71c2a0a31858317120914b6d4237d8a7f311777a",
           "title": "哈苏都没做到的——NiSi 16mm F2.8 XCD 超广角镜头实拍",
@@ -57,22 +84,22 @@
           "published_at": "2026-07-15T14:45:09Z"
         },
         {
-          "id": "b9b1e45fd40e4e90c05300722243cde85ff28845",
-          "title": "喬登彼得森：世界上最危險的教授？ / Jordan Peterson: The Most Dangerous Professor in the World?",
-          "url": "https://www.youtube.com/watch?v=BNsgHc8RfDk",
-          "source": "Best Documentary",
+          "id": "74a2b25155dc47efe584dda6a48b226b00fd7b1a",
+          "title": "但什麼是交叉熵？ |壓縮就是智慧第 2 部分 / But what is cross-entropy? | Compression is Intelligence Part 2",
+          "url": "https://www.youtube.com/watch?v=GlYgs6v2YfU",
+          "source": "3Blue1Brown",
           "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-15T12:00:16Z"
+          "site_id": "opmlrss",
+          "published_at": "2026-07-16T11:56:04Z"
         },
         {
-          "id": "2534e658f7a94a176b1c3f1d58562d961f4ce10b",
-          "title": "🔂 让我们一起误读「荷马史诗：伊利亚特」",
-          "url": "https://www.youtube.com/watch?v=eomjRPlSo6I",
-          "source": "播客文化土豆 | Podcast Culture Potato",
+          "id": "1a7587bcaaae7d7769aa9f47c016a6ecf13894d6",
+          "title": "【玉穗山】保護布農族『拉荷·阿雷』後續子孫的山，台灣百名山之一｜拉荷·阿雷｜Dahu-ali｜探險威狼 Wilang Explorer ｜荖濃溪｜探勘｜高雄秘境｜登山｜尋根｜桃源區｜Vlog 527",
+          "url": "https://www.youtube.com/watch?v=KRxWArR92ZQ",
+          "source": "探險威狼 Wilang-Explorer",
           "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-15T11:34:06Z"
+          "site_id": "opmlrss",
+          "published_at": "2026-07-16T11:00:07Z"
         },
         {
           "id": "f6904109e8cff667a1cb43a12a7960a4c104ae39",
@@ -91,6 +118,15 @@
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
           "published_at": "2026-07-15T14:00:01Z"
+        },
+        {
+          "id": "ea5c1f6d5ff680f49b3403e84bd59e6164979763",
+          "title": "OpenAI为何成了全行业公敌？一口气看懂AI大模型战争",
+          "url": "https://www.youtube.com/watch?v=vRiJg8ASynw",
+          "source": "冲浪普拉斯",
+          "source_name": "OPML RSS",
+          "site_id": "execution",
+          "published_at": "2026-07-16T11:42:42Z"
         },
         {
           "id": "f875ec21b238346903d8b7e75e8deaf69ff1f38a",
@@ -118,34 +154,55 @@
           "source_name": "OPML RSS",
           "site_id": "trending",
           "published_at": "2026-07-15T13:00:08Z"
-        },
-        {
-          "id": "056fab364aca6cd000fdb2198a8155c44f5c79ad",
-          "title": "難怪能這麼囂張..韓國最扯‘女高中生命案’ 引爆全網怒火｜DenQ",
-          "url": "https://www.youtube.com/watch?v=CNv6IMbEMXw",
-          "source": "DenQ來了",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-15T11:00:08Z"
         }
       ],
-      "source_count": 13,
+      "source_count": 16,
       "source_names": [
+        "3Blue1Brown",
         "Best Documentary",
         "CYFIT兆佑",
-        "DenQ來了",
         "Good Times Bad Times",
+        "Perspective",
         "Shepherd Capital Markets",
         "Wendover Productions",
         "imineo Documentaires",
+        "【隱形工廠｜戶外教學】",
         "公視P#新聞實驗室",
+        "冲浪普拉斯",
         "左手+",
-        "播客文化土豆 | Podcast Culture Potato",
+        "探險威狼 Wilang-Explorer",
         "沙發人物誌",
         "美投侃新闻"
       ],
       "items": [
         {
+          "id": "ae33df2279fd068f4ed55bb6393e6c412545a9c2",
+          "title": "福島的幽靈 / The Ghosts of Fukushima",
+          "url": "https://www.youtube.com/watch?v=dWy2gcb4lHU",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-16T12:00:36Z"
+        },
+        {
+          "id": "34735c690972ade641e1201e7da0e4b769a55ed4",
+          "title": "唐墓的秘密 - 揭開中國黃金時代的面紗 / Secrets of the Tang Dynasty Tombs - Unveiling China's Golden Age",
+          "url": "https://www.youtube.com/watch?v=o1hlS1NxXfQ",
+          "source": "Perspective",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-16T12:00:11Z"
+        },
+        {
+          "id": "da02a84727db41925ceb8635f6bd57f694e116c8",
+          "title": "鑽石是如何做出來的 用微波爐「種」出來的鑽石 毀掉百年產業？我們拍到現場了【全球獨家】CVD Daimond",
+          "url": "https://www.youtube.com/watch?v=wLktVLjM94w",
+          "source": "【隱形工廠｜戶外教學】",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-16T11:00:06Z"
+        },
+        {
           "id": "71c2a0a31858317120914b6d4237d8a7f311777a",
           "title": "哈苏都没做到的——NiSi 16mm F2.8 XCD 超广角镜头实拍",
           "url": "https://www.youtube.com/watch?v=R3Q7j403ecg",
@@ -191,22 +248,22 @@
           "published_at": "2026-07-15T14:45:09Z"
         },
         {
-          "id": "b9b1e45fd40e4e90c05300722243cde85ff28845",
-          "title": "喬登彼得森：世界上最危險的教授？ / Jordan Peterson: The Most Dangerous Professor in the World?",
-          "url": "https://www.youtube.com/watch?v=BNsgHc8RfDk",
-          "source": "Best Documentary",
+          "id": "74a2b25155dc47efe584dda6a48b226b00fd7b1a",
+          "title": "但什麼是交叉熵？ |壓縮就是智慧第 2 部分 / But what is cross-entropy? | Compression is Intelligence Part 2",
+          "url": "https://www.youtube.com/watch?v=GlYgs6v2YfU",
+          "source": "3Blue1Brown",
           "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-15T12:00:16Z"
+          "site_id": "opmlrss",
+          "published_at": "2026-07-16T11:56:04Z"
         },
         {
-          "id": "2534e658f7a94a176b1c3f1d58562d961f4ce10b",
-          "title": "🔂 让我们一起误读「荷马史诗：伊利亚特」",
-          "url": "https://www.youtube.com/watch?v=eomjRPlSo6I",
-          "source": "播客文化土豆 | Podcast Culture Potato",
+          "id": "1a7587bcaaae7d7769aa9f47c016a6ecf13894d6",
+          "title": "【玉穗山】保護布農族『拉荷·阿雷』後續子孫的山，台灣百名山之一｜拉荷·阿雷｜Dahu-ali｜探險威狼 Wilang Explorer ｜荖濃溪｜探勘｜高雄秘境｜登山｜尋根｜桃源區｜Vlog 527",
+          "url": "https://www.youtube.com/watch?v=KRxWArR92ZQ",
+          "source": "探險威狼 Wilang-Explorer",
           "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-15T11:34:06Z"
+          "site_id": "opmlrss",
+          "published_at": "2026-07-16T11:00:07Z"
         },
         {
           "id": "f6904109e8cff667a1cb43a12a7960a4c104ae39",
@@ -225,6 +282,15 @@
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
           "published_at": "2026-07-15T14:00:01Z"
+        },
+        {
+          "id": "ea5c1f6d5ff680f49b3403e84bd59e6164979763",
+          "title": "OpenAI为何成了全行业公敌？一口气看懂AI大模型战争",
+          "url": "https://www.youtube.com/watch?v=vRiJg8ASynw",
+          "source": "冲浪普拉斯",
+          "source_name": "OPML RSS",
+          "site_id": "execution",
+          "published_at": "2026-07-16T11:42:42Z"
         },
         {
           "id": "f875ec21b238346903d8b7e75e8deaf69ff1f38a",
@@ -252,39 +318,30 @@
           "source_name": "OPML RSS",
           "site_id": "trending",
           "published_at": "2026-07-15T13:00:08Z"
-        },
-        {
-          "id": "056fab364aca6cd000fdb2198a8155c44f5c79ad",
-          "title": "難怪能這麼囂張..韓國最扯‘女高中生命案’ 引爆全網怒火｜DenQ",
-          "url": "https://www.youtube.com/watch?v=CNv6IMbEMXw",
-          "source": "DenQ來了",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-15T11:00:08Z"
         }
       ],
-      "item_count": 13,
-      "duplicate_count": 13,
-      "score": 0.6249,
-      "importance": 0.6249,
-      "importance_score": 0.6249,
+      "item_count": 16,
+      "duplicate_count": 16,
+      "score": 0.7451,
+      "importance": 0.7451,
+      "importance_score": 0.7451,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.583,
+        "recency": 0.9837,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-15T11:00:08Z",
-      "latest_at": "2026-07-16T10:00:14Z",
+      "earliest_at": "2026-07-15T13:00:08Z",
+      "latest_at": "2026-07-16T12:00:36Z",
       "primary_item": {
-        "id": "71c2a0a31858317120914b6d4237d8a7f311777a",
-        "title": "哈苏都没做到的——NiSi 16mm F2.8 XCD 超广角镜头实拍",
-        "url": "https://www.youtube.com/watch?v=R3Q7j403ecg",
-        "source": "左手+",
+        "id": "ae33df2279fd068f4ed55bb6393e6c412545a9c2",
+        "title": "福島的幽靈 / The Ghosts of Fukushima",
+        "url": "https://www.youtube.com/watch?v=dWy2gcb4lHU",
+        "source": "Best Documentary",
         "source_name": "OPML RSS"
       }
     },
@@ -341,13 +398,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4072,
-      "importance": 0.4072,
-      "importance_score": 0.4072,
+      "score": 0.3835,
+      "importance": 0.3835,
+      "importance_score": 0.3835,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.3572,
+        "recency": 0.2785,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -417,13 +474,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3551,
-      "importance": 0.3551,
-      "importance_score": 0.3551,
+      "score": 0.3315,
+      "importance": 0.3315,
+      "importance_score": 0.3315,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.1836,
+        "recency": 0.1049,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -511,13 +568,13 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.2936,
-      "importance": 0.2936,
-      "importance_score": 0.2936,
+      "score": 0.27,
+      "importance": 0.27,
+      "importance_score": 0.27,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.2287,
+        "recency": 0.15,
         "story_heat": 0.5
       },
       "category": "multi_source",
