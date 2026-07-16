@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T05:59:57.389024Z",
+  "generated_at": "2026-07-16T08:28:41.733683Z",
   "window_hours": 24,
   "total_items": 4,
   "items": [
@@ -284,13 +284,13 @@
       ],
       "item_count": 14,
       "duplicate_count": 14,
-      "score": 0.6813,
-      "importance": 0.6813,
-      "importance_score": 0.6813,
+      "score": 0.6503,
+      "importance": 0.6503,
+      "importance_score": 0.6503,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.771,
+        "recency": 0.6677,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -360,13 +360,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4636,
-      "importance": 0.4636,
-      "importance_score": 0.4636,
+      "score": 0.4326,
+      "importance": 0.4326,
+      "importance_score": 0.4326,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.5452,
+        "recency": 0.4419,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -436,13 +436,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4115,
-      "importance": 0.4115,
-      "importance_score": 0.4115,
+      "score": 0.3805,
+      "importance": 0.3805,
+      "importance_score": 0.3805,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.3716,
+        "recency": 0.2683,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -477,8 +477,8 @@
           "published_at": "2026-07-15T16:00:00Z"
         },
         {
-          "id": "3e55e18b837626935d6cf6a1c8688ec6cb1cbe9c",
-          "title": "iPhone殺了諾基亞、AI卻沒殺死資安　關鍵差在「補充性資產」重估",
+          "id": "8dca278db163df6ee6abac50752e7010e7528b2a",
+          "title": "iPhone殺了諾基亞、AI卻沒殺死資安，關鍵差在「補充性資產」重估",
           "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014448",
           "source": "商業周刊 當期雜誌開放文章",
           "source_name": "OPML RSS",
@@ -510,8 +510,8 @@
           "published_at": "2026-07-15T16:00:00Z"
         },
         {
-          "id": "3e55e18b837626935d6cf6a1c8688ec6cb1cbe9c",
-          "title": "iPhone殺了諾基亞、AI卻沒殺死資安　關鍵差在「補充性資產」重估",
+          "id": "8dca278db163df6ee6abac50752e7010e7528b2a",
+          "title": "iPhone殺了諾基亞、AI卻沒殺死資安，關鍵差在「補充性資產」重估",
           "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014448",
           "source": "商業周刊 當期雜誌開放文章",
           "source_name": "OPML RSS",
@@ -530,13 +530,13 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.35,
-      "importance": 0.35,
-      "importance_score": 0.35,
+      "score": 0.319,
+      "importance": 0.319,
+      "importance_score": 0.319,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.4167,
+        "recency": 0.3134,
         "story_heat": 0.5
       },
       "category": "multi_source",
