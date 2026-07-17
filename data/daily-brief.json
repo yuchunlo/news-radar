@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-17T12:44:18.970947Z",
+  "generated_at": "2026-07-17T14:47:41.395582Z",
   "window_hours": 24,
-  "total_items": 7,
+  "total_items": 6,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
@@ -138,22 +138,13 @@
           "published_at": "2026-07-16T16:45:46Z"
         },
         {
-          "id": "9038f6e29cf56a3b4226c3398fb0f6ef0768f518",
-          "title": "為什麼虎式坦克沒有贏得戰爭？ / Why didn't the TIGER TANK win the WAR?",
-          "url": "https://www.youtube.com/watch?v=FX_WDr75Zyk",
-          "source": "Knowledgia",
+          "id": "8dc1d2d67731e52b44092e3804895144a185c0a0",
+          "title": "世界歷史| 4K紀錄片（古代到現代）[完整電影] / History of The World | 4K Documentary (Ancient to Modern) [Full Movie]",
+          "url": "https://www.youtube.com/watch?v=zohg5rx5ptU",
+          "source": "Beginning To Now",
           "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-16T14:05:06Z"
-        },
-        {
-          "id": "aeca4f99f861a699035d10151754e6e4b253fe8f",
-          "title": "隨機秀！死亡率、人工智慧、補充劑、攀岩等等 / The Random Show! Mortality, AI, Supplements, Rock Climbing, & More",
-          "url": "https://www.youtube.com/watch?v=JT7QpL4XRtw",
-          "source": "Tim Ferriss",
-          "source_name": "OPML RSS",
-          "site_id": "blog",
-          "published_at": "2026-07-16T13:00:22Z"
+          "site_id": "opmlrss",
+          "published_at": "2026-07-17T09:00:23Z"
         },
         {
           "id": "2058682146987165e09b87ed7ae39f00f69c588d",
@@ -192,7 +183,7 @@
           "published_at": "2026-07-16T18:01:22Z"
         }
       ],
-      "source_count": 20,
+      "source_count": 19,
       "source_names": [
         "Beginning To Now",
         "Benjamin Cowen",
@@ -201,10 +192,8 @@
         "DenQ來了",
         "GOATFANS",
         "Inspiraggio",
-        "Knowledgia",
         "Mosaics of Time",
         "Shepherd Capital Markets",
-        "Tim Ferriss",
         "Timeline - World History Documentaries",
         "Waxy.org",
         "【塞掐】訪談大人物",
@@ -342,22 +331,13 @@
           "published_at": "2026-07-16T16:45:46Z"
         },
         {
-          "id": "9038f6e29cf56a3b4226c3398fb0f6ef0768f518",
-          "title": "為什麼虎式坦克沒有贏得戰爭？ / Why didn't the TIGER TANK win the WAR?",
-          "url": "https://www.youtube.com/watch?v=FX_WDr75Zyk",
-          "source": "Knowledgia",
+          "id": "8dc1d2d67731e52b44092e3804895144a185c0a0",
+          "title": "世界歷史| 4K紀錄片（古代到現代）[完整電影] / History of The World | 4K Documentary (Ancient to Modern) [Full Movie]",
+          "url": "https://www.youtube.com/watch?v=zohg5rx5ptU",
+          "source": "Beginning To Now",
           "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-16T14:05:06Z"
-        },
-        {
-          "id": "aeca4f99f861a699035d10151754e6e4b253fe8f",
-          "title": "隨機秀！死亡率、人工智慧、補充劑、攀岩等等 / The Random Show! Mortality, AI, Supplements, Rock Climbing, & More",
-          "url": "https://www.youtube.com/watch?v=JT7QpL4XRtw",
-          "source": "Tim Ferriss",
-          "source_name": "OPML RSS",
-          "site_id": "blog",
-          "published_at": "2026-07-16T13:00:22Z"
+          "site_id": "opmlrss",
+          "published_at": "2026-07-17T09:00:23Z"
         },
         {
           "id": "2058682146987165e09b87ed7ae39f00f69c588d",
@@ -396,28 +376,104 @@
           "published_at": "2026-07-16T18:01:22Z"
         }
       ],
-      "item_count": 20,
-      "duplicate_count": 20,
-      "score": 0.7409,
-      "importance": 0.7409,
-      "importance_score": 0.7409,
+      "item_count": 19,
+      "duplicate_count": 19,
+      "score": 0.7152,
+      "importance": 0.7152,
+      "importance_score": 0.7152,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9697,
+        "recency": 0.884,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-16T13:00:22Z",
+      "earliest_at": "2026-07-16T16:45:46Z",
       "latest_at": "2026-07-17T12:00:37Z",
       "primary_item": {
         "id": "98fa69edc2fe97dc20272ccb57c07e961f16818e",
         "title": "戰爭中的俄羅斯人 |罕見的前線訪問紀錄片 / Russians at War | Rare Frontline Access Documentary",
         "url": "https://www.youtube.com/watch?v=gA9cprYRFPw",
         "source": "Best Documentary",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_161b6ec97426",
+      "title": "Kalshi 對後期臨床藥物試驗和監管決策的結果進行投注，啟動了 13 項新生物技術合約試點（Madison Muller/彭博社） / Kalshi is offering wagers on the outcomes of late-stage clinical drug trials and regulatory decisions, launching a pilot of 13 new biotech contracts (Madison Muller/Bloomberg)",
+      "url": "https://www.techmeme.com/260716/p67",
+      "primary_url": "https://www.techmeme.com/260716/p67",
+      "source": "Techmeme",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "75a9d01c519bb68de25d9b28916c725195ea30c6",
+          "title": "Kalshi 對後期臨床藥物試驗和監管決策的結果進行投注，啟動了 13 項新生物技術合約試點（Madison Muller/彭博社） / Kalshi is offering wagers on the outcomes of late-stage clinical drug trials and regulatory decisions, launching a pilot of 13 new biotech contracts (Madison Muller/Bloomberg)",
+          "url": "https://www.techmeme.com/260716/p67",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-17T03:00:01Z"
+        },
+        {
+          "id": "b572c6bdac589ab99070db9f426cebd8d8e0f28a",
+          "title": "Kalshi 推出了一項生物技術試點項目，從 13 份生物技術合約開始，對後期臨床藥物試驗和監管決策的結果進行投注（Madison Muller/彭博社） / Kalshi launches a biotech pilot, starting with 13 biotech contracts offering wagers on the outcomes of late-stage clinical drug trials and regulatory decisions (Madison Muller/Bloomberg)",
+          "url": "https://www.techmeme.com/260716/p67",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-17T03:00:01Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Techmeme"
+      ],
+      "items": [
+        {
+          "id": "75a9d01c519bb68de25d9b28916c725195ea30c6",
+          "title": "Kalshi 對後期臨床藥物試驗和監管決策的結果進行投注，啟動了 13 項新生物技術合約試點（Madison Muller/彭博社） / Kalshi is offering wagers on the outcomes of late-stage clinical drug trials and regulatory decisions, launching a pilot of 13 new biotech contracts (Madison Muller/Bloomberg)",
+          "url": "https://www.techmeme.com/260716/p67",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-17T03:00:01Z"
+        },
+        {
+          "id": "b572c6bdac589ab99070db9f426cebd8d8e0f28a",
+          "title": "Kalshi 推出了一項生物技術試點項目，從 13 份生物技術合約開始，對後期臨床藥物試驗和監管決策的結果進行投注（Madison Muller/彭博社） / Kalshi launches a biotech pilot, starting with 13 biotech contracts offering wagers on the outcomes of late-stage clinical drug trials and regulatory decisions (Madison Muller/Bloomberg)",
+          "url": "https://www.techmeme.com/260716/p67",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-17T03:00:01Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.4526,
+      "importance": 0.4526,
+      "importance_score": 0.4526,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.5,
+        "recency": 0.5086,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-17T03:00:01Z",
+      "latest_at": "2026-07-17T03:00:01Z",
+      "primary_item": {
+        "id": "75a9d01c519bb68de25d9b28916c725195ea30c6",
+        "title": "Kalshi 對後期臨床藥物試驗和監管決策的結果進行投注，啟動了 13 項新生物技術合約試點（Madison Muller/彭博社） / Kalshi is offering wagers on the outcomes of late-stage clinical drug trials and regulatory decisions, launching a pilot of 13 new biotech contracts (Madison Muller/Bloomberg)",
+        "url": "https://www.techmeme.com/260716/p67",
+        "source": "Techmeme",
         "source_name": "OPML RSS"
       }
     },
@@ -474,13 +530,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4199,
-      "importance": 0.4199,
-      "importance_score": 0.4199,
+      "score": 0.3942,
+      "importance": 0.3942,
+      "importance_score": 0.3942,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.3998,
+        "recency": 0.3141,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -550,13 +606,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3689,
-      "importance": 0.3689,
-      "importance_score": 0.3689,
+      "score": 0.3432,
+      "importance": 0.3432,
+      "importance_score": 0.3432,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.2297,
+        "recency": 0.144,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -626,13 +682,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3335,
-      "importance": 0.3335,
-      "importance_score": 0.3335,
+      "score": 0.3078,
+      "importance": 0.3078,
+      "importance_score": 0.3078,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.1116,
+        "recency": 0.0259,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -702,13 +758,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3304,
-      "importance": 0.3304,
-      "importance_score": 0.3304,
+      "score": 0.3047,
+      "importance": 0.3047,
+      "importance_score": 0.3047,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.1012,
+        "recency": 0.0155,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -722,158 +778,6 @@
         "title": "中國、俄羅斯、白俄羅斯、塞爾維亞、古巴、巴西、委內瑞拉和其他22個國家在上海簽署成立世界人工智慧合作組織協議（路透社） / China, Russia, Belarus, Serbia, Cuba, Brazil, Venezuela, and 22 other countries sign an agreement to create the World AI Cooperation Organization in Shanghai (Reuters)",
         "url": "https://www.techmeme.com/260716/p36",
         "source": "Techmeme",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_2799d73ca112",
-      "title": "來源：蘋果正在準備新款 iPad，包括 10 月推出的配備 OLED 螢幕的 iPad mini，以及 2027 年更新的入門級 iPad 和 iPad Air（Mark Gurman/彭博社） / Sources: Apple is preparing new iPads, including an iPad mini with an OLED screen by October and refreshed entry-level iPads and iPad Airs for 2027 (Mark Gurman/Bloomberg)",
-      "url": "https://www.techmeme.com/260716/p32",
-      "primary_url": "https://www.techmeme.com/260716/p32",
-      "source": "Techmeme",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "82d1295250d14ca92448f7f621f934d73f872af0",
-          "title": "來源：蘋果正在準備新款 iPad，包括 10 月推出的配備 OLED 螢幕的 iPad mini，以及 2027 年更新的入門級 iPad 和 iPad Air（Mark Gurman/彭博社） / Sources: Apple is preparing new iPads, including an iPad mini with an OLED screen by October and refreshed entry-level iPads and iPad Airs for 2027 (Mark Gurman/Bloomberg)",
-          "url": "https://www.techmeme.com/260716/p32",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-16T13:40:01Z"
-        },
-        {
-          "id": "601b06e306bd18def08febbb562afa969879c0a3",
-          "title": "來源：蘋果正在準備對 iPad 進行全面改造，包括在 10 月推出配備 OLED 螢幕的 iPad mini，並在 2027 年推出入門級 iPad 和 Airs 的更新版本（Mark Gurman/彭博社） / Sources: Apple is prepping an iPad overhaul, including an iPad mini with an OLED screen by October and refreshed versions of entry-level iPad and Airs in 2027 (Mark Gurman/Bloomberg)",
-          "url": "https://www.techmeme.com/260716/p32",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-16T13:40:01Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Techmeme"
-      ],
-      "items": [
-        {
-          "id": "82d1295250d14ca92448f7f621f934d73f872af0",
-          "title": "來源：蘋果正在準備新款 iPad，包括 10 月推出的配備 OLED 螢幕的 iPad mini，以及 2027 年更新的入門級 iPad 和 iPad Air（Mark Gurman/彭博社） / Sources: Apple is preparing new iPads, including an iPad mini with an OLED screen by October and refreshed entry-level iPads and iPad Airs for 2027 (Mark Gurman/Bloomberg)",
-          "url": "https://www.techmeme.com/260716/p32",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-16T13:40:01Z"
-        },
-        {
-          "id": "601b06e306bd18def08febbb562afa969879c0a3",
-          "title": "來源：蘋果正在準備對 iPad 進行全面改造，包括在 10 月推出配備 OLED 螢幕的 iPad mini，並在 2027 年推出入門級 iPad 和 Airs 的更新版本（Mark Gurman/彭博社） / Sources: Apple is prepping an iPad overhaul, including an iPad mini with an OLED screen by October and refreshed versions of entry-level iPad and Airs in 2027 (Mark Gurman/Bloomberg)",
-          "url": "https://www.techmeme.com/260716/p32",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-16T13:40:01Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.3116,
-      "importance": 0.3116,
-      "importance_score": 0.3116,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.5,
-        "recency": 0.0387,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-16T13:40:01Z",
-      "latest_at": "2026-07-16T13:40:01Z",
-      "primary_item": {
-        "id": "82d1295250d14ca92448f7f621f934d73f872af0",
-        "title": "來源：蘋果正在準備新款 iPad，包括 10 月推出的配備 OLED 螢幕的 iPad mini，以及 2027 年更新的入門級 iPad 和 iPad Air（Mark Gurman/彭博社） / Sources: Apple is preparing new iPads, including an iPad mini with an OLED screen by October and refreshed entry-level iPads and iPad Airs for 2027 (Mark Gurman/Bloomberg)",
-        "url": "https://www.techmeme.com/260716/p32",
-        "source": "Techmeme",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_697fd7552c15",
-      "title": "遊戲工人集會反對微軟裁員：“企業的貪婪正在摧毀我們的遊戲和我們的生計” / Game Workers Rally Against Microsoft Layoffs: 'Corporate Greed Is Destroying Our Games And Our Livelihoods’",
-      "url": "https://aftermath.site/zenimax-save-our-devs-microsoft-protest-layoffs",
-      "primary_url": "https://aftermath.site/zenimax-save-our-devs-microsoft-protest-layoffs",
-      "source": "Aftermath",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "4957a238a93358e5b3fce3bcdc309e84d3cacacb",
-          "title": "遊戲工人集會反對微軟裁員：“企業的貪婪正在摧毀我們的遊戲和我們的生計” / Game Workers Rally Against Microsoft Layoffs: 'Corporate Greed Is Destroying Our Games And Our Livelihoods’",
-          "url": "https://aftermath.site/zenimax-save-our-devs-microsoft-protest-layoffs",
-          "source": "Aftermath",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-16T13:47:31Z"
-        },
-        {
-          "id": "31b6c6a854eab101e0b92e663266d432e5a7af45",
-          "title": "微軟最近裁員後，ZeniMax 員工集會拯救“工作室精神” / ZeniMax Workers Rally To Save 'The Spirit Of The Studio' After Microsoft's Latest Layoffs",
-          "url": "https://aftermath.site/zenimax-save-our-devs-microsoft-protest-layoffs",
-          "source": "Aftermath",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-16T13:47:31Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Aftermath"
-      ],
-      "items": [
-        {
-          "id": "4957a238a93358e5b3fce3bcdc309e84d3cacacb",
-          "title": "遊戲工人集會反對微軟裁員：“企業的貪婪正在摧毀我們的遊戲和我們的生計” / Game Workers Rally Against Microsoft Layoffs: 'Corporate Greed Is Destroying Our Games And Our Livelihoods’",
-          "url": "https://aftermath.site/zenimax-save-our-devs-microsoft-protest-layoffs",
-          "source": "Aftermath",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-16T13:47:31Z"
-        },
-        {
-          "id": "31b6c6a854eab101e0b92e663266d432e5a7af45",
-          "title": "微軟最近裁員後，ZeniMax 員工集會拯救“工作室精神” / ZeniMax Workers Rally To Save 'The Spirit Of The Studio' After Microsoft's Latest Layoffs",
-          "url": "https://aftermath.site/zenimax-save-our-devs-microsoft-protest-layoffs",
-          "source": "Aftermath",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-16T13:47:31Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.1882,
-      "importance": 0.1882,
-      "importance_score": 0.1882,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.25,
-        "recency": 0.0439,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-16T13:47:31Z",
-      "latest_at": "2026-07-16T13:47:31Z",
-      "primary_item": {
-        "id": "4957a238a93358e5b3fce3bcdc309e84d3cacacb",
-        "title": "遊戲工人集會反對微軟裁員：“企業的貪婪正在摧毀我們的遊戲和我們的生計” / Game Workers Rally Against Microsoft Layoffs: 'Corporate Greed Is Destroying Our Games And Our Livelihoods’",
-        "url": "https://aftermath.site/zenimax-save-our-devs-microsoft-protest-layoffs",
-        "source": "Aftermath",
         "source_name": "OPML RSS"
       }
     }
