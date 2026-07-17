@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-17T01:03:59.742920Z",
+  "generated_at": "2026-07-17T04:44:18.562021Z",
   "window_hours": 24,
-  "total_items": 6,
+  "total_items": 7,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
@@ -341,13 +341,13 @@
       ],
       "item_count": 17,
       "duplicate_count": 17,
-      "score": 0.7413,
-      "importance": 0.7413,
-      "importance_score": 0.7413,
+      "score": 0.6954,
+      "importance": 0.6954,
+      "importance_score": 0.6954,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9708,
+        "recency": 0.8179,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -361,6 +361,82 @@
         "title": "台积电释放了什么信息？你的组合根本没有分散风险？跌麻了跌麻了，该听巴菲特讲课了！糟糕！我的谷歌要崩！奈飞这给的什么东西？！",
         "url": "https://www.youtube.com/watch?v=KueAYEGSolI",
         "source": "美投侃新闻",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_41ead83d81a3",
+      "title": "紐約一個學區正在試用 Realbotix 的人形機器人老師來幫助 STEM 學生； Realbotix 在 2024 年收購性玩偶公司 RealDoll 後進行了品牌重塑（Chase DiBenedetto/Mashable） / A NY school district is piloting Realbotix's humanoid robot teacher to help STEM students; Realbotix rebranded after acquiring sex doll company RealDoll in 2024 (Chase DiBenedetto/Mashable)",
+      "url": "https://www.techmeme.com/260716/p58",
+      "primary_url": "https://www.techmeme.com/260716/p58",
+      "source": "Techmeme",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "a4c41d80deb4bbfc38b37715b7925cf3ba0dc8ab",
+          "title": "紐約一個學區正在試用 Realbotix 的人形機器人老師來幫助 STEM 學生； Realbotix 在 2024 年收購性玩偶公司 RealDoll 後進行了品牌重塑（Chase DiBenedetto/Mashable） / A NY school district is piloting Realbotix's humanoid robot teacher to help STEM students; Realbotix rebranded after acquiring sex doll company RealDoll in 2024 (Chase DiBenedetto/Mashable)",
+          "url": "https://www.techmeme.com/260716/p58",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-16T22:20:00Z"
+        },
+        {
+          "id": "06624255402b68985c99575b185ffdbc49fee503",
+          "title": "紐約州的一個學區正在試用 Realbotix 公司的人形機器人老師來幫助學生參加暑期學校課程（Chase DiBenedetto/Mashable） / A New York State school district is piloting a humanoid robot teacher by the company Realbotix to help students with summer school classes (Chase DiBenedetto/Mashable)",
+          "url": "https://www.techmeme.com/260716/p58",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-16T22:20:00Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Techmeme"
+      ],
+      "items": [
+        {
+          "id": "a4c41d80deb4bbfc38b37715b7925cf3ba0dc8ab",
+          "title": "紐約一個學區正在試用 Realbotix 的人形機器人老師來幫助 STEM 學生； Realbotix 在 2024 年收購性玩偶公司 RealDoll 後進行了品牌重塑（Chase DiBenedetto/Mashable） / A NY school district is piloting Realbotix's humanoid robot teacher to help STEM students; Realbotix rebranded after acquiring sex doll company RealDoll in 2024 (Chase DiBenedetto/Mashable)",
+          "url": "https://www.techmeme.com/260716/p58",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-16T22:20:00Z"
+        },
+        {
+          "id": "06624255402b68985c99575b185ffdbc49fee503",
+          "title": "紐約州的一個學區正在試用 Realbotix 公司的人形機器人老師來幫助學生參加暑期學校課程（Chase DiBenedetto/Mashable） / A New York State school district is piloting a humanoid robot teacher by the company Realbotix to help students with summer school classes (Chase DiBenedetto/Mashable)",
+          "url": "https://www.techmeme.com/260716/p58",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-16T22:20:00Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5199,
+      "importance": 0.5199,
+      "importance_score": 0.5199,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.5,
+        "recency": 0.7331,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-16T22:20:00Z",
+      "latest_at": "2026-07-16T22:20:00Z",
+      "primary_item": {
+        "id": "a4c41d80deb4bbfc38b37715b7925cf3ba0dc8ab",
+        "title": "紐約一個學區正在試用 Realbotix 的人形機器人老師來幫助 STEM 學生； Realbotix 在 2024 年收購性玩偶公司 RealDoll 後進行了品牌重塑（Chase DiBenedetto/Mashable） / A NY school district is piloting Realbotix's humanoid robot teacher to help STEM students; Realbotix rebranded after acquiring sex doll company RealDoll in 2024 (Chase DiBenedetto/Mashable)",
+        "url": "https://www.techmeme.com/260716/p58",
+        "source": "Techmeme",
         "source_name": "OPML RSS"
       }
     },
@@ -417,13 +493,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5148,
-      "importance": 0.5148,
-      "importance_score": 0.5148,
+      "score": 0.4689,
+      "importance": 0.4689,
+      "importance_score": 0.4689,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.716,
+        "recency": 0.563,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -493,13 +569,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4794,
-      "importance": 0.4794,
-      "importance_score": 0.4794,
+      "score": 0.4335,
+      "importance": 0.4335,
+      "importance_score": 0.4335,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.5979,
+        "recency": 0.4449,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -569,13 +645,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4763,
-      "importance": 0.4763,
-      "importance_score": 0.4763,
+      "score": 0.4304,
+      "importance": 0.4304,
+      "importance_score": 0.4304,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.5875,
+        "recency": 0.4345,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -645,13 +721,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4575,
-      "importance": 0.4575,
-      "importance_score": 0.4575,
+      "score": 0.4116,
+      "importance": 0.4116,
+      "importance_score": 0.4116,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.525,
+        "recency": 0.372,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -721,13 +797,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3341,
-      "importance": 0.3341,
-      "importance_score": 0.3341,
+      "score": 0.2882,
+      "importance": 0.2882,
+      "importance_score": 0.2882,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.5302,
+        "recency": 0.3772,
         "story_heat": 0.25
       },
       "category": "watch",
