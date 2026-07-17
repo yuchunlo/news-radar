@@ -1,16 +1,34 @@
 {
-  "generated_at": "2026-07-17T14:47:41.395582Z",
+  "generated_at": "2026-07-17T16:19:49.104037Z",
   "window_hours": 24,
-  "total_items": 6,
+  "total_items": 4,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "戰爭中的俄羅斯人 |罕見的前線訪問紀錄片 / Russians at War | Rare Frontline Access Documentary",
-      "url": "https://www.youtube.com/watch?v=gA9cprYRFPw",
-      "primary_url": "https://www.youtube.com/watch?v=gA9cprYRFPw",
-      "source": "Best Documentary",
+      "title": "以色列這個字的三個意思 / Three Meanings of the Word Israel",
+      "url": "https://www.youtube.com/watch?v=R3vqTkP7C1I",
+      "primary_url": "https://www.youtube.com/watch?v=R3vqTkP7C1I",
+      "source": "UsefulCharts",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "3058e9a4418922ef8501166476d6d5108875115a",
+          "title": "以色列這個字的三個意思 / Three Meanings of the Word Israel",
+          "url": "https://www.youtube.com/watch?v=R3vqTkP7C1I",
+          "source": "UsefulCharts",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-17T16:00:14Z"
+        },
+        {
+          "id": "3d36748a26d1b8e65a72781b094c6f434f87af5b",
+          "title": "馬格里布：沙漠獵人的聖犬 / Maghreb: The Sacred Dog of the Desert Hunters",
+          "url": "https://www.youtube.com/watch?v=qjqAencn7Yc",
+          "source": "imineo Documentaires",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-17T14:45:01Z"
+        },
         {
           "id": "98fa69edc2fe97dc20272ccb57c07e961f16818e",
           "title": "戰爭中的俄羅斯人 |罕見的前線訪問紀錄片 / Russians at War | Rare Frontline Access Documentary",
@@ -138,6 +156,15 @@
           "published_at": "2026-07-16T16:45:46Z"
         },
         {
+          "id": "a69d467c6cdfd37f606fe1a429063d55c8c623ea",
+          "title": "馬克斯恩斯特：歐洲的夢想、怪物與廢墟 / Max Ernst: Dreams, Monsters, and the Ruins of Europe",
+          "url": "https://www.youtube.com/watch?v=agaVVezxSnw",
+          "source": "Blind Dweller",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-17T16:02:30Z"
+        },
+        {
           "id": "8dc1d2d67731e52b44092e3804895144a185c0a0",
           "title": "世界歷史| 4K紀錄片（古代到現代）[完整電影] / History of The World | 4K Documentary (Ancient to Modern) [Full Movie]",
           "url": "https://www.youtube.com/watch?v=zohg5rx5ptU",
@@ -183,11 +210,12 @@
           "published_at": "2026-07-16T18:01:22Z"
         }
       ],
-      "source_count": 19,
+      "source_count": 22,
       "source_names": [
         "Beginning To Now",
         "Benjamin Cowen",
         "Best Documentary",
+        "Blind Dweller",
         "Chu's Vegan",
         "DenQ來了",
         "GOATFANS",
@@ -195,7 +223,9 @@
         "Mosaics of Time",
         "Shepherd Capital Markets",
         "Timeline - World History Documentaries",
+        "UsefulCharts",
         "Waxy.org",
+        "imineo Documentaires",
         "【塞掐】訪談大人物",
         "忽左忽右",
         "美投侃新闻",
@@ -205,6 +235,24 @@
       ],
       "items": [
         {
+          "id": "3058e9a4418922ef8501166476d6d5108875115a",
+          "title": "以色列這個字的三個意思 / Three Meanings of the Word Israel",
+          "url": "https://www.youtube.com/watch?v=R3vqTkP7C1I",
+          "source": "UsefulCharts",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-17T16:00:14Z"
+        },
+        {
+          "id": "3d36748a26d1b8e65a72781b094c6f434f87af5b",
+          "title": "馬格里布：沙漠獵人的聖犬 / Maghreb: The Sacred Dog of the Desert Hunters",
+          "url": "https://www.youtube.com/watch?v=qjqAencn7Yc",
+          "source": "imineo Documentaires",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-17T14:45:01Z"
+        },
+        {
           "id": "98fa69edc2fe97dc20272ccb57c07e961f16818e",
           "title": "戰爭中的俄羅斯人 |罕見的前線訪問紀錄片 / Russians at War | Rare Frontline Access Documentary",
           "url": "https://www.youtube.com/watch?v=gA9cprYRFPw",
@@ -331,6 +379,15 @@
           "published_at": "2026-07-16T16:45:46Z"
         },
         {
+          "id": "a69d467c6cdfd37f606fe1a429063d55c8c623ea",
+          "title": "馬克斯恩斯特：歐洲的夢想、怪物與廢墟 / Max Ernst: Dreams, Monsters, and the Ruins of Europe",
+          "url": "https://www.youtube.com/watch?v=agaVVezxSnw",
+          "source": "Blind Dweller",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-17T16:02:30Z"
+        },
+        {
           "id": "8dc1d2d67731e52b44092e3804895144a185c0a0",
           "title": "世界歷史| 4K紀錄片（古代到現代）[完整電影] / History of The World | 4K Documentary (Ancient to Modern) [Full Movie]",
           "url": "https://www.youtube.com/watch?v=zohg5rx5ptU",
@@ -376,15 +433,15 @@
           "published_at": "2026-07-16T18:01:22Z"
         }
       ],
-      "item_count": 19,
-      "duplicate_count": 19,
-      "score": 0.7152,
-      "importance": 0.7152,
-      "importance_score": 0.7152,
+      "item_count": 22,
+      "duplicate_count": 22,
+      "score": 0.7459,
+      "importance": 0.7459,
+      "importance_score": 0.7459,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.884,
+        "recency": 0.9864,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -392,12 +449,12 @@
         "multi_source"
       ],
       "earliest_at": "2026-07-16T16:45:46Z",
-      "latest_at": "2026-07-17T12:00:37Z",
+      "latest_at": "2026-07-17T16:02:30Z",
       "primary_item": {
-        "id": "98fa69edc2fe97dc20272ccb57c07e961f16818e",
-        "title": "戰爭中的俄羅斯人 |罕見的前線訪問紀錄片 / Russians at War | Rare Frontline Access Documentary",
-        "url": "https://www.youtube.com/watch?v=gA9cprYRFPw",
-        "source": "Best Documentary",
+        "id": "3058e9a4418922ef8501166476d6d5108875115a",
+        "title": "以色列這個字的三個意思 / Three Meanings of the Word Israel",
+        "url": "https://www.youtube.com/watch?v=R3vqTkP7C1I",
+        "source": "UsefulCharts",
         "source_name": "OPML RSS"
       }
     },
@@ -454,13 +511,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4526,
-      "importance": 0.4526,
-      "importance_score": 0.4526,
+      "score": 0.4334,
+      "importance": 0.4334,
+      "importance_score": 0.4334,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.5086,
+        "recency": 0.4446,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -530,13 +587,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3942,
-      "importance": 0.3942,
-      "importance_score": 0.3942,
+      "score": 0.375,
+      "importance": 0.375,
+      "importance_score": 0.375,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.3141,
+        "recency": 0.2501,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -606,13 +663,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3432,
-      "importance": 0.3432,
-      "importance_score": 0.3432,
+      "score": 0.324,
+      "importance": 0.324,
+      "importance_score": 0.324,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.144,
+        "recency": 0.08,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -625,158 +682,6 @@
         "id": "7ff40157c3ab3390d2cacfa5bd42a69279842eae",
         "title": "消息來源：Google在交付 Gemini 3.5 Pro 方面比原計劃晚了幾個月，因為它試圖提高其能力，特別是在編碼方面； GOOG 收盤下跌 4.43%（彭博社） / Sources: Google is months behind schedule on delivering Gemini 3.5 Pro as it tries to improve its capabilities, particularly in coding; GOOG closes down 4.43% (Bloomberg)",
         "url": "https://www.techmeme.com/260716/p47",
-        "source": "Techmeme",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_aa270c7d137d",
-      "title": "Visa 推出了 Visa 穩定幣平台，這是一個內部系統，可幫助其約 15,000 家金融機構和 2 億多家商家網路更輕鬆地使用穩定幣（Camila Grigera Naón/財富） / Visa debuts the Visa Stablecoin Platform, an internal system to help its network of ~15K financial institutions and 200M+ merchants more easily use stablecoins (Camila Grigera Naón/Fortune)",
-      "url": "https://www.techmeme.com/260716/p38",
-      "primary_url": "https://www.techmeme.com/260716/p38",
-      "source": "Techmeme",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "5fa816c1ac438e07cbdd20047f5fd0b169d1be2c",
-          "title": "Visa 推出了 Visa 穩定幣平台，這是一個內部系統，可幫助其約 15,000 家金融機構和 2 億多家商家網路更輕鬆地使用穩定幣（Camila Grigera Naón/財富） / Visa debuts the Visa Stablecoin Platform, an internal system to help its network of ~15K financial institutions and 200M+ merchants more easily use stablecoins (Camila Grigera Naón/Fortune)",
-          "url": "https://www.techmeme.com/260716/p38",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-16T15:25:01Z"
-        },
-        {
-          "id": "7a319136b4d22c183c2db351e1afda4757711554",
-          "title": "Visa 推出 Visa 穩定幣平台，這是一個內部系統，供其約 15,000 家金融機構和 2 億多家商家組成的網路使用穩定幣（Camila Grigera Naón/財富） / Visa launches the Visa Stablecoin Platform, an internal system for its network of about 15,000 financial institutions and 200M+ merchants to use stablecoins (Camila Grigera Naón/Fortune)",
-          "url": "https://www.techmeme.com/260716/p38",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-16T15:25:01Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Techmeme"
-      ],
-      "items": [
-        {
-          "id": "5fa816c1ac438e07cbdd20047f5fd0b169d1be2c",
-          "title": "Visa 推出了 Visa 穩定幣平台，這是一個內部系統，可幫助其約 15,000 家金融機構和 2 億多家商家網路更輕鬆地使用穩定幣（Camila Grigera Naón/財富） / Visa debuts the Visa Stablecoin Platform, an internal system to help its network of ~15K financial institutions and 200M+ merchants more easily use stablecoins (Camila Grigera Naón/Fortune)",
-          "url": "https://www.techmeme.com/260716/p38",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-16T15:25:01Z"
-        },
-        {
-          "id": "7a319136b4d22c183c2db351e1afda4757711554",
-          "title": "Visa 推出 Visa 穩定幣平台，這是一個內部系統，供其約 15,000 家金融機構和 2 億多家商家組成的網路使用穩定幣（Camila Grigera Naón/財富） / Visa launches the Visa Stablecoin Platform, an internal system for its network of about 15,000 financial institutions and 200M+ merchants to use stablecoins (Camila Grigera Naón/Fortune)",
-          "url": "https://www.techmeme.com/260716/p38",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-16T15:25:01Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.3078,
-      "importance": 0.3078,
-      "importance_score": 0.3078,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.5,
-        "recency": 0.0259,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-16T15:25:01Z",
-      "latest_at": "2026-07-16T15:25:01Z",
-      "primary_item": {
-        "id": "5fa816c1ac438e07cbdd20047f5fd0b169d1be2c",
-        "title": "Visa 推出了 Visa 穩定幣平台，這是一個內部系統，可幫助其約 15,000 家金融機構和 2 億多家商家網路更輕鬆地使用穩定幣（Camila Grigera Naón/財富） / Visa debuts the Visa Stablecoin Platform, an internal system to help its network of ~15K financial institutions and 200M+ merchants more easily use stablecoins (Camila Grigera Naón/Fortune)",
-        "url": "https://www.techmeme.com/260716/p38",
-        "source": "Techmeme",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_1d4ff2ab926e",
-      "title": "中國、俄羅斯、白俄羅斯、塞爾維亞、古巴、巴西、委內瑞拉和其他22個國家在上海簽署成立世界人工智慧合作組織協議（路透社） / China, Russia, Belarus, Serbia, Cuba, Brazil, Venezuela, and 22 other countries sign an agreement to create the World AI Cooperation Organization in Shanghai (Reuters)",
-      "url": "https://www.techmeme.com/260716/p36",
-      "primary_url": "https://www.techmeme.com/260716/p36",
-      "source": "Techmeme",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "d0f9a87eb1b99a8b1f052f62ee52fbe7b0fc9eed",
-          "title": "中國、俄羅斯、白俄羅斯、塞爾維亞、古巴、巴西、委內瑞拉和其他22個國家在上海簽署成立世界人工智慧合作組織協議（路透社） / China, Russia, Belarus, Serbia, Cuba, Brazil, Venezuela, and 22 other countries sign an agreement to create the World AI Cooperation Organization in Shanghai (Reuters)",
-          "url": "https://www.techmeme.com/260716/p36",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-16T15:10:01Z"
-        },
-        {
-          "id": "7ccf896e8947bc68e37bcb05771cc548e2637151",
-          "title": "中國、俄羅斯、巴西等26個國家在上海簽署成立世界人工智慧合作組織協議（路透社） / China, Russia, Brazil, and 26 other countries sign an agreement to establish the World AI Cooperation Organization in Shanghai (Reuters)",
-          "url": "https://www.techmeme.com/260716/p36",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-16T15:10:01Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Techmeme"
-      ],
-      "items": [
-        {
-          "id": "d0f9a87eb1b99a8b1f052f62ee52fbe7b0fc9eed",
-          "title": "中國、俄羅斯、白俄羅斯、塞爾維亞、古巴、巴西、委內瑞拉和其他22個國家在上海簽署成立世界人工智慧合作組織協議（路透社） / China, Russia, Belarus, Serbia, Cuba, Brazil, Venezuela, and 22 other countries sign an agreement to create the World AI Cooperation Organization in Shanghai (Reuters)",
-          "url": "https://www.techmeme.com/260716/p36",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-16T15:10:01Z"
-        },
-        {
-          "id": "7ccf896e8947bc68e37bcb05771cc548e2637151",
-          "title": "中國、俄羅斯、巴西等26個國家在上海簽署成立世界人工智慧合作組織協議（路透社） / China, Russia, Brazil, and 26 other countries sign an agreement to establish the World AI Cooperation Organization in Shanghai (Reuters)",
-          "url": "https://www.techmeme.com/260716/p36",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-16T15:10:01Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.3047,
-      "importance": 0.3047,
-      "importance_score": 0.3047,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.5,
-        "recency": 0.0155,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-16T15:10:01Z",
-      "latest_at": "2026-07-16T15:10:01Z",
-      "primary_item": {
-        "id": "d0f9a87eb1b99a8b1f052f62ee52fbe7b0fc9eed",
-        "title": "中國、俄羅斯、白俄羅斯、塞爾維亞、古巴、巴西、委內瑞拉和其他22個國家在上海簽署成立世界人工智慧合作組織協議（路透社） / China, Russia, Belarus, Serbia, Cuba, Brazil, Venezuela, and 22 other countries sign an agreement to create the World AI Cooperation Organization in Shanghai (Reuters)",
-        "url": "https://www.techmeme.com/260716/p36",
         "source": "Techmeme",
         "source_name": "OPML RSS"
       }
