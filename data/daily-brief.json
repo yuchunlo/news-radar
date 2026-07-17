@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T16:19:49.104037Z",
+  "generated_at": "2026-07-17T17:39:53.829201Z",
   "window_hours": 24,
   "total_items": 4,
   "items": [
@@ -138,24 +138,6 @@
           "published_at": "2026-07-16T19:48:27Z"
         },
         {
-          "id": "d2367faed84f8e77a21fb9cbaaf3c25142c4b9a9",
-          "title": "《超級無敵掌門狗》如何賦予黏土靈魂 / How Wallace & Gromit Gives Clay a Soul",
-          "url": "https://www.youtube.com/watch?v=xHUjKm5f2j8",
-          "source": "Mosaics of Time",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-16T16:45:46Z"
-        },
-        {
-          "id": "a22bbbaf4a1a45b5b7ecf48a8e11e5fd51477489",
-          "title": "這就是讓動畫充滿情感的方法 / This Is How You Make Animation Emotional",
-          "url": "https://www.youtube.com/watch?v=xHUjKm5f2j8",
-          "source": "Mosaics of Time",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-16T16:45:46Z"
-        },
-        {
           "id": "a69d467c6cdfd37f606fe1a429063d55c8c623ea",
           "title": "馬克斯恩斯特：歐洲的夢想、怪物與廢墟 / Max Ernst: Dreams, Monsters, and the Ruins of Europe",
           "url": "https://www.youtube.com/watch?v=agaVVezxSnw",
@@ -210,7 +192,7 @@
           "published_at": "2026-07-16T18:01:22Z"
         }
       ],
-      "source_count": 22,
+      "source_count": 20,
       "source_names": [
         "Beginning To Now",
         "Benjamin Cowen",
@@ -220,7 +202,6 @@
         "DenQ來了",
         "GOATFANS",
         "Inspiraggio",
-        "Mosaics of Time",
         "Shepherd Capital Markets",
         "Timeline - World History Documentaries",
         "UsefulCharts",
@@ -361,24 +342,6 @@
           "published_at": "2026-07-16T19:48:27Z"
         },
         {
-          "id": "d2367faed84f8e77a21fb9cbaaf3c25142c4b9a9",
-          "title": "《超級無敵掌門狗》如何賦予黏土靈魂 / How Wallace & Gromit Gives Clay a Soul",
-          "url": "https://www.youtube.com/watch?v=xHUjKm5f2j8",
-          "source": "Mosaics of Time",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-16T16:45:46Z"
-        },
-        {
-          "id": "a22bbbaf4a1a45b5b7ecf48a8e11e5fd51477489",
-          "title": "這就是讓動畫充滿情感的方法 / This Is How You Make Animation Emotional",
-          "url": "https://www.youtube.com/watch?v=xHUjKm5f2j8",
-          "source": "Mosaics of Time",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-16T16:45:46Z"
-        },
-        {
           "id": "a69d467c6cdfd37f606fe1a429063d55c8c623ea",
           "title": "馬克斯恩斯特：歐洲的夢想、怪物與廢墟 / Max Ernst: Dreams, Monsters, and the Ruins of Europe",
           "url": "https://www.youtube.com/watch?v=agaVVezxSnw",
@@ -433,22 +396,22 @@
           "published_at": "2026-07-16T18:01:22Z"
         }
       ],
-      "item_count": 22,
-      "duplicate_count": 22,
-      "score": 0.7459,
-      "importance": 0.7459,
-      "importance_score": 0.7459,
+      "item_count": 20,
+      "duplicate_count": 20,
+      "score": 0.7292,
+      "importance": 0.7292,
+      "importance_score": 0.7292,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9864,
+        "recency": 0.9308,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-16T16:45:46Z",
+      "earliest_at": "2026-07-16T18:01:22Z",
       "latest_at": "2026-07-17T16:02:30Z",
       "primary_item": {
         "id": "3058e9a4418922ef8501166476d6d5108875115a",
@@ -511,13 +474,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4334,
-      "importance": 0.4334,
-      "importance_score": 0.4334,
+      "score": 0.4167,
+      "importance": 0.4167,
+      "importance_score": 0.4167,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.4446,
+        "recency": 0.389,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -587,13 +550,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.375,
-      "importance": 0.375,
-      "importance_score": 0.375,
+      "score": 0.3584,
+      "importance": 0.3584,
+      "importance_score": 0.3584,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.2501,
+        "recency": 0.1945,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -663,13 +626,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.324,
-      "importance": 0.324,
-      "importance_score": 0.324,
+      "score": 0.3073,
+      "importance": 0.3073,
+      "importance_score": 0.3073,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.08,
+        "recency": 0.0244,
         "story_heat": 0.25
       },
       "category": "watch",
