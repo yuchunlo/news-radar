@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-17T19:19:01.756023Z",
+  "generated_at": "2026-07-17T20:28:12.665131Z",
   "window_hours": 24,
-  "total_items": 3,
+  "total_items": 4,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
@@ -129,15 +129,6 @@
           "published_at": "2026-07-16T21:00:05Z"
         },
         {
-          "id": "8e8af9f5ad4c48b499f4c1ff713b331bcbe92417",
-          "title": "比特幣市場週期 / Bitcoin Market Cycles",
-          "url": "https://www.youtube.com/watch?v=XQN1M-sIuGs",
-          "source": "Benjamin Cowen",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-16T19:48:27Z"
-        },
-        {
           "id": "a69d467c6cdfd37f606fe1a429063d55c8c623ea",
           "title": "馬克斯恩斯特：歐洲的夢想、怪物與廢墟 / Max Ernst: Dreams, Monsters, and the Ruins of Europe",
           "url": "https://www.youtube.com/watch?v=agaVVezxSnw",
@@ -183,10 +174,9 @@
           "published_at": "2026-07-17T10:09:07Z"
         }
       ],
-      "source_count": 19,
+      "source_count": 18,
       "source_names": [
         "Beginning To Now",
-        "Benjamin Cowen",
         "Best Documentary",
         "Blind Dweller",
         "Chu's Vegan",
@@ -323,15 +313,6 @@
           "published_at": "2026-07-16T21:00:05Z"
         },
         {
-          "id": "8e8af9f5ad4c48b499f4c1ff713b331bcbe92417",
-          "title": "比特幣市場週期 / Bitcoin Market Cycles",
-          "url": "https://www.youtube.com/watch?v=XQN1M-sIuGs",
-          "source": "Benjamin Cowen",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-16T19:48:27Z"
-        },
-        {
           "id": "a69d467c6cdfd37f606fe1a429063d55c8c623ea",
           "title": "馬克斯恩斯特：歐洲的夢想、怪物與廢墟 / Max Ernst: Dreams, Monsters, and the Ruins of Europe",
           "url": "https://www.youtube.com/watch?v=agaVVezxSnw",
@@ -377,28 +358,104 @@
           "published_at": "2026-07-17T10:09:07Z"
         }
       ],
-      "item_count": 19,
-      "duplicate_count": 19,
-      "score": 0.7086,
-      "importance": 0.7086,
-      "importance_score": 0.7086,
+      "item_count": 18,
+      "duplicate_count": 18,
+      "score": 0.6942,
+      "importance": 0.6942,
+      "importance_score": 0.6942,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.8619,
+        "recency": 0.8139,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-16T19:48:27Z",
+      "earliest_at": "2026-07-16T21:00:05Z",
       "latest_at": "2026-07-17T16:02:30Z",
       "primary_item": {
         "id": "3058e9a4418922ef8501166476d6d5108875115a",
         "title": "以色列這個字的三個意思 / Three Meanings of the Word Israel",
         "url": "https://www.youtube.com/watch?v=R3vqTkP7C1I",
         "source": "UsefulCharts",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_a12019d8c9ec",
+      "title": "最深的鑽石有多深？ / How Deep Are the DEEPEST Diamonds?",
+      "url": "https://www.youtube.com/shorts/IdXyMUnnJ3k",
+      "primary_url": "https://www.youtube.com/shorts/IdXyMUnnJ3k",
+      "source": "Cleo Abram",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "96bf662f434488fc008c8fb9a8d37d19e5f3a141",
+          "title": "最深的鑽石有多深？ / How Deep Are the DEEPEST Diamonds?",
+          "url": "https://www.youtube.com/shorts/IdXyMUnnJ3k",
+          "source": "Cleo Abram",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-17T15:03:54Z"
+        },
+        {
+          "id": "6d8b1be819963e19ff65a5935bf210b910b55d0a",
+          "title": "他們發現了「超深」鑽石 / They Found “Superdeep” Diamonds",
+          "url": "https://www.youtube.com/shorts/IdXyMUnnJ3k",
+          "source": "Cleo Abram",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-17T15:03:54Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Cleo Abram"
+      ],
+      "items": [
+        {
+          "id": "96bf662f434488fc008c8fb9a8d37d19e5f3a141",
+          "title": "最深的鑽石有多深？ / How Deep Are the DEEPEST Diamonds?",
+          "url": "https://www.youtube.com/shorts/IdXyMUnnJ3k",
+          "source": "Cleo Abram",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-17T15:03:54Z"
+        },
+        {
+          "id": "6d8b1be819963e19ff65a5935bf210b910b55d0a",
+          "title": "他們發現了「超深」鑽石 / They Found “Superdeep” Diamonds",
+          "url": "https://www.youtube.com/shorts/IdXyMUnnJ3k",
+          "source": "Cleo Abram",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-17T15:03:54Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5324,
+      "importance": 0.5324,
+      "importance_score": 0.5324,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.5,
+        "recency": 0.7748,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-17T15:03:54Z",
+      "latest_at": "2026-07-17T15:03:54Z",
+      "primary_item": {
+        "id": "96bf662f434488fc008c8fb9a8d37d19e5f3a141",
+        "title": "最深的鑽石有多深？ / How Deep Are the DEEPEST Diamonds?",
+        "url": "https://www.youtube.com/shorts/IdXyMUnnJ3k",
+        "source": "Cleo Abram",
         "source_name": "OPML RSS"
       }
     },
@@ -455,13 +512,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.396,
-      "importance": 0.396,
-      "importance_score": 0.396,
+      "score": 0.3816,
+      "importance": 0.3816,
+      "importance_score": 0.3816,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.3201,
+        "recency": 0.2721,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -531,13 +588,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3377,
-      "importance": 0.3377,
-      "importance_score": 0.3377,
+      "score": 0.3233,
+      "importance": 0.3233,
+      "importance_score": 0.3233,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.1257,
+        "recency": 0.0776,
         "story_heat": 0.25
       },
       "category": "watch",
