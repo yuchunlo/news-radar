@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-07-17T20:28:12.665131Z",
+  "generated_at": "2026-07-17T21:25:44.096768Z",
   "window_hours": 24,
-  "total_items": 4,
+  "total_items": 5,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "以色列這個字的三個意思 / Three Meanings of the Word Israel",
-      "url": "https://www.youtube.com/watch?v=R3vqTkP7C1I",
-      "primary_url": "https://www.youtube.com/watch?v=R3vqTkP7C1I",
-      "source": "UsefulCharts",
+      "title": "亞歷山大大帝的複雜遺產：12 年內征服已知世界 / The Complex Legacy Of Alexander The Great: Conquering The Known World In 12 Years",
+      "url": "https://www.youtube.com/watch?v=9GOJVBQ1jUs",
+      "primary_url": "https://www.youtube.com/watch?v=9GOJVBQ1jUs",
+      "source": "Timeline - World History Documentaries",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "6e7ecf9d757990520797b502f518f9fa51a4ce3d",
+          "title": "亞歷山大大帝的複雜遺產：12 年內征服已知世界 / The Complex Legacy Of Alexander The Great: Conquering The Known World In 12 Years",
+          "url": "https://www.youtube.com/watch?v=9GOJVBQ1jUs",
+          "source": "Timeline - World History Documentaries",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-17T21:00:31Z"
+        },
         {
           "id": "3058e9a4418922ef8501166476d6d5108875115a",
           "title": "以色列這個字的三個意思 / Three Meanings of the Word Israel",
@@ -111,24 +120,6 @@
           "published_at": "2026-07-16T21:49:36Z"
         },
         {
-          "id": "d92166d138b7b35a9c375b6444f6c6dd49dc10ae",
-          "title": "“畫光是不可能的” / \"It's Impossible to Paint Light\"",
-          "url": "https://www.youtube.com/watch?v=1ZHjvb6c1lk",
-          "source": "Inspiraggio",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-16T21:11:46Z"
-        },
-        {
-          "id": "0eb284297b3aabecc288d9fde0f0f75c3875b350",
-          "title": "法國抵抗運動與武裝黨衛隊：南方之戰 / French Resistance vs Waffen-SS: The Battle For The South",
-          "url": "https://www.youtube.com/watch?v=SXqe6FLKF7M",
-          "source": "Timeline - World History Documentaries",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-16T21:00:05Z"
-        },
-        {
           "id": "a69d467c6cdfd37f606fe1a429063d55c8c623ea",
           "title": "馬克斯恩斯特：歐洲的夢想、怪物與廢墟 / Max Ernst: Dreams, Monsters, and the Ruins of Europe",
           "url": "https://www.youtube.com/watch?v=agaVVezxSnw",
@@ -163,6 +154,15 @@
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
           "published_at": "2026-07-17T08:48:36Z"
+        },
+        {
+          "id": "8d90b9d6b67c5e4d1725f6b89a130cfe8b658410",
+          "title": "卡瓦納的情況變得更糟... / The Carvana Situation Gets Worse...",
+          "url": "https://www.youtube.com/watch?v=gutrFyXxWaU",
+          "source": "Logically Answered",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-17T21:00:18Z"
         },
         {
           "id": "1503e205f8a3acbc17d686bc388cfaa1cc547a00",
@@ -182,7 +182,7 @@
         "Chu's Vegan",
         "DenQ來了",
         "GOATFANS",
-        "Inspiraggio",
+        "Logically Answered",
         "Shepherd Capital Markets",
         "Timeline - World History Documentaries",
         "UsefulCharts",
@@ -195,6 +195,15 @@
         "雜書觀察室"
       ],
       "items": [
+        {
+          "id": "6e7ecf9d757990520797b502f518f9fa51a4ce3d",
+          "title": "亞歷山大大帝的複雜遺產：12 年內征服已知世界 / The Complex Legacy Of Alexander The Great: Conquering The Known World In 12 Years",
+          "url": "https://www.youtube.com/watch?v=9GOJVBQ1jUs",
+          "source": "Timeline - World History Documentaries",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-17T21:00:31Z"
+        },
         {
           "id": "3058e9a4418922ef8501166476d6d5108875115a",
           "title": "以色列這個字的三個意思 / Three Meanings of the Word Israel",
@@ -295,24 +304,6 @@
           "published_at": "2026-07-16T21:49:36Z"
         },
         {
-          "id": "d92166d138b7b35a9c375b6444f6c6dd49dc10ae",
-          "title": "“畫光是不可能的” / \"It's Impossible to Paint Light\"",
-          "url": "https://www.youtube.com/watch?v=1ZHjvb6c1lk",
-          "source": "Inspiraggio",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-16T21:11:46Z"
-        },
-        {
-          "id": "0eb284297b3aabecc288d9fde0f0f75c3875b350",
-          "title": "法國抵抗運動與武裝黨衛隊：南方之戰 / French Resistance vs Waffen-SS: The Battle For The South",
-          "url": "https://www.youtube.com/watch?v=SXqe6FLKF7M",
-          "source": "Timeline - World History Documentaries",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-16T21:00:05Z"
-        },
-        {
           "id": "a69d467c6cdfd37f606fe1a429063d55c8c623ea",
           "title": "馬克斯恩斯特：歐洲的夢想、怪物與廢墟 / Max Ernst: Dreams, Monsters, and the Ruins of Europe",
           "url": "https://www.youtube.com/watch?v=agaVVezxSnw",
@@ -349,6 +340,15 @@
           "published_at": "2026-07-17T08:48:36Z"
         },
         {
+          "id": "8d90b9d6b67c5e4d1725f6b89a130cfe8b658410",
+          "title": "卡瓦納的情況變得更糟... / The Carvana Situation Gets Worse...",
+          "url": "https://www.youtube.com/watch?v=gutrFyXxWaU",
+          "source": "Logically Answered",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-17T21:00:18Z"
+        },
+        {
           "id": "1503e205f8a3acbc17d686bc388cfaa1cc547a00",
           "title": "子瑜可能離開JYP？韓網反應/金秀賢爭議後首復出/被封殺男星公開開嗆劉在錫/網紅機上大炎上/兩男團全員續約成功｜DenQ",
           "url": "https://www.youtube.com/watch?v=AOJ26FhQ30Q",
@@ -360,26 +360,102 @@
       ],
       "item_count": 18,
       "duplicate_count": 18,
-      "score": 0.6942,
-      "importance": 0.6942,
-      "importance_score": 0.6942,
+      "score": 0.7447,
+      "importance": 0.7447,
+      "importance_score": 0.7447,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.8139,
+        "recency": 0.9825,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-16T21:00:05Z",
-      "latest_at": "2026-07-17T16:02:30Z",
+      "earliest_at": "2026-07-16T21:49:36Z",
+      "latest_at": "2026-07-17T21:00:31Z",
       "primary_item": {
-        "id": "3058e9a4418922ef8501166476d6d5108875115a",
-        "title": "以色列這個字的三個意思 / Three Meanings of the Word Israel",
-        "url": "https://www.youtube.com/watch?v=R3vqTkP7C1I",
-        "source": "UsefulCharts",
+        "id": "6e7ecf9d757990520797b502f518f9fa51a4ce3d",
+        "title": "亞歷山大大帝的複雜遺產：12 年內征服已知世界 / The Complex Legacy Of Alexander The Great: Conquering The Known World In 12 Years",
+        "url": "https://www.youtube.com/watch?v=9GOJVBQ1jUs",
+        "source": "Timeline - World History Documentaries",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_789588d2e626",
+      "title": "蘋果以許可成本上漲為由，提高了 Apple Music 的價格，其中個人套餐價格上漲了 1 美元，達到 11.99 美元，部分 Apple One 捆綁套餐的價格也上漲了 (Chance Miller/9to5Mac) / Apple raises the price of Apple Music, with the individual plan up by $1 to $11.99, and some Apple One bundles, citing rising licensing costs (Chance Miller/9to5Mac)",
+      "url": "https://www.techmeme.com/260717/p17",
+      "primary_url": "https://www.techmeme.com/260717/p17",
+      "source": "Techmeme",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "ddbb67166728eb75f46ee789b8d4668a19069d37",
+          "title": "蘋果以許可成本上漲為由，提高了 Apple Music 的價格，其中個人套餐價格上漲了 1 美元，達到 11.99 美元，部分 Apple One 捆綁套餐的價格也上漲了 (Chance Miller/9to5Mac) / Apple raises the price of Apple Music, with the individual plan up by $1 to $11.99, and some Apple One bundles, citing rising licensing costs (Chance Miller/9to5Mac)",
+          "url": "https://www.techmeme.com/260717/p17",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-17T18:35:23Z"
+        },
+        {
+          "id": "6e776b0717d20e3a26f06b78f0a56c35bb4b4fe8",
+          "title": "蘋果提高 Apple Music 的價格，個人套餐上漲 1 美元，達到 11.99 美元，部分 Apple One 捆綁套餐是自 2022 年以來 Apple Music 的首次漲價（Chance Miller/9to5Mac） / Apple raises the price of Apple Music, with the individual plan up by $1 to $11.99, and some Apple One bundles, the first price hike for Apple Music since 2022 (Chance Miller/9to5Mac)",
+          "url": "https://www.techmeme.com/260717/p17",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-17T18:35:23Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Techmeme"
+      ],
+      "items": [
+        {
+          "id": "ddbb67166728eb75f46ee789b8d4668a19069d37",
+          "title": "蘋果以許可成本上漲為由，提高了 Apple Music 的價格，其中個人套餐價格上漲了 1 美元，達到 11.99 美元，部分 Apple One 捆綁套餐的價格也上漲了 (Chance Miller/9to5Mac) / Apple raises the price of Apple Music, with the individual plan up by $1 to $11.99, and some Apple One bundles, citing rising licensing costs (Chance Miller/9to5Mac)",
+          "url": "https://www.techmeme.com/260717/p17",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-17T18:35:23Z"
+        },
+        {
+          "id": "6e776b0717d20e3a26f06b78f0a56c35bb4b4fe8",
+          "title": "蘋果提高 Apple Music 的價格，個人套餐上漲 1 美元，達到 11.99 美元，部分 Apple One 捆綁套餐是自 2022 年以來 Apple Music 的首次漲價（Chance Miller/9to5Mac） / Apple raises the price of Apple Music, with the individual plan up by $1 to $11.99, and some Apple One bundles, the first price hike for Apple Music since 2022 (Chance Miller/9to5Mac)",
+          "url": "https://www.techmeme.com/260717/p17",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-17T18:35:23Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5645,
+      "importance": 0.5645,
+      "importance_score": 0.5645,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.5,
+        "recency": 0.8817,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-17T18:35:23Z",
+      "latest_at": "2026-07-17T18:35:23Z",
+      "primary_item": {
+        "id": "ddbb67166728eb75f46ee789b8d4668a19069d37",
+        "title": "蘋果以許可成本上漲為由，提高了 Apple Music 的價格，其中個人套餐價格上漲了 1 美元，達到 11.99 美元，部分 Apple One 捆綁套餐的價格也上漲了 (Chance Miller/9to5Mac) / Apple raises the price of Apple Music, with the individual plan up by $1 to $11.99, and some Apple One bundles, citing rising licensing costs (Chance Miller/9to5Mac)",
+        "url": "https://www.techmeme.com/260717/p17",
+        "source": "Techmeme",
         "source_name": "OPML RSS"
       }
     },
@@ -436,13 +512,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5324,
-      "importance": 0.5324,
-      "importance_score": 0.5324,
+      "score": 0.5205,
+      "importance": 0.5205,
+      "importance_score": 0.5205,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7748,
+        "recency": 0.7348,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -512,13 +588,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3816,
-      "importance": 0.3816,
-      "importance_score": 0.3816,
+      "score": 0.3696,
+      "importance": 0.3696,
+      "importance_score": 0.3696,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.2721,
+        "recency": 0.2321,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -588,13 +664,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3233,
-      "importance": 0.3233,
-      "importance_score": 0.3233,
+      "score": 0.3113,
+      "importance": 0.3113,
+      "importance_score": 0.3113,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.0776,
+        "recency": 0.0377,
         "story_heat": 0.25
       },
       "category": "watch",
