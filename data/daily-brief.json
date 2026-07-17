@@ -1,16 +1,43 @@
 {
-  "generated_at": "2026-07-17T07:21:47.393546Z",
+  "generated_at": "2026-07-17T09:28:02.193472Z",
   "window_hours": 24,
   "total_items": 7,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "台积电释放了什么信息？你的组合根本没有分散风险？跌麻了跌麻了，该听巴菲特讲课了！糟糕！我的谷歌要崩！奈飞这给的什么东西？！",
-      "url": "https://www.youtube.com/watch?v=KueAYEGSolI",
-      "primary_url": "https://www.youtube.com/watch?v=KueAYEGSolI",
-      "source": "美投侃新闻",
+      "title": "484 与许子东漫谈世界杯：四十年观赛史里的中国、美国与欧洲",
+      "url": "https://www.youtube.com/watch?v=5zOEsQ_Y5i8",
+      "primary_url": "https://www.youtube.com/watch?v=5zOEsQ_Y5i8",
+      "source": "忽左忽右",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "4fe6857e50273353f3c2acc8dc99be739598631e",
+          "title": "484 与许子东漫谈世界杯：四十年观赛史里的中国、美国与欧洲",
+          "url": "https://www.youtube.com/watch?v=5zOEsQ_Y5i8",
+          "source": "忽左忽右",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-17T09:16:14Z"
+        },
+        {
+          "id": "21744b7a4cdd09b5e36b871c88f9196ed73a79ff",
+          "title": "专门飞去荷兰，就为这个办了50年的音乐节？！",
+          "url": "https://www.youtube.com/watch?v=Xa_lUSu0dQ0",
+          "source": "GOATFANS",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-17T09:00:14Z"
+        },
+        {
+          "id": "c3c2e27d8fc5186b245b4ff500c3899cc3f9b072",
+          "title": "為何菲律賓人寧願吃「快樂蜂」，也不要麥當勞？",
+          "url": "https://www.youtube.com/watch?v=z48j2aHyEKA",
+          "source": "阿峇卡巴 東南亞電台",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-17T08:35:51Z"
+        },
         {
           "id": "63b1e89314b9e23f0e48198886342a502055e7d1",
           "title": "台积电释放了什么信息？你的组合根本没有分散风险？跌麻了跌麻了，该听巴菲特讲课了！糟糕！我的谷歌要崩！奈飞这给的什么东西？！",
@@ -129,6 +156,15 @@
           "published_at": "2026-07-16T11:00:06Z"
         },
         {
+          "id": "2058682146987165e09b87ed7ae39f00f69c588d",
+          "title": "世界史| 4K電影（古今紀錄片） / History of The World | 4K Movie (Ancient to Modern Documentary)",
+          "url": "https://www.youtube.com/watch?v=zohg5rx5ptU",
+          "source": "Beginning To Now",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-17T09:00:23Z"
+        },
+        {
           "id": "74a2b25155dc47efe584dda6a48b226b00fd7b1a",
           "title": "但什麼是交叉熵？ |壓縮就是智慧第 2 部分 / But what is cross-entropy? | Compression is Intelligence Part 2",
           "url": "https://www.youtube.com/watch?v=GlYgs6v2YfU",
@@ -174,12 +210,14 @@
           "published_at": "2026-07-16T10:00:14Z"
         }
       ],
-      "source_count": 18,
+      "source_count": 22,
       "source_names": [
         "3Blue1Brown",
+        "Beginning To Now",
         "Benjamin Cowen",
         "Best Documentary",
         "CYFIT兆佑",
+        "GOATFANS",
         "Inspiraggio",
         "Knowledgia",
         "Mosaics of Time",
@@ -190,10 +228,39 @@
         "Waxy.org",
         "【隱形工廠｜戶外教學】",
         "冲浪普拉斯",
+        "忽左忽右",
         "探險威狼 Wilang-Explorer",
-        "美投侃新闻"
+        "美投侃新闻",
+        "阿峇卡巴 東南亞電台"
       ],
       "items": [
+        {
+          "id": "4fe6857e50273353f3c2acc8dc99be739598631e",
+          "title": "484 与许子东漫谈世界杯：四十年观赛史里的中国、美国与欧洲",
+          "url": "https://www.youtube.com/watch?v=5zOEsQ_Y5i8",
+          "source": "忽左忽右",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-17T09:16:14Z"
+        },
+        {
+          "id": "21744b7a4cdd09b5e36b871c88f9196ed73a79ff",
+          "title": "专门飞去荷兰，就为这个办了50年的音乐节？！",
+          "url": "https://www.youtube.com/watch?v=Xa_lUSu0dQ0",
+          "source": "GOATFANS",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-17T09:00:14Z"
+        },
+        {
+          "id": "c3c2e27d8fc5186b245b4ff500c3899cc3f9b072",
+          "title": "為何菲律賓人寧願吃「快樂蜂」，也不要麥當勞？",
+          "url": "https://www.youtube.com/watch?v=z48j2aHyEKA",
+          "source": "阿峇卡巴 東南亞電台",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-17T08:35:51Z"
+        },
         {
           "id": "63b1e89314b9e23f0e48198886342a502055e7d1",
           "title": "台积电释放了什么信息？你的组合根本没有分散风险？跌麻了跌麻了，该听巴菲特讲课了！糟糕！我的谷歌要崩！奈飞这给的什么东西？！",
@@ -312,6 +379,15 @@
           "published_at": "2026-07-16T11:00:06Z"
         },
         {
+          "id": "2058682146987165e09b87ed7ae39f00f69c588d",
+          "title": "世界史| 4K電影（古今紀錄片） / History of The World | 4K Movie (Ancient to Modern Documentary)",
+          "url": "https://www.youtube.com/watch?v=zohg5rx5ptU",
+          "source": "Beginning To Now",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-17T09:00:23Z"
+        },
+        {
           "id": "74a2b25155dc47efe584dda6a48b226b00fd7b1a",
           "title": "但什麼是交叉熵？ |壓縮就是智慧第 2 部分 / But what is cross-entropy? | Compression is Intelligence Part 2",
           "url": "https://www.youtube.com/watch?v=GlYgs6v2YfU",
@@ -357,15 +433,15 @@
           "published_at": "2026-07-16T10:00:14Z"
         }
       ],
-      "item_count": 18,
-      "duplicate_count": 18,
-      "score": 0.6625,
-      "importance": 0.6625,
-      "importance_score": 0.6625,
+      "item_count": 22,
+      "duplicate_count": 22,
+      "score": 0.7475,
+      "importance": 0.7475,
+      "importance_score": 0.7475,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7085,
+        "recency": 0.9918,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -373,12 +449,12 @@
         "multi_source"
       ],
       "earliest_at": "2026-07-16T10:00:14Z",
-      "latest_at": "2026-07-17T00:22:01Z",
+      "latest_at": "2026-07-17T09:16:14Z",
       "primary_item": {
-        "id": "63b1e89314b9e23f0e48198886342a502055e7d1",
-        "title": "台积电释放了什么信息？你的组合根本没有分散风险？跌麻了跌麻了，该听巴菲特讲课了！糟糕！我的谷歌要崩！奈飞这给的什么东西？！",
-        "url": "https://www.youtube.com/watch?v=KueAYEGSolI",
-        "source": "美投侃新闻",
+        "id": "4fe6857e50273353f3c2acc8dc99be739598631e",
+        "title": "484 与许子东漫谈世界杯：四十年观赛史里的中国、美国与欧洲",
+        "url": "https://www.youtube.com/watch?v=5zOEsQ_Y5i8",
+        "source": "忽左忽右",
         "source_name": "OPML RSS"
       }
     },
@@ -435,13 +511,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4871,
-      "importance": 0.4871,
-      "importance_score": 0.4871,
+      "score": 0.4608,
+      "importance": 0.4608,
+      "importance_score": 0.4608,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6238,
+        "recency": 0.5361,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -511,13 +587,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4361,
-      "importance": 0.4361,
-      "importance_score": 0.4361,
+      "score": 0.4098,
+      "importance": 0.4098,
+      "importance_score": 0.4098,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.4536,
+        "recency": 0.366,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -587,13 +663,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4007,
-      "importance": 0.4007,
-      "importance_score": 0.4007,
+      "score": 0.3744,
+      "importance": 0.3744,
+      "importance_score": 0.3744,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.3356,
+        "recency": 0.2479,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -663,13 +739,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3975,
-      "importance": 0.3975,
-      "importance_score": 0.3975,
+      "score": 0.3712,
+      "importance": 0.3712,
+      "importance_score": 0.3712,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.3252,
+        "recency": 0.2375,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -739,13 +815,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3788,
-      "importance": 0.3788,
-      "importance_score": 0.3788,
+      "score": 0.3525,
+      "importance": 0.3525,
+      "importance_score": 0.3525,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.2627,
+        "recency": 0.175,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -815,13 +891,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.2554,
-      "importance": 0.2554,
-      "importance_score": 0.2554,
+      "score": 0.2291,
+      "importance": 0.2291,
+      "importance_score": 0.2291,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.2679,
+        "recency": 0.1802,
         "story_heat": 0.25
       },
       "category": "watch",
