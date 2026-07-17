@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-07-17T09:28:02.193472Z",
+  "generated_at": "2026-07-17T11:07:55.376310Z",
   "window_hours": 24,
   "total_items": 7,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "484 与许子东漫谈世界杯：四十年观赛史里的中国、美国与欧洲",
-      "url": "https://www.youtube.com/watch?v=5zOEsQ_Y5i8",
-      "primary_url": "https://www.youtube.com/watch?v=5zOEsQ_Y5i8",
-      "source": "忽左忽右",
+      "title": "《貿易戰就是階級戰》：中國戶口制度與金融壓抑｜德國黑零政策與哈茨改革真相｜蘋果愛爾蘭神級避稅如何掏空美國實體經濟｜西班牙唐吉訶德機場的熱錢泡沫｜美元霸權的去工業化詛咒｜戰勝宏觀資本局",
+      "url": "https://www.youtube.com/watch?v=8cwZC1iBdkI",
+      "primary_url": "https://www.youtube.com/watch?v=8cwZC1iBdkI",
+      "source": "雜書觀察室",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "f4f38a3dfe51fe07a5fe9512833adade5f7e0771",
+          "title": "《貿易戰就是階級戰》：中國戶口制度與金融壓抑｜德國黑零政策與哈茨改革真相｜蘋果愛爾蘭神級避稅如何掏空美國實體經濟｜西班牙唐吉訶德機場的熱錢泡沫｜美元霸權的去工業化詛咒｜戰勝宏觀資本局",
+          "url": "https://www.youtube.com/watch?v=8cwZC1iBdkI",
+          "source": "雜書觀察室",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-17T10:00:19Z"
+        },
         {
           "id": "4fe6857e50273353f3c2acc8dc99be739598631e",
           "title": "484 与许子东漫谈世界杯：四十年观赛史里的中国、美国与欧洲",
@@ -37,6 +46,15 @@
           "source_name": "OPML RSS",
           "site_id": "culture",
           "published_at": "2026-07-17T08:35:51Z"
+        },
+        {
+          "id": "ccaa54f09cc92511aee1c6472c7824c381be87bb",
+          "title": "便當菜必學🔥凍豆腐炒出金黃酥脆！拌飯拌麵神物，快速晚餐！｜素食 純素 全素｜素食美食｜➤野菜鹿鹿 Veggie Deer",
+          "url": "https://www.youtube.com/watch?v=bWacVFFyigk",
+          "source": "野菜鹿鹿Veggie Deer",
+          "source_name": "OPML RSS",
+          "site_id": "convivium",
+          "published_at": "2026-07-17T08:20:18Z"
         },
         {
           "id": "63b1e89314b9e23f0e48198886342a502055e7d1",
@@ -138,24 +156,6 @@
           "published_at": "2026-07-16T12:00:11Z"
         },
         {
-          "id": "54844ec79f9f50b0aee3c153c2b8d1d190ae05b0",
-          "title": "鑽石市場崩盤 4週長出15克拉的實驗室鑽石 繞地球半圈我們拍到了【超認真少年】CVD Diamond Horage",
-          "url": "https://www.youtube.com/watch?v=wLktVLjM94w",
-          "source": "【隱形工廠｜戶外教學】",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-16T11:00:06Z"
-        },
-        {
-          "id": "6c55f17dd389ad98d9fdc75efa3f16b3b9c43b8e",
-          "title": "鑽石是如何做出來的 用微波爐「種」出來的鑽石 毀掉百年產業？我們拍到現場了【全球獨家】CVD Diamond Horage",
-          "url": "https://www.youtube.com/watch?v=wLktVLjM94w",
-          "source": "【隱形工廠｜戶外教學】",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-16T11:00:06Z"
-        },
-        {
           "id": "2058682146987165e09b87ed7ae39f00f69c588d",
           "title": "世界史| 4K電影（古今紀錄片） / History of The World | 4K Movie (Ancient to Modern Documentary)",
           "url": "https://www.youtube.com/watch?v=zohg5rx5ptU",
@@ -163,6 +163,15 @@
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
           "published_at": "2026-07-17T09:00:23Z"
+        },
+        {
+          "id": "0ac8c9917ecdc0441700d7546fe8c99d3116f383",
+          "title": "AI 免費寫程式的時代，世界為什麼更需要開源？｜Apache 軟體基金會董事 Justin Mclean【塞掐 Side Chat】E415",
+          "url": "https://www.youtube.com/watch?v=qWbAyRrT-Ew",
+          "source": "【塞掐】訪談大人物",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-17T08:48:36Z"
         },
         {
           "id": "74a2b25155dc47efe584dda6a48b226b00fd7b1a",
@@ -174,13 +183,13 @@
           "published_at": "2026-07-16T11:56:04Z"
         },
         {
-          "id": "1a7587bcaaae7d7769aa9f47c016a6ecf13894d6",
-          "title": "【玉穗山】保護布農族『拉荷·阿雷』後續子孫的山，台灣百名山之一｜拉荷·阿雷｜Dahu-ali｜探險威狼 Wilang Explorer ｜荖濃溪｜探勘｜高雄秘境｜登山｜尋根｜桃源區｜Vlog 527",
-          "url": "https://www.youtube.com/watch?v=KRxWArR92ZQ",
-          "source": "探險威狼 Wilang-Explorer",
+          "id": "1503e205f8a3acbc17d686bc388cfaa1cc547a00",
+          "title": "子瑜可能離開JYP？韓網反應/金秀賢爭議後首復出/被封殺男星公開開嗆劉在錫/網紅機上大炎上/兩男團全員續約成功｜DenQ",
+          "url": "https://www.youtube.com/watch?v=AOJ26FhQ30Q",
+          "source": "DenQ來了",
           "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-16T11:00:07Z"
+          "site_id": "trending",
+          "published_at": "2026-07-17T10:09:07Z"
         },
         {
           "id": "00f9f7cb83b34a317c40a4cdec5183afb995be6a",
@@ -199,15 +208,6 @@
           "source_name": "OPML RSS",
           "site_id": "execution",
           "published_at": "2026-07-16T11:42:42Z"
-        },
-        {
-          "id": "f875ec21b238346903d8b7e75e8deaf69ff1f38a",
-          "title": "深蹲前趴、屁股眨眼？3個動作立刻解鎖髖關節活動度！",
-          "url": "https://www.youtube.com/watch?v=X29Jp4x-On8",
-          "source": "CYFIT兆佑",
-          "source_name": "OPML RSS",
-          "site_id": "functionality",
-          "published_at": "2026-07-16T10:00:14Z"
         }
       ],
       "source_count": 22,
@@ -216,7 +216,7 @@
         "Beginning To Now",
         "Benjamin Cowen",
         "Best Documentary",
-        "CYFIT兆佑",
+        "DenQ來了",
         "GOATFANS",
         "Inspiraggio",
         "Knowledgia",
@@ -226,14 +226,24 @@
         "Tim Ferriss",
         "Timeline - World History Documentaries",
         "Waxy.org",
-        "【隱形工廠｜戶外教學】",
+        "【塞掐】訪談大人物",
         "冲浪普拉斯",
         "忽左忽右",
-        "探險威狼 Wilang-Explorer",
         "美投侃新闻",
-        "阿峇卡巴 東南亞電台"
+        "野菜鹿鹿Veggie Deer",
+        "阿峇卡巴 東南亞電台",
+        "雜書觀察室"
       ],
       "items": [
+        {
+          "id": "f4f38a3dfe51fe07a5fe9512833adade5f7e0771",
+          "title": "《貿易戰就是階級戰》：中國戶口制度與金融壓抑｜德國黑零政策與哈茨改革真相｜蘋果愛爾蘭神級避稅如何掏空美國實體經濟｜西班牙唐吉訶德機場的熱錢泡沫｜美元霸權的去工業化詛咒｜戰勝宏觀資本局",
+          "url": "https://www.youtube.com/watch?v=8cwZC1iBdkI",
+          "source": "雜書觀察室",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-17T10:00:19Z"
+        },
         {
           "id": "4fe6857e50273353f3c2acc8dc99be739598631e",
           "title": "484 与许子东漫谈世界杯：四十年观赛史里的中国、美国与欧洲",
@@ -260,6 +270,15 @@
           "source_name": "OPML RSS",
           "site_id": "culture",
           "published_at": "2026-07-17T08:35:51Z"
+        },
+        {
+          "id": "ccaa54f09cc92511aee1c6472c7824c381be87bb",
+          "title": "便當菜必學🔥凍豆腐炒出金黃酥脆！拌飯拌麵神物，快速晚餐！｜素食 純素 全素｜素食美食｜➤野菜鹿鹿 Veggie Deer",
+          "url": "https://www.youtube.com/watch?v=bWacVFFyigk",
+          "source": "野菜鹿鹿Veggie Deer",
+          "source_name": "OPML RSS",
+          "site_id": "convivium",
+          "published_at": "2026-07-17T08:20:18Z"
         },
         {
           "id": "63b1e89314b9e23f0e48198886342a502055e7d1",
@@ -361,24 +380,6 @@
           "published_at": "2026-07-16T12:00:11Z"
         },
         {
-          "id": "54844ec79f9f50b0aee3c153c2b8d1d190ae05b0",
-          "title": "鑽石市場崩盤 4週長出15克拉的實驗室鑽石 繞地球半圈我們拍到了【超認真少年】CVD Diamond Horage",
-          "url": "https://www.youtube.com/watch?v=wLktVLjM94w",
-          "source": "【隱形工廠｜戶外教學】",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-16T11:00:06Z"
-        },
-        {
-          "id": "6c55f17dd389ad98d9fdc75efa3f16b3b9c43b8e",
-          "title": "鑽石是如何做出來的 用微波爐「種」出來的鑽石 毀掉百年產業？我們拍到現場了【全球獨家】CVD Diamond Horage",
-          "url": "https://www.youtube.com/watch?v=wLktVLjM94w",
-          "source": "【隱形工廠｜戶外教學】",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-16T11:00:06Z"
-        },
-        {
           "id": "2058682146987165e09b87ed7ae39f00f69c588d",
           "title": "世界史| 4K電影（古今紀錄片） / History of The World | 4K Movie (Ancient to Modern Documentary)",
           "url": "https://www.youtube.com/watch?v=zohg5rx5ptU",
@@ -386,6 +387,15 @@
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
           "published_at": "2026-07-17T09:00:23Z"
+        },
+        {
+          "id": "0ac8c9917ecdc0441700d7546fe8c99d3116f383",
+          "title": "AI 免費寫程式的時代，世界為什麼更需要開源？｜Apache 軟體基金會董事 Justin Mclean【塞掐 Side Chat】E415",
+          "url": "https://www.youtube.com/watch?v=qWbAyRrT-Ew",
+          "source": "【塞掐】訪談大人物",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-17T08:48:36Z"
         },
         {
           "id": "74a2b25155dc47efe584dda6a48b226b00fd7b1a",
@@ -397,13 +407,13 @@
           "published_at": "2026-07-16T11:56:04Z"
         },
         {
-          "id": "1a7587bcaaae7d7769aa9f47c016a6ecf13894d6",
-          "title": "【玉穗山】保護布農族『拉荷·阿雷』後續子孫的山，台灣百名山之一｜拉荷·阿雷｜Dahu-ali｜探險威狼 Wilang Explorer ｜荖濃溪｜探勘｜高雄秘境｜登山｜尋根｜桃源區｜Vlog 527",
-          "url": "https://www.youtube.com/watch?v=KRxWArR92ZQ",
-          "source": "探險威狼 Wilang-Explorer",
+          "id": "1503e205f8a3acbc17d686bc388cfaa1cc547a00",
+          "title": "子瑜可能離開JYP？韓網反應/金秀賢爭議後首復出/被封殺男星公開開嗆劉在錫/網紅機上大炎上/兩男團全員續約成功｜DenQ",
+          "url": "https://www.youtube.com/watch?v=AOJ26FhQ30Q",
+          "source": "DenQ來了",
           "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-16T11:00:07Z"
+          "site_id": "trending",
+          "published_at": "2026-07-17T10:09:07Z"
         },
         {
           "id": "00f9f7cb83b34a317c40a4cdec5183afb995be6a",
@@ -422,39 +432,30 @@
           "source_name": "OPML RSS",
           "site_id": "execution",
           "published_at": "2026-07-16T11:42:42Z"
-        },
-        {
-          "id": "f875ec21b238346903d8b7e75e8deaf69ff1f38a",
-          "title": "深蹲前趴、屁股眨眼？3個動作立刻解鎖髖關節活動度！",
-          "url": "https://www.youtube.com/watch?v=X29Jp4x-On8",
-          "source": "CYFIT兆佑",
-          "source_name": "OPML RSS",
-          "site_id": "functionality",
-          "published_at": "2026-07-16T10:00:14Z"
         }
       ],
       "item_count": 22,
       "duplicate_count": 22,
-      "score": 0.7475,
-      "importance": 0.7475,
-      "importance_score": 0.7475,
+      "score": 0.7359,
+      "importance": 0.7359,
+      "importance_score": 0.7359,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9918,
+        "recency": 0.9531,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-16T10:00:14Z",
-      "latest_at": "2026-07-17T09:16:14Z",
+      "earliest_at": "2026-07-16T11:42:42Z",
+      "latest_at": "2026-07-17T10:09:07Z",
       "primary_item": {
-        "id": "4fe6857e50273353f3c2acc8dc99be739598631e",
-        "title": "484 与许子东漫谈世界杯：四十年观赛史里的中国、美国与欧洲",
-        "url": "https://www.youtube.com/watch?v=5zOEsQ_Y5i8",
-        "source": "忽左忽右",
+        "id": "f4f38a3dfe51fe07a5fe9512833adade5f7e0771",
+        "title": "《貿易戰就是階級戰》：中國戶口制度與金融壓抑｜德國黑零政策與哈茨改革真相｜蘋果愛爾蘭神級避稅如何掏空美國實體經濟｜西班牙唐吉訶德機場的熱錢泡沫｜美元霸權的去工業化詛咒｜戰勝宏觀資本局",
+        "url": "https://www.youtube.com/watch?v=8cwZC1iBdkI",
+        "source": "雜書觀察室",
         "source_name": "OPML RSS"
       }
     },
@@ -511,13 +512,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4608,
-      "importance": 0.4608,
-      "importance_score": 0.4608,
+      "score": 0.44,
+      "importance": 0.44,
+      "importance_score": 0.44,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.5361,
+        "recency": 0.4667,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -587,13 +588,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4098,
-      "importance": 0.4098,
-      "importance_score": 0.4098,
+      "score": 0.389,
+      "importance": 0.389,
+      "importance_score": 0.389,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.366,
+        "recency": 0.2966,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -663,13 +664,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3744,
-      "importance": 0.3744,
-      "importance_score": 0.3744,
+      "score": 0.3536,
+      "importance": 0.3536,
+      "importance_score": 0.3536,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.2479,
+        "recency": 0.1785,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -739,13 +740,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3712,
-      "importance": 0.3712,
-      "importance_score": 0.3712,
+      "score": 0.3504,
+      "importance": 0.3504,
+      "importance_score": 0.3504,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.2375,
+        "recency": 0.1681,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -815,13 +816,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3525,
-      "importance": 0.3525,
-      "importance_score": 0.3525,
+      "score": 0.3317,
+      "importance": 0.3317,
+      "importance_score": 0.3317,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.175,
+        "recency": 0.1056,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -891,13 +892,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.2291,
-      "importance": 0.2291,
-      "importance_score": 0.2291,
+      "score": 0.2082,
+      "importance": 0.2082,
+      "importance_score": 0.2082,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.1802,
+        "recency": 0.1108,
         "story_heat": 0.25
       },
       "category": "watch",
