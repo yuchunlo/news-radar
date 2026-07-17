@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T22:24:57.027081Z",
+  "generated_at": "2026-07-17T23:27:04.999567Z",
   "window_hours": 24,
   "total_items": 4,
   "items": [
@@ -341,13 +341,13 @@
       ],
       "item_count": 17,
       "duplicate_count": 17,
-      "score": 0.7324,
-      "importance": 0.7324,
-      "importance_score": 0.7324,
+      "score": 0.7195,
+      "importance": 0.7195,
+      "importance_score": 0.7195,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9414,
+        "recency": 0.8982,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -417,13 +417,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5522,
-      "importance": 0.5522,
-      "importance_score": 0.5522,
+      "score": 0.5392,
+      "importance": 0.5392,
+      "importance_score": 0.5392,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.8406,
+        "recency": 0.7974,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -493,13 +493,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5081,
-      "importance": 0.5081,
-      "importance_score": 0.5081,
+      "score": 0.4952,
+      "importance": 0.4952,
+      "importance_score": 0.4952,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6937,
+        "recency": 0.6506,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -569,13 +569,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3573,
-      "importance": 0.3573,
-      "importance_score": 0.3573,
+      "score": 0.3444,
+      "importance": 0.3444,
+      "importance_score": 0.3444,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.191,
+        "recency": 0.1479,
         "story_heat": 0.25
       },
       "category": "watch",
