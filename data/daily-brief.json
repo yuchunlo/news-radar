@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-18T18:29:15.947218Z",
+  "generated_at": "2026-07-18T19:46:32.528822Z",
   "window_hours": 24,
-  "total_items": 5,
+  "total_items": 4,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
@@ -247,13 +247,13 @@
       ],
       "item_count": 12,
       "duplicate_count": 12,
-      "score": 0.7127,
-      "importance": 0.7127,
-      "importance_score": 0.7127,
+      "score": 0.6966,
+      "importance": 0.6966,
+      "importance_score": 0.6966,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.8757,
+        "recency": 0.822,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -323,13 +323,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3939,
-      "importance": 0.3939,
-      "importance_score": 0.3939,
+      "score": 0.3778,
+      "importance": 0.3778,
+      "importance_score": 0.3778,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.313,
+        "recency": 0.2593,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -399,13 +399,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3723,
-      "importance": 0.3723,
-      "importance_score": 0.3723,
+      "score": 0.3562,
+      "importance": 0.3562,
+      "importance_score": 0.3562,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.6575,
+        "recency": 0.6039,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -475,13 +475,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.371,
-      "importance": 0.371,
-      "importance_score": 0.371,
+      "score": 0.3549,
+      "importance": 0.3549,
+      "importance_score": 0.3549,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.2366,
+        "recency": 0.183,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -494,82 +494,6 @@
         "id": "a9a38edd3bc55a3e3947c8c71ce82807171ee5d5",
         "title": "備忘錄：司法部表示聯邦僱員現在可以在政府設備上下載 TikTok，理由是字節跳動已將美國業務的控制權轉移給 TikTok USDS（David Shepardson/路透社） / Memo: the DOJ says federal employees can now download TikTok on government devices, citing ByteDance's transfer of control of US operations to TikTok USDS (David Shepardson/Reuters)",
         "url": "https://www.techmeme.com/260717/p28",
-        "source": "Techmeme",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_789588d2e626",
-      "title": "蘋果以許可成本上漲為由，提高了 Apple Music 的價格，其中個人套餐價格上漲了 1 美元，達到 11.99 美元，部分 Apple One 捆綁套餐的價格也上漲了 (Chance Miller/9to5Mac) / Apple raises the price of Apple Music, with the individual plan up by $1 to $11.99, and some Apple One bundles, citing rising licensing costs (Chance Miller/9to5Mac)",
-      "url": "https://www.techmeme.com/260717/p17",
-      "primary_url": "https://www.techmeme.com/260717/p17",
-      "source": "Techmeme",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "ddbb67166728eb75f46ee789b8d4668a19069d37",
-          "title": "蘋果以許可成本上漲為由，提高了 Apple Music 的價格，其中個人套餐價格上漲了 1 美元，達到 11.99 美元，部分 Apple One 捆綁套餐的價格也上漲了 (Chance Miller/9to5Mac) / Apple raises the price of Apple Music, with the individual plan up by $1 to $11.99, and some Apple One bundles, citing rising licensing costs (Chance Miller/9to5Mac)",
-          "url": "https://www.techmeme.com/260717/p17",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-17T18:35:23Z"
-        },
-        {
-          "id": "6e776b0717d20e3a26f06b78f0a56c35bb4b4fe8",
-          "title": "蘋果提高 Apple Music 的價格，個人套餐上漲 1 美元，達到 11.99 美元，部分 Apple One 捆綁套餐是自 2022 年以來 Apple Music 的首次漲價（Chance Miller/9to5Mac） / Apple raises the price of Apple Music, with the individual plan up by $1 to $11.99, and some Apple One bundles, the first price hike for Apple Music since 2022 (Chance Miller/9to5Mac)",
-          "url": "https://www.techmeme.com/260717/p17",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-17T18:35:23Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Techmeme"
-      ],
-      "items": [
-        {
-          "id": "ddbb67166728eb75f46ee789b8d4668a19069d37",
-          "title": "蘋果以許可成本上漲為由，提高了 Apple Music 的價格，其中個人套餐價格上漲了 1 美元，達到 11.99 美元，部分 Apple One 捆綁套餐的價格也上漲了 (Chance Miller/9to5Mac) / Apple raises the price of Apple Music, with the individual plan up by $1 to $11.99, and some Apple One bundles, citing rising licensing costs (Chance Miller/9to5Mac)",
-          "url": "https://www.techmeme.com/260717/p17",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-17T18:35:23Z"
-        },
-        {
-          "id": "6e776b0717d20e3a26f06b78f0a56c35bb4b4fe8",
-          "title": "蘋果提高 Apple Music 的價格，個人套餐上漲 1 美元，達到 11.99 美元，部分 Apple One 捆綁套餐是自 2022 年以來 Apple Music 的首次漲價（Chance Miller/9to5Mac） / Apple raises the price of Apple Music, with the individual plan up by $1 to $11.99, and some Apple One bundles, the first price hike for Apple Music since 2022 (Chance Miller/9to5Mac)",
-          "url": "https://www.techmeme.com/260717/p17",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-17T18:35:23Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.3013,
-      "importance": 0.3013,
-      "importance_score": 0.3013,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.5,
-        "recency": 0.0042,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-17T18:35:23Z",
-      "latest_at": "2026-07-17T18:35:23Z",
-      "primary_item": {
-        "id": "ddbb67166728eb75f46ee789b8d4668a19069d37",
-        "title": "蘋果以許可成本上漲為由，提高了 Apple Music 的價格，其中個人套餐價格上漲了 1 美元，達到 11.99 美元，部分 Apple One 捆綁套餐的價格也上漲了 (Chance Miller/9to5Mac) / Apple raises the price of Apple Music, with the individual plan up by $1 to $11.99, and some Apple One bundles, citing rising licensing costs (Chance Miller/9to5Mac)",
-        "url": "https://www.techmeme.com/260717/p17",
         "source": "Techmeme",
         "source_name": "OPML RSS"
       }
