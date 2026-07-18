@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T08:24:46.911308Z",
+  "generated_at": "2026-07-18T10:00:10.021093Z",
   "window_hours": 24,
   "total_items": 4,
   "items": [
@@ -102,33 +102,6 @@
           "published_at": "2026-07-17T10:00:19Z"
         },
         {
-          "id": "4fe6857e50273353f3c2acc8dc99be739598631e",
-          "title": "484 与许子东漫谈世界杯：四十年观赛史里的中国、美国与欧洲",
-          "url": "https://www.youtube.com/watch?v=5zOEsQ_Y5i8",
-          "source": "忽左忽右",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-17T09:16:14Z"
-        },
-        {
-          "id": "21744b7a4cdd09b5e36b871c88f9196ed73a79ff",
-          "title": "专门飞去荷兰，就为这个办了50年的音乐节？！",
-          "url": "https://www.youtube.com/watch?v=Xa_lUSu0dQ0",
-          "source": "GOATFANS",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-17T09:00:14Z"
-        },
-        {
-          "id": "c3c2e27d8fc5186b245b4ff500c3899cc3f9b072",
-          "title": "為何菲律賓人寧願吃「快樂蜂」，也不要麥當勞？",
-          "url": "https://www.youtube.com/watch?v=z48j2aHyEKA",
-          "source": "阿峇卡巴 東南亞電台",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-17T08:35:51Z"
-        },
-        {
           "id": "06326684ecd40c35a4b2683cc2faba33f5a90906",
           "title": "花了冤枉錢？10分鐘教你識破「假有機」，這樣挑布料才對！#有機棉 #綠色洗腦 #永續時尚 #敏感肌穿搭 #GOTS認證 #無毒生活 #避坑指南 #成分黨 #嬰幼兒衣物 #環保標章",
           "url": "https://www.youtube.com/watch?v=-KT6YRK_IhE",
@@ -145,33 +118,6 @@
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
           "published_at": "2026-07-17T16:02:30Z"
-        },
-        {
-          "id": "8dc1d2d67731e52b44092e3804895144a185c0a0",
-          "title": "世界歷史| 4K紀錄片（古代到現代）[完整電影] / History of The World | 4K Documentary (Ancient to Modern) [Full Movie]",
-          "url": "https://www.youtube.com/watch?v=zohg5rx5ptU",
-          "source": "Beginning To Now",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-17T09:00:23Z"
-        },
-        {
-          "id": "2058682146987165e09b87ed7ae39f00f69c588d",
-          "title": "世界史| 4K電影（古今紀錄片） / History of The World | 4K Movie (Ancient to Modern Documentary)",
-          "url": "https://www.youtube.com/watch?v=zohg5rx5ptU",
-          "source": "Beginning To Now",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-17T09:00:23Z"
-        },
-        {
-          "id": "0ac8c9917ecdc0441700d7546fe8c99d3116f383",
-          "title": "AI 免費寫程式的時代，世界為什麼更需要開源？｜Apache 軟體基金會董事 Justin Mclean【塞掐 Side Chat】E415",
-          "url": "https://www.youtube.com/watch?v=qWbAyRrT-Ew",
-          "source": "【塞掐】訪談大人物",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-17T08:48:36Z"
         },
         {
           "id": "8d90b9d6b67c5e4d1725f6b89a130cfe8b658410",
@@ -192,26 +138,21 @@
           "published_at": "2026-07-17T10:09:07Z"
         }
       ],
-      "source_count": 20,
+      "source_count": 14,
       "source_names": [
-        "Beginning To Now",
         "Best Documentary",
         "Blind Dweller",
         "Chu's Vegan",
         "DenQ來了",
-        "GOATFANS",
         "Logically Answered",
         "Timeline - World History Documentaries",
         "UsefulCharts",
         "imineo Documentaires",
-        "【塞掐】訪談大人物",
-        "忽左忽右",
         "扛布者",
         "矽谷輕鬆談 Just Kidding Tech",
         "美投侃新闻",
         "郭城安",
         "野菜鹿鹿Veggie Deer",
-        "阿峇卡巴 東南亞電台",
         "雜書觀察室"
       ],
       "items": [
@@ -306,33 +247,6 @@
           "published_at": "2026-07-17T10:00:19Z"
         },
         {
-          "id": "4fe6857e50273353f3c2acc8dc99be739598631e",
-          "title": "484 与许子东漫谈世界杯：四十年观赛史里的中国、美国与欧洲",
-          "url": "https://www.youtube.com/watch?v=5zOEsQ_Y5i8",
-          "source": "忽左忽右",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-17T09:16:14Z"
-        },
-        {
-          "id": "21744b7a4cdd09b5e36b871c88f9196ed73a79ff",
-          "title": "专门飞去荷兰，就为这个办了50年的音乐节？！",
-          "url": "https://www.youtube.com/watch?v=Xa_lUSu0dQ0",
-          "source": "GOATFANS",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-17T09:00:14Z"
-        },
-        {
-          "id": "c3c2e27d8fc5186b245b4ff500c3899cc3f9b072",
-          "title": "為何菲律賓人寧願吃「快樂蜂」，也不要麥當勞？",
-          "url": "https://www.youtube.com/watch?v=z48j2aHyEKA",
-          "source": "阿峇卡巴 東南亞電台",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-17T08:35:51Z"
-        },
-        {
           "id": "06326684ecd40c35a4b2683cc2faba33f5a90906",
           "title": "花了冤枉錢？10分鐘教你識破「假有機」，這樣挑布料才對！#有機棉 #綠色洗腦 #永續時尚 #敏感肌穿搭 #GOTS認證 #無毒生活 #避坑指南 #成分黨 #嬰幼兒衣物 #環保標章",
           "url": "https://www.youtube.com/watch?v=-KT6YRK_IhE",
@@ -349,33 +263,6 @@
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
           "published_at": "2026-07-17T16:02:30Z"
-        },
-        {
-          "id": "8dc1d2d67731e52b44092e3804895144a185c0a0",
-          "title": "世界歷史| 4K紀錄片（古代到現代）[完整電影] / History of The World | 4K Documentary (Ancient to Modern) [Full Movie]",
-          "url": "https://www.youtube.com/watch?v=zohg5rx5ptU",
-          "source": "Beginning To Now",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-17T09:00:23Z"
-        },
-        {
-          "id": "2058682146987165e09b87ed7ae39f00f69c588d",
-          "title": "世界史| 4K電影（古今紀錄片） / History of The World | 4K Movie (Ancient to Modern Documentary)",
-          "url": "https://www.youtube.com/watch?v=zohg5rx5ptU",
-          "source": "Beginning To Now",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-17T09:00:23Z"
-        },
-        {
-          "id": "0ac8c9917ecdc0441700d7546fe8c99d3116f383",
-          "title": "AI 免費寫程式的時代，世界為什麼更需要開源？｜Apache 軟體基金會董事 Justin Mclean【塞掐 Side Chat】E415",
-          "url": "https://www.youtube.com/watch?v=qWbAyRrT-Ew",
-          "source": "【塞掐】訪談大人物",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-17T08:48:36Z"
         },
         {
           "id": "8d90b9d6b67c5e4d1725f6b89a130cfe8b658410",
@@ -396,22 +283,22 @@
           "published_at": "2026-07-17T10:09:07Z"
         }
       ],
-      "item_count": 20,
-      "duplicate_count": 20,
-      "score": 0.7353,
-      "importance": 0.7353,
-      "importance_score": 0.7353,
+      "item_count": 14,
+      "duplicate_count": 14,
+      "score": 0.7154,
+      "importance": 0.7154,
+      "importance_score": 0.7154,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.951,
+        "recency": 0.8847,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-17T08:35:51Z",
+      "earliest_at": "2026-07-17T10:00:19Z",
       "latest_at": "2026-07-18T07:14:11Z",
       "primary_item": {
         "id": "c4757f1d702d5c7dc0bb972e3af830d674c7b022",
@@ -474,13 +361,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4969,
-      "importance": 0.4969,
-      "importance_score": 0.4969,
+      "score": 0.4771,
+      "importance": 0.4771,
+      "importance_score": 0.4771,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6564,
+        "recency": 0.5902,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -550,13 +437,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4272,
-      "importance": 0.4272,
-      "importance_score": 0.4272,
+      "score": 0.4073,
+      "importance": 0.4073,
+      "importance_score": 0.4073,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.424,
+        "recency": 0.3578,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -626,13 +513,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3831,
-      "importance": 0.3831,
-      "importance_score": 0.3831,
+      "score": 0.3633,
+      "importance": 0.3633,
+      "importance_score": 0.3633,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.2772,
+        "recency": 0.2109,
         "story_heat": 0.25
       },
       "category": "watch",
