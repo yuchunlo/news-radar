@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T10:00:10.021093Z",
+  "generated_at": "2026-07-18T11:15:05.656873Z",
   "window_hours": 24,
   "total_items": 4,
   "items": [
@@ -93,15 +93,6 @@
           "published_at": "2026-07-17T11:30:26Z"
         },
         {
-          "id": "f4f38a3dfe51fe07a5fe9512833adade5f7e0771",
-          "title": "《貿易戰就是階級戰》：中國戶口制度與金融壓抑｜德國黑零政策與哈茨改革真相｜蘋果愛爾蘭神級避稅如何掏空美國實體經濟｜西班牙唐吉訶德機場的熱錢泡沫｜美元霸權的去工業化詛咒｜戰勝宏觀資本局",
-          "url": "https://www.youtube.com/watch?v=8cwZC1iBdkI",
-          "source": "雜書觀察室",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-17T10:00:19Z"
-        },
-        {
           "id": "06326684ecd40c35a4b2683cc2faba33f5a90906",
           "title": "花了冤枉錢？10分鐘教你識破「假有機」，這樣挑布料才對！#有機棉 #綠色洗腦 #永續時尚 #敏感肌穿搭 #GOTS認證 #無毒生活 #避坑指南 #成分黨 #嬰幼兒衣物 #環保標章",
           "url": "https://www.youtube.com/watch?v=-KT6YRK_IhE",
@@ -127,23 +118,13 @@
           "source_name": "OPML RSS",
           "site_id": "trending",
           "published_at": "2026-07-17T21:00:18Z"
-        },
-        {
-          "id": "1503e205f8a3acbc17d686bc388cfaa1cc547a00",
-          "title": "子瑜可能離開JYP？韓網反應/金秀賢爭議後首復出/被封殺男星公開開嗆劉在錫/網紅機上大炎上/兩男團全員續約成功｜DenQ",
-          "url": "https://www.youtube.com/watch?v=AOJ26FhQ30Q",
-          "source": "DenQ來了",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-17T10:09:07Z"
         }
       ],
-      "source_count": 14,
+      "source_count": 12,
       "source_names": [
         "Best Documentary",
         "Blind Dweller",
         "Chu's Vegan",
-        "DenQ來了",
         "Logically Answered",
         "Timeline - World History Documentaries",
         "UsefulCharts",
@@ -152,8 +133,7 @@
         "矽谷輕鬆談 Just Kidding Tech",
         "美投侃新闻",
         "郭城安",
-        "野菜鹿鹿Veggie Deer",
-        "雜書觀察室"
+        "野菜鹿鹿Veggie Deer"
       ],
       "items": [
         {
@@ -238,15 +218,6 @@
           "published_at": "2026-07-17T11:30:26Z"
         },
         {
-          "id": "f4f38a3dfe51fe07a5fe9512833adade5f7e0771",
-          "title": "《貿易戰就是階級戰》：中國戶口制度與金融壓抑｜德國黑零政策與哈茨改革真相｜蘋果愛爾蘭神級避稅如何掏空美國實體經濟｜西班牙唐吉訶德機場的熱錢泡沫｜美元霸權的去工業化詛咒｜戰勝宏觀資本局",
-          "url": "https://www.youtube.com/watch?v=8cwZC1iBdkI",
-          "source": "雜書觀察室",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-17T10:00:19Z"
-        },
-        {
           "id": "06326684ecd40c35a4b2683cc2faba33f5a90906",
           "title": "花了冤枉錢？10分鐘教你識破「假有機」，這樣挑布料才對！#有機棉 #綠色洗腦 #永續時尚 #敏感肌穿搭 #GOTS認證 #無毒生活 #避坑指南 #成分黨 #嬰幼兒衣物 #環保標章",
           "url": "https://www.youtube.com/watch?v=-KT6YRK_IhE",
@@ -272,33 +243,24 @@
           "source_name": "OPML RSS",
           "site_id": "trending",
           "published_at": "2026-07-17T21:00:18Z"
-        },
-        {
-          "id": "1503e205f8a3acbc17d686bc388cfaa1cc547a00",
-          "title": "子瑜可能離開JYP？韓網反應/金秀賢爭議後首復出/被封殺男星公開開嗆劉在錫/網紅機上大炎上/兩男團全員續約成功｜DenQ",
-          "url": "https://www.youtube.com/watch?v=AOJ26FhQ30Q",
-          "source": "DenQ來了",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-17T10:09:07Z"
         }
       ],
-      "item_count": 14,
-      "duplicate_count": 14,
-      "score": 0.7154,
-      "importance": 0.7154,
-      "importance_score": 0.7154,
+      "item_count": 12,
+      "duplicate_count": 12,
+      "score": 0.6998,
+      "importance": 0.6998,
+      "importance_score": 0.6998,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.8847,
+        "recency": 0.8327,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-17T10:00:19Z",
+      "earliest_at": "2026-07-17T11:30:26Z",
       "latest_at": "2026-07-18T07:14:11Z",
       "primary_item": {
         "id": "c4757f1d702d5c7dc0bb972e3af830d674c7b022",
@@ -361,13 +323,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4771,
-      "importance": 0.4771,
-      "importance_score": 0.4771,
+      "score": 0.4614,
+      "importance": 0.4614,
+      "importance_score": 0.4614,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.5902,
+        "recency": 0.5382,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -437,13 +399,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4073,
-      "importance": 0.4073,
-      "importance_score": 0.4073,
+      "score": 0.3917,
+      "importance": 0.3917,
+      "importance_score": 0.3917,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.3578,
+        "recency": 0.3058,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -513,13 +475,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3633,
-      "importance": 0.3633,
-      "importance_score": 0.3633,
+      "score": 0.3477,
+      "importance": 0.3477,
+      "importance_score": 0.3477,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.2109,
+        "recency": 0.1589,
         "story_heat": 0.25
       },
       "category": "watch",
