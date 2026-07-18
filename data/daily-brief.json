@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-07-17T23:27:04.999567Z",
+  "generated_at": "2026-07-18T00:59:42.138589Z",
   "window_hours": 24,
   "total_items": 4,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "亞歷山大大帝的複雜遺產：12 年內征服已知世界 / The Complex Legacy Of Alexander The Great: Conquering The Known World In 12 Years",
-      "url": "https://www.youtube.com/watch?v=9GOJVBQ1jUs",
-      "primary_url": "https://www.youtube.com/watch?v=9GOJVBQ1jUs",
-      "source": "Timeline - World History Documentaries",
+      "title": "美股AI逻辑出问题！韩国双雄要让利了？SpaceX机会出现！川普在下一盘大棋？",
+      "url": "https://www.youtube.com/watch?v=pvq2_MY8VFY",
+      "primary_url": "https://www.youtube.com/watch?v=pvq2_MY8VFY",
+      "source": "美投侃新闻",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "a4ffe1b871f77cdb7d0a0089824ae7bf6ab64ed4",
+          "title": "美股AI逻辑出问题！韩国双雄要让利了？SpaceX机会出现！川普在下一盘大棋？",
+          "url": "https://www.youtube.com/watch?v=pvq2_MY8VFY",
+          "source": "美投侃新闻",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-18T00:33:32Z"
+        },
         {
           "id": "6e7ecf9d757990520797b502f518f9fa51a4ce3d",
           "title": "亞歷山大大帝的複雜遺產：12 年內征服已知世界 / The Complex Legacy Of Alexander The Great: Conquering The Known World In 12 Years",
@@ -100,15 +109,6 @@
           "source_name": "OPML RSS",
           "site_id": "convivium",
           "published_at": "2026-07-17T08:20:18Z"
-        },
-        {
-          "id": "63b1e89314b9e23f0e48198886342a502055e7d1",
-          "title": "台积电释放了什么信息？你的组合根本没有分散风险？跌麻了跌麻了，该听巴菲特讲课了！糟糕！我的谷歌要崩！奈飞这给的什么东西？！",
-          "url": "https://www.youtube.com/watch?v=KueAYEGSolI",
-          "source": "美投侃新闻",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-17T00:22:01Z"
         },
         {
           "id": "a69d467c6cdfd37f606fe1a429063d55c8c623ea",
@@ -186,6 +186,15 @@
       ],
       "items": [
         {
+          "id": "a4ffe1b871f77cdb7d0a0089824ae7bf6ab64ed4",
+          "title": "美股AI逻辑出问题！韩国双雄要让利了？SpaceX机会出现！川普在下一盘大棋？",
+          "url": "https://www.youtube.com/watch?v=pvq2_MY8VFY",
+          "source": "美投侃新闻",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-18T00:33:32Z"
+        },
+        {
           "id": "6e7ecf9d757990520797b502f518f9fa51a4ce3d",
           "title": "亞歷山大大帝的複雜遺產：12 年內征服已知世界 / The Complex Legacy Of Alexander The Great: Conquering The Known World In 12 Years",
           "url": "https://www.youtube.com/watch?v=9GOJVBQ1jUs",
@@ -276,15 +285,6 @@
           "published_at": "2026-07-17T08:20:18Z"
         },
         {
-          "id": "63b1e89314b9e23f0e48198886342a502055e7d1",
-          "title": "台积电释放了什么信息？你的组合根本没有分散风险？跌麻了跌麻了，该听巴菲特讲课了！糟糕！我的谷歌要崩！奈飞这给的什么东西？！",
-          "url": "https://www.youtube.com/watch?v=KueAYEGSolI",
-          "source": "美投侃新闻",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-17T00:22:01Z"
-        },
-        {
           "id": "a69d467c6cdfd37f606fe1a429063d55c8c623ea",
           "title": "馬克斯恩斯特：歐洲的夢想、怪物與廢墟 / Max Ernst: Dreams, Monsters, and the Ruins of Europe",
           "url": "https://www.youtube.com/watch?v=agaVVezxSnw",
@@ -341,26 +341,26 @@
       ],
       "item_count": 17,
       "duplicate_count": 17,
-      "score": 0.7195,
-      "importance": 0.7195,
-      "importance_score": 0.7195,
+      "score": 0.7445,
+      "importance": 0.7445,
+      "importance_score": 0.7445,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.8982,
+        "recency": 0.9818,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-17T00:22:01Z",
-      "latest_at": "2026-07-17T21:00:31Z",
+      "earliest_at": "2026-07-17T08:20:18Z",
+      "latest_at": "2026-07-18T00:33:32Z",
       "primary_item": {
-        "id": "6e7ecf9d757990520797b502f518f9fa51a4ce3d",
-        "title": "亞歷山大大帝的複雜遺產：12 年內征服已知世界 / The Complex Legacy Of Alexander The Great: Conquering The Known World In 12 Years",
-        "url": "https://www.youtube.com/watch?v=9GOJVBQ1jUs",
-        "source": "Timeline - World History Documentaries",
+        "id": "a4ffe1b871f77cdb7d0a0089824ae7bf6ab64ed4",
+        "title": "美股AI逻辑出问题！韩国双雄要让利了？SpaceX机会出现！川普在下一盘大棋？",
+        "url": "https://www.youtube.com/watch?v=pvq2_MY8VFY",
+        "source": "美投侃新闻",
         "source_name": "OPML RSS"
       }
     },
@@ -417,13 +417,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5392,
-      "importance": 0.5392,
-      "importance_score": 0.5392,
+      "score": 0.5199,
+      "importance": 0.5199,
+      "importance_score": 0.5199,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7974,
+        "recency": 0.7331,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -493,13 +493,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4952,
-      "importance": 0.4952,
-      "importance_score": 0.4952,
+      "score": 0.4759,
+      "importance": 0.4759,
+      "importance_score": 0.4759,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6506,
+        "recency": 0.5862,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -569,13 +569,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3444,
-      "importance": 0.3444,
-      "importance_score": 0.3444,
+      "score": 0.3251,
+      "importance": 0.3251,
+      "importance_score": 0.3251,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.1479,
+        "recency": 0.0836,
         "story_heat": 0.25
       },
       "category": "watch",
