@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-18T04:09:24.030986Z",
+  "generated_at": "2026-07-18T06:29:14.221559Z",
   "window_hours": 24,
-  "total_items": 3,
+  "total_items": 4,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
@@ -379,13 +379,13 @@
       ],
       "item_count": 19,
       "duplicate_count": 19,
-      "score": 0.7481,
-      "importance": 0.7481,
-      "importance_score": 0.7481,
+      "score": 0.719,
+      "importance": 0.719,
+      "importance_score": 0.719,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9937,
+        "recency": 0.8965,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -399,6 +399,82 @@
         "title": "港风随拍｜Nikon ZR Hong Kong Street Photograph",
         "url": "https://www.youtube.com/watch?v=USHSnvdWFHA",
         "source": "郭城安",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_2ff697173413",
+      "title": "備忘錄：司法部表示聯邦僱員現在可以在政府設備上下載 TikTok，理由是字節跳動已將美國業務的控制權轉移給 TikTok USDS（David Shepardson/路透社） / Memo: the DOJ says federal employees can now download TikTok on government devices, citing ByteDance's transfer of control of US operations to TikTok USDS (David Shepardson/Reuters)",
+      "url": "https://www.techmeme.com/260717/p28",
+      "primary_url": "https://www.techmeme.com/260717/p28",
+      "source": "Techmeme",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "a9a38edd3bc55a3e3947c8c71ce82807171ee5d5",
+          "title": "備忘錄：司法部表示聯邦僱員現在可以在政府設備上下載 TikTok，理由是字節跳動已將美國業務的控制權轉移給 TikTok USDS（David Shepardson/路透社） / Memo: the DOJ says federal employees can now download TikTok on government devices, citing ByteDance's transfer of control of US operations to TikTok USDS (David Shepardson/Reuters)",
+          "url": "https://www.techmeme.com/260717/p28",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-18T00:10:02Z"
+        },
+        {
+          "id": "019f817526589faa9116af429cc620d953e48b98",
+          "title": "備忘錄：司法部表示聯邦僱員現在可以在政府設備上下載 TikTok，理由是 TikTok US 已移交控制權，解除了 2022 年國會禁令（David Shepardson/路透社） / Memo: the DOJ says federal employees can now download TikTok on government devices, citing TikTok US' transfer of control, lifting a 2022 congressional ban (David Shepardson/Reuters)",
+          "url": "https://www.techmeme.com/260717/p28",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-18T00:10:02Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Techmeme"
+      ],
+      "items": [
+        {
+          "id": "a9a38edd3bc55a3e3947c8c71ce82807171ee5d5",
+          "title": "備忘錄：司法部表示聯邦僱員現在可以在政府設備上下載 TikTok，理由是字節跳動已將美國業務的控制權轉移給 TikTok USDS（David Shepardson/路透社） / Memo: the DOJ says federal employees can now download TikTok on government devices, citing ByteDance's transfer of control of US operations to TikTok USDS (David Shepardson/Reuters)",
+          "url": "https://www.techmeme.com/260717/p28",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-18T00:10:02Z"
+        },
+        {
+          "id": "019f817526589faa9116af429cc620d953e48b98",
+          "title": "備忘錄：司法部表示聯邦僱員現在可以在政府設備上下載 TikTok，理由是 TikTok US 已移交控制權，解除了 2022 年國會禁令（David Shepardson/路透社） / Memo: the DOJ says federal employees can now download TikTok on government devices, citing TikTok US' transfer of control, lifting a 2022 congressional ban (David Shepardson/Reuters)",
+          "url": "https://www.techmeme.com/260717/p28",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-18T00:10:02Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.521,
+      "importance": 0.521,
+      "importance_score": 0.521,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.5,
+        "recency": 0.7367,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-18T00:10:02Z",
+      "latest_at": "2026-07-18T00:10:02Z",
+      "primary_item": {
+        "id": "a9a38edd3bc55a3e3947c8c71ce82807171ee5d5",
+        "title": "備忘錄：司法部表示聯邦僱員現在可以在政府設備上下載 TikTok，理由是字節跳動已將美國業務的控制權轉移給 TikTok USDS（David Shepardson/路透社） / Memo: the DOJ says federal employees can now download TikTok on government devices, citing ByteDance's transfer of control of US operations to TikTok USDS (David Shepardson/Reuters)",
+        "url": "https://www.techmeme.com/260717/p28",
+        "source": "Techmeme",
         "source_name": "OPML RSS"
       }
     },
@@ -455,13 +531,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4804,
-      "importance": 0.4804,
-      "importance_score": 0.4804,
+      "score": 0.4513,
+      "importance": 0.4513,
+      "importance_score": 0.4513,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6014,
+        "recency": 0.5043,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -531,13 +607,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4364,
-      "importance": 0.4364,
-      "importance_score": 0.4364,
+      "score": 0.4072,
+      "importance": 0.4072,
+      "importance_score": 0.4072,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.4545,
+        "recency": 0.3574,
         "story_heat": 0.25
       },
       "category": "watch",
