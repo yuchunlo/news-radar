@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-07-18T20:57:10.700327Z",
+  "generated_at": "2026-07-18T21:58:13.696999Z",
   "window_hours": 24,
   "total_items": 4,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "越南：面對季風的憤怒 / Vietnam : Face à la colère de la Mousson",
-      "url": "https://www.youtube.com/watch?v=A9j7M3WRD7g",
-      "primary_url": "https://www.youtube.com/watch?v=A9j7M3WRD7g",
-      "source": "imineo Documentaires",
+      "title": "為什麼中美洲最強大的帝國突然消失了？ / Why Did Mesoamerica's Most Powerful Empires Suddenly Vanish?",
+      "url": "https://www.youtube.com/watch?v=SUmldS2xFe4",
+      "primary_url": "https://www.youtube.com/watch?v=SUmldS2xFe4",
+      "source": "Timeline - World History Documentaries",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "aa82971b752296366e5e610948e931370fe1707c",
+          "title": "為什麼中美洲最強大的帝國突然消失了？ / Why Did Mesoamerica's Most Powerful Empires Suddenly Vanish?",
+          "url": "https://www.youtube.com/watch?v=SUmldS2xFe4",
+          "source": "Timeline - World History Documentaries",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-18T21:00:13Z"
+        },
         {
           "id": "4066706801d03d90a66a79c2ba9163a9eccaafc7",
           "title": "越南：面對季風的憤怒 / Vietnam : Face à la colère de la Mousson",
@@ -75,15 +84,6 @@
           "published_at": "2026-07-18T00:33:32Z"
         },
         {
-          "id": "6e7ecf9d757990520797b502f518f9fa51a4ce3d",
-          "title": "亞歷山大大帝的複雜遺產：12 年內征服已知世界 / The Complex Legacy Of Alexander The Great: Conquering The Known World In 12 Years",
-          "url": "https://www.youtube.com/watch?v=9GOJVBQ1jUs",
-          "source": "Timeline - World History Documentaries",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-17T21:00:31Z"
-        },
-        {
           "id": "5b54de1db686508b1338b5bbad078280cb42e498",
           "title": "在美國最安全的州最危險的城市裡 / Inside the Most Dangerous City in America's Safest State",
           "url": "https://www.youtube.com/watch?v=Br1kyf70NQQ",
@@ -109,21 +109,11 @@
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
           "published_at": "2026-07-18T02:00:20Z"
-        },
-        {
-          "id": "8d90b9d6b67c5e4d1725f6b89a130cfe8b658410",
-          "title": "卡瓦納的情況變得更糟... / The Carvana Situation Gets Worse...",
-          "url": "https://www.youtube.com/watch?v=gutrFyXxWaU",
-          "source": "Logically Answered",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-17T21:00:18Z"
         }
       ],
-      "source_count": 12,
+      "source_count": 11,
       "source_names": [
         "Best Documentary",
-        "Logically Answered",
         "Peter Santenello",
         "Tim Ferriss",
         "Timeline - World History Documentaries",
@@ -137,6 +127,15 @@
       ],
       "items": [
         {
+          "id": "aa82971b752296366e5e610948e931370fe1707c",
+          "title": "為什麼中美洲最強大的帝國突然消失了？ / Why Did Mesoamerica's Most Powerful Empires Suddenly Vanish?",
+          "url": "https://www.youtube.com/watch?v=SUmldS2xFe4",
+          "source": "Timeline - World History Documentaries",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-18T21:00:13Z"
+        },
+        {
           "id": "4066706801d03d90a66a79c2ba9163a9eccaafc7",
           "title": "越南：面對季風的憤怒 / Vietnam : Face à la colère de la Mousson",
           "url": "https://www.youtube.com/watch?v=A9j7M3WRD7g",
@@ -200,15 +199,6 @@
           "published_at": "2026-07-18T00:33:32Z"
         },
         {
-          "id": "6e7ecf9d757990520797b502f518f9fa51a4ce3d",
-          "title": "亞歷山大大帝的複雜遺產：12 年內征服已知世界 / The Complex Legacy Of Alexander The Great: Conquering The Known World In 12 Years",
-          "url": "https://www.youtube.com/watch?v=9GOJVBQ1jUs",
-          "source": "Timeline - World History Documentaries",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-17T21:00:31Z"
-        },
-        {
           "id": "5b54de1db686508b1338b5bbad078280cb42e498",
           "title": "在美國最安全的州最危險的城市裡 / Inside the Most Dangerous City in America's Safest State",
           "url": "https://www.youtube.com/watch?v=Br1kyf70NQQ",
@@ -234,39 +224,30 @@
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
           "published_at": "2026-07-18T02:00:20Z"
-        },
-        {
-          "id": "8d90b9d6b67c5e4d1725f6b89a130cfe8b658410",
-          "title": "卡瓦納的情況變得更糟... / The Carvana Situation Gets Worse...",
-          "url": "https://www.youtube.com/watch?v=gutrFyXxWaU",
-          "source": "Logically Answered",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-17T21:00:18Z"
         }
       ],
-      "item_count": 12,
-      "duplicate_count": 12,
-      "score": 0.6819,
-      "importance": 0.6819,
-      "importance_score": 0.6819,
+      "item_count": 11,
+      "duplicate_count": 11,
+      "score": 0.7379,
+      "importance": 0.7379,
+      "importance_score": 0.7379,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.773,
+        "recency": 0.9597,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-17T21:00:18Z",
-      "latest_at": "2026-07-18T15:30:15Z",
+      "earliest_at": "2026-07-18T00:33:32Z",
+      "latest_at": "2026-07-18T21:00:13Z",
       "primary_item": {
-        "id": "4066706801d03d90a66a79c2ba9163a9eccaafc7",
-        "title": "越南：面對季風的憤怒 / Vietnam : Face à la colère de la Mousson",
-        "url": "https://www.youtube.com/watch?v=A9j7M3WRD7g",
-        "source": "imineo Documentaires",
+        "id": "aa82971b752296366e5e610948e931370fe1707c",
+        "title": "為什麼中美洲最強大的帝國突然消失了？ / Why Did Mesoamerica's Most Powerful Empires Suddenly Vanish?",
+        "url": "https://www.youtube.com/watch?v=SUmldS2xFe4",
+        "source": "Timeline - World History Documentaries",
         "source_name": "OPML RSS"
       }
     },
@@ -323,13 +304,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3631,
-      "importance": 0.3631,
-      "importance_score": 0.3631,
+      "score": 0.3504,
+      "importance": 0.3504,
+      "importance_score": 0.3504,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.2103,
+        "recency": 0.1679,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -399,13 +380,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3414,
-      "importance": 0.3414,
-      "importance_score": 0.3414,
+      "score": 0.3287,
+      "importance": 0.3287,
+      "importance_score": 0.3287,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.5548,
+        "recency": 0.5124,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -475,13 +456,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3402,
-      "importance": 0.3402,
-      "importance_score": 0.3402,
+      "score": 0.3275,
+      "importance": 0.3275,
+      "importance_score": 0.3275,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.1339,
+        "recency": 0.0915,
         "story_heat": 0.25
       },
       "category": "watch",
