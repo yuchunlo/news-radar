@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-07-18T12:28:52.229819Z",
+  "generated_at": "2026-07-18T14:01:50.921371Z",
   "window_hours": 24,
-  "total_items": 4,
+  "total_items": 5,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "伊波拉：一種失控的病毒？ / Ebola: a Virus Out of Control?",
-      "url": "https://www.youtube.com/watch?v=ItN8wcpMmGU",
-      "primary_url": "https://www.youtube.com/watch?v=ItN8wcpMmGU",
-      "source": "Best Documentary",
+      "title": "【奧德賽】18分鐘世界觀拆解: 特洛伊戰爭十年大戰全記錄｜不含劇透｜特洛伊戰爭打足十年，原來因為一頂綠帽?｜木馬屠城記係神話定考古？ #不正常人類",
+      "url": "https://www.youtube.com/watch?v=dG0xT3SYUCI",
+      "primary_url": "https://www.youtube.com/watch?v=dG0xT3SYUCI",
+      "source": "mingjai14",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "8ba223dd4afc26d0910bdae579c004c41f8e0ffc",
+          "title": "【奧德賽】18分鐘世界觀拆解: 特洛伊戰爭十年大戰全記錄｜不含劇透｜特洛伊戰爭打足十年，原來因為一頂綠帽?｜木馬屠城記係神話定考古？ #不正常人類",
+          "url": "https://www.youtube.com/watch?v=dG0xT3SYUCI",
+          "source": "mingjai14",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-18T13:07:50Z"
+        },
         {
           "id": "0b99b96416f0dcb55a4809747fe4a44a0e2e18f7",
           "title": "伊波拉：一種失控的病毒？ / Ebola: a Virus Out of Control?",
@@ -73,15 +82,6 @@
           "source_name": "OPML RSS",
           "site_id": "culture",
           "published_at": "2026-07-17T14:45:01Z"
-        },
-        {
-          "id": "69a9e0d2968f74717976679644067ee820ce0429",
-          "title": "便當菜必學🔥凍豆腐炒出金黃酥脆！拌飯拌麵神物，快速晚餐！颱風天抗漲料理｜素食 純素 全素｜素食美食｜➤野菜鹿鹿 Veggie Deer",
-          "url": "https://www.youtube.com/watch?v=bWacVFFyigk",
-          "source": "野菜鹿鹿Veggie Deer",
-          "source_name": "OPML RSS",
-          "site_id": "convivium",
-          "published_at": "2026-07-17T13:00:06Z"
         },
         {
           "id": "fa90dafacfee67b5e17c5696d707ca97be4ce510",
@@ -128,14 +128,23 @@
         "Timeline - World History Documentaries",
         "UsefulCharts",
         "imineo Documentaires",
+        "mingjai14",
         "扛布者",
         "矽谷輕鬆談 Just Kidding Tech",
         "美投侃新闻",
         "郭城安",
-        "郭里有范",
-        "野菜鹿鹿Veggie Deer"
+        "郭里有范"
       ],
       "items": [
+        {
+          "id": "8ba223dd4afc26d0910bdae579c004c41f8e0ffc",
+          "title": "【奧德賽】18分鐘世界觀拆解: 特洛伊戰爭十年大戰全記錄｜不含劇透｜特洛伊戰爭打足十年，原來因為一頂綠帽?｜木馬屠城記係神話定考古？ #不正常人類",
+          "url": "https://www.youtube.com/watch?v=dG0xT3SYUCI",
+          "source": "mingjai14",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-18T13:07:50Z"
+        },
         {
           "id": "0b99b96416f0dcb55a4809747fe4a44a0e2e18f7",
           "title": "伊波拉：一種失控的病毒？ / Ebola: a Virus Out of Control?",
@@ -200,15 +209,6 @@
           "published_at": "2026-07-17T14:45:01Z"
         },
         {
-          "id": "69a9e0d2968f74717976679644067ee820ce0429",
-          "title": "便當菜必學🔥凍豆腐炒出金黃酥脆！拌飯拌麵神物，快速晚餐！颱風天抗漲料理｜素食 純素 全素｜素食美食｜➤野菜鹿鹿 Veggie Deer",
-          "url": "https://www.youtube.com/watch?v=bWacVFFyigk",
-          "source": "野菜鹿鹿Veggie Deer",
-          "source_name": "OPML RSS",
-          "site_id": "convivium",
-          "published_at": "2026-07-17T13:00:06Z"
-        },
-        {
           "id": "fa90dafacfee67b5e17c5696d707ca97be4ce510",
           "title": "一个极权的末日有多卑微? 苏联解体, 人类地缘冲突巅峰 | 俄国三雄主3",
           "url": "https://www.youtube.com/watch?v=oNtcj1qPH6w",
@@ -247,26 +247,102 @@
       ],
       "item_count": 12,
       "duplicate_count": 12,
-      "score": 0.744,
-      "importance": 0.744,
-      "importance_score": 0.744,
+      "score": 0.7387,
+      "importance": 0.7387,
+      "importance_score": 0.7387,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9801,
+        "recency": 0.9625,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-17T13:00:06Z",
-      "latest_at": "2026-07-18T12:00:11Z",
+      "earliest_at": "2026-07-17T14:45:01Z",
+      "latest_at": "2026-07-18T13:07:50Z",
       "primary_item": {
-        "id": "0b99b96416f0dcb55a4809747fe4a44a0e2e18f7",
-        "title": "伊波拉：一種失控的病毒？ / Ebola: a Virus Out of Control?",
-        "url": "https://www.youtube.com/watch?v=ItN8wcpMmGU",
-        "source": "Best Documentary",
+        "id": "8ba223dd4afc26d0910bdae579c004c41f8e0ffc",
+        "title": "【奧德賽】18分鐘世界觀拆解: 特洛伊戰爭十年大戰全記錄｜不含劇透｜特洛伊戰爭打足十年，原來因為一頂綠帽?｜木馬屠城記係神話定考古？ #不正常人類",
+        "url": "https://www.youtube.com/watch?v=dG0xT3SYUCI",
+        "source": "mingjai14",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_64153306cbfa",
+      "title": "周日清晨的山中早餐☕鑄鐵鍋煎鍋貼香香的｜機車露營⛺126 #法蘭克黃",
+      "url": "https://www.youtube.com/shorts/5OyhoqVvuKA",
+      "primary_url": "https://www.youtube.com/shorts/5OyhoqVvuKA",
+      "source": "法蘭克黃",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "b8775c6fbf5b9c13d2e4b22c3715a785d96f3acb",
+          "title": "周日清晨的山中早餐☕鑄鐵鍋煎鍋貼香香的｜機車露營⛺126 #法蘭克黃",
+          "url": "https://www.youtube.com/shorts/5OyhoqVvuKA",
+          "source": "法蘭克黃",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-18T10:16:08Z"
+        },
+        {
+          "id": "74c354b833906cf67b09620ce568c4128792d056",
+          "title": "周日清晨的山中滋滋作響的美味☕鑄鐵鍋煎鍋貼香香的｜機車露營⛺126 #法蘭克黃",
+          "url": "https://www.youtube.com/shorts/5OyhoqVvuKA",
+          "source": "法蘭克黃",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-18T10:16:08Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "法蘭克黃"
+      ],
+      "items": [
+        {
+          "id": "b8775c6fbf5b9c13d2e4b22c3715a785d96f3acb",
+          "title": "周日清晨的山中早餐☕鑄鐵鍋煎鍋貼香香的｜機車露營⛺126 #法蘭克黃",
+          "url": "https://www.youtube.com/shorts/5OyhoqVvuKA",
+          "source": "法蘭克黃",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-18T10:16:08Z"
+        },
+        {
+          "id": "74c354b833906cf67b09620ce568c4128792d056",
+          "title": "周日清晨的山中滋滋作響的美味☕鑄鐵鍋煎鍋貼香香的｜機車露營⛺126 #法蘭克黃",
+          "url": "https://www.youtube.com/shorts/5OyhoqVvuKA",
+          "source": "法蘭克黃",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-18T10:16:08Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.428,
+      "importance": 0.428,
+      "importance_score": 0.428,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.25,
+        "recency": 0.8433,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-18T10:16:08Z",
+      "latest_at": "2026-07-18T10:16:08Z",
+      "primary_item": {
+        "id": "b8775c6fbf5b9c13d2e4b22c3715a785d96f3acb",
+        "title": "周日清晨的山中早餐☕鑄鐵鍋煎鍋貼香香的｜機車露營⛺126 #法蘭克黃",
+        "url": "https://www.youtube.com/shorts/5OyhoqVvuKA",
+        "source": "法蘭克黃",
         "source_name": "OPML RSS"
       }
     },
@@ -323,13 +399,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4461,
-      "importance": 0.4461,
-      "importance_score": 0.4461,
+      "score": 0.4267,
+      "importance": 0.4267,
+      "importance_score": 0.4267,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.4869,
+        "recency": 0.4224,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -399,13 +475,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3764,
-      "importance": 0.3764,
-      "importance_score": 0.3764,
+      "score": 0.357,
+      "importance": 0.357,
+      "importance_score": 0.357,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.2545,
+        "recency": 0.19,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -475,13 +551,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3323,
-      "importance": 0.3323,
-      "importance_score": 0.3323,
+      "score": 0.3129,
+      "importance": 0.3129,
+      "importance_score": 0.3129,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.1077,
+        "recency": 0.0431,
         "story_heat": 0.25
       },
       "category": "watch",
