@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-07-19T15:32:04.385889Z",
+  "generated_at": "2026-07-19T17:04:23.991588Z",
   "window_hours": 24,
   "total_items": 1,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "我在世界上最昂貴的康復中心度過了一個週末 / I Spent a Weekend at the World's Most Expensive Rehab",
-      "url": "https://www.youtube.com/watch?v=Pz5i1KvhVAI",
-      "primary_url": "https://www.youtube.com/watch?v=Pz5i1KvhVAI",
-      "source": "Best Documentary",
+      "title": "麥可傑克森：流行音樂之王的崛起與遺產的不為人知的故事 / Michael Jackson: The Untold Story of the King of Pop's Rise and Legacy",
+      "url": "https://www.youtube.com/watch?v=ZTX1877ForM",
+      "primary_url": "https://www.youtube.com/watch?v=ZTX1877ForM",
+      "source": "Perspective",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "74cac56f77b2f8aadd9798d6599d0c94c722afda",
+          "title": "麥可傑克森：流行音樂之王的崛起與遺產的不為人知的故事 / Michael Jackson: The Untold Story of the King of Pop's Rise and Legacy",
+          "url": "https://www.youtube.com/watch?v=ZTX1877ForM",
+          "source": "Perspective",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-19T16:00:25Z"
+        },
         {
           "id": "12386bf5cb262d47b8523c3b61e24a39530461f6",
           "title": "我在世界上最昂貴的康復中心度過了一個週末 / I Spent a Weekend at the World's Most Expensive Rehab",
@@ -129,7 +138,7 @@
           "published_at": "2026-07-19T10:00:37Z"
         }
       ],
-      "source_count": 13,
+      "source_count": 14,
       "source_names": [
         "Benjamin Cowen",
         "Best Documentary",
@@ -146,6 +155,15 @@
       ],
       "items": [
         {
+          "id": "74cac56f77b2f8aadd9798d6599d0c94c722afda",
+          "title": "麥可傑克森：流行音樂之王的崛起與遺產的不為人知的故事 / Michael Jackson: The Untold Story of the King of Pop's Rise and Legacy",
+          "url": "https://www.youtube.com/watch?v=ZTX1877ForM",
+          "source": "Perspective",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-19T16:00:25Z"
+        },
+        {
           "id": "12386bf5cb262d47b8523c3b61e24a39530461f6",
           "title": "我在世界上最昂貴的康復中心度過了一個週末 / I Spent a Weekend at the World's Most Expensive Rehab",
           "url": "https://www.youtube.com/watch?v=Pz5i1KvhVAI",
@@ -263,15 +281,15 @@
           "published_at": "2026-07-19T10:00:37Z"
         }
       ],
-      "item_count": 13,
-      "duplicate_count": 13,
-      "score": 0.7059,
-      "importance": 0.7059,
-      "importance_score": 0.7059,
+      "item_count": 14,
+      "duplicate_count": 14,
+      "score": 0.7367,
+      "importance": 0.7367,
+      "importance_score": 0.7367,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.8529,
+        "recency": 0.9556,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -279,12 +297,12 @@
         "multi_source"
       ],
       "earliest_at": "2026-07-18T21:00:13Z",
-      "latest_at": "2026-07-19T14:06:06Z",
+      "latest_at": "2026-07-19T16:00:25Z",
       "primary_item": {
-        "id": "12386bf5cb262d47b8523c3b61e24a39530461f6",
-        "title": "我在世界上最昂貴的康復中心度過了一個週末 / I Spent a Weekend at the World's Most Expensive Rehab",
-        "url": "https://www.youtube.com/watch?v=Pz5i1KvhVAI",
-        "source": "Best Documentary",
+        "id": "74cac56f77b2f8aadd9798d6599d0c94c722afda",
+        "title": "麥可傑克森：流行音樂之王的崛起與遺產的不為人知的故事 / Michael Jackson: The Untold Story of the King of Pop's Rise and Legacy",
+        "url": "https://www.youtube.com/watch?v=ZTX1877ForM",
+        "source": "Perspective",
         "source_name": "OPML RSS"
       }
     }
