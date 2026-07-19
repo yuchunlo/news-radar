@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T10:56:25.545459Z",
+  "generated_at": "2026-07-19T12:03:15.264624Z",
   "window_hours": 24,
   "total_items": 2,
   "items": [
@@ -66,13 +66,13 @@
           "published_at": "2026-07-18T13:07:50Z"
         },
         {
-          "id": "0b99b96416f0dcb55a4809747fe4a44a0e2e18f7",
-          "title": "伊波拉：一種失控的病毒？ / Ebola: a Virus Out of Control?",
-          "url": "https://www.youtube.com/watch?v=ItN8wcpMmGU",
-          "source": "Best Documentary",
+          "id": "af5c93f9cc15fbbbd892446df491d6b933ef7126",
+          "title": "台中電火圳生態步道健行5km，石岡最美水圳步道，百年水力發電廠、林蔭水圳、生態秘境超療癒｜山上加美 Lovely Hill",
+          "url": "https://www.youtube.com/watch?v=PuRgQLX2eso",
+          "source": "山上加美Lovely Hill",
           "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-18T12:00:11Z"
+          "site_id": "opmlrss",
+          "published_at": "2026-07-19T11:35:10Z"
         },
         {
           "id": "5b54de1db686508b1338b5bbad078280cb42e498",
@@ -84,15 +84,6 @@
           "published_at": "2026-07-18T15:00:06Z"
         },
         {
-          "id": "fa90dafacfee67b5e17c5696d707ca97be4ce510",
-          "title": "一个极权的末日有多卑微? 苏联解体, 人类地缘冲突巅峰 | 俄国三雄主3",
-          "url": "https://www.youtube.com/watch?v=oNtcj1qPH6w",
-          "source": "郭里有范",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-18T11:41:48Z"
-        },
-        {
           "id": "27f40d7242f41c87ea9af0add115ea29c961a823",
           "title": "核能之王 ☢️ Newcleo 創辦人 Stefano Buono / Il RE del Nucleare ☢️ Stefano Buono fondatore di Newcleo",
           "url": "https://www.youtube.com/watch?v=J3naozHKzrk",
@@ -102,18 +93,17 @@
           "published_at": "2026-07-19T10:00:37Z"
         }
       ],
-      "source_count": 10,
+      "source_count": 9,
       "source_names": [
         "Benjamin Cowen",
-        "Best Documentary",
         "Marcello Ascani",
         "Peter Santenello",
         "Tim Ferriss",
         "Timeline - World History Documentaries",
         "imineo Documentaires",
         "mingjai14",
-        "美投讲美股",
-        "郭里有范"
+        "山上加美Lovely Hill",
+        "美投讲美股"
       ],
       "items": [
         {
@@ -171,13 +161,13 @@
           "published_at": "2026-07-18T13:07:50Z"
         },
         {
-          "id": "0b99b96416f0dcb55a4809747fe4a44a0e2e18f7",
-          "title": "伊波拉：一種失控的病毒？ / Ebola: a Virus Out of Control?",
-          "url": "https://www.youtube.com/watch?v=ItN8wcpMmGU",
-          "source": "Best Documentary",
+          "id": "af5c93f9cc15fbbbd892446df491d6b933ef7126",
+          "title": "台中電火圳生態步道健行5km，石岡最美水圳步道，百年水力發電廠、林蔭水圳、生態秘境超療癒｜山上加美 Lovely Hill",
+          "url": "https://www.youtube.com/watch?v=PuRgQLX2eso",
+          "source": "山上加美Lovely Hill",
           "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-18T12:00:11Z"
+          "site_id": "opmlrss",
+          "published_at": "2026-07-19T11:35:10Z"
         },
         {
           "id": "5b54de1db686508b1338b5bbad078280cb42e498",
@@ -189,15 +179,6 @@
           "published_at": "2026-07-18T15:00:06Z"
         },
         {
-          "id": "fa90dafacfee67b5e17c5696d707ca97be4ce510",
-          "title": "一个极权的末日有多卑微? 苏联解体, 人类地缘冲突巅峰 | 俄国三雄主3",
-          "url": "https://www.youtube.com/watch?v=oNtcj1qPH6w",
-          "source": "郭里有范",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-18T11:41:48Z"
-        },
-        {
           "id": "27f40d7242f41c87ea9af0add115ea29c961a823",
           "title": "核能之王 ☢️ Newcleo 創辦人 Stefano Buono / Il RE del Nucleare ☢️ Stefano Buono fondatore di Newcleo",
           "url": "https://www.youtube.com/watch?v=J3naozHKzrk",
@@ -207,23 +188,23 @@
           "published_at": "2026-07-19T10:00:37Z"
         }
       ],
-      "item_count": 10,
-      "duplicate_count": 10,
-      "score": 0.6536,
-      "importance": 0.6536,
-      "importance_score": 0.6536,
+      "item_count": 9,
+      "duplicate_count": 9,
+      "score": 0.6397,
+      "importance": 0.6397,
+      "importance_score": 0.6397,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6786,
+        "recency": 0.6322,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-18T11:41:48Z",
-      "latest_at": "2026-07-19T10:00:37Z",
+      "earliest_at": "2026-07-18T13:07:50Z",
+      "latest_at": "2026-07-19T11:35:10Z",
       "primary_item": {
         "id": "b89e19248fc45d3077b20740851cbc860de07fc6",
         "title": "加息是否会引发美股大跌？AI投资会不会转向？下半年最大风险，你该如何应对？",
@@ -285,13 +266,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3466,
-      "importance": 0.3466,
-      "importance_score": 0.3466,
+      "score": 0.3327,
+      "importance": 0.3327,
+      "importance_score": 0.3327,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.1553,
+        "recency": 0.1089,
         "story_heat": 0.25
       },
       "category": "watch",
