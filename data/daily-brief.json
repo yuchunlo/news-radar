@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-19T09:28:37.325678Z",
+  "generated_at": "2026-07-19T10:56:25.545459Z",
   "window_hours": 24,
-  "total_items": 3,
+  "total_items": 2,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
@@ -91,12 +91,22 @@
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
           "published_at": "2026-07-18T11:41:48Z"
+        },
+        {
+          "id": "27f40d7242f41c87ea9af0add115ea29c961a823",
+          "title": "核能之王 ☢️ Newcleo 創辦人 Stefano Buono / Il RE del Nucleare ☢️ Stefano Buono fondatore di Newcleo",
+          "url": "https://www.youtube.com/watch?v=J3naozHKzrk",
+          "source": "Marcello Ascani",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-19T10:00:37Z"
         }
       ],
-      "source_count": 9,
+      "source_count": 10,
       "source_names": [
         "Benjamin Cowen",
         "Best Documentary",
+        "Marcello Ascani",
         "Peter Santenello",
         "Tim Ferriss",
         "Timeline - World History Documentaries",
@@ -186,17 +196,26 @@
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
           "published_at": "2026-07-18T11:41:48Z"
+        },
+        {
+          "id": "27f40d7242f41c87ea9af0add115ea29c961a823",
+          "title": "核能之王 ☢️ Newcleo 創辦人 Stefano Buono / Il RE del Nucleare ☢️ Stefano Buono fondatore di Newcleo",
+          "url": "https://www.youtube.com/watch?v=J3naozHKzrk",
+          "source": "Marcello Ascani",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-19T10:00:37Z"
         }
       ],
-      "item_count": 9,
-      "duplicate_count": 9,
-      "score": 0.6719,
-      "importance": 0.6719,
-      "importance_score": 0.6719,
+      "item_count": 10,
+      "duplicate_count": 10,
+      "score": 0.6536,
+      "importance": 0.6536,
+      "importance_score": 0.6536,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7396,
+        "recency": 0.6786,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -204,7 +223,7 @@
         "multi_source"
       ],
       "earliest_at": "2026-07-18T11:41:48Z",
-      "latest_at": "2026-07-19T03:13:40Z",
+      "latest_at": "2026-07-19T10:00:37Z",
       "primary_item": {
         "id": "b89e19248fc45d3077b20740851cbc860de07fc6",
         "title": "加息是否会引发美股大跌？AI投资会不会转向？下半年最大风险，你该如何应对？",
@@ -266,13 +285,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3649,
-      "importance": 0.3649,
-      "importance_score": 0.3649,
+      "score": 0.3466,
+      "importance": 0.3466,
+      "importance_score": 0.3466,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.2162,
+        "recency": 0.1553,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -286,82 +305,6 @@
         "title": "草根組織 HumansFirst 表示，它於 7 月 18 日在美國 42 個州組織了 142 場抗議活動，反對所謂的「不負責任」的資料中心建設（路透社） / Grassroots org HumansFirst says it organized 142 protests across 42 US states on July 18 against what it calls the \"unaccountable\" buildout of data centers (Reuters)",
         "url": "https://www.techmeme.com/260718/p11",
         "source": "Techmeme",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_64153306cbfa",
-      "title": "周日清晨的山中早餐☕鑄鐵鍋煎鍋貼香香的｜機車露營⛺126 #法蘭克黃",
-      "url": "https://www.youtube.com/shorts/5OyhoqVvuKA",
-      "primary_url": "https://www.youtube.com/shorts/5OyhoqVvuKA",
-      "source": "法蘭克黃",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "b8775c6fbf5b9c13d2e4b22c3715a785d96f3acb",
-          "title": "周日清晨的山中早餐☕鑄鐵鍋煎鍋貼香香的｜機車露營⛺126 #法蘭克黃",
-          "url": "https://www.youtube.com/shorts/5OyhoqVvuKA",
-          "source": "法蘭克黃",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-18T10:16:08Z"
-        },
-        {
-          "id": "74c354b833906cf67b09620ce568c4128792d056",
-          "title": "周日清晨的山中滋滋作響的美味☕鑄鐵鍋煎鍋貼香香的｜機車露營⛺126 #法蘭克黃",
-          "url": "https://www.youtube.com/shorts/5OyhoqVvuKA",
-          "source": "法蘭克黃",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-18T10:16:08Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "法蘭克黃"
-      ],
-      "items": [
-        {
-          "id": "b8775c6fbf5b9c13d2e4b22c3715a785d96f3acb",
-          "title": "周日清晨的山中早餐☕鑄鐵鍋煎鍋貼香香的｜機車露營⛺126 #法蘭克黃",
-          "url": "https://www.youtube.com/shorts/5OyhoqVvuKA",
-          "source": "法蘭克黃",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-18T10:16:08Z"
-        },
-        {
-          "id": "74c354b833906cf67b09620ce568c4128792d056",
-          "title": "周日清晨的山中滋滋作響的美味☕鑄鐵鍋煎鍋貼香香的｜機車露營⛺126 #法蘭克黃",
-          "url": "https://www.youtube.com/shorts/5OyhoqVvuKA",
-          "source": "法蘭克黃",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-18T10:16:08Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.1849,
-      "importance": 0.1849,
-      "importance_score": 0.1849,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.25,
-        "recency": 0.033,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-18T10:16:08Z",
-      "latest_at": "2026-07-18T10:16:08Z",
-      "primary_item": {
-        "id": "b8775c6fbf5b9c13d2e4b22c3715a785d96f3acb",
-        "title": "周日清晨的山中早餐☕鑄鐵鍋煎鍋貼香香的｜機車露營⛺126 #法蘭克黃",
-        "url": "https://www.youtube.com/shorts/5OyhoqVvuKA",
-        "source": "法蘭克黃",
         "source_name": "OPML RSS"
       }
     }
