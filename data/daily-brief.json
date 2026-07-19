@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-19T14:04:03.856072Z",
+  "generated_at": "2026-07-19T15:32:04.385889Z",
   "window_hours": 24,
-  "total_items": 2,
+  "total_items": 1,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
@@ -66,22 +66,13 @@
           "published_at": "2026-07-18T21:00:13Z"
         },
         {
-          "id": "4066706801d03d90a66a79c2ba9163a9eccaafc7",
-          "title": "越南：面對季風的憤怒 / Vietnam : Face à la colère de la Mousson",
-          "url": "https://www.youtube.com/watch?v=A9j7M3WRD7g",
-          "source": "imineo Documentaires",
+          "id": "173a64e3bc6c465584fed0abbb16c6df8e2a085c",
+          "title": "4 款改善我生活的小眾科技設備（電子墨水版） / 4 niche tech devices that improved my life (e-ink edition)",
+          "url": "https://www.youtube.com/watch?v=ZG7MenUQJO4",
+          "source": "Reysu",
           "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-18T15:30:15Z"
-        },
-        {
-          "id": "830f16e4a9e65621240ce650429ccd463cc1ecb7",
-          "title": "為什麼麥當娜從不慶祝她的勝利——她的經理解釋道 / Why Madonna Never Celebrates Her Wins — Her Manager Explains",
-          "url": "https://www.youtube.com/watch?v=xnRXo4_1xLM",
-          "source": "Tim Ferriss",
-          "source_name": "OPML RSS",
-          "site_id": "blog",
-          "published_at": "2026-07-18T14:41:38Z"
+          "site_id": "opmlrss",
+          "published_at": "2026-07-19T13:30:36Z"
         },
         {
           "id": "e593eaa5413115bf53333f27bb7f7ba5fc4b7a1f",
@@ -111,13 +102,13 @@
           "published_at": "2026-07-19T11:35:10Z"
         },
         {
-          "id": "5b54de1db686508b1338b5bbad078280cb42e498",
-          "title": "在美國最安全的州最危險的城市裡 / Inside the Most Dangerous City in America's Safest State",
-          "url": "https://www.youtube.com/watch?v=Br1kyf70NQQ",
-          "source": "Peter Santenello",
+          "id": "4071dbcd5221160dfb1864c431fd3702508fb133",
+          "title": "Honda CB350RS 值得買嗎？🤔 16,000公里真實心得🏍️優缺點一次告訴你#法蘭克黃",
+          "url": "https://www.youtube.com/watch?v=2MD9Y8C8iis",
+          "source": "法蘭克黃",
           "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-18T15:00:06Z"
+          "site_id": "trending",
+          "published_at": "2026-07-19T14:06:06Z"
         },
         {
           "id": "532b6687b873225a6adaf2b5a3b44daac752bb06",
@@ -138,20 +129,18 @@
           "published_at": "2026-07-19T10:00:37Z"
         }
       ],
-      "source_count": 14,
+      "source_count": 13,
       "source_names": [
         "Benjamin Cowen",
         "Best Documentary",
         "Hoog",
         "Marcello Ascani",
         "Perspective",
-        "Peter Santenello",
         "Reysu",
-        "Tim Ferriss",
         "Timeline - World History Documentaries",
-        "imineo Documentaires",
         "山上加美Lovely Hill",
         "沙發人物誌",
+        "法蘭克黃",
         "美投讲美股",
         "音樂家的無聊人生 Musician Seacow"
       ],
@@ -211,22 +200,13 @@
           "published_at": "2026-07-18T21:00:13Z"
         },
         {
-          "id": "4066706801d03d90a66a79c2ba9163a9eccaafc7",
-          "title": "越南：面對季風的憤怒 / Vietnam : Face à la colère de la Mousson",
-          "url": "https://www.youtube.com/watch?v=A9j7M3WRD7g",
-          "source": "imineo Documentaires",
+          "id": "173a64e3bc6c465584fed0abbb16c6df8e2a085c",
+          "title": "4 款改善我生活的小眾科技設備（電子墨水版） / 4 niche tech devices that improved my life (e-ink edition)",
+          "url": "https://www.youtube.com/watch?v=ZG7MenUQJO4",
+          "source": "Reysu",
           "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-18T15:30:15Z"
-        },
-        {
-          "id": "830f16e4a9e65621240ce650429ccd463cc1ecb7",
-          "title": "為什麼麥當娜從不慶祝她的勝利——她的經理解釋道 / Why Madonna Never Celebrates Her Wins — Her Manager Explains",
-          "url": "https://www.youtube.com/watch?v=xnRXo4_1xLM",
-          "source": "Tim Ferriss",
-          "source_name": "OPML RSS",
-          "site_id": "blog",
-          "published_at": "2026-07-18T14:41:38Z"
+          "site_id": "opmlrss",
+          "published_at": "2026-07-19T13:30:36Z"
         },
         {
           "id": "e593eaa5413115bf53333f27bb7f7ba5fc4b7a1f",
@@ -256,13 +236,13 @@
           "published_at": "2026-07-19T11:35:10Z"
         },
         {
-          "id": "5b54de1db686508b1338b5bbad078280cb42e498",
-          "title": "在美國最安全的州最危險的城市裡 / Inside the Most Dangerous City in America's Safest State",
-          "url": "https://www.youtube.com/watch?v=Br1kyf70NQQ",
-          "source": "Peter Santenello",
+          "id": "4071dbcd5221160dfb1864c431fd3702508fb133",
+          "title": "Honda CB350RS 值得買嗎？🤔 16,000公里真實心得🏍️優缺點一次告訴你#法蘭克黃",
+          "url": "https://www.youtube.com/watch?v=2MD9Y8C8iis",
+          "source": "法蘭克黃",
           "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-18T15:00:06Z"
+          "site_id": "trending",
+          "published_at": "2026-07-19T14:06:06Z"
         },
         {
           "id": "532b6687b873225a6adaf2b5a3b44daac752bb06",
@@ -283,104 +263,28 @@
           "published_at": "2026-07-19T10:00:37Z"
         }
       ],
-      "item_count": 14,
-      "duplicate_count": 14,
-      "score": 0.7242,
-      "importance": 0.7242,
-      "importance_score": 0.7242,
+      "item_count": 13,
+      "duplicate_count": 13,
+      "score": 0.7059,
+      "importance": 0.7059,
+      "importance_score": 0.7059,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.914,
+        "recency": 0.8529,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-18T14:41:38Z",
-      "latest_at": "2026-07-19T13:47:56Z",
+      "earliest_at": "2026-07-18T21:00:13Z",
+      "latest_at": "2026-07-19T14:06:06Z",
       "primary_item": {
         "id": "12386bf5cb262d47b8523c3b61e24a39530461f6",
         "title": "我在世界上最昂貴的康復中心度過了一個週末 / I Spent a Weekend at the World's Most Expensive Rehab",
         "url": "https://www.youtube.com/watch?v=Pz5i1KvhVAI",
         "source": "Best Documentary",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_b75ef638cdfa",
-      "title": "草根組織 HumansFirst 表示，它於 7 月 18 日在美國 42 個州組織了 142 場抗議活動，反對所謂的「不負責任」的資料中心建設（路透社） / Grassroots org HumansFirst says it organized 142 protests across 42 US states on July 18 against what it calls the \"unaccountable\" buildout of data centers (Reuters)",
-      "url": "https://www.techmeme.com/260718/p11",
-      "primary_url": "https://www.techmeme.com/260718/p11",
-      "source": "Techmeme",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "ae52b8dcc4cabc89c0346b54bc7763a9c04f3819",
-          "title": "草根組織 HumansFirst 表示，它於 7 月 18 日在美國 42 個州組織了 142 場抗議活動，反對所謂的「不負責任」的資料中心建設（路透社） / Grassroots org HumansFirst says it organized 142 protests across 42 US states on July 18 against what it calls the \"unaccountable\" buildout of data centers (Reuters)",
-          "url": "https://www.techmeme.com/260718/p11",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-18T14:40:01Z"
-        },
-        {
-          "id": "59f7cb9c60b37a89dca7f41b8c2718a7f62d04f4",
-          "title": "7 月 18 日，草根組織 HumansFirst 正在組織抗議活動，反對在美國 125 個地點「不負責任」地建造資料中心（路透社） / The grassroots group HumansFirst is organizing protests against the \"unaccountable\" buildout of data centers across 125 US locations on July 18 (Reuters)",
-          "url": "https://www.techmeme.com/260718/p11",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-18T14:40:01Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Techmeme"
-      ],
-      "items": [
-        {
-          "id": "ae52b8dcc4cabc89c0346b54bc7763a9c04f3819",
-          "title": "草根組織 HumansFirst 表示，它於 7 月 18 日在美國 42 個州組織了 142 場抗議活動，反對所謂的「不負責任」的資料中心建設（路透社） / Grassroots org HumansFirst says it organized 142 protests across 42 US states on July 18 against what it calls the \"unaccountable\" buildout of data centers (Reuters)",
-          "url": "https://www.techmeme.com/260718/p11",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-18T14:40:01Z"
-        },
-        {
-          "id": "59f7cb9c60b37a89dca7f41b8c2718a7f62d04f4",
-          "title": "7 月 18 日，草根組織 HumansFirst 正在組織抗議活動，反對在美國 125 個地點「不負責任」地建造資料中心（路透社） / The grassroots group HumansFirst is organizing protests against the \"unaccountable\" buildout of data centers across 125 US locations on July 18 (Reuters)",
-          "url": "https://www.techmeme.com/260718/p11",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-18T14:40:01Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.3075,
-      "importance": 0.3075,
-      "importance_score": 0.3075,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.5,
-        "recency": 0.025,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-18T14:40:01Z",
-      "latest_at": "2026-07-18T14:40:01Z",
-      "primary_item": {
-        "id": "ae52b8dcc4cabc89c0346b54bc7763a9c04f3819",
-        "title": "草根組織 HumansFirst 表示，它於 7 月 18 日在美國 42 個州組織了 142 場抗議活動，反對所謂的「不負責任」的資料中心建設（路透社） / Grassroots org HumansFirst says it organized 142 protests across 42 US states on July 18 against what it calls the \"unaccountable\" buildout of data centers (Reuters)",
-        "url": "https://www.techmeme.com/260718/p11",
-        "source": "Techmeme",
         "source_name": "OPML RSS"
       }
     }
