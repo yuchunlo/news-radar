@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-19T04:04:28.493040Z",
+  "generated_at": "2026-07-19T07:06:48.212964Z",
   "window_hours": 24,
-  "total_items": 2,
+  "total_items": 3,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
@@ -209,13 +209,13 @@
       ],
       "item_count": 10,
       "duplicate_count": 10,
-      "score": 0.7394,
-      "importance": 0.7394,
-      "importance_score": 0.7394,
+      "score": 0.7014,
+      "importance": 0.7014,
+      "importance_score": 0.7014,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9647,
+        "recency": 0.8381,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -229,6 +229,82 @@
         "title": "加息是否会引发美股大跌？AI投资会不会转向？下半年最大风险，你该如何应对？",
         "url": "https://www.youtube.com/watch?v=SPyXyB7lgWU",
         "source": "美投讲美股",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_b75ef638cdfa",
+      "title": "草根組織 HumansFirst 表示，它於 7 月 18 日在美國 42 個州組織了 142 場抗議活動，反對所謂的「不負責任」的資料中心建設（路透社） / Grassroots org HumansFirst says it organized 142 protests across 42 US states on July 18 against what it calls the \"unaccountable\" buildout of data centers (Reuters)",
+      "url": "https://www.techmeme.com/260718/p11",
+      "primary_url": "https://www.techmeme.com/260718/p11",
+      "source": "Techmeme",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "ae52b8dcc4cabc89c0346b54bc7763a9c04f3819",
+          "title": "草根組織 HumansFirst 表示，它於 7 月 18 日在美國 42 個州組織了 142 場抗議活動，反對所謂的「不負責任」的資料中心建設（路透社） / Grassroots org HumansFirst says it organized 142 protests across 42 US states on July 18 against what it calls the \"unaccountable\" buildout of data centers (Reuters)",
+          "url": "https://www.techmeme.com/260718/p11",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-18T14:40:01Z"
+        },
+        {
+          "id": "59f7cb9c60b37a89dca7f41b8c2718a7f62d04f4",
+          "title": "7 月 18 日，草根組織 HumansFirst 正在組織抗議活動，反對在美國 125 個地點「不負責任」地建造資料中心（路透社） / The grassroots group HumansFirst is organizing protests against the \"unaccountable\" buildout of data centers across 125 US locations on July 18 (Reuters)",
+          "url": "https://www.techmeme.com/260718/p11",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-18T14:40:01Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Techmeme"
+      ],
+      "items": [
+        {
+          "id": "ae52b8dcc4cabc89c0346b54bc7763a9c04f3819",
+          "title": "草根組織 HumansFirst 表示，它於 7 月 18 日在美國 42 個州組織了 142 場抗議活動，反對所謂的「不負責任」的資料中心建設（路透社） / Grassroots org HumansFirst says it organized 142 protests across 42 US states on July 18 against what it calls the \"unaccountable\" buildout of data centers (Reuters)",
+          "url": "https://www.techmeme.com/260718/p11",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-18T14:40:01Z"
+        },
+        {
+          "id": "59f7cb9c60b37a89dca7f41b8c2718a7f62d04f4",
+          "title": "7 月 18 日，草根組織 HumansFirst 正在組織抗議活動，反對在美國 125 個地點「不負責任」地建造資料中心（路透社） / The grassroots group HumansFirst is organizing protests against the \"unaccountable\" buildout of data centers across 125 US locations on July 18 (Reuters)",
+          "url": "https://www.techmeme.com/260718/p11",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-18T14:40:01Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.3944,
+      "importance": 0.3944,
+      "importance_score": 0.3944,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.5,
+        "recency": 0.3147,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-18T14:40:01Z",
+      "latest_at": "2026-07-18T14:40:01Z",
+      "primary_item": {
+        "id": "ae52b8dcc4cabc89c0346b54bc7763a9c04f3819",
+        "title": "草根組織 HumansFirst 表示，它於 7 月 18 日在美國 42 個州組織了 142 場抗議活動，反對所謂的「不負責任」的資料中心建設（路透社） / Grassroots org HumansFirst says it organized 142 protests across 42 US states on July 18 against what it calls the \"unaccountable\" buildout of data centers (Reuters)",
+        "url": "https://www.techmeme.com/260718/p11",
+        "source": "Techmeme",
         "source_name": "OPML RSS"
       }
     },
@@ -285,13 +361,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.2524,
-      "importance": 0.2524,
-      "importance_score": 0.2524,
+      "score": 0.2144,
+      "importance": 0.2144,
+      "importance_score": 0.2144,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.2581,
+        "recency": 0.1315,
         "story_heat": 0.25
       },
       "category": "watch",
