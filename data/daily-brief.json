@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T22:01:31.152949Z",
+  "generated_at": "2026-07-19T23:31:48.563164Z",
   "window_hours": 24,
   "total_items": 3,
   "items": [
@@ -301,13 +301,13 @@
       ],
       "item_count": 15,
       "duplicate_count": 15,
-      "score": 0.7373,
-      "importance": 0.7373,
-      "importance_score": 0.7373,
+      "score": 0.7185,
+      "importance": 0.7185,
+      "importance_score": 0.7185,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9576,
+        "recency": 0.8949,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -377,13 +377,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5226,
-      "importance": 0.5226,
-      "importance_score": 0.5226,
+      "score": 0.5038,
+      "importance": 0.5038,
+      "importance_score": 0.5038,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.742,
+        "recency": 0.6793,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -453,13 +453,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5018,
-      "importance": 0.5018,
-      "importance_score": 0.5018,
+      "score": 0.483,
+      "importance": 0.483,
+      "importance_score": 0.483,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6726,
+        "recency": 0.6099,
         "story_heat": 0.25
       },
       "category": "watch",
