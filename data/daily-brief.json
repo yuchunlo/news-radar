@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-20T03:41:16.832450Z",
+  "generated_at": "2026-07-20T06:53:37.991816Z",
   "window_hours": 24,
-  "total_items": 3,
+  "total_items": 4,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
@@ -282,13 +282,13 @@
       ],
       "item_count": 14,
       "duplicate_count": 14,
-      "score": 0.7216,
-      "importance": 0.7216,
-      "importance_score": 0.7216,
+      "score": 0.6815,
+      "importance": 0.6815,
+      "importance_score": 0.6815,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9052,
+        "recency": 0.7717,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -302,6 +302,82 @@
         "title": "以太坊：可疑的猜測 / Ethereum: Dubious Speculation",
         "url": "https://www.youtube.com/watch?v=OZAQDVkVuG8",
         "source": "Benjamin Cowen",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_7ead45e42ea9",
+      "title": "資料來源：歐盟議會計畫最早在 9 月啟動 EPGenAI Hub，讓歐洲議會議員和工作人​​員能夠存取 Meta、OpenAI、Anthropic 和 Mistral 模型（Max Griera/Politico） / Sources: the EU Parliament plans to launch EPGenAI Hub as early as September, giving MEPs and staff access to Meta, OpenAI, Anthropic, and Mistral models (Max Griera/Politico)",
+      "url": "https://www.techmeme.com/260719/p18",
+      "primary_url": "https://www.techmeme.com/260719/p18",
+      "source": "Techmeme",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "fab184c1582e0bdd557347097424bb904ed98b19",
+          "title": "資料來源：歐盟議會計畫最早在 9 月啟動 EPGenAI Hub，讓歐洲議會議員和工作人​​員能夠存取 Meta、OpenAI、Anthropic 和 Mistral 模型（Max Griera/Politico） / Sources: the EU Parliament plans to launch EPGenAI Hub as early as September, giving MEPs and staff access to Meta, OpenAI, Anthropic, and Mistral models (Max Griera/Politico)",
+          "url": "https://www.techmeme.com/260719/p18",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-20T03:30:40Z"
+        },
+        {
+          "id": "36c01446313cbf01675167dc9f88bf4ea11e4317",
+          "title": "資料來源：歐盟議會計劃最早於 9 月向歐洲議會議員和工作人​​員推出 EPGenAI Hub，讓他們可以存取 Meta、OpenAI、Anthropic 和 Mistral 模型（Max Griera/Politico） / Sources: the EU Parliament plans to roll out EPGenAI Hub to MEPs and staff as early as Sept., letting them access Meta, OpenAI, Anthropic, and Mistral models (Max Griera/Politico)",
+          "url": "https://www.techmeme.com/260719/p18",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-20T03:30:40Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Techmeme"
+      ],
+      "items": [
+        {
+          "id": "fab184c1582e0bdd557347097424bb904ed98b19",
+          "title": "資料來源：歐盟議會計畫最早在 9 月啟動 EPGenAI Hub，讓歐洲議會議員和工作人​​員能夠存取 Meta、OpenAI、Anthropic 和 Mistral 模型（Max Griera/Politico） / Sources: the EU Parliament plans to launch EPGenAI Hub as early as September, giving MEPs and staff access to Meta, OpenAI, Anthropic, and Mistral models (Max Griera/Politico)",
+          "url": "https://www.techmeme.com/260719/p18",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-20T03:30:40Z"
+        },
+        {
+          "id": "36c01446313cbf01675167dc9f88bf4ea11e4317",
+          "title": "資料來源：歐盟議會計劃最早於 9 月向歐洲議會議員和工作人​​員推出 EPGenAI Hub，讓他們可以存取 Meta、OpenAI、Anthropic 和 Mistral 模型（Max Griera/Politico） / Sources: the EU Parliament plans to roll out EPGenAI Hub to MEPs and staff as early as Sept., letting them access Meta, OpenAI, Anthropic, and Mistral models (Max Griera/Politico)",
+          "url": "https://www.techmeme.com/260719/p18",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-20T03:30:40Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5577,
+      "importance": 0.5577,
+      "importance_score": 0.5577,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.5,
+        "recency": 0.8591,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-20T03:30:40Z",
+      "latest_at": "2026-07-20T03:30:40Z",
+      "primary_item": {
+        "id": "fab184c1582e0bdd557347097424bb904ed98b19",
+        "title": "資料來源：歐盟議會計畫最早在 9 月啟動 EPGenAI Hub，讓歐洲議會議員和工作人​​員能夠存取 Meta、OpenAI、Anthropic 和 Mistral 模型（Max Griera/Politico） / Sources: the EU Parliament plans to launch EPGenAI Hub as early as September, giving MEPs and staff access to Meta, OpenAI, Anthropic, and Mistral models (Max Griera/Politico)",
+        "url": "https://www.techmeme.com/260719/p18",
+        "source": "Techmeme",
         "source_name": "OPML RSS"
       }
     },
@@ -358,13 +434,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4518,
-      "importance": 0.4518,
-      "importance_score": 0.4518,
+      "score": 0.4118,
+      "importance": 0.4118,
+      "importance_score": 0.4118,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.5061,
+        "recency": 0.3725,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -434,13 +510,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.431,
-      "importance": 0.431,
-      "importance_score": 0.431,
+      "score": 0.3909,
+      "importance": 0.3909,
+      "importance_score": 0.3909,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.4366,
+        "recency": 0.303,
         "story_heat": 0.25
       },
       "category": "watch",
