@@ -1,16 +1,34 @@
 {
-  "generated_at": "2026-07-20T20:49:18.762245Z",
+  "generated_at": "2026-07-20T22:05:31.141986Z",
   "window_hours": 24,
-  "total_items": 3,
+  "total_items": 4,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "为什么要去美术馆看画",
-      "url": "https://www.youtube.com/watch?v=sYQ5eQmNZh0",
-      "primary_url": "https://www.youtube.com/watch?v=sYQ5eQmNZh0",
-      "source": "有点艺思哦",
+      "title": "走進甘地的私人靜修院：難得進入聖雄的房間 / Inside Gandhi's Private Ashram: Rare Access To The Mahatma's Room",
+      "url": "https://www.youtube.com/watch?v=iAfTIJMxcYA",
+      "primary_url": "https://www.youtube.com/watch?v=iAfTIJMxcYA",
+      "source": "Timeline - World History Documentaries",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "206e04a649df363941af33ad4a910c00466bc9d5",
+          "title": "走進甘地的私人靜修院：難得進入聖雄的房間 / Inside Gandhi's Private Ashram: Rare Access To The Mahatma's Room",
+          "url": "https://www.youtube.com/watch?v=iAfTIJMxcYA",
+          "source": "Timeline - World History Documentaries",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-20T21:00:39Z"
+        },
+        {
+          "id": "a503675abbe3a99e5c4ed7c6467f5d76959d12fa",
+          "title": "Minecraft，數十億美元的革命（Ft. DanTDM 和 Ali-A） / Minecraft, the Multi-Billion Dollar Revolution (Ft. DanTDM & Ali-A)",
+          "url": "https://www.youtube.com/watch?v=D1jm94h2qv0",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-20T21:00:27Z"
+        },
         {
           "id": "4b7c9c7c0dbe0a211509e1480e34221ac5f2c4c3",
           "title": "为什么要去美术馆看画",
@@ -75,15 +93,6 @@
           "published_at": "2026-07-20T01:24:49Z"
         },
         {
-          "id": "04e72c6ab4375bf53ed900cbd90d8810f0533605",
-          "title": "二戰偉大轉折點：盟軍如何推動軸心國防禦 / The Great WW2 Turning Point: How The Allies Pushed The Axis Defensive",
-          "url": "https://www.youtube.com/watch?v=wy2ZqNXg7Ss",
-          "source": "Timeline - World History Documentaries",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-19T21:00:30Z"
-        },
-        {
           "id": "ca309718fb5825aa4f4b083da9cbe4011a018739",
           "title": "Palantir 的崛起（和衰落？） / The Rise (and Fall?) of Palantir",
           "url": "https://www.youtube.com/watch?v=SfGUzSYEqY0",
@@ -120,7 +129,7 @@
           "published_at": "2026-07-20T11:09:15Z"
         }
       ],
-      "source_count": 12,
+      "source_count": 13,
       "source_names": [
         "Benjamin Cowen",
         "Best Documentary",
@@ -136,6 +145,24 @@
       ],
       "items": [
         {
+          "id": "206e04a649df363941af33ad4a910c00466bc9d5",
+          "title": "走進甘地的私人靜修院：難得進入聖雄的房間 / Inside Gandhi's Private Ashram: Rare Access To The Mahatma's Room",
+          "url": "https://www.youtube.com/watch?v=iAfTIJMxcYA",
+          "source": "Timeline - World History Documentaries",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-20T21:00:39Z"
+        },
+        {
+          "id": "a503675abbe3a99e5c4ed7c6467f5d76959d12fa",
+          "title": "Minecraft，數十億美元的革命（Ft. DanTDM 和 Ali-A） / Minecraft, the Multi-Billion Dollar Revolution (Ft. DanTDM & Ali-A)",
+          "url": "https://www.youtube.com/watch?v=D1jm94h2qv0",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-20T21:00:27Z"
+        },
+        {
           "id": "4b7c9c7c0dbe0a211509e1480e34221ac5f2c4c3",
           "title": "为什么要去美术馆看画",
           "url": "https://www.youtube.com/watch?v=sYQ5eQmNZh0",
@@ -199,15 +226,6 @@
           "published_at": "2026-07-20T01:24:49Z"
         },
         {
-          "id": "04e72c6ab4375bf53ed900cbd90d8810f0533605",
-          "title": "二戰偉大轉折點：盟軍如何推動軸心國防禦 / The Great WW2 Turning Point: How The Allies Pushed The Axis Defensive",
-          "url": "https://www.youtube.com/watch?v=wy2ZqNXg7Ss",
-          "source": "Timeline - World History Documentaries",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-19T21:00:30Z"
-        },
-        {
           "id": "ca309718fb5825aa4f4b083da9cbe4011a018739",
           "title": "Palantir 的崛起（和衰落？） / The Rise (and Fall?) of Palantir",
           "url": "https://www.youtube.com/watch?v=SfGUzSYEqY0",
@@ -244,28 +262,28 @@
           "published_at": "2026-07-20T11:09:15Z"
         }
       ],
-      "item_count": 12,
-      "duplicate_count": 12,
-      "score": 0.7026,
-      "importance": 0.7026,
-      "importance_score": 0.7026,
+      "item_count": 13,
+      "duplicate_count": 13,
+      "score": 0.7365,
+      "importance": 0.7365,
+      "importance_score": 0.7365,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.8421,
+        "recency": 0.955,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-19T21:00:30Z",
-      "latest_at": "2026-07-20T17:50:50Z",
+      "earliest_at": "2026-07-20T01:24:49Z",
+      "latest_at": "2026-07-20T21:00:39Z",
       "primary_item": {
-        "id": "4b7c9c7c0dbe0a211509e1480e34221ac5f2c4c3",
-        "title": "为什么要去美术馆看画",
-        "url": "https://www.youtube.com/watch?v=sYQ5eQmNZh0",
-        "source": "有点艺思哦",
+        "id": "206e04a649df363941af33ad4a910c00466bc9d5",
+        "title": "走進甘地的私人靜修院：難得進入聖雄的房間 / Inside Gandhi's Private Ashram: Rare Access To The Mahatma's Room",
+        "url": "https://www.youtube.com/watch?v=iAfTIJMxcYA",
+        "source": "Timeline - World History Documentaries",
         "source_name": "OPML RSS"
       }
     },
@@ -322,13 +340,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.472,
-      "importance": 0.472,
-      "importance_score": 0.472,
+      "score": 0.4561,
+      "importance": 0.4561,
+      "importance_score": 0.4561,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.5734,
+        "recency": 0.5205,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -398,13 +416,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3836,
-      "importance": 0.3836,
-      "importance_score": 0.3836,
+      "score": 0.3677,
+      "importance": 0.3677,
+      "importance_score": 0.3677,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.2787,
+        "recency": 0.2258,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -418,6 +436,82 @@
         "title": "資料來源：歐盟議會計畫最早在 9 月啟動 EPGenAI Hub，讓歐洲議會議員和工作人​​員能夠存取 Meta、OpenAI、Anthropic 和 Mistral 模型（Max Griera/Politico） / Sources: the EU Parliament plans to launch EPGenAI Hub as early as September, giving MEPs and staff access to Meta, OpenAI, Anthropic, and Mistral models (Max Griera/Politico)",
         "url": "https://www.techmeme.com/260719/p18",
         "source": "Techmeme",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_06afce65356e",
+      "title": "舊石器時代的「書寫的象徵先驅」？ / “Symbolic precursors to writing” from the Paleolithic?",
+      "url": "https://languagelog.ldc.upenn.edu/nll/?p=73878",
+      "primary_url": "https://languagelog.ldc.upenn.edu/nll/?p=73878",
+      "source": "Language Log",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "da3a764d3d78a828ee831d23fb11b3ee90f34c5b",
+          "title": "舊石器時代的「書寫的象徵先驅」？ / “Symbolic precursors to writing” from the Paleolithic?",
+          "url": "https://languagelog.ldc.upenn.edu/nll/?p=73878",
+          "source": "Language Log",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-20T00:20:39Z"
+        },
+        {
+          "id": "4742235e025923293486514233051174b87ff195",
+          "title": "「書寫的符號先驅」——一種傳統符號系統——來自舊石器時代？ / “Symbolic precursors to writing” — a system of conventional signs — from the Paleolithic?",
+          "url": "https://languagelog.ldc.upenn.edu/nll/?p=73878",
+          "source": "Language Log",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-20T00:20:39Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Language Log"
+      ],
+      "items": [
+        {
+          "id": "da3a764d3d78a828ee831d23fb11b3ee90f34c5b",
+          "title": "舊石器時代的「書寫的象徵先驅」？ / “Symbolic precursors to writing” from the Paleolithic?",
+          "url": "https://languagelog.ldc.upenn.edu/nll/?p=73878",
+          "source": "Language Log",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-20T00:20:39Z"
+        },
+        {
+          "id": "4742235e025923293486514233051174b87ff195",
+          "title": "「書寫的符號先驅」——一種傳統符號系統——來自舊石器時代？ / “Symbolic precursors to writing” — a system of conventional signs — from the Paleolithic?",
+          "url": "https://languagelog.ldc.upenn.edu/nll/?p=73878",
+          "source": "Language Log",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-20T00:20:39Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.3282,
+      "importance": 0.3282,
+      "importance_score": 0.3282,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.5,
+        "recency": 0.0938,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-20T00:20:39Z",
+      "latest_at": "2026-07-20T00:20:39Z",
+      "primary_item": {
+        "id": "da3a764d3d78a828ee831d23fb11b3ee90f34c5b",
+        "title": "舊石器時代的「書寫的象徵先驅」？ / “Symbolic precursors to writing” from the Paleolithic?",
+        "url": "https://languagelog.ldc.upenn.edu/nll/?p=73878",
+        "source": "Language Log",
         "source_name": "OPML RSS"
       }
     }
