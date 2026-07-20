@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-07-20T12:33:30.643233Z",
+  "generated_at": "2026-07-20T15:15:00.208822Z",
   "window_hours": 24,
   "total_items": 4,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "485 世界杯政治学：刘怡谈战后各洲思潮与三代FIFA主席如何塑造现代足球",
-      "url": "https://www.youtube.com/watch?v=e2F-a4C9WPQ",
-      "primary_url": "https://www.youtube.com/watch?v=e2F-a4C9WPQ",
-      "source": "忽左忽右",
+      "title": "Serge Lifar，或舞蹈革命 / Serge Lifar, or the Revolution of Dance",
+      "url": "https://www.youtube.com/watch?v=fAY1UBuMLGA",
+      "primary_url": "https://www.youtube.com/watch?v=fAY1UBuMLGA",
+      "source": "imineo Documentaires",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "4c9f56532a0993ee450535feadee310bc847ce7b",
+          "title": "Serge Lifar，或舞蹈革命 / Serge Lifar, or the Revolution of Dance",
+          "url": "https://www.youtube.com/watch?v=fAY1UBuMLGA",
+          "source": "imineo Documentaires",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-20T15:00:01Z"
+        },
         {
           "id": "d2652d5aca8800236859cf0ab3e8caa234e8c3ab",
           "title": "485 世界杯政治学：刘怡谈战后各洲思潮与三代FIFA主席如何塑造现代足球",
@@ -75,6 +84,15 @@
           "published_at": "2026-07-19T16:00:25Z"
         },
         {
+          "id": "72cfdbdac00430df8c53b9f8a185f8edc629a71c",
+          "title": "花了冤枉錢？10分鐘教你識破「假有機」，這樣挑布料才對！#有機棉 #綠色洗腦 #永續時尚 #敏感肌穿搭 #GOTS認證 #無毒生活 #避坑指南 #成分黨 #嬰幼兒衣物 #環保標章",
+          "url": "https://www.youtube.com/watch?v=NOvruhUHQm0",
+          "source": "扛布者",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-20T14:00:32Z"
+        },
+        {
           "id": "0ac8c9917ecdc0441700d7546fe8c99d3116f383",
           "title": "AI 免費寫程式的時代，世界為什麼更需要開源？｜Apache 軟體基金會董事 Justin Mclean【塞掐 Side Chat】E415",
           "url": "https://www.youtube.com/watch?v=qWbAyRrT-Ew",
@@ -84,33 +102,6 @@
           "published_at": "2026-07-20T04:45:06Z"
         },
         {
-          "id": "fbab92a98c40432a43f316b57f23278527a62cea",
-          "title": "4 種改善我生活的新科技設備 / 4 new tech devices that improved my life",
-          "url": "https://www.youtube.com/watch?v=ZG7MenUQJO4",
-          "source": "Reysu",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-19T13:30:36Z"
-        },
-        {
-          "id": "173a64e3bc6c465584fed0abbb16c6df8e2a085c",
-          "title": "4 款改善我生活的小眾科技設備（電子墨水版） / 4 niche tech devices that improved my life (e-ink edition)",
-          "url": "https://www.youtube.com/watch?v=ZG7MenUQJO4",
-          "source": "Reysu",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-19T13:30:36Z"
-        },
-        {
-          "id": "e593eaa5413115bf53333f27bb7f7ba5fc4b7a1f",
-          "title": "被低估的改善我生活的科技設備（電子墨水版） / Underrated tech devices that improved my life (e-ink edition)",
-          "url": "https://www.youtube.com/watch?v=ZG7MenUQJO4",
-          "source": "Reysu",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-19T13:30:36Z"
-        },
-        {
           "id": "de6313b1c7240ae7ba0d5afee8667f04ba8ef416",
           "title": "洗版各大論壇..最近讓韓網集體陷入混亂的《海賊王》神分析｜DenQ",
           "url": "https://www.youtube.com/watch?v=dKZVFnctwkw",
@@ -118,41 +109,31 @@
           "source_name": "OPML RSS",
           "site_id": "trending",
           "published_at": "2026-07-20T11:09:15Z"
-        },
-        {
-          "id": "4071dbcd5221160dfb1864c431fd3702508fb133",
-          "title": "Honda CB350RS 值得買嗎？🤔 16,000公里真實心得🏍️優缺點一次告訴你#法蘭克黃",
-          "url": "https://www.youtube.com/watch?v=2MD9Y8C8iis",
-          "source": "法蘭克黃",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-19T14:06:06Z"
-        },
-        {
-          "id": "532b6687b873225a6adaf2b5a3b44daac752bb06",
-          "title": "瘋狂的荷蘭計劃建造海上機場 / The Insane Dutch Plan to Build A Sea Airport",
-          "url": "https://www.youtube.com/watch?v=yudBtXgr5UE",
-          "source": "Hoog",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-19T13:47:56Z"
         }
       ],
-      "source_count": 14,
+      "source_count": 11,
       "source_names": [
         "Benjamin Cowen",
         "Best Documentary",
         "DenQ來了",
-        "Hoog",
         "Perspective",
-        "Reysu",
         "Timeline - World History Documentaries",
+        "imineo Documentaires",
         "【塞掐】訪談大人物",
         "忽左忽右",
-        "敏隆講堂",
-        "法蘭克黃"
+        "扛布者",
+        "敏隆講堂"
       ],
       "items": [
+        {
+          "id": "4c9f56532a0993ee450535feadee310bc847ce7b",
+          "title": "Serge Lifar，或舞蹈革命 / Serge Lifar, or the Revolution of Dance",
+          "url": "https://www.youtube.com/watch?v=fAY1UBuMLGA",
+          "source": "imineo Documentaires",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-20T15:00:01Z"
+        },
         {
           "id": "d2652d5aca8800236859cf0ab3e8caa234e8c3ab",
           "title": "485 世界杯政治学：刘怡谈战后各洲思潮与三代FIFA主席如何塑造现代足球",
@@ -217,6 +198,15 @@
           "published_at": "2026-07-19T16:00:25Z"
         },
         {
+          "id": "72cfdbdac00430df8c53b9f8a185f8edc629a71c",
+          "title": "花了冤枉錢？10分鐘教你識破「假有機」，這樣挑布料才對！#有機棉 #綠色洗腦 #永續時尚 #敏感肌穿搭 #GOTS認證 #無毒生活 #避坑指南 #成分黨 #嬰幼兒衣物 #環保標章",
+          "url": "https://www.youtube.com/watch?v=NOvruhUHQm0",
+          "source": "扛布者",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-20T14:00:32Z"
+        },
+        {
           "id": "0ac8c9917ecdc0441700d7546fe8c99d3116f383",
           "title": "AI 免費寫程式的時代，世界為什麼更需要開源？｜Apache 軟體基金會董事 Justin Mclean【塞掐 Side Chat】E415",
           "url": "https://www.youtube.com/watch?v=qWbAyRrT-Ew",
@@ -226,33 +216,6 @@
           "published_at": "2026-07-20T04:45:06Z"
         },
         {
-          "id": "fbab92a98c40432a43f316b57f23278527a62cea",
-          "title": "4 種改善我生活的新科技設備 / 4 new tech devices that improved my life",
-          "url": "https://www.youtube.com/watch?v=ZG7MenUQJO4",
-          "source": "Reysu",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-19T13:30:36Z"
-        },
-        {
-          "id": "173a64e3bc6c465584fed0abbb16c6df8e2a085c",
-          "title": "4 款改善我生活的小眾科技設備（電子墨水版） / 4 niche tech devices that improved my life (e-ink edition)",
-          "url": "https://www.youtube.com/watch?v=ZG7MenUQJO4",
-          "source": "Reysu",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-19T13:30:36Z"
-        },
-        {
-          "id": "e593eaa5413115bf53333f27bb7f7ba5fc4b7a1f",
-          "title": "被低估的改善我生活的科技設備（電子墨水版） / Underrated tech devices that improved my life (e-ink edition)",
-          "url": "https://www.youtube.com/watch?v=ZG7MenUQJO4",
-          "source": "Reysu",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-19T13:30:36Z"
-        },
-        {
           "id": "de6313b1c7240ae7ba0d5afee8667f04ba8ef416",
           "title": "洗版各大論壇..最近讓韓網集體陷入混亂的《海賊王》神分析｜DenQ",
           "url": "https://www.youtube.com/watch?v=dKZVFnctwkw",
@@ -260,48 +223,106 @@
           "source_name": "OPML RSS",
           "site_id": "trending",
           "published_at": "2026-07-20T11:09:15Z"
-        },
-        {
-          "id": "4071dbcd5221160dfb1864c431fd3702508fb133",
-          "title": "Honda CB350RS 值得買嗎？🤔 16,000公里真實心得🏍️優缺點一次告訴你#法蘭克黃",
-          "url": "https://www.youtube.com/watch?v=2MD9Y8C8iis",
-          "source": "法蘭克黃",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-19T14:06:06Z"
-        },
-        {
-          "id": "532b6687b873225a6adaf2b5a3b44daac752bb06",
-          "title": "瘋狂的荷蘭計劃建造海上機場 / The Insane Dutch Plan to Build A Sea Airport",
-          "url": "https://www.youtube.com/watch?v=yudBtXgr5UE",
-          "source": "Hoog",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-19T13:47:56Z"
         }
       ],
-      "item_count": 14,
-      "duplicate_count": 14,
-      "score": 0.7243,
-      "importance": 0.7243,
-      "importance_score": 0.7243,
+      "item_count": 11,
+      "duplicate_count": 11,
+      "score": 0.7469,
+      "importance": 0.7469,
+      "importance_score": 0.7469,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9143,
+        "recency": 0.9896,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-19T13:30:36Z",
-      "latest_at": "2026-07-20T11:09:15Z",
+      "earliest_at": "2026-07-19T16:00:25Z",
+      "latest_at": "2026-07-20T15:00:01Z",
       "primary_item": {
-        "id": "d2652d5aca8800236859cf0ab3e8caa234e8c3ab",
-        "title": "485 世界杯政治学：刘怡谈战后各洲思潮与三代FIFA主席如何塑造现代足球",
-        "url": "https://www.youtube.com/watch?v=e2F-a4C9WPQ",
-        "source": "忽左忽右",
+        "id": "4c9f56532a0993ee450535feadee310bc847ce7b",
+        "title": "Serge Lifar，或舞蹈革命 / Serge Lifar, or the Revolution of Dance",
+        "url": "https://www.youtube.com/watch?v=fAY1UBuMLGA",
+        "source": "imineo Documentaires",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_f3b9ac8ab1e3",
+      "title": "PayPal 執行長 Enrique Lores 於 2026 年初被任命重振這家支付先驅，根據他在惠普的任期，他將如何處理 Stripe 和 Advent 的收購要約（《華爾街日報》） / How PayPal CEO Enrique Lores, appointed earlier in 2026 to revive the payments pioneer, may handle Stripe and Advent's takeover offer, based on his HP tenure (Wall Street Journal)",
+      "url": "https://www.techmeme.com/260720/p14",
+      "primary_url": "https://www.techmeme.com/260720/p14",
+      "source": "Techmeme",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "3cca1a47c2bd8d54cc7802c2f60866128dcf8cdd",
+          "title": "PayPal 執行長 Enrique Lores 於 2026 年初被任命重振這家支付先驅，根據他在惠普的任期，他將如何處理 Stripe 和 Advent 的收購要約（《華爾街日報》） / How PayPal CEO Enrique Lores, appointed earlier in 2026 to revive the payments pioneer, may handle Stripe and Advent's takeover offer, based on his HP tenure (Wall Street Journal)",
+          "url": "https://www.techmeme.com/260720/p14",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-20T10:35:01Z"
+        },
+        {
+          "id": "b5105181b92c6a83413372142065d1e89bd02052",
+          "title": "PayPal 執行長 Enrique Lores 在 2 月被任命為支付先驅，他將如何處理 Stripe 和 Advent 的收購要約，基於他在惠普工作了數十年的經驗（華爾街日報） / How PayPal CEO Enrique Lores, appointed in February to revive the payments pioneer, may handle Stripe and Advent's takeover offer, based on his decades at HP (Wall Street Journal)",
+          "url": "https://www.techmeme.com/260720/p14",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-20T10:35:01Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Techmeme"
+      ],
+      "items": [
+        {
+          "id": "3cca1a47c2bd8d54cc7802c2f60866128dcf8cdd",
+          "title": "PayPal 執行長 Enrique Lores 於 2026 年初被任命重振這家支付先驅，根據他在惠普的任期，他將如何處理 Stripe 和 Advent 的收購要約（《華爾街日報》） / How PayPal CEO Enrique Lores, appointed earlier in 2026 to revive the payments pioneer, may handle Stripe and Advent's takeover offer, based on his HP tenure (Wall Street Journal)",
+          "url": "https://www.techmeme.com/260720/p14",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-20T10:35:01Z"
+        },
+        {
+          "id": "b5105181b92c6a83413372142065d1e89bd02052",
+          "title": "PayPal 執行長 Enrique Lores 在 2 月被任命為支付先驅，他將如何處理 Stripe 和 Advent 的收購要約，基於他在惠普工作了數十年的經驗（華爾街日報） / How PayPal CEO Enrique Lores, appointed in February to revive the payments pioneer, may handle Stripe and Advent's takeover offer, based on his decades at HP (Wall Street Journal)",
+          "url": "https://www.techmeme.com/260720/p14",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-20T10:35:01Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5417,
+      "importance": 0.5417,
+      "importance_score": 0.5417,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.5,
+        "recency": 0.8056,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-20T10:35:01Z",
+      "latest_at": "2026-07-20T10:35:01Z",
+      "primary_item": {
+        "id": "3cca1a47c2bd8d54cc7802c2f60866128dcf8cdd",
+        "title": "PayPal 執行長 Enrique Lores 於 2026 年初被任命重振這家支付先驅，根據他在惠普的任期，他將如何處理 Stripe 和 Advent 的收購要約（《華爾街日報》） / How PayPal CEO Enrique Lores, appointed earlier in 2026 to revive the payments pioneer, may handle Stripe and Advent's takeover offer, based on his HP tenure (Wall Street Journal)",
+        "url": "https://www.techmeme.com/260720/p14",
+        "source": "Techmeme",
         "source_name": "OPML RSS"
       }
     },
@@ -358,13 +379,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4869,
-      "importance": 0.4869,
-      "importance_score": 0.4869,
+      "score": 0.4533,
+      "importance": 0.4533,
+      "importance_score": 0.4533,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.623,
+        "recency": 0.5109,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -434,13 +455,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3409,
-      "importance": 0.3409,
-      "importance_score": 0.3409,
+      "score": 0.3073,
+      "importance": 0.3073,
+      "importance_score": 0.3073,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.1365,
+        "recency": 0.0243,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -453,82 +474,6 @@
         "id": "e98b244063e2b26448d7fb7a4528e8cc74f08a27",
         "title": "資料來源：蘋果正在 Apple Store 試行一個名為 Live Notes 的系統，該系統可讓 Genius Bar 員工製作與顧客對話的記錄和摘要（Mark Gurman/Bloomberg） / Sources: Apple is piloting a system in Apple Stores called Live Notes that lets Genius Bar staff make transcripts and summaries of conversations with customers (Mark Gurman/Bloomberg)",
         "url": "https://www.techmeme.com/260719/p8",
-        "source": "Techmeme",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_c561550341da",
-      "title": "阿里巴巴推出 2.4T 參數 Qwen3.8 Max 預覽版，稱其可與前沿 AI 模型相媲美，僅次於《神鬼寓言 5》，計劃“盡快開放重量”（彭博社） / Alibaba launches a 2.4T parameter Qwen3.8 Max preview that it says rivals frontier AI models and is second only to Fable 5, plans to make it \"open-weight soon\" (Bloomberg)",
-      "url": "https://www.techmeme.com/260719/p7",
-      "primary_url": "https://www.techmeme.com/260719/p7",
-      "source": "Techmeme",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "eebc500d0de6e25e0b2b599954b1fcda8e655b71",
-          "title": "阿里巴巴推出 2.4T 參數 Qwen3.8 Max 預覽版，稱其可與前沿 AI 模型相媲美，僅次於《神鬼寓言 5》，計劃“盡快開放重量”（彭博社） / Alibaba launches a 2.4T parameter Qwen3.8 Max preview that it says rivals frontier AI models and is second only to Fable 5, plans to make it \"open-weight soon\" (Bloomberg)",
-          "url": "https://www.techmeme.com/260719/p7",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-19T14:10:00Z"
-        },
-        {
-          "id": "aa53cd84074cb260f38fab93a7792944f540978a",
-          "title": "阿里巴巴推出2.4T參數Qwen3.8 Max預覽版，稱其堪比前沿AI模型，僅次於《神鬼寓言5》，將使其「很快開放重量」（彭博） / Alibaba launches preview of 2.4T parameter Qwen3.8 Max, says it's comparable to frontier AI models and second only to Fable 5, will make it \"open-weight soon\" (Bloomberg)",
-          "url": "https://www.techmeme.com/260719/p7",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-19T14:10:00Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Techmeme"
-      ],
-      "items": [
-        {
-          "id": "eebc500d0de6e25e0b2b599954b1fcda8e655b71",
-          "title": "阿里巴巴推出 2.4T 參數 Qwen3.8 Max 預覽版，稱其可與前沿 AI 模型相媲美，僅次於《神鬼寓言 5》，計劃“盡快開放重量”（彭博社） / Alibaba launches a 2.4T parameter Qwen3.8 Max preview that it says rivals frontier AI models and is second only to Fable 5, plans to make it \"open-weight soon\" (Bloomberg)",
-          "url": "https://www.techmeme.com/260719/p7",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-19T14:10:00Z"
-        },
-        {
-          "id": "aa53cd84074cb260f38fab93a7792944f540978a",
-          "title": "阿里巴巴推出2.4T參數Qwen3.8 Max預覽版，稱其堪比前沿AI模型，僅次於《神鬼寓言5》，將使其「很快開放重量」（彭博） / Alibaba launches preview of 2.4T parameter Qwen3.8 Max, says it's comparable to frontier AI models and second only to Fable 5, will make it \"open-weight soon\" (Bloomberg)",
-          "url": "https://www.techmeme.com/260719/p7",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-19T14:10:00Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.3201,
-      "importance": 0.3201,
-      "importance_score": 0.3201,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.5,
-        "recency": 0.067,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-19T14:10:00Z",
-      "latest_at": "2026-07-19T14:10:00Z",
-      "primary_item": {
-        "id": "eebc500d0de6e25e0b2b599954b1fcda8e655b71",
-        "title": "阿里巴巴推出 2.4T 參數 Qwen3.8 Max 預覽版，稱其可與前沿 AI 模型相媲美，僅次於《神鬼寓言 5》，計劃“盡快開放重量”（彭博社） / Alibaba launches a 2.4T parameter Qwen3.8 Max preview that it says rivals frontier AI models and is second only to Fable 5, plans to make it \"open-weight soon\" (Bloomberg)",
-        "url": "https://www.techmeme.com/260719/p7",
         "source": "Techmeme",
         "source_name": "OPML RSS"
       }
