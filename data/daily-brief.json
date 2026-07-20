@@ -1,16 +1,34 @@
 {
-  "generated_at": "2026-07-20T22:05:31.141986Z",
+  "generated_at": "2026-07-20T23:32:39.300604Z",
   "window_hours": 24,
   "total_items": 4,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "走進甘地的私人靜修院：難得進入聖雄的房間 / Inside Gandhi's Private Ashram: Rare Access To The Mahatma's Room",
-      "url": "https://www.youtube.com/watch?v=iAfTIJMxcYA",
-      "primary_url": "https://www.youtube.com/watch?v=iAfTIJMxcYA",
-      "source": "Timeline - World History Documentaries",
+      "title": "逃顶信号惊现！存储该大抄底？",
+      "url": "https://www.youtube.com/watch?v=cnc6411kPbA",
+      "primary_url": "https://www.youtube.com/watch?v=cnc6411kPbA",
+      "source": "美投侃新闻",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "dfb96cf07c508dc13dd761c3fc79ab8a67d79b1a",
+          "title": "逃顶信号惊现！存储该大抄底？",
+          "url": "https://www.youtube.com/watch?v=cnc6411kPbA",
+          "source": "美投侃新闻",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-20T23:05:30Z"
+        },
+        {
+          "id": "20146a7c148e5b9b10b6b3f44cfe949849311f14",
+          "title": "不会吧？美国真的惨到只剩下43天的原油储备了吗",
+          "url": "https://www.youtube.com/watch?v=P4qpU6O3jiE",
+          "source": "Shepherd Capital Markets",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-20T22:03:48Z"
+        },
         {
           "id": "206e04a649df363941af33ad4a910c00466bc9d5",
           "title": "走進甘地的私人靜修院：難得進入聖雄的房間 / Inside Gandhi's Private Ashram: Rare Access To The Mahatma's Room",
@@ -129,11 +147,12 @@
           "published_at": "2026-07-20T11:09:15Z"
         }
       ],
-      "source_count": 13,
+      "source_count": 15,
       "source_names": [
         "Benjamin Cowen",
         "Best Documentary",
         "DenQ來了",
+        "Shepherd Capital Markets",
         "Timeline - World History Documentaries",
         "Tom Nicholas",
         "imineo Documentaires",
@@ -141,9 +160,28 @@
         "忽左忽右",
         "扛布者",
         "敏隆講堂",
-        "有点艺思哦"
+        "有点艺思哦",
+        "美投侃新闻"
       ],
       "items": [
+        {
+          "id": "dfb96cf07c508dc13dd761c3fc79ab8a67d79b1a",
+          "title": "逃顶信号惊现！存储该大抄底？",
+          "url": "https://www.youtube.com/watch?v=cnc6411kPbA",
+          "source": "美投侃新闻",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-20T23:05:30Z"
+        },
+        {
+          "id": "20146a7c148e5b9b10b6b3f44cfe949849311f14",
+          "title": "不会吧？美国真的惨到只剩下43天的原油储备了吗",
+          "url": "https://www.youtube.com/watch?v=P4qpU6O3jiE",
+          "source": "Shepherd Capital Markets",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-20T22:03:48Z"
+        },
         {
           "id": "206e04a649df363941af33ad4a910c00466bc9d5",
           "title": "走進甘地的私人靜修院：難得進入聖雄的房間 / Inside Gandhi's Private Ashram: Rare Access To The Mahatma's Room",
@@ -262,15 +300,15 @@
           "published_at": "2026-07-20T11:09:15Z"
         }
       ],
-      "item_count": 13,
-      "duplicate_count": 13,
-      "score": 0.7365,
-      "importance": 0.7365,
-      "importance_score": 0.7365,
+      "item_count": 15,
+      "duplicate_count": 15,
+      "score": 0.7443,
+      "importance": 0.7443,
+      "importance_score": 0.7443,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.955,
+        "recency": 0.9811,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -278,12 +316,12 @@
         "multi_source"
       ],
       "earliest_at": "2026-07-20T01:24:49Z",
-      "latest_at": "2026-07-20T21:00:39Z",
+      "latest_at": "2026-07-20T23:05:30Z",
       "primary_item": {
-        "id": "206e04a649df363941af33ad4a910c00466bc9d5",
-        "title": "走進甘地的私人靜修院：難得進入聖雄的房間 / Inside Gandhi's Private Ashram: Rare Access To The Mahatma's Room",
-        "url": "https://www.youtube.com/watch?v=iAfTIJMxcYA",
-        "source": "Timeline - World History Documentaries",
+        "id": "dfb96cf07c508dc13dd761c3fc79ab8a67d79b1a",
+        "title": "逃顶信号惊现！存储该大抄底？",
+        "url": "https://www.youtube.com/watch?v=cnc6411kPbA",
+        "source": "美投侃新闻",
         "source_name": "OPML RSS"
       }
     },
@@ -340,13 +378,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4561,
-      "importance": 0.4561,
-      "importance_score": 0.4561,
+      "score": 0.438,
+      "importance": 0.438,
+      "importance_score": 0.438,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.5205,
+        "recency": 0.46,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -416,13 +454,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3677,
-      "importance": 0.3677,
-      "importance_score": 0.3677,
+      "score": 0.3496,
+      "importance": 0.3496,
+      "importance_score": 0.3496,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.2258,
+        "recency": 0.1653,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -492,13 +530,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3282,
-      "importance": 0.3282,
-      "importance_score": 0.3282,
+      "score": 0.31,
+      "importance": 0.31,
+      "importance_score": 0.31,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.0938,
+        "recency": 0.0333,
         "story_heat": 0.25
       },
       "category": "watch",
