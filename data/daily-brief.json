@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-07-20T10:17:03.378533Z",
+  "generated_at": "2026-07-20T12:33:30.643233Z",
   "window_hours": 24,
   "total_items": 4,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "Young Art【請問湖中女神……】② 討論課｜ep. 20 守護親愛的真實",
-      "url": "https://www.youtube.com/watch?v=g5oN5of6kEk",
-      "primary_url": "https://www.youtube.com/watch?v=g5oN5of6kEk",
-      "source": "敏隆講堂",
+      "title": "485 世界杯政治学：刘怡谈战后各洲思潮与三代FIFA主席如何塑造现代足球",
+      "url": "https://www.youtube.com/watch?v=e2F-a4C9WPQ",
+      "primary_url": "https://www.youtube.com/watch?v=e2F-a4C9WPQ",
+      "source": "忽左忽右",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "d2652d5aca8800236859cf0ab3e8caa234e8c3ab",
+          "title": "485 世界杯政治学：刘怡谈战后各洲思潮与三代FIFA主席如何塑造现代足球",
+          "url": "https://www.youtube.com/watch?v=e2F-a4C9WPQ",
+          "source": "忽左忽右",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-20T10:30:07Z"
+        },
         {
           "id": "cf1dac2f22e8cdd431f6c1375f4bf7bda36ba462",
           "title": "Young Art【請問湖中女神……】② 討論課｜ep. 20 守護親愛的真實",
@@ -66,33 +75,6 @@
           "published_at": "2026-07-19T16:00:25Z"
         },
         {
-          "id": "12386bf5cb262d47b8523c3b61e24a39530461f6",
-          "title": "我在世界上最昂貴的康復中心度過了一個週末 / I Spent a Weekend at the World's Most Expensive Rehab",
-          "url": "https://www.youtube.com/watch?v=Pz5i1KvhVAI",
-          "source": "Best Documentary",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-19T12:00:11Z"
-        },
-        {
-          "id": "b29b632435f1b18c560bb9cbae5729e267f5a42f",
-          "title": "塗鴉大戰：塗鴉者與治安維持者之間的戰鬥 / Graffiti Wars: Inside the Battle Between Taggers and Vigilantes",
-          "url": "https://www.youtube.com/watch?v=Yzkl-eh0JQQ",
-          "source": "Perspective",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-19T12:00:06Z"
-        },
-        {
-          "id": "0af11bf635818b4c941e40332bcca528af475db7",
-          "title": "《歌劇魅影》手法比你想像的複雜？",
-          "url": "https://www.youtube.com/watch?v=0GOsMdXX-b0",
-          "source": "音樂家的無聊人生 Musician Seacow",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-19T11:29:52Z"
-        },
-        {
           "id": "0ac8c9917ecdc0441700d7546fe8c99d3116f383",
           "title": "AI 免費寫程式的時代，世界為什麼更需要開源？｜Apache 軟體基金會董事 Justin Mclean【塞掐 Side Chat】E415",
           "url": "https://www.youtube.com/watch?v=qWbAyRrT-Ew",
@@ -129,22 +111,13 @@
           "published_at": "2026-07-19T13:30:36Z"
         },
         {
-          "id": "bcce5b95911a7c76a2711bf87543d9bd202592ad",
-          "title": "一邊讀大學一邊踢西甲！關鍵進球幫曼城拿下歐冠，0球0助卻是西班牙真正核心，超低調的世界第一後腰｜Rodri 羅德里人物誌",
-          "url": "https://www.youtube.com/watch?v=UFivencaYlM",
-          "source": "沙發人物誌",
+          "id": "de6313b1c7240ae7ba0d5afee8667f04ba8ef416",
+          "title": "洗版各大論壇..最近讓韓網集體陷入混亂的《海賊王》神分析｜DenQ",
+          "url": "https://www.youtube.com/watch?v=dKZVFnctwkw",
+          "source": "DenQ來了",
           "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-19T12:30:40Z"
-        },
-        {
-          "id": "af5c93f9cc15fbbbd892446df491d6b933ef7126",
-          "title": "台中電火圳生態步道健行5km，石岡最美水圳步道，百年水力發電廠、林蔭水圳、生態秘境超療癒｜山上加美 Lovely Hill",
-          "url": "https://www.youtube.com/watch?v=PuRgQLX2eso",
-          "source": "山上加美Lovely Hill",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-19T11:35:10Z"
+          "site_id": "trending",
+          "published_at": "2026-07-20T11:09:15Z"
         },
         {
           "id": "4071dbcd5221160dfb1864c431fd3702508fb133",
@@ -165,22 +138,30 @@
           "published_at": "2026-07-19T13:47:56Z"
         }
       ],
-      "source_count": 17,
+      "source_count": 14,
       "source_names": [
         "Benjamin Cowen",
         "Best Documentary",
+        "DenQ來了",
         "Hoog",
         "Perspective",
         "Reysu",
         "Timeline - World History Documentaries",
         "【塞掐】訪談大人物",
-        "山上加美Lovely Hill",
+        "忽左忽右",
         "敏隆講堂",
-        "沙發人物誌",
-        "法蘭克黃",
-        "音樂家的無聊人生 Musician Seacow"
+        "法蘭克黃"
       ],
       "items": [
+        {
+          "id": "d2652d5aca8800236859cf0ab3e8caa234e8c3ab",
+          "title": "485 世界杯政治学：刘怡谈战后各洲思潮与三代FIFA主席如何塑造现代足球",
+          "url": "https://www.youtube.com/watch?v=e2F-a4C9WPQ",
+          "source": "忽左忽右",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-20T10:30:07Z"
+        },
         {
           "id": "cf1dac2f22e8cdd431f6c1375f4bf7bda36ba462",
           "title": "Young Art【請問湖中女神……】② 討論課｜ep. 20 守護親愛的真實",
@@ -236,33 +217,6 @@
           "published_at": "2026-07-19T16:00:25Z"
         },
         {
-          "id": "12386bf5cb262d47b8523c3b61e24a39530461f6",
-          "title": "我在世界上最昂貴的康復中心度過了一個週末 / I Spent a Weekend at the World's Most Expensive Rehab",
-          "url": "https://www.youtube.com/watch?v=Pz5i1KvhVAI",
-          "source": "Best Documentary",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-19T12:00:11Z"
-        },
-        {
-          "id": "b29b632435f1b18c560bb9cbae5729e267f5a42f",
-          "title": "塗鴉大戰：塗鴉者與治安維持者之間的戰鬥 / Graffiti Wars: Inside the Battle Between Taggers and Vigilantes",
-          "url": "https://www.youtube.com/watch?v=Yzkl-eh0JQQ",
-          "source": "Perspective",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-19T12:00:06Z"
-        },
-        {
-          "id": "0af11bf635818b4c941e40332bcca528af475db7",
-          "title": "《歌劇魅影》手法比你想像的複雜？",
-          "url": "https://www.youtube.com/watch?v=0GOsMdXX-b0",
-          "source": "音樂家的無聊人生 Musician Seacow",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-19T11:29:52Z"
-        },
-        {
           "id": "0ac8c9917ecdc0441700d7546fe8c99d3116f383",
           "title": "AI 免費寫程式的時代，世界為什麼更需要開源？｜Apache 軟體基金會董事 Justin Mclean【塞掐 Side Chat】E415",
           "url": "https://www.youtube.com/watch?v=qWbAyRrT-Ew",
@@ -299,22 +253,13 @@
           "published_at": "2026-07-19T13:30:36Z"
         },
         {
-          "id": "bcce5b95911a7c76a2711bf87543d9bd202592ad",
-          "title": "一邊讀大學一邊踢西甲！關鍵進球幫曼城拿下歐冠，0球0助卻是西班牙真正核心，超低調的世界第一後腰｜Rodri 羅德里人物誌",
-          "url": "https://www.youtube.com/watch?v=UFivencaYlM",
-          "source": "沙發人物誌",
+          "id": "de6313b1c7240ae7ba0d5afee8667f04ba8ef416",
+          "title": "洗版各大論壇..最近讓韓網集體陷入混亂的《海賊王》神分析｜DenQ",
+          "url": "https://www.youtube.com/watch?v=dKZVFnctwkw",
+          "source": "DenQ來了",
           "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-19T12:30:40Z"
-        },
-        {
-          "id": "af5c93f9cc15fbbbd892446df491d6b933ef7126",
-          "title": "台中電火圳生態步道健行5km，石岡最美水圳步道，百年水力發電廠、林蔭水圳、生態秘境超療癒｜山上加美 Lovely Hill",
-          "url": "https://www.youtube.com/watch?v=PuRgQLX2eso",
-          "source": "山上加美Lovely Hill",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-19T11:35:10Z"
+          "site_id": "trending",
+          "published_at": "2026-07-20T11:09:15Z"
         },
         {
           "id": "4071dbcd5221160dfb1864c431fd3702508fb133",
@@ -335,28 +280,28 @@
           "published_at": "2026-07-19T13:47:56Z"
         }
       ],
-      "item_count": 17,
-      "duplicate_count": 17,
-      "score": 0.742,
-      "importance": 0.742,
-      "importance_score": 0.742,
+      "item_count": 14,
+      "duplicate_count": 14,
+      "score": 0.7243,
+      "importance": 0.7243,
+      "importance_score": 0.7243,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9733,
+        "recency": 0.9143,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-19T11:29:52Z",
-      "latest_at": "2026-07-20T09:38:33Z",
+      "earliest_at": "2026-07-19T13:30:36Z",
+      "latest_at": "2026-07-20T11:09:15Z",
       "primary_item": {
-        "id": "cf1dac2f22e8cdd431f6c1375f4bf7bda36ba462",
-        "title": "Young Art【請問湖中女神……】② 討論課｜ep. 20 守護親愛的真實",
-        "url": "https://www.youtube.com/watch?v=g5oN5of6kEk",
-        "source": "敏隆講堂",
+        "id": "d2652d5aca8800236859cf0ab3e8caa234e8c3ab",
+        "title": "485 世界杯政治学：刘怡谈战后各洲思潮与三代FIFA主席如何塑造现代足球",
+        "url": "https://www.youtube.com/watch?v=e2F-a4C9WPQ",
+        "source": "忽左忽右",
         "source_name": "OPML RSS"
       }
     },
@@ -413,13 +358,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5153,
-      "importance": 0.5153,
-      "importance_score": 0.5153,
+      "score": 0.4869,
+      "importance": 0.4869,
+      "importance_score": 0.4869,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7178,
+        "recency": 0.623,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -489,13 +434,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3694,
-      "importance": 0.3694,
-      "importance_score": 0.3694,
+      "score": 0.3409,
+      "importance": 0.3409,
+      "importance_score": 0.3409,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.2312,
+        "recency": 0.1365,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -565,13 +510,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3485,
-      "importance": 0.3485,
-      "importance_score": 0.3485,
+      "score": 0.3201,
+      "importance": 0.3201,
+      "importance_score": 0.3201,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.1618,
+        "recency": 0.067,
         "story_heat": 0.25
       },
       "category": "watch",
