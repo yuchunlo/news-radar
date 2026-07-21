@@ -1,16 +1,34 @@
 {
-  "generated_at": "2026-07-21T11:24:51.301968Z",
+  "generated_at": "2026-07-21T12:56:43.095763Z",
   "window_hours": 24,
   "total_items": 4,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "文斯史泰普斯：Tiny Desk 音樂會 / Vince Staples: Tiny Desk Concert",
-      "url": "https://www.youtube.com/watch?v=mbRycM-xgxo",
-      "primary_url": "https://www.youtube.com/watch?v=mbRycM-xgxo",
-      "source": "NPR Music",
+      "title": "為什麼日本人喜歡生雞蛋 / Why Japan Loves Raw Eggs",
+      "url": "https://www.youtube.com/watch?v=sBjINxmSG30",
+      "primary_url": "https://www.youtube.com/watch?v=sBjINxmSG30",
+      "source": "Life Where I'm From",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "f60141751b7a8827cf51890767a1a28575f15d4a",
+          "title": "為什麼日本人喜歡生雞蛋 / Why Japan Loves Raw Eggs",
+          "url": "https://www.youtube.com/watch?v=sBjINxmSG30",
+          "source": "Life Where I'm From",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-21T11:49:11Z"
+        },
+        {
+          "id": "4ae24e7a1f0c62f78e5acbec024bc4dcd7dbd455",
+          "title": "拆解歌劇魅影（上）為何這麼好聽？致敬莫札特？",
+          "url": "https://www.youtube.com/watch?v=WFJ4FVU2oiw",
+          "source": "音樂家的無聊人生 Musician Seacow",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-21T11:00:06Z"
+        },
         {
           "id": "ec0c005768071f12d60957cdc0a31d7da7b038cf",
           "title": "文斯史泰普斯：Tiny Desk 音樂會 / Vince Staples: Tiny Desk Concert",
@@ -84,15 +102,6 @@
           "published_at": "2026-07-20T15:00:01Z"
         },
         {
-          "id": "b4cfcfa0a4d20b651630b16df7bcdb498746b8a6",
-          "title": "歌劇魅影為什麼這麼好看？拆解比你想像還複雜的手法",
-          "url": "https://www.youtube.com/watch?v=WFJ4FVU2oiw",
-          "source": "音樂家的無聊人生 Musician Seacow",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-20T12:30:46Z"
-        },
-        {
           "id": "fc12f2f2440fd8d633648827f323601eb2ef253b",
           "title": "自杀式降价背后！日本牛丼「御三家」吉野家、松屋、食其家，跨越半世纪的生死对决",
           "url": "https://www.youtube.com/watch?v=VTKpfY3fR-Y",
@@ -138,11 +147,12 @@
           "published_at": "2026-07-21T07:00:32Z"
         }
       ],
-      "source_count": 14,
+      "source_count": 15,
       "source_names": [
         "Best Documentary",
         "DenQ來了",
         "GOATFANS",
+        "Life Where I'm From",
         "Match Economy",
         "NPR Music",
         "Shepherd Capital Markets",
@@ -157,6 +167,24 @@
       ],
       "items": [
         {
+          "id": "f60141751b7a8827cf51890767a1a28575f15d4a",
+          "title": "為什麼日本人喜歡生雞蛋 / Why Japan Loves Raw Eggs",
+          "url": "https://www.youtube.com/watch?v=sBjINxmSG30",
+          "source": "Life Where I'm From",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-21T11:49:11Z"
+        },
+        {
+          "id": "4ae24e7a1f0c62f78e5acbec024bc4dcd7dbd455",
+          "title": "拆解歌劇魅影（上）為何這麼好聽？致敬莫札特？",
+          "url": "https://www.youtube.com/watch?v=WFJ4FVU2oiw",
+          "source": "音樂家的無聊人生 Musician Seacow",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-21T11:00:06Z"
+        },
+        {
           "id": "ec0c005768071f12d60957cdc0a31d7da7b038cf",
           "title": "文斯史泰普斯：Tiny Desk 音樂會 / Vince Staples: Tiny Desk Concert",
           "url": "https://www.youtube.com/watch?v=mbRycM-xgxo",
@@ -229,15 +257,6 @@
           "published_at": "2026-07-20T15:00:01Z"
         },
         {
-          "id": "b4cfcfa0a4d20b651630b16df7bcdb498746b8a6",
-          "title": "歌劇魅影為什麼這麼好看？拆解比你想像還複雜的手法",
-          "url": "https://www.youtube.com/watch?v=WFJ4FVU2oiw",
-          "source": "音樂家的無聊人生 Musician Seacow",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-20T12:30:46Z"
-        },
-        {
           "id": "fc12f2f2440fd8d633648827f323601eb2ef253b",
           "title": "自杀式降价背后！日本牛丼「御三家」吉野家、松屋、食其家，跨越半世纪的生死对决",
           "url": "https://www.youtube.com/watch?v=VTKpfY3fR-Y",
@@ -283,28 +302,28 @@
           "published_at": "2026-07-21T07:00:32Z"
         }
       ],
-      "item_count": 14,
-      "duplicate_count": 14,
-      "score": 0.7199,
-      "importance": 0.7199,
-      "importance_score": 0.7199,
+      "item_count": 15,
+      "duplicate_count": 15,
+      "score": 0.7359,
+      "importance": 0.7359,
+      "importance_score": 0.7359,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.8997,
+        "recency": 0.9531,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-20T12:30:46Z",
-      "latest_at": "2026-07-21T11:00:01Z",
+      "earliest_at": "2026-07-20T14:00:32Z",
+      "latest_at": "2026-07-21T11:49:11Z",
       "primary_item": {
-        "id": "ec0c005768071f12d60957cdc0a31d7da7b038cf",
-        "title": "文斯史泰普斯：Tiny Desk 音樂會 / Vince Staples: Tiny Desk Concert",
-        "url": "https://www.youtube.com/watch?v=mbRycM-xgxo",
-        "source": "NPR Music",
+        "id": "f60141751b7a8827cf51890767a1a28575f15d4a",
+        "title": "為什麼日本人喜歡生雞蛋 / Why Japan Loves Raw Eggs",
+        "url": "https://www.youtube.com/watch?v=sBjINxmSG30",
+        "source": "Life Where I'm From",
         "source_name": "OPML RSS"
       }
     },
@@ -361,13 +380,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4677,
-      "importance": 0.4677,
-      "importance_score": 0.4677,
+      "score": 0.4486,
+      "importance": 0.4486,
+      "importance_score": 0.4486,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.5591,
+        "recency": 0.4953,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -437,13 +456,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4561,
-      "importance": 0.4561,
-      "importance_score": 0.4561,
+      "score": 0.437,
+      "importance": 0.437,
+      "importance_score": 0.437,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.5204,
+        "recency": 0.4566,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -513,13 +532,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3669,
-      "importance": 0.3669,
-      "importance_score": 0.3669,
+      "score": 0.3477,
+      "importance": 0.3477,
+      "importance_score": 0.3477,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.6396,
+        "recency": 0.5758,
         "story_heat": 0.25
       },
       "category": "watch",
