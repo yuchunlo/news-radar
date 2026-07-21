@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-07-21T15:10:41.457546Z",
+  "generated_at": "2026-07-21T16:56:36.526537Z",
   "window_hours": 24,
-  "total_items": 5,
+  "total_items": 6,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "「為什麼我要向 Anthropic 投入 3500 萬美元」——Guy Oseary / ‘Why I Put $35 Million Into Anthropic’ — Guy Oseary",
-      "url": "https://www.youtube.com/watch?v=xmohy_z0Kic",
-      "primary_url": "https://www.youtube.com/watch?v=xmohy_z0Kic",
-      "source": "Tim Ferriss",
+      "title": "認識那些用無保護的拳頭戰鬥的人 / Meet the Men Who Fight with Unprotected Fists",
+      "url": "https://www.youtube.com/watch?v=OtD5NFlknsE",
+      "primary_url": "https://www.youtube.com/watch?v=OtD5NFlknsE",
+      "source": "Best Documentary",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "98dd7ffcdbbb7144e9ebacf527684988978642e7",
+          "title": "認識那些用無保護的拳頭戰鬥的人 / Meet the Men Who Fight with Unprotected Fists",
+          "url": "https://www.youtube.com/watch?v=OtD5NFlknsE",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-21T15:17:07Z"
+        },
         {
           "id": "1f5abb894d6e9758856b2050fa46090f461823af",
           "title": "「為什麼我要向 Anthropic 投入 3500 萬美元」——Guy Oseary / ‘Why I Put $35 Million Into Anthropic’ — Guy Oseary",
@@ -147,7 +156,7 @@
           "published_at": "2026-07-21T07:00:32Z"
         }
       ],
-      "source_count": 15,
+      "source_count": 16,
       "source_names": [
         "Best Documentary",
         "DenQ來了",
@@ -166,6 +175,15 @@
       ],
       "items": [
         {
+          "id": "98dd7ffcdbbb7144e9ebacf527684988978642e7",
+          "title": "認識那些用無保護的拳頭戰鬥的人 / Meet the Men Who Fight with Unprotected Fists",
+          "url": "https://www.youtube.com/watch?v=OtD5NFlknsE",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-21T15:17:07Z"
+        },
+        {
           "id": "1f5abb894d6e9758856b2050fa46090f461823af",
           "title": "「為什麼我要向 Anthropic 投入 3500 萬美元」——Guy Oseary / ‘Why I Put $35 Million Into Anthropic’ — Guy Oseary",
           "url": "https://www.youtube.com/watch?v=xmohy_z0Kic",
@@ -301,15 +319,15 @@
           "published_at": "2026-07-21T07:00:32Z"
         }
       ],
-      "item_count": 15,
-      "duplicate_count": 15,
-      "score": 0.7363,
-      "importance": 0.7363,
-      "importance_score": 0.7363,
+      "item_count": 16,
+      "duplicate_count": 16,
+      "score": 0.7293,
+      "importance": 0.7293,
+      "importance_score": 0.7293,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9543,
+        "recency": 0.9309,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -317,12 +335,88 @@
         "multi_source"
       ],
       "earliest_at": "2026-07-20T17:01:57Z",
-      "latest_at": "2026-07-21T14:04:54Z",
+      "latest_at": "2026-07-21T15:17:07Z",
       "primary_item": {
-        "id": "1f5abb894d6e9758856b2050fa46090f461823af",
-        "title": "「為什麼我要向 Anthropic 投入 3500 萬美元」——Guy Oseary / ‘Why I Put $35 Million Into Anthropic’ — Guy Oseary",
-        "url": "https://www.youtube.com/watch?v=xmohy_z0Kic",
-        "source": "Tim Ferriss",
+        "id": "98dd7ffcdbbb7144e9ebacf527684988978642e7",
+        "title": "認識那些用無保護的拳頭戰鬥的人 / Meet the Men Who Fight with Unprotected Fists",
+        "url": "https://www.youtube.com/watch?v=OtD5NFlknsE",
+        "source": "Best Documentary",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_a7d05f559b8b",
+      "title": "Google 推出了 Gemini 3.6 Flash、3.5 Flash-Lite 和 3.5 Flash Cyber​​，並表示已經開始為 Gemini 4 進行「迄今為止最雄心勃勃的預訓練」（Abner Li/9to5Google） / Google launches Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber, and says it has started its \"most ambitious pre-training run yet\" for Gemini 4 (Abner Li/9to5Google)",
+      "url": "https://www.techmeme.com/260721/p25",
+      "primary_url": "https://www.techmeme.com/260721/p25",
+      "source": "Techmeme",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "bf0e0016212c9b9064c0bbebb231ab9fb672bdc7",
+          "title": "Google 推出了 Gemini 3.6 Flash、3.5 Flash-Lite 和 3.5 Flash Cyber​​，並表示已經開始為 Gemini 4 進行「迄今為止最雄心勃勃的預訓練」（Abner Li/9to5Google） / Google launches Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber, and says it has started its \"most ambitious pre-training run yet\" for Gemini 4 (Abner Li/9to5Google)",
+          "url": "https://www.techmeme.com/260721/p25",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-21T15:10:06Z"
+        },
+        {
+          "id": "bbe7adb24275ab9817c7eddd108db821686d6914",
+          "title": "Google 對 Gemini 3.6 Flash 的定價低於 3.5 Flash，輸入代幣為 1.50 美元/100 萬美元，輸出代幣為 7.50 美元/100 萬美元； Gemini 3.5 Flash-Lite 售價為 0.30 美元和 2.50 美元（Abner Li/9to5） / Google prices Gemini 3.6 Flash lower than 3.5 Flash, at $1.50/1M input tokens and $7.50/1M output tokens; Gemini 3.5 Flash-Lite is priced at $0.30 and $2.50 (Abner Li/9to5Google)",
+          "url": "https://www.techmeme.com/260721/p25",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-21T15:10:06Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Techmeme"
+      ],
+      "items": [
+        {
+          "id": "bf0e0016212c9b9064c0bbebb231ab9fb672bdc7",
+          "title": "Google 推出了 Gemini 3.6 Flash、3.5 Flash-Lite 和 3.5 Flash Cyber​​，並表示已經開始為 Gemini 4 進行「迄今為止最雄心勃勃的預訓練」（Abner Li/9to5Google） / Google launches Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber, and says it has started its \"most ambitious pre-training run yet\" for Gemini 4 (Abner Li/9to5Google)",
+          "url": "https://www.techmeme.com/260721/p25",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-21T15:10:06Z"
+        },
+        {
+          "id": "bbe7adb24275ab9817c7eddd108db821686d6914",
+          "title": "Google 對 Gemini 3.6 Flash 的定價低於 3.5 Flash，輸入代幣為 1.50 美元/100 萬美元，輸出代幣為 7.50 美元/100 萬美元； Gemini 3.5 Flash-Lite 售價為 0.30 美元和 2.50 美元（Abner Li/9to5） / Google prices Gemini 3.6 Flash lower than 3.5 Flash, at $1.50/1M input tokens and $7.50/1M output tokens; Gemini 3.5 Flash-Lite is priced at $0.30 and $2.50 (Abner Li/9to5Google)",
+          "url": "https://www.techmeme.com/260721/p25",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-21T15:10:06Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5778,
+      "importance": 0.5778,
+      "importance_score": 0.5778,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.5,
+        "recency": 0.926,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-21T15:10:06Z",
+      "latest_at": "2026-07-21T15:10:06Z",
+      "primary_item": {
+        "id": "bf0e0016212c9b9064c0bbebb231ab9fb672bdc7",
+        "title": "Google 推出了 Gemini 3.6 Flash、3.5 Flash-Lite 和 3.5 Flash Cyber​​，並表示已經開始為 Gemini 4 進行「迄今為止最雄心勃勃的預訓練」（Abner Li/9to5Google） / Google launches Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber, and says it has started its \"most ambitious pre-training run yet\" for Gemini 4 (Abner Li/9to5Google)",
+        "url": "https://www.techmeme.com/260721/p25",
+        "source": "Techmeme",
         "source_name": "OPML RSS"
       }
     },
@@ -379,13 +473,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4207,
-      "importance": 0.4207,
-      "importance_score": 0.4207,
+      "score": 0.3986,
+      "importance": 0.3986,
+      "importance_score": 0.3986,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.4023,
+        "recency": 0.3287,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -455,13 +549,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4091,
-      "importance": 0.4091,
-      "importance_score": 0.4091,
+      "score": 0.387,
+      "importance": 0.387,
+      "importance_score": 0.387,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.3636,
+        "recency": 0.29,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -531,13 +625,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3198,
-      "importance": 0.3198,
-      "importance_score": 0.3198,
+      "score": 0.2978,
+      "importance": 0.2978,
+      "importance_score": 0.2978,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.4827,
+        "recency": 0.4092,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -607,13 +701,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.2853,
-      "importance": 0.2853,
-      "importance_score": 0.2853,
+      "score": 0.2632,
+      "importance": 0.2632,
+      "importance_score": 0.2632,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.3676,
+        "recency": 0.294,
         "story_heat": 0.25
       },
       "category": "watch",
