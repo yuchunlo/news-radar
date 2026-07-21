@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-07-21T09:11:39.368240Z",
+  "generated_at": "2026-07-21T11:24:51.301968Z",
   "window_hours": 24,
   "total_items": 4,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "Janet Jackson 的这首神曲，功劳到底归谁？",
-      "url": "https://www.youtube.com/watch?v=TNbNxuax3uw",
-      "primary_url": "https://www.youtube.com/watch?v=TNbNxuax3uw",
-      "source": "GOATFANS",
+      "title": "文斯史泰普斯：Tiny Desk 音樂會 / Vince Staples: Tiny Desk Concert",
+      "url": "https://www.youtube.com/watch?v=mbRycM-xgxo",
+      "primary_url": "https://www.youtube.com/watch?v=mbRycM-xgxo",
+      "source": "NPR Music",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "ec0c005768071f12d60957cdc0a31d7da7b038cf",
+          "title": "文斯史泰普斯：Tiny Desk 音樂會 / Vince Staples: Tiny Desk Concert",
+          "url": "https://www.youtube.com/watch?v=mbRycM-xgxo",
+          "source": "NPR Music",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-21T09:00:25Z"
+        },
         {
           "id": "534c80a5c446ea203561551356460bdc5acb1174",
           "title": "Janet Jackson 的这首神曲，功劳到底归谁？",
@@ -84,33 +93,6 @@
           "published_at": "2026-07-20T12:30:46Z"
         },
         {
-          "id": "d2652d5aca8800236859cf0ab3e8caa234e8c3ab",
-          "title": "485 世界杯政治学：刘怡谈战后各洲思潮与三代FIFA主席如何塑造现代足球",
-          "url": "https://www.youtube.com/watch?v=e2F-a4C9WPQ",
-          "source": "忽左忽右",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-20T10:30:07Z"
-        },
-        {
-          "id": "cf1dac2f22e8cdd431f6c1375f4bf7bda36ba462",
-          "title": "Young Art【請問湖中女神……】② 討論課｜ep. 20 守護親愛的真實",
-          "url": "https://www.youtube.com/watch?v=g5oN5of6kEk",
-          "source": "敏隆講堂",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-20T09:38:33Z"
-        },
-        {
-          "id": "51c29337ecb45696088970f0fa4354ab2b7fb447",
-          "title": "Young Art【請問湖中女神……】① 展覽課｜ep. 19 新北市美術館：棉線與石頭──從文物尋找真實",
-          "url": "https://www.youtube.com/watch?v=VjCmUO6qcbk",
-          "source": "敏隆講堂",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-20T09:38:29Z"
-        },
-        {
           "id": "fc12f2f2440fd8d633648827f323601eb2ef253b",
           "title": "自杀式降价背后！日本牛丼「御三家」吉野家、松屋、食其家，跨越半世纪的生死对决",
           "url": "https://www.youtube.com/watch?v=VTKpfY3fR-Y",
@@ -138,6 +120,15 @@
           "published_at": "2026-07-20T14:00:32Z"
         },
         {
+          "id": "292038e05f3add304b5dcee34f7681007b5b33d5",
+          "title": "看完頭皮發麻..北韓手機最恐怖的不是不能上網..而是？｜DenQ",
+          "url": "https://www.youtube.com/watch?v=Qd_iQcLgiPk",
+          "source": "DenQ來了",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-21T11:00:01Z"
+        },
+        {
           "id": "abf774888073751cec4e8c0337b1bd4bb73efc35",
           "title": "为什么中东越乱，拉美反而越赚钱？",
           "url": "https://www.youtube.com/watch?v=Dm46C12JoUc",
@@ -145,30 +136,20 @@
           "source_name": "OPML RSS",
           "site_id": "trending",
           "published_at": "2026-07-21T07:00:32Z"
-        },
-        {
-          "id": "de6313b1c7240ae7ba0d5afee8667f04ba8ef416",
-          "title": "洗版各大論壇..最近讓韓網集體陷入混亂的《海賊王》神分析｜DenQ",
-          "url": "https://www.youtube.com/watch?v=dKZVFnctwkw",
-          "source": "DenQ來了",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-20T11:09:15Z"
         }
       ],
-      "source_count": 16,
+      "source_count": 14,
       "source_names": [
         "Best Documentary",
         "DenQ來了",
         "GOATFANS",
         "Match Economy",
+        "NPR Music",
         "Shepherd Capital Markets",
         "Timeline - World History Documentaries",
         "Tom Nicholas",
         "imineo Documentaires",
-        "忽左忽右",
         "扛布者",
-        "敏隆講堂",
         "有点艺思哦",
         "美投侃新闻",
         "胖貓堂主",
@@ -176,6 +157,15 @@
       ],
       "items": [
         {
+          "id": "ec0c005768071f12d60957cdc0a31d7da7b038cf",
+          "title": "文斯史泰普斯：Tiny Desk 音樂會 / Vince Staples: Tiny Desk Concert",
+          "url": "https://www.youtube.com/watch?v=mbRycM-xgxo",
+          "source": "NPR Music",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-21T09:00:25Z"
+        },
+        {
           "id": "534c80a5c446ea203561551356460bdc5acb1174",
           "title": "Janet Jackson 的这首神曲，功劳到底归谁？",
           "url": "https://www.youtube.com/watch?v=TNbNxuax3uw",
@@ -248,33 +238,6 @@
           "published_at": "2026-07-20T12:30:46Z"
         },
         {
-          "id": "d2652d5aca8800236859cf0ab3e8caa234e8c3ab",
-          "title": "485 世界杯政治学：刘怡谈战后各洲思潮与三代FIFA主席如何塑造现代足球",
-          "url": "https://www.youtube.com/watch?v=e2F-a4C9WPQ",
-          "source": "忽左忽右",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-20T10:30:07Z"
-        },
-        {
-          "id": "cf1dac2f22e8cdd431f6c1375f4bf7bda36ba462",
-          "title": "Young Art【請問湖中女神……】② 討論課｜ep. 20 守護親愛的真實",
-          "url": "https://www.youtube.com/watch?v=g5oN5of6kEk",
-          "source": "敏隆講堂",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-20T09:38:33Z"
-        },
-        {
-          "id": "51c29337ecb45696088970f0fa4354ab2b7fb447",
-          "title": "Young Art【請問湖中女神……】① 展覽課｜ep. 19 新北市美術館：棉線與石頭──從文物尋找真實",
-          "url": "https://www.youtube.com/watch?v=VjCmUO6qcbk",
-          "source": "敏隆講堂",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-20T09:38:29Z"
-        },
-        {
           "id": "fc12f2f2440fd8d633648827f323601eb2ef253b",
           "title": "自杀式降价背后！日本牛丼「御三家」吉野家、松屋、食其家，跨越半世纪的生死对决",
           "url": "https://www.youtube.com/watch?v=VTKpfY3fR-Y",
@@ -302,6 +265,15 @@
           "published_at": "2026-07-20T14:00:32Z"
         },
         {
+          "id": "292038e05f3add304b5dcee34f7681007b5b33d5",
+          "title": "看完頭皮發麻..北韓手機最恐怖的不是不能上網..而是？｜DenQ",
+          "url": "https://www.youtube.com/watch?v=Qd_iQcLgiPk",
+          "source": "DenQ來了",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-21T11:00:01Z"
+        },
+        {
           "id": "abf774888073751cec4e8c0337b1bd4bb73efc35",
           "title": "为什么中东越乱，拉美反而越赚钱？",
           "url": "https://www.youtube.com/watch?v=Dm46C12JoUc",
@@ -309,39 +281,30 @@
           "source_name": "OPML RSS",
           "site_id": "trending",
           "published_at": "2026-07-21T07:00:32Z"
-        },
-        {
-          "id": "de6313b1c7240ae7ba0d5afee8667f04ba8ef416",
-          "title": "洗版各大論壇..最近讓韓網集體陷入混亂的《海賊王》神分析｜DenQ",
-          "url": "https://www.youtube.com/watch?v=dKZVFnctwkw",
-          "source": "DenQ來了",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-20T11:09:15Z"
         }
       ],
-      "item_count": 16,
-      "duplicate_count": 16,
-      "score": 0.7476,
-      "importance": 0.7476,
-      "importance_score": 0.7476,
+      "item_count": 14,
+      "duplicate_count": 14,
+      "score": 0.7199,
+      "importance": 0.7199,
+      "importance_score": 0.7199,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9919,
+        "recency": 0.8997,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-20T09:38:29Z",
-      "latest_at": "2026-07-21T09:00:01Z",
+      "earliest_at": "2026-07-20T12:30:46Z",
+      "latest_at": "2026-07-21T11:00:01Z",
       "primary_item": {
-        "id": "534c80a5c446ea203561551356460bdc5acb1174",
-        "title": "Janet Jackson 的这首神曲，功劳到底归谁？",
-        "url": "https://www.youtube.com/watch?v=TNbNxuax3uw",
-        "source": "GOATFANS",
+        "id": "ec0c005768071f12d60957cdc0a31d7da7b038cf",
+        "title": "文斯史泰普斯：Tiny Desk 音樂會 / Vince Staples: Tiny Desk Concert",
+        "url": "https://www.youtube.com/watch?v=mbRycM-xgxo",
+        "source": "NPR Music",
         "source_name": "OPML RSS"
       }
     },
@@ -398,13 +361,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4955,
-      "importance": 0.4955,
-      "importance_score": 0.4955,
+      "score": 0.4677,
+      "importance": 0.4677,
+      "importance_score": 0.4677,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6516,
+        "recency": 0.5591,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -417,6 +380,82 @@
         "id": "d8ed51d56d6c26cac21724b3bae5bbdd9f3e37bb",
         "title": "韓國報告稱，7 月前 20 天晶片出口量較 2025 年同期成長 180.6%；電腦相關產品出貨量成長約 232%（Heesu Lee/彭博社） / South Korea reports that, for the first 20 days of July, chip exports climbed 180.6% from the same period in 2025; computer-related product shipments grew ~232% (Heesu Lee/Bloomberg)",
         "url": "https://www.techmeme.com/260720/p43",
+        "source": "Techmeme",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_353de7303d98",
+      "title": "谷歌的人工智慧搜尋正在危及開放網路； Cloudflare：2025 年 6 月至 2026 年 4 月期間，許多行業企業網站的人流量下降了約 40%（Kate Conger/紐約時報） / Google's AI Search is endangering the open web; Cloudflare: between June 2025 and April 2026, human traffic to sites of businesses in many industries fell ~40% (Kate Conger/New York Times)",
+      "url": "https://www.techmeme.com/260720/p42",
+      "primary_url": "https://www.techmeme.com/260720/p42",
+      "source": "Techmeme",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "34d8ca628e63b3adbc94b05067c7a2a2359413a2",
+          "title": "谷歌的人工智慧搜尋正在危及開放網路； Cloudflare：2025 年 6 月至 2026 年 4 月期間，許多行業企業網站的人流量下降了約 40%（Kate Conger/紐約時報） / Google's AI Search is endangering the open web; Cloudflare: between June 2025 and April 2026, human traffic to sites of businesses in many industries fell ~40% (Kate Conger/New York Times)",
+          "url": "https://www.techmeme.com/260720/p42",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-20T23:54:15Z"
+        },
+        {
+          "id": "30671d579819a5485b91d63eacecefc6f05d24b6",
+          "title": "谷歌的人工智慧搜尋如何危及開放網路； Cloudflare 表示，2025 年 6 月至 2026 年 4 月期間，許多企業網站的人流下降了約 40%（Kate Conger/紐約時報） / How Google's AI Search is endangering the open web; Cloudflare says that between June 2025 and April 2026 human traffic to many businesses' websites fell ~40% (Kate Conger/New York Times)",
+          "url": "https://www.techmeme.com/260720/p42",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-20T23:54:15Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Techmeme"
+      ],
+      "items": [
+        {
+          "id": "34d8ca628e63b3adbc94b05067c7a2a2359413a2",
+          "title": "谷歌的人工智慧搜尋正在危及開放網路； Cloudflare：2025 年 6 月至 2026 年 4 月期間，許多行業企業網站的人流量下降了約 40%（Kate Conger/紐約時報） / Google's AI Search is endangering the open web; Cloudflare: between June 2025 and April 2026, human traffic to sites of businesses in many industries fell ~40% (Kate Conger/New York Times)",
+          "url": "https://www.techmeme.com/260720/p42",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-20T23:54:15Z"
+        },
+        {
+          "id": "30671d579819a5485b91d63eacecefc6f05d24b6",
+          "title": "谷歌的人工智慧搜尋如何危及開放網路； Cloudflare 表示，2025 年 6 月至 2026 年 4 月期間，許多企業網站的人流下降了約 40%（Kate Conger/紐約時報） / How Google's AI Search is endangering the open web; Cloudflare says that between June 2025 and April 2026 human traffic to many businesses' websites fell ~40% (Kate Conger/New York Times)",
+          "url": "https://www.techmeme.com/260720/p42",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-20T23:54:15Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.4561,
+      "importance": 0.4561,
+      "importance_score": 0.4561,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.5,
+        "recency": 0.5204,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-20T23:54:15Z",
+      "latest_at": "2026-07-20T23:54:15Z",
+      "primary_item": {
+        "id": "34d8ca628e63b3adbc94b05067c7a2a2359413a2",
+        "title": "谷歌的人工智慧搜尋正在危及開放網路； Cloudflare：2025 年 6 月至 2026 年 4 月期間，許多行業企業網站的人流量下降了約 40%（Kate Conger/紐約時報） / Google's AI Search is endangering the open web; Cloudflare: between June 2025 and April 2026, human traffic to sites of businesses in many industries fell ~40% (Kate Conger/New York Times)",
+        "url": "https://www.techmeme.com/260720/p42",
         "source": "Techmeme",
         "source_name": "OPML RSS"
       }
@@ -474,13 +513,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3946,
-      "importance": 0.3946,
-      "importance_score": 0.3946,
+      "score": 0.3669,
+      "importance": 0.3669,
+      "importance_score": 0.3669,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.7321,
+        "recency": 0.6396,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -494,82 +533,6 @@
         "title": "【商業數據圖解】2019-2025台灣「零售電商TOP 20」集團版圖變化",
         "url": "https://www.mirai.com.tw/changes-in-taiwans-top-20-retail-e-commerce-group-landscape-2019-2025",
         "source": "未來流通研究所｜商業情報資訊站",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_f3b9ac8ab1e3",
-      "title": "PayPal 執行長 Enrique Lores 於 2026 年初被任命重振這家支付先驅，根據他在惠普的任期，他將如何處理 Stripe 和 Advent 的收購要約（《華爾街日報》） / How PayPal CEO Enrique Lores, appointed earlier in 2026 to revive the payments pioneer, may handle Stripe and Advent's takeover offer, based on his HP tenure (Wall Street Journal)",
-      "url": "https://www.techmeme.com/260720/p14",
-      "primary_url": "https://www.techmeme.com/260720/p14",
-      "source": "Techmeme",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "3cca1a47c2bd8d54cc7802c2f60866128dcf8cdd",
-          "title": "PayPal 執行長 Enrique Lores 於 2026 年初被任命重振這家支付先驅，根據他在惠普的任期，他將如何處理 Stripe 和 Advent 的收購要約（《華爾街日報》） / How PayPal CEO Enrique Lores, appointed earlier in 2026 to revive the payments pioneer, may handle Stripe and Advent's takeover offer, based on his HP tenure (Wall Street Journal)",
-          "url": "https://www.techmeme.com/260720/p14",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-20T10:35:01Z"
-        },
-        {
-          "id": "b5105181b92c6a83413372142065d1e89bd02052",
-          "title": "PayPal 執行長 Enrique Lores 在 2 月被任命為支付先驅，他將如何處理 Stripe 和 Advent 的收購要約，基於他在惠普工作了數十年的經驗（華爾街日報） / How PayPal CEO Enrique Lores, appointed in February to revive the payments pioneer, may handle Stripe and Advent's takeover offer, based on his decades at HP (Wall Street Journal)",
-          "url": "https://www.techmeme.com/260720/p14",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-20T10:35:01Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Techmeme"
-      ],
-      "items": [
-        {
-          "id": "3cca1a47c2bd8d54cc7802c2f60866128dcf8cdd",
-          "title": "PayPal 執行長 Enrique Lores 於 2026 年初被任命重振這家支付先驅，根據他在惠普的任期，他將如何處理 Stripe 和 Advent 的收購要約（《華爾街日報》） / How PayPal CEO Enrique Lores, appointed earlier in 2026 to revive the payments pioneer, may handle Stripe and Advent's takeover offer, based on his HP tenure (Wall Street Journal)",
-          "url": "https://www.techmeme.com/260720/p14",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-20T10:35:01Z"
-        },
-        {
-          "id": "b5105181b92c6a83413372142065d1e89bd02052",
-          "title": "PayPal 執行長 Enrique Lores 在 2 月被任命為支付先驅，他將如何處理 Stripe 和 Advent 的收購要約，基於他在惠普工作了數十年的經驗（華爾街日報） / How PayPal CEO Enrique Lores, appointed in February to revive the payments pioneer, may handle Stripe and Advent's takeover offer, based on his decades at HP (Wall Street Journal)",
-          "url": "https://www.techmeme.com/260720/p14",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-20T10:35:01Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.3174,
-      "importance": 0.3174,
-      "importance_score": 0.3174,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.5,
-        "recency": 0.0579,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-20T10:35:01Z",
-      "latest_at": "2026-07-20T10:35:01Z",
-      "primary_item": {
-        "id": "3cca1a47c2bd8d54cc7802c2f60866128dcf8cdd",
-        "title": "PayPal 執行長 Enrique Lores 於 2026 年初被任命重振這家支付先驅，根據他在惠普的任期，他將如何處理 Stripe 和 Advent 的收購要約（《華爾街日報》） / How PayPal CEO Enrique Lores, appointed earlier in 2026 to revive the payments pioneer, may handle Stripe and Advent's takeover offer, based on his HP tenure (Wall Street Journal)",
-        "url": "https://www.techmeme.com/260720/p14",
-        "source": "Techmeme",
         "source_name": "OPML RSS"
       }
     }
