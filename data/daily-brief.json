@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-07-21T06:12:31.861256Z",
+  "generated_at": "2026-07-21T09:11:39.368240Z",
   "window_hours": 24,
   "total_items": 4,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "逃顶信号惊现！存储该大抄底？",
-      "url": "https://www.youtube.com/watch?v=cnc6411kPbA",
-      "primary_url": "https://www.youtube.com/watch?v=cnc6411kPbA",
-      "source": "美投侃新闻",
+      "title": "Janet Jackson 的这首神曲，功劳到底归谁？",
+      "url": "https://www.youtube.com/watch?v=TNbNxuax3uw",
+      "primary_url": "https://www.youtube.com/watch?v=TNbNxuax3uw",
+      "source": "GOATFANS",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "534c80a5c446ea203561551356460bdc5acb1174",
+          "title": "Janet Jackson 的这首神曲，功劳到底归谁？",
+          "url": "https://www.youtube.com/watch?v=TNbNxuax3uw",
+          "source": "GOATFANS",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-21T09:00:01Z"
+        },
         {
           "id": "dfb96cf07c508dc13dd761c3fc79ab8a67d79b1a",
           "title": "逃顶信号惊现！存储该大抄底？",
@@ -66,6 +75,15 @@
           "published_at": "2026-07-20T15:00:01Z"
         },
         {
+          "id": "b4cfcfa0a4d20b651630b16df7bcdb498746b8a6",
+          "title": "歌劇魅影為什麼這麼好看？拆解比你想像還複雜的手法",
+          "url": "https://www.youtube.com/watch?v=WFJ4FVU2oiw",
+          "source": "音樂家的無聊人生 Musician Seacow",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-20T12:30:46Z"
+        },
+        {
           "id": "d2652d5aca8800236859cf0ab3e8caa234e8c3ab",
           "title": "485 世界杯政治学：刘怡谈战后各洲思潮与三代FIFA主席如何塑造现代足球",
           "url": "https://www.youtube.com/watch?v=e2F-a4C9WPQ",
@@ -93,13 +111,13 @@
           "published_at": "2026-07-20T09:38:29Z"
         },
         {
-          "id": "e13f101b51ec43fb356dcf7ede7529784a94c9d9",
-          "title": "YouTube 最極端的特技演員 Shoenice 是誰 / Who is Shoenice, YouTube's Most Extreme Stuntman",
-          "url": "https://www.youtube.com/watch?v=1j69EiNa8hw",
-          "source": "Best Documentary",
+          "id": "fc12f2f2440fd8d633648827f323601eb2ef253b",
+          "title": "自杀式降价背后！日本牛丼「御三家」吉野家、松屋、食其家，跨越半世纪的生死对决",
+          "url": "https://www.youtube.com/watch?v=VTKpfY3fR-Y",
+          "source": "胖貓堂主",
           "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-20T08:42:54Z"
+          "site_id": "opmlrss",
+          "published_at": "2026-07-21T03:45:02Z"
         },
         {
           "id": "ca309718fb5825aa4f4b083da9cbe4011a018739",
@@ -120,6 +138,15 @@
           "published_at": "2026-07-20T14:00:32Z"
         },
         {
+          "id": "abf774888073751cec4e8c0337b1bd4bb73efc35",
+          "title": "为什么中东越乱，拉美反而越赚钱？",
+          "url": "https://www.youtube.com/watch?v=Dm46C12JoUc",
+          "source": "Match Economy",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-21T07:00:32Z"
+        },
+        {
           "id": "de6313b1c7240ae7ba0d5afee8667f04ba8ef416",
           "title": "洗版各大論壇..最近讓韓網集體陷入混亂的《海賊王》神分析｜DenQ",
           "url": "https://www.youtube.com/watch?v=dKZVFnctwkw",
@@ -129,10 +156,12 @@
           "published_at": "2026-07-20T11:09:15Z"
         }
       ],
-      "source_count": 13,
+      "source_count": 16,
       "source_names": [
         "Best Documentary",
         "DenQ來了",
+        "GOATFANS",
+        "Match Economy",
         "Shepherd Capital Markets",
         "Timeline - World History Documentaries",
         "Tom Nicholas",
@@ -141,9 +170,20 @@
         "扛布者",
         "敏隆講堂",
         "有点艺思哦",
-        "美投侃新闻"
+        "美投侃新闻",
+        "胖貓堂主",
+        "音樂家的無聊人生 Musician Seacow"
       ],
       "items": [
+        {
+          "id": "534c80a5c446ea203561551356460bdc5acb1174",
+          "title": "Janet Jackson 的这首神曲，功劳到底归谁？",
+          "url": "https://www.youtube.com/watch?v=TNbNxuax3uw",
+          "source": "GOATFANS",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-21T09:00:01Z"
+        },
         {
           "id": "dfb96cf07c508dc13dd761c3fc79ab8a67d79b1a",
           "title": "逃顶信号惊现！存储该大抄底？",
@@ -199,6 +239,15 @@
           "published_at": "2026-07-20T15:00:01Z"
         },
         {
+          "id": "b4cfcfa0a4d20b651630b16df7bcdb498746b8a6",
+          "title": "歌劇魅影為什麼這麼好看？拆解比你想像還複雜的手法",
+          "url": "https://www.youtube.com/watch?v=WFJ4FVU2oiw",
+          "source": "音樂家的無聊人生 Musician Seacow",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-20T12:30:46Z"
+        },
+        {
           "id": "d2652d5aca8800236859cf0ab3e8caa234e8c3ab",
           "title": "485 世界杯政治学：刘怡谈战后各洲思潮与三代FIFA主席如何塑造现代足球",
           "url": "https://www.youtube.com/watch?v=e2F-a4C9WPQ",
@@ -226,13 +275,13 @@
           "published_at": "2026-07-20T09:38:29Z"
         },
         {
-          "id": "e13f101b51ec43fb356dcf7ede7529784a94c9d9",
-          "title": "YouTube 最極端的特技演員 Shoenice 是誰 / Who is Shoenice, YouTube's Most Extreme Stuntman",
-          "url": "https://www.youtube.com/watch?v=1j69EiNa8hw",
-          "source": "Best Documentary",
+          "id": "fc12f2f2440fd8d633648827f323601eb2ef253b",
+          "title": "自杀式降价背后！日本牛丼「御三家」吉野家、松屋、食其家，跨越半世纪的生死对决",
+          "url": "https://www.youtube.com/watch?v=VTKpfY3fR-Y",
+          "source": "胖貓堂主",
           "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-20T08:42:54Z"
+          "site_id": "opmlrss",
+          "published_at": "2026-07-21T03:45:02Z"
         },
         {
           "id": "ca309718fb5825aa4f4b083da9cbe4011a018739",
@@ -253,6 +302,15 @@
           "published_at": "2026-07-20T14:00:32Z"
         },
         {
+          "id": "abf774888073751cec4e8c0337b1bd4bb73efc35",
+          "title": "为什么中东越乱，拉美反而越赚钱？",
+          "url": "https://www.youtube.com/watch?v=Dm46C12JoUc",
+          "source": "Match Economy",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-21T07:00:32Z"
+        },
+        {
           "id": "de6313b1c7240ae7ba0d5afee8667f04ba8ef416",
           "title": "洗版各大論壇..最近讓韓網集體陷入混亂的《海賊王》神分析｜DenQ",
           "url": "https://www.youtube.com/watch?v=dKZVFnctwkw",
@@ -262,28 +320,28 @@
           "published_at": "2026-07-20T11:09:15Z"
         }
       ],
-      "item_count": 13,
-      "duplicate_count": 13,
-      "score": 0.661,
-      "importance": 0.661,
-      "importance_score": 0.661,
+      "item_count": 16,
+      "duplicate_count": 16,
+      "score": 0.7476,
+      "importance": 0.7476,
+      "importance_score": 0.7476,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7035,
+        "recency": 0.9919,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-20T08:42:54Z",
-      "latest_at": "2026-07-20T23:05:30Z",
+      "earliest_at": "2026-07-20T09:38:29Z",
+      "latest_at": "2026-07-21T09:00:01Z",
       "primary_item": {
-        "id": "dfb96cf07c508dc13dd761c3fc79ab8a67d79b1a",
-        "title": "逃顶信号惊现！存储该大抄底？",
-        "url": "https://www.youtube.com/watch?v=cnc6411kPbA",
-        "source": "美投侃新闻",
+        "id": "534c80a5c446ea203561551356460bdc5acb1174",
+        "title": "Janet Jackson 的这首神曲，功劳到底归谁？",
+        "url": "https://www.youtube.com/watch?v=TNbNxuax3uw",
+        "source": "GOATFANS",
         "source_name": "OPML RSS"
       }
     },
@@ -340,13 +398,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5328,
-      "importance": 0.5328,
-      "importance_score": 0.5328,
+      "score": 0.4955,
+      "importance": 0.4955,
+      "importance_score": 0.4955,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.776,
+        "recency": 0.6516,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -416,13 +474,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4319,
-      "importance": 0.4319,
-      "importance_score": 0.4319,
+      "score": 0.3946,
+      "importance": 0.3946,
+      "importance_score": 0.3946,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.8564,
+        "recency": 0.7321,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -492,13 +550,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3547,
-      "importance": 0.3547,
-      "importance_score": 0.3547,
+      "score": 0.3174,
+      "importance": 0.3174,
+      "importance_score": 0.3174,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.1823,
+        "recency": 0.0579,
         "story_heat": 0.25
       },
       "category": "watch",

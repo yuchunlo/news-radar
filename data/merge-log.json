@@ -1,15 +1,8 @@
 {
-  "generated_at": "2026-07-21T06:12:31.861256Z",
+  "generated_at": "2026-07-21T09:11:39.368240Z",
   "merge_strategy": "url_or_title_similarity_v0_6",
-  "total_events": 15,
+  "total_events": 18,
   "events": [
-    {
-      "story_id": "story_774f7412d1a3",
-      "item_id": "51c29337ecb45696088970f0fa4354ab2b7fb447",
-      "merged_into": "story_774f7412d1a3",
-      "reason": "canonical_url",
-      "similarity": 1.0
-    },
     {
       "story_id": "story_774f7412d1a3",
       "item_id": "cf1dac2f22e8cdd431f6c1375f4bf7bda36ba462",
@@ -34,6 +27,13 @@
     {
       "story_id": "story_774f7412d1a3",
       "item_id": "de6313b1c7240ae7ba0d5afee8667f04ba8ef416",
+      "merged_into": "story_774f7412d1a3",
+      "reason": "canonical_url",
+      "similarity": 1.0
+    },
+    {
+      "story_id": "story_774f7412d1a3",
+      "item_id": "b4cfcfa0a4d20b651630b16df7bcdb498746b8a6",
       "merged_into": "story_774f7412d1a3",
       "reason": "canonical_url",
       "similarity": 1.0
@@ -96,7 +96,7 @@
     },
     {
       "story_id": "story_b8af6a210b66",
-      "item_id": "4b2be6b8163297a9b69d520693223cb3d17c90d4",
+      "item_id": "d8ed51d56d6c26cac21724b3bae5bbdd9f3e37bb",
       "merged_into": "story_b8af6a210b66",
       "reason": "canonical_url",
       "similarity": 1.0
@@ -107,6 +107,27 @@
       "merged_into": "story_f1dcf73db6f1",
       "reason": "title_similarity",
       "similarity": 0.8788
+    },
+    {
+      "story_id": "story_774f7412d1a3",
+      "item_id": "fc12f2f2440fd8d633648827f323601eb2ef253b",
+      "merged_into": "story_774f7412d1a3",
+      "reason": "canonical_url",
+      "similarity": 1.0
+    },
+    {
+      "story_id": "story_774f7412d1a3",
+      "item_id": "abf774888073751cec4e8c0337b1bd4bb73efc35",
+      "merged_into": "story_774f7412d1a3",
+      "reason": "canonical_url",
+      "similarity": 1.0
+    },
+    {
+      "story_id": "story_774f7412d1a3",
+      "item_id": "534c80a5c446ea203561551356460bdc5acb1174",
+      "merged_into": "story_774f7412d1a3",
+      "reason": "canonical_url",
+      "similarity": 1.0
     }
   ]
 }
