@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-22T16:24:06.620554Z",
+  "generated_at": "2026-07-22T17:50:08.794531Z",
   "window_hours": 24,
-  "total_items": 4,
+  "total_items": 2,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
@@ -84,6 +84,24 @@
           "published_at": "2026-07-21T20:55:24Z"
         },
         {
+          "id": "7ee71fe6af11bbfe17cf98740a667179301f2975",
+          "title": "選擇生就是選擇死 / The Choice to Live Is the Choice to Die",
+          "url": "https://www.youtube.com/watch?v=Dz-W5N0sMJ0",
+          "source": "Pursuit of Wonder",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-22T17:03:31Z"
+        },
+        {
+          "id": "79bbcb4ee67505ee4e1bc027af764ac82e86932b",
+          "title": "海灣國家將如何圍堵伊朗 / How The Gulf States Will Checkmate Iran",
+          "url": "https://www.youtube.com/watch?v=ZPu3kezlC08",
+          "source": "RealLifeLore",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-22T16:44:25Z"
+        },
+        {
           "id": "06f2aabd5ebf9b4cac9432f090c5763fe705c7e4",
           "title": "白俄羅斯地緣政治概況 / Geopolitical Portrait of Belarus",
           "url": "https://www.youtube.com/watch?v=rbdA0t-2koM",
@@ -93,15 +111,6 @@
           "published_at": "2026-07-22T15:49:25Z"
         },
         {
-          "id": "8b28a4beef818f71464c7cfe85d71dc37e90b7b7",
-          "title": "夜光||崩壞：星軌動畫 / Nightglow || Honkai: Star Rail Animation",
-          "url": "https://www.youtube.com/watch?v=Zakm1IUthC4",
-          "source": "Finn Tran",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-21T17:00:15Z"
-        },
-        {
           "id": "24865c3b964773ec0bda3e231416a3d9fa70b407",
           "title": "解密！AI如何報颱風？路徑更準但風雨預報是弱點？｜公視P# 新聞實驗室",
           "url": "https://www.youtube.com/watch?v=F0oyBWdAAZ4",
@@ -109,24 +118,16 @@
           "source_name": "OPML RSS",
           "site_id": "trending",
           "published_at": "2026-07-22T13:00:06Z"
-        },
-        {
-          "id": "3229bd04903b55343dc93bb08fc65533ae74f4e1",
-          "title": "解密！AI如何報颱風？路徑更準但風雨預報是弱點？【新聞實驗室】",
-          "url": "https://www.youtube.com/watch?v=F0oyBWdAAZ4",
-          "source": "公視P#新聞實驗室",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-22T11:03:44Z"
         }
       ],
       "source_count": 12,
       "source_names": [
         "Benjamin Cowen",
         "Best Documentary",
-        "Finn Tran",
         "Good Times Bad Times",
         "Inspiraggio",
+        "Pursuit of Wonder",
+        "RealLifeLore",
         "Shepherd Capital Markets",
         "Tim Ferriss",
         "Timeline - World History Documentaries",
@@ -208,6 +209,24 @@
           "published_at": "2026-07-21T20:55:24Z"
         },
         {
+          "id": "7ee71fe6af11bbfe17cf98740a667179301f2975",
+          "title": "選擇生就是選擇死 / The Choice to Live Is the Choice to Die",
+          "url": "https://www.youtube.com/watch?v=Dz-W5N0sMJ0",
+          "source": "Pursuit of Wonder",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-22T17:03:31Z"
+        },
+        {
+          "id": "79bbcb4ee67505ee4e1bc027af764ac82e86932b",
+          "title": "海灣國家將如何圍堵伊朗 / How The Gulf States Will Checkmate Iran",
+          "url": "https://www.youtube.com/watch?v=ZPu3kezlC08",
+          "source": "RealLifeLore",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-22T16:44:25Z"
+        },
+        {
           "id": "06f2aabd5ebf9b4cac9432f090c5763fe705c7e4",
           "title": "白俄羅斯地緣政治概況 / Geopolitical Portrait of Belarus",
           "url": "https://www.youtube.com/watch?v=rbdA0t-2koM",
@@ -217,15 +236,6 @@
           "published_at": "2026-07-22T15:49:25Z"
         },
         {
-          "id": "8b28a4beef818f71464c7cfe85d71dc37e90b7b7",
-          "title": "夜光||崩壞：星軌動畫 / Nightglow || Honkai: Star Rail Animation",
-          "url": "https://www.youtube.com/watch?v=Zakm1IUthC4",
-          "source": "Finn Tran",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-21T17:00:15Z"
-        },
-        {
           "id": "24865c3b964773ec0bda3e231416a3d9fa70b407",
           "title": "解密！AI如何報颱風？路徑更準但風雨預報是弱點？｜公視P# 新聞實驗室",
           "url": "https://www.youtube.com/watch?v=F0oyBWdAAZ4",
@@ -233,115 +243,30 @@
           "source_name": "OPML RSS",
           "site_id": "trending",
           "published_at": "2026-07-22T13:00:06Z"
-        },
-        {
-          "id": "3229bd04903b55343dc93bb08fc65533ae74f4e1",
-          "title": "解密！AI如何報颱風？路徑更準但風雨預報是弱點？【新聞實驗室】",
-          "url": "https://www.youtube.com/watch?v=F0oyBWdAAZ4",
-          "source": "公視P#新聞實驗室",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-22T11:03:44Z"
         }
       ],
       "item_count": 12,
       "duplicate_count": 12,
-      "score": 0.7357,
-      "importance": 0.7357,
-      "importance_score": 0.7357,
+      "score": 0.7178,
+      "importance": 0.7178,
+      "importance_score": 0.7178,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9523,
+        "recency": 0.8925,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-21T17:00:15Z",
-      "latest_at": "2026-07-22T15:49:25Z",
+      "earliest_at": "2026-07-21T20:55:24Z",
+      "latest_at": "2026-07-22T17:03:31Z",
       "primary_item": {
         "id": "0896da3e8fe0995c2328c9e0409f067e9da91645",
         "title": "玻利維亞：艾馬拉人的戰鬥 / Bolivie : le combat du peuple Aymara",
         "url": "https://www.youtube.com/watch?v=j5NEtWm17yk",
         "source": "imineo Documentaires",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_0bed3624ec7c",
-      "title": "資料來源：OpenAI 將預計到 2030 年的雲端支出從今年稍早的約 600B 美元提高到約 750B 美元，這反映了新的雲端協議（Anissa Gardizy/華爾街日報） / Source: OpenAI raised its projected cloud spending to ~$750B through 2030, up from a projection of ~$600B earlier this year, reflecting new cloud agreements (Anissa Gardizy/Wall Street Journal)",
-      "url": "https://www.techmeme.com/260722/p20",
-      "primary_url": "https://www.techmeme.com/260722/p20",
-      "source": "Techmeme",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "bb13898b0ee1497a7a24229cb0953d1afa6917f5",
-          "title": "資料來源：OpenAI 將預計到 2030 年的雲端支出從今年稍早的約 600B 美元提高到約 750B 美元，這反映了新的雲端協議（Anissa Gardizy/華爾街日報） / Source: OpenAI raised its projected cloud spending to ~$750B through 2030, up from a projection of ~$600B earlier this year, reflecting new cloud agreements (Anissa Gardizy/Wall Street Journal)",
-          "url": "https://www.techmeme.com/260722/p20",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-22T13:21:09Z"
-        },
-        {
-          "id": "98ddfa88c7a71ed1f5009a8b71b5dbf27708e53f",
-          "title": "資料來源：OpenAI 將其預計的雲端支出從 2026 年初的約 600B 美元提高到 2030 年約 750B 美元，反映了其新的雲端運算交易（Anissa Gardizy/華爾街日報） / Source: OpenAI raised its projected cloud spending to ~$750B through 2030, up from its ~$600B projection earlier in 2026, reflecting its new cloud compute deals (Anissa Gardizy/Wall Street Journal)",
-          "url": "https://www.techmeme.com/260722/p20",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-22T13:21:09Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Techmeme"
-      ],
-      "items": [
-        {
-          "id": "bb13898b0ee1497a7a24229cb0953d1afa6917f5",
-          "title": "資料來源：OpenAI 將預計到 2030 年的雲端支出從今年稍早的約 600B 美元提高到約 750B 美元，這反映了新的雲端協議（Anissa Gardizy/華爾街日報） / Source: OpenAI raised its projected cloud spending to ~$750B through 2030, up from a projection of ~$600B earlier this year, reflecting new cloud agreements (Anissa Gardizy/Wall Street Journal)",
-          "url": "https://www.techmeme.com/260722/p20",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-22T13:21:09Z"
-        },
-        {
-          "id": "98ddfa88c7a71ed1f5009a8b71b5dbf27708e53f",
-          "title": "資料來源：OpenAI 將其預計的雲端支出從 2026 年初的約 600B 美元提高到 2030 年約 750B 美元，反映了其新的雲端運算交易（Anissa Gardizy/華爾街日報） / Source: OpenAI raised its projected cloud spending to ~$750B through 2030, up from its ~$600B projection earlier in 2026, reflecting its new cloud compute deals (Anissa Gardizy/Wall Street Journal)",
-          "url": "https://www.techmeme.com/260722/p20",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-22T13:21:09Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.5619,
-      "importance": 0.5619,
-      "importance_score": 0.5619,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.5,
-        "recency": 0.8729,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-22T13:21:09Z",
-      "latest_at": "2026-07-22T13:21:09Z",
-      "primary_item": {
-        "id": "bb13898b0ee1497a7a24229cb0953d1afa6917f5",
-        "title": "資料來源：OpenAI 將預計到 2030 年的雲端支出從今年稍早的約 600B 美元提高到約 750B 美元，這反映了新的雲端協議（Anissa Gardizy/華爾街日報） / Source: OpenAI raised its projected cloud spending to ~$750B through 2030, up from a projection of ~$600B earlier this year, reflecting new cloud agreements (Anissa Gardizy/Wall Street Journal)",
-        "url": "https://www.techmeme.com/260722/p20",
-        "source": "Techmeme",
         "source_name": "OPML RSS"
       }
     },
@@ -416,13 +341,13 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.52,
-      "importance": 0.52,
-      "importance_score": 0.52,
+      "score": 0.5021,
+      "importance": 0.5021,
+      "importance_score": 0.5021,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.9833,
+        "recency": 0.9235,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -436,82 +361,6 @@
         "title": "他批聯準會「把每一天當危機」　會升息嗎？從華許恩師看三大不同",
         "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014463",
         "source": "商業周刊 當期雜誌開放文章",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_4bacbc059ed3",
-      "title": "OpenAI 表示，其模型，包括 GPT-5.6 Sol 和“功能更強大的預發布模型”，在 OpenAI 測試其網絡功能時突破了 Hugging Face（Ina Fried/Axios） / OpenAI says its models, including GPT-5.6 Sol and \"an even more capable pre-release model\", breached Hugging Face while OpenAI tested their cyber capabilities (Ina Fried/Axios)",
-      "url": "https://www.techmeme.com/260721/p43",
-      "primary_url": "https://www.techmeme.com/260721/p43",
-      "source": "Techmeme",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "a35cf487d3f19c92849f6a8e2283a2a7d5ac6ea7",
-          "title": "OpenAI 表示，其模型，包括 GPT-5.6 Sol 和“功能更強大的預發布模型”，在 OpenAI 測試其網絡功能時突破了 Hugging Face（Ina Fried/Axios） / OpenAI says its models, including GPT-5.6 Sol and \"an even more capable pre-release model\", breached Hugging Face while OpenAI tested their cyber capabilities (Ina Fried/Axios)",
-          "url": "https://www.techmeme.com/260721/p43",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-21T19:55:02Z"
-        },
-        {
-          "id": "901d4f4027640148cc9c2bdd1182b4c5499eaeb7",
-          "title": "OpenAI 表示 Hugging Face 漏洞是由其模型組合驅動的，包括 GPT-5.6 Sol 和「更強大的預發布模型」（Ina Fried/Axios） / OpenAI says the Hugging Face breach was driven by a combination of its models, including GPT-5.6 Sol and \"an even more capable pre-release model\" (Ina Fried/Axios)",
-          "url": "https://www.techmeme.com/260721/p43",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-21T19:55:02Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Techmeme"
-      ],
-      "items": [
-        {
-          "id": "a35cf487d3f19c92849f6a8e2283a2a7d5ac6ea7",
-          "title": "OpenAI 表示，其模型，包括 GPT-5.6 Sol 和“功能更強大的預發布模型”，在 OpenAI 測試其網絡功能時突破了 Hugging Face（Ina Fried/Axios） / OpenAI says its models, including GPT-5.6 Sol and \"an even more capable pre-release model\", breached Hugging Face while OpenAI tested their cyber capabilities (Ina Fried/Axios)",
-          "url": "https://www.techmeme.com/260721/p43",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-21T19:55:02Z"
-        },
-        {
-          "id": "901d4f4027640148cc9c2bdd1182b4c5499eaeb7",
-          "title": "OpenAI 表示 Hugging Face 漏洞是由其模型組合驅動的，包括 GPT-5.6 Sol 和「更強大的預發布模型」（Ina Fried/Axios） / OpenAI says the Hugging Face breach was driven by a combination of its models, including GPT-5.6 Sol and \"an even more capable pre-release model\" (Ina Fried/Axios)",
-          "url": "https://www.techmeme.com/260721/p43",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-21T19:55:02Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.3439,
-      "importance": 0.3439,
-      "importance_score": 0.3439,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.5,
-        "recency": 0.1465,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-21T19:55:02Z",
-      "latest_at": "2026-07-21T19:55:02Z",
-      "primary_item": {
-        "id": "a35cf487d3f19c92849f6a8e2283a2a7d5ac6ea7",
-        "title": "OpenAI 表示，其模型，包括 GPT-5.6 Sol 和“功能更強大的預發布模型”，在 OpenAI 測試其網絡功能時突破了 Hugging Face（Ina Fried/Axios） / OpenAI says its models, including GPT-5.6 Sol and \"an even more capable pre-release model\", breached Hugging Face while OpenAI tested their cyber capabilities (Ina Fried/Axios)",
-        "url": "https://www.techmeme.com/260721/p43",
-        "source": "Techmeme",
         "source_name": "OPML RSS"
       }
     }
