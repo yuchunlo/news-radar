@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T12:12:51.374054Z",
+  "generated_at": "2026-07-22T14:35:29.565722Z",
   "window_hours": 24,
   "total_items": 3,
   "items": [
@@ -84,15 +84,6 @@
           "published_at": "2026-07-21T15:17:07Z"
         },
         {
-          "id": "1f5abb894d6e9758856b2050fa46090f461823af",
-          "title": "「為什麼我要向 Anthropic 投入 3500 萬美元」——Guy Oseary / ‘Why I Put $35 Million Into Anthropic’ — Guy Oseary",
-          "url": "https://www.youtube.com/watch?v=xmohy_z0Kic",
-          "source": "Tim Ferriss",
-          "source_name": "OPML RSS",
-          "site_id": "blog",
-          "published_at": "2026-07-21T14:04:54Z"
-        },
-        {
           "id": "8b28a4beef818f71464c7cfe85d71dc37e90b7b7",
           "title": "夜光||崩壞：星軌動畫 / Nightglow || Honkai: Star Rail Animation",
           "url": "https://www.youtube.com/watch?v=Zakm1IUthC4",
@@ -111,7 +102,7 @@
           "published_at": "2026-07-22T11:03:44Z"
         }
       ],
-      "source_count": 11,
+      "source_count": 10,
       "source_names": [
         "Benjamin Cowen",
         "Best Documentary",
@@ -197,15 +188,6 @@
           "published_at": "2026-07-21T15:17:07Z"
         },
         {
-          "id": "1f5abb894d6e9758856b2050fa46090f461823af",
-          "title": "「為什麼我要向 Anthropic 投入 3500 萬美元」——Guy Oseary / ‘Why I Put $35 Million Into Anthropic’ — Guy Oseary",
-          "url": "https://www.youtube.com/watch?v=xmohy_z0Kic",
-          "source": "Tim Ferriss",
-          "source_name": "OPML RSS",
-          "site_id": "blog",
-          "published_at": "2026-07-21T14:04:54Z"
-        },
-        {
           "id": "8b28a4beef818f71464c7cfe85d71dc37e90b7b7",
           "title": "夜光||崩壞：星軌動畫 / Nightglow || Honkai: Star Rail Animation",
           "url": "https://www.youtube.com/watch?v=Zakm1IUthC4",
@@ -224,22 +206,22 @@
           "published_at": "2026-07-22T11:03:44Z"
         }
       ],
-      "item_count": 11,
-      "duplicate_count": 11,
-      "score": 0.7473,
-      "importance": 0.7473,
-      "importance_score": 0.7473,
+      "item_count": 10,
+      "duplicate_count": 10,
+      "score": 0.7176,
+      "importance": 0.7176,
+      "importance_score": 0.7176,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9911,
+        "recency": 0.8921,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-21T14:04:54Z",
+      "earliest_at": "2026-07-21T15:17:07Z",
       "latest_at": "2026-07-22T12:00:03Z",
       "primary_item": {
         "id": "e33c68c09fe3a610a614e80dad771779d03f01d5",
@@ -396,13 +378,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3963,
-      "importance": 0.3963,
-      "importance_score": 0.3963,
+      "score": 0.3666,
+      "importance": 0.3666,
+      "importance_score": 0.3666,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.321,
+        "recency": 0.2219,
         "story_heat": 0.25
       },
       "category": "watch",
