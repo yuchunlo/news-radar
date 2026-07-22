@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T21:19:55.203253Z",
+  "generated_at": "2026-07-22T22:34:55.604266Z",
   "window_hours": 24,
   "total_items": 2,
   "items": [
@@ -57,24 +57,6 @@
           "published_at": "2026-07-21T23:18:52Z"
         },
         {
-          "id": "c240ecd0be2ef62d158316df016de3a9b94deee6",
-          "title": "從失去一切到 40 億美元的東山再起 — Guy Oseary / From Losing Everything to a $4 Billion Comeback — Guy Oseary",
-          "url": "https://www.youtube.com/watch?v=4eSa9nlwvnw",
-          "source": "Tim Ferriss",
-          "source_name": "OPML RSS",
-          "site_id": "blog",
-          "published_at": "2026-07-21T22:00:34Z"
-        },
-        {
-          "id": "76fc01c83b68be327bd8fe435159e1b2a896f8b1",
-          "title": "纳斯达克反弹是见底还是死猫跳？学会用这4个指标判断",
-          "url": "https://www.youtube.com/watch?v=J5-6XtG5NhM",
-          "source": "Shepherd Capital Markets",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-21T21:27:22Z"
-        },
-        {
           "id": "b4322e9c285976315daeacc6d8f6a353f2d899ce",
           "title": "否認死亡 / Death Denial",
           "url": "https://www.youtube.com/watch?v=Dz-W5N0sMJ0",
@@ -86,6 +68,15 @@
         {
           "id": "7ee71fe6af11bbfe17cf98740a667179301f2975",
           "title": "選擇生就是選擇死 / The Choice to Live Is the Choice to Die",
+          "url": "https://www.youtube.com/watch?v=Dz-W5N0sMJ0",
+          "source": "Pursuit of Wonder",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-22T17:03:31Z"
+        },
+        {
+          "id": "03ced5e9a32f23b60c398a6edc3ce089720a45c2",
+          "title": "人生最令人不安的真相 / This Most Uncomfortable Truth of Life",
           "url": "https://www.youtube.com/watch?v=Dz-W5N0sMJ0",
           "source": "Pursuit of Wonder",
           "source_name": "OPML RSS",
@@ -129,15 +120,13 @@
           "published_at": "2026-07-22T13:00:06Z"
         }
       ],
-      "source_count": 13,
+      "source_count": 12,
       "source_names": [
         "Benjamin Cowen",
         "Best Documentary",
         "Good Times Bad Times",
         "Pursuit of Wonder",
         "RealLifeLore",
-        "Shepherd Capital Markets",
-        "Tim Ferriss",
         "imineo Documentaires",
         "公視P#新聞實驗室",
         "美投侃新闻"
@@ -189,24 +178,6 @@
           "published_at": "2026-07-21T23:18:52Z"
         },
         {
-          "id": "c240ecd0be2ef62d158316df016de3a9b94deee6",
-          "title": "從失去一切到 40 億美元的東山再起 — Guy Oseary / From Losing Everything to a $4 Billion Comeback — Guy Oseary",
-          "url": "https://www.youtube.com/watch?v=4eSa9nlwvnw",
-          "source": "Tim Ferriss",
-          "source_name": "OPML RSS",
-          "site_id": "blog",
-          "published_at": "2026-07-21T22:00:34Z"
-        },
-        {
-          "id": "76fc01c83b68be327bd8fe435159e1b2a896f8b1",
-          "title": "纳斯达克反弹是见底还是死猫跳？学会用这4个指标判断",
-          "url": "https://www.youtube.com/watch?v=J5-6XtG5NhM",
-          "source": "Shepherd Capital Markets",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-21T21:27:22Z"
-        },
-        {
           "id": "b4322e9c285976315daeacc6d8f6a353f2d899ce",
           "title": "否認死亡 / Death Denial",
           "url": "https://www.youtube.com/watch?v=Dz-W5N0sMJ0",
@@ -218,6 +189,15 @@
         {
           "id": "7ee71fe6af11bbfe17cf98740a667179301f2975",
           "title": "選擇生就是選擇死 / The Choice to Live Is the Choice to Die",
+          "url": "https://www.youtube.com/watch?v=Dz-W5N0sMJ0",
+          "source": "Pursuit of Wonder",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-22T17:03:31Z"
+        },
+        {
+          "id": "03ced5e9a32f23b60c398a6edc3ce089720a45c2",
+          "title": "人生最令人不安的真相 / This Most Uncomfortable Truth of Life",
           "url": "https://www.youtube.com/watch?v=Dz-W5N0sMJ0",
           "source": "Pursuit of Wonder",
           "source_name": "OPML RSS",
@@ -261,22 +241,22 @@
           "published_at": "2026-07-22T13:00:06Z"
         }
       ],
-      "item_count": 13,
-      "duplicate_count": 13,
-      "score": 0.7459,
-      "importance": 0.7459,
-      "importance_score": 0.7459,
+      "item_count": 12,
+      "duplicate_count": 12,
+      "score": 0.7303,
+      "importance": 0.7303,
+      "importance_score": 0.7303,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9865,
+        "recency": 0.9344,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-21T21:27:22Z",
+      "earliest_at": "2026-07-21T23:18:52Z",
       "latest_at": "2026-07-22T21:00:28Z",
       "primary_item": {
         "id": "7f68ca421b5cb68c12286d83c0ffbc0323afc4ee",
@@ -357,13 +337,13 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.4583,
-      "importance": 0.4583,
-      "importance_score": 0.4583,
+      "score": 0.4427,
+      "importance": 0.4427,
+      "importance_score": 0.4427,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.7778,
+        "recency": 0.7257,
         "story_heat": 0.5
       },
       "category": "multi_source",
