@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T17:50:08.794531Z",
+  "generated_at": "2026-07-22T19:35:02.652591Z",
   "window_hours": 24,
   "total_items": 2,
   "items": [
@@ -84,6 +84,15 @@
           "published_at": "2026-07-21T20:55:24Z"
         },
         {
+          "id": "b4322e9c285976315daeacc6d8f6a353f2d899ce",
+          "title": "否認死亡 / Death Denial",
+          "url": "https://www.youtube.com/watch?v=Dz-W5N0sMJ0",
+          "source": "Pursuit of Wonder",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-22T17:03:31Z"
+        },
+        {
           "id": "7ee71fe6af11bbfe17cf98740a667179301f2975",
           "title": "選擇生就是選擇死 / The Choice to Live Is the Choice to Die",
           "url": "https://www.youtube.com/watch?v=Dz-W5N0sMJ0",
@@ -95,6 +104,15 @@
         {
           "id": "79bbcb4ee67505ee4e1bc027af764ac82e86932b",
           "title": "海灣國家將如何圍堵伊朗 / How The Gulf States Will Checkmate Iran",
+          "url": "https://www.youtube.com/watch?v=ZPu3kezlC08",
+          "source": "RealLifeLore",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-22T16:44:25Z"
+        },
+        {
+          "id": "4c8e5c6357126f88c1f88950fcc3074b83e140af",
+          "title": "霍爾木茲局勢變得更加瘋狂 / The Hormuz Situation Keeps Getting More Insane",
           "url": "https://www.youtube.com/watch?v=ZPu3kezlC08",
           "source": "RealLifeLore",
           "source_name": "OPML RSS",
@@ -120,7 +138,7 @@
           "published_at": "2026-07-22T13:00:06Z"
         }
       ],
-      "source_count": 12,
+      "source_count": 14,
       "source_names": [
         "Benjamin Cowen",
         "Best Documentary",
@@ -209,6 +227,15 @@
           "published_at": "2026-07-21T20:55:24Z"
         },
         {
+          "id": "b4322e9c285976315daeacc6d8f6a353f2d899ce",
+          "title": "否認死亡 / Death Denial",
+          "url": "https://www.youtube.com/watch?v=Dz-W5N0sMJ0",
+          "source": "Pursuit of Wonder",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-22T17:03:31Z"
+        },
+        {
           "id": "7ee71fe6af11bbfe17cf98740a667179301f2975",
           "title": "選擇生就是選擇死 / The Choice to Live Is the Choice to Die",
           "url": "https://www.youtube.com/watch?v=Dz-W5N0sMJ0",
@@ -220,6 +247,15 @@
         {
           "id": "79bbcb4ee67505ee4e1bc027af764ac82e86932b",
           "title": "海灣國家將如何圍堵伊朗 / How The Gulf States Will Checkmate Iran",
+          "url": "https://www.youtube.com/watch?v=ZPu3kezlC08",
+          "source": "RealLifeLore",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-22T16:44:25Z"
+        },
+        {
+          "id": "4c8e5c6357126f88c1f88950fcc3074b83e140af",
+          "title": "霍爾木茲局勢變得更加瘋狂 / The Hormuz Situation Keeps Getting More Insane",
           "url": "https://www.youtube.com/watch?v=ZPu3kezlC08",
           "source": "RealLifeLore",
           "source_name": "OPML RSS",
@@ -245,15 +281,15 @@
           "published_at": "2026-07-22T13:00:06Z"
         }
       ],
-      "item_count": 12,
-      "duplicate_count": 12,
-      "score": 0.7178,
-      "importance": 0.7178,
-      "importance_score": 0.7178,
+      "item_count": 14,
+      "duplicate_count": 14,
+      "score": 0.6959,
+      "importance": 0.6959,
+      "importance_score": 0.6959,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.8925,
+        "recency": 0.8197,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -341,13 +377,13 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.5021,
-      "importance": 0.5021,
-      "importance_score": 0.5021,
+      "score": 0.4802,
+      "importance": 0.4802,
+      "importance_score": 0.4802,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.9235,
+        "recency": 0.8507,
         "story_heat": 0.5
       },
       "category": "multi_source",
