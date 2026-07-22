@@ -1109,6 +1109,9 @@
       <outline text="Benjamin Cowen" type="rss" category="finance"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCRvqjQPSeaWn-uEx-w0XOIg"
         htmlUrl="https://www.youtube.com/channel/UCRvqjQPSeaWn-uEx-w0XOIg" />
+      <outline text="大叔美股筆記 Uncle Stock Notes" type="rss" category="finance"
+        xmlUrl="https://unclestocknotes.substack.com/feed"
+        htmlUrl="https://substack.com/@unclestocknotes" />
     </outline>
   </body>
 </opml>
