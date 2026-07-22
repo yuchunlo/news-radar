@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T04:24:08.624636Z",
+  "generated_at": "2026-07-22T07:14:27.565596Z",
   "window_hours": 24,
   "total_items": 2,
   "items": [
@@ -136,18 +136,9 @@
           "source_name": "OPML RSS",
           "site_id": "trending",
           "published_at": "2026-07-21T11:00:01Z"
-        },
-        {
-          "id": "abf774888073751cec4e8c0337b1bd4bb73efc35",
-          "title": "为什么中东越乱，拉美反而越赚钱？",
-          "url": "https://www.youtube.com/watch?v=Dm46C12JoUc",
-          "source": "Match Economy",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-21T07:00:32Z"
         }
       ],
-      "source_count": 15,
+      "source_count": 14,
       "source_names": [
         "Benjamin Cowen",
         "Best Documentary",
@@ -156,7 +147,6 @@
         "GOATFANS",
         "Inspiraggio",
         "Life Where I'm From",
-        "Match Economy",
         "NPR Music",
         "Shepherd Capital Markets",
         "Tim Ferriss",
@@ -290,33 +280,24 @@
           "source_name": "OPML RSS",
           "site_id": "trending",
           "published_at": "2026-07-21T11:00:01Z"
-        },
-        {
-          "id": "abf774888073751cec4e8c0337b1bd4bb73efc35",
-          "title": "为什么中东越乱，拉美反而越赚钱？",
-          "url": "https://www.youtube.com/watch?v=Dm46C12JoUc",
-          "source": "Match Economy",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-21T07:00:32Z"
         }
       ],
-      "item_count": 15,
-      "duplicate_count": 15,
-      "score": 0.7209,
-      "importance": 0.7209,
-      "importance_score": 0.7209,
+      "item_count": 14,
+      "duplicate_count": 14,
+      "score": 0.6855,
+      "importance": 0.6855,
+      "importance_score": 0.6855,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9031,
+        "recency": 0.7848,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-21T07:00:32Z",
+      "earliest_at": "2026-07-21T09:00:01Z",
       "latest_at": "2026-07-22T02:04:38Z",
       "primary_item": {
         "id": "675ba56c68c7c0f32a4c74764fb0073bd8b0ae88",
@@ -379,13 +360,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4939,
-      "importance": 0.4939,
-      "importance_score": 0.4939,
+      "score": 0.4585,
+      "importance": 0.4585,
+      "importance_score": 0.4585,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6465,
+        "recency": 0.5282,
         "story_heat": 0.25
       },
       "category": "watch",
