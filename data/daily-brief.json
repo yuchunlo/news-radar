@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-22T07:14:27.565596Z",
+  "generated_at": "2026-07-22T10:01:20.030486Z",
   "window_hours": 24,
-  "total_items": 2,
+  "total_items": 3,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
@@ -102,24 +102,6 @@
           "published_at": "2026-07-21T11:00:06Z"
         },
         {
-          "id": "ec0c005768071f12d60957cdc0a31d7da7b038cf",
-          "title": "文斯史泰普斯：Tiny Desk 音樂會 / Vince Staples: Tiny Desk Concert",
-          "url": "https://www.youtube.com/watch?v=mbRycM-xgxo",
-          "source": "NPR Music",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-21T09:00:25Z"
-        },
-        {
-          "id": "534c80a5c446ea203561551356460bdc5acb1174",
-          "title": "Janet Jackson 的这首神曲，功劳到底归谁？",
-          "url": "https://www.youtube.com/watch?v=TNbNxuax3uw",
-          "source": "GOATFANS",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-21T09:00:01Z"
-        },
-        {
           "id": "8b28a4beef818f71464c7cfe85d71dc37e90b7b7",
           "title": "夜光||崩壞：星軌動畫 / Nightglow || Honkai: Star Rail Animation",
           "url": "https://www.youtube.com/watch?v=Zakm1IUthC4",
@@ -138,16 +120,14 @@
           "published_at": "2026-07-21T11:00:01Z"
         }
       ],
-      "source_count": 14,
+      "source_count": 12,
       "source_names": [
         "Benjamin Cowen",
         "Best Documentary",
         "DenQ來了",
         "Finn Tran",
-        "GOATFANS",
         "Inspiraggio",
         "Life Where I'm From",
-        "NPR Music",
         "Shepherd Capital Markets",
         "Tim Ferriss",
         "Timeline - World History Documentaries",
@@ -246,24 +226,6 @@
           "published_at": "2026-07-21T11:00:06Z"
         },
         {
-          "id": "ec0c005768071f12d60957cdc0a31d7da7b038cf",
-          "title": "文斯史泰普斯：Tiny Desk 音樂會 / Vince Staples: Tiny Desk Concert",
-          "url": "https://www.youtube.com/watch?v=mbRycM-xgxo",
-          "source": "NPR Music",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-21T09:00:25Z"
-        },
-        {
-          "id": "534c80a5c446ea203561551356460bdc5acb1174",
-          "title": "Janet Jackson 的这首神曲，功劳到底归谁？",
-          "url": "https://www.youtube.com/watch?v=TNbNxuax3uw",
-          "source": "GOATFANS",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-21T09:00:01Z"
-        },
-        {
           "id": "8b28a4beef818f71464c7cfe85d71dc37e90b7b7",
           "title": "夜光||崩壞：星軌動畫 / Nightglow || Honkai: Star Rail Animation",
           "url": "https://www.youtube.com/watch?v=Zakm1IUthC4",
@@ -282,28 +244,122 @@
           "published_at": "2026-07-21T11:00:01Z"
         }
       ],
-      "item_count": 14,
-      "duplicate_count": 14,
-      "score": 0.6855,
-      "importance": 0.6855,
-      "importance_score": 0.6855,
+      "item_count": 12,
+      "duplicate_count": 12,
+      "score": 0.6507,
+      "importance": 0.6507,
+      "importance_score": 0.6507,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7848,
+        "recency": 0.669,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-21T09:00:01Z",
+      "earliest_at": "2026-07-21T11:00:01Z",
       "latest_at": "2026-07-22T02:04:38Z",
       "primary_item": {
         "id": "675ba56c68c7c0f32a4c74764fb0073bd8b0ae88",
         "title": "黃金：中期疲軟 / Gold: Midterm Year Weakness",
         "url": "https://www.youtube.com/watch?v=jpQb-Aia57k",
         "source": "Benjamin Cowen",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_7d23c0769328",
+      "title": "他批聯準會「把每一天當危機」　會升息嗎？從華許恩師看三大不同",
+      "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014463",
+      "primary_url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014463",
+      "source": "商業周刊 當期雜誌開放文章",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "ff2c0b55ecc27715ae3a685ded85d0e253303801",
+          "title": "他批聯準會「把每一天當危機」　會升息嗎？從華許恩師看三大不同",
+          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014463",
+          "source": "商業周刊 當期雜誌開放文章",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-22T16:00:00Z"
+        },
+        {
+          "id": "7ab7447d8c69264cde4e7b33607909efc21be509",
+          "title": "成本降至1/5！晶片大神也跳槽　中國OpenAI智譜股價飆5倍啟示",
+          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014471",
+          "source": "商業周刊 當期雜誌開放文章",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-22T16:00:00Z"
+        },
+        {
+          "id": "324144e0eb5aee16cc45c0d339028dab7da5dbaf",
+          "title": "經濟學不是科學，是政治　一個古羅馬問題看清「誰受益」",
+          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014464",
+          "source": "商業周刊 當期雜誌開放文章",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-22T16:00:00Z"
+        }
+      ],
+      "source_count": 3,
+      "source_names": [
+        "商業周刊 當期雜誌開放文章"
+      ],
+      "items": [
+        {
+          "id": "ff2c0b55ecc27715ae3a685ded85d0e253303801",
+          "title": "他批聯準會「把每一天當危機」　會升息嗎？從華許恩師看三大不同",
+          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014463",
+          "source": "商業周刊 當期雜誌開放文章",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-22T16:00:00Z"
+        },
+        {
+          "id": "7ab7447d8c69264cde4e7b33607909efc21be509",
+          "title": "成本降至1/5！晶片大神也跳槽　中國OpenAI智譜股價飆5倍啟示",
+          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014471",
+          "source": "商業周刊 當期雜誌開放文章",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-22T16:00:00Z"
+        },
+        {
+          "id": "324144e0eb5aee16cc45c0d339028dab7da5dbaf",
+          "title": "經濟學不是科學，是政治　一個古羅馬問題看清「誰受益」",
+          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014464",
+          "source": "商業周刊 當期雜誌開放文章",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-22T16:00:00Z"
+        }
+      ],
+      "item_count": 3,
+      "duplicate_count": 3,
+      "score": 0.525,
+      "importance": 0.525,
+      "importance_score": 0.525,
+      "importance_label": "多源热议",
+      "importance_breakdown": {
+        "source_tier": 0.25,
+        "recency": 1.0,
+        "story_heat": 0.5
+      },
+      "category": "multi_source",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-22T16:00:00Z",
+      "latest_at": "2026-07-22T16:00:00Z",
+      "primary_item": {
+        "id": "ff2c0b55ecc27715ae3a685ded85d0e253303801",
+        "title": "他批聯準會「把每一天當危機」　會升息嗎？從華許恩師看三大不同",
+        "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014463",
+        "source": "商業周刊 當期雜誌開放文章",
         "source_name": "OPML RSS"
       }
     },
@@ -360,13 +416,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4585,
-      "importance": 0.4585,
-      "importance_score": 0.4585,
+      "score": 0.4237,
+      "importance": 0.4237,
+      "importance_score": 0.4237,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.5282,
+        "recency": 0.4123,
         "story_heat": 0.25
       },
       "category": "watch",
