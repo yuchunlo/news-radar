@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-07-22T19:35:02.652591Z",
+  "generated_at": "2026-07-22T21:19:55.203253Z",
   "window_hours": 24,
   "total_items": 2,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "玻利維亞：艾馬拉人的戰鬥 / Bolivie : le combat du peuple Aymara",
-      "url": "https://www.youtube.com/watch?v=j5NEtWm17yk",
-      "primary_url": "https://www.youtube.com/watch?v=j5NEtWm17yk",
-      "source": "imineo Documentaires",
+      "title": "加拿大安全部門正在創造自己的恐怖分子嗎？ / Are Canadian Security Services Creating Their Own Terrorists?",
+      "url": "https://www.youtube.com/watch?v=jz8FDqFDmxA",
+      "primary_url": "https://www.youtube.com/watch?v=jz8FDqFDmxA",
+      "source": "Best Documentary",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "7f68ca421b5cb68c12286d83c0ffbc0323afc4ee",
+          "title": "加拿大安全部門正在創造自己的恐怖分子嗎？ / Are Canadian Security Services Creating Their Own Terrorists?",
+          "url": "https://www.youtube.com/watch?v=jz8FDqFDmxA",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-22T21:00:28Z"
+        },
         {
           "id": "0896da3e8fe0995c2328c9e0409f067e9da91645",
           "title": "玻利維亞：艾馬拉人的戰鬥 / Bolivie : le combat du peuple Aymara",
@@ -64,24 +73,6 @@
           "source_name": "OPML RSS",
           "site_id": "finance",
           "published_at": "2026-07-21T21:27:22Z"
-        },
-        {
-          "id": "73d7b3fd640edb8cba2165238b7dac9163758a8a",
-          "title": "二戰最後 100 天：第三帝國與日本帝國如何崩潰 / The Final 100 Days Of WW2: How The Third Reich And Imperial Japan Collapsed",
-          "url": "https://www.youtube.com/watch?v=c_giUVK6bR8",
-          "source": "Timeline - World History Documentaries",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-21T21:00:12Z"
-        },
-        {
-          "id": "327abe7e8225bc2e5d3a7c98be7038afacffb810",
-          "title": "這幅畫其實很瘋狂 / This Painting Is Actually Insane",
-          "url": "https://www.youtube.com/watch?v=pX93J-RP1TY",
-          "source": "Inspiraggio",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-21T20:55:24Z"
         },
         {
           "id": "b4322e9c285976315daeacc6d8f6a353f2d899ce",
@@ -138,23 +129,30 @@
           "published_at": "2026-07-22T13:00:06Z"
         }
       ],
-      "source_count": 14,
+      "source_count": 13,
       "source_names": [
         "Benjamin Cowen",
         "Best Documentary",
         "Good Times Bad Times",
-        "Inspiraggio",
         "Pursuit of Wonder",
         "RealLifeLore",
         "Shepherd Capital Markets",
         "Tim Ferriss",
-        "Timeline - World History Documentaries",
         "imineo Documentaires",
         "公視P#新聞實驗室",
         "美投侃新闻"
       ],
       "items": [
         {
+          "id": "7f68ca421b5cb68c12286d83c0ffbc0323afc4ee",
+          "title": "加拿大安全部門正在創造自己的恐怖分子嗎？ / Are Canadian Security Services Creating Their Own Terrorists?",
+          "url": "https://www.youtube.com/watch?v=jz8FDqFDmxA",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-22T21:00:28Z"
+        },
+        {
           "id": "0896da3e8fe0995c2328c9e0409f067e9da91645",
           "title": "玻利維亞：艾馬拉人的戰鬥 / Bolivie : le combat du peuple Aymara",
           "url": "https://www.youtube.com/watch?v=j5NEtWm17yk",
@@ -207,24 +205,6 @@
           "source_name": "OPML RSS",
           "site_id": "finance",
           "published_at": "2026-07-21T21:27:22Z"
-        },
-        {
-          "id": "73d7b3fd640edb8cba2165238b7dac9163758a8a",
-          "title": "二戰最後 100 天：第三帝國與日本帝國如何崩潰 / The Final 100 Days Of WW2: How The Third Reich And Imperial Japan Collapsed",
-          "url": "https://www.youtube.com/watch?v=c_giUVK6bR8",
-          "source": "Timeline - World History Documentaries",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-21T21:00:12Z"
-        },
-        {
-          "id": "327abe7e8225bc2e5d3a7c98be7038afacffb810",
-          "title": "這幅畫其實很瘋狂 / This Painting Is Actually Insane",
-          "url": "https://www.youtube.com/watch?v=pX93J-RP1TY",
-          "source": "Inspiraggio",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-21T20:55:24Z"
         },
         {
           "id": "b4322e9c285976315daeacc6d8f6a353f2d899ce",
@@ -281,28 +261,28 @@
           "published_at": "2026-07-22T13:00:06Z"
         }
       ],
-      "item_count": 14,
-      "duplicate_count": 14,
-      "score": 0.6959,
-      "importance": 0.6959,
-      "importance_score": 0.6959,
+      "item_count": 13,
+      "duplicate_count": 13,
+      "score": 0.7459,
+      "importance": 0.7459,
+      "importance_score": 0.7459,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.8197,
+        "recency": 0.9865,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-21T20:55:24Z",
-      "latest_at": "2026-07-22T17:03:31Z",
+      "earliest_at": "2026-07-21T21:27:22Z",
+      "latest_at": "2026-07-22T21:00:28Z",
       "primary_item": {
-        "id": "0896da3e8fe0995c2328c9e0409f067e9da91645",
-        "title": "玻利維亞：艾馬拉人的戰鬥 / Bolivie : le combat du peuple Aymara",
-        "url": "https://www.youtube.com/watch?v=j5NEtWm17yk",
-        "source": "imineo Documentaires",
+        "id": "7f68ca421b5cb68c12286d83c0ffbc0323afc4ee",
+        "title": "加拿大安全部門正在創造自己的恐怖分子嗎？ / Are Canadian Security Services Creating Their Own Terrorists?",
+        "url": "https://www.youtube.com/watch?v=jz8FDqFDmxA",
+        "source": "Best Documentary",
         "source_name": "OPML RSS"
       }
     },
@@ -377,13 +357,13 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.4802,
-      "importance": 0.4802,
-      "importance_score": 0.4802,
+      "score": 0.4583,
+      "importance": 0.4583,
+      "importance_score": 0.4583,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.8507,
+        "recency": 0.7778,
         "story_heat": 0.5
       },
       "category": "multi_source",
