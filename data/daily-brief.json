@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-23T15:32:57.564076Z",
+  "generated_at": "2026-07-23T17:36:17.840267Z",
   "window_hours": 24,
-  "total_items": 5,
+  "total_items": 6,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
@@ -120,6 +120,15 @@
           "published_at": "2026-07-22T21:00:28Z"
         },
         {
+          "id": "4d3df4c37d20f57bcffd5a4ed3a9636503dafe70",
+          "title": "西爾斯基對上費多羅夫。烏克蘭軍隊的未來之戰 / Syrskyi vs. Fedorov. The Battle for the Future of Ukraine's Army",
+          "url": "https://www.youtube.com/watch?v=OreEUop7eSw",
+          "source": "Good Times Bad Times",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-23T16:00:10Z"
+        },
+        {
           "id": "9e229337e85fdbae3de853f07de8ac798354c3af",
           "title": "【能高前瀑】溯溪行程畫風一變探洞去，花蓮媲美海神宮的雙層瀑布｜ 探險威狼 Wilang Explorer ｜木瓜溪｜花蓮｜能高前瀑｜溯溪｜空拍機｜hualien｜taiwan｜台灣｜Vlog 258",
           "url": "https://www.youtube.com/watch?v=YNHEojw6K_M",
@@ -127,78 +136,6 @@
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
           "published_at": "2026-07-23T11:00:03Z"
-        },
-        {
-          "id": "0be177b691d8a1c578e63b4f6e2b20f155e3d9e0",
-          "title": "永遠改變你生活的電影場景 / A Movie Scene That Will Change Your Life Forever",
-          "url": "https://www.youtube.com/watch?v=Dz-W5N0sMJ0",
-          "source": "Pursuit of Wonder",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-22T17:03:31Z"
-        },
-        {
-          "id": "b4322e9c285976315daeacc6d8f6a353f2d899ce",
-          "title": "否認死亡 / Death Denial",
-          "url": "https://www.youtube.com/watch?v=Dz-W5N0sMJ0",
-          "source": "Pursuit of Wonder",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-22T17:03:31Z"
-        },
-        {
-          "id": "7ee71fe6af11bbfe17cf98740a667179301f2975",
-          "title": "選擇生就是選擇死 / The Choice to Live Is the Choice to Die",
-          "url": "https://www.youtube.com/watch?v=Dz-W5N0sMJ0",
-          "source": "Pursuit of Wonder",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-22T17:03:31Z"
-        },
-        {
-          "id": "ac13224678a56bcd945f6c34752da7f347af84e0",
-          "title": "史上最糟的電影 / The Worst Movie In History",
-          "url": "https://www.youtube.com/watch?v=Dz-W5N0sMJ0",
-          "source": "Pursuit of Wonder",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-22T17:03:31Z"
-        },
-        {
-          "id": "03ced5e9a32f23b60c398a6edc3ce089720a45c2",
-          "title": "人生最令人不安的真相 / This Most Uncomfortable Truth of Life",
-          "url": "https://www.youtube.com/watch?v=Dz-W5N0sMJ0",
-          "source": "Pursuit of Wonder",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-22T17:03:31Z"
-        },
-        {
-          "id": "79bbcb4ee67505ee4e1bc027af764ac82e86932b",
-          "title": "海灣國家將如何圍堵伊朗 / How The Gulf States Will Checkmate Iran",
-          "url": "https://www.youtube.com/watch?v=ZPu3kezlC08",
-          "source": "RealLifeLore",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-22T16:44:25Z"
-        },
-        {
-          "id": "4c8e5c6357126f88c1f88950fcc3074b83e140af",
-          "title": "霍爾木茲局勢變得更加瘋狂 / The Hormuz Situation Keeps Getting More Insane",
-          "url": "https://www.youtube.com/watch?v=ZPu3kezlC08",
-          "source": "RealLifeLore",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-22T16:44:25Z"
-        },
-        {
-          "id": "06f2aabd5ebf9b4cac9432f090c5763fe705c7e4",
-          "title": "白俄羅斯地緣政治概況 / Geopolitical Portrait of Belarus",
-          "url": "https://www.youtube.com/watch?v=rbdA0t-2koM",
-          "source": "Good Times Bad Times",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-22T15:49:25Z"
         },
         {
           "id": "fe8e57549632a2262c90fadd78eb5436c7f08481",
@@ -255,7 +192,7 @@
           "published_at": "2026-07-23T04:24:00Z"
         }
       ],
-      "source_count": 27,
+      "source_count": 20,
       "source_names": [
         "Benjamin Cowen",
         "Best Documentary",
@@ -267,8 +204,6 @@
         "Marcello Ascani",
         "NPR Music",
         "Perspective",
-        "Pursuit of Wonder",
-        "RealLifeLore",
         "Thoughtworthy Co",
         "Tim Ferriss",
         "mingjai14",
@@ -388,6 +323,15 @@
           "published_at": "2026-07-22T21:00:28Z"
         },
         {
+          "id": "4d3df4c37d20f57bcffd5a4ed3a9636503dafe70",
+          "title": "西爾斯基對上費多羅夫。烏克蘭軍隊的未來之戰 / Syrskyi vs. Fedorov. The Battle for the Future of Ukraine's Army",
+          "url": "https://www.youtube.com/watch?v=OreEUop7eSw",
+          "source": "Good Times Bad Times",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-23T16:00:10Z"
+        },
+        {
           "id": "9e229337e85fdbae3de853f07de8ac798354c3af",
           "title": "【能高前瀑】溯溪行程畫風一變探洞去，花蓮媲美海神宮的雙層瀑布｜ 探險威狼 Wilang Explorer ｜木瓜溪｜花蓮｜能高前瀑｜溯溪｜空拍機｜hualien｜taiwan｜台灣｜Vlog 258",
           "url": "https://www.youtube.com/watch?v=YNHEojw6K_M",
@@ -395,78 +339,6 @@
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
           "published_at": "2026-07-23T11:00:03Z"
-        },
-        {
-          "id": "0be177b691d8a1c578e63b4f6e2b20f155e3d9e0",
-          "title": "永遠改變你生活的電影場景 / A Movie Scene That Will Change Your Life Forever",
-          "url": "https://www.youtube.com/watch?v=Dz-W5N0sMJ0",
-          "source": "Pursuit of Wonder",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-22T17:03:31Z"
-        },
-        {
-          "id": "b4322e9c285976315daeacc6d8f6a353f2d899ce",
-          "title": "否認死亡 / Death Denial",
-          "url": "https://www.youtube.com/watch?v=Dz-W5N0sMJ0",
-          "source": "Pursuit of Wonder",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-22T17:03:31Z"
-        },
-        {
-          "id": "7ee71fe6af11bbfe17cf98740a667179301f2975",
-          "title": "選擇生就是選擇死 / The Choice to Live Is the Choice to Die",
-          "url": "https://www.youtube.com/watch?v=Dz-W5N0sMJ0",
-          "source": "Pursuit of Wonder",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-22T17:03:31Z"
-        },
-        {
-          "id": "ac13224678a56bcd945f6c34752da7f347af84e0",
-          "title": "史上最糟的電影 / The Worst Movie In History",
-          "url": "https://www.youtube.com/watch?v=Dz-W5N0sMJ0",
-          "source": "Pursuit of Wonder",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-22T17:03:31Z"
-        },
-        {
-          "id": "03ced5e9a32f23b60c398a6edc3ce089720a45c2",
-          "title": "人生最令人不安的真相 / This Most Uncomfortable Truth of Life",
-          "url": "https://www.youtube.com/watch?v=Dz-W5N0sMJ0",
-          "source": "Pursuit of Wonder",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-22T17:03:31Z"
-        },
-        {
-          "id": "79bbcb4ee67505ee4e1bc027af764ac82e86932b",
-          "title": "海灣國家將如何圍堵伊朗 / How The Gulf States Will Checkmate Iran",
-          "url": "https://www.youtube.com/watch?v=ZPu3kezlC08",
-          "source": "RealLifeLore",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-22T16:44:25Z"
-        },
-        {
-          "id": "4c8e5c6357126f88c1f88950fcc3074b83e140af",
-          "title": "霍爾木茲局勢變得更加瘋狂 / The Hormuz Situation Keeps Getting More Insane",
-          "url": "https://www.youtube.com/watch?v=ZPu3kezlC08",
-          "source": "RealLifeLore",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-22T16:44:25Z"
-        },
-        {
-          "id": "06f2aabd5ebf9b4cac9432f090c5763fe705c7e4",
-          "title": "白俄羅斯地緣政治概況 / Geopolitical Portrait of Belarus",
-          "url": "https://www.youtube.com/watch?v=rbdA0t-2koM",
-          "source": "Good Times Bad Times",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-22T15:49:25Z"
         },
         {
           "id": "fe8e57549632a2262c90fadd78eb5436c7f08481",
@@ -523,28 +395,180 @@
           "published_at": "2026-07-23T04:24:00Z"
         }
       ],
-      "item_count": 27,
-      "duplicate_count": 27,
-      "score": 0.72,
-      "importance": 0.72,
-      "importance_score": 0.72,
+      "item_count": 20,
+      "duplicate_count": 20,
+      "score": 0.6943,
+      "importance": 0.6943,
+      "importance_score": 0.6943,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.8998,
+        "recency": 0.8142,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-22T15:49:25Z",
-      "latest_at": "2026-07-23T13:08:44Z",
+      "earliest_at": "2026-07-22T21:00:28Z",
+      "latest_at": "2026-07-23T16:00:10Z",
       "primary_item": {
         "id": "ad62f95a6ea0d1d185a0af4111966399d163831e",
         "title": "穆斯林如何看待新教改革？ / What did The Muslims Think of the Protestant Reformation?",
         "url": "https://www.youtube.com/watch?v=3FqMl1QXtuU",
         "source": "Knowledgia",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_34fc4d3f5e7b",
+      "title": "AI 推理晶片新創公司 Etched 籌集了由紅杉資本領投的 3 億美元 C 輪融資，估值為 10.3B 美元，高於 12 月份的 5B 美元； a16z、SK 海力士等也進行了投資（Julie Bort/TechCrunch） / AI inference chip startup Etched raised a $300M Series C led by Sequoia at a $10.3B valuation, up from $5B in December; a16z, SK Hynix, and others also invested (Julie Bort/TechCrunch)",
+      "url": "https://www.techmeme.com/260723/p27",
+      "primary_url": "https://www.techmeme.com/260723/p27",
+      "source": "Techmeme",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "5ba02dd9d8b24ed9d444fc44e4ce2199fd1e668b",
+          "title": "AI 推理晶片新創公司 Etched 籌集了由紅杉資本領投的 3 億美元 C 輪融資，估值為 10.3B 美元，高於 12 月份的 5B 美元； a16z、SK 海力士等也進行了投資（Julie Bort/TechCrunch） / AI inference chip startup Etched raised a $300M Series C led by Sequoia at a $10.3B valuation, up from $5B in December; a16z, SK Hynix, and others also invested (Julie Bort/TechCrunch)",
+          "url": "https://www.techmeme.com/260723/p27",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-23T15:15:02Z"
+        },
+        {
+          "id": "d0b0c29e4d9205c9f17b741784e6e577c91752fa",
+          "title": "AI 推理晶片新創公司 Etched 籌集了 3 億美元的 C 輪融資，由紅杉資本領投，a16z、SK Hynix 等其他公司參與，估值從 12 月的 50 億美元上漲至 10.3 億美元。 (Julie Bort/TechCrunch) / AI inference chip startup Etched raised a $300M Series C led by Sequoia, with a16z, SK Hynix, others participating, at a $10.3B valuation, up from $5B in Dec. (Julie Bort/TechCrunch)",
+          "url": "https://www.techmeme.com/260723/p27",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-23T15:15:02Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Techmeme"
+      ],
+      "items": [
+        {
+          "id": "5ba02dd9d8b24ed9d444fc44e4ce2199fd1e668b",
+          "title": "AI 推理晶片新創公司 Etched 籌集了由紅杉資本領投的 3 億美元 C 輪融資，估值為 10.3B 美元，高於 12 月份的 5B 美元； a16z、SK 海力士等也進行了投資（Julie Bort/TechCrunch） / AI inference chip startup Etched raised a $300M Series C led by Sequoia at a $10.3B valuation, up from $5B in December; a16z, SK Hynix, and others also invested (Julie Bort/TechCrunch)",
+          "url": "https://www.techmeme.com/260723/p27",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-23T15:15:02Z"
+        },
+        {
+          "id": "d0b0c29e4d9205c9f17b741784e6e577c91752fa",
+          "title": "AI 推理晶片新創公司 Etched 籌集了 3 億美元的 C 輪融資，由紅杉資本領投，a16z、SK Hynix 等其他公司參與，估值從 12 月的 50 億美元上漲至 10.3 億美元。 (Julie Bort/TechCrunch) / AI inference chip startup Etched raised a $300M Series C led by Sequoia, with a16z, SK Hynix, others participating, at a $10.3B valuation, up from $5B in Dec. (Julie Bort/TechCrunch)",
+          "url": "https://www.techmeme.com/260723/p27",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-23T15:15:02Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5706,
+      "importance": 0.5706,
+      "importance_score": 0.5706,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.5,
+        "recency": 0.9019,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-23T15:15:02Z",
+      "latest_at": "2026-07-23T15:15:02Z",
+      "primary_item": {
+        "id": "5ba02dd9d8b24ed9d444fc44e4ce2199fd1e668b",
+        "title": "AI 推理晶片新創公司 Etched 籌集了由紅杉資本領投的 3 億美元 C 輪融資，估值為 10.3B 美元，高於 12 月份的 5B 美元； a16z、SK 海力士等也進行了投資（Julie Bort/TechCrunch） / AI inference chip startup Etched raised a $300M Series C led by Sequoia at a $10.3B valuation, up from $5B in December; a16z, SK Hynix, and others also invested (Julie Bort/TechCrunch)",
+        "url": "https://www.techmeme.com/260723/p27",
+        "source": "Techmeme",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_53b738f0dfef",
+      "title": "消息來源：傑夫·貝佐斯 (Jeff Bezos) 敦促 Prime Video 負責人邁克·霍普金斯 (Mike Hopkins) 在服務徹底改革中強調人工智能，從而引發了一項名為“燈塔計劃”(Project Lighthouse) 的內部工作（路透社） / Sources: Jeff Bezos pushed Prime Video head Mike Hopkins to highlight AI in an overhaul of the service, leading to an internal effort called Project Lighthouse (Reuters)",
+      "url": "https://www.techmeme.com/260723/p22",
+      "primary_url": "https://www.techmeme.com/260723/p22",
+      "source": "Techmeme",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "6edc3e36b95de5c7c657b1b682172e859e0ad3a9",
+          "title": "消息來源：傑夫·貝佐斯 (Jeff Bezos) 敦促 Prime Video 負責人邁克·霍普金斯 (Mike Hopkins) 在服務徹底改革中強調人工智能，從而引發了一項名為“燈塔計劃”(Project Lighthouse) 的內部工作（路透社） / Sources: Jeff Bezos pushed Prime Video head Mike Hopkins to highlight AI in an overhaul of the service, leading to an internal effort called Project Lighthouse (Reuters)",
+          "url": "https://www.techmeme.com/260723/p22",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-23T13:00:55Z"
+        },
+        {
+          "id": "8162cae7c9b174a449c1c67fc0f135da6e02b3c7",
+          "title": "資料來源：傑夫貝佐斯 (Jeff Bezos) 敦促 Prime Video 負責人 Mike Hopkins 強調該服務的人工智慧功能，從而啟動了名為 Lighthouse 的內部重新設計項目（路透社） / Sources: Jeff Bezos pushed Prime Video head Mike Hopkins to highlight the service's AI capabilities, leading to an internal redesign project called Lighthouse (Reuters)",
+          "url": "https://www.techmeme.com/260723/p22",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-23T13:00:55Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Techmeme"
+      ],
+      "items": [
+        {
+          "id": "6edc3e36b95de5c7c657b1b682172e859e0ad3a9",
+          "title": "消息來源：傑夫·貝佐斯 (Jeff Bezos) 敦促 Prime Video 負責人邁克·霍普金斯 (Mike Hopkins) 在服務徹底改革中強調人工智能，從而引發了一項名為“燈塔計劃”(Project Lighthouse) 的內部工作（路透社） / Sources: Jeff Bezos pushed Prime Video head Mike Hopkins to highlight AI in an overhaul of the service, leading to an internal effort called Project Lighthouse (Reuters)",
+          "url": "https://www.techmeme.com/260723/p22",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-23T13:00:55Z"
+        },
+        {
+          "id": "8162cae7c9b174a449c1c67fc0f135da6e02b3c7",
+          "title": "資料來源：傑夫貝佐斯 (Jeff Bezos) 敦促 Prime Video 負責人 Mike Hopkins 強調該服務的人工智慧功能，從而啟動了名為 Lighthouse 的內部重新設計項目（路透社） / Sources: Jeff Bezos pushed Prime Video head Mike Hopkins to highlight the service's AI capabilities, leading to an internal redesign project called Lighthouse (Reuters)",
+          "url": "https://www.techmeme.com/260723/p22",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-23T13:00:55Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5426,
+      "importance": 0.5426,
+      "importance_score": 0.5426,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.5,
+        "recency": 0.8088,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-23T13:00:55Z",
+      "latest_at": "2026-07-23T13:00:55Z",
+      "primary_item": {
+        "id": "6edc3e36b95de5c7c657b1b682172e859e0ad3a9",
+        "title": "消息來源：傑夫·貝佐斯 (Jeff Bezos) 敦促 Prime Video 負責人邁克·霍普金斯 (Mike Hopkins) 在服務徹底改革中強調人工智能，從而引發了一項名為“燈塔計劃”(Project Lighthouse) 的內部工作（路透社） / Sources: Jeff Bezos pushed Prime Video head Mike Hopkins to highlight AI in an overhaul of the service, leading to an internal effort called Project Lighthouse (Reuters)",
+        "url": "https://www.techmeme.com/260723/p22",
+        "source": "Techmeme",
         "source_name": "OPML RSS"
       }
     },
@@ -601,13 +625,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5548,
-      "importance": 0.5548,
-      "importance_score": 0.5548,
+      "score": 0.5291,
+      "importance": 0.5291,
+      "importance_score": 0.5291,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.8494,
+        "recency": 0.7638,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -677,13 +701,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5486,
-      "importance": 0.5486,
-      "importance_score": 0.5486,
+      "score": 0.5229,
+      "importance": 0.5229,
+      "importance_score": 0.5229,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.8286,
+        "recency": 0.7429,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -753,13 +777,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5348,
-      "importance": 0.5348,
-      "importance_score": 0.5348,
+      "score": 0.5091,
+      "importance": 0.5091,
+      "importance_score": 0.5091,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7827,
+        "recency": 0.6971,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -773,118 +797,6 @@
         "title": "谷歌添加了帳戶恢復的自拍影片登入選項，使用活體偵測等工具來防範深度偽造攻擊，並在全球推廣（Reece Rogers/Wired） / Google adds a selfie video sign-in option for account recovery, using tools like liveness detection to safeguard against deepfake attacks, rolling out globally (Reece Rogers/Wired)",
         "url": "https://www.techmeme.com/260723/p13",
         "source": "Techmeme",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_7d23c0769328",
-      "title": "他批聯準會「把每一天當危機」！會升息嗎？從華許恩師看三大不同",
-      "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014463",
-      "primary_url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014463",
-      "source": "商業周刊 當期雜誌開放文章",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "703ff05114cb5b603b540e26d8b728cec179f0df",
-          "title": "他批聯準會「把每一天當危機」！會升息嗎？從華許恩師看三大不同",
-          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014463",
-          "source": "商業周刊 當期雜誌開放文章",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-22T16:00:00Z"
-        },
-        {
-          "id": "7ab7447d8c69264cde4e7b33607909efc21be509",
-          "title": "成本降至1/5！晶片大神也跳槽　中國OpenAI智譜股價飆5倍啟示",
-          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014471",
-          "source": "商業周刊 當期雜誌開放文章",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-22T16:00:00Z"
-        },
-        {
-          "id": "f3c629a7a80aed625148a4cdf1b1daf1d1d57a98",
-          "title": "成本降至1/5！晶片大神也跳槽，中國OpenAI智譜股價飆5倍啟示",
-          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014471",
-          "source": "商業周刊 當期雜誌開放文章",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-22T16:00:00Z"
-        },
-        {
-          "id": "b425e8a26093e11e1f47f9866979159d67c631b3",
-          "title": "經濟學不是科學，是政治！一個古羅馬問題看清「誰受益」",
-          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014464",
-          "source": "商業周刊 當期雜誌開放文章",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-22T16:00:00Z"
-        }
-      ],
-      "source_count": 4,
-      "source_names": [
-        "商業周刊 當期雜誌開放文章"
-      ],
-      "items": [
-        {
-          "id": "703ff05114cb5b603b540e26d8b728cec179f0df",
-          "title": "他批聯準會「把每一天當危機」！會升息嗎？從華許恩師看三大不同",
-          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014463",
-          "source": "商業周刊 當期雜誌開放文章",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-22T16:00:00Z"
-        },
-        {
-          "id": "7ab7447d8c69264cde4e7b33607909efc21be509",
-          "title": "成本降至1/5！晶片大神也跳槽　中國OpenAI智譜股價飆5倍啟示",
-          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014471",
-          "source": "商業周刊 當期雜誌開放文章",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-22T16:00:00Z"
-        },
-        {
-          "id": "f3c629a7a80aed625148a4cdf1b1daf1d1d57a98",
-          "title": "成本降至1/5！晶片大神也跳槽，中國OpenAI智譜股價飆5倍啟示",
-          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014471",
-          "source": "商業周刊 當期雜誌開放文章",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-22T16:00:00Z"
-        },
-        {
-          "id": "b425e8a26093e11e1f47f9866979159d67c631b3",
-          "title": "經濟學不是科學，是政治！一個古羅馬問題看清「誰受益」",
-          "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014464",
-          "source": "商業周刊 當期雜誌開放文章",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-22T16:00:00Z"
-        }
-      ],
-      "item_count": 4,
-      "duplicate_count": 4,
-      "score": 0.2806,
-      "importance": 0.2806,
-      "importance_score": 0.2806,
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "source_tier": 0.25,
-        "recency": 0.0188,
-        "story_heat": 0.75
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-22T16:00:00Z",
-      "latest_at": "2026-07-22T16:00:00Z",
-      "primary_item": {
-        "id": "703ff05114cb5b603b540e26d8b728cec179f0df",
-        "title": "他批聯準會「把每一天當危機」！會升息嗎？從華許恩師看三大不同",
-        "url": "https://www.businessweekly.com.tw/Archive/Article/Index?StrId=7014463",
-        "source": "商業周刊 當期雜誌開放文章",
         "source_name": "OPML RSS"
       }
     }
