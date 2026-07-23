@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-07-23T13:06:41.133355Z",
+  "generated_at": "2026-07-23T15:32:57.564076Z",
   "window_hours": 24,
-  "total_items": 2,
+  "total_items": 5,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "「不生孩子太自私了。」所以，我們要生孩子了。 / \"It's selfish to not have kids.\" So, we're having a baby.",
-      "url": "https://www.youtube.com/watch?v=DGayaMHOqBQ",
-      "primary_url": "https://www.youtube.com/watch?v=DGayaMHOqBQ",
-      "source": "Thoughtworthy Co",
+      "title": "穆斯林如何看待新教改革？ / What did The Muslims Think of the Protestant Reformation?",
+      "url": "https://www.youtube.com/watch?v=3FqMl1QXtuU",
+      "primary_url": "https://www.youtube.com/watch?v=3FqMl1QXtuU",
+      "source": "Knowledgia",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "ad62f95a6ea0d1d185a0af4111966399d163831e",
+          "title": "穆斯林如何看待新教改革？ / What did The Muslims Think of the Protestant Reformation?",
+          "url": "https://www.youtube.com/watch?v=3FqMl1QXtuU",
+          "source": "Knowledgia",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-23T13:08:44Z"
+        },
         {
           "id": "198bb2928c3fdfe09d3e2268d468c15a02fa22af",
           "title": "「不生孩子太自私了。」所以，我們要生孩子了。 / \"It's selfish to not have kids.\" So, we're having a baby.",
@@ -111,15 +120,6 @@
           "published_at": "2026-07-22T21:00:28Z"
         },
         {
-          "id": "0896da3e8fe0995c2328c9e0409f067e9da91645",
-          "title": "玻利維亞：艾馬拉人的戰鬥 / Bolivie : le combat du peuple Aymara",
-          "url": "https://www.youtube.com/watch?v=j5NEtWm17yk",
-          "source": "imineo Documentaires",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-22T15:15:23Z"
-        },
-        {
           "id": "9e229337e85fdbae3de853f07de8ac798354c3af",
           "title": "【能高前瀑】溯溪行程畫風一變探洞去，花蓮媲美海神宮的雙層瀑布｜ 探險威狼 Wilang Explorer ｜木瓜溪｜花蓮｜能高前瀑｜溯溪｜空拍機｜hualien｜taiwan｜台灣｜Vlog 258",
           "url": "https://www.youtube.com/watch?v=YNHEojw6K_M",
@@ -149,6 +149,15 @@
         {
           "id": "7ee71fe6af11bbfe17cf98740a667179301f2975",
           "title": "選擇生就是選擇死 / The Choice to Live Is the Choice to Die",
+          "url": "https://www.youtube.com/watch?v=Dz-W5N0sMJ0",
+          "source": "Pursuit of Wonder",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-22T17:03:31Z"
+        },
+        {
+          "id": "ac13224678a56bcd945f6c34752da7f347af84e0",
+          "title": "史上最糟的電影 / The Worst Movie In History",
           "url": "https://www.youtube.com/watch?v=Dz-W5N0sMJ0",
           "source": "Pursuit of Wonder",
           "source_name": "OPML RSS",
@@ -201,6 +210,15 @@
           "published_at": "2026-07-23T12:26:17Z"
         },
         {
+          "id": "a3760b961df23e4858180056e28a04e40f6a2df3",
+          "title": "特朗普收入曝光，一年狂揽$XX亿，竟然是靠…",
+          "url": "https://www.youtube.com/watch?v=fKoWrF49Qo8",
+          "source": "小Lin说",
+          "source_name": "OPML RSS",
+          "site_id": "execution",
+          "published_at": "2026-07-23T12:26:17Z"
+        },
+        {
           "id": "8907a9f1eed19b8a01e430329753b1d8011f6e02",
           "title": "為什麼時間站在中國這邊 / Why time is on China’s side",
           "url": "https://www.youtube.com/watch?v=Xm4mS_eikKU",
@@ -237,7 +255,7 @@
           "published_at": "2026-07-23T04:24:00Z"
         }
       ],
-      "source_count": 25,
+      "source_count": 27,
       "source_names": [
         "Benjamin Cowen",
         "Best Documentary",
@@ -245,6 +263,7 @@
         "CaspianReport",
         "GOATFANS",
         "Good Times Bad Times",
+        "Knowledgia",
         "Marcello Ascani",
         "NPR Music",
         "Perspective",
@@ -252,7 +271,6 @@
         "RealLifeLore",
         "Thoughtworthy Co",
         "Tim Ferriss",
-        "imineo Documentaires",
         "mingjai14",
         "东海嘉措",
         "冲浪普拉斯",
@@ -262,6 +280,15 @@
       ],
       "items": [
         {
+          "id": "ad62f95a6ea0d1d185a0af4111966399d163831e",
+          "title": "穆斯林如何看待新教改革？ / What did The Muslims Think of the Protestant Reformation?",
+          "url": "https://www.youtube.com/watch?v=3FqMl1QXtuU",
+          "source": "Knowledgia",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-23T13:08:44Z"
+        },
+        {
           "id": "198bb2928c3fdfe09d3e2268d468c15a02fa22af",
           "title": "「不生孩子太自私了。」所以，我們要生孩子了。 / \"It's selfish to not have kids.\" So, we're having a baby.",
           "url": "https://www.youtube.com/watch?v=DGayaMHOqBQ",
@@ -361,15 +388,6 @@
           "published_at": "2026-07-22T21:00:28Z"
         },
         {
-          "id": "0896da3e8fe0995c2328c9e0409f067e9da91645",
-          "title": "玻利維亞：艾馬拉人的戰鬥 / Bolivie : le combat du peuple Aymara",
-          "url": "https://www.youtube.com/watch?v=j5NEtWm17yk",
-          "source": "imineo Documentaires",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-22T15:15:23Z"
-        },
-        {
           "id": "9e229337e85fdbae3de853f07de8ac798354c3af",
           "title": "【能高前瀑】溯溪行程畫風一變探洞去，花蓮媲美海神宮的雙層瀑布｜ 探險威狼 Wilang Explorer ｜木瓜溪｜花蓮｜能高前瀑｜溯溪｜空拍機｜hualien｜taiwan｜台灣｜Vlog 258",
           "url": "https://www.youtube.com/watch?v=YNHEojw6K_M",
@@ -399,6 +417,15 @@
         {
           "id": "7ee71fe6af11bbfe17cf98740a667179301f2975",
           "title": "選擇生就是選擇死 / The Choice to Live Is the Choice to Die",
+          "url": "https://www.youtube.com/watch?v=Dz-W5N0sMJ0",
+          "source": "Pursuit of Wonder",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-22T17:03:31Z"
+        },
+        {
+          "id": "ac13224678a56bcd945f6c34752da7f347af84e0",
+          "title": "史上最糟的電影 / The Worst Movie In History",
           "url": "https://www.youtube.com/watch?v=Dz-W5N0sMJ0",
           "source": "Pursuit of Wonder",
           "source_name": "OPML RSS",
@@ -451,6 +478,15 @@
           "published_at": "2026-07-23T12:26:17Z"
         },
         {
+          "id": "a3760b961df23e4858180056e28a04e40f6a2df3",
+          "title": "特朗普收入曝光，一年狂揽$XX亿，竟然是靠…",
+          "url": "https://www.youtube.com/watch?v=fKoWrF49Qo8",
+          "source": "小Lin说",
+          "source_name": "OPML RSS",
+          "site_id": "execution",
+          "published_at": "2026-07-23T12:26:17Z"
+        },
+        {
           "id": "8907a9f1eed19b8a01e430329753b1d8011f6e02",
           "title": "為什麼時間站在中國這邊 / Why time is on China’s side",
           "url": "https://www.youtube.com/watch?v=Xm4mS_eikKU",
@@ -487,28 +523,256 @@
           "published_at": "2026-07-23T04:24:00Z"
         }
       ],
-      "item_count": 25,
-      "duplicate_count": 25,
-      "score": 0.7451,
-      "importance": 0.7451,
-      "importance_score": 0.7451,
+      "item_count": 27,
+      "duplicate_count": 27,
+      "score": 0.72,
+      "importance": 0.72,
+      "importance_score": 0.72,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9837,
+        "recency": 0.8998,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-22T15:15:23Z",
-      "latest_at": "2026-07-23T12:43:17Z",
+      "earliest_at": "2026-07-22T15:49:25Z",
+      "latest_at": "2026-07-23T13:08:44Z",
       "primary_item": {
-        "id": "198bb2928c3fdfe09d3e2268d468c15a02fa22af",
-        "title": "「不生孩子太自私了。」所以，我們要生孩子了。 / \"It's selfish to not have kids.\" So, we're having a baby.",
-        "url": "https://www.youtube.com/watch?v=DGayaMHOqBQ",
-        "source": "Thoughtworthy Co",
+        "id": "ad62f95a6ea0d1d185a0af4111966399d163831e",
+        "title": "穆斯林如何看待新教改革？ / What did The Muslims Think of the Protestant Reformation?",
+        "url": "https://www.youtube.com/watch?v=3FqMl1QXtuU",
+        "source": "Knowledgia",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_b6fc43e1bb82",
+      "title": "谷歌對數以百​​萬計的去識別化的谷歌人工智慧互動進行的研究發現，人工智慧正在幫助工人，而不是取代他們，而人工智慧在大多數職業中的使用是「膚淺的」（賈斯汀·拉哈特/華爾街日報） / A Google study of millions of de-identified Google AI interactions finds AI is helping workers, not replacing them, and AI use is \"shallow\" in most occupations (Justin Lahart/Wall Street Journal)",
+      "url": "https://www.techmeme.com/260723/p20",
+      "primary_url": "https://www.techmeme.com/260723/p20",
+      "source": "Techmeme",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "5f654f6c766b52cdee46a7b29716f8106cc4e9cb",
+          "title": "谷歌對數以百​​萬計的去識別化的谷歌人工智慧互動進行的研究發現，人工智慧正在幫助工人，而不是取代他們，而人工智慧在大多數職業中的使用是「膚淺的」（賈斯汀·拉哈特/華爾街日報） / A Google study of millions of de-identified Google AI interactions finds AI is helping workers, not replacing them, and AI use is \"shallow\" in most occupations (Justin Lahart/Wall Street Journal)",
+          "url": "https://www.techmeme.com/260723/p20",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-23T11:56:08Z"
+        },
+        {
+          "id": "3739e6b5b1e021d26cc45262f7efeef0b4437fa1",
+          "title": "谷歌的一項研究使用了數百萬去識別的人工智慧交互，發現人工智慧正在幫助工人，而不是取代他們，而且對於某些任務來說，許多人工智慧的使用是「膚淺的」（賈斯汀·拉哈特/華爾街日報） / A Google study using millions of de-identified AI interactions finds AI is helping workers, not replacing them, and much AI use is \"shallow\" for certain tasks (Justin Lahart/Wall Street Journal)",
+          "url": "https://www.techmeme.com/260723/p20",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-23T11:56:08Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Techmeme"
+      ],
+      "items": [
+        {
+          "id": "5f654f6c766b52cdee46a7b29716f8106cc4e9cb",
+          "title": "谷歌對數以百​​萬計的去識別化的谷歌人工智慧互動進行的研究發現，人工智慧正在幫助工人，而不是取代他們，而人工智慧在大多數職業中的使用是「膚淺的」（賈斯汀·拉哈特/華爾街日報） / A Google study of millions of de-identified Google AI interactions finds AI is helping workers, not replacing them, and AI use is \"shallow\" in most occupations (Justin Lahart/Wall Street Journal)",
+          "url": "https://www.techmeme.com/260723/p20",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-23T11:56:08Z"
+        },
+        {
+          "id": "3739e6b5b1e021d26cc45262f7efeef0b4437fa1",
+          "title": "谷歌的一項研究使用了數百萬去識別的人工智慧交互，發現人工智慧正在幫助工人，而不是取代他們，而且對於某些任務來說，許多人工智慧的使用是「膚淺的」（賈斯汀·拉哈特/華爾街日報） / A Google study using millions of de-identified AI interactions finds AI is helping workers, not replacing them, and much AI use is \"shallow\" for certain tasks (Justin Lahart/Wall Street Journal)",
+          "url": "https://www.techmeme.com/260723/p20",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-23T11:56:08Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5548,
+      "importance": 0.5548,
+      "importance_score": 0.5548,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.5,
+        "recency": 0.8494,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-23T11:56:08Z",
+      "latest_at": "2026-07-23T11:56:08Z",
+      "primary_item": {
+        "id": "5f654f6c766b52cdee46a7b29716f8106cc4e9cb",
+        "title": "谷歌對數以百​​萬計的去識別化的谷歌人工智慧互動進行的研究發現，人工智慧正在幫助工人，而不是取代他們，而人工智慧在大多數職業中的使用是「膚淺的」（賈斯汀·拉哈特/華爾街日報） / A Google study of millions of de-identified Google AI interactions finds AI is helping workers, not replacing them, and AI use is \"shallow\" in most occupations (Justin Lahart/Wall Street Journal)",
+        "url": "https://www.techmeme.com/260723/p20",
+        "source": "Techmeme",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_d88d4d800d6b",
+      "title": "加密貨幣交易所BitMEX表示將於9月23日關閉並告知用戶提現資產；川普於 2025 年赦免其創始人不執行反洗錢規則（Akanksha Khushi/路透社） / Crypto exchange BitMEX says it will close on September 23 and tells users to withdraw assets; Trump pardoned its founders in 2025 for not implementing AML rules (Akanksha Khushi/Reuters)",
+      "url": "https://www.techmeme.com/260723/p19",
+      "primary_url": "https://www.techmeme.com/260723/p19",
+      "source": "Techmeme",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "fedfc678535f7c6a6b389799507e46cd28fc3daa",
+          "title": "加密貨幣交易所BitMEX表示將於9月23日關閉並告知用戶提現資產；川普於 2025 年赦免其創始人不執行反洗錢規則（Akanksha Khushi/路透社） / Crypto exchange BitMEX says it will close on September 23 and tells users to withdraw assets; Trump pardoned its founders in 2025 for not implementing AML rules (Akanksha Khushi/Reuters)",
+          "url": "https://www.techmeme.com/260723/p19",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-23T11:26:05Z"
+        },
+        {
+          "id": "3f686fb087614521da00e147e7b6f48c70a8be22",
+          "title": "加密貨幣交易所BitMEX表示將於9月23日關閉，用戶資產安全；川普於 2025 年赦免其創辦人未能執行反洗錢規則（Akanksha Khushi/路透社） / Crypto exchange BitMEX says it will shut down on September 23 and users' assets are safe; Trump pardoned its founders in 2025 for failing to implement AML rules (Akanksha Khushi/Reuters)",
+          "url": "https://www.techmeme.com/260723/p19",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-23T11:26:05Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Techmeme"
+      ],
+      "items": [
+        {
+          "id": "fedfc678535f7c6a6b389799507e46cd28fc3daa",
+          "title": "加密貨幣交易所BitMEX表示將於9月23日關閉並告知用戶提現資產；川普於 2025 年赦免其創始人不執行反洗錢規則（Akanksha Khushi/路透社） / Crypto exchange BitMEX says it will close on September 23 and tells users to withdraw assets; Trump pardoned its founders in 2025 for not implementing AML rules (Akanksha Khushi/Reuters)",
+          "url": "https://www.techmeme.com/260723/p19",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-23T11:26:05Z"
+        },
+        {
+          "id": "3f686fb087614521da00e147e7b6f48c70a8be22",
+          "title": "加密貨幣交易所BitMEX表示將於9月23日關閉，用戶資產安全；川普於 2025 年赦免其創辦人未能執行反洗錢規則（Akanksha Khushi/路透社） / Crypto exchange BitMEX says it will shut down on September 23 and users' assets are safe; Trump pardoned its founders in 2025 for failing to implement AML rules (Akanksha Khushi/Reuters)",
+          "url": "https://www.techmeme.com/260723/p19",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-23T11:26:05Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5486,
+      "importance": 0.5486,
+      "importance_score": 0.5486,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.5,
+        "recency": 0.8286,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-23T11:26:05Z",
+      "latest_at": "2026-07-23T11:26:05Z",
+      "primary_item": {
+        "id": "fedfc678535f7c6a6b389799507e46cd28fc3daa",
+        "title": "加密貨幣交易所BitMEX表示將於9月23日關閉並告知用戶提現資產；川普於 2025 年赦免其創始人不執行反洗錢規則（Akanksha Khushi/路透社） / Crypto exchange BitMEX says it will close on September 23 and tells users to withdraw assets; Trump pardoned its founders in 2025 for not implementing AML rules (Akanksha Khushi/Reuters)",
+        "url": "https://www.techmeme.com/260723/p19",
+        "source": "Techmeme",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_94b28f14fcb1",
+      "title": "谷歌添加了帳戶恢復的自拍影片登入選項，使用活體偵測等工具來防範深度偽造攻擊，並在全球推廣（Reece Rogers/Wired） / Google adds a selfie video sign-in option for account recovery, using tools like liveness detection to safeguard against deepfake attacks, rolling out globally (Reece Rogers/Wired)",
+      "url": "https://www.techmeme.com/260723/p13",
+      "primary_url": "https://www.techmeme.com/260723/p13",
+      "source": "Techmeme",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "93c53641ef97235195ed844ade73895c81017439",
+          "title": "谷歌添加了帳戶恢復的自拍影片登入選項，使用活體偵測等工具來防範深度偽造攻擊，並在全球推廣（Reece Rogers/Wired） / Google adds a selfie video sign-in option for account recovery, using tools like liveness detection to safeguard against deepfake attacks, rolling out globally (Reece Rogers/Wired)",
+          "url": "https://www.techmeme.com/260723/p13",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-23T10:20:05Z"
+        },
+        {
+          "id": "d22cb9662b66705c34c0aa4103e528f2c6b7d9e9",
+          "title": "谷歌推出了帳戶恢復的自拍影片登入選項，利用活體檢測等工具來減輕深度造假風險，並在全球推廣（Reece Rogers/Wired） / Google launches a selfie video sign-in option for account recovery, utilizing tools like liveness detection to mitigate deepfake risks, rolling out globally (Reece Rogers/Wired)",
+          "url": "https://www.techmeme.com/260723/p13",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-23T10:20:05Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Techmeme"
+      ],
+      "items": [
+        {
+          "id": "93c53641ef97235195ed844ade73895c81017439",
+          "title": "谷歌添加了帳戶恢復的自拍影片登入選項，使用活體偵測等工具來防範深度偽造攻擊，並在全球推廣（Reece Rogers/Wired） / Google adds a selfie video sign-in option for account recovery, using tools like liveness detection to safeguard against deepfake attacks, rolling out globally (Reece Rogers/Wired)",
+          "url": "https://www.techmeme.com/260723/p13",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-23T10:20:05Z"
+        },
+        {
+          "id": "d22cb9662b66705c34c0aa4103e528f2c6b7d9e9",
+          "title": "谷歌推出了帳戶恢復的自拍影片登入選項，利用活體檢測等工具來減輕深度造假風險，並在全球推廣（Reece Rogers/Wired） / Google launches a selfie video sign-in option for account recovery, utilizing tools like liveness detection to mitigate deepfake risks, rolling out globally (Reece Rogers/Wired)",
+          "url": "https://www.techmeme.com/260723/p13",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-23T10:20:05Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5348,
+      "importance": 0.5348,
+      "importance_score": 0.5348,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.5,
+        "recency": 0.7827,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-23T10:20:05Z",
+      "latest_at": "2026-07-23T10:20:05Z",
+      "primary_item": {
+        "id": "93c53641ef97235195ed844ade73895c81017439",
+        "title": "谷歌添加了帳戶恢復的自拍影片登入選項，使用活體偵測等工具來防範深度偽造攻擊，並在全球推廣（Reece Rogers/Wired） / Google adds a selfie video sign-in option for account recovery, using tools like liveness detection to safeguard against deepfake attacks, rolling out globally (Reece Rogers/Wired)",
+        "url": "https://www.techmeme.com/260723/p13",
+        "source": "Techmeme",
         "source_name": "OPML RSS"
       }
     },
@@ -601,13 +865,13 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.3111,
-      "importance": 0.3111,
-      "importance_score": 0.3111,
+      "score": 0.2806,
+      "importance": 0.2806,
+      "importance_score": 0.2806,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.1204,
+        "recency": 0.0188,
         "story_heat": 0.75
       },
       "category": "multi_source",
