@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-07-23T19:26:51.466522Z",
+  "generated_at": "2026-07-23T20:38:16.772235Z",
   "window_hours": 24,
   "total_items": 9,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "穆斯林如何看待新教改革？ / What did The Muslims Think of the Protestant Reformation?",
-      "url": "https://www.youtube.com/watch?v=3FqMl1QXtuU",
-      "primary_url": "https://www.youtube.com/watch?v=3FqMl1QXtuU",
-      "source": "Knowledgia",
+      "title": "TSLA一股卖$320，车企只值$65，剩下的$255是什么？",
+      "url": "https://www.youtube.com/watch?v=QzJXZtoT9LQ",
+      "primary_url": "https://www.youtube.com/watch?v=QzJXZtoT9LQ",
+      "source": "Shepherd Capital Markets",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "82f8f7f0885d655cf7019d75c25e6d4bcf4d92de",
+          "title": "TSLA一股卖$320，车企只值$65，剩下的$255是什么？",
+          "url": "https://www.youtube.com/watch?v=QzJXZtoT9LQ",
+          "source": "Shepherd Capital Markets",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-23T20:03:25Z"
+        },
         {
           "id": "ad62f95a6ea0d1d185a0af4111966399d163831e",
           "title": "穆斯林如何看待新教改革？ / What did The Muslims Think of the Protestant Reformation?",
@@ -192,7 +201,7 @@
           "published_at": "2026-07-23T04:24:00Z"
         }
       ],
-      "source_count": 20,
+      "source_count": 21,
       "source_names": [
         "Benjamin Cowen",
         "Best Documentary",
@@ -204,6 +213,7 @@
         "Marcello Ascani",
         "NPR Music",
         "Perspective",
+        "Shepherd Capital Markets",
         "Thoughtworthy Co",
         "Tim Ferriss",
         "mingjai14",
@@ -214,6 +224,15 @@
         "美投侃新闻"
       ],
       "items": [
+        {
+          "id": "82f8f7f0885d655cf7019d75c25e6d4bcf4d92de",
+          "title": "TSLA一股卖$320，车企只值$65，剩下的$255是什么？",
+          "url": "https://www.youtube.com/watch?v=QzJXZtoT9LQ",
+          "source": "Shepherd Capital Markets",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-23T20:03:25Z"
+        },
         {
           "id": "ad62f95a6ea0d1d185a0af4111966399d163831e",
           "title": "穆斯林如何看待新教改革？ / What did The Muslims Think of the Protestant Reformation?",
@@ -395,15 +414,15 @@
           "published_at": "2026-07-23T04:24:00Z"
         }
       ],
-      "item_count": 20,
-      "duplicate_count": 20,
-      "score": 0.6712,
-      "importance": 0.6712,
-      "importance_score": 0.6712,
+      "item_count": 21,
+      "duplicate_count": 21,
+      "score": 0.7427,
+      "importance": 0.7427,
+      "importance_score": 0.7427,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7374,
+        "recency": 0.9758,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -411,12 +430,12 @@
         "multi_source"
       ],
       "earliest_at": "2026-07-22T21:00:28Z",
-      "latest_at": "2026-07-23T16:00:10Z",
+      "latest_at": "2026-07-23T20:03:25Z",
       "primary_item": {
-        "id": "ad62f95a6ea0d1d185a0af4111966399d163831e",
-        "title": "穆斯林如何看待新教改革？ / What did The Muslims Think of the Protestant Reformation?",
-        "url": "https://www.youtube.com/watch?v=3FqMl1QXtuU",
-        "source": "Knowledgia",
+        "id": "82f8f7f0885d655cf7019d75c25e6d4bcf4d92de",
+        "title": "TSLA一股卖$320，车企只值$65，剩下的$255是什么？",
+        "url": "https://www.youtube.com/watch?v=QzJXZtoT9LQ",
+        "source": "Shepherd Capital Markets",
         "source_name": "OPML RSS"
       }
     },
@@ -473,13 +492,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5767,
-      "importance": 0.5767,
-      "importance_score": 0.5767,
+      "score": 0.5618,
+      "importance": 0.5618,
+      "importance_score": 0.5618,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9224,
+        "recency": 0.8728,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -549,13 +568,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5538,
-      "importance": 0.5538,
-      "importance_score": 0.5538,
+      "score": 0.5389,
+      "importance": 0.5389,
+      "importance_score": 0.5389,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.846,
+        "recency": 0.7964,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -625,13 +644,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5475,
-      "importance": 0.5475,
-      "importance_score": 0.5475,
+      "score": 0.5327,
+      "importance": 0.5327,
+      "importance_score": 0.5327,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.8251,
+        "recency": 0.7755,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -701,13 +720,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5196,
-      "importance": 0.5196,
-      "importance_score": 0.5196,
+      "score": 0.5047,
+      "importance": 0.5047,
+      "importance_score": 0.5047,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.732,
+        "recency": 0.6824,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -777,13 +796,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5061,
-      "importance": 0.5061,
-      "importance_score": 0.5061,
+      "score": 0.4912,
+      "importance": 0.4912,
+      "importance_score": 0.4912,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.687,
+        "recency": 0.6374,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -853,13 +872,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4998,
-      "importance": 0.4998,
-      "importance_score": 0.4998,
+      "score": 0.485,
+      "importance": 0.485,
+      "importance_score": 0.485,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6661,
+        "recency": 0.6165,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -929,13 +948,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3373,
-      "importance": 0.3373,
-      "importance_score": 0.3373,
+      "score": 0.3224,
+      "importance": 0.3224,
+      "importance_score": 0.3224,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.541,
+        "recency": 0.4914,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1005,13 +1024,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4861,
-      "importance": 0.4861,
-      "importance_score": 0.4861,
+      "score": 0.4712,
+      "importance": 0.4712,
+      "importance_score": 0.4712,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6203,
+        "recency": 0.5707,
         "story_heat": 0.25
       },
       "category": "watch",
