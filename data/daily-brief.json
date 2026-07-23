@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-07-22T22:34:55.604266Z",
+  "generated_at": "2026-07-23T00:05:11.706656Z",
   "window_hours": 24,
   "total_items": 2,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "加拿大安全部門正在創造自己的恐怖分子嗎？ / Are Canadian Security Services Creating Their Own Terrorists?",
-      "url": "https://www.youtube.com/watch?v=jz8FDqFDmxA",
-      "primary_url": "https://www.youtube.com/watch?v=jz8FDqFDmxA",
-      "source": "Best Documentary",
+      "title": "Dr. Andrew Huberman — 勝肽、效能與方案 / Dr. Andrew Huberman — Peptides, Performance, and Protocols",
+      "url": "https://www.youtube.com/watch?v=wGG3WRJuPUE",
+      "primary_url": "https://www.youtube.com/watch?v=wGG3WRJuPUE",
+      "source": "Tim Ferriss",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "8c65a0e457eb5f3229fc0385d7fb08b025f9b783",
+          "title": "Dr. Andrew Huberman — 勝肽、效能與方案 / Dr. Andrew Huberman — Peptides, Performance, and Protocols",
+          "url": "https://www.youtube.com/watch?v=wGG3WRJuPUE",
+          "source": "Tim Ferriss",
+          "source_name": "OPML RSS",
+          "site_id": "blog",
+          "published_at": "2026-07-22T23:18:17Z"
+        },
         {
           "id": "7f68ca421b5cb68c12286d83c0ffbc0323afc4ee",
           "title": "加拿大安全部門正在創造自己的恐怖分子嗎？ / Are Canadian Security Services Creating Their Own Terrorists?",
@@ -48,13 +57,13 @@
           "published_at": "2026-07-22T02:04:38Z"
         },
         {
-          "id": "5bc2e6bef8214d28970362ddcdfc4ac22b0ce2ab",
-          "title": "AI要打国家战了！股市全面反弹了？AMD比英伟达还贵？SpaceX要大解禁！",
-          "url": "https://www.youtube.com/watch?v=qmBHR75FU98",
-          "source": "美投侃新闻",
+          "id": "0be177b691d8a1c578e63b4f6e2b20f155e3d9e0",
+          "title": "永遠改變你生活的電影場景 / A Movie Scene That Will Change Your Life Forever",
+          "url": "https://www.youtube.com/watch?v=Dz-W5N0sMJ0",
+          "source": "Pursuit of Wonder",
           "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-21T23:18:52Z"
+          "site_id": "opmlrss",
+          "published_at": "2026-07-22T17:03:31Z"
         },
         {
           "id": "b4322e9c285976315daeacc6d8f6a353f2d899ce",
@@ -120,18 +129,27 @@
           "published_at": "2026-07-22T13:00:06Z"
         }
       ],
-      "source_count": 12,
+      "source_count": 13,
       "source_names": [
         "Benjamin Cowen",
         "Best Documentary",
         "Good Times Bad Times",
         "Pursuit of Wonder",
         "RealLifeLore",
+        "Tim Ferriss",
         "imineo Documentaires",
-        "公視P#新聞實驗室",
-        "美投侃新闻"
+        "公視P#新聞實驗室"
       ],
       "items": [
+        {
+          "id": "8c65a0e457eb5f3229fc0385d7fb08b025f9b783",
+          "title": "Dr. Andrew Huberman — 勝肽、效能與方案 / Dr. Andrew Huberman — Peptides, Performance, and Protocols",
+          "url": "https://www.youtube.com/watch?v=wGG3WRJuPUE",
+          "source": "Tim Ferriss",
+          "source_name": "OPML RSS",
+          "site_id": "blog",
+          "published_at": "2026-07-22T23:18:17Z"
+        },
         {
           "id": "7f68ca421b5cb68c12286d83c0ffbc0323afc4ee",
           "title": "加拿大安全部門正在創造自己的恐怖分子嗎？ / Are Canadian Security Services Creating Their Own Terrorists?",
@@ -169,13 +187,13 @@
           "published_at": "2026-07-22T02:04:38Z"
         },
         {
-          "id": "5bc2e6bef8214d28970362ddcdfc4ac22b0ce2ab",
-          "title": "AI要打国家战了！股市全面反弹了？AMD比英伟达还贵？SpaceX要大解禁！",
-          "url": "https://www.youtube.com/watch?v=qmBHR75FU98",
-          "source": "美投侃新闻",
+          "id": "0be177b691d8a1c578e63b4f6e2b20f155e3d9e0",
+          "title": "永遠改變你生活的電影場景 / A Movie Scene That Will Change Your Life Forever",
+          "url": "https://www.youtube.com/watch?v=Dz-W5N0sMJ0",
+          "source": "Pursuit of Wonder",
           "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-21T23:18:52Z"
+          "site_id": "opmlrss",
+          "published_at": "2026-07-22T17:03:31Z"
         },
         {
           "id": "b4322e9c285976315daeacc6d8f6a353f2d899ce",
@@ -241,28 +259,28 @@
           "published_at": "2026-07-22T13:00:06Z"
         }
       ],
-      "item_count": 12,
-      "duplicate_count": 12,
-      "score": 0.7303,
-      "importance": 0.7303,
-      "importance_score": 0.7303,
+      "item_count": 13,
+      "duplicate_count": 13,
+      "score": 0.7402,
+      "importance": 0.7402,
+      "importance_score": 0.7402,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9344,
+        "recency": 0.9674,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-21T23:18:52Z",
-      "latest_at": "2026-07-22T21:00:28Z",
+      "earliest_at": "2026-07-22T02:04:38Z",
+      "latest_at": "2026-07-22T23:18:17Z",
       "primary_item": {
-        "id": "7f68ca421b5cb68c12286d83c0ffbc0323afc4ee",
-        "title": "加拿大安全部門正在創造自己的恐怖分子嗎？ / Are Canadian Security Services Creating Their Own Terrorists?",
-        "url": "https://www.youtube.com/watch?v=jz8FDqFDmxA",
-        "source": "Best Documentary",
+        "id": "8c65a0e457eb5f3229fc0385d7fb08b025f9b783",
+        "title": "Dr. Andrew Huberman — 勝肽、效能與方案 / Dr. Andrew Huberman — Peptides, Performance, and Protocols",
+        "url": "https://www.youtube.com/watch?v=wGG3WRJuPUE",
+        "source": "Tim Ferriss",
         "source_name": "OPML RSS"
       }
     },
@@ -337,13 +355,13 @@
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.4427,
-      "importance": 0.4427,
-      "importance_score": 0.4427,
+      "score": 0.4239,
+      "importance": 0.4239,
+      "importance_score": 0.4239,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.7257,
+        "recency": 0.6631,
         "story_heat": 0.5
       },
       "category": "multi_source",
