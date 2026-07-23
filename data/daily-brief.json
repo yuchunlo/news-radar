@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-07-23T09:28:16.093404Z",
+  "generated_at": "2026-07-23T11:27:16.909190Z",
   "window_hours": 24,
   "total_items": 2,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "方大同的吉他弹唱水平是华语天花板吗？",
-      "url": "https://www.youtube.com/watch?v=sfqSDOcr-Z8",
-      "primary_url": "https://www.youtube.com/watch?v=sfqSDOcr-Z8",
-      "source": "GOATFANS",
+      "title": "比特幣社會利益：我們剩下數十人 / Bitcoin Social Interest: Dozens of us Left",
+      "url": "https://www.youtube.com/watch?v=UIv9IQ4uXEA",
+      "primary_url": "https://www.youtube.com/watch?v=UIv9IQ4uXEA",
+      "source": "Benjamin Cowen",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "850a707de93efdf6cf6cee4830c91c56196fbb87",
+          "title": "比特幣社會利益：我們剩下數十人 / Bitcoin Social Interest: Dozens of us Left",
+          "url": "https://www.youtube.com/watch?v=UIv9IQ4uXEA",
+          "source": "Benjamin Cowen",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-23T10:53:23Z"
+        },
         {
           "id": "78b9ac7c3aa16a126abd778fd3a0348bdd7c7622",
           "title": "方大同的吉他弹唱水平是华语天花板吗？",
@@ -37,6 +46,15 @@
           "source_name": "OPML RSS",
           "site_id": "culture",
           "published_at": "2026-07-23T08:32:51Z"
+        },
+        {
+          "id": "9ba8733a7411d8b5b83e9e776d01f7812187e108",
+          "title": "零廣告但賺過千萬?｜流量密碼：最強人設就是沒有人設｜輕鬆工作狂嘅優先次序邏輯｜創業同人生一樣要夠硬頸【Coffee林芊妤 x Ming仔】想創你個心 Ep8",
+          "url": "https://www.youtube.com/watch?v=Bc1wDmmCYcE",
+          "source": "mingjai14",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-23T07:48:24Z"
         },
         {
           "id": "ad60e1c9671c3bbd7c68e651a5d36c1ddc7caa1c",
@@ -82,6 +100,15 @@
           "source_name": "OPML RSS",
           "site_id": "culture",
           "published_at": "2026-07-22T12:00:03Z"
+        },
+        {
+          "id": "9e229337e85fdbae3de853f07de8ac798354c3af",
+          "title": "【能高前瀑】溯溪行程畫風一變探洞去，花蓮媲美海神宮的雙層瀑布｜ 探險威狼 Wilang Explorer ｜木瓜溪｜花蓮｜能高前瀑｜溯溪｜空拍機｜hualien｜taiwan｜台灣｜Vlog 258",
+          "url": "https://www.youtube.com/watch?v=YNHEojw6K_M",
+          "source": "探險威狼 Wilang-Explorer",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-23T11:00:03Z"
         },
         {
           "id": "0be177b691d8a1c578e63b4f6e2b20f155e3d9e0",
@@ -147,6 +174,24 @@
           "published_at": "2026-07-22T15:49:25Z"
         },
         {
+          "id": "6e8939bfc17b9d055698c0e14f40add5fb842add",
+          "title": "Airbnb 已向其公司投資 5,800 萬美元 ✈️ WeRoad 創辦人 Paolo De Nadai / Airbnb ha investito 58 MILIONI nella sua azienda ✈️ Paolo De Nadai fondatore di WeRoad",
+          "url": "https://www.youtube.com/watch?v=dekeb7RjCM4",
+          "source": "Marcello Ascani",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-23T11:12:19Z"
+        },
+        {
+          "id": "ac51c6ec868f6d6c5ea9e4303003ae25ed59fcdd",
+          "title": "舉手會痛、肩推卡住？3個動作拯救肩膀活動度，擺脫代償腰痛！",
+          "url": "https://www.youtube.com/watch?v=cqivXSJAQcw",
+          "source": "CYFIT兆佑",
+          "source_name": "OPML RSS",
+          "site_id": "functionality",
+          "published_at": "2026-07-23T10:00:31Z"
+        },
+        {
           "id": "d95c4f7689189ff3cd3e24857ca1bbc69a2dba16",
           "title": "零下20℃也要喝冰美式：韩国年轻人到底在反抗什么？",
           "url": "https://www.youtube.com/watch?v=LdboPaDgro0",
@@ -165,22 +210,36 @@
           "published_at": "2026-07-22T13:00:06Z"
         }
       ],
-      "source_count": 17,
+      "source_count": 22,
       "source_names": [
+        "Benjamin Cowen",
         "Best Documentary",
+        "CYFIT兆佑",
         "GOATFANS",
         "Good Times Bad Times",
+        "Marcello Ascani",
         "NPR Music",
         "Pursuit of Wonder",
         "RealLifeLore",
         "Tim Ferriss",
         "imineo Documentaires",
+        "mingjai14",
         "东海嘉措",
         "公視P#新聞實驗室",
         "冲浪普拉斯",
+        "探險威狼 Wilang-Explorer",
         "美投侃新闻"
       ],
       "items": [
+        {
+          "id": "850a707de93efdf6cf6cee4830c91c56196fbb87",
+          "title": "比特幣社會利益：我們剩下數十人 / Bitcoin Social Interest: Dozens of us Left",
+          "url": "https://www.youtube.com/watch?v=UIv9IQ4uXEA",
+          "source": "Benjamin Cowen",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-23T10:53:23Z"
+        },
         {
           "id": "78b9ac7c3aa16a126abd778fd3a0348bdd7c7622",
           "title": "方大同的吉他弹唱水平是华语天花板吗？",
@@ -207,6 +266,15 @@
           "source_name": "OPML RSS",
           "site_id": "culture",
           "published_at": "2026-07-23T08:32:51Z"
+        },
+        {
+          "id": "9ba8733a7411d8b5b83e9e776d01f7812187e108",
+          "title": "零廣告但賺過千萬?｜流量密碼：最強人設就是沒有人設｜輕鬆工作狂嘅優先次序邏輯｜創業同人生一樣要夠硬頸【Coffee林芊妤 x Ming仔】想創你個心 Ep8",
+          "url": "https://www.youtube.com/watch?v=Bc1wDmmCYcE",
+          "source": "mingjai14",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-23T07:48:24Z"
         },
         {
           "id": "ad60e1c9671c3bbd7c68e651a5d36c1ddc7caa1c",
@@ -252,6 +320,15 @@
           "source_name": "OPML RSS",
           "site_id": "culture",
           "published_at": "2026-07-22T12:00:03Z"
+        },
+        {
+          "id": "9e229337e85fdbae3de853f07de8ac798354c3af",
+          "title": "【能高前瀑】溯溪行程畫風一變探洞去，花蓮媲美海神宮的雙層瀑布｜ 探險威狼 Wilang Explorer ｜木瓜溪｜花蓮｜能高前瀑｜溯溪｜空拍機｜hualien｜taiwan｜台灣｜Vlog 258",
+          "url": "https://www.youtube.com/watch?v=YNHEojw6K_M",
+          "source": "探險威狼 Wilang-Explorer",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-23T11:00:03Z"
         },
         {
           "id": "0be177b691d8a1c578e63b4f6e2b20f155e3d9e0",
@@ -317,6 +394,24 @@
           "published_at": "2026-07-22T15:49:25Z"
         },
         {
+          "id": "6e8939bfc17b9d055698c0e14f40add5fb842add",
+          "title": "Airbnb 已向其公司投資 5,800 萬美元 ✈️ WeRoad 創辦人 Paolo De Nadai / Airbnb ha investito 58 MILIONI nella sua azienda ✈️ Paolo De Nadai fondatore di WeRoad",
+          "url": "https://www.youtube.com/watch?v=dekeb7RjCM4",
+          "source": "Marcello Ascani",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-23T11:12:19Z"
+        },
+        {
+          "id": "ac51c6ec868f6d6c5ea9e4303003ae25ed59fcdd",
+          "title": "舉手會痛、肩推卡住？3個動作拯救肩膀活動度，擺脫代償腰痛！",
+          "url": "https://www.youtube.com/watch?v=cqivXSJAQcw",
+          "source": "CYFIT兆佑",
+          "source_name": "OPML RSS",
+          "site_id": "functionality",
+          "published_at": "2026-07-23T10:00:31Z"
+        },
+        {
           "id": "d95c4f7689189ff3cd3e24857ca1bbc69a2dba16",
           "title": "零下20℃也要喝冰美式：韩国年轻人到底在反抗什么？",
           "url": "https://www.youtube.com/watch?v=LdboPaDgro0",
@@ -335,15 +430,15 @@
           "published_at": "2026-07-22T13:00:06Z"
         }
       ],
-      "item_count": 17,
-      "duplicate_count": 17,
-      "score": 0.7441,
-      "importance": 0.7441,
-      "importance_score": 0.7441,
+      "item_count": 22,
+      "duplicate_count": 22,
+      "score": 0.7429,
+      "importance": 0.7429,
+      "importance_score": 0.7429,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9805,
+        "recency": 0.9765,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -351,12 +446,12 @@
         "multi_source"
       ],
       "earliest_at": "2026-07-22T12:00:03Z",
-      "latest_at": "2026-07-23T09:00:07Z",
+      "latest_at": "2026-07-23T11:12:19Z",
       "primary_item": {
-        "id": "78b9ac7c3aa16a126abd778fd3a0348bdd7c7622",
-        "title": "方大同的吉他弹唱水平是华语天花板吗？",
-        "url": "https://www.youtube.com/watch?v=sfqSDOcr-Z8",
-        "source": "GOATFANS",
+        "id": "850a707de93efdf6cf6cee4830c91c56196fbb87",
+        "title": "比特幣社會利益：我們剩下數十人 / Bitcoin Social Interest: Dozens of us Left",
+        "url": "https://www.youtube.com/watch?v=UIv9IQ4uXEA",
+        "source": "Benjamin Cowen",
         "source_name": "OPML RSS"
       }
     },
@@ -449,13 +544,13 @@
       ],
       "item_count": 4,
       "duplicate_count": 4,
-      "score": 0.3566,
-      "importance": 0.3566,
-      "importance_score": 0.3566,
+      "score": 0.3318,
+      "importance": 0.3318,
+      "importance_score": 0.3318,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.272,
+        "recency": 0.1894,
         "story_heat": 0.75
       },
       "category": "multi_source",
