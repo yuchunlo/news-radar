@@ -1,16 +1,43 @@
 {
-  "generated_at": "2026-07-23T20:38:16.772235Z",
+  "generated_at": "2026-07-23T22:08:54.196267Z",
   "window_hours": 24,
   "total_items": 9,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "TSLA一股卖$320，车企只值$65，剩下的$255是什么？",
-      "url": "https://www.youtube.com/watch?v=QzJXZtoT9LQ",
-      "primary_url": "https://www.youtube.com/watch?v=QzJXZtoT9LQ",
-      "source": "Shepherd Capital Markets",
+      "title": "《全面戰爭：戰鎚 40,000》的瘋狂單位定制（深度探索） / Insane Unit Customization for Total War: Warhammer 40,000 (DEEP DIVE)",
+      "url": "https://www.youtube.com/watch?v=lMoJuddFR_Q",
+      "primary_url": "https://www.youtube.com/watch?v=lMoJuddFR_Q",
+      "source": "Invicta",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "231da0153d5805a690619a507f3fca3208f3cb82",
+          "title": "《全面戰爭：戰鎚 40,000》的瘋狂單位定制（深度探索） / Insane Unit Customization for Total War: Warhammer 40,000 (DEEP DIVE)",
+          "url": "https://www.youtube.com/watch?v=lMoJuddFR_Q",
+          "source": "Invicta",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-23T21:14:38Z"
+        },
+        {
+          "id": "44fd5d82724133cc2af8b9bcdf6f71e6d8b89347",
+          "title": "希特勒的死亡軍：帝國黨衛軍師的完整故事 / Hitler's Death Army: The Complete Story Of The Das Reich SS Division",
+          "url": "https://www.youtube.com/watch?v=nejA_fqBcSA",
+          "source": "Timeline - World History Documentaries",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-23T21:00:31Z"
+        },
+        {
+          "id": "1d26d7f01bd03afd2c56dabc60db71e03afea355",
+          "title": "從戰區到卡特爾領地：世界上最危險的工作 / From War Zones to Cartel Territory: The World's Most Dangerous Job",
+          "url": "https://www.youtube.com/watch?v=oYUabjmuc_E",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-23T21:00:17Z"
+        },
         {
           "id": "82f8f7f0885d655cf7019d75c25e6d4bcf4d92de",
           "title": "TSLA一股卖$320，车企只值$65，剩下的$255是什么？",
@@ -120,15 +147,6 @@
           "published_at": "2026-07-22T23:18:17Z"
         },
         {
-          "id": "7f68ca421b5cb68c12286d83c0ffbc0323afc4ee",
-          "title": "加拿大安全部門正在創造自己的恐怖分子嗎？ / Are Canadian Security Services Creating Their Own Terrorists?",
-          "url": "https://www.youtube.com/watch?v=jz8FDqFDmxA",
-          "source": "Best Documentary",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-22T21:00:28Z"
-        },
-        {
           "id": "4d3df4c37d20f57bcffd5a4ed3a9636503dafe70",
           "title": "西爾斯基對上費多羅夫。烏克蘭軍隊的未來之戰 / Syrskyi vs. Fedorov. The Battle for the Future of Ukraine's Army",
           "url": "https://www.youtube.com/watch?v=OreEUop7eSw",
@@ -201,7 +219,7 @@
           "published_at": "2026-07-23T04:24:00Z"
         }
       ],
-      "source_count": 21,
+      "source_count": 23,
       "source_names": [
         "Benjamin Cowen",
         "Best Documentary",
@@ -209,6 +227,7 @@
         "CaspianReport",
         "GOATFANS",
         "Good Times Bad Times",
+        "Invicta",
         "Knowledgia",
         "Marcello Ascani",
         "NPR Music",
@@ -216,6 +235,7 @@
         "Shepherd Capital Markets",
         "Thoughtworthy Co",
         "Tim Ferriss",
+        "Timeline - World History Documentaries",
         "mingjai14",
         "东海嘉措",
         "冲浪普拉斯",
@@ -225,6 +245,33 @@
       ],
       "items": [
         {
+          "id": "231da0153d5805a690619a507f3fca3208f3cb82",
+          "title": "《全面戰爭：戰鎚 40,000》的瘋狂單位定制（深度探索） / Insane Unit Customization for Total War: Warhammer 40,000 (DEEP DIVE)",
+          "url": "https://www.youtube.com/watch?v=lMoJuddFR_Q",
+          "source": "Invicta",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-23T21:14:38Z"
+        },
+        {
+          "id": "44fd5d82724133cc2af8b9bcdf6f71e6d8b89347",
+          "title": "希特勒的死亡軍：帝國黨衛軍師的完整故事 / Hitler's Death Army: The Complete Story Of The Das Reich SS Division",
+          "url": "https://www.youtube.com/watch?v=nejA_fqBcSA",
+          "source": "Timeline - World History Documentaries",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-23T21:00:31Z"
+        },
+        {
+          "id": "1d26d7f01bd03afd2c56dabc60db71e03afea355",
+          "title": "從戰區到卡特爾領地：世界上最危險的工作 / From War Zones to Cartel Territory: The World's Most Dangerous Job",
+          "url": "https://www.youtube.com/watch?v=oYUabjmuc_E",
+          "source": "Best Documentary",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-23T21:00:17Z"
+        },
+        {
           "id": "82f8f7f0885d655cf7019d75c25e6d4bcf4d92de",
           "title": "TSLA一股卖$320，车企只值$65，剩下的$255是什么？",
           "url": "https://www.youtube.com/watch?v=QzJXZtoT9LQ",
@@ -333,15 +380,6 @@
           "published_at": "2026-07-22T23:18:17Z"
         },
         {
-          "id": "7f68ca421b5cb68c12286d83c0ffbc0323afc4ee",
-          "title": "加拿大安全部門正在創造自己的恐怖分子嗎？ / Are Canadian Security Services Creating Their Own Terrorists?",
-          "url": "https://www.youtube.com/watch?v=jz8FDqFDmxA",
-          "source": "Best Documentary",
-          "source_name": "OPML RSS",
-          "site_id": "culture",
-          "published_at": "2026-07-22T21:00:28Z"
-        },
-        {
           "id": "4d3df4c37d20f57bcffd5a4ed3a9636503dafe70",
           "title": "西爾斯基對上費多羅夫。烏克蘭軍隊的未來之戰 / Syrskyi vs. Fedorov. The Battle for the Future of Ukraine's Army",
           "url": "https://www.youtube.com/watch?v=OreEUop7eSw",
@@ -414,28 +452,28 @@
           "published_at": "2026-07-23T04:24:00Z"
         }
       ],
-      "item_count": 21,
-      "duplicate_count": 21,
-      "score": 0.7427,
-      "importance": 0.7427,
-      "importance_score": 0.7427,
+      "item_count": 23,
+      "duplicate_count": 23,
+      "score": 0.7387,
+      "importance": 0.7387,
+      "importance_score": 0.7387,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9758,
+        "recency": 0.9623,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-22T21:00:28Z",
-      "latest_at": "2026-07-23T20:03:25Z",
+      "earliest_at": "2026-07-22T23:18:17Z",
+      "latest_at": "2026-07-23T21:14:38Z",
       "primary_item": {
-        "id": "82f8f7f0885d655cf7019d75c25e6d4bcf4d92de",
-        "title": "TSLA一股卖$320，车企只值$65，剩下的$255是什么？",
-        "url": "https://www.youtube.com/watch?v=QzJXZtoT9LQ",
-        "source": "Shepherd Capital Markets",
+        "id": "231da0153d5805a690619a507f3fca3208f3cb82",
+        "title": "《全面戰爭：戰鎚 40,000》的瘋狂單位定制（深度探索） / Insane Unit Customization for Total War: Warhammer 40,000 (DEEP DIVE)",
+        "url": "https://www.youtube.com/watch?v=lMoJuddFR_Q",
+        "source": "Invicta",
         "source_name": "OPML RSS"
       }
     },
@@ -492,13 +530,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5618,
-      "importance": 0.5618,
-      "importance_score": 0.5618,
+      "score": 0.5429,
+      "importance": 0.5429,
+      "importance_score": 0.5429,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.8728,
+        "recency": 0.8098,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -568,13 +606,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5389,
-      "importance": 0.5389,
-      "importance_score": 0.5389,
+      "score": 0.52,
+      "importance": 0.52,
+      "importance_score": 0.52,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7964,
+        "recency": 0.7335,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -644,13 +682,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5327,
-      "importance": 0.5327,
-      "importance_score": 0.5327,
+      "score": 0.5138,
+      "importance": 0.5138,
+      "importance_score": 0.5138,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7755,
+        "recency": 0.7126,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -720,13 +758,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5047,
-      "importance": 0.5047,
-      "importance_score": 0.5047,
+      "score": 0.4858,
+      "importance": 0.4858,
+      "importance_score": 0.4858,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6824,
+        "recency": 0.6195,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -796,13 +834,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4912,
-      "importance": 0.4912,
-      "importance_score": 0.4912,
+      "score": 0.4723,
+      "importance": 0.4723,
+      "importance_score": 0.4723,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6374,
+        "recency": 0.5745,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -872,13 +910,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.485,
-      "importance": 0.485,
-      "importance_score": 0.485,
+      "score": 0.4661,
+      "importance": 0.4661,
+      "importance_score": 0.4661,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6165,
+        "recency": 0.5536,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -948,13 +986,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3224,
-      "importance": 0.3224,
-      "importance_score": 0.3224,
+      "score": 0.3036,
+      "importance": 0.3036,
+      "importance_score": 0.3036,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.4914,
+        "recency": 0.4285,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1024,13 +1062,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4712,
-      "importance": 0.4712,
-      "importance_score": 0.4712,
+      "score": 0.4523,
+      "importance": 0.4523,
+      "importance_score": 0.4523,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.5707,
+        "recency": 0.5078,
         "story_heat": 0.25
       },
       "category": "watch",
