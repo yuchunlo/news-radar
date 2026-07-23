@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-23T22:08:54.196267Z",
+  "generated_at": "2026-07-23T23:30:01.257706Z",
   "window_hours": 24,
   "total_items": 9,
   "items": [
@@ -138,15 +138,6 @@
           "published_at": "2026-07-23T01:17:30Z"
         },
         {
-          "id": "8c65a0e457eb5f3229fc0385d7fb08b025f9b783",
-          "title": "Dr. Andrew Huberman — 勝肽、效能與方案 / Dr. Andrew Huberman — Peptides, Performance, and Protocols",
-          "url": "https://www.youtube.com/watch?v=wGG3WRJuPUE",
-          "source": "Tim Ferriss",
-          "source_name": "OPML RSS",
-          "site_id": "blog",
-          "published_at": "2026-07-22T23:18:17Z"
-        },
-        {
           "id": "4d3df4c37d20f57bcffd5a4ed3a9636503dafe70",
           "title": "西爾斯基對上費多羅夫。烏克蘭軍隊的未來之戰 / Syrskyi vs. Fedorov. The Battle for the Future of Ukraine's Army",
           "url": "https://www.youtube.com/watch?v=OreEUop7eSw",
@@ -219,7 +210,7 @@
           "published_at": "2026-07-23T04:24:00Z"
         }
       ],
-      "source_count": 23,
+      "source_count": 22,
       "source_names": [
         "Benjamin Cowen",
         "Best Documentary",
@@ -234,7 +225,6 @@
         "Perspective",
         "Shepherd Capital Markets",
         "Thoughtworthy Co",
-        "Tim Ferriss",
         "Timeline - World History Documentaries",
         "mingjai14",
         "东海嘉措",
@@ -371,15 +361,6 @@
           "published_at": "2026-07-23T01:17:30Z"
         },
         {
-          "id": "8c65a0e457eb5f3229fc0385d7fb08b025f9b783",
-          "title": "Dr. Andrew Huberman — 勝肽、效能與方案 / Dr. Andrew Huberman — Peptides, Performance, and Protocols",
-          "url": "https://www.youtube.com/watch?v=wGG3WRJuPUE",
-          "source": "Tim Ferriss",
-          "source_name": "OPML RSS",
-          "site_id": "blog",
-          "published_at": "2026-07-22T23:18:17Z"
-        },
-        {
           "id": "4d3df4c37d20f57bcffd5a4ed3a9636503dafe70",
           "title": "西爾斯基對上費多羅夫。烏克蘭軍隊的未來之戰 / Syrskyi vs. Fedorov. The Battle for the Future of Ukraine's Army",
           "url": "https://www.youtube.com/watch?v=OreEUop7eSw",
@@ -452,22 +433,22 @@
           "published_at": "2026-07-23T04:24:00Z"
         }
       ],
-      "item_count": 23,
-      "duplicate_count": 23,
-      "score": 0.7387,
-      "importance": 0.7387,
-      "importance_score": 0.7387,
+      "item_count": 22,
+      "duplicate_count": 22,
+      "score": 0.7218,
+      "importance": 0.7218,
+      "importance_score": 0.7218,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9623,
+        "recency": 0.906,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-22T23:18:17Z",
+      "earliest_at": "2026-07-23T01:17:30Z",
       "latest_at": "2026-07-23T21:14:38Z",
       "primary_item": {
         "id": "231da0153d5805a690619a507f3fca3208f3cb82",
@@ -530,13 +511,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5429,
-      "importance": 0.5429,
-      "importance_score": 0.5429,
+      "score": 0.526,
+      "importance": 0.526,
+      "importance_score": 0.526,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.8098,
+        "recency": 0.7535,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -606,13 +587,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.52,
-      "importance": 0.52,
-      "importance_score": 0.52,
+      "score": 0.5031,
+      "importance": 0.5031,
+      "importance_score": 0.5031,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7335,
+        "recency": 0.6771,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -682,13 +663,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5138,
-      "importance": 0.5138,
-      "importance_score": 0.5138,
+      "score": 0.4969,
+      "importance": 0.4969,
+      "importance_score": 0.4969,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.7126,
+        "recency": 0.6563,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -758,13 +739,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4858,
-      "importance": 0.4858,
-      "importance_score": 0.4858,
+      "score": 0.4689,
+      "importance": 0.4689,
+      "importance_score": 0.4689,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6195,
+        "recency": 0.5631,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -834,13 +815,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4723,
-      "importance": 0.4723,
-      "importance_score": 0.4723,
+      "score": 0.4554,
+      "importance": 0.4554,
+      "importance_score": 0.4554,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.5745,
+        "recency": 0.5181,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -910,13 +891,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4661,
-      "importance": 0.4661,
-      "importance_score": 0.4661,
+      "score": 0.4492,
+      "importance": 0.4492,
+      "importance_score": 0.4492,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.5536,
+        "recency": 0.4973,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -986,13 +967,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3036,
-      "importance": 0.3036,
-      "importance_score": 0.3036,
+      "score": 0.2867,
+      "importance": 0.2867,
+      "importance_score": 0.2867,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.4285,
+        "recency": 0.3722,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -1062,13 +1043,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4523,
-      "importance": 0.4523,
-      "importance_score": 0.4523,
+      "score": 0.4354,
+      "importance": 0.4354,
+      "importance_score": 0.4354,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.5078,
+        "recency": 0.4514,
         "story_heat": 0.25
       },
       "category": "watch",
