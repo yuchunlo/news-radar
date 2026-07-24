@@ -14,7 +14,7 @@ permissions:
 
 jobs:
   update:
-    timeout-minutes: 15
+    timeout-minutes: 20
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -44,15 +44,23 @@ jobs:
             echo "No OPML file available"
           fi
 
-      - name: Update data
+      - name: Aggregate feeds
         env:
           RSS_MAX_FEEDS: ${{ vars.RSS_MAX_FEEDS || 400 }}
         run: |
           if [ -f feeds/follow.opml ]; then
-            python scripts/update_news.py --output-dir data --window-hours 24 --archive-days 210 --rss-opml feeds/follow.opml --rss-max-feeds "${RSS_MAX_FEEDS:-400}"
+            python scripts/update_news.py --output-dir data --archive-days 210 --rss-opml feeds/follow.opml --rss-max-feeds "${RSS_MAX_FEEDS:-400}"
           else
-            python scripts/update_news.py --output-dir data --window-hours 24 --archive-days 210
+            python scripts/update_news.py --output-dir data --archive-days 210
           fi
+      - name: Summarize & score
+        env:
+          ITEMS_FILE: data/archive.json
+          MAX_ITEMS: "400"
+          TRANSLATE: "on"
+          SUMMARY_RATIO: "0.9"
+          # RESCORE_ALL: "1"
+        run: python scripts/summarize_feed.py
 
       - name: Commit and push changes
         run: |
