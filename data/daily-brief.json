@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-07-24T01:02:07.026682Z",
+  "generated_at": "2026-07-24T04:50:48.800380Z",
   "window_hours": 24,
-  "total_items": 9,
+  "total_items": 11,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "《全面戰爭：戰鎚 40,000》的瘋狂單位定制（深度探索） / Insane Unit Customization for Total War: Warhammer 40,000 (DEEP DIVE)",
-      "url": "https://www.youtube.com/watch?v=lMoJuddFR_Q",
-      "primary_url": "https://www.youtube.com/watch?v=lMoJuddFR_Q",
-      "source": "Invicta",
+      "title": "川普咱该吃TACO了？英特尔赌上一切！美债危机谁先出局？段永平开始换仓了！",
+      "url": "https://www.youtube.com/watch?v=j_pHH6cFRsg",
+      "primary_url": "https://www.youtube.com/watch?v=j_pHH6cFRsg",
+      "source": "美投侃新闻",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "67fca56ab16b2df005228645628c073abb108a04",
+          "title": "川普咱该吃TACO了？英特尔赌上一切！美债危机谁先出局？段永平开始换仓了！",
+          "url": "https://www.youtube.com/watch?v=j_pHH6cFRsg",
+          "source": "美投侃新闻",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-24T01:28:51Z"
+        },
         {
           "id": "231da0153d5805a690619a507f3fca3208f3cb82",
           "title": "《全面戰爭：戰鎚 40,000》的瘋狂單位定制（深度探索） / Insane Unit Customization for Total War: Warhammer 40,000 (DEEP DIVE)",
@@ -129,15 +138,6 @@
           "published_at": "2026-07-23T07:48:24Z"
         },
         {
-          "id": "ad60e1c9671c3bbd7c68e651a5d36c1ddc7caa1c",
-          "title": "特斯拉利润崩了！软件股能碰吗？微软要大涨50%！谷歌花钱收不住了！厄尔尼诺的大交易！",
-          "url": "https://www.youtube.com/watch?v=CSLMi1ca1b4",
-          "source": "美投侃新闻",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-23T01:17:30Z"
-        },
-        {
           "id": "4d3df4c37d20f57bcffd5a4ed3a9636503dafe70",
           "title": "西爾斯基對上費多羅夫。烏克蘭軍隊的未來之戰 / Syrskyi vs. Fedorov. The Battle for the Future of Ukraine's Army",
           "url": "https://www.youtube.com/watch?v=OreEUop7eSw",
@@ -199,18 +199,9 @@
           "source_name": "OPML RSS",
           "site_id": "functionality",
           "published_at": "2026-07-23T10:00:31Z"
-        },
-        {
-          "id": "d95c4f7689189ff3cd3e24857ca1bbc69a2dba16",
-          "title": "零下20℃也要喝冰美式：韩国年轻人到底在反抗什么？",
-          "url": "https://www.youtube.com/watch?v=LdboPaDgro0",
-          "source": "冲浪普拉斯",
-          "source_name": "OPML RSS",
-          "site_id": "execution",
-          "published_at": "2026-07-23T04:24:00Z"
         }
       ],
-      "source_count": 22,
+      "source_count": 21,
       "source_names": [
         "Benjamin Cowen",
         "Best Documentary",
@@ -228,12 +219,20 @@
         "Timeline - World History Documentaries",
         "mingjai14",
         "东海嘉措",
-        "冲浪普拉斯",
         "小Lin说",
         "探險威狼 Wilang-Explorer",
         "美投侃新闻"
       ],
       "items": [
+        {
+          "id": "67fca56ab16b2df005228645628c073abb108a04",
+          "title": "川普咱该吃TACO了？英特尔赌上一切！美债危机谁先出局？段永平开始换仓了！",
+          "url": "https://www.youtube.com/watch?v=j_pHH6cFRsg",
+          "source": "美投侃新闻",
+          "source_name": "OPML RSS",
+          "site_id": "finance",
+          "published_at": "2026-07-24T01:28:51Z"
+        },
         {
           "id": "231da0153d5805a690619a507f3fca3208f3cb82",
           "title": "《全面戰爭：戰鎚 40,000》的瘋狂單位定制（深度探索） / Insane Unit Customization for Total War: Warhammer 40,000 (DEEP DIVE)",
@@ -352,15 +351,6 @@
           "published_at": "2026-07-23T07:48:24Z"
         },
         {
-          "id": "ad60e1c9671c3bbd7c68e651a5d36c1ddc7caa1c",
-          "title": "特斯拉利润崩了！软件股能碰吗？微软要大涨50%！谷歌花钱收不住了！厄尔尼诺的大交易！",
-          "url": "https://www.youtube.com/watch?v=CSLMi1ca1b4",
-          "source": "美投侃新闻",
-          "source_name": "OPML RSS",
-          "site_id": "finance",
-          "published_at": "2026-07-23T01:17:30Z"
-        },
-        {
           "id": "4d3df4c37d20f57bcffd5a4ed3a9636503dafe70",
           "title": "西爾斯基對上費多羅夫。烏克蘭軍隊的未來之戰 / Syrskyi vs. Fedorov. The Battle for the Future of Ukraine's Army",
           "url": "https://www.youtube.com/watch?v=OreEUop7eSw",
@@ -422,39 +412,182 @@
           "source_name": "OPML RSS",
           "site_id": "functionality",
           "published_at": "2026-07-23T10:00:31Z"
-        },
-        {
-          "id": "d95c4f7689189ff3cd3e24857ca1bbc69a2dba16",
-          "title": "零下20℃也要喝冰美式：韩国年轻人到底在反抗什么？",
-          "url": "https://www.youtube.com/watch?v=LdboPaDgro0",
-          "source": "冲浪普拉斯",
-          "source_name": "OPML RSS",
-          "site_id": "execution",
-          "published_at": "2026-07-23T04:24:00Z"
         }
       ],
-      "item_count": 22,
-      "duplicate_count": 22,
-      "score": 0.7026,
-      "importance": 0.7026,
-      "importance_score": 0.7026,
+      "item_count": 21,
+      "duplicate_count": 21,
+      "score": 0.7079,
+      "importance": 0.7079,
+      "importance_score": 0.7079,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.842,
+        "recency": 0.8597,
         "story_heat": 1.0
       },
       "category": "multi_source",
       "reasons": [
         "multi_source"
       ],
-      "earliest_at": "2026-07-23T01:17:30Z",
-      "latest_at": "2026-07-23T21:14:38Z",
+      "earliest_at": "2026-07-23T07:48:24Z",
+      "latest_at": "2026-07-24T01:28:51Z",
       "primary_item": {
-        "id": "231da0153d5805a690619a507f3fca3208f3cb82",
-        "title": "《全面戰爭：戰鎚 40,000》的瘋狂單位定制（深度探索） / Insane Unit Customization for Total War: Warhammer 40,000 (DEEP DIVE)",
-        "url": "https://www.youtube.com/watch?v=lMoJuddFR_Q",
-        "source": "Invicta",
+        "id": "67fca56ab16b2df005228645628c073abb108a04",
+        "title": "川普咱该吃TACO了？英特尔赌上一切！美债危机谁先出局？段永平开始换仓了！",
+        "url": "https://www.youtube.com/watch?v=j_pHH6cFRsg",
+        "source": "美投侃新闻",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_fb0e7b35b934",
+      "title": "烏克蘭加大了對俄羅斯電子商務巨頭 Wildberry 倉庫的攻擊力度，這標誌著烏克蘭試圖阻礙俄羅斯經濟的戰爭進入了新階段（Sam Meredith/CNBC） / Ukraine ratchets up its attacks on warehouses of Russian e-commerce giant Wildberries, signaling a new phase in the war as it seeks to hamper Russia's economy (Sam Meredith/CNBC)",
+      "url": "https://www.techmeme.com/260723/p58",
+      "primary_url": "https://www.techmeme.com/260723/p58",
+      "source": "Techmeme",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "2d51d780c37777fd017a9477bf93535eeaff3cfc",
+          "title": "烏克蘭加大了對俄羅斯電子商務巨頭 Wildberry 倉庫的攻擊力度，這標誌著烏克蘭試圖阻礙俄羅斯經濟的戰爭進入了新階段（Sam Meredith/CNBC） / Ukraine ratchets up its attacks on warehouses of Russian e-commerce giant Wildberries, signaling a new phase in the war as it seeks to hamper Russia's economy (Sam Meredith/CNBC)",
+          "url": "https://www.techmeme.com/260723/p58",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-24T00:15:05Z"
+        },
+        {
+          "id": "2abaa3fbe7c2e95579be856a55ce9737c6893425",
+          "title": "烏克蘭加大了對俄羅斯最大線上零售商 Wildberry 倉庫的攻擊力度，該公司擁有 48,000 名員工，五天內襲擊了五個設施（Sam Meredith/CNBC） / Ukraine ratchets up its attacks on warehouses of Wildberries, Russia's biggest online retailer and which employs 48,000, hitting five facilities over five days (Sam Meredith/CNBC)",
+          "url": "https://www.techmeme.com/260723/p58",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-24T00:15:05Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Techmeme"
+      ],
+      "items": [
+        {
+          "id": "2d51d780c37777fd017a9477bf93535eeaff3cfc",
+          "title": "烏克蘭加大了對俄羅斯電子商務巨頭 Wildberry 倉庫的攻擊力度，這標誌著烏克蘭試圖阻礙俄羅斯經濟的戰爭進入了新階段（Sam Meredith/CNBC） / Ukraine ratchets up its attacks on warehouses of Russian e-commerce giant Wildberries, signaling a new phase in the war as it seeks to hamper Russia's economy (Sam Meredith/CNBC)",
+          "url": "https://www.techmeme.com/260723/p58",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-24T00:15:05Z"
+        },
+        {
+          "id": "2abaa3fbe7c2e95579be856a55ce9737c6893425",
+          "title": "烏克蘭加大了對俄羅斯最大線上零售商 Wildberry 倉庫的攻擊力度，該公司擁有 48,000 名員工，五天內襲擊了五個設施（Sam Meredith/CNBC） / Ukraine ratchets up its attacks on warehouses of Wildberries, Russia's biggest online retailer and which employs 48,000, hitting five facilities over five days (Sam Meredith/CNBC)",
+          "url": "https://www.techmeme.com/260723/p58",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-24T00:15:05Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5426,
+      "importance": 0.5426,
+      "importance_score": 0.5426,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.5,
+        "recency": 0.8085,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-24T00:15:05Z",
+      "latest_at": "2026-07-24T00:15:05Z",
+      "primary_item": {
+        "id": "2d51d780c37777fd017a9477bf93535eeaff3cfc",
+        "title": "烏克蘭加大了對俄羅斯電子商務巨頭 Wildberry 倉庫的攻擊力度，這標誌著烏克蘭試圖阻礙俄羅斯經濟的戰爭進入了新階段（Sam Meredith/CNBC） / Ukraine ratchets up its attacks on warehouses of Russian e-commerce giant Wildberries, signaling a new phase in the war as it seeks to hamper Russia's economy (Sam Meredith/CNBC)",
+        "url": "https://www.techmeme.com/260723/p58",
+        "source": "Techmeme",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_c10652e78de4",
+      "title": "資料來源：Stripe 正在洽談收購 OpenRouter，這筆交易的價值可能約為 10B 美元；PitchBook：OpenRouter 5 月份估值為 $1.3B（華爾街日報） / Sources: Stripe is in talks to acquire OpenRouter in a deal potentially worth around $10B; PitchBook: OpenRouter was valued at $1.3B in May (Wall Street Journal)",
+      "url": "https://www.techmeme.com/260723/p52",
+      "primary_url": "https://www.techmeme.com/260723/p52",
+      "source": "Techmeme",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "e9dfbfbab43368a7fd770f694d618810775dd8d1",
+          "title": "資料來源：Stripe 正在洽談收購 OpenRouter，這筆交易的價值可能約為 10B 美元；PitchBook：OpenRouter 5 月份估值為 $1.3B（華爾街日報） / Sources: Stripe is in talks to acquire OpenRouter in a deal potentially worth around $10B; PitchBook: OpenRouter was valued at $1.3B in May (Wall Street Journal)",
+          "url": "https://www.techmeme.com/260723/p52",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-23T21:45:01Z"
+        },
+        {
+          "id": "28d8f0e24df9bfc161acee071649046112ba76f6",
+          "title": "資料來源：Stripe 正在洽談收購 OpenRouter，該公司幫助開發人員使用 AI 模型，售價約 10B 美元；PitchBook：OpenRouter 5 月份估值為 $1.3B（華爾街日報） / Sources: Stripe is in talks to acquire OpenRouter, which helps developers use AI models and could fetch ~$10B; PitchBook: OpenRouter was valued at $1.3B in May (Wall Street Journal)",
+          "url": "https://www.techmeme.com/260723/p52",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-23T21:45:01Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "Techmeme"
+      ],
+      "items": [
+        {
+          "id": "e9dfbfbab43368a7fd770f694d618810775dd8d1",
+          "title": "資料來源：Stripe 正在洽談收購 OpenRouter，這筆交易的價值可能約為 10B 美元；PitchBook：OpenRouter 5 月份估值為 $1.3B（華爾街日報） / Sources: Stripe is in talks to acquire OpenRouter in a deal potentially worth around $10B; PitchBook: OpenRouter was valued at $1.3B in May (Wall Street Journal)",
+          "url": "https://www.techmeme.com/260723/p52",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-23T21:45:01Z"
+        },
+        {
+          "id": "28d8f0e24df9bfc161acee071649046112ba76f6",
+          "title": "資料來源：Stripe 正在洽談收購 OpenRouter，該公司幫助開發人員使用 AI 模型，售價約 10B 美元；PitchBook：OpenRouter 5 月份估值為 $1.3B（華爾街日報） / Sources: Stripe is in talks to acquire OpenRouter, which helps developers use AI models and could fetch ~$10B; PitchBook: OpenRouter was valued at $1.3B in May (Wall Street Journal)",
+          "url": "https://www.techmeme.com/260723/p52",
+          "source": "Techmeme",
+          "source_name": "OPML RSS",
+          "site_id": "tech",
+          "published_at": "2026-07-23T21:45:01Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.5113,
+      "importance": 0.5113,
+      "importance_score": 0.5113,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.5,
+        "recency": 0.7043,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-23T21:45:01Z",
+      "latest_at": "2026-07-23T21:45:01Z",
+      "primary_item": {
+        "id": "e9dfbfbab43368a7fd770f694d618810775dd8d1",
+        "title": "資料來源：Stripe 正在洽談收購 OpenRouter，這筆交易的價值可能約為 10B 美元；PitchBook：OpenRouter 5 月份估值為 $1.3B（華爾街日報） / Sources: Stripe is in talks to acquire OpenRouter in a deal potentially worth around $10B; PitchBook: OpenRouter was valued at $1.3B in May (Wall Street Journal)",
+        "url": "https://www.techmeme.com/260723/p52",
+        "source": "Techmeme",
         "source_name": "OPML RSS"
       }
     },
@@ -511,13 +644,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5069,
-      "importance": 0.5069,
-      "importance_score": 0.5069,
+      "score": 0.4592,
+      "importance": 0.4592,
+      "importance_score": 0.4592,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6895,
+        "recency": 0.5307,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -587,13 +720,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.484,
-      "importance": 0.484,
-      "importance_score": 0.484,
+      "score": 0.4363,
+      "importance": 0.4363,
+      "importance_score": 0.4363,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.6132,
+        "recency": 0.4544,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -663,13 +796,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4777,
-      "importance": 0.4777,
-      "importance_score": 0.4777,
+      "score": 0.43,
+      "importance": 0.43,
+      "importance_score": 0.43,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.5923,
+        "recency": 0.4335,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -739,13 +872,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4497,
-      "importance": 0.4497,
-      "importance_score": 0.4497,
+      "score": 0.4021,
+      "importance": 0.4021,
+      "importance_score": 0.4021,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.4992,
+        "recency": 0.3403,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -759,6 +892,82 @@
         "title": "消息來源：傑夫·貝佐斯 (Jeff Bezos) 敦促 Prime Video 負責人邁克·霍普金斯 (Mike Hopkins) 在服務徹底改革中強調人工智能，從而引發了一項名為“燈塔計劃”(Project Lighthouse) 的內部工作（路透社） / Sources: Jeff Bezos pushed Prime Video head Mike Hopkins to highlight AI in an overhaul of the service, leading to an internal effort called Project Lighthouse (Reuters)",
         "url": "https://www.techmeme.com/260723/p22",
         "source": "Techmeme",
+        "source_name": "OPML RSS"
+      }
+    },
+    {
+      "story_id": "story_f434dddeb9d2",
+      "title": "一年 5.2 萬怨偶有 4 成撐不到 6 年！青安 3.0「離婚斷補助」恐成緊箍咒",
+      "url": "https://finance.technews.tw/2026/07/23/marriage-and-childbearing-family",
+      "primary_url": "https://finance.technews.tw/2026/07/23/marriage-and-childbearing-family",
+      "source": "財經 – TechNews 科技新報",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "4b3c8bec7e60e22d0a4b42d736a3b997ae9a414f",
+          "title": "一年 5.2 萬怨偶有 4 成撐不到 6 年！青安 3.0「離婚斷補助」恐成緊箍咒",
+          "url": "https://finance.technews.tw/2026/07/23/marriage-and-childbearing-family",
+          "source": "財經 – TechNews 科技新報",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-23T08:25:57Z"
+        },
+        {
+          "id": "c23e68dd8903521829a2e7b430c5d25ff23f8c6c",
+          "title": "一年 5.2 萬怨偶有四成撐不到六年！青安 3.0「離婚斷補助」恐成緊箍咒",
+          "url": "https://finance.technews.tw/2026/07/23/marriage-and-childbearing-family",
+          "source": "財經 – TechNews 科技新報",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-23T08:25:57Z"
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "財經 – TechNews 科技新報"
+      ],
+      "items": [
+        {
+          "id": "4b3c8bec7e60e22d0a4b42d736a3b997ae9a414f",
+          "title": "一年 5.2 萬怨偶有 4 成撐不到 6 年！青安 3.0「離婚斷補助」恐成緊箍咒",
+          "url": "https://finance.technews.tw/2026/07/23/marriage-and-childbearing-family",
+          "source": "財經 – TechNews 科技新報",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-23T08:25:57Z"
+        },
+        {
+          "id": "c23e68dd8903521829a2e7b430c5d25ff23f8c6c",
+          "title": "一年 5.2 萬怨偶有四成撐不到六年！青安 3.0「離婚斷補助」恐成緊箍咒",
+          "url": "https://finance.technews.tw/2026/07/23/marriage-and-childbearing-family",
+          "source": "財經 – TechNews 科技新報",
+          "source_name": "OPML RSS",
+          "site_id": "trending",
+          "published_at": "2026-07-23T08:25:57Z"
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.2198,
+      "importance": 0.2198,
+      "importance_score": 0.2198,
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "source_tier": 0.25,
+        "recency": 0.1494,
+        "story_heat": 0.25
+      },
+      "category": "watch",
+      "reasons": [
+        "multi_source"
+      ],
+      "earliest_at": "2026-07-23T08:25:57Z",
+      "latest_at": "2026-07-23T08:25:57Z",
+      "primary_item": {
+        "id": "4b3c8bec7e60e22d0a4b42d736a3b997ae9a414f",
+        "title": "一年 5.2 萬怨偶有 4 成撐不到 6 年！青安 3.0「離婚斷補助」恐成緊箍咒",
+        "url": "https://finance.technews.tw/2026/07/23/marriage-and-childbearing-family",
+        "source": "財經 – TechNews 科技新報",
         "source_name": "OPML RSS"
       }
     },
@@ -815,13 +1024,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4363,
-      "importance": 0.4363,
-      "importance_score": 0.4363,
+      "score": 0.3886,
+      "importance": 0.3886,
+      "importance_score": 0.3886,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.4542,
+        "recency": 0.2954,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -891,13 +1100,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.43,
-      "importance": 0.43,
-      "importance_score": 0.43,
+      "score": 0.3823,
+      "importance": 0.3823,
+      "importance_score": 0.3823,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.4333,
+        "recency": 0.2745,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -911,82 +1120,6 @@
         "title": "加密貨幣交易所BitMEX表示將於9月23日關閉並告知用戶提現資產；川普於 2025 年赦免其創始人不執行反洗錢規則（Akanksha Khushi/路透社） / Crypto exchange BitMEX says it will close on September 23 and tells users to withdraw assets; Trump pardoned its founders in 2025 for not implementing AML rules (Akanksha Khushi/Reuters)",
         "url": "https://www.techmeme.com/260723/p19",
         "source": "Techmeme",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_f434dddeb9d2",
-      "title": "一年 5.2 萬怨偶有 4 成撐不到 6 年！青安 3.0「離婚斷補助」恐成緊箍咒",
-      "url": "https://finance.technews.tw/2026/07/23/marriage-and-childbearing-family",
-      "primary_url": "https://finance.technews.tw/2026/07/23/marriage-and-childbearing-family",
-      "source": "財經 – TechNews 科技新報",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "4b3c8bec7e60e22d0a4b42d736a3b997ae9a414f",
-          "title": "一年 5.2 萬怨偶有 4 成撐不到 6 年！青安 3.0「離婚斷補助」恐成緊箍咒",
-          "url": "https://finance.technews.tw/2026/07/23/marriage-and-childbearing-family",
-          "source": "財經 – TechNews 科技新報",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-23T08:25:57Z"
-        },
-        {
-          "id": "c23e68dd8903521829a2e7b430c5d25ff23f8c6c",
-          "title": "一年 5.2 萬怨偶有四成撐不到六年！青安 3.0「離婚斷補助」恐成緊箍咒",
-          "url": "https://finance.technews.tw/2026/07/23/marriage-and-childbearing-family",
-          "source": "財經 – TechNews 科技新報",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-23T08:25:57Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "財經 – TechNews 科技新報"
-      ],
-      "items": [
-        {
-          "id": "4b3c8bec7e60e22d0a4b42d736a3b997ae9a414f",
-          "title": "一年 5.2 萬怨偶有 4 成撐不到 6 年！青安 3.0「離婚斷補助」恐成緊箍咒",
-          "url": "https://finance.technews.tw/2026/07/23/marriage-and-childbearing-family",
-          "source": "財經 – TechNews 科技新報",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-23T08:25:57Z"
-        },
-        {
-          "id": "c23e68dd8903521829a2e7b430c5d25ff23f8c6c",
-          "title": "一年 5.2 萬怨偶有四成撐不到六年！青安 3.0「離婚斷補助」恐成緊箍咒",
-          "url": "https://finance.technews.tw/2026/07/23/marriage-and-childbearing-family",
-          "source": "財經 – TechNews 科技新報",
-          "source_name": "OPML RSS",
-          "site_id": "trending",
-          "published_at": "2026-07-23T08:25:57Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.2675,
-      "importance": 0.2675,
-      "importance_score": 0.2675,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.25,
-        "recency": 0.3082,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-23T08:25:57Z",
-      "latest_at": "2026-07-23T08:25:57Z",
-      "primary_item": {
-        "id": "4b3c8bec7e60e22d0a4b42d736a3b997ae9a414f",
-        "title": "一年 5.2 萬怨偶有 4 成撐不到 6 年！青安 3.0「離婚斷補助」恐成緊箍咒",
-        "url": "https://finance.technews.tw/2026/07/23/marriage-and-childbearing-family",
-        "source": "財經 – TechNews 科技新報",
         "source_name": "OPML RSS"
       }
     },
@@ -1043,13 +1176,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4162,
-      "importance": 0.4162,
-      "importance_score": 0.4162,
+      "score": 0.3686,
+      "importance": 0.3686,
+      "importance_score": 0.3686,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.3875,
+        "recency": 0.2287,
         "story_heat": 0.25
       },
       "category": "watch",
