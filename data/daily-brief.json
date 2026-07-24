@@ -1,16 +1,34 @@
 {
-  "generated_at": "2026-07-24T14:21:41.000359Z",
+  "generated_at": "2026-07-24T15:56:42.272624Z",
   "window_hours": 24,
-  "total_items": 8,
+  "total_items": 6,
   "items": [
     {
       "story_id": "story_774f7412d1a3",
-      "title": "比特幣：進退兩難 / Bitcoin: Between a Rock and a Hard Place",
-      "url": "https://www.youtube.com/watch?v=JY_wY8XXjYU",
-      "primary_url": "https://www.youtube.com/watch?v=JY_wY8XXjYU",
-      "source": "Benjamin Cowen",
+      "title": "巴勒斯坦這個字的三個意義 / Three Meanings of the Word Palestine",
+      "url": "https://www.youtube.com/watch?v=w_AmXvo9VNY",
+      "primary_url": "https://www.youtube.com/watch?v=w_AmXvo9VNY",
+      "source": "UsefulCharts",
       "source_name": "OPML RSS",
       "sources": [
+        {
+          "id": "1cce1f59f4ce6a42a8e4d39f9edad854aa677571",
+          "title": "巴勒斯坦這個字的三個意義 / Three Meanings of the Word Palestine",
+          "url": "https://www.youtube.com/watch?v=w_AmXvo9VNY",
+          "source": "UsefulCharts",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-24T15:00:08Z"
+        },
+        {
+          "id": "bf9338fc92b9a0a6c8bb84ccc852a1107571e7a4",
+          "title": "中國的山雕藝術家：古老的儀式 / China’s Mountain Sculptors: The Ancient Rites",
+          "url": "https://www.youtube.com/watch?v=_1gqmH1MqPM",
+          "source": "imineo Documentaires",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-24T14:45:10Z"
+        },
         {
           "id": "b2e99b6872c1b0f35deb304a7d2fb39acf7b3d4e",
           "title": "比特幣：進退兩難 / Bitcoin: Between a Rock and a Hard Place",
@@ -129,7 +147,7 @@
           "published_at": "2026-07-24T10:27:04Z"
         }
       ],
-      "source_count": 13,
+      "source_count": 15,
       "source_names": [
         "Benjamin Cowen",
         "Best Documentary",
@@ -140,11 +158,31 @@
         "Kilian Jornet Burgada",
         "Shepherd Capital Markets",
         "Timeline - World History Documentaries",
+        "UsefulCharts",
+        "imineo Documentaires",
         "忽左忽右",
         "美投侃新闻",
         "雜書觀察室"
       ],
       "items": [
+        {
+          "id": "1cce1f59f4ce6a42a8e4d39f9edad854aa677571",
+          "title": "巴勒斯坦這個字的三個意義 / Three Meanings of the Word Palestine",
+          "url": "https://www.youtube.com/watch?v=w_AmXvo9VNY",
+          "source": "UsefulCharts",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-24T15:00:08Z"
+        },
+        {
+          "id": "bf9338fc92b9a0a6c8bb84ccc852a1107571e7a4",
+          "title": "中國的山雕藝術家：古老的儀式 / China’s Mountain Sculptors: The Ancient Rites",
+          "url": "https://www.youtube.com/watch?v=_1gqmH1MqPM",
+          "source": "imineo Documentaires",
+          "source_name": "OPML RSS",
+          "site_id": "culture",
+          "published_at": "2026-07-24T14:45:10Z"
+        },
         {
           "id": "b2e99b6872c1b0f35deb304a7d2fb39acf7b3d4e",
           "title": "比特幣：進退兩難 / Bitcoin: Between a Rock and a Hard Place",
@@ -263,15 +301,15 @@
           "published_at": "2026-07-24T10:27:04Z"
         }
       ],
-      "item_count": 13,
-      "duplicate_count": 13,
-      "score": 0.7352,
-      "importance": 0.7352,
-      "importance_score": 0.7352,
+      "item_count": 15,
+      "duplicate_count": 15,
+      "score": 0.7382,
+      "importance": 0.7382,
+      "importance_score": 0.7382,
       "importance_label": "多源热议",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.9505,
+        "recency": 0.9607,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -279,12 +317,12 @@
         "multi_source"
       ],
       "earliest_at": "2026-07-23T16:00:10Z",
-      "latest_at": "2026-07-24T13:10:27Z",
+      "latest_at": "2026-07-24T15:00:08Z",
       "primary_item": {
-        "id": "b2e99b6872c1b0f35deb304a7d2fb39acf7b3d4e",
-        "title": "比特幣：進退兩難 / Bitcoin: Between a Rock and a Hard Place",
-        "url": "https://www.youtube.com/watch?v=JY_wY8XXjYU",
-        "source": "Benjamin Cowen",
+        "id": "1cce1f59f4ce6a42a8e4d39f9edad854aa677571",
+        "title": "巴勒斯坦這個字的三個意義 / Three Meanings of the Word Palestine",
+        "url": "https://www.youtube.com/watch?v=w_AmXvo9VNY",
+        "source": "UsefulCharts",
         "source_name": "OPML RSS"
       }
     },
@@ -341,13 +379,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4236,
-      "importance": 0.4236,
-      "importance_score": 0.4236,
+      "score": 0.4038,
+      "importance": 0.4038,
+      "importance_score": 0.4038,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.4121,
+        "recency": 0.3461,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -417,13 +455,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.4038,
-      "importance": 0.4038,
-      "importance_score": 0.4038,
+      "score": 0.384,
+      "importance": 0.384,
+      "importance_score": 0.384,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.3461,
+        "recency": 0.2801,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -493,13 +531,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3924,
-      "importance": 0.3924,
-      "importance_score": 0.3924,
+      "score": 0.3726,
+      "importance": 0.3726,
+      "importance_score": 0.3726,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.3079,
+        "recency": 0.2419,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -569,13 +607,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.2987,
-      "importance": 0.2987,
-      "importance_score": 0.2987,
+      "score": 0.279,
+      "importance": 0.279,
+      "importance_score": 0.279,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.25,
-        "recency": 0.4125,
+        "recency": 0.3465,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -645,13 +683,13 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.3403,
-      "importance": 0.3403,
-      "importance_score": 0.3403,
+      "score": 0.3205,
+      "importance": 0.3205,
+      "importance_score": 0.3205,
       "importance_label": "值得关注",
       "importance_breakdown": {
         "source_tier": 0.5,
-        "recency": 0.1343,
+        "recency": 0.0683,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -664,158 +702,6 @@
         "id": "8829af8493bfefc6703bbe1c4a76d85dc1c34224",
         "title": "GitHub 計劃實施兩級錯誤賞金計劃，在大量人工智慧驅動的報告中，減少對公眾的獎勵，並增加對僅限受邀研究人員的獎勵（Carly Page/The Register） / GitHub plans a two-tier bug bounty program that cuts rewards for the public and boosts payouts for invite-only researchers, amid a flood of AI-powered reports (Carly Page/The Register)",
         "url": "https://www.techmeme.com/260723/p33",
-        "source": "Techmeme",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_4f09be47c9e2",
-      "title": "Yelp 與 OpenAI 簽署協議，為 ChatGPT 用戶提供即時本地推薦，並將很快讓他們透過 ChatGPT 獲得本地服務提供者的報價（Madison Mills/Axios） / Yelp signs a deal with OpenAI to give ChatGPT users real-time local recommendations and will soon let them get quotes from local service providers via ChatGPT (Madison Mills/Axios)",
-      "url": "https://www.techmeme.com/260723/p28",
-      "primary_url": "https://www.techmeme.com/260723/p28",
-      "source": "Techmeme",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "109fc938ea4798fdc6f683c2e52e4e6e40ac9586",
-          "title": "Yelp 與 OpenAI 簽署協議，為 ChatGPT 用戶提供即時本地推薦，並將很快讓他們透過 ChatGPT 獲得本地服務提供者的報價（Madison Mills/Axios） / Yelp signs a deal with OpenAI to give ChatGPT users real-time local recommendations and will soon let them get quotes from local service providers via ChatGPT (Madison Mills/Axios)",
-          "url": "https://www.techmeme.com/260723/p28",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-23T15:45:05Z"
-        },
-        {
-          "id": "6ee2d2347831eeaab4ee0a7677d2d49043a789de",
-          "title": "Yelp 與 OpenAI 簽署協議，為 ChatGPT 用戶提供即時本地推薦，並將很快讓他們透過 ChatGPT 聯繫本地企業以取得報價（Madison Mills/Axios） / Yelp signs a deal with OpenAI to provide ChatGPT users real-time local recommendations, and will soon let them contact local businesses for quotes via ChatGPT (Madison Mills/Axios)",
-          "url": "https://www.techmeme.com/260723/p28",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-23T15:45:05Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Techmeme"
-      ],
-      "items": [
-        {
-          "id": "109fc938ea4798fdc6f683c2e52e4e6e40ac9586",
-          "title": "Yelp 與 OpenAI 簽署協議，為 ChatGPT 用戶提供即時本地推薦，並將很快讓他們透過 ChatGPT 獲得本地服務提供者的報價（Madison Mills/Axios） / Yelp signs a deal with OpenAI to give ChatGPT users real-time local recommendations and will soon let them get quotes from local service providers via ChatGPT (Madison Mills/Axios)",
-          "url": "https://www.techmeme.com/260723/p28",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-23T15:45:05Z"
-        },
-        {
-          "id": "6ee2d2347831eeaab4ee0a7677d2d49043a789de",
-          "title": "Yelp 與 OpenAI 簽署協議，為 ChatGPT 用戶提供即時本地推薦，並將很快讓他們透過 ChatGPT 聯繫本地企業以取得報價（Madison Mills/Axios） / Yelp signs a deal with OpenAI to provide ChatGPT users real-time local recommendations, and will soon let them contact local businesses for quotes via ChatGPT (Madison Mills/Axios)",
-          "url": "https://www.techmeme.com/260723/p28",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-23T15:45:05Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.3174,
-      "importance": 0.3174,
-      "importance_score": 0.3174,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.5,
-        "recency": 0.0579,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-23T15:45:05Z",
-      "latest_at": "2026-07-23T15:45:05Z",
-      "primary_item": {
-        "id": "109fc938ea4798fdc6f683c2e52e4e6e40ac9586",
-        "title": "Yelp 與 OpenAI 簽署協議，為 ChatGPT 用戶提供即時本地推薦，並將很快讓他們透過 ChatGPT 獲得本地服務提供者的報價（Madison Mills/Axios） / Yelp signs a deal with OpenAI to give ChatGPT users real-time local recommendations and will soon let them get quotes from local service providers via ChatGPT (Madison Mills/Axios)",
-        "url": "https://www.techmeme.com/260723/p28",
-        "source": "Techmeme",
-        "source_name": "OPML RSS"
-      }
-    },
-    {
-      "story_id": "story_34fc4d3f5e7b",
-      "title": "AI 推理晶片新創公司 Etched 籌集了由紅杉資本領投的 3 億美元 C 輪融資，估值為 10.3B 美元，高於 12 月份的 5B 美元； a16z、SK 海力士等也進行了投資（Julie Bort/TechCrunch） / AI inference chip startup Etched raised a $300M Series C led by Sequoia at a $10.3B valuation, up from $5B in December; a16z, SK Hynix, and others also invested (Julie Bort/TechCrunch)",
-      "url": "https://www.techmeme.com/260723/p27",
-      "primary_url": "https://www.techmeme.com/260723/p27",
-      "source": "Techmeme",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "5ba02dd9d8b24ed9d444fc44e4ce2199fd1e668b",
-          "title": "AI 推理晶片新創公司 Etched 籌集了由紅杉資本領投的 3 億美元 C 輪融資，估值為 10.3B 美元，高於 12 月份的 5B 美元； a16z、SK 海力士等也進行了投資（Julie Bort/TechCrunch） / AI inference chip startup Etched raised a $300M Series C led by Sequoia at a $10.3B valuation, up from $5B in December; a16z, SK Hynix, and others also invested (Julie Bort/TechCrunch)",
-          "url": "https://www.techmeme.com/260723/p27",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-23T15:15:02Z"
-        },
-        {
-          "id": "d0b0c29e4d9205c9f17b741784e6e577c91752fa",
-          "title": "AI 推理晶片新創公司 Etched 籌集了 3 億美元的 C 輪融資，由紅杉資本領投，a16z、SK Hynix 等其他公司參與，估值從 12 月的 50 億美元上漲至 10.3 億美元。 (Julie Bort/TechCrunch) / AI inference chip startup Etched raised a $300M Series C led by Sequoia, with a16z, SK Hynix, others participating, at a $10.3B valuation, up from $5B in Dec. (Julie Bort/TechCrunch)",
-          "url": "https://www.techmeme.com/260723/p27",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-23T15:15:02Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Techmeme"
-      ],
-      "items": [
-        {
-          "id": "5ba02dd9d8b24ed9d444fc44e4ce2199fd1e668b",
-          "title": "AI 推理晶片新創公司 Etched 籌集了由紅杉資本領投的 3 億美元 C 輪融資，估值為 10.3B 美元，高於 12 月份的 5B 美元； a16z、SK 海力士等也進行了投資（Julie Bort/TechCrunch） / AI inference chip startup Etched raised a $300M Series C led by Sequoia at a $10.3B valuation, up from $5B in December; a16z, SK Hynix, and others also invested (Julie Bort/TechCrunch)",
-          "url": "https://www.techmeme.com/260723/p27",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-23T15:15:02Z"
-        },
-        {
-          "id": "d0b0c29e4d9205c9f17b741784e6e577c91752fa",
-          "title": "AI 推理晶片新創公司 Etched 籌集了 3 億美元的 C 輪融資，由紅杉資本領投，a16z、SK Hynix 等其他公司參與，估值從 12 月的 50 億美元上漲至 10.3 億美元。 (Julie Bort/TechCrunch) / AI inference chip startup Etched raised a $300M Series C led by Sequoia, with a16z, SK Hynix, others participating, at a $10.3B valuation, up from $5B in Dec. (Julie Bort/TechCrunch)",
-          "url": "https://www.techmeme.com/260723/p27",
-          "source": "Techmeme",
-          "source_name": "OPML RSS",
-          "site_id": "tech",
-          "published_at": "2026-07-23T15:15:02Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.3111,
-      "importance": 0.3111,
-      "importance_score": 0.3111,
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "source_tier": 0.5,
-        "recency": 0.037,
-        "story_heat": 0.25
-      },
-      "category": "watch",
-      "reasons": [
-        "multi_source"
-      ],
-      "earliest_at": "2026-07-23T15:15:02Z",
-      "latest_at": "2026-07-23T15:15:02Z",
-      "primary_item": {
-        "id": "5ba02dd9d8b24ed9d444fc44e4ce2199fd1e668b",
-        "title": "AI 推理晶片新創公司 Etched 籌集了由紅杉資本領投的 3 億美元 C 輪融資，估值為 10.3B 美元，高於 12 月份的 5B 美元； a16z、SK 海力士等也進行了投資（Julie Bort/TechCrunch） / AI inference chip startup Etched raised a $300M Series C led by Sequoia at a $10.3B valuation, up from $5B in December; a16z, SK Hynix, and others also invested (Julie Bort/TechCrunch)",
-        "url": "https://www.techmeme.com/260723/p27",
         "source": "Techmeme",
         "source_name": "OPML RSS"
       }
