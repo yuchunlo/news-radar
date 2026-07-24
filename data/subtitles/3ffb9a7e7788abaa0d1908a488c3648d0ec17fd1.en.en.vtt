@@ -1,0 +1,43 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.700
+It's time for a new puzzle of the month.
+
+00:00:02.080 --> 00:00:05.640
+This one comes from a problem on the 2024 British Math Olympiad.
+
+00:00:06.000 --> 00:00:10.460
+The setup is to have 64 sugar cubes arranged in a 4x4x4 block.
+
+00:00:11.120 --> 00:00:13.940
+Each cube is either white, blue, or brown.
+
+00:00:14.460 --> 00:00:18.018
+Your challenge is to prove that you can find 6 pairs of cubes,
+
+00:00:18.018 --> 00:00:21.633
+such that all 12 individual cubes involved are the same color,
+
+00:00:21.633 --> 00:00:24.272
+and such that the lengths of these six lines,
+
+00:00:24.272 --> 00:00:28.920
+the lines connecting the centers of the cubes in a given pair, are all the same.
+
+00:00:28.920 --> 00:00:30.320
+And that's 6 equal distances.
+
+00:00:31.200 --> 00:00:36.099
+So just to be clear, you have to show that no matter what the allocation of colors
+
+00:00:36.099 --> 00:00:40.760
+to these 64 different spots in our big 4x4x4 cube is, you can always do this.
+
+00:00:41.080 --> 00:00:45.090
+You can always find 12 little cubes of the same color that can be divided into 6
+
+00:00:45.090 --> 00:00:49.400
+different pairs such that there's a common distance between the centers of each pair.
+
