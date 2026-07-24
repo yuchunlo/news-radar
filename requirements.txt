@@ -1,6 +1,8 @@
-requests==2.32.3
-beautifulsoup4==4.12.3
-feedparser==6.0.11
-python-dateutil==2.9.0.post0
+requests>=2.31
+trafilatura>=1.8
+python-dateutil>=2.8
+feedparser>=6.0
+beautifulsoup4>=4.12
+opencc-python-reimplemented>=0.1.7
 yt-dlp[default,curl-cffi]==2026.06.09
 bgutil-ytdlp-pot-provider
