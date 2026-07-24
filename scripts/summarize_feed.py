@@ -75,8 +75,19 @@ FETCH_HEADERS = {
         "AppleWebKit/537.36 (KHTML, like Gecko) "
         "Chrome/126.0.0.0 Safari/537.36"
     ),
+    "Accept": (
+        "text/html,application/xhtml+xml,application/xml;q=0.9,"
+        "image/webp,*/*;q=0.8"
+    ),
     "Accept-Language": "zh-TW,zh;q=0.9,en;q=0.8",
+    "Sec-Fetch-Mode": "navigate",
 }
+try:
+    from bs4 import BeautifulSoup
+    _HAS_BS4 = True
+except ModuleNotFoundError:
+    BeautifulSoup = None
+    _HAS_BS4 = False
 
 # ---- 標記與偵測 -----------------------------------------------------------
 FALLBACK_MARK = "↛"
@@ -196,6 +207,21 @@ def maybe_fix_mojibake(text: str) -> str:
 
 # ---------------------------------------------------------------- 抓取
 
+def _bs4_fallback_extract(html: str) -> str:
+    try:
+        soup = BeautifulSoup(html, "html.parser")
+    except Exception:
+        return ""
+    for tag in soup(["script", "style", "nav", "header", "footer", "aside", "form"]):
+        tag.decompose()
+
+    container = soup.find("article") or soup.find("main")
+    scope = container if container else soup
+    paras = [p.get_text(" ", strip=True) for p in scope.find_all(["p", "li"])]
+    paras = [p for p in paras if len(p) >= 20 and not p.startswith(("©", "Powered by"))]
+    return "\n".join(paras)
+
+
 def extract_meta_description(html: str) -> str:
     patterns = [
         r'<meta[^>]+property=["\']og:description["\'][^>]+content=["\'](.*?)["\']',
@@ -229,6 +255,8 @@ def fetch_content(url: str):
             print(f"    blocked by site (HTTP {resp.status_code})")
             return None, "blocked"
         resp.raise_for_status()
+        if resp.encoding is None or resp.encoding.lower() in ("iso-8859-1", "ascii"):
+            resp.encoding = resp.apparent_encoding
         html = resp.text
     except requests.HTTPError as e:
         code = e.response.status_code if e.response is not None else 0
@@ -245,6 +273,11 @@ def fetch_content(url: str):
         html, include_comments=False, include_tables=True, favor_recall=True
     )
     body = maybe_fix_mojibake(body.strip()) if body else ""
+    if len(body) < 200 and _HAS_BS4:
+        fallback = _bs4_fallback_extract(html)
+        if len(fallback) > len(body):
+            body = fallback
+
     meta = maybe_fix_mojibake(extract_meta_description(html))
 
     if len(body) < 200 and CHALLENGE_PATTERN.search(html[:20000]):
@@ -636,6 +669,24 @@ def save_items(path: str, items: list, wrapper: dict | None) -> None:
         f.write("\n")
 
 
+def _parse_ts(value) -> float:
+    if not value:
+        return float("-inf")
+    s = str(value).strip()
+    try:
+        from datetime import datetime
+        s2 = s.replace("Z", "+00:00") if s.endswith("Z") else s
+        return datetime.fromisoformat(s2).timestamp()
+    except Exception:
+        pass
+    try:
+        import email.utils as eut
+        dt = eut.parsedate_to_datetime(s)
+        return dt.timestamp() if dt else float("-inf")
+    except Exception:
+        return float("-inf")
+
+
 def main(argv=None) -> int:
     global ITEMS_FILE, MAX_ITEMS, TRANSLATE, SUMMARY_RATIO, SUMMARY_MAX, RESCORE_ALL
     args = build_arg_parser().parse_args(argv)
@@ -659,27 +710,32 @@ def main(argv=None) -> int:
         it for it in items
         if isinstance(it, dict) and it.get("url") and not it.get("summary")
     ]
-    print(f"Total items: {len(items)}, pending: {len(pending)}, translate={'on' if TRANSLATE else 'off'}")
+    pending.sort(key=lambda it: _parse_ts(it.get("published_at")), reverse=True)
 
-    processed = failed = 0
+    print(f"Total items: {len(items)}, pending: {len(pending)}, "
+          f"translate={'on' if TRANSLATE else 'off'} (newest-first)")
+
+    ok = blocked_n = failed = 0
+    attempted = 0
     for it in pending:
-        if processed >= MAX_ITEMS:
+        if attempted >= MAX_ITEMS:
             print(f"Reached MAX_ITEMS={MAX_ITEMS}, stopping.")
             break
-        print(f"[{processed + 1}] {it.get('title', '')[:60]}")
+        attempted += 1
+        print(f"[{attempted}/{min(len(pending), MAX_ITEMS)}] "
+              f"({it.get('published_at') or '無日期'}) {it.get('title', '')[:60]}")
         print(f"    {it['url']}")
 
         content, source_type = fetch_content(it["url"])
         if source_type == "blocked":
-            # 永久性封鎖：寫入佔位摘要，停止每日無限重試
             it["summary"] = BLOCKED_SUMMARY
-            processed += 1
+            blocked_n += 1
             print(f"    blocked -> placeholder written")
             save_items(ITEMS_FILE, items, wrapper)
             time.sleep(SLEEP_BETWEEN_ITEMS)
             continue
         if not content:
-            print("    no content, skipped.")
+            print("    fetch failed, skipped (kept pending for next run).")
             failed += 1
             continue
 
@@ -690,12 +746,12 @@ def main(argv=None) -> int:
             failed += 1
             continue
 
-        processed += 1
+        ok += 1
         print(f"    ok ({source_type}, {len(it['summary'])} chars)")
         save_items(ITEMS_FILE, items, wrapper)
         time.sleep(SLEEP_BETWEEN_ITEMS)
 
-    print(f"Done. processed={processed}, failed={failed}")
+    print(f"Done. attempted={attempted}, ok={ok}, blocked={blocked_n}, failed={failed}")
 
     newly_scored = score_corpus_novelty(items)
     if newly_scored:
