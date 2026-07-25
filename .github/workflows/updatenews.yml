@@ -14,7 +14,7 @@ permissions:
 
 jobs:
   update:
-    timeout-minutes: &job_timeout 20
+    # timeout-minutes: &job_timeout 20
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -58,13 +58,9 @@ jobs:
           ITEMS_FILE: data/archive.json
           MAX_ITEMS: "400"
           TRANSLATE: "on"
-          JOB_TIMEOUT_MINUTES: *job_timeout
           SUMMARY_RATIO: "0.9"
           # RESCORE_ALL: "1"
-        run: |
-          export TIME_BUDGET_SECONDS=$(( JOB_TIMEOUT_MINUTES * 60 ))
-          echo "Job timeout: ${JOB_TIMEOUT_MINUTES}m -> time budget ${TIME_BUDGET_SECONDS}s"
-          python scripts/summarize_feed.py
+        run: python scripts/summarize_feed.py
 
       - name: Commit and push changes
         run: |
