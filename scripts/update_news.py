@@ -63,6 +63,10 @@ RSS_FEED_SKIP_EXACT: set[str] = {
     "https://flak.tedunangst.com/rss",
 }
 
+AGGREGATOR_META_ONLY_HOSTS = {
+    "techmeme.com", "www.techmeme.com",
+}
+
 EMAIL_RE = re.compile(r"\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b")
 SECRET_LIKE_RE = re.compile(
     r"\b(sk-(?!hynix\b)[A-Za-z0-9_-]{12,}|(?:api[_-]?key|secret|token)=([^\s&]{6,}))\b",
@@ -79,6 +83,7 @@ class RawItem:
     url: str
     published_at: datetime | None
     meta: dict[str, Any]
+    excerpt: str = ""
 
 
 def utc_now() -> datetime:
@@ -220,12 +225,18 @@ def parse_feed_entries_via_xml(feed_xml: bytes) -> list[dict[str, Any]]:
                 or node.findtext("published") or node.findtext("{*}published")
                 or node.findtext("updated") or node.findtext("{*}updated")
             )
+            description = (
+                node.findtext("description") or node.findtext("{*}description")
+                or node.findtext("summary") or node.findtext("{*}summary") or ""
+            )
             if title and link:
                 key = (title, link)
                 if key in seen:
                     continue
                 seen.add(key)
-                out.append({"title": title, "link": link, "published": published})
+                out.append({
+                    "title": title, "link": link, "published": published, "description": description,
+                })
     return out
 
 
@@ -311,6 +322,24 @@ def resolve_opml_bridge_source(feed_url: str, html_url: str = "") -> dict[str, s
         return {"bridge_type": "jike", "bridge_kind": "user", "bridge_slug": ident, "url": html}
 
     return None
+
+
+HTML_TAG_RE = re.compile(r"<[^>]+>")
+
+
+def strip_html(text: str, limit: int = 4000) -> str:
+    """Strip HTML tags and return clean text, for feed_excerpt."""
+    if not text:
+        return ""
+    if BeautifulSoup is not None:
+        try:
+            plain = BeautifulSoup(text, "html.parser").get_text(" ", strip=True)
+        except Exception:
+            plain = HTML_TAG_RE.sub(" ", text)
+    else:
+        plain = HTML_TAG_RE.sub(" ", text)
+    plain = re.sub(r"\s+", " ", plain).strip()
+    return plain[:limit]
 
 
 def compact_title(text: str, limit: int = 96) -> str:
@@ -476,6 +505,11 @@ def fetch_opml_rss(now: datetime, opml_path: Path, max_feeds: int = 0) -> list[R
                     )
                     if not published:
                         continue
+                    excerpt = (
+                        strip_html(first_non_empty(entry.get("summary"), entry.get("description")))
+                        if host_of_url(link) in AGGREGATOR_META_ONLY_HOSTS
+                        else ""
+                    )
                     local_items.append(
                         RawItem(
                             site_id=feed_category,
@@ -489,6 +523,7 @@ def fetch_opml_rss(now: datetime, opml_path: Path, max_feeds: int = 0) -> list[R
                                 "feed_home": feed.get("html_url") or "",
                                 "opml_category": feed_category,
                             },
+                            excerpt=excerpt,
                         )
                     )
             else:
@@ -497,19 +532,26 @@ def fetch_opml_rss(now: datetime, opml_path: Path, max_feeds: int = 0) -> list[R
                     published = parse_date_any(entry.get("published"), now)
                     if not published:
                         continue
+                    link = entry.get("link", "")
+                    excerpt = (
+                        strip_html(entry.get("description", ""))
+                        if host_of_url(link) in AGGREGATOR_META_ONLY_HOSTS
+                        else ""
+                    )
                     local_items.append(
                         RawItem(
                             site_id=feed_category,
                             site_name="OPML RSS",
                             source=source_name,
                             title=entry.get("title", ""),
-                            url=entry.get("link", ""),
+                            url=link,
                             published_at=published,
                             meta={
                                 "feed_url": feed_url,
                                 "feed_home": feed.get("html_url") or "",
                                 "opml_category": feed_category,
                             },
+                            excerpt=excerpt,
                         )
                     )
         except Exception:
@@ -596,7 +638,7 @@ def main(argv=None) -> int:
         item_id = make_item_id(raw.site_id, raw.source, title, url)
         existing = archive.get(item_id)
         if existing is None:
-            archive[item_id] = {
+            new_item = {
                 "id": item_id,
                 "site_id": raw.site_id,
                 "site_name": raw.site_name,
@@ -608,26 +650,15 @@ def main(argv=None) -> int:
                 "last_seen_at": iso(now),
                 "star": False,
             }
-            if 'youtube.com' not in url and 'youtu.be' not in url:
-                continue
-            vid = (re.search(r'[?&]v=([^&]+)', url) or
-                   re.search(r'/shorts/([^?&/]+)', url) or
-                   re.search(r'/live/([^?&/]+)', url) or
-                   re.search(r'youtu\.be/([^?&/]+)', url))
-            if vid:
-                archive[item_id].update({
-                    "thumbnail": f"https://img.youtube.com/vi/{vid.group(1)}/mqdefault.jpg"
-                })
+            if host_of_url(url) in AGGREGATOR_META_ONLY_HOSTS and raw.excerpt:
+                new_item["feed_excerpt"] = raw.excerpt
+            archive[item_id] = new_item
         else:
             existing["site_id"] = raw.site_id
             existing["site_name"] = raw.site_name
             existing["source"] = raw.source
             existing["title"] = title
             existing["url"] = url
-            if existing.get("summary"):
-                existing["summary"] = existing.get("summary")
-            if existing.get("thumbnail"):
-                existing["thumbnail"] = existing.get("thumbnail")
             if raw.published_at:
                 # OPML RSS may fix previously wrong publish times; allow overwrite.
                 if raw.site_id == "opmlrss" or not existing.get("published_at"):
