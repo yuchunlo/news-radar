@@ -49,7 +49,7 @@ RESCORE_ALL = os.environ.get("RESCORE_ALL", "").lower() in ("1", "true", "yes", 
 # 預設 RATIO=0.9。啟動 MMR 冗餘剔除與語篇修剪。
 SUMMARY_RATIO = float(os.environ.get("SUMMARY_RATIO", "0.9"))
 SUMMARY_MAX = int(os.environ.get("SUMMARY_MAX", "60000"))
-FOREIGN_BUDGET_RATIO = 1.2                                       # [tune]
+FOREIGN_BUDGET_RATIO = 1.2    # [tune]
 
 # ---- 句子評分權重（extractive_summary）------------------------------------
 ENTITY_WEIGHT_BASE = 1.2      # [tune] 含實體句的基礎加乘
@@ -67,10 +67,10 @@ NOVELTY_DUP_COVERAGE = 0.7    # [tune] 事實被覆蓋比例 ≥ 此值 → 標�
 
 # ---- 抓取／連線 -----------------------------------------------------------
 FETCH_TIMEOUT = 30            # [tune] 單次請求逾時（秒）
-FETCH_RETRIES = 3            # [tune] 暫時性錯誤（429/5xx/連線）自動重試次數
+FETCH_RETRIES = 3             # [tune] 暫時性錯誤（429/5xx/連線）自動重試次數
 SLEEP_BETWEEN_ITEMS = 1.5     # [tune] 項目間禮貌延遲（秒）
 TIME_BUDGET_SECONDS = int(os.environ.get("TIME_BUDGET_SECONDS", "0"))
-TIME_BUDGET_STOP_RATIO = 0.7  # [tune]
+TIME_BUDGET_STOP_RATIO = 0.5  # [tune]
 FETCH_HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -132,9 +132,6 @@ MODEL_RE = re.compile(
     r"mistral[-\s]?[a-z0-9.]+"
     r")\b"
 )
-
-# 中文（zh-TW）字元密度較高：外語原文先抽較長的量，翻譯後長度大致落在上限內。
-# FOREIGN_BUDGET_RATIO 已於上方集中設定區定義（實測校準 1.10~1.11，設 1.2 留餘裕）。
 
 
 def _to_twp(text: str) -> str:
