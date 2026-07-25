@@ -69,6 +69,8 @@ NOVELTY_DUP_COVERAGE = 0.7    # [tune] 事實被覆蓋比例 ≥ 此值 → 標�
 FETCH_TIMEOUT = 30            # [tune] 單次請求逾時（秒）
 FETCH_RETRIES = 3            # [tune] 暫時性錯誤（429/5xx/連線）自動重試次數
 SLEEP_BETWEEN_ITEMS = 1.5     # [tune] 項目間禮貌延遲（秒）
+TIME_BUDGET_SECONDS = int(os.environ.get("TIME_BUDGET_SECONDS", "0"))
+TIME_BUDGET_STOP_RATIO = 0.7  # [tune]
 FETCH_HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -645,6 +647,9 @@ def build_arg_parser():
     p.add_argument("--translate", dest="translate", action="store_true", default=TRANSLATE)
     p.add_argument("--no-translate", dest="translate", action="store_false")
     p.add_argument("--rescore-all", action="store_true", default=RESCORE_ALL)
+    p.add_argument("--time-budget-seconds", type=int, default=TIME_BUDGET_SECONDS,
+                   help="總執行秒數預算；耗用超過此值的 70%% 時停止抓取迴圈"
+                        "（0=不限制），把剩餘時間留給存檔／計分等收尾步驟")
     return p
 
 
@@ -689,6 +694,7 @@ def _parse_ts(value) -> float:
 
 def main(argv=None) -> int:
     global ITEMS_FILE, MAX_ITEMS, TRANSLATE, SUMMARY_RATIO, SUMMARY_MAX, RESCORE_ALL
+    global TIME_BUDGET_SECONDS
     args = build_arg_parser().parse_args(argv)
     ITEMS_FILE = args.items_file
     MAX_ITEMS = args.max_items
@@ -696,6 +702,7 @@ def main(argv=None) -> int:
     SUMMARY_RATIO = args.summary_ratio
     SUMMARY_MAX = args.summary_max
     RESCORE_ALL = args.rescore_all
+    TIME_BUDGET_SECONDS = args.time_budget_seconds
 
     if not os.path.exists(ITEMS_FILE):
         print(f"ERROR: {ITEMS_FILE} not found.", file=sys.stderr)
@@ -714,13 +721,27 @@ def main(argv=None) -> int:
 
     print(f"Total items: {len(items)}, pending: {len(pending)}, "
           f"translate={'on' if TRANSLATE else 'off'} (newest-first)")
+    if TIME_BUDGET_SECONDS > 0:
+        print(f"Time budget: {TIME_BUDGET_SECONDS}s "
+              f"(stop fetching after {TIME_BUDGET_SECONDS * TIME_BUDGET_STOP_RATIO:.0f}s elapsed)")
 
+    start_time = time.monotonic()
+    time_cut_off = False
     ok = blocked_n = failed = 0
     attempted = 0
     for it in pending:
         if attempted >= MAX_ITEMS:
             print(f"Reached MAX_ITEMS={MAX_ITEMS}, stopping.")
             break
+        if TIME_BUDGET_SECONDS > 0:
+            elapsed = time.monotonic() - start_time
+            if elapsed > TIME_BUDGET_SECONDS * TIME_BUDGET_STOP_RATIO:
+                print(f"Time budget {TIME_BUDGET_STOP_RATIO:.0%} reached "
+                      f"({elapsed:.0f}s elapsed) — stopping fetch loop, "
+                      f"remaining {len(pending) - attempted} item(s) stay pending "
+                      f"for next run. Proceeding to save + scoring.")
+                time_cut_off = True
+                break
         attempted += 1
         print(f"[{attempted}/{min(len(pending), MAX_ITEMS)}] "
               f"({it.get('published_at') or '無日期'}) {it.get('title', '')[:60]}")
@@ -751,7 +772,8 @@ def main(argv=None) -> int:
         save_items(ITEMS_FILE, items, wrapper)
         time.sleep(SLEEP_BETWEEN_ITEMS)
 
-    print(f"Done. attempted={attempted}, ok={ok}, blocked={blocked_n}, failed={failed}")
+    print(f"Done. attempted={attempted}, ok={ok}, blocked={blocked_n}, failed={failed}"
+          f"{', stopped early: time budget reached' if time_cut_off else ''}")
 
     newly_scored = score_corpus_novelty(items)
     if newly_scored:
