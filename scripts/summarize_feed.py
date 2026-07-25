@@ -35,7 +35,7 @@ FLUFF_PENALTY = 0.25          # [tune] score penalty for entity-free filler sent
 LEAD_BIAS = 0.5               # [tune] max positional boost for sentences near the top
 # ---- MMR sentence selection -------------------------------------------------
 MMR_LAMBDA = 0.7              # [tune] redundancy penalty strength
-MMR_DUP_THRESHOLD = 0.65      # [tune] sentences with similarity >= this are dropped outright
+MMR_DUP_THRESHOLD = 0.65      # [tune] sentences with Jaccard similarity >= this are dropped outright
 
 # ---- Information-value scoring ----------------------------------------------
 INFO_VALUE_SATURATION = 4.0   # [tune] fact-carrier density per 100 chars counted as "saturated" (=100)
@@ -67,8 +67,42 @@ except ModuleNotFoundError:
     BeautifulSoup = None
     _HAS_BS4 = False
 
+# ---- Boilerplate / non-content removal --------------------------------------
+# Everything from one of these markers to the END of the text is site
+# furniture rather than article content (author sign-offs, comment and
+# review sections, ...), so the text is truncated at the earliest match.
+CUT_TO_END_RE = re.compile(
+    r"謝謝你閱讀到這裡"
+)
+MIN_KEEP_AFTER_CUT = 80
+REMOVE_BLOCKS = (
+    "Matrix 是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选 Matrix 最优质的文章，展示来自用户的最真实的体验和观点。"
+
+    "文章代表作者个人观点，少数派仅对标题和排版略作修改。"
+)
+# Filler lead-ins that carry no information of their own, plus inline site
+# furniture (related-article plugs, tag lines) that trafilatura keeps.
+# NOTE: no \b here -- CJK characters are word characters to Python's re, so
+# \b before a CJK character only matches after punctuation or at the start of
+# the string, silently missing most real occurrences.
+REMOVE_PHRASE_RE = re.compile(
+    r"最核心的一句話[:：]"
+    r"|結果顯示，"
+    r"|換言之，"
+    r"|更?值得注意的是，"
+    r"|事實上，情況比這更糟——"
+    r"|（前情提要：[^）]*）"
+    r"|（背景補充：[^）]*）"
+    # Anchored to a full line on purpose: an unanchored [^\n]* would run to
+    # the end of the text whenever the body has been flattened to one line.
+    r"|^[ \t]*標籤[:：][^\n]*$",
+    re.M,
+)
+
 # ---- Marking & detection ----------------------------------------------------
 FALLBACK_MARK = "↛"
+TABLE_NOTE = "請參閱所附表格 " + FALLBACK_MARK
+TABLE_TAG_RE = re.compile(r"<table[\s>]", re.I)
 BLOCKED_SUMMARY = "無法取得頁面內容（來源網站封鎖自動化存取）" + FALLBACK_MARK
 CHALLENGE_PATTERN = re.compile(
     r"安全验证|安全驗證|验证码|驗證碼|禁止访问|禁止訪問|访问异常|異常流量|异常流量|"
@@ -352,6 +386,11 @@ def fetch_content(url: str):
                   or an anti-bot challenge page); the caller should write the
                   FALLBACK_MARK placeholder to avoid retrying every day
     - None,None : transient failure (timeout, 5xx); left pending to retry next run
+
+    Returns a 3-tuple (text, source_type, has_table). Table contents are
+    deliberately excluded from the extracted body (include_tables=False);
+    has_table just records that the page had one, so build_summary can note
+    that instead of inlining rows of cells.
     """
     BLOCK_STATUS = {401, 403, 407, 418, 451}
     session = get_session()
@@ -359,7 +398,7 @@ def fetch_content(url: str):
         resp = session.get(url, timeout=FETCH_TIMEOUT)
         if resp.status_code in BLOCK_STATUS:
             print(f"    blocked by site (HTTP {resp.status_code})")
-            return None, "blocked"
+            return None, "blocked", False
         resp.raise_for_status()
         if resp.encoding is None or resp.encoding.lower() in ("iso-8859-1", "ascii"):
             resp.encoding = resp.apparent_encoding
@@ -368,15 +407,16 @@ def fetch_content(url: str):
         code = e.response.status_code if e.response is not None else 0
         if code in BLOCK_STATUS:
             print(f"    blocked by site (HTTP {code})")
-            return None, "blocked"
+            return None, "blocked", False
         print(f"    fetch failed: HTTP {code}")
-        return None, None
+        return None, None, False
     except Exception as e:
         print(f"    fetch failed: {e}")
-        return None, None
+        return None, None, False
 
+    has_table = bool(TABLE_TAG_RE.search(html))
     body = trafilatura.extract(
-        html, include_comments=False, include_tables=True, favor_recall=True
+        html, include_comments=False, include_tables=False, favor_recall=True
     )
     body = maybe_fix_mojibake(body.strip()) if body else ""
     if len(body) < 200 and _HAS_BS4:
@@ -388,18 +428,18 @@ def fetch_content(url: str):
 
     if len(body) < 200 and CHALLENGE_PATTERN.search(html[:20000]):
         print("    blocked by site (challenge page)")
-        return None, "blocked"
+        return None, "blocked", False
 
     if len(body) >= 200:
-        return body, "body"
+        return body, "body", has_table
     if body and re.search(r"[。！？.!?]", body) and len(body) >= max(80, len(meta)):
-        return body, "body"
+        return body, "body", has_table
 
     if meta:
-        return meta, "meta"
+        return meta, "meta", False
     if body:
-        return body, "meta"
-    return None, None
+        return body, "meta", False
+    return None, None, False
 
 
 # ---------------------------------------------------------------- Language detection
@@ -423,6 +463,9 @@ def detect_lang(text: str) -> str:
 
 ZH_SPLIT = re.compile(r"(?<=[。！？!?；;])\s*")
 EN_SPLIT = re.compile(r"(?<=[.!?])\s+(?=[A-Z0-9\u00c0-\u024f\"'(])")
+BULLET_SPLIT_RE = re.compile(
+    r"(?<=[\u4e00-\u9fff%）。，、])\s*[-–—•·]\s*(?=[\u4e00-\u9fff\dA-Za-z])"
+)
 
 EN_STOPWORDS = frozenset("""
 a an the and or but if then than that this these those of in on at to for from
@@ -435,6 +478,7 @@ other some such only own same very s t just don now also there here out up
 
 
 def split_sentences(text: str, is_cjk: bool):
+    text = BULLET_SPLIT_RE.sub("\n", text)
     text = re.sub(r"\n{2,}", "\n", text)
     parts = []
     for line in text.split("\n"):
@@ -509,6 +553,17 @@ def extractive_summary(text: str, is_cjk: bool, char_budget: int) -> str:
     if not sents:
         return text[:char_budget]
 
+    # Drop verbatim repeats up front. Pages commonly restate the same line in
+    # a lead-in, a bullet list and a closing recap; keeping only the first
+    # occurrence costs one pass and shrinks the work MMR has to do later.
+    seen, uniq = set(), []
+    for s in sents:
+        key = re.sub(r"\W+", "", s.lower())
+        if key and key not in seen:
+            seen.add(key)
+            uniq.append(s)
+    sents = uniq
+
     tok_sets = [set(tokenize(s, is_cjk)) for s in sents]
     freq = Counter()          # token frequency across the whole text (TF)
     doc_freq = Counter()      # number of sentences a token appears in (DF)
@@ -563,6 +618,9 @@ def extractive_summary(text: str, is_cjk: bool, char_budget: int) -> str:
         used += len(chosen[-1][1]) + 1
         if used >= char_budget * 0.97:
             break
+        # Incrementally update, against what was just chosen, both the
+        # Jaccard similarity (penalty) and the containment ratio (hard drop)
+        # of every remaining sentence.
         for i, (_, _, _, rts) in enumerate(remaining):
             union = rts | ts
             if union:
@@ -592,12 +650,34 @@ def translate_to_zhtw(text: str) -> str | None:
 
 # ---------------------------------------------------------------- Assembly
 
+def strip_boilerplate(text: str) -> str:
+    """Remove site furniture that body extraction keeps but which isn't
+    article content: fixed promo blocks, related-article plugs, tag lines,
+    filler lead-ins, and everything from a CUT_TO_END marker onwards
+    (sign-offs, comment/review sections).
+
+    The truncation is skipped when the marker sits within the first
+    MIN_KEEP_AFTER_CUT characters, so a stray early match can't wipe out
+    the whole body.
+    """
+    for block in REMOVE_BLOCKS:
+        text = text.replace(block, "")
+    text = REMOVE_PHRASE_RE.sub("", text)
+    m = CUT_TO_END_RE.search(text)
+    if m and m.start() >= MIN_KEEP_AFTER_CUT:
+        text = text[:m.start()]
+    return text.strip()
+
+
 def summary_budget(content_len: int) -> int:
     return max(1, min(SUMMARY_MAX, int(content_len * SUMMARY_RATIO)))
 
 
-def build_summary(content: str, source_type: str) -> str:
+def build_summary(content: str, source_type: str, has_table: bool = False) -> str:
     content = re.sub(r"\((?:\d{1,2}:)?\d{1,2}:\d{2}\)\s*[:：]?", ": ", content)
+    content = strip_boilerplate(content)
+    if not content:
+        return ""
     lang = detect_lang(content)
     budget = summary_budget(len(content))
     marks = []
@@ -618,6 +698,8 @@ def build_summary(content: str, source_type: str) -> str:
         if summary is None:
             summary = raw
 
+    if has_table:
+        marks.append(TABLE_NOTE)
     if source_type == "meta":
         marks.append(FALLBACK_MARK)
 
@@ -870,11 +952,16 @@ def main(argv=None) -> int:
                 failed += 1
                 continue
             try:
-                it["summary"] = build_summary(text, "body")
+                summary = build_summary(text, "body")
             except Exception as e:
                 print(f"    summarize failed: {e}")
                 failed += 1
                 continue
+            if not summary:
+                print("    empty after boilerplate removal, skipped")
+                failed += 1
+                continue
+            it["summary"] = summary
             ok += 1
             print(f"    ok (subtitle, {len(it['summary'])} chars)")
             save_items(ITEMS_FILE, items, wrapper)
@@ -887,10 +974,10 @@ def main(argv=None) -> int:
         print(f"    {url}")
 
         if it.get("feed_excerpt"):
-            content, source_type = it["feed_excerpt"], "meta"
+            content, source_type, has_table = it["feed_excerpt"], "meta", False
             print("    using feed_excerpt captured at ingestion (no fetch needed)")
         else:
-            content, source_type = fetch_content(url)
+            content, source_type, has_table = fetch_content(url)
 
         if source_type == "blocked":
             it["summary"] = BLOCKED_SUMMARY
@@ -905,11 +992,16 @@ def main(argv=None) -> int:
             continue
 
         try:
-            it["summary"] = build_summary(content, source_type)
+            summary = build_summary(content, source_type, has_table)
         except Exception as e:
             print(f"    summarize failed: {e}")
             failed += 1
             continue
+        if not summary:
+            print("    empty after boilerplate removal, skipped")
+            failed += 1
+            continue
+        it["summary"] = summary
 
         ok += 1
         print(f"    ok ({source_type}, {len(it['summary'])} chars)")
