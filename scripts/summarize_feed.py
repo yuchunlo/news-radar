@@ -299,6 +299,77 @@ def pick_subtitle(item_id: str):
 VTT_TAG_RE = re.compile(r"<[^>]+>")
 VTT_WATERMARK_RE = re.compile(r"\[[^\]]*(?:人工智慧翻譯|AI\s*翻譯|criblate\.com)[^\]]*\]", re.I)
 
+CJK_TERMINAL_RE = re.compile(r"[。！？!?；;]")
+UNPUNCTUATED_CHARS_PER_TERMINAL = 60
+ZH_CONNECTIVE_RE = re.compile(
+    r"^(但是|但|不過|可是|然而|所以|因為|因此|於是|結果|其實|如果|要是|"
+    r"而且|另外|同時|然後|之後|後來|首先|接著|最後|即是|反而|不然|"
+    r"例如|譬如|比如|總之|換言之)"
+)
+SUBTITLE_MERGE_TARGET = 45   # [tune] aim for pseudo-sentences of about this many chars
+SUBTITLE_MERGE_MAX = 75      # [tune] never let one grow past this
+SUBTITLE_CONNECTIVE_MIN = 15 # [tune] don't break at a connective below this length
+ZH_CONTINUATION_RE = re.compile(
+    r"^(的|地|得|了|著|過|嗎|呢|吧|啊|喔|嘛|就|才|也|都|還|再|又|並|"
+    r"和|與|或|至|到|給|把|被|從|對|向|以及)"
+)
+
+
+def chars_per_terminal(text: str) -> float:
+    n = len(CJK_TERMINAL_RE.findall(text))
+    return float("inf") if n == 0 else len(text) / n
+
+
+def merge_caption_lines(text: str) -> str:
+    """Rebuild sentence-like units from sparsely punctuated caption cues.
+
+    Consecutive cue lines are joined with commas until the unit reaches
+    SUBTITLE_MERGE_TARGET characters, breaking early when the next cue opens
+    with a discourse connective, and every finished unit is terminated with a
+    full stop. That gives the scorer units large enough to carry signal, and
+    makes the final summary readable rather than one long unbroken run.
+
+    Punctuation already present is respected rather than doubled up: a cue
+    that ends in a sentence-final mark closes the unit there, and no comma or
+    full stop is inserted next to an existing mark. This keeps the function
+    safe to run on transcripts that carry occasional punctuation, not just on
+    ones with none at all.
+    """
+    units: list[str] = []
+    cur = ""
+
+    def flush():
+        nonlocal cur
+        if cur:
+            units.append(cur if CJK_TERMINAL_RE.search(cur[-1]) else cur + "。")
+            cur = ""
+
+    for line in (l.strip() for l in text.split("\n")):
+        if not line:
+            continue
+        # Connectives are checked first, so a word that begins with a
+        # continuation particle but actually opens a clause still breaks.
+        is_conn = bool(ZH_CONNECTIVE_RE.match(line))
+        is_cont = (not is_conn) and bool(ZH_CONTINUATION_RE.match(line))
+        can_break = bool(cur) and (not is_cont or len(cur) >= SUBTITLE_MERGE_MAX)
+        if can_break and (
+            len(cur) >= SUBTITLE_MERGE_TARGET
+            or len(cur) + len(line) > SUBTITLE_MERGE_MAX
+            or (len(cur) >= SUBTITLE_CONNECTIVE_MIN and is_conn)
+        ):
+            flush()
+        if not cur:
+            cur = line
+        elif is_cont or cur[-1] in "，,、。！？!?；;":
+            cur += line          # already punctuated, or a mid-phrase continuation
+        else:
+            cur += "，" + line
+        # A cue that ends on a sentence-final mark is a natural boundary.
+        if cur and CJK_TERMINAL_RE.search(cur[-1]):
+            flush()
+    flush()
+    return "\n".join(units)
+
 
 def vtt_to_text(path: str) -> str:
     """Convert a .vtt file into clean, sentence-by-sentence text.
@@ -341,7 +412,11 @@ def vtt_to_text(path: str) -> str:
             last = candidate
 
     text = "\n".join(lines_out)
-    return re.sub(r"\n{2,}", "\n", text).strip()
+    text = re.sub(r"\n{2,}", "\n", text).strip()
+    if (text and cjk_ratio(text) >= 0.25
+            and chars_per_terminal(text) > UNPUNCTUATED_CHARS_PER_TERMINAL):
+        text = merge_caption_lines(text)
+    return text
 
 
 # ---------------------------------------------------------------- Fetching
