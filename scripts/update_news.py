@@ -15,6 +15,8 @@ from pathlib import Path
 from typing import Any
 from urllib.parse import parse_qsl, urlencode, urlparse, urlunparse
 
+from urllib3.util.retry import Retry
+from requests.adapters import HTTPAdapter
 import requests
 from dateutil import parser as dtparser
 
