@@ -76651,8 +76651,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"ac25d8e85780ea20913172fa56f2945b6aefa3ed",
@@ -102985,8 +102984,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"e802dcbc2d8bcd3413eb0ce3d4d9f735211ee878",
@@ -103003,8 +103001,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"dd2612852d2b5deb455a9737087c03dd4237bdc9",
@@ -104415,7 +104412,6 @@
       "first_seen_at":"2026-07-27T15:16:29.625468Z",
       "last_seen_at":"2026-07-27T15:16:29.625468Z",
       "star":false,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛",
       "info_value":0.0,
       "novelty":0.0,
       "unique_facts":0,
@@ -104793,7 +104789,6 @@
       "first_seen_at":"2026-07-27T15:16:29.625468Z",
       "last_seen_at":"2026-07-27T15:16:29.625468Z",
       "star":false,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛",
       "info_value":0.0,
       "novelty":0.0,
       "unique_facts":0,
@@ -104811,7 +104806,6 @@
       "first_seen_at":"2026-07-27T15:16:29.625468Z",
       "last_seen_at":"2026-07-27T15:16:29.625468Z",
       "star":false,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛",
       "info_value":0.0,
       "novelty":0.0,
       "unique_facts":0,
@@ -104829,7 +104823,6 @@
       "first_seen_at":"2026-07-27T15:16:29.625468Z",
       "last_seen_at":"2026-07-27T15:16:29.625468Z",
       "star":false,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛",
       "info_value":0.0,
       "novelty":0.0,
       "unique_facts":0,
@@ -104847,7 +104840,6 @@
       "first_seen_at":"2026-07-27T15:16:29.625468Z",
       "last_seen_at":"2026-07-27T15:16:29.625468Z",
       "star":false,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛",
       "info_value":0.0,
       "novelty":0.0,
       "unique_facts":0,
@@ -104865,7 +104857,6 @@
       "first_seen_at":"2026-07-27T15:16:29.625468Z",
       "last_seen_at":"2026-07-27T15:16:29.625468Z",
       "star":false,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛",
       "info_value":0.0,
       "novelty":0.0,
       "unique_facts":0,
@@ -104883,7 +104874,6 @@
       "first_seen_at":"2026-07-27T15:16:29.625468Z",
       "last_seen_at":"2026-07-27T15:16:29.625468Z",
       "star":false,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛",
       "info_value":0.0,
       "novelty":0.0,
       "unique_facts":0,
@@ -104901,7 +104891,6 @@
       "first_seen_at":"2026-07-27T15:16:29.625468Z",
       "last_seen_at":"2026-07-27T15:16:29.625468Z",
       "star":false,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛",
       "info_value":0.0,
       "novelty":0.0,
       "unique_facts":0,
@@ -104919,7 +104908,6 @@
       "first_seen_at":"2026-07-27T15:16:29.625468Z",
       "last_seen_at":"2026-07-27T15:16:29.625468Z",
       "star":false,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛",
       "info_value":0.0,
       "novelty":0.0,
       "unique_facts":0,
@@ -104937,7 +104925,6 @@
       "first_seen_at":"2026-07-27T15:16:29.625468Z",
       "last_seen_at":"2026-07-27T15:16:29.625468Z",
       "star":false,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛",
       "info_value":0.0,
       "novelty":0.0,
       "unique_facts":0,
@@ -104955,7 +104942,6 @@
       "first_seen_at":"2026-07-27T15:16:29.625468Z",
       "last_seen_at":"2026-07-27T15:16:29.625468Z",
       "star":false,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛",
       "info_value":0.0,
       "novelty":0.0,
       "unique_facts":0,
@@ -104973,7 +104959,6 @@
       "first_seen_at":"2026-07-27T15:16:29.625468Z",
       "last_seen_at":"2026-07-27T15:16:29.625468Z",
       "star":false,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛",
       "info_value":0.0,
       "novelty":0.0,
       "unique_facts":0,
@@ -104991,7 +104976,6 @@
       "first_seen_at":"2026-07-27T15:16:29.625468Z",
       "last_seen_at":"2026-07-27T15:16:29.625468Z",
       "star":false,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛",
       "info_value":0.0,
       "novelty":0.0,
       "unique_facts":0,
@@ -105009,7 +104993,6 @@
       "first_seen_at":"2026-07-27T15:16:29.625468Z",
       "last_seen_at":"2026-07-27T15:16:29.625468Z",
       "star":false,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛",
       "info_value":0.0,
       "novelty":0.0,
       "unique_facts":0,
@@ -105183,7 +105166,6 @@
       "first_seen_at":"2026-07-27T15:16:29.625468Z",
       "last_seen_at":"2026-07-27T15:16:29.625468Z",
       "star":false,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛",
       "info_value":0.0,
       "novelty":0.0,
       "unique_facts":0,
@@ -105201,7 +105183,6 @@
       "first_seen_at":"2026-07-27T15:16:29.625468Z",
       "last_seen_at":"2026-07-27T15:16:29.625468Z",
       "star":false,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛",
       "info_value":0.0,
       "novelty":0.0,
       "unique_facts":0,
@@ -105219,7 +105200,6 @@
       "first_seen_at":"2026-07-27T15:16:29.625468Z",
       "last_seen_at":"2026-07-27T15:16:29.625468Z",
       "star":false,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛",
       "info_value":0.0,
       "novelty":0.0,
       "unique_facts":0,
@@ -107764,8 +107744,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"78c17b35382897d7c30b49aeea53b4593e5083bc",
@@ -107782,8 +107761,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"1933e731ccdbcd5d8263ca456d855670e2e24184",
@@ -107800,8 +107778,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"b363f1e031c6762b54d2f6110d5fee2f1cad5bad",
@@ -107818,8 +107795,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"779f75e90b38e9ef986986e507cca49b3dbf7df0",
@@ -107836,8 +107812,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"fc62bf590d52e64c0c0080efb6633afdfec220f8",
@@ -107854,8 +107829,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"66bc7952f61ab82706694d69cd1956b7625ad8b2",
@@ -107872,8 +107846,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"5ea5e15b7c9eefd2ca5a42256d708aed54b53586",
@@ -107890,8 +107863,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"2cf2ce536ddf7361c8dcc819513cd5a854019cf7",
@@ -107908,8 +107880,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"dfc5a82e6a6c679ad46268e474bd4854dea92cc9",
@@ -107926,8 +107897,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"389cc5043602a8306fb5b94ec68588d08fc2cc2e",
@@ -107944,8 +107914,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"153e0cd7f0f5e05d2fd5373b0bc6d721f82321e6",
@@ -107962,8 +107931,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"1f22ba15de1eef3ee10887292d30dc664cdb8c91",
@@ -107980,8 +107948,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"8fade7632882c10937685b692ff81bc7b26143fa",
@@ -108523,7 +108490,6 @@
       "first_seen_at":"2026-07-24T01:02:07.026682Z",
       "last_seen_at":"2026-07-25T17:05:52.917402Z",
       "star":false,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛",
       "info_value":0.0,
       "novelty":0.0,
       "unique_facts":0,
@@ -108541,7 +108507,6 @@
       "first_seen_at":"2026-07-24T01:02:07.026682Z",
       "last_seen_at":"2026-07-25T17:05:52.917402Z",
       "star":false,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛",
       "info_value":0.0,
       "novelty":0.0,
       "unique_facts":0,
@@ -109181,8 +109146,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"ed77958d7e26e3320278828e6718eb7dd2f3fdc9",
@@ -109199,8 +109163,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"3da9469042a12e0974091afd0ace663539e61d2a",
@@ -109217,8 +109180,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"5eab90659bffd3ff3ba601c33c0a94213e44aa26",
@@ -109235,8 +109197,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"42f945ccd8b476420d28a1b38bf3276e5521229a",
@@ -109610,8 +109571,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"81ec85980dc3e837cc033d5f5f8ff1b8faee10ba",
@@ -109628,8 +109588,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"db3c2f3a50bad19137dc5793af4433f9b941406f",
@@ -109646,8 +109605,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"2cb6c95598349ccb1a9b5e2fc9ff87a4d81837e8",
@@ -109664,8 +109622,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"317a2f5b7ac82d8eeb8b50bdac4a8e64009d7286",
@@ -109682,8 +109639,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"450dc090b9447e29e3aa0281e88f83d7748dcaf2",
@@ -109700,8 +109656,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"725054419a8c0af06378f8bc836c5f99658bebbf",
@@ -109718,8 +109673,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"b31f1022f436fec4c0d2ad02db839ecd96b237d4",
@@ -109736,8 +109690,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"d4d434ac561492ed177ac9818653b4bae62437ed",
@@ -109754,8 +109707,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"2609cf21de88692b19955f75f470315dd45ca6a2",
@@ -109772,8 +109724,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"bad1b1f595811120b1e4d7805f0fb5e560805f3d",
@@ -109790,8 +109741,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"32cfc41f6d42de4cd3df2d04e59fe6b0790ab7ed",
@@ -110510,8 +110460,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"e8a8d9a97749282ff9e070ff10d7c0eee13ffd72",
@@ -110528,8 +110477,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"394cc0ba017155398f4c1243d4810538648aa317",
@@ -110546,8 +110494,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"5d7123d1599651826c87c3a6632e758375e27719",
@@ -110564,8 +110511,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"5694dfdec6478ac87a49aafe945d834eec279b0b",
@@ -110582,8 +110528,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"c4673c0412cd952449923134d7d154d31ca2909b",
@@ -110600,8 +110545,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"aaf86a684364b9e832dfd091c9cbe78590ab9454",
@@ -110618,8 +110562,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"cfa6a9cc4f1be902dd97436a9bd14a2d7860fd7b",
@@ -110636,8 +110579,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"a412042d73e0b1a1b9fb0404be2f30cd616d45ed",
@@ -110654,8 +110596,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"a06d56c598b0862bfe7148e4385618c146d4499d",
@@ -110672,8 +110613,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"108c8f5c1e13d3f6a84ab02f3f978338c9021381",
@@ -110690,8 +110630,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"c5349800fcd6039fa1e247e2e2cef598da08ba3a",
@@ -111189,8 +111128,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"dd2adda20091c4fd385c9691552b79c9dfb3d7bc",
@@ -111207,8 +111145,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"57a13918eed629ea442579eb2e6dfd4b437bc7be",
@@ -111225,8 +111162,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"e57ef7f437a071e40f37ae75964d70f77f8332b2",
@@ -111243,8 +111179,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"34600716210dfad88d7978bc8da84ecaded06cd1",
@@ -111261,8 +111196,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"8c63709ea4d239110b5d002b50b767ba93f8263b",
@@ -111279,8 +111213,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"896ca148a8bb6024eef98fe31c0126a501b75ebe",
@@ -111297,8 +111230,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"75685f9a091621c6cbfff8dcc0c66b7cef0be5d5",
@@ -111315,8 +111247,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"debe71224e42e9788ab42f2d5c5a0acfedb0946a",
@@ -111333,8 +111264,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"d42d03cad6f46c60ff93ed3d5c79ccac677dc972",
@@ -111472,8 +111402,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"15fe20678c5008b1fdbee4f798ca8ac8bc7807c8",
@@ -111490,8 +111419,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"4ee943b2916481e5899348addbfdbb9af959cfeb",
@@ -111508,8 +111436,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"9ee6058c242d1cba1e28b01d8ecf41583db59419",
@@ -111958,8 +111885,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"3670027af5c192ea815b32c26f3d8569a09b1a8f",
@@ -111976,8 +111902,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"8bafae29855e3d9d5bcea00a75e28683362d38ec",
@@ -111994,8 +111919,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"3d223273bb3582a1acb9d1f61f8b7dfb0422b9c8",
@@ -112113,8 +112037,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"12e25514de459038ee77e80ec8a5a8cd232fcd3b",
@@ -112131,8 +112054,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"3053bf130012a31d153ec0c7417ea72f154df3f8",
@@ -112149,8 +112071,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"12620facb339083fa05581046765d3ff7c9638e5",
@@ -112482,8 +112403,7 @@
       "novelty":0.0,
       "unique_facts":0,
       "duplicate_of":null,
-      "value_adjusted":0.0,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛"
+      "value_adjusted":0.0
     },
     {
       "id":"2e6141b333ff80641f7d9147075bb150d4b4ebbc",
@@ -112854,7 +112774,6 @@
       "first_seen_at":"2026-07-23T23:30:01.257706Z",
       "last_seen_at":"2026-07-24T10:24:42.551509Z",
       "star":false,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛",
       "info_value":0.0,
       "novelty":0.0,
       "unique_facts":0,
@@ -113157,7 +113076,6 @@
       "first_seen_at":"2026-07-24T04:50:48.800380Z",
       "last_seen_at":"2026-07-24T07:35:53.218746Z",
       "star":false,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛",
       "info_value":0.0,
       "novelty":0.0,
       "unique_facts":0,
@@ -113754,7 +113672,6 @@
       "first_seen_at":"2026-07-23T22:08:54.196267Z",
       "last_seen_at":"2026-07-24T01:02:07.026682Z",
       "star":false,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛",
       "info_value":0.0,
       "novelty":0.0,
       "unique_facts":0,
@@ -114471,7 +114388,6 @@
       "first_seen_at":"2026-07-23T17:36:17.840267Z",
       "last_seen_at":"2026-07-23T19:26:51.466522Z",
       "star":false,
-      "summary":"無法取得頁面內容（來源網站封鎖自動化存取）↛",
       "info_value":0.0,
       "novelty":0.0,
       "unique_facts":0,
