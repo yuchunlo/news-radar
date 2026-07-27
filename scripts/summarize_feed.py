@@ -73,6 +73,7 @@ except ModuleNotFoundError:
 # review sections, ...), so the text is truncated at the earliest match.
 CUT_TO_END_RE = re.compile(
     r"謝謝你閱讀到這裡"
+    r"|（本文由 MoneyDJ新聞 授權轉載"
 )
 MIN_KEEP_AFTER_CUT = 80
 REMOVE_BLOCKS = [
@@ -93,6 +94,9 @@ REMOVE_PHRASE_RE = re.compile(
     r"|事實上，情況比這更糟——"
     r"|（前情提要：[^）]*）"
     r"|（背景補充：[^）]*）"
+    r"|（首圖來源：[^）]*）"
+    r"|美股探路客 PressPlay.*?訂閱！"
+    r"|美股探路客推薦.*訂閱專案"
     # Anchored to a full line on purpose: an unanchored [^\n]* would run to
     # the end of the text whenever the body has been flattened to one line.
     r"|^[ \t]*標籤[:：][^\n]*$",
