@@ -930,7 +930,7 @@ def save_items(path: str, items: list, wrapper: dict | None) -> None:
         if wrapper is not None:
             wrapper["items"] = items
             wrapper["total_items"] = len(items)
-            json.dump(wrapper, f, ensure_ascii=False, separators=(",", ":"))
+            json.dump(wrapper, f, ensure_ascii=False, separators=(",", ":"), indent=2)
         else:
             json.dump(items, f, ensure_ascii=False, indent=2)
         f.write("\n")
