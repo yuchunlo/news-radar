@@ -73,6 +73,7 @@ except ModuleNotFoundError:
 # review sections, ...), so the text is truncated at the earliest match.
 CUT_TO_END_RE = re.compile(
     r"Cite this work"
+    r"|Advertise here with Carbon Ads"
     r"|謝謝你閱讀到這裡"
     r"|（本文由 MoneyDJ新聞 授權轉載"
     r"|相關報導"
@@ -82,6 +83,7 @@ MIN_KEEP_AFTER_CUT = 80
 REMOVE_BLOCKS = [
     "Matrix 是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选 Matrix 最优质的文章，展示来自用户的最真实的体验和观点。",
     "文章代表作者个人观点，少数派仅对标题和排版略作修改。",
+    "欢迎收看本期《派评》。你可以通过文章目录快速跳转到你感兴趣的内容。如果发现了其它感兴趣的 App 或者关注的话题，也欢迎在评论区和我们讨论。",
 ]
 assert not isinstance(REMOVE_BLOCKS, str), "REMOVE_BLOCKS must be a list of whole blocks"
 # Filler lead-ins that carry no information of their own, plus inline site
