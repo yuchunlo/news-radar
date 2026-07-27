@@ -1,0 +1,792 @@
+WEBVTT
+Kind: captions
+Language: en-GB
+
+00:00:00.000 --> 00:00:05.120
+Breaking math news. A large language&nbsp;
+model with reasoning capabilities&nbsp;&nbsp;
+
+00:00:05.120 --> 00:00:12.960
+has solved autonomously a significant puzzle&nbsp;
+in mathematics. And of course, did this happen&nbsp;&nbsp;
+
+00:00:12.960 --> 00:00:17.280
+while I was at home in the office? No. As is&nbsp;
+tradition, it happened while I'm trying to be&nbsp;&nbsp;
+
+00:00:17.280 --> 00:00:22.040
+on vacation. In fact, here's me from a year ago&nbsp;
+during a different maths breakthrough complaining&nbsp;&nbsp;
+
+00:00:22.040 --> 00:00:27.760
+about the fact I was on vacation and pointing out&nbsp;
+a year before that the same thing happened. So,&nbsp;&nbsp;
+
+00:00:27.760 --> 00:00:34.400
+here we are once again. I've taken a break while&nbsp;
+I'm down the beach to talk about this breaking&nbsp;&nbsp;
+
+00:00:34.400 --> 00:00:39.520
+maths news. Although, unlike the last two times&nbsp;
+where I was on the west coast of Australia&nbsp;&nbsp;
+
+00:00:39.520 --> 00:00:47.520
+during spring and then autumn, this time,&nbsp;
+this time it's winter. And I've come prepared.
+
+00:00:55.240 --> 00:01:00.160
+Now, I've actually considered making this&nbsp;
+video several times over the past nine months.&nbsp;&nbsp;
+
+00:01:00.160 --> 00:01:04.760
+But every time I'm like, "Oh, there's not&nbsp;
+quite enough for a video." Something else&nbsp;&nbsp;
+
+00:01:04.760 --> 00:01:11.720
+happens. And now that we are officially&nbsp;
+at the point where vibe maths is a thing,&nbsp;&nbsp;
+
+00:01:11.720 --> 00:01:16.640
+I'm going to have to make the video. So, the&nbsp;
+end result is an AI agent has solved a famous&nbsp;&nbsp;
+
+00:01:16.640 --> 00:01:21.400
+math problem. We'll get to that in a moment. Very&nbsp;
+quickly, we're going to zip through the history.&nbsp;&nbsp;
+
+00:01:21.400 --> 00:01:29.240
+So, the first time I contemplated this video was&nbsp;
+back in October of 2025 when a large language&nbsp;&nbsp;
+
+00:01:29.240 --> 00:01:35.680
+model solved an Erdős problem. But we're going to&nbsp;
+have to unpack two things there. First of all, and&nbsp;&nbsp;
+
+00:01:35.680 --> 00:01:41.760
+this will be fundamental to everything else we're&nbsp;
+about to talk about. What is an airish problem?&nbsp;&nbsp;
+
+00:01:41.760 --> 00:01:46.760
+Paul 'Er-dish', yes, it's pronounced like that,&nbsp;
+was a prolific mathematician from the 20th&nbsp;&nbsp;
+
+00:01:46.760 --> 00:01:52.520
+century. And they've remained incredibly famous&nbsp;
+and much loved as a legend among mathematicians.&nbsp;&nbsp;
+
+00:01:52.520 --> 00:01:58.280
+Check it out. Here's me wearing Erdős' coat. A&nbsp;
+long story. But part of why they've remained so&nbsp;&nbsp;
+
+00:01:58.280 --> 00:02:09.160
+relevant is they generated so many open problems.&nbsp;
+There are 1,217 problems documented and cataloged&nbsp;&nbsp;
+
+00:02:09.160 --> 00:02:14.880
+on the Erdős problem website run by mathematician&nbsp;
+Thomas Bloom. And in the 30 years since Erdős'&nbsp;&nbsp;
+
+00:02:14.880 --> 00:02:20.080
+death, under half of them have been solved. And&nbsp;
+famously, Erdős offered prize money for some of&nbsp;&nbsp;
+
+00:02:20.080 --> 00:02:25.280
+his problems, which now is almost beside the&nbsp;
+point. Because these are so famous, if you can&nbsp;&nbsp;
+
+00:02:25.280 --> 00:02:30.600
+solve one, oh my goodness, it's so prestigious.&nbsp;
+And whenever it happens, it's a big deal. So,&nbsp;&nbsp;
+
+00:02:30.600 --> 00:02:37.680
+it's no surprise these have attracted a lot of AI&nbsp;
+attention. And now, what do we mean by solved it?&nbsp;&nbsp;
+
+00:02:37.680 --> 00:02:45.640
+Well, in this case, Erdős problem 1043, which Paul&nbsp;
+Erdős set down in 1958, it was already solved.&nbsp;&nbsp;
+
+00:02:45.640 --> 00:02:54.520
+So in 2025, what the code did was realize&nbsp;
+that the problem was solved in a 1961 paper&nbsp;&nbsp;
+
+00:02:54.520 --> 00:03:02.080
+which didn't point it out very clearly and in&nbsp;
+fact it referenced a solution in a 1959 paper&nbsp;&nbsp;
+
+00:03:03.680 --> 00:03:09.440
+which was in German. Here's the actual problem.&nbsp;
+No need to process this but the gist is let some&nbsp;&nbsp;
+
+00:03:09.440 --> 00:03:14.640
+function be a monotonic non-constant polynomial&nbsp;
+and then assuming that the question is must there&nbsp;&nbsp;
+
+00:03:14.640 --> 00:03:19.760
+exist a straight line L such the projection&nbsp;
+of blah blah blah onto L has measured this&nbsp;&nbsp;
+
+00:03:19.760 --> 00:03:26.560
+the important bit at most two so that was the&nbsp;
+open question here is a 1961 paper that solved&nbsp;&nbsp;
+
+00:03:26.560 --> 00:03:30.920
+it and it does say it's going to try and get some&nbsp;
+you know partial answers to some problems raised&nbsp;&nbsp;
+
+00:03:30.920 --> 00:03:37.160
+by Erdős however when you get down here this is&nbsp;
+the actual solutions See where B is greater than&nbsp;&nbsp;
+
+00:03:37.160 --> 00:03:43.960
+2.386. That's showing that this is the equivalent&nbsp;
+situation. It's definitely greater than two.&nbsp;&nbsp;
+
+00:03:43.960 --> 00:03:50.960
+In fact, it's greater than 2.386. And nowhere in&nbsp;
+here does it mention that Erdős problem. It just&nbsp;&nbsp;
+
+00:03:50.960 --> 00:03:56.600
+just drops the solution. And in order to do&nbsp;
+that, it's using results from this 1959 paper,&nbsp;&nbsp;
+
+00:03:56.600 --> 00:04:01.280
+which as you can see is in German. and just no&nbsp;
+one joined the dots that the machinery in this&nbsp;&nbsp;
+
+00:04:01.280 --> 00:04:06.800
+paper had been used in a different paper to solve&nbsp;
+a problem that it didn't mention and at the time&nbsp;&nbsp;
+
+00:04:06.800 --> 00:04:13.040
+back in October 25 the incredible mathematician&nbsp;
+Terry Tao put a mathstodon post saying how at the&nbsp;&nbsp;
+
+00:04:13.040 --> 00:04:19.680
+time at least it looked like you know AI wouldn't&nbsp;
+be used primarily from applying powerful models&nbsp;&nbsp;
+
+00:04:19.680 --> 00:04:25.800
+to solve actual problems but rather things like&nbsp;
+this like literature reviews locating relevant&nbsp;&nbsp;
+
+00:04:25.800 --> 00:04:30.600
+prior literature on a given problem particular&nbsp;
+particularly as it is down here. If it's, you&nbsp;&nbsp;
+
+00:04:30.600 --> 00:04:34.680
+know, in scattered literature and there's not a&nbsp;
+standardized name for the problem that people use&nbsp;&nbsp;
+
+00:04:34.680 --> 00:04:39.560
+different names, it can be very hard for humans&nbsp;
+to spot those links. So, that's what I thought&nbsp;&nbsp;
+
+00:04:39.560 --> 00:04:44.760
+the video was going to be about how large language&nbsp;
+models are very good search engines and they can&nbsp;&nbsp;
+
+00:04:44.760 --> 00:04:49.520
+link together bits of research that us humans&nbsp;
+with our fleshy brains were unable to connect.&nbsp;&nbsp;
+
+00:04:49.520 --> 00:04:57.960
+But then things got a bit more complicated&nbsp;
+in December of 2025 when Erdős problem 1026&nbsp;&nbsp;
+
+00:04:57.960 --> 00:05:02.560
+took a different turn. Here is the problem. You've&nbsp;
+got a bunch of real numbers x1 all the way up&nbsp;&nbsp;
+
+00:05:02.560 --> 00:05:08.840
+to xn which are all different. And you want to&nbsp;
+work out what the maximum possible sum can be of&nbsp;&nbsp;
+
+00:05:08.840 --> 00:05:15.800
+okay over all possible monotonic subsequences. And&nbsp;
+monotonic just means not changing directions. So&nbsp;&nbsp;
+
+00:05:15.800 --> 00:05:19.960
+if a number sequence starts going up, it's&nbsp;
+got to continue either going up or staying&nbsp;&nbsp;
+
+00:05:19.960 --> 00:05:24.280
+the same. It can't reverse direction and go down.&nbsp;
+And if a sequence is going down, it can't change&nbsp;&nbsp;
+
+00:05:24.280 --> 00:05:27.920
+and go up. And it was poorly stated originally,&nbsp;
+but that's been all cleared up. And it's been&nbsp;&nbsp;
+
+00:05:27.920 --> 00:05:32.960
+proved. Oh, and his little side character we'll&nbsp;
+meet later. Lean. Look at that. Verified in Lean.&nbsp;&nbsp;
+
+00:05:32.960 --> 00:05:37.680
+Remember that. However, the point here is&nbsp;
+this wasn't so much AI solving a problem&nbsp;&nbsp;
+
+00:05:37.680 --> 00:05:42.000
+as it was helping humans to do that. And&nbsp;
+of course, it's Terry Tao again. I'll link&nbsp;&nbsp;
+
+00:05:42.000 --> 00:05:46.040
+to his blog post below where he talks about&nbsp;
+it was combination of existing literature,&nbsp;&nbsp;
+
+00:05:46.040 --> 00:05:52.280
+online collaboration and AI tools. And in this&nbsp;
+case, the AI tools were very much enabling those&nbsp;&nbsp;
+
+00:05:52.280 --> 00:05:58.040
+first two things. So this was partly really clever&nbsp;
+insights from a lot of different mathematicians,&nbsp;&nbsp;
+
+00:05:58.040 --> 00:06:02.560
+including things like that the problems&nbsp;
+equivalent to, you know, uh, packing&nbsp;&nbsp;
+
+00:06:02.560 --> 00:06:08.200
+different types of squares. And the AI was able&nbsp;
+to do deep research searches, sometimes showing&nbsp;&nbsp;
+
+00:06:08.200 --> 00:06:13.760
+that things didn't exist and in this case finding&nbsp;
+a paper from just last year that showed something&nbsp;&nbsp;
+
+00:06:13.760 --> 00:06:20.160
+that they needed. And so this was the then&nbsp;
+stateofthe-art. AI was able to help mathematicians&nbsp;&nbsp;
+
+00:06:20.160 --> 00:06:28.280
+work a lot faster than they would otherwise. But&nbsp;
+AI wasn't coming up with novel proofs on its own&nbsp;&nbsp;
+
+00:06:28.280 --> 00:06:36.480
+as of the end of 2025. Then in January of this&nbsp;
+year, Erdős problem 728 was solved very much more&nbsp;&nbsp;
+
+00:06:36.480 --> 00:06:43.320
+by AI. Problem 728. Oh, there's our friend&nbsp;
+Lean again. Interesting. Now in this case,&nbsp;&nbsp;
+
+00:06:43.320 --> 00:06:49.640
+we've got two values C and little epsylon. They&nbsp;
+need to be sufficiently small. Little ambiguous.&nbsp;&nbsp;
+
+00:06:49.640 --> 00:06:53.560
+We'll come back to that in a moment. Does that&nbsp;
+refer to C or not? And then you got all this&nbsp;&nbsp;
+
+00:06:53.560 --> 00:06:59.400
+infinity integers blah blah blah such that these&nbsp;
+things it's actually a question involving binomial&nbsp;&nbsp;
+
+00:06:59.400 --> 00:07:04.280
+coefficients and you can see down over here and&nbsp;
+we'll start straight away with what Terry's got&nbsp;&nbsp;
+
+00:07:04.280 --> 00:07:10.860
+to say about it and what's interesting is first of&nbsp;
+all AI was used and this was uh deep mind's alpha&nbsp;&nbsp;
+
+00:07:10.860 --> 00:07:16.080
+proof found trivial solutions basically found that&nbsp;
+there were flaws in the statement of the air dish&nbsp;&nbsp;
+
+00:07:16.080 --> 00:07:21.160
+problem and once they were fixed we could then&nbsp;
+get into the AI proof. So actually a was needed&nbsp;&nbsp;
+
+00:07:21.160 --> 00:07:26.520
+to tidy up the proof in the first place and then&nbsp;
+during the solution it was found that that C value&nbsp;&nbsp;
+
+00:07:26.520 --> 00:07:31.280
+from before it was ambiguous if it was meant to&nbsp;
+be small or large and the proof initially thought&nbsp;&nbsp;
+
+00:07:31.280 --> 00:07:38.000
+it would had to be small turns out it needs to be&nbsp;
+large. And if that's all sounding confusing yeah&nbsp;&nbsp;
+
+00:07:38.000 --> 00:07:42.760
+it is. And there's actually quite a nice blog&nbsp;
+post if you want to go into the full details&nbsp;&nbsp;
+
+00:07:42.760 --> 00:07:48.680
+of what was going on with this proof. But&nbsp;
+the short version is it was done by AI.&nbsp;&nbsp;
+
+00:07:48.680 --> 00:07:56.640
+It involved uh harmonics Aristotle agent which&nbsp;
+is a maths theorem solving specific agent that&nbsp;&nbsp;
+
+00:07:56.640 --> 00:08:04.200
+does a lot of IMO problems and it involved&nbsp;
+uh chat GPT as well. So this was a combined&nbsp;&nbsp;
+
+00:08:04.200 --> 00:08:11.720
+bouncing around proof between chat GPT Aristotle&nbsp;
+and putting things into lean and then bouncing it&nbsp;&nbsp;
+
+00:08:11.720 --> 00:08:17.040
+back through AI to write them up to make them more&nbsp;
+legible and add things in. The end result being&nbsp;&nbsp;
+
+00:08:17.040 --> 00:08:23.000
+here it is a solution to that air dish problem.&nbsp;
+And even though it did require a lot of human&nbsp;&nbsp;
+
+00:08:23.000 --> 00:08:33.160
+handholding, the mathematical insights, the actual&nbsp;
+maths was done by AI. A landmark first. [laughter]&nbsp;&nbsp;
+
+00:08:34.160 --> 00:08:39.680
+Wait. Oh my. Um, okay. I was about to use&nbsp;
+the sentence. My thong moved. Uh, flip-flop.&nbsp;&nbsp;
+
+00:08:39.680 --> 00:08:44.920
+This is what I'm This is what I'm holding up my&nbsp;
+chair with. Put that back there. Look, I don't&nbsp;&nbsp;
+
+00:08:44.920 --> 00:08:51.760
+regret filming outside and um editors love lots&nbsp;
+of background white noise and constantly changing&nbsp;&nbsp;
+
+00:08:51.760 --> 00:08:57.280
+lighting conditions. The point is the point is&nbsp;
+life is complicated and things are complicated.&nbsp;&nbsp;
+
+00:08:57.280 --> 00:09:02.800
+And when I thought I got my head around how sure&nbsp;
+large language models are kind of aiding humans&nbsp;&nbsp;
+
+00:09:02.800 --> 00:09:09.000
+in collaborative mass research and chipping in&nbsp;
+new ideas like you know some kind of a kneeling&nbsp;&nbsp;
+
+00:09:09.000 --> 00:09:17.560
+process just shaking it up as we go along. Then in&nbsp;
+April this year 2026, Liam Price, a 23-year-old,&nbsp;&nbsp;
+
+00:09:17.560 --> 00:09:24.520
+just thought, you know what? I'm going to ask&nbsp;
+ChatGpt to solve Erdős problem 1196. And Chat&nbsp;&nbsp;
+
+00:09:24.520 --> 00:09:33.560
+GPT sat there for like 80 minutes and 17 seconds.&nbsp;
+And at the end of it, it spat out a full solution.&nbsp;&nbsp;
+
+00:09:34.600 --> 00:09:39.920
+And so there you are. We now live&nbsp;
+in a world where vibe mathsing&nbsp;&nbsp;
+
+00:09:41.880 --> 00:09:49.400
+is a thing. Problem 11 196 involves primitive sets&nbsp;
+of integers such that blah blah blah blah blah is&nbsp;&nbsp;
+
+00:09:49.400 --> 00:09:56.840
+another semi-impenetrable math problem. And here's&nbsp;
+the paper that solved it. Uh you know classic&nbsp;&nbsp;
+
+00:09:56.840 --> 00:10:02.600
+maths. So right down the bottom here, page 32, in&nbsp;
+the acknowledgements and AI disclosure section, uh&nbsp;&nbsp;
+
+00:10:02.600 --> 00:10:10.480
+you can see that the initial proof of theorem 1.1&nbsp;
+was generated by an autonomous run of GPT 5.4 pro.&nbsp;&nbsp;
+
+00:10:10.480 --> 00:10:15.440
+And they actually they linked to it here. This&nbsp;
+is it. This is what Liam actually put in. Don't&nbsp;&nbsp;
+
+00:10:15.440 --> 00:10:20.440
+search the internet. This is a test. And then uh&nbsp;
+there's the actual problem. Oh, this is latte,&nbsp;&nbsp;
+
+00:10:20.440 --> 00:10:26.640
+but you know um large language model can can pass&nbsp;
+that. No problem. I remember this unconditional&nbsp;&nbsp;
+
+00:10:26.640 --> 00:10:32.120
+argument may require non-trivial, creative, and&nbsp;
+novel elements. And then uh chat replied with,&nbsp;&nbsp;
+
+00:10:32.120 --> 00:10:36.760
+"Oh yeah, I get what you're doing." And it made it&nbsp;
+look a bit nicer. And then it just thought thought&nbsp;&nbsp;
+
+00:10:36.760 --> 00:10:42.520
+for 80 minutes and 17 seconds and then said,&nbsp;
+"Yes." And then said, "In fact, one can prove&nbsp;&nbsp;
+
+00:10:42.520 --> 00:10:49.120
+something slightly stronger and then spat out&nbsp;
+a whole bunch of basically fully formed maths."&nbsp;&nbsp;
+
+00:10:49.800 --> 00:10:54.880
+In the paper here um they acknowledge that they&nbsp;
+took that it was the novel breakthrough done by&nbsp;&nbsp;
+
+00:10:54.880 --> 00:11:01.160
+chat GPT. Nevertheless, the final proofs in&nbsp;
+this paper have been generated and reviewed&nbsp;&nbsp;
+
+00:11:01.160 --> 00:11:05.880
+by the human authors using the AI generated proofs&nbsp;
+as the starting points where appropriate. So the&nbsp;&nbsp;
+
+00:11:05.880 --> 00:11:14.080
+humans then took the novel mass breakthrough found&nbsp;
+by chat GPT and turned it into this uh excellent&nbsp;&nbsp;
+
+00:11:14.080 --> 00:11:20.200
+mass paper solving that problem. So that's when&nbsp;
+I started on this video in earnest to explain&nbsp;&nbsp;
+
+00:11:20.200 --> 00:11:26.960
+vibe massing and I figured I've just got to draw&nbsp;
+a line in the sand if you will and say right this&nbsp;&nbsp;
+
+00:11:26.960 --> 00:11:33.880
+is where things are at in the middle of 2026. But&nbsp;
+the reason I've had to interrupt my vacation and&nbsp;&nbsp;
+
+00:11:33.880 --> 00:11:38.840
+why this has become breaking mass news is all the&nbsp;
+previous problems they weren't like particularly&nbsp;&nbsp;
+
+00:11:38.840 --> 00:11:43.760
+mathematically interesting. They weren't like&nbsp;
+famous problems in that regard, nor were they&nbsp;&nbsp;
+
+00:11:43.760 --> 00:11:49.800
+easy to state and kind of media friendly. They&nbsp;
+were obscure mass problems which yes, it's&nbsp;&nbsp;
+
+00:11:49.800 --> 00:11:57.000
+interesting that they were solved, but they were&nbsp;
+not inherently like big tentpole famous problems.&nbsp;&nbsp;
+
+00:11:57.000 --> 00:12:06.200
+And now Erdős problem 90 has been solved. The&nbsp;
+unit distance problem. The unit distance problem&nbsp;&nbsp;
+
+00:12:06.200 --> 00:12:12.960
+is reasonably easy to state. Imagine you've got&nbsp;
+some number of points on a flat surface, n points,&nbsp;&nbsp;
+
+00:12:12.960 --> 00:12:17.160
+and you can put them wherever you want. But then&nbsp;
+you have a look at all the possible distances&nbsp;&nbsp;
+
+00:12:17.160 --> 00:12:23.840
+between pairs of points. And you wonder, hang&nbsp;
+on, if I could arrange these however I want,&nbsp;&nbsp;
+
+00:12:23.840 --> 00:12:29.840
+what's the most distances I could get to all&nbsp;
+be the same? And because we can scale them,&nbsp;&nbsp;
+
+00:12:29.840 --> 00:12:34.720
+we call that the unit distance. So the problem is&nbsp;
+how do you maximize the number of unit distances&nbsp;&nbsp;
+
+00:12:34.720 --> 00:12:41.160
+between all the pairs of points on a plane for&nbsp;
+any number of n or rather if we were to increase n&nbsp;&nbsp;
+
+00:12:41.800 --> 00:12:48.920
+crazy numbers of n what would the maximum number&nbsp;
+of unit distances look like as that gets bigger&nbsp;&nbsp;
+
+00:12:48.920 --> 00:12:55.560
+and bigger and laid this out in a paper where he&nbsp;
+posed a few other similar problems this is paper&nbsp;&nbsp;
+
+00:12:55.560 --> 00:13:01.080
+on sets of distances of n points and there's some&nbsp;
+other things in here about like the number of&nbsp;&nbsp;
+
+00:13:01.080 --> 00:13:07.280
+different distances possible for end points. But&nbsp;
+what we care about here is function G. So that's&nbsp;&nbsp;
+
+00:13:07.280 --> 00:13:14.320
+the maximum number of times a given distance R can&nbsp;
+occur with end points. And it's called the unit&nbsp;&nbsp;
+
+00:13:14.320 --> 00:13:19.320
+distance problem because you can scale the whole&nbsp;
+thing to make R equal to one. And for some reason&nbsp;&nbsp;
+
+00:13:19.320 --> 00:13:26.280
+that caught on as the catchy way to describe it.&nbsp;
+And down here Erdős proves their value for what&nbsp;&nbsp;
+
+00:13:26.280 --> 00:13:33.080
+the G function is. So g function always grows&nbsp;
+faster than whatever number n is to the power&nbsp;&nbsp;
+
+00:13:33.080 --> 00:13:44.360
+of all this 1 + c / log of log of n. And then&nbsp;
+edish conjectures that it seems likely that g of n&nbsp;&nbsp;
+
+00:13:44.360 --> 00:13:50.240
+is less than n^ the 1 + epsilon. A quick technical&nbsp;
+point here because if you want to look into this&nbsp;&nbsp;
+
+00:13:50.240 --> 00:13:55.480
+area of maths or a lot of them in the literature,&nbsp;
+you'll very quickly come across inequalities&nbsp;&nbsp;
+
+00:13:55.480 --> 00:13:59.880
+where there's some constant that it seems nobody&nbsp;
+cares about. Even in the reporting about this,&nbsp;&nbsp;
+
+00:13:59.880 --> 00:14:08.040
+you'll see well uh you'll see a C or a delta&nbsp;
+both ocean themed puns that it seems nobody cares&nbsp;&nbsp;
+
+00:14:08.040 --> 00:14:12.840
+about. And that's because what researchers&nbsp;
+are really looking at is just the rate at&nbsp;&nbsp;
+
+00:14:12.840 --> 00:14:19.360
+which these things increase. How fast do they&nbsp;
+increase? or more accurately what type of fast.&nbsp;&nbsp;
+
+00:14:19.360 --> 00:14:25.080
+So in Erdős' original paper his function for the&nbsp;
+maximum number of unit distances that he called G&nbsp;&nbsp;
+
+00:14:25.080 --> 00:14:35.400
+on N he shows that that is greater than N to the&nbsp;
+power of 1 + some big C over log of log of N. And&nbsp;&nbsp;
+
+00:14:35.400 --> 00:14:39.560
+the point is you can make C as big or as small as&nbsp;
+you want but you're just diving that up and down.&nbsp;&nbsp;
+
+00:14:39.560 --> 00:14:44.880
+It's a function as a whole that we care about.&nbsp;
+You'll often see this in like big O notation&nbsp;&nbsp;
+
+00:14:44.880 --> 00:14:50.400
+which I know computer science uses a lot as well.&nbsp;
+The point there is just there's some function&nbsp;&nbsp;
+
+00:14:50.400 --> 00:14:55.680
+to which you can compare the growth of the&nbsp;
+function you care about and it doesn't matter if&nbsp;&nbsp;
+
+00:14:55.680 --> 00:15:00.520
+you scale that other function up and down by some&nbsp;
+constant. We're just looking at what is the rate&nbsp;&nbsp;
+
+00:15:00.520 --> 00:15:05.280
+at which these things are growing. And that's the&nbsp;
+big AI breakthrough here. Yeah, it's not like they&nbsp;&nbsp;
+
+00:15:05.280 --> 00:15:11.280
+found some new arrangement of dots on the plane,&nbsp;
+which would be a great visual for which there are&nbsp;&nbsp;
+
+00:15:11.280 --> 00:15:16.680
+more unit distances than we expect. What they&nbsp;
+actually showed is that there definitely exists,&nbsp;&nbsp;
+
+00:15:16.680 --> 00:15:23.720
+don't know what it is. It's out there somewhere,&nbsp;
+some value that they call delta such that&nbsp;&nbsp;
+
+00:15:23.720 --> 00:15:29.440
+there are infinitely many values of n. Not all&nbsp;
+of them, but infinitely many of them for which&nbsp;&nbsp;
+
+00:15:30.760 --> 00:15:38.280
+there are more uh unit distances the same than n&nbsp;
+to the power of 1 plus whatever that delta was.&nbsp;&nbsp;
+
+00:15:39.280 --> 00:15:46.000
+Yeah. Now that's that's a maths finding. Now&nbsp;
+in case you missed that like the first time&nbsp;&nbsp;
+
+00:15:46.000 --> 00:15:51.360
+I did when I saw the result I thought&nbsp;
+that g of n would be less than&nbsp;&nbsp;
+
+00:15:52.080 --> 00:15:58.840
+growing at the rate of n^ the 1 plus epsilon or&nbsp;
+plus delta whereas ai showed the opposite and&nbsp;&nbsp;
+
+00:15:58.840 --> 00:16:03.920
+this is the paper that came out of it which I find&nbsp;
+fascinating about this paper is if you scroll down&nbsp;&nbsp;
+
+00:16:03.920 --> 00:16:11.520
+it gives you the actual prompt that was there it&nbsp;
+is that's what was put into the AI and down here&nbsp;&nbsp;
+
+00:16:11.520 --> 00:16:17.000
+we have the response that came out of the large&nbsp;
+language model and all of this then got tidied up&nbsp;&nbsp;
+
+00:16:17.000 --> 00:16:24.000
+and put together into a nice neat paper but the&nbsp;
+actual insight was done by AI and if we come back&nbsp;&nbsp;
+
+00:16:24.000 --> 00:16:29.280
+to the actual listing of this problem oh you can&nbsp;
+see they're using big O notation not not the C&nbsp;&nbsp;
+
+00:16:29.280 --> 00:16:35.600
+same thing um there's our friend lean again and&nbsp;
+that's partly why large language models are eating&nbsp;&nbsp;
+
+00:16:35.600 --> 00:16:42.960
+mathematicians lunch first lean is a programming&nbsp;
+language that allows you to formalise math proofs&nbsp;&nbsp;
+
+00:16:42.960 --> 00:16:50.000
+and then verify if they all hold together.&nbsp;
+It's a it's a fascinating aspect to formalizing&nbsp;&nbsp;
+
+00:16:50.000 --> 00:16:57.920
+mathematics and being able to automatically check&nbsp;
+if a proof compiles which which I think is amazing&nbsp;&nbsp;
+
+00:16:57.920 --> 00:17:02.080
+and that's why I think math might be the canary&nbsp;
+in the AI mine here because there are things&nbsp;&nbsp;
+
+00:17:02.080 --> 00:17:07.000
+that large language models are very good at. They&nbsp;
+don't have the same bias as humans do in terms of&nbsp;&nbsp;
+
+00:17:07.000 --> 00:17:12.440
+what the expected result is. Although the training&nbsp;
+data obviously brings in human biases. And why the&nbsp;&nbsp;
+
+00:17:12.440 --> 00:17:16.960
+large language model was so successful in this&nbsp;
+case is it was able to pursue lots of different&nbsp;&nbsp;
+
+00:17:16.960 --> 00:17:23.480
+possible lines of logic all at once. And it could&nbsp;
+persist with them further than a human would for&nbsp;&nbsp;
+
+00:17:23.480 --> 00:17:31.520
+the likelihood of success. And that way it found&nbsp;
+a chain of logic which disproved air dish that was&nbsp;&nbsp;
+
+00:17:31.520 --> 00:17:36.960
+just obscure enough and counterintuitive and not&nbsp;
+what we expected that no human had followed that&nbsp;&nbsp;
+
+00:17:36.960 --> 00:17:44.120
+chain far enough. But a large language model&nbsp;
+can do all the chains at once. And why I think&nbsp;&nbsp;
+
+00:17:44.120 --> 00:17:51.080
+mass is happening first is because of things like&nbsp;
+lean. We're able to have AI mark its own homework.&nbsp;&nbsp;
+
+00:17:51.080 --> 00:17:56.640
+So in other areas AI might produce interesting&nbsp;
+results but it could be hallucinating. Whereas&nbsp;&nbsp;
+
+00:17:56.640 --> 00:18:03.560
+in mathematics we can algorithmically check if the&nbsp;
+output is valid or approaching valid. And that way&nbsp;&nbsp;
+
+00:18:03.560 --> 00:18:10.520
+we can automatically verify and hone the models&nbsp;
+in a systematic fashion. And all of that combined&nbsp;&nbsp;
+
+00:18:10.520 --> 00:18:16.840
+is why a large language model was able to&nbsp;
+find a proof no human had. Wow, the winds are&nbsp;&nbsp;
+
+00:18:16.840 --> 00:18:23.280
+really starting to turn. Oh, more symbolism.&nbsp;
+Anyway, uh that's that's the breaking maths&nbsp;&nbsp;
+
+00:18:23.280 --> 00:18:29.920
+finding. Turns out AI can do maths now. It can&nbsp;
+do interesting, [music] significant, famous&nbsp;&nbsp;
+
+00:18:29.920 --> 00:18:36.920
+mathematics. And I know a lot of AI discussion&nbsp;
+like generative AI and all these things where&nbsp;&nbsp;
+
+00:18:36.920 --> 00:18:40.880
+there's huge ethical questions around where&nbsp;
+the training data came from and how it's now&nbsp;&nbsp;
+
+00:18:40.880 --> 00:18:46.000
+being used to replace people's jobs. That's a&nbsp;
+whole thing. I don't want to discredit that. But&nbsp;&nbsp;
+
+00:18:46.000 --> 00:18:53.800
+it's very interesting that in mathematics because&nbsp;
+while you can argue maths is a creative pursuit,&nbsp;&nbsp;
+
+00:18:53.800 --> 00:18:58.600
+we're also exploring. We're trying to find&nbsp;
+things and that's why mathematicians seem to like&nbsp;&nbsp;
+
+00:18:58.600 --> 00:19:04.760
+using AI. It means they can see further. Now&nbsp;
+the big question of should we should we just&nbsp;&nbsp;
+
+00:19:04.760 --> 00:19:11.160
+dive right in? I don't know. You know, there's a&nbsp;
+lot going on. But I will say it's very exciting&nbsp;&nbsp;
+
+00:19:11.760 --> 00:19:17.320
+that now we can use large language models&nbsp;
+to find more interesting mathematics.&nbsp;&nbsp;
+
+00:19:17.320 --> 00:19:21.800
+Breaking breaking mass news that&nbsp;
+literally the day I filmed on the beach,&nbsp;&nbsp;
+
+00:19:21.800 --> 00:19:27.120
+Google Deep Mind announced they had solved nine&nbsp;
+more open airish problems and that was a similar&nbsp;&nbsp;
+
+00:19:27.120 --> 00:19:32.040
+deal. They're using four different agents that&nbsp;
+were able to mark each other's work using lean.&nbsp;&nbsp;
+
+00:19:32.040 --> 00:19:35.440
+Very clever. We're going to see a lot more of&nbsp;
+that. And then archive announced they're going&nbsp;&nbsp;
+
+00:19:35.440 --> 00:19:41.880
+to ban anyone who uses AI in a paper and leaves&nbsp;
+in a mistake, which I think is very clever.&nbsp;&nbsp;
+
+00:19:41.880 --> 00:19:47.160
+One-year ban. The Liden Declaration on Artificial&nbsp;
+Intelligence and Mathematics came out. Definitely&nbsp;&nbsp;
+
+00:19:47.160 --> 00:19:53.920
+worth a read. Quite interesting. And some&nbsp;
+humans have now used the AI found techniques&nbsp;&nbsp;
+
+00:19:53.920 --> 00:19:58.760
+from the unit distance problem to prove more&nbsp;
+things. So, look, a lot's happening. I've&nbsp;&nbsp;
+
+00:19:58.760 --> 00:20:03.520
+actually waited a little while to upload this in&nbsp;
+case there were more. This seems to be a plateau.&nbsp;&nbsp;
+
+00:20:03.520 --> 00:20:09.760
+So, here you are. This is where we're at in&nbsp;
+2026. Who knows where we're going to go next?
+
