@@ -72,9 +72,11 @@ except ModuleNotFoundError:
 # furniture rather than article content (author sign-offs, comment and
 # review sections, ...), so the text is truncated at the earliest match.
 CUT_TO_END_RE = re.compile(
-    r"謝謝你閱讀到這裡"
+    r"Cite this work"
+    r"|謝謝你閱讀到這裡"
     r"|（本文由 MoneyDJ新聞 授權轉載"
     r"|相關報導"
+    r"|「食驗室」是《食力foodNEXT》推出的全台最大飲食新品試用平台"
 )
 MIN_KEEP_AFTER_CUT = 80
 REMOVE_BLOCKS = [
@@ -930,7 +932,7 @@ def save_items(path: str, items: list, wrapper: dict | None) -> None:
         if wrapper is not None:
             wrapper["items"] = items
             wrapper["total_items"] = len(items)
-            json.dump(wrapper, f, ensure_ascii=False, separators=(",", ":"), indent=2)
+            json.dump(wrapper, f, ensure_ascii=False, separators=(",", ":"))
         else:
             json.dump(items, f, ensure_ascii=False, indent=2)
         f.write("\n")
@@ -1012,6 +1014,11 @@ def main(argv=None) -> int:
         # If no matching subtitle is found yet, skip this item and leave it
         # pending until download_sub.py fetches one.
         if is_youtube_url(url):
+            if not it.get("thumbnail"):
+                thumb = youtube_thumbnail_url(url)
+                if thumb:
+                    it["thumbnail"] = thumb
+
             picked = pick_subtitle(it.get("id", ""))
             if not picked:
                 continue
@@ -1021,11 +1028,6 @@ def main(argv=None) -> int:
                   f"({it.get('published_at') or 'no date'}) {it.get('title', '')[:60]}")
             print(f"    {url}")
             print(f"    subtitle: {os.path.basename(path)} (orig={orig_lang}, sub={sub_lang})")
-
-            if not it.get("thumbnail"):
-                thumb = youtube_thumbnail_url(url)
-                if thumb:
-                    it["thumbnail"] = thumb
 
             text = vtt_to_text(path)
             if len(text) < 30:
@@ -1049,13 +1051,17 @@ def main(argv=None) -> int:
             time.sleep(SLEEP_BETWEEN_ITEMS)
             continue
 
+        if "techmeme.com" in url:
+            it["summary"] = translate_to_zhtw(it.get("title"))
+            continue
+
+        if "vocus.cc" in url:
+            it["url"] = re.sub(r"vocus\.cc/@[^/]+/", vocus.cc/article/", url)
+
         attempted += 1
         print(f"[{attempted}/{min(len(pending), MAX_ITEMS)}] "
               f"({it.get('published_at') or 'no date'}) {it.get('title', '')[:60]}")
         print(f"    {url}")
-
-        if "techmeme.com" in it.get("title"):
-            it["summary"] = translate_to_zhtw(it.get("title"))
 
         content, source_type, has_table = fetch_content(url)
 
