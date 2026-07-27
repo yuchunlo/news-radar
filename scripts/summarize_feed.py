@@ -1056,7 +1056,7 @@ def main(argv=None) -> int:
             continue
 
         if "vocus.cc" in url:
-            it["url"] = re.sub(r"vocus\.cc/@[^/]+/", vocus.cc/article/", url)
+            it["url"] = re.sub(r"vocus\.cc/@[^/]+/", "vocus.cc/article/", url)
 
         attempted += 1
         print(f"[{attempted}/{min(len(pending), MAX_ITEMS)}] "
