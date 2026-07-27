@@ -1054,7 +1054,7 @@ def main(argv=None) -> int:
               f"({it.get('published_at') or 'no date'}) {it.get('title', '')[:60]}")
         print(f"    {url}")
 
-        if "techmeme.com" in te.get("title"):
+        if "techmeme.com" in it.get("title"):
             it["summary"] = translate_to_zhtw(it.get("title"))
 
         content, source_type, has_table = fetch_content(url)
