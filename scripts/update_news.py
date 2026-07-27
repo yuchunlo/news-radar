@@ -63,10 +63,6 @@ RSS_FEED_SKIP_EXACT: set[str] = {
     "https://flak.tedunangst.com/rss",
 }
 
-AGGREGATOR_META_ONLY_HOSTS = {
-    "techmeme.com", "www.techmeme.com",
-}
-
 EMAIL_RE = re.compile(r"\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b")
 SECRET_LIKE_RE = re.compile(
     r"\b(sk-(?!hynix\b)[A-Za-z0-9_-]{12,}|(?:api[_-]?key|secret|token)=([^\s&]{6,}))\b",
@@ -505,11 +501,6 @@ def fetch_opml_rss(now: datetime, opml_path: Path, max_feeds: int = 0) -> list[R
                     )
                     if not published:
                         continue
-                    excerpt = (
-                        strip_html(first_non_empty(entry.get("summary"), entry.get("description")))
-                        if host_of_url(link) in AGGREGATOR_META_ONLY_HOSTS
-                        else ""
-                    )
                     local_items.append(
                         RawItem(
                             site_id=feed_category,
@@ -523,7 +514,6 @@ def fetch_opml_rss(now: datetime, opml_path: Path, max_feeds: int = 0) -> list[R
                                 "feed_home": feed.get("html_url") or "",
                                 "opml_category": feed_category,
                             },
-                            excerpt=excerpt,
                         )
                     )
             else:
@@ -533,11 +523,6 @@ def fetch_opml_rss(now: datetime, opml_path: Path, max_feeds: int = 0) -> list[R
                     if not published:
                         continue
                     link = entry.get("link", "")
-                    excerpt = (
-                        strip_html(entry.get("description", ""))
-                        if host_of_url(link) in AGGREGATOR_META_ONLY_HOSTS
-                        else ""
-                    )
                     local_items.append(
                         RawItem(
                             site_id=feed_category,
@@ -551,7 +536,6 @@ def fetch_opml_rss(now: datetime, opml_path: Path, max_feeds: int = 0) -> list[R
                                 "feed_home": feed.get("html_url") or "",
                                 "opml_category": feed_category,
                             },
-                            excerpt=excerpt,
                         )
                     )
         except Exception:
@@ -650,8 +634,6 @@ def main(argv=None) -> int:
                 "last_seen_at": iso(now),
                 "star": False,
             }
-            if host_of_url(url) in AGGREGATOR_META_ONLY_HOSTS and raw.excerpt:
-                new_item["feed_excerpt"] = raw.excerpt
             archive[item_id] = new_item
         else:
             existing["site_id"] = raw.site_id
