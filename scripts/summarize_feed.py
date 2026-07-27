@@ -74,6 +74,7 @@ except ModuleNotFoundError:
 CUT_TO_END_RE = re.compile(
     r"謝謝你閱讀到這裡"
     r"|（本文由 MoneyDJ新聞 授權轉載"
+    r"|相關報導"
 )
 MIN_KEEP_AFTER_CUT = 80
 REMOVE_BLOCKS = [
@@ -88,6 +89,7 @@ assert not isinstance(REMOVE_BLOCKS, str), "REMOVE_BLOCKS must be a list of whol
 # the string, silently missing most real occurrences.
 REMOVE_PHRASE_RE = re.compile(
     r"最核心的一句話[:：]"
+    r"|綜合外媒報導，"
     r"|結果顯示，"
     r"|換言之，"
     r"|更?值得注意的是，"
@@ -590,7 +592,7 @@ ENTITY_PATTERN = re.compile(
 )
 DISCOURSE_ZH = re.compile(
     r"^(然而|不過|此外|另外|同時|當然|其實|事實上|值得一提的是|換句話說|"
-    r"也就是說|總而言之|總的來說|不僅如此|除此之外|与此同时|与此同時|"
+    r"也就是說|總而言之|總的來說|不僅如此|除此之外|與此同時|与此同时|与此同時|"
     r"然后|然後|接著|接着|因此|所以|而且|并且|並且|首先|其次|最後|最后|再者)[，,、]"
 )
 DISCOURSE_EN = re.compile(
@@ -1051,6 +1053,9 @@ def main(argv=None) -> int:
         print(f"[{attempted}/{min(len(pending), MAX_ITEMS)}] "
               f"({it.get('published_at') or 'no date'}) {it.get('title', '')[:60]}")
         print(f"    {url}")
+
+        if "techmeme.com" in te.get("title"):
+            it["summary"] = translate_to_zhtw(it.get("title"))
 
         content, source_type, has_table = fetch_content(url)
 
