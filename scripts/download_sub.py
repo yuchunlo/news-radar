@@ -18,9 +18,6 @@ YTDLP_COMMON_ARGS = [
     "--no-progress",
 ]
 
-CHAINED_RE = re.compile(r"^zh-(hant|hans)-.+", re.I)
-ZH_PLAIN = {"zh", "zh-hant", "zh-hans", "zh-hk", "zh-tw"}
-
 
 def is_youtube(url: str) -> bool:
     return "youtube.com" in url or "youtu.be" in url
@@ -32,6 +29,8 @@ def already_downloaded(out_dir: Path, item_id: str) -> bool:
 
 def rank_lang(lang: str, orig_lang: str | None) -> int:
     """Lower is better. See module docstring for the priority rules."""
+    CHAINED_RE = re.compile(r"^zh-(hant|hans)-.+", re.I)
+    ZH_PLAIN = {"zh", "zh-hant", "zh-hans", "zh-hk", "zh-tw"}
     lang_l = lang.lower()
     if CHAINED_RE.match(lang_l):
         return 3
@@ -59,8 +58,7 @@ def choose_track(manual: dict, auto: dict, orig_lang: str | None):
 
 
 def probe_subtitle_langs(url: str, cookies_path: Path):
-    """Fetch the list of available subtitle languages only — no subtitle
-    content is downloaded (a single metadata request).
+    """Fetch the list of available subtitle languages
 
     Returns:
       ("EXPIRED", None, None)   cookies are invalid
@@ -104,8 +102,9 @@ def download_one_subtitle(
         "--write-sub" if is_manual else "--write-auto-sub",
         "--sub-langs", lang,
         "--sub-format", "vtt",
-        "--sleep-interval", "14",
-        "--max-sleep-interval", "21",
+        "--sleep-interval", "4",
+        "--max-sleep-interval", "7",
+        "--concurrent-fragments", "7",
         "-o", output_tpl,
         url,
     ]
@@ -176,19 +175,16 @@ def main():
             break
         if result.returncode != 0:
             failed += 1
-            print(f"[FAILED] item {item_id} (exit {result.returncode}, "
-                  f"lang={lang}, manual={is_manual}): {output}")
+            print(f"[FAILED] item {item_id} (exit {result.returncode}): {output}")
         elif not already_downloaded(out_dir, item_id):
             if "no subtitles for the requested languages" in lowered:
                 no_subs += 1
                 item["summary"] = " "
             else:
                 failed += 1
-                print(f"[FAILED] item {item_id} (exit 0 but no file written, "
-                      f"lang={lang}, manual={is_manual}): {output}")
+                print(f"[FAILED] item {item_id} (exit 0): {output}")
         else:
             succeeded += 1
-            print(f"[OK] item {item_id}: lang={lang} manual={is_manual}")
 
         processed += 1
 
