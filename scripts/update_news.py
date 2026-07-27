@@ -63,11 +63,6 @@ RSS_FEED_SKIP_EXACT: set[str] = {
     "https://flak.tedunangst.com/rss",
 }
 
-EMAIL_RE = re.compile(r"\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b")
-SECRET_LIKE_RE = re.compile(
-    r"\b(sk-(?!hynix\b)[A-Za-z0-9_-]{12,}|(?:api[_-]?key|secret|token)=([^\s&]{6,}))\b",
-    re.I,
-)
 
 
 @dataclass
@@ -79,7 +74,16 @@ class RawItem:
     url: str
     published_at: datetime | None
     meta: dict[str, Any]
-    excerpt: str = ""
+
+
+@dataclass
+class FeedFetchResult:
+    """單一個 feed 這次抓取的結果，交給 fetch_opml_rss 的主執行緒統一彙整
+    （新項目、失敗訊息）。"""
+    feed_title: str
+    feed_url: str
+    items: list[RawItem]
+    error: str | None
 
 
 def utc_now() -> datetime:
@@ -205,36 +209,25 @@ def parse_feed_entries_via_xml(feed_xml: bytes) -> list[dict[str, Any]]:
         root = ET.fromstring(feed_xml)
     except Exception:
         return out
-    for tag in (".//item", ".//{*}item", ".//entry", ".//{*}entry"):
+    for tag in (".//{*}item", ".//{*}entry"):
         for node in root.findall(tag):
-            title = (node.findtext("title") or node.findtext("{*}title") or "").strip()
+            title = (node.findtext("{*}title") or "").strip()
             link = ""
-            link_node = node.find("link")
-            if link_node is None:
-                link_node = node.find("{*}link")
+            link_node = node.find("{*}link")
             if link_node is not None:
                 link = (link_node.get("href") or link_node.text or "").strip()
-            if not link:
-                link = (node.findtext("{*}link") or node.findtext("link") or "").strip()
             published = (
-                node.findtext("pubDate") or node.findtext("{*}pubDate")
-                or node.findtext("published") or node.findtext("{*}published")
-                or node.findtext("updated") or node.findtext("{*}updated")
-            )
-            description = (
-                node.findtext("description") or node.findtext("{*}description")
-                or node.findtext("summary") or node.findtext("{*}summary") or ""
+                node.findtext("{*}pubDate")
+                or node.findtext("{*}published")
+                or node.findtext("{*}updated")
             )
             if title and link:
                 key = (title, link)
                 if key in seen:
                     continue
                 seen.add(key)
-                out.append({
-                    "title": title, "link": link, "published": published, "description": description,
-                })
+                out.append({"title": title, "link": link, "published": published})
     return out
-
 
 
 def parse_opml_subscriptions(opml_path: Path) -> list[dict[str, str]]:
@@ -318,24 +311,6 @@ def resolve_opml_bridge_source(feed_url: str, html_url: str = "") -> dict[str, s
         return {"bridge_type": "jike", "bridge_kind": "user", "bridge_slug": ident, "url": html}
 
     return None
-
-
-HTML_TAG_RE = re.compile(r"<[^>]+>")
-
-
-def strip_html(text: str, limit: int = 4000) -> str:
-    """Strip HTML tags and return clean text, for feed_excerpt."""
-    if not text:
-        return ""
-    if BeautifulSoup is not None:
-        try:
-            plain = BeautifulSoup(text, "html.parser").get_text(" ", strip=True)
-        except Exception:
-            plain = HTML_TAG_RE.sub(" ", text)
-    else:
-        plain = HTML_TAG_RE.sub(" ", text)
-    plain = re.sub(r"\s+", " ", plain).strip()
-    return plain[:limit]
 
 
 def compact_title(text: str, limit: int = 96) -> str:
@@ -422,7 +397,25 @@ def parse_jike_public_items(
     return out
 
 
-def fetch_opml_rss(now: datetime, opml_path: Path, max_feeds: int = 0) -> list[RawItem]:
+def build_http_session() -> requests.Session:
+    session = requests.Session()
+    retry = Retry(
+        total=2,
+        backoff_factor=0.5,
+        status_forcelist=(500, 502, 503, 504),
+        allowed_methods=frozenset(["GET"]),
+    )
+    adapter = HTTPAdapter(max_retries=retry, pool_connections=20, pool_maxsize=20)
+    session.mount("http://", adapter)
+    session.mount("https://", adapter)
+    return session
+
+
+def fetch_opml_rss(
+    now: datetime,
+    opml_path: Path,
+    max_feeds: int = 0,
+) -> tuple[list[RawItem], list[tuple[str, str, str]]]:
     feeds = parse_opml_subscriptions(opml_path)
     if max_feeds > 0:
         feeds = feeds[:max_feeds]
@@ -449,20 +442,20 @@ def fetch_opml_rss(now: datetime, opml_path: Path, max_feeds: int = 0) -> list[R
         record["xml_url"] = resolved_url
         resolved_feeds.append(record)
 
-    def fetch_single_feed(feed: dict[str, str]) -> list[RawItem]:
+    session = build_http_session()
+
+    def fetch_single_feed(feed: dict[str, str]) -> FeedFetchResult:
         feed_url = feed["xml_url"]
         feed_title = feed["title"]
         feed_category = str(feed.get("category") or "opmlrss").strip() or "opmlrss"
         local_items: list[RawItem] = []
         try:
-            resp = requests.get(
-                feed_url,
-                timeout=12,
-                headers={
-                    "User-Agent": BROWSER_UA,
-                    "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
-                },
-            )
+            headers = {
+                "User-Agent": BROWSER_UA,
+                "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+            }
+
+            resp = session.get(feed_url, timeout=12, headers=headers)
             resp.raise_for_status()
 
             bridge_type = str(feed.get("bridge_type") or "")
@@ -538,17 +531,35 @@ def fetch_opml_rss(now: datetime, opml_path: Path, max_feeds: int = 0) -> list[R
                             },
                         )
                     )
-        except Exception:
-            pass
-        return local_items
 
+            return FeedFetchResult(
+                feed_title=feed_title, feed_url=feed_url,
+                items=local_items, error=None,
+            )
+        except Exception as e:
+            return FeedFetchResult(
+                feed_title=feed_title, feed_url=feed_url,
+                items=[], error=f"{type(e).__name__}: {e}",
+            )
+
+
+    fetch_errors: list[tuple[str, str, str]] = []
     if resolved_feeds:
         worker_count = min(20, max(4, len(resolved_feeds)))
         with ThreadPoolExecutor(max_workers=worker_count) as executor:
             futures = [executor.submit(fetch_single_feed, f) for f in resolved_feeds]
             for future in as_completed(futures):
-                out.extend(future.result())
-    return out
+                result = future.result()
+                out.extend(result.items)
+                if result.error:
+                    fetch_errors.append((result.feed_title, result.feed_url, result.error))
+
+    if fetch_errors:
+        print(f"WARNING: {len(fetch_errors)} feed(s) failed to fetch:")
+        for feed_title, feed_url, error in fetch_errors:
+            print(f"  - [{feed_title}] {feed_url}: {error}")
+
+    return out, fetch_errors
 
 
 def load_archive(path: Path) -> dict[str, dict[str, Any]]:
@@ -572,23 +583,6 @@ def load_archive(path: Path) -> dict[str, dict[str, Any]]:
     return out
 
 
-def redact_public_text(text: str) -> str:
-    if not isinstance(text, str) or not text:
-        return text
-    text = EMAIL_RE.sub("[redacted-email]", text)
-    return SECRET_LIKE_RE.sub("[redacted-secret]", text)
-
-
-def sanitize_public_value(value: Any) -> Any:
-    if isinstance(value, str):
-        return redact_public_text(value)
-    if isinstance(value, list):
-        return [sanitize_public_value(v) for v in value]
-    if isinstance(value, dict):
-        return {k: sanitize_public_value(v) for k, v in value.items()}
-    return value
-
-
 def main(argv=None) -> int:
     parser = argparse.ArgumentParser(description="Aggregate OPML RSS updates")
     parser.add_argument("--output-dir", default="data", help="Directory for output JSON files")
@@ -608,7 +602,10 @@ def main(argv=None) -> int:
     if args.rss_opml:
         opml_path = Path(args.rss_opml).expanduser()
         if opml_path.exists():
-            raw_items = fetch_opml_rss(now, opml_path, max_feeds=max(0, int(args.rss_max_feeds)))
+            raw_items, _fetch_errors = fetch_opml_rss(
+                now, opml_path,
+                max_feeds=max(0, int(args.rss_max_feeds)),
+            )
         else:
             print(f"WARNING: OPML not found: {opml_path}")
     else:
@@ -668,7 +665,7 @@ def main(argv=None) -> int:
         ),
     }
     archive_path.write_text(
-        json.dumps(sanitize_public_value(archive_payload), ensure_ascii=False, separators=(",", ":")),
+        json.dumps(archive_payload, ensure_ascii=False, separators=(",", ":")),
         encoding="utf-8",
     )
     print(f"Wrote: {archive_path} ({len(archive)} items, fetched {len(raw_items)} raw)")
