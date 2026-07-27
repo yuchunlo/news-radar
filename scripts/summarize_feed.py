@@ -75,11 +75,11 @@ CUT_TO_END_RE = re.compile(
     r"謝謝你閱讀到這裡"
 )
 MIN_KEEP_AFTER_CUT = 80
-REMOVE_BLOCKS = (
-    "Matrix 是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选 Matrix 最优质的文章，展示来自用户的最真实的体验和观点。"
-
-    "文章代表作者个人观点，少数派仅对标题和排版略作修改。"
-)
+REMOVE_BLOCKS = [
+    "Matrix 是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选 Matrix 最优质的文章，展示来自用户的最真实的体验和观点。",
+    "文章代表作者个人观点，少数派仅对标题和排版略作修改。",
+]
+assert not isinstance(REMOVE_BLOCKS, str), "REMOVE_BLOCKS must be a list of whole blocks"
 # Filler lead-ins that carry no information of their own, plus inline site
 # furniture (related-article plugs, tag lines) that trafilatura keeps.
 # NOTE: no \b here -- CJK characters are word characters to Python's re, so
@@ -1048,11 +1048,7 @@ def main(argv=None) -> int:
               f"({it.get('published_at') or 'no date'}) {it.get('title', '')[:60]}")
         print(f"    {url}")
 
-        if it.get("feed_excerpt"):
-            content, source_type, has_table = it["feed_excerpt"], "meta", False
-            print("    using feed_excerpt captured at ingestion (no fetch needed)")
-        else:
-            content, source_type, has_table = fetch_content(url)
+        content, source_type, has_table = fetch_content(url)
 
         if source_type == "blocked":
             it["summary"] = BLOCKED_SUMMARY
