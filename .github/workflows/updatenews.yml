@@ -56,7 +56,7 @@ jobs:
       - name: Summarize & score
         env:
           ITEMS_FILE: data/archive.json
-          MAX_ITEMS: "400"
+          MAX_ITEMS: "200"
           TRANSLATE: "on"
           SUMMARY_RATIO: "0.9"
           # RESCORE_ALL: "1"
