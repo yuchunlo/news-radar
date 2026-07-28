@@ -111,6 +111,13 @@ USE_WAYBACK = os.environ.get("USE_WAYBACK", "on").lower() != "off"
 # real body. Off by default: correct but expensive, since a lot of pages are
 # meta-only and each one becomes an extra third-party request.
 READER_ON_META = os.environ.get("READER_ON_META", "").lower() in ("1", "true", "yes", "on")
+FEED_FIRST_HOSTS = (
+    "medium.com",
+    "honest-broker.com",
+    "iread2.blogspot.com",
+    "lutaonan.com",
+)
+FEED_FIRST_SAVE_EVERY = 50
 WAYBACK_LOOKUP = "https://archive.org/wayback/available"
 MIN_USABLE_BODY = 200         # [tune] chars below which a body isn't worth keeping
 
@@ -528,32 +535,9 @@ def is_slow_host(url: str) -> bool:
     return any(host == h or host.endswith("." + h) for h in SLOW_HOSTS)
 
 
-def url_variants(url: str) -> list[str]:
-    """Other addresses that serve the same article.
-
-    Vocus is the reason this exists: the feeds in this OPML come from a
-    third-party bridge and hand out `vocus.cc/@author/<id>` links, while the
-    canonical page is `vocus.cc/article/<id>`. Either form can 404 on its own,
-    so both are tried instead of rewriting one into the other and losing the
-    original — which is what produced the "HTTP 404, skipped" runs.
-    """
-    out = [url]
-    m = re.match(r"(https?://(?:www\.)?vocus\.cc)/@[^/]+/([0-9a-zA-Z]+)", url or "")
-    if m:
-        out.append(f"{m.group(1)}/article/{m.group(2)}")
-    m = re.match(r"(https?://(?:www\.)?vocus\.cc)/article/([0-9a-zA-Z]+)", url or "")
-    if m:
-        out.append(f"{m.group(1)}/salon/article/{m.group(2)}")
-    # A trailing-slash variant costs nothing and fixes a surprising number of
-    # strict routers.
-    if url and not url.endswith("/") and "?" not in url and "#" not in url:
-        out.append(url + "/")
-    seen, uniq = set(), []
-    for candidate in out:
-        if candidate and candidate not in seen:
-            seen.add(candidate)
-            uniq.append(candidate)
-    return uniq
+def is_feed_first_host(url: str) -> bool:
+    host = host_of(url)
+    return any(host == h or host.endswith("." + h) for h in FEED_FIRST_HOSTS)
 
 
 def _http_get(url: str, *, timeout: int, impersonate: bool = False):
@@ -696,42 +680,26 @@ def fetch_content(url: str, feed_content: str = ""):
             best = result       # remember the blurb, keep looking for a body
         return None
 
-    variants = url_variants(url)
-    tried: set[str] = set()
-    queue = [variants[0]]
-    while queue:
-        candidate = queue.pop(0)
-        if candidate in tried:
+    # A host known to fingerprint-check its clients is not worth a plain
+    # request first; go straight to the impersonating one.
+    modes = [True] if (slow and _HAS_CURL_CFFI) else [False, True]
+    for impersonate in modes:
+        if impersonate and not _HAS_CURL_CFFI:
             continue
-        tried.add(candidate)
-        # A host known to fingerprint-check its clients is not worth a plain
-        # request first; go straight to the impersonating one.
-        modes = [True] if (slow and _HAS_CURL_CFFI) else [False, True]
-        status = "fail"
-        for impersonate in modes:
-            if impersonate and not _HAS_CURL_CFFI:
-                continue
-            html, status = _http_get(candidate, timeout=timeout, impersonate=impersonate)
-            if status == "blocked":
-                blocked = True
-                continue
-            if status == "notfound":
-                notfound = True
-                break           # a 404 is the same for both clients
-            if status != "ok" or not html:
-                continue
-            found = consider(html)
-            if found:
-                if candidate != url or impersonate:
-                    via = "curl_cffi" if impersonate else "url variant"
-                    print(f"    recovered via {via}: {candidate}")
-                return found
-        # Alternative addresses are only worth trying when this one was a 404 —
-        # that is the vocus case, where the feed's link and the canonical page
-        # disagree. If the host timed out or refused us, its other paths will
-        # do exactly the same, and trying them just multiplies the timeout.
+        html, status = _http_get(url, timeout=timeout, impersonate=impersonate)
+        if status == "blocked":
+            blocked = True
+            continue
         if status == "notfound":
-            queue.extend(v for v in variants[1:] if v not in tried)
+            notfound = True
+            break               # a 404 is the same for both clients
+        if status != "ok" or not html:
+            continue
+        found = consider(html)
+        if found:
+            if impersonate:
+                print(f"    recovered via curl_cffi: {url}")
+            return found
 
     # The feed usually carried the article with it; free, and no third party.
     feed_text = (feed_content or "").strip()
@@ -1255,6 +1223,23 @@ def load_items(path: str):
     return None, None
 
 
+def strip_feed_content(items: list) -> int:
+    """Remove every trace of feed_content.
+
+    feed_content is scratch space: update_news.py writes it, this script is the
+    only consumer, and once a summary exists there is nothing left to read it
+    for. Anything still carrying the field by the end of a run either got its
+    summary from somewhere else or couldn't be summarized from the feed copy at
+    all — in both cases keeping up to FEED_CONTENT_MAX_CHARS per item in a
+    committed file buys nothing.
+    """
+    dropped = 0
+    for it in items:
+        if isinstance(it, dict) and it.pop("feed_content", None) is not None:
+            dropped += 1
+    return dropped
+
+
 def save_items(path: str, items: list, wrapper: dict | None) -> None:
     """Always written indented — the archive is diffed and committed by CI, and
     a single-line 19 MB file makes every run look like one enormous change."""
@@ -1323,9 +1308,62 @@ def main(argv=None) -> int:
     time_cut_off = False
     ok = blocked_n = failed = 0
     attempted = 0
+
+    # ---- Pass 1: feed-first hosts -------------------------------------------
+    feed_first = [it for it in pending
+                  if is_feed_first_host(it.get("url", ""))
+                  and (it.get("feed_content") or "").strip()]
+    if feed_first:
+        print(f"\nFeed-first pass: {len(feed_first)} item(s) on "
+              f"{', '.join(FEED_FIRST_HOSTS)} (not counted against MAX_ITEMS)")
+        ff_ok = ff_failed = 0
+        pending_save = 0
+        for idx, it in enumerate(feed_first, 1):
+            if TIME_BUDGET_SECONDS > 0:
+                elapsed = time.monotonic() - start_time
+                if elapsed > TIME_BUDGET_SECONDS * TIME_BUDGET_STOP_RATIO:
+                    print(f"  time budget reached ({elapsed:.0f}s), "
+                          f"{len(feed_first) - idx + 1} item(s) stay pending.")
+                    time_cut_off = True
+                    break
+            content = (it.get("feed_content") or "").strip()
+            source_type = "body" if len(content) >= MIN_USABLE_BODY else "meta"
+            print(f"  [{idx}/{len(feed_first)}] "
+                  f"({it.get('published_at') or 'no date'}) {it.get('title', '')[:60]}")
+            print(f"      {it['url']}")
+            try:
+                summary = build_summary(content, source_type)
+            except Exception as e:
+                print(f"      summarize failed: {e}")
+                ff_failed += 1
+                continue
+            if not summary:
+                print("      empty after boilerplate removal, skipped")
+                ff_failed += 1
+                continue
+            it["summary"] = summary
+            it.pop("feed_content", None)
+            ff_ok += 1
+            pending_save += 1
+            print(f"      ok (feed, {len(content)} chars)")
+            if pending_save >= FEED_FIRST_SAVE_EVERY:
+                save_items(ITEMS_FILE, items, wrapper)
+                pending_save = 0
+        if pending_save:
+            save_items(ITEMS_FILE, items, wrapper)
+        ok += ff_ok
+        failed += ff_failed
+        print(f"Feed-first pass done: ok={ff_ok}, failed={ff_failed}\n")
+
+    # ---- Pass 2: everything else, one page fetch at a time ------------------
+    pending = [it for it in pending if not it.get("summary")]
     for it in pending:
+        if is_feed_first_host(it.get("url", "")):
+            continue
         if attempted >= MAX_ITEMS:
             print(f"Reached MAX_ITEMS={MAX_ITEMS}, stopping.")
+            break
+        if time_cut_off:
             break
         if TIME_BUDGET_SECONDS > 0:
             elapsed = time.monotonic() - start_time
@@ -1377,7 +1415,7 @@ def main(argv=None) -> int:
             it["summary"] = summary
             it.pop("feed_content", None)
             ok += 1
-            print(f"    ok (subtitle, {len(it['summary'])} chars)")
+            print(f"    ok (subtitle, {len(text)} chars)")
             save_items(ITEMS_FILE, items, wrapper)
             time.sleep(SLEEP_BETWEEN_ITEMS)
             continue
@@ -1408,7 +1446,7 @@ def main(argv=None) -> int:
                     it["summary"] = summary
                     it.pop("feed_content", None)
                     ok += 1
-                    print(f"    ok ({source_type}, {len(summary)} chars)")
+                    print(f"    ok ({source_type}, {len(content)} chars)")
                 else:
                     translated = translate_to_zhtw(title)
                     if translated:
@@ -1427,12 +1465,6 @@ def main(argv=None) -> int:
                 it["summary"] = _to_twp(translated) + " " + FALLBACK_MARK
                 it.pop("feed_content", None)
             continue
-
-        if "vocus.cc" in url:
-            # Left as-is on purpose: url_variants() tries both the @author and
-            # the /article/ form, so rewriting here would only throw away the
-            # address that might be the working one.
-            pass
 
         attempted += 1
         print(f"[{attempted}/{min(len(pending), MAX_ITEMS)}] "
@@ -1470,7 +1502,7 @@ def main(argv=None) -> int:
         it.pop("feed_content", None)
 
         ok += 1
-        print(f"    ok ({source_type}, {len(it['summary'])} chars)")
+        print(f"    ok ({source_type}, {len(content)} chars)")
         save_items(ITEMS_FILE, items, wrapper)
         time.sleep(SLEEP_BETWEEN_ITEMS)
 
@@ -1479,8 +1511,18 @@ def main(argv=None) -> int:
 
     newly_scored = score_corpus_novelty(items)
     if newly_scored:
-        save_items(ITEMS_FILE, items, wrapper)
         print(f"Scored novelty for {newly_scored} new item(s); existing scores kept.")
+
+    dropped = strip_feed_content(items)
+    if dropped:
+        print(f"Dropped feed_content from {dropped} item(s) (scratch data).")
+
+    save_items(ITEMS_FILE, items, wrapper)
+
+    leftover = sum(1 for it in items if isinstance(it, dict) and "feed_content" in it)
+    if leftover:
+        print(f"WARNING: {leftover} item(s) still carry feed_content after strip.")
+        return 1
     return 0
 
 
