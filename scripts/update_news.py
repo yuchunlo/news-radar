@@ -47,7 +47,14 @@ FEED_MAX_WORKERS = 32         # [tune] concurrent feed fetches
 # Feed entries usually carry the article body (or a long excerpt) in
 # <content:encoded> / <description>. Keeping a capped copy on new items lets
 # summarize_feed.py fall back to it when the page itself can't be fetched.
-FEED_CONTENT_MAX_CHARS = 6000  # [tune] 0 disables capturing feed content
+FEED_CONTENT_MAX_CHARS = 60000  # [tune] 0 disables capturing feed content
+FEED_CONTENT_SKIP_HOSTS: tuple[str, ...] = (
+    "youtube.com",
+    "youtu.be",
+    "soundon.fm",
+    "firstory.me",
+    "xiaoyuzhoufm.com",
+)
 
 RSS_FEED_REPLACEMENTS: dict[str, str] = {
     "https://rsshub.app/infoq/recommend": "https://www.infoq.cn/feed",
@@ -156,6 +163,30 @@ def host_of_url(raw_url: str) -> str:
         return urlparse(raw_url).netloc.lower()
     except Exception:
         return ""
+
+
+def host_matches(host: str, suffixes: tuple[str, ...]) -> bool:
+    return any(host == s or host.endswith("." + s) for s in suffixes)
+
+
+VOCUS_AUTHOR_RE = re.compile(
+    r"^(https?://(?:www\.)?vocus\.cc)/@[^/]+/([0-9A-Za-z]+)(.*)$"
+)
+
+
+def canonical_url(raw_url: str) -> str:
+    """Host-specific canonical form, on top of normalize_url's tracking-param
+    stripping.
+
+    vocus.cc: the third-party bridges these feeds come from hand out
+    `/@author/<id>` links, while `/article/<id>` is the address that serves the
+    page. Convert on the way in.
+    """
+    url = normalize_url(raw_url)
+    m = VOCUS_AUTHOR_RE.match(url)
+    if m:
+        return f"{m.group(1)}/article/{m.group(2)}{m.group(3)}"
+    return url
 
 
 def first_non_empty(*values: Any) -> str:
@@ -475,7 +506,7 @@ def html_to_text(raw: str) -> str:
     return text.strip()
 
 
-def feed_entry_content(entry: Any) -> str:
+def feed_entry_content(entry: Any, link: str = "") -> str:
     """The longest body-ish payload a feed entry offers, as capped plain text.
 
     Many feeds (especially the third-party bridges in this OPML) ship the whole
@@ -484,6 +515,8 @@ def feed_entry_content(entry: Any) -> str:
     summarized instead of staying pending forever.
     """
     if FEED_CONTENT_MAX_CHARS <= 0:
+        return ""
+    if host_matches(host_of_url(link), FEED_CONTENT_SKIP_HOSTS):
         return ""
     candidates: list[str] = []
     try:
@@ -622,7 +655,7 @@ def fetch_opml_rss(
                         url=link,
                         published_at=published,
                         meta=dict(base_meta),
-                        content=feed_entry_content(entry),
+                        content=feed_entry_content(entry, link),
                     )
                 )
             return local_items
@@ -641,7 +674,12 @@ def fetch_opml_rss(
                     url=entry.get("link", ""),
                     published_at=published,
                     meta=dict(base_meta),
-                    content=html_to_text(entry.get("description", ""))[:FEED_CONTENT_MAX_CHARS],
+                    content=(
+                        ""
+                        if host_matches(host_of_url(entry.get("link", "")),
+                                        FEED_CONTENT_SKIP_HOSTS)
+                        else html_to_text(entry.get("description", ""))[:FEED_CONTENT_MAX_CHARS]
+                    ),
                 )
             )
         return local_items
@@ -781,6 +819,36 @@ def merge_duplicate_items(items: list[dict[str, Any]]) -> tuple[list[dict[str, A
     return kept, len(dropped)
 
 
+def migrate_record_urls(records: list[dict[str, Any]]) -> int:
+    """Re-canonicalise urls already in the archive, and re-key the records whose
+    url changed.
+
+    Without this, changing canonical_url would fork every affected item: the
+    next run stores the new address under a new id hash and the old record just
+    sits there until it ages out. Re-keying instead makes the two collapse into
+    one during merge_duplicate_items. The id is only recomputed when the url
+    actually changed, so subtitle files named after an item id (see
+    download_sub.py) keep matching.
+    """
+    changed = 0
+    for record in records:
+        old_url = str(record.get("url") or "")
+        if not old_url:
+            continue
+        new_url = canonical_url(old_url)
+        if new_url == old_url:
+            continue
+        record["url"] = new_url
+        record["id"] = make_item_id(
+            str(record.get("site_id") or ""),
+            str(record.get("source") or ""),
+            str(record.get("title") or "").strip(),
+            new_url,
+        )
+        changed += 1
+    return changed
+
+
 def load_archive(path: Path) -> dict[str, dict[str, Any]]:
     if not path.exists():
         return {}
@@ -797,6 +865,10 @@ def load_archive(path: Path) -> dict[str, dict[str, Any]]:
             if isinstance(it, dict):
                 it["id"] = item_id
                 records.append(it)
+
+    migrated = migrate_record_urls(records)
+    if migrated:
+        print(f"Re-canonicalised {migrated} stored url(s).")
 
     records, merged = merge_duplicate_items(records)
     if merged:
@@ -847,7 +919,7 @@ def main(argv=None) -> int:
 
     for raw in raw_items:
         title = raw.title.strip()
-        url = normalize_url(raw.url)
+        url = canonical_url(raw.url)
         if not title or not url or not url.startswith("http"):
             continue
         item_id = make_item_id(raw.site_id, raw.source, title, url)
