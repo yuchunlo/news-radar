@@ -81074,7 +81074,8 @@
       "novelty": 0.0,
       "unique_facts": 0,
       "duplicate_of": null,
-      "value_adjusted": 0.0
+      "value_adjusted": 0.0,
+      "summary": " "
     },
     {
       "id": "c589bc5f29146145cd8ec91c7dadce109e7dbc7b",
@@ -81092,7 +81093,8 @@
       "novelty": 0.0,
       "unique_facts": 0,
       "duplicate_of": null,
-      "value_adjusted": 0.0
+      "value_adjusted": 0.0,
+      "summary": " "
     },
     {
       "id": "9d144ac730054cfeb90bf8f9eda320f6126da609",
@@ -81292,7 +81294,8 @@
       "novelty": 0.0,
       "unique_facts": 0,
       "duplicate_of": null,
-      "value_adjusted": 0.0
+      "value_adjusted": 0.0,
+      "summary": " "
     },
     {
       "id": "7d865fdc0340967c7ca437d21eabb94d1e271e7c",
