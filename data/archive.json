@@ -97991,7 +97991,8 @@
       "novelty": 0.0,
       "unique_facts": 0,
       "duplicate_of": null,
-      "value_adjusted": 0.0
+      "value_adjusted": 0.0,
+      "summary": " "
     },
     {
       "id": "675e7d9afedfdbd918a4eba24025c0413cea66c1",
