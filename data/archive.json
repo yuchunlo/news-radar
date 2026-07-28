@@ -81835,7 +81835,8 @@
       "novelty": 0.0,
       "unique_facts": 0,
       "duplicate_of": null,
-      "value_adjusted": 0.0
+      "value_adjusted": 0.0,
+      "summary": " "
     },
     {
       "id": "407f73b9a359783d11ab9042e5bf4316ebf4c661",
