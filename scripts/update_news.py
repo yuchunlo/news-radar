@@ -5,11 +5,13 @@ from __future__ import annotations
 
 import argparse
 import hashlib
+import html as html_mod
 import json
 import re
+import threading
 import xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
@@ -35,6 +37,17 @@ BROWSER_UA = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
     "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
 )
+
+# ---- Feed fetching tuning ---------------------------------------------------
+# Split timeouts: a host that never completes the TCP/TLS handshake is dead and
+# there is no point waiting the full read timeout for it.
+FEED_CONNECT_TIMEOUT = 5      # [tune] seconds to establish the connection
+FEED_READ_TIMEOUT = 12        # [tune] seconds to receive the feed body
+FEED_MAX_WORKERS = 32         # [tune] concurrent feed fetches
+# Feed entries usually carry the article body (or a long excerpt) in
+# <content:encoded> / <description>. Keeping a capped copy on new items lets
+# summarize_feed.py fall back to it when the page itself can't be fetched.
+FEED_CONTENT_MAX_CHARS = 6000  # [tune] 0 disables capturing feed content
 
 RSS_FEED_REPLACEMENTS: dict[str, str] = {
     "https://rsshub.app/infoq/recommend": "https://www.infoq.cn/feed",
@@ -76,6 +89,7 @@ class RawItem:
     url: str
     published_at: datetime | None
     meta: dict[str, Any]
+    content: str = field(default="")
 
 
 @dataclass
@@ -400,16 +414,114 @@ def parse_jike_public_items(
 
 
 def build_http_session() -> requests.Session:
+    """A session tuned for "fetch a few hundred feeds once, quickly".
+
+    The retry policy is deliberately minimal. The previous
+    ``Retry(total=2, backoff_factor=0.5, status_forcelist=(500, 502, 503, 504))``
+    multiplied the cost of every *unhealthy* feed by three full read timeouts
+    plus backoff, and because the run finishes only when the slowest worker
+    does, those feeds set the wall-clock time for the whole step. Feeds are
+    re-fetched on the next scheduled run anyway, so a feed that is down right
+    now gains nothing from being asked three times in a row.
+
+    ``connect`` retries are kept (a refused connection or a DNS blip fails in
+    milliseconds, so retrying it is nearly free) while ``read=False`` makes a
+    read timeout surface immediately instead of being retried.
+    """
     session = requests.Session()
     retry = Retry(
-        total=2,
-        backoff_factor=0.5,
-        status_forcelist=(500, 502, 503, 504),
+        total=1,
+        connect=1,
+        read=False,
+        status=0,
+        backoff_factor=0.2,
         allowed_methods=frozenset(["GET"]),
+        respect_retry_after_header=False,
     )
-    adapter = HTTPAdapter(max_retries=retry, pool_connections=20, pool_maxsize=20)
+    adapter = HTTPAdapter(
+        max_retries=retry,
+        pool_connections=FEED_MAX_WORKERS,
+        pool_maxsize=FEED_MAX_WORKERS,
+    )
     session.mount("http://", adapter)
     session.mount("https://", adapter)
+    session.headers.update({
+        "User-Agent": BROWSER_UA,
+        "Accept": "application/rss+xml, application/atom+xml, application/xml, text/xml, text/html;q=0.9, */*;q=0.8",
+        "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+        "Accept-Encoding": "gzip, deflate",
+    })
+    return session
+
+
+FEED_CONTENT_DROP_RE = re.compile(r"<(script|style)\b[^>]*>.*?</\1\s*>", re.S | re.I)
+FEED_CONTENT_BREAK_RE = re.compile(
+    r"</(?:p|div|li|tr|h[1-6]|blockquote|section)\s*>|<br\s*/?>", re.I
+)
+FEED_CONTENT_TAG_RE = re.compile(r"<[^>]+>")
+
+
+def html_to_text(raw: str) -> str:
+    """Flatten feed markup into plain text, keeping block boundaries as
+    newlines so the summarizer can still split it into sentences."""
+    if not raw:
+        return ""
+    text = FEED_CONTENT_DROP_RE.sub(" ", raw)
+    text = FEED_CONTENT_BREAK_RE.sub("\n", text)
+    text = FEED_CONTENT_TAG_RE.sub("", text)
+    text = html_mod.unescape(text)
+    text = re.sub(r"[ \t\u00a0]+", " ", text)
+    text = re.sub(r"\n\s*\n+", "\n", text)
+    return text.strip()
+
+
+def feed_entry_content(entry: Any) -> str:
+    """The longest body-ish payload a feed entry offers, as capped plain text.
+
+    Many feeds (especially the third-party bridges in this OPML) ship the whole
+    article in <content:encoded>. Keeping it means a page that later refuses to
+    be fetched — paywall, anti-bot, 404 after deletion — can still be
+    summarized instead of staying pending forever.
+    """
+    if FEED_CONTENT_MAX_CHARS <= 0:
+        return ""
+    candidates: list[str] = []
+    try:
+        for block in (entry.get("content") or []):
+            if isinstance(block, dict):
+                candidates.append(str(block.get("value") or ""))
+    except Exception:
+        pass
+    for key in ("summary", "description", "subtitle"):
+        try:
+            value = entry.get(key)
+        except Exception:
+            value = None
+        if value:
+            candidates.append(str(value))
+    if not candidates:
+        return ""
+    text = html_to_text(max(candidates, key=len))
+    return text[:FEED_CONTENT_MAX_CHARS]
+
+
+_thread_state = threading.local()
+
+
+def thread_session() -> requests.Session:
+    """One session per worker thread.
+
+    A single shared session works, but its connection pool is a process-wide
+    structure that all workers contend on, and with ~200 distinct feed hosts
+    the per-host pool cache is evicted constantly, so keep-alive rarely pays
+    off. A session per thread keeps its own pools, so a worker that handles
+    several feeds from the same host (115 of these feeds are YouTube) reuses
+    the connection it already has.
+    """
+    session = getattr(_thread_state, "session", None)
+    if session is None:
+        session = build_http_session()
+        _thread_state.session = session
     return session
 
 
@@ -444,99 +556,109 @@ def fetch_opml_rss(
         record["xml_url"] = resolved_url
         resolved_feeds.append(record)
 
-    session = build_http_session()
+    # Several OPML entries can resolve to the same feed (the RSS_FEED_REPLACEMENTS
+    # table maps both sspai/index and sspai/matrix to sspai.com/feed, for
+    # instance). Fetch each distinct URL once and hand the same response to
+    # every OPML entry that wanted it.
+    fetch_groups: dict[str, list[dict[str, str]]] = {}
+    for record in resolved_feeds:
+        fetch_groups.setdefault(record["xml_url"], []).append(record)
 
-    def fetch_single_feed(feed: dict[str, str]) -> FeedFetchResult:
+    def parse_for_feed(feed: dict[str, str], resp: requests.Response) -> list[RawItem]:
+        """Turn one fetched response into RawItems for one OPML entry."""
         feed_url = feed["xml_url"]
         feed_title = feed["title"]
         feed_category = str(feed.get("category") or "opmlrss").strip() or "opmlrss"
+        base_meta = {
+            "feed_url": feed_url,
+            "feed_home": feed.get("html_url") or "",
+            "opml_category": feed_category,
+        }
+        bridge_type = str(feed.get("bridge_type") or "")
+
+        if bridge_type == "telegram":
+            return parse_telegram_public_items(
+                resp.text,
+                now=now,
+                source_name=feed_title,
+                slug=str(feed.get("bridge_slug") or ""),
+                site_id=feed_category,
+            )
+        if bridge_type == "jike":
+            return parse_jike_public_items(
+                resp.text,
+                now=now,
+                source_name=feed_title,
+                source_url=feed_url,
+                site_id=feed_category,
+            )
+
         local_items: list[RawItem] = []
+        if feedparser is not None:
+            parsed = feedparser.parse(resp.content)
+            source_name = first_non_empty(
+                feed_title,
+                getattr(parsed, "feed", {}).get("title"),
+                host_of_url(feed_url),
+            )
+            for entry in parsed.entries:
+                title = str(entry.get("title", "")).strip()
+                link = str(entry.get("link", "")).strip()
+                if not title or not link:
+                    continue
+                published = (
+                    parse_date_any(entry.get("published"), now)
+                    or parse_date_any(entry.get("updated"), now)
+                    or parse_date_any(entry.get("pubDate"), now)
+                )
+                if not published:
+                    continue
+                local_items.append(
+                    RawItem(
+                        site_id=feed_category,
+                        site_name="OPML RSS",
+                        source=source_name,
+                        title=title,
+                        url=link,
+                        published_at=published,
+                        meta=dict(base_meta),
+                        content=feed_entry_content(entry),
+                    )
+                )
+            return local_items
+
+        source_name = first_non_empty(feed_title, host_of_url(feed_url))
+        for entry in parse_feed_entries_via_xml(resp.content):
+            published = parse_date_any(entry.get("published"), now)
+            if not published:
+                continue
+            local_items.append(
+                RawItem(
+                    site_id=feed_category,
+                    site_name="OPML RSS",
+                    source=source_name,
+                    title=entry.get("title", ""),
+                    url=entry.get("link", ""),
+                    published_at=published,
+                    meta=dict(base_meta),
+                    content=html_to_text(entry.get("description", ""))[:FEED_CONTENT_MAX_CHARS],
+                )
+            )
+        return local_items
+
+    def fetch_single_url(feed_url: str, group: list[dict[str, str]]) -> FeedFetchResult:
+        feed_title = group[0]["title"]
         try:
-            headers = {
-                "User-Agent": BROWSER_UA,
-                "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
-            }
-
-            resp = session.get(feed_url, timeout=12, headers=headers)
+            resp = thread_session().get(
+                feed_url, timeout=(FEED_CONNECT_TIMEOUT, FEED_READ_TIMEOUT)
+            )
             resp.raise_for_status()
-
-            bridge_type = str(feed.get("bridge_type") or "")
-            if bridge_type == "telegram":
-                local_items = parse_telegram_public_items(
-                    resp.text,
-                    now=now,
-                    source_name=feed_title,
-                    slug=str(feed.get("bridge_slug") or ""),
-                    site_id=feed_category,
-                )
-            elif bridge_type == "jike":
-                local_items = parse_jike_public_items(
-                    resp.text,
-                    now=now,
-                    source_name=feed_title,
-                    source_url=feed_url,
-                    site_id=feed_category,
-                )
-            elif feedparser is not None:
-                parsed = feedparser.parse(resp.content)
-                source_name = first_non_empty(
-                    feed_title,
-                    getattr(parsed, "feed", {}).get("title"),
-                    host_of_url(feed_url),
-                )
-                for entry in parsed.entries:
-                    title = str(entry.get("title", "")).strip()
-                    link = str(entry.get("link", "")).strip()
-                    if not title or not link:
-                        continue
-                    published = (
-                        parse_date_any(entry.get("published"), now)
-                        or parse_date_any(entry.get("updated"), now)
-                        or parse_date_any(entry.get("pubDate"), now)
-                    )
-                    if not published:
-                        continue
-                    local_items.append(
-                        RawItem(
-                            site_id=feed_category,
-                            site_name="OPML RSS",
-                            source=source_name,
-                            title=title,
-                            url=link,
-                            published_at=published,
-                            meta={
-                                "feed_url": feed_url,
-                                "feed_home": feed.get("html_url") or "",
-                                "opml_category": feed_category,
-                            },
-                        )
-                    )
-            else:
-                source_name = first_non_empty(feed_title, host_of_url(feed_url))
-                for entry in parse_feed_entries_via_xml(resp.content):
-                    published = parse_date_any(entry.get("published"), now)
-                    if not published:
-                        continue
-                    link = entry.get("link", "")
-                    local_items.append(
-                        RawItem(
-                            site_id=feed_category,
-                            site_name="OPML RSS",
-                            source=source_name,
-                            title=entry.get("title", ""),
-                            url=link,
-                            published_at=published,
-                            meta={
-                                "feed_url": feed_url,
-                                "feed_home": feed.get("html_url") or "",
-                                "opml_category": feed_category,
-                            },
-                        )
-                    )
-
+            items: list[RawItem] = []
+            for feed in group:
+                items.extend(parse_for_feed(feed, resp))
+            resp.close()
             return FeedFetchResult(
-                feed_title=feed_title, feed_url=feed_url,
-                items=local_items, error=None,
+                feed_title=feed_title, feed_url=feed_url, items=items, error=None,
             )
         except Exception as e:
             return FeedFetchResult(
@@ -544,12 +666,14 @@ def fetch_opml_rss(
                 items=[], error=f"{type(e).__name__}: {e}",
             )
 
-
     fetch_errors: list[tuple[str, str, str]] = []
-    if resolved_feeds:
-        worker_count = min(20, max(4, len(resolved_feeds)))
+    if fetch_groups:
+        worker_count = min(FEED_MAX_WORKERS, max(4, len(fetch_groups)))
         with ThreadPoolExecutor(max_workers=worker_count) as executor:
-            futures = [executor.submit(fetch_single_feed, f) for f in resolved_feeds]
+            futures = [
+                executor.submit(fetch_single_url, url, group)
+                for url, group in fetch_groups.items()
+            ]
             for future in as_completed(futures):
                 result = future.result()
                 out.extend(result.items)
@@ -564,6 +688,99 @@ def fetch_opml_rss(
     return out, fetch_errors
 
 
+# ---------------------------------------------------------------- Duplicate merging
+
+# Two records describing the same post can end up with different ids, because
+# the id is a hash that includes the title and feeds do edit titles after
+# publishing (adding or dropping punctuation, fixing a typo). Anything that
+# agrees on all three of these fields is the same post.
+DEDUPE_KEY_FIELDS: tuple[str, ...] = ("published_at", "source", "url")
+
+# Identity fields, plus fields whose own merge rule is handled explicitly.
+MERGE_HANDLED_FIELDS = frozenset(
+    DEDUPE_KEY_FIELDS + ("id", "star", "summary", "first_seen_at", "last_seen_at")
+)
+
+FALLBACK_MARK = "↛"
+
+
+def is_blank(value: Any) -> bool:
+    """True for "no value here": missing, None, empty string or empty
+    container. 0 and False are real values and are not blank."""
+    if value is None:
+        return True
+    if isinstance(value, str):
+        return not value.strip()
+    if isinstance(value, (list, dict, tuple, set)):
+        return not value
+    return False
+
+
+def better_summary(current: str | None, other: str | None) -> str | None:
+    """Prefer a real summary over a fallback-marked one (blocked page, meta
+    description only); between two of the same kind, prefer the longer."""
+    if is_blank(current):
+        return other
+    if is_blank(other):
+        return current
+    cur_fallback = FALLBACK_MARK in current
+    oth_fallback = FALLBACK_MARK in other
+    if cur_fallback != oth_fallback:
+        return other if cur_fallback else current
+    return other if len(other) > len(current) else current
+
+
+def absorb_item(keeper: dict[str, Any], other: dict[str, Any]) -> None:
+    """Fold `other`'s values into `keeper` without overwriting anything
+    `keeper` already knows (thumbnail, summary, scores, ...)."""
+    keeper["star"] = bool(keeper.get("star")) or bool(other.get("star"))
+    merged_summary = better_summary(keeper.get("summary"), other.get("summary"))
+    if not is_blank(merged_summary):
+        keeper["summary"] = merged_summary
+    for field_name, pick in (("first_seen_at", min), ("last_seen_at", max)):
+        values = [v for v in (keeper.get(field_name), other.get(field_name)) if v]
+        if values:
+            keeper[field_name] = pick(values)
+    for key, value in other.items():
+        if key in MERGE_HANDLED_FIELDS:
+            continue
+        if is_blank(keeper.get(key)) and not is_blank(value):
+            keeper[key] = value
+
+
+def merge_duplicate_items(items: list[dict[str, Any]]) -> tuple[list[dict[str, Any]], int]:
+    """Collapse records that agree on every DEDUPE_KEY_FIELDS value.
+
+    The surviving record is the one that came first in the file — the archive is
+    written newest-`last_seen_at`-first, so that is the most recently seen copy
+    — and the others are folded into it before being dropped. Records with an
+    incomplete key are never merged, only compared records can be.
+    """
+    groups: dict[tuple, list[int]] = {}
+    for idx, item in enumerate(items):
+        if not isinstance(item, dict):
+            continue
+        key = tuple(item.get(f) for f in DEDUPE_KEY_FIELDS)
+        if any(is_blank(part) for part in key):
+            continue
+        groups.setdefault(key, []).append(idx)
+
+    dropped: set[int] = set()
+    for _key, idxs in groups.items():
+        if len(idxs) < 2:
+            continue
+        idxs_sorted = sorted(idxs)
+        keeper = items[idxs_sorted[0]]
+        for idx in idxs_sorted[1:]:
+            absorb_item(keeper, items[idx])
+            dropped.add(idx)
+
+    if not dropped:
+        return items, 0
+    kept = [item for idx, item in enumerate(items) if idx not in dropped]
+    return kept, len(dropped)
+
+
 def load_archive(path: Path) -> dict[str, dict[str, Any]]:
     if not path.exists():
         return {}
@@ -572,16 +789,24 @@ def load_archive(path: Path) -> dict[str, dict[str, Any]]:
     except Exception:
         return {}
     items = payload.get("items", [])
-    out: dict[str, dict[str, Any]] = {}
+    records: list[dict[str, Any]] = []
     if isinstance(items, list):
-        for it in items:
-            if it.get("id"):
-                out[it["id"]] = it
+        records = [it for it in items if isinstance(it, dict)]
     elif isinstance(items, dict):
         for item_id, it in items.items():
             if isinstance(it, dict):
                 it["id"] = item_id
-                out[item_id] = it
+                records.append(it)
+
+    records, merged = merge_duplicate_items(records)
+    if merged:
+        print(f"Merged {merged} duplicate item(s) by "
+              f"{' + '.join(DEDUPE_KEY_FIELDS)}.")
+
+    out: dict[str, dict[str, Any]] = {}
+    for it in records:
+        if it.get("id"):
+            out[it["id"]] = it
     return out
 
 
@@ -591,6 +816,11 @@ def main(argv=None) -> int:
     parser.add_argument("--archive-days", type=int, default=210, help="Keep archive for N days")
     parser.add_argument("--rss-opml", default="", help="Optional OPML file path to include RSS sources")
     parser.add_argument("--rss-max-feeds", type=int, default=0, help="Optional max OPML RSS feeds to fetch (0 means all)")
+    parser.add_argument(
+        "--feed-content-preview", type=int, default=200,
+        help="Chars of each captured feed body to print in the end-of-run "
+             "report (0 = don't print the report, -1 = print it in full)",
+    )
     args = parser.parse_args(argv)
 
     now = utc_now()
@@ -613,6 +843,8 @@ def main(argv=None) -> int:
     else:
         print("WARNING: no --rss-opml provided; nothing to fetch.")
 
+    captured_feed_content: list[tuple[str, str]] = []
+
     for raw in raw_items:
         title = raw.title.strip()
         url = normalize_url(raw.url)
@@ -633,8 +865,18 @@ def main(argv=None) -> int:
                 "last_seen_at": iso(now),
                 "star": False,
             }
+            if raw.content:
+                new_item["feed_content"] = raw.content
+                captured_feed_content.append((url, raw.content))
             archive[item_id] = new_item
         else:
+            # Keep the feed's own copy of the body only while it is still
+            # useful, i.e. until the item has a summary.
+            if existing.get("summary"):
+                existing.pop("feed_content", None)
+            elif raw.content and not existing.get("feed_content"):
+                existing["feed_content"] = raw.content
+                captured_feed_content.append((url, raw.content))
             existing["site_id"] = raw.site_id
             existing["site_name"] = raw.site_name
             existing["source"] = raw.source
@@ -654,6 +896,8 @@ def main(argv=None) -> int:
               or parse_iso(record.get("published_at"))
               or parse_iso(record.get("first_seen_at")) or now)
         if ts >= keep_after:
+            if record.get("summary"):
+                record.pop("feed_content", None)
             pruned[item_id] = record
     archive = pruned
 
@@ -666,11 +910,26 @@ def main(argv=None) -> int:
             reverse=True,
         ),
     }
+    # Indented, to match what summarize_feed.py writes back to the same file:
+    # if the two disagreed, every run would rewrite the whole file in the other
+    # format and produce a full-file diff.
     archive_path.write_text(
-        json.dumps(archive_payload, ensure_ascii=False, separators=(",", ":")),
+        json.dumps(archive_payload, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
     print(f"Wrote: {archive_path} ({len(archive)} items, fetched {len(raw_items)} raw)")
+
+    # Reported here rather than inside the ingest loop, so the loop's own
+    # output stays a clean one-line-per-feed log and the bodies are all in one
+    # block at the end.
+    if captured_feed_content and args.feed_content_preview != 0:
+        preview = args.feed_content_preview
+        print(f"\nFeed content captured for {len(captured_feed_content)} item(s):")
+        for url, content in captured_feed_content:
+            flat = re.sub(r"\s+", " ", content).strip()
+            if preview > 0 and len(flat) > preview:
+                flat = flat[:preview] + f"… (+{len(content) - preview} chars)"
+            print(f"  {url}\n    {flat}")
     return 0
 
 
