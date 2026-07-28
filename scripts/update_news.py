@@ -5,6 +5,8 @@ from __future__ import annotations
 
 import argparse
 import hashlib
+import os
+import tempfile
 import html as html_mod
 import json
 import re
@@ -849,13 +851,36 @@ def migrate_record_urls(records: list[dict[str, Any]]) -> int:
     return changed
 
 
+def write_json_atomic(path: Path, payload: Any) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    text = json.dumps(payload, ensure_ascii=False, indent=2) + "\n"
+    fd, tmp_name = tempfile.mkstemp(dir=str(path.parent), prefix=path.name + ".", suffix=".tmp")
+    tmp = Path(tmp_name)
+    try:
+        with os.fdopen(fd, "w", encoding="utf-8") as f:
+            f.write(text)
+            f.flush()
+            os.fsync(f.fileno())
+        os.replace(tmp, path)
+    except Exception:
+        tmp.unlink(missing_ok=True)
+        raise
+
+
 def load_archive(path: Path) -> dict[str, dict[str, Any]]:
     if not path.exists():
         return {}
+    raw = path.read_text(encoding="utf-8")
     try:
-        payload = json.loads(path.read_text(encoding="utf-8"))
-    except Exception:
-        return {}
+        payload = json.loads(raw)
+    except Exception as e:
+        raise SystemExit(
+            f"ERROR: {path} exists but is not valid JSON ({e}).\n"
+            f"       Size on disk: {len(raw)} chars. Refusing to continue, "
+            f"because writing now would discard the whole archive.\n"
+            f"       Restore it (`git checkout -- {path}`) or delete it "
+            f"deliberately to start over."
+        )
     items = payload.get("items", [])
     records: list[dict[str, Any]] = []
     if isinstance(items, list):
@@ -985,10 +1010,7 @@ def main(argv=None) -> int:
     # Indented, to match what summarize_feed.py writes back to the same file:
     # if the two disagreed, every run would rewrite the whole file in the other
     # format and produce a full-file diff.
-    archive_path.write_text(
-        json.dumps(archive_payload, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
-    )
+    write_json_atomic(archive_path, archive_payload)
     print(f"Wrote: {archive_path} ({len(archive)} items, fetched {len(raw_items)} raw)")
 
     # Reported here rather than inside the ingest loop, so the loop's own
