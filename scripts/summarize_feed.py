@@ -4,6 +4,7 @@ import glob
 import json
 import math
 import os
+import tempfile
 import re
 import sys
 import time
@@ -1241,16 +1242,28 @@ def strip_feed_content(items: list) -> int:
 
 
 def save_items(path: str, items: list, wrapper: dict | None) -> None:
-    """Always written indented — the archive is diffed and committed by CI, and
-    a single-line 19 MB file makes every run look like one enormous change."""
-    with open(path, "w", encoding="utf-8") as f:
-        if wrapper is not None:
-            wrapper["items"] = items
-            wrapper["total_items"] = len(items)
-            json.dump(wrapper, f, ensure_ascii=False, indent=2)
-        else:
-            json.dump(items, f, ensure_ascii=False, indent=2)
-        f.write("\n")
+    if wrapper is not None:
+        wrapper["items"] = items
+        wrapper["total_items"] = len(items)
+        payload = wrapper
+    else:
+        payload = items
+    text = json.dumps(payload, ensure_ascii=False, indent=2) + "\n"
+    directory = os.path.dirname(os.path.abspath(path)) or "."
+    fd, tmp = tempfile.mkstemp(dir=directory,
+                               prefix=os.path.basename(path) + ".", suffix=".tmp")
+    try:
+        with os.fdopen(fd, "w", encoding="utf-8") as f:
+            f.write(text)
+            f.flush()
+            os.fsync(f.fileno())
+        os.replace(tmp, path)
+    except Exception:
+        try:
+            os.unlink(tmp)
+        except OSError:
+            pass
+        raise
 
 
 def _parse_ts(value) -> float:
