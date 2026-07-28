@@ -43,6 +43,7 @@ NOVELTY_DUP_COVERAGE = 0.7    # [tune] fact-overlap ratio >= this is flagged as 
 
 # ---- Fetching / connection ---------------------------------------------------
 FETCH_TIMEOUT = 30            # [tune] per-request timeout (seconds)
+FETCH_TIMEOUT_SLOW = 60       # [tune] timeout for hosts known to be slow to first byte
 FETCH_RETRIES = 3             # [tune] auto-retry count for transient errors (429/5xx/connection)
 SLEEP_BETWEEN_ITEMS = 1.5     # [tune] polite delay between items (seconds)
 TIME_BUDGET_SECONDS = int(os.environ.get("TIME_BUDGET_SECONDS", "0"))
@@ -58,7 +59,19 @@ FETCH_HEADERS = {
         "image/webp,*/*;q=0.8"
     ),
     "Accept-Language": "zh-TW,zh;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+    # Enterprise CDNs (Akamai in particular) stall or drop requests whose
+    # header set doesn't look like a real navigation, which is what made
+    # www.mckinsey.com time out rather than answer.
     "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "Sec-Fetch-Dest": "document",
+    "Upgrade-Insecure-Requests": "1",
+    "sec-ch-ua": '"Chromium";v="126", "Not:A-Brand";v="24", "Google Chrome";v="126"',
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": '"Windows"',
+    "Connection": "keep-alive",
 }
 try:
     from bs4 import BeautifulSoup
@@ -66,6 +79,40 @@ try:
 except ModuleNotFoundError:
     BeautifulSoup = None
     _HAS_BS4 = False
+
+# curl_cffi ships with the project already (requirements.txt pulls it in via
+# yt-dlp[curl-cffi]). It replays a real Chrome TLS/HTTP2 fingerprint, which is
+# what gets past the fingerprint checks that make plain `requests` hang or get
+# a 403 on some sites.
+try:
+    from curl_cffi import requests as curl_requests
+    _HAS_CURL_CFFI = True
+except Exception:
+    curl_requests = None
+    _HAS_CURL_CFFI = False
+
+CURL_IMPERSONATE = os.environ.get("CURL_IMPERSONATE", "chrome")
+
+# Hosts whose first byte legitimately takes a long time; they get the longer
+# timeout and go straight to the impersonating client.
+SLOW_HOSTS = (
+    "mckinsey.com",
+    "bcg.com",
+    "deloitte.com",
+    "hbr.org",
+)
+
+# Text-extraction proxy and archive mirror, used only after the direct
+# strategies have failed.
+READER_PROXY = os.environ.get("READER_PROXY", "https://r.jina.ai/")
+USE_READER_PROXY = os.environ.get("USE_READER_PROXY", "on").lower() != "off"
+USE_WAYBACK = os.environ.get("USE_WAYBACK", "on").lower() != "off"
+# When a page yields only a meta description, also ask the reader proxy for the
+# real body. Off by default: correct but expensive, since a lot of pages are
+# meta-only and each one becomes an extra third-party request.
+READER_ON_META = os.environ.get("READER_ON_META", "").lower() in ("1", "true", "yes", "on")
+WAYBACK_LOOKUP = "https://archive.org/wayback/available"
+MIN_USABLE_BODY = 200         # [tune] chars below which a body isn't worth keeping
 
 # ---- Boilerplate / non-content removal --------------------------------------
 # Everything from one of these markers to the END of the text is site
@@ -96,6 +143,7 @@ REMOVE_PHRASE_RE = re.compile(
     r"|綜合外媒報導，"
     r"|結果顯示，"
     r"|換言之，"
+    r"|相較之下，"
     r"|更?值得注意的是，"
     r"|事實上，情況比這更糟——"
     r"|（前情提要：[^）]*）"
@@ -114,6 +162,9 @@ FALLBACK_MARK = "↛"
 TABLE_NOTE = "請參閱所附表格 " + FALLBACK_MARK
 TABLE_TAG_RE = re.compile(r"<table[\s>]", re.I)
 BLOCKED_SUMMARY = "無法取得頁面內容（來源網站封鎖自動化存取）" + FALLBACK_MARK
+GONE_SUMMARY = "無法取得頁面內容（原始頁面已移除，且無存檔）" + FALLBACK_MARK
+# Techmeme uses these leads for stories built on its own sourcing.
+TECHMEME_STAR_PREFIXES = ("Source", "Report", "Documents:")
 CHALLENGE_PATTERN = re.compile(
     r"安全验证|安全驗證|验证码|驗證碼|禁止访问|禁止訪問|访问异常|異常流量|异常流量|"
     r"Just a moment|Checking your browser|Verify you are human|"
@@ -461,69 +512,264 @@ def extract_meta_description(html: str) -> str:
     return ""
 
 
-def fetch_content(url: str):
-    """Returns (text, source_type): "body" / "meta" / (None, "blocked") / (None, None)
+BLOCK_STATUS = {401, 403, 407, 418, 429, 451}
 
-    - "body"    : body extraction succeeded
-    - "meta"    : body unavailable, fell back to the meta description
-                  (summary gets the FALLBACK_MARK)
-    - "blocked" : the site permanently blocks automated access (403/418/451,
-                  or an anti-bot challenge page); the caller should write the
-                  FALLBACK_MARK placeholder to avoid retrying every day
-    - None,None : transient failure (timeout, 5xx); left pending to retry next run
 
-    Returns a 3-tuple (text, source_type, has_table). Table contents are
-    deliberately excluded from the extracted body (include_tables=False);
-    has_table just records that the page had one, so build_summary can note
-    that instead of inlining rows of cells.
-    """
-    BLOCK_STATUS = {401, 403, 407, 418, 451}
-    session = get_session()
+def host_of(url: str) -> str:
+    from urllib.parse import urlparse
     try:
-        resp = session.get(url, timeout=FETCH_TIMEOUT)
-        if resp.status_code in BLOCK_STATUS:
-            print(f"    blocked by site (HTTP {resp.status_code})")
-            return None, "blocked", False
-        resp.raise_for_status()
-        if resp.encoding is None or resp.encoding.lower() in ("iso-8859-1", "ascii"):
-            resp.encoding = resp.apparent_encoding
-        html = resp.text
-    except requests.HTTPError as e:
-        code = e.response.status_code if e.response is not None else 0
-        if code in BLOCK_STATUS:
-            print(f"    blocked by site (HTTP {code})")
-            return None, "blocked", False
-        print(f"    fetch failed: HTTP {code}")
-        return None, None, False
-    except Exception as e:
-        print(f"    fetch failed: {e}")
-        return None, None, False
+        return urlparse(url or "").netloc.lower()
+    except Exception:
+        return ""
 
+
+def is_slow_host(url: str) -> bool:
+    host = host_of(url)
+    return any(host == h or host.endswith("." + h) for h in SLOW_HOSTS)
+
+
+def url_variants(url: str) -> list[str]:
+    """Other addresses that serve the same article.
+
+    Vocus is the reason this exists: the feeds in this OPML come from a
+    third-party bridge and hand out `vocus.cc/@author/<id>` links, while the
+    canonical page is `vocus.cc/article/<id>`. Either form can 404 on its own,
+    so both are tried instead of rewriting one into the other and losing the
+    original — which is what produced the "HTTP 404, skipped" runs.
+    """
+    out = [url]
+    m = re.match(r"(https?://(?:www\.)?vocus\.cc)/@[^/]+/([0-9a-zA-Z]+)", url or "")
+    if m:
+        out.append(f"{m.group(1)}/article/{m.group(2)}")
+    m = re.match(r"(https?://(?:www\.)?vocus\.cc)/article/([0-9a-zA-Z]+)", url or "")
+    if m:
+        out.append(f"{m.group(1)}/salon/article/{m.group(2)}")
+    # A trailing-slash variant costs nothing and fixes a surprising number of
+    # strict routers.
+    if url and not url.endswith("/") and "?" not in url and "#" not in url:
+        out.append(url + "/")
+    seen, uniq = set(), []
+    for candidate in out:
+        if candidate and candidate not in seen:
+            seen.add(candidate)
+            uniq.append(candidate)
+    return uniq
+
+
+def _http_get(url: str, *, timeout: int, impersonate: bool = False):
+    """Single GET. Returns (html, status) where status is
+    "ok" / "blocked" / "notfound" / "fail"."""
+    try:
+        if impersonate:
+            if not _HAS_CURL_CFFI:
+                return None, "fail"
+            resp = curl_requests.get(
+                url, timeout=timeout, impersonate=CURL_IMPERSONATE,
+                headers={"Accept-Language": FETCH_HEADERS["Accept-Language"]},
+                allow_redirects=True,
+            )
+            code = resp.status_code
+            html = resp.text
+        else:
+            resp = get_session().get(url, timeout=timeout)
+            code = resp.status_code
+            if code < 400:
+                if resp.encoding is None or resp.encoding.lower() in ("iso-8859-1", "ascii"):
+                    resp.encoding = resp.apparent_encoding
+            html = resp.text if code < 400 else ""
+        if code in BLOCK_STATUS:
+            return None, "blocked"
+        if code == 404 or code == 410:
+            return None, "notfound"
+        if code >= 400:
+            return None, "fail"
+        return html, "ok"
+    except Exception:
+        return None, "fail"
+
+
+def extract_from_html(html: str):
+    """(body, meta, has_table) from a page's HTML."""
     has_table = bool(TABLE_TAG_RE.search(html))
     body = trafilatura.extract(
         html, include_comments=False, include_tables=False, favor_recall=True
     )
     body = maybe_fix_mojibake(body.strip()) if body else ""
-    if len(body) < 200 and _HAS_BS4:
+    if len(body) < MIN_USABLE_BODY and _HAS_BS4:
         fallback = _bs4_fallback_extract(html)
         if len(fallback) > len(body):
             body = fallback
-
     meta = maybe_fix_mojibake(extract_meta_description(html))
+    return body, meta, has_table
 
-    if len(body) < 200 and CHALLENGE_PATTERN.search(html[:20000]):
-        print("    blocked by site (challenge page)")
-        return None, "blocked", False
 
-    if len(body) >= 200:
+def classify_text(body: str, meta: str, has_table: bool):
+    """Decide whether what we extracted counts as a body or only a blurb."""
+    if len(body) >= MIN_USABLE_BODY:
         return body, "body", has_table
     if body and re.search(r"[。！？.!?]", body) and len(body) >= max(80, len(meta)):
         return body, "body", has_table
-
     if meta:
         return meta, "meta", False
     if body:
         return body, "meta", False
+    return None, None, False
+
+
+def fetch_via_reader(url: str):
+    """r.jina.ai renders the page (JavaScript included) and returns plain text.
+    Used for sites that won't serve their HTML to a script at all."""
+    if not USE_READER_PROXY:
+        return None
+    text, status = _http_get(
+        READER_PROXY.rstrip("/") + "/" + url, timeout=FETCH_TIMEOUT_SLOW
+    )
+    if status != "ok" or not text:
+        return None
+    text = maybe_fix_mojibake(text.strip())
+    # The reader prepends a "Title: ... / URL Source: ... / Markdown Content:"
+    # preamble; drop it so it doesn't end up in the summary.
+    marker = "Markdown Content:"
+    if marker in text[:1000]:
+        text = text.split(marker, 1)[1].strip()
+    return text or None
+
+
+def fetch_via_wayback(url: str):
+    """The newest Internet Archive snapshot. This is what recovers pages that
+    now 404 because they were moved or deleted after the feed listed them."""
+    if not USE_WAYBACK:
+        return None
+    try:
+        resp = get_session().get(
+            WAYBACK_LOOKUP, params={"url": url}, timeout=FETCH_TIMEOUT
+        )
+        resp.raise_for_status()
+        snapshot = (resp.json().get("archived_snapshots") or {}).get("closest") or {}
+    except Exception:
+        return None
+    if not snapshot.get("available") or not snapshot.get("url"):
+        return None
+    # "id_" asks the archive for the original bytes without its own banner.
+    snap_url = re.sub(r"(/web/\d+)/", r"\1id_/", snapshot["url"], count=1)
+    html, status = _http_get(snap_url, timeout=FETCH_TIMEOUT_SLOW)
+    return html if status == "ok" else None
+
+
+def fetch_content(url: str, feed_content: str = ""):
+    """Get an article's text, trying every strategy before giving up.
+
+    Returns (text, source_type, has_table) where source_type is:
+
+    - "body"    : real article text (from the page, a URL variant, the feed's
+                  own copy of the body, the reader proxy, or the archive)
+    - "meta"    : only a blurb was available -> summary gets the FALLBACK_MARK
+    - "blocked" : every strategy was refused; the caller writes a placeholder
+                  so the item isn't retried forever
+    - None      : transient failure, left pending for the next run
+
+    Table contents are deliberately excluded from the extracted body
+    (include_tables=False); has_table only records that the page had one, so
+    build_summary can note it instead of inlining rows of cells.
+
+    Order matters: the cheap direct request comes first so that the ~95% of
+    URLs that just work are unaffected, and the expensive third-party
+    strategies only run for the ones that failed.
+    """
+    slow = is_slow_host(url)
+    timeout = FETCH_TIMEOUT_SLOW if slow else FETCH_TIMEOUT
+    best = (None, None, False)
+    blocked = False
+    notfound = False
+
+    def consider(html: str):
+        """Extract, and return a result if it is good enough to stop on."""
+        nonlocal best, blocked
+        body, meta, has_table = extract_from_html(html)
+        if len(body) < MIN_USABLE_BODY and CHALLENGE_PATTERN.search(html[:20000]):
+            blocked = True
+            return None
+        result = classify_text(body, meta, has_table)
+        if result[1] == "body":
+            return result
+        if result[1] and best[1] is None:
+            best = result       # remember the blurb, keep looking for a body
+        return None
+
+    variants = url_variants(url)
+    tried: set[str] = set()
+    queue = [variants[0]]
+    while queue:
+        candidate = queue.pop(0)
+        if candidate in tried:
+            continue
+        tried.add(candidate)
+        # A host known to fingerprint-check its clients is not worth a plain
+        # request first; go straight to the impersonating one.
+        modes = [True] if (slow and _HAS_CURL_CFFI) else [False, True]
+        status = "fail"
+        for impersonate in modes:
+            if impersonate and not _HAS_CURL_CFFI:
+                continue
+            html, status = _http_get(candidate, timeout=timeout, impersonate=impersonate)
+            if status == "blocked":
+                blocked = True
+                continue
+            if status == "notfound":
+                notfound = True
+                break           # a 404 is the same for both clients
+            if status != "ok" or not html:
+                continue
+            found = consider(html)
+            if found:
+                if candidate != url or impersonate:
+                    via = "curl_cffi" if impersonate else "url variant"
+                    print(f"    recovered via {via}: {candidate}")
+                return found
+        # Alternative addresses are only worth trying when this one was a 404 —
+        # that is the vocus case, where the feed's link and the canonical page
+        # disagree. If the host timed out or refused us, its other paths will
+        # do exactly the same, and trying them just multiplies the timeout.
+        if status == "notfound":
+            queue.extend(v for v in variants[1:] if v not in tried)
+
+    # The feed usually carried the article with it; free, and no third party.
+    feed_text = (feed_content or "").strip()
+    if len(feed_text) >= MIN_USABLE_BODY:
+        print("    recovered via feed content")
+        return feed_text, "body", False
+
+    # A blurb is a poor result but it is a result. Escalating to the external
+    # services for every meta-only page would mean thousands of extra requests
+    # per run, so by default that only happens when there is nothing at all.
+    if best[1] == "meta" and not READER_ON_META:
+        return best
+
+    reader_text = fetch_via_reader(url)
+    if reader_text and len(reader_text) >= MIN_USABLE_BODY:
+        print("    recovered via reader proxy")
+        return reader_text, "body", False
+
+    archived = fetch_via_wayback(url)
+    if archived:
+        found = consider(archived)
+        if found:
+            print("    recovered via web archive")
+            return found
+
+    if feed_text:
+        print("    recovered via feed content (short)")
+        return feed_text, "meta", False
+
+    if best[1]:
+        return best
+    if blocked:
+        print("    blocked by site, no copy found by any strategy")
+        return None, "blocked", False
+    if notfound:
+        print("    page is gone (404/410) and not archived anywhere")
+        return None, "gone", False
+    print("    all fetch strategies failed")
     return None, None, False
 
 
@@ -633,10 +879,61 @@ def is_fluff(s: str, is_cjk: bool) -> bool:
     return False
 
 
+# Splits after a sentence terminator, keeping the terminator with the sentence
+# it ends so that re-joining the pieces reproduces the input exactly. The Latin
+# arm needs the "whitespace then an opening character" lookahead, or it would
+# break on decimals and abbreviations such as "U.S." or "3.5".
+TRIM_SPLIT_RE = re.compile(
+    r"(?<=[。！？；;])(?![」』”\"'）)])\s*"
+    r"|(?<=[.!?])\s+(?=[A-Z0-9\u00c0-\u024f\u4e00-\u9fff\"'(])"
+)
+
+
+def sentence_pieces(text: str) -> list[str]:
+    """Split into sentences by slicing at boundary offsets, so concatenating
+    the pieces reproduces the input character for character (the whitespace a
+    boundary swallows stays attached to the sentence before it)."""
+    pieces: list[str] = []
+    prev = 0
+    for m in TRIM_SPLIT_RE.finditer(text):
+        if m.end() > prev:
+            pieces.append(text[prev:m.end()])
+            prev = m.end()
+    if prev < len(text):
+        pieces.append(text[prev:])
+    return [p for p in pieces if p.strip()]
+
+
+def trim_to_whole_sentences(text: str, limit: int) -> str:
+    """Shorten `text` to at most `limit` characters by dropping whole
+    sentences from the end.
+
+    A hard slice at the limit leaves the reader with half a sentence, so
+    sentences are removed one at a time instead. If even the first sentence is
+    over the limit, it is returned whole: the budget is derived from the length
+    of the source text, so that only happens when the source is a single
+    sentence, and returning it intact beats cutting it in the middle.
+    """
+    text = (text or "").strip()
+    if len(text) <= limit:
+        return text
+    pieces = sentence_pieces(text)
+    kept: list[str] = []
+    used = 0
+    for piece in pieces:
+        if used + len(piece.rstrip()) > limit:
+            break
+        kept.append(piece)
+        used += len(piece)
+    if kept:
+        return "".join(kept).strip()
+    return pieces[0].strip() if pieces else text
+
+
 def extractive_summary(text: str, is_cjk: bool, char_budget: int) -> str:
     sents = split_sentences(text, is_cjk)
     if not sents:
-        return text[:char_budget]
+        return trim_to_whole_sentences(text, char_budget)
 
     # Drop verbatim repeats up front. Pages commonly restate the same line in
     # a lead-in, a bullet list and a closing recap; keeping only the first
@@ -675,7 +972,7 @@ def extractive_summary(text: str, is_cjk: bool, char_budget: int) -> str:
         scored.append([base, idx, s, ts])
 
     if not scored:
-        return sents[0][:char_budget]
+        return sents[0]
 
     LAMBDA = MMR_LAMBDA
     DUP_THRESHOLD = MMR_DUP_THRESHOLD
@@ -714,7 +1011,8 @@ def extractive_summary(text: str, is_cjk: bool, char_budget: int) -> str:
                     max_sim[i] = sim
 
     if not chosen:
-        return sents[0][:char_budget]
+        # Nothing fit the budget; one whole sentence beats half of one.
+        return sents[0]
 
     chosen.sort(key=lambda x: x[0])
     joiner = "" if is_cjk else " "
@@ -759,21 +1057,44 @@ def summary_budget(content_len: int) -> int:
 
 
 def build_summary(content: str, source_type: str, has_table: bool = False) -> str:
+    """Extractive summary plus any trailing marks.
+
+    Sentences are picked by importance, not by position: each one is scored on
+    TF-IDF weight, named-entity/number density and how near the top it sits,
+    then selected with MMR so a near-duplicate of an already-chosen sentence
+    loses out to a sentence that adds something new (see extractive_summary).
+    Whichever sentences are chosen are kept whole and re-emitted in their
+    original reading order.
+
+    The marks (`↛` when only a meta description was available, the table note)
+    are budgeted for before selection starts, so making room for them can never
+    truncate the last sentence into a fragment.
+    """
     content = re.sub(r"\((?:\d{1,2}:)?\d{1,2}:\d{2}\)\s*[:：]?", ": ", content)
     content = strip_boilerplate(content)
     if not content:
         return ""
+
+    marks = []
+    if has_table:
+        marks.append(TABLE_NOTE)
+    # Only a blurb was available, so mark the summary as not coming from the
+    # article body itself.
+    if source_type == "meta" and not any(FALLBACK_MARK in m for m in marks):
+        marks.append(FALLBACK_MARK)
+    suffix = (" " + " ".join(marks)) if marks else ""
+
     lang = detect_lang(content)
     budget = summary_budget(len(content))
-    marks = []
+    text_budget = max(1, budget - len(suffix))
 
     if lang == "zh-hant":
-        summary = extractive_summary(content, True, budget)
+        summary = extractive_summary(content, True, text_budget)
     elif lang == "zh-hans":
-        summary = _to_twp(extractive_summary(content, True, budget))
+        summary = _to_twp(extractive_summary(content, True, text_budget))
     else:
         raw = extractive_summary(
-            content, False, int(budget * FOREIGN_BUDGET_RATIO)
+            content, False, int(text_budget * FOREIGN_BUDGET_RATIO)
         )
         summary = None
         if TRANSLATE:
@@ -783,11 +1104,6 @@ def build_summary(content: str, source_type: str, has_table: bool = False) -> st
         if summary is None:
             summary = raw
 
-    if has_table:
-        marks.append(TABLE_NOTE)
-    if source_type == "meta":
-        marks.append(FALLBACK_MARK)
-
     if detect_lang(summary) == "other":
         summary = re.sub(r"\s+", " ", summary).strip()
     else:
@@ -796,11 +1112,10 @@ def build_summary(content: str, source_type: str, has_table: bool = False) -> st
             "", summary)
         summary = re.sub(r"\s+", " ", summary).strip()
 
-    suffix = (" " + " ".join(marks)) if marks else ""
-    limit = budget - len(suffix)
-    if len(summary) > limit:
-        summary = summary[:limit].rstrip()
-    return summary + suffix
+    # Translation and whitespace normalisation both change the length, so the
+    # budget is enforced once more here — by dropping whole sentences.
+    summary = trim_to_whole_sentences(summary, text_budget)
+    return (summary + suffix) if summary else ""
 
 
 # ---------------------------------------------------------------- Information-value scoring
@@ -855,6 +1170,17 @@ def score_corpus_novelty(items):
     scored = [it for it in items if isinstance(it, dict) and it.get("summary")]
     if not scored:
         return 0
+
+    # Oldest publication date first. The corpus baseline (corpus_df) is built
+    # from every scored item before any of them is written, so the numbers do
+    # not depend on this order — but the write order does, and going
+    # oldest-first means a run that is cut short has finished the backlog
+    # rather than a random slice of it.
+    scored.sort(key=lambda it: (
+        _parse_ts(it.get("published_at")),
+        _parse_ts(it.get("first_seen_at")),
+        str(it.get("id") or ""),
+    ))
 
     ft = {id(it): fact_tokens(it["summary"]) for it in scored}
     corpus_df = Counter()
@@ -930,11 +1256,13 @@ def load_items(path: str):
 
 
 def save_items(path: str, items: list, wrapper: dict | None) -> None:
+    """Always written indented — the archive is diffed and committed by CI, and
+    a single-line 19 MB file makes every run look like one enormous change."""
     with open(path, "w", encoding="utf-8") as f:
         if wrapper is not None:
             wrapper["items"] = items
             wrapper["total_items"] = len(items)
-            json.dump(wrapper, f, ensure_ascii=False, separators=(",", ":"))
+            json.dump(wrapper, f, ensure_ascii=False, indent=2)
         else:
             json.dump(items, f, ensure_ascii=False, indent=2)
         f.write("\n")
@@ -1047,6 +1375,7 @@ def main(argv=None) -> int:
                 failed += 1
                 continue
             it["summary"] = summary
+            it.pop("feed_content", None)
             ok += 1
             print(f"    ok (subtitle, {len(it['summary'])} chars)")
             save_items(ITEMS_FILE, items, wrapper)
@@ -1054,23 +1383,71 @@ def main(argv=None) -> int:
             continue
 
         if "techmeme.com" in url:
-            it["summary"] = translate_to_zhtw(it.get("title"))
+            title = (it.get("title") or "").strip()
+            # Techmeme prefixes a headline with "Sources:", "Report:" or
+            # "Documents:" when the story rests on reporting it has obtained
+            # rather than on a public announcement — worth starring, and worth
+            # reading the page for instead of settling for the headline.
+            if title.startswith(TECHMEME_STAR_PREFIXES):
+                it["star"] = True
+                attempted += 1
+                print(f"[{attempted}/{min(len(pending), MAX_ITEMS)}] "
+                      f"({it.get('published_at') or 'no date'}) {title[:60]}")
+                print(f"    {url}  (starred)")
+                summary = ""
+                content, source_type, has_table = fetch_content(
+                    url, feed_content=it.get("feed_content") or ""
+                )
+                if content:
+                    try:
+                        summary = build_summary(content, source_type, has_table)
+                    except Exception as e:
+                        print(f"    summarize failed: {e}")
+                        summary = ""
+                if summary:
+                    it["summary"] = summary
+                    it.pop("feed_content", None)
+                    ok += 1
+                    print(f"    ok ({source_type}, {len(summary)} chars)")
+                else:
+                    translated = translate_to_zhtw(title)
+                    if translated:
+                        it["summary"] = _to_twp(translated) + " " + FALLBACK_MARK
+                        ok += 1
+                        print("    fell back to translated title")
+                    else:
+                        failed += 1
+                        print("    no content and translation failed, kept pending.")
+                save_items(ITEMS_FILE, items, wrapper)
+                time.sleep(SLEEP_BETWEEN_ITEMS)
+                continue
+
+            translated = translate_to_zhtw(title)
+            if translated:
+                it["summary"] = _to_twp(translated) + " " + FALLBACK_MARK
+                it.pop("feed_content", None)
             continue
 
         if "vocus.cc" in url:
-            it["url"] = re.sub(r"vocus\.cc/@[^/]+/", "vocus.cc/article/", url)
+            # Left as-is on purpose: url_variants() tries both the @author and
+            # the /article/ form, so rewriting here would only throw away the
+            # address that might be the working one.
+            pass
 
         attempted += 1
         print(f"[{attempted}/{min(len(pending), MAX_ITEMS)}] "
               f"({it.get('published_at') or 'no date'}) {it.get('title', '')[:60]}")
         print(f"    {url}")
 
-        content, source_type, has_table = fetch_content(url)
+        content, source_type, has_table = fetch_content(
+            url, feed_content=it.get("feed_content") or ""
+        )
 
-        if source_type == "blocked":
-            it["summary"] = BLOCKED_SUMMARY
+        if source_type in ("blocked", "gone"):
+            it["summary"] = BLOCKED_SUMMARY if source_type == "blocked" else GONE_SUMMARY
+            it.pop("feed_content", None)
             blocked_n += 1
-            print(f"    blocked -> placeholder written")
+            print(f"    {source_type} -> placeholder written")
             save_items(ITEMS_FILE, items, wrapper)
             time.sleep(SLEEP_BETWEEN_ITEMS)
             continue
@@ -1090,6 +1467,7 @@ def main(argv=None) -> int:
             failed += 1
             continue
         it["summary"] = summary
+        it.pop("feed_content", None)
 
         ok += 1
         print(f"    ok ({source_type}, {len(it['summary'])} chars)")
