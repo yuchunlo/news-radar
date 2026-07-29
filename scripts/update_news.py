@@ -176,18 +176,77 @@ VOCUS_AUTHOR_RE = re.compile(
 )
 
 
+# ---- Redirector hosts -------------------------------------------------------
+REDIRECTOR_HOSTS: tuple[str, ...] = ("news.google.com",)
+REDIRECT_CONNECT_TIMEOUT = 5   # [tune] seconds to establish the connection
+REDIRECT_READ_TIMEOUT = 10     # [tune] seconds to receive the response
+GOOGLE_OWN_HOSTS = ("news", "accounts", "policies", "support", "consent")
+REDIRECT_ANCHOR_RE = re.compile(
+    r'(?:data-n-au|href)="'
+    r'(https?://(?!(?:www\.)?(?:' + "|".join(GOOGLE_OWN_HOSTS) + r')'
+    r'\.google\.com)[^"]+)"'
+)
+_redirect_cache: dict[str, str] = {}
+_redirect_session: requests.Session | None = None
+redirect_stats = {"resolved": 0, "failed": 0, "cached": 0}
+
+
+def is_redirector_url(raw_url: str) -> bool:
+    return host_matches(host_of_url(raw_url or ""), REDIRECTOR_HOSTS)
+
+
+def _redirect_http() -> requests.Session:
+    """A session of its own, so the feed pool is not held up by these."""
+    global _redirect_session
+    if _redirect_session is None:
+        _redirect_session = build_http_session()
+    return _redirect_session
+
+
+def resolve_redirector_url(raw_url: str) -> str:
+    """The publisher address behind a redirector link, or "" when it cannot be
+    reached.
+
+    One plain GET with redirects followed -- not the multi-step batchexecute
+    call. If the request lands off the redirector host that is the answer;
+    otherwise the returned HTML is searched for the publisher anchor.
+    """
+    if raw_url in _redirect_cache:
+        redirect_stats["cached"] += 1
+        return _redirect_cache[raw_url]
+    resolved = ""
+    try:
+        resp = _redirect_http().get(
+            raw_url,
+            timeout=(REDIRECT_CONNECT_TIMEOUT, REDIRECT_READ_TIMEOUT),
+            allow_redirects=True,
+        )
+        final = getattr(resp, "url", "") or ""
+        if final and not is_redirector_url(final):
+            resolved = final
+        elif resp.status_code < 400 and resp.text:
+            m = REDIRECT_ANCHOR_RE.search(resp.text[:200_000])
+            if m:
+                resolved = m.group(1)
+    except Exception:
+        resolved = ""
+    resolved = normalize_url(resolved) if resolved else ""
+    _redirect_cache[raw_url] = resolved
+    redirect_stats["resolved" if resolved else "failed"] += 1
+    return resolved
+
+
 def canonical_url(raw_url: str) -> str:
     """Host-specific canonical form, on top of normalize_url's tracking-param
     stripping.
 
-    vocus.cc: the third-party bridges these feeds come from hand out
-    `/@author/<id>` links, while `/article/<id>` is the address that serves the
-    page. Convert on the way in.
     """
     url = normalize_url(raw_url)
     m = VOCUS_AUTHOR_RE.match(url)
     if m:
         return f"{m.group(1)}/article/{m.group(2)}{m.group(3)}"
+    if is_redirector_url(url):
+        return resolve_redirector_url(url)
     return url
 
 
@@ -840,6 +899,8 @@ def migrate_record_urls(records: list[dict[str, Any]]) -> int:
         new_url = canonical_url(old_url)
         if new_url == old_url:
             continue
+        if not new_url:
+            continue
         record["url"] = new_url
         record["id"] = make_item_id(
             str(record.get("site_id") or ""),
@@ -984,6 +1045,15 @@ def main(argv=None) -> int:
                 if raw.site_id == "opmlrss" or not existing.get("published_at"):
                     existing["published_at"] = iso(raw.published_at)
             existing["last_seen_at"] = iso(now)
+
+    if any(redirect_stats.values()):
+        print(
+            f"Redirector links: resolved={redirect_stats['resolved']} "
+            f"failed={redirect_stats['failed']} "
+            f"cache_hits={redirect_stats['cached']}"
+            + ("  (failed ones are dropped and retried next run)"
+               if redirect_stats["failed"] else "")
+        )
 
     # Prune old archive
     keep_after = now - timedelta(days=args.archive_days)
