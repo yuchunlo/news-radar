@@ -17,7 +17,7 @@ env:
   ARCHIVE_FILE: data/archive.json
   SUBTITLE_DIR: data/subtitles
   COOKIES_PATH: /dev/shm/cookies.txt
-  MAX_ITEMS_PER_RUN: 20
+  MAX_ITEMS_PER_RUN: 200
 
 jobs:
   download:
