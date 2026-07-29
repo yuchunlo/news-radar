@@ -114,10 +114,13 @@ USE_WAYBACK = os.environ.get("USE_WAYBACK", "on").lower() != "off"
 # meta-only and each one becomes an extra third-party request.
 READER_ON_META = os.environ.get("READER_ON_META", "").lower() in ("1", "true", "yes", "on")
 FEED_FIRST_HOSTS = (
-    "medium.com",
-    "honest-broker.com",
-    "iread2.blogspot.com",
-    "lutaonan.com",
+    "medium.com", "honest-broker.com", "lutaonan.com",
+    "cocktail4party.com", "noswag.tw", "samaltman.com", "ruanyifeng.com",
+    "smallbooks.com.tw", "hunterwalk.com", "waitbutwhy.com",
+    "wordpress.com", "blogspot.com", "davidoks.blog", "fs.blog",
+    "devtang.com", "yuanyu.idv.tw", "uselessetymology.com", "vox.com",
+    "shiuncorner.com", "readtrung.com", "starrocket.io", "curtismchale.ca",
+    "tiaodao.typlog.io", "travelwithbook.com", "buttondown.com",
 )
 FEED_FIRST_SAVE_EVERY = 50
 WAYBACK_LOOKUP = "https://archive.org/wayback/available"
@@ -633,6 +636,200 @@ def vtt_to_text(path: str) -> str:
             and chars_per_terminal(text) > UNPUNCTUATED_CHARS_PER_TERMINAL):
         text = merge_caption_lines(text)
     return text
+# ---------------------------------------------------------------- Thumbnails
+
+IMAGE_EXT_RE = re.compile(r"\.(?:png|jpe?g|gif|webp|avif|svg)(?:$|[?#])", re.I)
+
+# Stock libraries and wire services.
+THUMB_STOCK_RE = re.compile(
+    r"shutterstock[_-]?\d*"
+    r"|istock(?:photo)?"
+    r"|gettyimages?[-_]?\d*|gyi\d{6,}"
+    r"|depositphotos|adobestock|dreamstime|alamy|123rf|bigstock|stockphoto"
+    r"|unsplash"
+    r"|photo-\d{10,}-[0-9a-f]{8,}"          # unsplash's own filename shape
+    r"|pexels(?:-photo)?[-_]?\d*"
+    r"|\bap[-_]?photo\b|associated[-_]press",
+    re.I,
+)
+# Wire-service filenames: Reuters' 2026-07-29T143000Z_123_RTX..., RTS/RTX ids,
+# and the bare-timestamp shapes agencies use.
+THUMB_WIRE_RE = re.compile(
+    r"\d{4}-?\d{2}-?\d{2}t\d{6}z"
+    r"|\brt[sxr][a-z0-9]{5,}"
+    r"|\bafp[-_]?\d{6,}"
+    r"|\bepa[-_]?(?:efe[-_]?)?\d{6,}",
+    re.I,
+)
+# Layout furniture: the same file on every article.
+THUMB_TEMPLATE_RE = re.compile(
+    r"og[-_]?image|og[-_]?default|social[-_]?(?:card|share|image|preview)"
+    r"|twitter[-_]?card|share[-_]?(?:image|card)|card[-_]?bg"
+    r"|cover[-_]?template|template[-_]?cover|[-_]template\b|^template"
+    # "default" must stand alone as a token: YouTube's own video thumbnails are
+    # named mqdefault.jpg / hqdefault.jpg and are perfectly good images.
+    r"|(?:^|[-_])default(?:[-_](?:image|thumb|cover|banner))?(?:[-_]|$)"
+    r"|placeholder|fallback"
+    r"|no[-_]?image|dummy|generic[-_]?(?:image|cover)"
+    r"|\blogo\b|wordmark|favicon|avatar|profile[-_]?pic|headshot|portrait[-_]?shot"
+    r"|\bbanner\b|\bheader[-_]?(?:image|bg)?\b|hero[-_]?(?:image|bg)"
+    r"|watermark|spacer|pixel|blank|transparent|1x1",
+    re.I,
+)
+# Screenshots, product demos, and poster/artwork collages.
+THUMB_SCREENSHOT_RE = re.compile(
+    r"screen[-_ ]?shot|screenshot|screencap|scrn"
+    r"|\bcapture\b|\bdemo\b|\bpreview\b|\bmockup\b|\bui[-_]"
+    r"|collage|montage|grid[-_]?of|poster[-_]?(?:grid|collage|set)"
+    r"|line[-_]?up\b|\bcombo\b|side[-_]by[-_]side[-_]?photos?",
+    re.I,
+)
+# Words that say "this is a chart / map / diagram", which is exactly what we
+# want. A name containing any of these is kept even if it is long.
+THUMB_CHART_WORDS = frozenset("""
+axis axes chart charts graph graphs plot plotted map maps mapped mapping
+diagram schematic figure fig table matrix
+index indices ratio ratios rate rates share shares percent percentage pct
+scale scaled distribution breakdown composition split spread
+trend trends trending trajectory curve curves growth decline change delta
+monitor monitoring tracker tracking dashboard scorecard
+comparison compare compared versus vs flip gap gaps spread
+timeline history historical forecast projection projected outlook
+heatmap treemap sankey waterfall scatter histogram bubble radar donut
+quarterly annual monthly yearly ytd yoy qoq cagr
+bloomberg reuters-graphics ft economist statista ourworldindata visualcapitalist
+""".split())
+# Words typical of a photograph, whether hand-captioned or machine-described.
+THUMB_PHOTO_WORDS = frozenset("""
+photo photograph photographed picture pic image img shot shots snapshot
+close closeup up view viewing views viewed angle aerial overhead
+portrait portraits standing sitting seated walking holding wearing smiling
+posing poses posed looking facing gesturing speaking talking waving
+exterior interior facade storefront skyline streetscape landscape
+location located site situated near outside inside
+man woman men women people person crowd worker workers employee
+background backdrop foreground blurred bokeh
+attends attending arrives arriving during ceremony conference press
+generic stock illustrative illustration decorative
+""".split())
+# Above this many word-like tokens, a name that has no chart vocabulary is
+# taken to be a description of a photograph rather than a chart title.
+THUMB_DESCRIPTIVE_MIN_TOKENS = 5
+THUMB_MIN_STEM = 3
+
+
+def _thumb_tokens(stem: str) -> list[str]:
+    return [t for t in re.split(r"[^a-z0-9]+", stem.lower()) if t]
+
+
+def thumbnail_is_usable(url: str) -> tuple[bool, str]:
+    """Whether an image url looks like a chart/map worth keeping.
+
+    Returns (verdict, reason) so the reason can be logged -- the rules are
+    heuristic and being able to see which one fired is what makes them
+    tunable.
+    """
+    if not url or not url.lower().startswith(("http://", "https://")):
+        return False, "not an absolute url"
+    if url.startswith("data:"):
+        return False, "data uri"
+    path = url.split("?", 1)[0].split("#", 1)[0]
+    name = path.rstrip("/").rsplit("/", 1)[-1]
+    if not IMAGE_EXT_RE.search(path) and not re.search(r"\.(?:png|jpe?g|webp|avif)$", name, re.I):
+        return False, "no image extension"
+    if name.lower().endswith(".svg"):
+        return False, "svg (usually a logo or icon)"
+    stem = re.sub(r"\.[a-z0-9]+$", "", name, flags=re.I)
+    # Some CMSes append the rendition size: name-1024x576.jpg
+    stem = re.sub(r"[-_]\d{2,4}x\d{2,4}$", "", stem)
+    if len(stem) < THUMB_MIN_STEM:
+        return False, "filename too short to judge"
+
+    haystack = f"{stem} {url}"
+    if THUMB_STOCK_RE.search(haystack):
+        return False, "stock library filename"
+    if THUMB_WIRE_RE.search(haystack):
+        return False, "wire-service filename"
+    if THUMB_TEMPLATE_RE.search(stem):
+        return False, "layout template / site furniture"
+    if THUMB_SCREENSHOT_RE.search(stem):
+        return False, "screenshot / demo / collage"
+
+    tokens = _thumb_tokens(stem)
+    if not tokens:
+        return False, "no readable filename"
+    # An opaque hash or bare id says nothing; assume it is not a chart.
+    if len(tokens) == 1 and (len(tokens[0]) >= 16 or tokens[0].isdigit()):
+        return False, "opaque id / hash filename"
+
+    if THUMB_CHART_WORDS & set(tokens):
+        return True, "chart vocabulary in filename"
+    photo_hits = THUMB_PHOTO_WORDS & set(tokens)
+    if photo_hits:
+        return False, f"photographic wording ({', '.join(sorted(photo_hits))})"
+    if len(tokens) >= THUMB_DESCRIPTIVE_MIN_TOKENS:
+        return False, f"descriptive phrase ({len(tokens)} tokens)"
+    return True, "short topical filename"
+
+
+META_IMAGE_RE = re.compile(
+    r"""<meta[^>]+(?:property|name)\s*=\s*["'](?:og:image(?::url)?|twitter:image(?::src)?)["']"""
+    r"""[^>]+content\s*=\s*["']([^"']+)["']"""
+    r"""|<meta[^>]+content\s*=\s*["']([^"']+)["'][^>]+(?:property|name)\s*=\s*"""
+    r"""["'](?:og:image(?::url)?|twitter:image(?::src)?)["']""",
+    re.I,
+)
+BODY_IMG_RE = re.compile(r"""<img\b[^>]*?\bsrc\s*=\s*["']([^"']+)["']""", re.I)
+IMG_DIM_RE = re.compile(r"""\b(?:width|height)\s*=\s*["']?(\d+)""", re.I)
+THUMB_MIN_DIMENSION = 200
+
+
+def set_thumbnail_from_feed(it: dict, feed_html: str) -> str | None:
+    """Thumbnail from the feed copy alone, for paths that never fetch the page.
+
+    The feed-first pass and any item summarised straight from feed_content never
+    see the article HTML, so og:image is out of reach -- but RSS
+    <content:encoded> and <description> routinely carry <img> tags, and those
+    are the same images the page would show.
+    """
+    if it.get("thumbnail") or not feed_html:
+        return None
+    found = extract_thumbnail(html_mod.unescape(feed_html), it.get("url") or "")
+    if found:
+        it["thumbnail"] = found
+    return found
+
+
+def extract_thumbnail(html: str, base_url: str, log: bool = True):
+    """First usable image from the page: og:image / twitter:image, then the
+    first <img> in the body. Returns None when nothing passes the filter."""
+    if not html:
+        return None
+    candidates = []
+    for m in META_IMAGE_RE.finditer(html[:60000]):
+        candidates.append((m.group(1) or m.group(2), "meta"))
+    for m in BODY_IMG_RE.finditer(html):
+        tag = html[m.start():m.end() + 120]
+        dims = [int(d) for d in IMG_DIM_RE.findall(tag)]
+        if dims and max(dims) < THUMB_MIN_DIMENSION:
+            continue                      # an icon or a tracking pixel
+        candidates.append((m.group(1), "body"))
+        if len(candidates) > 24:
+            break
+    for raw, where in candidates:
+        url = html_mod.unescape((raw or "").strip())
+        if url.startswith("//"):
+            url = "https:" + url
+        elif url.startswith("/"):
+            parts = base_url.split("/")
+            if len(parts) > 2:
+                url = f"{parts[0]}//{parts[2]}{url}"
+        ok, reason = thumbnail_is_usable(url)
+        if ok:
+            if log:
+                print(f"    thumbnail ({where}): {url[:90]}  [{reason}]")
+            return url
+    return None
 
 
 # ---------------------------------------------------------------- Fetching
@@ -802,7 +999,8 @@ def fetch_via_wayback(url: str):
     return html if status == "ok" else None
 
 
-def fetch_content(url: str, feed_content: str = ""):
+def fetch_content(url: str, feed_content: str = "",
+                  meta_out: dict | None = None):
     """Get an article's text, trying every strategy before giving up.
 
     Returns (text, source_type, has_table) where source_type is:
@@ -841,6 +1039,10 @@ def fetch_content(url: str, feed_content: str = ""):
     def consider(html: str):
         """Extract, and return a result if it is good enough to stop on."""
         nonlocal best, blocked, junk
+        if meta_out is not None and not meta_out.get("thumbnail"):
+            found = extract_thumbnail(html, url)
+            if found:
+                meta_out["thumbnail"] = found
         body, meta, has_table = extract_from_html(html)
         if len(body) < MIN_USABLE_BODY and CHALLENGE_PATTERN.search(html[:20000]):
             blocked = True
@@ -1548,7 +1750,8 @@ def main(argv=None) -> int:
                           f"{len(feed_first) - idx + 1} item(s) stay pending.")
                     time_cut_off = True
                     break
-            content = (it.get("feed_content") or "").strip()
+            feed_html = it.get("feed_content") or ""
+            content = feed_html.strip()
             source_type = "body" if len(content) >= MIN_USABLE_BODY else "meta"
             print(f"  [{idx}/{len(feed_first)}] "
                   f"({it.get('published_at') or 'no date'}) {it.get('title', '')[:60]}")
@@ -1564,6 +1767,7 @@ def main(argv=None) -> int:
                 ff_failed += 1
                 continue
             it["summary"] = summary
+            set_thumbnail_from_feed(it, feed_html)
             it.pop("feed_content", None)
             ff_ok += 1
             pending_save += 1
@@ -1671,8 +1875,10 @@ def main(argv=None) -> int:
                       f"({it.get('published_at') or 'no date'}) {title[:60]}")
                 print(f"    {url}  (starred)")
                 summary = ""
+                tm_feed_html = it.get("feed_content") or ""
+                tm_meta: dict = {}
                 content, source_type, has_table = fetch_content(
-                    url, feed_content=it.get("feed_content") or ""
+                    url, feed_content=tm_feed_html, meta_out=tm_meta
                 )
                 if content:
                     try:
@@ -1682,6 +1888,11 @@ def main(argv=None) -> int:
                         summary = ""
                 if summary:
                     it["summary"] = summary
+                    if not it.get("thumbnail"):
+                        if tm_meta.get("thumbnail"):
+                            it["thumbnail"] = tm_meta["thumbnail"]
+                        else:
+                            set_thumbnail_from_feed(it, tm_feed_html)
                     it.pop("feed_content", None)
                     ok += 1
                     print(f"    ok ({source_type}, {len(content)} chars)")
@@ -1709,8 +1920,10 @@ def main(argv=None) -> int:
               f"({it.get('published_at') or 'no date'}) {it.get('title', '')[:60]}")
         print(f"    {url}")
 
+        feed_html = it.get("feed_content") or ""
+        meta_out: dict = {}
         content, source_type, has_table = fetch_content(
-            url, feed_content=it.get("feed_content") or ""
+            url, feed_content=feed_html, meta_out=meta_out
         )
 
         if source_type == "junk":
@@ -1743,6 +1956,11 @@ def main(argv=None) -> int:
             failed += 1
             continue
         it["summary"] = summary
+        if not it.get("thumbnail"):
+            if meta_out.get("thumbnail"):
+                it["thumbnail"] = meta_out["thumbnail"]
+            else:
+                set_thumbnail_from_feed(it, feed_html)
         it.pop("feed_content", None)
 
         ok += 1
