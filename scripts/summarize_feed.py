@@ -199,9 +199,7 @@ JUNK_BODY_RE = re.compile(
     r"|[Mm]aking sure you'?re not a bot"
     r"|Anubis (?:to protect|has protected)"
     r"|Comprehensive up-to-date news coverage, aggregated from sources"
-    r"|為了繼續，我們需要驗證您不是機器人|为了继续，我们需要验证您不是机器人"
-    r"|啟用JavaScript，然後重新載入頁面|启用JavaScript，然后重新加载页面"
-    r"|豆瓣.{0,6}載入中|豆瓣.{0,6}加载中"
+    r"|豆瓣[\sa-zA-Z.]{0,24}載入中|豆瓣[\sa-zA-Z.]{0,24}加载中"
     r"|安全验证|安全驗證|验证码|驗證碼"
     r"|禁止访问|禁止訪問|访问异常|異常流量|异常流量"
     r"|正在驗證您的請求|正在验证您的请求"
@@ -223,50 +221,12 @@ DOUBAN_MARK_PREFIXES = ("想读", "想看", "想听")
 def is_douban_mark(url: str, title: str) -> bool:
     return ("douban.com" in (url or "")
             and (title or "").strip().startswith(DOUBAN_MARK_PREFIXES))
-NO_BODY_HOSTS = ("news.google.com",)
-TITLE_PUBLISHER_RE = re.compile(r"\s+[-–—]\s+([^-–—]{1,40})$")
 
-
-def is_no_body_host(url: str) -> bool:
-    host = host_of(url)
-    return any(host == h or host.endswith("." + h) for h in NO_BODY_HOSTS)
-
-
-def no_body_summary(title: str) -> str:
-    """Summary for a host that never serves an article body.
-
-    news.google.com/rss/articles/... links are opaque: every one in the archive
-    decodes to an "AU_yqL..." token with no URL inside it, so the target cannot
-    be recovered offline, and the page itself only ever yields Google News's
-    generic site-wide blurb. What the feed does carry is the headline and the
-    publisher, so that is what gets written -- marked with FALLBACK_MARK,
-    because it is not the article text.
-
-    Worth fixing upstream where possible: a Google News *search* feed built on
-    `site:example.com` can be replaced with that publisher's own RSS, which
-    gives real URLs and real bodies.
-    """
-    raw = (title or "").strip()
-    if not raw:
-        return ""
-    publisher = ""
-    m = TITLE_PUBLISHER_RE.search(raw)
-    if m:
-        publisher = m.group(1).strip()
-        raw = raw[: m.start()].strip()
-    lang = detect_lang(raw)
-    if lang == "zh-hans":
-        raw = _to_twp(raw)
-    elif lang != "zh-hant":
-        translated = translate_to_zhtw(raw) if TRANSLATE else None
-        if translated:
-            raw = _to_twp(translated)
-    text = f"{raw}（{publisher}）" if publisher else raw
-    return text + " " + FALLBACK_MARK
 
 TRACKING_PARAM_EXACT = {
     "ref", "spm", "fbclid", "gclid", "igshid", "mkt_tok",
     "mc_cid", "mc_eid", "_hsenc", "_hsmi",
+    "oc",
 }
 
 VENDOR_ALIASES = {
@@ -1568,6 +1528,8 @@ def main(argv=None) -> int:
     time_cut_off = False
     ok = blocked_n = failed = blank_n = junk_n = 0
     attempted = 0
+    junk_hosts: set[str] = set()
+    junk_skipped: Counter = Counter()
 
     # ---- Pass 1: feed-first hosts -------------------------------------------
     feed_first = [it for it in pending
@@ -1637,16 +1599,9 @@ def main(argv=None) -> int:
 
         url = it["url"]
 
-        if is_no_body_host(url):
-            summary = no_body_summary(it.get("title"))
-            if summary:
-                it["summary"] = summary
-                it.pop("feed_content", None)
-                ok += 1
-                print(f"    {url[:60]}\n    title-only -> {summary[:60]}")
-            else:
-                failed += 1
-            save_items(ITEMS_FILE, items, wrapper)
+        host = host_of(url)
+        if host in junk_hosts:
+            junk_skipped[host] += 1
             continue
 
         if is_douban_mark(url, it.get("title")):
@@ -1760,7 +1715,9 @@ def main(argv=None) -> int:
 
         if source_type == "junk":
             junk_n += 1
-            print("    junk page -> skipped")
+            junk_hosts.add(host)
+            print(f"    junk page -> skipped, {host} skipped for the rest "
+                  f"of this run")
             continue
         if source_type in ("blocked", "gone"):
             it["summary"] = BLOCKED_SUMMARY if source_type == "blocked" else GONE_SUMMARY
@@ -1793,6 +1750,13 @@ def main(argv=None) -> int:
         save_items(ITEMS_FILE, items, wrapper)
         time.sleep(SLEEP_BETWEEN_ITEMS)
 
+    if junk_hosts:
+        detail = ", ".join(f"{h}×{junk_skipped[h]}"
+                           for h, _ in junk_skipped.most_common())
+        print(f"Skipped {sum(junk_skipped.values())} item(s) on "
+              f"{len(junk_hosts)} host(s) serving a template: {detail}"
+              + (f"  (also: {', '.join(sorted(junk_hosts - set(junk_skipped)))})"
+                 if junk_hosts - set(junk_skipped) else ""))
     print(f"Done. attempted={attempted}, ok={ok}, blocked={blocked_n}, "
           f"blank={blank_n}, junk={junk_n}, failed={failed}"
           f"{', stopped early: time budget reached' if time_cut_off else ''}")
