@@ -8,6 +8,7 @@ import hashlib
 import os
 import tempfile
 import html as html_mod
+import html
 import json
 import re
 import threading
@@ -180,12 +181,34 @@ VOCUS_AUTHOR_RE = re.compile(
 REDIRECTOR_HOSTS: tuple[str, ...] = ("news.google.com",)
 REDIRECT_CONNECT_TIMEOUT = 5   # [tune] seconds to establish the connection
 REDIRECT_READ_TIMEOUT = 10     # [tune] seconds to receive the response
-GOOGLE_OWN_HOSTS = ("news", "accounts", "policies", "support", "consent")
-REDIRECT_ANCHOR_RE = re.compile(
-    r'(?:data-n-au|href)="'
-    r'(https?://(?!(?:www\.)?(?:' + "|".join(GOOGLE_OWN_HOSTS) + r')'
-    r'\.google\.com)[^"]+)"'
+GOOGLE_ASSET_HOST_RE = re.compile(
+    r"(?:^|\.)(?:google\.com|google\.[a-z.]{2,6}|googleusercontent\.com"
+    r"|gstatic\.com|ggpht\.com|googleapis\.com|goo\.gl|withgoogle\.com)$",
+    re.I,
 )
+REDIRECT_ANCHOR_RE = re.compile(
+    r'<a\b[^>]*?(?:data-n-au|href)="(https?://[^"]+)"', re.I
+)
+ASSET_PATH_RE = re.compile(
+    r"\.(?:png|jpe?g|gif|webp|svg|ico|css|js|woff2?|ttf|mp4|m3u8)(?:$|[?#])"
+    r"|=[sw]\d{1,4}(?:-[a-z0-9-]+)?$",          # =w16, =s96-c: image sizing
+    re.I,
+)
+
+
+def looks_like_article_url(candidate: str) -> bool:
+    if not candidate or not candidate.lower().startswith(("http://", "https://")):
+        return False
+    host = host_of_url(candidate)
+    if not host or GOOGLE_ASSET_HOST_RE.search(host):
+        return False
+    if is_redirector_url(candidate):
+        return False
+    if ASSET_PATH_RE.search(candidate):
+        return False
+    # A bare host with no path is a home page, not an article.
+    path = candidate.split("://", 1)[1]
+    return "/" in path and len(path.split("/", 1)[1].strip("/")) >= 3
 _redirect_cache: dict[str, str] = {}
 _redirect_session: requests.Session | None = None
 redirect_stats = {"resolved": 0, "failed": 0, "cached": 0}
@@ -222,15 +245,19 @@ def resolve_redirector_url(raw_url: str) -> str:
             allow_redirects=True,
         )
         final = getattr(resp, "url", "") or ""
-        if final and not is_redirector_url(final):
+        if looks_like_article_url(final):
             resolved = final
         elif resp.status_code < 400 and resp.text:
-            m = REDIRECT_ANCHOR_RE.search(resp.text[:200_000])
-            if m:
-                resolved = m.group(1)
+            for m in REDIRECT_ANCHOR_RE.finditer(resp.text[:200_000]):
+                cand = html.unescape(m.group(1))
+                if looks_like_article_url(cand):
+                    resolved = cand
+                    break
     except Exception:
         resolved = ""
     resolved = normalize_url(resolved) if resolved else ""
+    if resolved and not looks_like_article_url(resolved):
+        resolved = ""      # normalize_url should not change the verdict, but be sure
     _redirect_cache[raw_url] = resolved
     redirect_stats["resolved" if resolved else "failed"] += 1
     return resolved
