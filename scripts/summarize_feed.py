@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import glob
+import html as html_mod
 import json
 import math
 import os
@@ -178,6 +179,90 @@ CHALLENGE_PATTERN = re.compile(
     r"Just a moment|Checking your browser|Verify you are human|"
     r"[Ee]nable JavaScript and cookies|Access [Dd]enied|cf-challenge"
 )
+
+JUNK_BODY_RE = re.compile(
+    r"Just a moment"
+    r"|Checking your browser"
+    r"|Verify you are human"
+    r"|Enable JavaScript and cookies"
+    r"|Please enable (?:JS|JavaScript|cookies)"
+    r"|(?:Access|Permission) [Dd]enied"
+    r"|You don'?t have permission to access"
+    r"|Why have I been blocked"
+    r"|Cloudflare Ray ID"
+    r"|Attention Required"
+    r"|Request unsuccessful"
+    r"|cf-challenge|cf_chl"
+    r"|needs to review the security of your connection"
+    r"|protect itself from (?:online attacks|malicious bots)"
+    r"|verif(?:y|ies) (?:that )?you are not a bot"
+    r"|[Mm]aking sure you'?re not a bot"
+    r"|Anubis (?:to protect|has protected)"
+    r"|Comprehensive up-to-date news coverage, aggregated from sources"
+    r"|為了繼續，我們需要驗證您不是機器人|为了继续，我们需要验证您不是机器人"
+    r"|啟用JavaScript，然後重新載入頁面|启用JavaScript，然后重新加载页面"
+    r"|豆瓣.{0,6}載入中|豆瓣.{0,6}加载中"
+    r"|安全验证|安全驗證|验证码|驗證碼"
+    r"|禁止访问|禁止訪問|访问异常|異常流量|异常流量"
+    r"|正在驗證您的請求|正在验证您的请求"
+    r"|該網站使用安全服務|该网站使用安全服务"
+    r"|正在確認你是不是機器人|正在确认你是不是机器人",
+    re.I,
+)
+JUNK_SCAN_CHARS = 4000
+
+
+def is_junk_body(text: str) -> bool:
+    """True when the extracted text is an interstitial / generic site blurb
+    rather than the article."""
+    return bool(text) and bool(JUNK_BODY_RE.search(text[:JUNK_SCAN_CHARS]))
+
+
+BLANK_SUMMARY = " "
+DOUBAN_MARK_PREFIXES = ("想读", "想看", "想听")
+def is_douban_mark(url: str, title: str) -> bool:
+    return ("douban.com" in (url or "")
+            and (title or "").strip().startswith(DOUBAN_MARK_PREFIXES))
+NO_BODY_HOSTS = ("news.google.com",)
+TITLE_PUBLISHER_RE = re.compile(r"\s+[-–—]\s+([^-–—]{1,40})$")
+
+
+def is_no_body_host(url: str) -> bool:
+    host = host_of(url)
+    return any(host == h or host.endswith("." + h) for h in NO_BODY_HOSTS)
+
+
+def no_body_summary(title: str) -> str:
+    """Summary for a host that never serves an article body.
+
+    news.google.com/rss/articles/... links are opaque: every one in the archive
+    decodes to an "AU_yqL..." token with no URL inside it, so the target cannot
+    be recovered offline, and the page itself only ever yields Google News's
+    generic site-wide blurb. What the feed does carry is the headline and the
+    publisher, so that is what gets written -- marked with FALLBACK_MARK,
+    because it is not the article text.
+
+    Worth fixing upstream where possible: a Google News *search* feed built on
+    `site:example.com` can be replaced with that publisher's own RSS, which
+    gives real URLs and real bodies.
+    """
+    raw = (title or "").strip()
+    if not raw:
+        return ""
+    publisher = ""
+    m = TITLE_PUBLISHER_RE.search(raw)
+    if m:
+        publisher = m.group(1).strip()
+        raw = raw[: m.start()].strip()
+    lang = detect_lang(raw)
+    if lang == "zh-hans":
+        raw = _to_twp(raw)
+    elif lang != "zh-hant":
+        translated = translate_to_zhtw(raw) if TRANSLATE else None
+        if translated:
+            raw = _to_twp(translated)
+    text = f"{raw}（{publisher}）" if publisher else raw
+    return text + " " + FALLBACK_MARK
 
 TRACKING_PARAM_EXACT = {
     "ref", "spm", "fbclid", "gclid", "igshid", "mkt_tok",
@@ -368,6 +453,104 @@ def pick_subtitle(item_id: str):
 VTT_TAG_RE = re.compile(r"<[^>]+>")
 VTT_WATERMARK_RE = re.compile(r"\[[^\]]*(?:人工智慧翻譯|AI\s*翻譯|criblate\.com)[^\]]*\]", re.I)
 
+CAPTION_ANNOTATION_RE = re.compile(
+    r"\[\s*(?:_+|\*+|\s)*\s*\]"
+    r"|\[[^\]\n]{1,30}\]"
+    r"|\(\s*(?:music|applause|laughter|inaudible|crosstalk|silence)\s*\)",
+    re.I,
+)
+SPEAKER_ARROW_RE = re.compile(r"(?:&gt;\s*){2,}|>{2,}")
+
+
+def clean_caption_text(text: str) -> str:
+    """Strip non-speech annotation and entity escapes from caption text."""
+    text = html_mod.unescape(text)
+    text = SPEAKER_ARROW_RE.sub("\n", text)
+    text = CAPTION_ANNOTATION_RE.sub(" ", text)
+    text = re.sub(r"[ \t]{2,}", " ", text)
+    text = re.sub(r"^[ \t]+|[ \t]+$", "", text, flags=re.M)
+    text = re.sub(r"\n{2,}", "\n", text)
+    return text.strip()
+
+
+# ---- Markdown (reader-proxy output) -----------------------------------------
+# r.jina.ai renders pages to Markdown, so its text arrives full of image
+# embeds, link targets, heading hashes and emphasis markers. trafilatura's
+# output is plain text, so this only ever runs on reader-proxy text.
+MD_IMAGE_RE = re.compile(r"!\[[^\]]*\]\([^)]*\)")
+MD_IMAGE_LABEL_RE = re.compile(
+    r"\[\s*!?\s*\[?\s*(?:Image|圖片|图片|圖像|图像|Figure|插圖|插图)"
+    r"\s*\d*\s*[:：]?[^\]]*\](?:\([^)]*\))?\s*\]?",
+    re.I,
+)
+MD_LINK_RE = re.compile(r"\[([^\]\n]*?)\]\((?:https?:|/|#|mailto:)[^)\s]*\)")
+MD_BARE_URL_RE = re.compile(r"<?https?://[^\s)\]<>，。）]+>?")
+MD_HEADING_RE = re.compile(r"^\s{0,3}#{1,6}\s*", re.M)
+MD_RULE_RE = re.compile(r"^\s*(?:[-*_]\s*){3,}$", re.M)
+MD_BULLET_RE = re.compile(r"^\s{0,6}(?:[-*+]|\d{1,2}[.)])\s+", re.M)
+MD_EMPH_RE = re.compile(r"\*\*|__|\*|`|~~")
+MD_ORPHAN_BRACKET_RE = re.compile(r"^[\s\]\[)(|:-]+|[\s\[(|]+$", re.M)
+
+
+def clean_markdown(text: str) -> str:
+    """Reduce Markdown to the prose inside it, keeping link anchor text."""
+    if not text:
+        return text
+    text = html_mod.unescape(text)
+    text = MD_IMAGE_RE.sub("", text)
+    text = MD_IMAGE_LABEL_RE.sub("", text)
+    for _ in range(3):                      # nested [a](b) inside [c](d)
+        new = MD_LINK_RE.sub(r"\1", text)
+        if new == text:
+            break
+        text = new
+    text = MD_RULE_RE.sub("", text)
+    text = MD_HEADING_RE.sub("", text)
+    text = MD_BULLET_RE.sub("", text)
+    text = MD_BARE_URL_RE.sub("", text)
+    text = MD_EMPH_RE.sub("", text)
+    text = MD_ORPHAN_BRACKET_RE.sub("", text)
+    text = re.sub(r"[ \t]{2,}", " ", text)
+    text = re.sub(r"\n{3,}", "\n\n", text)
+    return text.strip()
+
+
+# ---- PTT --------------------------------------------------------------------
+PTT_META_RE = re.compile(r"^\s*(?:作者|標題|時間|看板)[\s:：].*$", re.M)
+PTT_SIG_RE = re.compile(r"^\s*※\s*(?:發信站|文章網址|編輯\s*[:：]|伸謝)[^\n]*$", re.M)
+PTT_PUSH_PREFIX_RE = re.compile(
+    r"(?:^|(?<=[\s。！？]))\s*(?:推|噓|嘘|→)\s*[A-Za-z0-9_]{2,20}\s*[:：]\s*"
+)
+PTT_IP_TIME_RE = re.compile(
+    r"\s*(?:\d{1,3}(?:\.\d{1,3}){3})?\s*\d{2}/\d{2}\s+\d{2}:\d{2}\s*"
+)
+PTT_BARE_IP_RE = re.compile(r"\s*\d{1,3}(?:\.\d{1,3}){3}\s*")
+
+
+def clean_ptt(text: str) -> str:
+    """Normalise a PTT page: drop the metadata header and signature block,
+    strip the 推/噓/→ tag and the commenter id in front of each comment, and
+    strip the ip + date + time that trails it.
+
+    The ip/date/time removal matters for more than tidiness: every push line
+    ends in an ip address and a timestamp, which entity_count() reads as
+    fact-dense, so leaving them in makes the extractive scorer prefer comment
+    lines over the article body.
+    """
+    if not text:
+        return text
+    text = PTT_META_RE.sub("", text)
+    text = PTT_SIG_RE.sub("", text)
+    text = PTT_PUSH_PREFIX_RE.sub("\n", text)
+    text = PTT_IP_TIME_RE.sub("\n", text)
+    text = PTT_BARE_IP_RE.sub(" ", text)
+    text = re.sub(r"[ \t]{2,}", " ", text)
+    return re.sub(r"\n{2,}", "\n", text).strip()
+
+
+def is_ptt(url: str) -> bool:
+    return "ptt.cc" in (url or "")
+
 CJK_TERMINAL_RE = re.compile(r"[。！？!?；;]")
 UNPUNCTUATED_CHARS_PER_TERMINAL = 60
 ZH_CONNECTIVE_RE = re.compile(
@@ -375,6 +558,7 @@ ZH_CONNECTIVE_RE = re.compile(
     r"而且|另外|同時|然後|之後|後來|首先|接著|最後|即是|反而|不然|"
     r"例如|譬如|比如|總之|換言之)"
 )
+MIN_CAPTION_CHARS = 30       # [tune] below this a caption track carries no speech
 SUBTITLE_MERGE_TARGET = 45   # [tune] aim for pseudo-sentences of about this many chars
 SUBTITLE_MERGE_MAX = 75      # [tune] never let one grow past this
 SUBTITLE_CONNECTIVE_MIN = 15 # [tune] don't break at a connective below this length
@@ -460,16 +644,18 @@ def vtt_to_text(path: str) -> str:
         return ""
 
     raw = VTT_WATERMARK_RE.sub("", raw)
-    blocks = re.split(r"\n\s*\n", raw.strip())
+    cues: list[list[str]] = []
+    for line in raw.splitlines():
+        if "-->" in line:
+            cues.append([])
+        elif cues:
+            cues[-1].append(line)
+
     lines_out = []
     last = None
-    for block in blocks:
-        block_lines = block.splitlines()
-        ts_idx = next((i for i, l in enumerate(block_lines) if "-->" in l), None)
-        if ts_idx is None:
-            continue
+    for payload in cues:
         cleaned = []
-        for tl in block_lines[ts_idx + 1:]:
+        for tl in payload:
             tl = VTT_TAG_RE.sub("", tl).strip()
             if tl:
                 cleaned.append(tl)
@@ -481,6 +667,7 @@ def vtt_to_text(path: str) -> str:
             last = candidate
 
     text = "\n".join(lines_out)
+    text = clean_caption_text(text)
     text = re.sub(r"\n{2,}", "\n", text).strip()
     if (text and cjk_ratio(text) >= 0.25
             and chars_per_terminal(text) > UNPUNCTUATED_CHARS_PER_TERMINAL):
@@ -573,18 +760,28 @@ def _http_get(url: str, *, timeout: int, impersonate: bool = False):
         return None, "fail"
 
 
+def unescape_text(text: str) -> str:
+    """Resolve HTML entities. Extraction leaves them behind in a few places --
+    meta tag attributes are raw attribute text, and both trafilatura's output
+    and RSS bodies can carry &amp; / &#39; / &gt; through unchanged -- and an
+    entity that survives to the summary also survives translation."""
+    if not text:
+        return text
+    return html_mod.unescape(text).replace("\u00a0", " ").replace("\u200b", "")
+
+
 def extract_from_html(html: str):
     """(body, meta, has_table) from a page's HTML."""
     has_table = bool(TABLE_TAG_RE.search(html))
     body = trafilatura.extract(
         html, include_comments=False, include_tables=False, favor_recall=True
     )
-    body = maybe_fix_mojibake(body.strip()) if body else ""
+    body = maybe_fix_mojibake(unescape_text(body).strip()) if body else ""
     if len(body) < MIN_USABLE_BODY and _HAS_BS4:
-        fallback = _bs4_fallback_extract(html)
+        fallback = unescape_text(_bs4_fallback_extract(html))
         if len(fallback) > len(body):
             body = fallback
-    meta = maybe_fix_mojibake(extract_meta_description(html))
+    meta = maybe_fix_mojibake(unescape_text(extract_meta_description(html)))
     return body, meta, has_table
 
 
@@ -617,6 +814,10 @@ def fetch_via_reader(url: str):
     marker = "Markdown Content:"
     if marker in text[:1000]:
         text = text.split(marker, 1)[1].strip()
+    text = clean_markdown(text)
+    if is_junk_body(text):
+        print("    reader proxy returned an interstitial, discarded")
+        return None
     return text or None
 
 
@@ -661,18 +862,31 @@ def fetch_content(url: str, feed_content: str = ""):
     URLs that just work are unaffected, and the expensive third-party
     strategies only run for the ones that failed.
     """
+    def postprocess(result):
+        """Per-source text cleanup, applied whichever strategy won."""
+        text, source_type, has_table = result
+        if text and is_ptt(url):
+            text = clean_ptt(text)
+            if len(text) < MIN_USABLE_BODY and source_type == "body":
+                source_type = "meta"
+        return text, source_type, has_table
+
     slow = is_slow_host(url)
     timeout = FETCH_TIMEOUT_SLOW if slow else FETCH_TIMEOUT
     best = (None, None, False)
     blocked = False
     notfound = False
+    junk = False
 
     def consider(html: str):
         """Extract, and return a result if it is good enough to stop on."""
-        nonlocal best, blocked
+        nonlocal best, blocked, junk
         body, meta, has_table = extract_from_html(html)
         if len(body) < MIN_USABLE_BODY and CHALLENGE_PATTERN.search(html[:20000]):
             blocked = True
+            return None
+        if is_junk_body(body) or is_junk_body(meta):
+            junk = True
             return None
         result = classify_text(body, meta, has_table)
         if result[1] == "body":
@@ -700,38 +914,41 @@ def fetch_content(url: str, feed_content: str = ""):
         if found:
             if impersonate:
                 print(f"    recovered via curl_cffi: {url}")
-            return found
+            return postprocess(found)
 
     # The feed usually carried the article with it; free, and no third party.
-    feed_text = (feed_content or "").strip()
+    feed_text = unescape_text(feed_content or "").strip()
     if len(feed_text) >= MIN_USABLE_BODY:
         print("    recovered via feed content")
-        return feed_text, "body", False
+        return postprocess((feed_text, "body", False))
 
     # A blurb is a poor result but it is a result. Escalating to the external
     # services for every meta-only page would mean thousands of extra requests
     # per run, so by default that only happens when there is nothing at all.
     if best[1] == "meta" and not READER_ON_META:
-        return best
+        return postprocess(best)
 
     reader_text = fetch_via_reader(url)
     if reader_text and len(reader_text) >= MIN_USABLE_BODY:
         print("    recovered via reader proxy")
-        return reader_text, "body", False
+        return postprocess((reader_text, "body", False))
 
     archived = fetch_via_wayback(url)
     if archived:
         found = consider(archived)
         if found:
             print("    recovered via web archive")
-            return found
+            return postprocess(found)
 
     if feed_text:
         print("    recovered via feed content (short)")
-        return feed_text, "meta", False
+        return postprocess((feed_text, "meta", False))
 
     if best[1]:
-        return best
+        return postprocess(best)
+    if junk:
+        print("    interstitial / generic site blurb only, skipped")
+        return None, "junk", False
     if blocked:
         print("    blocked by site, no copy found by any strategy")
         return None, "blocked", False
@@ -752,7 +969,31 @@ def cjk_ratio(text: str) -> float:
     return cjk / letters if letters else 0.0
 
 
+KANA_RE = re.compile(r"[\u3040-\u309f\u30a0-\u30fa\u30fc]")
+JA_KANA_THRESHOLD = 0.15
+JA_KANA_MIN_COUNT = 8
+
+
+def kana_ratio(text: str) -> float:
+    if not text:
+        return 0.0
+    letters = sum(1 for ch in text if ch.isalpha() or "\u4e00" <= ch <= "\u9fff")
+    return len(KANA_RE.findall(text)) / letters if letters else 0.0
+
+
+def is_japanese(text: str) -> bool:
+    return (len(KANA_RE.findall(text or "")) >= JA_KANA_MIN_COUNT
+            and kana_ratio(text) >= JA_KANA_THRESHOLD)
+
+
+def is_cjk_lang(lang: str) -> bool:
+    """Languages written without inter-word spaces."""
+    return lang in ("zh-hant", "zh-hans", "ja")
+
+
 def detect_lang(text: str) -> str:
+    if is_japanese(text):
+        return "ja"
     if cjk_ratio(text) < 0.25:
         return "other"
     variant = _tr.detect_variant(text) if _tr else "hant"
@@ -1061,6 +1302,12 @@ def build_summary(content: str, source_type: str, has_table: bool = False) -> st
         summary = extractive_summary(content, True, text_budget)
     elif lang == "zh-hans":
         summary = _to_twp(extractive_summary(content, True, text_budget))
+    elif lang == "ja":
+        raw = extractive_summary(
+            content, True, int(text_budget * FOREIGN_BUDGET_RATIO)
+        )
+        translated = translate_to_zhtw(raw) if TRANSLATE else None
+        summary = _to_twp(translated) if translated else raw
     else:
         raw = extractive_summary(
             content, False, int(text_budget * FOREIGN_BUDGET_RATIO)
@@ -1073,7 +1320,7 @@ def build_summary(content: str, source_type: str, has_table: bool = False) -> st
         if summary is None:
             summary = raw
 
-    if detect_lang(summary) == "other":
+    if not is_cjk_lang(detect_lang(summary)):
         summary = re.sub(r"\s+", " ", summary).strip()
     else:
         summary = re.sub(
@@ -1319,7 +1566,7 @@ def main(argv=None) -> int:
 
     start_time = time.monotonic()
     time_cut_off = False
-    ok = blocked_n = failed = 0
+    ok = blocked_n = failed = blank_n = junk_n = 0
     attempted = 0
 
     # ---- Pass 1: feed-first hosts -------------------------------------------
@@ -1390,6 +1637,25 @@ def main(argv=None) -> int:
 
         url = it["url"]
 
+        if is_no_body_host(url):
+            summary = no_body_summary(it.get("title"))
+            if summary:
+                it["summary"] = summary
+                it.pop("feed_content", None)
+                ok += 1
+                print(f"    {url[:60]}\n    title-only -> {summary[:60]}")
+            else:
+                failed += 1
+            save_items(ITEMS_FILE, items, wrapper)
+            continue
+
+        if is_douban_mark(url, it.get("title")):
+            it["summary"] = BLANK_SUMMARY
+            it.pop("feed_content", None)
+            blank_n += 1
+            save_items(ITEMS_FILE, items, wrapper)
+            continue
+
         # YouTube videos: always summarize from subtitles instead of
         # fetching the page (video pages have no article body anyway).
         # If no matching subtitle is found yet, skip this item and leave it
@@ -1411,9 +1677,13 @@ def main(argv=None) -> int:
             print(f"    subtitle: {os.path.basename(path)} (orig={orig_lang}, sub={sub_lang})")
 
             text = vtt_to_text(path)
-            if len(text) < 30:
-                print("    subtitle too short/empty, skipped")
-                failed += 1
+            if len(text) < MIN_CAPTION_CHARS:
+                print(f"    no usable speech in subtitle ({len(text)} chars), "
+                      f"marked blank")
+                it["summary"] = BLANK_SUMMARY
+                it.pop("feed_content", None)
+                blank_n += 1
+                save_items(ITEMS_FILE, items, wrapper)
                 continue
             try:
                 summary = build_summary(text, "body")
@@ -1488,6 +1758,10 @@ def main(argv=None) -> int:
             url, feed_content=it.get("feed_content") or ""
         )
 
+        if source_type == "junk":
+            junk_n += 1
+            print("    junk page -> skipped")
+            continue
         if source_type in ("blocked", "gone"):
             it["summary"] = BLOCKED_SUMMARY if source_type == "blocked" else GONE_SUMMARY
             it.pop("feed_content", None)
@@ -1519,7 +1793,8 @@ def main(argv=None) -> int:
         save_items(ITEMS_FILE, items, wrapper)
         time.sleep(SLEEP_BETWEEN_ITEMS)
 
-    print(f"Done. attempted={attempted}, ok={ok}, blocked={blocked_n}, failed={failed}"
+    print(f"Done. attempted={attempted}, ok={ok}, blocked={blocked_n}, "
+          f"blank={blank_n}, junk={junk_n}, failed={failed}"
           f"{', stopped early: time budget reached' if time_cut_off else ''}")
 
     newly_scored = score_corpus_novelty(items)
