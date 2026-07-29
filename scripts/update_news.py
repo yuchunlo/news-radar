@@ -1002,7 +1002,7 @@ def main(argv=None) -> int:
     parser.add_argument("--rss-opml", default="", help="Optional OPML file path to include RSS sources")
     parser.add_argument("--rss-max-feeds", type=int, default=0, help="Optional max OPML RSS feeds to fetch (0 means all)")
     parser.add_argument(
-        "--feed-content-preview", type=int, default=200,
+        "--feed-content-preview", type=int, default=40,
         help="Chars of each captured feed body to print in the end-of-run "
              "report (0 = don't print the report, -1 = print it in full)",
     )
