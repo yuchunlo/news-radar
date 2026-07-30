@@ -9,6 +9,7 @@ import os
 import tempfile
 import html as html_mod
 import json
+import jsonio
 import re
 import threading
 import xml.etree.ElementTree as ET
@@ -735,7 +736,7 @@ DEDUPE_KEY_FIELDS: tuple[str, ...] = ("published_at", "source", "url")
 
 # Identity fields, plus fields whose own merge rule is handled explicitly.
 MERGE_HANDLED_FIELDS = frozenset(
-    DEDUPE_KEY_FIELDS + ("id", "star", "summary", "first_seen_at", "last_seen_at")
+    DEDUPE_KEY_FIELDS + ("id", "summary", "first_seen_at", "last_seen_at")
 )
 
 FALLBACK_MARK = "↛"
@@ -770,7 +771,6 @@ def better_summary(current: str | None, other: str | None) -> str | None:
 def absorb_item(keeper: dict[str, Any], other: dict[str, Any]) -> None:
     """Fold `other`'s values into `keeper` without overwriting anything
     `keeper` already knows (thumbnail, summary, scores, ...)."""
-    keeper["star"] = bool(keeper.get("star")) or bool(other.get("star"))
     merged_summary = better_summary(keeper.get("summary"), other.get("summary"))
     if not is_blank(merged_summary):
         keeper["summary"] = merged_summary
@@ -852,7 +852,7 @@ def migrate_record_urls(records: list[dict[str, Any]]) -> int:
 
 def write_json_atomic(path: Path, payload: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    text = json.dumps(payload, ensure_ascii=False, indent=2) + "\n"
+    text = jsonio.dumps(payload)
     fd, tmp_name = tempfile.mkstemp(dir=str(path.parent), prefix=path.name + ".", suffix=".tmp")
     tmp = Path(tmp_name)
     try:
@@ -959,7 +959,6 @@ def main(argv=None) -> int:
                 "published_at": iso(raw.published_at),
                 "first_seen_at": iso(now),
                 "last_seen_at": iso(now),
-                "star": False,
             }
             if raw.content:
                 new_item["feed_content"] = raw.content
