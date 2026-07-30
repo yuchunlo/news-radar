@@ -113,14 +113,75 @@ USE_WAYBACK = os.environ.get("USE_WAYBACK", "on").lower() != "off"
 # real body. Off by default: correct but expensive, since a lot of pages are
 # meta-only and each one becomes an extra third-party request.
 READER_ON_META = os.environ.get("READER_ON_META", "").lower() in ("1", "true", "yes", "on")
+SUMMARY_SKIP_HOSTS = ("news.google.com",)
+
+
+def is_summary_skip_host(url: str) -> bool:
+    host = host_of(url)
+    return any(host == h or host.endswith("." + h) for h in SUMMARY_SKIP_HOSTS)
+
+
 FEED_FIRST_HOSTS = (
-    "medium.com", "honest-broker.com", "lutaonan.com",
-    "cocktail4party.com", "noswag.tw", "samaltman.com", "ruanyifeng.com",
-    "smallbooks.com.tw", "hunterwalk.com", "waitbutwhy.com",
-    "wordpress.com", "blogspot.com", "davidoks.blog", "fs.blog",
-    "devtang.com", "yuanyu.idv.tw", "uselessetymology.com", "vox.com",
-    "shiuncorner.com", "readtrung.com", "starrocket.io", "curtismchale.ca",
-    "tiaodao.typlog.io", "travelwithbook.com", "buttondown.com",
+    "abei.club",
+    "ageofinvention.xyz",
+    "artincontext.org",
+    "attlin.com",
+    "beartalking.com",
+    "bituzi.com",
+    "blogspot.com",
+    "buttondown.com",
+    "caffes.me",
+    "careher.net",
+    "cashchou.com",
+    "chaidarun.com",
+    "cityofsound.com",
+    "cocktail4party.com",
+    "coolshell.cn",
+    "curtismchale.ca",
+    "davidoks.blog",
+    "devtang.com",
+    "esence.travel",
+    "firstround.com",
+    "fs.blog",
+    "gilifedesigner.com",
+    "honest-broker.com",
+    "huli.tw",
+    "hunterwalk.com",
+    "kopu.chat",
+    "limboy.me",
+    "lipperalpha.refinitiv.com",
+    "lostmagazine.org",
+    "louie.lu",
+    "lutaonan.com",
+    "matters.town",
+    "medium.com",
+    "meiguinfo.com",
+    "mickzh.com",
+    "noswag.tw",
+    "personaljournal.ca",
+    "polgeonow.com",
+    "pseudoyu.com",
+    "readtrung.com",
+    "ruanyifeng.com",
+    "samaltman.com",
+    "shiuncorner.com",
+    "sirupsen.com",
+    "sive.rs",
+    "smallbooks.com.tw",
+    "soidid.tw",
+    "starrocket.io",
+    "steveblank.com",
+    "substack.com",
+    "tiaodao.typlog.io",
+    "travelwithbook.com",
+    "unchartedterritories.tomaspueyo.com",
+    "uselessetymology.com",
+    "vox.com",
+    "waitbutwhy.com",
+    "werner.wiki",
+    "wordpress.com",
+    "yuanyu.idv.tw",
+    "zmonster.me",
 )
 FEED_FIRST_SAVE_EVERY = 50
 WAYBACK_LOOKUP = "https://archive.org/wayback/available"
@@ -1750,6 +1811,8 @@ def main(argv=None) -> int:
                           f"{len(feed_first) - idx + 1} item(s) stay pending.")
                     time_cut_off = True
                     break
+            if is_summary_skip_host(it.get("url") or ""):
+                continue
             feed_html = it.get("feed_content") or ""
             content = feed_html.strip()
             source_type = "body" if len(content) >= MIN_USABLE_BODY else "meta"
@@ -1804,6 +1867,8 @@ def main(argv=None) -> int:
         url = it["url"]
 
         host = host_of(url)
+        if is_summary_skip_host(url):
+            continue
         if host in junk_hosts:
             junk_skipped[host] += 1
             continue
