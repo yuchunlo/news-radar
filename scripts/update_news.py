@@ -8,7 +8,6 @@ import hashlib
 import os
 import tempfile
 import html as html_mod
-import html
 import json
 import re
 import threading
@@ -177,92 +176,6 @@ VOCUS_AUTHOR_RE = re.compile(
 )
 
 
-# ---- Redirector hosts -------------------------------------------------------
-REDIRECTOR_HOSTS: tuple[str, ...] = ("news.google.com",)
-REDIRECT_CONNECT_TIMEOUT = 5   # [tune] seconds to establish the connection
-REDIRECT_READ_TIMEOUT = 10     # [tune] seconds to receive the response
-GOOGLE_ASSET_HOST_RE = re.compile(
-    r"(?:^|\.)(?:google\.com|google\.[a-z.]{2,6}|googleusercontent\.com"
-    r"|gstatic\.com|ggpht\.com|googleapis\.com|goo\.gl|withgoogle\.com)$",
-    re.I,
-)
-REDIRECT_ANCHOR_RE = re.compile(
-    r'<a\b[^>]*?(?:data-n-au|href)="(https?://[^"]+)"', re.I
-)
-ASSET_PATH_RE = re.compile(
-    r"\.(?:png|jpe?g|gif|webp|svg|ico|css|js|woff2?|ttf|mp4|m3u8)(?:$|[?#])"
-    r"|=[sw]\d{1,4}(?:-[a-z0-9-]+)?$",          # =w16, =s96-c: image sizing
-    re.I,
-)
-
-
-def looks_like_article_url(candidate: str) -> bool:
-    if not candidate or not candidate.lower().startswith(("http://", "https://")):
-        return False
-    host = host_of_url(candidate)
-    if not host or GOOGLE_ASSET_HOST_RE.search(host):
-        return False
-    if is_redirector_url(candidate):
-        return False
-    if ASSET_PATH_RE.search(candidate):
-        return False
-    # A bare host with no path is a home page, not an article.
-    path = candidate.split("://", 1)[1]
-    return "/" in path and len(path.split("/", 1)[1].strip("/")) >= 3
-_redirect_cache: dict[str, str] = {}
-_redirect_session: requests.Session | None = None
-redirect_stats = {"resolved": 0, "failed": 0, "cached": 0}
-
-
-def is_redirector_url(raw_url: str) -> bool:
-    return host_matches(host_of_url(raw_url or ""), REDIRECTOR_HOSTS)
-
-
-def _redirect_http() -> requests.Session:
-    """A session of its own, so the feed pool is not held up by these."""
-    global _redirect_session
-    if _redirect_session is None:
-        _redirect_session = build_http_session()
-    return _redirect_session
-
-
-def resolve_redirector_url(raw_url: str) -> str:
-    """The publisher address behind a redirector link, or "" when it cannot be
-    reached.
-
-    One plain GET with redirects followed -- not the multi-step batchexecute
-    call. If the request lands off the redirector host that is the answer;
-    otherwise the returned HTML is searched for the publisher anchor.
-    """
-    if raw_url in _redirect_cache:
-        redirect_stats["cached"] += 1
-        return _redirect_cache[raw_url]
-    resolved = ""
-    try:
-        resp = _redirect_http().get(
-            raw_url,
-            timeout=(REDIRECT_CONNECT_TIMEOUT, REDIRECT_READ_TIMEOUT),
-            allow_redirects=True,
-        )
-        final = getattr(resp, "url", "") or ""
-        if looks_like_article_url(final):
-            resolved = final
-        elif resp.status_code < 400 and resp.text:
-            for m in REDIRECT_ANCHOR_RE.finditer(resp.text[:200_000]):
-                cand = html.unescape(m.group(1))
-                if looks_like_article_url(cand):
-                    resolved = cand
-                    break
-    except Exception:
-        resolved = ""
-    resolved = normalize_url(resolved) if resolved else ""
-    if resolved and not looks_like_article_url(resolved):
-        resolved = ""      # normalize_url should not change the verdict, but be sure
-    _redirect_cache[raw_url] = resolved
-    redirect_stats["resolved" if resolved else "failed"] += 1
-    return resolved
-
-
 def canonical_url(raw_url: str) -> str:
     """Host-specific canonical form, on top of normalize_url's tracking-param
     stripping.
@@ -272,8 +185,6 @@ def canonical_url(raw_url: str) -> str:
     m = VOCUS_AUTHOR_RE.match(url)
     if m:
         return f"{m.group(1)}/article/{m.group(2)}{m.group(3)}"
-    if is_redirector_url(url):
-        return resolve_redirector_url(url)
     return url
 
 
@@ -1072,15 +983,6 @@ def main(argv=None) -> int:
                 if raw.site_id == "opmlrss" or not existing.get("published_at"):
                     existing["published_at"] = iso(raw.published_at)
             existing["last_seen_at"] = iso(now)
-
-    if any(redirect_stats.values()):
-        print(
-            f"Redirector links: resolved={redirect_stats['resolved']} "
-            f"failed={redirect_stats['failed']} "
-            f"cache_hits={redirect_stats['cached']}"
-            + ("  (failed ones are dropped and retried next run)"
-               if redirect_stats["failed"] else "")
-        )
 
     # Prune old archive
     keep_after = now - timedelta(days=args.archive_days)
