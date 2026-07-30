@@ -3,6 +3,7 @@
 import glob
 import html as html_mod
 import json
+import jsonio
 import math
 import os
 import tempfile
@@ -40,8 +41,6 @@ MMR_LAMBDA = 0.7              # [tune] redundancy penalty strength
 MMR_DUP_THRESHOLD = 0.65      # [tune] sentences with Jaccard similarity >= this are dropped outright
 
 # ---- Information-value scoring ----------------------------------------------
-INFO_VALUE_SATURATION = 4.0   # [tune] fact-carrier density per 100 chars counted as "saturated" (=100)
-NOVELTY_DUP_COVERAGE = 0.7    # [tune] fact-overlap ratio >= this is flagged as a reprint
 
 # ---- Fetching / connection ---------------------------------------------------
 FETCH_TIMEOUT = 30            # [tune] per-request timeout (seconds)
@@ -516,6 +515,49 @@ MD_EMPH_RE = re.compile(r"\*\*|__|\*|`|~~")
 MD_ORPHAN_BRACKET_RE = re.compile(r"^[\s\]\[)(|:-]+|[\s\[(|]+$", re.M)
 
 
+# ---- 洩漏的標記清理 ----------------------------------------------------------
+# 兩類真實出現在既有摘要裡的殘骸：
+#
+# 1. markdown 連結的「孤兒尾巴」 `]( "permanent link")`。clean_markdown 的
+#    MD_LINK_RE 需要完整的 [text](url) 才會命中；blogspot 的版面把 `[` 放在
+#    上一個區塊，抽取後只剩下尾巴，於是 mcclin.blogspot.com 的摘要整段都是
+#    「BlogThis！]( "BlogThis！")分享至X]( "分享至X")」這種導覽殘骸。
+#
+# 2. 真正洩漏的 HTML：註解、script/style 區塊、meta/link 這類 void 標籤、
+#    以及 <br/>。
+#
+# 刻意**不做**通用的 `<[^>]+>` 清除：語料裡的 <key> <string> <true/> 幾乎全部
+# 來自 magicliang.github.io、blog.devtang.com 這些技術部落格文章內的 plist
+# 程式碼範例（201 + 117 次）。無條件清除會把文章的程式碼區塊挖空，那是把一個
+# 小瑕疵換成一個大破壞。
+MD_ORPHAN_TAIL_RE = re.compile(r'\]\(\s*(?:"[^"\n]{0,120}")?\s*\)')
+HTML_COMMENT_RE = re.compile(r"<!--.*?-->", re.S)
+HTML_BLOCK_RE = re.compile(r"<(script|style|noscript)\b[^>]*>.*?</\1\s*>", re.S | re.I)
+HTML_ORPHAN_BLOCK_RE = re.compile(r"</?(?:script|style|noscript)\b[^>]*>", re.I)
+HTML_VOID_RE = re.compile(
+    r"<\s*(?:meta|link|base|source|track|param|input|img|iframe|"
+    r"col|area|embed|wbr)\b[^>]*/?>", re.I)
+HTML_BR_RE = re.compile(r"<\s*br\s*/?\s*>", re.I)
+
+
+def sanitize_leaked_markup(text: str) -> str:
+    """清掉抽取階段漏出來的標記殘骸。保留程式碼區塊裡看起來像標籤的內容。"""
+    if not text:
+        return text
+    text = HTML_COMMENT_RE.sub("", text)
+    text = HTML_BLOCK_RE.sub("", text)
+    text = HTML_ORPHAN_BLOCK_RE.sub("", text)
+    text = HTML_VOID_RE.sub("", text)
+    text = HTML_BR_RE.sub("\n", text)
+    prev = None
+    while prev != text:                      # 尾巴會連續出現，要清到收斂
+        prev = text
+        text = MD_ORPHAN_TAIL_RE.sub("", text)
+    text = re.sub(r"[ \t]{2,}", " ", text)
+    text = re.sub(r"\n{3,}", "\n\n", text)
+    return text.strip()
+
+
 def clean_markdown(text: str) -> str:
     """Reduce Markdown to the prose inside it, keeping link anchor text."""
     if not text:
@@ -534,6 +576,7 @@ def clean_markdown(text: str) -> str:
     text = MD_BARE_URL_RE.sub("", text)
     text = MD_EMPH_RE.sub("", text)
     text = MD_ORPHAN_BRACKET_RE.sub("", text)
+    text = sanitize_leaked_markup(text)
     text = re.sub(r"[ \t]{2,}", " ", text)
     text = re.sub(r"\n{3,}", "\n\n", text)
     return text.strip()
@@ -1476,6 +1519,7 @@ def strip_boilerplate(text: str) -> str:
     MIN_KEEP_AFTER_CUT characters, so a stray early match can't wipe out
     the whole body.
     """
+    text = sanitize_leaked_markup(text)
     for block in REMOVE_BLOCKS:
         text = text.replace(block, "")
     text = REMOVE_PHRASE_RE.sub("", text)
@@ -1557,113 +1601,6 @@ def build_summary(content: str, source_type: str, has_table: bool = False) -> st
     return (summary + suffix) if summary else ""
 
 
-# ---------------------------------------------------------------- Information-value scoring
-
-SCORE_MARK = "novelty"
-
-
-def fact_tokens(text: str):
-    """Language-neutral set of fact carriers: entities (proper nouns/quotes)
-    + numbers/amounts/percentages."""
-    toks = set()
-    low = (text or "").lower()
-    for alias, canonical in VENDOR_ALIASES.items():
-        if alias in low:
-            toks.add(f"@{canonical}")     # prefix avoids colliding with regular tokens
-    for m in MODEL_RE.finditer(text or ""):
-        toks.add("#" + re.sub(r"\s+", "-", m.group(1).lower()))
-    for m in ENTITY_PATTERN.findall(text or ""):
-        toks.add(re.sub(r"\s+", " ", m).strip().lower())
-    for m in NUM_PATTERN.findall(text or ""):
-        t = m.strip()
-        if re.fullmatch(r"\d{1,3}", t):
-            continue
-        toks.add(t.lower())
-    return toks
-
-
-def info_value_self(text: str) -> float:
-    """A single article's own information density (0-100): fact-carrier
-    concentration per unit length. Independent of the corpus, so it can be
-    cached on its own."""
-    is_cjk = detect_lang(text) != "other"
-    sents = split_sentences(text, is_cjk)
-    unit = len(text) if is_cjk else len(text.split())
-    if not sents or not unit:
-        return 0.0
-    facts = sum(entity_count(x) for x in sents)
-    return min(100.0 * facts / unit / INFO_VALUE_SATURATION, 1.0) * 100.0
-
-
-def score_corpus_novelty(items):
-    """Compute cross-article novelty for items that don't have a score yet;
-    already-scored items are left frozen, but their facts still count toward
-    the corpus baseline, so newly-arrived reprints can still be detected
-    against them.
-
-    Fields written: info_value (this article's own density), novelty
-    (cross-article novelty, 0-100), unique_facts (facts unique across the
-    whole corpus), duplicate_of (suspected source-of-reprint url, or null),
-    value_adjusted (= info_value * (1 - overlap), corpus-adjusted total value).
-    """
-    scored = [it for it in items if isinstance(it, dict) and it.get("summary")]
-    if not scored:
-        return 0
-
-    # Oldest publication date first. The corpus baseline (corpus_df) is built
-    # from every scored item before any of them is written, so the numbers do
-    # not depend on this order — but the write order does, and going
-    # oldest-first means a run that is cut short has finished the backlog
-    # rather than a random slice of it.
-    scored.sort(key=lambda it: (
-        _parse_ts(it.get("published_at")),
-        _parse_ts(it.get("first_seen_at")),
-        str(it.get("id") or ""),
-    ))
-
-    ft = {id(it): fact_tokens(it["summary"]) for it in scored}
-    corpus_df = Counter()
-    for it in scored:
-        for tok in ft[id(it)]:
-            corpus_df[tok] += 1
-    N = len(scored)
-    maxnov = math.log(N) if N > 1 else 1.0
-
-    newly = 0
-    for it in scored:
-        if SCORE_MARK in it and not RESCORE_ALL:
-            continue
-        toks = ft[id(it)]
-        if not toks:
-            it["info_value"] = round(info_value_self(it["summary"]), 1)
-            it["novelty"] = 0.0
-            it["unique_facts"] = 0
-            it["duplicate_of"] = None
-            it["value_adjusted"] = 0.0
-            newly += 1
-            continue
-        novelty = sum(math.log(N / corpus_df[t]) for t in toks) / len(toks)
-        unique = sum(1 for t in toks if corpus_df[t] == 1)
-        cov, twin = 0.0, None
-        for other in scored:
-            if other is it:
-                continue
-            ot = ft[id(other)]
-            if not ot:
-                continue
-            c = len(toks & ot) / len(toks)
-            if c > cov:
-                cov, twin = c, other
-        base = info_value_self(it["summary"])
-        it["info_value"] = round(base, 1)
-        it["novelty"] = round(100.0 * novelty / maxnov, 1) if maxnov else 0.0
-        it["unique_facts"] = unique
-        it["duplicate_of"] = twin.get("url") if (twin and cov > NOVELTY_DUP_COVERAGE) else None
-        it["value_adjusted"] = round(base * (1.0 - cov), 1)
-        newly += 1
-    return newly
-
-
 # ---------------------------------------------------------------- Main flow
 
 def build_arg_parser():
@@ -1718,7 +1655,7 @@ def save_items(path: str, items: list, wrapper: dict | None) -> None:
         payload = wrapper
     else:
         payload = items
-    text = json.dumps(payload, ensure_ascii=False, indent=2) + "\n"
+    text = jsonio.dumps(payload)
     directory = os.path.dirname(os.path.abspath(path)) or "."
     fd, tmp = tempfile.mkstemp(dir=directory,
                                prefix=os.path.basename(path) + ".", suffix=".tmp")
@@ -2044,9 +1981,6 @@ def main(argv=None) -> int:
           f"blank={blank_n}, junk={junk_n}, failed={failed}"
           f"{', stopped early: time budget reached' if time_cut_off else ''}")
 
-    newly_scored = score_corpus_novelty(items)
-    if newly_scored:
-        print(f"Scored novelty for {newly_scored} new item(s); existing scores kept.")
 
     dropped = strip_feed_content(items)
     if dropped:
