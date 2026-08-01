@@ -882,8 +882,8 @@
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC0mzI_ZnqrFrJjSUPsEyqpA"
         htmlUrl="https://www.youtube.com/channel/UC0mzI_ZnqrFrJjSUPsEyqpA" />
       <outline text="MacroMicro 財經M平方" type="rss" category="finance"
-        xmlUrl="https://feeds.soundon.fm/podcasts/d2aab16c-3a70-4023-b52b-e50f07852ecd.xml"
-        htmlUrl="https://www.macromicro.me" />
+        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC6LU7FUBvbFCh_cQasrHZ_Q"
+        htmlUrl="https://www.youtube.com/channel/UC6LU7FUBvbFCh_cQasrHZ_Q" />
       <outline text="Hoog" type="rss" category="trending"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCii9ezsUa_mBiSdw0PtSOaw"
         htmlUrl="https://www.youtube.com/channel/UCii9ezsUa_mBiSdw0PtSOaw" />
