@@ -4,11 +4,22 @@ from __future__ import annotations
 
 import argparse
 import json
-import re
+import os
+import signal
 import subprocess
+import sys
+import time
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import subtitle_priority
+from subtitle_priority import choose_track
+
 USER_AGENT = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120 Safari/537.36"
+
+PROBE_TIMEOUT = 90
+DOWNLOAD_TIMEOUT = 240
+KILL_GRACE = 5
 
 YTDLP_COMMON_ARGS = [
     "--user-agent", USER_AGENT,
@@ -16,7 +27,42 @@ YTDLP_COMMON_ARGS = [
     "--remote-components", "ejs:github",
     "--ignore-no-formats",
     "--no-progress",
+    "--socket-timeout", "30",
 ]
+
+
+def _kill_tree(proc: subprocess.Popen) -> None:
+    if not hasattr(os, "killpg"):
+        proc.kill()
+        return
+    for sig in (signal.SIGTERM, signal.SIGKILL):
+        try:
+            os.killpg(proc.pid, sig)
+        except (ProcessLookupError, PermissionError):
+            break
+        try:
+            proc.wait(timeout=KILL_GRACE)
+        except subprocess.TimeoutExpired:
+            pass
+        if sig is signal.SIGTERM:
+            time.sleep(0.2)
+
+
+def run_ytdlp(cmd: list[str], timeout: float):
+    proc = subprocess.Popen(
+        cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True,
+        start_new_session=True,
+    )
+    try:
+        out, err = proc.communicate(timeout=timeout)
+        return proc.returncode, out or "", err or "", False
+    except subprocess.TimeoutExpired:
+        _kill_tree(proc)
+        try:
+            out, err = proc.communicate(timeout=KILL_GRACE)
+        except subprocess.TimeoutExpired:
+            out, err = "", ""
+        return None, out or "", err or "", True
 
 
 def is_youtube(url: str) -> bool:
@@ -27,37 +73,8 @@ def already_downloaded(out_dir: Path, item_id: str) -> bool:
     return any(out_dir.glob(f"{item_id}*.vtt"))
 
 
-def rank_lang(lang: str, orig_lang: str | None) -> int:
-    """Lower is better. See module docstring for the priority rules."""
-    CHAINED_RE = re.compile(r"^zh-(hant|hans)-.+", re.I)
-    ZH_PLAIN = {"zh", "zh-hant", "zh-hans", "zh-hk", "zh-tw"}
-    lang_l = lang.lower()
-    if CHAINED_RE.match(lang_l):
-        return 3
-    if orig_lang and lang_l == orig_lang.lower():
-        return 0
-    if lang_l in ZH_PLAIN:
-        return 1
-    return 2
-
-
-def choose_track(manual: dict, auto: dict, orig_lang: str | None):
-    """Return (is_manual, lang), or None if nothing is available at all."""
-    candidates = [
-        (rank_lang(lang, orig_lang), 0, lang, True) for lang in manual
-    ] + [
-        (rank_lang(lang, orig_lang), 1, lang, False) for lang in auto
-    ]
-    if not candidates:
-        return None
-    # Tiebreak order: rank tier, then manual-before-auto, then language code
-    # (for determinism across runs).
-    candidates.sort(key=lambda c: (c[0], c[1], c[2]))
-    _, _, lang, is_manual = candidates[0]
-    return is_manual, lang
-
-
-def probe_subtitle_langs(url: str, cookies_path: Path):
+def probe_subtitle_langs(url: str, cookies_path: Path,
+                         timeout: float = PROBE_TIMEOUT):
     """Fetch the list of available subtitle languages
 
     Returns:
@@ -73,16 +90,18 @@ def probe_subtitle_langs(url: str, cookies_path: Path):
         "--dump-json",
         url,
     ]
-    result = subprocess.run(cmd, capture_output=True, text=True)
-    output = (result.stdout or "") + (result.stderr or "")
+    rc, stdout, stderr, timed_out = run_ytdlp(cmd, timeout)
+    output = stdout + stderr
     if "cookies" in output.lower():
         return "EXPIRED", None, None
-    if result.returncode != 0 or not result.stdout.strip():
+    if timed_out:
+        return None
+    if rc != 0 or not stdout.strip():
         return None
     try:
         # --dump-json prints one JSON object per line; take the last line in
         # case anything else got mixed into stdout.
-        info = json.loads(result.stdout.strip().splitlines()[-1])
+        info = json.loads(stdout.strip().splitlines()[-1])
     except Exception:
         return None
     manual = info.get("subtitles") or {}
@@ -92,7 +111,8 @@ def probe_subtitle_langs(url: str, cookies_path: Path):
 
 
 def download_one_subtitle(
-    url: str, cookies_path: Path, output_tpl: str, lang: str, is_manual: bool
+    url: str, cookies_path: Path, output_tpl: str, lang: str, is_manual: bool,
+    timeout: float = DOWNLOAD_TIMEOUT,
 ):
     cmd = [
         "yt-dlp",
@@ -108,16 +128,38 @@ def download_one_subtitle(
         "-o", output_tpl,
         url,
     ]
-    return subprocess.run(cmd, capture_output=True, text=True)
+    rc, stdout, stderr, timed_out = run_ytdlp(cmd, timeout)
+    return rc, stdout + stderr, timed_out
+
+
+def discard_partial(out_dir: Path, item_id: str) -> list[str]:
+    removed = []
+    for pattern in (f"{item_id}*.vtt", f"{item_id}*.vtt.part", f"{item_id}*.part"):
+        for path in out_dir.glob(pattern):
+            try:
+                path.unlink()
+                removed.append(path.name)
+            except OSError:
+                pass
+    return removed
 
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--archive", required=True)
-    parser.add_argument("--output-dir", required=True)
-    parser.add_argument("--cookies-path", required=True)
+    parser.add_argument("--archive")
+    parser.add_argument("--output-dir")
+    parser.add_argument("--cookies-path")
     parser.add_argument("--max-items", type=int, default=70)
+    parser.add_argument("--probe-timeout", type=float, default=PROBE_TIMEOUT)
+    parser.add_argument("--download-timeout", type=float, default=DOWNLOAD_TIMEOUT)
+    parser.add_argument("--self-test", action="store_true")
     args = parser.parse_args()
+
+    if args.self_test:
+        return _self_test()
+    for required in ("archive", "output_dir", "cookies_path"):
+        if not getattr(args, required):
+            parser.error(f"--{required.replace('_', '-')} is required")
 
     archive_path = Path(args.archive)
     out_dir = Path(args.output_dir)
@@ -130,6 +172,7 @@ def main():
     processed = 0
     succeeded = 0
     failed = 0
+    timed_out_count = 0
     no_subs = 0
 
     for item in items:
@@ -146,7 +189,7 @@ def main():
         if item.get("summary") is not None:
             continue
 
-        probe = probe_subtitle_langs(url, cookies_path)
+        probe = probe_subtitle_langs(url, cookies_path, args.probe_timeout)
         if probe is None:
             failed += 1
             print(f"[FAILED] item {item_id}: could not probe subtitle languages")
@@ -165,17 +208,26 @@ def main():
             continue
 
         is_manual, lang = choice
+        print(f"[TRACK] item {item_id}: {lang} "
+              f"({'manual' if is_manual else 'auto'}, orig={orig_lang}, "
+              f"rank={subtitle_priority.track_rank(lang, orig_lang, is_manual)})")
         output_tpl = str(out_dir / f"{item_id}.%(language)s.%(ext)s")
-        result = download_one_subtitle(url, cookies_path, output_tpl, lang, is_manual)
-        output = (result.stdout or "") + (result.stderr or "")
+        returncode, output, timed_out = download_one_subtitle(
+            url, cookies_path, output_tpl, lang, is_manual, args.download_timeout)
         lowered = output.lower()
 
         if "cookies" in lowered:
             print("[EXPIRED] cookies invalid")
             break
-        if result.returncode != 0:
+        if timed_out:
+            removed = discard_partial(out_dir, item_id)
+            timed_out_count += 1
             failed += 1
-            print(f"[FAILED] item {item_id} (exit {result.returncode}): {output}")
+            print(f"[TIMEOUT] item {item_id}: timeout over {args.download_timeout}s,"
+                  f"Halted" + (f", cleaned {len(removed)} files" if removed else ""))
+        elif returncode != 0:
+            failed += 1
+            print(f"[FAILED] item {item_id} (exit {returncode}): {output}")
         elif not already_downloaded(out_dir, item_id):
             if "no subtitles for the requested languages" in lowered:
                 no_subs += 1
@@ -193,8 +245,74 @@ def main():
             json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8"
         )
 
-    print(f"Done. succeeded={succeeded} failed={failed} no_subs={no_subs}")
+    print(f"Done. succeeded={succeeded} failed={failed} no_subs={no_subs} "
+          f"timed_out={timed_out_count}")
+
+
+def _find_processes(marker: str) -> list[int]:
+    found = []
+    proc_dir = Path("/proc")
+    if not proc_dir.is_dir():
+        return found
+    for entry in proc_dir.iterdir():
+        if not entry.name.isdigit():
+            continue
+        try:
+            cmdline = (entry / "cmdline").read_bytes().decode("utf-8", "replace")
+        except OSError:
+            continue
+        if marker in cmdline:
+            found.append(int(entry.name))
+    return found
+
+
+def _self_test() -> int:
+    import tempfile
+    import time
+
+    failures = []
+
+    rc, out, err, timed_out = run_ytdlp(["sh", "-c", "echo hi; echo boo >&2"], 30)
+    if timed_out or rc != 0 or out.strip() != "hi" or err.strip() != "boo":
+        failures.append(f"normal run: rc={rc} out={out!r} err={err!r} to={timed_out}")
+
+    t0 = time.monotonic()
+    rc, out, err, timed_out = run_ytdlp(["sh", "-c", "sleep 30"], 1)
+    elapsed = time.monotonic() - t0
+    if not timed_out or rc is not None:
+        failures.append(f"hang should time out: rc={rc} to={timed_out}")
+    if elapsed > 15:
+        failures.append(f"timeout took too long to return: {elapsed:.1f}s")
+
+    marker = f"downloadsub-selftest-{os.getpid()}"
+    t0 = time.monotonic()
+    rc, out, err, timed_out = run_ytdlp(
+        ["sh", "-c", f"sh -c 'sleep 30 {marker}' & exit 0"], 2)
+    elapsed = time.monotonic() - t0
+    if elapsed > 10:
+        failures.append(f"orphaned grandchild blocked cleanup: {elapsed:.1f}s")
+    time.sleep(0.3)
+    survivors = _find_processes(marker)
+    if survivors:
+        failures.append(f"process group survived the timeout: pids {survivors}")
+
+    with tempfile.TemporaryDirectory() as d:
+        out_dir = Path(d)
+        for name in ("abc.en.zh-Hant.vtt", "abc.en.zh-Hant.vtt.part", "other.en.en.vtt"):
+            (out_dir / name).write_text("WEBVTT", encoding="utf-8")
+        removed = discard_partial(out_dir, "abc")
+        if already_downloaded(out_dir, "abc"):
+            failures.append("partial files should be gone after discard_partial")
+        if not already_downloaded(out_dir, "other"):
+            failures.append("discard_partial must not touch other items")
+        if len(removed) != 2:
+            failures.append(f"expected 2 files removed, got {removed}")
+
+    for f in failures:
+        print("FAIL:", f)
+    print("download_sub self-test:", "FAILED" if failures else "ok")
+    return 1 if failures else 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main() or 0)
