@@ -1,0 +1,107 @@
+{
+  "responseContext": {
+    "serviceTrackingParams": [
+      {
+        "service": "CSI",
+        "params": [
+          {
+            "key": "c",
+            "value": "WEB"
+          },
+          {
+            "key": "cver",
+            "value": "2.20260731.00.00"
+          },
+          {
+            "key": "yt_li",
+            "value": "1"
+          },
+          {
+            "key": "GetLiveChat_rid",
+            "value": "0xdba32613e26af3b4"
+          }
+        ]
+      },
+      {
+        "service": "GFEEDBACK",
+        "params": [
+          {
+            "key": "logged_in",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "service": "GUIDED_HELP",
+        "params": [
+          {
+            "key": "logged_in",
+            "value": "1"
+          }
+        ]
+      },
+      {
+        "service": "ECATCHER",
+        "params": [
+          {
+            "key": "client.version",
+            "value": "2.20260731"
+          },
+          {
+            "key": "client.name",
+            "value": "WEB"
+          }
+        ]
+      }
+    ],
+    "mainAppWebResponseContext": {
+      "datasyncId": "106728525034413312557||",
+      "loggedOut": false,
+      "trackingParam": "kV9fmPxhojXCz39TnrslLKPQSQR"
+    },
+    "responseId": "IhMI3d-9laaClgMVxsnCBB3POSpd",
+    "webResponseContextExtensionData": {
+      "webResponseContextPreloadData": {
+        "preloadMessageNames": [
+          "liveChatContinuation"
+        ]
+      },
+      "hasDecorated": true
+    }
+  },
+  "continuationContents": {
+    "liveChatContinuation": {
+      "continuations": [
+        {
+          "timedContinuationData": {
+            "timeoutMs": 15342,
+            "continuation": "0ofMyAP2ARpeQ2lrcUp3b1lWVU40Y1VGWFRGUnJNVU50UW5aYVJsQjZaVnBOWkRsQkVndFJZMFF3VWtReFNIaEtXUm9UNnFqZHVRRU5DZ3RSWTBRd1VrUXhTSGhLV1NBQk1BQSUzRCi4lqGsi4KWAzAAQAFKXRgAIABKCggBEAAYACAAMABQtqKTpaWClgN4AKoBDBAAGgAiACoECAAQALABAMABAMgBvofihqaClgPiAQsI7cy90wYQ3vS0A-gBAPgBAJoCDAjYzr3TBhDiju2YAlDq6Oiki4KWA1gAggEECAQYAYgBAKAByKq-laaClgOyAQC6AQIID9ABAA%3D%3D"
+          }
+        }
+      ]
+    }
+  },
+  "frameworkUpdates": {
+    "entityBatchUpdate": {
+      "mutations": [
+        {
+          "entityKey": "EgtRY0QwUkQxSHhKWSCzBCgB",
+          "type": "ENTITY_MUTATION_TYPE_REPLACE",
+          "payload": {
+            "liveViewerLeaderboardChatEntryPointStateEntity": {
+              "key": "EgtRY0QwUkQxSHhKWSCzBCgB",
+              "state": "LIVE_VIEWER_LEADERBOARD_CHAT_ENTRY_POINT_STATE_POINTS_AVAILABLE"
+            }
+          }
+        }
+      ],
+      "timestamp": {
+        "seconds": "1785685848",
+        "nanos": 594237694
+      }
+    }
+  },
+  "liveChatStreamingResponseExtension": {
+    "lastPublishAtUsec": "0"
+  }
+}
