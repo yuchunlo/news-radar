@@ -192,11 +192,14 @@ MIN_USABLE_BODY = 200         # [tune] chars below which a body isn't worth keep
 # review sections, ...), so the text is truncated at the earliest match.
 CUT_TO_END_RE = re.compile(
     r"Cite this work"
+    r"|Continue reading this post"
     r"|Advertise here with Carbon Ads"
     r"|謝謝你閱讀到這裡"
     r"|（本文由 MoneyDJ新聞 授權轉載"
     r"|相關報導"
+    r"|大叔美股筆記歡迎各位投資同好共襄盛舉",
     r"|「食驗室」是《食力foodNEXT》推出的全台最大飲食新品試用平台"
+    r"|文章ID："
 )
 MIN_KEEP_AFTER_CUT = 80
 REMOVE_BLOCKS = [
@@ -223,6 +226,8 @@ REMOVE_PHRASE_RE = re.compile(
     r"|（首圖來源：[^）]*）"
     r"|美股探路客 PressPlay.*?訂閱！"
     r"|美股探路客推薦.*訂閱專案"
+    r"|虽然大部分有意思的输入会在[^\n]*感觉更像一个 newsletter 了。"
+    r"|我把 Telegram Channel 消息[^\n]*可以更方便浏览了。"
     # Anchored to a full line on purpose: an unanchored [^\n]* would run to
     # the end of the text whenever the body has been flattened to one line.
     r"|^[ \t]*標籤[:：][^\n]*$",
