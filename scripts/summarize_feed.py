@@ -1971,7 +1971,7 @@ def main(argv=None) -> int:
         it.pop("feed_content", None)
 
         ok += 1
-        print(f"    ok ({source_type}, {len(content)} chars)")
+        print(f"    ok ({source_type}, {len(content)} chars) {content[:200]} ...")
         save_items(ITEMS_FILE, items, wrapper)
         time.sleep(SLEEP_BETWEEN_ITEMS)
 
