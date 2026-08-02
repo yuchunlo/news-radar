@@ -17,8 +17,7 @@ env:
   ARCHIVE_FILE: data/archive.json
   SUBTITLE_DIR: data/subtitles
   COOKIES_PATH: /dev/shm/cookies.txt
-  MAX_ITEMS_PER_RUN: 200
-  PYTHONUNBUFFERED: "1"
+  MAX_ITEMS_PER_RUN: 400
 
 jobs:
   download:
@@ -68,6 +67,12 @@ jobs:
           done
 
           echo "cookies file loaded, $(wc -l < "$COOKIES_PATH") lines"
+
+      - name: Self-test
+        run: |
+          cd scripts
+          python subtitle_priority.py
+          python download_sub.py --self-test
 
       - name: Download subtitles
         run: |
