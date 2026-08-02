@@ -263,7 +263,7 @@ JUNK_BODY_RE = re.compile(
     r"|cf-challenge|cf_chl"
     r"|needs to review the security of your connection"
     r"|protect itself from (?:online attacks|malicious bots)"
-    r"|verif(?:y|ies) (?:that )?you are not a bot"
+    r"|verif(?:y|ies) (?:that )?(you are|you're) not a (ro)?bot"
     r"|[Mm]aking sure you'?re not a bot"
     r"|Anubis (?:to protect|has protected)"
     r"|Comprehensive up-to-date news coverage, aggregated from sources"
