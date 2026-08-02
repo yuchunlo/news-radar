@@ -197,8 +197,8 @@
       <outline text="James Clear" type="rss" category="blog"
         xmlUrl="https://kill-the-newsletter.com/feeds/psmvd6sze6uv02zl.xml"
         htmlUrl="https://kill-the-newsletter.com/feeds/psmvd6sze6uv02zl.xml" />
-      <outline text="https://arthistorystrolls.com/feed/" type="rss" category=""
-        xmlUrl="https://arthistorystrolls.com/feed/"
+      <outline text="漫遊藝術史" type="rss" category="culture"
+        xmlUrl="https://arthistorystrolls.com/?feed=rss2"
         htmlUrl="https://arthistorystrolls.com" />
       <outline text="Hiker CP" type="rss" category=""
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCrQywT5auJ-6dvFsBXW7NFg"
