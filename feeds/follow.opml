@@ -65,9 +65,6 @@
       <outline text="夸克調酒" type="rss" category="convivium"
         xmlUrl="https://cocktail4party.com/feed/"
         htmlUrl="https://cocktail4party.com/" />
-      <outline text="施房調酒研究室" type="rss" category="convivium"
-        xmlUrl="https://feeds.soundon.fm/podcasts/4e5d330b-cf07-4321-b719-93352c0e9791.xml"
-        htmlUrl="https://shihbar.com" />
       <outline text="知識庫 | 一飲樂酒誌" type="rss" category="convivium"
         xmlUrl="https://www.1shot.tw/category/%E7%9F%A5%E8%AD%98%E5%BA%AB/feed"
         htmlUrl="https://www.1shot.tw" />
