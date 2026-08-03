@@ -10,6 +10,7 @@ import tempfile
 import re
 import sys
 import time
+import subtitle_priority
 from collections import Counter
 
 import requests
@@ -433,48 +434,10 @@ def _subtitle_candidates(item_id: str):
 
 
 def pick_subtitle(item_id: str):
-    """The same item_id often has several language variants of a subtitle
-    file; pick one using the following priority order:
-
-    0. Subtitle language == the video's original language (manual caption,
-       or otherwise the auto-generated caption in that language — only a
-       single "speech -> text" pass, closest to the original meaning)
-    1. Chinese (zh / zh-Hans / zh-Hant / zh-HK / zh-TW, etc.), excluding
-       the double machine-translated variants (see item 3) — only a single
-       "ASR + translation" pass, and no further translation is needed
-       downstream (zh-Hans just gets converted to Traditional)
-    2. A single-hop translated caption in any other language (e.g. original
-       language French, caption language English) — still just one
-       translation pass, decent quality, handed to the existing Google
-       Translate endpoint afterwards
-    3. "Double machine-translated" variants come last: filenames like
-       zh-Hant-xx / zh-Hans-xx (a batch of extra variants YouTube produces
-       when it translates the auto-generated caption "again" into other
-       target directions — these only get downloaded because --sub-langs
-       used the zh.* wildcard). These went through one extra hop of machine
-       translation, wording often drifts, and they occasionally carry an
-       "AI-translated" watermark line; use them only when nothing else is
-       available.
-    On ties, pick whichever sorts first by filename, for deterministic
-    results across runs.
-    """
     cands = _subtitle_candidates(item_id)
     if not cands:
         return None
-
-    def rank(cand):
-        path, orig, sub = cand
-        orig_l, sub_l = orig.lower(), sub.lower()
-        chained = bool(re.match(r"^zh-(hant|hans)-.+", sub_l))
-        if chained:
-            return (3, path)
-        if sub_l == orig_l:
-            return (0, path)
-        if sub_l in ("zh", "zh-hant", "zh-hans", "zh-hk", "zh-tw"):
-            return (1, path)
-        return (2, path)
-
-    cands.sort(key=rank)
+    cands.sort(key=lambda c: (subtitle_priority.file_rank(c[2], c[1]), c[0]))
     return cands[0]
 
 
