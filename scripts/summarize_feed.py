@@ -12,6 +12,7 @@ import sys
 import time
 import subtitle_priority
 from collections import Counter
+from pathlib import Path
 
 import requests
 import trafilatura
@@ -191,55 +192,83 @@ MIN_USABLE_BODY = 200         # [tune] chars below which a body isn't worth keep
 # Everything from one of these markers to the END of the text is site
 # furniture rather than article content (author sign-offs, comment and
 # review sections, ...), so the text is truncated at the earliest match.
-CUT_TO_END_RE = re.compile(
-    r"Cite this work"
-    r"|Continue reading this post"
-    r"|Advertise here with Carbon Ads"
-    r"|謝謝你閱讀到這裡"
-    r"|（本文由 MoneyDJ新聞 授權轉載"
-    r"|相關報導"
-    r"|大叔美股筆記歡迎各位投資同好共襄盛舉"
-    r"|「食驗室」是《食力foodNEXT》推出的全台最大飲食新品試用平台"
-    r"|文章ID："
-    r"|本站內容為作者個人意見"
-)
+BOILERPLATE_FILE = os.environ.get(
+    "BOILERPLATE_FILE",
+    str(Path(__file__).resolve().parent / "summary_boilerplate.json"))
+_BOILER_CACHE: tuple[float, dict] | None = None
+BOILER_STATS: Counter = Counter()
+BOILER_KINDS = ("page", "meta", "feed", "subtitle", "bridge")
 MIN_KEEP_AFTER_CUT = 80
-REMOVE_BLOCKS = [
-    "Matrix 是少数派的写作社区，我们主张分享真实的产品体验，有实用价值的经验与思考。我们会不定期挑选 Matrix 最优质的文章，展示来自用户的最真实的体验和观点。",
-    "文章代表作者个人观点，少数派仅对标题和排版略作修改。",
-    "欢迎收看本期《派评》。你可以通过文章目录快速跳转到你感兴趣的内容。如果发现了其它感兴趣的 App 或者关注的话题，也欢迎在评论区和我们讨论。",
-]
-assert not isinstance(REMOVE_BLOCKS, str), "REMOVE_BLOCKS must be a list of whole blocks"
-# Filler lead-ins that carry no information of their own, plus inline site
-# furniture (related-article plugs, tag lines) that trafilatura keeps.
-# NOTE: no \b here -- CJK characters are word characters to Python's re, so
-# \b before a CJK character only matches after punctuation or at the start of
-# the string, silently missing most real occurrences.
-REMOVE_PHRASE_RE = re.compile(
-    r"最核心的一句話[:：]"
-    r"|綜合外媒報導，"
-    r"|結果顯示，"
-    r"|換言之，"
-    r"|相較之下，"
-    r"|更?值得注意的是，"
-    r"|事實上，情況比這更糟——"
-    r"|（前情提要：[^）]*）"
-    r"|（背景補充：[^）]*）"
-    r"|（首圖來源：[^）]*）"
-    r"|美股探路客 PressPlay.*?訂閱！"
-    r"|美股探路客推薦.*訂閱專案"
-    r"|虽然大部分有意思的输入会在[^\n]*感觉更像一个 newsletter 了。"
-    r"|我把 Telegram Channel 消息[^\n]*可以更方便浏览了。"
-    # Anchored to a full line on purpose: an unanchored [^\n]* would run to
-    # the end of the text whenever the body has been flattened to one line.
-    r"|^[ \t]*標籤[:：][^\n]*$",
-    re.M,
-)
+
+
+def load_boilerplate() -> dict:
+    global _BOILER_CACHE
+    empty = {"remove_block": [], "remove_inline": None, "cut_to_end": None,
+             "drop_unit": {}, "min_keep_after_cut": MIN_KEEP_AFTER_CUT}
+    p = Path(BOILERPLATE_FILE)
+    try:
+        mtime = p.stat().st_mtime
+    except OSError:
+        _BOILER_CACHE = (0.0, empty)
+        return empty
+    if _BOILER_CACHE and _BOILER_CACHE[0] == mtime:
+        return _BOILER_CACHE[1]
+    try:
+        data = json.loads(p.read_text(encoding="utf-8"))
+    except Exception as e:
+        print(f"WARNING: {p} unreadable ({e}); no boilerplate rules applied")
+        _BOILER_CACHE = (mtime, empty)
+        return empty
+
+    blocks: list[str] = []
+    inline: list[str] = []
+    cut: list[str] = []
+    units: dict = {}
+    for rule in data.get("rules") or []:
+        if not isinstance(rule, dict):
+            continue
+        action = rule.get("action")
+        if action == "remove_block":
+            text = rule.get("text") or ""
+            if text:
+                blocks.append(text)
+            continue
+        pattern = rule.get("pattern") or ""
+        if not pattern:
+            continue
+        try:
+            re.compile(pattern)
+        except re.error as e:
+            print(f"WARNING: bad boilerplate regex {pattern!r} ({e}); skipped")
+            continue
+        if action == "remove_inline":
+            inline.append(pattern)
+        elif action == "cut_to_end":
+            cut.append(pattern)
+        elif action == "drop_unit":
+            key = (rule.get("level") or "sentence", rule.get("scope") or "all")
+            units.setdefault(key, []).append(re.compile(pattern))
+        else:
+            print(f"WARNING: unknown boilerplate action {action!r}; skipped")
+
+    rules = {
+        "remove_block": blocks,
+        "remove_inline": re.compile("|".join(inline), re.M) if inline else None,
+        "cut_to_end": re.compile("|".join(cut)) if cut else None,
+        "drop_unit": units,
+        "min_keep_after_cut": int(data.get("min_keep_after_cut",
+                                           MIN_KEEP_AFTER_CUT)),
+    }
+    _BOILER_CACHE = (mtime, rules)
+    return rules
 
 # ---- Marking & detection ----------------------------------------------------
 FALLBACK_MARK = "↛"
 TABLE_NOTE = "請參閱所附表格 " + FALLBACK_MARK
 TABLE_TAG_RE = re.compile(r"<table[\s>]", re.I)
+CODE_NOTE = "請參閱所附程式碼 " + FALLBACK_MARK
+CODE_TAG_RE = re.compile(r"<(?:pre|samp|kbd)[\s>]|<code[\s>]", re.I)
+CODE_INLINE_MAX = 40
 BLOCKED_SUMMARY = "無法取得頁面內容（來源網站封鎖自動化存取）" + FALLBACK_MARK
 GONE_SUMMARY = "無法取得頁面內容（原始頁面已移除，且無存檔）" + FALLBACK_MARK
 # Techmeme uses these leads for stories built on its own sourcing.
@@ -951,6 +980,32 @@ def _bs4_fallback_extract(html: str) -> str:
     return "\n".join(paras)
 
 
+def strip_code_blocks(html: str) -> tuple[str, bool]:
+    if not html or not CODE_TAG_RE.search(html):
+        return html, False
+    if not _HAS_BS4:
+        out, n = re.subn(r"(?is)<pre\b.*?</pre>", " ", html)
+        return out, bool(n)
+    try:
+        soup = BeautifulSoup(html, "html.parser")
+    except Exception:
+        return html, False
+    removed = 0
+    for tag in soup(["pre", "samp", "kbd"]):
+        tag.decompose()
+        removed += 1
+    for tag in soup("code"):
+        if tag.parent is None:
+            continue
+        text = tag.get_text("", strip=True)
+        if len(text) > CODE_INLINE_MAX or "\n" in tag.get_text():
+            tag.decompose()
+            removed += 1
+        else:
+            tag.replace_with(text)
+    return (str(soup), True) if removed else (str(soup), False)
+
+
 def extract_meta_description(html: str) -> str:
     patterns = [
         r'<meta[^>]+property=["\']og:description["\'][^>]+content=["\'](.*?)["\']',
@@ -1030,8 +1085,9 @@ def unescape_text(text: str) -> str:
 
 
 def extract_from_html(html: str):
-    """(body, meta, has_table) from a page's HTML."""
+    """(body, meta, has_table, has_code) from a page's HTML."""
     has_table = bool(TABLE_TAG_RE.search(html))
+    html, has_code = strip_code_blocks(html)
     body = trafilatura.extract(
         html, include_comments=False, include_tables=False, favor_recall=True
     )
@@ -1041,20 +1097,24 @@ def extract_from_html(html: str):
         if len(fallback) > len(body):
             body = fallback
     meta = maybe_fix_mojibake(unescape_text(extract_meta_description(html)))
-    return body, meta, has_table
+    return body, meta, has_table, has_code
 
 
-def classify_text(body: str, meta: str, has_table: bool):
-    """Decide whether what we extracted counts as a body or only a blurb."""
+def classify_text(body: str, meta: str, has_table: bool, has_code: bool = False):
+    """Decide whether what we extracted counts as a body or only a blurb.
+
+    has_table / has_code only apply to a real body: a meta blurb never contained
+    the table or the code block, so marking it would be a lie.
+    """
     if len(body) >= MIN_USABLE_BODY:
-        return body, "body", has_table
+        return body, "body", has_table, has_code
     if body and re.search(r"[。！？.!?]", body) and len(body) >= max(80, len(meta)):
-        return body, "body", has_table
+        return body, "body", has_table, has_code
     if meta:
-        return meta, "meta", False
+        return meta, "meta", False, False
     if body:
-        return body, "meta", False
-    return None, None, False
+        return body, "meta", False, False
+    return None, None, False, False
 
 
 def fetch_via_reader(url: str):
@@ -1105,7 +1165,7 @@ def fetch_content(url: str, feed_content: str = "",
                   meta_out: dict | None = None):
     """Get an article's text, trying every strategy before giving up.
 
-    Returns (text, source_type, has_table) where source_type is:
+    Returns (text, source_type, has_table, has_code) where source_type is:
 
     - "body"    : real article text (from the page, a URL variant, the feed's
                   own copy of the body, the reader proxy, or the archive)
@@ -1115,8 +1175,10 @@ def fetch_content(url: str, feed_content: str = "",
     - None      : transient failure, left pending for the next run
 
     Table contents are deliberately excluded from the extracted body
-    (include_tables=False); has_table only records that the page had one, so
-    build_summary can note it instead of inlining rows of cells.
+    (include_tables=False), and so are code blocks (strip_code_blocks, which
+    has to run before trafilatura); has_table / has_code only record that the
+    page had one, so build_summary can note it instead of inlining rows of
+    cells or lines of source.
 
     Order matters: the cheap direct request comes first so that the ~95% of
     URLs that just work are unaffected, and the expensive third-party
@@ -1124,16 +1186,16 @@ def fetch_content(url: str, feed_content: str = "",
     """
     def postprocess(result):
         """Per-source text cleanup, applied whichever strategy won."""
-        text, source_type, has_table = result
+        text, source_type, has_table, has_code = result
         if text and is_ptt(url):
             text = clean_ptt(text)
             if len(text) < MIN_USABLE_BODY and source_type == "body":
                 source_type = "meta"
-        return text, source_type, has_table
+        return text, source_type, has_table, has_code
 
     slow = is_slow_host(url)
     timeout = FETCH_TIMEOUT_SLOW if slow else FETCH_TIMEOUT
-    best = (None, None, False)
+    best = (None, None, False, False)
     blocked = False
     notfound = False
     junk = False
@@ -1145,14 +1207,14 @@ def fetch_content(url: str, feed_content: str = "",
             found = extract_thumbnail(html, url)
             if found:
                 meta_out["thumbnail"] = found
-        body, meta, has_table = extract_from_html(html)
+        body, meta, has_table, has_code = extract_from_html(html)
         if len(body) < MIN_USABLE_BODY and CHALLENGE_PATTERN.search(html[:20000]):
             blocked = True
             return None
         if is_junk_body(body) or is_junk_body(meta):
             junk = True
             return None
-        result = classify_text(body, meta, has_table)
+        result = classify_text(body, meta, has_table, has_code)
         if result[1] == "body":
             return result
         if result[1] and best[1] is None:
@@ -1184,7 +1246,7 @@ def fetch_content(url: str, feed_content: str = "",
     feed_text = unescape_text(feed_content or "").strip()
     if len(feed_text) >= MIN_USABLE_BODY:
         print("    recovered via feed content")
-        return postprocess((feed_text, "body", False))
+        return postprocess((feed_text, "body", False, False))
 
     # A blurb is a poor result but it is a result. Escalating to the external
     # services for every meta-only page would mean thousands of extra requests
@@ -1195,7 +1257,7 @@ def fetch_content(url: str, feed_content: str = "",
     reader_text = fetch_via_reader(url)
     if reader_text and len(reader_text) >= MIN_USABLE_BODY:
         print("    recovered via reader proxy")
-        return postprocess((reader_text, "body", False))
+        return postprocess((reader_text, "body", False, False))
 
     archived = fetch_via_wayback(url)
     if archived:
@@ -1206,21 +1268,21 @@ def fetch_content(url: str, feed_content: str = "",
 
     if feed_text:
         print("    recovered via feed content (short)")
-        return postprocess((feed_text, "meta", False))
+        return postprocess((feed_text, "meta", False, False))
 
     if best[1]:
         return postprocess(best)
     if junk:
         print("    interstitial / generic site blurb only, skipped")
-        return None, "junk", False
+        return None, "junk", False, False
     if blocked:
         print("    blocked by site, no copy found by any strategy")
-        return None, "blocked", False
+        return None, "blocked", False, False
     if notfound:
         print("    page is gone (404/410) and not archived anywhere")
-        return None, "gone", False
+        return None, "gone", False, False
     print("    all fetch strategies failed")
-    return None, None, False
+    return None, None, False, False
 
 
 # ---------------------------------------------------------------- Language detection
@@ -1353,6 +1415,45 @@ def is_fluff(s: str, is_cjk: bool) -> bool:
     return False
 
 
+_URL_FRAGMENT_RE = re.compile(
+    r"^(?:https?://)?[\w\-]{2,}[./?#:][\w\-./?#=&%~+]*$", re.A)
+
+
+def looks_like_url_fragment(s: str) -> bool:
+    s = s.strip()
+    if not s or len(s) > 40 or " " in s:
+        return False
+    if re.search(r"[\u4e00-\u9fff\u3040-\u30ff]", s):
+        return False
+    return bool(_URL_FRAGMENT_RE.match(s))
+
+
+def is_boilerplate(text: str, kind: str, level: str = "sentence") -> bool:
+    if not text:
+        return False
+    if level == "sentence" and looks_like_url_fragment(text):
+        return True
+    probe = _tr.normalize_key_text(text) if _tr else text
+    units = load_boilerplate()["drop_unit"]
+    scopes = ("all",) + BOILER_KINDS if kind == "*" else ("all", kind)
+    for scope in scopes:
+        for pat in units.get((level, scope), ()):
+            if pat.search(probe):
+                return True
+    return False
+
+
+def drop_boilerplate_paragraphs(text: str, kind: str) -> tuple[str, int]:
+    if not text:
+        return text, 0
+    paras = re.split(r"\n\s*\n|\n", text)
+    kept = [p for p in paras if not is_boilerplate(p.strip(), kind, "paragraph")]
+    dropped = len(paras) - len(kept)
+    if not dropped or not any(p.strip() for p in kept):
+        return text, 0
+    return "\n".join(kept), dropped
+
+
 # Splits after a sentence terminator, keeping the terminator with the sentence
 # it ends so that re-joining the pieces reproduces the input exactly. The Latin
 # arm needs the "whitespace then an opening character" lookahead, or it would
@@ -1404,10 +1505,16 @@ def trim_to_whole_sentences(text: str, limit: int) -> str:
     return pieces[0].strip() if pieces else text
 
 
-def extractive_summary(text: str, is_cjk: bool, char_budget: int) -> str:
+def extractive_summary(text: str, is_cjk: bool, char_budget: int,
+                       kind: str = "") -> str:
     sents = split_sentences(text, is_cjk)
     if not sents:
         return trim_to_whole_sentences(text, char_budget)
+
+    keep = [x for x in sents if not is_boilerplate(x, kind, "sentence")]
+    if keep:
+        BOILER_STATS[f"{kind or 'page'}:sentence"] += len(sents) - len(keep)
+        sents = keep
 
     # Drop verbatim repeats up front. Pages commonly restate the same line in
     # a lead-in, a bullet list and a closing recap; keeping only the first
@@ -1517,13 +1624,16 @@ def strip_boilerplate(text: str) -> str:
     MIN_KEEP_AFTER_CUT characters, so a stray early match can't wipe out
     the whole body.
     """
+    rules = load_boilerplate()
     text = sanitize_leaked_markup(text)
-    for block in REMOVE_BLOCKS:
+    for block in rules["remove_block"]:
         text = text.replace(block, "")
-    text = REMOVE_PHRASE_RE.sub("", text)
-    m = CUT_TO_END_RE.search(text)
-    if m and m.start() >= MIN_KEEP_AFTER_CUT:
-        text = text[:m.start()]
+    if rules["remove_inline"] is not None:
+        text = rules["remove_inline"].sub("", text)
+    if rules["cut_to_end"] is not None:
+        m = rules["cut_to_end"].search(text)
+        if m and m.start() >= rules["min_keep_after_cut"]:
+            text = text[:m.start()]
     return text.strip()
 
 
@@ -1531,7 +1641,8 @@ def summary_budget(content_len: int) -> int:
     return max(1, min(SUMMARY_MAX, int(content_len * SUMMARY_RATIO)))
 
 
-def build_summary(content: str, source_type: str, has_table: bool = False) -> str:
+def build_summary(content: str, source_type: str, has_table: bool = False,
+                  kind: str = "page", has_code: bool = False) -> str:
     """Extractive summary plus any trailing marks.
 
     Sentences are picked by importance, not by position: each one is scored on
@@ -1553,29 +1664,37 @@ def build_summary(content: str, source_type: str, has_table: bool = False) -> st
     marks = []
     if has_table:
         marks.append(TABLE_NOTE)
+    if has_code:
+        marks.append(CODE_NOTE)
     # Only a blurb was available, so mark the summary as not coming from the
     # article body itself.
     if source_type == "meta" and not any(FALLBACK_MARK in m for m in marks):
         marks.append(FALLBACK_MARK)
     suffix = (" " + " ".join(marks)) if marks else ""
 
+    kind = "meta" if source_type == "meta" else kind
+    content, para_dropped = drop_boilerplate_paragraphs(content, kind)
+    if para_dropped:
+        BOILER_STATS[f"{kind}:paragraph"] += para_dropped
+
     lang = detect_lang(content)
     budget = summary_budget(len(content))
     text_budget = max(1, budget - len(suffix))
 
     if lang == "zh-hant":
-        summary = extractive_summary(content, True, text_budget)
+        summary = extractive_summary(content, True, text_budget, kind)
     elif lang == "zh-hans":
-        summary = _to_twp(extractive_summary(content, True, text_budget))
+        summary = _to_twp(
+            extractive_summary(content, True, text_budget, kind))
     elif lang == "ja":
         raw = extractive_summary(
-            content, True, int(text_budget * FOREIGN_BUDGET_RATIO)
+            content, True, int(text_budget * FOREIGN_BUDGET_RATIO), kind
         )
         translated = translate_to_zhtw(raw) if TRANSLATE else None
         summary = _to_twp(translated) if translated else raw
     else:
         raw = extractive_summary(
-            content, False, int(text_budget * FOREIGN_BUDGET_RATIO)
+            content, False, int(text_budget * FOREIGN_BUDGET_RATIO), kind
         )
         summary = None
         if TRANSLATE:
@@ -1612,6 +1731,7 @@ def build_arg_parser():
     p.add_argument("--translate", dest="translate", action="store_true", default=TRANSLATE)
     p.add_argument("--no-translate", dest="translate", action="store_false")
     p.add_argument("--rescore-all", action="store_true", default=RESCORE_ALL)
+    p.add_argument("--mine-boilerplate", type=int, metavar="MIN_COUNT", default=0)
     p.add_argument("--time-budget-seconds", type=int, default=TIME_BUDGET_SECONDS,
                    help="Total run-time budget in seconds; stops the fetch "
                         "loop once 70%% of this has elapsed (0 = no limit), "
@@ -1627,6 +1747,44 @@ def load_items(path: str):
     if isinstance(data, dict) and isinstance(data.get("items"), list):
         return data["items"], data
     return None, None
+
+
+def mine_boilerplate(items_file: str, min_count: int) -> int:
+    items, _ = load_items(items_file)
+    if items is None:
+        return 1
+    per_sent_sources: dict[str, set] = {}
+    counts: Counter = Counter()
+    for it in items:
+        summary = (it or {}).get("summary") or ""
+        if not summary:
+            continue
+        src = (it.get("source") or "?")
+        for sent in TRIM_SPLIT_RE.split(summary):
+            sent = sent.strip()
+            if not (6 <= len(sent) <= 120):
+                continue
+            if is_boilerplate(sent, "*", "sentence"):
+                continue
+            if not strip_boilerplate(clean_caption_text(sent)).strip():
+                continue
+            counts[sent] += 1
+            per_sent_sources.setdefault(sent, set()).add(src)
+    rows = [(n, sent, per_sent_sources[sent])
+            for sent, n in counts.items() if n >= min_count]
+    single = sorted([r for r in rows if len(r[2]) == 1], reverse=True,
+                    key=lambda r: r[0])
+    shared = sorted([r for r in rows if len(r[2]) > 1], reverse=True,
+                    key=lambda r: r[0])
+    print(f"Candidates (>= {min_count} occurrences, excluding those already filtered by existing rules): "
+          f"Single source: {len(single)}, cross-source: {len(shared)}\n")
+    print("── Concentrated in a Single Source (likely site-specific footer text; recommended for page scope) ──")
+    for n, sent, srcs in single[:60]:
+        print(f"{n:>5}× [{next(iter(srcs))[:18]:18}] {sent[:80]}")
+    print("\n── Appearing Across Multiple Sources (common template text; suitable for all scope) ──")
+    for n, sent, srcs in shared[:60]:
+        print(f"{n:>5}× [{len(srcs)} sources] {sent[:80]}")
+    return 0
 
 
 def strip_feed_content(items: list) -> int:
@@ -1705,6 +1863,9 @@ def main(argv=None) -> int:
         print(f"ERROR: {ITEMS_FILE} not found.", file=sys.stderr)
         return 1
 
+    if args.mine_boilerplate:
+        return mine_boilerplate(ITEMS_FILE, args.mine_boilerplate)
+
     items, wrapper = load_items(ITEMS_FILE)
     if items is None:
         print("ERROR: JSON root must be an array.", file=sys.stderr)
@@ -1755,7 +1916,7 @@ def main(argv=None) -> int:
                   f"({it.get('published_at') or 'no date'}) {it.get('title', '')[:60]}")
             print(f"      {it['url']}")
             try:
-                summary = build_summary(content, source_type)
+                summary = build_summary(content, source_type, kind="feed")
             except Exception as e:
                 print(f"      summarize failed: {e}")
                 ff_failed += 1
@@ -1845,7 +2006,7 @@ def main(argv=None) -> int:
                 save_items(ITEMS_FILE, items, wrapper)
                 continue
             try:
-                summary = build_summary(text, "body")
+                summary = build_summary(text, "body", kind="subtitle")
             except Exception as e:
                 print(f"    summarize failed: {e}")
                 failed += 1
@@ -1877,12 +2038,13 @@ def main(argv=None) -> int:
                 summary = ""
                 tm_feed_html = it.get("feed_content") or ""
                 tm_meta: dict = {}
-                content, source_type, has_table = fetch_content(
+                content, source_type, has_table, has_code = fetch_content(
                     url, feed_content=tm_feed_html, meta_out=tm_meta
                 )
                 if content:
                     try:
-                        summary = build_summary(content, source_type, has_table)
+                        summary = build_summary(content, source_type, has_table,
+                                                kind="bridge", has_code=has_code)
                     except Exception as e:
                         print(f"    summarize failed: {e}")
                         summary = ""
@@ -1922,7 +2084,7 @@ def main(argv=None) -> int:
 
         feed_html = it.get("feed_content") or ""
         meta_out: dict = {}
-        content, source_type, has_table = fetch_content(
+        content, source_type, has_table, has_code = fetch_content(
             url, feed_content=feed_html, meta_out=meta_out
         )
 
@@ -1946,7 +2108,8 @@ def main(argv=None) -> int:
             continue
 
         try:
-            summary = build_summary(content, source_type, has_table)
+            summary = build_summary(content, source_type, has_table,
+                                    kind="page", has_code=has_code)
         except Exception as e:
             print(f"    summarize failed: {e}")
             failed += 1
@@ -1979,6 +2142,12 @@ def main(argv=None) -> int:
           f"blank={blank_n}, junk={junk_n}, failed={failed}"
           f"{', stopped early: time budget reached' if time_cut_off else ''}")
 
+
+    if BOILER_STATS:
+        detail = ", ".join(f"{k} {v}" for k, v in sorted(BOILER_STATS.items()) if v)
+        if detail:
+            print(f"Boilerplate: dropped {sum(BOILER_STATS.values())} "
+                  f"sentence(s)/paragraph(s)  [{detail}]")
 
     dropped = strip_feed_content(items)
     if dropped:
