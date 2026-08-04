@@ -176,17 +176,104 @@ VOCUS_AUTHOR_RE = re.compile(
     r"^(https?://(?:www\.)?vocus\.cc)/@[^/]+/([0-9A-Za-z]+)(.*)$"
 )
 
+# Feeds that publish their <link> elements with a development origin instead of
+# the public one. NotesByLex.com serves every article link as
+# http://localhost:8000/..., and follow.opml's htmlUrl says the same; from any
+# other machine those addresses resolve to nothing, so summarize_feed can only
+# ever fail on them.
+#
+# A dev origin tells us the address is *wrong*, but not what it should have
+# been -- that needs a second, independent fact, and there are two sources for
+# one:
+#
+#   1. FEED_ORIGIN_FIXUPS, keyed by OPML source name. Checked first, because it
+#      is the deliberate statement and it is the only one available when
+#      re-canonicalising a stored record: meta is never persisted into
+#      archive.json (verified: 0 of 21,495 records carry it).
+#   2. meta["feed_url"], the resolved xmlUrl. The convenient default: a feed's
+#      own address must be reachable or we could not have fetched it, so a
+#      future feed with this same bug is fixed with no configuration at all.
+#      Not always right on its own -- an OPML entry can point at an aggregator
+#      or bridge (rsshub.app, t.me) whose domain is not the article's domain,
+#      which is what the table above is for.
+#
+# Never guess from the url alone. Leaving a localhost url alone fails visibly;
+# rewriting it to the wrong host silently files one site's articles under
+# another.
+FEED_ORIGIN_FIXUPS = {
+    "notesbylex.com": "https://notesbylex.com",
+}
+# Non-routable / development hosts. Any of these means "this url cannot have
+# been meant for publication".
+DEV_ORIGIN_RE = re.compile(
+    r"^(?:localhost|127\.0\.0\.1|0\.0\.0\.0|\[::1\]|[^.]+\.local)(?::\d+)?$",
+    re.I,
+)
 
-def canonical_url(raw_url: str) -> str:
+
+def canonical_url(raw_url: str, source: str = "", feed_url: str = "") -> str:
     """Host-specific canonical form, on top of normalize_url's tracking-param
     stripping.
 
+    `source` (OPML source name) and `feed_url` (the resolved xmlUrl) are both
+    optional so that callers holding only a url keep working. The dev-origin
+    fixup needs at least one of them; with neither, the url is left as it is
+    rather than rewritten to a guess.
     """
     url = normalize_url(raw_url)
+    fixed = fix_dev_origin(url, source=source, feed_url=feed_url)
+    if fixed:
+        return fixed
     m = VOCUS_AUTHOR_RE.match(url)
     if m:
         return f"{m.group(1)}/article/{m.group(2)}{m.group(3)}"
     return url
+
+
+def public_origin(feed_url: str) -> str:
+    """Origin of a feed's own address, when that address is itself publishable.
+
+    Returns "" for an empty, unparseable, or dev-origin feed url -- a feed
+    served from localhost gives us no public origin to copy.
+    """
+    try:
+        parsed = urlparse((feed_url or "").strip())
+    except Exception:
+        return ""
+    if parsed.scheme not in ("http", "https") or not parsed.netloc:
+        return ""
+    if DEV_ORIGIN_RE.match(parsed.netloc):
+        return ""
+    return f"{parsed.scheme}://{parsed.netloc}"
+
+
+def fix_dev_origin(url: str, source: str = "", feed_url: str = "") -> str | None:
+    """Rewrite a development origin to the public one for a known feed.
+
+    Uses the FEED_ORIGIN_FIXUPS entry for `source` when there is one, otherwise
+    the origin derived from `feed_url`. Returns None when the url is not on a
+    dev origin, or when neither fact is available -- so this is safe to call on
+    every url.
+
+    The explicit entry wins on purpose. A feed's address is usually on the same
+    domain as its articles, but not always: an OPML entry can point at an
+    aggregator or bridge (rsshub.app, t.me), and deriving from those would move
+    the articles onto the proxy's domain. The derived origin is the convenient
+    default, the table is the override for when it would be wrong.
+    """
+    try:
+        parsed = urlparse(url)
+    except Exception:
+        return None
+    if not parsed.netloc or not DEV_ORIGIN_RE.match(parsed.netloc):
+        return None
+    origin = (FEED_ORIGIN_FIXUPS.get((source or "").strip().casefold(), "")
+              or public_origin(feed_url))
+    if not origin:
+        return None
+    good = urlparse(origin)
+    rebuilt = parsed._replace(scheme=good.scheme, netloc=good.netloc)
+    return urlunparse(rebuilt).rstrip("/")
 
 
 def first_non_empty(*values: Any) -> str:
@@ -834,7 +921,7 @@ def migrate_record_urls(records: list[dict[str, Any]]) -> int:
         old_url = str(record.get("url") or "")
         if not old_url:
             continue
-        new_url = canonical_url(old_url)
+        new_url = canonical_url(old_url, str(record.get("source") or ""))
         if new_url == old_url:
             continue
         if not new_url:
@@ -943,7 +1030,8 @@ def main(argv=None) -> int:
 
     for raw in raw_items:
         title = raw.title.strip()
-        url = canonical_url(raw.url)
+        url = canonical_url(raw.url, raw.source,
+                            str((raw.meta or {}).get("feed_url") or ""))
         if not title or not url or not url.startswith("http"):
             continue
         item_id = make_item_id(raw.site_id, raw.source, title, url)
