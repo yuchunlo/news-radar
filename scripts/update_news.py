@@ -1003,11 +1003,6 @@ def main(argv=None) -> int:
     parser.add_argument("--archive-days", type=int, default=210, help="Keep archive for N days")
     parser.add_argument("--rss-opml", default="", help="Optional OPML file path to include RSS sources")
     parser.add_argument("--rss-max-feeds", type=int, default=0, help="Optional max OPML RSS feeds to fetch (0 means all)")
-    parser.add_argument(
-        "--feed-content-preview", type=int, default=40,
-        help="Chars of each captured feed body to print in the end-of-run "
-             "report (0 = don't print the report, -1 = print it in full)",
-    )
     args = parser.parse_args(argv)
 
     now = utc_now()
@@ -1030,7 +1025,6 @@ def main(argv=None) -> int:
     else:
         print("WARNING: no --rss-opml provided; nothing to fetch.")
 
-    captured_feed_content: list[tuple[str, str]] = []
 
     for raw in raw_items:
         title = raw.title.strip()
@@ -1054,7 +1048,6 @@ def main(argv=None) -> int:
             }
             if raw.content:
                 new_item["feed_content"] = raw.content
-                captured_feed_content.append((url, raw.content))
             archive[item_id] = new_item
         else:
             # Keep the feed's own copy of the body only while it is still
@@ -1063,7 +1056,6 @@ def main(argv=None) -> int:
                 existing.pop("feed_content", None)
             elif raw.content and not existing.get("feed_content"):
                 existing["feed_content"] = raw.content
-                captured_feed_content.append((url, raw.content))
             existing["site_id"] = raw.site_id
             existing["site_name"] = raw.site_name
             existing["source"] = raw.source
@@ -1103,17 +1095,6 @@ def main(argv=None) -> int:
     write_json_atomic(archive_path, archive_payload)
     print(f"Wrote: {archive_path} ({len(archive)} items, fetched {len(raw_items)} raw)")
 
-    # Reported here rather than inside the ingest loop, so the loop's own
-    # output stays a clean one-line-per-feed log and the bodies are all in one
-    # block at the end.
-    if captured_feed_content and args.feed_content_preview != 0:
-        preview = args.feed_content_preview
-        print(f"\nFeed content captured for {len(captured_feed_content)} item(s):")
-        for url, content in captured_feed_content:
-            flat = re.sub(r"\s+", " ", content).strip()
-            if preview > 0 and len(flat) > preview:
-                flat = flat[:preview] + f"… (+{len(content) - preview} chars)"
-            print(f"  {url}\n    {flat}")
     return 0
 
 
