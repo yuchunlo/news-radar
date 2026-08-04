@@ -201,6 +201,7 @@ CUT_TO_END_RE = re.compile(
     r"|大叔美股筆記歡迎各位投資同好共襄盛舉"
     r"|「食驗室」是《食力foodNEXT》推出的全台最大飲食新品試用平台"
     r"|文章ID："
+    r"|本站內容為作者個人意見"
 )
 MIN_KEEP_AFTER_CUT = 80
 REMOVE_BLOCKS = [
@@ -789,6 +790,29 @@ generic stock illustrative illustration decorative
 THUMB_DESCRIPTIVE_MIN_TOKENS = 5
 THUMB_MIN_STEM = 3
 
+# Where the file lives is a stronger signal than what it is called. Every CMS
+# and static-site generator keeps article images and layout assets in different
+# trees: WordPress puts uploads under /wp-content/uploads/ and theme furniture
+# under /wp-content/themes/; icons and stylesheet decorations live in /icons/,
+# /css/, /skin/. Nothing article-specific is ever served from those, so this
+# rule needs no per-site knowledge -- it keys on the conventions themselves.
+# Deliberately excluded: bare /assets/, /static/, /img/, /images/ and /media/,
+# which plenty of sites do use for real article images.
+THUMB_ASSET_DIR_RE = re.compile(
+    r"/(?:themes?|wp-includes|plugins?|icons?|css|skin|sprites?|emoji|ui)/",
+    re.I,
+)
+# Interface chrome: spinners, empty-state art, icons, share buttons. These are
+# whole-token matches on a short filename only, for the same reason "default"
+# is token-anchored above: "Configuration-Loading-Strategies.png" is a real
+# diagram, and "social-media-icons.jpg" needs the token, not the substring.
+THUMB_CHROME_WORDS = frozenset("""
+loader spinner throbber skeleton holder empty icon icons sprite sprites
+qrcode opengraph ogimg arrow arrows divider separator overlay texture
+btn button nav navbar badge ribbon follow subscribe scrolling
+""".split())
+THUMB_CHROME_MAX_TOKENS = 4
+
 
 def _thumb_tokens(stem: str) -> list[str]:
     return [t for t in re.split(r"[^a-z0-9]+", stem.lower()) if t]
@@ -818,6 +842,8 @@ def thumbnail_is_usable(url: str) -> tuple[bool, str]:
         return False, "filename too short to judge"
 
     haystack = f"{stem} {url}"
+    if THUMB_ASSET_DIR_RE.search(path):
+        return False, "served from an asset/theme directory"
     if THUMB_STOCK_RE.search(haystack):
         return False, "stock library filename"
     if THUMB_WIRE_RE.search(haystack):
@@ -836,6 +862,10 @@ def thumbnail_is_usable(url: str) -> tuple[bool, str]:
 
     if THUMB_CHART_WORDS & set(tokens):
         return True, "chart vocabulary in filename"
+    if len(tokens) <= THUMB_CHROME_MAX_TOKENS:
+        chrome_hits = THUMB_CHROME_WORDS & set(tokens)
+        if chrome_hits:
+            return False, f"interface chrome ({', '.join(sorted(chrome_hits))})"
     photo_hits = THUMB_PHOTO_WORDS & set(tokens)
     if photo_hits:
         return False, f"photographic wording ({', '.join(sorted(photo_hits))})"
