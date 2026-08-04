@@ -513,21 +513,17 @@ MD_EMPH_RE = re.compile(r"\*\*|__|\*|`|~~")
 MD_ORPHAN_BRACKET_RE = re.compile(r"^[\s\]\[)(|:-]+|[\s\[(|]+$", re.M)
 
 
-# ---- 洩漏的標記清理 ----------------------------------------------------------
-# 兩類真實出現在既有摘要裡的殘骸：
+# ---- Cleanup for Leaked Markup ----------------------------------------------
+# Two kinds of artifacts that actually appear in existing summaries:
 #
-# 1. markdown 連結的「孤兒尾巴」 `]( "permanent link")`。clean_markdown 的
-#    MD_LINK_RE 需要完整的 [text](url) 才會命中；blogspot 的版面把 `[` 放在
-#    上一個區塊，抽取後只剩下尾巴，於是 mcclin.blogspot.com 的摘要整段都是
-#    「BlogThis！]( "BlogThis！")分享至X]( "分享至X")」這種導覽殘骸。
+# 1. "Orphaned" markdown link tails such as `]("permanent link")`.
+#    The MD_LINK_RE in clean_markdown only matches complete `[text](url)` links.
+#    On some Blogspot layouts, the opening `[` is placed in a previous block, so
+#    after extraction only the trailing portion remains.
 #
-# 2. 真正洩漏的 HTML：註解、script/style 區塊、meta/link 這類 void 標籤、
-#    以及 <br/>。
-#
-# 刻意**不做**通用的 `<[^>]+>` 清除：語料裡的 <key> <string> <true/> 幾乎全部
-# 來自 magicliang.github.io、blog.devtang.com 這些技術部落格文章內的 plist
-# 程式碼範例（201 + 117 次）。無條件清除會把文章的程式碼區塊挖空，那是把一個
-# 小瑕疵換成一個大破壞。
+# 2. Genuine HTML that leaked through extraction, including comments,
+#    `<script>`/`<style>` blocks, void elements such as `<meta>` and `<link>`,
+#    as well as `<br/>` tags.
 MD_ORPHAN_TAIL_RE = re.compile(r'\]\(\s*(?:"[^"\n]{0,120}")?\s*\)')
 HTML_COMMENT_RE = re.compile(r"<!--.*?-->", re.S)
 HTML_BLOCK_RE = re.compile(r"<(script|style|noscript)\b[^>]*>.*?</\1\s*>", re.S | re.I)
@@ -548,7 +544,7 @@ def sanitize_leaked_markup(text: str) -> str:
     text = HTML_VOID_RE.sub("", text)
     text = HTML_BR_RE.sub("\n", text)
     prev = None
-    while prev != text:                      # 尾巴會連續出現，要清到收斂
+    while prev != text:
         prev = text
         text = MD_ORPHAN_TAIL_RE.sub("", text)
     text = re.sub(r"[ \t]{2,}", " ", text)
@@ -1731,6 +1727,7 @@ def build_arg_parser():
     p.add_argument("--translate", dest="translate", action="store_true", default=TRANSLATE)
     p.add_argument("--no-translate", dest="translate", action="store_false")
     p.add_argument("--rescore-all", action="store_true", default=RESCORE_ALL)
+    p.add_argument("--feed-content-preview", type=int, default=40, metavar="CHARS")
     p.add_argument("--mine-boilerplate", type=int, metavar="MIN_COUNT", default=0)
     p.add_argument("--time-budget-seconds", type=int, default=TIME_BUDGET_SECONDS,
                    help="Total run-time budget in seconds; stops the fetch "
@@ -1747,6 +1744,24 @@ def load_items(path: str):
     if isinstance(data, dict) and isinstance(data.get("items"), list):
         return data["items"], data
     return None, None
+
+
+def report_feed_material(pending: list, feed_first: list, preview: int) -> None:
+    if preview == 0:
+        return
+    skip = {it.get("url") for it in feed_first}
+    rows = [(it.get("url") or "", (it.get("feed_content") or "").strip())
+            for it in pending
+            if (it.get("feed_content") or "").strip()
+            and it.get("url") not in skip]
+    if not rows:
+        return
+    print(f"\nFeed material on hand for {len(rows)} pending item(s)")
+    for url, content in rows:
+        flat = re.sub(r"\s+", " ", content).strip()
+        if preview > 0 and len(flat) > preview:
+            flat = flat[:preview] + f"… (+{len(content) - preview} chars)"
+        print(f"  {url}\n    {flat}")
 
 
 def mine_boilerplate(items_file: str, min_count: int) -> int:
@@ -1879,6 +1894,12 @@ def main(argv=None) -> int:
 
     print(f"Total items: {len(items)}, pending: {len(pending)}, "
           f"translate={'on' if TRANSLATE else 'off'} (newest-first)")
+
+    feed_first = [it for it in pending
+                  if is_feed_first_host(it.get("url", ""))
+                  and (it.get("feed_content") or "").strip()]
+    report_feed_material(pending, feed_first, args.feed_content_preview)
+
     if TIME_BUDGET_SECONDS > 0:
         print(f"Time budget: {TIME_BUDGET_SECONDS}s "
               f"(stop fetching after {TIME_BUDGET_SECONDS * TIME_BUDGET_STOP_RATIO:.0f}s elapsed)")
@@ -1891,9 +1912,6 @@ def main(argv=None) -> int:
     junk_skipped: Counter = Counter()
 
     # ---- Pass 1: feed-first hosts -------------------------------------------
-    feed_first = [it for it in pending
-                  if is_feed_first_host(it.get("url", ""))
-                  and (it.get("feed_content") or "").strip()]
     if feed_first:
         print(f"\nFeed-first pass: {len(feed_first)} item(s) on "
               f"{', '.join(FEED_FIRST_HOSTS)} (not counted against MAX_ITEMS)")
