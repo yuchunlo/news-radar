@@ -572,7 +572,10 @@ def build_http_session() -> requests.Session:
     return session
 
 
-FEED_CONTENT_DROP_RE = re.compile(r"<(script|style)\b[^>]*>.*?</\1\s*>", re.S | re.I)
+FEED_CONTENT_DROP_RE = re.compile(
+    r"<(script|style|pre)\b[^>]*>.*?</\1\s*>", re.S | re.I)
+FEED_CONTENT_CODE_BLOCK_RE = re.compile(
+    r"<code\b[^>]*>(?:(?!</code>).)*?\n(?:(?!</code>).)*?</code>", re.S | re.I)
 FEED_CONTENT_BREAK_RE = re.compile(
     r"</(?:p|div|li|tr|h[1-6]|blockquote|section)\s*>|<br\s*/?>", re.I
 )
@@ -585,6 +588,7 @@ def html_to_text(raw: str) -> str:
     if not raw:
         return ""
     text = FEED_CONTENT_DROP_RE.sub(" ", raw)
+    text = FEED_CONTENT_CODE_BLOCK_RE.sub(" ", text)
     text = FEED_CONTENT_BREAK_RE.sub("\n", text)
     text = FEED_CONTENT_TAG_RE.sub("", text)
     text = html_mod.unescape(text)
