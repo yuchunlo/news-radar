@@ -53,10 +53,10 @@ jobs:
           else
             python scripts/update_news.py --output-dir data --archive-days 210
           fi
-      - name: Summarize & score
+      - name: Summarize
         env:
           ITEMS_FILE: data/archive.json
-          MAX_ITEMS: "70"
+          MAX_ITEMS: "200"
           TRANSLATE: "on"
           SUMMARY_RATIO: "0.9"
           # RESCORE_ALL: "1"
