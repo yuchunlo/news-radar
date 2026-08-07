@@ -838,6 +838,19 @@ btn button nav navbar badge ribbon follow subscribe scrolling
 """.split())
 THUMB_CHROME_MAX_TOKENS = 4
 
+# Pure graphic primitives: the whole filename is one generic word, so it names
+# no subject at all. A divider rule shipped as line.png is the article's image
+# on no article. Single token only, because "fsm-rule.jpg" and
+# "belgium-netherlands-border-featured.jpg" are real pictures that happen to
+# contain one of these words. Deliberately excluded: cover, thumb, banner,
+# logo, header -- those are the conventional names for *the article's own*
+# hero image, the exact opposite of furniture.
+THUMB_GRAPHIC_WORDS = frozenset("""
+line lines rule hr dot dots bar bars bg background spacer pixel sep divider
+shadow mask gradient texture blank dummy placeholder empty none null
+loader spinner
+""".split())
+
 
 def _thumb_tokens(stem: str) -> list[str]:
     return [t for t in re.split(r"[^a-z0-9]+", stem.lower()) if t]
@@ -863,6 +876,10 @@ def thumbnail_is_usable(url: str) -> tuple[bool, str]:
     stem = re.sub(r"\.[a-z0-9]+$", "", name, flags=re.I)
     # Some CMSes append the rendition size: name-1024x576.jpg
     stem = re.sub(r"[-_]\d{2,4}x\d{2,4}$", "", stem)
+    # Retina suffix: line@2x.png, line-3x.png. Same class of decoration as the
+    # rendition size above, and it otherwise turns a one-word filename into two
+    # tokens, which hides it from the single-token checks below.
+    stem = re.sub(r"[-_@][123]x$", "", stem, flags=re.I)
     if len(stem) < THUMB_MIN_STEM:
         return False, "filename too short to judge"
 
@@ -891,6 +908,8 @@ def thumbnail_is_usable(url: str) -> tuple[bool, str]:
         chrome_hits = THUMB_CHROME_WORDS & set(tokens)
         if chrome_hits:
             return False, f"interface chrome ({', '.join(sorted(chrome_hits))})"
+    if len(tokens) == 1 and tokens[0] in THUMB_GRAPHIC_WORDS:
+        return False, f"generic graphic ({tokens[0]})"
     photo_hits = THUMB_PHOTO_WORDS & set(tokens)
     if photo_hits:
         return False, f"photographic wording ({', '.join(sorted(photo_hits))})"
