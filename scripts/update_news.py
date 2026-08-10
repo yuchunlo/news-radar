@@ -36,6 +36,18 @@ except ModuleNotFoundError:
     BeautifulSoup = None
 
 UTC = timezone.utc
+
+try:
+    from curl_cffi import requests as curl_requests
+    _HAS_CURL_CFFI = True
+except Exception:                                    # pragma: no cover
+    curl_requests = None
+    _HAS_CURL_CFFI = False
+
+CURL_IMPERSONATE = os.environ.get("CURL_IMPERSONATE", "chrome")
+FEED_BLOCK_STATUS = frozenset({401, 403, 429, 451, 503})
+FEED_ACCEPT_LANGUAGE = "zh-CN,zh;q=0.9,en;q=0.8"
+
 BROWSER_UA = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
     "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
@@ -110,6 +122,7 @@ class FeedFetchResult:
     feed_url: str
     items: list[RawItem]
     error: str | None
+    via: str = "requests"
 
 
 def utc_now() -> datetime:
@@ -566,7 +579,7 @@ def build_http_session() -> requests.Session:
     session.headers.update({
         "User-Agent": BROWSER_UA,
         "Accept": "application/rss+xml, application/atom+xml, application/xml, text/xml, text/html;q=0.9, */*;q=0.8",
-        "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+        "Accept-Language": FEED_ACCEPT_LANGUAGE,
         "Accept-Encoding": "gzip, deflate",
     })
     return session
@@ -775,27 +788,57 @@ def fetch_opml_rss(
             )
         return local_items
 
+    def fetch_feed_response(feed_url: str):
+        resp = thread_session().get(
+            feed_url, timeout=(FEED_CONNECT_TIMEOUT, FEED_READ_TIMEOUT)
+        )
+        if resp.status_code not in FEED_BLOCK_STATUS or not _HAS_CURL_CFFI:
+            return resp, "requests"
+        blocked_code = resp.status_code
+        try:
+            resp.close()
+        except Exception:
+            pass
+        try:
+            alt = curl_requests.get(
+                feed_url,
+                timeout=FEED_CONNECT_TIMEOUT + FEED_READ_TIMEOUT,
+                impersonate=CURL_IMPERSONATE,
+                headers={"Accept-Language": FEED_ACCEPT_LANGUAGE},
+                allow_redirects=True,
+            )
+        except Exception as e:
+            raise requests.HTTPError(
+                f"{blocked_code} blocked; curl_cffi retry failed: "
+                f"{type(e).__name__}: {e}"
+            )
+        return alt, "curl_cffi"
+
     def fetch_single_url(feed_url: str, group: list[dict[str, str]]) -> FeedFetchResult:
         feed_title = group[0]["title"]
+        via = "requests"
         try:
-            resp = thread_session().get(
-                feed_url, timeout=(FEED_CONNECT_TIMEOUT, FEED_READ_TIMEOUT)
-            )
+            resp, via = fetch_feed_response(feed_url)
             resp.raise_for_status()
             items: list[RawItem] = []
             for feed in group:
                 items.extend(parse_for_feed(feed, resp))
-            resp.close()
+            try:
+                resp.close()
+            except Exception:
+                pass
             return FeedFetchResult(
-                feed_title=feed_title, feed_url=feed_url, items=items, error=None,
+                feed_title=feed_title, feed_url=feed_url, items=items,
+                error=None, via=via,
             )
         except Exception as e:
             return FeedFetchResult(
                 feed_title=feed_title, feed_url=feed_url,
-                items=[], error=f"{type(e).__name__}: {e}",
+                items=[], error=f"{type(e).__name__}: {e}", via=via,
             )
 
     fetch_errors: list[tuple[str, str, str]] = []
+    recovered: list[tuple[str, str]] = []
     if fetch_groups:
         worker_count = min(FEED_MAX_WORKERS, max(4, len(fetch_groups)))
         with ThreadPoolExecutor(max_workers=worker_count) as executor:
@@ -808,11 +851,19 @@ def fetch_opml_rss(
                 out.extend(result.items)
                 if result.error:
                     fetch_errors.append((result.feed_title, result.feed_url, result.error))
+                elif result.via == "curl_cffi":
+                    recovered.append((result.feed_title, result.feed_url))
+
+    if recovered:
+        print(f"{len(recovered)} feed(s) needed curl_cffi (plain request was "
+              f"blocked):")
+        for feed_title, feed_url in recovered:
+            print(f"  - [{feed_title}] {feed_url}")
 
     if fetch_errors:
         print(f"WARNING: {len(fetch_errors)} feed(s) failed to fetch:")
         for feed_title, feed_url, error in fetch_errors:
-            print(f"  - [{feed_title}] {feed_url}: {error}")
+            print(f"  - {feed_title}: {error}")
 
     return out, fetch_errors
 
