@@ -863,7 +863,7 @@ def fetch_opml_rss(
     if fetch_errors:
         print(f"WARNING: {len(fetch_errors)} feed(s) failed to fetch:")
         for feed_title, feed_url, error in fetch_errors:
-            print(f"  - {feed_title}: {error}")
+            print(f"  - [{feed_title}] {feed_url} : {error}")
 
     return out, fetch_errors
 
