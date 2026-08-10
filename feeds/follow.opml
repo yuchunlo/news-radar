@@ -273,7 +273,7 @@
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCj-_77Q1UK8qx2XJaYILagA"
         htmlUrl="https://www.youtube.com/channel/UCj-_77Q1UK8qx2XJaYILagA" />
       <outline text="Chartbook" type="rss" category="execution"
-        xmlUrl="https://adamtooze.substack.com/feed"
+        xmlUrl="https://news.google.com/rss/search?q=chartbook+site:adamtooze.substack.com&amp;gl=US"
         htmlUrl="https://adamtooze.substack.com" />
       <outline text="Manuel Bravo" type="rss" category="culture"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCdZGNOYhDdHJ8HtsLdMR88w"
@@ -1107,7 +1107,7 @@
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCRvqjQPSeaWn-uEx-w0XOIg"
         htmlUrl="https://www.youtube.com/channel/UCRvqjQPSeaWn-uEx-w0XOIg" />
       <outline text="大叔美股筆記 Uncle Stock Notes" type="rss" category="finance"
-        xmlUrl="https://unclestocknotes.substack.com/feed"
+        xmlUrl="https://news.google.com/rss/search?q=%E5%A4%A7%E5%8F%94%E7%BE%8E%E8%82%A1%E7%AD%86%E8%A8%98+site:substack.com&amp;gl=TW"
         htmlUrl="https://substack.com/@unclestocknotes" />
     </outline>
   </body>
