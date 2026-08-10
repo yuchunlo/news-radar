@@ -838,18 +838,41 @@ btn button nav navbar badge ribbon follow subscribe scrolling
 """.split())
 THUMB_CHROME_MAX_TOKENS = 4
 
-# Pure graphic primitives: the whole filename is one generic word, so it names
-# no subject at all. A divider rule shipped as line.png is the article's image
-# on no article. Single token only, because "fsm-rule.jpg" and
-# "belgium-netherlands-border-featured.jpg" are real pictures that happen to
-# contain one of these words. Deliberately excluded: cover, thumb, banner,
-# logo, header -- those are the conventional names for *the article's own*
-# hero image, the exact opposite of furniture.
+# Pure graphic primitives: a divider rule shipped as line.png is the article's
+# image on no article. Deliberately excluded: cover, thumb, banner, logo,
+# header -- those are the conventional names for *the article's own* hero
+# image, the exact opposite of furniture.
 THUMB_GRAPHIC_WORDS = frozenset("""
 line lines rule hr dot dots bar bars bg background spacer pixel sep divider
 shadow mask gradient texture blank dummy placeholder empty none null
 loader spinner
 """.split())
+
+# Layout words. On their own these say nothing either way, so they are not in
+# the set above; they only matter as the *other half* of a decoration filename.
+# The site that served line.png later served line-content.png, and would have
+# served line-title.png next -- naming each variant is a losing game, so the
+# test is compositional instead: reject when every token is generic AND at
+# least one is an actual graphic primitive.
+# That "at least one" is what protects real pictures. "content-marketing-
+# strategy.png", "main-street-photo.jpg" and "border-collie.jpg" are all made
+# of generic words plus a subject, and the subject token is what saves them;
+# "title.png" and "header.png" have no graphic token and pass too.
+THUMB_LAYOUT_WORDS = frozenset("""
+content contents main top bottom left right inner outer wrap wrapper
+box block section area panel col row grid cell border edge corner middle
+center centre side foot base common default style theme layout
+title text head header footer heading caption label item list nav menu sub
+""".split())
+
+
+def is_decoration_filename(tokens: list[str]) -> bool:
+    if not tokens:
+        return False
+    if not all(t in THUMB_GRAPHIC_WORDS or t in THUMB_LAYOUT_WORDS
+               for t in tokens):
+        return False
+    return any(t in THUMB_GRAPHIC_WORDS for t in tokens)
 
 
 def _thumb_tokens(stem: str) -> list[str]:
@@ -908,8 +931,8 @@ def thumbnail_is_usable(url: str) -> tuple[bool, str]:
         chrome_hits = THUMB_CHROME_WORDS & set(tokens)
         if chrome_hits:
             return False, f"interface chrome ({', '.join(sorted(chrome_hits))})"
-    if len(tokens) == 1 and tokens[0] in THUMB_GRAPHIC_WORDS:
-        return False, f"generic graphic ({tokens[0]})"
+    if is_decoration_filename(tokens):
+        return False, f"decoration filename ({'-'.join(tokens)})"
     photo_hits = THUMB_PHOTO_WORDS & set(tokens)
     if photo_hits:
         return False, f"photographic wording ({', '.join(sorted(photo_hits))})"
