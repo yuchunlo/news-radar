@@ -483,10 +483,14 @@ CAPTION_ANNOTATION_RE = re.compile(
 SPEAKER_ARROW_RE = re.compile(r"(?:&gt;\s*){2,}|>{2,}")
 
 
-def clean_caption_text(text: str) -> str:
+SPEAKER_TURN_MARK = "\x00"
+
+
+def clean_caption_text(text: str, mark_speaker_turns: bool = False) -> str:
     """Strip non-speech annotation and entity escapes from caption text."""
     text = html_mod.unescape(text)
-    text = SPEAKER_ARROW_RE.sub("\n", text)
+    text = SPEAKER_ARROW_RE.sub(
+        "\n" + SPEAKER_TURN_MARK if mark_speaker_turns else "\n", text)
     text = CAPTION_ANNOTATION_RE.sub(" ", text)
     text = re.sub(r"[ \t]{2,}", " ", text)
     text = re.sub(r"^[ \t]+|[ \t]+$", "", text, flags=re.M)
@@ -614,6 +618,7 @@ def is_ptt(url: str) -> bool:
 
 CJK_TERMINAL_RE = re.compile(r"[。！？!?；;]")
 UNPUNCTUATED_CHARS_PER_TERMINAL = 60
+OVERPUNCTUATED_CHARS_PER_TERMINAL = 28
 ZH_CONNECTIVE_RE = re.compile(
     r"^(但是|但|不過|可是|然而|所以|因為|因此|於是|結果|其實|如果|要是|"
     r"而且|另外|同時|然後|之後|後來|首先|接著|最後|即是|反而|不然|"
@@ -632,6 +637,13 @@ ZH_CONTINUATION_RE = re.compile(
 def chars_per_terminal(text: str) -> float:
     n = len(CJK_TERMINAL_RE.findall(text))
     return float("inf") if n == 0 else len(text) / n
+
+
+LINE_FINAL_PERIOD_RE = re.compile(r"[。．｡]+[ \t]*$", re.M)
+
+
+def strip_line_terminals(text: str) -> str:
+    return LINE_FINAL_PERIOD_RE.sub("", text)
 
 
 def merge_caption_lines(text: str) -> str:
@@ -661,6 +673,12 @@ def merge_caption_lines(text: str) -> str:
     for line in (l.strip() for l in text.split("\n")):
         if not line:
             continue
+        new_turn = line.startswith(SPEAKER_TURN_MARK)
+        if new_turn:
+            line = line.lstrip(SPEAKER_TURN_MARK).strip()
+            if not line:
+                continue
+            flush()
         # Connectives are checked first, so a word that begins with a
         # continuation particle but actually opens a clause still breaks.
         is_conn = bool(ZH_CONNECTIVE_RE.match(line))
@@ -682,7 +700,7 @@ def merge_caption_lines(text: str) -> str:
         if cur and CJK_TERMINAL_RE.search(cur[-1]):
             flush()
     flush()
-    return "\n".join(units)
+    return "\n".join(units).replace(SPEAKER_TURN_MARK, "")
 
 
 def vtt_to_text(path: str) -> str:
@@ -728,12 +746,15 @@ def vtt_to_text(path: str) -> str:
             last = candidate
 
     text = "\n".join(lines_out)
-    text = clean_caption_text(text)
+    text = clean_caption_text(text, mark_speaker_turns=True)
     text = re.sub(r"\n{2,}", "\n", text).strip()
-    if (text and cjk_ratio(text) >= 0.25
-            and chars_per_terminal(text) > UNPUNCTUATED_CHARS_PER_TERMINAL):
-        text = merge_caption_lines(text)
-    return text
+    if text and cjk_ratio(text) >= 0.25:
+        cpt = chars_per_terminal(text)
+        if cpt > UNPUNCTUATED_CHARS_PER_TERMINAL:
+            text = merge_caption_lines(text)
+        elif cpt < OVERPUNCTUATED_CHARS_PER_TERMINAL:
+            text = merge_caption_lines(strip_line_terminals(text))
+    return text.replace(SPEAKER_TURN_MARK, "")
 # ---------------------------------------------------------------- Thumbnails
 
 IMAGE_EXT_RE = re.compile(r"\.(?:png|jpe?g|gif|webp|avif|svg)(?:$|[?#])", re.I)
