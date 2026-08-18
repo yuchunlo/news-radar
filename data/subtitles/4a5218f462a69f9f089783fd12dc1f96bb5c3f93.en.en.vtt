@@ -1,0 +1,49 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.800
+It's time for a new puzzle of the month.
+
+00:00:02.200 --> 00:00:06.400
+This one starts with three pegs sitting in three corners of a square on the plane.
+
+00:00:06.900 --> 00:00:11.262
+And we're going to play a game where at any time you can jump one peg over another one,
+
+00:00:11.262 --> 00:00:13.920
+placing it an equal distance away on the other side.
+
+00:00:14.600 --> 00:00:18.106
+So for example, you could have two pegs walk down a line kind of hopping
+
+00:00:18.106 --> 00:00:21.660
+over one another like this as far as they want to their heart's content.
+
+00:00:22.060 --> 00:00:24.960
+But you don't have to go in a straight line, you can also go diagonally.
+
+00:00:24.960 --> 00:00:27.841
+This peg could jump over this one, for example,
+
+00:00:27.841 --> 00:00:32.315
+or maybe this one could jump over this one, giving you an even different
+
+00:00:32.315 --> 00:00:33.480
+angle of movement.
+
+00:00:33.900 --> 00:00:37.571
+The question is, given our initial configuration of three pegs on three
+
+00:00:37.571 --> 00:00:41.500
+corners of a square, can you get a peg to this fourth corner of the square?
+
+00:00:41.840 --> 00:00:44.697
+If the answer is yes, find with a proof the smallest
+
+00:00:44.697 --> 00:00:46.840
+number of moves required to get there.
+
+00:00:47.080 --> 00:00:50.280
+If you think the answer is no, you would have to prove that it's impossible.
+

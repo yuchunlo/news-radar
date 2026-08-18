@@ -18,7 +18,7 @@
           },
           {
             "key": "GetLiveChat_rid",
-            "value": "0x11580bf9503af521"
+            "value": "0x25aea47b0cd8662a"
           }
         ]
       },
@@ -59,7 +59,7 @@
       "loggedOut": false,
       "trackingParam": "kV9fmPxhojXCz39TnrslLKPQSQR"
     },
-    "responseId": "IhMI-5698diolgMVn8LCBB1eXAG9",
+    "responseId": "IhMIyaKVu5yrlgMV4IUKCB3gnSph",
     "webResponseContextExtensionData": {
       "webResponseContextPreloadData": {
         "preloadMessageNames": [
@@ -74,8 +74,8 @@
       "continuations": [
         {
           "timedContinuationData": {
-            "timeoutMs": 15204,
-            "continuation": "0ofMyAP2ARpeQ2lrcUp3b1lWVU40Y1VGWFRGUnJNVU50UW5aYVJsQjZaVnBOWkRsQkVndFJZMFF3VWtReFNIaEtXUm9UNnFqZHVRRU5DZ3RSWTBRd1VrUXhTSGhLV1NBQk1BQSUzRCiwwaCIvqiWAzAAQAFKXRgAIABKCggBEAAYACAAMABQsrXKh9iolgN4AKoBDBAAGgAiACoECAAQALABAMABAMgBlsys6tiolgPiAQsI74-O1AYQ7-OOfegBAPgBAJoCDAi-kY7UBhDoueu6AVCc04-BvqiWA1gAggEECAQYAYgBAKAB09S98diolgOyAQC6AQIID9ABAA%3D%3D"
+            "timeoutMs": 14708,
+            "continuation": "0ofMyAP3ARpeQ2lrcUp3b1lWVU5JY21kWFRYSnFUMVpEYnpWV1UxbGpWbFk0WlUxbkVndEVjRWgwVkMxWE16WlJSUm9UNnFqZHVRRU5DZ3RFY0VoMFZDMVhNelpSUlNBQk1BQSUzRCjHtPnRgauWAzAAQAFKXhgAIABKCggBEAAYACAAMABQnYGs0ZurlgN4AKoBDBAAGgAiACoECAAQALABAMABAMgBucyLtJyrlgPiAQwIuraT1AYQusXqoALoAQD4AQCaAgwIibiT1AYQ5eyoygJQ8-nvyoGrlgNYAIIBBAgEGAGIAQCgAd3olrucq5YDsgEAugECCA_QAQA%3D"
           }
         }
       ],
@@ -86,19 +86,19 @@
     "entityBatchUpdate": {
       "mutations": [
         {
-          "entityKey": "EgtRY0QwUkQxSHhKWSCzBCgB",
+          "entityKey": "EgtEcEh0VC1XMzZRRSCzBCgB",
           "type": "ENTITY_MUTATION_TYPE_REPLACE",
           "payload": {
             "liveViewerLeaderboardChatEntryPointStateEntity": {
-              "key": "EgtRY0QwUkQxSHhKWSCzBCgB",
+              "key": "EgtEcEh0VC1XMzZRRSCzBCgB",
               "state": "LIVE_VIEWER_LEADERBOARD_CHAT_ENTRY_POINT_STATE_POINTS_AVAILABLE"
             }
           }
         }
       ],
       "timestamp": {
-        "seconds": "1787005133",
-        "nanos": 351749442
+        "seconds": "1787091992",
+        "nanos": 556995690
       }
     }
   },
