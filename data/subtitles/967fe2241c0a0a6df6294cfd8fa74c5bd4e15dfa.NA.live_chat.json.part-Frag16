@@ -10,7 +10,7 @@
           },
           {
             "key": "cver",
-            "value": "2.20260817.01.00"
+            "value": "2.20260819.01.00"
           },
           {
             "key": "yt_li",
@@ -18,7 +18,7 @@
           },
           {
             "key": "GetLiveChat_rid",
-            "value": "0x25aea47b0cd8662a"
+            "value": "0xcb94cca857df32b9"
           }
         ]
       },
@@ -45,7 +45,7 @@
         "params": [
           {
             "key": "client.version",
-            "value": "2.20260817"
+            "value": "2.20260819"
           },
           {
             "key": "client.name",
@@ -59,7 +59,7 @@
       "loggedOut": false,
       "trackingParam": "kV9fmPxhojXCz39TnrslLKPQSQR"
     },
-    "responseId": "IhMIyaKVu5yrlgMV4IUKCB3gnSph",
+    "responseId": "IhMIwcKdnt2tlgMVxsnCBB02cRd4",
     "webResponseContextExtensionData": {
       "webResponseContextPreloadData": {
         "preloadMessageNames": [
@@ -74,8 +74,8 @@
       "continuations": [
         {
           "timedContinuationData": {
-            "timeoutMs": 14708,
-            "continuation": "0ofMyAP3ARpeQ2lrcUp3b1lWVU5JY21kWFRYSnFUMVpEYnpWV1UxbGpWbFk0WlUxbkVndEVjRWgwVkMxWE16WlJSUm9UNnFqZHVRRU5DZ3RFY0VoMFZDMVhNelpSUlNBQk1BQSUzRCjHtPnRgauWAzAAQAFKXhgAIABKCggBEAAYACAAMABQnYGs0ZurlgN4AKoBDBAAGgAiACoECAAQALABAMABAMgBucyLtJyrlgPiAQwIuraT1AYQusXqoALoAQD4AQCaAgwIibiT1AYQ5eyoygJQ8-nvyoGrlgNYAIIBBAgEGAGIAQCgAd3olrucq5YDsgEAugECCA_QAQA%3D"
+            "timeoutMs": 14375,
+            "continuation": "0ofMyAP3ARpeQ2lrcUp3b1lWVU40Y1VGWFRGUnJNVU50UW5aYVJsQjZaVnBOWkRsQkVndFJZMFF3VWtReFNIaEtXUm9UNnFqZHVRRU5DZ3RSWTBRd1VrUXhTSGhLV1NBQk1BQSUzRCjz8YC1wq2WAzAAQAFKXhgAIABKCggBEAAYACAAMABQgo31s9ytlgN4AKoBDBAAGgAiACoECAAQALABAMABAMgB5pvglt2tlgPiAQwIlNeY1AYQ_8zCvwLoAQD4AQCaAgwI89iY1AYQp9_SrgJQuKXDrcKtlgNYAIIBBAgEGAGIAQCgAbaEnp7drZYDsgEAugECCA_QAQA%3D"
           }
         }
       ],
@@ -86,19 +86,19 @@
     "entityBatchUpdate": {
       "mutations": [
         {
-          "entityKey": "EgtEcEh0VC1XMzZRRSCzBCgB",
+          "entityKey": "EgtRY0QwUkQxSHhKWSCzBCgB",
           "type": "ENTITY_MUTATION_TYPE_REPLACE",
           "payload": {
             "liveViewerLeaderboardChatEntryPointStateEntity": {
-              "key": "EgtEcEh0VC1XMzZRRSCzBCgB",
+              "key": "EgtRY0QwUkQxSHhKWSCzBCgB",
               "state": "LIVE_VIEWER_LEADERBOARD_CHAT_ENTRY_POINT_STATE_POINTS_AVAILABLE"
             }
           }
         }
       ],
       "timestamp": {
-        "seconds": "1787091992",
-        "nanos": 556995690
+        "seconds": "1787178099",
+        "nanos": 639277211
       }
     }
   },
