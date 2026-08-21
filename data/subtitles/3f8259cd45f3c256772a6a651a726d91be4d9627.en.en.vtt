@@ -1,0 +1,653 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.160 --> 00:00:05.280
+OpenAI is losing more than two&nbsp;
+dollars for every dollar it makes.&nbsp;
+
+00:00:05.280 --> 00:00:10.880
+Their Q1 2026 operating margin was -122%.&nbsp;
+
+00:00:10.880 --> 00:00:15.760
+They are on pace to undershoot its&nbsp;
+ad revenue projections by 90 percent.&nbsp;
+
+00:00:15.760 --> 00:00:19.840
+ChatGPT's market share has dropped&nbsp;
+below 50% for the first time ever.&nbsp;
+
+00:00:19.840 --> 00:00:23.200
+Their enterprise share has&nbsp;
+been cut nearly in half.&nbsp;
+
+00:00:23.200 --> 00:00:29.760
+And Sam Altman just admitted it himself:&nbsp;
+OpenAI has "not had our best 12 months ever,&nbsp;&nbsp;
+
+00:00:29.760 --> 00:00:33.920
+and it's mostly my fault."
+How did this happen?&nbsp;
+
+00:00:33.920 --> 00:00:41.040
+ChatGPT has over 900 million weekly users.
+It’s the company that started the AI race,&nbsp;&nbsp;
+
+00:00:41.040 --> 00:00:51.760
+which is now falling behind.
+Can they still catch up?&nbsp;
+
+00:00:51.760 --> 00:00:58.080
+To answer these questions, we need to look at&nbsp;
+the state of OpenAI, now, and how we got here.&nbsp;
+
+00:00:58.080 --> 00:01:02.880
+The first tipping point wasn’t&nbsp;
+actually Anthropic… but Gemini.&nbsp;
+
+00:01:02.880 --> 00:01:09.360
+In November 2025, Gemini 3 beat GPT-5.1&nbsp;
+across essentially every benchmark.&nbsp;
+
+00:01:09.360 --> 00:01:13.360
+This caused Altman to issue&nbsp;
+a “code red” at OpenAI.&nbsp;
+
+00:01:13.360 --> 00:01:20.720
+Though, OpenAI still had a gigantic lead.&nbsp;
+Over 1.1 billion users, with Gemini at 662&nbsp;&nbsp;
+
+00:01:20.720 --> 00:01:26.880
+million, and Claude with 245 million.
+But, these numbers are quite deceptive.&nbsp;
+
+00:01:26.880 --> 00:01:33.200
+OpenAI has a lot of users… but their control&nbsp;
+on the markets that matter, is shrinking.&nbsp;
+
+00:01:33.200 --> 00:01:38.240
+In May, ChatGPT’s global assistant share&nbsp;
+dropped below 50% for the first time,&nbsp;&nbsp;
+
+00:01:38.240 --> 00:01:47.760
+to 46%, with Gemini at 28% and Claude at 10%.
+It seems like OpenAI is still in the lead, but,&nbsp;&nbsp;
+
+00:01:47.760 --> 00:01:54.560
+things get a lot worse for OpenAI, when we look&nbsp;
+at what actually makes money: enterprise spending.&nbsp;
+
+00:01:54.560 --> 00:01:58.800
+And oh boy, is it bad.
+“We estimate Anthropic now&nbsp;&nbsp;
+
+00:01:58.800 --> 00:02:07.200
+earns 40% of enterprise LLM spend, up from 24%&nbsp;
+last year and 12% in 2023. Over the same period,&nbsp;&nbsp;
+
+00:02:07.200 --> 00:02:14.480
+OpenAI lost nearly half of its enterprise&nbsp;
+share, falling to 27% from 50% in 2023.&nbsp;&nbsp;
+
+00:02:14.480 --> 00:02:22.560
+Google also saw significant gains, increasing its&nbsp;
+enterprise share from 7% in 2023 to 21% in 2025.”&nbsp;
+
+00:02:22.560 --> 00:02:29.600
+This is one of the biggest foundational problems,&nbsp;
+and a big part of this is coding, where LLMs have&nbsp;&nbsp;
+
+00:02:29.600 --> 00:02:35.520
+seen some of the most successful return.
+Anthropic now has 54% of the coding market,&nbsp;&nbsp;
+
+00:02:35.520 --> 00:02:39.600
+with OpenAI at just 21%.
+And part of the challenge&nbsp;&nbsp;
+
+00:02:39.600 --> 00:02:46.080
+is the delay or restraint of computing power.
+About 40% of US data centres planned for 2026&nbsp;&nbsp;
+
+00:02:46.080 --> 00:02:50.720
+are already delayed, transformer lead times&nbsp;
+have stretched to five years in some regions,&nbsp;&nbsp;
+
+00:02:50.720 --> 00:02:56.080
+and OpenAI has cancelled sites in&nbsp;
+the UK, Norway and Lordstown, Ohio.&nbsp;
+
+00:02:56.080 --> 00:03:00.800
+OpenAI is struggling in the deep,&nbsp;
+high revenue niches that matter.&nbsp;
+
+00:03:00.800 --> 00:03:04.400
+But, there’s another part&nbsp;
+we need to talk about. Ads.&nbsp;
+
+00:03:04.400 --> 00:03:10.880
+OpenAI, and others, have claimed that ads are&nbsp;
+their saving grace. And it very well could be.&nbsp;
+
+00:03:10.880 --> 00:03:16.480
+The way to monetise the free tier.
+Because, boy are there a lot of them.&nbsp;
+
+00:03:16.480 --> 00:03:22.640
+Out of 900-910 million weekly active&nbsp;
+users, 95% of them are on the free service.&nbsp;
+
+00:03:22.640 --> 00:03:27.520
+Hence why OpenAI set a target of&nbsp;
+$100 billion in ad revenue for 2030.&nbsp;
+
+00:03:27.520 --> 00:03:33.760
+If they can’t dominate coding or enterprise,&nbsp;
+maybe they can be the mass market ad service?&nbsp;
+
+00:03:33.760 --> 00:03:35.280
+Well…
+OpenAI’s ad&nbsp;&nbsp;
+
+00:03:35.280 --> 00:03:41.200
+business is on pace to miss this by 90%.
+In fact, the standalone AI chatbots,&nbsp;&nbsp;
+
+00:03:41.200 --> 00:03:47.200
+like ChatGPT, Gemini, Copilot, Google AI Mode,&nbsp;
+and more, will have cumulatively generated&nbsp;&nbsp;
+
+00:03:47.200 --> 00:03:53.440
+under $1 billion in 2026 in ad revenue.
+By 2030? It’s expected to be just $5.41&nbsp;&nbsp;
+
+00:03:53.440 --> 00:03:58.480
+billion, across the entire market.
+“OpenAI's single-company 2030 target&nbsp;&nbsp;
+
+00:03:58.480 --> 00:04:04.720
+is roughly 20 times larger than eMarketer's&nbsp;
+estimate for the entire U.S. chatbot ad market.”&nbsp;
+
+00:04:04.720 --> 00:04:08.320
+But, why?
+They have so many users,&nbsp;&nbsp;
+
+00:04:08.320 --> 00:04:12.320
+why can’t they monetise them?
+A few reasons.&nbsp;
+
+00:04:12.320 --> 00:04:16.480
+It turns out, prompt replies are&nbsp;
+surprisingly hard to advertise on.&nbsp;
+
+00:04:16.480 --> 00:04:22.480
+Only about 2% of ChatGPT prompts, aka what&nbsp;
+the person is searching, involve purchasable&nbsp;&nbsp;
+
+00:04:22.480 --> 00:04:28.080
+products. So it’s hard to sell something,&nbsp;
+when the prompt doesn’t relate in any way.&nbsp;
+
+00:04:28.080 --> 00:04:33.680
+Hence, ChatGPT ads have a terrible&nbsp;
+click through rate of 0.91-1.3%.&nbsp;
+
+00:04:34.320 --> 00:04:40.400
+For context, Google search ads are around&nbsp;
+29.2%. Where basically everything you search,&nbsp;&nbsp;
+
+00:04:40.400 --> 00:04:44.160
+has some kind of relevant ad.
+AI might be taking a lot of web&nbsp;&nbsp;
+
+00:04:44.160 --> 00:04:49.440
+traffic from search results… but it sure&nbsp;
+doesn’t seem to be taking the ad revenue.&nbsp;
+
+00:04:49.440 --> 00:04:54.640
+According to advertisers, the ad&nbsp;
+tech stack is also still “primitive”.&nbsp;
+
+00:04:54.640 --> 00:05:00.720
+“CPMs on the ad business have already&nbsp;
+collapsed from $60 to as low as $25”&nbsp;
+
+00:05:00.720 --> 00:05:07.680
+To make matters worse, 80% of users sent fewer&nbsp;
+than 1,000 messages all year, in 2025. An average&nbsp;&nbsp;
+
+00:05:07.680 --> 00:05:15.280
+of fewer than 3 prompts per day. So the chance&nbsp;
+to see ads, let alone relevant ads, isn’t great.&nbsp;
+
+00:05:15.280 --> 00:05:21.520
+But with all that said, none of that&nbsp;
+matters if OpenAI is actually making money.&nbsp;
+
+00:05:21.520 --> 00:05:25.920
+So, how is that looking?
+Well, OpenAI have two,&nbsp;&nbsp;
+
+00:05:25.920 --> 00:05:29.760
+gigantic problems to deal&nbsp;
+with before they can start.&nbsp;
+
+00:05:36.320 --> 00:05:40.960
+Let’s look at things right now:
+OpenAI has forecasted a $14 billion&nbsp;&nbsp;
+
+00:05:40.960 --> 00:05:47.760
+loss for all of 2026, with losses totalling&nbsp;
+$44 billion from 2023 through to 2029.&nbsp;
+
+00:05:47.760 --> 00:05:56.320
+But then, we got the Q1 2026 results, with a $6.95&nbsp;
+billion operating loss on $5.7 billion in revenue,&nbsp;&nbsp;
+
+00:05:56.320 --> 00:06:02.400
+which is a -122% operating margin.
+So, for every dollar OpenAI made,&nbsp;&nbsp;
+
+00:06:02.400 --> 00:06:05.600
+they spent more than two.
+They are one quarter into the&nbsp;&nbsp;
+
+00:06:05.600 --> 00:06:10.320
+financial year and have already used half&nbsp;
+of the loss they projected for all of it.&nbsp;
+
+00:06:10.320 --> 00:06:17.600
+Once you add stock compensation, $2.3 billion, the&nbsp;
+GAAP operating loss is as high as $9.3 billion.&nbsp;
+
+00:06:17.600 --> 00:06:22.400
+FutureSearch now forecasts a&nbsp;
+$33 billion GAAP loss for 2026.&nbsp;
+
+00:06:22.400 --> 00:06:27.120
+But as we’ll soon find out, these&nbsp;
+losses aren’t nearly the entire picture.&nbsp;
+
+00:06:27.120 --> 00:06:32.240
+OpenAI needs to start making some real&nbsp;
+money, which is proving difficult.&nbsp;
+
+00:06:32.240 --> 00:06:36.160
+OpenAI promised revenue would&nbsp;
+start booming… eventually.&nbsp;
+
+00:06:36.160 --> 00:06:38.720
+And revenue was… and technically&nbsp;&nbsp;
+
+00:06:38.720 --> 00:06:43.360
+still is growing, but…
+Not so much anymore.&nbsp;
+
+00:06:43.360 --> 00:06:47.920
+[Dan Schwarz, FutureSearch]:“OpenAI grew&nbsp;
+from $6 billion to roughly $25 billion ARR&nbsp;&nbsp;
+
+00:06:47.920 --> 00:06:54.000
+over the 17 months to May 2026. Growth then&nbsp;
+flattened: the run rate held near $25 billion&nbsp;&nbsp;
+
+00:06:54.000 --> 00:07:00.000
+from February through the spring. OpenAI's&nbsp;
+internal target for mid-2027 is $62 billion.&nbsp;&nbsp;
+
+00:07:00.000 --> 00:07:04.800
+My forecast median is $44 billion.”
+ChatGPT weekly active users have&nbsp;&nbsp;
+
+00:07:04.800 --> 00:07:10.080
+also plateaued at around 900 million, with&nbsp;
+only 50 million being paying subscribers.&nbsp;
+
+00:07:10.080 --> 00:07:14.160
+OpenAI can’t seem to monetise&nbsp;
+their exorbitant user-base.&nbsp;
+
+00:07:14.160 --> 00:07:19.200
+Which, is important, because of OpenAI’s&nbsp;
+massive bills and capital commitments.&nbsp;
+
+00:07:19.200 --> 00:07:24.640
+Starting in 2027, OpenAI will be paying&nbsp;
+Oracle $300 billion across 5 years,&nbsp;&nbsp;
+
+00:07:24.640 --> 00:07:31.440
+for cloud capacity, about 4.5 GW, or the&nbsp;
+electricity of about four million homes.&nbsp;
+
+00:07:31.440 --> 00:07:37.440
+They have a deal with AWS for $38 billion across&nbsp;
+seven years, for access to mass amounts of Nvidia&nbsp;&nbsp;
+
+00:07:37.440 --> 00:07:44.960
+GB200 and GB300 GPUs. Then it expanded that&nbsp;
+agreement by $100 billion across eight years.&nbsp;
+
+00:07:44.960 --> 00:07:50.800
+OpenAI has also committed to $250 billion&nbsp;
+in Microsoft Azure, aka cloud services,&nbsp;&nbsp;
+
+00:07:50.800 --> 00:07:57.040
+as well as 10 GW of custom AI accelerators from&nbsp;
+Broadcom. Basically, OpenAI will design its own&nbsp;&nbsp;
+
+00:07:57.040 --> 00:08:02.400
+chip, with Broadcom building it. We don’t know&nbsp;
+exactly how much this will be, but the Financial&nbsp;&nbsp;
+
+00:08:02.400 --> 00:08:09.040
+Times estimated between $350 and $500 billion.
+There are even more agreements, but in total,&nbsp;&nbsp;
+
+00:08:09.040 --> 00:08:17.120
+according to CFO Sarah Friar, OpenAI has current&nbsp;
+commitments of $750 billion through 2030. And&nbsp;&nbsp;
+
+00:08:17.120 --> 00:08:24.000
+remember, there’s way more spend beyond 2030…
+Though, we also need extra context.&nbsp;
+
+00:08:24.000 --> 00:08:30.480
+These are massive bills, but most of these&nbsp;
+companies are also funneling money into OpenAI.&nbsp;
+
+00:08:30.480 --> 00:08:36.480
+They just announced a $110 billion funding round,&nbsp;
+twice the size of their last raise. “Amazon&nbsp;&nbsp;
+
+00:08:36.480 --> 00:08:41.920
+invested $50 billion, Nvidia invested $30 billion&nbsp;
+and SoftBank invested $30 billion in the round”.&nbsp;
+
+00:08:41.920 --> 00:08:49.600
+Worldwide AI spending is estimated to reach&nbsp;
+$2.59 trillion in 2026, a 47% increase over 2025.&nbsp;
+
+00:08:49.600 --> 00:08:55.040
+The Magnificent Seven have planned more&nbsp;
+than $700 billion in AI capex for 2026,&nbsp;&nbsp;
+
+00:08:55.040 --> 00:09:00.880
+up from roughly $400 billion in 2025.
+This gives us insight into OpenAI’s runway.&nbsp;
+
+00:09:00.880 --> 00:09:07.440
+Their cash reserves and marketable securities&nbsp;
+are at $73 billion. So they do have cash on hand,&nbsp;&nbsp;
+
+00:09:07.440 --> 00:09:13.600
+and that’s up from $40 billion at the end of 2025.
+But, they’ve promised a lot of money,&nbsp;&nbsp;
+
+00:09:13.600 --> 00:09:18.080
+to quite a few companies.
+And they’re burning through cash very quickly.&nbsp;
+
+00:09:18.080 --> 00:09:21.920
+So, can OpenAI catch up?
+One thing people point to for this,&nbsp;&nbsp;
+
+00:09:21.920 --> 00:09:26.960
+is their IPO. This has potential&nbsp;
+for a gigantic capital injection.&nbsp;
+
+00:09:26.960 --> 00:09:30.560
+Sam Altman believes OpenAI has a&nbsp;
+valuation well over $1 trillion.&nbsp;
+
+00:09:31.200 --> 00:09:36.720
+But, now they’ve pushed it back, to next year.
+And, it makes sense as to why.&nbsp;
+
+00:09:36.720 --> 00:09:41.760
+OpenAI isn’t winning the race anymore.
+Well, they are in pure user counts,&nbsp;&nbsp;
+
+00:09:41.760 --> 00:09:46.000
+but not much else.
+Which brings us to the big problem.&nbsp;
+
+00:09:46.000 --> 00:09:51.440
+OpenAI signed contractual obligations&nbsp;
+against revenue that hadn’t arrived yet.&nbsp;
+
+00:09:51.440 --> 00:09:58.000
+But OpenAI was winning. So they committed big.
+Though now, they’re no longer winning the AI race,&nbsp;&nbsp;
+
+00:09:58.000 --> 00:10:03.280
+but still spent the winnings of said race…
+Here’s where things get really interesting though.&nbsp;
+
+00:10:03.280 --> 00:10:08.720
+At the BlackRock Infrastructure Summit in March&nbsp;
+2026, Sam Altman said something important.&nbsp;
+
+00:10:36.880 --> 00:10:41.760
+Something massive is happening in AI,&nbsp;
+not too dissimilar to other industries.&nbsp;
+
+00:10:41.760 --> 00:10:47.280
+It turns out, Altman might be right,&nbsp;
+but, maybe not in the way he hopes.&nbsp;
+
+00:10:47.280 --> 00:10:53.040
+This is bad for all AI model&nbsp;
+companies, not just OpenAI.&nbsp;
+
+00:10:58.720 --> 00:11:03.040
+If you’ve watched this far, consider&nbsp;
+subscribing! You probably enjoy our&nbsp;&nbsp;
+
+00:11:03.040 --> 00:11:09.040
+stuff, and it helps the channel too! Thanks.
+Let’s give that earlier quote, a bit more context.&nbsp;
+
+00:11:09.040 --> 00:11:13.040
+Altman is referencing a phrase made&nbsp;
+by Lewis Strauss, Chair of the Atomic&nbsp;&nbsp;
+
+00:11:13.040 --> 00:11:16.720
+Energy Commission in the 50s, where he said
+[Lewis Strauss]: “It is not too much to expect&nbsp;&nbsp;
+
+00:11:16.720 --> 00:11:21.520
+that our children will enjoy in their homes&nbsp;
+electrical energy too cheap to meter — will&nbsp;&nbsp;
+
+00:11:21.520 --> 00:11:26.280
+know of great periodic regional famines&nbsp;
+in the world only as matters of history,—&nbsp;&nbsp;
+
+00:11:26.280 --> 00:11:30.640
+will travel effort­lessly over the seas and&nbsp;
+under them and through the air with a minimum&nbsp;&nbsp;
+
+00:11:30.640 --> 00:11:36.640
+of danger and at great speeds, — and will&nbsp;
+experience a lifespan far longer than ours”&nbsp;
+
+00:11:36.640 --> 00:11:43.840
+This was his prediction about nuclear power,&nbsp;
+which never came true. Something else happened.
+
+00:11:43.840 --> 00:11:48.640
+Electricity became one of the most tightly&nbsp;
+regulated industries in the developed world.&nbsp;
+
+00:11:48.640 --> 00:11:52.400
+It still became a commodity,&nbsp;
+with extremely thin margins.&nbsp;
+
+00:11:52.400 --> 00:11:55.840
+A part of that ecosystem&nbsp;
+absolutely makes a ton of money.&nbsp;
+
+00:11:55.840 --> 00:12:01.280
+The turbine makers, transformer manufacturers,&nbsp;
+and transmission networks are very profitable.&nbsp;
+
+00:12:01.280 --> 00:12:06.880
+The value in electricity, moved down the&nbsp;
+stack, or rather, it was always there anyway.&nbsp;
+
+00:12:06.880 --> 00:12:11.600
+What makes all of this, so ironic, is that&nbsp;
+Sam Altman literally predicted all of this.&nbsp;
+
+00:12:11.600 --> 00:12:15.040
+In his June 2025 essay The Gentle Singularity,&nbsp;&nbsp;
+
+00:12:15.040 --> 00:12:18.320
+he wrote that “as datacentre&nbsp;
+production gets automated,&nbsp;&nbsp;
+
+00:12:18.320 --> 00:12:23.120
+the cost of intelligence should eventually&nbsp;
+converge to near the cost of electricity.”&nbsp;
+
+00:12:23.120 --> 00:12:42.240
+It’s not just electricity either.
+This clip must make it into the edit).&nbsp;
+
+00:12:44.080 --> 00:12:50.240
+The internet eventually turned into a commodity.
+A gigabit from Brand A is the same as Brand B,&nbsp;&nbsp;
+
+00:12:50.240 --> 00:12:54.000
+so a customer has no reason to&nbsp;
+consider anything but price.&nbsp;
+
+00:12:54.000 --> 00:12:57.840
+The part that makes real money,&nbsp;
+accumulates where it can’t move.&nbsp;
+
+00:12:57.840 --> 00:13:02.320
+For a while, the companies selling the&nbsp;
+actual equipment, like Cisco, and Corning.&nbsp;
+
+00:13:02.320 --> 00:13:06.240
+Cisco was briefly the most valuable&nbsp;
+company in the world in 2000.&nbsp;
+
+00:13:06.240 --> 00:13:10.960
+But when the buildout of internet infrastructure&nbsp;
+largely stopped, the value collapsed.&nbsp;
+
+00:13:10.960 --> 00:13:16.080
+Now, the value is up the stack in the consumer&nbsp;
+end. Companies like Google or Netflix,&nbsp;&nbsp;
+
+00:13:16.080 --> 00:13:23.520
+who have all your data, information, habits, have&nbsp;
+a high switching cost, just not a monetary one.&nbsp;
+
+00:13:23.520 --> 00:13:29.040
+So how does this relate to AI?
+Because the exact same thing is happening.&nbsp;
+
+00:14:03.200 --> 00:14:09.840
+In 2023, both GPUs and AI models were scarce.
+But now, in 2026,&nbsp;&nbsp;
+
+00:14:09.840 --> 00:14:15.760
+GPUs are still scarce, models are not.
+And they’re all getting closer and closer.&nbsp;
+
+00:14:15.760 --> 00:14:21.280
+“The gap between the best closed model and the&nbsp;
+best open-weight model on Chatbot Arena fell from&nbsp;&nbsp;
+
+00:14:21.280 --> 00:14:30.000
+8.04% in January 2024 to 1.70% in February 2025.&nbsp;
+The supply side is now effectively infinite. The&nbsp;&nbsp;
+
+00:14:30.000 --> 00:14:35.840
+scarce asset becomes the ability to run them well&nbsp;
+— throughput, latency, cost per token, routing,&nbsp;&nbsp;
+
+00:14:35.840 --> 00:14:41.840
+caching, fine-tuning, evaluation, and guardrails.”
+The value in all of these areas, accumulates&nbsp;&nbsp;
+
+00:14:41.840 --> 00:14:46.800
+where it is hardest to substitute.
+The value, accumulating down the stack.&nbsp;
+
+00:14:46.800 --> 00:14:52.160
+At the bottom, with the most “mass”, or&nbsp;
+value, are the semiconductors and compute.&nbsp;
+
+00:14:52.160 --> 00:15:00.640
+“NVIDIA’s data-center revenue hit $75.2B, up&nbsp;
+92% year over year, at a ~75% gross margin:&nbsp;&nbsp;
+
+00:15:00.640 --> 00:15:06.560
+roughly a $300B annualized run-rate”
+The money is in companies selling GPUs,&nbsp;&nbsp;
+
+00:15:06.560 --> 00:15:12.160
+semiconductors, compute. Not intelligence.
+That might change, if the supply for GPUs&nbsp;&nbsp;
+
+00:15:12.160 --> 00:15:15.840
+and compute outweighs demand.
+There is also value near the top&nbsp;&nbsp;
+
+00:15:15.840 --> 00:15:20.160
+layer, not in ChatGPT, but in&nbsp;
+third-party, consumer-facing software.&nbsp;
+
+00:15:20.160 --> 00:15:25.920
+But this is rather thin, as AI apps have&nbsp;
+lower margins than regular SaaS products.&nbsp;
+
+00:15:25.920 --> 00:15:30.320
+Just look at Amazon.
+They’re cutting back their AI model, Nova,&nbsp;&nbsp;
+
+00:15:30.320 --> 00:15:35.520
+because, at least I believe, they’ve figured out&nbsp;
+this part of the industry isn't the money maker.&nbsp;
+
+00:15:35.520 --> 00:15:40.400
+It’s the one below it.
+This is why OpenAI is in such a tough spot.&nbsp;
+
+00:15:40.400 --> 00:15:45.200
+They are stuck in the least valuable layer.
+And as there are more comparable models,&nbsp;&nbsp;
+
+00:15:45.200 --> 00:15:50.000
+and prices come down, paying those&nbsp;
+massive bills might be tough.&nbsp;
+
+00:15:50.000 --> 00:15:56.480
+What’s interesting is how AI and intelligence&nbsp;
+have become a commodity, which is in tokens.&nbsp;
+
+00:15:56.480 --> 00:16:01.600
+Charged by use, like electricity.
+And now, token cost has even gone “far&nbsp;&nbsp;
+
+00:16:01.600 --> 00:16:06.640
+beyond the costs of the employees”.
+But, something weird has happened.&nbsp;
+
+00:16:06.640 --> 00:16:10.960
+Tokens aren’t actually getting more expensive.
+The price of a single token has&nbsp;&nbsp;
+
+00:16:10.960 --> 00:16:16.240
+fallen by about 90% since 2023.
+So, if intelligence and tokens are&nbsp;&nbsp;
+
+00:16:16.240 --> 00:16:21.920
+cheaper, why is AI spend getting so much bigger?
+Click here to learn the other side of the story.
+
