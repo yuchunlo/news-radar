@@ -18,7 +18,7 @@ from dataclasses import dataclass, field
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
-from urllib.parse import parse_qsl, urlencode, urlparse, urlunparse
+from urllib.parse import parse_qsl, urlencode, urljoin, urlparse, urlunparse
 
 from urllib3.util.retry import Retry
 from requests.adapters import HTTPAdapter
@@ -166,7 +166,7 @@ def normalize_url(raw_url: str) -> str:
         parsed = parsed._replace(
             scheme=parsed.scheme.lower(),
             netloc=parsed.netloc.lower(),
-            fragment="",
+            fragment=_bestblogs_issue_fragment(raw_url),
             query=urlencode(query, doseq=True),
         )
         return urlunparse(parsed).rstrip("/")
@@ -222,6 +222,19 @@ DEV_ORIGIN_RE = re.compile(
     r"^(?:localhost|127\.0\.0\.1|0\.0\.0\.0|\[::1\]|[^.]+\.local)(?::\d+)?$",
     re.I,
 )
+
+
+def _bestblogs_issue_fragment(raw_url: str) -> str:
+    try:
+        parsed = urlparse((raw_url or "").strip())
+    except Exception:
+        return ""
+    host = parsed.netloc.lower()
+    if not host_matches(host, ("bestblogs.dev",)):
+        return ""
+    if "/newsletter" not in parsed.path:
+        return ""
+    return parsed.fragment.strip()
 
 
 def canonical_url(raw_url: str, source: str = "", feed_url: str = "") -> str:
@@ -662,6 +675,113 @@ def thread_session() -> requests.Session:
     return session
 
 
+# ---------------------------------------------------------------- BestBlogs
+
+BESTBLOGS_API = "https://api.bestblogs.dev/api/newsletter/list"
+BESTBLOGS_NEWSLETTER = "https://www.bestblogs.dev/en/newsletter"
+BESTBLOGS_MAX_PAGES = 12      # [tune] newsletter issues are weekly; 12*20 is years
+BESTBLOGS_PAGE_SIZE = 20
+
+
+def fetch_bestblogs(session: requests.Session, now: datetime) -> list[RawItem]:
+    """BestBlogs weekly newsletter issues.
+
+    Not an OPML feed: the newsletter index is a JSON API, and the site's own
+    RSS bridges (wechat2rss/werss.bestblogs.dev) are in RSS_FEED_SKIP_PREFIXES.
+    The paged API is the primary source; if it fails for any reason we fall
+    back to scraping the public index page, which yields the same issues
+    without their timestamps.
+    """
+    site_id = "bestblogs"
+    site_name = "BestBlogs"
+    out: list[RawItem] = []
+    seen: set[str] = set()
+    try:
+        current_page = 1
+        page_count = 1
+        while current_page <= page_count and current_page <= BESTBLOGS_MAX_PAGES:
+            payload = {
+                "currentPage": current_page,
+                "pageSize": BESTBLOGS_PAGE_SIZE,
+                "userLanguage": "en",
+            }
+            r = session.post(BESTBLOGS_API, json=payload,
+                             timeout=(FEED_CONNECT_TIMEOUT, 30))
+            r.raise_for_status()
+            body = r.json()
+            data = body.get("data", {}) or {}
+            page_count = int(data.get("pageCount", 1) or 1)
+            for issue in data.get("dataList", []) or []:
+                issue_id = str(issue.get("id", "")).strip()
+                title = str(issue.get("title", "")).strip()
+                if not issue_id or not title:
+                    continue
+                url = f"{BESTBLOGS_NEWSLETTER}#{issue_id}"
+                if url in seen:
+                    continue
+                seen.add(url)
+                out.append(
+                    RawItem(
+                        site_id=site_id,
+                        site_name=site_name,
+                        source="Weekly Newsletter",
+                        title=title,
+                        url=url,
+                        published_at=parse_unix_timestamp(issue.get("createdTimestamp")),
+                        meta={
+                            "issue_id": issue_id,
+                            "article_count": issue.get("articleCount"),
+                        },
+                    )
+                )
+            current_page += 1
+    except Exception as exc:
+        print(f"WARNING: BestBlogs API failed ({exc}); falling back to HTML")
+
+    if out:
+        return out
+
+    if BeautifulSoup is None:
+        print("WARNING: BestBlogs HTML fallback needs beautifulsoup4; skipping")
+        return out
+    try:
+        r = session.get(BESTBLOGS_NEWSLETTER, timeout=(FEED_CONNECT_TIMEOUT, 30))
+        r.raise_for_status()
+    except Exception as exc:
+        print(f"WARNING: BestBlogs fetch failed: {exc}")
+        return out
+    soup = BeautifulSoup(r.text, "html.parser")
+    for a in soup.select("a[href*='/newsletter']"):
+        href = (a.get("href") or "").strip()
+        if not href:
+            continue
+        url = href if href.startswith("http") else urljoin(BESTBLOGS_NEWSLETTER, href)
+        title = a.get_text(" ", strip=True)
+        if len(title) < 8:
+            continue
+        if url in seen:
+            continue
+        seen.add(url)
+        dt = None
+        time_tag = a.select_one("time")
+        if time_tag:
+            dt = parse_date_any(
+                time_tag.get("datetime") or time_tag.get_text(" ", strip=True), now
+            )
+        out.append(
+            RawItem(
+                site_id=site_id,
+                site_name=site_name,
+                source="Weekly Newsletter",
+                title=title,
+                url=url,
+                published_at=dt,
+                meta={},
+            )
+        )
+    return out
+
+
 def fetch_opml_rss(
     now: datetime,
     opml_path: Path,
@@ -1074,8 +1194,14 @@ def main(argv=None) -> int:
         else:
             print(f"WARNING: OPML not found: {opml_path}")
     else:
-        print("WARNING: no --rss-opml provided; nothing to fetch.")
+        print("WARNING: no --rss-opml provided; no RSS sources fetched.")
 
+    bestblogs_items = fetch_bestblogs(build_http_session(), now)
+    print(f"BestBlogs: {len(bestblogs_items)} newsletter issue(s)")
+    raw_items.extend(bestblogs_items)
+
+    if not raw_items:
+        print("WARNING: nothing fetched.")
 
     for raw in raw_items:
         title = raw.title.strip()
