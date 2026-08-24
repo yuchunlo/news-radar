@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import copy
 import hashlib
 import os
 import tempfile
@@ -671,22 +672,129 @@ BESTBLOGS_SCAN_MISS_LIMIT = 3
 
 BESTBLOGS_TITLE_SUFFIX_RE = re.compile(r"\s*\|\s*BestBlogs\.dev\s*$")
 
+BESTBLOGS_STRIP_TAGS = ("script", "style", "noscript", "nav", "header", "footer")
+BESTBLOGS_MIN_BODY = 500
+BESTBLOGS_URL_ISSUE_RE = re.compile(
+    r"^https?://(?:www\.)?bestblogs\.dev(?:/[a-z]{2})?/newsletter/issue(\d{1,4})/?$",
+    re.I,
+)
+
 
 def bestblogs_issue_url(issue_no: int) -> str:
     return f"{BESTBLOGS_BASE}{BESTBLOGS_LANG_PREFIX}/newsletter/issue{issue_no}"
 
 
-def fetch_bestblogs(session: requests.Session, now: datetime) -> list[RawItem]:
+def bestblogs_known_issues(archive: dict[str, dict[str, Any]]) -> dict[int, str]:
+    """Issue number -> stored title, for issues already in the archive."""
+    known: dict[int, str] = {}
+    for record in archive.values():
+        m = BESTBLOGS_URL_ISSUE_RE.match(str(record.get("url", "")).strip())
+        if not m:
+            continue
+        title = str(record.get("title", "")).strip()
+        if title:
+            known[int(m.group(1))] = title
+    return known
+
+
+def bestblogs_og_tags(soup: Any) -> dict[str, str]:
+    """The page's og:* / article:* meta tags, keyed without the prefix."""
+    tags: dict[str, str] = {}
+    for tag in soup.select("meta[property]"):
+        prop = (tag.get("property") or "").strip().lower()
+        content = (tag.get("content") or "").strip()
+        if not content:
+            continue
+        for prefix in ("og:", "article:"):
+            if prop.startswith(prefix):
+                tags[prop[len(prefix):]] = content
+                break
+    return tags
+
+
+def bestblogs_body_html(soup: Any) -> str:
+    """The issue's article html, for summarize_feed to work from directly.
+
+    The scan already downloads the whole page, so keeping the body here means
+    summarize_feed never has to fetch it a second time: with the host listed in
+    its FEED_FIRST_HOSTS, it summarises from this and pulls the thumbnail out
+    of these <img> tags. Html rather than text because the thumbnail pass needs
+    the markup.
+    """
+    root = soup.select_one("main") or soup.select_one("article") or soup.body
+    if root is None:
+        return ""
+    root = copy.copy(root)
+    for tag in root.find_all(BESTBLOGS_STRIP_TAGS):
+        tag.decompose()
+    html = str(root)
+    return html if len(root.get_text(" ", strip=True)) >= BESTBLOGS_MIN_BODY else ""
+
+
+def bestblogs_item(
+    issue_no: int,
+    title: str,
+    og: dict[str, str] | None = None,
+    body_html: str = "",
+) -> RawItem:
+    og = og or {}
+    meta: dict[str, Any] = {"issue_no": issue_no}
+    for key in ("image", "locale", "published_time"):
+        if og.get(key):
+            meta[key] = og[key]
+    return RawItem(
+        site_id="tech",
+        site_name="Custom Fetch",
+        source="BestBlogs",
+        title=title,
+        url=bestblogs_issue_url(issue_no),
+        # The issue page dates its own entries but not itself: article:
+        # published_time is a bare MM-DD with no year, so it is kept in meta as
+        # a hint but not parsed into a date that would guess the wrong year.
+        published_at=None,
+        meta=meta,
+        # The full issue html when it could be isolated, else the og:description
+        # opening (which the site truncates) as a thin fallback.
+        content=body_html or og.get("description", ""),
+    )
+
+
+def fetch_bestblogs(
+    session: requests.Session,
+    now: datetime,
+    archive: dict[str, dict[str, Any]] | None = None,
+) -> list[RawItem]:
+    """BestBlogs weekly newsletter issues, by walking the per-issue pages.
+
+    Not an OPML feed, and not scrapeable from the index: that page is a
+    client-rendered shell whose issue list arrives by JS, so its HTML holds
+    nothing but nav links. The per-issue pages at /newsletter/issueN *are*
+    server-rendered, so this walks issue numbers upward and stops after
+    BESTBLOGS_SCAN_MISS_LIMIT consecutive misses.
+
+    Issues already in the archive are re-emitted from their stored titles
+    rather than re-fetched, so a routine run costs only the requests for new
+    issues. They are re-emitted rather than dropped because skipping them
+    would freeze their last_seen_at and let --archive-days prune them.
+
+    Each page is downloaded once and kept whole: the og:* tags give the title,
+    and the article html goes into feed_content. With bestblogs.dev listed in
+    summarize_feed's FEED_FIRST_HOSTS that is all it needs -- it summarises and
+    picks a thumbnail from this html instead of fetching the page again.
+    """
     if BeautifulSoup is None:
         print("WARNING: BestBlogs scan needs beautifulsoup4; skipping")
         return []
-    out: list[RawItem] = []
+
+    known = bestblogs_known_issues(archive or {})
+    out = [bestblogs_item(n, t) for n, t in sorted(known.items())]
+    fetched = 0
     misses = 0
-    issue_no = 1
+    issue_no = (max(known) + 1) if known else 1
     while issue_no <= BESTBLOGS_SCAN_MAX_ISSUE and misses < BESTBLOGS_SCAN_MISS_LIMIT:
-        url = bestblogs_issue_url(issue_no)
         try:
-            r = session.get(url, timeout=(FEED_CONNECT_TIMEOUT, 30))
+            r = session.get(bestblogs_issue_url(issue_no),
+                            timeout=(FEED_CONNECT_TIMEOUT, 30))
             ok = r.status_code == 200
         except Exception:
             ok = False
@@ -696,29 +804,22 @@ def fetch_bestblogs(session: requests.Session, now: datetime) -> list[RawItem]:
             continue
         misses = 0
         soup = BeautifulSoup(r.text, "html.parser")
-        og = soup.select_one("meta[property='og:title']")
-        title = (og.get("content") if og else "") or (
+        og = bestblogs_og_tags(soup)
+        title = og.get("title") or (
             soup.title.get_text(" ", strip=True) if soup.title else ""
         )
         title = BESTBLOGS_TITLE_SUFFIX_RE.sub("", title.strip())
         if title:
-            out.append(
-                RawItem(
-                    site_id="bestblogs",
-                    site_name="BestBlogs",
-                    source="Weekly Newsletter",
-                    title=title,
-                    url=url,
-                    published_at=None,
-                    meta={"issue_no": issue_no},
-                )
-            )
+            out.append(bestblogs_item(issue_no, title, og,
+                                      bestblogs_body_html(soup)))
+            fetched += 1
         issue_no += 1
     if issue_no > BESTBLOGS_SCAN_MAX_ISSUE:
         print(
             f"WARNING: BestBlogs scan hit the issue {BESTBLOGS_SCAN_MAX_ISSUE} "
             "ceiling; raise BESTBLOGS_SCAN_MAX_ISSUE to get the rest"
         )
+    print(f"BestBlogs: {len(known)} known, {fetched} new issue(s)")
     return out
 
 
@@ -1136,9 +1237,7 @@ def main(argv=None) -> int:
     else:
         print("WARNING: no --rss-opml provided; no RSS sources fetched.")
 
-    bestblogs_items = fetch_bestblogs(build_http_session(), now)
-    print(f"BestBlogs: {len(bestblogs_items)} newsletter issue(s)")
-    raw_items.extend(bestblogs_items)
+    raw_items.extend(fetch_bestblogs(build_http_session(), now, archive))
 
     if not raw_items:
         print("WARNING: nothing fetched.")
