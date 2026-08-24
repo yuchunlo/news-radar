@@ -3,7 +3,7 @@ name: Update News Snapshot
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "0 */8 * * *"
 
 concurrency:
   group: update-news-${{ github.ref }}
