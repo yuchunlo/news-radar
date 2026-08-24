@@ -241,6 +241,12 @@ def canonical_url(raw_url: str, source: str = "", feed_url: str = "") -> str:
     m = VOCUS_AUTHOR_RE.match(url)
     if m:
         return f"{m.group(1)}/article/{m.group(2)}{m.group(3)}"
+    m = BESTBLOGS_URL_ISSUE_RE.match(url)
+    if m:
+        # Collapses /en/newsletter/issueN and /newsletter/issueN onto one
+        # address. migrate_record_urls re-keys anything already stored in the
+        # other spelling, so switching language does not fork the archive.
+        return bestblogs_issue_url(int(m.group(1)))
     return url
 
 
@@ -680,8 +686,20 @@ BESTBLOGS_URL_ISSUE_RE = re.compile(
 )
 
 
-def bestblogs_issue_url(issue_no: int) -> str:
+def bestblogs_fetch_url(issue_no: int) -> str:
+    """Where to download the issue: language comes from the prefix."""
     return f"{BESTBLOGS_BASE}{BESTBLOGS_LANG_PREFIX}/newsletter/issue{issue_no}"
+
+
+def bestblogs_issue_url(issue_no: int) -> str:
+    """The one url an issue is stored and identified by, language-free.
+
+    Item ids hash the url, so an issue must have exactly one spelling or it
+    forks: change the language prefix and every issue would be re-fetched under
+    a new id, leaving the old records behind as duplicates. Canonicalising to
+    the bare form keeps identity stable no matter which language is fetched.
+    """
+    return f"{BESTBLOGS_BASE}/newsletter/issue{issue_no}"
 
 
 def bestblogs_known_issues(archive: dict[str, dict[str, Any]]) -> dict[int, str]:
@@ -793,7 +811,7 @@ def fetch_bestblogs(
     issue_no = (max(known) + 1) if known else 1
     while issue_no <= BESTBLOGS_SCAN_MAX_ISSUE and misses < BESTBLOGS_SCAN_MISS_LIMIT:
         try:
-            r = session.get(bestblogs_issue_url(issue_no),
+            r = session.get(bestblogs_fetch_url(issue_no),
                             timeout=(FEED_CONNECT_TIMEOUT, 30))
             ok = r.status_code == 200
         except Exception:
