@@ -1,0 +1,738 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.120 --> 00:00:03.320
+Do you remember Trello?
+You might have used it at&nbsp;&nbsp;
+
+00:00:03.320 --> 00:00:09.560
+an old job, or maybe to plan an event.
+It had 50 million users. Over 80% of the&nbsp;&nbsp;
+
+00:00:09.560 --> 00:00:15.800
+Fortune 500 were using it, and&nbsp;
+it was bought for $425 million.&nbsp;
+
+00:00:15.800 --> 00:00:20.520
+Trello was everywhere. It defined&nbsp;
+an entire style of software.&nbsp;
+
+00:00:20.520 --> 00:00:25.720
+But now, Trello's own users are being&nbsp;
+told to go use a different product.&nbsp;
+
+00:00:25.720 --> 00:00:26.600
+Yeah…&nbsp;
+
+00:00:26.600 --> 00:00:37.240
+So, what happened to Trello?
+Looking for the company's next big product,&nbsp;&nbsp;
+
+00:00:37.240 --> 00:00:43.160
+Fog Creek CEO Joel Spolsky divided his&nbsp;
+software developers into four teams,&nbsp;&nbsp;
+
+00:00:43.160 --> 00:00:48.440
+each free to build whatever they wanted.
+Just like any company, the office whiteboard&nbsp;&nbsp;
+
+00:00:48.440 --> 00:00:52.520
+became filled with sticky&nbsp;
+notes, tasks, and deadlines.&nbsp;&nbsp;
+
+00:00:52.520 --> 00:00:56.440
+Keeping up with everything was getting harder.
+[Michael Pryor, Co-founder]: “If you went into any&nbsp;&nbsp;
+
+00:00:56.440 --> 00:01:01.080
+software-development company, you would see people&nbsp;
+would have a whiteboard up, and they would have&nbsp;&nbsp;
+
+00:01:01.080 --> 00:01:07.080
+Post-It Notes all over the whiteboard in columns”.
+Till one of the teams decided to make the&nbsp;&nbsp;
+
+00:01:07.080 --> 00:01:12.600
+whiteboard itself…the project.
+This became Trello.&nbsp;
+
+00:01:12.600 --> 00:01:18.520
+Trello is a project management tool built on&nbsp;
+the principles of Kanban, a workflow system&nbsp;&nbsp;
+
+00:01:18.520 --> 00:01:23.640
+popular among software developers.
+Every task becomes a card that moves&nbsp;&nbsp;
+
+00:01:23.640 --> 00:01:29.880
+across a board from "To Do"... to&nbsp;
+"Doing"... to "Done," giving everyone&nbsp;&nbsp;
+
+00:01:29.880 --> 00:01:35.560
+an instant snapshot of what's happening.
+Before Trello, teams tracked projects through&nbsp;&nbsp;
+
+00:01:35.560 --> 00:01:40.520
+endless email chains, spreadsheets,&nbsp;
+meeting notes, physical whiteboards,&nbsp;&nbsp;
+
+00:01:40.520 --> 00:01:46.440
+or complex Gantt charts. People couldn't easily&nbsp;
+see what others were working on or the progress&nbsp;&nbsp;
+
+00:01:46.440 --> 00:01:51.560
+they had made, and keeping everyone on the&nbsp;
+same page usually meant another meeting.&nbsp;
+
+00:01:51.560 --> 00:01:56.520
+Meetings on top of meetings where&nbsp;
+people ask “how is this task going?”.&nbsp;
+
+00:01:56.520 --> 00:02:02.920
+With Trello, you could track multiple projects,&nbsp;
+each with its own board. Under each board,&nbsp;&nbsp;
+
+00:02:02.920 --> 00:02:07.880
+you could create different stages of the&nbsp;
+project, called lists, which could be named&nbsp;&nbsp;
+
+00:02:07.880 --> 00:02:14.920
+anything. Within each list, you could create cards&nbsp;
+that showed what was happening at each stage.&nbsp;
+
+00:02:14.920 --> 00:02:20.120
+The drag-and-drop feature across the board&nbsp;
+made it simple to move cards around even&nbsp;&nbsp;
+
+00:02:20.120 --> 00:02:27.080
+for a project with a large linear workflow.
+Today that feels pretty… rudimentary ... but&nbsp;&nbsp;
+
+00:02:27.080 --> 00:02:33.080
+in 2011, this was groundbreaking.&nbsp;
+Beats a Gantt chart, that’s for sure.&nbsp;
+
+00:02:33.080 --> 00:02:40.600
+But this wasn’t the only reason Trello exploded.
+The free plan had almost all of its features.&nbsp;&nbsp;
+
+00:02:40.600 --> 00:02:48.360
+Spolsky used his experience as a former program&nbsp;
+manager at Excel, yes the Excel, to make the app&nbsp;&nbsp;
+
+00:02:48.360 --> 00:02:54.440
+an alternative for teams outgrowing spreadsheets.
+[Joel Spolsky]: “Yeah, it’s that, but it’s also&nbsp;&nbsp;
+
+00:02:54.440 --> 00:02:59.000
+for planning a wedding, for making a list of&nbsp;
+potential vacation spots to share with your&nbsp;&nbsp;
+
+00:02:59.000 --> 00:03:05.640
+family, for keeping track of applicants to open&nbsp;
+job positions, and for a billion other things.&nbsp;&nbsp;
+
+00:03:05.640 --> 00:03:12.040
+In fact Trello is for anything where you want to&nbsp;
+maintain a list of lists with a group of people.”&nbsp;
+
+00:03:12.040 --> 00:03:17.160
+But as Trello grew, the simplicity that&nbsp;
+made it so successful also came with a&nbsp;&nbsp;
+
+00:03:17.160 --> 00:03:22.680
+big downside, which we’ll get to soon.
+The project was funded using bonuses&nbsp;&nbsp;
+
+00:03:22.680 --> 00:03:28.520
+from Fog Creek employees who believed in&nbsp;
+the idea, and eventually... it paid off.&nbsp;
+
+00:03:28.520 --> 00:03:33.480
+Trello launched as a finalist&nbsp;
+at TechCrunch Disrupt 2011.&nbsp;
+
+00:03:33.480 --> 00:03:39.400
+Although it didn't win, it attracted&nbsp;
+over 131,000 visitors within days,&nbsp;&nbsp;
+
+00:03:39.400 --> 00:03:45.800
+and nearly one in four of them signed up.
+That’s an insane conversion rate. 22% of&nbsp;&nbsp;
+
+00:03:45.800 --> 00:03:49.320
+visitors joined Trello!
+In just six weeks,&nbsp;&nbsp;
+
+00:03:49.320 --> 00:03:55.400
+it had over 100,000 users, and Fog Creek&nbsp;
+bootstrapped it for the next three years.&nbsp;
+
+00:03:55.400 --> 00:04:03.240
+By 2014, it had over 4.75 million users,&nbsp;
+and investors soon began to notice.&nbsp;
+
+00:04:03.240 --> 00:04:07.800
+They raised $10.3 million in&nbsp;
+their first major funding round.&nbsp;
+
+00:04:07.800 --> 00:04:16.040
+By 2015, Trello had over 10 million users,&nbsp;
+with 120,000 new users signing up each week.&nbsp;
+
+00:04:16.040 --> 00:04:21.160
+But soon, users ran into a bit of a&nbsp;
+ceiling. They wanted to do more than&nbsp;&nbsp;
+
+00:04:21.160 --> 00:04:28.040
+just move cards around. They wanted more depth.
+But here, Trello made one of their first mistakes.&nbsp;
+
+00:04:28.040 --> 00:04:33.160
+Instead of building those features directly&nbsp;
+into Trello, the company introduced Power-Ups,&nbsp;&nbsp;
+
+00:04:33.160 --> 00:04:37.400
+letting other apps fill the gaps.
+Solved the problem, for now,&nbsp;&nbsp;
+
+00:04:37.400 --> 00:04:42.040
+but this would hurt them downstream.
+For now, things were booming.&nbsp;
+
+00:04:42.040 --> 00:04:49.000
+Then came the acquisition. On January&nbsp;
+9, 2017, Atlassian bought Trello for&nbsp;&nbsp;
+
+00:04:49.000 --> 00:04:56.440
+$425 million. Everything was going great.
+Trello grew from roughly 19 million&nbsp;&nbsp;
+
+00:04:56.440 --> 00:05:04.760
+users in 2017 to over 50 million by 2019.
+It had made its way into more than 80% of Fortune&nbsp;&nbsp;
+
+00:05:04.760 --> 00:05:11.240
+500 companies. At least, according to Trello…
+If everything was going so well,&nbsp;&nbsp;
+
+00:05:11.240 --> 00:05:21.720
+how did Trello fall off?
+What happened after the Atlassian buyout?&nbsp;
+
+00:05:21.720 --> 00:05:25.960
+AI has undoubtedly changed at&nbsp;
+least one industry: coding.&nbsp;
+
+00:05:25.960 --> 00:05:29.800
+But, this has created a new bottleneck.
+There's more AI code than ever,&nbsp;&nbsp;
+
+00:05:29.800 --> 00:05:33.400
+which means devs now spend more&nbsp;
+time reviewing code than writing it.&nbsp;
+
+00:05:33.400 --> 00:05:37.480
+And reviewing 30,000 lines of code&nbsp;
+by hand isn't realistic either.&nbsp;
+
+00:05:37.480 --> 00:05:42.680
+But a generic agent doesn't fix it. It can&nbsp;
+quickly lose context on past pull requests,&nbsp;&nbsp;
+
+00:05:42.680 --> 00:05:46.840
+comments, changes, or discussion that&nbsp;
+happened in Slack, outside the code.&nbsp;
+
+00:05:46.840 --> 00:05:51.640
+That's why developers use CodeRabbit.
+This is CodeRabbit, an AI code review&nbsp;&nbsp;
+
+00:05:51.640 --> 00:05:55.160
+agent that reads every pull request&nbsp;
+before it merges, finds the issues,&nbsp;&nbsp;
+
+00:05:55.160 --> 00:05:59.800
+and fixes them in one click. (show dashboard)
+It analyzes pull requests, reasons over your&nbsp;&nbsp;
+
+00:05:59.800 --> 00:06:04.280
+codebase, and gives you easily digestible&nbsp;
+feedback before changes are merged.
+
+00:06:04.280 --> 00:06:08.040
+Reviewing a PR normally means&nbsp;
+reconstructing it file by file,&nbsp;&nbsp;
+
+00:06:08.040 --> 00:06:12.680
+but those files are listed alphabetically, which&nbsp;
+tells you nothing about how the change works.&nbsp;
+
+00:06:12.680 --> 00:06:16.680
+So, use the Change Stack, which&nbsp;
+regroups them into cohorts and layers,&nbsp;&nbsp;
+
+00:06:16.680 --> 00:06:22.120
+so foundations come first and the code depending&nbsp;
+on them comes after. But that’s just the start.
+
+00:06:22.120 --> 00:06:26.920
+Inside the Change Stack, click on the&nbsp;
+Overview page.This gives you the full context,&nbsp;&nbsp;
+
+00:06:26.920 --> 00:06:32.520
+with a summary, actionable blockers, along&nbsp;
+with all PR reviews and comments in place.&nbsp;
+
+00:06:32.520 --> 00:06:37.800
+Then use Timeline View to see the full&nbsp;
+chronological story, every change, approval,&nbsp;&nbsp;
+
+00:06:37.800 --> 00:06:42.840
+comment, so you don’t have to piece together&nbsp;
+scattered threads. So you know what happened and,&nbsp;&nbsp;
+
+00:06:42.840 --> 00:06:47.880
+just as importantly, why it happened.
+CodeRabbit is installed on 3 million&nbsp;&nbsp;
+
+00:06:47.880 --> 00:06:52.040
+repositories, and reviews around 2&nbsp;
+million pull requests every week!&nbsp;
+
+00:06:52.040 --> 00:06:55.560
+Ship better code faster with&nbsp;
+CodeRabbit. Try CodeRabbit&nbsp;&nbsp;
+
+00:06:55.560 --> 00:07:01.080
+by clicking the link in the description.
+Thank you to CodeRabbit for sponsoring our videos.&nbsp;
+
+00:07:01.080 --> 00:07:08.360
+At first, Atlassian had big plans for Trello.&nbsp;
+The President, Jay Simons, set a goal of reaching&nbsp;&nbsp;
+
+00:07:08.360 --> 00:07:12.920
+100 million monthly active users.
+But to do that, Atlassian doubled&nbsp;&nbsp;
+
+00:07:12.920 --> 00:07:18.280
+down on a much broader audience.
+By then, nearly half of Trello's users&nbsp;&nbsp;
+
+00:07:18.280 --> 00:07:24.040
+came from non-technical roles. But could&nbsp;
+one product really meet everyone's needs?&nbsp;
+
+00:07:24.040 --> 00:07:27.640
+Trello wanted to build a&nbsp;
+product that anyone could use.&nbsp;
+
+00:07:27.640 --> 00:07:30.680
+[Michael Pryor, Co-founder]: "I think if&nbsp;
+you're building a product today, you should&nbsp;&nbsp;
+
+00:07:30.680 --> 00:07:36.920
+absolutely 100% start with the idea that the&nbsp;
+entire world is going to use your product."&nbsp;
+
+00:07:36.920 --> 00:07:42.649
+Sounds nice, but, this mindset,&nbsp;
+is where the problems began.&nbsp;
+
+00:07:42.649 --> 00:07:46.840
+[Joel Spolsky, Fog Creek CEO]: “Making a major&nbsp;
+horizontal product that’s useful in any walk of&nbsp;&nbsp;
+
+00:07:46.840 --> 00:07:53.560
+life is almost impossible to pull off. You can’t&nbsp;
+charge very much, because you’re competing with&nbsp;&nbsp;
+
+00:07:53.560 --> 00:07:58.760
+other horizontal products that can amortize&nbsp;
+their development costs across a huge number&nbsp;&nbsp;
+
+00:07:58.760 --> 00:08:05.960
+of users. It’s high risk, high reward.”
+This was way back in 2012, and he was spot&nbsp;&nbsp;
+
+00:08:05.960 --> 00:08:12.280
+on. Unfortunately, Trello struggled to solve&nbsp;
+this while newer Kanban boards like Monday.com&nbsp;&nbsp;
+
+00:08:12.280 --> 00:08:16.760
+and Asana filled the gaps.
+Its reach was wide, but its&nbsp;&nbsp;
+
+00:08:16.760 --> 00:08:21.160
+capabilities weren't very deep.
+Unlike other Kanban boards,&nbsp;&nbsp;
+
+00:08:21.160 --> 00:08:27.000
+for simple tasks like time tracking, you had&nbsp;
+to integrate another plugin or other apps.&nbsp;
+
+00:08:27.000 --> 00:08:33.960
+I literally had to do this in a past job. We&nbsp;
+used Trello, and a tracking app called Hubstaff.&nbsp;
+
+00:08:33.960 --> 00:08:40.440
+Meanwhile, Monday.com and Asana had built-in&nbsp;
+time tracking, centralized communication,&nbsp;&nbsp;
+
+00:08:40.440 --> 00:08:45.960
+and calendar views without needing users&nbsp;
+to leave the app. Great for businesses who&nbsp;&nbsp;
+
+00:08:45.960 --> 00:08:51.720
+want an all-in-one, plug-and-play solution.
+I've used Trello in a few different jobs,&nbsp;&nbsp;
+
+00:08:51.720 --> 00:08:56.440
+and it felt great to use, but&nbsp;
+it never felt overly robust.&nbsp;
+
+00:08:56.440 --> 00:09:00.200
+Companies seemed to start&nbsp;
+with it, then outgrow it.&nbsp;
+
+00:09:00.200 --> 00:09:05.800
+Trello catered to everyday users and business&nbsp;
+professionals, but those audiences played&nbsp;&nbsp;
+
+00:09:05.800 --> 00:09:11.880
+very different roles in its business model.&nbsp;
+This was the beginning of several mistakes.&nbsp;
+
+00:09:11.880 --> 00:09:19.000
+First, it anchored its business around the free&nbsp;
+plan. The app was entirely free until 2013, when&nbsp;&nbsp;
+
+00:09:19.000 --> 00:09:26.840
+it introduced customizable board backgrounds, 250&nbsp;
+MB of attachment storage per board, and stickers&nbsp;&nbsp;
+
+00:09:26.840 --> 00:09:34.040
+and emojis as reasons to upgrade to a paid plan.
+Well... not many bought into that.&nbsp;
+
+00:09:34.040 --> 00:09:40.840
+That same year, it also introduced Business&nbsp;
+Class for $200 a year per organization.&nbsp;&nbsp;
+
+00:09:40.840 --> 00:09:44.600
+That's absurdly generous.
+Some SaaS companies&nbsp;&nbsp;
+
+00:09:44.600 --> 00:09:50.040
+charge that per seat, per month.
+Meanwhile, Trello Business offered&nbsp;&nbsp;
+
+00:09:50.040 --> 00:09:57.080
+unlimited integrations, additional collaboration&nbsp;
+features, read-only views, and privacy settings.&nbsp;
+
+00:09:57.080 --> 00:10:03.080
+But none of these changed what Trello actually&nbsp;
+did. The free plan already handled the core job&nbsp;&nbsp;
+
+00:10:03.080 --> 00:10:08.760
+of managing projects, so many businesses&nbsp;
+saw little reason to pay for extras.&nbsp;
+
+00:10:08.760 --> 00:10:12.120
+And when it was time to throw&nbsp;
+serious money around, other&nbsp;&nbsp;
+
+00:10:12.120 --> 00:10:18.360
+products offered deeper, and better solutions.
+Around the time Atlassian acquired the company,&nbsp;&nbsp;
+
+00:10:18.360 --> 00:10:23.720
+Trello had around 19 million registered&nbsp;
+users but was generating only about $10&nbsp;&nbsp;
+
+00:10:23.720 --> 00:10:30.600
+million a year in revenue. That's roughly 50&nbsp;
+cents per registered user… per year, meaning&nbsp;&nbsp;
+
+00:10:30.600 --> 00:10:37.000
+only a tiny percentage of users were paying for&nbsp;
+everyone else, and a minuscule amount at that.&nbsp;
+
+00:10:37.000 --> 00:10:42.280
+Trello had millions of users, but far&nbsp;
+too few of them were paying customers.&nbsp;
+
+00:10:42.280 --> 00:10:48.120
+There was a bit of tension. Make a simple&nbsp;
+platform that can be used by everyone? Or&nbsp;&nbsp;
+
+00:10:48.120 --> 00:10:55.480
+a deeper software for those who’ll pay us?
+…Was it too late to make Trello profitable?&nbsp;
+
+00:10:55.480 --> 00:11:02.040
+Atlassian realized it needed to change something.
+For years, Trello had let teams create virtually&nbsp;&nbsp;
+
+00:11:02.040 --> 00:11:10.040
+unlimited boards for free, charging only for&nbsp;
+extra features. But in 2019, that changed. Free&nbsp;&nbsp;
+
+00:11:10.040 --> 00:11:16.280
+teams were now limited to just ten boards.&nbsp;
+A year later, Trello introduced Workspaces,&nbsp;&nbsp;
+
+00:11:16.280 --> 00:11:23.000
+and every board had to belong to one, making&nbsp;
+that ten-board limit much harder to avoid.&nbsp;
+
+00:11:23.000 --> 00:11:28.280
+Atlassian were trying to monetize Trello,&nbsp;
+but the problem is people are more willing&nbsp;&nbsp;
+
+00:11:28.280 --> 00:11:33.000
+to pay for new features, than pay for&nbsp;
+features that were free in the past.&nbsp;
+
+00:11:33.000 --> 00:11:37.960
+This is called loss aversion. We&nbsp;
+don’t tend to like losing things.&nbsp;
+
+00:11:37.960 --> 00:11:43.400
+Users weren’t too thrilled.
+And, all of this gets even weirder.&nbsp;
+
+00:11:43.400 --> 00:11:50.440
+It turns out, all this time, Atlassian had an&nbsp;
+entirely separate Kanban product. In reality,&nbsp;&nbsp;
+
+00:11:50.440 --> 00:12:00.600
+Atlassian wasn't really buying Trello,&nbsp;
+in the acquisition, but something else.
+
+00:12:00.600 --> 00:12:04.600
+If you’ve watched this far, consider&nbsp;
+subscribing! It helps the channel&nbsp;&nbsp;
+
+00:12:04.600 --> 00:12:11.080
+and means you won’t miss future videos.
+With time, the $425 million acquisition&nbsp;&nbsp;
+
+00:12:11.080 --> 00:12:18.920
+of a $10 million business started to make sense.&nbsp;
+Atlassian wanted the users more than the business.&nbsp;
+
+00:12:18.920 --> 00:12:26.440
+At roughly $22 per registered user, it was buying&nbsp;
+millions of potential customers. It was a customer&nbsp;&nbsp;
+
+00:12:26.440 --> 00:12:31.400
+acquisition… acquisition. Hah.
+So why do this?&nbsp;
+
+00:12:31.400 --> 00:12:36.600
+Well, we need to talk about&nbsp;
+Atlassian’s other Kanban product: Jira.&nbsp;
+
+00:12:36.600 --> 00:12:41.560
+It was one of the most powerful project&nbsp;
+management tools for software teams.&nbsp;
+
+00:12:41.560 --> 00:12:48.120
+Very customized and deep. And like other deep SaaS&nbsp;
+tools, once a company built its workflow around&nbsp;&nbsp;
+
+00:12:48.120 --> 00:12:55.160
+Jira, it became incredibly difficult to leave.
+Trello served a completely different audience.&nbsp;
+
+00:12:55.160 --> 00:13:02.040
+The app’s simplicity made Trello easy to adopt...&nbsp;
+and that was exactly what Atlassian wanted.&nbsp;
+
+00:13:02.040 --> 00:13:06.200
+They wanted to funnel people&nbsp;
+from Trello… into Jira.&nbsp;
+
+00:13:06.200 --> 00:13:12.600
+But there was a problem. Trello still had&nbsp;
+some business use, even if it was simple.&nbsp;
+
+00:13:12.600 --> 00:13:20.280
+That meant it was overlapping with Jira. There&nbsp;
+was a real risk of self-cannibalization. Plus,&nbsp;&nbsp;
+
+00:13:20.280 --> 00:13:25.720
+Trello still wasn’t making real money.
+And things were getting even worse.&nbsp;
+
+00:13:25.720 --> 00:13:31.800
+As the Kanban style became more popular,&nbsp;
+competitors caught up. Being first was&nbsp;&nbsp;
+
+00:13:31.800 --> 00:13:38.200
+no longer enough. Monday.com and Asana&nbsp;
+built their products around teams, making&nbsp;&nbsp;
+
+00:13:38.200 --> 00:13:46.040
+themselves harder to replace as companies grew.
+There’s also many more, like Notion and ClickUp.&nbsp;
+
+00:13:46.040 --> 00:13:50.760
+Trello, on the other hand, barely&nbsp;
+changed. For nearly three years,&nbsp;&nbsp;
+
+00:13:50.760 --> 00:13:58.120
+Atlassian introduced almost no major new features.&nbsp;
+It just, sort of got more expensive to use.&nbsp;
+
+00:13:58.120 --> 00:14:02.120
+Then, Atlassian began the&nbsp;
+next stage of their plan.&nbsp;
+
+00:14:02.120 --> 00:14:08.600
+In 2025, an Atlassian team member, when responding&nbsp;
+to users asking for more robust features,&nbsp;&nbsp;
+
+00:14:08.600 --> 00:14:14.440
+said “You can also consider Jira for&nbsp;
+more sophisticated team collaboration”.&nbsp;
+
+00:14:14.440 --> 00:14:17.480
+Then again, in the same thread, “Trello&nbsp;
+is changing and turning towards personal&nbsp;&nbsp;
+
+00:14:17.480 --> 00:14:24.040
+productivity, and we continue to recommend Jira&nbsp;
+for team collaboration and project management”.&nbsp;
+
+00:14:24.040 --> 00:14:29.960
+Apparently Trello started displaying a huge&nbsp;
+banner encouraging users to move to Jira. Though,&nbsp;&nbsp;
+
+00:14:29.960 --> 00:14:33.640
+I dunno if this was true.
+And it got worse.&nbsp;
+
+00:14:33.640 --> 00:14:42.040
+On May 22, 2025, Trello overhauled almost its&nbsp;
+entire interface. The layout and fonts changed.&nbsp;&nbsp;
+
+00:14:42.040 --> 00:14:47.640
+Even the buttons worked differently. Features&nbsp;
+people had relied on for years, like adding&nbsp;&nbsp;
+
+00:14:47.640 --> 00:14:52.840
+comments to cards, suddenly disappeared.
+Trello was becoming shallower.&nbsp;
+
+00:14:52.840 --> 00:14:58.360
+The backlash was immediate.
+“Is Trello dead? Anymore updates or&nbsp;&nbsp;
+
+00:14:58.360 --> 00:15:04.200
+enhancements? Change layout of boards? Should&nbsp;
+I start looking for something new and start&nbsp;&nbsp;
+
+00:15:04.200 --> 00:15:09.320
+moving my work and personal life over?”
+“Change isn't always a good thing and&nbsp;&nbsp;
+
+00:15:09.320 --> 00:15:14.200
+change for changes sake definitely isn't&nbsp;
+recommended...The lack of change with Trello&nbsp;&nbsp;
+
+00:15:14.200 --> 00:15:19.160
+from 2020 until 2024 has been coupled&nbsp;
+with us seeing Atlassian do everything&nbsp;&nbsp;
+
+00:15:19.160 --> 00:15:25.240
+in their power to shift Trello users to Jira”
+An open letter to Trello's leadership appeared&nbsp;&nbsp;
+
+00:15:25.240 --> 00:15:31.080
+on Reddit, with users comparing the redesign&nbsp;
+to Windows 8. Yeah you know it’s bad when&nbsp;&nbsp;
+
+00:15:31.080 --> 00:15:35.800
+Windows 8 is the comparison.
+But… nothing came of it.&nbsp;
+
+00:15:35.800 --> 00:15:40.600
+It’s clear what Atlassian was doing:&nbsp;
+Pushing Trello back to personal&nbsp;&nbsp;
+
+00:15:40.600 --> 00:15:46.680
+projects… and ONLY for personal use.
+Users noticed that Jira's cheapest paid&nbsp;&nbsp;
+
+00:15:46.680 --> 00:15:54.440
+tier costs $7.53 against Trello's $5.00, and&nbsp;
+speculated Atlassian was pushing professional&nbsp;&nbsp;
+
+00:15:54.440 --> 00:15:58.920
+users up the price ladder.
+Users were, justifiably,&nbsp;&nbsp;
+
+00:15:58.920 --> 00:16:05.320
+rather annoyed. Unfortunately, Trello&nbsp;
+existed in a weird spot between markets.&nbsp;
+
+00:16:05.320 --> 00:16:10.840
+Then Atlassian hammered in the last nail.
+“Going forward, we will not be taking&nbsp;&nbsp;
+
+00:16:10.840 --> 00:16:16.680
+new feature requests related to project&nbsp;
+management. Instead, our work will prioritize&nbsp;&nbsp;
+
+00:16:16.680 --> 00:16:22.920
+use cases related to personal productivity.”
+Of course, the Trello support agent encourages&nbsp;&nbsp;
+
+00:16:22.920 --> 00:16:28.440
+people to move to Jira. Surprise surprise.
+In the end, Trello's biggest strength&nbsp;&nbsp;
+
+00:16:28.440 --> 00:16:32.760
+became its biggest weakness.
+It built a product so simple that&nbsp;&nbsp;
+
+00:16:32.760 --> 00:16:39.560
+almost anyone could use it... but it never really&nbsp;
+figured out how to chase upmarket customers.&nbsp;
+
+00:16:39.560 --> 00:16:45.240
+Every attempt to fix that slowly chipped away&nbsp;
+at the very thing that made Trello special.&nbsp;
+
+00:16:45.240 --> 00:16:51.160
+Today, Trello holds less than 2% of the&nbsp;
+productivity market it helped pioneer.&nbsp;
+
+00:16:51.160 --> 00:16:58.280
+Ironically, Atlassian is doing better than ever,&nbsp;
+generating more than $6 billion in annual revenue.&nbsp;
+
+00:16:58.280 --> 00:17:05.320
+Trello had finally found its place. Just, at&nbsp;
+the expense of those who originally loved it.
+
+00:17:05.320 --> 00:17:10.280
+Ironically, one of the SaaS tools that&nbsp;
+replaced Trello, is now dying. You might&nbsp;&nbsp;
+
+00:17:10.280 --> 00:17:16.840
+have seen this brand: Monday.com. It was&nbsp;
+basically advertised on every YouTube video.&nbsp;
+
+00:17:16.840 --> 00:17:21.400
+But now, it’s collapsing,&nbsp;
+and for a surprising reason.
+
+00:17:21.400 --> 00:17:23.720
+Click here to learn the rest of the story.
+
