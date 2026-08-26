@@ -13,6 +13,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import subtitle_priority
+import local_transcribe
 from subtitle_priority import choose_track
 
 USER_AGENT = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120 Safari/537.36"
@@ -144,6 +145,35 @@ def discard_partial(out_dir: Path, item_id: str) -> list[str]:
     return removed
 
 
+def try_transcribe(url: str, cookies_path: Path, out_dir: Path, item_id: str,
+                   orig_lang: str | None, args) -> bool:
+    ok, why = local_transcribe.available()
+    if not ok:
+        print(f"[ASR-SKIP] item {item_id}: {why}")
+        return False
+    try:
+        path, detected = local_transcribe.transcribe_to_vtt(
+            url=url,
+            cookies_path=cookies_path,
+            out_dir=out_dir,
+            item_id=item_id,
+            orig_lang=orig_lang,
+            common_args=YTDLP_COMMON_ARGS,
+            model_name=args.whisper_model,
+            compute_type=args.whisper_compute_type,
+            audio_timeout=args.audio_timeout,
+            max_duration=args.max_asr_duration,
+            runner=run_ytdlp,
+        )
+    except Exception as exc:
+        discard_partial(out_dir, item_id)
+        print(f"[ASR-FAILED] item {item_id}: {exc}")
+        return False
+    print(f"[ASR] item {item_id}: {path.name} (lang={detected}, "
+          f"model={args.whisper_model})")
+    return True
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--archive")
@@ -152,6 +182,18 @@ def main():
     parser.add_argument("--max-items", type=int, default=70)
     parser.add_argument("--probe-timeout", type=float, default=PROBE_TIMEOUT)
     parser.add_argument("--download-timeout", type=float, default=DOWNLOAD_TIMEOUT)
+    parser.add_argument("--no-transcribe", action="store_true",
+                        help="Disable local ASR fallback")
+    parser.add_argument("--whisper-model", default=local_transcribe.DEFAULT_MODEL)
+    parser.add_argument("--whisper-compute-type",
+                        default=local_transcribe.DEFAULT_COMPUTE_TYPE)
+    parser.add_argument("--audio-timeout", type=float,
+                        default=local_transcribe.AUDIO_TIMEOUT)
+    parser.add_argument("--max-asr-duration", type=float,
+                        default=local_transcribe.MAX_DURATION,
+                        help="Skip ASR on videos longer (0 = unlimited)")
+    parser.add_argument("--max-transcribe", type=int, default=20,
+                        help="Maximum number of videos to transcribe")
     parser.add_argument("--self-test", action="store_true")
     args = parser.parse_args()
 
@@ -171,6 +213,7 @@ def main():
 
     processed = 0
     succeeded = 0
+    transcribed = 0
     failed = 0
     timed_out_count = 0
     no_subs = 0
@@ -202,8 +245,14 @@ def main():
         manual, auto, orig_lang = probe
         choice = choose_track(manual, auto, orig_lang)
         if choice is None:
-            no_subs += 1
-            item["summary"] = " "
+            if (not args.no_transcribe and transcribed < args.max_transcribe
+                    and try_transcribe(url, cookies_path, out_dir, item_id,
+                                       orig_lang, args)):
+                transcribed += 1
+                succeeded += 1
+            else:
+                no_subs += 1
+                item["summary"] = " "
             processed += 1
             continue
 
@@ -230,8 +279,14 @@ def main():
             print(f"[FAILED] item {item_id} (exit {returncode}): {output}")
         elif not already_downloaded(out_dir, item_id):
             if "no subtitles for the requested languages" in lowered:
-                no_subs += 1
-                item["summary"] = " "
+                if (not args.no_transcribe and transcribed < args.max_transcribe
+                        and try_transcribe(url, cookies_path, out_dir, item_id,
+                                           orig_lang, args)):
+                    transcribed += 1
+                    succeeded += 1
+                else:
+                    no_subs += 1
+                    item["summary"] = " "
             else:
                 failed += 1
                 print(f"[FAILED] item {item_id} (exit 0): {output}")
@@ -245,8 +300,8 @@ def main():
             json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8"
         )
 
-    print(f"Done. succeeded={succeeded} failed={failed} no_subs={no_subs} "
-          f"timed_out={timed_out_count}")
+    print(f"Done. succeeded={succeeded} (asr={transcribed}) failed={failed} "
+          f"no_subs={no_subs} timed_out={timed_out_count}")
 
 
 def _find_processes(marker: str) -> list[int]:
