@@ -6,3 +6,4 @@ beautifulsoup4>=4.12
 opencc-python-reimplemented>=0.1.7
 yt-dlp[default,curl-cffi]==2026.06.09
 bgutil-ytdlp-pot-provider
+faster-whisper==1.2.1
