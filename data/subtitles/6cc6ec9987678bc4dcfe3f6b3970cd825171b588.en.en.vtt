@@ -1,0 +1,789 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.240 --> 00:00:03.200
+Mailchimp.
+Basically every business,&nbsp;&nbsp;
+
+00:00:03.200 --> 00:00:09.040
+small and large, used this tool,&nbsp;
+but now it feels like no one does.&nbsp;
+
+00:00:09.040 --> 00:00:15.760
+13 million users. The biggest bootstrapped&nbsp;
+startup exit in history, sold for $12 billion.&nbsp;
+
+00:00:15.760 --> 00:00:20.080
+But, now it’s dying.
+Growth is flat, revenue is down,&nbsp;&nbsp;
+
+00:00:20.080 --> 00:00:26.320
+and users are fleeing to competitors.
+And, it’s entirely Mailchimp’s fault.&nbsp;
+
+00:00:26.320 --> 00:00:30.160
+It’s gotten so bad, Intuit now&nbsp;
+reports their earnings twice.&nbsp;
+
+00:00:30.160 --> 00:00:34.800
+Once with Mailchimp. And&nbsp;
+once without Mailchimp… Yeah.&nbsp;
+
+00:00:34.800 --> 00:00:39.520
+Mailchimp had it all. It was the&nbsp;
+king, so how did it collapse?&nbsp;
+
+00:00:39.520 --> 00:00:47.200
+It turns out, the thing that propelled&nbsp;
+Mailchimp to the top, is what killed it…
+
+00:00:50.480 --> 00:00:54.160
+If you ran a small business in&nbsp;
+2005 and wanted to send an email&nbsp;&nbsp;
+
+00:00:54.160 --> 00:00:59.520
+to your customers, you had a few options.
+BCC hundreds of email addresses in Outlook,&nbsp;&nbsp;
+
+00:00:59.520 --> 00:01:03.840
+which never looks very professional,&nbsp;
+and will definitely end up in spam.&nbsp;
+
+00:01:03.840 --> 00:01:06.960
+You could spend hundreds of&nbsp;
+dollars hiring a skilled developer.&nbsp;
+
+00:01:06.960 --> 00:01:11.440
+Or, you were left with buying expensive,&nbsp;
+complicated software built for companies&nbsp;&nbsp;
+
+00:01:11.440 --> 00:01:15.520
+with an entire marketing department.
+Not great for a small company.&nbsp;
+
+00:01:15.520 --> 00:01:21.280
+This was a constant complaint from Ben Chestnut&nbsp;
+and Dan Kurzius' clients, who kept asking for&nbsp;&nbsp;
+
+00:01:21.280 --> 00:01:26.640
+help with email marketing instead of focusing on&nbsp;
+the web design services their agency provided.&nbsp;
+
+00:01:26.640 --> 00:01:31.200
+Ben and Dan saw the opportunity.&nbsp;
+There’s a clear gap in the market.&nbsp;
+
+00:01:31.200 --> 00:01:35.840
+So, they repurposed code from a failed e-greeting&nbsp;
+card product and turned it into a fast,&nbsp;&nbsp;
+
+00:01:35.840 --> 00:01:41.280
+simple tool for sending emails: Mailchimp.
+Little did they know, this side project would&nbsp;&nbsp;
+
+00:01:41.280 --> 00:01:45.200
+soon become a software company.
+But, what’s also surprising,&nbsp;&nbsp;
+
+00:01:45.200 --> 00:01:51.040
+is how these two were way ahead of their time.
+For years, Mailchimp was a mostly paid product,&nbsp;&nbsp;
+
+00:01:51.040 --> 00:01:55.440
+with minor free features.
+But in 2009, they went with&nbsp;&nbsp;
+
+00:01:55.440 --> 00:02:01.200
+the Freemium model, which they called “Forever&nbsp;
+Free”. 500 contacts, which rapidly increased&nbsp;&nbsp;
+
+00:02:01.200 --> 00:02:06.640
+to 2,000 within three years.
+Great deal. So why so generous?&nbsp;
+
+00:02:06.640 --> 00:02:10.640
+First, the free plan was basically&nbsp;
+free advertising for Mailchimp.&nbsp;&nbsp;
+
+00:02:10.640 --> 00:02:14.560
+Every email sent on the free plan had a&nbsp;
+Mailchimp badge in the footer. Customers&nbsp;&nbsp;
+
+00:02:14.560 --> 00:02:19.680
+could click it and sign up for Mailchimp.
+Second, even though they benefited from the free&nbsp;&nbsp;
+
+00:02:19.680 --> 00:02:24.880
+plan, they offered free templates, free tutorials,&nbsp;
+and free automation to help customers grow.&nbsp;
+
+00:02:24.880 --> 00:02:28.240
+Once your audience outgrew the&nbsp;
+free plan, Mailchimp charged&nbsp;&nbsp;
+
+00:02:28.240 --> 00:02:32.400
+you more as your audience grew bigger.
+So, Mailchimp only made more money when your&nbsp;&nbsp;
+
+00:02:32.400 --> 00:02:39.200
+business was actually growing. Pretty genius.
+And boy it worked. Users went from 85,000&nbsp;&nbsp;
+
+00:02:39.200 --> 00:02:43.760
+to 450,000 in just 12 months.
+This free plan attracted more&nbsp;&nbsp;
+
+00:02:43.760 --> 00:02:51.360
+paying customers, increasing them by over&nbsp;
+150% and generating a 650% increase in profit.&nbsp;
+
+00:02:51.360 --> 00:02:56.640
+“I use MailChimp for free right now, but I&nbsp;
+can't wait until my list is big enough for&nbsp;&nbsp;
+
+00:02:56.640 --> 00:03:00.560
+me to start having to pay them. It'll mean&nbsp;
+that I have enough subscribers to actually&nbsp;&nbsp;
+
+00:03:00.560 --> 00:03:05.360
+monetize the list. At that point, I'll be&nbsp;
+more than happy to give them my credit card.”&nbsp;
+
+00:03:05.360 --> 00:03:11.840
+Honestly, it was pretty great… for now.
+So, what happens when competitors stop selling&nbsp;&nbsp;
+
+00:03:11.840 --> 00:03:16.560
+you a better email tool... and start selling you&nbsp;
+a better way to make money from those emails?&nbsp;
+
+00:03:16.560 --> 00:03:21.840
+To target developers, in 2012 they launched&nbsp;
+Mandrill, a cheap, standalone transaction&nbsp;&nbsp;
+
+00:03:21.840 --> 00:03:26.720
+email service that helps send automatic emails&nbsp;
+like verification emails, order confirmations,&nbsp;&nbsp;
+
+00:03:26.720 --> 00:03:30.240
+and password reset emails.
+But a surprisingly big break&nbsp;&nbsp;
+
+00:03:30.240 --> 00:03:34.880
+came from an unexpected place.
+In 2014, Mailchimp sponsored a&nbsp;&nbsp;
+
+00:03:34.880 --> 00:03:37.680
+podcast called Serial.
+During the ad read,&nbsp;&nbsp;
+
+00:03:37.680 --> 00:03:43.120
+Serial involved random people on the street.
+But one, didn’t quite get the name right.&nbsp;
+
+00:03:49.920 --> 00:03:55.440
+This, quickly, became a meme.
+Then even an SNL sketch.&nbsp;
+
+00:04:02.320 --> 00:04:05.200
+It was a pretty big marketing win for Mailchimp.&nbsp;
+
+00:04:05.200 --> 00:04:09.440
+They even bought MailKimp.com and&nbsp;
+redirected it to their homepage.&nbsp;
+
+00:04:09.440 --> 00:04:13.840
+By 2016, Mailchimp was making&nbsp;
+over $400 million in revenue,&nbsp;&nbsp;
+
+00:04:13.840 --> 00:04:21.680
+with around 550 employees, 16 million users.
+246 billion emails sent that year.&nbsp;
+
+00:04:21.680 --> 00:04:29.040
+And they had done it without venture capital.&nbsp;
+No external funding. Pretty great bootstrapping!&nbsp;
+
+00:04:29.040 --> 00:04:32.880
+For a while Mailchimp was&nbsp;
+the underdog everyone liked.&nbsp;
+
+00:04:32.880 --> 00:04:38.800
+I remember a time where every startup but also&nbsp;
+older, small businesses, were using Mailchimp.&nbsp;
+
+00:04:38.800 --> 00:04:43.440
+They were at the top, how&nbsp;
+did things fall off so bad?&nbsp;
+
+00:04:43.440 --> 00:05:20.400
+Well, Mailchimp had a problem.
+Sounds good, but… companies have&nbsp;&nbsp;
+
+00:05:20.400 --> 00:05:23.520
+a “moat” for a reason.
+But there’s more.&nbsp;
+
+00:05:23.520 --> 00:05:35.040
+Mailchimp would gradually make things&nbsp;
+worse for everyone, starting with Mandrill.
+
+00:05:35.040 --> 00:05:39.520
+Tools like Mailchimp, and the better email&nbsp;
+tools today, show it’s one of the easiest&nbsp;&nbsp;
+
+00:05:39.520 --> 00:05:44.640
+times to start a business. You have a tool to&nbsp;
+help you with just about anything you need.&nbsp;
+
+00:05:44.640 --> 00:05:49.920
+One of the best decisions I ever made was starting&nbsp;
+my own business, and I don’t think I would’ve&nbsp;&nbsp;
+
+00:05:49.920 --> 00:05:54.640
+achieved any financial freedom without it.
+Building a passive income stream or starting a&nbsp;&nbsp;
+
+00:05:54.640 --> 00:06:00.622
+side business is especially easy, with Printify.
+Printify allows you to build your very own&nbsp;&nbsp;
+
+00:06:00.622 --> 00:06:04.560
+ecommerce brand, in minutes,&nbsp;
+and with no upfront investment.&nbsp;
+
+00:06:04.560 --> 00:06:08.160
+Use it to build a passive income&nbsp;
+stream or start a business.&nbsp;
+
+00:06:08.160 --> 00:06:13.120
+But with Printify, you can really build&nbsp;
+something of your own. Your own style.&nbsp;
+
+00:06:13.120 --> 00:06:18.080
+Many are already using Printify to&nbsp;
+earn five, or even six figures a month.&nbsp;
+
+00:06:18.080 --> 00:06:22.720
+But even if you don't, it's still a great&nbsp;
+way to give you another revenue stream,&nbsp;&nbsp;
+
+00:06:22.720 --> 00:06:25.840
+and build some passive income.
+So how does it work?&nbsp;
+
+00:06:25.840 --> 00:06:29.920
+Choose from over 1300 high-quality&nbsp;
+products, create your designs,&nbsp;&nbsp;
+
+00:06:29.920 --> 00:06:33.760
+publish them, and then make money.
+Printify takes care of fulfilment,&nbsp;&nbsp;
+
+00:06:33.760 --> 00:06:37.840
+so there's no upfront cost in production.
+Printify also integrates with the&nbsp;&nbsp;
+
+00:06:37.840 --> 00:06:42.560
+biggest platforms, including Etsy,&nbsp;
+Shopify, TikTok Shop, and many more.&nbsp;
+
+00:06:42.560 --> 00:06:46.880
+Printify has the best prices on the&nbsp;
+market, and with Premium, you get a&nbsp;&nbsp;
+
+00:06:46.880 --> 00:06:52.720
+further 20% discount on the entire catalogue.
+They've already fulfilled over 60 million orders,&nbsp;&nbsp;
+
+00:06:52.720 --> 00:06:58.320
+to over 200 countries and territories, with a&nbsp;
+vast printing network across the US and Europe,&nbsp;&nbsp;
+
+00:06:58.320 --> 00:07:03.840
+meaning fewer fees and faster shipping times.
+Try Printify with no upfront cost by clicking&nbsp;&nbsp;
+
+00:07:03.840 --> 00:07:10.560
+the URL in the description and use code Logically.&nbsp;
+The first 100 users get 15% off their first order.&nbsp;
+
+00:07:10.560 --> 00:07:13.440
+Thank you to Printify for sponsoring this video.
+
+00:07:13.440 --> 00:07:18.080
+Mandrill users woke up to a strange&nbsp;
+update on 24th February 2016.&nbsp;
+
+00:07:18.080 --> 00:07:22.640
+Developers had just 60 days to move their&nbsp;
+email lists and rework their systems to connect&nbsp;&nbsp;
+
+00:07:22.640 --> 00:07:27.120
+Mandrill to a paid Mailchimp account.
+They now needed a paid Mailchimp plan,&nbsp;&nbsp;
+
+00:07:27.120 --> 00:07:32.000
+starting at $10 a month, plus Mandrill's&nbsp;
+email credits doubled in price.&nbsp;
+
+00:07:32.000 --> 00:07:39.680
+(Developer) "This is not to say that I’ve been&nbsp;
+unhappy with Mandrill, the services offered,&nbsp;&nbsp;
+
+00:07:39.680 --> 00:07:44.560
+the economics of it, documentation, etc. It’s&nbsp;
+just that our usage is really closer to the&nbsp;&nbsp;
+
+00:07:44.560 --> 00:07:49.600
+notification scenario and the traffic volume&nbsp;
+for our biking organization doesn’t justify a&nbsp;&nbsp;
+
+00:07:49.600 --> 00:07:54.000
+$20 a month cost. Heck, that’s what&nbsp;
+its costing me to run the whole thing&nbsp;&nbsp;
+
+00:07:54.000 --> 00:07:58.960
+end to end and I think that's high."
+Many developers left for SendGrid,&nbsp;&nbsp;
+
+00:07:58.960 --> 00:08:04.720
+Postmark, Mailgun, or Amazon SES.
+For Mailchimp, this was unfortunately the new&nbsp;&nbsp;
+
+00:08:04.720 --> 00:08:11.280
+playbook... making money by taking something away.
+But this was just the beginning. Mailchimp made&nbsp;&nbsp;
+
+00:08:11.280 --> 00:08:17.440
+three major, and strange moves in 2019.
+First, was a weird feud with… Shopify?&nbsp;
+
+00:08:17.440 --> 00:08:22.160
+They asked Shopify to pull the Mailchimp&nbsp;
+app from the Shopify App Store. So why?&nbsp;
+
+00:08:22.160 --> 00:08:25.360
+Shopify was becoming the home&nbsp;
+for millions of online stores,&nbsp;&nbsp;
+
+00:08:25.360 --> 00:08:30.160
+and Mailchimp had an integration that let those&nbsp;
+stores send their customer data into Mailchimp.&nbsp;
+
+00:08:30.160 --> 00:08:34.480
+A customer buys something from your Shopify&nbsp;
+store... their information goes into Mailchimp...&nbsp;&nbsp;
+
+00:08:34.480 --> 00:08:38.800
+and you can send them targeted emails.
+Easy, right?&nbsp;
+
+00:08:38.800 --> 00:08:44.640
+But then...after 18 months of back and forth,&nbsp;
+Shopify removed Mailchimp from its App Store.&nbsp;
+
+00:08:44.640 --> 00:08:49.280
+According to Mailchimp, Shopify changed its terms&nbsp;
+and was asking for access to far more customer&nbsp;&nbsp;
+
+00:08:49.280 --> 00:08:53.360
+data than Mailchimp was willing to hand over.
+(Mailchimp): “Anything that hurts our customers’&nbsp;&nbsp;
+
+00:08:53.360 --> 00:08:56.640
+privacy was a non-starter for us. We had no way of&nbsp;&nbsp;
+
+00:08:56.640 --> 00:08:59.600
+getting that consent from&nbsp;
+our users retroactively,”&nbsp;
+
+00:08:59.600 --> 00:09:02.320
+But on Shopify’s end:
+(Shopify): “Specifically,&nbsp;&nbsp;
+
+00:09:02.320 --> 00:09:06.640
+Mailchimp refuses to synchronize customer&nbsp;
+information captured on merchants’ online&nbsp;&nbsp;
+
+00:09:06.640 --> 00:09:11.360
+stores and email opt-out preferences.&nbsp;
+As a result, our merchants, other apps,&nbsp;&nbsp;
+
+00:09:11.360 --> 00:09:17.200
+and partner ecosystems can’t reliably serve their&nbsp;
+customers or comply with privacy legislation.”&nbsp;
+
+00:09:17.200 --> 00:09:21.680
+Both sides blamed each other, but Shopify&nbsp;
+merchants using Mailchimp were caught in&nbsp;&nbsp;
+
+00:09:21.680 --> 00:09:26.800
+the middle, forced to either find another&nbsp;
+email provider or move their store elsewhere.&nbsp;
+
+00:09:26.800 --> 00:09:30.960
+So why does this matter?
+Well, Mailchimp had just created an opening for&nbsp;&nbsp;
+
+00:09:30.960 --> 00:09:36.720
+one of its biggest future competitors: Klaviyo.&nbsp;
+And this would hurt pretty bad down the line.&nbsp;
+
+00:09:36.720 --> 00:09:40.000
+For now, Mailchimp was going&nbsp;
+through a metamorphosis.&nbsp;
+
+00:09:40.000 --> 00:09:44.640
+It revamped its entire brand from an email&nbsp;
+company into a full marketing platform.&nbsp;&nbsp;
+
+00:09:44.640 --> 00:09:50.800
+They now offered websites, landing&nbsp;
+pages, social ads, CRM… and postcards?&nbsp;
+
+00:09:50.800 --> 00:09:56.240
+It estimated its revenue would reach $700 million&nbsp;
+by the year's end, with new tiers at $0, $9.99,&nbsp;&nbsp;
+
+00:09:56.240 --> 00:09:59.280
+$14.99, and $299.
+Mailchimp had spent&nbsp;&nbsp;
+
+00:09:59.280 --> 00:10:05.840
+years becoming really good at one thing.
+Now it was trying to become good at everything.&nbsp;
+
+00:10:05.840 --> 00:10:09.200
+And this was the beginning&nbsp;
+of the end for Mailchimp.&nbsp;
+
+00:10:09.200 --> 00:10:13.360
+Then came perhaps the strangest&nbsp;
+and most blatant act of greed:&nbsp;
+
+00:10:13.360 --> 00:10:16.640
+In October of that same year,&nbsp;
+Mailchimp changed its pricing from&nbsp;&nbsp;
+
+00:10:16.640 --> 00:10:23.600
+subscribed contacts to your entire audience.
+And this was really, really bad for customers.&nbsp;
+
+00:10:23.600 --> 00:10:28.240
+That meant unsubscribed people, and even&nbsp;
+contacts who never opted into marketing,&nbsp;&nbsp;
+
+00:10:28.240 --> 00:10:31.840
+could count toward your bill.
+You're telling me I can be charged&nbsp;&nbsp;
+
+00:10:31.840 --> 00:10:37.120
+for someone I'm not even allowed to email?
+Well, to Mailchimp, they were no longer&nbsp;&nbsp;
+
+00:10:37.120 --> 00:10:41.760
+just an email company. Someone might&nbsp;
+unsubscribe from email... but they&nbsp;&nbsp;
+
+00:10:41.760 --> 00:10:46.080
+could still be reached through a postcard,&nbsp;
+a social ad, or another marketing channel.&nbsp;
+
+00:10:46.080 --> 00:10:50.800
+After all, Mailchimp is much more&nbsp;
+than an email company now, right guys?&nbsp;
+
+00:10:50.800 --> 00:10:57.120
+For some businesses, the bills skyrocketed.&nbsp;
+One analysis estimated a 258% increase&nbsp;&nbsp;
+
+00:10:57.120 --> 00:11:01.440
+for a 10,000-contact customer.
+So, what came of all of this?&nbsp;
+
+00:11:01.440 --> 00:11:05.120
+Was it worth it?
+Did Mailchimp become massively profitable?&nbsp;
+
+00:11:05.120 --> 00:11:09.920
+Well, despite all those changes...&nbsp;
+Mailchimp kept growing… for now.&nbsp;
+
+00:11:09.920 --> 00:11:15.680
+From $525 million in revenue in 2017 to&nbsp;
+$600 million in 2018, $700 million in 2019,&nbsp;&nbsp;
+
+00:11:15.680 --> 00:11:20.800
+and $800 million in 2020.
+So maybe the strategy worked?&nbsp;
+
+00:11:20.800 --> 00:11:26.320
+Well, remember, something else happened in 2020.
+With everyone stuck inside,&nbsp;&nbsp;
+
+00:11:26.320 --> 00:11:31.520
+it makes sense revenue jumped.
+But, it didn’t jump that much.&nbsp;
+
+00:11:31.520 --> 00:11:34.320
+In the US alone, e-commerce&nbsp;
+sales jumped from roughly&nbsp;&nbsp;
+
+00:11:34.320 --> 00:11:43.680
+$570 billion in 2019 to $815 billion in 2020.
+Shopify's revenue grew 81.9% in just nine months.&nbsp;
+
+00:11:43.680 --> 00:11:48.880
+Meanwhile, the largest email marketing&nbsp;
+company on earth grew just 14% during&nbsp;&nbsp;
+
+00:11:48.880 --> 00:11:55.760
+that time. 14%! During the pandemic!
+But, Mailchimp was extremely valuable.&nbsp;
+
+00:11:55.760 --> 00:12:00.560
+In September 2021, Intuit bought it for&nbsp;
+$12 billion, the largest acquisition of&nbsp;&nbsp;
+
+00:12:00.560 --> 00:12:06.880
+a company that had never taken outside funding.
+But, what exactly did Intuit buy for $12 billion?&nbsp;
+
+00:12:06.880 --> 00:12:13.840
+Mailchimp had 13 million users, but only&nbsp;
+800,000 paying customers. That's just 6%.&nbsp;
+
+00:12:13.840 --> 00:12:17.360
+With all those prior changes…&nbsp;
+wouldn’t that be larger?&nbsp;
+
+00:12:17.360 --> 00:12:21.680
+Unfortunately for Intuit,&nbsp;
+Mailchimp was long past its prime.&nbsp;
+
+00:12:21.680 --> 00:12:32.800
+And it only got worse from here.
+If you’ve watched this far,&nbsp;&nbsp;
+
+00:12:32.800 --> 00:12:37.440
+consider subscribing! It helps the channel&nbsp;
+and means you won’t miss future videos.&nbsp;
+
+00:12:37.440 --> 00:12:40.480
+Mailchimp soon had a much&nbsp;
+bigger problem on its hands.&nbsp;
+
+00:12:40.480 --> 00:12:47.040
+Remember Shopify? Those merchants still&nbsp;
+needed an email platform; just not Mailchimp.&nbsp;
+
+00:12:47.040 --> 00:12:52.480
+This brings us back to Klaviyo. It was built&nbsp;
+for e-commerce. It prioritised order history,&nbsp;&nbsp;
+
+00:12:52.480 --> 00:12:56.880
+lifetime value, and browsing behaviour.
+A store owner could see exactly how much&nbsp;&nbsp;
+
+00:12:56.880 --> 00:13:04.240
+revenue each email generated, and this is huge.
+It makes sense they raised 150 million,&nbsp;&nbsp;
+
+00:13:04.240 --> 00:13:09.280
+but that’s not the important part.
+In August 2022, Shopify invested $100&nbsp;&nbsp;
+
+00:13:09.280 --> 00:13:14.720
+million in Klaviyo, made it the recommended&nbsp;
+email partner for Shopify Plus, and gave it&nbsp;&nbsp;
+
+00:13:14.720 --> 00:13:18.560
+early access to new features.
+Why does this matter? Well,&nbsp;&nbsp;
+
+00:13:18.560 --> 00:13:23.120
+Klaviyo was laser-focused on the&nbsp;
+thing that matters: Conversions.&nbsp;
+
+00:13:23.120 --> 00:13:27.040
+It’s built for e-commerce, and&nbsp;
+for making its customers money.&nbsp;
+
+00:13:27.040 --> 00:13:31.440
+And while Klaviyo was winning, Mailchimp's&nbsp;
+13 million users were about to discover&nbsp;&nbsp;
+
+00:13:31.440 --> 00:13:36.640
+the new meaning of “Forever Free.”
+Mailchimp's free plan had been remarkably&nbsp;&nbsp;
+
+00:13:36.640 --> 00:13:43.040
+generous. So, naturally the cuts started.
+Paid plans jumped from $9.99 to $13 and&nbsp;&nbsp;
+
+00:13:43.040 --> 00:13:48.080
+$14.99 to $20, while email scheduling&nbsp;
+quietly disappeared from the free plan.&nbsp;
+
+00:13:48.080 --> 00:13:51.600
+Then came March 10, 2023.
+The free plan dropped from&nbsp;&nbsp;
+
+00:13:51.600 --> 00:13:57.920
+2,000 contacts to 500, while monthly&nbsp;
+sends plunged from 10,000 to just 1,000.&nbsp;
+
+00:13:57.920 --> 00:14:04.400
+That's a 75% cut in contacts and&nbsp;
+a 90% cut in emails... yikes.&nbsp;
+
+00:14:04.400 --> 00:14:11.520
+By mid-2025, automation was gone too. Then,&nbsp;
+in February 2026, Mailchimp cut it again,&nbsp;&nbsp;
+
+00:14:11.520 --> 00:14:17.120
+down to 250 contacts and 500 emails a month.
+Go over the contact limit, and Mailchimp&nbsp;&nbsp;
+
+00:14:17.120 --> 00:14:21.360
+would put your account on hold,&nbsp;
+stopping you from sending emails.&nbsp;
+
+00:14:21.360 --> 00:14:26.640
+And in April, even legacy customers&nbsp;
+saw their prices rise by up to 13%.&nbsp;
+
+00:14:26.640 --> 00:14:30.720
+People don't mind paying for something new.
+But take away something they've&nbsp;&nbsp;
+
+00:14:30.720 --> 00:14:36.640
+had for years... resentment builds up.
+And while Mailchimp was trying to be everything,&nbsp;&nbsp;
+
+00:14:36.640 --> 00:14:42.800
+everyone else was becoming more specialised.
+Klaviyo doubled down on e-commerce. In 2025,&nbsp;&nbsp;
+
+00:14:42.800 --> 00:14:49.360
+it reported $1.23 billion in revenue, up 32% from&nbsp;
+the previous year, with nearly 3,900 customers&nbsp;&nbsp;
+
+00:14:49.360 --> 00:14:56.480
+paying over $50,000 a year each. That's more&nbsp;
+revenue than Mailchimp has ever publicly reported.&nbsp;
+
+00:14:56.480 --> 00:15:00.400
+Creators moved to Beehiiv, Kit, and&nbsp;
+Substack, where they could make money&nbsp;&nbsp;
+
+00:15:00.400 --> 00:15:05.680
+through paid subscriptions, referrals, and ads.
+Meanwhile, budget-conscious businesses had&nbsp;&nbsp;
+
+00:15:05.680 --> 00:15:10.800
+MailerLite, Brevo, and Omnisend,&nbsp;
+all offering generous free plans.&nbsp;
+
+00:15:10.800 --> 00:15:17.840
+All of this left Mailchimp stuck at zero growth&nbsp;
+since mid-2024, meanwhile, MailerLite, Omnisend,&nbsp;&nbsp;
+
+00:15:17.840 --> 00:15:24.640
+HubSpot, Klaviyo, and Brevo were all growing.
+Other platforms focused on one specific problem,&nbsp;&nbsp;
+
+00:15:24.640 --> 00:15:29.680
+or, if they were for “everything”, were way&nbsp;
+more enterprise focused. Mailchimp hadn’t&nbsp;&nbsp;
+
+00:15:29.680 --> 00:15:33.120
+really found a niche that worked.
+They were originally for small&nbsp;&nbsp;
+
+00:15:33.120 --> 00:15:39.280
+companies… but then… also not?
+And then came the last nail in the coffin.&nbsp;
+
+00:15:39.280 --> 00:15:45.360
+In August 2025, Intuit's CFO admitted that small&nbsp;
+businesses, the “bread and butter” of Mailchimp,&nbsp;&nbsp;
+
+00:15:45.360 --> 00:15:50.320
+found the product “a bit harder to use.”
+Yeah you think?&nbsp;
+
+00:15:50.320 --> 00:15:54.240
+Total users was down to 11&nbsp;
+million. From a peak of 16.&nbsp;
+
+00:15:54.240 --> 00:15:59.120
+Mailchimp's revenue was down, and&nbsp;
+Intuit was cutting 17% of its workforce,&nbsp;&nbsp;
+
+00:15:59.120 --> 00:16:03.920
+more than 3,000 employees, and Mailchimp was&nbsp;
+specifically named as one of the areas where&nbsp;&nbsp;
+
+00:16:03.920 --> 00:16:09.200
+the company would be reducing investment.
+For a company Intuit bought for $12 billion,&nbsp;&nbsp;
+
+00:16:09.200 --> 00:16:14.800
+that was a pretty significant change in direction.
+Intuit also reported that its Global Business&nbsp;&nbsp;
+
+00:16:14.800 --> 00:16:19.040
+Solutions revenue grew 15%.
+Pretty good, right?&nbsp;
+
+00:16:19.040 --> 00:16:25.040
+But excluding Mailchimp, it grew 17%.
+In other words, Intuit had started&nbsp;&nbsp;
+
+00:16:25.040 --> 00:16:29.571
+showing investors the business with&nbsp;
+Mailchimp... and without Mailchimp.&nbsp;
+
+00:16:29.571 --> 00:16:31.920
+Pretty telling sign, I think.
+The company that Intuit bought for $12 billion&nbsp;&nbsp;
+
+00:16:31.920 --> 00:16:37.040
+was no longer being presented as a growth engine.
+The product became more complicated and expensive&nbsp;&nbsp;
+
+00:16:37.040 --> 00:16:41.680
+for its users. The free plan became&nbsp;
+less attractive. Meanwhile, specialised&nbsp;&nbsp;
+
+00:16:41.680 --> 00:16:46.160
+competitors got better and faster.
+Mailchimp never had a moat,&nbsp;&nbsp;
+
+00:16:46.160 --> 00:16:50.160
+which wasn’t inherently a problem.
+But a moat sure helps when you’re&nbsp;&nbsp;
+
+00:16:50.160 --> 00:16:55.760
+okay at everything, but a master of none.
+And when you continue to cut your plans.&nbsp;
+
+00:16:55.760 --> 00:17:01.120
+There are a lot of these tools which exploded&nbsp;
+in the 2010s, yet are struggling today.&nbsp;
+
+00:17:01.120 --> 00:17:05.520
+One of them is Slack. Yet, Slack&nbsp;
+has a very different story.&nbsp;
+
+00:17:05.520 --> 00:17:12.000
+While Mailchimp’s fall is mostly their own fault,&nbsp;
+Slack was the best product, and still lost.&nbsp;
+
+00:17:12.000 --> 00:17:23.760
+And it’s all thanks to Microsoft.
+Click here to learn the rest of the story.
+
