@@ -79,9 +79,13 @@ def probe_subtitle_langs(url: str, cookies_path: Path,
     """Fetch the list of available subtitle languages
 
     Returns:
-      ("EXPIRED", None, None)   cookies are invalid
-      None                      probe failed (transient; skip for this run)
-      (manual, auto, orig_lang) normal result
+      ("EXPIRED", None, None, None, None)  cookies are invalid
+      None                                  probe failed (transient; skip)
+      (manual, auto, orig_lang, duration, is_live)  normal result
+
+    duration / is_live come from the same --dump-json call and cost nothing
+    extra. They let the ASR fallback bail out *before* downloading tens of MB
+    of audio for a six-hour livestream replay.
     """
     cmd = [
         "yt-dlp",
@@ -94,7 +98,7 @@ def probe_subtitle_langs(url: str, cookies_path: Path,
     rc, stdout, stderr, timed_out = run_ytdlp(cmd, timeout)
     output = stdout + stderr
     if "cookies" in output.lower():
-        return "EXPIRED", None, None
+        return "EXPIRED", None, None, None, None
     if timed_out:
         return None
     if rc != 0 or not stdout.strip():
@@ -108,7 +112,9 @@ def probe_subtitle_langs(url: str, cookies_path: Path,
     manual = info.get("subtitles") or {}
     auto = info.get("automatic_captions") or {}
     orig_lang = info.get("language")
-    return manual, auto, orig_lang
+    duration = info.get("duration") or 0.0
+    is_live = bool(info.get("is_live") or info.get("live_status") == "is_live")
+    return manual, auto, orig_lang, duration, is_live
 
 
 def download_one_subtitle(
@@ -146,10 +152,18 @@ def discard_partial(out_dir: Path, item_id: str) -> list[str]:
 
 
 def try_transcribe(url: str, cookies_path: Path, out_dir: Path, item_id: str,
-                   orig_lang: str | None, args) -> bool:
+                   orig_lang: str | None, args,
+                   duration: float = 0.0, is_live: bool = False) -> bool:
     ok, why = local_transcribe.available()
     if not ok:
         print(f"[ASR-SKIP] item {item_id}: {why}")
+        return False
+    if is_live:
+        print(f"[ASR-SKIP] item {item_id}: still live")
+        return False
+    if args.max_asr_duration and duration > args.max_asr_duration:
+        print(f"[ASR-SKIP] item {item_id}: {duration / 60:.0f} min "
+              f"> {args.max_asr_duration / 60:.0f} min")
         return False
     try:
         path, detected = local_transcribe.transcribe_to_vtt(
@@ -242,12 +256,12 @@ def main():
             print("[EXPIRED] cookies invalid")
             break
 
-        manual, auto, orig_lang = probe
+        manual, auto, orig_lang, duration, is_live = probe
         choice = choose_track(manual, auto, orig_lang)
         if choice is None:
             if (not args.no_transcribe and transcribed < args.max_transcribe
                     and try_transcribe(url, cookies_path, out_dir, item_id,
-                                       orig_lang, args)):
+                                       orig_lang, args, duration, is_live)):
                 transcribed += 1
                 succeeded += 1
             else:
@@ -281,7 +295,7 @@ def main():
             if "no subtitles for the requested languages" in lowered:
                 if (not args.no_transcribe and transcribed < args.max_transcribe
                         and try_transcribe(url, cookies_path, out_dir, item_id,
-                                           orig_lang, args)):
+                                           orig_lang, args, duration, is_live)):
                     transcribed += 1
                     succeeded += 1
                 else:
