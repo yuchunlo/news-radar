@@ -1,0 +1,806 @@
+WEBVTT
+Kind: captions
+Language: en-GB
+
+00:00:00.000 --> 00:00:04.600
+A few years ago, a computing&nbsp;
+lecturer accidentally discovered&nbsp;&nbsp;
+
+00:00:04.600 --> 00:00:10.160
+a sorting algorithm in that they were lecturing&nbsp;
+and they're like, "Oh, here's an example of some&nbsp;&nbsp;
+
+00:00:10.160 --> 00:00:15.280
+pseudo code that doesn't sort." And I don't know&nbsp;
+how they found out, maybe a student was like, "Uh&nbsp;&nbsp;
+
+00:00:16.040 --> 00:00:22.360
+uh that works." And it did. It actually worked&nbsp;
+as a sorting algorithm, not just sort of just&nbsp;&nbsp;
+
+00:00:22.360 --> 00:00:29.520
+sort. I mean, it turns out code, just like&nbsp;
+everything evolves to become a crab, all code&nbsp;&nbsp;
+
+00:00:29.520 --> 00:00:38.544
+becomes a sorting algorithm. And uh we're going to&nbsp;
+we're going to have a closer look at it. [music]
+
+00:00:38.544 --> 00:00:42.640
+[music]&nbsp;&nbsp;
+
+00:00:42.640 --> 00:00:47.160
+First things first, as is the theme today, what&nbsp;
+is a sorting algorithm? Well, here I have some&nbsp;&nbsp;
+
+00:00:47.160 --> 00:00:51.960
+squares in the wrong order. I always want these to&nbsp;
+go from smallest to biggest, your left to right.&nbsp;&nbsp;
+
+00:00:51.960 --> 00:00:56.000
+And as a human, I'd be like, "Well, there's the&nbsp;
+smallest one, so I'm going to pull that one out,&nbsp;&nbsp;
+
+00:00:56.000 --> 00:01:00.800
+swap it with the one which is where it should be."&nbsp;
+And then I'll look and go, "Uh there's the next&nbsp;&nbsp;
+
+00:01:00.800 --> 00:01:05.920
+smallest." And what I'm doing, cuz I'm always&nbsp;
+selecting the next one that needs to be moved&nbsp;&nbsp;
+
+00:01:05.920 --> 00:01:11.760
+up the list, this is just called selection sort.&nbsp;
+And what I'm doing here, ah done. What I'm doing&nbsp;&nbsp;
+
+00:01:11.760 --> 00:01:16.280
+here is just finding, each time I scan the whole&nbsp;
+list, find the next one that's in the wrong place,&nbsp;&nbsp;
+
+00:01:16.280 --> 00:01:21.320
+move it up to where it should be. And that kind&nbsp;
+of gives us the two different aspects to sorting&nbsp;&nbsp;
+
+00:01:21.320 --> 00:01:26.640
+algorithms. There's the actual logic behind what&nbsp;
+you're doing, and then separately, and some would&nbsp;&nbsp;
+
+00:01:26.640 --> 00:01:32.560
+say more importantly, how would you code that up&nbsp;
+so a computer can do it automatically. Fun fact,&nbsp;&nbsp;
+
+00:01:32.560 --> 00:01:39.400
+I made these opening titles that you saw a moment&nbsp;
+ago using selection sort. I scrambled it into 120&nbsp;&nbsp;
+
+00:01:39.400 --> 00:01:43.520
+vertical strips and then sorted them back into&nbsp;
+order. It's a nice way to visualize it. So,&nbsp;&nbsp;
+
+00:01:43.520 --> 00:01:49.960
+here are four more. Now, these aren't all the&nbsp;
+same speed. I've had to speed up cocktail shaker&nbsp;&nbsp;
+
+00:01:49.960 --> 00:01:54.040
+and insertion so that it's done in the time&nbsp;
+available, whereas quick sort, look at that,&nbsp;&nbsp;
+
+00:01:54.040 --> 00:01:59.200
+it's actually done. It's just that quick. And&nbsp;
+merge sort, oh my goodness, love merge sort.&nbsp;&nbsp;
+
+00:01:59.200 --> 00:02:04.640
+That's also going at the same steady pace. But I&nbsp;
+want to speed it up because you can see kind of&nbsp;&nbsp;
+
+00:02:04.640 --> 00:02:11.200
+like how it's working. Look, it's making low-res&nbsp;
+versions of me and then merging them all together.&nbsp;&nbsp;
+
+00:02:11.200 --> 00:02:17.720
+Ah, it's great. We'll get to some actual sorting&nbsp;
+algorithms in a moment, ridiculous and otherwise.&nbsp;&nbsp;
+
+00:02:17.720 --> 00:02:21.280
+But you might be thinking, why do I have to care&nbsp;
+about sorting algorithms? Like computers do that&nbsp;&nbsp;
+
+00:02:21.280 --> 00:02:27.360
+for me. And that's one of the reasons. Computers&nbsp;
+have got a sort. Like the moment you start writing&nbsp;&nbsp;
+
+00:02:27.360 --> 00:02:32.040
+code, you're going to need a sorting algorithm,&nbsp;
+be it like for data processing or even like like&nbsp;&nbsp;
+
+00:02:32.040 --> 00:02:38.280
+now. If you want to sort the comments under this&nbsp;
+video by most recent because you're some kind of&nbsp;&nbsp;
+
+00:02:38.280 --> 00:02:42.560
+monster. You can do that and there's some&nbsp;
+code in the background running a sorting&nbsp;&nbsp;
+
+00:02:42.560 --> 00:02:46.000
+algorithm. So it's an unavoidable part of&nbsp;
+writing code. But you think, well, hang on,&nbsp;&nbsp;
+
+00:02:46.000 --> 00:02:52.600
+it's already been solved. I just import sort&nbsp;
+thing. Well, thinking through the logic of how&nbsp;&nbsp;
+
+00:02:52.600 --> 00:03:00.080
+a sorting algorithm works is a really nice way to&nbsp;
+just teach your brain how to understand, follow,&nbsp;&nbsp;
+
+00:03:00.080 --> 00:03:04.880
+and use algorithms. So in terms of a learning&nbsp;
+tool, highly recommend it. Probably be why there&nbsp;&nbsp;
+
+00:03:04.880 --> 00:03:09.240
+was a lecture on it which caused this whole thing&nbsp;
+to start. And job interviews, like if you want&nbsp;&nbsp;
+
+00:03:09.240 --> 00:03:14.560
+to become a software developer, this is a classic&nbsp;
+question to have to write out some pseudo code for&nbsp;&nbsp;
+
+00:03:14.560 --> 00:03:20.560
+different sorting algorithms. And finally, it's&nbsp;
+fun. I like it. Recreational sorting algorithms,&nbsp;&nbsp;
+
+00:03:20.560 --> 00:03:25.680
+I think I think they're great. So I'm on board.&nbsp;
+So there's my four reasons. And at the moment&nbsp;&nbsp;
+
+00:03:25.680 --> 00:03:31.320
+in the wrong order, so I'll just sort them into&nbsp;
+order I care about. There you are. They're fun.&nbsp;&nbsp;
+
+00:03:31.880 --> 00:03:36.320
+And I don't want I don't want to risk getting a&nbsp;
+job. Okay, the first algorithm we're going to look&nbsp;&nbsp;
+
+00:03:36.320 --> 00:03:42.840
+at is a classic of the genre, bubble sort. This&nbsp;
+is the sorting algorithm that it seems everybody&nbsp;&nbsp;
+
+00:03:42.840 --> 00:03:48.960
+knows, but also everybody hates. What is the most&nbsp;
+efficient way to sort a million 32-bit integers?
+
+00:03:52.680 --> 00:03:58.400
+Well, uh I'm I'm maybe I'm I'm sorry. Maybe&nbsp;
+we should No, no, no, no, no. I I I think&nbsp;&nbsp;
+
+00:03:58.400 --> 00:04:02.760
+I I I think I think the the bubble sort would&nbsp;
+be the wrong way to go. But before we get to the&nbsp;&nbsp;
+
+00:04:02.760 --> 00:04:07.560
+exact details of stepping through bubble sort,&nbsp;
+it occurs to me some of you may want a job.&nbsp;&nbsp;
+
+00:04:08.240 --> 00:04:13.920
+I mean, as a software developer or turns out&nbsp;
+president. And in that case, you're going to&nbsp;&nbsp;
+
+00:04:13.920 --> 00:04:20.360
+love the sponsor of today's video, boot.dev. It is&nbsp;
+a fantastic, interactive, and indeed addictive way&nbsp;&nbsp;
+
+00:04:20.360 --> 00:04:25.440
+to learn modern software developer skills.&nbsp;
+I mean, we're talking Python, SQL, Go,&nbsp;&nbsp;
+
+00:04:26.240 --> 00:04:31.960
+other languages. Check out all these courses I&nbsp;
+can do. I'm so excited. Now, a bunch of you are&nbsp;&nbsp;
+
+00:04:31.960 --> 00:04:38.040
+thinking, "Obviously, Matt, you're a terrible&nbsp;
+Python coder. You're going to learn Python for&nbsp;&nbsp;
+
+00:04:38.040 --> 00:04:43.360
+beginners. Come on, get in there." But no, you'd&nbsp;
+be wrong. Going to go back. I'm going to learn&nbsp;&nbsp;
+
+00:04:43.360 --> 00:04:49.160
+Git. Oh, look, the name is the primogen. Huh.&nbsp;
+Right, so here we go. I'm going to do this, and&nbsp;&nbsp;
+
+00:04:49.160 --> 00:04:56.640
+you'll never be able to mock my version control&nbsp;
+again. All the content on boot.dev is free for you&nbsp;&nbsp;
+
+00:04:56.640 --> 00:05:02.200
+to read and watch. So, you've got no excuses.&nbsp;
+And if you do get a paid membership, 25% off&nbsp;&nbsp;
+
+00:05:02.200 --> 00:05:07.720
+if you use my code, that means you access all the&nbsp;
+interactive elements. We've got hands-on coding,&nbsp;&nbsp;
+
+00:05:07.720 --> 00:05:13.480
+AI assistance, progress tracking, and game&nbsp;
+mechanics. That's a good deal. So, if you&nbsp;&nbsp;
+
+00:05:13.480 --> 00:05:19.760
+want to learn to code or just improve your skills,&nbsp;
+join me at boot.dev. Discount code standupmaths.&nbsp;&nbsp;
+
+00:05:19.760 --> 00:05:24.320
+Come on this adventure together. Thanks to&nbsp;
+boot.dev for sponsoring this video. And if&nbsp;&nbsp;
+
+00:05:24.320 --> 00:05:30.480
+you use the QR code on screen right now or the&nbsp;
+link in the description, you can get 25% off&nbsp;&nbsp;
+
+00:05:30.480 --> 00:05:35.800
+your first annual membership. Learn coding.&nbsp;
+Learn how to do things like putting ridiculous&nbsp;&nbsp;
+
+00:05:35.800 --> 00:05:42.720
+pi symbols in QR codes automatically. Uh on which&nbsp;
+I have no further comment. Thanks, boot.dev. Now,&nbsp;&nbsp;
+
+00:05:43.360 --> 00:05:50.480
+I think these are probably randomized enough.&nbsp;
+Let's talk bubble sort. To do our bubble sort,&nbsp;&nbsp;
+
+00:05:50.480 --> 00:05:56.280
+we're going to start with a counter I over here&nbsp;
+at index zero. So, because this is computing,&nbsp;&nbsp;
+
+00:05:56.280 --> 00:06:05.080
+we're going to go position zero, 1 2 3 4, and all&nbsp;
+we do is look at position I compared to I + 1,&nbsp;&nbsp;
+
+00:06:05.080 --> 00:06:09.840
+and if they're in the wrong order, we swap&nbsp;
+them. If they're not, we don't. And so,&nbsp;&nbsp;
+
+00:06:09.840 --> 00:06:14.280
+the first two are in the wrong order, so I swap&nbsp;
+those. Here we are, cuz now it goes smaller&nbsp;&nbsp;
+
+00:06:14.840 --> 00:06:19.680
+bigger. Then we compare the next two. They're&nbsp;
+in the wrong order, so we swap them. Smaller&nbsp;&nbsp;
+
+00:06:19.680 --> 00:06:24.360
+bigger. And you may notice, because this is&nbsp;
+like the second biggest and a smaller bigger,&nbsp;&nbsp;
+
+00:06:24.360 --> 00:06:29.960
+it's going to bubble all the way up until it&nbsp;
+gets here. Now, these are in the right order,&nbsp;&nbsp;
+
+00:06:29.960 --> 00:06:34.240
+so we go back to the beginning again. Next pass,&nbsp;
+the first two are already in the right order.&nbsp;&nbsp;
+
+00:06:34.240 --> 00:06:39.480
+The next two are in the wrong order, so we swap&nbsp;
+those, and then everything else is correct,&nbsp;&nbsp;
+
+00:06:39.480 --> 00:06:43.600
+and then we go back over. They're in the wrong&nbsp;
+order, so we swap them, and everything else&nbsp;&nbsp;
+
+00:06:43.600 --> 00:06:49.280
+is correct. And as soon as we can do a complete&nbsp;
+pass comparing every pair and they're all right,&nbsp;&nbsp;
+
+00:06:49.280 --> 00:06:54.360
+we know we are finished. That is bubble sort.&nbsp;
+That felt like fun. It didn't take that long.&nbsp;&nbsp;
+
+00:06:54.360 --> 00:07:00.280
+So, you know what? Let's Let's see if we can&nbsp;
+put it together in some pseudo code. N minus&nbsp;&nbsp;
+
+00:07:01.280 --> 00:07:06.560
+two. Okay, so I've done for I equals zero, which&nbsp;
+means it starts there in the zeroth position,&nbsp;&nbsp;
+
+00:07:06.560 --> 00:07:11.400
+to N minus two. This will be the N minus one&nbsp;
+position, that's the N minus two position.&nbsp;&nbsp;
+
+00:07:11.400 --> 00:07:21.480
+We want to stop one short, because then&nbsp;
+we take uh if I is greater than I + 1.
+
+00:07:24.080 --> 00:07:30.320
+Because here, we always compare I&nbsp;
+to I + 1, so I has to stop here,&nbsp;&nbsp;
+
+00:07:30.320 --> 00:07:35.240
+so we have an I + 1 to compare it to. That's&nbsp;
+the final pair. And if I is greater than I + 1,&nbsp;&nbsp;
+
+00:07:35.240 --> 00:07:39.000
+which means they're the wrong way around,&nbsp;
+cuz we want them smaller to bigger,&nbsp;&nbsp;
+
+00:07:39.000 --> 00:07:44.560
+I'm just saying here, take the list position&nbsp;
+I and list position I plus one and swap them.&nbsp;&nbsp;
+
+00:07:44.560 --> 00:07:50.600
+So, that becomes equal to that and that becomes&nbsp;
+equal to that. Although, oh wait, we need to stop&nbsp;&nbsp;
+
+00:07:51.240 --> 00:07:55.720
+once we do a complete pass and nothing&nbsp;
+changes. So, what you'll probably do
+
+00:07:57.960 --> 00:08:02.000
+All right, this is not great, but I've put a&nbsp;
+bit of extra room at the beginning there. So,&nbsp;&nbsp;
+
+00:08:02.000 --> 00:08:08.160
+each time it goes through iterates through this,&nbsp;
+it resets finished to true, but then if it has to&nbsp;&nbsp;
+
+00:08:08.160 --> 00:08:14.760
+do a swap, it changes finished to false. And if&nbsp;
+it happens to get through all of these without a&nbsp;&nbsp;
+
+00:08:14.760 --> 00:08:21.520
+single flipping to false, it'll hit the end and if&nbsp;
+finished, so if it's true, it'll return the list.&nbsp;&nbsp;
+
+00:08:21.520 --> 00:08:26.160
+But if finished is false, it'll go back up again.&nbsp;
+So, this way it'll iterate through this over and&nbsp;&nbsp;
+
+00:08:26.160 --> 00:08:32.760
+over and over again until one time it doesn't do&nbsp;
+any swaps, finished stays true, and it ends. So,&nbsp;&nbsp;
+
+00:08:32.760 --> 00:08:38.760
+there you are. Uh terrible pseudo code for bubble&nbsp;
+sort. And if you are thinking, well, you know&nbsp;&nbsp;
+
+00:08:38.760 --> 00:08:44.720
+what? It's not that bad, pretty simple code, very&nbsp;
+straightforward algorithm. We sorted these pretty&nbsp;&nbsp;
+
+00:08:44.720 --> 00:08:52.480
+quickly. It's very inefficient for bigger and&nbsp;
+bigger lists of data because you have to go you&nbsp;&nbsp;
+
+00:08:52.480 --> 00:08:57.640
+have to scan like if you've got to move one from&nbsp;
+one end to the other end, you have to scan the&nbsp;&nbsp;
+
+00:08:57.640 --> 00:09:06.360
+entire list that many times. And so, while it's&nbsp;
+lovely as an example, in practice, it is awful.&nbsp;&nbsp;
+
+00:09:07.600 --> 00:09:15.440
+Thanks, Obama. Okay, let me show you what&nbsp;
+the lecturer, uh someone named Stanley Fung,&nbsp;&nbsp;
+
+00:09:15.440 --> 00:09:20.640
+actually did when they were trying to set&nbsp;
+up some pseudo code that would not sort.
+
+00:09:24.800 --> 00:09:31.680
+All right, there it is. That's the entirety of the&nbsp;
+pseudo code that Stanley wrote up on the board.&nbsp;&nbsp;
+
+00:09:31.680 --> 00:09:37.000
+And they were just making up something that wasn't&nbsp;
+going to work. And look how ridiculous this is.&nbsp;&nbsp;
+
+00:09:37.000 --> 00:09:42.400
+For equals zero to n minus one, so the the&nbsp;
+first counter just points at every single&nbsp;&nbsp;
+
+00:09:42.400 --> 00:09:48.080
+item in the list in order. And for each&nbsp;
+of those, J then points at every single&nbsp;&nbsp;
+
+00:09:48.080 --> 00:09:53.520
+item in the list in order. And then to cap it&nbsp;
+all off, as well as the ridiculous iteration,&nbsp;&nbsp;
+
+00:09:53.520 --> 00:09:59.120
+we always check if if this is correct. So we&nbsp;
+want I to be smaller than J. If they're right,&nbsp;&nbsp;
+
+00:09:59.120 --> 00:10:05.440
+break it. So only if they're in the correct order&nbsp;
+already, you swap them the other way around.&nbsp;&nbsp;
+
+00:10:05.440 --> 00:10:12.840
+And if they're in the wrong order, you leave them&nbsp;
+alone. And it works. Uh spoiler, um it's because&nbsp;&nbsp;
+
+00:10:12.840 --> 00:10:19.280
+this ridiculousness accidentally cancels with this&nbsp;
+ridiculousness because I and J swap sides. But you&nbsp;&nbsp;
+
+00:10:19.280 --> 00:10:23.640
+know what we're going to do? Well, actually we'll&nbsp;
+step through this and you can see it for yourself.&nbsp;&nbsp;
+
+00:10:25.640 --> 00:10:30.960
+Okay, here we go. This is so stupid, I love&nbsp;
+it. So uh first counter I starts over here at&nbsp;&nbsp;
+
+00:10:30.960 --> 00:10:37.440
+position zero. J also zero. We compare this to&nbsp;
+itself because there are no efficiencies here&nbsp;&nbsp;
+
+00:10:37.440 --> 00:10:42.760
+and uh it's not smaller than itself, so it gets&nbsp;
+to stay. Okay, next step. We now compare this to&nbsp;&nbsp;
+
+00:10:42.760 --> 00:10:47.400
+all of them. So we compare it to this one. They're&nbsp;
+in the wrong order. They're descending, which is&nbsp;&nbsp;
+
+00:10:47.400 --> 00:10:53.120
+incorrect, so we leave them. We compare these two.&nbsp;
+Oh, they're the right order. Okay, let's fix that.&nbsp;&nbsp;
+
+00:10:53.120 --> 00:10:59.360
+Please. There we go. Now we continue to compare&nbsp;
+this position. So uh they're in the wrong order,&nbsp;&nbsp;
+
+00:10:59.360 --> 00:11:03.600
+they're in the wrong order. First pass complete&nbsp;
+and you may have noticed what it's done&nbsp;&nbsp;
+
+00:11:03.600 --> 00:11:08.520
+is it's taken the biggest item and moved it to&nbsp;
+the zeroth position, the beginning of the list,&nbsp;&nbsp;
+
+00:11:08.520 --> 00:11:13.320
+and it will always do that. So remember that.&nbsp;
+Okay, second pass. Now you're going to watch&nbsp;&nbsp;
+
+00:11:13.320 --> 00:11:19.280
+this real close because this is now position I,&nbsp;
+but J still starts at the beginning. And actually&nbsp;&nbsp;
+
+00:11:19.280 --> 00:11:25.000
+we're looking at them from the other side now&nbsp;
+because J is before I. So when we compare these,&nbsp;&nbsp;
+
+00:11:25.600 --> 00:11:29.760
+we're actually comparing them in the reverse&nbsp;
+direction and they are in the right order from&nbsp;&nbsp;
+
+00:11:29.760 --> 00:11:36.680
+the wrong direction, so we swap them. And so,&nbsp;
+these two swap. Now, we compare that to itself.&nbsp;&nbsp;
+
+00:11:37.200 --> 00:11:42.440
+All good. And we carry on kind of like before.&nbsp;
+These are in the wrong order, so they stay.&nbsp;&nbsp;
+
+00:11:42.440 --> 00:11:50.160
+Wrong order, they stay. Wrong order, they stay.&nbsp;
+Okay, next pass. I is now here. We're looking&nbsp;&nbsp;
+
+00:11:50.160 --> 00:11:56.480
+the wrong way, and they are in the wrong order,&nbsp;
+so they stay. They're in They're in the right&nbsp;&nbsp;
+
+00:11:56.480 --> 00:12:03.640
+order from the wrong direction, so they swap.&nbsp;
+Yes, okay, I got this. That stays where it is.&nbsp;&nbsp;
+
+00:12:04.280 --> 00:12:08.720
+These are in the wrong order, so they&nbsp;
+stay. Wrong order, so they stay. [sighs]&nbsp;&nbsp;
+
+00:12:10.000 --> 00:12:16.280
+Two to go. So, we're here. This is our I. J starts&nbsp;
+way over there again. So, we're looking in the&nbsp;&nbsp;
+
+00:12:16.280 --> 00:12:22.640
+wrong order, but they're in the wrong order, so&nbsp;
+they Oh, they stay. That's the correct order, but&nbsp;&nbsp;
+
+00:12:22.640 --> 00:12:28.680
+the wrong way around, so they have to swap. Now,&nbsp;
+we're looking at these. And they have to swap.&nbsp;&nbsp;
+
+00:12:29.400 --> 00:12:34.400
+That compared to itself, and then these are in&nbsp;
+the wrong order, so they stay. Oh, last. How is&nbsp;&nbsp;
+
+00:12:34.400 --> 00:12:40.280
+this going to work? Last pass. This one compared&nbsp;
+to the very beginning one are in the wrong order,&nbsp;&nbsp;
+
+00:12:40.280 --> 00:12:46.280
+so they stay. Oh, that's why it works. Wrong&nbsp;
+order, so they stay. The correct order from&nbsp;&nbsp;
+
+00:12:46.280 --> 00:12:54.440
+the wrong way around, so they swap. And then we&nbsp;
+compare this. They're in the the wrong direction,&nbsp;&nbsp;
+
+00:12:54.440 --> 00:12:59.480
+the wrong, but that cancels, and so they swap.&nbsp;
+And then we compare that to itself, and it did it.&nbsp;&nbsp;
+
+00:13:00.720 --> 00:13:06.760
+Oh, I can't believe it works. I can't&nbsp;
+believe it sorts. God, I love it so much.&nbsp;&nbsp;
+
+00:13:07.960 --> 00:13:14.720
+That makes me so angry. That's art. Okay, we all&nbsp;
+just took a moment here to collect ourselves,&nbsp;&nbsp;
+
+00:13:14.720 --> 00:13:20.440
+and we're okay now. It's so ridiculous, but you&nbsp;
+may have noticed how it works. So, it always takes&nbsp;&nbsp;
+
+00:13:20.440 --> 00:13:25.960
+the biggest one, chucks it to the wrong end,&nbsp;
+and then drags it all the way up, uh kind of&nbsp;&nbsp;
+
+00:13:25.960 --> 00:13:32.600
+plowing through the list. And behind it, it leaves&nbsp;
+things in the correct order. And that's because&nbsp;&nbsp;
+
+00:13:33.440 --> 00:13:40.000
+on the actual business side of the sort, behind&nbsp;
+the biggest one, J's always on the other side.&nbsp;&nbsp;
+
+00:13:40.000 --> 00:13:44.800
+And so, because of they're flipped, doing&nbsp;
+it the wrong way is doing it the right way,&nbsp;&nbsp;
+
+00:13:44.800 --> 00:13:49.440
+and they all end up perfectly in order. Although,&nbsp;
+a fun side effect, if you start with the list&nbsp;&nbsp;
+
+00:13:49.440 --> 00:13:55.360
+already sorted, which things like bubble sort&nbsp;
+would just leave alone and be like, "Yep, done."&nbsp;&nbsp;
+
+00:13:55.960 --> 00:14:01.920
+I can't believe it can sort will always take the&nbsp;
+biggest one, put it there, and drag it up. So,&nbsp;&nbsp;
+
+00:14:01.920 --> 00:14:08.440
+you've got to go through the whole process every&nbsp;
+time, even if it starts sorted. In that regard,&nbsp;&nbsp;
+
+00:14:08.440 --> 00:14:13.440
+a terrible algorithm. But, the reason I think it's&nbsp;
+a great algorithm is because it is so surprising,&nbsp;&nbsp;
+
+00:14:13.440 --> 00:14:18.880
+and you've really got to think it through. In that&nbsp;
+regard, excellent example for teaching algorithmic&nbsp;&nbsp;
+
+00:14:18.880 --> 00:14:24.800
+thinking, which is why, when Stanley Fong stumbled&nbsp;
+across this trying to come up with the algorithm&nbsp;&nbsp;
+
+00:14:24.800 --> 00:14:30.400
+that didn't sort, they wrote a whole paper about&nbsp;
+it. They named it I Can't Believe It Can Sort.&nbsp;&nbsp;
+
+00:14:30.400 --> 00:14:33.920
+And it's a great paper. I'll link to it below&nbsp;
+if you want to go check it out. Stanley proves&nbsp;&nbsp;
+
+00:14:33.920 --> 00:14:38.520
+why this works. Although, when they're proof,&nbsp;
+they use index one, so just bear that in mind&nbsp;&nbsp;
+
+00:14:38.520 --> 00:14:43.720
+when you see the proof. Lovely paper. I actually&nbsp;
+contacted Stanley at the time, back in 2021, had&nbsp;&nbsp;
+
+00:14:43.720 --> 00:14:49.800
+a chat about it. And Stanley did point out some&nbsp;
+people were taking the paper a little seriously,&nbsp;&nbsp;
+
+00:14:49.800 --> 00:14:54.080
+and they have a whole addendum where they're&nbsp;
+answering some of the common questions and&nbsp;&nbsp;
+
+00:14:54.080 --> 00:14:59.840
+comments and critiques, because Stanley's not&nbsp;
+claiming no one else ever did this before them.&nbsp;&nbsp;
+
+00:14:59.840 --> 00:15:05.520
+They just are the first person who documented it&nbsp;
+and realized how counterintuitive it is. And I'm&nbsp;&nbsp;
+
+00:15:05.520 --> 00:15:11.720
+glad they did it. And you know, I'm prepared to&nbsp;
+declare that I Can't Believe It Can Sort is my&nbsp;&nbsp;
+
+00:15:11.720 --> 00:15:17.320
+official favorite sorting algorithm. Just over 10&nbsp;
+years ago, there was this incredible video that&nbsp;&nbsp;
+
+00:15:17.320 --> 00:15:24.600
+did an incredible sonification and visualization&nbsp;
+of 15 different sorting algorithms in 6 minutes.&nbsp;&nbsp;
+
+00:15:24.600 --> 00:15:30.480
+I'll link to it below if you want to check it&nbsp;
+out. You should. Oh, this This is bubble sort. So,&nbsp;&nbsp;
+
+00:15:30.480 --> 00:15:35.280
+you really get a sense cuz you can see which ones&nbsp;
+are being compared and how it's being processed&nbsp;&nbsp;
+
+00:15:35.280 --> 00:15:42.200
+how the sorting algorithm actually works.&nbsp;
+Ah, that's This really nice. And here we go.
+
+00:15:45.560 --> 00:15:50.760
+Sorted. Now, I'm not going to try and&nbsp;
+recreate their fantastic sonification,&nbsp;&nbsp;
+
+00:15:50.760 --> 00:15:54.240
+but I thought I would take a&nbsp;
+very large list of random numbers&nbsp;&nbsp;
+
+00:15:54.240 --> 00:16:00.400
+and I'd do the equivalent visualization for&nbsp;
+I can't believe it can sort. Here you go.
+
+00:16:04.400 --> 00:16:12.120
+Turns out that Past Mat is a liar. I realized that&nbsp;
+Timo Bingmann, who made that video back in 2013,&nbsp;&nbsp;
+
+00:16:12.120 --> 00:16:16.960
+put all their code open source on GitHub.&nbsp;
+So, I was able to just get a copy of that,&nbsp;&nbsp;
+
+00:16:16.960 --> 00:16:23.400
+clip on I Can't Believe It Can Sort, the latest&nbsp;
+and greatest sorting algorithm, and render out&nbsp;&nbsp;
+
+00:16:23.400 --> 00:16:28.560
+the visualization that you're looking at now. But,&nbsp;
+let me be clear. What you're enjoying now is still&nbsp;&nbsp;
+
+00:16:28.560 --> 00:16:35.680
+100% Timo's excellent creative work, now with a&nbsp;
+twist of Stanley's terrible sorting algorithm.
+
+00:16:41.720 --> 00:16:45.040
+If you do watch that original video, you will&nbsp;
+realize there's so many different sorting&nbsp;&nbsp;
+
+00:16:45.040 --> 00:16:49.400
+algorithms out there. They all have pros and&nbsp;
+cons, features, things they do and don't do.&nbsp;&nbsp;
+
+00:16:49.400 --> 00:16:55.600
+Some edit the list in place. Some duplicate&nbsp;
+the list and then mess with that. Merge sort&nbsp;&nbsp;
+
+00:16:55.600 --> 00:16:59.360
+splits the list into smaller and smaller lists.&nbsp;&nbsp;
+
+00:16:59.360 --> 00:17:05.400
+And then when it recombines them all, the items&nbsp;
+end up in the correct order. And merge sort is&nbsp;&nbsp;
+
+00:17:05.960 --> 00:17:11.240
+kind of practical. If you're wondering&nbsp;
+what is actually used, Python used to use&nbsp;&nbsp;
+
+00:17:11.240 --> 00:17:16.400
+something called Tim sort. And it's called Tim&nbsp;
+sort because it was named after a guy called Tim.&nbsp;&nbsp;
+
+00:17:16.960 --> 00:17:25.120
+Tim Peters invented it. And it's kind of a hybrid&nbsp;
+sort. It does use merge sort, but also use like&nbsp;&nbsp;
+
+00:17:25.120 --> 00:17:31.720
+insertion sort. Cuz what it's doing is looking for&nbsp;
+sub sections of the data which are already sorted&nbsp;&nbsp;
+
+00:17:32.280 --> 00:17:37.920
+and then capitalizes on that. Because some&nbsp;
+algorithms are good for data that's completely&nbsp;&nbsp;
+
+00:17:37.920 --> 00:17:43.240
+random, some are good if it's already basically&nbsp;
+sorted and a few are just in the wrong place, some&nbsp;&nbsp;
+
+00:17:43.240 --> 00:17:47.800
+are good for long lists, some are good for short&nbsp;
+lists. So, your actual libraries, if you import&nbsp;&nbsp;
+
+00:17:47.800 --> 00:17:52.480
+a sort method, will probably use a combination&nbsp;
+of different methods based on the data you're&nbsp;&nbsp;
+
+00:17:52.480 --> 00:18:00.880
+putting into it. And Python now, Python 3, uses&nbsp;
+power sort, which sorts uh powerfully. Um yeah.&nbsp;&nbsp;
+
+00:18:01.920 --> 00:18:07.040
+Look it up yourself. All jokes aside, because&nbsp;
+that was technically a joke, you've got at the&nbsp;&nbsp;
+
+00:18:07.040 --> 00:18:13.240
+extreme practical end now power sort. That's what&nbsp;
+Python 3 uses. At the other end of the useful to&nbsp;&nbsp;
+
+00:18:13.240 --> 00:18:19.480
+ridiculous spectrum, you've got things like uh&nbsp;
+uh bogo sort. That's where you just randomly&nbsp;&nbsp;
+
+00:18:19.480 --> 00:18:24.680
+keep shuffling the list until it's actually&nbsp;
+sorted. And you've got things like Thanos sort,&nbsp;&nbsp;
+
+00:18:24.680 --> 00:18:31.000
+where you just randomly delete half the items in&nbsp;
+the list until whatever's left is in the order&nbsp;&nbsp;
+
+00:18:31.000 --> 00:18:38.760
+you want. And in the middle, you've got I can't&nbsp;
+believe it can sort, because it is ridiculous,&nbsp;&nbsp;
+
+00:18:39.400 --> 00:18:45.200
+but it works. And it wasn't like deliberately&nbsp;
+designed to be a ridiculous sorting algorithm,&nbsp;&nbsp;
+
+00:18:45.200 --> 00:18:51.280
+like some of the more esoteric ones, but it&nbsp;
+wasn't even designed to work, but it does. Ah,&nbsp;&nbsp;
+
+00:18:51.280 --> 00:18:55.520
+which is why I love it so much. If you want&nbsp;
+to learn more about the sorting algorithms,&nbsp;&nbsp;
+
+00:18:55.520 --> 00:19:01.560
+I'm going to link to actually a video by boot.dev.&nbsp;
+It's really good. I came across it after I'd&nbsp;&nbsp;
+
+00:19:01.560 --> 00:19:08.600
+already asked them to sponsor this video. Pure&nbsp;
+coincidence. Nice video, link below. Don't forget,&nbsp;&nbsp;
+
+00:19:08.600 --> 00:19:15.920
+25% off a one-year plan if you use my ridiculous&nbsp;
+QR code link in the description and that's it.&nbsp;&nbsp;
+
+00:19:15.920 --> 00:19:20.040
+Have fun with your sorting algorithms and&nbsp;
+if you've got a favorite sorting algorithm,&nbsp;&nbsp;
+
+00:19:20.800 --> 00:19:26.480
+put it in the comments below. I'll sort&nbsp;
+I'll sort by best sorting algorithm.&nbsp;&nbsp;
+
+00:19:26.480 --> 00:19:31.640
+All right, I'll randomize them cuz I want to show&nbsp;
+you sleep sort. This is where you assign a delay&nbsp;&nbsp;
+
+00:19:31.640 --> 00:19:37.040
+for each one. This is quite small, 1 second. Each&nbsp;
+delay is weighted, that's quite big, 5 seconds,&nbsp;&nbsp;
+
+00:19:37.040 --> 00:19:42.320
+by how big it is. And if you assign a bunch of&nbsp;
+delays, sleeps, they'll all then pop back up&nbsp;&nbsp;
+
+00:19:42.320 --> 00:19:49.280
+again. They'll print to the screen in the order&nbsp;
+that they're sized. Sleep sort. Ridiculous.
+
