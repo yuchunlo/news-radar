@@ -42,6 +42,8 @@ DEFAULT_MODEL = os.environ.get("WHISPER_MODEL", "base")
 DEFAULT_COMPUTE_TYPE = os.environ.get("WHISPER_COMPUTE_TYPE", "int8")
 
 AUDIO_TIMEOUT = 300
+AUDIO_PLAYER_CLIENTS = "tv,web_safari,default"
+AUDIO_FORMAT_SELECTOR = "bestaudio[abr<=64]/bestaudio/bestaudio*/best"
 # Anything longer than this is not transcribed: the runner's 6-hour ceiling
 # has to be left for the other items.
 MAX_DURATION = 3600
@@ -111,6 +113,30 @@ def segments_to_vtt(segments) -> str:
     return "\n".join(lines)
 
 
+def _audio_ytdlp_args(common_args: list[str]) -> list[str]:
+    """Rewrite the shared yt-dlp args for a media download.
+
+    Two things from the subtitle path actively hurt here: the
+    `youtube:player_client=web` extractor arg (see AUDIO_PLAYER_CLIENTS) and
+    `--ignore-no-formats`, which turns "this video has no formats" into a
+    silent success and leaves nothing on disk to explain the failure.
+    """
+    out: list[str] = []
+    skip_next = False
+    for arg in common_args:
+        if skip_next:
+            skip_next = False
+            continue
+        if arg == "--ignore-no-formats":
+            continue
+        if arg == "--extractor-args":
+            skip_next = True
+            continue
+        out.append(arg)
+    out += ["--extractor-args", f"youtube:player_client={AUDIO_PLAYER_CLIENTS}"]
+    return out
+
+
 def download_audio(url: str, cookies_path: Path, work_dir: Path,
                    common_args: list[str], timeout: float = AUDIO_TIMEOUT,
                    runner=None):
@@ -125,8 +151,8 @@ def download_audio(url: str, cookies_path: Path, work_dir: Path,
     cmd = [
         "yt-dlp",
         "--cookies", str(cookies_path),
-        *common_args,
-        "-f", "bestaudio[abr<=64]/bestaudio/worstaudio",
+        *_audio_ytdlp_args(common_args),
+        "-f", AUDIO_FORMAT_SELECTOR,
         "-o", out_tpl,
         url,
     ]
