@@ -1,0 +1,3840 @@
+WEBVTT
+Kind: captions
+Language: en-US
+
+00:00:00.000 --> 00:00:03.760
+My name is Terence Tao. I'm a professor of&nbsp;
+mathematics at the University of California,&nbsp;&nbsp;
+
+00:00:03.760 --> 00:00:08.640
+Los Angeles. And I have a forthcoming book,&nbsp;
+six math essentials. Today on Big Think,&nbsp;&nbsp;
+
+00:00:08.640 --> 00:00:13.520
+I'll be talking about six essential pillars of&nbsp;
+mathematics. How math interacts with science&nbsp;&nbsp;
+
+00:00:13.520 --> 00:00:16.880
+historically and how it has anticipated&nbsp;
+many of the great developments in the&nbsp;&nbsp;
+
+00:00:16.880 --> 00:00:23.280
+sciences and how new developments in AI&nbsp;
+will impact math and science going forward.
+
+00:00:23.280 --> 00:00:27.520
+Thank you for watching Big Think. If you'd like&nbsp;
+to support our work, we encourage you to join our&nbsp;&nbsp;
+
+00:00:27.520 --> 00:00:32.240
+members community. As a member, you'll receive our&nbsp;
+quarterly print magazine, a beautifully designed&nbsp;&nbsp;
+
+00:00:32.240 --> 00:00:36.400
+collection of the ideas and interviews that&nbsp;
+matter most. Big Think is for curious people&nbsp;&nbsp;
+
+00:00:36.400 --> 00:00:41.200
+who want to take deep dives into big ideas. To&nbsp;
+support the media you want to see in the world,&nbsp;&nbsp;
+
+00:00:41.200 --> 00:00:48.560
+go to bigthink.com/membership.&nbsp;
+And now back to the interview.
+
+00:00:48.560 --> 00:00:52.240
+Chapter one, the six essential&nbsp;
+elements of mathematics.&nbsp;
+
+00:00:52.960 --> 00:00:59.360
+I decided to organize my book around six really&nbsp;
+fundamental concepts that have origins from&nbsp;&nbsp;
+
+00:00:59.360 --> 00:01:05.600
+thousands of years ago or centuries ago which are&nbsp;
+um very familiar um in the early stages to to most&nbsp;&nbsp;
+
+00:01:05.600 --> 00:01:10.400
+people but mathematicians have developed over&nbsp;
+time to become extremely sophisticated. Numbers&nbsp;&nbsp;
+
+00:01:10.400 --> 00:01:17.520
+is the first concept and then algebra, geometry,&nbsp;
+probability, analysis and dynamics. These are all&nbsp;&nbsp;
+
+00:01:17.520 --> 00:01:22.560
+very basic concepts but they've evolved into very&nbsp;
+sophisticated mathematics. But if you strip away&nbsp;&nbsp;
+
+00:01:22.560 --> 00:01:28.640
+all the technical complexities um they really are&nbsp;
+just extremely intuitive concepts and the ma the&nbsp;&nbsp;
+
+00:01:28.640 --> 00:01:34.240
+mathematics that we we we developed it's just&nbsp;
+a precise language to describe it really really&nbsp;&nbsp;
+
+00:01:34.240 --> 00:01:39.600
+carefully and in a way that uh that allows you to&nbsp;
+think really clearly about these concepts. Numbers&nbsp;&nbsp;
+
+00:01:39.600 --> 00:01:46.160
+are one of the oldest mathematical inventions and&nbsp;
+still um the most useful really. We have records&nbsp;&nbsp;
+
+00:01:46.160 --> 00:01:52.720
+of carvings on bones that predate the alphabet&nbsp;
+or or other writing and it was invented multiple&nbsp;&nbsp;
+
+00:01:52.720 --> 00:01:58.000
+times by multiple civilizations. We didn't&nbsp;
+have numbers. Uh we would have to always speak&nbsp;&nbsp;
+
+00:01:58.000 --> 00:02:02.400
+poetically when trying to describe any situation&nbsp;
+and it would always be a little bit imprecise&nbsp;&nbsp;
+
+00:02:02.400 --> 00:02:06.640
+and the next person who's communicating what what&nbsp;
+you're saying would get it slightly different. It&nbsp;&nbsp;
+
+00:02:06.640 --> 00:02:13.840
+allows for precision. Numbers are placeholders for&nbsp;
+concepts like quantity and size and magnitude into&nbsp;&nbsp;
+
+00:02:13.840 --> 00:02:19.360
+very portable things that you can communicate to&nbsp;
+other people who may not have directly interacted&nbsp;&nbsp;
+
+00:02:19.360 --> 00:02:23.920
+with the objects you're describing. And once&nbsp;
+once you try to describe a very complicated&nbsp;&nbsp;
+
+00:02:23.920 --> 00:02:30.000
+uh uh scenario with many many u moving parts, you&nbsp;
+need um numbers and everything else that's born on&nbsp;&nbsp;
+
+00:02:30.000 --> 00:02:36.000
+top of that. Humans are not really wired to think&nbsp;
+in numbers. If you don't have the ability to think&nbsp;&nbsp;
+
+00:02:36.000 --> 00:02:41.200
+quantitatively to measure both the benefits and&nbsp;
+the costs of an action and which one is bigger,&nbsp;&nbsp;
+
+00:02:41.200 --> 00:02:46.160
+you can make some life choices that you'll&nbsp;
+regret later that uh uh you spend a lot of&nbsp;&nbsp;
+
+00:02:46.160 --> 00:02:51.840
+of resources for very little gain. The first&nbsp;
+step in being able to think more quantitatively&nbsp;&nbsp;
+
+00:02:51.840 --> 00:02:56.640
+u for these things is is to understand numbers&nbsp;
+and then more advanced mathematical topics like&nbsp;&nbsp;
+
+00:02:56.640 --> 00:03:02.880
+probability and and algebra on top of that. basic&nbsp;
+things like agriculture or or trade could not have&nbsp;&nbsp;
+
+00:03:02.880 --> 00:03:08.400
+happened without the ability to numbers to measure&nbsp;
+large quantities of you know grain and actually&nbsp;&nbsp;
+
+00:03:08.400 --> 00:03:15.200
+the ability to tax uh is you you can't have a&nbsp;
+civilization without taxation unfortunately and&nbsp;&nbsp;
+
+00:03:15.200 --> 00:03:20.240
+that requires mathematics and numbers. Of course&nbsp;
+not everything is is um uh is quantitative. You&nbsp;&nbsp;
+
+00:03:20.240 --> 00:03:24.880
+know if if you want to go on a date you shouldn't&nbsp;
+be measuring the cost and benefits of of of your&nbsp;&nbsp;
+
+00:03:24.880 --> 00:03:29.600
+of your prospective partner. Okay. Some things&nbsp;
+should be still be very uh subjective and and&nbsp;&nbsp;
+
+00:03:29.600 --> 00:03:33.760
+personal but there are um increasingly in this&nbsp;
+modern world there are lots of decisions for&nbsp;&nbsp;
+
+00:03:33.760 --> 00:03:38.880
+example in finance or in medicine uh where some&nbsp;
+quantitative thinking is very helpful. The thing&nbsp;&nbsp;
+
+00:03:38.880 --> 00:03:43.920
+about numbers is that they take on a life of their&nbsp;
+own because once you have the concept of number,&nbsp;&nbsp;
+
+00:03:43.920 --> 00:03:49.920
+you can study numbers in um abstractly divorced&nbsp;
+from their actual application and you find&nbsp;&nbsp;
+
+00:03:49.920 --> 00:03:56.000
+patterns and you find um often that uh it's very&nbsp;
+natural to extend the number system that you have&nbsp;&nbsp;
+
+00:03:56.000 --> 00:04:01.760
+to create new numbers which you wouldn't have&nbsp;
+thought would be applicable to your your original&nbsp;&nbsp;
+
+00:04:01.760 --> 00:04:06.320
+context, but they fit very very well into the&nbsp;
+number system. If you're counting sheep, you know,&nbsp;&nbsp;
+
+00:04:06.320 --> 00:04:10.080
+sometimes you want to add sheep and you want to&nbsp;
+subtract sheep. And so very soon you develop the&nbsp;&nbsp;
+
+00:04:10.080 --> 00:04:15.040
+notions of addition and subtraction, but you&nbsp;
+realize if you are only counting um counting&nbsp;&nbsp;
+
+00:04:15.040 --> 00:04:20.160
+numbers 0 one or actually not even zero, 1 2 3 4,&nbsp;
+you find that you can always add to these numbers&nbsp;&nbsp;
+
+00:04:20.160 --> 00:04:24.400
+together, but you can't always subtract. If you&nbsp;
+subtract four from three um it doesn't make any&nbsp;&nbsp;
+
+00:04:24.400 --> 00:04:28.960
+sense. You can't take away four sheep from three&nbsp;
+sheep. But patterns in the numbers themselves are&nbsp;&nbsp;
+
+00:04:28.960 --> 00:04:36.400
+so regular um that uh if you just blindly apply&nbsp;
+the rules of of of arithmetic, it feels like you&nbsp;&nbsp;
+
+00:04:36.400 --> 00:04:41.680
+should be able to take away three from four um&nbsp;
+and have a new number. And it it took a while,&nbsp;&nbsp;
+
+00:04:41.680 --> 00:04:46.960
+but eventually people realize that you can invent&nbsp;
+these negative numbers um and um and you can add&nbsp;&nbsp;
+
+00:04:46.960 --> 00:04:53.040
+negative 1, -2,3 to your number system and zero.&nbsp;
+And zero took a long time to to actually realize&nbsp;&nbsp;
+
+00:04:53.040 --> 00:04:58.000
+it was a good addition to to the number system.&nbsp;
+and you still get all the nice laws of of of&nbsp;&nbsp;
+
+00:04:58.000 --> 00:05:03.040
+arithmetic. For example, if you take a number a&nbsp;
+and you subtract b and then you add back b again,&nbsp;&nbsp;
+
+00:05:03.040 --> 00:05:08.080
+you you get back a. That's one of the laws of&nbsp;
+arithmetic and it still works even when you&nbsp;&nbsp;
+
+00:05:08.080 --> 00:05:13.760
+have negative numbers. Similarly, uh we learned&nbsp;
+to divide numbers by another and and we created&nbsp;&nbsp;
+
+00:05:13.760 --> 00:05:18.720
+fractions and fractions fit very well into this&nbsp;
+number system and then there was a shock. We&nbsp;&nbsp;
+
+00:05:18.720 --> 00:05:22.960
+found that there were numbers uh somehow between&nbsp;
+all these rational numbers, all these fractions,&nbsp;&nbsp;
+
+00:05:22.960 --> 00:05:27.920
+there were numbers like the square root of two&nbsp;
+which could not be expressed as any ratio. Um and&nbsp;&nbsp;
+
+00:05:27.920 --> 00:05:32.160
+this was a big shock actually that they I mean&nbsp;
+these numbers are literally called irrational&nbsp;&nbsp;
+
+00:05:32.160 --> 00:05:39.120
+numbers which is Latin for you know insane&nbsp;
+not unreasonable numbers but they do exist&nbsp;&nbsp;
+
+00:05:39.120 --> 00:05:44.160
+um and they're very useful. You can never write&nbsp;
+down all their digits or whatever in a in a on&nbsp;&nbsp;
+
+00:05:44.160 --> 00:05:49.840
+a on a finite piece um sheet of paper. it is um&nbsp;
+very very useful to have all these extra numbers&nbsp;&nbsp;
+
+00:05:49.840 --> 00:05:54.640
+lying around and then eventually we uh we tried&nbsp;
+to take square roots of negative numbers which&nbsp;&nbsp;
+
+00:05:54.640 --> 00:05:59.280
+we couldn't do in a regular number system and we&nbsp;
+invented complex numbers and that turned out to be&nbsp;&nbsp;
+
+00:05:59.280 --> 00:06:03.520
+extremely useful for electromagnetics and and&nbsp;
+quantum mechanics. It's remarkable that these&nbsp;&nbsp;
+
+00:06:03.520 --> 00:06:07.920
+number systems which were often invented just&nbsp;
+so that we could be better at solving equations&nbsp;&nbsp;
+
+00:06:07.920 --> 00:06:14.640
+and and solving practical problems um end up&nbsp;
+actually being the most natural uh language&nbsp;&nbsp;
+
+00:06:14.640 --> 00:06:19.840
+to describe very very complicated phenomena in&nbsp;
+the real world like quantum quantum mechanics&nbsp;&nbsp;
+
+00:06:19.840 --> 00:06:25.600
+for instance algebra is the second layer of&nbsp;
+abstraction over numbers. So with numbers,&nbsp;&nbsp;
+
+00:06:25.600 --> 00:06:31.440
+we took concrete things like a bunch of sheep or&nbsp;
+a quantity of water or whatever and we replaced&nbsp;&nbsp;
+
+00:06:31.440 --> 00:06:38.320
+these these quantities with numbers that you can&nbsp;
+then apply um operations to addition, subtraction,&nbsp;&nbsp;
+
+00:06:38.320 --> 00:06:44.560
+division and so forth. Algebra is uh goes one step&nbsp;
+further and tries to not look at specific numbers&nbsp;&nbsp;
+
+00:06:44.560 --> 00:06:49.600
+like seven or 17. First of all, replace numbers by&nbsp;
+even more generic placeholders. to give them names&nbsp;&nbsp;
+
+00:06:49.600 --> 00:06:56.000
+like x and y, but to also study the operations&nbsp;
+themselves, plus and times and and all these other&nbsp;&nbsp;
+
+00:06:56.000 --> 00:07:02.240
+um uh operations and ask what properties do the&nbsp;
+operations have, not just not just the numbers.&nbsp;&nbsp;
+
+00:07:02.240 --> 00:07:07.520
+And so people discovered that the these operations&nbsp;
+that are so useful in arithmetic themselves have&nbsp;&nbsp;
+
+00:07:07.520 --> 00:07:13.280
+many fascinating properties. Um so addition has a&nbsp;
+property called commutativity. If you add a to b,&nbsp;&nbsp;
+
+00:07:13.280 --> 00:07:18.320
+that's the same as adding b to a. And that turns&nbsp;
+out to be extremely useful property for helping&nbsp;&nbsp;
+
+00:07:18.320 --> 00:07:22.400
+you solve problems involving addition. Similarly&nbsp;
+for multiplication and all the other basic&nbsp;&nbsp;
+
+00:07:22.400 --> 00:07:27.840
+arithmetic operations obey these very simple laws.&nbsp;
+Later on we discovered that these laws also hold&nbsp;&nbsp;
+
+00:07:27.840 --> 00:07:34.400
+for other um uh operations. For example, if I want&nbsp;
+to take say an object and I I rotate it, I can&nbsp;&nbsp;
+
+00:07:34.400 --> 00:07:39.600
+rotate it by 30° and then rotate by another 60°.&nbsp;
+But if if I rotate it in the in the other order,&nbsp;&nbsp;
+
+00:07:39.600 --> 00:07:45.280
+rotate it by 60 degrees first and 30° next, I end&nbsp;
+up with the same position that I started with,&nbsp;&nbsp;
+
+00:07:45.280 --> 00:07:49.920
+these two rotations are commutive. So even&nbsp;
+though that operation has nothing to do with&nbsp;&nbsp;
+
+00:07:49.920 --> 00:07:56.960
+um it's not really an addition or multiplication&nbsp;
+in a traditional uh sense of numbers, it it has&nbsp;&nbsp;
+
+00:07:56.960 --> 00:08:02.080
+the same algebraic structure. On the other hand,&nbsp;
+some things are um do not obey the commutive law.&nbsp;&nbsp;
+
+00:08:02.080 --> 00:08:06.720
+Like if I put on my socks and then I put on my&nbsp;
+shoes, I get a different outcome than if I put&nbsp;&nbsp;
+
+00:08:06.720 --> 00:08:11.360
+on my shoes first and then I put on my socks.&nbsp;
+Those two operations do not commute. Certain&nbsp;&nbsp;
+
+00:08:11.360 --> 00:08:16.240
+um operations u obey nice laws like uh like&nbsp;
+the commutive law and certain operations&nbsp;&nbsp;
+
+00:08:16.240 --> 00:08:22.960
+don't. Sometimes you you see a match the laws that&nbsp;
+that that you you you uh you are present are very&nbsp;&nbsp;
+
+00:08:22.960 --> 00:08:30.000
+similar to laws that we already understand for say&nbsp;
+numbers. Um and then because of that we can take&nbsp;&nbsp;
+
+00:08:30.000 --> 00:08:37.040
+intuition and and ideas and and and proofs and and&nbsp;
+a theory of numbers and we can uh transfer them to&nbsp;&nbsp;
+
+00:08:37.040 --> 00:08:42.800
+a a a different setting. For example, matrices are&nbsp;
+a much more complicated concept than a numbers.&nbsp;&nbsp;
+
+00:08:42.800 --> 00:08:47.360
+Not just one number, but it's a whole square array&nbsp;
+of numbers. But it turns out that matrices obey&nbsp;&nbsp;
+
+00:08:47.360 --> 00:08:51.280
+very similar laws of algebra to numbers. And&nbsp;
+if you are very good at manipulating numbers,&nbsp;&nbsp;
+
+00:08:51.280 --> 00:08:55.920
+you can start to manipulate matrices the same way.&nbsp;
+And many of our modern technologies for example&nbsp;&nbsp;
+
+00:08:55.920 --> 00:09:01.680
+large language models are based on being able to&nbsp;
+manipulate matrices very very efficiently. Once&nbsp;&nbsp;
+
+00:09:01.680 --> 00:09:07.440
+you have abstracted to get to numbers and then to&nbsp;
+algebra then you are working with equations that&nbsp;&nbsp;
+
+00:09:07.440 --> 00:09:15.040
+involve variables like x and y and x may have had&nbsp;
+some physical meaning and has some specific value.&nbsp;&nbsp;
+
+00:09:15.040 --> 00:09:21.360
+But often it can clarify your thinking to not&nbsp;
+focus on the specific values of these numbers or&nbsp;&nbsp;
+
+00:09:21.360 --> 00:09:26.960
+or what they represent and just manipulate these&nbsp;
+these equations um by pure algebra just by moving&nbsp;&nbsp;
+
+00:09:26.960 --> 00:09:33.680
+symbols around. When you first learn this it it&nbsp;
+it feels very disconnected from your uh actual&nbsp;&nbsp;
+
+00:09:33.680 --> 00:09:38.880
+experience but it is a very powerful technique.&nbsp;
+One early use of algebra was the story of Johannes&nbsp;&nbsp;
+
+00:09:38.880 --> 00:09:43.840
+Kepler who was this astronomer and scientist&nbsp;
+who was one day walking down the streets of his&nbsp;&nbsp;
+
+00:09:43.840 --> 00:09:50.320
+hometown and he saw um the wine market um and and&nbsp;
+wine sellers was was selling wine by the barrel&nbsp;&nbsp;
+
+00:09:50.320 --> 00:09:55.600
+and so some large barrels and some small barrels&nbsp;
+uh but they were able to figure out how much wine&nbsp;&nbsp;
+
+00:09:55.600 --> 00:10:01.920
+was in each barrel and and so that they could pay&nbsp;
+the wine um um the wine sellers for uh for these&nbsp;&nbsp;
+
+00:10:01.920 --> 00:10:05.520
+barrels. uh if you have a barrel and you want to&nbsp;
+compute how much how much wine there is there. You&nbsp;&nbsp;
+
+00:10:05.520 --> 00:10:10.080
+know, you could pour it out and into into cups&nbsp;
+and so forth, but it was very tedious. But what&nbsp;&nbsp;
+
+00:10:10.080 --> 00:10:15.120
+fascinated Kepler was that the person in charge&nbsp;
+of the market had a very very efficient way to to&nbsp;&nbsp;
+
+00:10:15.120 --> 00:10:19.200
+measure the volume of the barrel. He just had a a&nbsp;
+stick with various markings on it and there was a&nbsp;&nbsp;
+
+00:10:19.200 --> 00:10:24.160
+bung hole in the middle of the barrel and he just&nbsp;
+poked the stick down the barrel into the corner&nbsp;&nbsp;
+
+00:10:24.160 --> 00:10:28.960
+and just saw how far the stick went that he could&nbsp;
+measure and just based on what that marking was&nbsp;&nbsp;
+
+00:10:28.960 --> 00:10:34.320
+he could say oh this is you know 30 gallons or&nbsp;
+whatever of wine and then they could price it.&nbsp;&nbsp;
+
+00:10:34.320 --> 00:10:38.400
+This astounded Kepler how you could just take this&nbsp;
+one measurement of just this one sort of diagonal&nbsp;&nbsp;
+
+00:10:38.400 --> 00:10:42.880
+and work out the shape of the volume because some&nbsp;
+barrels could be very tall and skinny or short and&nbsp;&nbsp;
+
+00:10:42.880 --> 00:10:48.560
+wide and somehow this this one measurement was&nbsp;
+somehow able to compute the volume. He did the&nbsp;&nbsp;
+
+00:10:48.560 --> 00:10:53.120
+math. This was a puzzle to him. So he he went&nbsp;
+home and he wrote out some equations. I assume&nbsp;&nbsp;
+
+00:10:53.120 --> 00:10:58.560
+my barrel is maybe the radius of the barrel is r&nbsp;
+and the height is h. You know nowadays with modern&nbsp;&nbsp;
+
+00:10:58.560 --> 00:11:02.880
+algebra this is a question you can assign to a&nbsp;
+high school student. This it's almost precisely&nbsp;&nbsp;
+
+00:11:02.880 --> 00:11:06.720
+one of these word problems that that that we we&nbsp;
+love to give our students and you can compute&nbsp;&nbsp;
+
+00:11:06.720 --> 00:11:12.640
+the volume and you compute the um uh this length&nbsp;
+and he found that the length did not completely&nbsp;&nbsp;
+
+00:11:12.640 --> 00:11:17.760
+determine the the the volume but a wine seller&nbsp;
+would want us to to sell as much wine as possible&nbsp;&nbsp;
+
+00:11:17.760 --> 00:11:23.440
+and you know you would want to sort of maximize&nbsp;
+how much volume you could get for a given um for a&nbsp;&nbsp;
+
+00:11:23.440 --> 00:11:29.040
+given length. Reasoning that um you know all these&nbsp;
+merchants were trying to maximize their profit. uh&nbsp;&nbsp;
+
+00:11:29.040 --> 00:11:33.280
+even though he couldn't quite solve the equations&nbsp;
+right away, if he added this profit incentive,&nbsp;&nbsp;
+
+00:11:33.280 --> 00:11:37.600
+he did some rudimentary what we would now call&nbsp;
+calculus. And that turned out to almost exactly&nbsp;&nbsp;
+
+00:11:37.600 --> 00:11:43.120
+match the shape of the barrels that actually&nbsp;
+were sold in in the marketplace. And his formulas&nbsp;&nbsp;
+
+00:11:43.120 --> 00:11:48.960
+did actually match what what people used very&nbsp;
+high precision. So he actually explained these&nbsp;&nbsp;
+
+00:11:48.960 --> 00:11:53.760
+these rules which I think the the marketplace&nbsp;
+had come up with over time just by empirical&nbsp;&nbsp;
+
+00:11:53.760 --> 00:11:58.560
+measurement. But he had found a very satisfactory&nbsp;
+explanation and I think this was part of the&nbsp;&nbsp;
+
+00:11:58.560 --> 00:12:04.240
+inspiration for the the the calculus developed&nbsp;
+by Newton and Leibniz a few centuries later.&nbsp;
+
+00:12:04.240 --> 00:12:10.160
+Geometry is literally is Greek for measurement of&nbsp;
+the earth. Since antiquity it was important to to&nbsp;&nbsp;
+
+00:12:10.160 --> 00:12:15.040
+know you know how many miles it was to travel&nbsp;
+from one place to another and how to navigate&nbsp;&nbsp;
+
+00:12:15.040 --> 00:12:20.480
+uh you know in the ocean or or or out in in&nbsp;
+in the wilderness by the stars. We needed&nbsp;&nbsp;
+
+00:12:20.480 --> 00:12:25.280
+to understand how to use things that we could&nbsp;
+observe like angles and distances to for very&nbsp;&nbsp;
+
+00:12:25.280 --> 00:12:30.720
+practical problems like transportation. Just&nbsp;
+like numbers have got various patterns like&nbsp;&nbsp;
+
+00:12:30.720 --> 00:12:35.760
+a plus b= b plus a. Once you start measuring&nbsp;
+distances between different points and angles,&nbsp;&nbsp;
+
+00:12:35.760 --> 00:12:40.480
+there are lots and lots of relations between&nbsp;
+those uh all those measurements as well. So&nbsp;&nbsp;
+
+00:12:40.480 --> 00:12:45.440
+geometry obeys laws just like numbers obey&nbsp;
+laws. So for example, one law is similarity.&nbsp;&nbsp;
+
+00:12:45.440 --> 00:12:49.040
+Once you know that two shapes are similar, you&nbsp;
+know, they have the same angles and things,&nbsp;&nbsp;
+
+00:12:49.040 --> 00:12:53.600
+then all their sides are proportionate. Once you&nbsp;
+know that the side of the big triangle is say two&nbsp;&nbsp;
+
+00:12:53.600 --> 00:12:57.440
+times as big as the side of the small triangle,&nbsp;
+then you know that all the other sides of the&nbsp;&nbsp;
+
+00:12:57.440 --> 00:13:02.960
+big triangle are also five times as big. The&nbsp;
+proportions are equal. The reason why this is&nbsp;&nbsp;
+
+00:13:02.960 --> 00:13:10.480
+um so useful is that it allows you to predict the&nbsp;
+measurement of um of distances or scales that you&nbsp;&nbsp;
+
+00:13:10.480 --> 00:13:15.760
+couldn't directly reach, you couldn't directly&nbsp;
+measure. You can look at a distant mountain and&nbsp;&nbsp;
+
+00:13:15.760 --> 00:13:19.440
+you might be able to actually estimate how how&nbsp;
+far away it is because you know something about&nbsp;&nbsp;
+
+00:13:19.440 --> 00:13:24.160
+how tall it is and the angle of elevation is you&nbsp;
+can use a similar triangle and you make a scale&nbsp;&nbsp;
+
+00:13:24.160 --> 00:13:28.560
+model. So for example, now you can navigate and&nbsp;
+you can see how to get to a distant location even&nbsp;&nbsp;
+
+00:13:28.560 --> 00:13:33.120
+if you can't see it directly from your sailboat&nbsp;
+or whatever. And even in ancient Greek times they&nbsp;&nbsp;
+
+00:13:33.120 --> 00:13:37.200
+were able to measure distances to the moon and&nbsp;
+the sun which they could not possibly measure&nbsp;&nbsp;
+
+00:13:37.200 --> 00:13:41.680
+directly but just through the laws of geometry&nbsp;
+which they had similar triangles and things like&nbsp;&nbsp;
+
+00:13:41.680 --> 00:13:45.120
+that which they had already worked out at that&nbsp;
+time they could actually get reasonably good&nbsp;&nbsp;
+
+00:13:45.120 --> 00:13:49.680
+measurements you know without any satellites&nbsp;
+or advanced technology. Once you know geometry&nbsp;&nbsp;
+
+00:13:49.680 --> 00:13:54.800
+you can really extend your senses well beyond&nbsp;
+what you can just touch and measure directly.&nbsp;
+
+00:13:55.600 --> 00:14:00.320
+The fourth of math essential is probability which&nbsp;
+is the standard way that mathematicians try to&nbsp;&nbsp;
+
+00:14:00.320 --> 00:14:05.760
+encapsulate one of the basic features of the real&nbsp;
+world which is uncertainty. In your primary or&nbsp;&nbsp;
+
+00:14:05.760 --> 00:14:11.520
+high school classes when you teach mathematics&nbsp;
+we often present very sanitized predictable word&nbsp;&nbsp;
+
+00:14:11.520 --> 00:14:18.000
+problems. You know um you know Annie has has 30&nbsp;
+apples. She gives half of them to uh to James. You&nbsp;&nbsp;
+
+00:14:18.000 --> 00:14:22.560
+know how much does does James have and whatever&nbsp;
+where everything is precise and you know all&nbsp;&nbsp;
+
+00:14:22.560 --> 00:14:29.120
+the information. But in the real world uh there's&nbsp;
+there is uncertainty and there's unpredictability.&nbsp;&nbsp;
+
+00:14:29.120 --> 00:14:34.160
+So you know when you flip a coin maybe it&nbsp;
+is heads, maybe it is tails. Now if you know&nbsp;&nbsp;
+
+00:14:34.160 --> 00:14:40.240
+exactly how much force you apply to a coin and and&nbsp;
+you you you knew all these um measurements, you&nbsp;&nbsp;
+
+00:14:40.240 --> 00:14:46.000
+could maybe do enough of a simulation to actually&nbsp;
+predict exactly uh which way the coin will land.&nbsp;&nbsp;
+
+00:14:46.000 --> 00:14:51.360
+But this is extremely difficult um and often you&nbsp;
+don't have that data. What was eventually realized&nbsp;&nbsp;
+
+00:14:51.360 --> 00:14:57.520
+is that rather than try to compute exact answers&nbsp;
+all the time for every single outcome, sometimes&nbsp;&nbsp;
+
+00:14:57.520 --> 00:15:03.760
+you just have to accept that there's a range&nbsp;
+of outcomes to a um to a given measurement. But&nbsp;&nbsp;
+
+00:15:03.760 --> 00:15:09.120
+what's important is which ones are more frequent&nbsp;
+and which ones are less frequent. And um the first&nbsp;&nbsp;
+
+00:15:09.120 --> 00:15:14.320
+people to realize this was important were gamblers&nbsp;
+because you know gamblers would gamble on certain&nbsp;&nbsp;
+
+00:15:14.320 --> 00:15:19.760
+events like trying to to uh to bet that a certain&nbsp;
+die rolls would sum up to to a certain number or&nbsp;&nbsp;
+
+00:15:19.760 --> 00:15:24.560
+whatever. And if they could calculate the odds&nbsp;
+correctly they could make money and if they didn't&nbsp;&nbsp;
+
+00:15:24.560 --> 00:15:28.880
+calculate odds correctly they would lose money on&nbsp;
+in the long run. The mathematics of probability&nbsp;&nbsp;
+
+00:15:28.880 --> 00:15:35.200
+was was uh was created by several letters that um&nbsp;
+some gamblers wrote to their mathematician friends&nbsp;&nbsp;
+
+00:15:35.200 --> 00:15:40.800
+asking for help trying to to uh to optimize their&nbsp;
+their their gambling strategies probably has has&nbsp;&nbsp;
+
+00:15:40.800 --> 00:15:46.400
+has blossomed well beyond it it its gambling&nbsp;
+roots. Um you know anytime we have a system&nbsp;&nbsp;
+
+00:15:46.400 --> 00:15:51.280
+too complicated to model all the way from first&nbsp;
+principles there's going to be some stochasticity&nbsp;&nbsp;
+
+00:15:51.280 --> 00:15:56.240
+and we we want to have a probabilistic model.&nbsp;
+So whether it's the stock market or whether&nbsp;&nbsp;
+
+00:15:56.240 --> 00:16:02.400
+a drug is going to be be successful, we turn&nbsp;
+to probability. Now quite often now sometimes&nbsp;&nbsp;
+
+00:16:02.400 --> 00:16:08.080
+uh we don't know what the odds are. So probability&nbsp;
+works best when it involves an event that happens&nbsp;&nbsp;
+
+00:16:08.080 --> 00:16:11.920
+over and over again. You there are thousands and&nbsp;
+thousands of trials and we can start getting a&nbsp;&nbsp;
+
+00:16:11.920 --> 00:16:17.280
+good measure of the odds. If it's an event that&nbsp;
+only happens once in a century, it may not quite&nbsp;&nbsp;
+
+00:16:17.280 --> 00:16:21.280
+be the right uh the right mathematics and we're&nbsp;
+still trying to work out mathematics for extremely&nbsp;&nbsp;
+
+00:16:21.280 --> 00:16:26.880
+rare events. um that is a better replacement for&nbsp;
+probability and there are some miracles that make&nbsp;&nbsp;
+
+00:16:26.880 --> 00:16:32.960
+it effective. Um so you may think that every&nbsp;
+time you do a different experiment, you know,&nbsp;&nbsp;
+
+00:16:32.960 --> 00:16:37.920
+so instead of doing a medical trial, you're you're&nbsp;
+trying to understand the just the outcome of of&nbsp;&nbsp;
+
+00:16:37.920 --> 00:16:45.360
+a of a die roll or what genetic traits are going&nbsp;
+to emerge from evolution or whatever. Um and you&nbsp;&nbsp;
+
+00:16:45.360 --> 00:16:48.720
+would think that in every different circumstance&nbsp;
+you get all these different distributions, you&nbsp;&nbsp;
+
+00:16:48.720 --> 00:16:53.520
+know, so some distributions will be heavy tailed&nbsp;
+and some will be narrow and whatever. But there&nbsp;&nbsp;
+
+00:16:53.520 --> 00:16:58.400
+are these these funny laws in probability called&nbsp;
+universality laws that that even very general&nbsp;&nbsp;
+
+00:16:58.400 --> 00:17:04.640
+types of of of uh of random systems various&nbsp;
+common shapes emerge. Um the most famous of&nbsp;&nbsp;
+
+00:17:04.640 --> 00:17:09.120
+which is the Gaussian or what's called the bell&nbsp;
+curve shape that many distributions like if you&nbsp;&nbsp;
+
+00:17:09.120 --> 00:17:13.280
+take the distribution of men or heights of women&nbsp;
+they form almost a perfect bell curve. We actually&nbsp;&nbsp;
+
+00:17:13.280 --> 00:17:18.480
+have good explanations now. We we have understood&nbsp;
+probability well enough that that we can explain&nbsp;&nbsp;
+
+00:17:18.480 --> 00:17:25.200
+quite a few of these universal laws uh from&nbsp;
+mathematics although some are still mysterious.&nbsp;
+
+00:17:25.200 --> 00:17:31.760
+Analysis is how mathematics deals with two&nbsp;
+things. One is inaccuracy in our measurements&nbsp;&nbsp;
+
+00:17:31.760 --> 00:17:36.720
+that sometimes it's not so much randomness&nbsp;
+but just imprecision. analysis is sort of the&nbsp;&nbsp;
+
+00:17:36.720 --> 00:17:41.280
+mathematics of error bars where we've realized&nbsp;
+that sometimes we we need to to understand not&nbsp;&nbsp;
+
+00:17:41.280 --> 00:17:45.840
+only what the numerical value of various&nbsp;
+quantities are but how much uncertainty we&nbsp;&nbsp;
+
+00:17:45.840 --> 00:17:51.760
+have what what what are the plus and minus error&nbsp;
+bars around them but these are concepts that you&nbsp;&nbsp;
+
+00:17:51.760 --> 00:17:59.520
+you you can't even talk about I mean if it just&nbsp;
+having only qualitative language of big and small&nbsp;&nbsp;
+
+00:17:59.520 --> 00:18:06.640
+um is is is not uh it only works up to a point&nbsp;
+we may measure say the length of an object and&nbsp;&nbsp;
+
+00:18:06.640 --> 00:18:13.920
+it it's roughly 2 m but maybe 2 m plus or - 10 cm.&nbsp;
+There's an approximation and there's an error and&nbsp;&nbsp;
+
+00:18:13.920 --> 00:18:18.880
+um ideally you want the errors to be zero but&nbsp;
+in in the real world we can't always make the&nbsp;&nbsp;
+
+00:18:18.880 --> 00:18:24.800
+errors uh entirely zero. But sometimes uh if&nbsp;
+we we can make the errors smaller and smaller&nbsp;&nbsp;
+
+00:18:24.800 --> 00:18:28.240
+and if we keep making more and more precise&nbsp;
+measurements we can make the errors shrink to&nbsp;&nbsp;
+
+00:18:28.240 --> 00:18:33.520
+zero. But it may take an infinite amount of of of&nbsp;
+um of precision or infinite amount of time to get&nbsp;&nbsp;
+
+00:18:33.520 --> 00:18:40.160
+the error all the way down to zero. Analysis is&nbsp;
+also about how we we take limits and how we deal&nbsp;&nbsp;
+
+00:18:40.160 --> 00:18:46.400
+with infinities. In algebra, the laws of algebra&nbsp;
+work very well when you're just taking a a finite&nbsp;&nbsp;
+
+00:18:46.400 --> 00:18:49.920
+number of operations. If you're just taking five&nbsp;
+things and you're adding them together, there's&nbsp;&nbsp;
+
+00:18:49.920 --> 00:18:54.960
+there's no problem. You can you can rearrange&nbsp;
+them in any order. But um once you start trying&nbsp;&nbsp;
+
+00:18:54.960 --> 00:19:02.080
+to to work with an infinite number of operations,&nbsp;
+there are some funny um paradoxes that that that&nbsp;&nbsp;
+
+00:19:02.080 --> 00:19:06.560
+show up that that sometimes you can rearrange an&nbsp;
+infinite number of objects and they they end up&nbsp;&nbsp;
+
+00:19:06.560 --> 00:19:12.000
+you end up with a different sum than than before&nbsp;
+you rearranged which doesn't happen with finite&nbsp;&nbsp;
+
+00:19:12.000 --> 00:19:17.040
+sums. For example, if you're always betting on&nbsp;
+say roulette or red and black, you win 50% of&nbsp;&nbsp;
+
+00:19:17.040 --> 00:19:23.520
+the time and you lose 50% of the time. There is&nbsp;
+a theorem um that there is no strategy that will&nbsp;&nbsp;
+
+00:19:23.520 --> 00:19:28.480
+allow you to constantly win that will guarantee&nbsp;
+you a win in the long run as long as you only have&nbsp;&nbsp;
+
+00:19:28.480 --> 00:19:34.320
+a finite amount of money. No betting strategy&nbsp;
+can beat the house basically. And so there's a&nbsp;&nbsp;
+
+00:19:34.320 --> 00:19:40.800
+strategy of always doubling down when you lose and&nbsp;
+just betting bigger and bigger numbers. And the&nbsp;&nbsp;
+
+00:19:40.800 --> 00:19:46.080
+moment as long as you win at least once uh you&nbsp;
+will get your dollar. So there was some way to&nbsp;&nbsp;
+
+00:19:46.080 --> 00:19:52.080
+constantly beat the house. But um the problem is&nbsp;
+that it assumes that you have an infinite amount&nbsp;&nbsp;
+
+00:19:52.080 --> 00:19:58.080
+of money. What the strategy is doing is that it is&nbsp;
+compressing all the risk of losing money into this&nbsp;&nbsp;
+
+00:19:58.080 --> 00:20:02.320
+very very small event where you're always losing.&nbsp;
+At some point you know you're you're betting&nbsp;&nbsp;
+
+00:20:02.320 --> 00:20:08.240
+millions of dollars and at some point you become&nbsp;
+bankrupt. So analysis helps you understand exactly&nbsp;&nbsp;
+
+00:20:08.240 --> 00:20:14.640
+what these terror risks are and how to reason with&nbsp;
+infinities in a way which is uh in which you avoid&nbsp;&nbsp;
+
+00:20:14.640 --> 00:20:20.400
+all these paradoxes. Yeah, there there was a lot&nbsp;
+of very inaccurate mathematics that was uh that&nbsp;&nbsp;
+
+00:20:20.400 --> 00:20:24.160
+predated analysis where people were just saying,&nbsp;
+"Oh, if I do this infinitely often, I can get rid&nbsp;&nbsp;
+
+00:20:24.160 --> 00:20:28.800
+of of all of all these problems." And it took a&nbsp;
+while to realize that there was a that infinity&nbsp;&nbsp;
+
+00:20:28.800 --> 00:20:35.280
+is a very dangerous beast if you if you're not&nbsp;
+uh trained to deal with it properly. But we we&nbsp;&nbsp;
+
+00:20:35.280 --> 00:20:39.840
+need to deal with infinities all the time in&nbsp;
+the real world. Well, maybe not infinities,&nbsp;&nbsp;
+
+00:20:39.840 --> 00:20:43.920
+but we need to deal with very large numbers.&nbsp;
+But infinity is a very good approximation for&nbsp;&nbsp;
+
+00:20:43.920 --> 00:20:48.080
+understanding how we deal with with large&nbsp;
+numbers. But it has to be used with care.&nbsp;&nbsp;
+
+00:20:48.080 --> 00:20:54.320
+So one famous demonstration of of the unintuitive&nbsp;
+nature of infinity is what's called the infinite&nbsp;&nbsp;
+
+00:20:54.320 --> 00:21:00.560
+monkeys theorem. The u common way to to phrase&nbsp;
+this is that if you have an infinite number of&nbsp;&nbsp;
+
+00:21:00.560 --> 00:21:06.480
+monkeys in a room or maybe just one monkey typing&nbsp;
+infinitely for forever uh on a typewriter and&nbsp;&nbsp;
+
+00:21:06.480 --> 00:21:12.240
+just hitting keys at random then usually they the&nbsp;
+monkey will just type nonsense and gibberish but&nbsp;&nbsp;
+
+00:21:12.240 --> 00:21:20.240
+every so often the monkey will type a a word know&nbsp;
+the or it um and sometimes it will it will type a&nbsp;&nbsp;
+
+00:21:20.240 --> 00:21:25.280
+sentence but the infinite monkey theorem is that&nbsp;
+if you wait long enough or you have enough monkeys&nbsp;&nbsp;
+
+00:21:25.280 --> 00:21:30.480
+you're almost certainly guaranteed eventually&nbsp;
+that the monkey will type whatever you like the&nbsp;&nbsp;
+
+00:21:30.480 --> 00:21:36.160
+complete works of Shakespeare or Hamlet um&nbsp;
+or Wikipedia or or anything. And uh you can&nbsp;&nbsp;
+
+00:21:36.160 --> 00:21:41.440
+you can prove this mathematically that that as as&nbsp;
+long as the probability of the monkey doing it at&nbsp;&nbsp;
+
+00:21:41.440 --> 00:21:45.760
+least once is positive. It doesn't matter how how&nbsp;
+small as long as it's positive if you wait long&nbsp;&nbsp;
+
+00:21:45.760 --> 00:21:51.520
+enough eventually the probability that this this&nbsp;
+particular pattern gets hit will eventually go to&nbsp;&nbsp;
+
+00:21:51.520 --> 00:21:56.080
+one. It's like if you play Russian roulette&nbsp;
+and you you you you only have one bullet in&nbsp;&nbsp;
+
+00:21:56.080 --> 00:22:01.920
+the revolver and you keep you keep firing. Um&nbsp;
+it doesn't matter how many chambers you have,&nbsp;&nbsp;
+
+00:22:01.920 --> 00:22:07.040
+eventually it will eventually fire and you you&nbsp;
+you'll get your hit for any given word or sentence&nbsp;&nbsp;
+
+00:22:07.040 --> 00:22:12.560
+or or paragraph or whatever, your monkey will&nbsp;
+eventually create this text, but the time taken&nbsp;&nbsp;
+
+00:22:12.560 --> 00:22:17.360
+uh grows exponentially with with the size of&nbsp;
+the text. So if if it's just a fourletter word,&nbsp;&nbsp;
+
+00:22:17.360 --> 00:22:21.760
+it might just take an hour or so of typing&nbsp;
+before the monkey gets it. But if it's already&nbsp;&nbsp;
+
+00:22:21.760 --> 00:22:27.280
+say a sevenletter word that uh you know the word&nbsp;
+Shakespeare for instance um then that may already&nbsp;&nbsp;
+
+00:22:27.280 --> 00:22:32.640
+take years a sentence you know it might take&nbsp;
+millennia and actually to get even a fraction of&nbsp;&nbsp;
+
+00:22:32.640 --> 00:22:38.240
+Hamlet think even just a page uh would would take&nbsp;
+way more than the age of the universe before you'd&nbsp;&nbsp;
+
+00:22:38.240 --> 00:22:43.760
+actually see it. So infinity is actually just a&nbsp;
+placeholder for a number anything which is which&nbsp;&nbsp;
+
+00:22:43.760 --> 00:22:48.640
+could potentially be be far larger than any fixed&nbsp;
+number that you could come up with. You know,&nbsp;&nbsp;
+
+00:22:48.640 --> 00:22:52.080
+even though in the real world you don't have&nbsp;
+infinitely many monkeys, you don't have infinite&nbsp;&nbsp;
+
+00:22:52.080 --> 00:23:00.160
+budget. Often we we reason with infinity first in&nbsp;
+as an idealized situation to see what is possible.&nbsp;&nbsp;
+
+00:23:00.160 --> 00:23:06.000
+And then from there we we can we can um turn to&nbsp;
+the more quantity questions of of exactly what can&nbsp;&nbsp;
+
+00:23:06.000 --> 00:23:10.160
+we do with finite resources. But first you you&nbsp;
+understand what to do with infinite resources.&nbsp;&nbsp;
+
+00:23:10.160 --> 00:23:14.000
+When I was a kid, I used to play a lot of computer&nbsp;
+games. For many computer games, there were certain&nbsp;&nbsp;
+
+00:23:14.000 --> 00:23:17.440
+cheats you could you could put in your games. you&nbsp;
+could give yourself infinite health or infinite&nbsp;&nbsp;
+
+00:23:17.440 --> 00:23:22.640
+ammunition. And it was sometimes helpful to play&nbsp;
+that game first with those cheats where you didn't&nbsp;&nbsp;
+
+00:23:22.640 --> 00:23:27.360
+have to worry about managing your your health&nbsp;
+potions or or your your ammo or whatever and&nbsp;&nbsp;
+
+00:23:27.360 --> 00:23:32.000
+just see how to solve um how to solve the game&nbsp;
+and then you could play it on hard on a harder&nbsp;&nbsp;
+
+00:23:32.000 --> 00:23:36.880
+mode and then see how to to do things more more&nbsp;
+efficiently. So many problems in math are actually&nbsp;&nbsp;
+
+00:23:36.880 --> 00:23:42.400
+solved this way. One thing that distinguishes&nbsp;
+math from other disciplines is that we have the&nbsp;&nbsp;
+
+00:23:42.400 --> 00:23:46.640
+freedom to fail because failure is very cheap&nbsp;
+in in mathematics. You know, if you're running&nbsp;&nbsp;
+
+00:23:46.640 --> 00:23:50.560
+a business and you make a bad business decision&nbsp;
+and your company goes bankrupt, that's a terrible&nbsp;&nbsp;
+
+00:23:50.560 --> 00:23:54.720
+mistake. You know, if you're a surgeon and you cut&nbsp;
+the wrong thing, that's a terrible mistake. But if&nbsp;&nbsp;
+
+00:23:54.720 --> 00:23:58.400
+you trying to solve a math problem and you make an&nbsp;
+incorrect assumption or something and it doesn't&nbsp;&nbsp;
+
+00:23:58.400 --> 00:24:03.040
+work, it's not really that much of a bad mistake.&nbsp;
+You just try again. It's it's actually a good move&nbsp;&nbsp;
+
+00:24:03.040 --> 00:24:07.680
+when you are trying to solve a math problem is to&nbsp;
+just first make an idealized assumption. assume&nbsp;&nbsp;
+
+00:24:07.680 --> 00:24:13.840
+that you have, you know, um an infinite amount of&nbsp;
+of of energy or or zero friction or or some other&nbsp;&nbsp;
+
+00:24:13.840 --> 00:24:20.160
+unrealistic assumption. Solve the problem then and&nbsp;
+then try to um get from the infinite world back&nbsp;&nbsp;
+
+00:24:20.160 --> 00:24:25.680
+to the finite world. And this is where analysis&nbsp;
+comes in to sort of carefully see what features&nbsp;&nbsp;
+
+00:24:25.680 --> 00:24:32.400
+of of of infinite mathematics still work in&nbsp;
+the finite world and which ones break down.&nbsp;
+
+00:24:32.400 --> 00:24:38.880
+Dynamics is mathematics of change of time is the&nbsp;
+study of how the rules of incremental change.&nbsp;&nbsp;
+
+00:24:38.880 --> 00:24:45.440
+How a state evolves from one time to the next&nbsp;
+all kinds of emergent and interesting behavior&nbsp;&nbsp;
+
+00:24:45.440 --> 00:24:50.720
+which you may not expect from the uh from the&nbsp;
+initial rules. So we have found that even very&nbsp;&nbsp;
+
+00:24:50.720 --> 00:24:55.520
+simple rules can generate extremely complicated&nbsp;
+emergent behavior if you iterate them long enough.&nbsp;&nbsp;
+
+00:24:55.520 --> 00:25:00.800
+Evolution is a good example in biology. You know,&nbsp;
+you have a bunch of organisms and they reproduce&nbsp;&nbsp;
+
+00:25:00.800 --> 00:25:05.920
+and the fitter ones survive more often than than&nbsp;
+the weaker ones and the organisms have certain&nbsp;&nbsp;
+
+00:25:05.920 --> 00:25:10.480
+traits that they can pass down to descendants. And&nbsp;
+these are very simple rules and it turns out that&nbsp;&nbsp;
+
+00:25:10.480 --> 00:25:16.560
+you can create a a massive diversity of species&nbsp;
+and and predator prey relationships and and and&nbsp;&nbsp;
+
+00:25:16.560 --> 00:25:20.960
+incredibly complicated dynamics. If you're on&nbsp;
+the freeway and and you have all these cars and&nbsp;&nbsp;
+
+00:25:20.960 --> 00:25:25.280
+and each car is just trying to move as fast as&nbsp;
+it can given the car in front of us, you know,&nbsp;&nbsp;
+
+00:25:25.280 --> 00:25:29.760
+so if there's too many cars in front, you'll slow&nbsp;
+down. If there's not many cars, you speed up. And&nbsp;&nbsp;
+
+00:25:29.760 --> 00:25:34.000
+each individual car is not doing anything very&nbsp;
+very complicated. It's just trying to optimize&nbsp;&nbsp;
+
+00:25:34.000 --> 00:25:39.120
+its flow. But when you put all the cars together&nbsp;
+and you see what it does to the whole network,&nbsp;&nbsp;
+
+00:25:39.120 --> 00:25:43.360
+you get these amazing emergent phenomena&nbsp;
+like traffic waves. You get these waves&nbsp;&nbsp;
+
+00:25:43.360 --> 00:25:47.680
+that can compress and grow. Kind of like a&nbsp;
+slinky. If you mess around with a slinky,&nbsp;&nbsp;
+
+00:25:47.680 --> 00:25:51.920
+you can have a compression wave and an expansion&nbsp;
+wave and it leads to phenomena which you wouldn't&nbsp;&nbsp;
+
+00:25:51.920 --> 00:25:57.840
+initially expect like like if there is a traffic&nbsp;
+shock like there's an accident and then the cars&nbsp;&nbsp;
+
+00:25:57.840 --> 00:26:04.080
+pile up then even when the the traffic accident&nbsp;
+is removed and there's no obstruction to travel&nbsp;&nbsp;
+
+00:26:04.080 --> 00:26:08.480
+the laws of traffic if you if you iterate the&nbsp;
+dynamics you can actually do the math and you&nbsp;&nbsp;
+
+00:26:08.480 --> 00:26:13.920
+can see that takes a while for the compression&nbsp;
+wave to dissipate and so living in Los Angeles&nbsp;&nbsp;
+
+00:26:13.920 --> 00:26:18.000
+this is a a phenomena I've encountered quite&nbsp;
+quite often that sometimes I was I encountered&nbsp;&nbsp;
+
+00:26:18.000 --> 00:26:24.400
+a slowdown in traffic and there's no accident or&nbsp;
+no um immediate cause was because many hours ago&nbsp;&nbsp;
+
+00:26:24.400 --> 00:26:30.320
+there was something that caused a slowdown but&nbsp;
+the dynamics it takes a certain amount of time&nbsp;&nbsp;
+
+00:26:30.320 --> 00:26:34.720
+for the the the wave to dissipate. You know once&nbsp;
+you understand the dynamics really well you can&nbsp;&nbsp;
+
+00:26:34.720 --> 00:26:38.480
+do modeling and simulation and then you can do&nbsp;
+things like you can you can make predictions like&nbsp;&nbsp;
+
+00:26:38.480 --> 00:26:43.760
+if I add another lane to this uh this this freeway&nbsp;
+will the traffic get better? Um in fact sometimes&nbsp;&nbsp;
+
+00:26:43.760 --> 00:26:48.080
+it doesn't. that these paradoxes were actually&nbsp;
+sometimes closing off certain lanes of traffic and&nbsp;&nbsp;
+
+00:26:48.080 --> 00:26:54.160
+actually make the traffic the global traffic flow&nbsp;
+uh flow faster. Now some dynamics are predictable.&nbsp;&nbsp;
+
+00:26:54.160 --> 00:27:00.320
+Sometimes uh we have uh equilibria which are&nbsp;
+states that just stay the same or for all time&nbsp;&nbsp;
+
+00:27:00.320 --> 00:27:05.280
+and sometimes these equilibria are stable. If&nbsp;
+you move a little bit away from from that state,&nbsp;&nbsp;
+
+00:27:05.280 --> 00:27:08.240
+you you come back to that state. Like if you&nbsp;
+have a pendulum that's going straight down,&nbsp;&nbsp;
+
+00:27:08.240 --> 00:27:12.880
+that's a stable equilibrium. And if you modify it&nbsp;
+a little bit, you perturb it, it will sort of move&nbsp;&nbsp;
+
+00:27:12.880 --> 00:27:17.440
+a little bit and it'll get back towards a stable&nbsp;
+equilibrium. But if you make a pendulum upside&nbsp;&nbsp;
+
+00:27:17.440 --> 00:27:22.080
+down, it's balancing on the tip. It could be an&nbsp;
+equilibrium. Like technically, it can stay in that&nbsp;&nbsp;
+
+00:27:22.080 --> 00:27:26.480
+position forever. But any slight perturbation&nbsp;
+will actually cause it to move away from the&nbsp;&nbsp;
+
+00:27:26.480 --> 00:27:32.960
+equilibrium over time. So it's important to know&nbsp;
+what equilibria are stable and which ones are not.&nbsp;&nbsp;
+
+00:27:32.960 --> 00:27:39.360
+We are now facing a world of climate change where&nbsp;
+we have lived for a thousand 10,000 years in the&nbsp;&nbsp;
+
+00:27:39.360 --> 00:27:43.520
+climate in a pretty close to an equilibrium&nbsp;
+state. Make it hotter or colder some years,&nbsp;&nbsp;
+
+00:27:43.520 --> 00:27:47.840
+but it would bounce back to equilibrium. And we're&nbsp;
+now actually in danger of leaving that equilibrium&nbsp;&nbsp;
+
+00:27:47.840 --> 00:27:54.400
+and to a much less stable dynamics, which is&nbsp;
+scary, but it needs to be modeled. Uh, and we&nbsp;&nbsp;
+
+00:27:54.400 --> 00:27:59.360
+may need to figure out how to adapt and change&nbsp;
+our agriculture and all our other practices.&nbsp;&nbsp;
+
+00:27:59.360 --> 00:28:03.760
+Understanding dynamics and which systems are&nbsp;
+stable, which ones are not, which ones are&nbsp;&nbsp;
+
+00:28:03.760 --> 00:28:07.920
+chaotic, which ones are predictable. It's actually&nbsp;
+extremely important. There are very mundane things&nbsp;&nbsp;
+
+00:28:07.920 --> 00:28:12.240
+like predicting the weather. You know, we take&nbsp;
+for granted that that we have accurate weather&nbsp;&nbsp;
+
+00:28:12.240 --> 00:28:18.240
+predictions for the next seven days. This was this&nbsp;
+is actually an amazing achievement of atmospheric&nbsp;&nbsp;
+
+00:28:18.240 --> 00:28:22.080
+scientists. They they collected lots and lots&nbsp;
+of data, but they also solved a lot of dynamical&nbsp;&nbsp;
+
+00:28:22.080 --> 00:28:26.880
+systems problems that allowed over the years got&nbsp;
+the error rate down to a point where we we can&nbsp;&nbsp;
+
+00:28:26.880 --> 00:28:34.080
+actually reliably predict weather. forecasted to&nbsp;
+say a week in advance. It's still not completely&nbsp;&nbsp;
+
+00:28:34.080 --> 00:28:38.640
+100% accurate, but it's much more accurate than&nbsp;
+just guessing. Systems which involve a lot of&nbsp;&nbsp;
+
+00:28:38.640 --> 00:28:45.680
+a lot of humans are still very unpredictable. So&nbsp;
+the dynamics of the stock market um or or politics&nbsp;&nbsp;
+
+00:28:45.680 --> 00:28:52.240
+this this this is well beyond ability of current&nbsp;
+um uh dynamical systems theory to to model but&nbsp;&nbsp;
+
+00:28:52.240 --> 00:28:57.920
+but natural systems and some human systems like&nbsp;
+traffic uh we can actually model. So it it is a&nbsp;&nbsp;
+
+00:28:57.920 --> 00:29:02.320
+fairly advanced area of mathematics. We often need&nbsp;
+a lot of computer simulations and we need to solve&nbsp;&nbsp;
+
+00:29:02.320 --> 00:29:07.760
+uh very advanced differential equations but it&nbsp;
+can give some very valuable insights. One of the&nbsp;&nbsp;
+
+00:29:07.760 --> 00:29:13.600
+discoveries of dynamical systems is is that most&nbsp;
+systems exhibit what's called chaos. And this was&nbsp;&nbsp;
+
+00:29:13.600 --> 00:29:19.440
+this came as a surprise in the 17th century. So&nbsp;
+Newton when he introduced this law of gravitation.&nbsp;&nbsp;
+
+00:29:19.440 --> 00:29:24.000
+Uh one of the great successes of this theory&nbsp;
+was that it explained the motion of the moon&nbsp;&nbsp;
+
+00:29:24.000 --> 00:29:29.920
+around the earth and the earth around the sun he&nbsp;
+could explain retroactively um all these funny&nbsp;&nbsp;
+
+00:29:29.920 --> 00:29:34.560
+laws of Kepler like why planets move in ellipses&nbsp;
+and things like that. And so he solved what we&nbsp;&nbsp;
+
+00:29:34.560 --> 00:29:39.840
+now call the two body problem that if you have two&nbsp;
+massive objects like the sun and the earth and you&nbsp;&nbsp;
+
+00:29:39.840 --> 00:29:44.880
+move them around and you govern by a single law&nbsp;
+of motion Newton's law of inverse square law of&nbsp;&nbsp;
+
+00:29:44.880 --> 00:29:50.960
+universal gravitation he could solve the equations&nbsp;
+using his newly derived theory of calculus and he&nbsp;&nbsp;
+
+00:29:50.960 --> 00:29:55.520
+could have perfect formulas for for the orbits&nbsp;
+and they were perfect ellipses exactly verifying&nbsp;&nbsp;
+
+00:29:55.520 --> 00:30:00.720
+Kepler's theory it was an amazing achievement once&nbsp;
+he solved the two-body problem it was it was very&nbsp;&nbsp;
+
+00:30:00.720 --> 00:30:06.800
+natural and many of Newton's successor And I think&nbsp;
+also Newton himself tried to solve the three-body&nbsp;&nbsp;
+
+00:30:06.800 --> 00:30:10.400
+problem. I think Newton once said that this was&nbsp;
+the only problem that ever gave him a headache&nbsp;&nbsp;
+
+00:30:10.400 --> 00:30:17.120
+because no matter what he tried, he could not&nbsp;
+get an exact solution. Um leading societies of&nbsp;&nbsp;
+
+00:30:17.120 --> 00:30:21.520
+the time offered major prizes for anyone who could&nbsp;
+who could write the solution. This was considered&nbsp;&nbsp;
+
+00:30:21.520 --> 00:30:26.640
+one of the major open problems in mathematics.&nbsp;
+We still do not have an exact solution for these&nbsp;&nbsp;
+
+00:30:26.640 --> 00:30:31.200
+equations. And the belief now is that there isn't&nbsp;
+really one that you can write down as a nice neat&nbsp;&nbsp;
+
+00:30:31.200 --> 00:30:37.520
+formula. But when you actually look at the numeric&nbsp;
+you see that it is not some nice periodic pattern.&nbsp;&nbsp;
+
+00:30:37.520 --> 00:30:41.680
+It often stays periodic for a long period of time&nbsp;
+but then suddenly it will change to something a&nbsp;&nbsp;
+
+00:30:41.680 --> 00:30:46.480
+little bit different and then it will change yet&nbsp;
+again. We suspect now that our solar system which&nbsp;&nbsp;
+
+00:30:46.480 --> 00:30:51.840
+currently has what eight planets or something&nbsp;
+that in the past there were other planets that&nbsp;&nbsp;
+
+00:30:51.840 --> 00:30:57.040
+were in the system and they mostly moved in sort&nbsp;
+of elliptical orbits like as as according Kepler.&nbsp;&nbsp;
+
+00:30:57.040 --> 00:31:01.920
+Every so often the um the little interactions&nbsp;
+between the gravitational force of Jupiter,&nbsp;&nbsp;
+
+00:31:01.920 --> 00:31:06.960
+exert or Mars and so forth would jiggle these&nbsp;
+um these planets a little bit out of their usual&nbsp;&nbsp;
+
+00:31:06.960 --> 00:31:11.840
+orbit and occasionally they would just veer off&nbsp;
+completely and sometimes two two planets would&nbsp;&nbsp;
+
+00:31:11.840 --> 00:31:16.000
+collide or one would escape the solar system&nbsp;
+and you know for example there's an asteroid&nbsp;&nbsp;
+
+00:31:16.000 --> 00:31:21.600
+belt which we believe is it's a remnant of a&nbsp;
+collision from millions of years ago. Even the&nbsp;&nbsp;
+
+00:31:21.600 --> 00:31:27.040
+most stable of systems like the solar system that&nbsp;
+looks like it hasn't changed for millennia, there&nbsp;&nbsp;
+
+00:31:27.040 --> 00:31:33.280
+are long-term instabilities in in that system.&nbsp;
+Once you move beyond the simplest of systems there&nbsp;&nbsp;
+
+00:31:33.280 --> 00:31:40.240
+um there's lots of little tiny um unpredictable&nbsp;
+or or very hard to predict deviations that that&nbsp;&nbsp;
+
+00:31:40.240 --> 00:31:44.960
+that occasionally can can pile up just like&nbsp;
+occasionally a bunch of monkeys can sort of&nbsp;&nbsp;
+
+00:31:44.960 --> 00:31:50.320
+write the works of Shakespeare. Occasionally um&nbsp;
+gravitational perturbations can can set an entire&nbsp;&nbsp;
+
+00:31:50.320 --> 00:31:56.240
+planet off uh uh off course. So often actually&nbsp;
+uh in the most advanced forms of dynamics today,&nbsp;&nbsp;
+
+00:31:56.240 --> 00:32:01.600
+even if you start off with with a completely&nbsp;
+deterministic system with no unpredictability&nbsp;&nbsp;
+
+00:32:01.600 --> 00:32:07.120
+whatsoever, we find that the best way to&nbsp;
+model it actually is to to approximate it by a&nbsp;&nbsp;
+
+00:32:07.120 --> 00:32:10.960
+um using probability and just assume that there's&nbsp;
+going to be some random fluctuations back and&nbsp;&nbsp;
+
+00:32:10.960 --> 00:32:16.080
+forth and eventually the your predictions&nbsp;
+will just get blurrier and blurrier which&nbsp;&nbsp;
+
+00:32:16.080 --> 00:32:20.960
+which just seems to be a fundamental&nbsp;
+feature of chaos which many systems have.&nbsp;&nbsp;
+
+00:32:20.960 --> 00:32:26.160
+So these six essentials um they don't describe all&nbsp;
+the mathematics but they do describe six of the&nbsp;&nbsp;
+
+00:32:26.160 --> 00:32:31.200
+great themes that mathematics tries to encapsulate&nbsp;
+and there's there's much more precise. This is&nbsp;&nbsp;
+
+00:32:31.200 --> 00:32:42.160
+just a taste of of what what goes on these days.
+Chapter 2 how math solves the problems of science.&nbsp;
+
+00:32:42.160 --> 00:32:47.520
+I view STEM as a whole ecosystem. At the bottom&nbsp;
+there's basic research um like mathematics and&nbsp;&nbsp;
+
+00:32:47.520 --> 00:32:53.440
+some other fundamental sciences where we pursue&nbsp;
+things mostly driven by curiosity. We see a&nbsp;&nbsp;
+
+00:32:53.440 --> 00:33:00.640
+phenomenon that is crying out for an explanation&nbsp;
+or further study. It may not be a phenomenon&nbsp;&nbsp;
+
+00:33:00.640 --> 00:33:05.920
+that we urgently need to solve right now for an&nbsp;
+immediate problem but it's something that looks&nbsp;&nbsp;
+
+00:33:05.920 --> 00:33:10.400
+like it should have an interesting answer.&nbsp;
+And so mathematics is is is almost entirely&nbsp;&nbsp;
+
+00:33:10.400 --> 00:33:14.880
+curiosity driven like that. There's some pattern&nbsp;
+in numbers. there's some pattern in shapes. People&nbsp;&nbsp;
+
+00:33:14.880 --> 00:33:20.880
+just observed while trying to do something else&nbsp;
+and we want to understand it better. At some point&nbsp;&nbsp;
+
+00:33:20.880 --> 00:33:25.520
+uh other scientists are able to connect that&nbsp;
+pattern to something that they're studying and&nbsp;&nbsp;
+
+00:33:25.520 --> 00:33:32.400
+and some mathematical numerical pattern might show&nbsp;
+up in the behavior of of of insects um in a swarm&nbsp;&nbsp;
+
+00:33:32.400 --> 00:33:39.200
+or in a stock market or whatever. Um and then&nbsp;
+um sometimes once you understand it you you can&nbsp;&nbsp;
+
+00:33:39.200 --> 00:33:43.040
+actually convert it into some useful technology&nbsp;
+or you can have a company that actually makes some&nbsp;&nbsp;
+
+00:33:43.040 --> 00:33:48.240
+money out of out of somehow some service related&nbsp;
+to to that uh exploiting that phenomenon. We often&nbsp;&nbsp;
+
+00:33:48.240 --> 00:33:52.560
+don't uh we don't see that. I mean that that's&nbsp;
+that that's much further down the pipeline. What&nbsp;&nbsp;
+
+00:33:52.560 --> 00:33:56.880
+you do need is that you do need the people doing&nbsp;
+the basic sciences to talk to the people doing&nbsp;&nbsp;
+
+00:33:56.880 --> 00:34:01.520
+applied sciences and they have to talk to people&nbsp;
+who are doing engineering and they have to talk&nbsp;&nbsp;
+
+00:34:01.520 --> 00:34:07.120
+to people in industry. If you didn't have one&nbsp;
+of these communities, then you wouldn't have&nbsp;&nbsp;
+
+00:34:07.120 --> 00:34:12.160
+this pipeline of getting from curiosity driven&nbsp;
+questions to actual, you know, commercial results,&nbsp;&nbsp;
+
+00:34:12.160 --> 00:34:16.400
+you know, you know, like um like the ability to&nbsp;
+communicate across the across the planet with&nbsp;&nbsp;
+
+00:34:16.400 --> 00:34:20.800
+almost zero cost. This is part of what Eugene&nbsp;
+Wigner calls the unreasonable effectiveness of&nbsp;&nbsp;
+
+00:34:20.800 --> 00:34:25.680
+mathematics in the physical sciences. He observed&nbsp;
+that mathematicians often discover concepts such&nbsp;&nbsp;
+
+00:34:25.680 --> 00:34:31.120
+as complex numbers or curved space or whatever&nbsp;
+just because it it seems to be a natural extension&nbsp;&nbsp;
+
+00:34:31.120 --> 00:34:37.680
+of um the mathematical objects they're already&nbsp;
+studying. Uh and then 10 20 50 years later some&nbsp;&nbsp;
+
+00:34:37.680 --> 00:34:42.640
+scientists discover that that these concepts&nbsp;
+that introduced for fun or for play were in&nbsp;&nbsp;
+
+00:34:42.640 --> 00:34:48.000
+fact exactly what was or almost exactly what was&nbsp;
+needed to understand some new new type of science.&nbsp;&nbsp;
+
+00:34:48.000 --> 00:34:52.800
+So that's a really amazing phenomenon and we still&nbsp;
+don't have a good explanation really for for why&nbsp;&nbsp;
+
+00:34:52.800 --> 00:34:58.800
+uh that actually works. So one historical&nbsp;
+example of how curiosity driven mathematics&nbsp;&nbsp;
+
+00:34:58.800 --> 00:35:05.360
+led to a really deep uh scientific advance uh&nbsp;
+was the story of the parallel postulate Euclid&nbsp;&nbsp;
+
+00:35:05.360 --> 00:35:12.400
+in like the 3rd century BC introduced the notion&nbsp;
+of proof of being able to explain complicated&nbsp;&nbsp;
+
+00:35:12.400 --> 00:35:17.200
+results in geometry in this case from simpler&nbsp;
+axioms. for example that the sum of angles of&nbsp;&nbsp;
+
+00:35:17.200 --> 00:35:23.120
+a triangle always added up to 180° He was able to&nbsp;
+explain that in terms of simpler axioms. He laid&nbsp;&nbsp;
+
+00:35:23.120 --> 00:35:29.120
+out five axioms of geometry that he thought he&nbsp;
+reduced all the other facts he knew about points&nbsp;&nbsp;
+
+00:35:29.120 --> 00:35:34.640
+and angles and lines to these five statements and&nbsp;
+four of them were very straightforward like if I&nbsp;&nbsp;
+
+00:35:34.640 --> 00:35:38.400
+give you two points there's always a line you can&nbsp;
+draw between them right things like that. These&nbsp;&nbsp;
+
+00:35:38.400 --> 00:35:44.160
+are very straightforward non-controversial axioms.&nbsp;
+But there was this one axiom which is called the&nbsp;&nbsp;
+
+00:35:44.160 --> 00:35:48.880
+parallel postulate which gave him a lot of grief&nbsp;
+and in fact his original version was very very&nbsp;&nbsp;
+
+00:35:48.880 --> 00:35:52.720
+complicated. Um it got simplified but even even&nbsp;
+the simplified version always was controversial.&nbsp;&nbsp;
+
+00:35:52.720 --> 00:35:56.640
+The simplified version is that if you have&nbsp;
+a line and you have a point and the point is&nbsp;&nbsp;
+
+00:35:56.640 --> 00:36:03.600
+not on the line then there's exactly one line you&nbsp;
+can draw through that point which is parallel to&nbsp;&nbsp;
+
+00:36:03.600 --> 00:36:08.720
+the first line. By parallel I mean that it never&nbsp;
+crosses this first line. So that was this axiom&nbsp;&nbsp;
+
+00:36:08.720 --> 00:36:12.880
+that you can always draw a parallel line through&nbsp;
+any other point and there's only one. You cannot&nbsp;&nbsp;
+
+00:36:12.880 --> 00:36:17.120
+draw two parallel lines. Once you have that you&nbsp;
+can do all kinds of things. You can derive what&nbsp;&nbsp;
+
+00:36:17.120 --> 00:36:22.320
+I just said the angles of a triangle at 180°&nbsp;
+and all the other classic results of Euclidean&nbsp;&nbsp;
+
+00:36:22.320 --> 00:36:26.880
+geometry. But it was a very ugly axiom compared&nbsp;
+to the other four which were which are really&nbsp;&nbsp;
+
+00:36:26.880 --> 00:36:31.280
+elegant. Eventually they realized that that what&nbsp;
+they had done was that they there actually were&nbsp;&nbsp;
+
+00:36:31.280 --> 00:36:35.280
+multiple geometries beyond Euclidean geometry.&nbsp;
+There's something called spherical geometry&nbsp;&nbsp;
+
+00:36:35.280 --> 00:36:40.560
+where there's no parallel lines at all. Um so in&nbsp;
+spherical geometry instead of lines you have great&nbsp;&nbsp;
+
+00:36:40.560 --> 00:36:45.840
+circles like the equator or a longitude and&nbsp;
+these great circles on the sphere they always&nbsp;&nbsp;
+
+00:36:45.840 --> 00:36:50.720
+intersect. You can never make two parallel great&nbsp;
+circles. So there are no parallel lines and then&nbsp;&nbsp;
+
+00:36:50.720 --> 00:36:55.200
+there's this weirder geometry which is harder to&nbsp;
+visualize called hyperbolic geometry where lines&nbsp;&nbsp;
+
+00:36:55.200 --> 00:36:59.120
+actually diverge from each other and have lines&nbsp;
+that start off looking parallel but they they&nbsp;&nbsp;
+
+00:36:59.120 --> 00:37:03.120
+move further and further apart and and in fact&nbsp;
+now there are actually multiple parallel lines&nbsp;&nbsp;
+
+00:37:03.120 --> 00:37:09.200
+you can draw from one point to a given line. And&nbsp;
+those two geometries are entirely self-consistent.&nbsp;&nbsp;
+
+00:37:09.200 --> 00:37:13.280
+And eventually it was just accepted that there&nbsp;
+was there were more geometries out there than&nbsp;&nbsp;
+
+00:37:13.280 --> 00:37:17.520
+just Euclidean geometry. So these were the first&nbsp;
+two non-Euclidean geometries to be discovered.&nbsp;&nbsp;
+
+00:37:17.520 --> 00:37:22.880
+Spherical geometry and hyperbolic geometry. But&nbsp;
+once we had sort of freed of our notion that&nbsp;&nbsp;
+
+00:37:22.880 --> 00:37:27.120
+there's only one geometry, this opened all the&nbsp;
+floodgates and people studied all kinds of other&nbsp;&nbsp;
+
+00:37:27.120 --> 00:37:32.000
+geometries. So all kinds of curved spaces, you&nbsp;
+know, spaces that were shaped like donuts or had&nbsp;&nbsp;
+
+00:37:32.000 --> 00:37:37.600
+twists in them. There are geometries where um you&nbsp;
+know if you're right-handed you can go off explore&nbsp;&nbsp;
+
+00:37:37.600 --> 00:37:42.080
+the universe and come back and if you start off&nbsp;
+right-handed you will come back left-handed. Um&nbsp;&nbsp;
+
+00:37:42.080 --> 00:37:47.600
+that there there are geometries where where you&nbsp;
+can change your orientation just by by by travel.&nbsp;&nbsp;
+
+00:37:47.600 --> 00:37:51.440
+So which is very unintuitive or you can&nbsp;
+come back smaller or larger than than than&nbsp;&nbsp;
+
+00:37:52.320 --> 00:37:56.080
+what you started with. People developed&nbsp;
+all these geometries and they developed&nbsp;&nbsp;
+
+00:37:56.080 --> 00:38:01.200
+um a very nice language for for describing all um&nbsp;
+all these geometries. uh it's called Riemannian&nbsp;&nbsp;
+
+00:38:01.200 --> 00:38:06.800
+geometry after Bernard Riemann and but it was a&nbsp;
+curiosity I mean there were these abstract curved&nbsp;&nbsp;
+
+00:38:06.800 --> 00:38:13.200
+spaces but you know the the universe we lived in&nbsp;
+seemed completely flat but then Einstein when he&nbsp;&nbsp;
+
+00:38:13.200 --> 00:38:17.920
+was trying to understand gravity he eventually&nbsp;
+came to conclusion that what gravity was doing&nbsp;&nbsp;
+
+00:38:17.920 --> 00:38:24.560
+was it was bending space and time in a certain&nbsp;
+way and he needed a language to to describe how&nbsp;&nbsp;
+
+00:38:24.560 --> 00:38:29.200
+space and time could bend in such a way that&nbsp;
+light rays would would become not straight and&nbsp;&nbsp;
+
+00:38:29.200 --> 00:38:34.160
+sometimes times you know they would hit each other&nbsp;
+or or diverge. He asked his mathematician friend&nbsp;&nbsp;
+
+00:38:34.160 --> 00:38:38.160
+if there was any existing mathematics that would&nbsp;
+describe this and he he said oh yeah there's this&nbsp;&nbsp;
+
+00:38:38.160 --> 00:38:42.400
+bright chap Bernard Riemann who developed this&nbsp;
+theory but it turned out to be almost exactly the&nbsp;&nbsp;
+
+00:38:42.400 --> 00:38:47.440
+right language to describe the Einstein equations&nbsp;
+there's a notion of curvature that some space can&nbsp;&nbsp;
+
+00:38:47.440 --> 00:38:52.080
+have positive curvature negative curvature in&nbsp;
+Riemannian geometry and the Einstein equations&nbsp;&nbsp;
+
+00:38:52.080 --> 00:38:58.160
+turned out extremely simple in to state in this&nbsp;
+language that basically mass and energy create&nbsp;&nbsp;
+
+00:38:58.160 --> 00:39:02.800
+curvature that the curvature of space and time&nbsp;
+is proportional to how how much mass and energy&nbsp;&nbsp;
+
+00:39:02.800 --> 00:39:06.560
+you have in your system. And that's basically&nbsp;
+the Einstein equations. Now, solving them is a&nbsp;&nbsp;
+
+00:39:06.560 --> 00:39:10.640
+different matter. They're extremely hard to&nbsp;
+model. Even the question of for how to model&nbsp;&nbsp;
+
+00:39:10.640 --> 00:39:16.240
+two colliding black holes, we can barely do it&nbsp;
+with modern supercomputers. But but stating the&nbsp;&nbsp;
+
+00:39:16.240 --> 00:39:22.560
+the the equations is actually extremely natural&nbsp;
+once we had this language. Another example of&nbsp;&nbsp;
+
+00:39:22.560 --> 00:39:27.680
+um of how mathematical curiosity led to like&nbsp;
+really practical developments centuries later&nbsp;&nbsp;
+
+00:39:27.680 --> 00:39:33.360
+is the story of sphere packing. There was uh some&nbsp;
+uh British sailor um who was just curious about&nbsp;&nbsp;
+
+00:39:33.360 --> 00:39:37.760
+the question of you know there's a certain&nbsp;
+number of cannonballs they had to stack in&nbsp;&nbsp;
+
+00:39:37.760 --> 00:39:42.240
+the hold of of their ship and these are these are&nbsp;
+round cannonballs they're not they're not square&nbsp;&nbsp;
+
+00:39:42.240 --> 00:39:46.880
+so when you when you stack them there's a certain&nbsp;
+amount of wasted space and he was curious what is&nbsp;&nbsp;
+
+00:39:46.880 --> 00:39:51.840
+the most efficient way to pack cannonballs so you&nbsp;
+can get the most cannonballs into a certain amount&nbsp;&nbsp;
+
+00:39:51.840 --> 00:39:58.080
+of space and so he asked a physician friend who&nbsp;
+happened to be Johannes Kepler eventually proposed&nbsp;&nbsp;
+
+00:39:58.080 --> 00:40:02.400
+that the most efficient packing should be the&nbsp;
+same packing that that you see in nowadays in&nbsp;&nbsp;
+
+00:40:02.400 --> 00:40:07.360
+supermarkets when you pack oranges. It's what's&nbsp;
+called a hexagonal close packing. You pack layer&nbsp;&nbsp;
+
+00:40:07.360 --> 00:40:11.680
+by layer. Each layer is sort of the triangular&nbsp;
+grid of cannonballs or oranges and then you&nbsp;&nbsp;
+
+00:40:11.680 --> 00:40:15.520
+stack another triangular grid on top of it just&nbsp;
+shifted by a little bit and then you stack it back&nbsp;&nbsp;
+
+00:40:15.520 --> 00:40:22.640
+and there's a a regular pattern which is the most&nbsp;
+natural pattern and it's about 76% efficient. And&nbsp;&nbsp;
+
+00:40:22.640 --> 00:40:29.040
+Kepler thought this was the um the best you could&nbsp;
+do that. there was no clever way to to to squeeze&nbsp;&nbsp;
+
+00:40:29.040 --> 00:40:34.240
+in any any any more space but he couldn't actually&nbsp;
+prove it. So this became known as the Kepler&nbsp;&nbsp;
+
+00:40:34.240 --> 00:40:40.880
+conjecture. Um and it was one of the most famous&nbsp;
+unsolved problems in geometry for for centuries in&nbsp;&nbsp;
+
+00:40:40.880 --> 00:40:46.240
+two dimensions. Uh I think it was solved by about&nbsp;
+1900 or something like you're packing discs in a&nbsp;&nbsp;
+
+00:40:46.240 --> 00:40:51.120
+plane. That's a simpler problem. That one there's&nbsp;
+a similar lattice of triangular lattice and and&nbsp;&nbsp;
+
+00:40:51.120 --> 00:40:55.040
+that was relatively easy to prove that this was&nbsp;
+the optimal one. three dimensions are just too&nbsp;&nbsp;
+
+00:40:55.040 --> 00:41:00.400
+many possibilities. There was no way there. Um,&nbsp;
+in fact, we still do not have a nice simple proof&nbsp;&nbsp;
+
+00:41:00.400 --> 00:41:05.760
+of the Kepler conjecture that that that humans&nbsp;
+can completely understand by themselves. The&nbsp;&nbsp;
+
+00:41:05.760 --> 00:41:11.440
+conjecture was eventually solved. It eventually&nbsp;
+got published I think in 1998, but it required&nbsp;&nbsp;
+
+00:41:11.440 --> 00:41:15.920
+uh computers. It was one of the first computer&nbsp;
+assisted proofs. There was a team of referees&nbsp;&nbsp;
+
+00:41:15.920 --> 00:41:21.360
+who I think uh said that they could not verify&nbsp;
+all of the computations but they at least believe&nbsp;&nbsp;
+
+00:41:21.360 --> 00:41:26.960
+that the the strategy is correct but there were&nbsp;
+still lingering doubts. It is only much more&nbsp;&nbsp;
+
+00:41:26.960 --> 00:41:33.440
+recently 2014 I think and finally um the proof was&nbsp;
+converted to what is called a a proof assistant&nbsp;&nbsp;
+
+00:41:33.440 --> 00:41:38.800
+language computer language that is specifically&nbsp;
+designed to check proofs with 100% certainty. So&nbsp;&nbsp;
+
+00:41:38.800 --> 00:41:44.240
+the Kepler conjecture is now formally verified. we&nbsp;
+are now 100% certain it is true but mathematicians&nbsp;&nbsp;
+
+00:41:44.240 --> 00:41:48.640
+were not content with just that the three&nbsp;
+dimensional problem so they also asked what&nbsp;&nbsp;
+
+00:41:48.640 --> 00:41:52.320
+happens if you're in four dimensions or five&nbsp;
+dimensions or six dimensions so here of course&nbsp;&nbsp;
+
+00:41:52.320 --> 00:41:57.760
+there is no practical you know I mean there are&nbsp;
+no four dimensional oranges or or cannonballs that&nbsp;&nbsp;
+
+00:41:57.760 --> 00:42:02.960
+you would like to like to pack but people still&nbsp;
+ask this question people also ask what happened&nbsp;&nbsp;
+
+00:42:02.960 --> 00:42:08.240
+if instead of a continuous space um you have a&nbsp;
+discrete space in particular computer scientists&nbsp;&nbsp;
+
+00:42:08.240 --> 00:42:12.720
+once computer computer science became developed&nbsp;
+We realized that in addition to the geometry of&nbsp;&nbsp;
+
+00:42:12.720 --> 00:42:18.080
+regular space where XYZ where coordinates are&nbsp;
+given by real numbers, we're interested in&nbsp;&nbsp;
+
+00:42:18.080 --> 00:42:24.800
+studying the geometry of of strings of bits. So&nbsp;
+this is now very um divorced sounding from the&nbsp;&nbsp;
+
+00:42:24.800 --> 00:42:29.200
+original sphere packing problem both because now&nbsp;
+you have many many dimensions like like thousands&nbsp;&nbsp;
+
+00:42:29.200 --> 00:42:34.400
+and thousands of dimensions and space is now&nbsp;
+discreet rather than continuous but still it&nbsp;&nbsp;
+
+00:42:34.400 --> 00:42:39.360
+is geometry and and many of the techniques&nbsp;
+to understand sphere packing still work.&nbsp;&nbsp;
+
+00:42:39.360 --> 00:42:45.360
+uh when you when you're in a setting. And then it&nbsp;
+turned out that this setting of this problem of of&nbsp;&nbsp;
+
+00:42:45.360 --> 00:42:52.160
+packing spheres as efficiently as possible into um&nbsp;
+on this big huge cube of of bit strings it turns&nbsp;&nbsp;
+
+00:42:52.160 --> 00:42:56.640
+out to be extremely practical. When cell phones&nbsp;
+became digital, they um every signal that you&nbsp;&nbsp;
+
+00:42:56.640 --> 00:43:01.520
+that you send, you know, like an image or a text&nbsp;
+or whatever is encoded as some bitstring which is&nbsp;&nbsp;
+
+00:43:01.520 --> 00:43:07.840
+then sent over um over um some wireless network.&nbsp;
+But there are other people also sending you the&nbsp;&nbsp;
+
+00:43:07.840 --> 00:43:12.560
+signals and you don't want your signal to be&nbsp;
+corrupted by interference and be mistaken for for&nbsp;&nbsp;
+
+00:43:12.560 --> 00:43:17.760
+someone else's signal. So you want to keep each&nbsp;
+different signal that that comes out. You want to&nbsp;&nbsp;
+
+00:43:17.760 --> 00:43:22.960
+keep them as as separated from each other in this&nbsp;
+space of of bitstrings as possible. And it turns&nbsp;&nbsp;
+
+00:43:22.960 --> 00:43:26.960
+out mathematically this problem of separating all&nbsp;
+these signals so that there's no way that one can&nbsp;&nbsp;
+
+00:43:26.960 --> 00:43:31.680
+be confused for another is almost exactly the&nbsp;
+sphere packing problem except that it's in high&nbsp;&nbsp;
+
+00:43:31.680 --> 00:43:35.920
+dimensions and it's discreet. All the mathematics,&nbsp;
+well, not all of it, but a lot of the mathematics&nbsp;&nbsp;
+
+00:43:35.920 --> 00:43:40.560
+that was used to understand sphere packings&nbsp;
+could be used to design uh really efficient&nbsp;&nbsp;
+
+00:43:40.560 --> 00:43:46.320
+sphere packing codes and not just to design codes,&nbsp;
+but also to to to tell engineers what was the what&nbsp;&nbsp;
+
+00:43:46.320 --> 00:43:52.160
+is the theoretical limit of communication like&nbsp;
+what what is the maximum number of of bits per&nbsp;&nbsp;
+
+00:43:52.160 --> 00:43:59.520
+second you could possibly hope to um to send in&nbsp;
+a certain wireless spectrum. So that gave really&nbsp;&nbsp;
+
+00:43:59.520 --> 00:44:04.800
+good um benchmarks to measure how efficient&nbsp;
+your your protocol was. They you could price&nbsp;&nbsp;
+
+00:44:04.800 --> 00:44:09.200
+how many billions of dollars you should pay for&nbsp;
+a certain spectrum wireless spectrum because now&nbsp;&nbsp;
+
+00:44:09.200 --> 00:44:13.840
+you know exactly how much uh data you can push&nbsp;
+through that. And so like the entire wireless&nbsp;&nbsp;
+
+00:44:13.840 --> 00:44:20.400
+telecommunication industry um is is based on&nbsp;
+being able to to to pack oranges in really high&nbsp;&nbsp;
+
+00:44:20.400 --> 00:44:26.080
+dimensions. One of the applications of mathematics&nbsp;
+that I was involved in that I'm most proud of is&nbsp;&nbsp;
+
+00:44:26.080 --> 00:44:31.440
+the story of compressed sensing. So I was once at&nbsp;
+an interdisciplinary program at a math institute&nbsp;&nbsp;
+
+00:44:31.440 --> 00:44:36.880
+here in Los Angeles um and I met with a friend of&nbsp;
+mine who is a statistician and he was working with&nbsp;&nbsp;
+
+00:44:36.880 --> 00:44:44.240
+an electrical engineer and trying to improve um&nbsp;
+imaging medical imaging um and specifically MRI&nbsp;&nbsp;
+
+00:44:44.240 --> 00:44:50.400
+scans at the time uh MRI scans were were quite&nbsp;
+slow. uh you had to sit in this scanning machine&nbsp;&nbsp;
+
+00:44:50.400 --> 00:44:56.320
+for like 3 minutes so that you could collect&nbsp;
+enough data from all different angles that the the&nbsp;&nbsp;
+
+00:44:56.320 --> 00:45:01.520
+scan could reconstruct a good image of your body&nbsp;
+and be able to pick up tumors or cysts or anything&nbsp;&nbsp;
+
+00:45:01.520 --> 00:45:09.840
+else which is sort of medically important uh to&nbsp;
+uh to um to resolve. But if you only sat in the&nbsp;&nbsp;
+
+00:45:09.840 --> 00:45:14.560
+machine for a short period of time like say half&nbsp;
+a minute you will not get enough data. Um so if&nbsp;&nbsp;
+
+00:45:14.560 --> 00:45:19.920
+you tried the standard reconstruction algorithm&nbsp;
+from all the data to recover the image uh using&nbsp;&nbsp;
+
+00:45:19.920 --> 00:45:23.920
+what's called least squares approximation which&nbsp;
+is the standard technique at the time you would&nbsp;&nbsp;
+
+00:45:23.920 --> 00:45:29.520
+get an image that was so blurry and so res so so&nbsp;
+low resolution that you could not tell anything&nbsp;&nbsp;
+
+00:45:29.520 --> 00:45:33.920
+useful for diagnosis purposes. So we had to sit&nbsp;
+in these machines for for minutes and minutes&nbsp;&nbsp;
+
+00:45:33.920 --> 00:45:37.680
+and if you were a kid sometimes they you had to&nbsp;
+be sedated because the kid would wriggle around&nbsp;&nbsp;
+
+00:45:37.680 --> 00:45:42.400
+and not follow instructions after like the second&nbsp;
+minute. So they were trying a new technique not&nbsp;&nbsp;
+
+00:45:42.400 --> 00:45:47.200
+least squares uh something called total variation&nbsp;
+minimization. They had a hunch that that this&nbsp;&nbsp;
+
+00:45:47.200 --> 00:45:51.680
+other method might perform a little bit better&nbsp;
+but so they they tried it on some test data. They&nbsp;&nbsp;
+
+00:45:51.680 --> 00:45:56.640
+were expecting a slightly sharper image than the&nbsp;
+least squares approximation but they got perfect&nbsp;&nbsp;
+
+00:45:56.640 --> 00:46:01.200
+resolution that they got back almost exactly the&nbsp;
+correct image even though they only took a few&nbsp;&nbsp;
+
+00:46:01.200 --> 00:46:06.160
+measurements. It would be like giving someone a&nbsp;
+crossword puzzle where you had only filled in,&nbsp;&nbsp;
+
+00:46:06.160 --> 00:46:09.600
+you know, 10% of of of of the letters and&nbsp;
+suddenly they could fill in all the other&nbsp;&nbsp;
+
+00:46:09.600 --> 00:46:14.720
+letters without having to look up the clues. They&nbsp;
+couldn't explain this and and they showed this to&nbsp;&nbsp;
+
+00:46:14.720 --> 00:46:19.440
+me and my first instinct was you made a mistake.&nbsp;
+You could not possibly have done what you said&nbsp;&nbsp;
+
+00:46:19.440 --> 00:46:24.240
+you did. And in fact, I'm going to prove to you&nbsp;
+that that there was not enough information in&nbsp;&nbsp;
+
+00:46:24.240 --> 00:46:30.880
+the data that you you took to make to make this&nbsp;
+uh measurement possible. So I I I went home that&nbsp;&nbsp;
+
+00:46:30.880 --> 00:46:37.520
+night. I tried to write down a proof that that&nbsp;
+there was no way to just correctly guess the the&nbsp;&nbsp;
+
+00:46:37.520 --> 00:46:42.160
+right image from the small amount of data that&nbsp;
+they were measuring. And while writing it down,&nbsp;&nbsp;
+
+00:46:42.160 --> 00:46:48.480
+I found one of my steps does not work. And in&nbsp;
+fact, in fact, it showed the opposite that if a&nbsp;&nbsp;
+
+00:46:48.480 --> 00:46:54.480
+certain measurement matrix had a certain property,&nbsp;
+then actually what they were doing was actually&nbsp;&nbsp;
+
+00:46:54.480 --> 00:47:00.560
+going to work. And then I checked that what that&nbsp;
+their measurement matrix actually did seem to obey&nbsp;&nbsp;
+
+00:47:00.560 --> 00:47:06.080
+this property. So I actually understood uh how um&nbsp;
+how the method worked and so I went back to them&nbsp;&nbsp;
+
+00:47:06.080 --> 00:47:11.200
+the next day and explained this and they got very&nbsp;
+excited and we wrote a couple papers and that got&nbsp;&nbsp;
+
+00:47:11.200 --> 00:47:17.280
+everyone else excited. This method that they had&nbsp;
+stumbled upon was not completely new. There were&nbsp;&nbsp;
+
+00:47:17.280 --> 00:47:22.000
+seismologists who had discovered a similar method.&nbsp;
+So they had a se a different problem where they&nbsp;&nbsp;
+
+00:47:22.000 --> 00:47:27.840
+were trying to understand the fault lines to&nbsp;
+locate the fault lines of a crust based on on&nbsp;&nbsp;
+
+00:47:27.840 --> 00:47:33.360
+a small amount of of seismic data. And astronomers&nbsp;
+had a similar problem that they were trying to to&nbsp;&nbsp;
+
+00:47:33.360 --> 00:47:38.320
+measure the location of stars or something using&nbsp;
+a very small amount of of observed data. And there&nbsp;&nbsp;
+
+00:47:38.320 --> 00:47:43.600
+are a couple other disciplines where a similar&nbsp;
+problem of trying to extract a high quality&nbsp;&nbsp;
+
+00:47:43.600 --> 00:47:49.840
+image from a very small amount of signal had had&nbsp;
+occurred. each case they had found some ad hoc fix&nbsp;&nbsp;
+
+00:47:49.840 --> 00:47:55.280
+that could kind of squeeze more data out of um a&nbsp;
+more uh better resolution out of the data they had&nbsp;&nbsp;
+
+00:47:55.280 --> 00:47:58.400
+but they could not explain mathematically&nbsp;
+why it worked. The seismologist thought,&nbsp;&nbsp;
+
+00:47:58.400 --> 00:48:02.320
+"Oh, here's a trick, but it only works for&nbsp;
+seismographs." And the astronomers had a trick,&nbsp;&nbsp;
+
+00:48:02.320 --> 00:48:07.040
+but it only worked for astronomy. But once we&nbsp;
+found the mathematical explanation, we found&nbsp;&nbsp;
+
+00:48:07.040 --> 00:48:12.160
+that this was a general technique that we we now&nbsp;
+call compressed sensing. And it's useful for MRI,&nbsp;&nbsp;
+
+00:48:12.160 --> 00:48:17.600
+but it's also useful for wireless broadband. It's&nbsp;
+useful for for certain types of sensor networks.&nbsp;&nbsp;
+
+00:48:17.600 --> 00:48:22.080
+Once we figured out the underlying mathematics,&nbsp;
+we could see all the other applications that&nbsp;&nbsp;
+
+00:48:22.080 --> 00:48:26.560
+it's useful for. And so now compressed sensing is&nbsp;
+taught in textbooks right next to least squares.&nbsp;&nbsp;
+
+00:48:26.560 --> 00:48:29.760
+So sometimes at least squares it's the right&nbsp;
+thing to do and sometimes compressed sensing&nbsp;&nbsp;
+
+00:48:29.760 --> 00:48:33.920
+is the right thing to do. Sometimes neither.&nbsp;
+It's now a a very very well developed theory.&nbsp;&nbsp;
+
+00:48:33.920 --> 00:48:39.520
+I was quite pleased to be involved at the very&nbsp;
+beginning of that. It's a fascinating interplay&nbsp;&nbsp;
+
+00:48:39.520 --> 00:48:45.760
+between mathematics and science. So we have this&nbsp;
+unreasonable effectiveness of of mathematics where&nbsp;&nbsp;
+
+00:48:45.760 --> 00:48:50.880
+mathematical discoveries are often end up being&nbsp;
+the the best way to explain physical phenomena.&nbsp;&nbsp;
+
+00:48:50.880 --> 00:48:58.720
+Philosophers and historians have have debated&nbsp;
+why this is the case. Um, one of my theories is&nbsp;&nbsp;
+
+00:48:58.720 --> 00:49:04.080
+that whenever we learn anything uh whether it's&nbsp;
+math or science or any other subject, the first&nbsp;&nbsp;
+
+00:49:04.080 --> 00:49:11.440
+theories or explanations that we um we make are&nbsp;
+often um not the best. We don't understand what&nbsp;&nbsp;
+
+00:49:11.440 --> 00:49:16.480
+is the cleanest way to to to express something.&nbsp;
+And before you understand something completely,&nbsp;&nbsp;
+
+00:49:16.480 --> 00:49:21.920
+you might have an overly elaborate explanation for&nbsp;
+why something is true. But often the the the true&nbsp;&nbsp;
+
+00:49:21.920 --> 00:49:28.960
+explanation is is is more elegant and shorter and&nbsp;
+simpler than our initial attempts to describe the&nbsp;&nbsp;
+
+00:49:28.960 --> 00:49:34.640
+um the phenomenon. But finding the the short&nbsp;
+explanation takes time because you have to sort of&nbsp;&nbsp;
+
+00:49:34.640 --> 00:49:40.240
+unlearn certain um assumptions that you might have&nbsp;
+that turn out to be to be incorrect. For example,&nbsp;&nbsp;
+
+00:49:40.240 --> 00:49:45.040
+with with Einstein's theory of relativity,&nbsp;
+one of the key assumptions that people had&nbsp;&nbsp;
+
+00:49:45.040 --> 00:49:50.160
+before Einstein was was that was that time was&nbsp;
+universal. everyone had the same notion of time.&nbsp;&nbsp;
+
+00:49:50.160 --> 00:49:55.840
+You know that that an hour for me is the same as&nbsp;
+an hour for you. That mindset uh really blocks you&nbsp;&nbsp;
+
+00:49:55.840 --> 00:50:01.120
+from from from finding the right way to explain&nbsp;
+gravity in particular. But once you accept that&nbsp;&nbsp;
+
+00:50:01.120 --> 00:50:05.600
+everyone has their own relative notion of time um&nbsp;
+then you can find the right language to explain&nbsp;&nbsp;
+
+00:50:05.600 --> 00:50:13.040
+things properly. Mathematicians also try to take&nbsp;
+phenomena that they first understand using very&nbsp;&nbsp;
+
+00:50:13.040 --> 00:50:18.720
+inefficient language and try to condense it.&nbsp;
+try to find the the the most concise elegant&nbsp;&nbsp;
+
+00:50:18.720 --> 00:50:23.920
+explanation of a mathematical phenomenon. And I&nbsp;
+think just because there's only so many ways you&nbsp;&nbsp;
+
+00:50:23.920 --> 00:50:29.920
+can you can say things concisely. It just happens&nbsp;
+that um that uh that often the concise way to&nbsp;&nbsp;
+
+00:50:29.920 --> 00:50:34.480
+describe some mathematical phenomenon is also a&nbsp;
+concise way to describe a physical phenomenon.&nbsp;&nbsp;
+
+00:50:34.480 --> 00:50:38.880
+So that is that is my theory. Unfortunately, we&nbsp;
+only have one timeline of science. If you only&nbsp;&nbsp;
+
+00:50:38.880 --> 00:50:44.080
+have one history of scientific development and&nbsp;
+we have maybe a 100 turning points in science&nbsp;&nbsp;
+
+00:50:44.080 --> 00:50:48.320
+and that's a little bit of data and you can make&nbsp;
+some theories. I would love in the future in the&nbsp;&nbsp;
+
+00:50:48.320 --> 00:50:53.120
+far future maybe we will meet other civilizations&nbsp;
+and we will see their history of science and we&nbsp;&nbsp;
+
+00:50:53.120 --> 00:50:58.720
+will see whether they also had ke their version&nbsp;
+of Kepler and Einstein and Newton and whether it&nbsp;&nbsp;
+
+00:50:58.720 --> 00:51:06.400
+um what they they followed a similar track or&nbsp;
+a completely different track I don't know the&nbsp;&nbsp;
+
+00:51:06.400 --> 00:51:12.800
+funny thing about doing mathematics is that so you&nbsp;
+know there's this stereotype that you know we're&nbsp;&nbsp;
+
+00:51:12.800 --> 00:51:18.080
+all geniuses and you know we're stuck at a problem&nbsp;
+and then you get this eureka insight, a light bulb&nbsp;&nbsp;
+
+00:51:18.080 --> 00:51:23.680
+goes on and um and like you get this genius idea&nbsp;
+out of nowhere. I would love for that to happen to&nbsp;&nbsp;
+
+00:51:23.680 --> 00:51:30.560
+me actually. This this does not happen um so often&nbsp;
+to me. What what does happen when I do work on a&nbsp;&nbsp;
+
+00:51:30.560 --> 00:51:34.880
+problem is that I try something and it doesn't&nbsp;
+work. Okay, I try something else and it kind of&nbsp;&nbsp;
+
+00:51:34.880 --> 00:51:39.840
+works but it gets stuck at a certain point. Um but&nbsp;
+now at least I know kind of there's at least one&nbsp;&nbsp;
+
+00:51:39.840 --> 00:51:46.240
+obstacle and I need to find some tool that is will&nbsp;
+will help me deal with that obstacle. And so maybe&nbsp;&nbsp;
+
+00:51:46.240 --> 00:51:51.040
+um I will now identify a sub problem which has&nbsp;
+the same type of difficulty but is simpler and I&nbsp;&nbsp;
+
+00:51:51.040 --> 00:51:55.680
+try to solve that one first. Uh and if I can do&nbsp;
+that one then I can try to scale up back to the&nbsp;&nbsp;
+
+00:51:55.680 --> 00:51:59.440
+original problem and I go back and forth. Often&nbsp;
+a lot of what you're doing is that you are you&nbsp;&nbsp;
+
+00:51:59.440 --> 00:52:04.320
+are exploring the negative space of the problem&nbsp;
+like all the the techniques that don't work and&nbsp;&nbsp;
+
+00:52:04.320 --> 00:52:09.040
+um eventually if you have enough of the negative&nbsp;
+space the the path forward becomes clear almost&nbsp;&nbsp;
+
+00:52:09.040 --> 00:52:13.120
+by elimination that there's only sort of one&nbsp;
+thing to do that could work. Um, some sometimes&nbsp;&nbsp;
+
+00:52:13.120 --> 00:52:18.080
+there's nothing that can work and then you give&nbsp;
+up on the problem. But there's this repeated what&nbsp;&nbsp;
+
+00:52:18.080 --> 00:52:22.160
+you might call failure, but it really is kind of&nbsp;
+just just really understanding the limitations&nbsp;&nbsp;
+
+00:52:22.160 --> 00:52:30.640
+of what different approaches can do. And then&nbsp;
+after weeks or months, you know, of of this,&nbsp;&nbsp;
+
+00:52:30.640 --> 00:52:36.000
+the answer becomes clear. But by that point,&nbsp;
+it's so internalized what the difficulties&nbsp;&nbsp;
+
+00:52:36.000 --> 00:52:40.640
+are that it doesn't feel amazing to you anymore.&nbsp;
+It feels natural. Like, of course, you had to do&nbsp;&nbsp;
+
+00:52:40.640 --> 00:52:45.920
+this because there's this difficulty. you must go&nbsp;
+around this this pothole. You must do this step&nbsp;&nbsp;
+
+00:52:45.920 --> 00:52:50.720
+first because you know in five lines you're going&nbsp;
+to need this hypothesis to to solve this problem.&nbsp;&nbsp;
+
+00:52:50.720 --> 00:52:56.720
+You you just become so um attuned to the&nbsp;
+problem that everything becomes natural.&nbsp;&nbsp;
+
+00:52:56.720 --> 00:53:02.400
+Um yeah or sometimes you never solve the problem&nbsp;
+because you never attune and and you and you give&nbsp;&nbsp;
+
+00:53:02.400 --> 00:53:07.200
+up. The the feeling I get is never so much eureka&nbsp;
+but it's always oh how come I missed this early?&nbsp;&nbsp;
+
+00:53:07.200 --> 00:53:13.920
+I was so stupid. Um but often it it's it's the&nbsp;
+constant experimentation and and and failure that&nbsp;&nbsp;
+
+00:53:13.920 --> 00:53:19.680
+really primes you to find uh to accept the right&nbsp;
+solution. There's this dramatic contrast between&nbsp;&nbsp;
+
+00:53:19.680 --> 00:53:25.360
+the standards we assign to outcomes and the&nbsp;
+standards we assign to process. So for outcomes,&nbsp;&nbsp;
+
+00:53:25.360 --> 00:53:29.840
+mathematics very famously has a very high&nbsp;
+standard of correctness. You know, for a&nbsp;&nbsp;
+
+00:53:29.840 --> 00:53:35.760
+given problem, there's a correct answer and lots&nbsp;
+of incorrect answers. And and when we grade our&nbsp;&nbsp;
+
+00:53:35.760 --> 00:53:39.280
+um students homework in mathematics, you&nbsp;
+know, if you didn't if you get your sign&nbsp;&nbsp;
+
+00:53:39.280 --> 00:53:43.360
+wrong or whatever and you got the wrong answer,&nbsp;
+you got all these all these negative marks,&nbsp;&nbsp;
+
+00:53:43.360 --> 00:53:48.480
+you get criticized if you make math mistakes in&nbsp;
+your final answer. One consequence of that is that&nbsp;&nbsp;
+
+00:53:48.480 --> 00:53:54.000
+many students who go through, you know, say a high&nbsp;
+school level of mathematics become very averse to&nbsp;&nbsp;
+
+00:53:54.000 --> 00:54:00.080
+making any mistakes whatsoever in um when they&nbsp;
+try to approach a math problem. Paradoxically,&nbsp;&nbsp;
+
+00:54:00.080 --> 00:54:05.600
+um the process of arriving at the answer is is&nbsp;
+almost the complete opposite where you almost&nbsp;&nbsp;
+
+00:54:05.600 --> 00:54:12.800
+have to make mistakes over and over again and you&nbsp;
+have to try the stupid things first to appreciate&nbsp;&nbsp;
+
+00:54:12.800 --> 00:54:18.160
+why the clever things work. There's a quote by&nbsp;
+Niels Bohr who's a physicist who said that an&nbsp;&nbsp;
+
+00:54:18.160 --> 00:54:22.960
+expert is someone who has made all the mistakes&nbsp;
+that can be made in a very narrow field. You&nbsp;&nbsp;
+
+00:54:22.960 --> 00:54:27.840
+don't publish these mistakes. you execute these&nbsp;
+mistakes in your process in order to locate the&nbsp;&nbsp;
+
+00:54:27.840 --> 00:54:33.760
+correct answer but only after exploring a lot of&nbsp;
+incorrect answers first. It's it's very important&nbsp;&nbsp;
+
+00:54:33.760 --> 00:54:40.560
+I think to to normalize uh failure in the process&nbsp;
+to disclose that behind every successful solution&nbsp;&nbsp;
+
+00:54:40.560 --> 00:54:45.280
+to a problem there are dozens of of of incorrect&nbsp;
+attempts and it's not because the people trying&nbsp;&nbsp;
+
+00:54:45.280 --> 00:54:54.960
+these problems were were stupid but this is&nbsp;
+often just part of of the learning process.&nbsp;
+
+00:54:54.960 --> 00:55:00.640
+Chapter 3. How AI is changing&nbsp;
+math and science forever.&nbsp;
+
+00:55:00.640 --> 00:55:07.600
+Science and mathematics has uh changed a lot over&nbsp;
+the centuries. Traditionally in science uh the two&nbsp;&nbsp;
+
+00:55:07.600 --> 00:55:11.840
+major paradigms were theory and experiment.&nbsp;
+um like you would you would create a theory&nbsp;&nbsp;
+
+00:55:11.840 --> 00:55:15.920
+like you know Kepler might create a theory of how&nbsp;
+planets move or or Newton might create a theory of&nbsp;&nbsp;
+
+00:55:15.920 --> 00:55:20.880
+gravity and then there's this experimental um&nbsp;
+data that you would run an experiment and and&nbsp;&nbsp;
+
+00:55:20.880 --> 00:55:24.880
+see what happens and then you try to see if the&nbsp;
+theory and the experiment fit. Math was a little&nbsp;&nbsp;
+
+00:55:24.880 --> 00:55:29.440
+different in that it was almost entirely theory.&nbsp;
+Um there's there are very very few experiments&nbsp;&nbsp;
+
+00:55:29.440 --> 00:55:34.400
+that you would do purely in mathematics. There&nbsp;
+were a few for example Gauss famously computed&nbsp;&nbsp;
+
+00:55:34.400 --> 00:55:38.400
+the first 100,000 prime numbers and that was&nbsp;
+a data set that he used to make predictions.&nbsp;&nbsp;
+
+00:55:38.400 --> 00:55:43.280
+he predicted what we now call the prime number&nbsp;
+theorem. But science and experiment were the two&nbsp;&nbsp;
+
+00:55:43.280 --> 00:55:49.440
+major forms of science. Then later on simulation&nbsp;
+came along um that you didn't have to run a a&nbsp;&nbsp;
+
+00:55:49.440 --> 00:55:55.440
+big expensive experiment. Sometimes you could&nbsp;
+just simulate uh let's say um a hurricane in&nbsp;&nbsp;
+
+00:55:55.440 --> 00:56:02.800
+in a supercomputer instead of in real life. And&nbsp;
+then later on big data came along that um rather&nbsp;&nbsp;
+
+00:56:02.800 --> 00:56:09.200
+than than just do a small number of experiments&nbsp;
+to try to confirm or deny um a specific theory,&nbsp;&nbsp;
+
+00:56:09.200 --> 00:56:17.040
+you could take megabytes or petabytes of data and&nbsp;
+try to discern patterns, try to extract out laws&nbsp;&nbsp;
+
+00:56:17.040 --> 00:56:23.680
+from just massive data sets. Um and that's a more&nbsp;
+emerging type of science. But now all these modes&nbsp;&nbsp;
+
+00:56:23.680 --> 00:56:29.920
+of science are being transformed because we now&nbsp;
+also have AI to to to help us. So so in the past&nbsp;&nbsp;
+
+00:56:29.920 --> 00:56:33.920
+every one of these ways of doing science had&nbsp;
+to be done by human scientists. You know you&nbsp;&nbsp;
+
+00:56:33.920 --> 00:56:38.480
+had to have someone to perform the experiments or&nbsp;
+someone to do the theoretical calculations or run&nbsp;&nbsp;
+
+00:56:38.480 --> 00:56:43.600
+the simulations um or go through the data and you&nbsp;
+could use computers for some of that but you have&nbsp;&nbsp;
+
+00:56:43.600 --> 00:56:48.160
+to but even then you have to program the um the&nbsp;
+data analysis tool or whatever and you still need&nbsp;&nbsp;
+
+00:56:48.160 --> 00:56:52.480
+a lot of expertise. You know, we have automated&nbsp;
+labs that can that can perform experiments&nbsp;&nbsp;
+
+00:56:52.480 --> 00:56:58.160
+automatically. Um, you can you can get a coding&nbsp;
+agent to run a simulation for you and you can try&nbsp;&nbsp;
+
+00:56:58.160 --> 00:57:03.440
+to to also run automated data analysis. Um, and&nbsp;
+increasingly you can also do automated theory. You&nbsp;&nbsp;
+
+00:57:03.440 --> 00:57:08.080
+can take some mathematical problem and ask what&nbsp;
+are the consequences of these hypotheses and these&nbsp;&nbsp;
+
+00:57:08.080 --> 00:57:14.720
+axioms. What what conclusion should you get? These&nbsp;
+tools can now be done at scale um much faster.&nbsp;&nbsp;
+
+00:57:14.720 --> 00:57:21.280
+He could potentially run many more theoretical&nbsp;
+analyses than than any one human scientist could.&nbsp;&nbsp;
+
+00:57:21.280 --> 00:57:25.760
+On the other hand, this is not the only thing that&nbsp;
+we want. There's value in doing things a slow way,&nbsp;&nbsp;
+
+00:57:25.760 --> 00:57:30.560
+you know. So, a scientist who spending hours&nbsp;
+and hours working things out on pen and paper&nbsp;&nbsp;
+
+00:57:30.560 --> 00:57:34.720
+uh doing the experiments in the field with&nbsp;
+with their bare hands and actually debugging&nbsp;&nbsp;
+
+00:57:34.720 --> 00:57:39.920
+the simulations that show up, they often learn&nbsp;
+a lot of of extra insight beyond just getting&nbsp;&nbsp;
+
+00:57:39.920 --> 00:57:44.640
+the answer that they're trying to seek. They can&nbsp;
+find they can discover new phenomena. They can&nbsp;&nbsp;
+
+00:57:44.640 --> 00:57:49.760
+see connections. They can see similarities to some&nbsp;
+some previous thing that's been studied elsewhere&nbsp;&nbsp;
+
+00:57:49.760 --> 00:57:53.840
+in the literature and they can communicate&nbsp;
+what what they uh what they are finding to&nbsp;&nbsp;
+
+00:57:53.840 --> 00:57:58.560
+other people. So there is this paradox that on&nbsp;
+the one hand AI are becoming more powerful and&nbsp;&nbsp;
+
+00:57:58.560 --> 00:58:06.480
+more capable um and and making fewer mistakes and&nbsp;
+they are ostensibly achieving a lot of the goals&nbsp;&nbsp;
+
+00:58:06.480 --> 00:58:11.280
+that we want we think scientists are trying to to&nbsp;
+do. They're they're running experiments. They're&nbsp;&nbsp;
+
+00:58:11.280 --> 00:58:16.960
+analyzing data. They're writing papers. But it&nbsp;
+may be that it comes at the cost of the AI becomes&nbsp;&nbsp;
+
+00:58:16.960 --> 00:58:22.800
+picks up some skill, but but no human scientist&nbsp;
+gets any better at doing the science. No human can&nbsp;&nbsp;
+
+00:58:22.800 --> 00:58:27.120
+communicate exactly what just happened and and and&nbsp;
+why this this scientific discovery is interesting,&nbsp;&nbsp;
+
+00:58:27.120 --> 00:58:33.920
+why this proof is new and and and what features&nbsp;
+it has and how it connects. We may have to sort of&nbsp;&nbsp;
+
+00:58:33.920 --> 00:58:40.320
+redesign our um conception of what science is and&nbsp;
+what we actually want out of science. What exactly&nbsp;&nbsp;
+
+00:58:40.320 --> 00:58:45.360
+is science for? And and what are we trying to do?&nbsp;
+And is there a danger that we are optimizing the&nbsp;&nbsp;
+
+00:58:45.360 --> 00:58:51.040
+wrong thing when we are pointing our AI tools at&nbsp;
+science? One analogy I've given in the past is&nbsp;&nbsp;
+
+00:58:51.040 --> 00:58:55.280
+that science is a little bit like going on a hike.&nbsp;
+You've heard there's some interesting waterfall,&nbsp;&nbsp;
+
+00:58:55.280 --> 00:59:00.640
+some beautiful waterfall out there. So you decide&nbsp;
+to to to to go hike with some friends to to&nbsp;&nbsp;
+
+00:59:00.640 --> 00:59:06.000
+uh to find it, but you need to make a map. you got&nbsp;
+lost. You get lost a little bit, but maybe while&nbsp;&nbsp;
+
+00:59:06.000 --> 00:59:09.680
+getting lost, you discover something else which&nbsp;
+is interesting and you make a note of it. Um,&nbsp;&nbsp;
+
+00:59:09.680 --> 00:59:14.960
+on the way to to this waterfall, you find an even&nbsp;
+more spectacular waterfall in the distance. You&nbsp;&nbsp;
+
+00:59:14.960 --> 00:59:19.600
+can't get there yet, but maybe some future hiker&nbsp;
+will figure out a way to get there, too. And so,&nbsp;&nbsp;
+
+00:59:19.600 --> 00:59:24.560
+there's there's a whole process to get to&nbsp;
+your goal, which um is also very valuable.&nbsp;&nbsp;
+
+00:59:24.560 --> 00:59:28.160
+But these tools, these AI tools, they can be&nbsp;
+like helicopters that will just fly you directly&nbsp;&nbsp;
+
+00:59:28.160 --> 00:59:33.040
+to this waterfall and you can see it and then&nbsp;
+you fly back, but you learn nothing about how&nbsp;&nbsp;
+
+00:59:33.040 --> 00:59:38.560
+to get there. You you you may not see any other&nbsp;
+interesting phenomena than the specific thing that&nbsp;&nbsp;
+
+00:59:38.560 --> 00:59:43.120
+you asked for. And so even though technically&nbsp;
+you achieve your goal much more efficiently,&nbsp;&nbsp;
+
+00:59:43.120 --> 00:59:49.120
+there may be something that that is lost. Modern&nbsp;
+AIs are powered by a a type of algorithm known&nbsp;&nbsp;
+
+00:59:49.120 --> 00:59:54.160
+as machine learning, which is trying to predict&nbsp;
+patterns in data. So a very simple example of&nbsp;&nbsp;
+
+00:59:54.160 --> 00:59:58.800
+machine learning is regression. So if you have&nbsp;
+some inputs and you some outputs like let's say&nbsp;&nbsp;
+
+00:59:58.800 --> 01:00:04.720
+you observe that if you feed um some animal more&nbsp;
+food they get they get bigger right? So you can&nbsp;&nbsp;
+
+01:00:04.720 --> 01:00:08.640
+plot how much food you give various animals&nbsp;
+and and you plot their weight or something&nbsp;&nbsp;
+
+01:00:08.640 --> 01:00:14.000
+and you get some dots on on a graph and if you're&nbsp;
+lucky they will they will fit some line and then&nbsp;&nbsp;
+
+01:00:14.000 --> 01:00:20.560
+um and that line becomes your prediction. So then&nbsp;
+if you give this dogs this sort this much food you&nbsp;&nbsp;
+
+01:00:20.560 --> 01:00:25.600
+they would gain this much weight. Now in the real&nbsp;
+world um you don't always get these nice linear&nbsp;&nbsp;
+
+01:00:25.600 --> 01:00:30.400
+relationships. Often there are many many inputs&nbsp;
+and there's many many outputs and the relationship&nbsp;&nbsp;
+
+01:00:30.400 --> 01:00:36.000
+can be can be really complicated. But sometimes&nbsp;
+the data has a shape and and um there we now have&nbsp;&nbsp;
+
+01:00:36.000 --> 01:00:41.440
+all kinds of clever ways to kind of detect this&nbsp;
+shape and try to fit curves to to these input&nbsp;&nbsp;
+
+01:00:41.440 --> 01:00:46.960
+output pairs. What uh large language models which&nbsp;
+power chat bots and things like that they're just&nbsp;&nbsp;
+
+01:00:46.960 --> 01:00:52.240
+playing the game of naming the next word in&nbsp;
+a sentence. Roughly speaking, if I say roses&nbsp;&nbsp;
+
+01:00:52.240 --> 01:00:57.360
+are red, violets are blank. What is the next word&nbsp;
+to fill the sentence? You can probably guess the&nbsp;&nbsp;
+
+01:00:57.360 --> 01:01:03.120
+answer is blue. That's an output. You can imagine&nbsp;
+this giant plot where the inputs are all these&nbsp;&nbsp;
+
+01:01:03.120 --> 01:01:07.920
+incomplete sentences and the outputs are the words&nbsp;
+you want to complete and you got all these dots in&nbsp;&nbsp;
+
+01:01:07.920 --> 01:01:13.120
+this high dimensional space and you want to fit&nbsp;
+some curve to it that will um try to explain what&nbsp;&nbsp;
+
+01:01:13.120 --> 01:01:17.920
+is the most likely word to come out. Sometimes&nbsp;
+there's more than one answer. Hello, my name is&nbsp;&nbsp;
+
+01:01:17.920 --> 01:01:21.920
+you know there could be many many names you could&nbsp;
+put after the end of the sentence. So you don't&nbsp;&nbsp;
+
+01:01:21.920 --> 01:01:26.320
+always get a single answer but you could try to&nbsp;
+get the most plausible answer. People have tried&nbsp;&nbsp;
+
+01:01:26.320 --> 01:01:32.080
+this and and you know the the autocomplete feature&nbsp;
+on your phone does this you know like you you text&nbsp;&nbsp;
+
+01:01:32.080 --> 01:01:36.160
+something and it will suggest the next word and&nbsp;
+sometimes it's kind of right sometimes it's silly.&nbsp;&nbsp;
+
+01:01:36.160 --> 01:01:40.240
+Once you have any kind of operation like this it&nbsp;
+creates some dynamics and you can just keep you&nbsp;&nbsp;
+
+01:01:40.240 --> 01:01:44.480
+know many people have just played on their phone&nbsp;
+just press autocomplete over and over again and&nbsp;&nbsp;
+
+01:01:44.480 --> 01:01:50.400
+but you get these these gibberish sentences. Okay.&nbsp;
+Um you get monkeys typing on typewriters. But the&nbsp;&nbsp;
+
+01:01:50.400 --> 01:01:57.920
+uh the magic of LLMs is that if you um train&nbsp;
+these LLMs on enough data, okay, so trillions and&nbsp;&nbsp;
+
+01:01:57.920 --> 01:02:02.800
+trillions of data points and you you um you really&nbsp;
+try to fit as good a curve as possible and this&nbsp;&nbsp;
+
+01:02:02.800 --> 01:02:07.360
+takes like millions and millions of dollars of of&nbsp;
+computing power and months and months of of time.&nbsp;&nbsp;
+
+01:02:07.360 --> 01:02:13.280
+Then suddenly uh even when you iterate, it stays&nbsp;
+coherent. it begins to sound not like monkeys,&nbsp;&nbsp;
+
+01:02:13.280 --> 01:02:19.520
+but it actually sounds like a human speaking. And&nbsp;
+somehow we don't fully understand why that's the&nbsp;&nbsp;
+
+01:02:19.520 --> 01:02:26.000
+case. But what seems to be true is that language&nbsp;
+like like English or other natural languages&nbsp;&nbsp;
+
+01:02:26.000 --> 01:02:30.800
+contains a lot of hidden patterns that we're&nbsp;
+not consciously aware of. I mean, we know some&nbsp;&nbsp;
+
+01:02:30.800 --> 01:02:36.080
+of the laws of English, you know, there's laws&nbsp;
+of grammar and things, but there are there are&nbsp;&nbsp;
+
+01:02:36.080 --> 01:02:41.120
+sort of unspoken unwritten rules of of language&nbsp;
+that humans pick up. you know, a a human child,&nbsp;&nbsp;
+
+01:02:41.120 --> 01:02:45.520
+even though they're not taught, you know, what a&nbsp;
+noun is, what a verb is or whatever, they can they&nbsp;&nbsp;
+
+01:02:45.520 --> 01:02:51.680
+can pick up what order uh English words go in,&nbsp;
+just by continual exposure to the language, it&nbsp;&nbsp;
+
+01:02:51.680 --> 01:02:56.160
+seems like you can teach these models to also pick&nbsp;
+up patterns in language to the point where you can&nbsp;&nbsp;
+
+01:02:56.160 --> 01:03:01.280
+give them math questions. The answer to 2 plus 3&nbsp;
+is, and they will they will say five. They have&nbsp;&nbsp;
+
+01:03:01.280 --> 01:03:07.120
+been trained to to get the the correct answer to&nbsp;
+to at least simple math questions. Once you have&nbsp;&nbsp;
+
+01:03:07.120 --> 01:03:12.720
+a little bit of ability to to speak English, you&nbsp;
+can kind of go in loops and and sort of check your&nbsp;&nbsp;
+
+01:03:12.720 --> 01:03:17.200
+work and make fewer mistakes and you can prompt&nbsp;
+these models to to to proceed step by step and&nbsp;&nbsp;
+
+01:03:17.200 --> 01:03:23.200
+and and not say something unless it's been double&nbsp;
+checked and so forth. And so they become a little&nbsp;&nbsp;
+
+01:03:23.200 --> 01:03:27.280
+bit smarter, quote unquote, to the point where&nbsp;
+they can solve many, many complicated tasks, but&nbsp;&nbsp;
+
+01:03:27.280 --> 01:03:33.040
+they're still just guessing the next word to say.&nbsp;
+It's not really grounded in any deep understanding&nbsp;&nbsp;
+
+01:03:33.040 --> 01:03:38.400
+of the real world. It's just that they they just&nbsp;
+have seen the patterns in in the English language&nbsp;&nbsp;
+
+01:03:38.400 --> 01:03:44.800
+or other language that they've absorbed so well&nbsp;
+that they can mimic people who are speaking uh in&nbsp;&nbsp;
+
+01:03:44.800 --> 01:03:49.520
+intelligent fashion and they can present as being&nbsp;
+intelligent long enough that they can fool us but&nbsp;&nbsp;
+
+01:03:49.520 --> 01:03:54.400
+long enough they can actually do useful things. So&nbsp;
+you know we can now solve certain math problems by&nbsp;&nbsp;
+
+01:03:54.400 --> 01:04:00.000
+asking the LLM to provide a proof and sometimes&nbsp;
+the proof is complete rubbish but if you loop&nbsp;&nbsp;
+
+01:04:00.000 --> 01:04:05.760
+it enough and you have enough checks um you can&nbsp;
+actually uh start having a positive success rate.&nbsp;&nbsp;
+
+01:04:05.760 --> 01:04:12.400
+Um so it's it's a very strange way of solving&nbsp;
+problems like it is it is completely orthogonal&nbsp;&nbsp;
+
+01:04:12.400 --> 01:04:18.160
+to the way we normally think of intelligence as&nbsp;
+being very grounded methodical thinking first&nbsp;&nbsp;
+
+01:04:18.160 --> 01:04:22.160
+principles. You know, it's like having someone&nbsp;
+who knows a lot and is but is slightly drunk&nbsp;&nbsp;
+
+01:04:22.160 --> 01:04:28.400
+and is sort of throwing out ideas, but with enough&nbsp;
+guidance, uh, you you can actually extract useful&nbsp;&nbsp;
+
+01:04:28.400 --> 01:04:33.760
+output. It's not the most advanced mathematics out&nbsp;
+there actually. Um, but you give it a lot of data&nbsp;&nbsp;
+
+01:04:33.760 --> 01:04:39.120
+and a lot of time and a lot of other band-aids&nbsp;
+and things and it actually works pretty well. I&nbsp;&nbsp;
+
+01:04:39.120 --> 01:04:45.600
+find that some of the debate on AI's uh role in in&nbsp;
+science and other disciplines is we often default&nbsp;&nbsp;
+
+01:04:45.600 --> 01:04:50.720
+to a one dimensional view of thinking like this.&nbsp;
+there's there's easy tasks and and and hard tasks&nbsp;&nbsp;
+
+01:04:50.720 --> 01:04:56.800
+and very hard tasks and and and humans are can can&nbsp;
+do tasks up to a certain level and AIs can do task&nbsp;&nbsp;
+
+01:04:56.800 --> 01:05:00.400
+to a certain level and so which one is which one&nbsp;
+is better right that's kind of a one dimensional&nbsp;&nbsp;
+
+01:05:00.400 --> 01:05:07.600
+way of thinking but what I found uh when when sort&nbsp;
+of working with AIs and and comparing their way of&nbsp;&nbsp;
+
+01:05:07.600 --> 01:05:11.920
+solving problems to humans way of solving problems&nbsp;
+is that they are really quite complementary human&nbsp;&nbsp;
+
+01:05:11.920 --> 01:05:18.400
+experts um uh will will focus on depth you know&nbsp;
+so like a human mathematician which will solve&nbsp;&nbsp;
+
+01:05:18.400 --> 01:05:22.000
+thousands and thousands of problems they can work&nbsp;
+on but they will pick one or two problems that&nbsp;&nbsp;
+
+01:05:22.000 --> 01:05:25.760
+they think are are difficult but not so difficult&nbsp;
+that they're impossible but they're difficult&nbsp;&nbsp;
+
+01:05:25.760 --> 01:05:30.080
+enough that the the exercise of trying to make&nbsp;
+a bit of progress towards them will reveal all&nbsp;&nbsp;
+
+01:05:30.080 --> 01:05:35.440
+kinds of insights that they can share and maybe&nbsp;
+their students or some other collaborators or or&nbsp;&nbsp;
+
+01:05:35.440 --> 01:05:40.960
+other people can build upon what they do when&nbsp;
+we point the AIs at really difficult problems&nbsp;&nbsp;
+
+01:05:40.960 --> 01:05:46.560
+where none of the standard techniques apply they&nbsp;
+are still very very bad at I mean they're just&nbsp;&nbsp;
+
+01:05:46.560 --> 01:05:52.400
+randomly guessing but they excel at breadth. So&nbsp;
+if you if you point them at a thousand problems&nbsp;&nbsp;
+
+01:05:52.400 --> 01:05:57.760
+um of various difficulties now some may be just&nbsp;
+too hard but there will be some which actually&nbsp;&nbsp;
+
+01:05:57.760 --> 01:06:02.000
+are within reach of existing methods and there's&nbsp;
+some method out there in the literature which will&nbsp;&nbsp;
+
+01:06:02.000 --> 01:06:05.920
+solve your problem or maybe you have to combine&nbsp;
+together two separate methods and it's just that&nbsp;&nbsp;
+
+01:06:05.920 --> 01:06:09.360
+there there's just not enough human experts&nbsp;
+to look at all these problems and the human&nbsp;&nbsp;
+
+01:06:09.360 --> 01:06:12.720
+experts that do look at these problems they&nbsp;
+may not realize that there was this obscure&nbsp;&nbsp;
+
+01:06:12.720 --> 01:06:18.400
+paper from a journal um in 1970 that actually&nbsp;
+has the key idea that will solve this problem.&nbsp;&nbsp;
+
+01:06:18.400 --> 01:06:22.000
+They don't have the patience or the time to sort&nbsp;
+of go through all the different combinations of&nbsp;&nbsp;
+
+01:06:22.000 --> 01:06:28.080
+how which technique might work on which problem.&nbsp;
+But the AIs, you know, they will somewhat randomly&nbsp;&nbsp;
+
+01:06:28.080 --> 01:06:32.800
+they will take sort of educated guesses as to what&nbsp;
+techniques might work for a problem and some of&nbsp;&nbsp;
+
+01:06:32.800 --> 01:06:37.280
+them will be stupid and but some of them might&nbsp;
+work and through all these combinations we're&nbsp;&nbsp;
+
+01:06:37.280 --> 01:06:43.200
+finding that sometimes they can catch they can&nbsp;
+catch a solution that that the rest of all the&nbsp;&nbsp;
+
+01:06:43.200 --> 01:06:48.000
+humans have missed. Occasionally the consensus&nbsp;
+the conventional wisdom on of of the experts&nbsp;&nbsp;
+
+01:06:48.000 --> 01:06:53.040
+is wrong. You know that we all think that that a&nbsp;
+problem has a positive answer but actually the has&nbsp;&nbsp;
+
+01:06:53.040 --> 01:06:57.680
+a negative answer and we just didn't look at the&nbsp;
+negative case too much because we thought everyone&nbsp;&nbsp;
+
+01:06:57.680 --> 01:07:03.680
+thought that the the answer was true but an AI may&nbsp;
+not have that preconception. So uh sometimes the&nbsp;&nbsp;
+
+01:07:03.680 --> 01:07:08.080
+AI just serves as an independent pair of eyes.&nbsp;
+And so some problems that we thought were very&nbsp;&nbsp;
+
+01:07:08.080 --> 01:07:13.120
+difficult had a surprisingly simple solution which&nbsp;
+in retrospect we should have as maybe we should&nbsp;&nbsp;
+
+01:07:13.120 --> 01:07:18.480
+have gotten ourselves too. They're beginning&nbsp;
+to become successful at when you point them&nbsp;&nbsp;
+
+01:07:18.480 --> 01:07:22.160
+at a very broad range of problems and they solve&nbsp;
+some percentage of them. Like maybe you point them&nbsp;&nbsp;
+
+01:07:22.160 --> 01:07:26.960
+at a thousand problems and they solve 5% of those&nbsp;
+problems. That's still 50 problems solved. you can&nbsp;&nbsp;
+
+01:07:26.960 --> 01:07:33.280
+already have tools that in some sense outperform&nbsp;
+humans mathematicians by raw number of problems&nbsp;&nbsp;
+
+01:07:33.280 --> 01:07:37.360
+solved. Um now the 50 problems that get solved may&nbsp;
+not be the 50 problems that you most want solved.&nbsp;&nbsp;
+
+01:07:37.360 --> 01:07:43.520
+They could be 50 random problems. Um but still it&nbsp;
+it is it is very impressive. What I think we will&nbsp;&nbsp;
+
+01:07:43.520 --> 01:07:52.480
+have to do as a profession is find ways to um to&nbsp;
+incorporate this new capability to to solve some&nbsp;&nbsp;
+
+01:07:52.480 --> 01:07:59.440
+problems at broad scales um and somehow figure&nbsp;
+out how to to to make that mesh with our existing&nbsp;&nbsp;
+
+01:07:59.440 --> 01:08:05.040
+capability to solve a few deep problems very&nbsp;
+slowly. Kepler's story of how he found his famous&nbsp;&nbsp;
+
+01:08:05.040 --> 01:08:10.800
+laws of motion is a is a fascinating one. It shows&nbsp;
+how important the process is. Kepler learned of&nbsp;&nbsp;
+
+01:08:10.800 --> 01:08:15.920
+Copernicus' theory of the motion of the planets.&nbsp;
+And Copernicus had roughly worked out how far the&nbsp;&nbsp;
+
+01:08:15.920 --> 01:08:21.440
+Earth was from the Sun, how far Mars was and so&nbsp;
+forth. And Kepler noticed that the ratios of these&nbsp;&nbsp;
+
+01:08:21.440 --> 01:08:26.880
+um orbits looked a little bit like the like&nbsp;
+certain ratios that showed him in geometry. And so&nbsp;&nbsp;
+
+01:08:26.880 --> 01:08:32.080
+eventually he proposed that actually if you take&nbsp;
+spheres one sphere for every planet and he had six&nbsp;&nbsp;
+
+01:08:32.080 --> 01:08:36.800
+planets known at the time that he could inscribe&nbsp;
+five platonic solids you like a dodecahedron and&nbsp;&nbsp;
+
+01:08:36.800 --> 01:08:42.080
+a cube and a tetrahedron and so forth between&nbsp;
+these six spheres and he thought it would get&nbsp;&nbsp;
+
+01:08:42.080 --> 01:08:46.800
+a perfect fit and this explained the shape of the&nbsp;
+solar system in terms of the five platonic solids.&nbsp;&nbsp;
+
+01:08:46.800 --> 01:08:52.080
+This was his beautiful geometric idea. It was only&nbsp;
+after he managed to get his hands on some really&nbsp;&nbsp;
+
+01:08:52.080 --> 01:08:56.800
+high quality um observational data of Tycho Brahe&nbsp;
+which he had to fight for actually and possibly&nbsp;&nbsp;
+
+01:08:56.800 --> 01:09:01.760
+even steal and he tried to fit it his theory&nbsp;
+to this this data and he found that it didn't&nbsp;&nbsp;
+
+01:09:01.760 --> 01:09:07.840
+actually quite fit that with the precision that&nbsp;
+Tycho's data um offered he could not quite get&nbsp;&nbsp;
+
+01:09:07.840 --> 01:09:12.560
+these spheres to fit and in fact he discovered&nbsp;
+from that process that the the orbit of Mars&nbsp;&nbsp;
+
+01:09:12.560 --> 01:09:17.680
+and Earth could not be circles at all that there&nbsp;
+had to be some other shape. He spent many years&nbsp;&nbsp;
+
+01:09:17.680 --> 01:09:23.440
+um figuring out what to do. I think I I don't know&nbsp;
+how long he held on to this this theory of of the&nbsp;&nbsp;
+
+01:09:23.440 --> 01:09:27.600
+platonic solids and you can see in his writings&nbsp;
+he tried many other things. He tried to to make&nbsp;&nbsp;
+
+01:09:27.600 --> 01:09:33.840
+the circles off center and at some point he landed&nbsp;
+on the ellipse and then suddenly everything fit.&nbsp;&nbsp;
+
+01:09:33.840 --> 01:09:38.960
+It does show that there is an interplay between&nbsp;
+theory and experiment. You know that that you&nbsp;&nbsp;
+
+01:09:38.960 --> 01:09:45.440
+can pose a theory if it doesn't fit the data it's&nbsp;
+it it may not be a good theory. But um it's it's&nbsp;&nbsp;
+
+01:09:45.440 --> 01:09:49.920
+more complicated than that too. Before Kepler,&nbsp;
+one of the criticisms of Copernicus's theory was&nbsp;&nbsp;
+
+01:09:49.920 --> 01:09:57.200
+that already Copernicus acknowledged that that his&nbsp;
+measurements were worse than the best predictions&nbsp;&nbsp;
+
+01:09:57.200 --> 01:10:01.200
+available at the time. So the best models were&nbsp;
+the geocentric models which had been developed&nbsp;&nbsp;
+
+01:10:01.200 --> 01:10:06.400
+by the Greeks and then by the Arabs and Indians.&nbsp;
+There were many many adjustments and fine-tuning&nbsp;&nbsp;
+
+01:10:06.400 --> 01:10:11.120
+and they had a very very precise model that could&nbsp;
+predict in a very complicated way where all the&nbsp;&nbsp;
+
+01:10:11.120 --> 01:10:18.400
+planets would be. uh and Kepler Copernicus's model&nbsp;
+was worse. Just knowing agreement of data is not&nbsp;&nbsp;
+
+01:10:18.400 --> 01:10:24.720
+necessarily um the the only metric. It was only&nbsp;
+after Kepler found his his revised model where&nbsp;&nbsp;
+
+01:10:24.720 --> 01:10:29.920
+the orbits were not circles but ellipses that the&nbsp;
+heliocentric model became more accurate than the&nbsp;&nbsp;
+
+01:10:29.920 --> 01:10:35.920
+geocentric model. What this tells you is that is&nbsp;
+that science is um you can't always get instant&nbsp;&nbsp;
+
+01:10:35.920 --> 01:10:40.960
+feedback as to whether you've solved a scientific&nbsp;
+problem or not. If Kepler and and Copernicus had&nbsp;&nbsp;
+
+01:10:40.960 --> 01:10:46.800
+AIs and they asked them to predict a model for for&nbsp;
+for the universe, it could be that the AIs that&nbsp;&nbsp;
+
+01:10:46.800 --> 01:10:51.440
+generated the correct heliocentric model would&nbsp;
+be discarded because initially their predictions&nbsp;&nbsp;
+
+01:10:51.440 --> 01:10:58.640
+were not as good as as as the geocentric ones. It&nbsp;
+takes time to really digest all these theories and&nbsp;&nbsp;
+
+01:10:58.640 --> 01:11:02.800
+see how they fit with everything else that we&nbsp;
+know about planets and motion and gravity and&nbsp;&nbsp;
+
+01:11:02.800 --> 01:11:07.600
+everything. One concern actually is that AI are&nbsp;
+too fast. there's a danger that these AIs will&nbsp;&nbsp;
+
+01:11:07.600 --> 01:11:11.920
+do what's called overfitting and and create&nbsp;
+a very complicated model which is not which&nbsp;&nbsp;
+
+01:11:11.920 --> 01:11:17.120
+has nothing to do with what's actually going on&nbsp;
+but just fits your data extremely extremely well&nbsp;&nbsp;
+
+01:11:17.120 --> 01:11:22.320
+um but it doesn't extrapolate beyond that that&nbsp;
+that data set how we incorporate AI into the&nbsp;&nbsp;
+
+01:11:22.320 --> 01:11:28.320
+scientific discovery process will be a challenge&nbsp;
+it can certainly accelerate individual steps of of&nbsp;&nbsp;
+
+01:11:28.320 --> 01:11:32.720
+the process you know you can make experimentation&nbsp;
+faster um you can you can write code faster you&nbsp;&nbsp;
+
+01:11:32.720 --> 01:11:37.840
+can write your papers faster but science as a&nbsp;
+whole may not necessarily accelerate just because&nbsp;&nbsp;
+
+01:11:37.840 --> 01:11:43.600
+every single component gets faster. There's a&nbsp;
+danger that that we will optimize uh the wrong&nbsp;&nbsp;
+
+01:11:43.600 --> 01:11:49.440
+thing when we when we point AI at science and&nbsp;
+we will on paper get all these amazing successes&nbsp;&nbsp;
+
+01:11:49.440 --> 01:11:54.880
+and but find out that science is not actually&nbsp;
+advancing as it in the way that it used to. But&nbsp;&nbsp;
+
+01:11:54.880 --> 01:11:59.520
+we will find out it's still better to have these&nbsp;
+tools than not have them. But we're still learning&nbsp;&nbsp;
+
+01:11:59.520 --> 01:12:04.560
+how to use them most efficiently. Part of what&nbsp;
+we do is is we solve problems and and we we try&nbsp;&nbsp;
+
+01:12:04.560 --> 01:12:09.280
+to find solutions to problems and and and prove&nbsp;
+things. Uh and proofs go through a certain life&nbsp;&nbsp;
+
+01:12:09.280 --> 01:12:15.040
+cycle. First of all, you have to to to generate&nbsp;
+a proof for solution. And this used to be quite&nbsp;&nbsp;
+
+01:12:15.040 --> 01:12:19.920
+hard, but but some of the proofs that you generate&nbsp;
+are incorrect. Um so then you have to to verify&nbsp;&nbsp;
+
+01:12:19.920 --> 01:12:24.240
+them, check which one check that is correct. Uh&nbsp;
+and that also used to be quite tedious. But both&nbsp;&nbsp;
+
+01:12:24.240 --> 01:12:28.960
+of these of these tasks are becoming more and more&nbsp;
+automated. So we we beginning to see more and more&nbsp;&nbsp;
+
+01:12:28.960 --> 01:12:34.320
+proposed solutions to various problems and many&nbsp;
+of them are actually correct but proofs are also&nbsp;&nbsp;
+
+01:12:34.320 --> 01:12:40.160
+getting longer. Uh and when when when they're&nbsp;
+written by AIs they are often not very pleasant&nbsp;&nbsp;
+
+01:12:40.160 --> 01:12:45.360
+to read. An AI generated proof might might spend&nbsp;
+a lot of time talking about something very trivial&nbsp;&nbsp;
+
+01:12:45.360 --> 01:12:50.160
+and spend very little time talking about the most&nbsp;
+interesting portion of of of the paper. I think&nbsp;&nbsp;
+
+01:12:50.160 --> 01:12:54.480
+because the AI can't distinguish sort of what&nbsp;
+is hard what is difficult because by brute force&nbsp;&nbsp;
+
+01:12:54.480 --> 01:12:58.160
+everything takes the same amount of time for them.&nbsp;
+A human who has sort of naturally had to struggle&nbsp;&nbsp;
+
+01:12:58.160 --> 01:13:03.200
+at the most difficult step of a paper would&nbsp;
+naturally spend a lot of time on that step. And&nbsp;&nbsp;
+
+01:13:03.200 --> 01:13:07.840
+so you need to write out the paper in a proof in&nbsp;
+a way that it reads well and it can be explained&nbsp;&nbsp;
+
+01:13:07.840 --> 01:13:12.160
+to other people. And then other people have to get&nbsp;
+excited by it. they they they they have to accept&nbsp;&nbsp;
+
+01:13:12.160 --> 01:13:17.440
+it as oh this is really interesting that this this&nbsp;
+will help me solve my own problems or it really&nbsp;&nbsp;
+
+01:13:17.440 --> 01:13:23.600
+um clarifies why this phenomenon was true that&nbsp;
+it has to be accepted and this is where we we&nbsp;&nbsp;
+
+01:13:23.600 --> 01:13:29.440
+traditionally have the peer review process where&nbsp;
+we we send papers to referees and if the referees&nbsp;&nbsp;
+
+01:13:29.440 --> 01:13:35.760
+are are excited by this result then um the paper&nbsp;
+gets accepted but you know there could be papers&nbsp;&nbsp;
+
+01:13:35.760 --> 01:13:40.560
+that are technically they are correct and and&nbsp;
+they are readable and fine but but they could&nbsp;&nbsp;
+
+01:13:40.560 --> 01:13:45.120
+answering a question that no one cares about. And&nbsp;
+then finally, it needs to be sort of completely&nbsp;&nbsp;
+
+01:13:45.120 --> 01:13:50.400
+polished and put into textbooks and and taught&nbsp;
+to students. And often the first version of a&nbsp;&nbsp;
+
+01:13:50.400 --> 01:13:55.600
+proof is not suitable for writing on textbooks.&nbsp;
+It often is is done in a very inefficient way&nbsp;&nbsp;
+
+01:13:55.600 --> 01:14:01.040
+and is not the the ordering of steps is not quite&nbsp;
+logical. There's a certain digestion process where&nbsp;&nbsp;
+
+01:14:01.040 --> 01:14:05.600
+where someone has to spend a lot of time thinking&nbsp;
+very hard to what is completely the the right way&nbsp;&nbsp;
+
+01:14:05.600 --> 01:14:10.560
+to organize to edit the paper to sort of flow in&nbsp;
+the same way. a little bit like how you would you&nbsp;&nbsp;
+
+01:14:10.560 --> 01:14:14.960
+would edit a documentary or a movie. And so what&nbsp;
+we're finding is that AI tools are accelerating&nbsp;&nbsp;
+
+01:14:14.960 --> 01:14:20.400
+the early stages of this process, but not the&nbsp;
+late stages. We are now generating many proofs.&nbsp;&nbsp;
+
+01:14:20.400 --> 01:14:27.040
+We are verifying a bunch of them, but the pace of&nbsp;
+understanding them and putting them into the final&nbsp;&nbsp;
+
+01:14:27.040 --> 01:14:32.400
+textbook form is still done by humans. Um, and in&nbsp;
+fact, we're now experiencing what you might call&nbsp;&nbsp;
+
+01:14:32.400 --> 01:14:38.480
+proof indigestion where suddenly there's lots&nbsp;
+and lots of pending uh solutions to problems&nbsp;&nbsp;
+
+01:14:38.480 --> 01:14:44.080
+that should be understood and should be go into&nbsp;
+textbooks, but they just we're just flooded now&nbsp;&nbsp;
+
+01:14:44.080 --> 01:14:48.080
+with with too many of them. Uh, and we have to&nbsp;
+pick and we have to triage. And this is something&nbsp;&nbsp;
+
+01:14:48.080 --> 01:14:53.760
+that has never had to happen before. Um it used&nbsp;
+to be that solutions came out so rarely that um if&nbsp;&nbsp;
+
+01:14:53.760 --> 01:14:58.880
+a solution to a major problem got got solved, all&nbsp;
+the experts would sort of drop everything and read&nbsp;&nbsp;
+
+01:14:58.880 --> 01:15:03.760
+it and and try to digest it as quickly as possible&nbsp;
+because it was so rare and so valuable that it was&nbsp;&nbsp;
+
+01:15:03.760 --> 01:15:08.800
+worth doing. And now we're just getting flooded&nbsp;
+with with all these possible solutions. I myself,&nbsp;&nbsp;
+
+01:15:08.800 --> 01:15:14.080
+you know, I've had to stop trying to stay current&nbsp;
+with all the latest developments in in in in my&nbsp;&nbsp;
+
+01:15:14.080 --> 01:15:18.320
+field. Sometimes there's just so much going&nbsp;
+on. I I can't promise now to read every single&nbsp;&nbsp;
+
+01:15:18.320 --> 01:15:22.080
+development that that that shows up. I mean, this&nbsp;
+is already beginning to be a problem before AI,&nbsp;&nbsp;
+
+01:15:22.080 --> 01:15:28.720
+but AI has really accelerated the sheer volume&nbsp;
+of of content being generated. And so, we're&nbsp;&nbsp;
+
+01:15:28.720 --> 01:15:34.880
+going to need much better curation and uh and&nbsp;
+filtering. It's a good problem to have. I mean,&nbsp;&nbsp;
+
+01:15:34.880 --> 01:15:39.360
+it's like it's better to have a to have too much&nbsp;
+food, more food than you can eat than than not&nbsp;&nbsp;
+
+01:15:39.360 --> 01:15:44.800
+enough food to eat. But it is still a problem.
+AI have become increasingly capable in&nbsp;&nbsp;
+
+01:15:44.800 --> 01:15:48.480
+mathematics. For people like me who have&nbsp;
+been following the developments for the last&nbsp;&nbsp;
+
+01:15:48.480 --> 01:15:53.440
+three years, um there's been a kind of steady&nbsp;
+progression, you know, so four years ago they&nbsp;&nbsp;
+
+01:15:53.440 --> 01:15:57.120
+could solve middle school math problems and then&nbsp;
+they could solve high school math problems and&nbsp;&nbsp;
+
+01:15:57.120 --> 01:16:03.520
+then uh high school Olympiad level problems and&nbsp;
+then um some problems you like graduate student&nbsp;&nbsp;
+
+01:16:03.520 --> 01:16:09.040
+um level qualifying exam problems and then&nbsp;
+they're starting to solve a few of the the minor&nbsp;&nbsp;
+
+01:16:09.040 --> 01:16:13.600
+um unsolved problems that maybe someone like&nbsp;
+Paul Erdős would have proposed but no one really&nbsp;&nbsp;
+
+01:16:13.600 --> 01:16:18.080
+looked at. So it's a lot of low hanging fruit.&nbsp;
+And then just recently there's been one or two&nbsp;&nbsp;
+
+01:16:18.080 --> 01:16:23.120
+occasions where they they managed to solve some&nbsp;
+problems that people actually really did try very&nbsp;&nbsp;
+
+01:16:23.120 --> 01:16:29.120
+hard to solve. Somehow collectively the humans&nbsp;
+all had were taking the wrong turn and the AIs&nbsp;&nbsp;
+
+01:16:29.120 --> 01:16:36.720
+which had a different set of biases had managed&nbsp;
+to cobble together um a solution which was quite&nbsp;&nbsp;
+
+01:16:36.720 --> 01:16:41.280
+clever and has been quite um has already had some&nbsp;
+impact. there's been some nearby problems to uh&nbsp;&nbsp;
+
+01:16:41.280 --> 01:16:46.720
+the unit distance problem for instance which have&nbsp;
+also been solved by humans who have adapted the&nbsp;&nbsp;
+
+01:16:46.720 --> 01:16:50.560
+uh the AI's technique. I found that quite&nbsp;
+exciting. Uh so I think for some my colleagues&nbsp;&nbsp;
+
+01:16:50.560 --> 01:16:54.720
+it was very concerning especially if they hadn't&nbsp;
+been following the previous developments and and&nbsp;&nbsp;
+
+01:16:54.720 --> 01:17:00.320
+and not realizing that this was where they were&nbsp;
+at. If a colleague had only seen say what ChatGPT&nbsp;&nbsp;
+
+01:17:00.320 --> 01:17:05.920
+could do in 2023 and if you asked it a difficult&nbsp;
+math question then it would give you complete&nbsp;&nbsp;
+
+01:17:05.920 --> 01:17:09.920
+rubbish and they they are quite different now.&nbsp;
+And it's still fundamentally the same technology,&nbsp;&nbsp;
+
+01:17:09.920 --> 01:17:15.440
+but but they have found ways to reduce the&nbsp;
+error rate and and become genuinely useful. Now,&nbsp;&nbsp;
+
+01:17:15.440 --> 01:17:21.840
+it's still unclear how replicable this is.&nbsp;
+Many of these achievements um they're done&nbsp;&nbsp;
+
+01:17:21.840 --> 01:17:27.280
+by private companies. They they not disclosing&nbsp;
+how much resources they spent to to use. I mean,&nbsp;&nbsp;
+
+01:17:27.280 --> 01:17:31.840
+is it was it $100,000 of commute compute? Was it&nbsp;
+a million dollars? We don't really know. And we&nbsp;&nbsp;
+
+01:17:31.840 --> 01:17:36.400
+don't know their success rate. um was this problem&nbsp;
+that they solved the only problem that they looked&nbsp;&nbsp;
+
+01:17:36.400 --> 01:17:41.040
+at or did they look at 10 problems? They look at&nbsp;
+100 problems. While the results are impressive,&nbsp;&nbsp;
+
+01:17:41.040 --> 01:17:47.520
+um we don't have enough data to to really gauge&nbsp;
+whether this will become a completely regular&nbsp;&nbsp;
+
+01:17:47.520 --> 01:17:53.600
+occurrence going forward or whether it's only if&nbsp;
+you spend $100,000 over several months with a team&nbsp;&nbsp;
+
+01:17:53.600 --> 01:17:59.360
+of 10 people that you can get results like this.&nbsp;
+And maybe it's only 1% of all problems that we&nbsp;&nbsp;
+
+01:17:59.360 --> 01:18:04.960
+care about are amenable to this method. uh yeah we&nbsp;
+don't know but there are efforts to more properly&nbsp;&nbsp;
+
+01:18:04.960 --> 01:18:09.680
+benchmark in a scientific way. The most recent&nbsp;
+of these challenges is called the FrontierMath&nbsp;&nbsp;
+
+01:18:09.680 --> 01:18:15.280
+challenge. They tested the latest models against&nbsp;
+a test set of 10 research level questions and the&nbsp;&nbsp;
+
+01:18:15.280 --> 01:18:20.000
+best models could do like five or six out of 10&nbsp;
+of these sort of medium level difficulty math&nbsp;&nbsp;
+
+01:18:20.000 --> 01:18:23.680
+problems which already had a solution but the&nbsp;
+solution was kept secret that I think there's a&nbsp;&nbsp;
+
+01:18:23.680 --> 01:18:31.280
+lot of routine tasks tasks that we we do every day&nbsp;
+as a as a as in our research that some percentage&nbsp;&nbsp;
+
+01:18:31.280 --> 01:18:36.320
+of those can now be done by by AIs. it could be&nbsp;
+expensive. Uh many of of these tools they require&nbsp;&nbsp;
+
+01:18:36.320 --> 01:18:41.760
+say a couple hundred dollars to run to before&nbsp;
+they can get a solution and sometimes they fail.&nbsp;&nbsp;
+
+01:18:41.760 --> 01:18:46.080
+They they spend all this compute and and they&nbsp;
+end up with with nothing useful. We are seeing&nbsp;&nbsp;
+
+01:18:46.080 --> 01:18:51.360
+now in programming that many expert programmers&nbsp;
+are reporting that their ability to write code&nbsp;&nbsp;
+
+01:18:51.360 --> 01:18:57.040
+has increased by a factor of five or 10 or 100&nbsp;
+with these with these tools. But they are also&nbsp;&nbsp;
+
+01:18:57.040 --> 01:19:02.400
+they can they can feel themselves learn losing the&nbsp;
+ability to code by hand and sometimes they cannot&nbsp;&nbsp;
+
+01:19:02.400 --> 01:19:07.360
+review the code that that that comes out of these&nbsp;
+agents. There's a trade-off you know speed and is&nbsp;&nbsp;
+
+01:19:07.360 --> 01:19:13.920
+not everything. I very much like the collaborative&nbsp;
+aspect of mathematics. I didn't realize was so&nbsp;&nbsp;
+
+01:19:13.920 --> 01:19:20.880
+important until relatively late in my career that&nbsp;
+uh like a lot of the mathematics I've learned I I&nbsp;&nbsp;
+
+01:19:20.880 --> 01:19:26.240
+learned after grad school by by working with uh&nbsp;
+with mathematicians and and and scientists in&nbsp;&nbsp;
+
+01:19:26.240 --> 01:19:30.160
+different fields. I teach them what I know, they&nbsp;
+teach me what what what they know and I become&nbsp;&nbsp;
+
+01:19:30.160 --> 01:19:34.800
+much broader as as as a as a as a result. When&nbsp;
+you're working with a collaborator that you've&nbsp;&nbsp;
+
+01:19:34.800 --> 01:19:39.440
+been working with a long time, um there's a point&nbsp;
+where you become almost mentally attuned, perhaps&nbsp;&nbsp;
+
+01:19:39.440 --> 01:19:43.760
+you've been familiar, like if it's a really close&nbsp;
+friend or family member that you talk to for a&nbsp;&nbsp;
+
+01:19:43.760 --> 01:19:47.200
+long time, sometimes you can complete each other's&nbsp;
+sentences. You know what the other person's going&nbsp;&nbsp;
+
+01:19:47.200 --> 01:19:52.080
+to say? And you can sometimes get that when you&nbsp;
+collaborate. You can you can throw out an idea and&nbsp;&nbsp;
+
+01:19:52.080 --> 01:19:56.640
+before you even finish the sentence, the other&nbsp;
+person gets it and and can run with it. People&nbsp;&nbsp;
+
+01:19:56.640 --> 01:20:03.120
+have tried to use AIs like this and AIs they are&nbsp;
+you can't converse with them. Of course they make&nbsp;&nbsp;
+
+01:20:03.120 --> 01:20:09.040
+mistakes sometimes they they sometimes will be&nbsp;
+sycophantic and and only tell you what what you&nbsp;&nbsp;
+
+01:20:09.040 --> 01:20:14.160
+want to hear but also the interactions right now&nbsp;
+with these tools are kind of personal like I've&nbsp;&nbsp;
+
+01:20:14.160 --> 01:20:20.640
+tried to collaborate with people um in person and&nbsp;
+also have an AI present but breaks up the rhythm.&nbsp;&nbsp;
+
+01:20:20.640 --> 01:20:26.640
+these these tools they don't they're not really&nbsp;
+conversational like not as fluid conversation as&nbsp;&nbsp;
+
+01:20:26.640 --> 01:20:31.440
+as as as they are with human collaborators yet.&nbsp;
+uh maybe they will get they will get there until&nbsp;&nbsp;
+
+01:20:31.440 --> 01:20:37.120
+recently they don't learn from your conversations&nbsp;
+you know so with a collaborator when when you you&nbsp;&nbsp;
+
+01:20:37.120 --> 01:20:41.360
+know you can resume the next day you can pick&nbsp;
+up very quickly and sometimes even for a call&nbsp;&nbsp;
+
+01:20:41.360 --> 01:20:45.600
+that you haven't met for years you can pick up&nbsp;
+some very old threads AIs have a certain amount&nbsp;&nbsp;
+
+01:20:45.600 --> 01:20:51.200
+of context and they can remember some things and&nbsp;
+and they can record they can make notes and kind&nbsp;&nbsp;
+
+01:20:51.200 --> 01:20:58.240
+of simulate this memory but you can't attune uh&nbsp;
+to an AI the same way that you can to a really&nbsp;&nbsp;
+
+01:20:58.240 --> 01:21:04.640
+close collaboration better yet. I actually don't&nbsp;
+use these tools so much for the actual um problem&nbsp;&nbsp;
+
+01:21:04.640 --> 01:21:10.640
+solving process. I found to date that these tools&nbsp;
+are much better at secondary tasks like like doing&nbsp;&nbsp;
+
+01:21:10.640 --> 01:21:15.200
+literature searches or or checking a proof or&nbsp;
+writing some code, proofreading uh something&nbsp;&nbsp;
+
+01:21:15.200 --> 01:21:19.200
+that I wrote to see if there's any opportunity&nbsp;
+to make things a little bit tighter. I find,&nbsp;&nbsp;
+
+01:21:19.200 --> 01:21:26.160
+yeah, the rhythm of of working with an AI is not&nbsp;
+quite the the rhythm I I prefer working with a&nbsp;&nbsp;
+
+01:21:26.160 --> 01:21:30.400
+human collaborator, but that could just be the&nbsp;
+the current state of current technology. Maybe&nbsp;&nbsp;
+
+01:21:30.400 --> 01:21:36.400
+future AIs will be much more conversational&nbsp;
+and and much more human to interact with.&nbsp;&nbsp;
+
+01:21:37.040 --> 01:21:44.800
+So we're at a somewhat risky point in in sort of&nbsp;
+the uh the structure of of funding the scientific&nbsp;&nbsp;
+
+01:21:44.800 --> 01:21:49.920
+enterprise in general because on the one hand&nbsp;
+these tools are allowing us to create the outputs&nbsp;&nbsp;
+
+01:21:49.920 --> 01:21:55.840
+of science or what seems to be the outputs of&nbsp;
+science at at a much accelerated rate but it could&nbsp;&nbsp;
+
+01:21:55.840 --> 01:22:00.800
+come at the cost of of nurturing our seed corn for&nbsp;
+the next generation of scientists. For example,&nbsp;&nbsp;
+
+01:22:00.800 --> 01:22:05.440
+there there is a real concern that um the training&nbsp;
+problems that we give our graduate students to&nbsp;&nbsp;
+
+01:22:05.440 --> 01:22:11.200
+work on to as as their as their first projects&nbsp;
+to to get a little bit of of of recognition and&nbsp;&nbsp;
+
+01:22:11.200 --> 01:22:16.160
+and and career training and experience. These&nbsp;
+are the types of problems which now AIs can&nbsp;&nbsp;
+
+01:22:16.160 --> 01:22:22.000
+um they can replicate many of the papers. But if&nbsp;
+you replace the grad students by by these AIs,&nbsp;&nbsp;
+
+01:22:22.000 --> 01:22:25.520
+you know, the AIs will generate these grad&nbsp;
+student level papers, but then we won't get&nbsp;&nbsp;
+
+01:22:25.520 --> 01:22:32.560
+the next generation of of of students. But if we&nbsp;
+if we don't continue this process of digesting,&nbsp;&nbsp;
+
+01:22:32.560 --> 01:22:36.800
+you know, all this AI output to build the next&nbsp;
+base of knowledge for the next generation of&nbsp;&nbsp;
+
+01:22:36.800 --> 01:22:42.960
+humans and AIs to to build upon that, we may end&nbsp;
+up stagnating as as as a a scientific society. You&nbsp;&nbsp;
+
+01:22:42.960 --> 01:22:47.360
+know, that we we'll be able to optimize everything&nbsp;
+that we can we can do with our current technology,&nbsp;&nbsp;
+
+01:22:47.360 --> 01:22:54.400
+but we may not actually develop really original&nbsp;
+new ideas anymore. we will need to to really um&nbsp;&nbsp;
+
+01:22:54.400 --> 01:22:59.280
+have a much more open discussion about what&nbsp;
+basic science is and what is useful for and&nbsp;&nbsp;
+
+01:22:59.280 --> 01:23:06.080
+why it's important to still have curiosity driven&nbsp;
+research. why we still need a community of of of&nbsp;&nbsp;
+
+01:23:06.080 --> 01:23:11.520
+of humans to explore things sometimes slowly,&nbsp;
+sometimes you know in in in ways that are not&nbsp;&nbsp;
+
+01:23:11.520 --> 01:23:17.440
+as efficient as the latest model AIs and also&nbsp;
+the um the insights that that we that we we we&nbsp;&nbsp;
+
+01:23:17.440 --> 01:23:22.640
+gain. I think um we should share them more and we&nbsp;
+should do more outreach to to the general public.&nbsp;&nbsp;
+
+01:23:22.640 --> 01:23:28.000
+I think the general public today, you know, they&nbsp;
+can see the visible outputs of science. you know,&nbsp;&nbsp;
+
+01:23:28.000 --> 01:23:33.120
+they have a cell phone, they have the internet,&nbsp;
+they they they have GPS or whatever. Many people,&nbsp;&nbsp;
+
+01:23:33.120 --> 01:23:38.240
+they they don't see the um the whole process&nbsp;
+and and how a basic understanding of math and&nbsp;&nbsp;
+
+01:23:38.240 --> 01:23:43.040
+science actually makes the world around them a&nbsp;
+lot less scary and just a a lot a lot clearer.&nbsp;&nbsp;
+
+01:23:43.040 --> 01:23:48.640
+I think a lot of people now are just living in in&nbsp;
+a state of anxiety. The world is so complicated.&nbsp;&nbsp;
+
+01:23:48.640 --> 01:23:53.520
+We haven't emphasized these s of softer values&nbsp;
+of science as much as sort of the hard you know&nbsp;&nbsp;
+
+01:23:53.520 --> 01:23:58.240
+like um technological outputs and things but&nbsp;
+science does add a certain amount of clarity&nbsp;&nbsp;
+
+01:23:58.240 --> 01:24:14.240
+to to to one's thinking and you know these are&nbsp;
+valuable things and they need to be supported.
+
