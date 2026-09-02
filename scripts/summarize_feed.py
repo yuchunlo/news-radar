@@ -703,19 +703,109 @@ def merge_caption_lines(text: str) -> str:
     return "\n".join(units).replace(SPEAKER_TURN_MARK, "")
 
 
-def vtt_to_text(path: str) -> str:
-    """Convert a .vtt file into clean, sentence-by-sentence text.
+VTT_TIMING_RE = re.compile(r"-->")
+VTT_STITCH_MIN_OVERLAP = 12
+VTT_STITCH_MIN_OVERLAP_CJK = 5
+VTT_STITCH_WINDOW = 400
+CJK_CHAR_RE = re.compile(r"[\u3400-\u4dbf\u4e00-\u9fff\u3040-\u30ff\uac00-\ud7af]")
+_ASCII_WORD_RE = re.compile(r"[0-9A-Za-z\u00c0-\u024f]")
 
-    YouTube's auto-generated captions commonly use a "rolling" word-by-word
-    animation: a single sentence is split across several cues played in
-    sequence, and each cue's text = "the previous line (finalized, repeated
-    verbatim)" + "the line currently being typed out". So we only take the
-    "last line" of each cue block as that cue's contribution, and skip any
-    line that's identical to the previous one — this reconstructs normal,
-    sentence-by-sentence text. Manual captions / non-rolling captions
-    already have exactly one line per cue, so the same logic is a no-op
-    for them.
+
+def _vtt_cue_payloads(raw: str):
+    """Yield each cue's text lines, tags stripped, in file order.
+
+    Blocks are split on blank lines and everything before the `-->` line is
+    dropped, so the WEBVTT header, NOTE/STYLE blocks and numeric cue
+    identifiers never reach the payload. The old parser keyed only on `-->`
+    and appended every other line to the previous cue, which meant a
+    conventionally numbered .vtt contributed the bare string "2", "3", ... as
+    each cue's last line.
     """
+    raw = raw.replace("\r\n", "\n").replace("\r", "\n")
+    for block in re.split(r"\n\s*\n", raw):
+        lines = block.split("\n")
+        idx = next((n for n, l in enumerate(lines) if "-->" in l), None)
+        if idx is None:
+            continue
+        cleaned = []
+        for l in lines[idx + 1:]:
+            l = VTT_TAG_RE.sub("", l).strip()
+            if l:
+                cleaned.append(l)
+        if cleaned:
+            yield cleaned
+
+
+def _join_cue_lines(lines: list[str]) -> str:
+    """Join a cue's display lines back into one string.
+
+    A space between two Latin words, nothing between CJK — a wrapped Chinese
+    cue must not gain a space at the wrap point.
+    """
+    out = ""
+    for part in lines:
+        if out and (_ASCII_WORD_RE.search(out[-1]) or _ASCII_WORD_RE.search(part[0])):
+            out += " "
+        out += part
+    return out
+
+
+def _overlap_len(tail: str, text: str) -> int:
+    """Longest k where `tail` ends with `text[:k]`, honouring word boundaries."""
+    limit = min(len(tail), len(text))
+    for k in range(limit, 0, -1):
+        floor = (VTT_STITCH_MIN_OVERLAP_CJK
+                 if CJK_CHAR_RE.search(text[:k]) else VTT_STITCH_MIN_OVERLAP)
+        if k != len(text) and k < floor:
+            break
+        if not tail.endswith(text[:k]):
+            continue
+        # Don't cut a Latin word in half: "gadget" is not an overlap of
+        # "gadgets that I use".
+        if k < len(text) and _ASCII_WORD_RE.match(text[k]) and \
+                _ASCII_WORD_RE.match(text[k - 1]):
+            continue
+        return k
+    return 0
+
+
+def stitch_caption_cues(cues) -> list[str]:
+    """Turn overlapping cues into non-repeating lines.
+
+    Two cue shapes have to come out right, and a .vtt gives no reliable way to
+    tell them apart up front:
+
+      rolling   cue = "<line already shown> <line being typed>"
+      wrapped   cue = one sentence broken over two display lines
+
+    The old code took only each cue's *last* line. That is right for rolling
+    captions and silently discards half the transcript for wrapped ones —
+    which is what YouTube's newer punctuated ASR tracks produce. It showed up
+    as whole clauses missing from summaries: "...my favorite low-tech
+    Previously, you guys liked..." had lost the line in between.
+
+    Stitching handles both. Each cue is joined whole, then whatever prefix
+    already appears at the end of the text emitted so far is dropped. For a
+    rolling cue that prefix is the repeated line; for a wrapped cue there is
+    no overlap and the whole thing is kept.
+    """
+    lines_out: list[str] = []
+    acc = ""
+    for cleaned in cues:
+        text = _join_cue_lines(cleaned)
+        if not text:
+            continue
+        k = _overlap_len(acc[-VTT_STITCH_WINDOW:], text)
+        remainder = text[k:].strip(" \t,")
+        if not remainder:
+            continue
+        lines_out.append(remainder)
+        acc = (acc + " " + remainder) if acc else remainder
+    return lines_out
+
+
+def vtt_to_text(path: str) -> str:
+    """Convert a .vtt file into clean, sentence-by-sentence text."""
     try:
         with open(path, "r", encoding="utf-8", errors="ignore") as f:
             raw = f.read()
@@ -723,27 +813,7 @@ def vtt_to_text(path: str) -> str:
         return ""
 
     raw = VTT_WATERMARK_RE.sub("", raw)
-    cues: list[list[str]] = []
-    for line in raw.splitlines():
-        if "-->" in line:
-            cues.append([])
-        elif cues:
-            cues[-1].append(line)
-
-    lines_out = []
-    last = None
-    for payload in cues:
-        cleaned = []
-        for tl in payload:
-            tl = VTT_TAG_RE.sub("", tl).strip()
-            if tl:
-                cleaned.append(tl)
-        if not cleaned:
-            continue
-        candidate = cleaned[-1]
-        if candidate != last:
-            lines_out.append(candidate)
-            last = candidate
+    lines_out = stitch_caption_cues(_vtt_cue_payloads(raw))
 
     text = "\n".join(lines_out)
     text = clean_caption_text(text, mark_speaker_turns=True)
@@ -755,6 +825,8 @@ def vtt_to_text(path: str) -> str:
         elif cpt < OVERPUNCTUATED_CHARS_PER_TERMINAL:
             text = merge_caption_lines(strip_line_terminals(text))
     return text.replace(SPEAKER_TURN_MARK, "")
+
+
 # ---------------------------------------------------------------- Thumbnails
 
 IMAGE_EXT_RE = re.compile(r"\.(?:png|jpe?g|gif|webp|avif|svg)(?:$|[?#])", re.I)
