@@ -1,47 +1,70 @@
 #!/usr/bin/env python3
 """
-subtitle_priority.py — 字幕軌優先順序的單一判準
+subtitle_priority.py — Single source of truth for subtitle track priority
 
-下載端（download_sub.py）與取用端（summarize_feed.pick_subtitle）原本各自維護
-一份 tier 邏輯，兩份都寫得像對的，但排出來的結果不同。這裡是唯一的那一份。
+The downloader (download_sub.py) and the consumer (summarize_feed.pick_subtitle)
+originally each maintained their own tier logic. Both implementations looked
+correct, but they produced different results. This is the single authoritative
+implementation.
 
-## 為什麼這樣排
+## Why this ordering
 
-摘要是中文。summarize_feed 的分支很直接：detect_lang 判到 zh-hant / zh-hans
-就走 extractive_summary(cjk=True)，其他語言全都多一趟 translate_to_zhtw()。而
-那趟 MT 的輸出正是 entity_extract 的輸入——Google Translate 對專有名詞不穩定
-（輝達／英偉達／NVIDIA 混用），entity key 建在這些字面上，MT 雜訊會把同一個
-節點拆散。所以「不需要 MT」是最強的一項考量。
+The summary is in Chinese. The summarize_feed branch is straightforward: if
+detect_lang detects zh-hant / zh-hans, it uses extractive_summary(cjk=True);
+all other languages go through an additional translate_to_zhtw() step. The
+output of that MT step is exactly what entity_extract receives as input—Google
+Translate is unstable with proper nouns.
+Entity keys are built from these literal strings, so MT noise can split what
+should be the same node into multiple nodes. Therefore, "no MT required" is
+the strongest consideration.
 
-第二項是 manual 對 auto，而它跟語言無關，所以壓在語言之上：extractive_summary
-與 chunker.semantic_chunk 都靠標點與句界工作，自動字幕通常沒有標點。舊版把
-manual/auto 放在語言 tier *內部*當 tiebreak，於是「auto + 原語言」(0, 1) 贏過
-「manual + 中文」(1, 0)——一支英文影片明明有創作者附的人工中文字幕，卻去下載
-英文 ASR 再機器翻譯，兩邊的缺點都吃到了。
+The second consideration is manual versus auto, which is language-independent,
+so it takes precedence over language. Both extractive_summary and
+chunker.semantic_chunk rely on punctuation and sentence boundaries, while
+automatic subtitles usually have no punctuation. The old version treated
+manual/auto as a tiebreaker *within* the language tier, so "auto + original
+language" (0, 1) beat "manual + Chinese" (1, 0)—even when an English video
+clearly had creator-provided manual Chinese subtitles, it would download the
+English ASR and then machine-translate it, taking both disadvantages.
 
-    rank  軌道                              代價
+    rank  track                              cost
     ────────────────────────────────────────────────────────────────────
-    0     manual，中文                      零 MT、有標點、全額 budget
-    1     manual，原語言                    有標點，一趟 Google MT
-    2     manual，其他語言                  人工翻譯 + 一趟 MT
-    3     auto，原語言                      真 ASR，無標點
-    4     auto，中文                        ASR + YouTube MT，省下 Google 那趟
-    5     auto，其他語言                    ASR + MT
-    6     chained（zh-Hant-xx / zh-Hans-xx）ASR + 兩趟 MT，還帶浮水印
+    0     manual, Chinese                   zero MT, punctuation, full budget
+    1     manual, original language         punctuation, one Google MT pass
+    2     manual, other language             human translation + one MT pass
+    3     auto, original language            actual ASR, no punctuation
+    4     auto, Chinese                      ASR + YouTube MT, saves one Google pass
+    5     auto, other language               ASR + MT
+    6     chained (zh-Hant-xx / zh-Hans-xx)  ASR + two MT passes, also watermarked
 
-原語言就是中文時 rank 0 與 1 自然重合，不需要特例。
+When the original language is Chinese, rank 0 and rank 1 naturally overlap;
+no special case is needed.
 """
 
 from __future__ import annotations
 
 import sys
 
-# 中文的各種寫法。zh-CN / zh-SG 舊版漏掉，於是人工簡中字幕掉到「其他語言」那
-# 一層——opencc 本來就會把簡中轉繁，它屬於中文。
+# Various forms of Chinese. The old version omitted zh-CN / zh-SG, causing
+# manually provided Simplified Chinese subtitles to fall into the "other
+# language" tier—OpenCC can convert Simplified Chinese to Traditional Chinese,
+# so they should be treated as Chinese.
+# yt-dlp treats a replay of a live chat as a "language" in subtitles
+# (`live_chat`), but its format is JSON rather than VTT. The old version treated
+# it as manually provided subtitles in a third language (rank 2), causing any
+# video that had live chat enabled to download it, after which --sub-format vtt
+# could not retrieve anything and the entire video was marked as failed.
+# In one test run, 53 out of 79 entries failed for this reason. It is not a
+# language, so filter it out directly from the candidates.
+# Note that normalize() converts underscores to hyphens (to support forms such
+# as zh_Hant), so the literal used for comparison must also use a hyphen.
+NON_LANG_TRACKS = {"live-chat", "rechat"}
+
 ZH_REGIONS = {"tw", "hk", "cn", "mo", "sg"}
 ZH_BASE = {"zh", "zh-hant", "zh-hans", "zh-chs", "zh-cht"}
 
-# rank 表：(is_manual, 語言類別) → rank。語言類別見 lang_class()。
+# rank mapping: (is_manual, language class) → rank.
+# Language classes are defined by lang_class().
 _RANKS = {
     (True,  "zh"):    0,
     (True,  "orig"):  1,
@@ -52,9 +75,11 @@ _RANKS = {
 }
 CHAINED_RANK = 6
 
-# 取用端只有檔名，檔名沒有記 manual/auto（`{id}.{orig}.{sub}.vtt`），所以那邊
-# 用這份只看語言的順序。中文排在原語言之前：既然下載端已經把 manual 中文排到
-# 最前面，磁碟上的中文檔大概就是人工的，而且無論如何都省下一趟 MT。
+# The consumer only has the filename; the filename does not record manual/auto
+# (`{id}.{orig}.{sub}.vtt`), so it uses this language-only ordering. Chinese is
+# ranked before the original language: since the downloader already places
+# manual Chinese first, a Chinese file on disk is probably manual, and in any
+# case it saves one MT pass.
 _LANG_ONLY_RANKS = {"zh": 0, "orig": 1, "other": 2}
 LANG_ONLY_CHAINED_RANK = 3
 
@@ -63,12 +88,21 @@ def normalize(lang: str | None) -> str:
     return (lang or "").strip().lower().replace("_", "-")
 
 
-def is_chained(lang: str | None) -> bool:
-    """YouTube 把自動字幕再機翻一次所產生的變體，例如 zh-Hant-en。
+def is_non_lang(lang: str | None) -> bool:
+    """A track that is not a language (e.g. a live-chat replay).
+    Such tracks should not be candidates.
+    """
+    return normalize(lang) in NON_LANG_TRACKS
 
-    判準是「zh-hant / zh-hans 後面接的不是地區子標籤」。舊版用
-    `^zh-(hant|hans)-.+` 一律當 chain，會把 zh-Hant-TW 這種正規 locale 誤判成
-    雙重機翻，直接踢到最後一名。
+
+def is_chained(lang: str | None) -> bool:
+    """A variant produced when YouTube machine-translates auto subtitles again,
+    such as zh-Hant-en.
+
+    The criterion is "the subtag after zh-hant / zh-hans is not a region
+    subtag". The old version used `^zh-(hant|hans)-.+` and treated all matches
+    as chained, which incorrectly classified valid locales such as zh-Hant-TW
+    as double machine-translated subtitles and pushed them to the last rank.
     """
     l = normalize(lang)
     for base in ("zh-hant-", "zh-hans-"):
@@ -78,7 +112,9 @@ def is_chained(lang: str | None) -> bool:
 
 
 def is_zh(lang: str | None) -> bool:
-    """中文（含各地區寫法與 zh-Hant-TW 這類三段式 locale），但不含 chained。"""
+    """Chinese, including regional forms and three-part locales such as
+    zh-Hant-TW, but excluding chained tracks.
+    """
     l = normalize(lang)
     if not l or is_chained(l):
         return False
@@ -87,13 +123,16 @@ def is_zh(lang: str | None) -> bool:
     parts = l.split("-")
     if parts[0] != "zh":
         return False
-    # zh-tw / zh-cn…，以及 zh-hant-tw / zh-hans-cn
+    # zh-tw / zh-cn..., as well as zh-hant-tw / zh-hans-cn
     return parts[-1] in ZH_REGIONS or l in ZH_BASE
 
 
 def lang_class(lang: str | None, orig_lang: str | None) -> str:
-    """"chained" / "zh" / "orig" / "other"。中文優先於原語言：兩者相同時走
-    "zh"，rank 表裡 (True, "zh") 與 (True, "orig") 的差別因此不會有影響。"""
+    """"chained" / "zh" / "orig" / "other". Chinese takes priority over the
+    original language: when both are the same, it is classified as "zh", so
+    the difference between (True, "zh") and (True, "orig") in the rank table
+    has no effect.
+    """
     l = normalize(lang)
     if is_chained(l):
         return "chained"
@@ -105,7 +144,9 @@ def lang_class(lang: str | None, orig_lang: str | None) -> str:
 
 
 def track_rank(lang: str | None, orig_lang: str | None, is_manual: bool) -> int:
-    """數字小的優先。給下載端用（那邊知道軌道是人工還是自動）。"""
+    """Lower numbers have higher priority. Used by the downloader, which knows
+    whether a track is manual or automatic.
+    """
     cls = lang_class(lang, orig_lang)
     if cls == "chained":
         return CHAINED_RANK
@@ -113,7 +154,10 @@ def track_rank(lang: str | None, orig_lang: str | None, is_manual: bool) -> int:
 
 
 def file_rank(sub_lang: str | None, orig_lang: str | None) -> int:
-    """數字小的優先。給取用端用（只有檔名，不知道 manual/auto）。"""
+    """Lower numbers have higher priority. Used by the consumer, which only
+    has the filename and does not know whether the track is manual or
+    automatic.
+    """
     cls = lang_class(sub_lang, orig_lang)
     if cls == "chained":
         return LANG_ONLY_CHAINED_RANK
@@ -121,13 +165,16 @@ def file_rank(sub_lang: str | None, orig_lang: str | None) -> int:
 
 
 def choose_track(manual, auto, orig_lang: str | None):
-    """從 yt-dlp 的 subtitles / automatic_captions 兩份 dict 挑一軌。
+    """Choose one track from yt-dlp's subtitles / automatic_captions dicts.
 
-    回傳 (is_manual, lang)，兩邊都空時回傳 None。同 rank 時先人工、再按語言碼
-    排序，讓跨輪的結果穩定。
+    Returns (is_manual, lang). Returns None when both are empty. If ranks are
+    equal, manual tracks are preferred first, followed by language-code
+    ordering, so results remain stable across runs.
     """
-    candidates = [(track_rank(l, orig_lang, True), 0, l, True) for l in (manual or {})]
-    candidates += [(track_rank(l, orig_lang, False), 1, l, False) for l in (auto or {})]
+    candidates = [(track_rank(l, orig_lang, True), 0, l, True)
+                  for l in (manual or {}) if not is_non_lang(l)]
+    candidates += [(track_rank(l, orig_lang, False), 1, l, False)
+                   for l in (auto or {}) if not is_non_lang(l)]
     if not candidates:
         return None
     candidates.sort(key=lambda c: (c[0], c[1], c[2]))
@@ -144,34 +191,50 @@ def _self_test() -> int:
         if got != want:
             failures.append(f"{label}: got {got!r}, want {want!r}")
 
-    # 這次改動的核心：人工中文要贏過原語言的自動字幕
+    # Core change in this revision: manual Chinese should beat auto original
+    # language subtitles.
     eq(choose_track({"zh-Hant": {}}, {"en": {}}, "en"), (True, "zh-Hant"),
        "manual zh should beat auto original")
-    # 人工原語言仍然贏過人工的第三語言
+    # Manual original language still beats manually provided third-language
+    # subtitles.
     eq(choose_track({"en": {}, "fr": {}}, {}, "en"), (True, "en"),
        "manual original should beat manual third language")
-    # 沒有人工軌時，原語言的 ASR 勝過 YouTube 機翻的中文
+    # When there is no manual track, original-language ASR beats YouTube's
+    # machine-translated Chinese subtitles.
     eq(choose_track({}, {"en": {}, "zh-Hant": {}}, "en"), (False, "en"),
        "auto original should beat auto-translated zh")
-    # chained 永遠最後
+    # Chained tracks always rank last.
     eq(choose_track({}, {"zh-Hant-en": {}, "de": {}}, "en"), (False, "de"),
        "chained should lose to any plain auto track")
     eq(choose_track({"zh-Hant-en": {}}, {}, "en"), (True, "zh-Hant-en"),
        "chained is still better than nothing")
     eq(choose_track({}, {}, "en"), None, "no tracks at all")
-    # 原語言就是中文：人工勝自動，且落在 rank 0
+    # When the original language is Chinese: manual beats auto, and falls into
+    # rank 0.
     eq(choose_track({"zh-TW": {}}, {"zh-TW": {}}, "zh-TW"), (True, "zh-TW"),
        "manual should beat auto for the same language")
     eq(track_rank("zh-TW", "zh-TW", True), 0, "manual zh original is rank 0")
 
-    # 舊版漏掉的簡中地區碼
+    # live_chat is not a language: when it is the only track, it is equivalent
+    # to having no subtitles.
+    eq(choose_track({"live_chat": {}}, {}, None), None,
+       "live_chat alone is not a subtitle track")
+    eq(choose_track({"live_chat": {}, "zh-TW": {}}, {}, "en"), (True, "zh-TW"),
+       "live_chat must not be picked over a real track")
+    eq(choose_track({"live_chat": {}}, {"en": {}}, "en"), (False, "en"),
+       "a real auto track beats live_chat")
+    if not is_non_lang("LIVE_CHAT"):
+        failures.append("is_non_lang should be case-insensitive")
+
+    # Simplified Chinese regional codes omitted by the old version.
     for l in ("zh-CN", "zh-SG", "zh-Hans-CN", "zh-MO"):
         if not is_zh(l):
             failures.append(f"{l} should count as Chinese")
     eq(choose_track({"zh-CN": {}}, {"en": {}}, "en"), (True, "zh-CN"),
        "manual zh-CN should beat auto original")
 
-    # chained 的誤判：zh-Hant-TW 是正規 locale，不是雙重機翻
+    # Chained misclassification: zh-Hant-TW is a valid locale, not a
+    # double machine-translated track.
     if is_chained("zh-Hant-TW"):
         failures.append("zh-Hant-TW is a locale, not a chained track")
     for l in ("zh-Hant-en", "zh-Hans-ja", "zh-Hant-ko"):
@@ -180,16 +243,16 @@ def _self_test() -> int:
     eq(choose_track({"zh-Hant-TW": {}}, {"en": {}}, "en"), (True, "zh-Hant-TW"),
        "zh-Hant-TW should be treated as plain Chinese")
 
-    # 取用端（只看語言）：中文優先，chained 最後
+    # Consumer side (language only): Chinese first, chained last.
     eq(file_rank("zh-Hant", "en"), 0, "file: zh first")
     eq(file_rank("en", "en"), 1, "file: original second")
     eq(file_rank("de", "en"), 2, "file: third language")
     eq(file_rank("zh-Hant-en", "en"), 3, "file: chained last")
 
-    # 大小寫與底線不該影響判斷
+    # Case and underscores should not affect the classification.
     eq(track_rank("ZH_HANT", "en", True), 0, "case/underscore insensitive")
 
-    # rank 表的完整性
+    # Completeness of the rank table.
     for manual in (True, False):
         for cls in ("zh", "orig", "other"):
             if (manual, cls) not in _RANKS:
