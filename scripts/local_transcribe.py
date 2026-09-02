@@ -8,6 +8,13 @@ int8) does the ASR, and the WebVTT is written here by hand. Model weights are
 fetched from Hugging Face on first use into HF_HOME; after that the Actions
 cache carries them between runs.
 
+No ffmpeg binary is needed either. faster-whisper decodes audio through PyAV,
+which bundles the FFmpeg libraries in its own wheel, so the downloaded stream
+is handed to the model as-is instead of being transcoded to wav first. An
+earlier version ran yt-dlp's --extract-audio postprocessor, which does shell
+out to ffmpeg -- on a runner without it every item failed with
+"ASR-SKIP (ffmpeg not found)".
+
 Output filenames deliberately match what yt-dlp produces with
 `-o {id}.%(language)s.%(ext)s`:
 
@@ -23,7 +30,6 @@ already carries — no extra tier is needed for it.
 from __future__ import annotations
 
 import os
-import shutil
 import subprocess
 import sys
 import tempfile
@@ -53,8 +59,6 @@ def available() -> tuple[bool, str]:
         import faster_whisper  # noqa: F401
     except ImportError:
         return False, "faster-whisper not installed"
-    if not shutil.which("ffmpeg"):
-        return False, "ffmpeg not found"
     return True, ""
 
 
@@ -110,12 +114,12 @@ def segments_to_vtt(segments) -> str:
 def download_audio(url: str, cookies_path: Path, work_dir: Path,
                    common_args: list[str], timeout: float = AUDIO_TIMEOUT,
                    runner=None):
-    """Grab the smallest audio track and convert it to 16 kHz mono wav
-    (whisper's native sample rate).
+    """Grab the smallest audio-only stream, as-is.
 
-    Returns (wav_path, err); wav_path is None on failure. When `runner` is
-    given (download_sub.run_ytdlp), timeouts get the same process-group
-    cleanup as the subtitle downloads.
+    No transcoding: PyAV (inside faster-whisper) decodes m4a/webm/opus fine and
+    resamples to 16 kHz itself. Returns (audio_path, err); audio_path is None
+    on failure. When `runner` is given (download_sub.run_ytdlp), timeouts get
+    the same process-group cleanup as the subtitle downloads.
     """
     out_tpl = str(work_dir / "audio.%(ext)s")
     cmd = [
@@ -123,9 +127,6 @@ def download_audio(url: str, cookies_path: Path, work_dir: Path,
         "--cookies", str(cookies_path),
         *common_args,
         "-f", "bestaudio[abr<=64]/bestaudio/worstaudio",
-        "--extract-audio",
-        "--audio-format", "wav",
-        "--postprocessor-args", "ExtractAudio:-ac 1 -ar 16000",
         "-o", out_tpl,
         url,
     ]
@@ -139,10 +140,10 @@ def download_audio(url: str, cookies_path: Path, work_dir: Path,
         return None, f"audio download timed out after {timeout}s"
     if rc != 0:
         return None, output.strip()[-2000:]
-    wavs = sorted(work_dir.glob("audio*.wav"))
-    if not wavs:
-        return None, "no wav produced\n" + output.strip()[-1000:]
-    return wavs[0], ""
+    files = sorted(p for p in work_dir.glob("audio.*") if p.suffix != ".part")
+    if not files:
+        return None, "no audio file produced\n" + output.strip()[-1000:]
+    return files[0], ""
 
 
 def transcribe_to_vtt(
@@ -179,14 +180,14 @@ def transcribe_to_vtt(
 
     with tempfile.TemporaryDirectory(prefix=f"asr-{item_id}-") as d:
         work_dir = Path(d)
-        wav, err = download_audio(url, cookies_path, work_dir, common_args,
-                                  audio_timeout, runner)
-        if wav is None:
+        audio, err = download_audio(url, cookies_path, work_dir, common_args,
+                                    audio_timeout, runner)
+        if audio is None:
             raise RuntimeError(f"audio download failed: {err}")
 
         model = _load_model(model_name, compute_type)
         segments, info = model.transcribe(
-            str(wav),
+            str(audio),
             beam_size=1,
             vad_filter=True,
             # Cuts down on whisper's repetition degeneration, where one phrase
