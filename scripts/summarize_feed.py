@@ -298,7 +298,7 @@ JUNK_BODY_RE = re.compile(
     r"|[Mm]aking sure you'?re not a bot"
     r"|Anubis (?:to protect|has protected)"
     r"|Comprehensive up-to-date news coverage, aggregated from sources"
-    r"|豆瓣[\sa-zA-Z.]{0,24}載入中|豆瓣[\sa-zA-Z.]{0,24}加载中"
+    r"|豆瓣[\sa-zA-Z.]{0,24}(?:載入中|载入中|加載中|加载中)"
     r"|安全验证|安全驗證|验证码|驗證碼"
     r"|禁止访问|禁止訪問|访问异常|異常流量|异常流量"
     r"|正在驗證您的請求|正在验证您的请求"
@@ -831,6 +831,27 @@ def vtt_to_text(path: str) -> str:
 
 IMAGE_EXT_RE = re.compile(r"\.(?:png|jpe?g|gif|webp|avif|svg)(?:$|[?#])", re.I)
 
+# Images the heuristics below cannot judge from the filename alone: sponsor and
+# partner logos whose names read like an article subject. "Foresight-Ventures"
+# and "Foresight-News" look exactly like a topical filename, so they score as
+# usable and end up as the thumbnail on hundreds of unrelated articles.
+# An exact-url list rather than more filename rules: these are specific files,
+# and guessing at the pattern would start rejecting real article images.
+THUMB_URL_DENY = frozenset({
+    "https://image.blocktempo.com/2025/03/foresight-ventures.png",
+    "https://image.blocktempo.com/2025/03/foresight-news.png",
+    "https://image.blocktempo.com/2026/04/mexc-logo-v2.png",
+})
+
+
+def thumbnail_url_denied(url: str) -> bool:
+    """Exact-match against THUMB_URL_DENY, ignoring case and the query
+    string (CDNs append ?w=&h= renditions of the same file)."""
+    if not url:
+        return False
+    bare = url.split("?", 1)[0].split("#", 1)[0].strip().lower()
+    return bare in THUMB_URL_DENY
+
 # Stock libraries and wire services.
 THUMB_STOCK_RE = re.compile(
     r"shutterstock[_-]?\d*"
@@ -981,6 +1002,8 @@ def thumbnail_is_usable(url: str) -> tuple[bool, str]:
     """
     if not url or not url.lower().startswith(("http://", "https://")):
         return False, "not an absolute url"
+    if thumbnail_url_denied(url):
+        return False, "explicitly denied url"
     if url.startswith("data:"):
         return False, "data uri"
     path = url.split("?", 1)[0].split("#", 1)[0]
@@ -1161,6 +1184,26 @@ def host_of(url: str) -> str:
         return urlparse(url or "").netloc.lower()
     except Exception:
         return ""
+
+
+# Sites that serve the same skeleton page from every subdomain. Pausing on the
+# exact netloc is useless for these: douban alone spreads over movie./book./
+# music./www., so a run would hit the placeholder once per subdomain before
+# giving up. Listed explicitly rather than collapsing every host to its last
+# two labels, which would over-block shared domains like blogspot.com.
+JUNK_PAUSE_DOMAINS: tuple[str, ...] = (
+    "douban.com",
+)
+
+
+def junk_pause_key(url: str) -> str:
+    """The key to pause fetching on after a junk page. The whole site for the
+    domains above, the bare host for everything else."""
+    host = host_of(url)
+    for domain in JUNK_PAUSE_DOMAINS:
+        if host == domain or host.endswith("." + domain):
+            return domain
+    return host
 
 
 def is_slow_host(url: str) -> bool:
@@ -2115,7 +2158,7 @@ def main(argv=None) -> int:
 
         url = it["url"]
 
-        host = host_of(url)
+        host = junk_pause_key(url)
         if is_summary_skip_host(url):
             continue
         if host in junk_hosts:
