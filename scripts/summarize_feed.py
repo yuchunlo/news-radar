@@ -993,6 +993,32 @@ def _thumb_tokens(stem: str) -> list[str]:
     return [t for t in re.split(r"[^a-z0-9]+", stem.lower()) if t]
 
 
+# Hosts that only ever serve an article's own uploaded images, where the
+# filename carries no signal: Blogger puts the real identity in an opaque path
+# segment ("/img/b/R29vZ2xl/AVvXsEhQ/s1600/tw.png") and lets the author keep
+# whatever short name they uploaded. Every filename rule below is therefore
+# guaranteed to misfire on them -- "tw.png" reads as "filename too short to
+# judge", and the newer extensionless "/img/a/AVvXsE..." form reads as "no
+# image extension". Neither says anything about the picture. Judging these by
+# host is the only signal available, and it is a safe one: these hosts do not
+# serve site furniture, so there are no logos or icons to screen out.
+THUMB_TRUSTED_HOSTS = (
+    "blogger.googleusercontent.com",
+    "bp.blogspot.com",                 # 1.bp.blogspot.com … 4.bp.blogspot.com
+)
+# Blogger's proxy lives on the shared lh*.googleusercontent.com hosts, which do
+# serve other things, so it is matched by path rather than host alone.
+THUMB_TRUSTED_PATH_RE = re.compile(
+    r"^https?://lh\d+\.googleusercontent\.com/blogger_img_proxy/", re.I)
+
+
+def thumbnail_host_trusted(url: str) -> bool:
+    host = host_of(url)
+    if any(host == h or host.endswith("." + h) for h in THUMB_TRUSTED_HOSTS):
+        return True
+    return bool(THUMB_TRUSTED_PATH_RE.match(url or ""))
+
+
 def thumbnail_is_usable(url: str) -> tuple[bool, str]:
     """Whether an image url looks like a chart/map worth keeping.
 
@@ -1006,6 +1032,11 @@ def thumbnail_is_usable(url: str) -> tuple[bool, str]:
         return False, "explicitly denied url"
     if url.startswith("data:"):
         return False, "data uri"
+    if thumbnail_host_trusted(url):
+        # .svg still excluded: it would be a logo wherever it is served from.
+        if url.split("?", 1)[0].lower().endswith(".svg"):
+            return False, "svg (usually a logo or icon)"
+        return True, "trusted image host"
     path = url.split("?", 1)[0].split("#", 1)[0]
     name = path.rstrip("/").rsplit("/", 1)[-1]
     if not IMAGE_EXT_RE.search(path) and not re.search(r"\.(?:png|jpe?g|webp|avif)$", name, re.I):
@@ -2111,6 +2142,17 @@ def main(argv=None) -> int:
             print(f"  [{idx}/{len(feed_first)}] "
                   f"({it.get('published_at') or 'no date'}) {it.get('title', '')[:60]}")
             print(f"      {it['url']}")
+            # Before summarising, not after: the thumbnail does not depend on
+            # the summary succeeding, and posts that are a chart plus a
+            # one-line title (mcclin.blogspot.com and other chart blogs) fail
+            # every summary attempt because their extracted text is nothing but
+            # Blogger chrome. Leaving this below the `continue` meant those
+            # items never got a thumbnail on any run, even though the image was
+            # sitting in the feed copy the whole time.
+            if set_thumbnail_from_feed(it, feed_html):
+                # Count it as unsaved work, so a thumbnail found on an item
+                # whose summary then fails still reaches disk.
+                pending_save += 1
             try:
                 summary = build_summary(content, source_type, kind="feed")
             except Exception as e:
@@ -2122,7 +2164,6 @@ def main(argv=None) -> int:
                 ff_failed += 1
                 continue
             it["summary"] = summary
-            set_thumbnail_from_feed(it, feed_html)
             it.pop("feed_content", None)
             ff_ok += 1
             pending_save += 1
@@ -2139,7 +2180,16 @@ def main(argv=None) -> int:
     # ---- Pass 2: everything else, one page fetch at a time ------------------
     pending = [it for it in pending if not it.get("summary")]
     for it in pending:
-        if is_feed_first_host(it.get("url", "")):
+        # Normally a feed-first host is left to pass 1, which summarises from
+        # the stored feed copy without fetching the page. But pass 1 only takes
+        # items that actually have feed_content, so an item on such a host with
+        # none is picked up by neither pass and stays pending forever -- no
+        # summary and no thumbnail, on every future run. That is the state all
+        # 82 mcclin.blogspot.com items were in: the feed had long since rolled
+        # past those posts, so the copy was gone. Only skip to pass 1 when
+        # there is in fact feed content for it to use.
+        if (is_feed_first_host(it.get("url", ""))
+                and (it.get("feed_content") or "").strip()):
             continue
         if attempted >= MAX_ITEMS:
             print(f"Reached MAX_ITEMS={MAX_ITEMS}, stopping.")
