@@ -12,6 +12,7 @@ import time
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+import jsonio
 import subtitle_priority
 import local_transcribe
 from subtitle_priority import choose_track
@@ -151,19 +152,69 @@ def discard_partial(out_dir: Path, item_id: str) -> list[str]:
     return removed
 
 
+class AsrBudget:
+    """Every reason ASR might not run, and the accounting behind them.
+
+    These checks used to be split in two: `available` / `is_live` /
+    `max_asr_duration` inside try_transcribe, and `--no-transcribe` /
+    `transcribed < max_transcribe` repeated at each of the two call sites in
+    the main loop. Same condition written twice is one edit away from the two
+    paths disagreeing, so it all lives here now.
+
+    The count cap is also the wrong unit. Twenty videos is a trivial job at 10
+    minutes each and an impossible one at 3 hours each, and with the ceiling
+    raised to 3 hours the count no longer bounds anything that matters. What
+    actually has to fit in the runner is *audio-seconds*, so the budget is
+    denominated in those; the count cap stays as a secondary guard.
+    """
+
+    def __init__(self, enabled: bool, max_items: int, max_total: float,
+                 max_duration: float):
+        self.enabled = enabled
+        self.max_items = max_items
+        self.max_total = max_total
+        self.max_duration = max_duration
+        self.count = 0
+        self.spent = 0.0          # audio-seconds committed this run
+
+    def remaining(self) -> float:
+        return self.max_total - self.spent if self.max_total else float("inf")
+
+    def why_not(self, duration: float, is_live: bool) -> str | None:
+        """Reason to skip, or None to go ahead."""
+        if not self.enabled:
+            return "transcription disabled"
+        ok, why = local_transcribe.available()
+        if not ok:
+            return why
+        if is_live:
+            return "still live"
+        if self.max_items and self.count >= self.max_items:
+            return f"per-run item cap reached ({self.max_items})"
+        if self.max_duration and duration > self.max_duration:
+            return (f"{duration / 60:.0f} min > "
+                    f"{self.max_duration / 60:.0f} min")
+        if self.max_total and duration > self.remaining():
+            return (f"{duration / 60:.0f} min exceeds remaining budget "
+                    f"{self.remaining() / 60:.0f} min")
+        return None
+
+    def record(self, duration: float) -> None:
+        self.count += 1
+        self.spent += max(duration, 0.0)
+
+    def report(self) -> str:
+        return (f"asr={self.count} "
+                f"audio={self.spent / 60:.0f}min"
+                + (f"/{self.max_total / 60:.0f}min" if self.max_total else ""))
+
+
 def try_transcribe(url: str, cookies_path: Path, out_dir: Path, item_id: str,
-                   orig_lang: str | None, args,
+                   orig_lang: str | None, args, budget: AsrBudget,
                    duration: float = 0.0, is_live: bool = False) -> bool:
-    ok, why = local_transcribe.available()
-    if not ok:
+    why = budget.why_not(duration, is_live)
+    if why:
         print(f"[ASR-SKIP] item {item_id}: {why}")
-        return False
-    if is_live:
-        print(f"[ASR-SKIP] item {item_id}: still live")
-        return False
-    if args.max_asr_duration and duration > args.max_asr_duration:
-        print(f"[ASR-SKIP] item {item_id}: {duration / 60:.0f} min "
-              f"> {args.max_asr_duration / 60:.0f} min")
         return False
     try:
         path, detected = local_transcribe.transcribe_to_vtt(
@@ -177,14 +228,17 @@ def try_transcribe(url: str, cookies_path: Path, out_dir: Path, item_id: str,
             compute_type=args.whisper_compute_type,
             audio_timeout=args.audio_timeout,
             max_duration=args.max_asr_duration,
+            duration_hint=duration,
             runner=run_ytdlp,
         )
     except Exception as exc:
         discard_partial(out_dir, item_id)
         print(f"[ASR-FAILED] item {item_id}: {exc}")
         return False
+    budget.record(duration)
     print(f"[ASR] item {item_id}: {path.name} (lang={detected}, "
-          f"model={args.whisper_model})")
+          f"model={args.whisper_model}, {duration / 60:.0f}min, "
+          f"{budget.report()})")
     return True
 
 
@@ -207,7 +261,14 @@ def main():
                         default=local_transcribe.MAX_DURATION,
                         help="Skip ASR on videos longer (0 = unlimited)")
     parser.add_argument("--max-transcribe", type=int, default=20,
-                        help="Maximum number of videos to transcribe")
+                        help="Maximum number of videos to transcribe "
+                             "(secondary guard; 0 = unlimited)")
+    parser.add_argument("--max-asr-total", type=float, default=4 * 60 * 60,
+                        metavar="SECONDS",
+                        help="Total audio-seconds to transcribe per run "
+                             "(0 = unlimited). This is the real cap: the "
+                             "runner budget is spent on audio length, not on "
+                             "number of videos.")
     parser.add_argument("--self-test", action="store_true")
     args = parser.parse_args()
 
@@ -225,9 +286,15 @@ def main():
     data = json.loads(archive_path.read_text(encoding="utf-8"))
     items = data.get("items", [])
 
+    budget = AsrBudget(
+        enabled=not args.no_transcribe,
+        max_items=args.max_transcribe,
+        max_total=args.max_asr_total,
+        max_duration=args.max_asr_duration,
+    )
+    dirty = False
     processed = 0
     succeeded = 0
-    transcribed = 0
     failed = 0
     timed_out_count = 0
     no_subs = 0
@@ -257,16 +324,23 @@ def main():
             break
 
         manual, auto, orig_lang, duration, is_live = probe
+        # The probe already paid for this; keeping it means later runs and the
+        # summariser can see how long an item is without re-probing. Stored as
+        # `length` (whole seconds); `duration` stays the name of yt-dlp's own
+        # json key that it is read from, just above.
+        if duration and item.get("length") != int(duration):
+            item["length"] = int(duration)
+            dirty = True
+
         choice = choose_track(manual, auto, orig_lang)
         if choice is None:
-            if (not args.no_transcribe and transcribed < args.max_transcribe
-                    and try_transcribe(url, cookies_path, out_dir, item_id,
-                                       orig_lang, args, duration, is_live)):
-                transcribed += 1
+            if try_transcribe(url, cookies_path, out_dir, item_id,
+                              orig_lang, args, budget, duration, is_live):
                 succeeded += 1
             else:
                 no_subs += 1
                 item["summary"] = " "
+                dirty = True
             processed += 1
             continue
 
@@ -293,14 +367,13 @@ def main():
             print(f"[FAILED] item {item_id} (exit {returncode}): {output}")
         elif not already_downloaded(out_dir, item_id):
             if "no subtitles for the requested languages" in lowered:
-                if (not args.no_transcribe and transcribed < args.max_transcribe
-                        and try_transcribe(url, cookies_path, out_dir, item_id,
-                                           orig_lang, args, duration, is_live)):
-                    transcribed += 1
+                if try_transcribe(url, cookies_path, out_dir, item_id,
+                                  orig_lang, args, budget, duration, is_live):
                     succeeded += 1
                 else:
                     no_subs += 1
                     item["summary"] = " "
+                    dirty = True
             else:
                 failed += 1
                 print(f"[FAILED] item {item_id} (exit 0): {output}")
@@ -309,12 +382,15 @@ def main():
 
         processed += 1
 
-    if no_subs:
-        archive_path.write_text(
-            json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8"
-        )
+    if dirty:
+        # jsonio, not json.dumps(indent=2): every other script in the pipeline
+        # writes this file through jsonio, and rewriting it here with a
+        # different indent reformatted the whole archive on any run that
+        # touched an item. Also keyed off `dirty` rather than `no_subs`, so a
+        # run that only recorded durations still saves them.
+        jsonio.write_atomic(archive_path, data)
 
-    print(f"Done. succeeded={succeeded} (asr={transcribed}) failed={failed} "
+    print(f"Done. succeeded={succeeded} ({budget.report()}) failed={failed} "
           f"no_subs={no_subs} timed_out={timed_out_count}")
 
 
