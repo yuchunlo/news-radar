@@ -125,6 +125,7 @@ def is_summary_skip_host(url: str) -> bool:
 
 FEED_FIRST_HOSTS = (
     "abei.club",
+    "aftermath.site",
     "ageofinvention.xyz",
     "artincontext.org",
     "attlin.com",
@@ -172,6 +173,7 @@ FEED_FIRST_HOSTS = (
     "readtrung.com",
     "ruanyifeng.com",
     "samaltman.com",
+    "shenlvmeng.github.com",
     "shiuncorner.com",
     "sirupsen.com",
     "sive.rs",
@@ -1370,6 +1372,13 @@ def set_thumbnail_from_feed(it: dict, feed_html: str) -> str | None:
     return found
 
 
+# One "opted out" line per article is informative; one per fetch attempt is
+# noise. fetch_article calls extract_thumbnail once per client mode (plain,
+# then curl_cffi) and again for the wayback copy, and a skipped host never
+# fills meta_out["thumbnail"], so nothing stops the repeat but this.
+_THUMB_SKIP_LOGGED: set = set()
+
+
 def extract_thumbnail(html: str, base_url: str, log: bool = True):
     """First usable image from the page: og:image / twitter:image, then the
     first <img> in the body. Returns None when nothing passes the filter."""
@@ -1378,7 +1387,8 @@ def extract_thumbnail(html: str, base_url: str, log: bool = True):
     if thumbnail_host_skipped(base_url):
         # Opted out at the source, so don't even scan: whatever this site puts
         # in og:image is not wanted as a thumbnail.
-        if log:
+        if log and base_url not in _THUMB_SKIP_LOGGED:
+            _THUMB_SKIP_LOGGED.add(base_url)
             print(f"    thumbnail: skipped, {host_of(base_url)} is opted out")
         return None
     candidates = []
@@ -2292,7 +2302,13 @@ def load_items(path: str):
     return None, None
 
 
-FEED_REPORT_SKIP_HOSTS = ("news.google.com",)
+FEED_REPORT_SKIP_HOSTS = (
+    "news.google.com",
+    "douban.com",
+    "zhihu.com",
+    "finance.technews.tw",
+    "vocus.cc",
+)
 
 
 def _is_report_skip_host(url: str) -> bool:
