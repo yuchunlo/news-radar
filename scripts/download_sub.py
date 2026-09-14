@@ -95,6 +95,10 @@ class CookiesExpired(Exception):
     """Cookies are invalid; nothing further will succeed this run."""
 
 
+class BudgetExhausted(Exception):
+    """Too little ASR budget left to be worth continuing."""
+
+
 def probe_subtitle_langs(url: str, cookies_path: Path,
                          timeout: float = PROBE_TIMEOUT):
     """Fetch the list of available subtitle languages
@@ -188,6 +192,14 @@ class AsrBudget:
     denominated in those; the count cap stays as a secondary guard.
     """
 
+    # At or below this much remaining budget, carrying on costs a yt-dlp probe
+    # per item to reach a skip that was already certain. Anything shorter than
+    # a typical video cannot be transcribed anyway. Inclusive: landing exactly
+    # on the threshold is the common case, not an edge one -- budgets and video
+    # lengths are both round numbers, so a 70 min budget spent on two 30 min
+    # videos leaves precisely 10.
+    EXHAUSTED_UNDER = 10 * 60
+
     def __init__(self, enabled: bool, max_items: int, max_total: float,
                  max_duration: float):
         self.enabled = enabled
@@ -196,9 +208,25 @@ class AsrBudget:
         self.max_duration = max_duration
         self.count = 0
         self.spent = 0.0          # audio-seconds committed this run
+        self.hit_budget_wall = False
 
     def remaining(self) -> float:
         return self.max_total - self.spent if self.max_total else float("inf")
+
+    def exhausted(self) -> bool:
+        """Effectively out of budget, as opposed to merely short for one item."""
+        return bool(self.max_total) and self.remaining() <= self.EXHAUSTED_UNDER
+
+    def should_stop(self) -> bool:
+        """Stop the run: the budget wall was hit and what is left is unusable.
+
+        Both conditions matter. Being under the threshold alone is not enough,
+        because items that already have subtitles still succeed without
+        touching ASR; only once an item has actually been turned away for lack
+        of budget is it clear the remainder is being spent on probes that can
+        only end the same way.
+        """
+        return self.hit_budget_wall and self.exhausted()
 
     def why_not(self, duration: float, is_live: bool) -> tuple[str, bool] | None:
         """(reason, permanent) to skip, or None to go ahead.
@@ -226,6 +254,7 @@ class AsrBudget:
             return (f"{duration / 60:.0f} min > "
                     f"{self.max_duration / 60:.0f} min"), True
         if self.max_total and duration > self.remaining():
+            self.hit_budget_wall = True
             return (f"{duration / 60:.0f} min exceeds remaining budget "
                     f"{self.remaining() / 60:.0f} min"), False
         return None
@@ -414,6 +443,8 @@ def main():
             choice = choose_track(manual, auto, orig_lang)
             if choice is None:
                 dirty |= asr()
+                if budget.should_stop():
+                    raise BudgetExhausted
                 continue
 
             is_manual, lang = choice
@@ -443,11 +474,17 @@ def main():
                 stats["succeeded"] += 1
             elif "no subtitles for the requested languages" in lowered:
                 dirty |= asr()
+                if budget.should_stop():
+                    raise BudgetExhausted
             else:
                 stats["failed"] += 1
                 print(f"[FAILED] item {item_id} (exit 0): {output}")
     except CookiesExpired:
         print("[EXPIRED] cookies invalid")
+    except BudgetExhausted:
+        print(f"[BUDGET] only {budget.remaining() / 60:.0f} min of ASR budget "
+              f"left after a skip; stopping so the rest stay pending for the "
+              f"next run instead of burning a probe each")
 
     if dirty:
         # jsonio, not json.dumps(indent=2): every other script in the pipeline
