@@ -41,12 +41,30 @@ from pathlib import Path
 DEFAULT_MODEL = os.environ.get("WHISPER_MODEL", "base")
 DEFAULT_COMPUTE_TYPE = os.environ.get("WHISPER_COMPUTE_TYPE", "int8")
 
-AUDIO_TIMEOUT = 300
+# Audio download timeout. A flat 300s was fine when nothing over an hour was
+# accepted, but the ceiling is now 3 hours and the file scales with it, so a
+# fixed cap would fail long videos halfway through the download every time.
+# Scaled instead: a floor so short videos still fail fast, then roughly 1s of
+# download allowed per 4s of audio, and an absolute cap so a stalled transfer
+# cannot hold the runner indefinitely.
+AUDIO_TIMEOUT = 300              # floor
+AUDIO_TIMEOUT_RATIO = 0.25       # 3h of audio -> 45 min
+AUDIO_TIMEOUT_MAX = 45 * 60
 AUDIO_PLAYER_CLIENTS = "tv,web_safari,default"
 AUDIO_FORMAT_SELECTOR = "bestaudio[abr<=64]/bestaudio/bestaudio*/best"
-# Anything longer than this is not transcribed: the runner's 6-hour ceiling
-# has to be left for the other items.
-MAX_DURATION = 3600
+# Anything longer than this is not transcribed on its own; the per-run budget
+# in download_sub is what stops a batch of long videos from eating the job.
+MAX_DURATION = 3 * 60 * 60  # 3 hours
+
+
+def audio_timeout_for(duration: float, base: float = AUDIO_TIMEOUT) -> float:
+    """Download timeout appropriate to the length of the video.
+
+    `base` stays the floor so an unknown duration (0) behaves as before.
+    """
+    if not duration or duration <= 0:
+        return base
+    return min(max(base, duration * AUDIO_TIMEOUT_RATIO), AUDIO_TIMEOUT_MAX)
 
 _model_cache: dict[tuple[str, str], object] = {}
 
@@ -183,6 +201,7 @@ def transcribe_to_vtt(
     compute_type: str = DEFAULT_COMPUTE_TYPE,
     audio_timeout: float = AUDIO_TIMEOUT,
     max_duration: float = MAX_DURATION,
+    duration_hint: float = 0.0,
     runner=None,
 ):
     """The whole pipeline. Returns (vtt_path, detected_lang); raises
@@ -206,8 +225,10 @@ def transcribe_to_vtt(
 
     with tempfile.TemporaryDirectory(prefix=f"asr-{item_id}-") as d:
         work_dir = Path(d)
+        # Scale off the probed duration when the caller supplied one.
+        effective_timeout = audio_timeout_for(duration_hint, audio_timeout)
         audio, err = download_audio(url, cookies_path, work_dir, common_args,
-                                    audio_timeout, runner)
+                                    effective_timeout, runner)
         if audio is None:
             raise RuntimeError(f"audio download failed: {err}")
 
