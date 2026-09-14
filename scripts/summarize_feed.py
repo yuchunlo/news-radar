@@ -1610,6 +1610,117 @@ def classify_text(body: str, meta: str, has_table: bool, has_code: bool = False)
     return None, None, False, False
 
 
+# --- Substack API -------------------------------------------------------
+# Substack's RSS only carries the most recent posts, so a publication that
+# was bulk-imported (the archive holds 398 unclestocknotes posts all first
+# seen on one day) has a backlog that no feed window will ever cover again.
+# Its public JSON API is not windowed, so it reaches those.
+#
+# The post endpoint is addressed by slug, and the slug is already in the url
+# (.../p/<slug>), so one request per article is enough -- /api/v1/archive is
+# only needed to *discover* posts, which is not the problem here. It stays as
+# a fallback for when the slug in the url no longer resolves (renamed posts).
+SUBSTACK_API_TIMEOUT = 20
+SUBSTACK_ARCHIVE_LIMIT = 50
+SUBSTACK_ARCHIVE_MAX_PAGES = 10
+# Substack publications on custom domains cannot be recognised from the
+# hostname; list them here if any turn up.
+SUBSTACK_EXTRA_HOSTS: tuple[str, ...] = ()
+_SUBSTACK_ARCHIVE_CACHE: dict[str, dict] = {}
+
+
+def is_substack(url: str) -> bool:
+    host = host_of(url)
+    return bool(host) and (host == "substack.com"
+                           or host.endswith(".substack.com")
+                           or host in SUBSTACK_EXTRA_HOSTS)
+
+
+def substack_slug(url: str) -> str | None:
+    m = re.search(r"/p/([^/?#]+)", url or "")
+    return m.group(1) if m else None
+
+
+def _substack_json(url: str):
+    """GET and parse JSON, returning None on any failure whatsoever."""
+    try:
+        text, status = _http_get(url, timeout=SUBSTACK_API_TIMEOUT)
+        if status != "ok" or not text:
+            text, status = _http_get(url, timeout=SUBSTACK_API_TIMEOUT,
+                                     impersonate=True)
+        if status != "ok" or not text:
+            print(f"    substack api {status}: {url}")
+            return None
+        return json.loads(text)
+    except Exception as e:
+        print(f"    substack api error ({type(e).__name__}: {e}): {url}")
+        return None
+
+
+def _substack_archive_index(host: str) -> dict:
+    """slug -> body_html for one publication, paged through /api/v1/archive.
+
+    Cached per host per run. Returns {} on any failure, so a publication that
+    has the API disabled costs one request and is then silently skipped.
+    """
+    if host in _SUBSTACK_ARCHIVE_CACHE:
+        return _SUBSTACK_ARCHIVE_CACHE[host]
+    index: dict[str, str] = {}
+    try:
+        for page in range(SUBSTACK_ARCHIVE_MAX_PAGES):
+            data = _substack_json(
+                f"https://{host}/api/v1/archive?sort=new"
+                f"&offset={page * SUBSTACK_ARCHIVE_LIMIT}"
+                f"&limit={SUBSTACK_ARCHIVE_LIMIT}")
+            if not isinstance(data, list) or not data:
+                break
+            for post in data:
+                if not isinstance(post, dict):
+                    continue
+                slug = post.get("slug")
+                if slug:
+                    index[slug] = post.get("body_html") or ""
+            if len(data) < SUBSTACK_ARCHIVE_LIMIT:
+                break
+    except Exception as e:
+        print(f"    substack archive error ({type(e).__name__}: {e}): {host}")
+    _SUBSTACK_ARCHIVE_CACHE[host] = index
+    print(f"    substack archive: {len(index)} posts indexed from {host}")
+    return index
+
+
+def fetch_via_substack_api(url: str):
+    """Article body from Substack's JSON API. Never raises.
+
+    Every failure mode -- API disabled, renamed slug, rate limit, malformed
+    JSON, network error -- is caught and turned into None plus a printed
+    reason, so the item simply falls through to the next strategy and the run
+    continues to its normal end and writes the archive.
+    """
+    try:
+        if not is_substack(url):
+            return None
+        slug = substack_slug(url)
+        if not slug:
+            return None
+        host = host_of(url)
+        data = _substack_json(f"https://{host}/api/v1/posts/{slug}")
+        if isinstance(data, dict):
+            body = data.get("body_html") or ""
+            if body.strip():
+                return body
+            if data.get("audience") == "only_paid":
+                print(f"    substack post is paywalled: {slug}")
+                return None
+        # Slug did not resolve; the archive listing may know it under another.
+        body = _substack_archive_index(host).get(slug)
+        return body or None
+    except Exception as e:
+        print(f"    substack api unexpected error "
+              f"({type(e).__name__}: {e}): {url}")
+        return None
+
+
 def fetch_via_reader(url: str):
     """r.jina.ai renders the page (JavaScript included) and returns plain text.
     Used for sites that won't serve their HTML to a script at all."""
@@ -1740,6 +1851,16 @@ def fetch_content(url: str, feed_content: str = "",
     if len(feed_text) >= MIN_USABLE_BODY:
         print("    recovered via feed content")
         return postprocess((feed_text, "body", False, False))
+
+    # Substack's API is not limited to the feed window, so it is the only
+    # first-party route to a bulk-imported backlog. Still ahead of the reader
+    # proxy and the archive for the same reason the feed is.
+    substack_html = fetch_via_substack_api(url)
+    if substack_html:
+        found = consider(substack_html)
+        if found:
+            print("    recovered via substack api")
+            return postprocess(found)
 
     # A blurb is a poor result but it is a result. Escalating to the external
     # services for every meta-only page would mean thousands of extra requests
@@ -2659,9 +2780,18 @@ def main(argv=None) -> int:
 
         feed_html = it.get("feed_content") or ""
         meta_out: dict = {}
-        content, source_type, has_table, has_code = fetch_content(
-            url, feed_content=feed_html, meta_out=meta_out
-        )
+        try:
+            content, source_type, has_table, has_code = fetch_content(
+                url, feed_content=feed_html, meta_out=meta_out
+            )
+        except Exception as e:
+            # One bad page must not cost the run every summary already made:
+            # the loop saves incrementally, but an escape here would skip the
+            # final strip-and-save entirely. Treat it as a transient failure
+            # so the item is retried rather than marked.
+            print(f"    fetch raised ({type(e).__name__}: {e}), kept pending")
+            failed += 1
+            continue
 
         outcome = OUTCOMES.get(source_type)
         if outcome is None and not content:
@@ -2731,16 +2861,22 @@ def main(argv=None) -> int:
     # ---- Pass 3: language backfill ------------------------------------------
     # After this batch's summaries are done, not instead of them: the fetch
     # loop above is the priority, and this only spends whatever time is left.
+    # Guarded: a backfill that dies must not cost the run the summaries the
+    # fetch loop just produced, so it reports and lets the save below proceed.
     if args.backfill:
-        backfill(
-            items,
-            translate_enabled=args.translate,
-            revalidate_thumbnails=args.revalidate_thumbnails,
-            limit=args.backfill_limit,
-            deadline=(start_time + TIME_BUDGET_SECONDS
-                      if TIME_BUDGET_SECONDS > 0 else None),
-            save=lambda: save_items(ITEMS_FILE, items, wrapper),
-        )
+        try:
+            backfill(
+                items,
+                translate_enabled=args.translate,
+                revalidate_thumbnails=args.revalidate_thumbnails,
+                limit=args.backfill_limit,
+                deadline=(start_time + TIME_BUDGET_SECONDS
+                          if TIME_BUDGET_SECONDS > 0 else None),
+                save=lambda: save_items(ITEMS_FILE, items, wrapper),
+            )
+        except Exception as e:
+            print(f"ERROR: backfill aborted ({type(e).__name__}: {e}); "
+                  f"summaries from this run are still being saved.")
         save_items(ITEMS_FILE, items, wrapper)
 
     dropped = strip_feed_content(items)
