@@ -146,11 +146,13 @@ FEED_FIRST_HOSTS = (
     "esence.travel",
     "first-cafe.com",
     "firstround.com",
+    "fomosoc.com",
     "fs.blog",
     "gilifedesigner.com",
     "honest-broker.com",
     "huli.tw",
     "hunterwalk.com",
+    "joestudwell.com",
     "kopu.chat",
     "limboy.me",
     "lipperalpha.refinitiv.com",
@@ -178,6 +180,7 @@ FEED_FIRST_HOSTS = (
     "starrocket.io",
     "steveblank.com",
     "substack.com",
+    "techcabal.com",
     "tiaodao.typlog.io",
     "travelwithbook.com",
     "trensse.com",
@@ -186,6 +189,7 @@ FEED_FIRST_HOSTS = (
     "vox.com",
     "waitbutwhy.com",
     "werner.wiki",
+    "whogovernstw.org",
     "wordpress.com",
     "yuanyu.idv.tw",
     "zmonster.me",
@@ -1072,6 +1076,8 @@ THUMB_URL_DENY = frozenset({
     "/content/images/size/w30/2025/08/ghostop.png",
     "https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b"
     "/content/images/size/w1200/2024/01/1500x500-1.jpeg",
+    "https://ritholtz.com/wp-content/uploads/2016/01/barry02-1-1.png",
+    "https://maxjamesread.com/wp-content/uploads/2021/04/S__46555156-scaled.jpg",
 })
 
 # kottke serves a numbered set of interchangeable brand-colour placeholders
