@@ -130,6 +130,7 @@ FEED_FIRST_HOSTS = (
     "attlin.com",
     "beartalking.com",
     "bituzi.com",
+    "blocktempo.com",
     "blogspot.com",
     "buttondown.com",
     "caffes.me",
@@ -143,6 +144,7 @@ FEED_FIRST_HOSTS = (
     "davidoks.blog",
     "devtang.com",
     "esence.travel",
+    "first-cafe.com",
     "firstround.com",
     "fs.blog",
     "gilifedesigner.com",
@@ -156,10 +158,12 @@ FEED_FIRST_HOSTS = (
     "louie.lu",
     "lutaonan.com",
     "matters.town",
+    "maxjamesread.com",
     "medium.com",
     "meiguinfo.com",
     "mickzh.com",
     "noswag.tw",
+    "notesbylex.com",
     "personaljournal.ca",
     "polgeonow.com",
     "pseudoyu.com",
@@ -176,6 +180,7 @@ FEED_FIRST_HOSTS = (
     "substack.com",
     "tiaodao.typlog.io",
     "travelwithbook.com",
+    "trensse.com",
     "unchartedterritories.tomaspueyo.com",
     "uselessetymology.com",
     "vox.com",
@@ -1852,16 +1857,6 @@ def fetch_content(url: str, feed_content: str = "",
         print("    recovered via feed content")
         return postprocess((feed_text, "body", False, False))
 
-    # Substack's API is not limited to the feed window, so it is the only
-    # first-party route to a bulk-imported backlog. Still ahead of the reader
-    # proxy and the archive for the same reason the feed is.
-    substack_html = fetch_via_substack_api(url)
-    if substack_html:
-        found = consider(substack_html)
-        if found:
-            print("    recovered via substack api")
-            return postprocess(found)
-
     # A blurb is a poor result but it is a result. Escalating to the external
     # services for every meta-only page would mean thousands of extra requests
     # per run, so by default that only happens when there is nothing at all.
@@ -2402,10 +2397,13 @@ def load_items(path: str):
     return None, None
 
 
+FEED_REPORT_SKIP_HOSTS = ("news.google.com",)
+
+
 def report_feed_material(pending: list, feed_first: list, preview: int) -> None:
     if preview == 0:
         return
-    skip = {it.get("url") for it in feed_first}
+    skip = {it.get("url") for it in feed_first + FEED_REPORT_SKIP_HOSTS}
     rows = [(it.get("url") or "", (it.get("feed_content") or "").strip())
             for it in pending
             if (it.get("feed_content") or "").strip()
@@ -2554,8 +2552,6 @@ def main(argv=None) -> int:
     feed_first = [it for it in pending
                   if is_feed_first_host(it.get("url", ""))
                   and (it.get("feed_content") or "").strip()]
-    report_feed_material(pending, feed_first, args.feed_content_preview)
-
     if TIME_BUDGET_SECONDS > 0:
         print(f"Time budget: {TIME_BUDGET_SECONDS}s "
               f"(stop fetching after {TIME_BUDGET_SECONDS * TIME_BUDGET_STOP_RATIO:.0f}s elapsed)")
@@ -2627,8 +2623,83 @@ def main(argv=None) -> int:
         failed += ff_failed
         print(f"Feed-first pass done: ok={ff_ok}, failed={ff_failed}\n")
 
+    # ---- Substack API ---------------------------------------------
+    # Its own pass rather than a strategy inside fetch_content, for the same
+    # reason pass 1 is: these items need no page fetch at all, so making them
+    # queue behind MAX_ITEMS would let a backlog of them crowd out every other
+    # site, and each one would first spend a request on a page fetch that
+    # Substack refuses before falling through to the API anyway.
+    #
+    # One request per article, and no feed window, so this is the only route to
+    # a bulk-imported backlog. Failures stay pending and drop into pass 2,
+    # which still has the reader proxy and the archive to try.
+    pending = [it for it in pending if not it.get("summary")]
+    substack_items = [it for it in pending
+                      if is_substack(it.get("url", ""))
+                      and substack_slug(it.get("url", ""))]
+    if substack_items:
+        print(f"\nSubstack API pass: {len(substack_items)} item(s) "
+              f"(not counted against MAX_ITEMS)")
+        sb_ok = sb_failed = 0
+        pending_save = 0
+        for idx, it in enumerate(substack_items, 1):
+            if TIME_BUDGET_SECONDS > 0:
+                elapsed = time.monotonic() - start_time
+                if elapsed > TIME_BUDGET_SECONDS * TIME_BUDGET_STOP_RATIO:
+                    print(f"  time budget reached ({elapsed:.0f}s), "
+                          f"{len(substack_items) - idx + 1} item(s) stay pending.")
+                    time_cut_off = True
+                    break
+            url = it["url"]
+            if is_summary_skip_host(url):
+                continue
+            print(f"  [{idx}/{len(substack_items)}] "
+                  f"({it.get('published_at') or 'no date'}) {it.get('title', '')[:60]}")
+            try:
+                html = fetch_via_substack_api(url)
+            except Exception as e:
+                print(f"      substack api raised ({type(e).__name__}: {e})")
+                html = None
+            if not html:
+                sb_failed += 1
+                continue
+            found = extract_thumbnail(html, url, log=False)
+            if found and not it.get("thumbnail"):
+                it["thumbnail"] = found
+            body, meta, has_table, has_code = extract_from_html(html)
+            content = body if len(body) >= MIN_USABLE_BODY else ""
+            if not content:
+                print("      api body too short, left pending")
+                sb_failed += 1
+                continue
+            try:
+                summary = build_summary(content, "body", has_table,
+                                        kind="page", has_code=has_code)
+            except Exception as e:
+                print(f"      summarize failed: {e}")
+                sb_failed += 1
+                continue
+            if not summary:
+                print("      empty after boilerplate removal, left pending")
+                sb_failed += 1
+                continue
+            it["summary"] = summary
+            it.pop("feed_content", None)
+            sb_ok += 1
+            pending_save += 1
+            print(f"      ok (substack api, {len(content)} chars)")
+            if pending_save >= FEED_FIRST_SAVE_EVERY:
+                save_items(ITEMS_FILE, items, wrapper)
+                pending_save = 0
+        if pending_save:
+            save_items(ITEMS_FILE, items, wrapper)
+        ok += sb_ok
+        failed += sb_failed
+        print(f"Substack API pass done: ok={sb_ok}, failed={sb_failed}\n")
+
     # ---- Pass 2: everything else, one page fetch at a time ------------------
     pending = [it for it in pending if not it.get("summary")]
+    report_feed_material(pending, feed_first, args.feed_content_preview)
     for it in pending:
         # Normally a feed-first host is left to pass 1, which summarises from
         # the stored feed copy without fetching the page. But pass 1 only takes
