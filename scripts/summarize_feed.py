@@ -2289,14 +2289,21 @@ def load_items(path: str):
 FEED_REPORT_SKIP_HOSTS = ("news.google.com",)
 
 
+def _is_report_skip_host(url: str) -> bool:
+    host = host_of(url)
+    return any(host == h or host.endswith("." + h)
+               for h in FEED_REPORT_SKIP_HOSTS)
+
+
 def report_feed_material(pending: list, feed_first: list, preview: int) -> None:
     if preview == 0:
         return
-    skip = {it.get("url") for it in feed_first + list(FEED_REPORT_SKIP_HOSTS)}
+    skip = {it.get("url") for it in feed_first}
     rows = [(it.get("url") or "", (it.get("feed_content") or "").strip())
             for it in pending
             if (it.get("feed_content") or "").strip()
-            and it.get("url") not in skip]
+            and it.get("url") not in skip
+            and not _is_report_skip_host(it.get("url", ""))]
     if not rows:
         return
     print(f"\nFeed material on hand for {len(rows)} pending item(s)")
