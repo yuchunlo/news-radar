@@ -1540,8 +1540,7 @@ def is_feed_first_host(url: str) -> bool:
     return any(host == h or host.endswith("." + h) for h in FEED_FIRST_HOSTS)
 
 
-def _http_get(url: str, *, timeout: int, impersonate: bool = False,
-              headers: dict | None = None):
+def _http_get(url: str, *, timeout: int, impersonate: bool = False):
     """Single GET. Returns (html, status) where status is
     "ok" / "blocked" / "notfound" / "fail"."""
     try:
@@ -1550,15 +1549,13 @@ def _http_get(url: str, *, timeout: int, impersonate: bool = False,
                 return None, "fail"
             resp = curl_requests.get(
                 url, timeout=timeout, impersonate=CURL_IMPERSONATE,
-                headers={"Accept-Language": FETCH_HEADERS["Accept-Language"],
-                         **(headers or {})},
+                headers={"Accept-Language": FETCH_HEADERS["Accept-Language"]},
                 allow_redirects=True,
             )
             code = resp.status_code
             html = resp.text
         else:
-            resp = get_session().get(url, timeout=timeout,
-                                     headers=headers or None)
+            resp = get_session().get(url, timeout=timeout)
             code = resp.status_code
             if code < 400:
                 if resp.encoding is None or resp.encoding.lower() in ("iso-8859-1", "ascii"):
@@ -1616,156 +1613,6 @@ def classify_text(body: str, meta: str, has_table: bool, has_code: bool = False)
     if body:
         return body, "meta", False, False
     return None, None, False, False
-
-
-# --- Substack API -------------------------------------------------------
-# Substack's RSS only carries the most recent posts, so a publication that
-# was bulk-imported (the archive holds 398 unclestocknotes posts all first
-# seen on one day) has a backlog that no feed window will ever cover again.
-# Its public JSON API is not windowed, so it reaches those.
-#
-# The post endpoint is addressed by slug, and the slug is already in the url
-# (.../p/<slug>), so one request per article is enough -- /api/v1/archive is
-# only needed to *discover* posts, which is not the problem here. It stays as
-# a fallback for when the slug in the url no longer resolves (renamed posts).
-SUBSTACK_API_TIMEOUT = 20
-SUBSTACK_ARCHIVE_LIMIT = 50
-SUBSTACK_ARCHIVE_MAX_PAGES = 10
-# Substack publications on custom domains cannot be recognised from the
-# hostname; list them here if any turn up.
-SUBSTACK_EXTRA_HOSTS: tuple[str, ...] = ()
-_SUBSTACK_ARCHIVE_CACHE: dict[str, dict] = {}
-# Hosts whose API has refused us this run: stop asking. Without this a
-# publication with a 929-item backlog spends 929 requests to be told 403 each
-# time -- and since 429 is one of the refusal codes, hammering it is also the
-# one thing guaranteed to keep it refusing.
-_SUBSTACK_DEAD_HOSTS: set[str] = set()
-SUBSTACK_GIVE_UP_AFTER = 3
-_SUBSTACK_REFUSALS: Counter = Counter()
-# A JSON endpoint reached with `Accept: text/html` and `Sec-Fetch-Mode:
-# navigate` looks like a page navigation, not like the fetch() a browser
-# actually makes for it. Sending what the real caller sends is free and is the
-# first thing to fix when an API answers 403 to a client the page tolerates.
-SUBSTACK_API_HEADERS = {
-    "Accept": "application/json, text/plain, */*",
-    "Sec-Fetch-Dest": "empty",
-    "Sec-Fetch-Mode": "cors",
-    "Sec-Fetch-Site": "same-origin",
-    "X-Requested-With": "XMLHttpRequest",
-}
-
-
-def is_substack(url: str) -> bool:
-    host = host_of(url)
-    return bool(host) and (host == "substack.com"
-                           or host.endswith(".substack.com")
-                           or host in SUBSTACK_EXTRA_HOSTS)
-
-
-def substack_slug(url: str) -> str | None:
-    m = re.search(r"/p/([^/?#]+)", url or "")
-    return m.group(1) if m else None
-
-
-def _substack_json(url: str, host: str, referer: str = ""):
-    """GET and parse JSON. Returns None on any failure, and records refusals
-    so the caller can stop asking a host that is not answering."""
-    headers = dict(SUBSTACK_API_HEADERS)
-    if referer:
-        headers["Referer"] = referer
-    try:
-        text, status = _http_get(url, timeout=SUBSTACK_API_TIMEOUT,
-                                 headers=headers)
-        if status != "ok" or not text:
-            text, status = _http_get(url, timeout=SUBSTACK_API_TIMEOUT,
-                                     impersonate=True, headers=headers)
-        if status != "ok" or not text:
-            _SUBSTACK_REFUSALS[host] += 1
-            if _SUBSTACK_REFUSALS[host] >= SUBSTACK_GIVE_UP_AFTER:
-                _SUBSTACK_DEAD_HOSTS.add(host)
-                print(f"    substack api {status}; giving up on {host} for "
-                      f"this run after {_SUBSTACK_REFUSALS[host]} refusals")
-            else:
-                print(f"    substack api {status}: {url}")
-            return None
-        _SUBSTACK_REFUSALS.pop(host, None)     # a success clears the streak
-        return json.loads(text)
-    except Exception as e:
-        print(f"    substack api error ({type(e).__name__}: {e}): {url}")
-        return None
-
-
-def _substack_archive_index(host: str) -> dict:
-    """slug -> body_html for one publication, paged through /api/v1/archive.
-
-    Cached per host per run. Returns {} on any failure, so a publication that
-    has the API disabled costs one request and is then silently skipped.
-    """
-    if host in _SUBSTACK_ARCHIVE_CACHE:
-        return _SUBSTACK_ARCHIVE_CACHE[host]
-    index: dict[str, str] = {}
-    try:
-        for page in range(SUBSTACK_ARCHIVE_MAX_PAGES):
-            if host in _SUBSTACK_DEAD_HOSTS:
-                break
-            data = _substack_json(
-                f"https://{host}/api/v1/archive?sort=new"
-                f"&offset={page * SUBSTACK_ARCHIVE_LIMIT}"
-                f"&limit={SUBSTACK_ARCHIVE_LIMIT}",
-                host, referer=f"https://{host}/archive")
-            if not isinstance(data, list) or not data:
-                break
-            for post in data:
-                if not isinstance(post, dict):
-                    continue
-                slug = post.get("slug")
-                if slug:
-                    index[slug] = post.get("body_html") or ""
-            if len(data) < SUBSTACK_ARCHIVE_LIMIT:
-                break
-    except Exception as e:
-        print(f"    substack archive error ({type(e).__name__}: {e}): {host}")
-    _SUBSTACK_ARCHIVE_CACHE[host] = index
-    print(f"    substack archive: {len(index)} posts indexed from {host}")
-    return index
-
-
-def fetch_via_substack_api(url: str):
-    """Article body from Substack's JSON API. Never raises.
-
-    Every failure mode -- API disabled, renamed slug, rate limit, malformed
-    JSON, network error -- is caught and turned into None plus a printed
-    reason, so the item simply falls through to the next strategy and the run
-    continues to its normal end and writes the archive.
-    """
-    try:
-        if not is_substack(url):
-            return None
-        slug = substack_slug(url)
-        if not slug:
-            return None
-        host = host_of(url)
-        if host in _SUBSTACK_DEAD_HOSTS:
-            return None                 # already refused us; don't ask again
-        data = _substack_json(f"https://{host}/api/v1/posts/{slug}", host,
-                              referer=url)
-        if isinstance(data, dict):
-            body = data.get("body_html") or ""
-            if body.strip():
-                return body
-            if data.get("audience") == "only_paid":
-                print(f"    substack post is paywalled: {slug}")
-                return None
-            # Answered, but with no body: the slug may have been renamed, and
-            # the archive listing would know it under the new one.
-            return _substack_archive_index(host).get(slug) or None
-        # No answer at all. The archive endpoint lives behind the same door, so
-        # trying it would just spend another request on the same refusal.
-        return None
-    except Exception as e:
-        print(f"    substack api unexpected error "
-              f"({type(e).__name__}: {e}): {url}")
-        return None
 
 
 def fetch_via_reader(url: str):
@@ -2508,9 +2355,10 @@ def strip_feed_content(items: list) -> int:
     all — in both cases keeping up to FEED_CONTENT_MAX_CHARS per item in a
     committed file buys nothing.
     """
+    sentinel = object()
     dropped = 0
     for it in items:
-        if isinstance(it, dict) and it.pop("feed_content", None) is not None:
+        if isinstance(it, dict) and it.pop("feed_content", sentinel) is not sentinel:
             dropped += 1
     return dropped
 
@@ -2664,80 +2512,6 @@ def main(argv=None) -> int:
         ok += ff_ok
         failed += ff_failed
         print(f"Feed-first pass done: ok={ff_ok}, failed={ff_failed}\n")
-
-    # ---- Substack API ---------------------------------------------
-    # Its own pass rather than a strategy inside fetch_content, for the same
-    # reason pass 1 is: these items need no page fetch at all, so making them
-    # queue behind MAX_ITEMS would let a backlog of them crowd out every other
-    # site, and each one would first spend a request on a page fetch that
-    # Substack refuses before falling through to the API anyway.
-    #
-    # One request per article, and no feed window, so this is the only route to
-    # a bulk-imported backlog. Failures stay pending and drop into pass 2,
-    # which still has the reader proxy and the archive to try.
-    pending = [it for it in pending if not it.get("summary")]
-    substack_items = [it for it in pending
-                      if is_substack(it.get("url", ""))
-                      and substack_slug(it.get("url", ""))]
-    if substack_items:
-        print(f"\nSubstack API pass: {len(substack_items)} item(s) "
-              f"(not counted against MAX_ITEMS)")
-        sb_ok = sb_failed = 0
-        pending_save = 0
-        for idx, it in enumerate(substack_items, 1):
-            if TIME_BUDGET_SECONDS > 0:
-                elapsed = time.monotonic() - start_time
-                if elapsed > TIME_BUDGET_SECONDS * TIME_BUDGET_STOP_RATIO:
-                    print(f"  time budget reached ({elapsed:.0f}s), "
-                          f"{len(substack_items) - idx + 1} item(s) stay pending.")
-                    time_cut_off = True
-                    break
-            url = it["url"]
-            if is_summary_skip_host(url):
-                continue
-            print(f"  [{idx}/{len(substack_items)}] "
-                  f"({it.get('published_at') or 'no date'}) {it.get('title', '')[:60]}")
-            try:
-                html = fetch_via_substack_api(url)
-            except Exception as e:
-                print(f"      substack api raised ({type(e).__name__}: {e})")
-                html = None
-            if not html:
-                sb_failed += 1
-                continue
-            found = extract_thumbnail(html, url, log=False)
-            if found and not it.get("thumbnail"):
-                it["thumbnail"] = found
-            body, meta, has_table, has_code = extract_from_html(html)
-            content = body if len(body) >= MIN_USABLE_BODY else ""
-            if not content:
-                print("      api body too short, left pending")
-                sb_failed += 1
-                continue
-            try:
-                summary = build_summary(content, "body", has_table,
-                                        kind="page", has_code=has_code)
-            except Exception as e:
-                print(f"      summarize failed: {e}")
-                sb_failed += 1
-                continue
-            if not summary:
-                print("      empty after boilerplate removal, left pending")
-                sb_failed += 1
-                continue
-            it["summary"] = summary
-            it.pop("feed_content", None)
-            sb_ok += 1
-            pending_save += 1
-            print(f"      ok (substack api, {len(content)} chars)")
-            if pending_save >= FEED_FIRST_SAVE_EVERY:
-                save_items(ITEMS_FILE, items, wrapper)
-                pending_save = 0
-        if pending_save:
-            save_items(ITEMS_FILE, items, wrapper)
-        ok += sb_ok
-        failed += sb_failed
-        print(f"Substack API pass done: ok={sb_ok}, failed={sb_failed}\n")
 
     # ---- Pass 2: everything else, one page fetch at a time ------------------
     pending = [it for it in pending if not it.get("summary")]
@@ -2998,10 +2772,6 @@ def main(argv=None) -> int:
 
     save_items(ITEMS_FILE, items, wrapper)
 
-    leftover = sum(1 for it in items if isinstance(it, dict) and "feed_content" in it)
-    if leftover:
-        print(f"WARNING: {leftover} item(s) still carry feed_content after strip.")
-        return 1
     return 0
 
 
