@@ -403,10 +403,38 @@ def _to_twp(text: str) -> str:
 LATIN_WORD_RE = re.compile(r"[A-Za-z]{2,}")
 # Local copy: CJK_CHAR_RE is defined further down, after this block.
 _BACKFILL_CJK_RE = re.compile(r"[\u3400-\u4dbf\u4e00-\u9fff]")
-# Above this share of CJK the text is Chinese that merely contains code.
+
+# Scripts worth telling apart when deciding "is this already Chinese?".
+# Han alone cannot answer that: Japanese prose is mostly kanji, so a Han-ratio
+# test reads it as Chinese and leaves it untranslated forever. Kana is the
+# tell, and it separates cleanly. Measured over the archive, real Japanese
+# summaries run 0.515-0.710 kana among their CJK characters; the highest
+# Chinese one is 0.171 (a Chinese post quoting a Japanese lyric at length),
+# and everything else is below 0.12. The threshold sits in the middle of that
+# 0.344-wide gap, so neither side is anywhere near it.
+SCRIPT_RES = {
+    "han": _BACKFILL_CJK_RE,
+    "kana": re.compile(r"[\u3040-\u30ff]"),
+    "hangul": re.compile(r"[\uac00-\ud7af]"),
+    "cyrillic": re.compile(r"[\u0400-\u04ff]"),
+    "greek": re.compile(r"[\u0370-\u03ff]"),
+    "hebrew": re.compile(r"[\u0590-\u05ff]"),
+    "arabic": re.compile(r"[\u0600-\u06ff]"),
+    "devanagari": re.compile(r"[\u0900-\u097f]"),
+    "thai": re.compile(r"[\u0e00-\u0e7f]"),
+    "latin": re.compile(r"[A-Za-z\u00c0-\u024f]"),
+}
+KANA_SHARE_IS_JAPANESE = 0.35
+# Above this share of Han the text is Chinese that merely contains code.
 BACKFILL_MAX_CJK_RATIO = 0.02
 # Below this many Latin words there is no prose to translate (a bare url, etc).
 BACKFILL_MIN_LATIN_WORDS = 8
+# Non-Latin scripts have no word separator, so they are gated on character count.
+BACKFILL_MIN_SCRIPT_CHARS = 20
+
+
+def script_profile(text: str) -> dict:
+    return {name: len(rx.findall(text)) for name, rx in SCRIPT_RES.items()}
 
 
 def summary_cjk_ratio(text: str) -> float:
@@ -415,61 +443,107 @@ def summary_cjk_ratio(text: str) -> float:
 
 
 def needs_translation(text: str | None) -> bool:
-    """Is this summary genuinely non-Chinese prose?
+    """Is this summary in a language that still needs translating to 繁中?
 
-    Deliberately strict. A plain "not mostly CJK" test flags thousands of
-    summaries that are already 繁體中文 posts about programming, where the
-    Latin characters are code, urls and library names.
+    Deliberately strict about what counts as "not Chinese". A plain
+    "not mostly CJK" test flags thousands of summaries that are already
+    繁體中文 posts about programming, where the Latin characters are code,
+    urls and library names.
+    Re-translating those would corrupt Chinese that is already correct.
 
-    Re-translating those would corrupt Chinese that is already correct, so the
-    bar is ~2% CJK, plus enough Latin words to be prose rather than a url.
+    Japanese is checked before the Han ratio, not after: Japanese prose is
+    mostly kanji, so by Han ratio alone it passes as Chinese and is never
+    picked up. Everything else is decided on which script dominates, so a
+    Korean, Russian or Thai summary is caught even though it contains no
+    Latin words at all -- the old Latin-word-count rule could only ever see
+    English.
     """
     if not text or not text.strip() or text == BLANK_SUMMARY:
         return False
     if text.startswith(BLOCKED_SUMMARY[:8]) or text.startswith(GONE_SUMMARY[:8]):
         return False
+
+    p = script_profile(text)
+    cjk = p["han"] + p["kana"]
+    if cjk and p["kana"] / cjk >= KANA_SHARE_IS_JAPANESE:
+        return p["kana"] >= BACKFILL_MIN_SCRIPT_CHARS
+
     if summary_cjk_ratio(text) > BACKFILL_MAX_CJK_RATIO:
-        return False
-    return len(LATIN_WORD_RE.findall(text)) >= BACKFILL_MIN_LATIN_WORDS
+        return False                      # already Chinese
+
+    if len(LATIN_WORD_RE.findall(text)) >= BACKFILL_MIN_LATIN_WORDS:
+        return True
+    # Scripts with no spaces between words: judge on volume instead.
+    return any(p[name] >= BACKFILL_MIN_SCRIPT_CHARS
+               for name in ("hangul", "cyrillic", "greek", "hebrew",
+                            "arabic", "devanagari", "thai"))
 
 
-def backfill_language(items, *, translate_enabled=True, limit=0,
-                      deadline=None, save=None):
-    """Bring already-stored summaries to 繁體中文.
+def backfill(items, *, translate_enabled=True, revalidate_thumbnails=True,
+             limit=0, deadline=None, save=None):
+    """Re-apply current rules to already-stored items, after the fetch loop.
 
-    Two jobs with very different risk profiles, so they are gated separately:
-    簡體→繁體 is offline, deterministic and always safe to run; 非中文→中文
-    needs the network and only touches summaries that pass needs_translation.
+    The fetch loop only ever validates on the way *in*, so every time a rule
+    changes the stored data falls one rule behind and stays there: the 24
+    thumbnails written before the photo/chart filter existed were never going
+    to be removed by any later run. This pass exists to close that gap, and
+    covers the whole file rather than just this batch.
 
-    Runs after the fetch loop, over the whole file rather than just this
-    batch, so items translated poorly (or not at all) by earlier runs get
-    picked up too.
+    Three jobs, ordered by risk, sharing one walk over the items:
+
+      thumbnails   offline, pure re-check against thumbnail_is_usable
+      簡體→繁體     offline, deterministic OpenCC conversion
+      非中文→中文   needs the network, so it is gated and budgeted separately
+
+    The first two are cheap and always safe, so they run over everything in a
+    single pass; only the third is metered.
     """
-    simp = trans = failed = 0
+    counts = Counter()
+    targets = []
 
     for it in items:
         if not isinstance(it, dict):
             continue
-        s = it.get("summary")
-        if not s or not s.strip() or s == BLANK_SUMMARY:
-            continue
-        if _tr and _tr.detect_variant(s) == "hans":
-            new = _to_twp(s)
-            if new != s:
-                it["summary"] = new
-                simp += 1
 
-    targets = [it for it in items
-               if isinstance(it, dict) and needs_translation(it.get("summary"))]
-    if simp:
-        print(f"Backfill: converted {simp} simplified summary(ies) to 繁體.")
+        # ---- thumbnails: re-check against the current filter ----
+        if revalidate_thumbnails and it.get("thumbnail"):
+            url = it.get("url") or ""
+            if thumbnail_host_skipped(url):
+                ok, why = False, "host opted out"
+            else:
+                ok, why = thumbnail_is_usable(it["thumbnail"])
+            if not ok:
+                it.pop("thumbnail", None)
+                counts["thumbnail"] += 1
+                counts[f"thumb:{why}"] += 1
+
+        summary = it.get("summary")
+        if not summary or not summary.strip() or summary == BLANK_SUMMARY:
+            continue
+        if _tr and _tr.detect_variant(summary) == "hans":
+            converted = _to_twp(summary)
+            if converted != summary:
+                it["summary"] = converted
+                summary = converted
+                counts["simplified"] += 1
+
+        # ---- collect translation targets in the same walk ----
+        if needs_translation(summary):
+            targets.append(it)
+
+    if counts["thumbnail"]:
+        detail = ", ".join(f"{k[6:]}×{v}" for k, v in counts.most_common()
+                           if k.startswith("thumb:"))
+        print(f"Backfill: dropped {counts['thumbnail']} stale thumbnail(s)  [{detail}]")
+    if counts["simplified"]:
+        print(f"Backfill: converted {counts['simplified']} simplified summary(ies) to 繁體.")
     if not targets:
-        return simp, 0, 0
+        return counts
     print(f"Backfill: {len(targets)} non-Chinese summary(ies) found.")
 
     if not translate_enabled or not _tr:
         print("Backfill: translation disabled, left as-is.")
-        return simp, 0, 0
+        return counts
     if limit:
         targets = targets[:limit]
 
@@ -489,16 +563,18 @@ def backfill_language(items, *, translate_enabled=True, limit=0,
         # Only accept a result that actually came back as Chinese; otherwise
         # keep the original rather than overwriting it with a failed call.
         if not out or summary_cjk_ratio(out) < 0.5:
-            failed += 1
+            counts["failed"] += 1
             continue
         it["summary"] = (_to_twp(out) + " " + mark).rstrip() if mark else _to_twp(out)
-        trans += 1
-        if save is not None and trans % 25 == 0:
+        counts["translated"] += 1
+        if save is not None and counts["translated"] % 25 == 0:
             save()
         time.sleep(SLEEP_BETWEEN_ITEMS)
 
-    print(f"Backfill done: simplified={simp}, translated={trans}, failed={failed}")
-    return simp, trans, failed
+    print(f"Backfill done: thumbnails={counts['thumbnail']}, "
+          f"simplified={counts['simplified']}, "
+          f"translated={counts['translated']}, failed={counts['failed']}")
+    return counts
 
 
 # ---------------------------------------------------------------- Connection / URL / encoding
@@ -993,6 +1069,9 @@ THUMB_URL_DENY = frozenset({
     "/content/images/size/w1200/2024/01/1500x500-1.jpeg",
 })
 
+# kottke serves a numbered set of interchangeable brand-colour placeholders
+# (.../images/2024/logo-colors/color-4.jpg). The number varies per article, so
+# an exact url cannot catch them -- the whole family has to go.
 THUMB_URL_DENY_RE = re.compile(
     r"^https?://kottke\.org/.*/images/\d{4}/logo-colors/color-\d+\.jpe?g$", re.I)
 
@@ -1313,6 +1392,11 @@ def extract_thumbnail(html: str, base_url: str, log: bool = True):
         ok, reason = thumbnail_is_usable(url)
         if ok:
             if log:
+                # Full url, not url[:90]. Blogger's extensionless form runs to
+                # ~230 chars of opaque id, so eliding it produced a log line
+                # that looked like a truncated/corrupt thumbnail and hid the
+                # only part that distinguishes one image from another. The
+                # stored value was always complete; only this line was cut.
                 print(f"    thumbnail ({where}): {url}  [{reason}]")
             return url
     return None
@@ -2011,6 +2095,29 @@ def extractive_summary(text: str, is_cjk: bool, char_budget: int,
 
 # ---------------------------------------------------------------- NMT translation
 
+UNTRANSLATED: Counter = Counter()
+
+
+def note_untranslated(lang: str) -> None:
+    """Record that a summary is being stored in its original language.
+
+    This is how non-Chinese text gets into archive.json. Both foreign-language
+    branches fall back to `raw` when translation returns None -- and it returns
+    None for any failure at all, because translate() swallows every exception.
+    So a rate limit, a DNS blip or a missing opencc silently produces a summary
+    in English or Japanese, indistinguishable from a successful one.
+
+    Storing the original is still better than storing nothing: the item would
+    otherwise stay pending forever on a permanently unreachable endpoint. What
+    was missing is that the fallback left no trace, so a run where every
+    translation failed looked exactly like a run where none were needed. The
+    backfill pass is what eventually repairs these, and it can only find them
+    if needs_translation recognises the language -- which is why that function
+    tests script dominance rather than counting Latin words.
+    """
+    UNTRANSLATED[lang] += 1
+
+
 def translate_to_zhtw(text: str) -> str | None:
     if _tr is None:
         return None
@@ -2101,6 +2208,8 @@ def build_summary(content: str, source_type: str, has_table: bool = False,
         )
         translated = translate_to_zhtw(raw) if TRANSLATE else None
         summary = _to_twp(translated) if translated else raw
+        if translated is None:
+            note_untranslated(lang)
     else:
         raw = extractive_summary(
             content, False, int(text_budget * FOREIGN_BUDGET_RATIO), kind
@@ -2111,6 +2220,7 @@ def build_summary(content: str, source_type: str, has_table: bool = False,
             if translated:
                 summary = _to_twp(translated)
         if summary is None:
+            note_untranslated(lang)
             summary = raw
 
     if not is_cjk_lang(detect_lang(summary)):
@@ -2140,12 +2250,16 @@ def build_arg_parser():
     p.add_argument("--translate", dest="translate", action="store_true", default=TRANSLATE)
     p.add_argument("--no-translate", dest="translate", action="store_false")
     p.add_argument("--rescore-all", action="store_true", default=RESCORE_ALL)
-    p.add_argument("--backfill-language", dest="backfill_language",
+    p.add_argument("--backfill", dest="backfill",
                    action="store_true", default=True,
-                   help="after summarising, convert 簡體 summaries to 繁體 and "
-                        "translate non-Chinese ones (uses leftover time budget)")
-    p.add_argument("--no-backfill-language", dest="backfill_language",
-                   action="store_false")
+                   help="after summarising, re-apply current rules to stored "
+                        "items: drop thumbnails that no longer pass the "
+                        "filter, convert 簡體 summaries to 繁體, and translate "
+                        "non-Chinese ones (uses leftover time budget)")
+    p.add_argument("--no-backfill", dest="backfill", action="store_false")
+    p.add_argument("--no-revalidate-thumbnails", dest="revalidate_thumbnails",
+                   action="store_false", default=True,
+                   help="skip the thumbnail re-check inside the backfill pass")
     p.add_argument("--backfill-limit", type=int, default=0, metavar="N",
                    help="translate at most N summaries per run (0 = no limit)")
     p.add_argument("--feed-content-preview", type=int, default=40, metavar="CHARS")
@@ -2602,6 +2716,12 @@ def main(argv=None) -> int:
           f"{', stopped early: time budget reached' if time_cut_off else ''}")
 
 
+    if UNTRANSLATED:
+        detail = ", ".join(f"{k}×{v}" for k, v in UNTRANSLATED.most_common())
+        print(f"WARNING: {sum(UNTRANSLATED.values())} summary(ies) stored "
+              f"untranslated in their original language [{detail}]. "
+              f"The backfill pass will retry them on a later run.")
+
     if BOILER_STATS:
         detail = ", ".join(f"{k} {v}" for k, v in sorted(BOILER_STATS.items()) if v)
         if detail:
@@ -2611,10 +2731,11 @@ def main(argv=None) -> int:
     # ---- Pass 3: language backfill ------------------------------------------
     # After this batch's summaries are done, not instead of them: the fetch
     # loop above is the priority, and this only spends whatever time is left.
-    if args.backfill_language:
-        backfill_language(
+    if args.backfill:
+        backfill(
             items,
             translate_enabled=args.translate,
+            revalidate_thumbnails=args.revalidate_thumbnails,
             limit=args.backfill_limit,
             deadline=(start_time + TIME_BUDGET_SECONDS
                       if TIME_BUDGET_SECONDS > 0 else None),
