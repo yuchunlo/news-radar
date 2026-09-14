@@ -1540,7 +1540,8 @@ def is_feed_first_host(url: str) -> bool:
     return any(host == h or host.endswith("." + h) for h in FEED_FIRST_HOSTS)
 
 
-def _http_get(url: str, *, timeout: int, impersonate: bool = False):
+def _http_get(url: str, *, timeout: int, impersonate: bool = False,
+              headers: dict | None = None):
     """Single GET. Returns (html, status) where status is
     "ok" / "blocked" / "notfound" / "fail"."""
     try:
@@ -1549,13 +1550,15 @@ def _http_get(url: str, *, timeout: int, impersonate: bool = False):
                 return None, "fail"
             resp = curl_requests.get(
                 url, timeout=timeout, impersonate=CURL_IMPERSONATE,
-                headers={"Accept-Language": FETCH_HEADERS["Accept-Language"]},
+                headers={"Accept-Language": FETCH_HEADERS["Accept-Language"],
+                         **(headers or {})},
                 allow_redirects=True,
             )
             code = resp.status_code
             html = resp.text
         else:
-            resp = get_session().get(url, timeout=timeout)
+            resp = get_session().get(url, timeout=timeout,
+                                     headers=headers or None)
             code = resp.status_code
             if code < 400:
                 if resp.encoding is None or resp.encoding.lower() in ("iso-8859-1", "ascii"):
@@ -1632,6 +1635,24 @@ SUBSTACK_ARCHIVE_MAX_PAGES = 10
 # hostname; list them here if any turn up.
 SUBSTACK_EXTRA_HOSTS: tuple[str, ...] = ()
 _SUBSTACK_ARCHIVE_CACHE: dict[str, dict] = {}
+# Hosts whose API has refused us this run: stop asking. Without this a
+# publication with a 929-item backlog spends 929 requests to be told 403 each
+# time -- and since 429 is one of the refusal codes, hammering it is also the
+# one thing guaranteed to keep it refusing.
+_SUBSTACK_DEAD_HOSTS: set[str] = set()
+SUBSTACK_GIVE_UP_AFTER = 3
+_SUBSTACK_REFUSALS: Counter = Counter()
+# A JSON endpoint reached with `Accept: text/html` and `Sec-Fetch-Mode:
+# navigate` looks like a page navigation, not like the fetch() a browser
+# actually makes for it. Sending what the real caller sends is free and is the
+# first thing to fix when an API answers 403 to a client the page tolerates.
+SUBSTACK_API_HEADERS = {
+    "Accept": "application/json, text/plain, */*",
+    "Sec-Fetch-Dest": "empty",
+    "Sec-Fetch-Mode": "cors",
+    "Sec-Fetch-Site": "same-origin",
+    "X-Requested-With": "XMLHttpRequest",
+}
 
 
 def is_substack(url: str) -> bool:
@@ -1646,16 +1667,28 @@ def substack_slug(url: str) -> str | None:
     return m.group(1) if m else None
 
 
-def _substack_json(url: str):
-    """GET and parse JSON, returning None on any failure whatsoever."""
+def _substack_json(url: str, host: str, referer: str = ""):
+    """GET and parse JSON. Returns None on any failure, and records refusals
+    so the caller can stop asking a host that is not answering."""
+    headers = dict(SUBSTACK_API_HEADERS)
+    if referer:
+        headers["Referer"] = referer
     try:
-        text, status = _http_get(url, timeout=SUBSTACK_API_TIMEOUT)
+        text, status = _http_get(url, timeout=SUBSTACK_API_TIMEOUT,
+                                 headers=headers)
         if status != "ok" or not text:
             text, status = _http_get(url, timeout=SUBSTACK_API_TIMEOUT,
-                                     impersonate=True)
+                                     impersonate=True, headers=headers)
         if status != "ok" or not text:
-            print(f"    substack api {status}: {url}")
+            _SUBSTACK_REFUSALS[host] += 1
+            if _SUBSTACK_REFUSALS[host] >= SUBSTACK_GIVE_UP_AFTER:
+                _SUBSTACK_DEAD_HOSTS.add(host)
+                print(f"    substack api {status}; giving up on {host} for "
+                      f"this run after {_SUBSTACK_REFUSALS[host]} refusals")
+            else:
+                print(f"    substack api {status}: {url}")
             return None
+        _SUBSTACK_REFUSALS.pop(host, None)     # a success clears the streak
         return json.loads(text)
     except Exception as e:
         print(f"    substack api error ({type(e).__name__}: {e}): {url}")
@@ -1673,10 +1706,13 @@ def _substack_archive_index(host: str) -> dict:
     index: dict[str, str] = {}
     try:
         for page in range(SUBSTACK_ARCHIVE_MAX_PAGES):
+            if host in _SUBSTACK_DEAD_HOSTS:
+                break
             data = _substack_json(
                 f"https://{host}/api/v1/archive?sort=new"
                 f"&offset={page * SUBSTACK_ARCHIVE_LIMIT}"
-                f"&limit={SUBSTACK_ARCHIVE_LIMIT}")
+                f"&limit={SUBSTACK_ARCHIVE_LIMIT}",
+                host, referer=f"https://{host}/archive")
             if not isinstance(data, list) or not data:
                 break
             for post in data:
@@ -1709,7 +1745,10 @@ def fetch_via_substack_api(url: str):
         if not slug:
             return None
         host = host_of(url)
-        data = _substack_json(f"https://{host}/api/v1/posts/{slug}")
+        if host in _SUBSTACK_DEAD_HOSTS:
+            return None                 # already refused us; don't ask again
+        data = _substack_json(f"https://{host}/api/v1/posts/{slug}", host,
+                              referer=url)
         if isinstance(data, dict):
             body = data.get("body_html") or ""
             if body.strip():
@@ -1717,9 +1756,12 @@ def fetch_via_substack_api(url: str):
             if data.get("audience") == "only_paid":
                 print(f"    substack post is paywalled: {slug}")
                 return None
-        # Slug did not resolve; the archive listing may know it under another.
-        body = _substack_archive_index(host).get(slug)
-        return body or None
+            # Answered, but with no body: the slug may have been renamed, and
+            # the archive listing would know it under the new one.
+            return _substack_archive_index(host).get(slug) or None
+        # No answer at all. The archive endpoint lives behind the same door, so
+        # trying it would just spend another request on the same refusal.
+        return None
     except Exception as e:
         print(f"    substack api unexpected error "
               f"({type(e).__name__}: {e}): {url}")
@@ -2403,7 +2445,7 @@ FEED_REPORT_SKIP_HOSTS = ("news.google.com",)
 def report_feed_material(pending: list, feed_first: list, preview: int) -> None:
     if preview == 0:
         return
-    skip = {it.get("url") for it in feed_first + FEED_REPORT_SKIP_HOSTS}
+    skip = {it.get("url") for it in feed_first + list(FEED_REPORT_SKIP_HOSTS)}
     rows = [(it.get("url") or "", (it.get("feed_content") or "").strip())
             for it in pending
             if (it.get("feed_content") or "").strip()
