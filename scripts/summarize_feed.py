@@ -12,6 +12,7 @@ import sys
 import time
 import subtitle_priority
 from collections import Counter
+from typing import NamedTuple
 from pathlib import Path
 
 import requests
@@ -269,8 +270,51 @@ TABLE_TAG_RE = re.compile(r"<table[\s>]", re.I)
 CODE_NOTE = "請參閱所附程式碼 " + FALLBACK_MARK
 CODE_TAG_RE = re.compile(r"<(?:pre|samp|kbd)[\s>]|<code[\s>]", re.I)
 CODE_INLINE_MAX = 40
+# No longer written (see OUTCOMES["blocked"]), but kept so existing items
+# carrying this legacy value can still be recognised and cleared.
 BLOCKED_SUMMARY = "無法取得頁面內容（來源網站封鎖自動化存取）" + FALLBACK_MARK
 GONE_SUMMARY = "無法取得頁面內容（原始頁面已移除，且無存檔）" + FALLBACK_MARK
+
+
+class Outcome(NamedTuple):
+    """What to do when fetch_content comes back without usable copy.
+
+    Replaces three separately-maintained branches in the main loop that had
+    drifted apart -- only one paused the host, only one saved, each counted
+    into its own variable. One row per source_type keeps the decisions visible
+    side by side.
+
+    summary     text to write, or None to leave the item pending for a retry
+    pause_host  stop fetching this host for the rest of the run
+    counter     which tally it increments
+    """
+    summary: str | None
+    pause_host: bool
+    counter: str
+    note: str
+
+    def describe(self, host: str) -> str:
+        tail = f", {host} skipped for the rest of this run" if self.pause_host else ""
+        return f"{self.note}{tail}"
+
+
+OUTCOMES = {
+    # A site refusing automation refuses it for every url on that host, so the
+    # remaining items would each burn a request to earn the same placeholder.
+    # Writing that placeholder was also self-defeating: it filled `summary`, so
+    # the item was no longer pending and no later run would ever retry it, even
+    # once the block lifted. Leave it empty and move off the host instead.
+    "blocked": Outcome(None, True, "blocked",
+                       "blocked by site -> not written, kept pending"),
+    # 404/410 is about this one url, not the host: a real, permanent answer
+    # worth recording, and there is nothing to retry.
+    "gone": Outcome(GONE_SUMMARY, False, "gone", "page is gone -> placeholder written"),
+    # A template/interstitial served in place of the article, likewise host-wide.
+    "junk": Outcome(None, True, "junk", "junk page -> skipped"),
+    # Transient: network error, timeout, empty body. Retry next run.
+    "fail": Outcome(None, False, "failed",
+                    "fetch failed, skipped (kept pending for next run)"),
+}
 # Techmeme uses these leads for stories built on its own sourcing.
 TECHMEME_STAR_PREFIXES = ("Source", "Report", "Documents:")
 CHALLENGE_PATTERN = re.compile(
@@ -354,6 +398,107 @@ MODEL_RE = re.compile(
 
 def _to_twp(text: str) -> str:
     return _tr.to_traditional(text) if _tr else text
+
+
+LATIN_WORD_RE = re.compile(r"[A-Za-z]{2,}")
+# Local copy: CJK_CHAR_RE is defined further down, after this block.
+_BACKFILL_CJK_RE = re.compile(r"[\u3400-\u4dbf\u4e00-\u9fff]")
+# Above this share of CJK the text is Chinese that merely contains code.
+BACKFILL_MAX_CJK_RATIO = 0.02
+# Below this many Latin words there is no prose to translate (a bare url, etc).
+BACKFILL_MIN_LATIN_WORDS = 8
+
+
+def summary_cjk_ratio(text: str) -> float:
+    letters = sum(1 for ch in text if ch.isalpha())
+    return len(_BACKFILL_CJK_RE.findall(text)) / letters if letters else 0.0
+
+
+def needs_translation(text: str | None) -> bool:
+    """Is this summary genuinely non-Chinese prose?
+
+    Deliberately strict. A plain "not mostly CJK" test flags thousands of
+    summaries that are already 繁體中文 posts about programming, where the
+    Latin characters are code, urls and library names.
+
+    Re-translating those would corrupt Chinese that is already correct, so the
+    bar is ~2% CJK, plus enough Latin words to be prose rather than a url.
+    """
+    if not text or not text.strip() or text == BLANK_SUMMARY:
+        return False
+    if text.startswith(BLOCKED_SUMMARY[:8]) or text.startswith(GONE_SUMMARY[:8]):
+        return False
+    if summary_cjk_ratio(text) > BACKFILL_MAX_CJK_RATIO:
+        return False
+    return len(LATIN_WORD_RE.findall(text)) >= BACKFILL_MIN_LATIN_WORDS
+
+
+def backfill_language(items, *, translate_enabled=True, limit=0,
+                      deadline=None, save=None):
+    """Bring already-stored summaries to 繁體中文.
+
+    Two jobs with very different risk profiles, so they are gated separately:
+    簡體→繁體 is offline, deterministic and always safe to run; 非中文→中文
+    needs the network and only touches summaries that pass needs_translation.
+
+    Runs after the fetch loop, over the whole file rather than just this
+    batch, so items translated poorly (or not at all) by earlier runs get
+    picked up too.
+    """
+    simp = trans = failed = 0
+
+    for it in items:
+        if not isinstance(it, dict):
+            continue
+        s = it.get("summary")
+        if not s or not s.strip() or s == BLANK_SUMMARY:
+            continue
+        if _tr and _tr.detect_variant(s) == "hans":
+            new = _to_twp(s)
+            if new != s:
+                it["summary"] = new
+                simp += 1
+
+    targets = [it for it in items
+               if isinstance(it, dict) and needs_translation(it.get("summary"))]
+    if simp:
+        print(f"Backfill: converted {simp} simplified summary(ies) to 繁體.")
+    if not targets:
+        return simp, 0, 0
+    print(f"Backfill: {len(targets)} non-Chinese summary(ies) found.")
+
+    if not translate_enabled or not _tr:
+        print("Backfill: translation disabled, left as-is.")
+        return simp, 0, 0
+    if limit:
+        targets = targets[:limit]
+
+    for n, it in enumerate(targets, 1):
+        if deadline is not None and time.monotonic() > deadline:
+            print(f"Backfill: time budget reached, stopped after {n - 1}.")
+            break
+        src = it["summary"]
+        # Keep the fallback mark out of the translated body, re-append after.
+        mark = FALLBACK_MARK if src.rstrip().endswith(FALLBACK_MARK) else ""
+        body = src.rstrip().rstrip(FALLBACK_MARK).strip()
+        try:
+            out = _tr.translate(body, target="zh-TW")
+        except Exception as e:
+            print(f"    backfill translate error: {e}")
+            out = None
+        # Only accept a result that actually came back as Chinese; otherwise
+        # keep the original rather than overwriting it with a failed call.
+        if not out or summary_cjk_ratio(out) < 0.5:
+            failed += 1
+            continue
+        it["summary"] = (_to_twp(out) + " " + mark).rstrip() if mark else _to_twp(out)
+        trans += 1
+        if save is not None and trans % 25 == 0:
+            save()
+        time.sleep(SLEEP_BETWEEN_ITEMS)
+
+    print(f"Backfill done: simplified={simp}, translated={trans}, failed={failed}")
+    return simp, trans, failed
 
 
 # ---------------------------------------------------------------- Connection / URL / encoding
@@ -841,16 +986,35 @@ THUMB_URL_DENY = frozenset({
     "https://image.blocktempo.com/2025/03/foresight-ventures.png",
     "https://image.blocktempo.com/2025/03/foresight-news.png",
     "https://image.blocktempo.com/2026/04/mexc-logo-v2.png",
+    "https://ibw.bwnet.com.tw/file/img/smart-white.png",
+    "https://storage.ghost.io/c/30/f5/30f5b1bb-84ee-4c26-b446-fb9a5e512994"
+    "/content/images/size/w30/2025/08/ghostop.png",
+    "https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b"
+    "/content/images/size/w1200/2024/01/1500x500-1.jpeg",
 })
+
+THUMB_URL_DENY_RE = re.compile(
+    r"^https?://kottke\.org/.*/images/\d{4}/logo-colors/color-\d+\.jpe?g$", re.I)
+
+# Hosts where no image is ever wanted as a thumbnail.
+THUMB_SKIP_HOSTS = (
+    "finance.technews.tw",
+)
+
+
+def thumbnail_host_skipped(url: str) -> bool:
+    host = host_of(url)
+    return any(host == h or host.endswith("." + h) for h in THUMB_SKIP_HOSTS)
 
 
 def thumbnail_url_denied(url: str) -> bool:
     """Exact-match against THUMB_URL_DENY, ignoring case and the query
-    string (CDNs append ?w=&h= renditions of the same file)."""
+    string (CDNs append ?w=&h= renditions of the same file), plus the
+    pattern families in THUMB_URL_DENY_RE."""
     if not url:
         return False
     bare = url.split("?", 1)[0].split("#", 1)[0].strip().lower()
-    return bare in THUMB_URL_DENY
+    return bare in THUMB_URL_DENY or bool(THUMB_URL_DENY_RE.match(bare))
 
 # Stock libraries and wire services.
 THUMB_STOCK_RE = re.compile(
@@ -1121,6 +1285,12 @@ def extract_thumbnail(html: str, base_url: str, log: bool = True):
     first <img> in the body. Returns None when nothing passes the filter."""
     if not html:
         return None
+    if thumbnail_host_skipped(base_url):
+        # Opted out at the source, so don't even scan: whatever this site puts
+        # in og:image is not wanted as a thumbnail.
+        if log:
+            print(f"    thumbnail: skipped, {host_of(base_url)} is opted out")
+        return None
     candidates = []
     for m in META_IMAGE_RE.finditer(html[:60000]):
         candidates.append((m.group(1) or m.group(2), "meta"))
@@ -1143,7 +1313,7 @@ def extract_thumbnail(html: str, base_url: str, log: bool = True):
         ok, reason = thumbnail_is_usable(url)
         if ok:
             if log:
-                print(f"    thumbnail ({where}): {url[:90]}  [{reason}]")
+                print(f"    thumbnail ({where}): {url}  [{reason}]")
             return url
     return None
 
@@ -1191,18 +1361,52 @@ def strip_code_blocks(html: str) -> tuple[str, bool]:
     return (str(soup), True) if removed else (str(soup), False)
 
 
+_META_TAG_RE = re.compile(r"<meta\b[^>]*>", re.I)
+_META_ATTR_RE = re.compile(
+    r"""\b([\w:-]+)\s*=\s*(?:"([^"]*)"|'([^']*)'|([^\s"'>]+))""", re.I)
+# Preference order; the first key present with a non-empty value wins.
+_DESC_KEYS = ("og:description", "description", "twitter:description")
+
+
+def _meta_attrs(tag: str) -> dict:
+    out = {}
+    for m in _META_ATTR_RE.finditer(tag):
+        val = m.group(2) if m.group(2) is not None else (
+            m.group(3) if m.group(3) is not None else (m.group(4) or ""))
+        out[m.group(1).lower()] = val
+    return out
+
+
 def extract_meta_description(html: str) -> str:
-    patterns = [
-        r'<meta[^>]+property=["\']og:description["\'][^>]+content=["\'](.*?)["\']',
-        r'<meta[^>]+content=["\'](.*?)["\'][^>]+property=["\']og:description["\']',
-        r'<meta[^>]+name=["\']description["\'][^>]+content=["\'](.*?)["\']',
-        r'<meta[^>]+content=["\'](.*?)["\'][^>]+name=["\']description["\']',
-        r'<meta[^>]+name=["\']twitter:description["\'][^>]+content=["\'](.*?)["\']',
-    ]
-    for pat in patterns:
-        m = re.search(pat, html, re.IGNORECASE | re.DOTALL)
-        if m and m.group(1).strip():
-            return re.sub(r"\s+", " ", m.group(1)).strip()
+    """Pull the page description out of its <meta> tags.
+
+    Parses each tag separately instead of matching name and content in one
+    regex. The old patterns allowed for either attribute order, and the
+    reversed ones used `content=["'](.*?)["']...name=["']description["']` --
+    but `.*?` happily crosses both quotes and `>`, so on Blogger's markup
+
+        <meta content='width=1100' name='viewport'/>
+        <meta content='<the real description>' name='description'/>
+
+    it matched from the *viewport* tag's content through to the description
+    tag's `content=`, capturing the literal text
+
+        width=1100' name='viewport'/> <meta content=
+
+    which is what ended up in every mcclin.blogspot.com summary. Attribute
+    values cannot span tags, so reading them per tag removes the whole class
+    of bug rather than patching the one pattern.
+    """
+    found: dict = {}
+    for tag in _META_TAG_RE.findall(html or ""):
+        attrs = _meta_attrs(tag)
+        key = (attrs.get("property") or attrs.get("name") or "").lower()
+        content = attrs.get("content", "")
+        if key in _DESC_KEYS and content.strip() and key not in found:
+            found[key] = re.sub(r"\s+", " ", content).strip()
+    for key in _DESC_KEYS:
+        if found.get(key):
+            return found[key]
     return ""
 
 
@@ -1936,6 +2140,14 @@ def build_arg_parser():
     p.add_argument("--translate", dest="translate", action="store_true", default=TRANSLATE)
     p.add_argument("--no-translate", dest="translate", action="store_false")
     p.add_argument("--rescore-all", action="store_true", default=RESCORE_ALL)
+    p.add_argument("--backfill-language", dest="backfill_language",
+                   action="store_true", default=True,
+                   help="after summarising, convert 簡體 summaries to 繁體 and "
+                        "translate non-Chinese ones (uses leftover time budget)")
+    p.add_argument("--no-backfill-language", dest="backfill_language",
+                   action="store_false")
+    p.add_argument("--backfill-limit", type=int, default=0, metavar="N",
+                   help="translate at most N summaries per run (0 = no limit)")
     p.add_argument("--feed-content-preview", type=int, default=40, metavar="CHARS")
     p.add_argument("--mine-boilerplate", type=int, metavar="MIN_COUNT", default=0)
     p.add_argument("--time-budget-seconds", type=int, default=TIME_BUDGET_SECONDS,
@@ -2115,7 +2327,10 @@ def main(argv=None) -> int:
 
     start_time = time.monotonic()
     time_cut_off = False
-    ok = blocked_n = failed = blank_n = junk_n = 0
+    ok = failed = blank_n = 0
+    # Outcome tallies live in one Counter keyed by Outcome.counter,
+    # so adding a source_type does not mean adding a variable.
+    counts: Counter = Counter()
     attempted = 0
     junk_hosts: set[str] = set()
     junk_skipped: Counter = Counter()
@@ -2334,23 +2549,19 @@ def main(argv=None) -> int:
             url, feed_content=feed_html, meta_out=meta_out
         )
 
-        if source_type == "junk":
-            junk_n += 1
-            junk_hosts.add(host)
-            print(f"    junk page -> skipped, {host} skipped for the rest "
-                  f"of this run")
-            continue
-        if source_type in ("blocked", "gone"):
-            it["summary"] = BLOCKED_SUMMARY if source_type == "blocked" else GONE_SUMMARY
-            it.pop("feed_content", None)
-            blocked_n += 1
-            print(f"    {source_type} -> placeholder written")
-            save_items(ITEMS_FILE, items, wrapper)
-            time.sleep(SLEEP_BETWEEN_ITEMS)
-            continue
-        if not content:
-            print("    fetch failed, skipped (kept pending for next run).")
-            failed += 1
+        outcome = OUTCOMES.get(source_type)
+        if outcome is None and not content:
+            outcome = OUTCOMES["fail"]
+        if outcome is not None:
+            if outcome.pause_host:
+                junk_hosts.add(host)
+            if outcome.summary is not None:
+                it["summary"] = outcome.summary
+                it.pop("feed_content", None)
+                save_items(ITEMS_FILE, items, wrapper)
+                time.sleep(SLEEP_BETWEEN_ITEMS)
+            counts[outcome.counter] += 1
+            print(f"    {outcome.describe(host)}")
             continue
 
         try:
@@ -2381,11 +2592,13 @@ def main(argv=None) -> int:
         detail = ", ".join(f"{h}×{junk_skipped[h]}"
                            for h, _ in junk_skipped.most_common())
         print(f"Skipped {sum(junk_skipped.values())} item(s) on "
-              f"{len(junk_hosts)} host(s) serving a template: {detail}"
+              f"{len(junk_hosts)} paused host(s) (template or blocking): {detail}"
               + (f"  (also: {', '.join(sorted(junk_hosts - set(junk_skipped)))})"
                  if junk_hosts - set(junk_skipped) else ""))
-    print(f"Done. attempted={attempted}, ok={ok}, blocked={blocked_n}, "
-          f"blank={blank_n}, junk={junk_n}, failed={failed}"
+    print(f"Done. attempted={attempted}, ok={ok}, "
+          f"blocked={counts['blocked']}, gone={counts['gone']}, "
+          f"blank={blank_n}, junk={counts['junk']}, "
+          f"failed={failed + counts['failed']}"
           f"{', stopped early: time budget reached' if time_cut_off else ''}")
 
 
@@ -2394,6 +2607,20 @@ def main(argv=None) -> int:
         if detail:
             print(f"Boilerplate: dropped {sum(BOILER_STATS.values())} "
                   f"sentence(s)/paragraph(s)  [{detail}]")
+
+    # ---- Pass 3: language backfill ------------------------------------------
+    # After this batch's summaries are done, not instead of them: the fetch
+    # loop above is the priority, and this only spends whatever time is left.
+    if args.backfill_language:
+        backfill_language(
+            items,
+            translate_enabled=args.translate,
+            limit=args.backfill_limit,
+            deadline=(start_time + TIME_BUDGET_SECONDS
+                      if TIME_BUDGET_SECONDS > 0 else None),
+            save=lambda: save_items(ITEMS_FILE, items, wrapper),
+        )
+        save_items(ITEMS_FILE, items, wrapper)
 
     dropped = strip_feed_content(items)
     if dropped:
