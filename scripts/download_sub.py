@@ -9,11 +9,16 @@ import signal
 import subprocess
 import sys
 import time
+from collections import Counter
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import jsonio
 import subtitle_priority
+
+# Same sentinel summarize_feed uses: a deliberate "this item correctly has
+# no summary", as opposed to a missing key, which means "not processed yet".
+BLANK_SUMMARY = " "
 import local_transcribe
 from subtitle_priority import choose_track
 
@@ -72,7 +77,22 @@ def is_youtube(url: str) -> bool:
 
 
 def already_downloaded(out_dir: Path, item_id: str) -> bool:
+    """Fresh check for one id. Only for re-checking right after a download;
+    the main loop pre-filters with downloaded_ids() instead."""
     return any(out_dir.glob(f"{item_id}*.vtt"))
+
+
+def downloaded_ids(out_dir: Path) -> set[str]:
+    """Every id that already has a .vtt, from a single directory scan.
+
+    The loop walks the whole archive, so calling already_downloaded() per item
+    meant one glob per YouTube entry -- 3,500 directory scans a run on the
+    current archive, all of them to re-derive the same listing."""
+    return {p.name.split(".", 1)[0] for p in out_dir.glob("*.vtt")}
+
+
+class CookiesExpired(Exception):
+    """Cookies are invalid; nothing further will succeed this run."""
 
 
 def probe_subtitle_langs(url: str, cookies_path: Path,
@@ -180,23 +200,34 @@ class AsrBudget:
     def remaining(self) -> float:
         return self.max_total - self.spent if self.max_total else float("inf")
 
-    def why_not(self, duration: float, is_live: bool) -> str | None:
-        """Reason to skip, or None to go ahead."""
+    def why_not(self, duration: float, is_live: bool) -> tuple[str, bool] | None:
+        """(reason, permanent) to skip, or None to go ahead.
+
+        `permanent` decides whether the caller may write the BLANK_SUMMARY
+        sentinel. Only one reason here is a property of the video itself --
+        being longer than the per-video cap. Every other reason is about this
+        run: the budget is spent, the operator turned ASR off, whisper is not
+        installed, the stream has not ended yet. Marking those permanently
+        would repeat the `blocked` placeholder mistake: the sentinel fills
+        `summary`, so the item stops being pending and no later run retries it,
+        even though the very next run would have had budget for it.
+        """
         if not self.enabled:
-            return "transcription disabled"
+            return "transcription disabled", False
         ok, why = local_transcribe.available()
         if not ok:
-            return why
+            return why, False
         if is_live:
-            return "still live"
+            return "still live", False          # it will end
         if self.max_items and self.count >= self.max_items:
-            return f"per-run item cap reached ({self.max_items})"
+            return f"per-run item cap reached ({self.max_items})", False
         if self.max_duration and duration > self.max_duration:
+            # A stable fact about this video, not about this run.
             return (f"{duration / 60:.0f} min > "
-                    f"{self.max_duration / 60:.0f} min")
+                    f"{self.max_duration / 60:.0f} min"), True
         if self.max_total and duration > self.remaining():
             return (f"{duration / 60:.0f} min exceeds remaining budget "
-                    f"{self.remaining() / 60:.0f} min")
+                    f"{self.remaining() / 60:.0f} min"), False
         return None
 
     def record(self, duration: float) -> None:
@@ -211,11 +242,18 @@ class AsrBudget:
 
 def try_transcribe(url: str, cookies_path: Path, out_dir: Path, item_id: str,
                    orig_lang: str | None, args, budget: AsrBudget,
-                   duration: float = 0.0, is_live: bool = False) -> bool:
-    why = budget.why_not(duration, is_live)
-    if why:
-        print(f"[ASR-SKIP] item {item_id}: {why}")
-        return False
+                   duration: float = 0.0, is_live: bool = False):
+    """Returns True on success, or (False, permanent) when ASR did not run.
+
+    `permanent` tells the caller whether this item can be marked as having no
+    summary for good, or must be left pending for the next run.
+    """
+    verdict = budget.why_not(duration, is_live)
+    if verdict:
+        why, permanent = verdict
+        print(f"[ASR-SKIP] item {item_id}: {why}"
+              + ("" if permanent else " (kept pending)"))
+        return False, permanent
     try:
         path, detected = local_transcribe.transcribe_to_vtt(
             url=url,
@@ -231,15 +269,44 @@ def try_transcribe(url: str, cookies_path: Path, out_dir: Path, item_id: str,
             duration_hint=duration,
             runner=run_ytdlp,
         )
+    except local_transcribe.TranscribeUnavailable as exc:
+        # Environment problem, not a problem with this video: retry next run.
+        discard_partial(out_dir, item_id)
+        print(f"[ASR-FAILED] item {item_id}: {exc} (kept pending)")
+        return False, False
     except Exception as exc:
+        # The video itself could not be transcribed (no audio stream, decode
+        # error). Retrying would fail the same way, so let it be marked.
         discard_partial(out_dir, item_id)
         print(f"[ASR-FAILED] item {item_id}: {exc}")
-        return False
+        return False, True
     budget.record(duration)
     print(f"[ASR] item {item_id}: {path.name} (lang={detected}, "
           f"model={args.whisper_model}, {duration / 60:.0f}min, "
           f"{budget.report()})")
-    return True
+    return True, True
+
+
+def run_asr(item: dict, url: str, item_id: str, orig_lang, args,
+            budget: "AsrBudget", duration: float, is_live: bool,
+            cookies_path: Path, out_dir: Path, stats: Counter) -> bool:
+    """Attempt ASR and record the outcome. Returns whether the item changed.
+
+    Both places that fall back to ASR -- no track offered, and yt-dlp reporting
+    no subtitles after the fact -- need exactly this, so it lives here rather
+    than being written out twice.
+    """
+    ok, permanent = try_transcribe(url, cookies_path, out_dir, item_id,
+                                   orig_lang, args, budget, duration, is_live)
+    if ok:
+        stats["succeeded"] += 1
+        return False
+    if permanent:
+        stats["no_subs"] += 1
+        item["summary"] = BLANK_SUMMARY
+        return True
+    stats["deferred"] += 1        # left pending for the next run
+    return False
 
 
 def main():
@@ -293,94 +360,94 @@ def main():
         max_duration=args.max_asr_duration,
     )
     dirty = False
-    processed = 0
-    succeeded = 0
-    failed = 0
-    timed_out_count = 0
-    no_subs = 0
+    stats: Counter = Counter()
+    # One directory scan up front instead of a glob per item.
+    have_subs = downloaded_ids(out_dir)
 
-    for item in items:
-        if processed >= args.max_items:
-            break
+    def pending(item: dict) -> tuple[str, str] | None:
+        """(url, id) for an item still needing subtitles, else None.
 
-        url = item.get("url", "")
-        item_id = item.get("id")
+        Ordered cheapest test first: a dict lookup rules out the ~3,500
+        already-summarised YouTube entries before anything touches the
+        filesystem.
+        """
+        url, item_id = item.get("url", ""), item.get("id")
+        if not item_id or item.get("summary") is not None:
+            return None
+        if not is_youtube(url) or item_id in have_subs:
+            return None
+        return url, item_id
 
-        if not item_id or not is_youtube(url):
-            continue
-        if already_downloaded(out_dir, item_id):
-            continue
-        if item.get("summary") is not None:
-            continue
+    try:
+        for item in items:
+            if stats["processed"] >= args.max_items:
+                break
+            target = pending(item)
+            if target is None:
+                continue
+            url, item_id = target
 
-        probe = probe_subtitle_langs(url, cookies_path, args.probe_timeout)
-        if probe is None:
-            failed += 1
-            print(f"[FAILED] item {item_id}: could not probe subtitle languages")
-            processed += 1
-            continue
-        if probe[0] == "EXPIRED":
-            print("[EXPIRED] cookies invalid")
-            break
+            probe = probe_subtitle_langs(url, cookies_path, args.probe_timeout)
+            if probe is None:
+                stats["failed"] += 1
+                stats["processed"] += 1
+                print(f"[FAILED] item {item_id}: could not probe subtitle languages")
+                continue
+            if probe[0] == "EXPIRED":
+                raise CookiesExpired
+            manual, auto, orig_lang, duration, is_live = probe
+            stats["processed"] += 1
 
-        manual, auto, orig_lang, duration, is_live = probe
-        # The probe already paid for this; keeping it means later runs and the
-        # summariser can see how long an item is without re-probing. Stored as
-        # `length` (whole seconds); `duration` stays the name of yt-dlp's own
-        # json key that it is read from, just above.
-        if duration and item.get("length") != int(duration):
-            item["length"] = int(duration)
-            dirty = True
-
-        choice = choose_track(manual, auto, orig_lang)
-        if choice is None:
-            if try_transcribe(url, cookies_path, out_dir, item_id,
-                              orig_lang, args, budget, duration, is_live):
-                succeeded += 1
-            else:
-                no_subs += 1
-                item["summary"] = " "
+            # The probe already paid for this; keeping it means later runs and
+            # the summariser can see how long an item is without re-probing.
+            # Stored as `length` (whole seconds); `duration` stays the name of
+            # yt-dlp's own json key that it is read from.
+            if duration and item.get("length") != int(duration):
+                item["length"] = int(duration)
                 dirty = True
-            processed += 1
-            continue
 
-        is_manual, lang = choice
-        print(f"[TRACK] item {item_id}: {lang} "
-              f"({'manual' if is_manual else 'auto'}, orig={orig_lang}, "
-              f"rank={subtitle_priority.track_rank(lang, orig_lang, is_manual)})")
-        output_tpl = str(out_dir / f"{item_id}.%(language)s.%(ext)s")
-        returncode, output, timed_out = download_one_subtitle(
-            url, cookies_path, output_tpl, lang, is_manual, args.download_timeout)
-        lowered = output.lower()
+            def asr(item=item, url=url, item_id=item_id, orig_lang=orig_lang,
+                    duration=duration, is_live=is_live) -> bool:
+                return run_asr(item, url, item_id, orig_lang, args, budget,
+                               duration, is_live, cookies_path, out_dir, stats)
 
-        if "cookies" in lowered:
-            print("[EXPIRED] cookies invalid")
-            break
-        if timed_out:
-            removed = discard_partial(out_dir, item_id)
-            timed_out_count += 1
-            failed += 1
-            print(f"[TIMEOUT] item {item_id}: timeout over {args.download_timeout}s,"
-                  f"Halted" + (f", cleaned {len(removed)} files" if removed else ""))
-        elif returncode != 0:
-            failed += 1
-            print(f"[FAILED] item {item_id} (exit {returncode}): {output}")
-        elif not already_downloaded(out_dir, item_id):
-            if "no subtitles for the requested languages" in lowered:
-                if try_transcribe(url, cookies_path, out_dir, item_id,
-                                  orig_lang, args, budget, duration, is_live):
-                    succeeded += 1
-                else:
-                    no_subs += 1
-                    item["summary"] = " "
-                    dirty = True
+            choice = choose_track(manual, auto, orig_lang)
+            if choice is None:
+                dirty |= asr()
+                continue
+
+            is_manual, lang = choice
+            print(f"[TRACK] item {item_id}: {lang} "
+                  f"({'manual' if is_manual else 'auto'}, orig={orig_lang}, "
+                  f"rank={subtitle_priority.track_rank(lang, orig_lang, is_manual)})")
+            returncode, output, timed_out = download_one_subtitle(
+                url, cookies_path,
+                str(out_dir / f"{item_id}.%(language)s.%(ext)s"),
+                lang, is_manual, args.download_timeout)
+            lowered = output.lower()
+
+            if "cookies" in lowered:
+                raise CookiesExpired
+            if timed_out:
+                removed = discard_partial(out_dir, item_id)
+                stats["timed_out"] += 1
+                stats["failed"] += 1
+                print(f"[TIMEOUT] item {item_id}: timeout over "
+                      f"{args.download_timeout}s, Halted"
+                      + (f", cleaned {len(removed)} files" if removed else ""))
+            elif returncode != 0:
+                stats["failed"] += 1
+                print(f"[FAILED] item {item_id} (exit {returncode}): {output}")
+            elif already_downloaded(out_dir, item_id):
+                have_subs.add(item_id)
+                stats["succeeded"] += 1
+            elif "no subtitles for the requested languages" in lowered:
+                dirty |= asr()
             else:
-                failed += 1
+                stats["failed"] += 1
                 print(f"[FAILED] item {item_id} (exit 0): {output}")
-        else:
-            succeeded += 1
-
-        processed += 1
+    except CookiesExpired:
+        print("[EXPIRED] cookies invalid")
 
     if dirty:
         # jsonio, not json.dumps(indent=2): every other script in the pipeline
@@ -390,8 +457,10 @@ def main():
         # run that only recorded durations still saves them.
         jsonio.write_atomic(archive_path, data)
 
-    print(f"Done. succeeded={succeeded} ({budget.report()}) failed={failed} "
-          f"no_subs={no_subs} timed_out={timed_out_count}")
+    print(f"Done. processed={stats['processed']} "
+          f"succeeded={stats['succeeded']} ({budget.report()}) "
+          f"failed={stats['failed']} no_subs={stats['no_subs']} "
+          f"deferred={stats['deferred']} timed_out={stats['timed_out']}")
 
 
 def _find_processes(marker: str) -> list[int]:
