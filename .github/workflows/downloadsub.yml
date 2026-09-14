@@ -19,6 +19,10 @@ env:
   COOKIES_PATH: /dev/shm/cookies.txt
   MAX_ITEMS_PER_RUN: 400
   MAX_TRANSCRIBE_PER_RUN: 20
+  # Audio-seconds per run. The real cap: 20 videos is trivial at 10 min
+  # each and impossible at 3 h each, so the budget is spent in audio
+  # length. 4 h of audio at base-model speed leaves room in the job.
+  MAX_ASR_TOTAL_SECONDS: 14400
   WHISPER_MODEL: base
   HF_HOME: /home/runner/.cache/huggingface
 
@@ -93,6 +97,7 @@ jobs:
             --cookies-path "${{ env.COOKIES_PATH }}" \
             --max-items "${{ env.MAX_ITEMS_PER_RUN }}" \
             --max-transcribe "${{ env.MAX_TRANSCRIBE_PER_RUN }}" \
+            --max-asr-total "${{ env.MAX_ASR_TOTAL_SECONDS }}" \
             --whisper-model "${{ env.WHISPER_MODEL }}"
 
       - name: Commit and push changes
