@@ -132,7 +132,6 @@ FEED_FIRST_HOSTS = (
     "beartalking.com",
     "bituzi.com",
     "blocktempo.com",
-    "blogspot.com",
     "buttondown.com",
     "caffes.me",
     "careher.net",
