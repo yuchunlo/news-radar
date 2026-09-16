@@ -2,8 +2,10 @@
 
 from __future__ import annotations
 
+import os
 import re
 from pathlib import Path
+import time
 from urllib.parse import quote
 from typing import Optional
 
@@ -104,6 +106,7 @@ _ENDPOINT = "https://translate.googleapis.com/translate_a/single"
 # deliberately below the lowest figure that probe has ever returned.
 _CHUNK_ENCODED_BYTES = 2000
 _DEFAULT_TIMEOUT = 30
+GTX_SLEEP_BETWEEN_CALLS = 1.0
 
 # Sentence ends, with the whitespace *optional*: CJK and Thai put no space
 # after 。！？, so a `(?<=[.!?。！？])\s+` split finds no boundary at all in
@@ -115,6 +118,33 @@ _SENT_SPLIT = re.compile(r"(?<=[.!?。！？])\s*")
 # whole run of these becomes indistinguishable from having nothing to translate
 # (ARCHITECTURE 1.8.1). Callers that care read translate_detailed().
 LAST_ERROR: str = ""
+LAST_PROVIDER: str = ""
+
+DEEPL_KEY = os.environ.get("DEEPL_API_KEY", "").strip()
+DEEPL_FREE_HOST = "https://api-free.deepl.com"
+DEEPL_PRO_HOST = "https://api.deepl.com"
+DEEPL_BATCH = 50
+DEEPL_MAX_CHARS = 100_000
+_DEEPL_TARGET = {"zh-tw": "ZH-HANT", "zh-hant": "ZH-HANT",
+                 "zh-cn": "ZH-HANS", "zh-hans": "ZH-HANS"}
+
+
+def deepl_enabled() -> bool:
+    return bool(DEEPL_KEY) and HAS_REQUESTS
+
+
+def _deepl_host() -> str:
+    return DEEPL_FREE_HOST if DEEPL_KEY.endswith(":fx") else DEEPL_PRO_HOST
+
+
+def short_reason(reason: str, limit: int = 160) -> str:
+    reason = " ".join((reason or "").split())
+    for key in ("too many 429", "429", "403", "timed out", "NameResolution",
+                "Connection", "quota", "456"):
+        if key in reason:
+            head = reason.split(":", 1)[0]
+            return (head if key in head else f"{head}: {key}")[:limit]
+    return reason[:limit]
 
 
 class TranslateError(Exception):
@@ -188,6 +218,108 @@ def _translate_chunk(chunk: str, source: str, target: str,
     return "".join(str(s[0]) for s in segs if isinstance(s, list) and s and s[0])
 
 
+def _deepl_call(texts: list[str], target: str, session, timeout: int) -> list[str]:
+    tl = _DEEPL_TARGET.get(target.lower(), "ZH-HANT")
+    try:
+        r = session.post(
+            _deepl_host() + "/v2/translate",
+            headers={"Authorization": f"DeepL-Auth-Key {DEEPL_KEY}",
+                     "Content-Type": "application/json"},
+            json={"text": texts, "target_lang": tl},
+            timeout=timeout,
+        )
+    except Exception as e:
+        raise TranslateError(f"deepl {type(e).__name__}: {e}") from e
+    if r.status_code == 456:
+        raise TranslateError("deepl quota exceeded (456)")
+    if r.status_code != 200:
+        raise TranslateError(f"deepl HTTP {r.status_code}")
+    try:
+        out = [t["text"] for t in r.json()["translations"]]
+    except Exception as e:
+        raise TranslateError(f"deepl bad payload: {type(e).__name__}") from e
+    if len(out) != len(texts):
+        raise TranslateError(
+            f"deepl returned {len(out)} of {len(texts)} segments")
+    return out
+
+
+def deepl_usage(session=None) -> tuple[int, int] | None:
+    if not deepl_enabled():
+        return None
+    own = session is None
+    session = session or requests.Session()
+    try:
+        r = session.get(_deepl_host() + "/v2/usage",
+                        headers={"Authorization": f"DeepL-Auth-Key {DEEPL_KEY}"},
+                        timeout=15)
+        d = r.json()
+        return int(d["character_count"]), int(d["character_limit"])
+    except Exception:
+        return None
+    finally:
+        if own:
+            session.close()
+
+
+def translate_many(
+    texts: list[str],
+    target: str = "zh-TW",
+    session: Optional["requests.Session"] = None,
+    timeout: int = _DEFAULT_TIMEOUT,
+) -> list[tuple[Optional[str], str]]:
+    global LAST_PROVIDER
+    results: list[tuple[Optional[str], str]] = [(None, "not attempted")] * len(texts)
+    idx = [i for i, t in enumerate(texts) if (t or "").strip()]
+    for i in range(len(texts)):
+        if i not in set(idx):
+            results[i] = (None, "empty input")
+
+    own_session = session is None
+    if own_session:
+        if not HAS_REQUESTS:
+            return [(None, "requests not installed")] * len(texts)
+        session = requests.Session()
+    try:
+        pos = 0
+        use_deepl = deepl_enabled()
+        while pos < len(idx):
+            batch, chars = [], 0
+            while pos < len(idx) and len(batch) < DEEPL_BATCH:
+                t = texts[idx[pos]]
+                if batch and chars + len(t) > DEEPL_MAX_CHARS:
+                    break
+                batch.append(idx[pos])
+                chars += len(t)
+                pos += 1
+            if use_deepl:
+                try:
+                    out = _deepl_call([texts[i] for i in batch], target,
+                                      session, timeout)
+                    for i, o in zip(batch, out):
+                        results[i] = ((o.strip() or None),
+                                      "" if o.strip() else "empty result")
+                    LAST_PROVIDER = "deepl"
+                    continue
+                except TranslateError as e:
+                    reason = str(e)
+                    if "quota" in reason or "403" in reason or "401" in reason:
+                        use_deepl = False
+                    for i in batch:
+                        results[i] = (None, reason)
+            for i in batch:
+                res, why = _gtx_detailed(texts[i], target=target,
+                                         session=session, timeout=timeout)
+                if res:
+                    LAST_PROVIDER = "gtx"
+                results[i] = (res, why)
+                time.sleep(GTX_SLEEP_BETWEEN_CALLS)
+        return results
+    finally:
+        if own_session:
+            session.close()
+
+
 def translate_detailed(
     text: str,
     target: str = "zh-TW",
@@ -195,7 +327,34 @@ def translate_detailed(
     session: Optional["requests.Session"] = None,
     timeout: int = _DEFAULT_TIMEOUT,
 ) -> tuple[Optional[str], str]:
-    """Translate, returning (result, reason). reason is "" on success.
+    global LAST_PROVIDER
+    if deepl_enabled() and (text or "").strip():
+        own = session is None
+        sess = session or requests.Session()
+        try:
+            out = _deepl_call([text.strip()], target, sess, timeout)[0].strip()
+            if out:
+                LAST_PROVIDER = "deepl"
+                return out, ""
+        except TranslateError:
+            pass
+        finally:
+            if own:
+                sess.close()
+    result, reason = _gtx_detailed(text, target, source, session, timeout)
+    if result:
+        LAST_PROVIDER = "gtx"
+    return result, reason
+
+
+def _gtx_detailed(
+    text: str,
+    target: str = "zh-TW",
+    source: str = "auto",
+    session: Optional["requests.Session"] = None,
+    timeout: int = _DEFAULT_TIMEOUT,
+) -> tuple[Optional[str], str]:
+    """Translate via the gtx endpoint, returning (result, reason).
 
     Same work as translate(), but the failure reason comes back instead of
     being swallowed, so a caller can tell a rate limit from a block from an
