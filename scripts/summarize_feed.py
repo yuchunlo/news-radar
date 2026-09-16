@@ -132,6 +132,7 @@ FEED_FIRST_HOSTS = (
     "beartalking.com",
     "bituzi.com",
     "blocktempo.com",
+    "blogspot.com",
     "buttondown.com",
     "caffes.me",
     "careher.net",
@@ -489,6 +490,15 @@ def needs_translation(text: str | None) -> bool:
                             "arabic", "devanagari", "thai"))
 
 
+# How many failures in a row mean the endpoint itself is the problem rather
+# than these particular summaries. See backfill().
+BACKFILL_MAX_CONSECUTIVE_FAILURES = 12
+
+
+def translation_is_acceptable(out: str | None) -> bool:
+    return bool(out) and not needs_translation(out)
+
+
 def backfill(items, *, translate_enabled=True, revalidate_thumbnails=True,
              limit=0, deadline=None, save=None):
     """Re-apply current rules to already-stored items, after the fetch loop.
@@ -557,24 +567,42 @@ def backfill(items, *, translate_enabled=True, revalidate_thumbnails=True,
     if limit:
         targets = targets[:limit]
 
+    consecutive = 0
+    reasons: Counter = Counter()
     for n, it in enumerate(targets, 1):
         if deadline is not None and time.monotonic() > deadline:
             print(f"Backfill: time budget reached, stopped after {n - 1}.")
+            break
+        if consecutive >= BACKFILL_MAX_CONSECUTIVE_FAILURES:
+            # Every failure so far has been the same answer from the same
+            # endpoint. Spending the rest of the budget on the remaining
+            # targets buys nothing and hides the reason under a large number,
+            # which is how "failed=988, translated=0" happened.
+            print(f"Backfill: stopping after {consecutive} consecutive "
+                  f"failures (last: {reasons.most_common(1)[0][0]}); "
+                  f"{len(targets) - n + 1} left for a later run.")
             break
         src = it["summary"]
         # Keep the fallback mark out of the translated body, re-append after.
         mark = FALLBACK_MARK if src.rstrip().endswith(FALLBACK_MARK) else ""
         body = src.rstrip().rstrip(FALLBACK_MARK).strip()
         try:
-            out = _tr.translate(body, target="zh-TW")
+            out, reason = _tr.translate_detailed(
+                body, target="zh-TW", session=get_session())
         except Exception as e:
-            print(f"    backfill translate error: {e}")
-            out = None
-        # Only accept a result that actually came back as Chinese; otherwise
-        # keep the original rather than overwriting it with a failed call.
-        if not out or summary_cjk_ratio(out) < 0.5:
+            out, reason = None, f"{type(e).__name__}: {e}"
+        if out and not translation_is_acceptable(out):
+            out, reason = None, "result still not Chinese"
+        if not out:
             counts["failed"] += 1
+            reasons[reason or "unknown"] += 1
+            consecutive += 1
+            # The delay belongs on this path too. It used to sit after the
+            # success `continue`, so a run where everything failed sent its
+            # requests with no gap at all -- the one case where pacing matters.
+            time.sleep(SLEEP_BETWEEN_ITEMS)
             continue
+        consecutive = 0
         it["summary"] = (_to_twp(out) + " " + mark).rstrip() if mark else _to_twp(out)
         counts["translated"] += 1
         if save is not None and counts["translated"] % 25 == 0:
@@ -584,6 +612,10 @@ def backfill(items, *, translate_enabled=True, revalidate_thumbnails=True,
     print(f"Backfill done: thumbnails={counts['thumbnail']}, "
           f"simplified={counts['simplified']}, "
           f"translated={counts['translated']}, failed={counts['failed']}")
+    if reasons:
+        detail = ", ".join(f"{k}×{v}" for k, v in reasons.most_common(5))
+        print(f"Backfill failure reasons: {detail}")
+    counts["reasons"] = reasons
     return counts
 
 
@@ -1068,7 +1100,11 @@ IMAGE_EXT_RE = re.compile(r"\.(?:png|jpe?g|gif|webp|avif|svg)(?:$|[?#])", re.I)
 # usable and end up as the thumbnail on hundreds of unrelated articles.
 # An exact-url list rather than more filename rules: these are specific files,
 # and guessing at the pattern would start rejecting real article images.
-THUMB_URL_DENY = frozenset({
+# Lower-cased on the way in, not on the way to being pasted here: the lookup
+# compares against a lower-cased url, so a single upper-case character in an
+# entry makes that entry unreachable and there is nothing to see in the log --
+# it simply never fires. One of the eight entries was in that state.
+THUMB_URL_DENY = frozenset(u.lower() for u in {
     "https://image.blocktempo.com/2025/03/foresight-ventures.png",
     "https://image.blocktempo.com/2025/03/foresight-news.png",
     "https://image.blocktempo.com/2026/04/mexc-logo-v2.png",
@@ -2138,14 +2174,28 @@ def note_untranslated(lang: str) -> None:
     UNTRANSLATED[lang] += 1
 
 
+TRANSLATE_FAIL_REASONS: Counter = Counter()
+
+
 def translate_to_zhtw(text: str) -> str | None:
+    """Translate to 繁中, recording *why* a failure happened.
+
+    The reason is the difference between "the endpoint is refusing this IP" and
+    "one request timed out", and both used to arrive as the same None. It is
+    counted here and printed beside the untranslated WARNING at the end of the
+    run, so one look at the log answers what a whole batch of originals means.
+    """
     if _tr is None:
+        TRANSLATE_FAIL_REASONS["translate module unavailable"] += 1
         return None
     try:
-        return _tr.translate(text, target="zh-TW", source="auto", session=get_session())
+        out, reason = _tr.translate_detailed(
+            text, target="zh-TW", source="auto", session=get_session())
     except Exception as e:
-        print(f"    translate failed: {e}")
-        return None
+        out, reason = None, f"{type(e).__name__}: {e}"
+    if out is None:
+        TRANSLATE_FAIL_REASONS[reason or "unknown"] += 1
+    return out
 
 
 # ---------------------------------------------------------------- Assembly
@@ -2763,8 +2813,12 @@ def main(argv=None) -> int:
 
     if UNTRANSLATED:
         detail = ", ".join(f"{k}×{v}" for k, v in UNTRANSLATED.most_common())
+        why = (", ".join(f"{k}×{v}" for k, v in
+                         TRANSLATE_FAIL_REASONS.most_common(5))
+               or "no reason recorded")
         print(f"WARNING: {sum(UNTRANSLATED.values())} summary(ies) stored "
               f"untranslated in their original language [{detail}]. "
+              f"Cause: {why}. "
               f"The backfill pass will retry them on a later run.")
 
     if BOILER_STATS:
