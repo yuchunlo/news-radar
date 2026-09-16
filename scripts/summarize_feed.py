@@ -493,6 +493,7 @@ def needs_translation(text: str | None) -> bool:
 # How many failures in a row mean the endpoint itself is the problem rather
 # than these particular summaries. See backfill().
 BACKFILL_MAX_CONSECUTIVE_FAILURES = 12
+BACKFILL_BATCH = 25
 
 
 def translation_is_acceptable(out: str | None) -> bool:
@@ -569,49 +570,60 @@ def backfill(items, *, translate_enabled=True, revalidate_thumbnails=True,
 
     consecutive = 0
     reasons: Counter = Counter()
-    for n, it in enumerate(targets, 1):
+    providers: Counter = Counter()
+    if getattr(_tr, "deepl_enabled", lambda: False)():
+        usage = _tr.deepl_usage(get_session())
+        print("Backfill: using DeepL" +
+              (f" ({usage[0]:,}/{usage[1]:,} characters used this period)"
+               if usage else " (usage unavailable)"))
+
+    pos = 0
+    while pos < len(targets):
         if deadline is not None and time.monotonic() > deadline:
-            print(f"Backfill: time budget reached, stopped after {n - 1}.")
+            print(f"Backfill: time budget reached, stopped after {pos}.")
             break
         if consecutive >= BACKFILL_MAX_CONSECUTIVE_FAILURES:
-            # Every failure so far has been the same answer from the same
-            # endpoint. Spending the rest of the budget on the remaining
-            # targets buys nothing and hides the reason under a large number,
-            # which is how "failed=988, translated=0" happened.
+            worst = _tr.short_reason(reasons.most_common(1)[0][0])
             print(f"Backfill: stopping after {consecutive} consecutive "
-                  f"failures (last: {reasons.most_common(1)[0][0]}); "
-                  f"{len(targets) - n + 1} left for a later run.")
+                  f"failures (last: {worst}); {len(targets) - pos} left "
+                  f"for a later run.")
             break
-        src = it["summary"]
+        batch = targets[pos:pos + BACKFILL_BATCH]
+        pos += len(batch)
+
+        marks, bodies = [], []
+        for it in batch:
+            src = it["summary"]
         # Keep the fallback mark out of the translated body, re-append after.
-        mark = FALLBACK_MARK if src.rstrip().endswith(FALLBACK_MARK) else ""
-        body = src.rstrip().rstrip(FALLBACK_MARK).strip()
+            marks.append(FALLBACK_MARK if src.rstrip().endswith(FALLBACK_MARK) else "")
+            bodies.append(src.rstrip().rstrip(FALLBACK_MARK).strip())
         try:
-            out, reason = _tr.translate_detailed(
-                body, target="zh-TW", session=get_session())
+            outs = _tr.translate_many(bodies, session=get_session())
         except Exception as e:
-            out, reason = None, f"{type(e).__name__}: {e}"
-        if out and not translation_is_acceptable(out):
-            out, reason = None, "result still not Chinese"
-        if not out:
-            counts["failed"] += 1
-            reasons[reason or "unknown"] += 1
-            consecutive += 1
-            # The delay belongs on this path too. It used to sit after the
-            # success `continue`, so a run where everything failed sent its
-            # requests with no gap at all -- the one case where pacing matters.
-            time.sleep(SLEEP_BETWEEN_ITEMS)
-            continue
-        consecutive = 0
-        it["summary"] = (_to_twp(out) + " " + mark).rstrip() if mark else _to_twp(out)
-        counts["translated"] += 1
-        if save is not None and counts["translated"] % 25 == 0:
+            outs = [(None, f"{type(e).__name__}: {e}")] * len(bodies)
+
+        for it, mark, (out, reason) in zip(batch, marks, outs):
+            if out and not translation_is_acceptable(out):
+                out, reason = None, "result still not Chinese"
+            if not out:
+                counts["failed"] += 1
+                reasons[_tr.short_reason(reason) or "unknown"] += 1
+                consecutive += 1
+                continue
+            consecutive = 0
+            it["summary"] = (_to_twp(out) + " " + mark).rstrip() if mark else _to_twp(out)
+            counts["translated"] += 1
+        providers[getattr(_tr, "LAST_PROVIDER", "") or "none"] += 1
+        if save is not None and counts["translated"]:
             save()
         time.sleep(SLEEP_BETWEEN_ITEMS)
 
     print(f"Backfill done: thumbnails={counts['thumbnail']}, "
           f"simplified={counts['simplified']}, "
           f"translated={counts['translated']}, failed={counts['failed']}")
+    if providers:
+        print("Backfill provider: " +
+              ", ".join(f"{k}×{v} batch" for k, v in providers.most_common()))
     if reasons:
         detail = ", ".join(f"{k}×{v}" for k, v in reasons.most_common(5))
         print(f"Backfill failure reasons: {detail}")
@@ -802,7 +814,6 @@ HTML_BR_RE = re.compile(r"<\s*br\s*/?\s*>", re.I)
 
 
 def sanitize_leaked_markup(text: str) -> str:
-    """清掉抽取階段漏出來的標記殘骸。保留程式碼區塊裡看起來像標籤的內容。"""
     if not text:
         return text
     text = HTML_COMMENT_RE.sub("", text)
