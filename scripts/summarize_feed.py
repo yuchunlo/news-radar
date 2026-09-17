@@ -626,6 +626,14 @@ def backfill(items, *, translate_enabled=True, revalidate_thumbnails=True,
     if reasons:
         detail = ", ".join(f"{k}×{v}" for k, v in reasons.most_common(5))
         print(f"Backfill failure reasons: {detail}")
+    deepl_failures = getattr(_tr, "DEEPL_FAILURES", None)
+    if deepl_failures:
+        # These are calls gtx then quietly retried and "fixed" -- gtx's 429s
+        # in the counters above are downstream of whatever is in this line.
+        # If this never prints, DeepL genuinely wasn't the problem; if it
+        # prints every run, the key/quota is why gtx is carrying all the load.
+        detail = ", ".join(f"{k}×{v}" for k, v in deepl_failures.most_common(5))
+        print(f"Backfill DeepL failures (fell back to gtx): {detail}")
     counts["reasons"] = reasons
     return counts
 
