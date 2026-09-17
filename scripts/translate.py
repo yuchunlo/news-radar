@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import os
 import re
+from collections import Counter
 from pathlib import Path
 import time
 from urllib.parse import quote
@@ -119,6 +120,16 @@ _SENT_SPLIT = re.compile(r"(?<=[.!?。！？])\s*")
 # (ARCHITECTURE 1.8.1). Callers that care read translate_detailed().
 LAST_ERROR: str = ""
 LAST_PROVIDER: str = ""
+
+# Why DeepL wasn't used for a call even though it's configured. translate_many
+# and translate_detailed both fall back to gtx silently on a DeepL failure --
+# correct for keeping translation flowing, but it means a misconfigured or
+# exhausted DeepL key produces zero visible evidence of itself: every request
+# still "succeeds" via gtx, so DeepL's own error never reaches any log. This
+# counter is reset at the start of each translate_many() call and accumulates
+# reasons across translate_detailed() calls so callers can print what DeepL
+# actually said before it was overwritten by the gtx attempt.
+DEEPL_FAILURES: Counter = Counter()
 
 DEEPL_KEY = os.environ.get("DEEPL_API_KEY", "").strip()
 DEEPL_FREE_HOST = "https://api-free.deepl.com"
@@ -280,6 +291,7 @@ def translate_many(
         if not HAS_REQUESTS:
             return [(None, "requests not installed")] * len(texts)
         session = requests.Session()
+    DEEPL_FAILURES.clear()
     try:
         pos = 0
         use_deepl = deepl_enabled()
@@ -303,6 +315,7 @@ def translate_many(
                     continue
                 except TranslateError as e:
                     reason = str(e)
+                    DEEPL_FAILURES[short_reason(reason)] += 1
                     if "quota" in reason or "403" in reason or "401" in reason:
                         use_deepl = False
                     for i in batch:
@@ -336,8 +349,8 @@ def translate_detailed(
             if out:
                 LAST_PROVIDER = "deepl"
                 return out, ""
-        except TranslateError:
-            pass
+        except TranslateError as e:
+            DEEPL_FAILURES[short_reason(str(e))] += 1
         finally:
             if own:
                 sess.close()
