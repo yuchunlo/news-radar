@@ -575,6 +575,12 @@ def backfill(items, *, translate_enabled=True, revalidate_thumbnails=True,
         print("Backfill: using DeepL" +
               (f" ({usage[0]:,}/{usage[1]:,} characters used this period)"
                if usage else " (usage unavailable)"))
+    else:
+        # Silence here reads identically to "DeepL is fine and unused" --
+        # say the actual state so a missing/rejected DEEPL_API_KEY shows up
+        # in the log instead of only being inferable from its absence.
+        print("Backfill: DeepL not enabled (DEEPL_API_KEY unset, empty, or "
+              "requests unavailable) -- every item below goes through gtx.")
 
     pos = 0
     while pos < len(targets):
@@ -597,7 +603,9 @@ def backfill(items, *, translate_enabled=True, revalidate_thumbnails=True,
             marks.append(FALLBACK_MARK if src.rstrip().endswith(FALLBACK_MARK) else "")
             bodies.append(src.rstrip().rstrip(FALLBACK_MARK).strip())
         try:
-            outs = _tr.translate_many(bodies, session=get_session())
+            outs = _tr.translate_many(
+                bodies, session=get_session(),
+                max_consecutive_gtx_failures=BACKFILL_MAX_CONSECUTIVE_FAILURES)
         except Exception as e:
             outs = [(None, f"{type(e).__name__}: {e}")] * len(bodies)
 
@@ -608,6 +616,14 @@ def backfill(items, *, translate_enabled=True, revalidate_thumbnails=True,
                 counts["failed"] += 1
                 reasons[_tr.short_reason(reason) or "unknown"] += 1
                 consecutive += 1
+                # Stop tallying this batch the moment the run-wide budget is
+                # spent instead of walking every remaining item in it -- a
+                # batch of BACKFILL_BATCH (25) items all failing used to
+                # print a "consecutive" count of 25 regardless of what this
+                # constant was set to, because nothing checked it until the
+                # *next* batch was about to start.
+                if consecutive >= BACKFILL_MAX_CONSECUTIVE_FAILURES:
+                    break
                 continue
             consecutive = 0
             it["summary"] = (_to_twp(out) + " " + mark).rstrip() if mark else _to_twp(out)
