@@ -58,6 +58,7 @@ jobs:
           ITEMS_FILE: data/archive.json
           MAX_ITEMS: "200"
           TRANSLATE: "on"
+          DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
           SUMMARY_RATIO: "0.9"
           # RESCORE_ALL: "1"
         run: python scripts/summarize_feed.py
