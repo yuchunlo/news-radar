@@ -278,6 +278,7 @@ def translate_many(
     target: str = "zh-TW",
     session: Optional["requests.Session"] = None,
     timeout: int = _DEFAULT_TIMEOUT,
+    max_consecutive_gtx_failures: int = 0,
 ) -> list[tuple[Optional[str], str]]:
     global LAST_PROVIDER
     results: list[tuple[Optional[str], str]] = [(None, "not attempted")] * len(texts)
@@ -292,6 +293,15 @@ def translate_many(
             return [(None, "requests not installed")] * len(texts)
         session = requests.Session()
     DEEPL_FAILURES.clear()
+    # Once gtx is visibly rate-limiting us, every further call in this same
+    # batch is a request we already know the answer to: it costs a network
+    # round trip and a sleep, and it very likely stretches whatever backoff
+    # window Google is imposing. `consecutive_gtx` short-circuits the rest of
+    # *this* translate_many() call so a bad batch of e.g. 25 stops after a
+    # handful of 429s instead of firing all 25 -- the caller's own
+    # consecutive-failure budget (backfill's BACKFILL_MAX_CONSECUTIVE_FAILURES)
+    # is what decides the number; this just stops wasting requests reaching it.
+    consecutive_gtx = 0
     try:
         pos = 0
         use_deepl = deepl_enabled()
@@ -321,10 +331,18 @@ def translate_many(
                     for i in batch:
                         results[i] = (None, reason)
             for i in batch:
+                if (max_consecutive_gtx_failures
+                        and consecutive_gtx >= max_consecutive_gtx_failures):
+                    results[i] = (None, "skipped: gtx already rate-limited "
+                                         "this batch")
+                    continue
                 res, why = _gtx_detailed(texts[i], target=target,
                                          session=session, timeout=timeout)
                 if res:
                     LAST_PROVIDER = "gtx"
+                    consecutive_gtx = 0
+                else:
+                    consecutive_gtx += 1
                 results[i] = (res, why)
                 time.sleep(GTX_SLEEP_BETWEEN_CALLS)
         return results
