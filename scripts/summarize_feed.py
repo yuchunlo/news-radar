@@ -192,7 +192,6 @@ FEED_FIRST_HOSTS = (
     "waitbutwhy.com",
     "werner.wiki",
     "whogovernstw.org",
-    "wordpress.com",
     "yuanyu.idv.tw",
     "zmonster.me",
 )
@@ -492,7 +491,7 @@ def needs_translation(text: str | None) -> bool:
 
 # How many failures in a row mean the endpoint itself is the problem rather
 # than these particular summaries. See backfill().
-BACKFILL_MAX_CONSECUTIVE_FAILURES = 12
+BACKFILL_MAX_CONSECUTIVE_FAILURES = 4
 BACKFILL_BATCH = 25
 
 
@@ -2602,6 +2601,72 @@ def main(argv=None) -> int:
         failed += ff_failed
         print(f"Feed-first pass done: ok={ff_ok}, failed={ff_failed}\n")
 
+    # ---- YouTube pass: subtitle-only, no page fetch --------------------------
+    # This never touches the network for the page itself (video pages have no
+    # article body anyway) -- it only reads a local .vtt already fetched by
+    # download_sub.py. It used to run inline inside pass 2 and count against
+    # attempted/MAX_ITEMS, competing with real page fetches for the same
+    # budget even though it costs nothing to fetch. Pulled out so it always
+    # runs to completion regardless of how many page-fetch items are pending.
+    pending = [it for it in pending if not it.get("summary")]
+    youtube_pending = [it for it in pending if is_youtube_url(it.get("url", ""))]
+    if youtube_pending:
+        print(f"\nYouTube pass: {len(youtube_pending)} item(s) "
+              f"(subtitle-only, not counted against MAX_ITEMS)")
+        yt_ok = yt_failed = 0
+        for idx, it in enumerate(youtube_pending, 1):
+            if TIME_BUDGET_SECONDS > 0:
+                elapsed = time.monotonic() - start_time
+                if elapsed > TIME_BUDGET_SECONDS * TIME_BUDGET_STOP_RATIO:
+                    print(f"  time budget reached ({elapsed:.0f}s), "
+                          f"{len(youtube_pending) - idx + 1} item(s) stay pending.")
+                    time_cut_off = True
+                    break
+
+            url = it["url"]
+            if not it.get("thumbnail"):
+                thumb = youtube_thumbnail_url(url)
+                if thumb:
+                    it["thumbnail"] = thumb
+
+            picked = pick_subtitle(it.get("id", ""))
+            if not picked:
+                continue
+            path, orig_lang, sub_lang = picked
+            print(f"  [{idx}/{len(youtube_pending)}] "
+                  f"({it.get('published_at') or 'no date'}) {it.get('title', '')[:60]}")
+            print(f"      {url}")
+            print(f"      subtitle: {os.path.basename(path)} (orig={orig_lang}, sub={sub_lang})")
+
+            text = vtt_to_text(path)
+            if len(text) < MIN_CAPTION_CHARS:
+                print(f"      no usable speech in subtitle ({len(text)} chars), "
+                      f"marked blank")
+                it["summary"] = BLANK_SUMMARY
+                it.pop("feed_content", None)
+                blank_n += 1
+                save_items(ITEMS_FILE, items, wrapper)
+                continue
+            try:
+                summary = build_summary(text, "body", kind="subtitle")
+            except Exception as e:
+                print(f"      summarize failed: {e}")
+                yt_failed += 1
+                continue
+            if not summary:
+                print("      empty after boilerplate removal, skipped")
+                yt_failed += 1
+                continue
+            it["summary"] = summary
+            it.pop("feed_content", None)
+            yt_ok += 1
+            print(f"      ok (subtitle, {len(text)} chars)")
+            save_items(ITEMS_FILE, items, wrapper)
+            time.sleep(SLEEP_BETWEEN_ITEMS)
+        ok += yt_ok
+        failed += yt_failed
+        print(f"YouTube pass done: ok={yt_ok}, failed={yt_failed}\n")
+
     # ---- Pass 2: everything else, one page fetch at a time ------------------
     pending = [it for it in pending if not it.get("summary")]
     report_feed_material(pending, feed_first, args.feed_content_preview)
@@ -2616,6 +2681,12 @@ def main(argv=None) -> int:
         # there is in fact feed content for it to use.
         if (is_feed_first_host(it.get("url", ""))
                 and (it.get("feed_content") or "").strip()):
+            continue
+        # YouTube is handled in its own pass above (subtitle files only, no
+        # page fetch). Anything still here has no usable subtitle yet -- stay
+        # pending until download_sub.py fetches one; fetching the video page
+        # itself would be pointless (no article body).
+        if is_youtube_url(it.get("url", "")):
             continue
         if attempted >= MAX_ITEMS:
             print(f"Reached MAX_ITEMS={MAX_ITEMS}, stopping.")
@@ -2646,53 +2717,6 @@ def main(argv=None) -> int:
             it.pop("feed_content", None)
             blank_n += 1
             save_items(ITEMS_FILE, items, wrapper)
-            continue
-
-        # YouTube videos: always summarize from subtitles instead of
-        # fetching the page (video pages have no article body anyway).
-        # If no matching subtitle is found yet, skip this item and leave it
-        # pending until download_sub.py fetches one.
-        if is_youtube_url(url):
-            if not it.get("thumbnail"):
-                thumb = youtube_thumbnail_url(url)
-                if thumb:
-                    it["thumbnail"] = thumb
-
-            picked = pick_subtitle(it.get("id", ""))
-            if not picked:
-                continue
-            attempted += 1
-            path, orig_lang, sub_lang = picked
-            print(f"[{attempted}/{min(len(pending), MAX_ITEMS)}] "
-                  f"({it.get('published_at') or 'no date'}) {it.get('title', '')[:60]}")
-            print(f"    {url}")
-            print(f"    subtitle: {os.path.basename(path)} (orig={orig_lang}, sub={sub_lang})")
-
-            text = vtt_to_text(path)
-            if len(text) < MIN_CAPTION_CHARS:
-                print(f"    no usable speech in subtitle ({len(text)} chars), "
-                      f"marked blank")
-                it["summary"] = BLANK_SUMMARY
-                it.pop("feed_content", None)
-                blank_n += 1
-                save_items(ITEMS_FILE, items, wrapper)
-                continue
-            try:
-                summary = build_summary(text, "body", kind="subtitle")
-            except Exception as e:
-                print(f"    summarize failed: {e}")
-                failed += 1
-                continue
-            if not summary:
-                print("    empty after boilerplate removal, skipped")
-                failed += 1
-                continue
-            it["summary"] = summary
-            it.pop("feed_content", None)
-            ok += 1
-            print(f"    ok (subtitle, {len(text)} chars)")
-            save_items(ITEMS_FILE, items, wrapper)
-            time.sleep(SLEEP_BETWEEN_ITEMS)
             continue
 
         if "techmeme.com" in url:
