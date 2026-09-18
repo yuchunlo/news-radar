@@ -135,7 +135,7 @@ DEEPL_KEY = os.environ.get("DEEPL_API_KEY", "").strip()
 DEEPL_FREE_HOST = "https://api-free.deepl.com"
 DEEPL_PRO_HOST = "https://api.deepl.com"
 DEEPL_BATCH = 50
-DEEPL_MAX_CHARS = 100_000
+DEEPL_MAX_CHARS = 20_000
 _DEEPL_TARGET = {"zh-tw": "ZH-HANT", "zh-hant": "ZH-HANT",
                  "zh-cn": "ZH-HANS", "zh-hans": "ZH-HANS"}
 
@@ -229,6 +229,29 @@ def _translate_chunk(chunk: str, source: str, target: str,
     return "".join(str(s[0]) for s in segs if isinstance(s, list) and s and s[0])
 
 
+def _deepl_call_split(texts: list[str], target: str, session, timeout: int) -> list[str]:
+    """`_deepl_call`, but a 413 (payload too large) splits the batch in half
+    and retries each half instead of failing everything in it.
+
+    DEEPL_MAX_CHARS caps the batch by *character* count, but DeepL's limit is
+    on bytes of the request body: a batch that is mostly CJK (up to 3 bytes
+    per character), or that just happens to land right at the char cap, can
+    still come in over DeepL's byte ceiling even though it looked fine by this
+    module's own count. Halving and retrying finds a size that fits without
+    needing to know DeepL's exact limit or guess a byte-safe margin up front.
+    Bottoms out at a single text: if that alone still gets a 413, the error is
+    real and propagates rather than looping forever.
+    """
+    try:
+        return _deepl_call(texts, target, session, timeout)
+    except TranslateError as e:
+        if "413" not in str(e) or len(texts) <= 1:
+            raise
+        mid = len(texts) // 2
+        return (_deepl_call_split(texts[:mid], target, session, timeout)
+                + _deepl_call_split(texts[mid:], target, session, timeout))
+
+
 def _deepl_call(texts: list[str], target: str, session, timeout: int) -> list[str]:
     tl = _DEEPL_TARGET.get(target.lower(), "ZH-HANT")
     try:
@@ -243,6 +266,13 @@ def _deepl_call(texts: list[str], target: str, session, timeout: int) -> list[st
         raise TranslateError(f"deepl {type(e).__name__}: {e}") from e
     if r.status_code == 456:
         raise TranslateError("deepl quota exceeded (456)")
+    if r.status_code == 413:
+        # Payload too large: too many segments, or too many bytes once CJK
+        # gets counted at 3 bytes/char, in a single POST body. Distinct from
+        # other 4xx/5xx because it's fixable by resending as smaller pieces
+        # instead of just failing the batch -- see the split-and-retry in
+        # translate_many().
+        raise TranslateError("deepl HTTP 413 (payload too large)")
     if r.status_code != 200:
         raise TranslateError(f"deepl HTTP {r.status_code}")
     try:
@@ -316,8 +346,8 @@ def translate_many(
                 pos += 1
             if use_deepl:
                 try:
-                    out = _deepl_call([texts[i] for i in batch], target,
-                                      session, timeout)
+                    out = _deepl_call_split([texts[i] for i in batch], target,
+                                            session, timeout)
                     for i, o in zip(batch, out):
                         results[i] = ((o.strip() or None),
                                       "" if o.strip() else "empty result")
@@ -363,7 +393,7 @@ def translate_detailed(
         own = session is None
         sess = session or requests.Session()
         try:
-            out = _deepl_call([text.strip()], target, sess, timeout)[0].strip()
+            out = _deepl_call_split([text.strip()], target, sess, timeout)[0].strip()
             if out:
                 LAST_PROVIDER = "deepl"
                 return out, ""
@@ -400,8 +430,15 @@ def _gtx_detailed(
     if own_session:
         session = requests.Session()
     try:
-        out = [_translate_chunk(c, source, target, session, timeout)
-               for c in chunk_text(text)]
+        chunks = chunk_text(text)
+        out = []
+        for i, c in enumerate(chunks):
+            if i:
+                # Only matters for a summary long enough to need >1 chunk --
+                # those otherwise fire back-to-back with no gap at all, unlike
+                # every other gtx caller which already sleeps between items.
+                time.sleep(GTX_SLEEP_BETWEEN_CALLS)
+            out.append(_translate_chunk(c, source, target, session, timeout))
         result = "".join(out).strip()
         return (result, "") if result else (None, "empty result")
     except TranslateError as e:
