@@ -2364,8 +2364,6 @@ def build_arg_parser():
     p.add_argument("--no-revalidate-thumbnails", dest="revalidate_thumbnails",
                    action="store_false", default=True,
                    help="skip the thumbnail re-check inside the backfill pass")
-    p.add_argument("--backfill-limit", type=int, default=0, metavar="N",
-                   help="translate at most N summaries per run (0 = no limit)")
     p.add_argument("--feed-content-preview", type=int, default=40, metavar="CHARS")
     p.add_argument("--mine-boilerplate", type=int, metavar="MIN_COUNT", default=0)
     p.add_argument("--time-budget-seconds", type=int, default=TIME_BUDGET_SECONDS,
@@ -2498,6 +2496,21 @@ def save_items(path: str, items: list, wrapper: dict | None) -> None:
         except OSError:
             pass
         raise
+
+
+def apply_meta_thumbnail(it: dict, meta_out: dict, feed_html: str) -> None:
+    """After a fetch: keep an existing thumbnail, else take the one found
+    while fetching the page, else fall back to the feed copy.
+
+    Pulled out because Pass 2's main branch and its Techmeme sub-branch used
+    to repeat this exact three-way choice; one copy is one thing to get wrong.
+    """
+    if it.get("thumbnail"):
+        return
+    if meta_out.get("thumbnail"):
+        it["thumbnail"] = meta_out["thumbnail"]
+    else:
+        set_thumbnail_from_feed(it, feed_html)
 
 
 def _parse_ts(value) -> float:
@@ -2770,11 +2783,7 @@ def main(argv=None) -> int:
                         summary = ""
                 if summary:
                     it["summary"] = summary
-                    if not it.get("thumbnail"):
-                        if tm_meta.get("thumbnail"):
-                            it["thumbnail"] = tm_meta["thumbnail"]
-                        else:
-                            set_thumbnail_from_feed(it, tm_feed_html)
+                    apply_meta_thumbnail(it, tm_meta, tm_feed_html)
                     it.pop("feed_content", None)
                     ok += 1
                     print(f"    ok ({source_type}, {len(content)} chars)")
@@ -2844,11 +2853,7 @@ def main(argv=None) -> int:
             failed += 1
             continue
         it["summary"] = summary
-        if not it.get("thumbnail"):
-            if meta_out.get("thumbnail"):
-                it["thumbnail"] = meta_out["thumbnail"]
-            else:
-                set_thumbnail_from_feed(it, feed_html)
+        apply_meta_thumbnail(it, meta_out, feed_html)
         it.pop("feed_content", None)
 
         ok += 1
@@ -2897,7 +2902,6 @@ def main(argv=None) -> int:
                 items,
                 translate_enabled=args.translate,
                 revalidate_thumbnails=args.revalidate_thumbnails,
-                limit=args.backfill_limit,
                 deadline=(start_time + TIME_BUDGET_SECONDS
                           if TIME_BUDGET_SECONDS > 0 else None),
                 save=lambda: save_items(ITEMS_FILE, items, wrapper),
