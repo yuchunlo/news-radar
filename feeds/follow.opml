@@ -20,9 +20,6 @@
       <outline text="Veritasium" type="rss" category="tech"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCHnyfMqiRRG1u-2MsSQLbXA"
         htmlUrl="https://www.youtube.com/channel/UCHnyfMqiRRG1u-2MsSQLbXA" />
-      <outline text="甜菜欣欣的知乎动态" type="rss" category="tech"
-        xmlUrl="https://rsshub.app/zhihu/xhu/people/activities/5636892f0eed90ae92c64e156209a888"
-        htmlUrl="https://www.zhihu.com/people/5636892f0eed90ae92c64e156209a888" />
       <outline text="柏林的狐狸 - 知乎专栏" type="rss" category="culture"
         xmlUrl="https://rss.lilydjwg.me/zhihuzhuanlan/c_1072444998871719936"
         htmlUrl="https://zhuanlan.zhihu.com/c_1072444998871719936" />
@@ -56,9 +53,6 @@
       <outline text="巷仔口社會學 Streetcorner Sociology" type="rss" category="culture"
         xmlUrl="https://twstreetcorner.org/feed/"
         htmlUrl="https://twstreetcorner.org" />
-      <outline text="津轻海峡 (tsugaru_strait) - Matters" type="rss" category="blog"
-        xmlUrl="https://rss.matters.town/%40tsugaru_strait.xml"
-        htmlUrl="https://matters.town/@tsugaru_strait" />
       <outline text="森路歷程" type="rss" category="blog"
         xmlUrl="https://sammy.hk/feed/"
         htmlUrl="https://sammy.hk/" />
@@ -164,9 +158,6 @@
       <outline text="OOC" type="rss" category="convivium"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC70cm4qrtW03S_q2NSObU3A"
         htmlUrl="https://www.youtube.com/channel/UC70cm4qrtW03S_q2NSObU3A" />
-      <outline text="nobody" type="rss" category="culture"
-        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCHRx3w9GE3r-iqpvIKsTgeQ"
-        htmlUrl="https://www.youtube.com/channel/UCHRx3w9GE3r-iqpvIKsTgeQ" />
       <outline text="Matt Rittman" type="rss" category=""
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCUK1Fz1o94JA1wI6I7yLT2Q"
         htmlUrl="https://www.youtube.com/channel/UCUK1Fz1o94JA1wI6I7yLT2Q" />
@@ -350,9 +341,6 @@
       <outline text="狂派生活誌" type="rss" category="blog"
         xmlUrl="https://brbu241.blogspot.com/feeds/posts/default"
         htmlUrl="https://brbu241.blogspot.com/2024/02/blog-post_17.html" />
-      <outline text="法律白話文運動 Plain Law Movement" type="rss" category="trending"
-        xmlUrl="https://plainlaw.me/rss.xml"
-        htmlUrl="http://github.com/dylang/node-rss" />
       <outline text="沙發人物誌" type="rss" category=""
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCz0cEfjyBLS6-RBV-LzD3ug"
         htmlUrl="https://www.youtube.com/channel/UCz0cEfjyBLS6-RBV-LzD3ug" />
@@ -719,9 +707,6 @@
       <outline text="FLAIR IRON" type="rss" category=""
         xmlUrl="https://www.flairiron.com/blog-feed.xml"
         htmlUrl="https://www.flairiron.com/blog" />
-      <outline text="EVERYDAY OBJECT" type="rss" category="trending"
-        xmlUrl="https://www.everydayobject.us/feed/"
-        htmlUrl="https://www.everydayobject.us" />
       <outline text="every little d" type="rss" category="trending"
         xmlUrl="https://feeds.feedburner.com/EveryLittleD"
         htmlUrl="https://everylittled.com/feed/rss/feedly" />
@@ -1100,9 +1085,6 @@
       <outline text="美股盤勢 cmnews - Google 新聞" type="rss" category="finance"
         xmlUrl="https://news.google.com/rss/search?q=%22%E7%BE%8E%E8%82%A1%E7%9B%A4%E5%8B%A2%22+site:cmnews.com.tw&amp;tbs=qdr:m3&amp;gl=TW"
         htmlUrl="https://cmnews.com.tw/usstock" />
-      <outline text="日經中文網" type="rss" category="trending"
-        xmlUrl="http://zh.cn.nikkei.com/rss.html"
-        htmlUrl="https://zh.cn.nikkei.com/" />
       <outline text="Benjamin Cowen" type="rss" category="finance"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCRvqjQPSeaWn-uEx-w0XOIg"
         htmlUrl="https://www.youtube.com/channel/UCRvqjQPSeaWn-uEx-w0XOIg" />
