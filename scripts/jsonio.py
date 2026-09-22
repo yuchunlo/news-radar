@@ -1,17 +1,4 @@
 #!/usr/bin/env python3
-"""
-jsonio.py — 專案共用的 JSON 序列化
-
-整個專案的 JSON 都是「頂層鍵各一行、items 每個條目各一行」。理由：
-
-  indent=2 讓 archive.json 從 23MB 膨脹到 42MB，一半是空白；完全不縮排會變成
-  單行巨檔，git diff 完全無法閱讀。一個條目一行兩邊的好處都有——體積接近
-  compact，而改動一個條目在 diff 裡就是改一行。
-
-  更重要的是所有寫入 archive.json 的腳本（update_news / summarize_feed /
-  download_sub / entity_graph）必須用同一種格式，否則每支腳本輪流跑就會把整
-  個檔案重排一次，每次 commit 都是 16,000 行全變動。
-"""
 
 from __future__ import annotations
 
@@ -21,10 +8,10 @@ import tempfile
 from pathlib import Path
 
 _COMPACT = (",", ":")
+_META_KEY = "__meta__"
 
 
 def dumps(payload, items_key: str = "items") -> str:
-    """序列化成一個條目一行。payload 是 list 時整份當條目陣列處理。"""
     if isinstance(payload, list):
         items, head = payload, None
     elif isinstance(payload, dict) and isinstance(payload.get(items_key), list):
@@ -34,25 +21,35 @@ def dumps(payload, items_key: str = "items") -> str:
         return json.dumps(payload, ensure_ascii=False, separators=_COMPACT) + "\n"
 
     lines = []
-    if head is None:
-        lines.append("[")
-    else:
-        lines.append("{")
-        for key, value in head.items():
-            lines.append(f" {json.dumps(key, ensure_ascii=False)}: "
-                         f"{json.dumps(value, ensure_ascii=False, separators=_COMPACT)},")
-        lines.append(f' {json.dumps(items_key, ensure_ascii=False)}: [')
-    last = len(items) - 1
-    prefix = " " if head is None else "  "
-    for i, item in enumerate(items):
-        line = json.dumps(item, ensure_ascii=False, separators=_COMPACT)
-        lines.append(prefix + line + ("" if i == last else ","))
-    if head is None:
-        lines.append("]")
-    else:
-        lines.append(" ]")
-        lines.append("}")
-    return "\n".join(lines) + "\n"
+    if head is not None:
+        meta = {_META_KEY: True, **head}
+        lines.append(json.dumps(meta, ensure_ascii=False, separators=_COMPACT))
+    for item in items:
+        lines.append(json.dumps(item, ensure_ascii=False, separators=_COMPACT))
+    return "\n".join(lines) + ("\n" if lines else "")
+
+
+def loads(text: str, items_key: str = "items"):
+    items: list = []
+    head: dict | None = None
+    for line in text.splitlines():
+        line = line.strip()
+        if not line:
+            continue
+        value = json.loads(line)
+        if (head is None and not items
+                and isinstance(value, dict) and value.get(_META_KEY)):
+            head = {k: v for k, v in value.items() if k != _META_KEY}
+            continue
+        items.append(value)
+    if head is not None:
+        return {**head, items_key: items}
+    return items
+
+
+def load(path, items_key: str = "items"):
+    with open(path, "r", encoding="utf-8") as f:
+        return loads(f.read(), items_key)
 
 
 def write_atomic(path, payload, items_key: str = "items") -> None:
@@ -79,8 +76,18 @@ if __name__ == "__main__":
     demo = {"generated_at": "x", "total_items": 2,
             "items": [{"id": "a", "n": 1}, {"id": "b", "n": 2}]}
     out = dumps(demo)
-    assert json.loads(out) == demo, "round-trip failed"
-    assert out.count("\n") == 8, out
-    assert json.loads(dumps([{"a": 1}, {"b": 2}])) == [{"a": 1}, {"b": 2}]
-    assert json.loads(dumps({"only": 1})) == {"only": 1}
+    lines = out.splitlines()
+    assert len(lines) == 3, lines            # meta line + 2 items, no wrapping
+    assert all(json.loads(ln) for ln in lines), "every line must parse alone"
+    assert json.loads(lines[0]) == {"__meta__": True, "generated_at": "x",
+                                     "total_items": 2}
+    assert loads(out) == demo, "round-trip failed"
+
+    plain = [{"a": 1}, {"b": 2}]
+    out2 = dumps(plain)
+    assert len(out2.splitlines()) == 2
+    assert loads(out2) == plain
+
+    assert loads(dumps([])) == []
+    assert loads(dumps({"only": 1, "items": []})) == {"only": 1, "items": []}
     print("jsonio self-test: ok")
