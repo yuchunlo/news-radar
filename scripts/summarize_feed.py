@@ -22,7 +22,7 @@ try:
 except ModuleNotFoundError:
     _tr = None
 
-ITEMS_FILE = os.environ.get("ITEMS_FILE", "archive.jsonl")
+ITEMS_FILE = os.environ.get("ITEMS_FILE", "archive.json")
 MAX_ITEMS = int(os.environ.get("MAX_ITEMS", "50"))
 TRANSLATE = os.environ.get("TRANSLATE", "on").lower() != "off"
 RESCORE_ALL = os.environ.get("RESCORE_ALL", "").lower() in ("1", "true", "yes", "on")
@@ -1148,12 +1148,11 @@ THUMB_URL_DENY = frozenset(u.lower() for u in {
     "/content/images/size/w1200/2024/01/1500x500-1.jpeg",
     "https://ritholtz.com/wp-content/uploads/2016/01/barry02-1-1.png",
     "https://maxjamesread.com/wp-content/uploads/2021/04/S__46555156-scaled.jpg",
+    "https://gmhjohnny.wordpress.com/wp-content/uploads/2020/09/cropped-j102.png",
+    "https://gmhjohnny.wordpress.com/wp-content/uploads/2020/09/j102.png",
 })
 
 # kottke serves a numbered set of interchangeable brand-colour placeholders
-# and site-icon crops under one directory (.../images/2024/logo-colors/
-# color-4.jpg, circle-mask.png, ...). Filenames vary per article/asset, so an
-# exact url cannot catch them -- the whole directory has to go.
 THUMB_URL_DENY_RE = re.compile(
     r"^https?://kottke\.org/.*/images/\d{4}/logo-colors/", re.I)
 
@@ -1230,10 +1229,6 @@ THUMB_TEMPLATE_RE = re.compile(
     r"|\blogo\b|wordmark|favicon|avatar|profile[-_]?pic|headshot|portrait[-_]?shot"
     r"|\bbanner\b|\bheader[-_]?(?:image|bg)?\b|hero[-_]?(?:image|bg)"
     r"|watermark|spacer|pixel|blank|transparent|1x1"
-    # WordPress's own convention for its auto-cropped site icon/header image
-    # (cropped-j102.png, cropped-site-icon-192x192.png): always site branding,
-    # never an article photo.
-    r"|^cropped[-_]"
     # A CMS-internal marker for a recurring column's reused cover image
     # (USE_THIS_thisweek-ai-radar-*.png): the same file across every post in
     # that column, not specific to any one article.
