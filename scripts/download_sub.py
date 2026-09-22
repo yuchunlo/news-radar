@@ -379,8 +379,8 @@ def main():
     out_dir.mkdir(parents=True, exist_ok=True)
     cookies_path = Path(args.cookies_path)
 
-    data = json.loads(archive_path.read_text(encoding="utf-8"))
-    items = data.get("items", [])
+    data = jsonio.load(archive_path)
+    items = data.get("items", []) if isinstance(data, dict) else data
 
     budget = AsrBudget(
         enabled=not args.no_transcribe,
