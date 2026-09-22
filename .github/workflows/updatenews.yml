@@ -54,7 +54,7 @@ jobs:
           fi
       - name: Summarize
         env:
-          ITEMS_FILE: data/archive.jsonl
+          ITEMS_FILE: data/archive.json
           MAX_ITEMS: "200"
           TRANSLATE: "on"
           DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
