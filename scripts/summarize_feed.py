@@ -22,7 +22,7 @@ try:
 except ModuleNotFoundError:
     _tr = None
 
-ITEMS_FILE = os.environ.get("ITEMS_FILE", "archive.json")
+ITEMS_FILE = os.environ.get("ITEMS_FILE", "archive.jsonl")
 MAX_ITEMS = int(os.environ.get("MAX_ITEMS", "50"))
 TRANSLATE = os.environ.get("TRANSLATE", "on").lower() != "off"
 RESCORE_ALL = os.environ.get("RESCORE_ALL", "").lower() in ("1", "true", "yes", "on")
@@ -276,7 +276,6 @@ def load_boilerplate() -> dict:
 # ---- Marking & detection ----------------------------------------------------
 FALLBACK_MARK = "↛"
 TABLE_NOTE = "請參閱所附表格 " + FALLBACK_MARK
-TABLE_TAG_RE = re.compile(r"<table[\s>]", re.I)
 CODE_NOTE = "請參閱所附程式碼 " + FALLBACK_MARK
 CODE_TAG_RE = re.compile(r"<(?:pre|samp|kbd)[\s>]|<code[\s>]", re.I)
 CODE_INLINE_MAX = 40
@@ -1152,10 +1151,11 @@ THUMB_URL_DENY = frozenset(u.lower() for u in {
 })
 
 # kottke serves a numbered set of interchangeable brand-colour placeholders
-# (.../images/2024/logo-colors/color-4.jpg). The number varies per article, so
-# an exact url cannot catch them -- the whole family has to go.
+# and site-icon crops under one directory (.../images/2024/logo-colors/
+# color-4.jpg, circle-mask.png, ...). Filenames vary per article/asset, so an
+# exact url cannot catch them -- the whole directory has to go.
 THUMB_URL_DENY_RE = re.compile(
-    r"^https?://kottke\.org/.*/images/\d{4}/logo-colors/color-\d+\.jpe?g$", re.I)
+    r"^https?://kottke\.org/.*/images/\d{4}/logo-colors/", re.I)
 
 # Hosts where no image is ever wanted as a thumbnail.
 THUMB_SKIP_HOSTS = (
@@ -1176,6 +1176,25 @@ def thumbnail_url_denied(url: str) -> bool:
         return False
     bare = url.split("?", 1)[0].split("#", 1)[0].strip().lower()
     return bare in THUMB_URL_DENY or bool(THUMB_URL_DENY_RE.match(bare))
+
+
+# Google's image-proxy hosts (Blogger, Google Photos, ...) accept a
+# "=w<width>-h<height>-<flags>" rendition suffix appended straight onto an
+# otherwise-normal image id, no "?" involved. "-p-k-no-nu" is one specific
+# flag combination seen on Blogger og:image renditions; the image itself is
+# a normal per-article picture, only the requested crop/size is what this
+# strips. Stripping (rather than denying the whole url, as a first pass at
+# this got wrong) gives back the underlying image at its native size.
+THUMB_GOOGLE_SIZE_SUFFIX_RE = re.compile(
+    r"=w\d+-h\d+-p-k-no-nu$", re.I)
+
+
+def normalize_thumbnail_url(url: str) -> str:
+    """Strip known Google image-proxy rendition suffixes so the stored
+    thumbnail is the underlying image, not one specific requested crop."""
+    if not url:
+        return url
+    return THUMB_GOOGLE_SIZE_SUFFIX_RE.sub("", url)
 
 # Stock libraries and wire services.
 THUMB_STOCK_RE = re.compile(
@@ -1210,7 +1229,15 @@ THUMB_TEMPLATE_RE = re.compile(
     r"|no[-_]?image|dummy|generic[-_]?(?:image|cover)"
     r"|\blogo\b|wordmark|favicon|avatar|profile[-_]?pic|headshot|portrait[-_]?shot"
     r"|\bbanner\b|\bheader[-_]?(?:image|bg)?\b|hero[-_]?(?:image|bg)"
-    r"|watermark|spacer|pixel|blank|transparent|1x1",
+    r"|watermark|spacer|pixel|blank|transparent|1x1"
+    # WordPress's own convention for its auto-cropped site icon/header image
+    # (cropped-j102.png, cropped-site-icon-192x192.png): always site branding,
+    # never an article photo.
+    r"|^cropped[-_]"
+    # A CMS-internal marker for a recurring column's reused cover image
+    # (USE_THIS_thisweek-ai-radar-*.png): the same file across every post in
+    # that column, not specific to any one article.
+    r"|use[-_]this(?:[-_]|$)",
     re.I,
 )
 # Screenshots, product demos, and poster/artwork collages.
@@ -1479,6 +1506,7 @@ def extract_thumbnail(html: str, base_url: str, log: bool = True):
             parts = base_url.split("/")
             if len(parts) > 2:
                 url = f"{parts[0]}//{parts[2]}{url}"
+        url = normalize_thumbnail_url(url)
         ok, reason = thumbnail_is_usable(url)
         if ok:
             if log:
@@ -1668,8 +1696,29 @@ def unescape_text(text: str) -> str:
 
 
 def extract_from_html(html: str):
-    """(body, meta, has_table, has_code) from a page's HTML."""
-    has_table = bool(TABLE_TAG_RE.search(html))
+    """(body, meta, has_table, has_code) from a page's HTML.
+
+    has_table used to be `bool(TABLE_TAG_RE.search(html))` -- a search over the
+    *whole* raw page, not the article. Any <table> anywhere (a layout table in
+    the theme's chrome, an ad unit, a related-posts widget) marked the summary
+    "請參閱所附表格" even when the article itself had no table at all -- classic
+    Blogger templates in particular still render sidebar/header structure with
+    <table> (mcclin.blogspot.com among them). Scoped instead to the region
+    trafilatura's own extraction identifies as the article, by asking it once
+    for that region's markup (include_tables=True, output_format="xml") before
+    the plain-text pass that actually feeds the summary. A table trafilatura
+    placed outside that region was never going to reach the reader anyway, so
+    it should not earn the note either.
+    """
+    has_table = False
+    try:
+        scoped = trafilatura.extract(
+            html, include_comments=False, include_tables=True,
+            favor_recall=True, output_format="xml")
+    except Exception:
+        scoped = None
+    if scoped:
+        has_table = "<table" in scoped.lower()
     html, has_code = strip_code_blocks(html)
     body = trafilatura.extract(
         html, include_comments=False, include_tables=False, favor_recall=True
@@ -2374,8 +2423,7 @@ def build_arg_parser():
 
 
 def load_items(path: str):
-    with open(path, "r", encoding="utf-8") as f:
-        data = json.load(f)
+    data = jsonio.load(path)
     if isinstance(data, list):
         return data, None
     if isinstance(data, dict) and isinstance(data.get("items"), list):
