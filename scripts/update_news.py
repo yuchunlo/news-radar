@@ -1192,16 +1192,16 @@ def load_archive(path: Path) -> dict[str, dict[str, Any]]:
         return {}
     raw = path.read_text(encoding="utf-8")
     try:
-        payload = jsonio.loads(raw)
+        payload = json.loads(raw)
     except Exception as e:
         raise SystemExit(
-            f"ERROR: {path} exists but is not valid JSON Lines ({e}).\n"
+            f"ERROR: {path} exists but is not valid JSON ({e}).\n"
             f"       Size on disk: {len(raw)} chars. Refusing to continue, "
             f"because writing now would discard the whole archive.\n"
             f"       Restore it (`git checkout -- {path}`) or delete it "
             f"deliberately to start over."
         )
-    items = payload.get("items", []) if isinstance(payload, dict) else payload
+    items = payload.get("items", [])
     records: list[dict[str, Any]] = []
     if isinstance(items, list):
         records = [it for it in items if isinstance(it, dict)]
@@ -1238,7 +1238,7 @@ def main(argv=None) -> int:
     now = utc_now()
     output_dir = Path(args.output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
-    archive_path = output_dir / "archive.jsonl"
+    archive_path = output_dir / "archive.json"
 
     archive = load_archive(archive_path)
 
@@ -1323,9 +1323,9 @@ def main(argv=None) -> int:
             reverse=True,
         ),
     }
-    # JSON Lines, to match what summarize_feed.py writes back to the same
-    # file: if the two disagreed, every run would rewrite the whole file in
-    # the other format and produce a full-file diff.
+    # Indented, to match what summarize_feed.py writes back to the same file:
+    # if the two disagreed, every run would rewrite the whole file in the other
+    # format and produce a full-file diff.
     write_json_atomic(archive_path, archive_payload)
     print(f"Wrote: {archive_path} ({len(archive)} items, fetched {len(raw_items)} raw)")
 
