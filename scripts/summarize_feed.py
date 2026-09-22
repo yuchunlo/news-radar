@@ -2418,7 +2418,8 @@ def build_arg_parser():
 
 
 def load_items(path: str):
-    data = jsonio.load(path)
+    with open(path, "r", encoding="utf-8") as f:
+        data = json.load(f)
     if isinstance(data, list):
         return data, None
     if isinstance(data, dict) and isinstance(data.get("items"), list):
