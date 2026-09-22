@@ -14,7 +14,7 @@ permissions:
   contents: write
 
 env:
-  ARCHIVE_FILE: data/archive.jsonl
+  ARCHIVE_FILE: data/archive.json
   SUBTITLE_DIR: data/subtitles
   COOKIES_PATH: /dev/shm/cookies.txt
   MAX_ITEMS_PER_RUN: 400
