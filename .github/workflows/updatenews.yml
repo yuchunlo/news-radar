@@ -14,7 +14,6 @@ permissions:
 
 jobs:
   update:
-    # timeout-minutes: &job_timeout 20
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -55,7 +54,7 @@ jobs:
           fi
       - name: Summarize
         env:
-          ITEMS_FILE: data/archive.json
+          ITEMS_FILE: data/archive.jsonl
           MAX_ITEMS: "200"
           TRANSLATE: "on"
           DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
