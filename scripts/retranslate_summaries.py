@@ -7,15 +7,16 @@ fetching in front of it -- for backfilling history in one go, or for retrying
 after a run stopped at its time budget. Kept as a wrapper rather than a second
 implementation so the two entry points cannot drift apart.
 
-    python3 retranslate_summaries.py archive.jsonl --dry-run
-    python3 retranslate_summaries.py archive.jsonl --limit 50
-    python3 retranslate_summaries.py archive.jsonl -o out.jsonl
-    python3 retranslate_summaries.py archive.jsonl --simplified-only
+    python3 retranslate_summaries.py archive.json --dry-run
+    python3 retranslate_summaries.py archive.json --limit 50
+    python3 retranslate_summaries.py archive.json -o out.json
+    python3 retranslate_summaries.py archive.json --simplified-only
 """
 
 from __future__ import annotations
 
 import argparse
+import json
 import sys
 
 import jsonio
@@ -41,7 +42,7 @@ def main(argv=None) -> int:
     args = ap.parse_args(argv)
 
     with open(args.path, encoding="utf-8") as f:
-        doc = jsonio.loads(f.read())
+        doc = json.load(f)
     items = doc["items"]
     out_path = args.out or args.path
 
