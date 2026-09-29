@@ -31,6 +31,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Self-test
+        run: python scripts/selftest.py
+
       - name: Prepare OPML
         env:
           FOLLOW_OPML_B64: ${{ secrets.FOLLOW_OPML_B64 }}
@@ -59,7 +62,6 @@ jobs:
           TRANSLATE: "on"
           DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
           SUMMARY_RATIO: "0.9"
-          # RESCORE_ALL: "1"
         run: python scripts/summarize_feed.py
 
       - name: Commit and push changes
