@@ -1,2966 +1,361 @@
 #!/usr/bin/env python3
+"""Summarise pending archive items, then re-apply current rules to stored ones.
 
-import glob
+Pending = no truthy `summary`. Offline work (feed copies, subtitles) runs first
+and is not metered; page fetches are capped by --max-items. Pass 3 (backfill)
+re-validates thumbnails, converts 簡體, and translates non-Chinese summaries.
+
+    summarize_feed.py                       # normal run (env: ITEMS_FILE, MAX_ITEMS...)
+    summarize_feed.py --backfill-only [--dry-run] [--limit N] [--no-translate]
+    summarize_feed.py --mine-boilerplate N  # candidate drop_unit rules from corpus
+"""
+
+from __future__ import annotations
+
+import argparse
 import html as html_mod
-import json
-import jsonio
-import math
 import os
-import tempfile
 import re
 import sys
 import time
-import subtitle_priority
 from collections import Counter
-from typing import NamedTuple
+from datetime import datetime
+from email.utils import parsedate_to_datetime
 from pathlib import Path
 
-import requests
-import trafilatura
-try:
-    import translate as _tr
-except ModuleNotFoundError:
-    _tr = None
+import extract
+import lang
+import subtitle_priority
+import textproc
+import thumbs
+from common import (BLANK_SUMMARY, FALLBACK_MARK, GONE_SUMMARY, host_in, host_of,
+                    is_pending, is_youtube, load_doc, save_doc)
 
-ITEMS_FILE = os.environ.get("ITEMS_FILE", "archive.json")
-MAX_ITEMS = int(os.environ.get("MAX_ITEMS", "50"))
-TRANSLATE = os.environ.get("TRANSLATE", "on").lower() != "off"
-RESCORE_ALL = os.environ.get("RESCORE_ALL", "").lower() in ("1", "true", "yes", "on")
-
-# ---- Subtitle summarization ---------------------------------------
-SUBTITLES_DIR = os.environ.get("SUBTITLES_DIR", "data/subtitles")
-SUMMARY_RATIO = float(os.environ.get("SUMMARY_RATIO", "0.9"))
-SUMMARY_MAX = int(os.environ.get("SUMMARY_MAX", "60000"))
-FOREIGN_BUDGET_RATIO = 1.2    # [tune]
-
-# ---- Sentence scoring weights (extractive_summary) -------------------------
-ENTITY_WEIGHT_BASE = 1.2      # [tune] base multiplier for sentences with entities
-ENTITY_WEIGHT_STEP = 0.08     # [tune] extra multiplier per additional entity (capped at 5)
-ENTITY_WEIGHT_CAP = 5         # [tune]
-FLUFF_PENALTY = 0.25          # [tune] score penalty for entity-free filler sentences
-LEAD_BIAS = 0.5               # [tune] max positional boost for sentences near the top
-# ---- MMR sentence selection -------------------------------------------------
-MMR_LAMBDA = 0.7              # [tune] redundancy penalty strength
-MMR_DUP_THRESHOLD = 0.65      # [tune] sentences with Jaccard similarity >= this are dropped outright
-
-# ---- Information-value scoring ----------------------------------------------
-
-# ---- Fetching / connection ---------------------------------------------------
-FETCH_TIMEOUT = 30            # [tune] per-request timeout (seconds)
-FETCH_TIMEOUT_SLOW = 60       # [tune] timeout for hosts known to be slow to first byte
-FETCH_RETRIES = 3             # [tune] auto-retry count for transient errors (429/5xx/connection)
-SLEEP_BETWEEN_ITEMS = 1.5     # [tune] polite delay between items (seconds)
-TIME_BUDGET_SECONDS = int(os.environ.get("TIME_BUDGET_SECONDS", "0"))
-TIME_BUDGET_STOP_RATIO = 0.5  # [tune]
-FETCH_HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/126.0.0.0 Safari/537.36"
-    ),
-    "Accept": (
-        "text/html,application/xhtml+xml,application/xml;q=0.9,"
-        "image/webp,*/*;q=0.8"
-    ),
-    "Accept-Language": "zh-TW,zh;q=0.9,en;q=0.8",
-    "Accept-Encoding": "gzip, deflate, br",
-    # Enterprise CDNs (Akamai in particular) stall or drop requests whose
-    # header set doesn't look like a real navigation, which is what made
-    # www.mckinsey.com time out rather than answer.
-    "Sec-Fetch-Mode": "navigate",
-    "Sec-Fetch-Site": "none",
-    "Sec-Fetch-User": "?1",
-    "Sec-Fetch-Dest": "document",
-    "Upgrade-Insecure-Requests": "1",
-    "sec-ch-ua": '"Chromium";v="126", "Not:A-Brand";v="24", "Google Chrome";v="126"',
-    "sec-ch-ua-mobile": "?0",
-    "sec-ch-ua-platform": '"Windows"',
-    "Connection": "keep-alive",
-}
-try:
-    from bs4 import BeautifulSoup
-    _HAS_BS4 = True
-except ModuleNotFoundError:
-    BeautifulSoup = None
-    _HAS_BS4 = False
-
-# curl_cffi ships with the project already (requirements.txt pulls it in via
-# yt-dlp[curl-cffi]). It replays a real Chrome TLS/HTTP2 fingerprint, which is
-# what gets past the fingerprint checks that make plain `requests` hang or get
-# a 403 on some sites.
-try:
-    from curl_cffi import requests as curl_requests
-    _HAS_CURL_CFFI = True
-except Exception:
-    curl_requests = None
-    _HAS_CURL_CFFI = False
-
-CURL_IMPERSONATE = os.environ.get("CURL_IMPERSONATE", "chrome")
-
-# Hosts whose first byte legitimately takes a long time; they get the longer
-# timeout and go straight to the impersonating client.
-SLOW_HOSTS = (
-    "mckinsey.com",
-    "bcg.com",
-    "deloitte.com",
-    "hbr.org",
-)
-
-# Text-extraction proxy and archive mirror, used only after the direct
-# strategies have failed.
-READER_PROXY = os.environ.get("READER_PROXY", "https://r.jina.ai/")
-USE_READER_PROXY = os.environ.get("USE_READER_PROXY", "on").lower() != "off"
-USE_WAYBACK = os.environ.get("USE_WAYBACK", "on").lower() != "off"
-# When a page yields only a meta description, also ask the reader proxy for the
-# real body. Off by default: correct but expensive, since a lot of pages are
-# meta-only and each one becomes an extra third-party request.
-READER_ON_META = os.environ.get("READER_ON_META", "").lower() in ("1", "true", "yes", "on")
-SUMMARY_SKIP_HOSTS = ("news.google.com",)
+SUBTITLES_DIR = Path(os.environ.get("SUBTITLES_DIR", "data/subtitles"))
+SLEEP = 1.5                   # polite delay after each network item
+BATCH, MAX_FAIL_STREAK = 25, 4
+SKIP_HOSTS = ("news.google.com",)      # feed copy is redirect debris, page is useless
+PAUSE_DOMAINS = ("douban.com",)        # same skeleton page on every subdomain
+TECHMEME_FETCH = ("Source", "Report", "Documents:")
+# Summarised from the feed copy without fetching the page, when one exists.
+FEED_FIRST_HOSTS = tuple("""
+abei.club aftermath.site ageofinvention.xyz artincontext.org attlin.com beartalking.com
+bituzi.com blocktempo.com blogspot.com buttondown.com caffes.me careher.net cashchou.com
+chaidarun.com cityofsound.com cocktail4party.com coolshell.cn curtismchale.ca davidoks.blog
+devtang.com esence.travel first-cafe.com firstround.com fomosoc.com fs.blog gilifedesigner.com
+honest-broker.com huli.tw hunterwalk.com joestudwell.com kopu.chat limboy.me
+lipperalpha.refinitiv.com lostmagazine.org louie.lu lutaonan.com matters.town maxjamesread.com
+medium.com meiguinfo.com mickzh.com noswag.tw notesbylex.com personaljournal.ca polgeonow.com
+pseudoyu.com readtrung.com ruanyifeng.com samaltman.com shenlvmeng.github.com shiuncorner.com
+sirupsen.com sive.rs smallbooks.com.tw soidid.tw starrocket.io steveblank.com substack.com
+techcabal.com tiaodao.typlog.io travelwithbook.com trensse.com
+unchartedterritories.tomaspueyo.com uselessetymology.com vox.com waitbutwhy.com werner.wiki
+whogovernstw.org yuanyu.idv.tw zmonster.me bestblogs.dev
+""".split())
 
 
-def is_summary_skip_host(url: str) -> bool:
-    host = host_of(url)
-    return any(host == h or host.endswith("." + h) for h in SUMMARY_SKIP_HOSTS)
-
-
-FEED_FIRST_HOSTS = (
-    "abei.club",
-    "aftermath.site",
-    "ageofinvention.xyz",
-    "artincontext.org",
-    "attlin.com",
-    "beartalking.com",
-    "bituzi.com",
-    "blocktempo.com",
-    "blogspot.com",
-    "buttondown.com",
-    "caffes.me",
-    "careher.net",
-    "cashchou.com",
-    "chaidarun.com",
-    "cityofsound.com",
-    "cocktail4party.com",
-    "coolshell.cn",
-    "curtismchale.ca",
-    "davidoks.blog",
-    "devtang.com",
-    "esence.travel",
-    "first-cafe.com",
-    "firstround.com",
-    "fomosoc.com",
-    "fs.blog",
-    "gilifedesigner.com",
-    "honest-broker.com",
-    "huli.tw",
-    "hunterwalk.com",
-    "joestudwell.com",
-    "kopu.chat",
-    "limboy.me",
-    "lipperalpha.refinitiv.com",
-    "lostmagazine.org",
-    "louie.lu",
-    "lutaonan.com",
-    "matters.town",
-    "maxjamesread.com",
-    "medium.com",
-    "meiguinfo.com",
-    "mickzh.com",
-    "noswag.tw",
-    "notesbylex.com",
-    "personaljournal.ca",
-    "polgeonow.com",
-    "pseudoyu.com",
-    "readtrung.com",
-    "ruanyifeng.com",
-    "samaltman.com",
-    "shenlvmeng.github.com",
-    "shiuncorner.com",
-    "sirupsen.com",
-    "sive.rs",
-    "smallbooks.com.tw",
-    "soidid.tw",
-    "starrocket.io",
-    "steveblank.com",
-    "substack.com",
-    "techcabal.com",
-    "tiaodao.typlog.io",
-    "travelwithbook.com",
-    "trensse.com",
-    "unchartedterritories.tomaspueyo.com",
-    "uselessetymology.com",
-    "vox.com",
-    "waitbutwhy.com",
-    "werner.wiki",
-    "whogovernstw.org",
-    "yuanyu.idv.tw",
-    "zmonster.me",
-)
-FEED_FIRST_SAVE_EVERY = 50
-WAYBACK_LOOKUP = "https://archive.org/wayback/available"
-MIN_USABLE_BODY = 200         # [tune] chars below which a body isn't worth keeping
-
-# ---- Boilerplate / non-content removal --------------------------------------
-# Everything from one of these markers to the END of the text is site
-# furniture rather than article content (author sign-offs, comment and
-# review sections, ...), so the text is truncated at the earliest match.
-BOILERPLATE_FILE = os.environ.get(
-    "BOILERPLATE_FILE",
-    str(Path(__file__).resolve().parent / "summary_boilerplate.json"))
-_BOILER_CACHE: tuple[float, dict] | None = None
-BOILER_STATS: Counter = Counter()
-BOILER_KINDS = ("page", "meta", "feed", "subtitle", "bridge")
-MIN_KEEP_AFTER_CUT = 80
-
-
-def load_boilerplate() -> dict:
-    global _BOILER_CACHE
-    empty = {"remove_block": [], "remove_inline": None, "cut_to_end": None,
-             "drop_unit": {}, "min_keep_after_cut": MIN_KEEP_AFTER_CUT}
-    p = Path(BOILERPLATE_FILE)
-    try:
-        mtime = p.stat().st_mtime
-    except OSError:
-        _BOILER_CACHE = (0.0, empty)
-        return empty
-    if _BOILER_CACHE and _BOILER_CACHE[0] == mtime:
-        return _BOILER_CACHE[1]
-    try:
-        data = json.loads(p.read_text(encoding="utf-8"))
-    except Exception as e:
-        print(f"WARNING: {p} unreadable ({e}); no boilerplate rules applied")
-        _BOILER_CACHE = (mtime, empty)
-        return empty
-
-    blocks: list[str] = []
-    inline: list[str] = []
-    cut: list[str] = []
-    units: dict = {}
-    for rule in data.get("rules") or []:
-        if not isinstance(rule, dict):
-            continue
-        action = rule.get("action")
-        if action == "remove_block":
-            text = rule.get("text") or ""
-            if text:
-                blocks.append(text)
-            continue
-        pattern = rule.get("pattern") or ""
-        if not pattern:
-            continue
+def _ts(value) -> float:
+    s = str(value or "").strip()
+    for parse in (lambda: datetime.fromisoformat(s.replace("Z", "+00:00")),
+                  lambda: parsedate_to_datetime(s)):
         try:
-            re.compile(pattern)
-        except re.error as e:
-            print(f"WARNING: bad boilerplate regex {pattern!r} ({e}); skipped")
-            continue
-        if action == "remove_inline":
-            inline.append(pattern)
-        elif action == "cut_to_end":
-            cut.append(pattern)
-        elif action == "drop_unit":
-            key = (rule.get("level") or "sentence", rule.get("scope") or "all")
-            units.setdefault(key, []).append(re.compile(pattern))
-        else:
-            print(f"WARNING: unknown boilerplate action {action!r}; skipped")
-
-    rules = {
-        "remove_block": blocks,
-        "remove_inline": re.compile("|".join(inline), re.M) if inline else None,
-        "cut_to_end": re.compile("|".join(cut)) if cut else None,
-        "drop_unit": units,
-        "min_keep_after_cut": int(data.get("min_keep_after_cut",
-                                           MIN_KEEP_AFTER_CUT)),
-    }
-    _BOILER_CACHE = (mtime, rules)
-    return rules
-
-# ---- Marking & detection ----------------------------------------------------
-FALLBACK_MARK = "↛"
-TABLE_NOTE = "請參閱所附表格 " + FALLBACK_MARK
-CODE_NOTE = "請參閱所附程式碼 " + FALLBACK_MARK
-CODE_TAG_RE = re.compile(r"<(?:pre|samp|kbd)[\s>]|<code[\s>]", re.I)
-CODE_INLINE_MAX = 40
-# No longer written (see OUTCOMES["blocked"]), but kept so existing items
-# carrying this legacy value can still be recognised and cleared.
-BLOCKED_SUMMARY = "無法取得頁面內容（來源網站封鎖自動化存取）" + FALLBACK_MARK
-GONE_SUMMARY = "無法取得頁面內容（原始頁面已移除，且無存檔）" + FALLBACK_MARK
-
-
-class Outcome(NamedTuple):
-    """What to do when fetch_content comes back without usable copy.
-
-    Replaces three separately-maintained branches in the main loop that had
-    drifted apart -- only one paused the host, only one saved, each counted
-    into its own variable. One row per source_type keeps the decisions visible
-    side by side.
-
-    summary     text to write, or None to leave the item pending for a retry
-    pause_host  stop fetching this host for the rest of the run
-    counter     which tally it increments
-    """
-    summary: str | None
-    pause_host: bool
-    counter: str
-    note: str
-
-    def describe(self, host: str) -> str:
-        tail = f", {host} skipped for the rest of this run" if self.pause_host else ""
-        return f"{self.note}{tail}"
-
-
-OUTCOMES = {
-    # A site refusing automation refuses it for every url on that host, so the
-    # remaining items would each burn a request to earn the same placeholder.
-    # Writing that placeholder was also self-defeating: it filled `summary`, so
-    # the item was no longer pending and no later run would ever retry it, even
-    # once the block lifted. Leave it empty and move off the host instead.
-    "blocked": Outcome(None, True, "blocked",
-                       "blocked by site -> not written, kept pending"),
-    # 404/410 is about this one url, not the host: a real, permanent answer
-    # worth recording, and there is nothing to retry.
-    "gone": Outcome(GONE_SUMMARY, False, "gone", "page is gone -> placeholder written"),
-    # A template/interstitial served in place of the article, likewise host-wide.
-    "junk": Outcome(None, True, "junk", "junk page -> skipped"),
-    # Transient: network error, timeout, empty body. Retry next run.
-    "fail": Outcome(None, False, "failed",
-                    "fetch failed, skipped (kept pending for next run)"),
-}
-# Techmeme uses these leads for stories built on its own sourcing.
-TECHMEME_STAR_PREFIXES = ("Source", "Report", "Documents:")
-CHALLENGE_PATTERN = re.compile(
-    r"安全验证|安全驗證|验证码|驗證碼|禁止访问|禁止訪問|访问异常|異常流量|异常流量|"
-    r"Just a moment|Checking your browser|Verify you are human|"
-    r"[Ee]nable JavaScript and cookies|Access [Dd]enied|cf-challenge"
-)
-
-JUNK_BODY_RE = re.compile(
-    r"Just a moment"
-    r"|Checking your browser"
-    r"|Verify you are human"
-    r"|Enable JavaScript and cookies"
-    r"|Please enable (?:JS|JavaScript|cookies)"
-    r"|(?:Access|Permission) [Dd]enied"
-    r"|You don'?t have permission to access"
-    r"|Why have I been blocked"
-    r"|Cloudflare Ray ID"
-    r"|Attention Required"
-    r"|Request unsuccessful"
-    r"|cf-challenge|cf_chl"
-    r"|needs to review the security of your connection"
-    r"|protect itself from (?:online attacks|malicious bots)"
-    r"|verif(?:y|ies) (?:that )?(you are|you're) not a (ro)?bot"
-    r"|[Mm]aking sure you'?re not a bot"
-    r"|Anubis (?:to protect|has protected)"
-    r"|Comprehensive up-to-date news coverage, aggregated from sources"
-    r"|豆瓣[\sa-zA-Z.]{0,24}(?:載入中|载入中|加載中|加载中)"
-    r"|安全验证|安全驗證|验证码|驗證碼"
-    r"|禁止访问|禁止訪問|访问异常|異常流量|异常流量"
-    r"|正在驗證您的請求|正在验证您的请求"
-    r"|該網站使用安全服務|该网站使用安全服务"
-    r"|正在確認你是不是機器人|正在确认你是不是机器人",
-    re.I,
-)
-JUNK_SCAN_CHARS = 4000
-
-
-def is_junk_body(text: str) -> bool:
-    """True when the extracted text is an interstitial / generic site blurb
-    rather than the article."""
-    return bool(text) and bool(JUNK_BODY_RE.search(text[:JUNK_SCAN_CHARS]))
-
-
-BLANK_SUMMARY = " "
-DOUBAN_MARK_PREFIXES = ("想读", "想看", "想听")
-def is_douban_mark(url: str, title: str) -> bool:
-    return ("douban.com" in (url or "")
-            and (title or "").strip().startswith(DOUBAN_MARK_PREFIXES))
-
-
-TRACKING_PARAM_EXACT = {
-    "ref", "spm", "fbclid", "gclid", "igshid", "mkt_tok",
-    "mc_cid", "mc_eid", "_hsenc", "_hsmi",
-    "oc",
-}
-
-VENDOR_ALIASES = {
-    "openai": "openai", "chatgpt": "openai",
-    "anthropic": "anthropic", "claude": "anthropic",
-    "google": "google", "deepmind": "google", "gemini": "google",
-    "microsoft": "microsoft", "copilot": "microsoft",
-    "github": "github", "huggingface": "huggingface", "hugging face": "huggingface",
-    "meta": "meta", "llama": "meta",
-    "deepseek": "deepseek", "mistral": "mistral",
-    "xai": "xai", "grok": "xai",
-    "nvidia": "nvidia", "spacex": "spacex",
-}
-MODEL_RE = re.compile(
-    r"(?i)\b("
-    r"gpt[-\s]?\d+(?:\.\d+)?[a-z]*|"
-    r"claude(?:[-\s]?(?:opus|sonnet|haiku))?[-\s]?\d+(?:\.\d+)?|"
-    r"gemini[-\s]?\d+(?:\.\d+)?|"
-    r"llama[-\s]?\d+(?:\.\d+)?|"
-    r"deepseek[-\s]?[a-z0-9.]+|"
-    r"grok[-\s]?\d+(?:\.\d+)?|"
-    r"mistral[-\s]?[a-z0-9.]+"
-    r")\b"
-)
-
-
-def _to_twp(text: str) -> str:
-    return _tr.to_traditional(text) if _tr else text
-
-
-LATIN_WORD_RE = re.compile(r"[A-Za-z]{2,}")
-# Local copy: CJK_CHAR_RE is defined further down, after this block.
-_BACKFILL_CJK_RE = re.compile(r"[\u3400-\u4dbf\u4e00-\u9fff]")
-
-# Scripts worth telling apart when deciding "is this already Chinese?".
-# Han alone cannot answer that: Japanese prose is mostly kanji, so a Han-ratio
-# test reads it as Chinese and leaves it untranslated forever. Kana is the
-# tell, and it separates cleanly. Measured over the archive, real Japanese
-# summaries run 0.515-0.710 kana among their CJK characters; the highest
-# Chinese one is 0.171 (a Chinese post quoting a Japanese lyric at length),
-# and everything else is below 0.12. The threshold sits in the middle of that
-# 0.344-wide gap, so neither side is anywhere near it.
-SCRIPT_RES = {
-    "han": _BACKFILL_CJK_RE,
-    "kana": re.compile(r"[\u3040-\u30ff]"),
-    "hangul": re.compile(r"[\uac00-\ud7af]"),
-    "cyrillic": re.compile(r"[\u0400-\u04ff]"),
-    "greek": re.compile(r"[\u0370-\u03ff]"),
-    "hebrew": re.compile(r"[\u0590-\u05ff]"),
-    "arabic": re.compile(r"[\u0600-\u06ff]"),
-    "devanagari": re.compile(r"[\u0900-\u097f]"),
-    "thai": re.compile(r"[\u0e00-\u0e7f]"),
-    "latin": re.compile(r"[A-Za-z\u00c0-\u024f]"),
-}
-KANA_SHARE_IS_JAPANESE = 0.35
-# Above this share of Han the text is Chinese that merely contains code.
-BACKFILL_MAX_CJK_RATIO = 0.02
-# Below this many Latin words there is no prose to translate (a bare url, etc).
-BACKFILL_MIN_LATIN_WORDS = 8
-# Non-Latin scripts have no word separator, so they are gated on character count.
-BACKFILL_MIN_SCRIPT_CHARS = 20
-
-
-def script_profile(text: str) -> dict:
-    return {name: len(rx.findall(text)) for name, rx in SCRIPT_RES.items()}
-
-
-def summary_cjk_ratio(text: str) -> float:
-    letters = sum(1 for ch in text if ch.isalpha())
-    return len(_BACKFILL_CJK_RE.findall(text)) / letters if letters else 0.0
-
-
-def needs_translation(text: str | None) -> bool:
-    """Is this summary in a language that still needs translating to 繁中?
-
-    Deliberately strict about what counts as "not Chinese". A plain
-    "not mostly CJK" test flags thousands of summaries that are already
-    繁體中文 posts about programming, where the Latin characters are code,
-    urls and library names.
-    Re-translating those would corrupt Chinese that is already correct.
-
-    Japanese is checked before the Han ratio, not after: Japanese prose is
-    mostly kanji, so by Han ratio alone it passes as Chinese and is never
-    picked up. Everything else is decided on which script dominates, so a
-    Korean, Russian or Thai summary is caught even though it contains no
-    Latin words at all -- the old Latin-word-count rule could only ever see
-    English.
-    """
-    if not text or not text.strip() or text == BLANK_SUMMARY:
-        return False
-    if text.startswith(BLOCKED_SUMMARY[:8]) or text.startswith(GONE_SUMMARY[:8]):
-        return False
-
-    p = script_profile(text)
-    cjk = p["han"] + p["kana"]
-    if cjk and p["kana"] / cjk >= KANA_SHARE_IS_JAPANESE:
-        return p["kana"] >= BACKFILL_MIN_SCRIPT_CHARS
-
-    if summary_cjk_ratio(text) > BACKFILL_MAX_CJK_RATIO:
-        return False                      # already Chinese
-
-    if len(LATIN_WORD_RE.findall(text)) >= BACKFILL_MIN_LATIN_WORDS:
-        return True
-    # Scripts with no spaces between words: judge on volume instead.
-    return any(p[name] >= BACKFILL_MIN_SCRIPT_CHARS
-               for name in ("hangul", "cyrillic", "greek", "hebrew",
-                            "arabic", "devanagari", "thai"))
-
-
-# How many failures in a row mean the endpoint itself is the problem rather
-# than these particular summaries. See backfill().
-BACKFILL_MAX_CONSECUTIVE_FAILURES = 4
-BACKFILL_BATCH = 25
-
-
-def translation_is_acceptable(out: str | None) -> bool:
-    return bool(out) and not needs_translation(out)
-
-
-def backfill(items, *, translate_enabled=True, revalidate_thumbnails=True,
-             limit=0, deadline=None, save=None):
-    """Re-apply current rules to already-stored items, after the fetch loop.
-
-    The fetch loop only ever validates on the way *in*, so every time a rule
-    changes the stored data falls one rule behind and stays there: the 24
-    thumbnails written before the photo/chart filter existed were never going
-    to be removed by any later run. This pass exists to close that gap, and
-    covers the whole file rather than just this batch.
-
-    Three jobs, ordered by risk, sharing one walk over the items:
-
-      thumbnails   offline, pure re-check against thumbnail_is_usable
-      簡體→繁體     offline, deterministic OpenCC conversion
-      非中文→中文   needs the network, so it is gated and budgeted separately
-
-    The first two are cheap and always safe, so they run over everything in a
-    single pass; only the third is metered.
-    """
-    counts = Counter()
-    targets = []
-
-    for it in items:
-        if not isinstance(it, dict):
-            continue
-
-        # ---- thumbnails: re-check against the current filter ----
-        if revalidate_thumbnails and it.get("thumbnail"):
-            url = it.get("url") or ""
-            if thumbnail_host_skipped(url):
-                ok, why = False, "host opted out"
-            else:
-                ok, why = thumbnail_is_usable(it["thumbnail"])
-            if not ok:
-                it.pop("thumbnail", None)
-                counts["thumbnail"] += 1
-                counts[f"thumb:{why}"] += 1
-
-        summary = it.get("summary")
-        if not summary or not summary.strip() or summary == BLANK_SUMMARY:
-            continue
-        if _tr and _tr.detect_variant(summary) == "hans":
-            converted = _to_twp(summary)
-            if converted != summary:
-                it["summary"] = converted
-                summary = converted
-                counts["simplified"] += 1
-
-        # ---- collect translation targets in the same walk ----
-        if needs_translation(summary):
-            targets.append(it)
-
-    if counts["thumbnail"]:
-        detail = ", ".join(f"{k[6:]}×{v}" for k, v in counts.most_common()
-                           if k.startswith("thumb:"))
-        print(f"Backfill: dropped {counts['thumbnail']} stale thumbnail(s)  [{detail}]")
-    if counts["simplified"]:
-        print(f"Backfill: converted {counts['simplified']} simplified summary(ies) to 繁體.")
-    if not targets:
-        return counts
-    print(f"Backfill: {len(targets)} non-Chinese summary(ies) found.")
-
-    if not translate_enabled or not _tr:
-        print("Backfill: translation disabled, left as-is.")
-        return counts
-    if limit:
-        targets = targets[:limit]
-
-    consecutive = 0
-    reasons: Counter = Counter()
-    providers: Counter = Counter()
-    if getattr(_tr, "deepl_enabled", lambda: False)():
-        usage = _tr.deepl_usage(get_session())
-        print("Backfill: using DeepL" +
-              (f" ({usage[0]:,}/{usage[1]:,} characters used this period)"
-               if usage else " (usage unavailable)"))
-    else:
-        # Silence here reads identically to "DeepL is fine and unused" --
-        # say the actual state so a missing/rejected DEEPL_API_KEY shows up
-        # in the log instead of only being inferable from its absence.
-        print("Backfill: DeepL not enabled (DEEPL_API_KEY unset, empty, or "
-              "requests unavailable) -- every item below goes through gtx.")
-
-    pos = 0
-    while pos < len(targets):
-        if deadline is not None and time.monotonic() > deadline:
-            print(f"Backfill: time budget reached, stopped after {pos}.")
-            break
-        if consecutive >= BACKFILL_MAX_CONSECUTIVE_FAILURES:
-            worst = _tr.short_reason(reasons.most_common(1)[0][0])
-            print(f"Backfill: stopping after {consecutive} consecutive "
-                  f"failures (last: {worst}); {len(targets) - pos} left "
-                  f"for a later run.")
-            break
-        batch = targets[pos:pos + BACKFILL_BATCH]
-        pos += len(batch)
-
-        marks, bodies = [], []
-        for it in batch:
-            src = it["summary"]
-        # Keep the fallback mark out of the translated body, re-append after.
-            marks.append(FALLBACK_MARK if src.rstrip().endswith(FALLBACK_MARK) else "")
-            bodies.append(src.rstrip().rstrip(FALLBACK_MARK).strip())
-        try:
-            outs = _tr.translate_many(
-                bodies, session=get_session(),
-                max_consecutive_gtx_failures=BACKFILL_MAX_CONSECUTIVE_FAILURES)
-        except Exception as e:
-            outs = [(None, f"{type(e).__name__}: {e}")] * len(bodies)
-
-        for it, mark, (out, reason) in zip(batch, marks, outs):
-            if out and not translation_is_acceptable(out):
-                out, reason = None, "result still not Chinese"
-            if not out:
-                counts["failed"] += 1
-                reasons[_tr.short_reason(reason) or "unknown"] += 1
-                consecutive += 1
-                # Stop tallying this batch the moment the run-wide budget is
-                # spent instead of walking every remaining item in it -- a
-                # batch of BACKFILL_BATCH (25) items all failing used to
-                # print a "consecutive" count of 25 regardless of what this
-                # constant was set to, because nothing checked it until the
-                # *next* batch was about to start.
-                if consecutive >= BACKFILL_MAX_CONSECUTIVE_FAILURES:
-                    break
-                continue
-            consecutive = 0
-            it["summary"] = (_to_twp(out) + " " + mark).rstrip() if mark else _to_twp(out)
-            counts["translated"] += 1
-        providers[getattr(_tr, "LAST_PROVIDER", "") or "none"] += 1
-        if save is not None and counts["translated"]:
-            save()
-        time.sleep(SLEEP_BETWEEN_ITEMS)
-
-    print(f"Backfill done: thumbnails={counts['thumbnail']}, "
-          f"simplified={counts['simplified']}, "
-          f"translated={counts['translated']}, failed={counts['failed']}")
-    if providers:
-        print("Backfill provider: " +
-              ", ".join(f"{k}×{v} batch" for k, v in providers.most_common()))
-    if reasons:
-        detail = ", ".join(f"{k}×{v}" for k, v in reasons.most_common(5))
-        print(f"Backfill failure reasons: {detail}")
-    deepl_failures = getattr(_tr, "DEEPL_FAILURES", None)
-    if deepl_failures:
-        # These are calls gtx then quietly retried and "fixed" -- gtx's 429s
-        # in the counters above are downstream of whatever is in this line.
-        # If this never prints, DeepL genuinely wasn't the problem; if it
-        # prints every run, the key/quota is why gtx is carrying all the load.
-        detail = ", ".join(f"{k}×{v}" for k, v in deepl_failures.most_common(5))
-        print(f"Backfill DeepL failures (fell back to gtx): {detail}")
-    counts["reasons"] = reasons
-    return counts
-
-
-# ---------------------------------------------------------------- Connection / URL / encoding
-
-_SESSION: requests.Session | None = None
-
-
-def get_session() -> requests.Session:
-    """Singleton requests.Session: reuses connection pools + auto-retries
-    (backoff on 429/5xx/connection errors). Replaces per-item requests.get(),
-    speeds up fetching multiple pages from the same site, and the translate
-    endpoint reuses the same session too."""
-    global _SESSION
-    if _SESSION is None:
-        from requests.adapters import HTTPAdapter
-        from urllib3.util.retry import Retry
-        s = requests.Session()
-        retry = Retry(
-            total=FETCH_RETRIES, connect=FETCH_RETRIES, read=FETCH_RETRIES,
-            backoff_factor=0.8,
-            status_forcelist=[429, 500, 502, 503, 504],
-            allowed_methods=frozenset(["GET", "POST"]),
-        )
-        adapter = HTTPAdapter(max_retries=retry, pool_connections=16, pool_maxsize=16)
-        s.mount("http://", adapter)
-        s.mount("https://", adapter)
-        s.headers.update(FETCH_HEADERS)
-        _SESSION = s
-    return _SESSION
-
-
-def normalize_url(raw_url: str) -> str:
-    """Strip tracking parameters (utm_*, fbclid, gclid, spm, ref, ...) and
-    normalize, so different tracking links to the same page collapse into
-    the same key, improving dedup and reprint-detection accuracy."""
-    from urllib.parse import parse_qsl, urlencode, urlparse, urlunparse
-    try:
-        parsed = urlparse((raw_url or "").strip())
-        if not parsed.scheme:
-            return (raw_url or "").strip()
-        query = [
-            (k, v) for k, v in parse_qsl(parsed.query, keep_blank_values=True)
-            if not k.lower().startswith("utm_") and k.lower() not in TRACKING_PARAM_EXACT
-        ]
-        parsed = parsed._replace(
-            scheme=parsed.scheme.lower(),
-            netloc=parsed.netloc.lower(),
-            fragment="",
-            query=urlencode(query, doseq=True),
-        )
-        return urlunparse(parsed).rstrip("/")
-    except Exception:
-        return (raw_url or "").strip()
-
-
-def maybe_fix_mojibake(text: str) -> str:
-    """Fix mojibake caused by "UTF-8 bytes misdecoded as Latin-1/CP1252"
-    (common in RSS/web pages). Only attempted when mojibake signatures are
-    detected, to avoid touching normal text."""
-    s = (text or "").strip()
-    if not s or re.search(r"[Ãâåèæïð]|[\x80-\x9f]|æ|ç|å|é", s) is None:
-        return s
-    for enc in ("latin1", "cp1252"):
-        try:
-            fixed = s.encode(enc).decode("utf-8")
-            if fixed and fixed != s:
-                return fixed
+            return parse().timestamp()
         except Exception:
-            continue
-    return s
-
-
-# ---------------------------------------------------------------- YouTube subtitles
-
-def is_youtube_url(url: str) -> bool:
-    return "youtube.com" in (url or "") or "youtu.be" in (url or "")
-
-
-def youtube_video_id(url: str) -> str | None:
-    m = (re.search(r"[?&]v=([^&]+)", url or "") or
-         re.search(r"/shorts/([^?&/]+)", url or "") or
-         re.search(r"/live/([^?&/]+)", url or "") or
-         re.search(r"youtu\.be/([^?&/]+)", url or ""))
-    return m.group(1) if m else None
-
-
-def youtube_thumbnail_url(url: str) -> str | None:
-    vid = youtube_video_id(url)
-    return f"https://img.youtube.com/vi/{vid}/mqdefault.jpg" if vid else None
-
-
-# Subtitle filename format (produced by download_sub.py):
-# "{item_id}.{original language or NA}.{subtitle language}.vtt"
-VTT_NAME_RE = re.compile(r"^(?P<orig>[^.]+)\.(?P<sub>[^.]+)\.vtt$")
-
-
-def _subtitle_candidates(item_id: str):
-    """Return every subtitle file for an item_id, as (path, original_lang, subtitle_lang)."""
-    out = []
-    if not item_id:
-        return out
-    for path in glob.glob(os.path.join(SUBTITLES_DIR, f"{item_id}.*.vtt")):
-        m = VTT_NAME_RE.match(os.path.basename(path)[len(item_id) + 1:])
-        if not m:
-            continue
-        out.append((path, m.group("orig"), m.group("sub")))
-    return out
-
-
-def pick_subtitle(item_id: str):
-    cands = _subtitle_candidates(item_id)
-    if not cands:
-        return None
-    cands.sort(key=lambda c: (subtitle_priority.file_rank(c[2], c[1]), c[0]))
-    return cands[0]
-
-
-VTT_TAG_RE = re.compile(r"<[^>]+>")
-VTT_WATERMARK_RE = re.compile(r"\[[^\]]*(?:人工智慧翻譯|AI\s*翻譯|criblate\.com)[^\]]*\]", re.I)
-
-CAPTION_ANNOTATION_RE = re.compile(
-    r"\[\s*(?:_+|\*+|\s)*\s*\]"
-    r"|\[[^\]\n]{1,30}\]"
-    r"|\(\s*(?:music|applause|laughter|inaudible|crosstalk|silence)\s*\)",
-    re.I,
-)
-SPEAKER_ARROW_RE = re.compile(r"(?:&gt;\s*){2,}|>{2,}")
-
-
-SPEAKER_TURN_MARK = "\x00"
-
-
-def clean_caption_text(text: str, mark_speaker_turns: bool = False) -> str:
-    """Strip non-speech annotation and entity escapes from caption text."""
-    text = html_mod.unescape(text)
-    text = SPEAKER_ARROW_RE.sub(
-        "\n" + SPEAKER_TURN_MARK if mark_speaker_turns else "\n", text)
-    text = CAPTION_ANNOTATION_RE.sub(" ", text)
-    text = re.sub(r"[ \t]{2,}", " ", text)
-    text = re.sub(r"^[ \t]+|[ \t]+$", "", text, flags=re.M)
-    text = re.sub(r"\n{2,}", "\n", text)
-    return text.strip()
-
-
-# ---- Markdown (reader-proxy output) -----------------------------------------
-# r.jina.ai renders pages to Markdown, so its text arrives full of image
-# embeds, link targets, heading hashes and emphasis markers. trafilatura's
-# output is plain text, so this only ever runs on reader-proxy text.
-MD_IMAGE_RE = re.compile(r"!\[[^\]]*\]\([^)]*\)")
-MD_IMAGE_LABEL_RE = re.compile(
-    r"\[\s*!?\s*\[?\s*(?:Image|圖片|图片|圖像|图像|Figure|插圖|插图)"
-    r"\s*\d*\s*[:：]?[^\]]*\](?:\([^)]*\))?\s*\]?",
-    re.I,
-)
-MD_LINK_RE = re.compile(r"\[([^\]\n]*?)\]\((?:https?:|/|#|mailto:)[^)\s]*\)")
-MD_BARE_URL_RE = re.compile(r"<?https?://[^\s)\]<>，。）]+>?")
-MD_HEADING_RE = re.compile(r"^\s{0,3}#{1,6}\s*", re.M)
-MD_RULE_RE = re.compile(r"^\s*(?:[-*_]\s*){3,}$", re.M)
-MD_BULLET_RE = re.compile(r"^\s{0,6}(?:[-*+]|\d{1,2}[.)])\s+", re.M)
-MD_EMPH_RE = re.compile(r"\*\*|__|\*|`|~~")
-MD_ORPHAN_BRACKET_RE = re.compile(r"^[\s\]\[)(|:-]+|[\s\[(|]+$", re.M)
-
-
-# ---- Cleanup for Leaked Markup ----------------------------------------------
-# Two kinds of artifacts that actually appear in existing summaries:
-#
-# 1. "Orphaned" markdown link tails such as `]("permanent link")`.
-#    The MD_LINK_RE in clean_markdown only matches complete `[text](url)` links.
-#    On some Blogspot layouts, the opening `[` is placed in a previous block, so
-#    after extraction only the trailing portion remains.
-#
-# 2. Genuine HTML that leaked through extraction, including comments,
-#    `<script>`/`<style>` blocks, void elements such as `<meta>` and `<link>`,
-#    as well as `<br/>` tags.
-MD_ORPHAN_TAIL_RE = re.compile(r'\]\(\s*(?:"[^"\n]{0,120}")?\s*\)')
-HTML_COMMENT_RE = re.compile(r"<!--.*?-->", re.S)
-HTML_BLOCK_RE = re.compile(r"<(script|style|noscript)\b[^>]*>.*?</\1\s*>", re.S | re.I)
-HTML_ORPHAN_BLOCK_RE = re.compile(r"</?(?:script|style|noscript)\b[^>]*>", re.I)
-HTML_VOID_RE = re.compile(
-    r"<\s*(?:meta|link|base|source|track|param|input|img|iframe|"
-    r"col|area|embed|wbr)\b[^>]*/?>", re.I)
-HTML_BR_RE = re.compile(r"<\s*br\s*/?\s*>", re.I)
-
-
-def sanitize_leaked_markup(text: str) -> str:
-    if not text:
-        return text
-    text = HTML_COMMENT_RE.sub("", text)
-    text = HTML_BLOCK_RE.sub("", text)
-    text = HTML_ORPHAN_BLOCK_RE.sub("", text)
-    text = HTML_VOID_RE.sub("", text)
-    text = HTML_BR_RE.sub("\n", text)
-    prev = None
-    while prev != text:
-        prev = text
-        text = MD_ORPHAN_TAIL_RE.sub("", text)
-    text = re.sub(r"[ \t]{2,}", " ", text)
-    text = re.sub(r"\n{3,}", "\n\n", text)
-    return text.strip()
-
-
-def clean_markdown(text: str) -> str:
-    """Reduce Markdown to the prose inside it, keeping link anchor text."""
-    if not text:
-        return text
-    text = html_mod.unescape(text)
-    text = MD_IMAGE_RE.sub("", text)
-    text = MD_IMAGE_LABEL_RE.sub("", text)
-    for _ in range(3):                      # nested [a](b) inside [c](d)
-        new = MD_LINK_RE.sub(r"\1", text)
-        if new == text:
-            break
-        text = new
-    text = MD_RULE_RE.sub("", text)
-    text = MD_HEADING_RE.sub("", text)
-    text = MD_BULLET_RE.sub("", text)
-    text = MD_BARE_URL_RE.sub("", text)
-    text = MD_EMPH_RE.sub("", text)
-    text = MD_ORPHAN_BRACKET_RE.sub("", text)
-    text = sanitize_leaked_markup(text)
-    text = re.sub(r"[ \t]{2,}", " ", text)
-    text = re.sub(r"\n{3,}", "\n\n", text)
-    return text.strip()
-
-
-# ---- PTT --------------------------------------------------------------------
-PTT_META_RE = re.compile(r"^\s*(?:作者|標題|時間|看板)[\s:：].*$", re.M)
-PTT_SIG_RE = re.compile(r"^\s*※\s*(?:發信站|文章網址|編輯\s*[:：]|伸謝)[^\n]*$", re.M)
-PTT_PUSH_PREFIX_RE = re.compile(
-    r"(?:^|(?<=[\s。！？]))\s*(?:推|噓|嘘|→)\s*[A-Za-z0-9_]{2,20}\s*[:：]\s*"
-)
-PTT_IP_TIME_RE = re.compile(
-    r"\s*(?:\d{1,3}(?:\.\d{1,3}){3})?\s*\d{2}/\d{2}\s+\d{2}:\d{2}\s*"
-)
-PTT_BARE_IP_RE = re.compile(r"\s*\d{1,3}(?:\.\d{1,3}){3}\s*")
-
-
-def clean_ptt(text: str) -> str:
-    """Normalise a PTT page: drop the metadata header and signature block,
-    strip the 推/噓/→ tag and the commenter id in front of each comment, and
-    strip the ip + date + time that trails it.
-
-    The ip/date/time removal matters for more than tidiness: every push line
-    ends in an ip address and a timestamp, which entity_count() reads as
-    fact-dense, so leaving them in makes the extractive scorer prefer comment
-    lines over the article body.
-    """
-    if not text:
-        return text
-    text = PTT_META_RE.sub("", text)
-    text = PTT_SIG_RE.sub("", text)
-    text = PTT_PUSH_PREFIX_RE.sub("\n", text)
-    text = PTT_IP_TIME_RE.sub("\n", text)
-    text = PTT_BARE_IP_RE.sub(" ", text)
-    text = re.sub(r"[ \t]{2,}", " ", text)
-    return re.sub(r"\n{2,}", "\n", text).strip()
-
-
-def is_ptt(url: str) -> bool:
-    return "ptt.cc" in (url or "")
-
-CJK_TERMINAL_RE = re.compile(r"[。！？!?；;]")
-UNPUNCTUATED_CHARS_PER_TERMINAL = 60
-OVERPUNCTUATED_CHARS_PER_TERMINAL = 28
-ZH_CONNECTIVE_RE = re.compile(
-    r"^(但是|但|不過|可是|然而|所以|因為|因此|於是|結果|其實|如果|要是|"
-    r"而且|另外|同時|然後|之後|後來|首先|接著|最後|即是|反而|不然|"
-    r"例如|譬如|比如|總之|換言之)"
-)
-MIN_CAPTION_CHARS = 30       # [tune] below this a caption track carries no speech
-SUBTITLE_MERGE_TARGET = 45   # [tune] aim for pseudo-sentences of about this many chars
-SUBTITLE_MERGE_MAX = 75      # [tune] never let one grow past this
-SUBTITLE_CONNECTIVE_MIN = 15 # [tune] don't break at a connective below this length
-ZH_CONTINUATION_RE = re.compile(
-    r"^(的|地|得|了|著|過|嗎|呢|吧|啊|喔|嘛|就|才|也|都|還|再|又|並|"
-    r"和|與|或|至|到|給|把|被|從|對|向|以及)"
-)
-
-
-def chars_per_terminal(text: str) -> float:
-    n = len(CJK_TERMINAL_RE.findall(text))
-    return float("inf") if n == 0 else len(text) / n
-
-
-LINE_FINAL_PERIOD_RE = re.compile(r"[。．｡]+[ \t]*$", re.M)
-
-
-def strip_line_terminals(text: str) -> str:
-    return LINE_FINAL_PERIOD_RE.sub("", text)
-
-
-def merge_caption_lines(text: str) -> str:
-    """Rebuild sentence-like units from sparsely punctuated caption cues.
-
-    Consecutive cue lines are joined with commas until the unit reaches
-    SUBTITLE_MERGE_TARGET characters, breaking early when the next cue opens
-    with a discourse connective, and every finished unit is terminated with a
-    full stop. That gives the scorer units large enough to carry signal, and
-    makes the final summary readable rather than one long unbroken run.
-
-    Punctuation already present is respected rather than doubled up: a cue
-    that ends in a sentence-final mark closes the unit there, and no comma or
-    full stop is inserted next to an existing mark. This keeps the function
-    safe to run on transcripts that carry occasional punctuation, not just on
-    ones with none at all.
-    """
-    units: list[str] = []
-    cur = ""
-
-    def flush():
-        nonlocal cur
-        if cur:
-            units.append(cur if CJK_TERMINAL_RE.search(cur[-1]) else cur + "。")
-            cur = ""
-
-    for line in (l.strip() for l in text.split("\n")):
-        if not line:
-            continue
-        new_turn = line.startswith(SPEAKER_TURN_MARK)
-        if new_turn:
-            line = line.lstrip(SPEAKER_TURN_MARK).strip()
-            if not line:
-                continue
-            flush()
-        # Connectives are checked first, so a word that begins with a
-        # continuation particle but actually opens a clause still breaks.
-        is_conn = bool(ZH_CONNECTIVE_RE.match(line))
-        is_cont = (not is_conn) and bool(ZH_CONTINUATION_RE.match(line))
-        can_break = bool(cur) and (not is_cont or len(cur) >= SUBTITLE_MERGE_MAX)
-        if can_break and (
-            len(cur) >= SUBTITLE_MERGE_TARGET
-            or len(cur) + len(line) > SUBTITLE_MERGE_MAX
-            or (len(cur) >= SUBTITLE_CONNECTIVE_MIN and is_conn)
-        ):
-            flush()
-        if not cur:
-            cur = line
-        elif is_cont or cur[-1] in "，,、。！？!?；;":
-            cur += line          # already punctuated, or a mid-phrase continuation
-        else:
-            cur += "，" + line
-        # A cue that ends on a sentence-final mark is a natural boundary.
-        if cur and CJK_TERMINAL_RE.search(cur[-1]):
-            flush()
-    flush()
-    return "\n".join(units).replace(SPEAKER_TURN_MARK, "")
-
-
-VTT_TIMING_RE = re.compile(r"-->")
-VTT_STITCH_MIN_OVERLAP = 12
-VTT_STITCH_MIN_OVERLAP_CJK = 5
-VTT_STITCH_WINDOW = 400
-CJK_CHAR_RE = re.compile(r"[\u3400-\u4dbf\u4e00-\u9fff\u3040-\u30ff\uac00-\ud7af]")
-_ASCII_WORD_RE = re.compile(r"[0-9A-Za-z\u00c0-\u024f]")
-
-
-def _vtt_cue_payloads(raw: str):
-    """Yield each cue's text lines, tags stripped, in file order.
-
-    Blocks are split on blank lines and everything before the `-->` line is
-    dropped, so the WEBVTT header, NOTE/STYLE blocks and numeric cue
-    identifiers never reach the payload. The old parser keyed only on `-->`
-    and appended every other line to the previous cue, which meant a
-    conventionally numbered .vtt contributed the bare string "2", "3", ... as
-    each cue's last line.
-    """
-    raw = raw.replace("\r\n", "\n").replace("\r", "\n")
-    for block in re.split(r"\n\s*\n", raw):
-        lines = block.split("\n")
-        idx = next((n for n, l in enumerate(lines) if "-->" in l), None)
-        if idx is None:
-            continue
-        cleaned = []
-        for l in lines[idx + 1:]:
-            l = VTT_TAG_RE.sub("", l).strip()
-            if l:
-                cleaned.append(l)
-        if cleaned:
-            yield cleaned
-
-
-def _join_cue_lines(lines: list[str]) -> str:
-    """Join a cue's display lines back into one string.
-
-    A space between two Latin words, nothing between CJK — a wrapped Chinese
-    cue must not gain a space at the wrap point.
-    """
-    out = ""
-    for part in lines:
-        if out and (_ASCII_WORD_RE.search(out[-1]) or _ASCII_WORD_RE.search(part[0])):
-            out += " "
-        out += part
-    return out
-
-
-def _overlap_len(tail: str, text: str) -> int:
-    """Longest k where `tail` ends with `text[:k]`, honouring word boundaries."""
-    limit = min(len(tail), len(text))
-    for k in range(limit, 0, -1):
-        floor = (VTT_STITCH_MIN_OVERLAP_CJK
-                 if CJK_CHAR_RE.search(text[:k]) else VTT_STITCH_MIN_OVERLAP)
-        if k != len(text) and k < floor:
-            break
-        if not tail.endswith(text[:k]):
-            continue
-        # Don't cut a Latin word in half: "gadget" is not an overlap of
-        # "gadgets that I use".
-        if k < len(text) and _ASCII_WORD_RE.match(text[k]) and \
-                _ASCII_WORD_RE.match(text[k - 1]):
-            continue
-        return k
-    return 0
-
-
-def stitch_caption_cues(cues) -> list[str]:
-    """Turn overlapping cues into non-repeating lines.
-
-    Two cue shapes have to come out right, and a .vtt gives no reliable way to
-    tell them apart up front:
-
-      rolling   cue = "<line already shown> <line being typed>"
-      wrapped   cue = one sentence broken over two display lines
-
-    The old code took only each cue's *last* line. That is right for rolling
-    captions and silently discards half the transcript for wrapped ones —
-    which is what YouTube's newer punctuated ASR tracks produce. It showed up
-    as whole clauses missing from summaries: "...my favorite low-tech
-    Previously, you guys liked..." had lost the line in between.
-
-    Stitching handles both. Each cue is joined whole, then whatever prefix
-    already appears at the end of the text emitted so far is dropped. For a
-    rolling cue that prefix is the repeated line; for a wrapped cue there is
-    no overlap and the whole thing is kept.
-    """
-    lines_out: list[str] = []
-    acc = ""
-    for cleaned in cues:
-        text = _join_cue_lines(cleaned)
-        if not text:
-            continue
-        k = _overlap_len(acc[-VTT_STITCH_WINDOW:], text)
-        remainder = text[k:].strip(" \t,")
-        if not remainder:
-            continue
-        lines_out.append(remainder)
-        acc = (acc + " " + remainder) if acc else remainder
-    return lines_out
-
-
-def vtt_to_text(path: str) -> str:
-    """Convert a .vtt file into clean, sentence-by-sentence text."""
-    try:
-        with open(path, "r", encoding="utf-8", errors="ignore") as f:
-            raw = f.read()
-    except Exception:
-        return ""
-
-    raw = VTT_WATERMARK_RE.sub("", raw)
-    lines_out = stitch_caption_cues(_vtt_cue_payloads(raw))
-
-    text = "\n".join(lines_out)
-    text = clean_caption_text(text, mark_speaker_turns=True)
-    text = re.sub(r"\n{2,}", "\n", text).strip()
-    if text and cjk_ratio(text) >= 0.25:
-        cpt = chars_per_terminal(text)
-        if cpt > UNPUNCTUATED_CHARS_PER_TERMINAL:
-            text = merge_caption_lines(text)
-        elif cpt < OVERPUNCTUATED_CHARS_PER_TERMINAL:
-            text = merge_caption_lines(strip_line_terminals(text))
-    return text.replace(SPEAKER_TURN_MARK, "")
-
-
-# ---------------------------------------------------------------- Thumbnails
-
-IMAGE_EXT_RE = re.compile(r"\.(?:png|jpe?g|gif|webp|avif|svg)(?:$|[?#])", re.I)
-
-# Images the heuristics below cannot judge from the filename alone: sponsor and
-# partner logos whose names read like an article subject. "Foresight-Ventures"
-# and "Foresight-News" look exactly like a topical filename, so they score as
-# usable and end up as the thumbnail on hundreds of unrelated articles.
-# An exact-url list rather than more filename rules: these are specific files,
-# and guessing at the pattern would start rejecting real article images.
-# Lower-cased on the way in, not on the way to being pasted here: the lookup
-# compares against a lower-cased url, so a single upper-case character in an
-# entry makes that entry unreachable and there is nothing to see in the log --
-# it simply never fires. One of the eight entries was in that state.
-THUMB_URL_DENY = frozenset(u.lower() for u in {
-    "https://image.blocktempo.com/2025/03/foresight-ventures.png",
-    "https://image.blocktempo.com/2025/03/foresight-news.png",
-    "https://image.blocktempo.com/2026/04/mexc-logo-v2.png",
-    "https://ibw.bwnet.com.tw/file/img/smart-white.png",
-    "https://storage.ghost.io/c/30/f5/30f5b1bb-84ee-4c26-b446-fb9a5e512994"
-    "/content/images/size/w30/2025/08/ghostop.png",
-    "https://storage.ghost.io/c/a0/4c/a04c7225-d919-4d78-9b7c-a3fdd071349b"
-    "/content/images/size/w1200/2024/01/1500x500-1.jpeg",
-    "https://ritholtz.com/wp-content/uploads/2016/01/barry02-1-1.png",
-    "https://maxjamesread.com/wp-content/uploads/2021/04/S__46555156-scaled.jpg",
-    "https://gmhjohnny.wordpress.com/wp-content/uploads/2020/09/cropped-j102.png",
-    "https://gmhjohnny.wordpress.com/wp-content/uploads/2020/09/j102.png",
-})
-
-# kottke serves a numbered set of interchangeable brand-colour placeholders
-THUMB_URL_DENY_RE = re.compile(
-    r"^https?://kottke\.org/.*/images/\d{4}/logo-colors/", re.I)
-
-# Hosts where no image is ever wanted as a thumbnail.
-THUMB_SKIP_HOSTS = (
-    "finance.technews.tw",
-)
-
-
-def thumbnail_host_skipped(url: str) -> bool:
-    host = host_of(url)
-    return any(host == h or host.endswith("." + h) for h in THUMB_SKIP_HOSTS)
-
-
-def thumbnail_url_denied(url: str) -> bool:
-    """Exact-match against THUMB_URL_DENY, ignoring case and the query
-    string (CDNs append ?w=&h= renditions of the same file), plus the
-    pattern families in THUMB_URL_DENY_RE."""
-    if not url:
-        return False
-    bare = url.split("?", 1)[0].split("#", 1)[0].strip().lower()
-    return bare in THUMB_URL_DENY or bool(THUMB_URL_DENY_RE.match(bare))
-
-
-# Google's image-proxy hosts (Blogger, Google Photos, ...) accept a
-# "=w<width>-h<height>-<flags>" rendition suffix appended straight onto an
-# otherwise-normal image id, no "?" involved. "-p-k-no-nu" is one specific
-# flag combination seen on Blogger og:image renditions; the image itself is
-# a normal per-article picture, only the requested crop/size is what this
-# strips. Stripping (rather than denying the whole url, as a first pass at
-# this got wrong) gives back the underlying image at its native size.
-THUMB_GOOGLE_SIZE_SUFFIX_RE = re.compile(
-    r"=w\d+-h\d+-p-k-no-nu$", re.I)
-
-
-def normalize_thumbnail_url(url: str) -> str:
-    """Strip known Google image-proxy rendition suffixes so the stored
-    thumbnail is the underlying image, not one specific requested crop."""
-    if not url:
-        return url
-    return THUMB_GOOGLE_SIZE_SUFFIX_RE.sub("", url)
-
-# Stock libraries and wire services.
-THUMB_STOCK_RE = re.compile(
-    r"shutterstock[_-]?\d*"
-    r"|istock(?:photo)?"
-    r"|gettyimages?[-_]?\d*|gyi\d{6,}"
-    r"|depositphotos|adobestock|dreamstime|alamy|123rf|bigstock|stockphoto"
-    r"|unsplash"
-    r"|photo-\d{10,}-[0-9a-f]{8,}"          # unsplash's own filename shape
-    r"|pexels(?:-photo)?[-_]?\d*"
-    r"|\bap[-_]?photo\b|associated[-_]press",
-    re.I,
-)
-# Wire-service filenames: Reuters' 2026-07-29T143000Z_123_RTX..., RTS/RTX ids,
-# and the bare-timestamp shapes agencies use.
-THUMB_WIRE_RE = re.compile(
-    r"\d{4}-?\d{2}-?\d{2}t\d{6}z"
-    r"|\brt[sxr][a-z0-9]{5,}"
-    r"|\bafp[-_]?\d{6,}"
-    r"|\bepa[-_]?(?:efe[-_]?)?\d{6,}",
-    re.I,
-)
-# Layout furniture: the same file on every article.
-THUMB_TEMPLATE_RE = re.compile(
-    r"og[-_]?image|og[-_]?default|social[-_]?(?:card|share|image|preview)"
-    r"|twitter[-_]?card|share[-_]?(?:image|card)|card[-_]?bg"
-    r"|cover[-_]?template|template[-_]?cover|[-_]template\b|^template"
-    # "default" must stand alone as a token: YouTube's own video thumbnails are
-    # named mqdefault.jpg / hqdefault.jpg and are perfectly good images.
-    r"|(?:^|[-_])default(?:[-_](?:image|thumb|cover|banner))?(?:[-_]|$)"
-    r"|placeholder|fallback"
-    r"|no[-_]?image|dummy|generic[-_]?(?:image|cover)"
-    r"|\blogo\b|wordmark|favicon|avatar|profile[-_]?pic|headshot|portrait[-_]?shot"
-    r"|\bbanner\b|\bheader[-_]?(?:image|bg)?\b|hero[-_]?(?:image|bg)"
-    r"|watermark|spacer|pixel|blank|transparent|1x1"
-    # A CMS-internal marker for a recurring column's reused cover image
-    # (USE_THIS_thisweek-ai-radar-*.png): the same file across every post in
-    # that column, not specific to any one article.
-    r"|use[-_]this(?:[-_]|$)",
-    re.I,
-)
-# Screenshots, product demos, and poster/artwork collages.
-THUMB_SCREENSHOT_RE = re.compile(
-    r"screen[-_ ]?shot|screenshot|screencap|scrn"
-    r"|\bcapture\b|\bdemo\b|\bpreview\b|\bmockup\b|\bui[-_]"
-    r"|collage|montage|grid[-_]?of|poster[-_]?(?:grid|collage|set)"
-    r"|line[-_]?up\b|\bcombo\b|side[-_]by[-_]side[-_]?photos?",
-    re.I,
-)
-# Words that say "this is a chart / map / diagram", which is exactly what we
-# want. A name containing any of these is kept even if it is long.
-THUMB_CHART_WORDS = frozenset("""
-axis axes chart charts graph graphs plot plotted map maps mapped mapping
-diagram schematic figure fig table matrix
-index indices ratio ratios rate rates share shares percent percentage pct
-scale scaled distribution breakdown composition split spread
-trend trends trending trajectory curve curves growth decline change delta
-monitor monitoring tracker tracking dashboard scorecard
-comparison compare compared versus vs flip gap gaps spread
-timeline history historical forecast projection projected outlook
-heatmap treemap sankey waterfall scatter histogram bubble radar donut
-quarterly annual monthly yearly ytd yoy qoq cagr
-bloomberg reuters-graphics ft economist statista ourworldindata visualcapitalist
-""".split())
-# Words typical of a photograph, whether hand-captioned or machine-described.
-THUMB_PHOTO_WORDS = frozenset("""
-photo photograph photographed picture pic image img shot shots snapshot
-close closeup up view viewing views viewed angle aerial overhead
-portrait portraits standing sitting seated walking holding wearing smiling
-posing poses posed looking facing gesturing speaking talking waving
-exterior interior facade storefront skyline streetscape landscape
-location located site situated near outside inside
-man woman men women people person crowd worker workers employee
-background backdrop foreground blurred bokeh
-attends attending arrives arriving during ceremony conference press
-generic stock illustrative illustration decorative
-""".split())
-# Above this many word-like tokens, a name that has no chart vocabulary is
-# taken to be a description of a photograph rather than a chart title.
-THUMB_DESCRIPTIVE_MIN_TOKENS = 5
-THUMB_MIN_STEM = 3
-
-# Where the file lives is a stronger signal than what it is called. Every CMS
-# and static-site generator keeps article images and layout assets in different
-# trees: WordPress puts uploads under /wp-content/uploads/ and theme furniture
-# under /wp-content/themes/; icons and stylesheet decorations live in /icons/,
-# /css/, /skin/. Nothing article-specific is ever served from those, so this
-# rule needs no per-site knowledge -- it keys on the conventions themselves.
-# Deliberately excluded: bare /assets/, /static/, /img/, /images/ and /media/,
-# which plenty of sites do use for real article images.
-THUMB_ASSET_DIR_RE = re.compile(
-    r"/(?:themes?|wp-includes|plugins?|icons?|css|skin|sprites?|emoji|ui)/",
-    re.I,
-)
-# Interface chrome: spinners, empty-state art, icons, share buttons. These are
-# whole-token matches on a short filename only, for the same reason "default"
-# is token-anchored above: "Configuration-Loading-Strategies.png" is a real
-# diagram, and "social-media-icons.jpg" needs the token, not the substring.
-THUMB_CHROME_WORDS = frozenset("""
-loader spinner throbber skeleton holder empty icon icons sprite sprites
-qrcode opengraph ogimg arrow arrows divider separator overlay texture
-btn button nav navbar badge ribbon follow subscribe scrolling
-""".split())
-THUMB_CHROME_MAX_TOKENS = 4
-
-# Pure graphic primitives: a divider rule shipped as line.png is the article's
-# image on no article. Deliberately excluded: cover, thumb, banner, logo,
-# header -- those are the conventional names for *the article's own* hero
-# image, the exact opposite of furniture.
-THUMB_GRAPHIC_WORDS = frozenset("""
-line lines rule hr dot dots bar bars bg background spacer pixel sep divider
-shadow mask gradient texture blank dummy placeholder empty none null
-loader spinner
-""".split())
-
-# Layout words. On their own these say nothing either way, so they are not in
-# the set above; they only matter as the *other half* of a decoration filename.
-# The site that served line.png later served line-content.png, and would have
-# served line-title.png next -- naming each variant is a losing game, so the
-# test is compositional instead: reject when every token is generic AND at
-# least one is an actual graphic primitive.
-# That "at least one" is what protects real pictures. "content-marketing-
-# strategy.png", "main-street-photo.jpg" and "border-collie.jpg" are all made
-# of generic words plus a subject, and the subject token is what saves them;
-# "title.png" and "header.png" have no graphic token and pass too.
-THUMB_LAYOUT_WORDS = frozenset("""
-content contents main top bottom left right inner outer wrap wrapper
-box block section area panel col row grid cell border edge corner middle
-center centre side foot base common default style theme layout
-title text head header footer heading caption label item list nav menu sub
-""".split())
-
-
-def is_decoration_filename(tokens: list[str]) -> bool:
-    if not tokens:
-        return False
-    if not all(t in THUMB_GRAPHIC_WORDS or t in THUMB_LAYOUT_WORDS
-               for t in tokens):
-        return False
-    return any(t in THUMB_GRAPHIC_WORDS for t in tokens)
-
-
-def _thumb_tokens(stem: str) -> list[str]:
-    return [t for t in re.split(r"[^a-z0-9]+", stem.lower()) if t]
-
-
-# Hosts that only ever serve an article's own uploaded images, where the
-# filename carries no signal: Blogger puts the real identity in an opaque path
-# segment ("/img/b/R29vZ2xl/AVvXsEhQ/s1600/tw.png") and lets the author keep
-# whatever short name they uploaded. Every filename rule below is therefore
-# guaranteed to misfire on them -- "tw.png" reads as "filename too short to
-# judge", and the newer extensionless "/img/a/AVvXsE..." form reads as "no
-# image extension". Neither says anything about the picture. Judging these by
-# host is the only signal available, and it is a safe one: these hosts do not
-# serve site furniture, so there are no logos or icons to screen out.
-THUMB_TRUSTED_HOSTS = (
-    "blogger.googleusercontent.com",
-    "bp.blogspot.com",                 # 1.bp.blogspot.com … 4.bp.blogspot.com
-)
-# Blogger's proxy lives on the shared lh*.googleusercontent.com hosts, which do
-# serve other things, so it is matched by path rather than host alone.
-THUMB_TRUSTED_PATH_RE = re.compile(
-    r"^https?://lh\d+\.googleusercontent\.com/blogger_img_proxy/", re.I)
-
-
-def thumbnail_host_trusted(url: str) -> bool:
-    host = host_of(url)
-    if any(host == h or host.endswith("." + h) for h in THUMB_TRUSTED_HOSTS):
-        return True
-    return bool(THUMB_TRUSTED_PATH_RE.match(url or ""))
-
-
-def thumbnail_is_usable(url: str) -> tuple[bool, str]:
-    """Whether an image url looks like a chart/map worth keeping.
-
-    Returns (verdict, reason) so the reason can be logged -- the rules are
-    heuristic and being able to see which one fired is what makes them
-    tunable.
-    """
-    if not url or not url.lower().startswith(("http://", "https://")):
-        return False, "not an absolute url"
-    if thumbnail_url_denied(url):
-        return False, "explicitly denied url"
-    if url.startswith("data:"):
-        return False, "data uri"
-    if thumbnail_host_trusted(url):
-        # .svg still excluded: it would be a logo wherever it is served from.
-        if url.split("?", 1)[0].lower().endswith(".svg"):
-            return False, "svg (usually a logo or icon)"
-        return True, "trusted image host"
-    path = url.split("?", 1)[0].split("#", 1)[0]
-    name = path.rstrip("/").rsplit("/", 1)[-1]
-    if not IMAGE_EXT_RE.search(path) and not re.search(r"\.(?:png|jpe?g|webp|avif)$", name, re.I):
-        return False, "no image extension"
-    if name.lower().endswith(".svg"):
-        return False, "svg (usually a logo or icon)"
-    stem = re.sub(r"\.[a-z0-9]+$", "", name, flags=re.I)
-    # Some CMSes append the rendition size: name-1024x576.jpg
-    stem = re.sub(r"[-_]\d{2,4}x\d{2,4}$", "", stem)
-    # Retina suffix: line@2x.png, line-3x.png. Same class of decoration as the
-    # rendition size above, and it otherwise turns a one-word filename into two
-    # tokens, which hides it from the single-token checks below.
-    stem = re.sub(r"[-_@][123]x$", "", stem, flags=re.I)
-    if len(stem) < THUMB_MIN_STEM:
-        return False, "filename too short to judge"
-
-    haystack = f"{stem} {url}"
-    if THUMB_ASSET_DIR_RE.search(path):
-        return False, "served from an asset/theme directory"
-    if THUMB_STOCK_RE.search(haystack):
-        return False, "stock library filename"
-    if THUMB_WIRE_RE.search(haystack):
-        return False, "wire-service filename"
-    if THUMB_TEMPLATE_RE.search(stem):
-        return False, "layout template / site furniture"
-    if THUMB_SCREENSHOT_RE.search(stem):
-        return False, "screenshot / demo / collage"
-
-    tokens = _thumb_tokens(stem)
-    if not tokens:
-        return False, "no readable filename"
-    # An opaque hash or bare id says nothing; assume it is not a chart.
-    if len(tokens) == 1 and (len(tokens[0]) >= 16 or tokens[0].isdigit()):
-        return False, "opaque id / hash filename"
-
-    if THUMB_CHART_WORDS & set(tokens):
-        return True, "chart vocabulary in filename"
-    if len(tokens) <= THUMB_CHROME_MAX_TOKENS:
-        chrome_hits = THUMB_CHROME_WORDS & set(tokens)
-        if chrome_hits:
-            return False, f"interface chrome ({', '.join(sorted(chrome_hits))})"
-    if is_decoration_filename(tokens):
-        return False, f"decoration filename ({'-'.join(tokens)})"
-    photo_hits = THUMB_PHOTO_WORDS & set(tokens)
-    if photo_hits:
-        return False, f"photographic wording ({', '.join(sorted(photo_hits))})"
-    if len(tokens) >= THUMB_DESCRIPTIVE_MIN_TOKENS:
-        return False, f"descriptive phrase ({len(tokens)} tokens)"
-    return True, "short topical filename"
-
-
-META_IMAGE_RE = re.compile(
-    r"""<meta[^>]+(?:property|name)\s*=\s*["'](?:og:image(?::url)?|twitter:image(?::src)?)["']"""
-    r"""[^>]+content\s*=\s*["']([^"']+)["']"""
-    r"""|<meta[^>]+content\s*=\s*["']([^"']+)["'][^>]+(?:property|name)\s*=\s*"""
-    r"""["'](?:og:image(?::url)?|twitter:image(?::src)?)["']""",
-    re.I,
-)
-BODY_IMG_RE = re.compile(r"""<img\b[^>]*?\bsrc\s*=\s*["']([^"']+)["']""", re.I)
-IMG_DIM_RE = re.compile(r"""\b(?:width|height)\s*=\s*["']?(\d+)""", re.I)
-THUMB_MIN_DIMENSION = 200
-
-
-def set_thumbnail_from_feed(it: dict, feed_html: str) -> str | None:
-    """Thumbnail from the feed copy alone, for paths that never fetch the page.
-
-    The feed-first pass and any item summarised straight from feed_content never
-    see the article HTML, so og:image is out of reach -- but RSS
-    <content:encoded> and <description> routinely carry <img> tags, and those
-    are the same images the page would show.
-    """
-    if it.get("thumbnail") or not feed_html:
-        return None
-    found = extract_thumbnail(html_mod.unescape(feed_html), it.get("url") or "")
-    if found:
-        it["thumbnail"] = found
-    return found
-
-
-# One "opted out" line per article is informative; one per fetch attempt is
-# noise. fetch_article calls extract_thumbnail once per client mode (plain,
-# then curl_cffi) and again for the wayback copy, and a skipped host never
-# fills meta_out["thumbnail"], so nothing stops the repeat but this.
-_THUMB_SKIP_LOGGED: set = set()
-
-
-def extract_thumbnail(html: str, base_url: str, log: bool = True):
-    """First usable image from the page: og:image / twitter:image, then the
-    first <img> in the body. Returns None when nothing passes the filter."""
-    if not html:
-        return None
-    if thumbnail_host_skipped(base_url):
-        # Opted out at the source, so don't even scan: whatever this site puts
-        # in og:image is not wanted as a thumbnail.
-        if log and base_url not in _THUMB_SKIP_LOGGED:
-            _THUMB_SKIP_LOGGED.add(base_url)
-            print(f"    thumbnail: skipped, {host_of(base_url)} is opted out")
-        return None
-    candidates = []
-    for m in META_IMAGE_RE.finditer(html[:60000]):
-        candidates.append((m.group(1) or m.group(2), "meta"))
-    for m in BODY_IMG_RE.finditer(html):
-        tag = html[m.start():m.end() + 120]
-        dims = [int(d) for d in IMG_DIM_RE.findall(tag)]
-        if dims and max(dims) < THUMB_MIN_DIMENSION:
-            continue                      # an icon or a tracking pixel
-        candidates.append((m.group(1), "body"))
-        if len(candidates) > 24:
-            break
-    for raw, where in candidates:
-        url = html_mod.unescape((raw or "").strip())
-        if url.startswith("//"):
-            url = "https:" + url
-        elif url.startswith("/"):
-            parts = base_url.split("/")
-            if len(parts) > 2:
-                url = f"{parts[0]}//{parts[2]}{url}"
-        url = normalize_thumbnail_url(url)
-        ok, reason = thumbnail_is_usable(url)
-        if ok:
-            if log:
-                # Full url, not url[:90]. Blogger's extensionless form runs to
-                # ~230 chars of opaque id, so eliding it produced a log line
-                # that looked like a truncated/corrupt thumbnail and hid the
-                # only part that distinguishes one image from another. The
-                # stored value was always complete; only this line was cut.
-                print(f"    thumbnail ({where}): {url}  [{reason}]")
-            return url
-    return None
-
-
-# ---------------------------------------------------------------- Fetching
-
-def _bs4_fallback_extract(html: str) -> str:
-    try:
-        soup = BeautifulSoup(html, "html.parser")
-    except Exception:
-        return ""
-    for tag in soup(["script", "style", "nav", "header", "footer", "aside", "form"]):
-        tag.decompose()
-
-    container = soup.find("article") or soup.find("main")
-    scope = container if container else soup
-    paras = [p.get_text(" ", strip=True) for p in scope.find_all(["p", "li"])]
-    paras = [p for p in paras if len(p) >= 20 and not p.startswith(("©", "Powered by"))]
-    return "\n".join(paras)
-
-
-def strip_code_blocks(html: str) -> tuple[str, bool]:
-    if not html or not CODE_TAG_RE.search(html):
-        return html, False
-    if not _HAS_BS4:
-        out, n = re.subn(r"(?is)<pre\b.*?</pre>", " ", html)
-        return out, bool(n)
-    try:
-        soup = BeautifulSoup(html, "html.parser")
-    except Exception:
-        return html, False
-    removed = 0
-    for tag in soup(["pre", "samp", "kbd"]):
-        tag.decompose()
-        removed += 1
-    for tag in soup("code"):
-        if tag.parent is None:
-            continue
-        text = tag.get_text("", strip=True)
-        if len(text) > CODE_INLINE_MAX or "\n" in tag.get_text():
-            tag.decompose()
-            removed += 1
-        else:
-            tag.replace_with(text)
-    return (str(soup), True) if removed else (str(soup), False)
-
-
-_META_TAG_RE = re.compile(r"<meta\b[^>]*>", re.I)
-_META_ATTR_RE = re.compile(
-    r"""\b([\w:-]+)\s*=\s*(?:"([^"]*)"|'([^']*)'|([^\s"'>]+))""", re.I)
-# Preference order; the first key present with a non-empty value wins.
-_DESC_KEYS = ("og:description", "description", "twitter:description")
-
-
-def _meta_attrs(tag: str) -> dict:
-    out = {}
-    for m in _META_ATTR_RE.finditer(tag):
-        val = m.group(2) if m.group(2) is not None else (
-            m.group(3) if m.group(3) is not None else (m.group(4) or ""))
-        out[m.group(1).lower()] = val
-    return out
-
-
-def extract_meta_description(html: str) -> str:
-    """Pull the page description out of its <meta> tags.
-
-    Parses each tag separately instead of matching name and content in one
-    regex. The old patterns allowed for either attribute order, and the
-    reversed ones used `content=["'](.*?)["']...name=["']description["']` --
-    but `.*?` happily crosses both quotes and `>`, so on Blogger's markup
-
-        <meta content='width=1100' name='viewport'/>
-        <meta content='<the real description>' name='description'/>
-
-    it matched from the *viewport* tag's content through to the description
-    tag's `content=`, capturing the literal text
-
-        width=1100' name='viewport'/> <meta content=
-
-    which is what ended up in every mcclin.blogspot.com summary. Attribute
-    values cannot span tags, so reading them per tag removes the whole class
-    of bug rather than patching the one pattern.
-    """
-    found: dict = {}
-    for tag in _META_TAG_RE.findall(html or ""):
-        attrs = _meta_attrs(tag)
-        key = (attrs.get("property") or attrs.get("name") or "").lower()
-        content = attrs.get("content", "")
-        if key in _DESC_KEYS and content.strip() and key not in found:
-            found[key] = re.sub(r"\s+", " ", content).strip()
-    for key in _DESC_KEYS:
-        if found.get(key):
-            return found[key]
-    return ""
-
-
-BLOCK_STATUS = {401, 403, 407, 418, 429, 451}
-
-
-def host_of(url: str) -> str:
-    from urllib.parse import urlparse
-    try:
-        return urlparse(url or "").netloc.lower()
-    except Exception:
-        return ""
-
-
-# Sites that serve the same skeleton page from every subdomain. Pausing on the
-# exact netloc is useless for these: douban alone spreads over movie./book./
-# music./www., so a run would hit the placeholder once per subdomain before
-# giving up. Listed explicitly rather than collapsing every host to its last
-# two labels, which would over-block shared domains like blogspot.com.
-JUNK_PAUSE_DOMAINS: tuple[str, ...] = (
-    "douban.com",
-)
-
-
-def junk_pause_key(url: str) -> str:
-    """The key to pause fetching on after a junk page. The whole site for the
-    domains above, the bare host for everything else."""
-    host = host_of(url)
-    for domain in JUNK_PAUSE_DOMAINS:
-        if host == domain or host.endswith("." + domain):
-            return domain
-    return host
-
-
-def is_slow_host(url: str) -> bool:
-    host = host_of(url)
-    return any(host == h or host.endswith("." + h) for h in SLOW_HOSTS)
-
-
-def is_feed_first_host(url: str) -> bool:
-    host = host_of(url)
-    return any(host == h or host.endswith("." + h) for h in FEED_FIRST_HOSTS)
-
-
-def _http_get(url: str, *, timeout: int, impersonate: bool = False):
-    """Single GET. Returns (html, status) where status is
-    "ok" / "blocked" / "notfound" / "fail"."""
-    try:
-        if impersonate:
-            if not _HAS_CURL_CFFI:
-                return None, "fail"
-            resp = curl_requests.get(
-                url, timeout=timeout, impersonate=CURL_IMPERSONATE,
-                headers={"Accept-Language": FETCH_HEADERS["Accept-Language"]},
-                allow_redirects=True,
-            )
-            code = resp.status_code
-            html = resp.text
-        else:
-            resp = get_session().get(url, timeout=timeout)
-            code = resp.status_code
-            if code < 400:
-                if resp.encoding is None or resp.encoding.lower() in ("iso-8859-1", "ascii"):
-                    resp.encoding = resp.apparent_encoding
-            html = resp.text if code < 400 else ""
-        if code in BLOCK_STATUS:
-            return None, "blocked"
-        if code == 404 or code == 410:
-            return None, "notfound"
-        if code >= 400:
-            return None, "fail"
-        return html, "ok"
-    except Exception:
-        return None, "fail"
-
-
-def unescape_text(text: str) -> str:
-    """Resolve HTML entities. Extraction leaves them behind in a few places --
-    meta tag attributes are raw attribute text, and both trafilatura's output
-    and RSS bodies can carry &amp; / &#39; / &gt; through unchanged -- and an
-    entity that survives to the summary also survives translation."""
-    if not text:
-        return text
-    return html_mod.unescape(text).replace("\u00a0", " ").replace("\u200b", "")
-
-
-def extract_from_html(html: str):
-    """(body, meta, has_table, has_code) from a page's HTML.
-
-    has_table used to be `bool(TABLE_TAG_RE.search(html))` -- a search over the
-    *whole* raw page, not the article. Any <table> anywhere (a layout table in
-    the theme's chrome, an ad unit, a related-posts widget) marked the summary
-    "請參閱所附表格" even when the article itself had no table at all -- classic
-    Blogger templates in particular still render sidebar/header structure with
-    <table> (mcclin.blogspot.com among them). Scoped instead to the region
-    trafilatura's own extraction identifies as the article, by asking it once
-    for that region's markup (include_tables=True, output_format="xml") before
-    the plain-text pass that actually feeds the summary. A table trafilatura
-    placed outside that region was never going to reach the reader anyway, so
-    it should not earn the note either.
-    """
-    has_table = False
-    try:
-        scoped = trafilatura.extract(
-            html, include_comments=False, include_tables=True,
-            favor_recall=True, output_format="xml")
-    except Exception:
-        scoped = None
-    if scoped:
-        has_table = "<table" in scoped.lower()
-    html, has_code = strip_code_blocks(html)
-    body = trafilatura.extract(
-        html, include_comments=False, include_tables=False, favor_recall=True
-    )
-    body = maybe_fix_mojibake(unescape_text(body).strip()) if body else ""
-    if len(body) < MIN_USABLE_BODY and _HAS_BS4:
-        fallback = unescape_text(_bs4_fallback_extract(html))
-        if len(fallback) > len(body):
-            body = fallback
-    meta = maybe_fix_mojibake(unescape_text(extract_meta_description(html)))
-    return body, meta, has_table, has_code
-
-
-def classify_text(body: str, meta: str, has_table: bool, has_code: bool = False):
-    """Decide whether what we extracted counts as a body or only a blurb.
-
-    has_table / has_code only apply to a real body: a meta blurb never contained
-    the table or the code block, so marking it would be a lie.
-    """
-    if len(body) >= MIN_USABLE_BODY:
-        return body, "body", has_table, has_code
-    if body and re.search(r"[。！？.!?]", body) and len(body) >= max(80, len(meta)):
-        return body, "body", has_table, has_code
-    if meta:
-        return meta, "meta", False, False
-    if body:
-        return body, "meta", False, False
-    return None, None, False, False
-
-
-def fetch_via_reader(url: str):
-    """r.jina.ai renders the page (JavaScript included) and returns plain text.
-    Used for sites that won't serve their HTML to a script at all."""
-    if not USE_READER_PROXY:
-        return None
-    text, status = _http_get(
-        READER_PROXY.rstrip("/") + "/" + url, timeout=FETCH_TIMEOUT_SLOW
-    )
-    if status != "ok" or not text:
-        return None
-    text = maybe_fix_mojibake(text.strip())
-    # The reader prepends a "Title: ... / URL Source: ... / Markdown Content:"
-    # preamble; drop it so it doesn't end up in the summary.
-    marker = "Markdown Content:"
-    if marker in text[:1000]:
-        text = text.split(marker, 1)[1].strip()
-    text = clean_markdown(text)
-    if is_junk_body(text):
-        print("    reader proxy returned an interstitial, discarded")
-        return None
-    return text or None
-
-
-def fetch_via_wayback(url: str):
-    """The newest Internet Archive snapshot. This is what recovers pages that
-    now 404 because they were moved or deleted after the feed listed them."""
-    if not USE_WAYBACK:
-        return None
-    try:
-        resp = get_session().get(
-            WAYBACK_LOOKUP, params={"url": url}, timeout=FETCH_TIMEOUT
-        )
-        resp.raise_for_status()
-        snapshot = (resp.json().get("archived_snapshots") or {}).get("closest") or {}
-    except Exception:
-        return None
-    if not snapshot.get("available") or not snapshot.get("url"):
-        return None
-    # "id_" asks the archive for the original bytes without its own banner.
-    snap_url = re.sub(r"(/web/\d+)/", r"\1id_/", snapshot["url"], count=1)
-    html, status = _http_get(snap_url, timeout=FETCH_TIMEOUT_SLOW)
-    return html if status == "ok" else None
-
-
-def fetch_content(url: str, feed_content: str = "",
-                  meta_out: dict | None = None):
-    """Get an article's text, trying every strategy before giving up.
-
-    Returns (text, source_type, has_table, has_code) where source_type is:
-
-    - "body"    : real article text (from the page, a URL variant, the feed's
-                  own copy of the body, the reader proxy, or the archive)
-    - "meta"    : only a blurb was available -> summary gets the FALLBACK_MARK
-    - "blocked" : every strategy was refused; the caller writes a placeholder
-                  so the item isn't retried forever
-    - None      : transient failure, left pending for the next run
-
-    Table contents are deliberately excluded from the extracted body
-    (include_tables=False), and so are code blocks (strip_code_blocks, which
-    has to run before trafilatura); has_table / has_code only record that the
-    page had one, so build_summary can note it instead of inlining rows of
-    cells or lines of source.
-
-    Order matters: the cheap direct request comes first so that the ~95% of
-    URLs that just work are unaffected, and the expensive third-party
-    strategies only run for the ones that failed.
-    """
-    def postprocess(result):
-        """Per-source text cleanup, applied whichever strategy won."""
-        text, source_type, has_table, has_code = result
-        if text and is_ptt(url):
-            text = clean_ptt(text)
-            if len(text) < MIN_USABLE_BODY and source_type == "body":
-                source_type = "meta"
-        return text, source_type, has_table, has_code
-
-    slow = is_slow_host(url)
-    timeout = FETCH_TIMEOUT_SLOW if slow else FETCH_TIMEOUT
-    best = (None, None, False, False)
-    blocked = False
-    notfound = False
-    junk = False
-
-    def consider(html: str):
-        """Extract, and return a result if it is good enough to stop on."""
-        nonlocal best, blocked, junk
-        if meta_out is not None and not meta_out.get("thumbnail"):
-            found = extract_thumbnail(html, url)
-            if found:
-                meta_out["thumbnail"] = found
-        body, meta, has_table, has_code = extract_from_html(html)
-        if len(body) < MIN_USABLE_BODY and CHALLENGE_PATTERN.search(html[:20000]):
-            blocked = True
-            return None
-        if is_junk_body(body) or is_junk_body(meta):
-            junk = True
-            return None
-        result = classify_text(body, meta, has_table, has_code)
-        if result[1] == "body":
-            return result
-        if result[1] and best[1] is None:
-            best = result       # remember the blurb, keep looking for a body
-        return None
-
-    # A host known to fingerprint-check its clients is not worth a plain
-    # request first; go straight to the impersonating one.
-    modes = [True] if (slow and _HAS_CURL_CFFI) else [False, True]
-    for impersonate in modes:
-        if impersonate and not _HAS_CURL_CFFI:
-            continue
-        html, status = _http_get(url, timeout=timeout, impersonate=impersonate)
-        if status == "blocked":
-            blocked = True
-            continue
-        if status == "notfound":
-            notfound = True
-            break               # a 404 is the same for both clients
-        if status != "ok" or not html:
-            continue
-        found = consider(html)
-        if found:
-            if impersonate:
-                print(f"    recovered via curl_cffi: {url}")
-            return postprocess(found)
-
-    # The feed usually carried the article with it; free, and no third party.
-    feed_text = unescape_text(feed_content or "").strip()
-    if len(feed_text) >= MIN_USABLE_BODY:
-        print("    recovered via feed content")
-        return postprocess((feed_text, "body", False, False))
-
-    # A blurb is a poor result but it is a result. Escalating to the external
-    # services for every meta-only page would mean thousands of extra requests
-    # per run, so by default that only happens when there is nothing at all.
-    if best[1] == "meta" and not READER_ON_META:
-        return postprocess(best)
-
-    reader_text = fetch_via_reader(url)
-    if reader_text and len(reader_text) >= MIN_USABLE_BODY:
-        print("    recovered via reader proxy")
-        return postprocess((reader_text, "body", False, False))
-
-    archived = fetch_via_wayback(url)
-    if archived:
-        found = consider(archived)
-        if found:
-            print("    recovered via web archive")
-            return postprocess(found)
-
-    if feed_text:
-        print("    recovered via feed content (short)")
-        return postprocess((feed_text, "meta", False, False))
-
-    if best[1]:
-        return postprocess(best)
-    if junk:
-        print("    interstitial / generic site blurb only, skipped")
-        return None, "junk", False, False
-    if blocked:
-        print("    blocked by site, no copy found by any strategy")
-        return None, "blocked", False, False
-    if notfound:
-        print("    page is gone (404/410) and not archived anywhere")
-        return None, "gone", False, False
-    print("    all fetch strategies failed")
-    return None, None, False, False
-
-
-# ---------------------------------------------------------------- Language detection
-
-def cjk_ratio(text: str) -> float:
-    if not text:
-        return 0.0
-    cjk = sum(1 for ch in text if "\u4e00" <= ch <= "\u9fff")
-    letters = sum(1 for ch in text if ch.isalpha() or "\u4e00" <= ch <= "\u9fff")
-    return cjk / letters if letters else 0.0
-
-
-KANA_RE = re.compile(r"[\u3040-\u309f\u30a0-\u30fa\u30fc]")
-JA_KANA_THRESHOLD = 0.15
-JA_KANA_MIN_COUNT = 8
-
-
-def kana_ratio(text: str) -> float:
-    if not text:
-        return 0.0
-    letters = sum(1 for ch in text if ch.isalpha() or "\u4e00" <= ch <= "\u9fff")
-    return len(KANA_RE.findall(text)) / letters if letters else 0.0
-
-
-def is_japanese(text: str) -> bool:
-    return (len(KANA_RE.findall(text or "")) >= JA_KANA_MIN_COUNT
-            and kana_ratio(text) >= JA_KANA_THRESHOLD)
-
-
-def is_cjk_lang(lang: str) -> bool:
-    """Languages written without inter-word spaces."""
-    return lang in ("zh-hant", "zh-hans", "ja")
-
-
-def detect_lang(text: str) -> str:
-    if is_japanese(text):
-        return "ja"
-    if cjk_ratio(text) < 0.25:
-        return "other"
-    variant = _tr.detect_variant(text) if _tr else "hant"
-    return "zh-hant" if variant == "hant" else "zh-hans"
-
-
-# ---------------------------------------------------------------- Summarization
-
-ZH_SPLIT = re.compile(r"(?<=[。！？!?；;])\s*")
-EN_SPLIT = re.compile(r"(?<=[.!?])\s+(?=[A-Z0-9\u00c0-\u024f\"'(])")
-BULLET_SPLIT_RE = re.compile(
-    r"(?<=[\u4e00-\u9fff%）。，、])\s*[-–—•·]\s*(?=[\u4e00-\u9fff\dA-Za-z])"
-)
-
-EN_STOPWORDS = frozenset("""
-a an the and or but if then than that this these those of in on at to for from
-with by as is are was were be been being it its it's he she they them his her
-their we you your i not no so do does did done have has had will would can
-could should may might must about into over under between after before during
-what which who whom whose when where why how all any both each few more most
-other some such only own same very s t just don now also there here out up
-""".split())
-
-
-def split_sentences(text: str, is_cjk: bool):
-    text = BULLET_SPLIT_RE.sub("\n", text)
-    text = re.sub(r"\n{2,}", "\n", text)
-    parts = []
-    for line in text.split("\n"):
-        line = line.strip()
-        if not line:
-            continue
-        segs = ZH_SPLIT.split(line) if is_cjk else EN_SPLIT.split(line)
-        parts.extend(s.strip() for s in segs if s.strip())
-    out = []
-    for s in parts:
-        n = len(s) if is_cjk else len(s.split())
-        if (is_cjk and n >= 8) or (not is_cjk and n >= 5):
-            out.append(s)
-    return out
-
-
-def tokenize(sentence: str, is_cjk: bool):
-    if is_cjk:
-        chars = re.sub(r"[^\u4e00-\u9fff0-9A-Za-z]", "", sentence)
-        toks = [chars[i:i + 2] for i in range(len(chars) - 1)]
-        toks += re.findall(r"[0-9]+(?:\.[0-9]+)?%?", sentence)
-        return toks
-    toks = re.findall(r"[a-zA-Z][a-zA-Z'-]+|[0-9]+(?:\.[0-9]+)?%?", sentence.lower())
-    return [t for t in toks if t not in EN_STOPWORDS]
-
-
-NUM_PATTERN = re.compile(r"[0-9０-９][0-9０-９,.:%０-９]*|[一二三四五六七八九十百千萬億兆]{2,}")
-ENTITY_PATTERN = re.compile(
-    r"[A-Z][a-zA-Z]+(?:\s+[A-Z][a-zA-Z]+)+|《[^》]{1,30}》|「[^」]{1,20}」|『[^』]{1,20}』|[0-9.]+\s*(?:%|per cent|percent)"
-)
-DISCOURSE_ZH = re.compile(
-    r"^(然而|不過|此外|另外|同時|當然|其實|事實上|值得一提的是|換句話說|"
-    r"也就是說|總而言之|總的來說|不僅如此|除此之外|與此同時|与此同时|与此同時|"
-    r"然后|然後|接著|接着|因此|所以|而且|并且|並且|首先|其次|最後|最后|再者)[，,、]"
-)
-DISCOURSE_EN = re.compile(
-    r"^(However|Moreover|Furthermore|In addition|Additionally|Of course|"
-    r"In fact|Indeed|Meanwhile|Nevertheless|Nonetheless|Besides|"
-    r"That said|To be sure|As a result|Therefore|Thus|So|Also|And|But|Yet),?\s+",
-    re.IGNORECASE,
-)
-PRONOUN_ONLY_ZH = re.compile(r"^[我你他她它我們你們他們這那些的了是也都很就會能不沒有和與跟得地嗎呢吧啊，。！？\s]+$")
-
-
-def trim_discourse(s: str, is_cjk: bool) -> str:
-    pat = DISCOURSE_ZH if is_cjk else DISCOURSE_EN
-    prev = None
-    while prev != s:
-        prev = s
-        s = pat.sub("", s).lstrip()
-    return s
-
-
-def entity_count(s: str) -> int:
-    return len(ENTITY_PATTERN.findall(s)) + len(NUM_PATTERN.findall(s))
-
-
-def is_fluff(s: str, is_cjk: bool) -> bool:
-    """Entity-free rhetorical questions / pure-pronoun exclamations carry
-    close to zero information."""
-    if entity_count(s) > 0:
-        return False
-    if s.rstrip().endswith(("？", "?")):
-        return True
-    if is_cjk and PRONOUN_ONLY_ZH.match(s):
-        return True
-    return False
-
-
-_URL_FRAGMENT_RE = re.compile(
-    r"^(?:https?://)?[\w\-]{2,}[./?#:][\w\-./?#=&%~+]*$", re.A)
-
-
-def looks_like_url_fragment(s: str) -> bool:
-    s = s.strip()
-    if not s or len(s) > 40 or " " in s:
-        return False
-    if re.search(r"[\u4e00-\u9fff\u3040-\u30ff]", s):
-        return False
-    return bool(_URL_FRAGMENT_RE.match(s))
-
-
-def is_boilerplate(text: str, kind: str, level: str = "sentence") -> bool:
-    if not text:
-        return False
-    if level == "sentence" and looks_like_url_fragment(text):
-        return True
-    probe = _tr.normalize_key_text(text) if _tr else text
-    units = load_boilerplate()["drop_unit"]
-    scopes = ("all",) + BOILER_KINDS if kind == "*" else ("all", kind)
-    for scope in scopes:
-        for pat in units.get((level, scope), ()):
-            if pat.search(probe):
-                return True
-    return False
-
-
-def drop_boilerplate_paragraphs(text: str, kind: str) -> tuple[str, int]:
-    if not text:
-        return text, 0
-    paras = re.split(r"\n\s*\n|\n", text)
-    kept = [p for p in paras if not is_boilerplate(p.strip(), kind, "paragraph")]
-    dropped = len(paras) - len(kept)
-    if not dropped or not any(p.strip() for p in kept):
-        return text, 0
-    return "\n".join(kept), dropped
-
-
-# Splits after a sentence terminator, keeping the terminator with the sentence
-# it ends so that re-joining the pieces reproduces the input exactly. The Latin
-# arm needs the "whitespace then an opening character" lookahead, or it would
-# break on decimals and abbreviations such as "U.S." or "3.5".
-TRIM_SPLIT_RE = re.compile(
-    r"(?<=[。！？；;])(?![」』”\"'）)])\s*"
-    r"|(?<=[.!?])\s+(?=[A-Z0-9\u00c0-\u024f\u4e00-\u9fff\"'(])"
-)
-
-
-def sentence_pieces(text: str) -> list[str]:
-    """Split into sentences by slicing at boundary offsets, so concatenating
-    the pieces reproduces the input character for character (the whitespace a
-    boundary swallows stays attached to the sentence before it)."""
-    pieces: list[str] = []
-    prev = 0
-    for m in TRIM_SPLIT_RE.finditer(text):
-        if m.end() > prev:
-            pieces.append(text[prev:m.end()])
-            prev = m.end()
-    if prev < len(text):
-        pieces.append(text[prev:])
-    return [p for p in pieces if p.strip()]
-
-
-def trim_to_whole_sentences(text: str, limit: int) -> str:
-    """Shorten `text` to at most `limit` characters by dropping whole
-    sentences from the end.
-
-    A hard slice at the limit leaves the reader with half a sentence, so
-    sentences are removed one at a time instead. If even the first sentence is
-    over the limit, it is returned whole: the budget is derived from the length
-    of the source text, so that only happens when the source is a single
-    sentence, and returning it intact beats cutting it in the middle.
-    """
-    text = (text or "").strip()
-    if len(text) <= limit:
-        return text
-    pieces = sentence_pieces(text)
-    kept: list[str] = []
-    used = 0
-    for piece in pieces:
-        if used + len(piece.rstrip()) > limit:
-            break
-        kept.append(piece)
-        used += len(piece)
-    if kept:
-        return "".join(kept).strip()
-    return pieces[0].strip() if pieces else text
-
-
-def extractive_summary(text: str, is_cjk: bool, char_budget: int,
-                       kind: str = "") -> str:
-    sents = split_sentences(text, is_cjk)
-    if not sents:
-        return trim_to_whole_sentences(text, char_budget)
-
-    keep = [x for x in sents if not is_boilerplate(x, kind, "sentence")]
-    if keep:
-        BOILER_STATS[f"{kind or 'page'}:sentence"] += len(sents) - len(keep)
-        sents = keep
-
-    # Drop verbatim repeats up front. Pages commonly restate the same line in
-    # a lead-in, a bullet list and a closing recap; keeping only the first
-    # occurrence costs one pass and shrinks the work MMR has to do later.
-    seen, uniq = set(), []
-    for s in sents:
-        key = re.sub(r"\W+", "", s.lower())
-        if key and key not in seen:
-            seen.add(key)
-            uniq.append(s)
-    sents = uniq
-
-    tok_sets = [set(tokenize(s, is_cjk)) for s in sents]
-    freq = Counter()          # token frequency across the whole text (TF)
-    doc_freq = Counter()      # number of sentences a token appears in (DF)
-    for ts in tok_sets:
-        freq.update(ts)
-        for t in ts:
-            doc_freq[t] += 1
-    n_sents = len(sents)
-
-    scored = []
-    for idx, s in enumerate(sents):
-        ts = tok_sets[idx]
-        if not ts:
-            continue
-        base = sum(
-            math.sqrt(freq[t]) * math.log(1.0 + n_sents / doc_freq[t]) for t in ts
-        ) / (len(ts) ** 0.5)
-        ents = entity_count(s)
-        if ents:
-            base *= ENTITY_WEIGHT_BASE + min(ents, ENTITY_WEIGHT_CAP) * ENTITY_WEIGHT_STEP
-        if is_fluff(s, is_cjk):
-            base *= FLUFF_PENALTY
-        base *= 1.0 + LEAD_BIAS * max(0.0, 1.0 - idx / max(len(sents), 1))
-        scored.append([base, idx, s, ts])
-
-    if not scored:
-        return sents[0]
-
-    LAMBDA = MMR_LAMBDA
-    DUP_THRESHOLD = MMR_DUP_THRESHOLD
-    remaining = scored[:]          # each entry: [base, idx, s, ts]
-    max_sim = [0.0] * len(remaining)
-    chosen, used = [], 0
-    max_base = max(x[0] for x in scored) or 1.0
-
-    while remaining:
-        best_i, best_val = -1, float("-inf")
-        for i, (base, idx, s, ts) in enumerate(remaining):
-            if max_sim[i] >= DUP_THRESHOLD:
-                continue
-            cost = len(trim_discourse(s, is_cjk)) + 1
-            if used + cost > char_budget:
-                continue
-            val = base / max_base - LAMBDA * max_sim[i]
-            if val > best_val:
-                best_val, best_i = val, i
-        if best_i < 0:
-            break
-        base, idx, s, ts = remaining.pop(best_i)
-        max_sim.pop(best_i)
-        chosen.append((idx, trim_discourse(s, is_cjk)))
-        used += len(chosen[-1][1]) + 1
-        if used >= char_budget * 0.97:
-            break
-        # Incrementally update, against what was just chosen, both the
-        # Jaccard similarity (penalty) and the containment ratio (hard drop)
-        # of every remaining sentence.
-        for i, (_, _, _, rts) in enumerate(remaining):
-            union = rts | ts
-            if union:
-                sim = len(rts & ts) / len(union)
-                if sim > max_sim[i]:
-                    max_sim[i] = sim
-
-    if not chosen:
-        # Nothing fit the budget; one whole sentence beats half of one.
-        return sents[0]
-
-    chosen.sort(key=lambda x: x[0])
-    joiner = "" if is_cjk else " "
-    return joiner.join(s for _, s in chosen)
-
-
-# ---------------------------------------------------------------- NMT translation
-
-UNTRANSLATED: Counter = Counter()
-
-
-def note_untranslated(lang: str) -> None:
-    """Record that a summary is being stored in its original language.
-
-    This is how non-Chinese text gets into archive.json. Both foreign-language
-    branches fall back to `raw` when translation returns None -- and it returns
-    None for any failure at all, because translate() swallows every exception.
-    So a rate limit, a DNS blip or a missing opencc silently produces a summary
-    in English or Japanese, indistinguishable from a successful one.
-
-    Storing the original is still better than storing nothing: the item would
-    otherwise stay pending forever on a permanently unreachable endpoint. What
-    was missing is that the fallback left no trace, so a run where every
-    translation failed looked exactly like a run where none were needed. The
-    backfill pass is what eventually repairs these, and it can only find them
-    if needs_translation recognises the language -- which is why that function
-    tests script dominance rather than counting Latin words.
-    """
-    UNTRANSLATED[lang] += 1
-
-
-TRANSLATE_FAIL_REASONS: Counter = Counter()
-
-
-def translate_to_zhtw(text: str) -> str | None:
-    """Translate to 繁中, recording *why* a failure happened.
-
-    The reason is the difference between "the endpoint is refusing this IP" and
-    "one request timed out", and both used to arrive as the same None. It is
-    counted here and printed beside the untranslated WARNING at the end of the
-    run, so one look at the log answers what a whole batch of originals means.
-    """
-    if _tr is None:
-        TRANSLATE_FAIL_REASONS["translate module unavailable"] += 1
-        return None
-    try:
-        out, reason = _tr.translate_detailed(
-            text, target="zh-TW", source="auto", session=get_session())
-    except Exception as e:
-        out, reason = None, f"{type(e).__name__}: {e}"
-    if out is None:
-        TRANSLATE_FAIL_REASONS[reason or "unknown"] += 1
-    return out
-
-
-# ---------------------------------------------------------------- Assembly
-
-def strip_boilerplate(text: str) -> str:
-    """Remove site furniture that body extraction keeps but which isn't
-    article content: fixed promo blocks, related-article plugs, tag lines,
-    filler lead-ins, and everything from a CUT_TO_END marker onwards
-    (sign-offs, comment/review sections).
-
-    The truncation is skipped when the marker sits within the first
-    MIN_KEEP_AFTER_CUT characters, so a stray early match can't wipe out
-    the whole body.
-    """
-    rules = load_boilerplate()
-    text = sanitize_leaked_markup(text)
-    for block in rules["remove_block"]:
-        text = text.replace(block, "")
-    if rules["remove_inline"] is not None:
-        text = rules["remove_inline"].sub("", text)
-    if rules["cut_to_end"] is not None:
-        m = rules["cut_to_end"].search(text)
-        if m and m.start() >= rules["min_keep_after_cut"]:
-            text = text[:m.start()]
-    return text.strip()
-
-
-def summary_budget(content_len: int) -> int:
-    return max(1, min(SUMMARY_MAX, int(content_len * SUMMARY_RATIO)))
-
-
-def build_summary(content: str, source_type: str, has_table: bool = False,
-                  kind: str = "page", has_code: bool = False) -> str:
-    """Extractive summary plus any trailing marks.
-
-    Sentences are picked by importance, not by position: each one is scored on
-    TF-IDF weight, named-entity/number density and how near the top it sits,
-    then selected with MMR so a near-duplicate of an already-chosen sentence
-    loses out to a sentence that adds something new (see extractive_summary).
-    Whichever sentences are chosen are kept whole and re-emitted in their
-    original reading order.
-
-    The marks (`↛` when only a meta description was available, the table note)
-    are budgeted for before selection starts, so making room for them can never
-    truncate the last sentence into a fragment.
-    """
-    content = re.sub(r"\((?:\d{1,2}:)?\d{1,2}:\d{2}\)\s*[:：]?", ": ", content)
-    content = strip_boilerplate(content)
-    if not content:
-        return ""
-
-    marks = []
-    if has_table:
-        marks.append(TABLE_NOTE)
-    if has_code:
-        marks.append(CODE_NOTE)
-    # Only a blurb was available, so mark the summary as not coming from the
-    # article body itself.
-    if source_type == "meta" and not any(FALLBACK_MARK in m for m in marks):
-        marks.append(FALLBACK_MARK)
-    suffix = (" " + " ".join(marks)) if marks else ""
-
-    kind = "meta" if source_type == "meta" else kind
-    content, para_dropped = drop_boilerplate_paragraphs(content, kind)
-    if para_dropped:
-        BOILER_STATS[f"{kind}:paragraph"] += para_dropped
-
-    lang = detect_lang(content)
-    budget = summary_budget(len(content))
-    text_budget = max(1, budget - len(suffix))
-
-    if lang == "zh-hant":
-        summary = extractive_summary(content, True, text_budget, kind)
-    elif lang == "zh-hans":
-        summary = _to_twp(
-            extractive_summary(content, True, text_budget, kind))
-    elif lang == "ja":
-        raw = extractive_summary(
-            content, True, int(text_budget * FOREIGN_BUDGET_RATIO), kind
-        )
-        translated = translate_to_zhtw(raw) if TRANSLATE else None
-        summary = _to_twp(translated) if translated else raw
-        if translated is None:
-            note_untranslated(lang)
-    else:
-        raw = extractive_summary(
-            content, False, int(text_budget * FOREIGN_BUDGET_RATIO), kind
-        )
-        summary = None
-        if TRANSLATE:
-            translated = translate_to_zhtw(raw)
-            if translated:
-                summary = _to_twp(translated)
-        if summary is None:
-            note_untranslated(lang)
-            summary = raw
-
-    if not is_cjk_lang(detect_lang(summary)):
-        summary = re.sub(r"\s+", " ", summary).strip()
-    else:
-        summary = re.sub(
-            r"(?<=[\u4e00-\u9fff，。！？；：、（）「」])\s+|\s+(?=[\u4e00-\u9fff，。！？；：、（）「」])",
-            "", summary)
-        summary = re.sub(r"\s+", " ", summary).strip()
-
-    # Translation and whitespace normalisation both change the length, so the
-    # budget is enforced once more here — by dropping whole sentences.
-    summary = trim_to_whole_sentences(summary, text_budget)
-    return (summary + suffix) if summary else ""
-
-
-# ---------------------------------------------------------------- Main flow
-
-def build_arg_parser():
-    import argparse
-    p = argparse.ArgumentParser(description="Summary")
-    p.add_argument("--items-file", default=ITEMS_FILE,
-                   help="JSON file path")
-    p.add_argument("--max-items", type=int, default=MAX_ITEMS)
-    p.add_argument("--summary-ratio", type=float, default=SUMMARY_RATIO)
-    p.add_argument("--summary-max", type=int, default=SUMMARY_MAX)
-    p.add_argument("--translate", dest="translate", action="store_true", default=TRANSLATE)
-    p.add_argument("--no-translate", dest="translate", action="store_false")
-    p.add_argument("--rescore-all", action="store_true", default=RESCORE_ALL)
-    p.add_argument("--backfill", dest="backfill",
-                   action="store_true", default=True,
-                   help="after summarising, re-apply current rules to stored "
-                        "items: drop thumbnails that no longer pass the "
-                        "filter, convert 簡體 summaries to 繁體, and translate "
-                        "non-Chinese ones (uses leftover time budget)")
-    p.add_argument("--no-backfill", dest="backfill", action="store_false")
-    p.add_argument("--no-revalidate-thumbnails", dest="revalidate_thumbnails",
-                   action="store_false", default=True,
-                   help="skip the thumbnail re-check inside the backfill pass")
-    p.add_argument("--feed-content-preview", type=int, default=40, metavar="CHARS")
-    p.add_argument("--mine-boilerplate", type=int, metavar="MIN_COUNT", default=0)
-    p.add_argument("--time-budget-seconds", type=int, default=TIME_BUDGET_SECONDS,
-                   help="Total run-time budget in seconds; stops the fetch "
-                        "loop once 70%% of this has elapsed (0 = no limit), "
-                        "leaving the rest of the budget for saving/scoring")
-    return p
-
-
-def load_items(path: str):
-    with open(path, "r", encoding="utf-8") as f:
-        data = json.load(f)
-    if isinstance(data, list):
-        return data, None
-    if isinstance(data, dict) and isinstance(data.get("items"), list):
-        return data["items"], data
-    return None, None
-
-
-FEED_REPORT_SKIP_HOSTS = (
-    "news.google.com",
-    "douban.com",
-    "zhihu.com",
-    "finance.technews.tw",
-    "vocus.cc",
-)
-
-
-def _is_report_skip_host(url: str) -> bool:
-    host = host_of(url)
-    return any(host == h or host.endswith("." + h)
-               for h in FEED_REPORT_SKIP_HOSTS)
-
-
-def report_feed_material(pending: list, feed_first: list, preview: int) -> None:
-    if preview == 0:
-        return
-    skip = {it.get("url") for it in feed_first}
-    rows = [(it.get("url") or "", (it.get("feed_content") or "").strip())
-            for it in pending
-            if (it.get("feed_content") or "").strip()
-            and it.get("url") not in skip
-            and not _is_report_skip_host(it.get("url", ""))]
-    if not rows:
-        return
-    print(f"\nFeed material on hand for {len(rows)} pending item(s)")
-    for url, content in rows:
-        flat = re.sub(r"\s+", " ", content).strip()
-        if preview > 0 and len(flat) > preview:
-            flat = flat[:preview] + f"… (+{len(content) - preview} chars)"
-        print(f"  {url}\n    {flat}")
-
-
-def mine_boilerplate(items_file: str, min_count: int) -> int:
-    items, _ = load_items(items_file)
-    if items is None:
-        return 1
-    per_sent_sources: dict[str, set] = {}
-    counts: Counter = Counter()
-    for it in items:
-        summary = (it or {}).get("summary") or ""
-        if not summary:
-            continue
-        src = (it.get("source") or "?")
-        for sent in TRIM_SPLIT_RE.split(summary):
-            sent = sent.strip()
-            if not (6 <= len(sent) <= 120):
-                continue
-            if is_boilerplate(sent, "*", "sentence"):
-                continue
-            if not strip_boilerplate(clean_caption_text(sent)).strip():
-                continue
-            counts[sent] += 1
-            per_sent_sources.setdefault(sent, set()).add(src)
-    rows = [(n, sent, per_sent_sources[sent])
-            for sent, n in counts.items() if n >= min_count]
-    single = sorted([r for r in rows if len(r[2]) == 1], reverse=True,
-                    key=lambda r: r[0])
-    shared = sorted([r for r in rows if len(r[2]) > 1], reverse=True,
-                    key=lambda r: r[0])
-    print(f"Candidates (>= {min_count} occurrences, excluding those already filtered by existing rules): "
-          f"Single source: {len(single)}, cross-source: {len(shared)}\n")
-    print("── Concentrated in a Single Source (likely site-specific footer text; recommended for page scope) ──")
-    for n, sent, srcs in single[:60]:
-        print(f"{n:>5}× [{next(iter(srcs))[:18]:18}] {sent[:80]}")
-    print("\n── Appearing Across Multiple Sources (common template text; suitable for all scope) ──")
-    for n, sent, srcs in shared[:60]:
-        print(f"{n:>5}× [{len(srcs)} sources] {sent[:80]}")
-    return 0
-
-
-def strip_feed_content(items: list) -> int:
-    """Remove every trace of feed_content.
-
-    feed_content is scratch space: update_news.py writes it, this script is the
-    only consumer, and once a summary exists there is nothing left to read it
-    for. Anything still carrying the field by the end of a run either got its
-    summary from somewhere else or couldn't be summarized from the feed copy at
-    all — in both cases keeping up to FEED_CONTENT_MAX_CHARS per item in a
-    committed file buys nothing.
-    """
-    sentinel = object()
-    dropped = 0
-    for it in items:
-        if isinstance(it, dict) and it.pop("feed_content", sentinel) is not sentinel:
-            dropped += 1
-    return dropped
-
-
-def save_items(path: str, items: list, wrapper: dict | None) -> None:
-    if wrapper is not None:
-        wrapper["items"] = items
-        wrapper["total_items"] = len(items)
-        payload = wrapper
-    else:
-        payload = items
-    text = jsonio.dumps(payload)
-    directory = os.path.dirname(os.path.abspath(path)) or "."
-    fd, tmp = tempfile.mkstemp(dir=directory,
-                               prefix=os.path.basename(path) + ".", suffix=".tmp")
-    try:
-        with os.fdopen(fd, "w", encoding="utf-8") as f:
-            f.write(text)
-            f.flush()
-            os.fsync(f.fileno())
-        os.replace(tmp, path)
-    except Exception:
-        try:
-            os.unlink(tmp)
-        except OSError:
             pass
-        raise
+    return float("-inf")
 
 
-def apply_meta_thumbnail(it: dict, meta_out: dict, feed_html: str) -> None:
-    """After a fetch: keep an existing thumbnail, else take the one found
-    while fetching the page, else fall back to the feed copy.
-
-    Pulled out because Pass 2's main branch and its Techmeme sub-branch used
-    to repeat this exact three-way choice; one copy is one thing to get wrong.
-    """
-    if it.get("thumbnail"):
-        return
-    if meta_out.get("thumbnail"):
-        it["thumbnail"] = meta_out["thumbnail"]
-    else:
-        set_thumbnail_from_feed(it, feed_html)
+def pick_subtitle(item_id: str) -> Path | None:
+    """Best local .vtt for an item: {id}.{orig}.{sub}.vtt, by file_rank."""
+    best = None
+    for p in SUBTITLES_DIR.glob(f"{item_id}.*.vtt") if item_id else ():
+        parts = p.name[len(item_id) + 1:].split(".")
+        if len(parts) == 3:
+            key = (subtitle_priority.file_rank(parts[1], parts[0]), p.name)
+            best = min(best or (key, p), (key, p))
+    return best[1] if best else None
 
 
-def _parse_ts(value) -> float:
-    if not value:
-        return float("-inf")
-    s = str(value).strip()
-    try:
-        from datetime import datetime
-        s2 = s.replace("Z", "+00:00") if s.endswith("Z") else s
-        return datetime.fromisoformat(s2).timestamp()
-    except Exception:
-        pass
-    try:
-        import email.utils as eut
-        dt = eut.parsedate_to_datetime(s)
-        return dt.timestamp() if dt else float("-inf")
-    except Exception:
-        return float("-inf")
+class Run:
+    def __init__(self, path, doc, max_items: int, deadline: float | None):
+        self.path, self.doc, self.max_items, self.deadline = path, doc, max_items, deadline
+        self.n = Counter()
+        self.paused: dict[str, int] = {}          # host -> items skipped since
+
+    # ---- bookkeeping ----
+    def touch(self):
+        save_doc(self.path, self.doc)          # every change reaches disk at once
+
+    def done(self, it, summary, how):
+        it["summary"] = summary
+        it.pop("feed_content", None)
+        self.n["ok"] += 1
+        print(f"    ok ({how})")
+        self.touch()
+
+    def thumb(self, it, html):
+        if not it.get("thumbnail") and html and (t := thumbs.extract(html, it["url"])):
+            it["thumbnail"] = t
+            self.touch()
+
+    def title_fallback(self, it) -> bool:
+        tr = textproc.translate(it.get("title") or "")
+        if tr:
+            self.done(it, lang.to_twp(tr) + " " + FALLBACK_MARK, "translated title")
+        return bool(tr)
+
+    # ---- routing ----
+    @staticmethod
+    def route(it) -> str | None:
+        url = it["url"]
+        if host_in(url, SKIP_HOSTS):
+            return None
+        if is_youtube(url):
+            return "youtube"
+        if host_in(url, FEED_FIRST_HOSTS) and (it.get("feed_content") or "").strip():
+            return "feed"
+        if "douban.com" in url and (it.get("title") or "").strip().startswith(("想读", "想看", "想听")):
+            return "blank"
+        return "techmeme" if "techmeme.com" in url else "fetch"
+
+    def process(self, pending: list):
+        routed = [(r, it) for it in pending if (r := self.route(it))]
+        offline = [x for x in routed if x[0] in ("feed", "youtube", "blank")]
+        online = [x for x in routed if x[0] not in ("feed", "youtube", "blank")]
+        print(f"pending={len(pending)}: offline={len(offline)} network={len(online)} "
+              f"(fetch cap {self.max_items})")
+        for r, it in offline + online:
+            if self.deadline and time.monotonic() > self.deadline:
+                self.n["time_cut"] = 1
+                print("Time budget reached; the rest stay pending.")
+                break
+            metered = r == "fetch" or (r == "techmeme" and it.get("title", "").startswith(TECHMEME_FETCH))
+            if metered and self.n["attempted"] >= self.max_items:
+                continue
+            key = next((d for d in PAUSE_DOMAINS if host_in(it["url"], (d,))), host_of(it["url"]))
+            if metered and key in self.paused:
+                self.paused[key] += 1
+                continue
+            if metered:
+                self.n["attempted"] += 1
+            if r != "youtube":                # printed only once a subtitle exists
+                self.head(it, r)
+            try:
+                getattr(self, "do_" + r)(it, key)
+            except Exception as e:           # one bad item must not end the run
+                self.n["failed"] += 1
+                print(f"    error ({type(e).__name__}: {e}), kept pending")
+            if r not in ("feed", "youtube", "blank"):
+                time.sleep(SLEEP)
+
+    @staticmethod
+    def head(it, r):
+        print(f"[{r}] ({it.get('published_at') or 'no date'}) {(it.get('title') or '')[:60]}\n"
+              f"    {it['url']}")
+
+    # ---- handlers ----
+    def do_blank(self, it, _key):
+        self.done(it, BLANK_SUMMARY, "douban mark, blank")
+
+    def do_feed(self, it, _key):
+        html = it["feed_content"]
+        self.thumb(it, html_mod.unescape(html))          # even if the summary fails
+        text = html.strip()
+        s = textproc.build(text, "feed", meta=len(text) < extract.MIN_BODY)
+        if s:
+            self.done(it, s, f"feed, {len(text)} chars")
+        else:
+            self.n["failed"] += 1
+            print("    empty after boilerplate removal")
+
+    def do_youtube(self, it, _key):
+        if not it.get("thumbnail"):
+            m = re.search(r"(?:[?&]v=|/shorts/|/live/|youtu\.be/)([^?&/]+)", it["url"])
+            if m:
+                it["thumbnail"] = f"https://img.youtube.com/vi/{m.group(1)}/mqdefault.jpg"
+                self.touch()
+        path = pick_subtitle(it.get("id", ""))
+        if not path:                          # download_sub.py hasn't fetched one yet
+            return
+        self.head(it, "youtube")
+        text = textproc.vtt_to_text(path)
+        if len(text) < textproc.MIN_CAPTION_CHARS:
+            return self.done(it, BLANK_SUMMARY, f"{path.name}: no speech, blank")
+        s = textproc.build(text, "subtitle")
+        if s:
+            self.done(it, s, f"{path.name}, {len(text)} chars")
+        else:
+            self.n["failed"] += 1
+
+    def do_techmeme(self, it, key):
+        # Sources:/Report:/Documents: headlines rest on obtained reporting:
+        # read the page; others get the translated headline.
+        if not it["title"].startswith(TECHMEME_FETCH):
+            self.title_fallback(it)
+            return
+        self.do_fetch(it, key, kind="bridge", fallback=self.title_fallback)
+
+    def do_fetch(self, it, key, kind="page", fallback=None):
+        feed = it.get("feed_content") or ""
+        found = {}
+        f = extract.fetch(it["url"], feed, found)
+        if not it.get("thumbnail"):
+            if t := found.get("thumbnail") or thumbs.extract(html_mod.unescape(feed), it["url"]):
+                it["thumbnail"] = t
+                self.touch()
+        s = textproc.build(f.text, kind, f.table, f.code, f.kind == "meta") if f.text else ""
+        if s:
+            return self.done(it, s, f"{f.kind}, {len(f.text)} chars")
+        if fallback and fallback(it):
+            return
+        if f.kind == "blocked":              # site-wide refusal: pause host, stay pending
+            self.paused.setdefault(key, 0)
+            self.n["blocked"] += 1
+            print(f"    blocked -> kept pending, {key} paused for this run")
+        elif f.kind == "gone":               # permanent answer for this url
+            it["summary"] = GONE_SUMMARY
+            it.pop("feed_content", None)
+            self.n["gone"] += 1
+            self.touch()
+            print("    gone (404/410, no archive) -> placeholder")
+        else:
+            self.n["failed"] += 1
+            print("    failed -> kept pending")
+
+
+def backfill(items, *, translate=True, deadline=None, save=None, limit=0) -> Counter:
+    """Bring stored items up to the current rules: thumbnails, 簡體, language."""
+    n, targets = Counter(), []
+    for it in items:
+        if it.get("thumbnail"):
+            ok, why = thumbs.still_valid(it)
+            if not ok:
+                del it["thumbnail"]
+                n["thumbnail"] += 1
+                n[f"thumb: {why}"] += 1
+        s = it.get("summary")
+        if not s or not s.strip():
+            continue
+        if lang.variant(s) == "hans" and (t := lang.to_twp(s)) != s:
+            it["summary"] = s = t
+            n["simplified"] += 1
+        if lang.needs_translation(s):
+            targets.append(it)
+    targets = targets[:limit] if limit else targets
+    print(f"Backfill: thumbnails dropped={n['thumbnail']}, simplified={n['simplified']}, "
+          f"non-Chinese={len(targets)}"
+          + "".join(f"\n  {k}×{v}" for k, v in n.items() if k.startswith("thumb: ")))
+    if not (targets and translate):
+        return n
+    print("Backfill: DeepL " + ("on" + (" (%s/%s chars used)" % u if (u := lang.deepl_usage(extract.session)) else "")
+                                if lang.deepl_on else "not configured (DEEPL_API_KEY) -- gtx only"))
+    reasons, streak = Counter(), 0
+    for pos in range(0, len(targets), BATCH):
+        if deadline and time.monotonic() > deadline:
+            print(f"Backfill: time budget reached after {pos}.")
+            break
+        batch = targets[pos:pos + BATCH]
+        marks = [FALLBACK_MARK if it["summary"].rstrip().endswith(FALLBACK_MARK) else "" for it in batch]
+        bodies = [it["summary"].rstrip().rstrip(FALLBACK_MARK).strip() for it in batch]
+        for it, mark, (out, why) in zip(batch, marks, lang.translate_many(
+                bodies, extract.session, stop_after=MAX_FAIL_STREAK - streak)):
+            if out and lang.needs_translation(out):
+                out, why = None, "result still not Chinese"
+            if out:
+                it["summary"] = (lang.to_twp(out) + " " + mark).rstrip()
+                n["translated"] += 1
+                streak = 0
+            else:
+                n["failed"] += 1
+                reasons[lang.short_reason(why) or "unknown"] += 1
+                streak += 1
+        if save and n["translated"]:
+            save()
+        if streak >= MAX_FAIL_STREAK:
+            print(f"Backfill: {streak} consecutive failures; rest left for a later run.")
+            break
+        time.sleep(SLEEP)
+    print(f"Backfill: translated={n['translated']} failed={n['failed']} "
+          f"providers={dict(lang.PROVIDERS)}"
+          + (f"\n  reasons: {dict(reasons.most_common(5))}" if reasons else "")
+          + (f"\n  DeepL failures (fell back to gtx): {dict(lang.FAILURES)}" if lang.FAILURES else ""))
+    return n
+
+
+def mine_boilerplate(items, min_count: int) -> None:
+    """Sentences repeated across summaries that no rule removes yet."""
+    counts, sources = Counter(), {}
+    for it in items:
+        for sent in textproc.SENT_RE.split(it.get("summary") or ""):
+            sent = sent.strip()
+            if 6 <= len(sent) <= 120 and not textproc.is_boilerplate(sent, "*") \
+                    and textproc.strip_boilerplate(textproc.clean_caption(sent)):
+                counts[sent] += 1
+                sources.setdefault(sent, set()).add(it.get("source") or "?")
+    rows = sorted(((c, s) for s, c in counts.items() if c >= min_count), reverse=True)
+    for label, want in (("single source -> scope page", 1), ("cross-source -> scope all", 2)):
+        print(f"── {label} ──")
+        for c, s in [r for r in rows if min(len(sources[r[1]]), 2) == want][:60]:
+            print(f"{c:>5}× [{len(sources[s])} src] {s[:80]}")
 
 
 def main(argv=None) -> int:
-    global ITEMS_FILE, MAX_ITEMS, TRANSLATE, SUMMARY_RATIO, SUMMARY_MAX, RESCORE_ALL
-    global TIME_BUDGET_SECONDS
-    args = build_arg_parser().parse_args(argv)
-    ITEMS_FILE = args.items_file
-    MAX_ITEMS = args.max_items
-    TRANSLATE = args.translate
-    SUMMARY_RATIO = args.summary_ratio
-    SUMMARY_MAX = args.summary_max
-    RESCORE_ALL = args.rescore_all
-    TIME_BUDGET_SECONDS = args.time_budget_seconds
+    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("--items-file", default=os.environ.get("ITEMS_FILE", "data/archive.json"))
+    ap.add_argument("--max-items", type=int, default=int(os.environ.get("MAX_ITEMS", "50")))
+    ap.add_argument("--time-budget-seconds", type=int,
+                    default=int(os.environ.get("TIME_BUDGET_SECONDS", "0")),
+                    help="fetching stops at half of this; backfill may use the rest")
+    ap.add_argument("--no-translate", dest="translate", action="store_false", default=textproc.TRANSLATE)
+    ap.add_argument("--no-backfill", dest="backfill", action="store_false")
+    ap.add_argument("--backfill-only", action="store_true")
+    ap.add_argument("--dry-run", action="store_true", help="with --backfill-only: report only")
+    ap.add_argument("--limit", type=int, default=0, help="with --backfill-only: translate at most N")
+    ap.add_argument("--mine-boilerplate", type=int, default=0, metavar="MIN_COUNT")
+    a = ap.parse_args(argv)
+    textproc.TRANSLATE = a.translate
 
-    if not os.path.exists(ITEMS_FILE):
-        print(f"ERROR: {ITEMS_FILE} not found.", file=sys.stderr)
+    if not os.path.exists(a.items_file):
+        print(f"ERROR: {a.items_file} not found.", file=sys.stderr)
         return 1
+    doc = load_doc(a.items_file)
+    items = doc["items"]
+    save = lambda: save_doc(a.items_file, doc)
 
-    if args.mine_boilerplate:
-        return mine_boilerplate(ITEMS_FILE, args.mine_boilerplate)
+    if a.mine_boilerplate:
+        mine_boilerplate(items, a.mine_boilerplate)
+        return 0
+    if a.backfill_only:
+        if a.dry_run:
+            t = [it for it in items if lang.needs_translation(it.get("summary"))]
+            print(f"would translate {len(t)}")
+            for it in t[:5]:
+                print(f"  {it['url'][:70]}  {it['summary'][:60]}")
+            return 0
+        backfill(items, translate=a.translate, save=save, limit=a.limit)
+        save()
+        return 0
 
-    items, wrapper = load_items(ITEMS_FILE)
-    if items is None:
-        print("ERROR: JSON root must be an array.", file=sys.stderr)
-        return 1
-
-    pending = [
-        it for it in items
-        if isinstance(it, dict) and it.get("url") and not it.get("summary")
-    ]
-    pending.sort(key=lambda it: _parse_ts(it.get("published_at")), reverse=True)
-
-    print(f"Total items: {len(items)}, pending: {len(pending)}, "
-          f"translate={'on' if TRANSLATE else 'off'} (newest-first)")
-
-    feed_first = [it for it in pending
-                  if is_feed_first_host(it.get("url", ""))
-                  and (it.get("feed_content") or "").strip()]
-    if TIME_BUDGET_SECONDS > 0:
-        print(f"Time budget: {TIME_BUDGET_SECONDS}s "
-              f"(stop fetching after {TIME_BUDGET_SECONDS * TIME_BUDGET_STOP_RATIO:.0f}s elapsed)")
-
-    start_time = time.monotonic()
-    time_cut_off = False
-    ok = failed = blank_n = 0
-    # Outcome tallies live in one Counter keyed by Outcome.counter,
-    # so adding a source_type does not mean adding a variable.
-    counts: Counter = Counter()
-    attempted = 0
-    junk_hosts: set[str] = set()
-    junk_skipped: Counter = Counter()
-
-    # ---- Pass 1: feed-first hosts -------------------------------------------
-    if feed_first:
-        print(f"\nFeed-first pass: {len(feed_first)} item(s) on "
-              f"{', '.join(FEED_FIRST_HOSTS)} (not counted against MAX_ITEMS)")
-        ff_ok = ff_failed = 0
-        pending_save = 0
-        for idx, it in enumerate(feed_first, 1):
-            if TIME_BUDGET_SECONDS > 0:
-                elapsed = time.monotonic() - start_time
-                if elapsed > TIME_BUDGET_SECONDS * TIME_BUDGET_STOP_RATIO:
-                    print(f"  time budget reached ({elapsed:.0f}s), "
-                          f"{len(feed_first) - idx + 1} item(s) stay pending.")
-                    time_cut_off = True
-                    break
-            if is_summary_skip_host(it.get("url") or ""):
-                continue
-            feed_html = it.get("feed_content") or ""
-            content = feed_html.strip()
-            source_type = "body" if len(content) >= MIN_USABLE_BODY else "meta"
-            print(f"  [{idx}/{len(feed_first)}] "
-                  f"({it.get('published_at') or 'no date'}) {it.get('title', '')[:60]}")
-            print(f"      {it['url']}")
-            # Before summarising, not after: the thumbnail does not depend on
-            # the summary succeeding, and posts that are a chart plus a
-            # one-line title (mcclin.blogspot.com and other chart blogs) fail
-            # every summary attempt because their extracted text is nothing but
-            # Blogger chrome. Leaving this below the `continue` meant those
-            # items never got a thumbnail on any run, even though the image was
-            # sitting in the feed copy the whole time.
-            if set_thumbnail_from_feed(it, feed_html):
-                # Count it as unsaved work, so a thumbnail found on an item
-                # whose summary then fails still reaches disk.
-                pending_save += 1
+    start = time.monotonic()
+    budget = a.time_budget_seconds
+    pending = sorted(filter(is_pending, items), key=lambda it: _ts(it.get("published_at")), reverse=True)
+    run = Run(a.items_file, doc, a.max_items, start + budget * 0.5 if budget else None)
+    try:
+        run.process(pending)
+        print(f"Done. {dict(run.n)}; paused hosts: {dict(run.paused) or '-'}")
+        if textproc.STATS:
+            print("Stats: " + ", ".join(f"{k}×{v}" for k, v in sorted(textproc.STATS.items())))
+        if a.backfill:
             try:
-                summary = build_summary(content, source_type, kind="feed")
+                backfill(items, translate=a.translate,
+                         deadline=start + budget if budget else None, save=save)
             except Exception as e:
-                print(f"      summarize failed: {e}")
-                ff_failed += 1
-                continue
-            if not summary:
-                print("      empty after boilerplate removal, skipped")
-                ff_failed += 1
-                continue
-            it["summary"] = summary
+                print(f"ERROR: backfill aborted ({type(e).__name__}: {e})")
+    finally:
+        # feed_content is scratch: update_news writes it, only this reads it.
+        for it in items:
             it.pop("feed_content", None)
-            ff_ok += 1
-            pending_save += 1
-            print(f"      ok (feed, {len(content)} chars)")
-            if pending_save >= FEED_FIRST_SAVE_EVERY:
-                save_items(ITEMS_FILE, items, wrapper)
-                pending_save = 0
-        if pending_save:
-            save_items(ITEMS_FILE, items, wrapper)
-        ok += ff_ok
-        failed += ff_failed
-        print(f"Feed-first pass done: ok={ff_ok}, failed={ff_failed}\n")
-
-    # ---- YouTube pass: subtitle-only, no page fetch --------------------------
-    # This never touches the network for the page itself (video pages have no
-    # article body anyway) -- it only reads a local .vtt already fetched by
-    # download_sub.py. It used to run inline inside pass 2 and count against
-    # attempted/MAX_ITEMS, competing with real page fetches for the same
-    # budget even though it costs nothing to fetch. Pulled out so it always
-    # runs to completion regardless of how many page-fetch items are pending.
-    pending = [it for it in pending if not it.get("summary")]
-    youtube_pending = [it for it in pending if is_youtube_url(it.get("url", ""))]
-    if youtube_pending:
-        print(f"\nYouTube pass: {len(youtube_pending)} item(s) "
-              f"(subtitle-only, not counted against MAX_ITEMS)")
-        yt_ok = yt_failed = 0
-        for idx, it in enumerate(youtube_pending, 1):
-            if TIME_BUDGET_SECONDS > 0:
-                elapsed = time.monotonic() - start_time
-                if elapsed > TIME_BUDGET_SECONDS * TIME_BUDGET_STOP_RATIO:
-                    print(f"  time budget reached ({elapsed:.0f}s), "
-                          f"{len(youtube_pending) - idx + 1} item(s) stay pending.")
-                    time_cut_off = True
-                    break
-
-            url = it["url"]
-            if not it.get("thumbnail"):
-                thumb = youtube_thumbnail_url(url)
-                if thumb:
-                    it["thumbnail"] = thumb
-
-            picked = pick_subtitle(it.get("id", ""))
-            if not picked:
-                continue
-            path, orig_lang, sub_lang = picked
-            print(f"  [{idx}/{len(youtube_pending)}] "
-                  f"({it.get('published_at') or 'no date'}) {it.get('title', '')[:60]}")
-            print(f"      {url}")
-            print(f"      subtitle: {os.path.basename(path)} (orig={orig_lang}, sub={sub_lang})")
-
-            text = vtt_to_text(path)
-            if len(text) < MIN_CAPTION_CHARS:
-                print(f"      no usable speech in subtitle ({len(text)} chars), "
-                      f"marked blank")
-                it["summary"] = BLANK_SUMMARY
-                it.pop("feed_content", None)
-                blank_n += 1
-                save_items(ITEMS_FILE, items, wrapper)
-                continue
-            try:
-                summary = build_summary(text, "body", kind="subtitle")
-            except Exception as e:
-                print(f"      summarize failed: {e}")
-                yt_failed += 1
-                continue
-            if not summary:
-                print("      empty after boilerplate removal, skipped")
-                yt_failed += 1
-                continue
-            it["summary"] = summary
-            it.pop("feed_content", None)
-            yt_ok += 1
-            print(f"      ok (subtitle, {len(text)} chars)")
-            save_items(ITEMS_FILE, items, wrapper)
-            time.sleep(SLEEP_BETWEEN_ITEMS)
-        ok += yt_ok
-        failed += yt_failed
-        print(f"YouTube pass done: ok={yt_ok}, failed={yt_failed}\n")
-
-    # ---- Pass 2: everything else, one page fetch at a time ------------------
-    pending = [it for it in pending if not it.get("summary")]
-    report_feed_material(pending, feed_first, args.feed_content_preview)
-    for it in pending:
-        # Normally a feed-first host is left to pass 1, which summarises from
-        # the stored feed copy without fetching the page. But pass 1 only takes
-        # items that actually have feed_content, so an item on such a host with
-        # none is picked up by neither pass and stays pending forever -- no
-        # summary and no thumbnail, on every future run. That is the state all
-        # 82 mcclin.blogspot.com items were in: the feed had long since rolled
-        # past those posts, so the copy was gone. Only skip to pass 1 when
-        # there is in fact feed content for it to use.
-        if (is_feed_first_host(it.get("url", ""))
-                and (it.get("feed_content") or "").strip()):
-            continue
-        # YouTube is handled in its own pass above (subtitle files only, no
-        # page fetch). Anything still here has no usable subtitle yet -- stay
-        # pending until download_sub.py fetches one; fetching the video page
-        # itself would be pointless (no article body).
-        if is_youtube_url(it.get("url", "")):
-            continue
-        if attempted >= MAX_ITEMS:
-            print(f"Reached MAX_ITEMS={MAX_ITEMS}, stopping.")
-            break
-        if time_cut_off:
-            break
-        if TIME_BUDGET_SECONDS > 0:
-            elapsed = time.monotonic() - start_time
-            if elapsed > TIME_BUDGET_SECONDS * TIME_BUDGET_STOP_RATIO:
-                print(f"Time budget {TIME_BUDGET_STOP_RATIO:.0%} reached "
-                      f"({elapsed:.0f}s elapsed) — stopping fetch loop, "
-                      f"remaining {len(pending) - attempted} item(s) stay pending "
-                      f"for next run. Proceeding to save + scoring.")
-                time_cut_off = True
-                break
-
-        url = it["url"]
-
-        host = junk_pause_key(url)
-        if is_summary_skip_host(url):
-            continue
-        if host in junk_hosts:
-            junk_skipped[host] += 1
-            continue
-
-        if is_douban_mark(url, it.get("title")):
-            it["summary"] = BLANK_SUMMARY
-            it.pop("feed_content", None)
-            blank_n += 1
-            save_items(ITEMS_FILE, items, wrapper)
-            continue
-
-        if "techmeme.com" in url:
-            title = (it.get("title") or "").strip()
-            # Techmeme prefixes a headline with "Sources:", "Report:" or
-            # "Documents:" when the story rests on reporting it has obtained
-            # rather than on a public announcement — worth starring, and worth
-            # reading the page for instead of settling for the headline.
-            if title.startswith(TECHMEME_STAR_PREFIXES):
-                it["star"] = True
-                attempted += 1
-                print(f"[{attempted}/{min(len(pending), MAX_ITEMS)}] "
-                      f"({it.get('published_at') or 'no date'}) {title[:60]}")
-                print(f"    {url}  (starred)")
-                summary = ""
-                tm_feed_html = it.get("feed_content") or ""
-                tm_meta: dict = {}
-                content, source_type, has_table, has_code = fetch_content(
-                    url, feed_content=tm_feed_html, meta_out=tm_meta
-                )
-                if content:
-                    try:
-                        summary = build_summary(content, source_type, has_table,
-                                                kind="bridge", has_code=has_code)
-                    except Exception as e:
-                        print(f"    summarize failed: {e}")
-                        summary = ""
-                if summary:
-                    it["summary"] = summary
-                    apply_meta_thumbnail(it, tm_meta, tm_feed_html)
-                    it.pop("feed_content", None)
-                    ok += 1
-                    print(f"    ok ({source_type}, {len(content)} chars)")
-                else:
-                    translated = translate_to_zhtw(title)
-                    if translated:
-                        it["summary"] = _to_twp(translated) + " " + FALLBACK_MARK
-                        ok += 1
-                        print("    fell back to translated title")
-                    else:
-                        failed += 1
-                        print("    no content and translation failed, kept pending.")
-                save_items(ITEMS_FILE, items, wrapper)
-                time.sleep(SLEEP_BETWEEN_ITEMS)
-                continue
-
-            translated = translate_to_zhtw(title)
-            if translated:
-                it["summary"] = _to_twp(translated) + " " + FALLBACK_MARK
-                it.pop("feed_content", None)
-            continue
-
-        attempted += 1
-        print(f"[{attempted}/{min(len(pending), MAX_ITEMS)}] "
-              f"({it.get('published_at') or 'no date'}) {it.get('title', '')[:60]}")
-        print(f"    {url}")
-
-        feed_html = it.get("feed_content") or ""
-        meta_out: dict = {}
-        try:
-            content, source_type, has_table, has_code = fetch_content(
-                url, feed_content=feed_html, meta_out=meta_out
-            )
-        except Exception as e:
-            # One bad page must not cost the run every summary already made:
-            # the loop saves incrementally, but an escape here would skip the
-            # final strip-and-save entirely. Treat it as a transient failure
-            # so the item is retried rather than marked.
-            print(f"    fetch raised ({type(e).__name__}: {e}), kept pending")
-            failed += 1
-            continue
-
-        outcome = OUTCOMES.get(source_type)
-        if outcome is None and not content:
-            outcome = OUTCOMES["fail"]
-        if outcome is not None:
-            if outcome.pause_host:
-                junk_hosts.add(host)
-            if outcome.summary is not None:
-                it["summary"] = outcome.summary
-                it.pop("feed_content", None)
-                save_items(ITEMS_FILE, items, wrapper)
-                time.sleep(SLEEP_BETWEEN_ITEMS)
-            counts[outcome.counter] += 1
-            print(f"    {outcome.describe(host)}")
-            continue
-
-        try:
-            summary = build_summary(content, source_type, has_table,
-                                    kind="page", has_code=has_code)
-        except Exception as e:
-            print(f"    summarize failed: {e}")
-            failed += 1
-            continue
-        if not summary:
-            print("    empty after boilerplate removal, skipped")
-            failed += 1
-            continue
-        it["summary"] = summary
-        apply_meta_thumbnail(it, meta_out, feed_html)
-        it.pop("feed_content", None)
-
-        ok += 1
-        print(f"    ok ({source_type}, {len(content)} chars) {content[:200]} ...")
-        save_items(ITEMS_FILE, items, wrapper)
-        time.sleep(SLEEP_BETWEEN_ITEMS)
-
-    if junk_hosts:
-        detail = ", ".join(f"{h}×{junk_skipped[h]}"
-                           for h, _ in junk_skipped.most_common())
-        print(f"Skipped {sum(junk_skipped.values())} item(s) on "
-              f"{len(junk_hosts)} paused host(s) (template or blocking): {detail}"
-              + (f"  (also: {', '.join(sorted(junk_hosts - set(junk_skipped)))})"
-                 if junk_hosts - set(junk_skipped) else ""))
-    print(f"Done. attempted={attempted}, ok={ok}, "
-          f"blocked={counts['blocked']}, gone={counts['gone']}, "
-          f"blank={blank_n}, junk={counts['junk']}, "
-          f"failed={failed + counts['failed']}"
-          f"{', stopped early: time budget reached' if time_cut_off else ''}")
-
-
-    if UNTRANSLATED:
-        detail = ", ".join(f"{k}×{v}" for k, v in UNTRANSLATED.most_common())
-        why = (", ".join(f"{k}×{v}" for k, v in
-                         TRANSLATE_FAIL_REASONS.most_common(5))
-               or "no reason recorded")
-        print(f"WARNING: {sum(UNTRANSLATED.values())} summary(ies) stored "
-              f"untranslated in their original language [{detail}]. "
-              f"Cause: {why}. "
-              f"The backfill pass will retry them on a later run.")
-
-    if BOILER_STATS:
-        detail = ", ".join(f"{k} {v}" for k, v in sorted(BOILER_STATS.items()) if v)
-        if detail:
-            print(f"Boilerplate: dropped {sum(BOILER_STATS.values())} "
-                  f"sentence(s)/paragraph(s)  [{detail}]")
-
-    # ---- Pass 3: language backfill ------------------------------------------
-    # After this batch's summaries are done, not instead of them: the fetch
-    # loop above is the priority, and this only spends whatever time is left.
-    # Guarded: a backfill that dies must not cost the run the summaries the
-    # fetch loop just produced, so it reports and lets the save below proceed.
-    if args.backfill:
-        try:
-            backfill(
-                items,
-                translate_enabled=args.translate,
-                revalidate_thumbnails=args.revalidate_thumbnails,
-                deadline=(start_time + TIME_BUDGET_SECONDS
-                          if TIME_BUDGET_SECONDS > 0 else None),
-                save=lambda: save_items(ITEMS_FILE, items, wrapper),
-            )
-        except Exception as e:
-            print(f"ERROR: backfill aborted ({type(e).__name__}: {e}); "
-                  f"summaries from this run are still being saved.")
-        save_items(ITEMS_FILE, items, wrapper)
-
-    dropped = strip_feed_content(items)
-    if dropped:
-        print(f"Dropped feed_content from {dropped} item(s) (scratch data).")
-
-    save_items(ITEMS_FILE, items, wrapper)
-
+        save()
     return 0
 
 
