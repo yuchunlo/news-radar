@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron: "0 23 * * *"
+    - cron: "0 07 * * *"
 
 concurrency:
   group: download-sub-${{ github.ref }}
@@ -83,11 +83,7 @@ jobs:
           echo "cookies file loaded, $(wc -l < "$COOKIES_PATH") lines"
 
       - name: Self-test
-        run: |
-          cd scripts
-          python subtitle_priority.py
-          python local_transcribe.py
-          python download_sub.py --self-test
+        run: python scripts/selftest.py
 
       - name: Download subtitles
         run: |
