@@ -286,7 +286,7 @@
         htmlUrl="https://www.youtube.com/channel/UCaiXlXOldcHLgNWUiY3mf5A" />
       <outline text="守株阁" type="rss" category="tech"
         xmlUrl="https://magicliang.github.io/atom.xml"
-        htmlUrl="http://magicliang.github.io/2024/02/04/%E3%80%8A%E7%98%9F%E7%96%AB%E4%B8%8E%E9%98%B2%E7%96%AB%EF%BC%8C%E5%9C%A8%E5%8E%86%E5%8F%B2%E4%B8%8E%E7%8E%B0%E5%AE%9E%E4%B9%8B%E9%97%B4%E7%9A%84%E9%AD%94%E5%B9%BB%E4%BA%A4%E6%9B%BF%E3%80%8B" />
+        htmlUrl="http://magicliang.github.io" />
       <outline text="Blind Dweller" type="rss" category=""
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC7mtmlqZNhVIkTnexdqMbRA"
         htmlUrl="https://www.youtube.com/channel/UC7mtmlqZNhVIkTnexdqMbRA" />
@@ -365,9 +365,6 @@
       <outline text="映畫手民" type="rss" category=""
         xmlUrl="https://www.cinezen.hk/?feed=rss2"
         htmlUrl="https://www.cinezen.hk" />
-      <outline text="旭沙龍｜創業Ｘ科技Ｘ經濟" type="rss" category="trending"
-        xmlUrl="https://open.firstory.me/rss/user/ckqvqh2tg9oht0930u7n2cn3d"
-        htmlUrl="https://open.firstory.me/user/sunrisemedium" />
       <outline text="日日靜好" type="rss" category=""
         xmlUrl="https://lapeacefulday.com/feed/"
         htmlUrl="https://lapeacefulday.com" />
@@ -509,9 +506,6 @@
       <outline text="UsefulCharts" type="rss" category="culture"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC7o-UFkoAPCoKxpKOfrs4zQ"
         htmlUrl="https://www.youtube.com/channel/UC7o-UFkoAPCoKxpKOfrs4zQ" />
-      <outline text="TRENSSE" type="rss" category="trending"
-        xmlUrl="https://www.trensse.com/feed/"
-        htmlUrl="https://www.trensse.com/" />
       <outline text="Travel with book" type="rss" category=""
         xmlUrl="https://travelwithbook.com/feed/"
         htmlUrl="https://travelwithbook.com/" />
@@ -686,9 +680,6 @@
       <outline text="https://taste-of-milano.com/feed/" type="rss" category=""
         xmlUrl="https://taste-of-milano.com/feed/"
         htmlUrl="https://taste-of-milano.com" />
-      <outline text="HPX 輕鬆聚" type="rss" category=""
-        xmlUrl="https://hpx.tw/feed"
-        htmlUrl="https://hpx.tw" />
       <outline text="Growin Blog" type="rss" category="finance"
         xmlUrl="https://blog.growin.tv/feed/"
         htmlUrl="https://blog.growin.tv/" />
@@ -701,9 +692,6 @@
       <outline text="F大叔的日常通信" type="rss" category=""
         xmlUrl="https://abei.club/feed"
         htmlUrl="https://abei.club" />
-      <outline text="FLiPER – 生活藝文誌" type="rss" category="trending"
-        xmlUrl="https://flipermag.com/feed/"
-        htmlUrl="https://flipermag.com" />
       <outline text="FLAIR IRON" type="rss" category=""
         xmlUrl="https://www.flairiron.com/blog-feed.xml"
         htmlUrl="https://www.flairiron.com/blog" />
@@ -782,9 +770,6 @@
       <outline text="香功堂！！PIXNET :: 痞客邦 PIXNET ::" type="rss" category=""
         xmlUrl="http://feed.pixnet.net/blog/posts/rss/hatsocks1975"
         htmlUrl="http://hatsocks1975.pixnet.net/blog" />
-      <outline text="餐桌小宇宙 Cosmos." type="rss" category="convivium"
-        xmlUrl="https://feed.firstory.me/rss/user/ckh0lw5d5gcal08360zxwx411"
-        htmlUrl="https://decosmos.firstory.io" />
       <outline text="野菜鹿鹿Veggie Deer" type="rss" category="convivium"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCJ1IDsj0aQzRK_-I9hFojvw"
         htmlUrl="https://www.youtube.com/channel/UCJ1IDsj0aQzRK_-I9hFojvw" />
@@ -1091,6 +1076,15 @@
       <outline text="大叔美股筆記 Uncle Stock Notes" type="rss" category="finance"
         xmlUrl="https://news.google.com/rss/search?q=%E5%A4%A7%E5%8F%94%E7%BE%8E%E8%82%A1%E7%AD%86%E8%A8%98+site:substack.com&amp;gl=TW"
         htmlUrl="https://substack.com/@unclestocknotes" />
+      <outline text="Wing's Investment World" type="rss" category="finance"
+        xmlUrl="https://winginvesting.com/feed"
+        htmlUrl="https://substack.com/@winginvest" />
+      <outline text="Acquired" type="rss" category=""
+        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCyFqFYfTW2VoIQKylJ04Rtw"
+        htmlUrl="https://www.youtube.com/channel/UCyFqFYfTW2VoIQKylJ04Rtw" />
+      <outline text="The Beauty Of" type="rss" category=""
+        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCReIcnV4jIXxCjDz-GtDAPw"
+        htmlUrl="https://www.youtube.com/channel/UCReIcnV4jIXxCjDz-GtDAPw" />
     </outline>
   </body>
 </opml>
