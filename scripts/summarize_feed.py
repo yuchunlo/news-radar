@@ -29,7 +29,7 @@ import subtitle_priority
 import textproc
 import thumbs
 from common import (BLANK_SUMMARY, FALLBACK_MARK, GONE_SUMMARY, host_in, host_of,
-                    is_pending, is_youtube, load_doc, save_doc)
+                    is_pending, is_youtube, load_doc, save_doc, valid_id)
 
 SUBTITLES_DIR = Path(os.environ.get("SUBTITLES_DIR", "data/subtitles"))
 SLEEP = 1.5                   # polite delay after each network item
@@ -68,7 +68,7 @@ def _ts(value) -> float:
 def pick_subtitle(item_id: str) -> Path | None:
     """Best local .vtt for an item: {id}.{orig}.{sub}.vtt, by file_rank."""
     best = None
-    for p in SUBTITLES_DIR.glob(f"{item_id}.*.vtt") if item_id else ():
+    for p in SUBTITLES_DIR.glob(f"{item_id}.*.vtt") if valid_id(item_id) else ():
         parts = p.name[len(item_id) + 1:].split(".")
         if len(parts) == 3:
             key = (subtitle_priority.file_rank(parts[1], parts[0]), p.name)
@@ -114,7 +114,7 @@ class Run:
             return "youtube"
         if host_in(url, FEED_FIRST_HOSTS) and (it.get("feed_content") or "").strip():
             return "feed"
-        if "douban.com" in url and (it.get("title") or "").strip().startswith(("想读", "想看", "想听")):
+        if host_in(url, PAUSE_DOMAINS) and (it.get("title") or "").strip().startswith(("想读", "想看", "想听")):
             return "blank"
         return "techmeme" if "techmeme.com" in url else "fetch"
 
@@ -164,13 +164,12 @@ class Run:
         s = textproc.build(text, "feed", meta=len(text) < extract.MIN_BODY)
         if s:
             self.done(it, s, f"feed, {len(text)} chars")
-        else:
-            self.n["failed"] += 1
-            print("    empty after boilerplate removal")
+        else:                       # feed copy held only boilerplate / images: nothing to say
+            self.done(it, BLANK_SUMMARY, "only boilerplate in feed copy, blank")
 
     def do_youtube(self, it, _key):
         if not it.get("thumbnail"):
-            m = re.search(r"(?:[?&]v=|/shorts/|/live/|youtu\.be/)([^?&/]+)", it["url"])
+            m = re.search(r"(?:[?&]v=|/shorts/|/live/|youtu\.be/)([\w-]{6,20})(?![\w-])", it["url"])
             if m:
                 it["thumbnail"] = f"https://img.youtube.com/vi/{m.group(1)}/mqdefault.jpg"
                 self.touch()
@@ -208,6 +207,8 @@ class Run:
             return self.done(it, s, f"{f.kind}, {len(f.text)} chars")
         if fallback and fallback(it):
             return
+        if f.text and f.kind in ("body", "meta"):    # page read fine, but only boilerplate in it
+            return self.done(it, BLANK_SUMMARY, f"{f.kind}: only boilerplate, blank")
         if f.kind == "blocked":              # site-wide refusal: pause host, stay pending
             self.paused.setdefault(key, 0)
             self.n["blocked"] += 1
@@ -234,15 +235,21 @@ def backfill(items, *, translate=True, deadline=None, save=None, limit=0) -> Cou
                 n["thumbnail"] += 1
                 n[f"thumb: {why}"] += 1
         s = it.get("summary")
-        if not s or not s.strip():
+        if not s or not s.strip() or s == GONE_SUMMARY:
             continue
+        if (t := textproc.restrip(s)) != s:              # rules added since it was written
+            it["summary"] = s = t
+            n["boilerplate"] += 1
+            if s == BLANK_SUMMARY:
+                continue
         if lang.variant(s) == "hans" and (t := lang.to_twp(s)) != s:
             it["summary"] = s = t
             n["simplified"] += 1
         if lang.needs_translation(s):
             targets.append(it)
     targets = targets[:limit] if limit else targets
-    print(f"Backfill: thumbnails dropped={n['thumbnail']}, simplified={n['simplified']}, "
+    print(f"Backfill: thumbnails dropped={n['thumbnail']}, boilerplate={n['boilerplate']}, "
+          f"simplified={n['simplified']}, "
           f"non-Chinese={len(targets)}"
           + "".join(f"\n  {k}×{v}" for k, v in n.items() if k.startswith("thumb: ")))
     if not (targets and translate):

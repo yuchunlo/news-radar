@@ -4,6 +4,7 @@ own copy, a reader proxy, then the Wayback Machine."""
 from __future__ import annotations
 
 import html as html_mod
+import json
 import os
 import re
 from typing import NamedTuple
@@ -12,7 +13,10 @@ import trafilatura
 from bs4 import BeautifulSoup
 
 import thumbs
-from common import UA, curl_get, host_in, make_session
+from urllib.parse import quote
+
+import common
+from common import UA, host_in, make_session
 
 TIMEOUT, TIMEOUT_SLOW = 30, 60
 MIN_BODY = 200               # chars below which a body is only a blurb
@@ -245,23 +249,14 @@ def classify(body: str, meta: str, table: bool, code: bool) -> Fetched:
 
 def http_get(url: str, timeout: int, impersonate=False) -> tuple[str | None, str]:
     """(html, status) with status ok | blocked | notfound | fail."""
-    try:
-        if impersonate:
-            r = curl_get(url, timeout, LANG)
-            if r is None:
-                return None, "fail"
-        else:
-            r = session.get(url, timeout=timeout)
-            if r.status_code < 400 and (r.encoding or "").lower() in ("", "iso-8859-1", "ascii"):
-                r.encoding = r.apparent_encoding
-        code = r.status_code
-        if code in BLOCK_STATUS:
-            return None, "blocked"
-        if code in (404, 410):
-            return None, "notfound"
-        return (r.text, "ok") if code < 400 else (None, "fail")
-    except Exception:
+    r = common.get(url, timeout, session, impersonate, LANG)
+    if r is None:
         return None, "fail"
+    if r.status in BLOCK_STATUS:
+        return None, "blocked"
+    if r.status in (404, 410):
+        return None, "notfound"
+    return (r.text, "ok") if r.status < 400 else (None, "fail")
 
 
 def via_reader(url: str) -> str | None:
@@ -280,16 +275,16 @@ def via_reader(url: str) -> str | None:
 def via_wayback(url: str) -> str | None:
     if not USE_WAYBACK:
         return None
+    r = common.get("https://archive.org/wayback/available?url=" + quote(url, safe=""), TIMEOUT, session)
     try:
-        r = session.get("https://archive.org/wayback/available",
-                        params={"url": url}, timeout=TIMEOUT)
-        snap = ((r.json().get("archived_snapshots") or {}).get("closest") or {})
+        snap = (json.loads(r.content).get("archived_snapshots") or {}).get("closest") or {}
     except Exception:
         return None
-    if not snap.get("available") or not snap.get("url"):
+    snap_url = str(snap.get("url") or "")
+    if not snap.get("available") or not host_in(snap_url, ("archive.org",)):
         return None
     # id_ = the original bytes, without the archive's banner
-    html, status = http_get(re.sub(r"(/web/\d+)/", r"\1id_/", snap["url"], count=1), TIMEOUT_SLOW)
+    html, status = http_get(re.sub(r"(/web/\d+)/", r"\1id_/", snap_url, count=1), TIMEOUT_SLOW)
     return html if status == "ok" else None
 
 

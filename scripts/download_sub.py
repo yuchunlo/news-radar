@@ -16,11 +16,10 @@ import signal
 import subprocess
 import sys
 import tempfile
-import time
 from collections import Counter
 from pathlib import Path
 
-from common import BLANK_SUMMARY, is_youtube, load_doc, save_doc
+from common import BLANK_SUMMARY, is_youtube, load_doc, safe_lang, save_doc, valid_id
 from subtitle_priority import choose_track, track_rank
 
 UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 Chrome/120 Safari/537.36"
@@ -57,8 +56,9 @@ def run(cmd: list[str], timeout: float) -> tuple[int | None, str, str]:
         return None, out or "", err or ""
 
 
-def ytdlp(cookies: Path, *args) -> list[str]:
-    return ["yt-dlp", "--cookies", str(cookies), *BASE_ARGS, *args]
+def ytdlp(cookies: Path, url: str, *args) -> list[str]:
+    """`--` ends option parsing: a url can never be read as a flag."""
+    return ["yt-dlp", "--cookies", str(cookies), *BASE_ARGS, *args, "--", url]
 
 
 def discard(out_dir: Path, item_id: str) -> list[str]:
@@ -107,7 +107,7 @@ def transcribe(url, cookies, out_dir: Path, item_id, orig, a, duration) -> Path:
     with tempfile.TemporaryDirectory(prefix=f"asr-{item_id}-") as d:
         # ~1s of download per 4s of audio, floor 5 min, cap 45 min
         timeout = min(max(a.audio_timeout, duration * 0.25), 45 * 60) if duration else a.audio_timeout
-        rc, out, err = run(ytdlp(cookies, *AUDIO_ARGS, "-o", f"{d}/audio.%(ext)s", url), timeout)
+        rc, out, err = run(ytdlp(cookies, url, *AUDIO_ARGS, "-o", f"{d}/audio.%(ext)s"), timeout)
         files = sorted(p for p in Path(d).glob("audio.*") if p.suffix != ".part")
         if rc is None:
             raise RuntimeError(f"audio download timed out after {timeout:.0f}s")
@@ -122,11 +122,11 @@ def transcribe(url, cookies, out_dir: Path, item_id, orig, a, duration) -> Path:
                                              condition_on_previous_text=False)
         if a.max_asr_duration and (info.duration or 0) > a.max_asr_duration:
             raise RuntimeError(f"too long for ASR: {info.duration / 60:.0f} min")
-        detected = (info.language or "und").strip() or "und"
+        detected = safe_lang(info.language)
         vtt = to_vtt((s.start, s.end, s.text) for s in segs)
     if not vtt:
         raise RuntimeError("no speech segments")
-    path = out_dir / f"{item_id}.{(orig or detected).strip() or detected}.{detected}.vtt"
+    path = out_dir / f"{item_id}.{safe_lang(orig, detected)}.{detected}.vtt"
     path.write_text(vtt, encoding="utf-8")
     return path
 
@@ -230,12 +230,12 @@ def main(argv=None) -> int:
     have = {p.name.split(".", 1)[0] for p in out_dir.glob("*.vtt")}
     budget, n, dirty = Budget(a), Counter(), False
 
-    todo = [it for it in doc["items"] if it.get("id") and it.get("summary") is None
+    todo = [it for it in doc["items"] if valid_id(it.get("id")) and it.get("summary") is None
             and is_youtube(it.get("url", "")) and it["id"] not in have]
     for item in todo[:a.max_items]:
         url, item_id = item["url"], item["id"]
         n["processed"] += 1
-        rc, out, err = run(ytdlp(cookies, *SUB_ARGS, "--skip-download", "--dump-json", url),
+        rc, out, err = run(ytdlp(cookies, url, *SUB_ARGS, "--skip-download", "--dump-json"),
                            a.probe_timeout)
         if "cookies" in (out + err).lower():
             print("[EXPIRED] cookies invalid")
@@ -248,25 +248,32 @@ def main(argv=None) -> int:
             n["failed"] += 1
             print(f"[FAILED] {item_id}: probe failed")
             continue
-        orig, duration = info.get("language"), info.get("duration") or 0.0
+        orig = safe_lang(info.get("language"), None) if info.get("language") else None
+        try:
+            duration = max(float(info.get("duration") or 0), 0.0)
+        except (TypeError, ValueError):
+            duration = 0.0
         live = bool(info.get("is_live") or info.get("live_status") == "is_live")
         if duration and item.get("length") != int(duration):
             item["length"] = int(duration)          # stored for the frontend
             dirty = True
         fallback = lambda: asr(item, url, item_id, orig, duration, live, a, budget, out_dir, cookies, n)
 
-        choice = choose_track(info.get("subtitles"), info.get("automatic_captions"), orig)
+        # track keys come from remote metadata and become a --sub-langs regex
+        tracks = [{k: v for k, v in (info.get(f) or {}).items() if safe_lang(k, None)}
+                  for f in ("subtitles", "automatic_captions")]
+        choice = choose_track(*tracks, orig)
         if choice is None:
             dirty |= fallback()
         else:
             manual, lang = choice
             print(f"[TRACK] {item_id}: {lang} ({'manual' if manual else 'auto'}, orig={orig}, "
                   f"rank={track_rank(lang, orig, manual)})")
-            rc, out, err = run(ytdlp(cookies, *SUB_ARGS, "--skip-download",
+            rc, out, err = run(ytdlp(cookies, url, *SUB_ARGS, "--skip-download",
                                      "--write-sub" if manual else "--write-auto-sub",
                                      "--sub-langs", lang, "--sub-format", "vtt",
                                      "--sleep-interval", "4", "--max-sleep-interval", "7",
-                                     "-o", str(out_dir / f"{item_id}.%(language)s.%(ext)s"), url),
+                                     "-o", str(out_dir / f"{item_id}.%(language)s.%(ext)s")),
                                a.download_timeout)
             log = (out + err).lower()
             if "cookies" in log:

@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import html as html_mod
 import re
+from urllib.parse import urljoin
 
 from common import host_in
 
@@ -29,7 +30,7 @@ DENY = frozenset(u.lower() for u in (
     "https://gmhjohnny.wordpress.com/wp-content/uploads/2020/09/j102.png",
 ))
 DENY_RE = re.compile(r"^https?://kottke\.org/.*/images/\d{4}/logo-colors/", re.I)
-SKIP_HOSTS = ("finance.technews.tw",)          # never take a thumbnail from these
+SKIP_HOSTS = ("finance.technews.tw", "douban.com")   # never take a thumbnail from these (incl. subdomains)
 # Hosts that serve only article uploads with meaningless filenames (Blogger).
 TRUSTED_HOSTS = ("blogger.googleusercontent.com", "bp.blogspot.com")
 TRUSTED_PATH_RE = re.compile(r"^https?://lh\d+\.googleusercontent\.com/blogger_img_proxy/", re.I)
@@ -158,14 +159,8 @@ def extract(html: str, page_url: str) -> str | None:
         cands.append((m.group(1), "body"))
         if len(cands) > 24:
             break
-    parts = page_url.split("/")
     for raw, where in cands:
-        url = html_mod.unescape((raw or "").strip())
-        if url.startswith("//"):
-            url = "https:" + url
-        elif url.startswith("/") and len(parts) > 2:
-            url = f"{parts[0]}//{parts[2]}{url}"
-        url = GOOGLE_SIZE_RE.sub("", url)
+        url = GOOGLE_SIZE_RE.sub("", urljoin(page_url, html_mod.unescape((raw or "").strip())))
         ok, reason = usable(url)
         if ok:
             print(f"    thumbnail ({where}): {url}  [{reason}]")

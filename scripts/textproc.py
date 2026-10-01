@@ -12,10 +12,10 @@ from collections import Counter
 from pathlib import Path
 
 import lang
-from common import FALLBACK_MARK
+from common import BLANK_SUMMARY, FALLBACK_MARK
 from extract import sanitize_markup, session
 
-SUMMARY_RATIO = float(os.environ.get("SUMMARY_RATIO", "0.9"))
+SUMMARY_RATIO = float(os.environ.get("SUMMARY_RATIO", "1"))
 SUMMARY_MAX = int(os.environ.get("SUMMARY_MAX", "60000"))
 TRANSLATE = os.environ.get("TRANSLATE", "on").lower() != "off"
 FOREIGN_BUDGET = 1.2          # translation shrinks text; select a bit more
@@ -209,6 +209,19 @@ def strip_boilerplate(text: str) -> str:
     if r["cut"] and (m := r["cut"].search(text)) and m.start() >= r["min_keep"]:
         text = text[:m.start()]
     return text.strip()
+
+
+def restrip(summary: str) -> str:
+    """A stored summary under the current text rules; trailing marks kept,
+    BLANK when nothing but boilerplate is left."""
+    body, marks = summary.strip(), []
+    for m in (TABLE_NOTE, CODE_NOTE, FALLBACK_MARK):
+        if body.endswith(m):
+            body, marks = body[:-len(m)].rstrip(), [m] + marks
+    new = strip_boilerplate(body)
+    if new == body:
+        return summary
+    return " ".join([new, *marks]) if new else BLANK_SUMMARY
 
 
 _URL_FRAG = re.compile(r"^(?:https?://)?[\w\-]{2,}[./?#:][\w\-./?#=&%~+]*$", re.A)

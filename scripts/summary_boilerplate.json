@@ -340,6 +340,16 @@
   {
    "action": "cut_to_end",
    "pattern": "(?:…|\\.\\.\\.)\\s*继续阅读"
+  },
+  {
+   "action": "remove_inline",
+   "pattern": "(?i:Only those (?:that|who) risk going too far,? can possibly know how far (?:he|you|one) can go\\.?)[ \\t]*(?:\\d{4}年\\d{1,2}月\\d{1,2}日)?",
+   "_note": "mcclin.blogspot.com 的部落格標語，常與其後緊貼的日期（2026年9月21日）一起被當成正文。整段移除；移除後若什麼都不剩，條目留白"
+  },
+  {
+   "action": "remove_inline",
+   "pattern": "^[ \\t]*\\d{4}年\\d{1,2}月\\d{1,2}日[ \\t]*$",
+   "_note": "獨佔一行的日期（Blogger 日期標頭）。只匹配整行，「2026年9月21日，央行宣布…」這種句中日期不受影響"
   }
  ]
 }

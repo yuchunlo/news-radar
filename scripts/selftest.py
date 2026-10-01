@@ -9,6 +9,7 @@ import os
 import sys
 import tempfile
 import time
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 os.environ.setdefault("TRANSLATE", "off")
@@ -174,6 +175,15 @@ def check_thumbs():
     for bad in ("og-image.png", "logo.png", "line@2x.png", "man-standing-near-building.jpg",
                 "shutterstock_123.jpg", "spinner.gif"):
         eq(ok("https://example.com/img/" + bad), False, f"reject {bad}")
+    for u in ("https://www.douban.com/note/1/", "https://book.douban.com/subject/2/",
+              "https://douban.com/people/x/status/3"):
+        eq(thumbs.extract('<meta property="og:image" content="https://img1.doubanio.com/view/note/l/public/p1.jpg">', u),
+           None, f"douban never yields a thumbnail ({u})")
+        eq(thumbs.still_valid({"url": u, "thumbnail": "https://example.com/img/us-inflation-chart.png"})[0],
+           False, "backfill drops existing douban thumbnails")
+    eq(thumbs.extract('<meta property="og:image" content="https://example.com/img/us-inflation-chart.png">',
+                      "https://notdouban.com/a"), "https://example.com/img/us-inflation-chart.png",
+       "hosts merely ending in 'douban.com' are not skipped")
 
 
 def check_text():
@@ -199,6 +209,14 @@ def check_text():
     os.unlink(f.name)
     eq(textproc.stitch([["my favorite low-tech"], ["Previously, you guys liked"]]),
        ["my favorite low-tech", "Previously, you guys liked"], "wrapped cues kept whole")
+    tag = "Only those that risk going too far, can possibly know how far he can go."
+    for raw in (tag + "2026年9月21日", f"{tag} 2026年9月21日", f"{tag}\n2026年9月21日", "2026年9月21日"):
+        eq(textproc.build(raw, "feed"), "", f"blog tagline/date alone leaves nothing: {raw[:30]!r}")
+    real = "2026年9月21日，美股收盤大跌，道瓊指數下跌三百點，市場擔心利率持續偏高。"
+    eq(textproc.build(f"{real}{tag}2026年9月21日", "feed"), real, "real content survives, tagline and date go")
+    eq(textproc.restrip(f"{real}{tag} ↛"), f"{real} ↛", "backfill re-strip keeps marks")
+    eq(textproc.restrip(f"{tag} ↛"), common.BLANK_SUMMARY, "backfill re-strip: nothing left -> blank")
+    eq(textproc.restrip(real), real, "backfill re-strip leaves clean summaries alone")
     eq(lang.to_twp("软件开发"), "軟體開發", "s2twp")
     eq(textproc.merge_caption_lines("新しいカフェが\nオープンしたので\n行ってみたいと思います\n"
                                     "でも人がすごく多くて\n並ぶのに一時間かかりました", "ja"),
@@ -206,25 +224,45 @@ def check_text():
        "でも人がすごく多くて、並ぶのに一時間かかりました。", "Japanese caption regrouping")
 
 
+def check_security():
+    for u in ("http://169.254.169.254/latest/meta-data", "http://127.0.0.1:4416/", "http://localhost/",
+              "http://10.1.2.3/", "http://[::1]/", "http://[::ffff:127.0.0.1]/", "http://0.0.0.0/",
+              "file:///etc/passwd", "ftp://example.com/", "https://user:pw@1.1.1.1/", "javascript:alert(1)"):
+        eq(common.safe_url(u), False, f"refuse {u}")
+        eq(common.get(u, 1), None, f"never fetched: {u}")
+    eq(common.safe_url("https://1.1.1.1/"), True, "public address allowed")
+    eq([common.valid_id(x) for x in ("a" * 40, "../" + "a" * 37, "A" * 40, None)],
+       [True, False, False, False], "item ids are sha1 hex only")
+    eq([common.safe_lang(x) for x in ("zh-Hant", "en", "../../x", "", ".*", None)],
+       ["zh-Hant", "en", "und", "und", "und", "und"], "language codes fit for filenames")
+    cmd = ds.ytdlp(Path("c"), "--exec=rm -rf ~", "--skip-download")
+    eq(cmd[-2:], ["--", "--exec=rm -rf ~"], "url passed after --")
+    arch = {}
+    un.ingest(arch, [un.Raw("c", "s", "t", u, None) for u in ("javascript:alert(1)", "httpx://a", "https://ok.example/a")],
+              un.parse_date("2026-01-01"))
+    eq([r["url"] for r in arch.values()], ["https://ok.example/a"], "only http(s) item urls stored")
+    eq(thumbs.extract('<meta property="og:image" content="javascript:alert(1)//x.png">', "https://a.example/"),
+       None, "non-http thumbnail refused")
+    eq(un.html_to_text("<p>a<code>x</code>b</p><pre>c</pre><code>1\n2</code><script>d</script>e"), "axb\ne",
+       "feed html to text")
+
+
 def check_bestblogs():
-    class R:
-        status_code = 200
-        def __init__(self, text): self.text = text
     page = lambda body, meta="": ('<html><head><meta property="og:title" content="Issue | BestBlogs.dev">'
                                   f'{meta}</head><body><main>{body}{"x" * 500}</main></body></html>')
-    real = un.session
+    serve = lambda html: lambda *a, **k: common.Resp(200, html.encode(), {"Content-Type": "text/html; charset=utf-8"}, "")
+    real = un.common.get
     try:
-        un.session = lambda: type("S", (), {"get": lambda self, *a, **k: R(page("Newsletter2024-06-12 "))})()
+        un.common.get = serve(page("Newsletter2024-06-12 "))
         title, body, when = un.bestblogs_issue(4, None)
         eq((title, un.iso(when), bool(body)), ("Issue", "2024-06-12T00:00:00Z", True), "date from page")
-        un.session = lambda: type("S", (), {"get": lambda self, *a, **k: R(page(
-            "", '<meta property="article:published_time" content="01-05">'))})()
+        un.common.get = serve(page("", '<meta property="article:published_time" content="01-05">'))
         eq(un.iso(un.bestblogs_issue(9, un.parse_date("2025-12-28"))[2]), "2026-01-05T00:00:00Z",
            "MM-DD rolls into next year")
         eq(un.iso(un.bestblogs_issue(9, un.parse_date("2026-02-10"))[2]), "2026-01-05T00:00:00Z",
            "out-of-order date within a year does not roll over")
     finally:
-        un.session = real
+        un.common.get = real
     keep, other = {"id": "a", "last_seen_at": "2026-01-01"}, {"id": "b", "last_seen_at": "2026-02-01", "x": 1}
     un.absorb(keep, other)
     eq(keep, {"id": "a", "last_seen_at": "2026-02-01", "x": 1}, "absorb")
@@ -249,6 +287,23 @@ def check_bestblogs():
     import dataclasses
     un.ingest(arch, [dataclasses.replace(raw, published_at=un.parse_date("2026-09-02"))], now)
     eq(rec["published_at"], "2026-09-02T00:00:00Z", "feed date overwrites any category")
+    with tempfile.TemporaryDirectory() as d:
+        now = datetime.now(timezone.utc)
+        ago = lambda days: un.iso(now - timedelta(days=days))
+        common.save_doc(Path(d) / "archive.json", {"items": [
+            {"id": "a" * 40, "title": "old", "url": "https://x.example/1", "last_seen_at": ago(61)},
+            {"id": "b" * 40, "title": "new", "url": "https://x.example/2", "last_seen_at": ago(59)},
+            {"id": "c" * 40, "title": "legacy", "url": "https://x.example/3", "published_at": ago(10)}]})
+        real = un.fetch_bestblogs
+        un.fetch_bestblogs = lambda archive: []
+        try:
+            un.main(["--output-dir", d])
+            kept = lambda: sorted(r["title"] for r in common.load_doc(Path(d) / "archive.json")["items"])
+            eq(kept(), ["legacy", "new"], "default retention: 60 days of last_seen_at")
+            un.main(["--output-dir", d, "--archive-days", "5"])
+            eq(kept(), [], "retention days configurable")
+        finally:
+            un.fetch_bestblogs = real
 
 
 if __name__ == "__main__":

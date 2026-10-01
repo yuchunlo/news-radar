@@ -7,13 +7,13 @@ from __future__ import annotations
 import argparse
 import copy
 import hashlib
-import html as html_mod
 import json
+import os
 import re
 import threading
 import xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import parse_qsl, urlencode, urlparse, urlunparse
@@ -22,7 +22,8 @@ import feedparser
 from bs4 import BeautifulSoup
 from dateutil import parser as dtparser
 
-from common import UA, curl_get, host_in, host_of, load_doc, make_session, save_doc
+import common
+from common import UA, host_in, host_of, load_doc, make_session, save_doc
 
 UTC = timezone.utc
 CONNECT_TIMEOUT, READ_TIMEOUT = 5, 12     # a dead host fails the handshake fast
@@ -136,15 +137,23 @@ def make_id(category: str, source: str, title: str, url: str) -> str:
 
 
 # ---- feed parsing -------------------------------------------------------------
-_DROP = re.compile(r"<(script|style|pre)\b[^>]*>.*?</\1\s*>", re.S | re.I)
-_CODE = re.compile(r"<code\b[^>]*>(?:(?!</code>).)*?\n(?:(?!</code>).)*?</code>", re.S | re.I)
-_BREAK = re.compile(r"</(?:p|div|li|tr|h[1-6]|blockquote|section)\s*>|<br\s*/?>", re.I)
+_BLOCKS = ("p", "div", "li", "tr", "h1", "h2", "h3", "h4", "h5", "h6", "blockquote", "section")
 
 
 def html_to_text(raw: str) -> str:
-    text = _BREAK.sub("\n", _CODE.sub(" ", _DROP.sub(" ", raw or "")))
-    text = html_mod.unescape(re.sub(r"<[^>]+>", "", text))
-    return re.sub(r"\n\s*\n+", "\n", re.sub(r"[ \t\u00a0]+", " ", text)).strip()
+    """Feed html to text: scripts, styles and multi-line code dropped."""
+    soup = BeautifulSoup(raw or "", "html.parser")
+    for t in soup(["script", "style", "pre"]):
+        t.decompose()
+    for t in soup("code"):
+        if "\n" in t.get_text():
+            t.decompose()
+    for t in soup("br"):
+        t.replace_with("\n")
+    for t in soup(_BLOCKS):
+        t.append("\n")
+    text = soup.get_text().replace("\u00a0", " ")
+    return re.sub(r"\n\s*\n+", "\n", re.sub(r"[ \t]+", " ", text)).strip()
 
 
 def entry_content(entry, link: str) -> str:
@@ -261,18 +270,16 @@ def fetch_feeds(feeds: list[dict]) -> list[Raw]:
 
     def one(url, group):
         via = "requests"
+        r = common.get(url, (CONNECT_TIMEOUT, READ_TIMEOUT), session())
+        if r and r.status in BLOCK_STATUS and (alt := common.get(
+                url, CONNECT_TIMEOUT + READ_TIMEOUT, impersonate=True, lang=LANG)):
+            r, via = alt, "curl_cffi"
+        if r is None or r.status >= 400:
+            return [], f"HTTP {r.status}" if r else "fetch failed or refused", via
+        parsers = {"rss": lambda f: parse_rss(r.content, f),
+                   "telegram": lambda f: parse_telegram(r.text, f), "jike": lambda f: parse_jike(r.text, f)}
         try:
-            r = session().get(url, timeout=(CONNECT_TIMEOUT, READ_TIMEOUT))
-            if r.status_code in BLOCK_STATUS and (alt := curl_get(url, CONNECT_TIMEOUT + READ_TIMEOUT, LANG)):
-                r, via = alt, "curl_cffi"
-            r.raise_for_status()
-            items = []
-            for f in group:
-                parse = {"rss": lambda: parse_rss(r.content, f),
-                         "telegram": lambda: parse_telegram(r.text, f),
-                         "jike": lambda: parse_jike(r.text, f)}[f["parser"]]
-                items += parse()
-            return items, None, via
+            return [x for f in group for x in parsers[f["parser"]](f)], None, via
         except Exception as e:
             return [], f"{type(e).__name__}: {e}", via
 
@@ -299,11 +306,8 @@ def bestblogs_issue(n: int, prev: datetime | None):
     Date: the first YYYY-MM-DD on the page (the listing shows "Newsletter
     2024-06-12"); else article:published_time, a bare MM-DD, dated with the
     previous issue's year (rolling over when the month goes backwards)."""
-    try:
-        r = session().get(f"{BESTBLOGS}/newsletter/issue{n}", timeout=(CONNECT_TIMEOUT, 30))
-        if r.status_code != 200:
-            return None
-    except Exception:
+    r = common.get(f"{BESTBLOGS}/newsletter/issue{n}", (CONNECT_TIMEOUT, 30), session())
+    if r is None or r.status != 200:
         return None
     soup = BeautifulSoup(r.text, "html.parser")
     meta = lambda prop: (soup.select_one(f'meta[property="{prop}"]') or {}).get("content") or ""
@@ -419,7 +423,7 @@ def ingest(archive: dict, raws: list[Raw], now: datetime) -> None:
     for raw in raws:
         title = raw.title.strip()
         url = canonical_url(raw.url, raw.source, raw.feed_url)
-        if not title or not url.startswith("http"):
+        if not title or urlparse(url).scheme not in ("http", "https") or not urlparse(url).netloc:
             continue
         iid = make_id(raw.category, raw.source, title, url)
         rec = archive.get(iid)
@@ -434,11 +438,11 @@ def ingest(archive: dict, raws: list[Raw], now: datetime) -> None:
             rec["feed_content"] = raw.content
 
 
-
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--output-dir", default="data")
-    ap.add_argument("--archive-days", type=int, default=210)
+    ap.add_argument("--archive-days", type=int, default=int(os.environ.get("ARCHIVE_DAYS") or 60),
+                    help="drop items whose last_seen_at is older than this (env ARCHIVE_DAYS, default 60)")
     ap.add_argument("--rss-opml", default="")
     ap.add_argument("--rss-max-feeds", type=int, default=0, help="0 = all")
     a = ap.parse_args(argv)
@@ -449,7 +453,7 @@ def main(argv=None) -> int:
 
     raws: list[Raw] = []
     opml = Path(a.rss_opml).expanduser() if a.rss_opml else None
-    if opml and opml.exists():
+    if opml and opml.is_file() and opml.stat().st_size:
         raws = fetch_feeds(read_opml(opml, a.rss_max_feeds))
     else:
         print(f"WARNING: no OPML ({opml or 'not given'}); RSS sources skipped.")
@@ -457,9 +461,13 @@ def main(argv=None) -> int:
 
     ingest(archive, raws, now)
 
+    # Retention: last_seen_at (refreshed whenever a feed still lists the item);
+    # records written before that field existed fall back to published_at.
     cutoff = now - timedelta(days=a.archive_days)
     stamp = lambda r: parse_date(r.get("last_seen_at")) or parse_date(r.get("published_at")) or now
     kept = [r for r in archive.values() if stamp(r) >= cutoff]
+    if dropped := len(archive) - len(kept):
+        print(f"Retention: dropped {dropped} item(s) not seen for {a.archive_days}+ days")
     for r in kept:
         if r.get("summary"):
             r.pop("feed_content", None)
