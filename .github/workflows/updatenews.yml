@@ -42,14 +42,16 @@ jobs:
 
       - name: Aggregate feeds
         env:
+          # Made with tools/opml_secret.html; extra parts only when needed.
           FOLLOW_OPML_B64: ${{ secrets.FOLLOW_OPML_B64 }}
+          FOLLOW_OPML_B64_2: ${{ secrets.FOLLOW_OPML_B64_2 }}
+          FOLLOW_OPML_B64_3: ${{ secrets.FOLLOW_OPML_B64_3 }}
+          FOLLOW_OPML_B64_4: ${{ secrets.FOLLOW_OPML_B64_4 }}
+          FOLLOW_OPML_B64_5: ${{ secrets.FOLLOW_OPML_B64_5 }}
           RSS_MAX_FEEDS: ${{ vars.RSS_MAX_FEEDS || 400 }}
         run: |
-          opml="$RUNNER_TEMP/follow.opml"
-          (umask 077; printf '%s' "$FOLLOW_OPML_B64" | base64 --decode > "$opml")
           python scripts/update_news.py --output-dir data --archive-days "$ARCHIVE_DAYS" \
-            --rss-opml "$opml" --rss-max-feeds "$RSS_MAX_FEEDS"
-          rm -f "$opml"
+            --require-opml --rss-max-feeds "$RSS_MAX_FEEDS"
 
       - name: Summarize
         env:
