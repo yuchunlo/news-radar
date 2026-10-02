@@ -5,11 +5,15 @@ into data/archive.json: canonical urls, stable ids, dedupe, retention."""
 from __future__ import annotations
 
 import argparse
+import base64
 import copy
+import gzip
 import hashlib
 import json
+import lzma
 import os
 import re
+import sys
 import threading
 import xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor
@@ -229,9 +233,27 @@ def bridge(xml_url: str, html_url: str) -> tuple[str, str] | None:
     return None
 
 
-def read_opml(path: Path, limit: int) -> list[dict]:
+OPML_SECRETS = ["FOLLOW_OPML_B64"] + [f"FOLLOW_OPML_B64_{i}" for i in range(2, 6)]
+
+
+def opml_from_env(env=os.environ) -> bytes:
+    """OPML packed by tools/opml_secret.html: FOLLOW_OPML_B64, _2, ... joined,
+    base64-decoded, then gunzipped (xz and uncompressed also accepted).
+    Stays in memory: the decoded list never touches the runner's disk."""
+    blob = "".join((env.get(n) or "").strip() for n in OPML_SECRETS)
+    if not blob:
+        return b""
+    raw = base64.b64decode(blob, validate=True)
+    if raw[:2] == b"\x1f\x8b":
+        return gzip.decompress(raw)
+    if raw[:6] == b"\xfd7zXZ\x00":
+        return lzma.decompress(raw)
+    return raw
+
+
+def read_opml(raw: bytes, limit: int) -> list[dict]:
     feeds, seen = [], set()
-    for o in ET.parse(path).getroot().iter("outline"):
+    for o in ET.fromstring(raw).iter("outline"):
         xml = (o.get("xmlUrl") or "").strip()
         if not xml or xml in seen:
             continue
@@ -443,7 +465,8 @@ def main(argv=None) -> int:
     ap.add_argument("--output-dir", default="data")
     ap.add_argument("--archive-days", type=int, default=int(os.environ.get("ARCHIVE_DAYS") or 60),
                     help="drop items whose last_seen_at is older than this (env ARCHIVE_DAYS, default 60)")
-    ap.add_argument("--rss-opml", default="")
+    ap.add_argument("--rss-opml", default="", help="OPML file; without it, the FOLLOW_OPML_B64* env vars")
+    ap.add_argument("--require-opml", action="store_true", help="exit with an error when no OPML is found")
     ap.add_argument("--rss-max-feeds", type=int, default=0, help="0 = all")
     a = ap.parse_args(argv)
 
@@ -452,11 +475,19 @@ def main(argv=None) -> int:
     doc, archive = load_archive(path)
 
     raws: list[Raw] = []
-    opml = Path(a.rss_opml).expanduser() if a.rss_opml else None
-    if opml and opml.is_file() and opml.stat().st_size:
-        raws = fetch_feeds(read_opml(opml, a.rss_max_feeds))
+    if a.rss_opml:
+        src = Path(a.rss_opml).expanduser()
+        raw, where = (src.read_bytes() if src.is_file() else b""), str(src)
     else:
-        print(f"WARNING: no OPML ({opml or 'not given'}); RSS sources skipped.")
+        raw, where = opml_from_env(), "FOLLOW_OPML_B64 secret"
+    if raw.strip():
+        feeds = read_opml(raw, a.rss_max_feeds)
+        print(f"OPML: {len(feeds)} feeds from {where}")
+        raws = fetch_feeds(feeds)
+    elif a.require_opml:
+        sys.exit(f"ERROR: no OPML ({where}); make the secret with tools/opml_secret.html")
+    else:
+        print(f"WARNING: no OPML ({where}); RSS sources skipped.")
     raws += fetch_bestblogs(archive)
 
     ingest(archive, raws, now)

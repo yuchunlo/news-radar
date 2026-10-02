@@ -4,6 +4,7 @@ guards a failure that actually happened (see ARCHITECTURE.md)."""
 
 from __future__ import annotations
 
+import base64
 import json
 import os
 import sys
@@ -245,6 +246,30 @@ def check_security():
        None, "non-http thumbnail refused")
     eq(un.html_to_text("<p>a<code>x</code>b</p><pre>c</pre><code>1\n2</code><script>d</script>e"), "axb\ne",
        "feed html to text")
+
+
+def check_opml_secret():
+    import gzip, lzma
+    opml = b'<opml version="2.0"><body><outline title="A" xmlUrl="https://a.example/rss"/></body></opml>'
+    for enc in (gzip.compress, lzma.compress, lambda b: b):
+        blob = base64.b64encode(enc(opml)).decode()
+        eq(un.opml_from_env({"FOLLOW_OPML_B64": blob[:10], "FOLLOW_OPML_B64_2": blob[10:]}), opml,
+           "split secret joins and decodes")
+    eq(un.opml_from_env({}), b"", "no secret, nothing unpacked")
+    eq([f["url"] for f in un.read_opml(opml, 0)], ["https://a.example/rss"], "OPML read from bytes")
+    with tempfile.TemporaryDirectory() as d:
+        real, un.fetch_bestblogs = un.fetch_bestblogs, lambda archive: []
+        old = {n: os.environ.pop(n, None) for n in un.OPML_SECRETS}
+        try:
+            try:
+                un.main(["--output-dir", d, "--require-opml"])
+                eq("no exit", "exit", "--require-opml without OPML fails")
+            except SystemExit as e:
+                eq(bool(e.code), True, "--require-opml without OPML fails")
+            eq((Path(d) / "archive.json").exists(), False, "nothing written when OPML is required and missing")
+        finally:
+            un.fetch_bestblogs = real
+            os.environ.update({k: v for k, v in old.items() if v is not None})
 
 
 def check_bestblogs():
